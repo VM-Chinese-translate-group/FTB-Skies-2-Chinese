@@ -1,0 +1,28 @@
+name: Upload Action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  upload:
+    name: Upload
+    environment: PARATRANZ_ENV
+    runs-on: ubuntu-latest
+    env:
+      API_TOKEN: ${{ secrets.API_KEY }}
+      FILE_PATH: ./
+      PROJECT_ID: ${{ vars.ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          pip install git+https://github.com/MuXiu1997/ParaTranz-SDK-python.git
+      - name: Upload To Paratranz
+        run: |
+          python .github/workflows/github2para.py
