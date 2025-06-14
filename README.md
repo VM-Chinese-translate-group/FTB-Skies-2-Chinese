@@ -1,5 +1,5 @@
 <div align="center"> 
-   <h1>某某项目简体中文翻译</h1>
+   <h1>FTB Skies 2 项目简体中文翻译</h1>
 </div>
 
 CurseForge|加载器|整合包版本|汉化维护状态
@@ -8,13 +8,13 @@ CurseForge|加载器|整合包版本|汉化维护状态
 
 ---
 
-汉化项目：[Paratranz](https://paratranz.cn/projects/项目)
+汉化项目：[Paratranz](https://paratranz.cn/projects/15051)
 
 汉化发布：[VM汉化组官网](https://vmct-cn.top/modpacks/项目)
 
 项目主管 @[某某](https://github.com/某某)
 
-译者：[查看贡献者排行榜](https://paratranz.cn/projects/项目/leaderboard)
+译者：[查看贡献者排行榜](https://paratranz.cn/projects/15051/leaderboard)
 
 
 ---

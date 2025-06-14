@@ -6,12 +6,12 @@ on:
 jobs:
   upload:
     name: Upload
-    environment: PARATRANZ_ENV
     runs-on: ubuntu-latest
+    # 移除了 environment 键
     env:
       API_TOKEN: ${{ secrets.API_KEY }}
       FILE_PATH: ./
-      PROJECT_ID: ${{ vars.ID }}
+      PROJECT_ID: ${{ secrets.PROJECT_ID }} # 已从 vars.ID 修改
     steps:
       - uses: actions/checkout@v4
 

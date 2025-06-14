@@ -9,7 +9,6 @@ on:
 jobs:
   paratranz-to-gitHub:
     name: Paratranz To GitHub
-    environment: PARATRANZ_ENV
     runs-on: ubuntu-latest
     permissions:
       contents: write  # 允许推送代码到仓库
@@ -18,7 +17,7 @@ jobs:
     env:
       API_TOKEN: ${{ secrets.API_KEY }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      PROJECT_ID: ${{ vars.ID }}
+      PROJECT_ID: ${{ secrets.PROJECT_ID }} # 已从 vars.ID 修改
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
 
@@ -80,7 +79,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: paratranz-to-gitHub
     if: needs.paratranz-to-gitHub.outputs.changed == 'true'
-    environment: PARATRANZ_ENV
+    # 从此 job 中移除了 environment 键
 
     steps:
       - name: Checkout code for Release
