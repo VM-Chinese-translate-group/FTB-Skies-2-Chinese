@@ -2,61 +2,67 @@
    <h1>FTB Skies 2 项目简体中文翻译</h1>
 </div>
 
-CurseForge|加载器|整合包版本|汉化维护状态
-:-|:-|:-|:-
-[链接](原链接)|模组加载器|mc版本 整合包版本|*翻译中*|
+| FTB官网                                                         | 加载器   | 支持整合包版本 | 汉化维护状态 |
+| :-------------------------------------------------------------- | :------- | :------------- | :----------- |
+| [链接](https://www.feed-the-beast.com/modpacks/129-ftb-skies-2) | Neoforge | mc1.21.1 1.0.0 | 翻译中       |
 
 ---
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/15051)
 
-汉化发布：[VM汉化组官网](https://vmct-cn.top/modpacks/项目)
-
-项目主管 @[某某](https://github.com/某某)
+汉化发布：[VM汉化组官网](https://vmct-cn.top/modpacks/skies-2)
 
 译者：[查看贡献者排行榜](https://paratranz.cn/projects/15051/leaderboard)
 
+## 选择你的道路
 
----
+在 Skies 2 中，玩家通过三条独具匠心且平衡的资源生产路径来推进游戏：
 
-# 整合包介绍
+- **水晶炼金之路**
+  运用 FTB Ez Crystals、GeOre Nouveau、Productive Metalworks 等自定义机制，掌控萌芽晶洞的力量，开启晶体变换与奥术物质合成的新篇章。用一颗颗宝石，稳步扩展你的帝国疆域。
 
-整合包介绍
+- **耕耘之路**
+  沉浸于可持续农业的世界，结合神秘农业、资源蜜蜂和 Fishing Overhaul，耕作、养殖、钓鱼三管齐下。自动化与生物技术交织，带你走向丰收之路。
 
-# 自动化Paratranz同步教程
+- **探矿之路**
+  利用机械动力和机械动力：筛子打造复杂机械装置，体验从原料中发掘珍宝的刺激。这条路径专为钟爱机械自动化与探险乐趣的玩家量身打造。
 
-## 1. 设置环境变量
+每条路径独特且相辅相成，你可以选择专精一条，或是三路齐飞，成为真正的多面手。
 
-1. 到仓库顶部导航栏: `Settings -> Environments -> New environment` 新建 `PARATRANZ_ENV`
-2. 添加加密变量（Environment secrets）: 
-   | 名称        | 值                                              |
-   |-------------|-------------------------------------------------|
-   | API_KEY     | 你的Paratranz token，须有上传文件权限         |
-   token可在 <https://paratranz.cn/users/my> 中的设置部分获取。
-3. 添加环境变量（Environment variables）: 
+## 自定义任务与玩家自由度
 
-   | 名称   | 值                                   |
-   |--------|--------------------------------------|
-   | ID     | Paratranz项目ID，例如 `10719`         |
+- 超过1000个原创任务，打破传统“制作每样物品”的框架。
+- 包含交付、探索、观察、挑战和击杀Boss等多样目标。
+- 独特的任务奖励商店，玩家可根据自身玩法风格自由选择心仪奖励。
+- 任务书引导你从懵懂入门一路成长，精通科技、魔法与自动化。
 
+## 扩展原版体验
 
-## 2. 开始使用
+原版机制不被忽视，而是被强化与重新想象：猪灵讨价还价、村民交易体系、完全自定义的流浪商人交易、
+怪物农场、快乐恶魂坐骑以及附魔小帮手，所有这些都无缝融合进模组生态。
 
-我们的工作流有两种功能：从Paratranz同步到github仓库和从github仓库同步到Paratranz。
+## 玩家成长与战斗进阶
 
-它们全都可以手动运行，操作方法如下图所示：
+- 通过 Pufferfish 的技能系统、Apothic 属性与遗物不断升级。
+- 装备强力的 Curios 配饰、Iron’s Gems ’n Jewelry 的珠宝，以及 Apothic 的强化装备。
+- 施展 Iron’s Spells ’n Spellbooks 的法术，借助灵灾的仪式，配合工业先锋与 Mekanism Unleashed 的科技，挑战强敌与精英Boss。
 
-![](.github/action.png)
+## 自定义世界生成与终极挑战
 
-其中，Paratranz同步到GitHub仓库工作流会在北京时间每天早晚上10点左右自动运行。
+探索由定制浮岛构成的世界，充满细致的生物群系、地下城和秘密。从曲折的丛林树冠到冰霜覆盖的悬崖尖塔，每个岛屿都匠心独运，手工打造。
 
-下载译文至Github功能可自行修改`.github/workflows`文件夹中的`download_release.yml`自动执行时间，格式为[cron表达式](https://blog.csdn.net/Stromboli/article/details/141962560)。
+起步时，你可从极简的漂浮泥块带树开始，亦或选择宏伟的紫水晶群岛、蒸汽朋克风的蒸汽工坊等多个独一无二的起始岛屿。
 
-在有译文更改后，工作流会自动发布一次标记为预发布的Release供大家测试。此外，每次从上游同步还将运行一次FTB任务颜色字符检查程序，
-当有颜色字符错误时，将会在release的说明页面中进行提示，并在工作流的构件（artifact）页和release页面上传错误报告的html，相关人员可下载并通过浏览器打开该文件。
+你的最终目标？征服完全重塑的 Feed The Beast 金字塔！这座终极建筑是迄今最严苛的挑战，考验你对包内所有主流模组的理解、操作技巧与自动化能力。
 
-当没有检查到颜色错误时，工作流详情页内会出现警告，提示找不到错误报告文件，这一点无需担心，不会造成任何负面影响。
+## 模组亮点
 
-注：从github仓库同步到Paratranz的工作流很少使用，故仅支持手动触发。
+**魔法类：** 新生魔艺、灵灾、神秘学、Enchanted: Witchcraft、Irons' Spells、Roots 4
+**科技类：** 机械动力、通用机械、工业先锋、Oritech、Just Dire Things、现代工业化
+**存储类：** 精致存储、应用能源2、Mekanism QIO、精妙存储
+**世界与进程：** FTB Team Bases、永恒之门、Compact Machines、Replication
+**辅助类：** 数千自定义配方、FTB 模组套装、刷怪塔实用设备、Fargo的护身符、遗物、Tempad、Genetics、MFFS、寂静装备、Cognition、Apotheosis 等等！
 
-如果项目已经完成，请在仓库设置（`Settings`）中禁用工作流运行。
+FTB Skies 2 并非硬核专家包，却毫无疑问是一场以渐进成长、创造力、探索与战略为核心的冒险盛宴。
+
+带上朋友或独自踏上征程，今天就飞向天空吧！
