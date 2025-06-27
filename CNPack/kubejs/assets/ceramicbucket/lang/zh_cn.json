@@ -1,9 +1,10 @@
 {
+    "tag.fluid.woodenbucket.ceramic_cracking":"会破坏陶瓷桶的流体",
     "item.ceramicbucket.ceramic_bucket":"陶瓷桶",
     "item.ceramicbucket.ceramic_bucket.entity":"%s陶瓷桶",
     "item.ceramicbucket.ceramic_bucket.filled":"%s陶瓷桶",
     "item.ceramicbucket.unfired_clay_bucket":"未烧制的黏土桶",
-    "tag.fluid.woodenbucket.ceramic_cracking":"会破坏陶瓷桶的流体",
+    "text.autoconfig.ceramicbucket.title":"陶瓷桶设置",
     "text.autoconfig.ceramicbucket.option.BREAK_TEMPERATURE":"陶瓷桶破坏温度",
     "text.autoconfig.ceramicbucket.option.BREAK_TEMPERATURE.@Tooltip[0]":"§6§l陶瓷桶破裂温度",
     "text.autoconfig.ceramicbucket.option.BREAK_TEMPERATURE.@Tooltip[1]":"倒空流体时导致陶瓷桶",
@@ -26,6 +27,5 @@
     "text.autoconfig.ceramicbucket.option.MILKING_ENABLED.@Tooltip[0]":"§6§l使用陶瓷桶挤奶",
     "text.autoconfig.ceramicbucket.option.MILKING_ENABLED.@Tooltip[1]":"是否可用陶瓷桶",
     "text.autoconfig.ceramicbucket.option.MILKING_ENABLED.@Tooltip[2]":"为生物挤奶。",
-    "text.autoconfig.ceramicbucket.option.MILKING_ENABLED.@Tooltip[3]":"§7§o默认：true",
-    "text.autoconfig.ceramicbucket.title":"陶瓷桶设置"
+    "text.autoconfig.ceramicbucket.option.MILKING_ENABLED.@Tooltip[3]":"§7§o默认：true"
 }
