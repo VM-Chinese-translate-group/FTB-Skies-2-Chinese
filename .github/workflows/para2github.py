@@ -1,10 +1,11 @@
 import json
 import os
 import re
+import shutil
 from pathlib import Path
 from typing import Tuple
-import nbtlib
-from nbtlib.tag import Compound, String, Int
+import snbtlib
+from collections import OrderedDict
 import requests
 
 TOKEN: str = os.getenv("API_TOKEN", "")
@@ -15,10 +16,8 @@ FILE_URL: str = f"https://paratranz.cn/api/projects/{PROJECT_ID}/files/"
 if not TOKEN or not PROJECT_ID:
     raise EnvironmentError("环境变量 API_TOKEN 或 PROJECT_ID 未设置。")
 
-# 初始化列表和字典
 file_id_list: list[int] = []
 file_path_list: list[str] = []
-zh_cn_list: list[dict[str, str]] = []
 
 
 def fetch_json(url: str, headers: dict[str, str]) -> list[dict[str, str]]:
@@ -66,24 +65,30 @@ def get_files() -> None:
 
 def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
     """
-    保存翻译内容到指定的 JSON 文件
+    保存翻译内容到指定的 JSON 文件。
 
     :param zh_cn_dict: 翻译内容的字典
     :param path: 原始文件路径
     """
     dir_path = Path("CNPack") / path.parent
     dir_path.mkdir(parents=True, exist_ok=True)
-    file_path = dir_path / "zh_cn.json"
-    source_path = str(file_path).replace("zh_cn.json", "en_us.json").replace("CNPack", "Source")
+    zh_cn_filename = path.name.replace("en_us", "zh_cn")
+    file_path = dir_path / zh_cn_filename
+    source_path = Path("Source") / path
+
     with open(file_path, "w", encoding="UTF-8") as f:
         try:
             with open(source_path, "r", encoding="UTF-8") as f1:
-                source_json: dict = json.load(f1)
-            keys = source_json.keys()
-            for key in keys:
-                source_json[key] = zh_cn_dict[key]
+                # 使用 OrderedDict 保留源文件的键顺序
+                source_json: dict = json.load(f1, object_pairs_hook=OrderedDict)
+            
+            # 按源文件顺序更新值为翻译文本
+            for key in source_json.keys():
+                if key in zh_cn_dict: # 仅更新存在的键
+                    source_json[key] = zh_cn_dict[key]
+            
             json.dump(source_json, f, ensure_ascii=False, indent=4, separators=(",", ":"))
-        except IOError:
+        except (IOError, FileNotFoundError):
             print(f"{source_path}路径不存在，文件按首字母排序！")
             json.dump(zh_cn_dict, f, ensure_ascii=False, indent=4, separators=(",", ":"), sort_keys=True)
 
@@ -121,106 +126,134 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
     
     return zh_cn_dict
 
-
-# Convert JSON data into an NBT compound structure
-def json_to_nbt(data):
-    if isinstance(data, dict):
-        return Compound({key: json_to_nbt(value) for key, value in data.items()})
-    elif isinstance(data, list):
-        return nbtlib.tag.List[nbtlib.tag.String]([json_to_nbt(item) for item in data])
-    elif isinstance(data, str):
-        return String(data)
-    elif isinstance(data, int):
-        return Int(data)
-    else:
-        raise ValueError(f"Unsupported data type: {type(data)}")
+def escape_string_for_snbt(s: str) -> str:
+    """在将字符串写入 SNBT 文件前，对其进行转义。"""
+    s = s.replace('\\', '\\\\')
+    s = s.replace('"', '\\"')
+    return s
 
 
-# Pretty-print SNBT with indentation and wrap all values in double quotes
-def format_snbt(nbt_data, indent=0):
-    INDENT_SIZE = 4  # Number of spaces for each indent level
-    indent_str = ' ' * indent
+def merge_all_to_snbt(json_dir: str, output_snbt_file: str):
+    """
+    合并所有JSON文件，将 "key1", "key2" 格式的条目还原为列表，
+    进行必要的转义后，输出为单个SNBT文件。
+    """
+    print(f"--- 2. 开始从 {json_dir} 合并所有 JSON 文件到 SNBT ---")
+    if not os.path.isdir(json_dir):
+        print(f"错误：JSON目录 '{json_dir}' 不存在。无法合并。")
+        return
 
-    if isinstance(nbt_data, Compound):
-        formatted = ['{']
-        for key, value in nbt_data.items():
-            formatted.append(f'\n{indent_str}{" " * INDENT_SIZE}{key}:{format_snbt(value, indent + INDENT_SIZE)}')
-        formatted.append(f'\n{indent_str}}}')
-        return ''.join(formatted)
+    combined_data = OrderedDict()
+    json_files = sorted([f for f in os.listdir(json_dir) if f.endswith('.json') and f.startswith('zh_cn')])
+    for filename in json_files:
+        filepath = os.path.join(json_dir, filename)
+        try:
+            with open(filepath, 'r', encoding='utf-8-sig') as f:
+                data = json.load(f, object_pairs_hook=OrderedDict)
+                combined_data.update(data)
+                print(f"  -> 已加载 {len(data)} 条条目从: {filename}")
+        except Exception as e:
+            print(f"  -> 警告：读取或解析 {filepath} 失败: {e}")
 
-    elif isinstance(nbt_data, nbtlib.tag.List):
-        formatted = ['[']
-        for item in nbt_data:
-            formatted.append(f'\n{indent_str}{" " * INDENT_SIZE}{format_snbt(item, indent + INDENT_SIZE)}')
-        formatted.append(f'\n{indent_str}]')
-        return ''.join(formatted)
+    if not combined_data:
+        print("错误：没有加载到任何数据，无法生成 SNBT 文件。")
+        return
 
-    else:
-        # Wrap all primitive types (String/Int) in double quotes
-        return f'"{str(nbt_data)}"'
+    print("\n开始重构多行文本条目...")
 
+    multi_line_pattern = re.compile(r'^(.*?)(\d+)$')
 
-def escape_quotes(data):
-    if isinstance(data, dict):
-        return {key: escape_quotes(value) for key, value in data.items()}
-    elif isinstance(data, list):
-        return [escape_quotes(item) for item in data]
-    elif isinstance(data, str):
-        return data.replace('"', '\\"')
-    else:
-        return data
+    temp_multiline = OrderedDict()
+    reconstructed_data = OrderedDict()
 
+    for key, value in combined_data.items():
+        match = multi_line_pattern.match(key)
+        if match:
+            base_key = match.group(1)
+            line_number = int(match.group(2))
 
-def normal_json2_ftb_desc(origin_en_us):
-    en_json = json.dumps(origin_en_us, ensure_ascii=False, indent=4, separators=(",", ":"))
-    en_json = eval(en_json)
-    temp_set = set()
-    temp_en_json = {}
-    for key, value in list(en_json.items()):
-        if "desc" in key:
-            key_id = key.split(".")[1]
-            temp_json_array = []
-            for k in en_json.keys():
-                if f"{key_id}.quest_desc" in k:
-                    temp_json_array.append(en_json[k])
-            new_key = f"quest.{key_id}.quest_desc"
-            temp_en_json[new_key] = temp_json_array
-            temp_set.add(key)
-    for key in temp_set:
-        en_json.pop(key, None)
-    en_json.update(temp_en_json)
+            if base_key not in temp_multiline:
+                temp_multiline[base_key] = []
+            temp_multiline[base_key].append((line_number, value))
+        else:
+            reconstructed_data[key] = value
 
-    print("NormalJson2FtbDesc end...")
-    return en_json
+    for base_key, lines_with_nums in temp_multiline.items():
+        lines_with_nums.sort(key=lambda x: x[0])
+        sorted_lines = [line_text for _, line_text in lines_with_nums]
+        reconstructed_data[base_key] = sorted_lines
+
+    print(f"重构完成。原始 {len(combined_data)} 条条目被合并为 {len(reconstructed_data)} 条 SNBT 条目。")
+
+    sorted_items = sorted(reconstructed_data.items())
+    print(f"\n总共合并了 {len(sorted_items)} 条最终条目，并已按键名排序。")
+
+    snbt_ready_data = {}
+    for key, value in sorted_items:
+        if isinstance(value, list):
+            snbt_ready_data[key] = [escape_string_for_snbt(str(line)) for line in value]
+        elif isinstance(value, str):
+            snbt_ready_data[key] = escape_string_for_snbt(value)
+        else:
+            snbt_ready_data[key] = value
+
+    try:
+        snbt_output_string = snbtlib.dumps(snbt_ready_data)
+        if not snbt_output_string.strip():
+            print("错误：snbtlib.dumps 返回了空字符串！")
+            return
+        
+        # 确保输出目录存在
+        os.makedirs(os.path.dirname(output_snbt_file), exist_ok=True)
+        with open(output_snbt_file, 'w', encoding='utf-8') as f:
+            f.write(snbt_output_string)
+        print(f"成功将所有条目合并并写入到: {output_snbt_file}")
+    except Exception as e:
+        print(f"错误：生成或写入 SNBT 文件失败: {e}")
+
+    print("--- 合并完成 ---")
 
 
 def main() -> None:
     get_files()
-    ftbquests_dict = {}
-    for file_id, path in zip(file_id_list, file_path_list):
-        if "TM" in path:  # 跳过 TM 文件
+    ftb_quests_lang_dir = None # 用于记录FTB Quests语言文件所在的目录
+
+    for file_id, path_str in zip(file_id_list, file_path_list):
+        if "TM" in path_str:  # 跳过 TM 文件
             continue
-        zh_cn_dict = process_translation(file_id, Path(path))
-        zh_cn_list.append(zh_cn_dict)
-        if "kubejs/assets/quests/lang/" in path:
-            ftbquests_dict = ftbquests_dict | zh_cn_dict
-        save_translation(zh_cn_dict, Path(path))
-        print(f"已从Patatranz下载到仓库：{re.sub('en_us.json', 'zh_cn.json', path)}")
-    if(len(ftbquests_dict) > 0):
-        snbt_dict = normal_json2_ftb_desc(ftbquests_dict)
-        # json_data = json.dumps(snbt_dict,ensure_ascii=False, indent=4, separators=(",", ":"))
-        # Escape quotation marks in the translated data
-        json_data = escape_quotes(snbt_dict)
-        # Convert the loaded JSON data to NBT format
-        nbt_data = json_to_nbt(json_data)
-        # Format the NBT structure as a pretty-printed SNBT string
-        formatted_snbt_string = format_snbt(nbt_data)
-        # Optionally save the formatted SNBT to a file
-        try:
-            with open('CNPack/config/ftbquests/quests/lang/zh_cn.snbt', 'w', encoding='utf-8') as snbt_file:
-                snbt_file.write(formatted_snbt_string)
-        except Exception as e:
-            print("该ftbquest版本低于1.21.1")
+        
+        path = Path(path_str)
+        zh_cn_dict = process_translation(file_id, path)
+        
+        save_translation(zh_cn_dict, path)
+        
+        # 打印日志时，文件名也相应地从 en_us 变为 zh_cn
+        log_path = re.sub('en_us', 'zh_cn', path_str)
+        print(f"已从Paratranz下载到仓库：{log_path}")
+        
+        # 检查是否为 FTB Quests 的语言文件，并记录其输出目录
+        if "kubejs/assets/quests/lang/" in path_str and Path("source/ftbquests/quests/lang/en_us.snbt").exists():
+            ftb_quests_lang_dir = Path("CNPack") / path.parent
+
+    # 在所有文件处理完毕后，如果检测到了 FTB Quests 文件，则执行合并
+    if ftb_quests_lang_dir:
+        print(f"\n检测到 FTB Quests 翻译文件，开始合并 SNBT 文件...")
+        output_snbt_file = 'CNPack/config/ftbquests/quests/lang/zh_cn.snbt'
+
+        # 调用新的合并函数
+        merge_all_to_snbt(str(ftb_quests_lang_dir), output_snbt_file)
+
+        # 合并完成后，清除已合并的临时JSON文件所在的父目录
+        cleanup_dir = ftb_quests_lang_dir.parent
+
+        if cleanup_dir.exists() and cleanup_dir.is_dir():
+            try:
+                shutil.rmtree(cleanup_dir)
+                print(f"已成功清除临时文件夹及其内容：{cleanup_dir}")
+            except OSError as e:
+                print(f"错误：清除文件夹 {cleanup_dir} 时失败: {e}")
+        else:
+            print(f"警告：找不到要清理的目录 {cleanup_dir}。")
 
 if __name__ == "__main__":
     main()
