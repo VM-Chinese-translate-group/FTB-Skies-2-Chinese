@@ -1,0 +1,19 @@
+{
+    "item.mi_tweaks.machine_blueprint":"机器蓝图",
+    "item.mi_tweaks.machine_blueprint.blank":"空白机器蓝图",
+    "itemGroup.mi_tweaks.mi_tweaks":"MI Tweaks",
+    "text.mi_tweaks.blueprint_learn":"按住%s学习这张蓝图",
+    "text.mi_tweaks.blueprint_learned":"你已经学习了%s的蓝图",
+    "text.mi_tweaks.blueprint_machine":"%s",
+    "text.mi_tweaks.blueprint_missing_inventory":"你没有这台机器的蓝图",
+    "text.mi_tweaks.blueprint_missing_learn":"你没有学习这台机器的蓝图",
+    "text.mi_tweaks.energy_bar_current_consumption":"目前消耗：%d EU/t",
+    "text.mi_tweaks.learning_disabled_but_requiring_learning":"警告：你的配置文件被设置为需要学习一些机器蓝图的选项但是你没有启用学习。确保启用学习否则你可能无法使用机器。",
+    "text.mi_tweaks.machine_menu_voltage_prefix":"（%s）",
+    "text.mi_tweaks.machine_voltage_recipes":"允许机器来启动%s配方",
+    "text.mi_tweaks.machine_voltage_runs_at":"启动配方在%s",
+    "text.mi_tweaks.recipe_requires_coil":"需要卷：%s",
+    "text.mi_tweaks.recipe_requires_voltage":"需要电压：%s",
+    "text.mi_tweaks.water_pump_environment_1":"无效的抽水环境",
+    "text.mi_tweaks.water_pump_environment_2":"必须在海洋或者河流群系。"
+}
