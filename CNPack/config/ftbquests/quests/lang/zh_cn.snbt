@@ -1324,7 +1324,7 @@
 	]
 	quest.0C4490929532BC5F.title: "&f大型水泵"
 	quest.0C59F30673774398.quest_desc: [
-		"The &aRegulator Upgrade&r controls the amount of items imported/exported from your system."
+		"&a调节升级&r可控制进出你系统的物品数量。"
 		""
 		"To set it up, right-click it and place down the item you want to configure in the right interface slot, and the number of said item you wish it keep in the target inventory."
 		""
@@ -1640,7 +1640,7 @@
 		""
 		"Start by crafting some &aMachine Cores&r, which will be used for many network components as you progress through the mod."
 	]
-	quest.1069575C4B5BCE39.title: "&fWelcome to &eRefined Storage 2"
+	quest.1069575C4B5BCE39.title: "&f欢迎来到&e精致存储2"
 	quest.107C26E8BF309BC1.quest_desc: [
 		"你冒险的时候，也许会搜刮到很多&d奥术战利品&r。"
 		""
@@ -2134,7 +2134,7 @@
 	quest.16180601C60DA378.title: "&f升级：夜视"
 	quest.1619084AFCD0B0DD.quest_desc: ["&bSleeping Bags&r can be used to sleep at night without resetting your spawn point!"]
 	quest.1619084AFCD0B0DD.title: "&bSleeping On The Go"
-	quest.16206DA366CABDBE.quest_desc: ["用&a臼&r和&a研钵&r粉碎可以制作一些物品或扩展其它用途，它也是创建&b法术&r的关键工具。"]
+	quest.16206DA366CABDBE.quest_desc: ["用&a研钵&r和&a研钵&r粉碎可以制作一些物品或扩展其它用途，它也是创建&b法术&r的关键工具。"]
 	quest.16206DA366CABDBE.quest_subtitle: "研钵及研杵？"
 	quest.16206DA366CABDBE.title: "杵和臼"
 	quest.16224A108EBCDC46.quest_desc: ["你现在可以用全新的科技和化学物质制造新电路板的新电路基板，也就是&d处理单元板&r。"]
@@ -2700,7 +2700,7 @@
 	quest.1C8A5F2BD1C17A3E.quest_desc: [
 		"一整套&a认知装备&r与铁套相比，它有更多优点。"
 		""
-		"除了增加触及距离外，&a认知工具&r还提供与 &3钻石&r相同的攻击值和挖掘速度，但是没有那么多的耐久度或挖掘等级。"
+		"除了增加触及距离外，&a认知工具&r还提供与&3钻石&r相同的攻击值和挖掘速度，但是没有那么多的耐久度或挖掘等级。"
 		""
 		"一套&e认知护甲&r只比铁套多提供3点护甲值，但每一件都附带一点盔甲韧性，每件增加半格的触及距离。"
 	]
@@ -4317,8 +4317,8 @@
 		"注：所有的机器都需要至少一个&a红石工程块&r！"
 	]
 	quest.2E9C2F524BE5FC10.title: "&f工程块"
-	quest.2EA531C50FE17444.quest_desc: ["The Arcane Library is a unique large structure that holds vast amounts of knowledge and tools for an aspiring Ars mage, with just as many traps."]
-	quest.2EA531C50FE17444.title: "Find the &6Arcane Library"
+	quest.2EA531C50FE17444.quest_desc: ["奥术图书馆是一座独特的大型建筑，其中蕴藏着海量知识与工具，专为有志成为魔法法师的人准备，同时也布满了很多的陷阱。"]
+	quest.2EA531C50FE17444.title: "找到&6奥术图书馆"
 	quest.2EA7CCDB687AC468.quest_desc: ["&a保鲜升级&r后，容器中每组物品都会在使用过程中至少留存一个，而非直接用完。"]
 	quest.2EA7CCDB687AC468.title: "&f保鲜室"
 	quest.2EAA02B80B0E4D5A.title: "&34096B Fluid Storage Part"
@@ -5534,11 +5534,11 @@
 	]
 	quest.39FD7B49554CE935.title: "&aWater Talisman"
 	quest.3A084B83B8CFAACD.quest_desc: [
-		"A coliseum floating in the Nether's void, defeat the Ignited Revenants for their smoldering ashes, and ignite the altar at the top level to face their master."
+		"一座悬浮于下界虚空中的竞技场，击败炽燃遗魂，收集它们的炽燃余烬，点燃顶层的祭坛即可迎战其真正的主人。"
 		""
 		"The lava-strewn floor at the base holds the memory of an ancient champion, to be woken with a Cinderous Soulcaller."
 	]
-	quest.3A084B83B8CFAACD.title: "Discover the &cBurning Arena"
+	quest.3A084B83B8CFAACD.title: "发现&c烈焰竞技场"
 	quest.3A17E4DF31D26856.quest_desc: [
 		"&a符文石&r是德鲁伊探索的下一个重点。虽然它只是石头加上药草，但粗糙并不意味着无用。"
 		""
@@ -8460,7 +8460,7 @@
 		""
 		"哦，你就没想过你得把每个等级的所有新机器全部都做出来？"
 	]
-	quest.5A5D6A90C0999828.title: "&3高级机器框架"
+	quest.5A5D6A90C0999828.title: "&3进阶机器框架"
 	quest.5A818D2F39A6679B.quest_subtitle: "+15% 法术冷却缩减"
 	quest.5A818D2F39A6679B.title: "&a复效之戒"
 	quest.5A8828C63DC87282.title: "&ePipez管道"
@@ -9647,7 +9647,7 @@
 	quest.67BDF0122CA3FAC1.quest_desc: [
 		"&d中级机器框架&r是&dHV级别&r机器的基础构建方块。"
 		""
-		"As with &3Advanced Machine Frames&r, your existing processing machines can all be upgraded to this new voltage should you wish by either using the &dTurbo Machine Hull&r directly on the machine, or by placing it in the upgraded slot of the machine."
+		"和使用&3进阶机器框架&r的方式差不多：你现有的各类处理机器都可以用该外壳升级到新电压，升级方式有直接使用或者放到升级插槽上两种。"
 	]
 	quest.67BDF0122CA3FAC1.title: "&d中级机器框架"
 	quest.67C7AC507F3439FB.title: "&aRS2 1k存储用品奖励包"
