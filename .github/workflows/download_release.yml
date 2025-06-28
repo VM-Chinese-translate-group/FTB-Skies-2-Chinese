@@ -55,6 +55,9 @@ jobs:
             echo "error_report_exists=false" >> $GITHUB_ENV
           fi
 
+      - name: Pull remote changes
+        run: git pull origin main --rebase
+        
       - name: Commit and Push changes (excluding error report)
         id: commit
         run: |
