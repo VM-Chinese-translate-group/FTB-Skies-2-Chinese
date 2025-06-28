@@ -39,10 +39,6 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "VM[BOT]"
 
-      - name: Download LangSpliter.py
-        run: |
-          curl -L -o .github/workflows/LangSpliter.py https://raw.githubusercontent.com/VM-Chinese-translate-group/FTBQuestLangSpliter/main/LangSpliter.py
-
       - name: Sync translations from Paratranz
         run: python .github/workflows/para2github.py
 
