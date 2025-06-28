@@ -1,7 +1,7 @@
 {
-    "item.mi_sound_addon.mallet":"Steel Mallet",
-    "message.mi_sound_addon.creative_tab":"MI Sound Addon",
-    "message.mi_sound_addon.tooltip":"Right click your machines to silence or unsilence them",
-    "message.mi_sound_addon.machine_silenced":"Machine Silenced",
-    "message.mi_sound_addon.machine_unsilenced":"Machine Unsilenced"
+    "item.mi_sound_addon.mallet":"钢软锤",
+    "message.mi_sound_addon.creative_tab":"MI声音附属",
+    "message.mi_sound_addon.tooltip":"右击你的机器以将其静音/取消静音",
+    "message.mi_sound_addon.machine_silenced":"机器已静音",
+    "message.mi_sound_addon.machine_unsilenced":"机器已解除静音"
 }
