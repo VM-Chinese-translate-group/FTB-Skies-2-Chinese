@@ -1,11 +1,11 @@
 {
-    "item.ceramicshears.ceramic_shears":"Ceramic Shears",
-    "item.ceramicshears.ceramic_shears_part":"Ceramic Shears Part",
-    "item.ceramicshears.clay_shears_part":"Clay Shears Part",
-    "text.autoconfig.ceramicshears.option.DURABILITY":"Ceramic Shears Durability",
-    "text.autoconfig.ceramicshears.option.DURABILITY.@Tooltip[0]":"§6§lCeramic Shears Durability",
-    "text.autoconfig.ceramicshears.option.DURABILITY.@Tooltip[1]":"Defines the maximum durability of Ceramic Shears.",
-    "text.autoconfig.ceramicshears.option.DURABILITY.@Tooltip[2]":"§7§o0: deactivates the durability",
-    "text.autoconfig.ceramicshears.option.DURABILITY.@Tooltip[3]":"§7§oMin: 0; Max: 10000",
-    "text.autoconfig.ceramicshears.option.DURABILITY.@Tooltip[4]":"§7§oDefault: 179"
+    "item.ceramicshears.ceramic_shears":"陶瓷剪刀",
+    "item.ceramicshears.ceramic_shears_part":"陶瓷剪刀部件",
+    "item.ceramicshears.clay_shears_part":"黏土剪刀部件",
+    "text.autoconfig.ceramicshears.option.DURABILITY":"陶瓷剪刀耐久度",
+    "text.autoconfig.ceramicshears.option.DURABILITY.@Tooltip[0]":"§6§l陶瓷剪刀耐久度",
+    "text.autoconfig.ceramicshears.option.DURABILITY.@Tooltip[1]":"设置陶瓷剪刀最大耐久度",
+    "text.autoconfig.ceramicshears.option.DURABILITY.@Tooltip[2]":"§7§o0：禁用耐久度",
+    "text.autoconfig.ceramicshears.option.DURABILITY.@Tooltip[3]":"§7§o最小：0；最大：10000",
+    "text.autoconfig.ceramicshears.option.DURABILITY.@Tooltip[4]":"§7§o默认：179"
 }

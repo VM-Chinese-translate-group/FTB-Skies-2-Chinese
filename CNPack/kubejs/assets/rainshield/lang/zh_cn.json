@@ -1,4 +1,4 @@
 {
-    "block.rainshield.rain_shield":"Rain Shield",
-    "rainshield.networking.sync_shields.failed":"Failed to sync rain shield data: %s"
+    "block.rainshield.rain_shield":"雨盾",
+    "rainshield.networking.sync_shields.failed":"无法同步雨盾数据：%s"
 }
