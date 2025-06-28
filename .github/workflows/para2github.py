@@ -147,7 +147,7 @@ def main() -> None:
         print(f"已从Paratranz下载到仓库：{log_path}")
 
         # 检查是否为 FTB Quests 的语言文件，并记录其输出目录
-        if "kubejs/assets/quests/lang/" in path_str and os.path.exists("source/ftbquest/quests/lang/en_us.snbt"):
+        if "kubejs/assets/quests/lang/" in path_str and os.path.exists("Source/config/ftbquests/quests/lang/en_us.snbt"):
             ftb_quests_lang_dir = Path("CNPack") / path.parent
 
     # 在所有文件处理完毕后，如果检测到了 FTB Quests 文件，则执行合并
