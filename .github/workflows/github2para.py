@@ -50,11 +50,11 @@ def handle_ftb_quests_snbt():
     检查是否存在 FTB Quests 的 en_us.snbt 文件。
     如果存在，则使用 LangSpliter 将其拆分为多个 JSON 文件，以便上传。
     """
-    snbt_file = "source/config/ftbquests/quests/lang/en_us.snbt"
-    chapters_dir = "source/config/ftbquests/quests/chapters"
-    chapter_groups_file = "source/config/ftbquests/quests/chapter_groups.snbt"
+    snbt_file = "Source/config/ftbquests/quests/lang/en_us.snbt"
+    chapters_dir = "Source/config/ftbquests/quests/chapters"
+    chapter_groups_file = "Source/config/ftbquests/quests/chapter_groups.snbt"
     # 定义拆分后的JSON文件输出目录，与para2github.py的逻辑保持一致
-    output_json_dir = "source/kubejs/assets/quests/lang"
+    output_json_dir = "Source/kubejs/assets/quests/lang"
 
     if os.path.exists(snbt_file):
         print(f"检测到 SNBT 文件: {snbt_file}，将进行自动拆分...")
@@ -79,16 +79,16 @@ def handle_ftb_quests_snbt():
 async def main():
     handle_ftb_quests_snbt()
 
-    files = get_filelist("./source")
+    files = get_filelist("./Source")
     tasks = []
 
     if not files:
-        print("在 'source' 目录中未找到任何 'en_us.json' 文件。请检查文件是否存在。")
+        print("在 'Source' 目录中未找到任何 'en_us.json' 文件。请检查文件是否存在。")
         return
 
     for file in files:
-        # 从 'source' 后的路径开始计算，作为 Paratranz 上的路径
-        relative_path = os.path.dirname(file).replace("source", "", 1)
+        # 从 'Source' 后的路径开始计算，作为 Paratranz 上的路径
+        relative_path = os.path.dirname(file).replace("Source", "", 1)
         # 统一路径分隔符为 '/'
         path = relative_path.replace("\\", "/").strip("/")
         # 如果路径非空，确保它以 '/' 结尾
