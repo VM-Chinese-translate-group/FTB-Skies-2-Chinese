@@ -8,11 +8,10 @@ jobs:
     name: Upload
     environment: PARATRANZ_ENV
     runs-on: ubuntu-latest
-    # 移除了 environment 键
     env:
       API_TOKEN: ${{ secrets.API_KEY }}
       FILE_PATH: ./
-      PROJECT_ID: ${{ vars.ID }} # 已从 vars.ID 修改
+      PROJECT_ID: ${{ vars.ID }}
     steps:
       - uses: actions/checkout@v4
 
@@ -23,7 +22,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install git+https://github.com/MuXiu1997/ParaTranz-SDK-python.git
+          pip install git+https://github.com/MuXiu1997/ParaTranz-SDK-python.git requests snbtlib
+
+      - name: Download LangSpliter.py
+        run: |
+          curl -L -o .github/workflows/LangSpliter.py https://raw.githubusercontent.com/VM-Chinese-translate-group/FTBQuestLangSpliter/main/LangSpliter.py
+
       - name: Upload To Paratranz
         run: |
           python .github/workflows/github2para.py

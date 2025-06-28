@@ -4,6 +4,7 @@ import json
 from pprint import pprint
 import paratranz_client
 from pydantic import ValidationError
+from LangSpliter import split_and_process_all
 
 configuration = paratranz_client.Configuration(host="https://paratranz.cn/api")
 configuration.api_key["Token"] = os.environ["API_TOKEN"]
@@ -21,13 +22,18 @@ async def upload_file(path, file):
             )
             pprint(api_response)
         except ValidationError as error:
-            print(f"文件上传成功{path}en_us.json")
+            print(f"文件上传成功{path}{os.path.basename(file)}")
         except Exception as e:
-            filePath: str = json.loads(e.__dict__.get("body"))["message"].split(" ")[1]
-            for fileName in files_response:
-                if fileName.name == filePath:
-                    await api_instance.update_file(project_id, file_id=fileName.id, file=file)
-                    print(f"文件已更新！文件路径为：{fileName.name}")
+            try:
+                # 尝试解析错误信息以更新文件
+                filePath: str = json.loads(e.__dict__.get("body"))["message"].split(" ")[1]
+                for fileName in files_response:
+                    if fileName.name == filePath:
+                        await api_instance.update_file(project_id, file_id=fileName.id, file=file)
+                        print(f"文件已更新！文件路径为：{fileName.name}")
+            except (json.JSONDecodeError, KeyError, IndexError):
+                # 如果错误信息不是预期的格式，打印原始错误
+                print(f"上传文件 {file} 时发生未知错误: {e}")
 
 
 def get_filelist(dir):
@@ -39,17 +45,57 @@ def get_filelist(dir):
     return filelist
 
 
+def handle_ftb_quests_snbt():
+    """
+    检查是否存在 FTB Quests 的 en_us.snbt 文件。
+    如果存在，则使用 LangSpliter 将其拆分为多个 JSON 文件，以便上传。
+    """
+    snbt_file = "source/config/ftbquests/quests/lang/en_us.snbt"
+    chapters_dir = "source/config/ftbquests/quests/chapters"
+    chapter_groups_file = "source/config/ftbquests/quests/chapter_groups.snbt"
+    # 定义拆分后的JSON文件输出目录，与para2github.py的逻辑保持一致
+    output_json_dir = "source/kubejs/assets/quests/lang"
+
+    if os.path.exists(snbt_file):
+        print(f"检测到 SNBT 文件: {snbt_file}，将进行自动拆分...")
+
+        # 确保输出目录存在
+        os.makedirs(output_json_dir, exist_ok=True)
+
+        # 调用 LangSpliter 的拆分函数
+        # flatten_single_lines=False 是为了让多行文本在Paratranz中成为多个独立的词条，便于翻译
+        split_and_process_all(
+            source_lang_file=snbt_file,
+            chapters_dir=chapters_dir,
+            chapter_groups_file=chapter_groups_file,
+            output_dir=output_json_dir,
+            flatten_single_lines=False
+        )
+        print("SNBT 文件已成功拆分为 JSON，准备上传。")
+    else:
+        print("未检测到 FTB Quests 的 en_us.snbt 文件，跳过拆分步骤。")
+
+
 async def main():
-    files = get_filelist("./Source")
+    handle_ftb_quests_snbt()
+
+    files = get_filelist("./source")
     tasks = []
 
+    if not files:
+        print("在 'source' 目录中未找到任何 'en_us.json' 文件。请检查文件是否存在。")
+        return
+
     for file in files:
-        path = (
-            file.split("Source")[1]
-            .replace("\\", "/")
-            .replace(os.path.basename(file), "")
-        )
-        print(f"Uploading {file} to {path}")
+        # 从 'source' 后的路径开始计算，作为 Paratranz 上的路径
+        relative_path = os.path.dirname(file).replace("source", "", 1)
+        # 统一路径分隔符为 '/'
+        path = relative_path.replace("\\", "/").strip("/")
+        # 如果路径非空，确保它以 '/' 结尾
+        if path:
+            path += "/"
+
+        print(f"准备上传 {file} 到 Paratranz 路径: '{path}'")
         tasks.append(upload_file(path=path, file=file))
 
     await asyncio.gather(*tasks)
