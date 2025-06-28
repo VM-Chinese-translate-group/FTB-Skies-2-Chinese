@@ -1,5 +1,5 @@
 {
-    "gamerule.undry":"湿润速率",
+    "gamerule.undry":"吸水速率",
     "block.testt.grumpy_dried_ghast":"失水恶魂",
     "item.ghasts_update.ghast_saddle":"蓝色恶魂挽具",
     "gui.ghasts_update.happy_ghast_inventory.label_happy_ghast":"快乐恶魂",
@@ -8,7 +8,7 @@
     "block.testt.happy_dried_ghast":"失水恶魂",
     "item.ghasts_update.purple_ghast_saddle":"紫色恶魂挽具",
     "item_group.ghasts_update.ghast_update":"快乐恶魂更新",
-    "item.testt.ghast_saddle":"恶魂鞍",
+    "item.testt.ghast_saddle":"恶魂挽具",
     "key.ghasts_update.up_ghast":"快乐恶魂上升",
     "block.ghasts_update.dried_ghast":"失水恶魂",
     "key.testt.down_ghast":"快乐恶魂下降",
