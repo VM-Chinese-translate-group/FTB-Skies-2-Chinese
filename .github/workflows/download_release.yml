@@ -59,6 +59,7 @@ jobs:
         id: commit
         run: |
           git rm --cached error_report.html || true
+          git rm -r --cached .github/workflows/__pycache__/ || true
           if [[ -n $(git status -s) ]]; then
             git add .
             git commit -m '从Paratranz同步翻译'
