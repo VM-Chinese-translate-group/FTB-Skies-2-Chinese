@@ -106,12 +106,12 @@
     "item.sgearmetalworks.trident_cast":"Trident Cast",
     "item.sgearmetalworks.uru_metal_ingot":"Uru Metal Ingot",
     "item.sgearmetalworks.uru_metal_nugget":"Uru Metal Nugget",
-    "jei.sgearmetalworks.sg_casting":"Silent Gear Casting",
-    "material.group.silentgear.casting":"Casting",
-    "material.group.silentgear.crude":"Crude",
-    "material.group.silentgear.infusing":"Infusing",
-    "material.sgearmetalworks.meat":"Meat",
+    "jei.sgearmetalworks.sg_casting":"寂静装备铸造",
+    "material.group.silentgear.casting":"铸造",
+    "material.group.silentgear.crude":"粗制",
+    "material.group.silentgear.infusing":"灌注",
+    "material.sgearmetalworks.meat":"肉",
     "material.sgearmetalworks.uru_metal":"Uru Metal",
-    "productivebees.ingredient.description.uru_metal_bee":"To acquire this bee, look up the crafting recipe for its spawn egg.",
-    "tooltip.sgearmetalworks.blueprint":"All metal and gem tool parts require casting in a foundry from Productive Metalworks"
+    "productivebees.ingredient.description.uru_metal_bee":"要获取这种蜜蜂，请查阅其刷怪蛋的合成配方。",
+    "tooltip.sgearmetalworks.blueprint":"金属、宝石的工作部件需要Productive Metalworks的熔铸炉进行铸造。"
 }
