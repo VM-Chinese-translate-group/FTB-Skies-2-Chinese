@@ -87,11 +87,17 @@ async def main():
         return
 
     for file in files:
-        # 从 'Source' 后的路径开始计算，作为 Paratranz 上的路径
-        relative_path = os.path.dirname(file).replace("Source", "", 1)
+        # 使用 os.path.relpath 获取相对于 'Source' 目录的正确路径
+        path = os.path.relpath(os.path.dirname(file), "./Source")
+
+        # 如果文件直接位于 Source 目录下，relpath 会返回 "."，我们将其转换为空路径
+        if path == ".":
+            path = ""
+
         # 统一路径分隔符为 '/'
-        path = relative_path.replace("\\", "/").strip("/")
-        # 如果路径非空，确保它以 '/' 结尾
+        path = path.replace("\\", "/")
+
+        # 如果路径非空（不是根目录），确保它以 '/' 结尾
         if path:
             path += "/"
 
