@@ -1,0 +1,47 @@
+{
+	icon: {
+		id: "functionalstorage:framed_1"
+	}
+	id: "0B2A45C7A39E4FD1"
+	loot_size: 1
+	order_index: 54
+	rewards: [
+		{ id: "0E5540DBED186280", item: { count: 1, id: "functionalstorage:framed_1" } }
+		{
+			count: 2
+			id: "636516000FDDDA63"
+			item: {
+				count: 1
+				id: "functionalstorage:framed_2"
+			}
+		}
+		{
+			count: 4
+			id: "1A9C95F60686FDCA"
+			item: {
+				count: 1
+				id: "functionalstorage:framed_4"
+			}
+		}
+		{ id: "6BD6DB921FA16A8C", item: { count: 1, id: "functionalstorage:framed_fluid_1" } }
+		{
+			count: 2
+			id: "23ECB88F5AAA67BB"
+			item: {
+				count: 1
+				id: "functionalstorage:framed_fluid_2"
+			}
+		}
+		{
+			count: 4
+			id: "008F317508F2C74E"
+			item: {
+				count: 1
+				id: "functionalstorage:framed_fluid_4"
+			}
+		}
+		{ id: "19D859B4416A3D47", item: { count: 1, id: "functionalstorage:framed_simple_compacting_drawer" } }
+		{ id: "3BAB78EB21B3615D", item: { count: 1, id: "functionalstorage:compacting_framed_drawer" } }
+	]
+	use_title: true
+}

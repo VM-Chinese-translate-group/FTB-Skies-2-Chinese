@@ -1,0 +1,86 @@
+{
+	icon: {
+		id: "create:brown_toolbox"
+	}
+	id: "49B86AAFA614A4EF"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{
+			count: 8
+			id: "20CF15CF75B5EED8"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 4
+			id: "43D98E9CDB9990DB"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 4
+			id: "2D7543839AB943B3"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 3
+			id: "10CC46BB31B1F482"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+			random_bonus: 3
+		}
+		{
+			count: 2
+			id: "79C391C74E86F3C5"
+			item: {
+				count: 1
+				id: "create:gearbox"
+			}
+		}
+		{
+			count: 2
+			id: "4CBB71D5CBD26F6B"
+			item: {
+				count: 1
+				id: "create:andesite_funnel"
+			}
+		}
+		{
+			id: "34E49326C465E9B0"
+			item: {
+				count: 1
+				id: "create:fluid_tank"
+			}
+			random_bonus: 1
+		}
+		{
+			count: 2
+			id: "36DC02C78E3F93FF"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+			random_bonus: 2
+		}
+		{ id: "117D47D21E0831CF", item: { count: 1, id: "create:spout" } }
+		{ id: "61289F7E6307E88E", item: { count: 1, id: "create:mechanical_pump" } }
+		{ id: "011A2F85EB65255F", item: { count: 1, id: "create:stock_link" } }
+		{ id: "427CADD20AE3AC24", item: { count: 1, id: "create:redstone_link" } }
+		{ id: "5121E63B1CEDF1DB", item: { count: 1, id: "create:packager" } }
+		{ id: "114F2D61F40B32AC", item: { count: 1, id: "create:repackager" } }
+	]
+	use_title: true
+}

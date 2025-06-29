@@ -1,0 +1,28 @@
+{
+	icon: {
+		components: {
+			"minecraft:custom_name": "\"Metallic Matter Tank\""
+			"replication:tile": {
+				tank: {
+					Amount: 256000.0d
+					MatterName: "replication:metallic"
+				}
+			}
+		}
+		id: "replication:matter_tank"
+	}
+	id: "6B520FEE6CCECFAB"
+	loot_size: 1
+	order_index: 39
+	rewards: [
+		{ id: "50BBEBF0A293D99B", item: { components: { "minecraft:custom_name": "\"Metallic Matter Tank\"", "replication:tile": { tank: { Amount: 128000.0d, MatterName: "replication:metallic" } } }, count: 1, id: "replication:matter_tank" } }
+		{ id: "1F571F120A610FA7", item: { components: { "minecraft:custom_name": "\"Earth Matter Tank\"", "replication:tile": { tank: { Amount: 128000.0d, MatterName: "replication:earth" } } }, count: 1, id: "replication:matter_tank" } }
+		{ id: "5D201E6EDF6A9303", item: { components: { "minecraft:custom_name": "\"Nether Matter Tank\"", "replication:tile": { tank: { Amount: 128000.0d, MatterName: "replication:nether" } } }, count: 1, id: "replication:matter_tank" } }
+		{ id: "2641B356B98C47E2", item: { components: { "minecraft:custom_name": "\"Organic Matter Tank\"", "replication:tile": { tank: { Amount: 128000.0d, MatterName: "replication:organic" } } }, count: 1, id: "replication:matter_tank" } }
+		{ id: "3F2C3A99FB299439", item: { components: { "minecraft:custom_name": "\"Ender Matter Tank\"", "replication:tile": { tank: { Amount: 128000.0d, MatterName: "replication:ender" } } }, count: 1, id: "replication:matter_tank" } }
+		{ id: "797EC0022C1E6EC5", item: { components: { "minecraft:custom_name": "\"Precious Matter Tank\"", "replication:tile": { tank: { Amount: 128000.0d, MatterName: "replication:precious" } } }, count: 1, id: "replication:matter_tank" } }
+		{ id: "56E9D6B15327C95C", item: { components: { "minecraft:custom_name": "\"Quantum Matter Tank\"", "replication:tile": { tank: { Amount: 128000.0d, MatterName: "replication:quantum" } } }, count: 1, id: "replication:matter_tank" } }
+		{ id: "6F4EE3E7A91DD869", item: { components: { "minecraft:custom_name": "\"Living Matter Tank\"", "replication:tile": { tank: { Amount: 128000.0d, MatterName: "replication:living" } } }, count: 1, id: "replication:matter_tank" } }
+	]
+	use_title: true
+}

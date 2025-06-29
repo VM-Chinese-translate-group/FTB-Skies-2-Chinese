@@ -1,0 +1,195 @@
+{
+	icon: {
+		id: "mekanism:cardboard_box"
+	}
+	id: "6AD278380BF9C4F4"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 2
+			id: "077927C84A9D3B21"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+			random_bonus: 4
+			weight: 100.0f
+		}
+		{
+			count: 2
+			id: "56537A7FECA5C42B"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+			random_bonus: 4
+			weight: 100.0f
+		}
+		{
+			count: 2
+			id: "078D2125B32C37E6"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_chemical"
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{
+			id: "4F227AABE5F072CB"
+			item: {
+				count: 1
+				id: "mekanism:basic_tier_installer"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "0D15B16EE468A68B"
+			item: {
+				count: 1
+				id: "mekanism:advanced_tier_installer"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "585F34AC8F53DD9D"
+			item: {
+				count: 1
+				id: "mekanism:elite_tier_installer"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "2004AF6762ED86CF"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_tier_installer"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "720DBD925ABBA799"
+			item: {
+				count: 1
+				id: "mekanismgenerators:wind_generator"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "580FB872B5F7F44D"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;4000000L]
+					}
+				}
+				count: 1
+				id: "mekanism:basic_energy_cube"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "7887E3F22C41366A"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;16000000L]
+					}
+				}
+				count: 1
+				id: "mekanism:advanced_energy_cube"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "02D8E0A9EC6DDAA8"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;64000000L]
+					}
+				}
+				count: 1
+				id: "mekanism:elite_energy_cube"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "64FE83C41869404E"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;256000000L]
+					}
+				}
+				count: 1
+				id: "mekanism:ultimate_energy_cube"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "16329BBC19204419"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_universal_cable"
+			}
+			weight: 75.0f
+		}
+		{
+			count: 8
+			id: "448482AE75CDB824"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_pressurized_tube"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 8
+			id: "36B60EA9BE7ADA17"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_mechanical_pipe"
+			}
+			weight: 75.0f
+		}
+		{
+			count: 8
+			id: "795FC503018CEE7A"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_logistical_transporter"
+			}
+			weight: 75.0f
+		}
+		{
+			count: 8
+			id: "50B8FE10803CE3E8"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_thermodynamic_conductor"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "5E9D3362D64A3DA3"
+			item: {
+				count: 1
+				id: "mekanismgenerators:advanced_solar_generator"
+			}
+			weight: 50.0f
+		}
+		{
+			count: 2
+			id: "421B893997D4A8C3"
+			item: {
+				count: 1
+				id: "mekanism:quantum_entangloporter"
+			}
+			weight: 5.0f
+		}
+	]
+	use_title: true
+}

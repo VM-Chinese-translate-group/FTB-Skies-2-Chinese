@@ -1,0 +1,788 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "resources__you"
+	group: "03201DC13AAA49AA"
+	icon: {
+		id: "createsifter:sifter"
+	}
+	id: "537FA747043E1769"
+	images: [
+		{
+			height: 2.5d
+			image: "ftb:textures/quests/titles_and_logos/tiers.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			height: 2.5d
+			image: "ftb:textures/quests/titles_and_logos/materials.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 4.5d
+			y: -3.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "79758946937D2AE9"
+			rewards: [{
+				count: 2
+				id: "26D3591B81F9B578"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E990328EC8F5EB7"
+				item: { count: 1, id: "ftb:cloth_mesh" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "56A327D4172F3DD6"
+			rewards: [{
+				count: 5
+				id: "6650C9432AB324C2"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A43A7144C154E0D"
+				item: { count: 1, id: "ftb:iron_mesh" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "75F7DB301ADF3667"
+			rewards: [{
+				id: "0FF56F54B4E6FA05"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FE064040021B62D"
+				item: { count: 1, id: "ftb:gold_mesh" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "08904FDA836C003B"
+			rewards: [{
+				count: 2
+				id: "5581941060339777"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22C2F7372C4BDBF1"
+				item: { count: 1, id: "ftb:diamond_mesh" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "536FE5C4A9D37909"
+			rewards: [{
+				id: "174E43B6F71E93D0"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B545DAB46335895"
+				item: { count: 1, id: "ftb:blazing_mesh" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			id: "32E926D3AC96233A"
+			rewards: [
+				{
+					count: 64
+					id: "2FD3168E33634434"
+					item: {
+						count: 1
+						id: "minecraft:dirt"
+					}
+					type: "item"
+				}
+				{
+					id: "2E6C3DC2677E5151"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "7182B57F293D804E"
+				item: { count: 1, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "47121E98CEF12BDE"
+			rewards: [
+				{
+					count: 64
+					id: "234B2F5F20C63CD5"
+					item: {
+						count: 1
+						id: "minecraft:gravel"
+					}
+					type: "item"
+				}
+				{
+					id: "656A206938C270DE"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "01E008B28F75F3EA"
+				item: { count: 16, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "6DB493D9D20E8B45"
+			rewards: [
+				{
+					count: 64
+					id: "2FDA82036EC4D8B8"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+				{
+					id: "00E201A51A99D4BB"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "228ABE9902B7DC9A"
+				item: { count: 16, id: "minecraft:sand" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "1C62ECB8EDF694BB"
+			rewards: [
+				{
+					count: 64
+					id: "302A20FDFFE481DA"
+					item: {
+						count: 1
+						id: "ftbstuff:dust"
+					}
+					type: "item"
+				}
+				{
+					id: "1AB7920E83CA2520"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "79519C0D5A72766E"
+				item: { count: 1, id: "ftbstuff:dust" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"79758946937D2AE9"
+				"32E926D3AC96233A"
+			]
+			id: "1F4E326DA743674D"
+			rewards: [{
+				id: "460D86E753649C28"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "119083521511D645"
+				item: { count: 1, id: "integrateddynamics:menril_sapling" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"56A327D4172F3DD6"
+				"32E926D3AC96233A"
+			]
+			id: "34E7A6645B4AA48F"
+			rewards: [{
+				count: 3
+				id: "75A3DB2A9E33FECF"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A013AA204F3F495"
+				item: { count: 1, id: "minecraft:cherry_sapling" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"79758946937D2AE9"
+				"47121E98CEF12BDE"
+			]
+			id: "5CAFA39A77F46A83"
+			rewards: [{
+				id: "74C561A940F86F7F"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50D6398D0A453310"
+				item: { count: 1, id: "ftbmaterials:copper_chunk" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"79758946937D2AE9"
+				"6DB493D9D20E8B45"
+			]
+			id: "4E5CA72883474230"
+			rewards: [{
+				id: "6D5C7028F55FA41D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CEBCA7C958A028C"
+				item: { count: 1, id: "ftbmaterials:tin_chunk" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"79758946937D2AE9"
+				"1C62ECB8EDF694BB"
+			]
+			id: "70C60D8F7C05BDA9"
+			rewards: [{
+				id: "0E4215E9D5ED5CB5"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D8526AA381511F6"
+				item: { count: 1, id: "mysticalagriculture:dirt_essence" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"56A327D4172F3DD6"
+				"47121E98CEF12BDE"
+			]
+			id: "19512B784164186D"
+			rewards: [{
+				count: 3
+				id: "210430C660AE2932"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26E5A38090017556"
+				item: { count: 1, id: "ftbmaterials:lead_chunk" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"56A327D4172F3DD6"
+				"1C62ECB8EDF694BB"
+			]
+			id: "33D4E1FE5CD1DBE2"
+			rewards: [{
+				count: 3
+				id: "7164E1649DB4EB20"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0183CA3D277CBD26"
+				item: { count: 1, id: "ftbmaterials:niter_dust" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"56A327D4172F3DD6"
+				"6DB493D9D20E8B45"
+			]
+			id: "1D6D9CCF4E0072E1"
+			rewards: [{
+				count: 3
+				id: "7E88C9559DC4A1C5"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E679DF638F194AD"
+				item: { count: 1, id: "ftbmaterials:gold_chunk" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"08904FDA836C003B"
+				"47121E98CEF12BDE"
+			]
+			id: "340542E5E1413650"
+			rewards: [{
+				id: "765C24ABD8542A1C"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38033751B72DEB67"
+				item: { count: 1, id: "ftbmaterials:diamond_chunk" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"75F7DB301ADF3667"
+				"6DB493D9D20E8B45"
+			]
+			id: "297EAB81A2EC051F"
+			rewards: [{
+				count: 5
+				id: "62C674099FA59E74"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EF2D1566D69EA02"
+				item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"75F7DB301ADF3667"
+				"47121E98CEF12BDE"
+			]
+			id: "6A02985C3F8D48F3"
+			rewards: [{
+				count: 5
+				id: "126BD6EFEC8DB813"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "006DC81F3A542E22"
+				item: { count: 1, id: "ftbmaterials:emerald_chunk" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"75F7DB301ADF3667"
+				"1C62ECB8EDF694BB"
+			]
+			id: "217D720A52277579"
+			rewards: [{
+				count: 5
+				id: "7E08A7FFEC45D5EE"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28A1B61566E616A5"
+				item: { count: 1, id: "ftbmaterials:bauxite_dust" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"08904FDA836C003B"
+				"1C62ECB8EDF694BB"
+			]
+			id: "6F9389517D5495A6"
+			rewards: [{
+				id: "77043F077E328B87"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F85A703DFB46137"
+				item: { count: 1, id: "ftbmaterials:redstone_chunk" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"536FE5C4A9D37909"
+				"1C62ECB8EDF694BB"
+			]
+			id: "36AA71D456F0A3C1"
+			rewards: [{
+				id: "19B0AE2BD00B35EA"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C4DD38DF30352C4"
+				item: { count: 1, id: "modern_industrialization:aluminum_dust" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"75F7DB301ADF3667"
+				"05A727E11657DA51"
+			]
+			id: "4B7545530D6055AE"
+			rewards: [{
+				count: 5
+				id: "246BAA88AE49F162"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CB919B82011EF9E"
+				item: { count: 1, id: "minecraft:glowstone_dust" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"08904FDA836C003B"
+				"4B7545530D6055AE"
+			]
+			id: "13CBFF5DAD6A1FA1"
+			rewards: [{
+				id: "6D027D112E4B50CE"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3735045DB42EA1D2"
+				item: { count: 1, id: "minecraft:blaze_powder" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"536FE5C4A9D37909"
+				"13CBFF5DAD6A1FA1"
+			]
+			id: "12506117C5C46682"
+			rewards: [{
+				id: "403BAE8DDE806F81"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B2CE21861F65D2C"
+				item: { count: 1, id: "actuallyadditions:black_quartz" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"08904FDA836C003B"
+				"59053EA2D933CD8D"
+			]
+			id: "2084A6104747D903"
+			rewards: [{
+				id: "0758C1742BA74BA3"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "556D411AA9D9152F"
+				item: { count: 1, id: "mekanism:dirty_netherite_scrap" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"75F7DB301ADF3667"
+				"08BEE8CFBAF691DA"
+			]
+			id: "59053EA2D933CD8D"
+			rewards: [{
+				count: 5
+				id: "585F266D1B78AE1F"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7559BDA708D0E2C7"
+				item: { count: 1, id: "ftbmaterials:sulfur_dust" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			id: "05A727E11657DA51"
+			rewards: [
+				{
+					count: 64
+					id: "118ABCA0547A9EC4"
+					item: {
+						count: 1
+						id: "ftbstuff:crushed_netherrack"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7E4F52A4FD208922"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "36891717C03BB5DE"
+				item: { count: 1, id: "ftbstuff:crushed_netherrack" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			id: "08BEE8CFBAF691DA"
+			rewards: [
+				{
+					count: 64
+					id: "1FE13CFF8B2DD2FC"
+					item: {
+						count: 1
+						id: "ftbstuff:crushed_basalt"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3F50214AA943AC9F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "4D85F29C62FF1039"
+				item: { count: 1, id: "ftbstuff:crushed_basalt" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			id: "0AF5AB8F0D7DB4B7"
+			rewards: [
+				{
+					count: 64
+					id: "3D73BDB9B5162DF0"
+					item: {
+						count: 1
+						id: "ftb:crushed_kivi"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "23890415F0D3DBCF"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "0FC36CC4BB083004"
+				item: { count: 16, id: "ftb:crushed_kivi" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"08904FDA836C003B"
+				"0AF5AB8F0D7DB4B7"
+			]
+			id: "4B8E75ACE0AA6FA0"
+			rewards: [{
+				id: "7769804ACD7237FF"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CDC924219F0604D"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:gems/xychorium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
+	]
+}

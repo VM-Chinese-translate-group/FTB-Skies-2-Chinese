@@ -1,0 +1,14 @@
+{
+	icon: {
+		id: "refinedstorage:1k_storage_disk"
+	}
+	id: "5FC2B9D4F06B5CA7"
+	loot_size: 1
+	order_index: 59
+	rewards: [
+		{ id: "43487741ACB6C321", item: { count: 1, id: "refinedstorage:1k_storage_disk" } }
+		{ id: "66AA60B25C914311", item: { count: 1, id: "refinedstorage:64b_fluid_storage_disk" } }
+		{ id: "340564BD205F293B", item: { count: 1, id: "refinedstorage_mekanism_integration:64b_chemical_storage_disk" } }
+	]
+	use_title: true
+}

@@ -1,0 +1,23 @@
+{
+	icon: {
+		components: {
+			"hostilenetworks:data": 6
+			"hostilenetworks:data_model": "hostilenetworks:zombie"
+		}
+		id: "hostilenetworks:data_model"
+	}
+	id: "26C5AE087E71F21F"
+	loot_size: 1
+	order_index: 65
+	rewards: [
+		{ id: "695DE52FC7EEFD40", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:pig" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "440A968CDD86E4AD", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:cow" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "7B96E0AF7B53A334", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:chicken" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "3EE8DD60EB22A9C1", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:zombie" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "70F43B9C300753C7", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:skeleton" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "0EEA7EA0B2E08BB7", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:spider" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "2204BB190CE01E8F", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:witch" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "4AC202E4CB2BFD9B", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:enderman" }, count: 1, id: "hostilenetworks:data_model" } }
+	]
+	use_title: true
+}

@@ -1,0 +1,99 @@
+{
+	icon: {
+		id: "enderio:yeta_wrench"
+	}
+	id: "1BE7BED3AC9E9144"
+	loot_size: 1
+	order_index: 47
+	rewards: [
+		{
+			count: 8
+			id: "2AC4354845C2872F"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:item"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+		{
+			count: 8
+			id: "7DDDCB0181832F1C"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:energy"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+		{
+			count: 8
+			id: "54CBD87388117A60"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:fluid"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+		{
+			count: 8
+			id: "755D0C9A189FE934"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:chemical"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+		{
+			count: 8
+			id: "54A3E418443BC8A1"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:heat"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+		{
+			count: 8
+			id: "3069C16ACB898CB1"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:me"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+		{
+			count: 8
+			id: "7D1B03100570A325"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:redstone"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+		{
+			count: 8
+			id: "71E0B3604A476917"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:rs"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+	]
+	use_title: true
+}

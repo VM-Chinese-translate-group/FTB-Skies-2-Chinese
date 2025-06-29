@@ -1,0 +1,32 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/magic_missile.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "72156A7D9AA4B893"
+	loot_crate: {
+		color: 43690
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Damaging Spell Scrolls"
+		string_id: "damaging_spell_scrolls"
+	}
+	loot_size: 2
+	order_index: 33
+	rewards: [
+		{ id: "35217B0E9A8A4B2E", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:fang_strike", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "70588D2B81BD07A4", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:magic_missile", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "45A0B8175D977416", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:flaming_strike", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "3CCD7E398B50AD65", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:poison_breath", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "17B090ED031650D5", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:ball_lightning", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "1966E226C56BBC92", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:ice_spikes", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "4BF5444450E95838", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:ray_of_siphoning", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "50DDB2C294B3828C", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:wisp", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+	]
+	use_title: true
+}

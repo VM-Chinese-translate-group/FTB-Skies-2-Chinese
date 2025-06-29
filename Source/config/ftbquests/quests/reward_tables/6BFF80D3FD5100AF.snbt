@@ -1,0 +1,25 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "irons_jewelry:item/scroll"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "6BFF80D3FD5100AF"
+	loot_size: 1
+	order_index: 43
+	rewards: [
+		{ id: "1A0E48A43DE77593", item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:amulet_of_protection", "minecraft:custom_name": "\"Amulet of Protection Scroll\"" }, count: 1, id: "irons_jewelry:recipe" } }
+		{ id: "63541573AA68B10D", item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:bane_ring", "minecraft:custom_name": "\"Bane Ring Scroll\"" }, count: 1, id: "irons_jewelry:recipe" } }
+		{ id: "133D85250439F35B", item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:barbed_band", "minecraft:custom_name": "\"Barbed Band Scroll\"" }, count: 1, id: "irons_jewelry:recipe" } }
+		{ id: "48E631AFC21AB47E", item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:haggler_ring", "minecraft:custom_name": "\"Ring of Haggling Scroll\"" }, count: 1, id: "irons_jewelry:recipe" } }
+		{ id: "5AD2E82BCC01081E", item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:improved_gemset_ring", "minecraft:custom_name": "\"Improved Gemset Ring Scroll\"" }, count: 1, id: "irons_jewelry:recipe" } }
+		{ id: "463ED41D7046B5C0", item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:piglin_signet_ring", "minecraft:custom_name": "\"Pigling Signet Ring Scroll\"" }, count: 1, id: "irons_jewelry:recipe" } }
+		{ id: "5A8F3D9202A9C7C7", item: { components: { "irons_jewelry:stored_pattern": "irons_spellbooks:rune_inscribed_ring", "minecraft:custom_name": "\"Rune Inscribed Ring Scroll\"" }, count: 1, id: "irons_jewelry:recipe" } }
+		{ id: "6EC84942136E9D8A", item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:sharpshooter_loop", "minecraft:custom_name": "\"Sharpshooter's Loop Scroll\"" }, count: 1, id: "irons_jewelry:recipe" } }
+		{ id: "64CD2DE4D63A7DE4", item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:stalwart_ring", "minecraft:custom_name": "\"Stalwart Ring Scroll\"" }, count: 1, id: "irons_jewelry:recipe" } }
+		{ id: "7D2C1050B07E695A", item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:superior_gemset_ring", "minecraft:custom_name": "\"Superior Gemset Ring Scroll\"" }, count: 1, id: "irons_jewelry:recipe" } }
+		{ id: "60DE8972048B7E17", item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:tearstone_ring", "minecraft:custom_name": "\"Tearstone Ring Scroll\"" }, count: 1, id: "irons_jewelry:recipe" } }
+	]
+	use_title: true
+}

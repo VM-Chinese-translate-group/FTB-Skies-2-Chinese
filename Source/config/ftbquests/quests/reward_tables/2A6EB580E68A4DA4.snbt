@@ -1,0 +1,21 @@
+{
+	icon: {
+		id: "refinedstorage:advanced_processor"
+	}
+	id: "2A6EB580E68A4DA4"
+	loot_size: 1
+	order_index: 42
+	rewards: [
+		{
+			count: 2
+			id: "5CD3610C26F82F0D"
+			item: {
+				count: 1
+				id: "refinedstorage:basic_processor"
+			}
+		}
+		{ id: "317FC4A608EC8EB5", item: { count: 1, id: "refinedstorage:improved_processor" } }
+		{ id: "4DAD7A82165BF225", item: { count: 1, id: "refinedstorage:advanced_processor" } }
+	]
+	use_title: true
+}

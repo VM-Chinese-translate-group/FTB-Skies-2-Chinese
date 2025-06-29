@@ -1,0 +1,354 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "geneticsresequenced:item/gmo_dna_helix"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "1B4ED08D7F604E51"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:16,gene:\"geneticsresequenced:bioluminescence\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "616B219E6DA751B5"
+			permission_level: 2
+			type: "command"
+			weight: 1000.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:20,gene:\"geneticsresequenced:eat_grass\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "7ED54BCB74A2A12B"
+			permission_level: 2
+			type: "command"
+			weight: 1000.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:30,gene:\"geneticsresequenced:item_magnet\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "5DC894FF762F7520"
+			permission_level: 2
+			type: "command"
+			weight: 1000.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:10,gene:\"geneticsresequenced:jump_boost\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "6A5D0B618A1F9402"
+			permission_level: 2
+			type: "command"
+			weight: 1000.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:10,gene:\"geneticsresequenced:step_assist\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "0634795627BBADE2"
+			permission_level: 2
+			type: "command"
+			weight: 1000.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:40,gene:\"geneticsresequenced:wall_climbing\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "6DCF1BC08AC2433B"
+			permission_level: 2
+			type: "command"
+			weight: 1000.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:30,gene:\"geneticsresequenced:xp_magnet\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "0FCC8D66B8D3EE2B"
+			permission_level: 2
+			type: "command"
+			weight: 1000.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:20,gene:\"geneticsresequenced:chilling\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "3DB2169F865D196B"
+			permission_level: 2
+			type: "command"
+			weight: 750.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:50,gene:\"geneticsresequenced:claws_2\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "66627D9AFAE15CEF"
+			permission_level: 2
+			type: "command"
+			weight: 750.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:30,gene:\"geneticsresequenced:efficiency\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "0F1402587A87F3EE"
+			permission_level: 2
+			type: "command"
+			weight: 750.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:30,gene:\"geneticsresequenced:haste\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "3A6E0D79E18FD79D"
+			permission_level: 2
+			type: "command"
+			weight: 750.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:16,gene:\"geneticsresequenced:night_vision\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "292C3C519F23E22A"
+			permission_level: 2
+			type: "command"
+			weight: 750.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:20,gene:\"geneticsresequenced:speed\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "7D70E419055C9031"
+			permission_level: 2
+			type: "command"
+			weight: 750.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:20,gene:\"geneticsresequenced:strength\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "69E9924221CB2512"
+			permission_level: 2
+			type: "command"
+			weight: 750.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:16,gene:\"geneticsresequenced:water_breathing\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "322716245560216F"
+			permission_level: 2
+			type: "command"
+			weight: 750.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:24,gene:\"geneticsresequenced:fire_proof\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "43A38B70E9184260"
+			permission_level: 2
+			type: "command"
+			weight: 500.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:40,gene:\"geneticsresequenced:more_hearts\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "366A3A1A9E54D7E6"
+			permission_level: 2
+			type: "command"
+			weight: 500.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:24,gene:\"geneticsresequenced:poison_immunity\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "2CE6D63C4A4A1239"
+			permission_level: 2
+			type: "command"
+			weight: 500.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:60,gene:\"geneticsresequenced:regeneration\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "49B4752F40CCEC37"
+			permission_level: 2
+			type: "command"
+			weight: 500.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:30,gene:\"geneticsresequenced:resistance\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "076D53F93DC2F63F"
+			permission_level: 2
+			type: "command"
+			weight: 500.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:50,gene:\"geneticsresequenced:strength_2\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "46D8C1DD5A25FE9B"
+			permission_level: 2
+			type: "command"
+			weight: 500.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:50,gene:\"geneticsresequenced:speed_2\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "0FF440178E43262A"
+			permission_level: 2
+			type: "command"
+			weight: 500.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:40,gene:\"geneticsresequenced:wither_proof\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "707DD542ED076762"
+			permission_level: 2
+			type: "command"
+			weight: 500.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:50,gene:\"geneticsresequenced:efficiency_4\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "2E2064E4204A2C0E"
+			permission_level: 2
+			type: "command"
+			weight: 250.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:50,gene:\"geneticsresequenced:haste_2\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "4313988799774530"
+			permission_level: 2
+			type: "command"
+			weight: 250.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:30,gene:\"geneticsresequenced:no_fall_damage\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "183727C7085361D6"
+			permission_level: 2
+			type: "command"
+			weight: 250.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:40,gene:\"geneticsresequenced:photosynthesis\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "77D9F9A25FBB23F7"
+			permission_level: 2
+			type: "command"
+			weight: 250.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:50,gene:\"geneticsresequenced:resistance_2\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "633AA62E5EF1E3DC"
+			permission_level: 2
+			type: "command"
+			weight: 250.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:60,gene:\"geneticsresequenced:slimy_death\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "390C48C819A48FE9"
+			permission_level: 2
+			type: "command"
+			weight: 250.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:60,gene:\"geneticsresequenced:ender_dragon_health\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "5477B1366AD724A2"
+			permission_level: 2
+			type: "command"
+			weight: 100.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:30,gene:\"geneticsresequenced:no_hunger\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "6671E03F4CA16AD6"
+			permission_level: 2
+			type: "command"
+			weight: 100.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:50,gene:\"geneticsresequenced:flight\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "47E11A762F7FD3C0"
+			permission_level: 2
+			type: "command"
+			weight: 100.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:50,gene:\"geneticsresequenced:more_hearts_2\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "56040354F0AAB372"
+			permission_level: 2
+			type: "command"
+			weight: 100.0f
+		}
+		{
+			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:50,gene:\"geneticsresequenced:regeneration_4\"}] 1"
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "6741C9241570AAA7"
+			permission_level: 2
+			type: "command"
+			weight: 100.0f
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,55 @@
+{
+	icon: {
+		id: "enderio:yeta_wrench"
+	}
+	id: "3FB070485C0FF4F1"
+	loot_size: 1
+	order_index: 46
+	rewards: [
+		{
+			count: 16
+			id: "2EA7446D5A6AED8B"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:enhanced_energy"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+		{
+			count: 16
+			id: "21100E97407B6F21"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:pressurized_fluid"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+		{
+			count: 16
+			id: "79740049E88E33F9"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:pressurized_chemical"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+		{
+			count: 16
+			id: "6716055372536124"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:dense_me"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,567 @@
+{
+	icon: {
+		components: {
+			"sophisticatedcore:accent_color": -14869215
+			"sophisticatedcore:main_color": -14869215
+		}
+		id: "sophisticatedbackpacks:backpack"
+	}
+	id: "7D4F4BCAA73DD644"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			id: "27729AFFD4C94FAC"
+			item: {
+				count: 1
+				id: "waystones:waystone"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 2
+			id: "2826934C12CEA654"
+			item: {
+				count: 1
+				id: "waystones:warp_plate"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "4B5F587C8071AC60"
+			item: {
+				count: 1
+				id: "waystones:warp_stone"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "7D299210BDD0A220"
+			item: {
+				count: 1
+				id: "waystones:warp_scroll"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "20D66497FFCDF11C"
+			item: {
+				count: 1
+				id: "minecraft:ender_eye"
+			}
+			random_bonus: 3
+			weight: 25.0f
+		}
+		{
+			id: "47D8F75A6D716E86"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			random_bonus: 3
+			weight: 25.0f
+		}
+		{
+			id: "3CBFB62984232DA5"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "1041E1A660F007D2"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"apothic_enchanting:scavenger": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "674039E06BFC2EB7"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "35937B0EAE4262B7"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:looting": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "60761BAD47F6CAE9"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"apothic_enchanting:knowledge_of_the_ages": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "14803F87ACFF4B3D"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:infinity": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "45136DDFDDFE8E5B"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:fortune": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "23AF98D5921D27AA"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:sharpness": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "100E9491E5CA8B05"
+			item: {
+				components: {
+					"easy_villagers:villager": { }
+				}
+				count: 1
+				id: "easy_villagers:villager"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "2FB2C02CB6CB313E"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"apothic_enchanting:stable_footing": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "63D2568334F34A52"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:advanced_pickup_upgrade"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "3550D995C738F4EC"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:advanced_magnet_upgrade"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "074DF259E6BC7E2C"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:feeding_upgrade"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "221D63B0E6E529C1"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:void_upgrade"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "5C57B0E5DF083F87"
+			item: {
+				count: 1
+				id: "enderio:staff_of_travelling"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "3ADEB1791B9F1474"
+			item: {
+				count: 1
+				id: "gag:hearthstone"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "69858AACB04E23B7"
+			item: {
+				count: 1
+				id: "gag:sacred_balm"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "31A87F2635762F3E"
+			item: {
+				count: 1
+				id: "gag:sacred_salve"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "54D8EAFA7C3F1A72"
+			item: {
+				count: 1
+				id: "gag:sacred_salt"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "7843C26890EBBB8D"
+			item: {
+				count: 1
+				id: "torchmaster:megatorch"
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{
+			id: "73EC4023DECED4F6"
+			item: {
+				count: 1
+				id: "irons_spellbooks:ice_staff"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "1A96768FA9FC407C"
+			item: {
+				count: 1
+				id: "irons_spellbooks:autoloader_crossbow"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "5C24A6437CCB2119"
+			item: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:echoing_strikes"
+							index: 0
+							level: 5
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+				count: 1
+				id: "irons_spellbooks:amethyst_rapier"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "2F28FC4E94353670"
+			item: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:counterspell"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+				count: 1
+				id: "irons_spellbooks:spellbreaker"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "1B6B22EA8C9FCF1D"
+			item: {
+				count: 1
+				id: "irons_spellbooks:keeper_flamberge"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "788F94B94F27E609"
+			item: {
+				count: 1
+				id: "irons_spellbooks:magehunter"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "211CD035B1B6D7C1"
+			item: {
+				count: 1
+				id: "irons_spellbooks:lightning_rod"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "7E6855C7DDA6B317"
+			item: {
+				count: 1
+				id: "irons_spellbooks:artificer_cane"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "1E36B413639A827D"
+			item: {
+				count: 1
+				id: "irons_spellbooks:graybeard_staff"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "57D730035A94DDEF"
+			item: {
+				count: 1
+				id: "productivebees:sturdy_bee_cage"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "00725DFEB199B3A1"
+			item: {
+				count: 1
+				id: "gag:energized_hearthstone"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "59EB025984CBB52C"
+			item: {
+				count: 1
+				id: "gag:escape_rope"
+			}
+			weight: 25.0f
+		}
+		{
+			command: "/puffish_skills points add @p puffish_skills:athletics 1"
+			feedback_message: "+1 Athletics Skill"
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/speed.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "323E61FF63FC8444"
+			permission_level: 2
+			type: "command"
+			weight: 50.0f
+		}
+		{
+			command: "/puffish_skills points add @p puffish_skills:melee 1"
+			feedback_message: "+1 Melee Skill"
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/empty_slot_sword"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0A34DF8EF9677B5E"
+			permission_level: 2
+			silent: true
+			type: "command"
+			weight: 50.0f
+		}
+		{
+			command: "/puffish_skills points add @p puffish_skills:defense 1"
+			feedback_message: "+1 Defense Skill"
+			icon: {
+				components: {
+					"ftbquests:icon": "fargostalismans:item/hero_shield"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4E967B03055DAA63"
+			permission_level: 2
+			silent: true
+			type: "command"
+			weight: 50.0f
+		}
+		{
+			command: "/puffish_skills points add @p puffish_skills:ranged 1"
+			feedback_message: "+1 Ranged Skill"
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "2E749066F6317CAA"
+			permission_level: 2
+			silent: true
+			type: "command"
+			weight: 50.0f
+		}
+		{
+			id: "1836EF854A2DE2EB"
+			item: {
+				count: 1
+				id: "irons_spellbooks:oakskin_elixir"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "068D3C9A5E7A6864"
+			item: {
+				count: 1
+				id: "irons_spellbooks:greater_healing_potion"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "092F20A5086764F9"
+			item: {
+				count: 1
+				id: "irons_spellbooks:greater_invisibility_elixir"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "3AA00CC2F9DFC010"
+			item: {
+				count: 1
+				id: "irons_spellbooks:evasion_elixir"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "6ABB3695E248D34F"
+			item: {
+				components: {
+					"ftbquests:loot_crate": "relic_bag"
+				}
+				count: 1
+				id: "ftbquests:lootcrate"
+			}
+			weight: 50.0f
+		}
+		{
+			icon: {
+				id: "simpleteleporters:teleporter"
+			}
+			id: "6999E16872CD66DD"
+			item: {
+				components: {
+					"ftbquests:loot_crate": "teleporter_bundle"
+				}
+				count: 1
+				id: "ftbquests:lootcrate"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "47308D142B13E72D"
+			item: {
+				components: {
+					"ftbquests:loot_crate": "flawed_gems_bag"
+				}
+				count: 1
+				id: "ftbquests:lootcrate"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "594A624F1A1140ED"
+			item: {
+				components: {
+					"ftbquests:loot_crate": "gems_bag"
+				}
+				count: 1
+				id: "ftbquests:lootcrate"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "0E3A0EE789B8AB72"
+			item: {
+				components: {
+					"ftbquests:loot_crate": "flawless_gems_bag"
+				}
+				count: 1
+				id: "ftbquests:lootcrate"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "68A8A3338ED2BD2B"
+			item: {
+				components: {
+					"ftbquests:loot_crate": "perfect_gems_bag"
+				}
+				count: 1
+				id: "ftbquests:lootcrate"
+			}
+			weight: 10.0f
+		}
+	]
+	use_title: true
+}

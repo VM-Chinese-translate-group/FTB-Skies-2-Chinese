@@ -1,0 +1,69 @@
+{
+	icon: {
+		id: "mysticalagriculture:inferium_essence"
+	}
+	id: "74D2721A88E9AAA0"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 8
+			id: "7DEFFEF58AE5F00F"
+			item: {
+				count: 1
+				id: "mysticalagriculture:inferium_essence"
+			}
+			random_bonus: 8
+			weight: 500.0f
+		}
+		{
+			count: 4
+			id: "71D88E7A8DBED48D"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prudentium_essence"
+			}
+			random_bonus: 4
+			weight: 500.0f
+		}
+		{
+			count: 2
+			id: "2E237F4D0AD66DB8"
+			item: {
+				count: 1
+				id: "mysticalagriculture:tertium_essence"
+			}
+			random_bonus: 6
+			weight: 500.0f
+		}
+		{
+			count: 2
+			id: "756D0AC559F47E5A"
+			item: {
+				count: 1
+				id: "mysticalagriculture:imperium_essence"
+			}
+			random_bonus: 2
+			weight: 500.0f
+		}
+		{
+			id: "0238425366596413"
+			item: {
+				count: 1
+				id: "mysticalagriculture:supremium_essence"
+			}
+			random_bonus: 1
+			weight: 200.0f
+		}
+		{
+			id: "6957B73D8AD2ABDE"
+			item: {
+				count: 1
+				id: "mysticalagriculture:awakened_supremium_essence"
+			}
+			random_bonus: 3
+			weight: 50.0f
+		}
+	]
+	use_title: true
+}

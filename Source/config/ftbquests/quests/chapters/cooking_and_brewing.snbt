@@ -1,0 +1,1638 @@
+{
+	autofocus_id: "7D090A60681CC97D"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "cooking_and_brewing"
+	group: "293B0513F4340751"
+	icon: {
+		id: "farmersdelight:tomato"
+	}
+	id: "2ECC43B3B70CFFE5"
+	images: [
+		{
+			alpha: 150
+			height: 12.0d
+			image: "ftb:textures/quests/cooking.png"
+			rotation: 0.0d
+			width: 43.165217391304346d
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			height: 9.0d
+			image: "ftb:textures/quests/merchant.png"
+			rotation: 0.0d
+			width: 5.8591836734693885d
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			height: 1.5d
+			image: "ftb:textures/quests/titles_and_logos/cook_and_brewing.png"
+			rotation: 0.0d
+			width: 16.333333333333336d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/cake"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/cake"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "cookingforblockheads:block/spicerack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D090A60681CC97D"]
+			id: "23FFD172C3555282"
+			rewards: [
+				{
+					id: "1EA2CEBC2818E88F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "79AC8F4B98677F03"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "16B729C17B73AE4A"
+				item: { count: 1, id: "cookingforblockheads:white_oven" }
+				type: "item"
+			}]
+			x: 1.3d
+			y: 6.75d
+		}
+		{
+			hide_dependent_lines: true
+			id: "7D090A60681CC97D"
+			min_width: 300
+			rewards: [
+				{
+					id: "764A5B9C1E325783"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2688703BC07CBBCA"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4D801E08CFC7C8CA"
+				item: { count: 1, id: "cookingforblockheads:cooking_table" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["7D090A60681CC97D"]
+			id: "31BD9A98AE5893B9"
+			rewards: [
+				{
+					id: "485DA21065A9E625"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3EF921A38A9D0FD1"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5360F28BB5763607"
+				item: { count: 1, id: "cookingforblockheads:spice_rack" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D090A60681CC97D"]
+			id: "287E6819DB849CD4"
+			rewards: [
+				{
+					id: "23C4EA88C1942CB8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B215313E5585BA8"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4A085AA8549D8A56"
+				item: { count: 1, id: "cookingforblockheads:tool_rack" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D090A60681CC97D"]
+			icon_scale: 1.25d
+			id: "514E3A822BFB730B"
+			rewards: [
+				{
+					id: "6BCF3F69880BF42E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3D7C29A2A37F5513"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "28DB71295852BD14"
+				item: { count: 1, id: "cookingforblockheads:cow_jar" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D090A60681CC97D"]
+			id: "1E0BB50868F951A3"
+			rewards: [
+				{
+					id: "187A2C0588E4887A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "34C1679ACF8072E8"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "0CA57B714CFBA2F9"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "51B4A72E835D7ADF"
+				item: { count: 1, id: "cookingforblockheads:fruit_basket" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7D090A60681CC97D"]
+			id: "79CC3BBEC8B16640"
+			rewards: [
+				{
+					id: "6BD61747A1977FEB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6612EA24A44310B8"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				count: 2L
+				id: "08B9ED667CEFE9E8"
+				item: { count: 1, id: "cookingforblockheads:white_fridge" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7D090A60681CC97D"]
+			id: "5D2D114B66DE61EE"
+			rewards: [
+				{
+					id: "113DD9DC6F800D66"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "21F6BADF1CB840D3"
+					item: {
+						count: 1
+						id: "cookingforblockheads:sink"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5B7C810D9D71C508"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5581917EB00707AA"
+				item: { count: 1, id: "cookingforblockheads:sink" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.75d
+		}
+		{
+			id: "420F14616E3F8EEF"
+			rewards: [
+				{
+					id: "70658B8C699DAD54"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "77A1BF1D2C8F74CA"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "456F29FAFF005AF1"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.214285714285722d
+		}
+		{
+			icon: {
+				id: "farmersdelight:roast_chicken_block"
+			}
+			id: "4C50A70027F208BE"
+			rewards: [
+				{
+					id: "7BD7B4497B59E54F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C62E5BDEE38F668"
+					table_id: 4634798818103374212L
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3B7699715021E7F7"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods/edible_when_placed)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.75d
+			y: 5.25d
+		}
+		{
+			id: "66BC17A3725601D7"
+			rewards: [
+				{
+					id: "5BBB7A63595CC2B9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "28EE515C5B80077B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "5FAB2F946C92C673"
+				item: { count: 1, id: "farmersdelight:tomato" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "4ECF22AA79A3688B"
+			rewards: [
+				{
+					id: "61ABEC7F3A51C82E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1CD9AEB1C8616D6A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "6590FD8F5693DAA5"
+				item: { count: 1, id: "farmersdelight:cabbage" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			id: "57AF9BB4B89D69CF"
+			rewards: [
+				{
+					id: "42CEA1AE3CA98726"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1DC196D35C21572A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "4A2B051E1DCA23A2"
+				item: { count: 1, id: "farmersdelight:onion" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "1B18D4F1BDD51268"
+			rewards: [
+				{
+					id: "49092C8E9CB887BE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "78331F90B0788183"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "2430A046CB2B77B5"
+				item: { count: 1, id: "farmersdelight:rice" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "3670FA7818A11284"
+			rewards: [
+				{
+					id: "31702DB7B00BE0A5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6A44997A675D9992"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4162A27689C36F68"
+				item: { count: 1, id: "minecraft:brewing_stand" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0CD3050976F79358"]
+			id: "3F1804C1F7413280"
+			rewards: [
+				{
+					id: "3C20944FDF40A2D2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "22D3A9898C2C6A67"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "158606E15065196E"
+				item: { count: 1, id: "farmersdelight:chicken_sandwich" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["532DA0BDBF2F215A"]
+			id: "111F60263C10C60B"
+			rewards: [
+				{
+					id: "3F825D68E47108E9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "771F23E67541B978"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F32C4643F1BA21D"
+				item: { count: 1, id: "farmersdelight:hamburger" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0224D5E40F659D36"]
+			id: "0CD3050976F79358"
+			rewards: [
+				{
+					id: "1A9D8524975C0990"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7AFF5C8C83CFD0B0"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F7347221BA61151"
+				item: { count: 1, id: "farmersdelight:cooked_chicken_cuts" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0224D5E40F659D36"]
+			id: "532DA0BDBF2F215A"
+			rewards: [
+				{
+					id: "44BE5C26C085AF4C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20A35A8DD7ACE94D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "001FA0916F157E21"
+				item: { count: 1, id: "farmersdelight:beef_patty" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "3A389EDA045B65E1"
+			rewards: [
+				{
+					id: "3AE83D090ADC7B32"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5992EE57EA93F8F3"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "38A25B98589A91C5"
+				item: { count: 1, id: "minecraft:carrot" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "73846333D68F6339"
+			rewards: [
+				{
+					id: "44ED3437A94136A6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "32BC61DA1FA2E07D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "1A4B066DBC81ED19"
+				item: { count: 1, id: "minecraft:potato" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "0800E48C01F45F46"
+			rewards: [
+				{
+					id: "278215E6B6452C95"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4C83CB133ED31916"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "215F90A9CF3C1EA5"
+				item: { count: 1, id: "minecraft:sweet_berries" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:cutting_board"
+			}
+			id: "0224D5E40F659D36"
+			rewards: [
+				{
+					id: "3960F9B05A304140"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "24DA88B016F5DA77"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B5712B92A7D06B8"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+				{
+					id: "6AA28ACC00B467BA"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:tools/knives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3670FA7818A11284"
+				"24E11CBBB6EC58D5"
+				"4145FED51D1ACD76"
+			]
+			id: "76F225C6B9A79620"
+			rewards: [
+				{
+					id: "21AE13FA82E95EFE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "513400F7AFADA656"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6C324A6A77C27152"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1966A0ED7B3E460D"
+				item: { components: { "minecraft:potion_contents": { potion: "minecraft:awkward" } }, count: 1, id: "minecraft:potion" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["76F225C6B9A79620"]
+			id: "29C505C5D1927614"
+			rewards: [
+				{
+					id: "4C32CF90DED7A78D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "378DE29BD456ED67"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:healing"
+							}
+						}
+						count: 1
+						id: "minecraft:splash_potion"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7DF22CD4C3C4831F"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4CE9FECD6B0A6BEA"
+				item: { components: { "minecraft:potion_contents": { potion: "minecraft:healing" } }, count: 1, id: "minecraft:potion" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["76F225C6B9A79620"]
+			id: "10AB0C0930A5D77D"
+			rewards: [
+				{
+					id: "463C4D954DDD668A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4CDAF1722DB80BAB"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:regeneration"
+							}
+						}
+						count: 1
+						id: "minecraft:splash_potion"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "73ED4E482FB22D19"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2625A364206C153A"
+				item: { components: { "minecraft:potion_contents": { potion: "minecraft:regeneration" } }, count: 1, id: "minecraft:potion" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["76F225C6B9A79620"]
+			id: "154E08BC9091684F"
+			rewards: [
+				{
+					id: "2229D7BC965076FA"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "01D4091EDC034E73"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "5CBAB605AA05FF96"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "60E568F1F08D4595"
+				item: { count: 1, id: "minecraft:glowstone_dust" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 8.5d
+		}
+		{
+			id: "4145FED51D1ACD76"
+			rewards: [
+				{
+					count: 8
+					id: "37F1C06FE94608C1"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+				{
+					id: "670938C991A97D9C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "438D75D997B09983"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "13BC876BAFF41D49"
+				item: { count: 1, id: "minecraft:nether_wart" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 5.0d
+		}
+		{
+			id: "24E11CBBB6EC58D5"
+			rewards: [
+				{
+					id: "2E3E67FDBFC8EBC2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "79141E3D477B4D46"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4243EEBF7C33206E"
+				item: { count: 1, id: "minecraft:blaze_powder" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["420F14616E3F8EEF"]
+			id: "7A208CB40BAFC4A9"
+			rewards: [
+				{
+					id: "4DE95CD4708E6F0F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "0D03F65F11C94321"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1756C2785DC45BCF"
+				item: { count: 1, id: "farmersdelight:apple_cider" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["420F14616E3F8EEF"]
+			id: "6303F008757BA13F"
+			rewards: [
+				{
+					id: "6CA0DCF3FF15166D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "767B36FC90E4B1A9"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4517A200C301870D"
+				item: { count: 1, id: "farmersdelight:pasta_with_meatballs" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["420F14616E3F8EEF"]
+			id: "04D6FAAF40A941EF"
+			rewards: [
+				{
+					id: "30AB45A004ADF868"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "552A42E93C157C88"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "738606985DD9DA47"
+				item: { count: 1, id: "farmersdelight:stuffed_pumpkin_block" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			id: "1CEEACA025EDE94D"
+			rewards: [
+				{
+					id: "78F553BCAB5AE1B4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3DEB2C4D59E8E860"
+					item: {
+						count: 1
+						id: "farmersdelight:pie_crust"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2EF1C1ECF8AEA70D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "045B93F4D1AF435F"
+				item: { count: 1, id: "farmersdelight:pie_crust" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1CEEACA025EDE94D"]
+			id: "14FFB82FB7EB0659"
+			rewards: [
+				{
+					id: "50577EFD81566035"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "158C88CE65F5753A"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39A0BB4E2FF134DF"
+				item: { count: 1, id: "farmersdelight:apple_pie" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1CEEACA025EDE94D"]
+			id: "37588DD1D7FA6795"
+			rewards: [
+				{
+					id: "5A007B9799AF2C13"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "5C511F0840F2AE64"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "203C87251418EE96"
+				item: { count: 1, id: "farmersdelight:chocolate_pie" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1CEEACA025EDE94D"]
+			id: "4291D83FD8A79A24"
+			rewards: [
+				{
+					id: "1AD0772E20525A14"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "389D60198C1C7E4C"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F0A3ADC3C7C8E45"
+				item: { count: 1, id: "farmersdelight:sweet_berry_cheesecake" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D090A60681CC97D"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cookingforblockheads:counter"
+			}
+			id: "709DACF3C4655662"
+			min_width: 300
+			rewards: [
+				{
+					id: "13650A442D7308BA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "78162705AD8BB140"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "5C621DC20ED224E0"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cookingforblockheads:counters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "0530149F4E3FF764"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cookingforblockheads:cabinets)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 4.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["79CC3BBEC8B16640"]
+			id: "35865030C4D59D8C"
+			rewards: [{
+				count: 3
+				id: "7B1C2FC3B75C3179"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "59F79EAD71BF3ECF"
+				item: { count: 1, id: "cookingforblockheads:ice_unit" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["79CC3BBEC8B16640"]
+			id: "2EA7CCDB687AC468"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "28E8A512390915BD"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "2EDCBB22B65E94C1"
+				item: { count: 1, id: "cookingforblockheads:preservation_chamber" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["23FFD172C3555282"]
+			id: "67647369B6065EEC"
+			rewards: [
+				{
+					id: "56A32FC2A937CD9B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "1678FFDF253345E7"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "16A3132427E39063"
+				item: { count: 1, id: "cookingforblockheads:heating_unit" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "073546F80EDA632E"
+			rewards: [
+				{
+					id: "1165D02A95475BF9"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "22002EC4925812C8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "235DEFAA36039F76"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "536FA8F7F87165C1"
+				item: { count: 1, id: "farmingforblockheads:market" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["76F225C6B9A79620"]
+			id: "186BE7F6DFA8C41E"
+			rewards: [
+				{
+					id: "2C66AA7952A1ED4A"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "4DB2A5917E765E84"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "675E6C7948137BDF"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0518392D88F47309"
+				item: { count: 1, id: "minecraft:gunpowder" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["76F225C6B9A79620"]
+			id: "6F6671705176E2F8"
+			rewards: [
+				{
+					id: "1B1353DA90EF802B"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "14D4A42E5DD6ED9E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "7B8C9BEB999C721B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2AFE9F3F56099F6F"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:steak_and_potatoes"
+			}
+			id: "077F5C3829CA7300"
+			rewards: [
+				{
+					id: "56F3942F8E41FAF5"
+					item: {
+						count: 1
+						id: "solcarrot:food_book"
+					}
+					type: "item"
+				}
+				{
+					id: "610BAB0866236498"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "345089696B5A7211"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+	]
+}

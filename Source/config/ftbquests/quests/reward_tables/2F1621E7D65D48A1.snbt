@@ -1,0 +1,83 @@
+{
+	icon: {
+		id: "minecraft:diamond"
+	}
+	id: "2F1621E7D65D48A1"
+	loot_size: 1
+	order_index: 35
+	rewards: [
+		{
+			count: 32
+			id: "3EDE2832DFA0F230"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 16
+			id: "4C09A61E3E747268"
+			item: {
+				count: 1
+				id: "minecraft:raw_iron"
+			}
+		}
+		{
+			count: 16
+			id: "16E806913BFDB1AA"
+			item: {
+				count: 1
+				id: "minecraft:raw_copper"
+			}
+		}
+		{
+			count: 16
+			id: "2D639A1E406F8136"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+		}
+		{
+			count: 12
+			id: "532A60771D8E8E66"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+		}
+		{
+			count: 8
+			id: "6559B4EE0E2ED387"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+		}
+		{
+			count: 8
+			id: "0F4FBD482461DB0D"
+			item: {
+				count: 1
+				id: "minecraft:raw_gold"
+			}
+		}
+		{
+			count: 4
+			id: "6D483EEA373751DD"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+		}
+		{
+			count: 2
+			id: "7892BBFE49F89285"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+		}
+	]
+	use_title: true
+}

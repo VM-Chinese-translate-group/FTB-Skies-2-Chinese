@@ -1,0 +1,243 @@
+{
+	icon: {
+		id: "productivebees:sugarbag_honeycomb"
+	}
+	id: "19DAA0A82CBD4FB8"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			id: "31AFED4326D1103A"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_simulator"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "790ABBCD1491E9BC"
+			item: {
+				components: {
+					"minecraft:entity_data": {
+						id: "productivebees:configurable_bee"
+						type: "productivebees:tin"
+					}
+				}
+				count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "3BFEE278D8398F7F"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_time"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "0411D328D4E37137"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_child"
+			}
+			weight: 10.0f
+		}
+		{ id: "6651FDB08AE37951", item: { count: 1, id: "productivelib:upgrade_block" } }
+		{
+			id: "3B4A34FB79F65B82"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_productivity"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "4447EC0BFA46C4D3"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_productivity_2"
+			}
+			weight: 2.0f
+		}
+		{ id: "4A68D29C7D9565B2", item: { count: 1, id: "productivelib:upgrade_productivity_3" } }
+		{ id: "6F6A559FE9DB6406", item: { count: 1, id: "productivelib:upgrade_productivity_4" } }
+		{
+			id: "588D305F90235DC4"
+			item: {
+				count: 1
+				id: "minecraft:honey_block"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			id: "7BA58B70BBB82598"
+			item: {
+				count: 1
+				id: "minecraft:honeycomb_block"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			id: "1153EED1B6DC0C6C"
+			item: {
+				count: 1
+				id: "productivebees:honey_treat"
+			}
+			random_bonus: 3
+			weight: 10.0f
+		}
+		{
+			id: "0883A006978F9C02"
+			item: {
+				count: 1
+				id: "productivebees:sturdy_bee_cage"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			id: "0B416047C8F1D48F"
+			item: {
+				count: 1
+				id: "productivebees:draconic_chunk"
+			}
+			weight: 5.0f
+		}
+		{ id: "16C132DDCE55204A", item: { count: 1, id: "productivebees:inactive_dragon_egg" } }
+		{ id: "65A054C51DAF0C40", item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:withered" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
+		{
+			id: "2A9BCF9273E8CBAF"
+			item: {
+				count: 1
+				id: "productivebees:powered_centrifuge"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "6E8A0FC4B65DD2DB"
+			item: {
+				count: 1
+				id: "productivebees:heated_centrifuge"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "4D0E5003B602C177"
+			item: {
+				components: {
+					"minecraft:entity_data": {
+						id: "productivebees:configurable_bee"
+						type: "productivebees:iron"
+					}
+				}
+				count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "4E3E1E37411ABEFA"
+			item: {
+				components: {
+					"minecraft:entity_data": {
+						id: "productivebees:configurable_bee"
+						type: "productivebees:gold"
+					}
+				}
+				count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "42FC135D966C160E"
+			item: {
+				components: {
+					"minecraft:entity_data": {
+						id: "productivebees:configurable_bee"
+						type: "productivebees:diamond"
+					}
+				}
+				count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "369152B3AF340B17"
+			item: {
+				components: {
+					"minecraft:entity_data": {
+						id: "productivebees:configurable_bee"
+						type: "productivebees:emerald"
+					}
+				}
+				count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "5F9EA4096202CD7F"
+			item: {
+				components: {
+					"minecraft:entity_data": {
+						id: "productivebees:configurable_bee"
+						type: "productivebees:redstone"
+					}
+				}
+				count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+			}
+			weight: 5.0f
+		}
+		{ id: "67404926B5C7FA05", item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:netherite" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
+		{
+			id: "58375585510370C2"
+			item: {
+				components: {
+					"minecraft:entity_data": {
+						id: "productivebees:configurable_bee"
+						type: "productivebees:copper"
+					}
+				}
+				count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "30C4FAA9EBD5AEC2"
+			item: {
+				components: {
+					"minecraft:entity_data": {
+						id: "productivebees:configurable_bee"
+						type: "productivebees:osmium"
+					}
+				}
+				count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "294BFAEEC055506F"
+			item: {
+				count: 1
+				id: "productivebees:wax"
+			}
+			random_bonus: 5
+			weight: 10.0f
+		}
+		{ id: "6263B59C27075BEF", item: { components: { "productivebees:gene_group": { attribute: "productivity", purity: 100, value: "productivity.very_high" } }, count: 1, id: "productivebees:gene" } }
+		{ id: "11984BFC64FD7BAB", item: { components: { "productivebees:gene_group": { attribute: "weather_tolerance", purity: 100, value: "weather_tolerance.any" } }, count: 1, id: "productivebees:gene" } }
+		{ id: "25A66F103D9642D0", item: { components: { "productivebees:gene_group": { attribute: "temper", purity: 100, value: "temper.passive" } }, count: 1, id: "productivebees:gene" } }
+		{ id: "33BBD4EB0C1E9881", item: { components: { "productivebees:gene_group": { attribute: "behavior", purity: 100, value: "behavior.metaturnal" } }, count: 1, id: "productivebees:gene" } }
+		{ id: "7749833EE6F590F8", item: { components: { "productivebees:gene_group": { attribute: "endurance", purity: 100, value: "endurance.strong" } }, count: 1, id: "productivebees:gene" } }
+	]
+	use_title: true
+}

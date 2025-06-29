@@ -1,0 +1,1131 @@
+{
+	autofocus_id: "0730F5C57F80CC0B"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: "pentagon"
+	filename: "enchanted"
+	group: "33401D44ADADF4FC"
+	icon: {
+		id: "enchanted:witch_oven"
+	}
+	id: "2E34C4AF7759F54F"
+	images: [
+		{
+			height: 1.5d
+			image: "enchanted:block/altar_corner_left"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: -0.1499999999999999d
+		}
+		{
+			height: 1.5d
+			image: "enchanted:block/altar_corner_right"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.5d
+			y: -0.1499999999999999d
+		}
+		{
+			height: 1.5d
+			image: "enchanted:block/altar_middle"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.25d
+			y: -0.1499999999999999d
+		}
+		{
+			height: 1.5d
+			image: "enchanted:block/altar_joined_top"
+			order: -9
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: -1.4d
+		}
+		{
+			height: 1.5d
+			image: "enchanted:block/altar_joined_top"
+			order: -9
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.25d
+			y: -1.4d
+		}
+		{
+			height: 1.5d
+			image: "enchanted:block/altar_joined_top"
+			order: -9
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.5d
+			y: -1.4d
+		}
+		{
+			height: 5.25d
+			image: "ftb:textures/quests/enchanted_cauldron_colour.png"
+			order: -9
+			rotation: 0.0d
+			width: 5.25d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.25d
+			image: "enchanted:block/poppet_shelf_top"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 3.0d
+			image: "enchanted:block/glyph_gold"
+			order: -6
+			rotation: 15.0d
+			width: 3.0d
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "ftb:textures/quests/titles_and_logos/enchanted_logo.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 0.0d
+			y: -7.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "enchanted:witch_oven"
+			}
+			id: "15956817DCDAD8C3"
+			rewards: [
+				{
+					count: 16
+					id: "5D49CC4E7788AFA1"
+					item: {
+						count: 1
+						id: "enchanted:clay_jar"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2514F48A601E7024"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "grassy_seeds"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "66D860958C7D7AE1"
+					item: {
+						components: {
+							"modopedia:book": "enchanted:art_of_witchcraft"
+						}
+						count: 1
+						id: "modopedia:book"
+					}
+					type: "item"
+				}
+				{
+					id: "069AE48E280398F2"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "7158086BBD37AB6E"
+					item: { count: 1, id: "enchanted:witch_oven" }
+					type: "item"
+				}
+				{
+					id: "5732C3B47F24A8AB"
+					item: { count: 1, id: "enchanted:clay_jar" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "enchanted:garlic"
+			}
+			id: "63D1F9A9465CC28F"
+			rewards: [
+				{
+					id: "07F303BDBE814052"
+					item: {
+						count: 1
+						id: "enchanted:earmuffs"
+					}
+					type: "item"
+				}
+				{
+					id: "73BFBF836FA2B585"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "44E52423A6258915"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "41CB07C5B712190A"
+					item: { count: 1, id: "enchanted:belladonna_seeds" }
+					type: "item"
+				}
+				{
+					id: "5798970F54D04744"
+					item: { count: 1, id: "enchanted:snowbell_seeds" }
+					type: "item"
+				}
+				{
+					id: "06B7921A974A9C69"
+					item: { count: 1, id: "enchanted:water_artichoke_seeds" }
+					type: "item"
+				}
+				{
+					id: "6941F73E83CBDDB1"
+					item: { count: 1, id: "enchanted:mandrake_seeds" }
+					type: "item"
+				}
+				{
+					id: "06578AA861D39439"
+					item: { count: 1, id: "enchanted:wolfsbane_seeds" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "17589C5B205CBB7F"
+					item: { count: 1, id: "enchanted:garlic" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15956817DCDAD8C3"]
+			icon: {
+				id: "enchanted:fume_funnel"
+			}
+			id: "4AFA3F0208AA8ABB"
+			optional: true
+			rewards: [
+				{
+					id: "3B408596B09308C9"
+					item: {
+						count: 1
+						id: "enchanted:fume_funnel"
+					}
+					type: "item"
+				}
+				{
+					id: "19193A6B903547CE"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2018786D8865B65A"
+					item: { count: 1, id: "enchanted:fume_funnel" }
+					type: "item"
+				}
+				{
+					id: "4E1D19EB550EBF7C"
+					item: { count: 1, id: "enchanted:fume_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["63D1F9A9465CC28F"]
+			id: "58029A4EF02A1FBD"
+			rewards: [{
+				id: "6D0687288A83E2CB"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F87338E7D950C88"
+				item: { count: 1, id: "enchanted:anointing_paste" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58029A4EF02A1FBD"]
+			id: "3AB6083CCDD1B74A"
+			rewards: [
+				{
+					id: "5AA53F532D576FA8"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+				{
+					id: "14FF0128427422A9"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "enchanted:witch_cauldron"
+				}
+				id: "309DB0D0ED158034"
+				observe_type: 0
+				timer: 0L
+				to_observe: "enchanted:witch_cauldron"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3AB6083CCDD1B74A"]
+			id: "6E009D4747E3E485"
+			rewards: [
+				{
+					count: 6
+					id: "63A7F0E84ED0DC5B"
+					item: {
+						count: 1
+						id: "enchanted:mutandis"
+					}
+					type: "item"
+				}
+				{
+					id: "4E98D682D2006F28"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "439E6B8A81E15223"
+				item: { count: 1, id: "enchanted:mutandis" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E009D4747E3E485"]
+			hide_dependent_lines: true
+			icon: {
+				id: "enchanted:rowan_sapling"
+			}
+			id: "09B6F6758B0EEEC5"
+			rewards: [
+				{
+					count: 6
+					id: "74D923C5158EAB47"
+					item: {
+						count: 1
+						id: "enchanted:mutandis"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1D8DD8C1AF525258"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "072E8BB042B7129C"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A036D40A67EFE21"
+					item: { count: 1, id: "enchanted:alder_sapling" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "14C0772D3EEF27BE"
+					item: { count: 1, id: "enchanted:hawthorn_sapling" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4CFE120BC386439F"
+					item: { count: 1, id: "enchanted:rowan_sapling" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"09B6F6758B0EEEC5"
+				"0730F5C57F80CC0B"
+			]
+			hide_dependency_lines: true
+			id: "2582831347BB970D"
+			rewards: [
+				{
+					id: "480598F70C53D9B9"
+					item: {
+						count: 1
+						id: "minecraft:skeleton_skull"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "69F68512E9CAD918"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 6L
+				id: "2DE2C0DE079D50B4"
+				item: { count: 1, id: "enchanted:altar" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: -0.6d
+		}
+		{
+			dependencies: ["15956817DCDAD8C3"]
+			icon: {
+				id: "enchanted:whiff_of_magic"
+			}
+			id: "0730F5C57F80CC0B"
+			rewards: [
+				{
+					count: 8
+					id: "3F4A4FA357175796"
+					item: {
+						count: 1
+						id: "minecraft:charcoal"
+					}
+					type: "item"
+				}
+				{
+					id: "05ED86900D3DFBC1"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "20B47BA7BDB59179"
+					item: { count: 1, id: "enchanted:whiff_of_magic" }
+					type: "item"
+				}
+				{
+					id: "169110FF0F340709"
+					item: { count: 1, id: "enchanted:odour_of_purity" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E075EDFC4A3BD8B"
+					item: { count: 1, id: "enchanted:reek_of_misfortune" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E86823F0E825622"
+					item: { count: 1, id: "enchanted:exhale_of_the_horned_one" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "25DC5291E8FD2A3D"
+					item: { count: 1, id: "enchanted:breath_of_the_goddess" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "44AB96DD5175FBBA"
+					item: { count: 1, id: "enchanted:hint_of_rebirth" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6424CA7744DD37CF"
+					item: { count: 1, id: "enchanted:foul_fume" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3FFD49D6518F57AD"
+					item: { count: 1, id: "enchanted:wood_ash" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2582831347BB970D"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "0361236BF20549B5"
+			optional: true
+			rewards: [{
+				id: "328FA4872788391F"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0E7E3F91C480EE45"
+					item: { count: 1, id: "minecraft:skeleton_skull" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "158852D20BCD0555"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6CEB084C7BB680C1"
+					item: { count: 1, id: "minecraft:player_head" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.25d
+			y: -1.6d
+		}
+		{
+			dependencies: ["2582831347BB970D"]
+			icon: {
+				id: "minecraft:torch"
+			}
+			id: "34B2F8375323A66D"
+			optional: true
+			rewards: [{
+				id: "4DBF9EEBF8932E7E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2C26014126C6C13E"
+					item: { count: 1, id: "minecraft:torch" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "121417E43B67D623"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:candles)mod(minecraft)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65A876CF6CB54BC0"
+					item: { count: 1, id: "enchanted:candelabra" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2582831347BB970D"]
+			icon: {
+				id: "enchanted:chalice_filled"
+			}
+			id: "4AB3FD2B686C1F10"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "57B4311E601CC365"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2B46430ED08EC7D5"
+					item: { count: 1, id: "enchanted:chalice" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "70DE0E7E2D03AF03"
+					item: { count: 1, id: "enchanted:chalice_filled" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "enchanted:arthana"
+			}
+			id: "30CDAD044D94659A"
+			optional: true
+			rewards: [
+				{
+					id: "52E9B70C2501B464"
+					item: {
+						count: 1
+						id: "enchanted:tongue_of_dog"
+					}
+					type: "item"
+				}
+				{
+					id: "5B81D6FE2F4708F5"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7BEBA340518013EF"
+					item: { count: 1, id: "enchanted:arthana" }
+					type: "item"
+				}
+				{
+					id: "766B01B0F5CE3A03"
+					item: { count: 1, id: "enchanted:wool_of_bat" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "44749CC55D61ABB5"
+					item: { count: 1, id: "enchanted:creeper_heart" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0B251B5AB4569787"
+					item: { count: 1, id: "enchanted:tongue_of_dog" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0730F5C57F80CC0B"
+				"09B6F6758B0EEEC5"
+			]
+			id: "3B3CE4B6B25CB8DB"
+			rewards: [
+				{
+					id: "740D1EFD3B6C5A9A"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "576741E253608C9D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2671061CEF88F54A"
+				item: { count: 1, id: "enchanted:attuned_stone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "3CAB5264F3C33205"
+			rewards: [
+				{
+					count: 16
+					id: "044AD9AF15BA036A"
+					item: {
+						count: 1
+						id: "enchanted:clay_jar"
+					}
+					type: "item"
+				}
+				{
+					id: "3A3184C577E16DA2"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FDD57A450AA8079"
+				item: { count: 1, id: "enchanted:distillery" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "1BA5F737C2C6356F"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "7A7A2D2450568128"
+					item: {
+						count: 1
+						id: "arsdelight:mendosteen_tea"
+					}
+					type: "item"
+				}
+				{
+					id: "7E1EFACCA0834C0B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "154CC9B1BAB1F4DD"
+				item: { count: 1, id: "enchanted:kettle" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			icon: {
+				id: "enchanted:poppet"
+			}
+			id: "3CC88B6ACDC68D5F"
+			optional: true
+			rewards: [
+				{
+					id: "2555813A284C3A93"
+					item: {
+						count: 1
+						id: "enchanted:infused_armour_poppet"
+					}
+					type: "item"
+				}
+				{
+					id: "25DC4524EF037BC9"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A662C5AF24B337B"
+					item: { count: 1, id: "enchanted:poppet" }
+					type: "item"
+				}
+				{
+					id: "74E9582E6DDA5E47"
+					item: { count: 1, id: "enchanted:taglock_kit" }
+					type: "item"
+				}
+				{
+					id: "23A2687AF739B4E0"
+					item: { count: 1, id: "enchanted:poppet_shelf" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1BD247A6DF8BEE2E"
+					item: { count: 1, id: "enchanted:spinning_wheel" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6587B145151746EC"]
+			icon: {
+				id: "enchanted:circle_talisman"
+			}
+			id: "1385135551DA36AB"
+			rewards: [
+				{
+					id: "1FB48D9D212B7ADE"
+					item: {
+						count: 1
+						id: "enchanted:circle_talisman"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3940D91C24E6FF6D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2F584763536E16B7"
+					item: { count: 1, id: "enchanted:ritual_chalk" }
+					type: "item"
+				}
+				{
+					id: "5A676B887DCCB827"
+					item: { count: 1, id: "enchanted:golden_chalk" }
+					type: "item"
+				}
+				{
+					id: "43EF3D5AC9DFF048"
+					item: { count: 1, id: "enchanted:broom" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3CAB5264F3C33205"]
+			icon: {
+				id: "enchanted:gypsum"
+			}
+			id: "6587B145151746EC"
+			rewards: [
+				{
+					count: 16
+					id: "285E1B7608F433A9"
+					item: {
+						count: 1
+						id: "enchanted:wood_ash"
+					}
+					type: "item"
+				}
+				{
+					id: "74D30A3DB419296C"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "20FCC66765346588"
+					item: { count: 1, id: "enchanted:gypsum" }
+					type: "item"
+				}
+				{
+					id: "2EE21D965123717F"
+					item: { count: 1, id: "enchanted:tear_of_the_goddess" }
+					type: "item"
+				}
+				{
+					id: "6935E8B50F19D40D"
+					item: { count: 1, id: "enchanted:diamond_vapour" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1277CEFDCF3B8D84"
+					item: { count: 1, id: "enchanted:oil_of_vitriol" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6064AC41BA698A64"
+					item: { count: 1, id: "enchanted:demonic_blood" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4C6B9B3889DC3BA3"
+					item: { count: 1, id: "enchanted:ender_dew" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7E56FE99D45C66E0"
+					item: { count: 1, id: "enchanted:refined_evil" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E009D4747E3E485"]
+			icon: {
+				id: "enchanted:glint_weed"
+			}
+			id: "612A181814F656B1"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "50AD0270AE569F0C"
+					item: {
+						count: 1
+						id: "enchanted:glint_weed"
+					}
+					type: "item"
+				}
+				{
+					id: "3224AF2C870EC73F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6F2AE5FCCE9FB555"
+					item: { count: 1, id: "enchanted:spanish_moss" }
+					type: "item"
+				}
+				{
+					id: "2888F1CD36C0B10F"
+					item: { count: 1, id: "enchanted:ember_moss" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "47B6BBEAFF89BD82"
+					item: { count: 1, id: "enchanted:glint_weed" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "14A42993270FBC9C"
+					item: { count: 1, id: "enchanted:blood_poppy" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1385135551DA36AB"]
+			icon: {
+				id: "enchanted:enchanted_broomstick"
+			}
+			id: "3A6FEA4C08B27D0C"
+			optional: true
+			rewards: [
+				{
+					id: "424B20D5F1C38340"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_slow_falling"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "2F5965E2E22B3C22"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4FE04AFA615017C2"
+					item: { count: 1, id: "enchanted:flying_ointment" }
+					type: "item"
+				}
+				{
+					id: "76590F0A345F55A9"
+					item: { count: 1, id: "enchanted:enchanted_broomstick" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1385135551DA36AB"]
+			icon: {
+				id: "enchanted:attuned_stone_charged"
+			}
+			id: "29A3A67ACFBCD72E"
+			rewards: [
+				{
+					id: "378839E999551288"
+					item: {
+						count: 1
+						id: "enchanted:attuned_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "3F1C6665D06C1ACC"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C6527F081C51057"
+					item: { count: 1, id: "enchanted:attuned_stone_charged" }
+					type: "item"
+				}
+				{
+					id: "0977AF4D6F9A2F37"
+					item: { count: 1, id: "minecraft:redstone" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "728CC8EA51122C8D"
+					item: { count: 1, id: "minecraft:glowstone_dust" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "744296CE28B8B42C"
+					item: { count: 1, id: "enchanted:wood_ash" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1A4F918339CD0DE7"
+					item: { count: 1, id: "enchanted:quicklime" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1BA5F737C2C6356F"]
+			id: "59550D06A062F224"
+			optional: true
+			rewards: [
+				{
+					id: "66A9E544056FFDFC"
+					item: {
+						count: 1
+						id: "farmersdelight:pumpkin_soup"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "71B2AC77BC304226"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E0B46F086E49D63"
+				item: { count: 1, id: "enchanted:redstone_soup" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+	]
+}

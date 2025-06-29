@@ -1,0 +1,31 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/healing_circle.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "44675FF0C802B588"
+	loot_crate: {
+		color: 43690
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Utility Spell Scrolls"
+		string_id: "utility_spell_scrolls"
+	}
+	loot_size: 2
+	order_index: 32
+	rewards: [
+		{ id: "6261FCF45BE9F52C", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:shield", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "607ECFCE851ADBDE", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:recall", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "639749CC218A9841", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:heat_surge", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "778D4B9E2CFF76DF", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:oakskin", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "20082100E0B7A661", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:frostwave", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "06EFF9739B5E0358", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:heartstop", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "517033B7652308BD", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:healing_circle", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+	]
+	use_title: true
+}

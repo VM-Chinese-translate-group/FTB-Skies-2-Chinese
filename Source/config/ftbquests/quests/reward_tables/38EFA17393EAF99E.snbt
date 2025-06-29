@@ -1,0 +1,165 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "malum:item/tophat"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "38EFA17393EAF99E"
+	loot_size: 1
+	order_index: 64
+	rewards: [
+		{
+			count: 4
+			id: "521A2AC846D80CF4"
+			item: {
+				count: 1
+				id: "malum:esoteric_spool"
+			}
+		}
+		{
+			count: 4
+			id: "248C57C2B121E91C"
+			item: {
+				count: 1
+				id: "malum:ace_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "575E286ABF994CF4"
+			item: {
+				count: 1
+				id: "malum:agender_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "1A36421C3F34480D"
+			item: {
+				count: 1
+				id: "malum:aro_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "29A7EA431EB837AA"
+			item: {
+				count: 1
+				id: "malum:aroace_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "6EAF65DA5D098F18"
+			item: {
+				count: 1
+				id: "malum:bi_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "081FF9F9DB12DC0C"
+			item: {
+				count: 1
+				id: "malum:demiboy_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "0608D71C14D35AFB"
+			item: {
+				count: 1
+				id: "malum:demigirl_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "40EB70A6BCF7F822"
+			item: {
+				count: 1
+				id: "malum:enby_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "50F53E3CB4573FBB"
+			item: {
+				count: 1
+				id: "malum:gay_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "2868417B333C2444"
+			item: {
+				count: 1
+				id: "malum:genderfluid_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "166B0F4A02F5ADD5"
+			item: {
+				count: 1
+				id: "malum:genderqueer_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "1E5ACE84C264E7F5"
+			item: {
+				count: 1
+				id: "malum:intersex_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "2DFDF3A2EED4554C"
+			item: {
+				count: 1
+				id: "malum:lesbian_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "484881CD35520B92"
+			item: {
+				count: 1
+				id: "malum:pan_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "7DB994CE218B6C37"
+			item: {
+				count: 1
+				id: "malum:plural_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "6722D4183560BF96"
+			item: {
+				count: 1
+				id: "malum:poly_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "19E719201B975AD0"
+			item: {
+				count: 1
+				id: "malum:pride_prideweave"
+			}
+		}
+		{
+			count: 4
+			id: "5DDE417A3BFE5286"
+			item: {
+				count: 1
+				id: "malum:trans_prideweave"
+			}
+		}
+	]
+}

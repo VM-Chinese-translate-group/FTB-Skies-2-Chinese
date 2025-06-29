@@ -1,0 +1,82 @@
+{
+	icon: {
+		id: "fargostalismans:soul_of_minecraft"
+	}
+	id: "5F726AD2B912C6C3"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ id: "12810653970AEC05", item: { count: 1, id: "fargostalismans:force_of_overworld" } }
+		{ id: "2ECB6E6D5F14951B", item: { count: 1, id: "fargostalismans:force_of_nature" } }
+		{ id: "5C85E5C29BC59FDC", item: { count: 1, id: "fargostalismans:force_of_rejectors" } }
+		{ id: "4F0A3BF972121FF8", item: { count: 1, id: "fargostalismans:force_of_explorer" } }
+		{ id: "05CEC137DBC7DF0F", item: { count: 1, id: "fargostalismans:force_of_mystic" } }
+		{ id: "27E93CAE4E48E016", item: { count: 1, id: "fargostalismans:force_of_warrior" } }
+		{ id: "6679EDF280A42FED", item: { count: 1, id: "mysticalagradditions:nether_star_crux" } }
+		{ id: "089D7B21F1F400AE", item: { count: 1, id: "mysticalagradditions:awakened_supremium_paxel" } }
+		{ id: "7B2E5C9971EABA40", item: { count: 1, id: "megacells:cell_component_256m" } }
+		{
+			id: "6A2A774882B63A49"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_productivity_4"
+			}
+			random_bonus: 3
+		}
+		{ id: "119906EF1FDF1BC1", item: { count: 1, id: "mekanism:meka_tool" } }
+		{ id: "06CB6DF41EFE3C55", item: { count: 1, id: "extended_industrialization:ultimate_laser_drill" } }
+		{ id: "422CF5E5E3528FCC", item: { count: 1, id: "mekanism:ultimate_induction_cell" } }
+		{ id: "4C79DF5452427EDF", item: { count: 1, id: "mekanism:ultimate_induction_provider" } }
+		{ id: "5330DC293133A1A9", item: { count: 1, id: "mekanism:module_gravitational_modulating_unit" } }
+		{ id: "4FF18B8001DA8C7E", item: { count: 1, id: "mekanism:mekasuit_boots" } }
+		{ id: "371840F1EEAA39E0", item: { count: 1, id: "mekanism:mekasuit_pants" } }
+		{ id: "11DDE2994D4819A8", item: { count: 1, id: "mekanism:mekasuit_bodyarmor" } }
+		{ id: "68E6908B9EDDD625", item: { count: 1, id: "mekanism:mekasuit_helmet" } }
+		{ id: "0A542CD25ED642C0", item: { count: 1, id: "advanced_ae:quantum_core" } }
+		{ id: "5DE08B07B87CEA59", item: { count: 1, id: "apothic_enchanting:library" } }
+		{ id: "0DAAB03D95DA0081", item: { components: { "apothic_attributes:bonus_attribute_modifiers": { modifiers: [ { amount: 25.0d, id: "apothic_attributes:command_generated_658377850", operation: "add_value", slot: "mainhand", type: "minecraft:generic.attack_damage" }, { amount: 0.10000000149011612d, id: "apothic_attributes:command_generated_1675147067", operation: "add_value", slot: "mainhand", type: "apothic_attributes:current_hp_damage" } ] }, "minecraft:custom_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Extremely Sharp Cactus\"}],\"text\":\"\"}", "minecraft:enchantment_glint_override": 1b }, count: 1, id: "minecraft:cactus" } }
+		{
+			count: 3
+			id: "4AA4B387D04CD4C5"
+			item: {
+				components: {
+					"ftbquests:loot_crate": "bag_of_relics"
+				}
+				count: 1
+				id: "ftbquests:lootcrate"
+			}
+		}
+		{
+			count: 3
+			id: "2094A8A757FA6E86"
+			item: {
+				components: {
+					"ftbquests:loot_crate": "lost_bag_of_talismans"
+				}
+				count: 1
+				id: "ftbquests:lootcrate"
+			}
+		}
+		{ id: "2C6C41DDE9347371", item: { count: 1, id: "fargostalismans:talisman_base_legendary" } }
+		{
+			id: "1D80BE5CD59F3DB8"
+			item: {
+				count: 1
+				id: "mekanism:pellet_antimatter"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 3
+			id: "422C2689691CCCE8"
+			item: {
+				components: {
+					"ftbquests:loot_crate": "bag_of_perfect_gems"
+				}
+				count: 1
+				id: "ftbquests:lootcrate"
+			}
+		}
+	]
+	use_title: true
+}

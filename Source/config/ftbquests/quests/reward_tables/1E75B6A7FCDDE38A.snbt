@@ -1,0 +1,177 @@
+{
+	icon: {
+		id: "gag:hearthstone"
+	}
+	id: "1E75B6A7FCDDE38A"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			count: 2
+			id: "24953BE28F6033E4"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "2A75BBAA06F67976"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			random_bonus: 4
+		}
+		{
+			id: "069491C08CF23256"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			random_bonus: 3
+		}
+		{ id: "67A02C54DFD13FD6", item: { count: 1, id: "minecraft:amethyst_shard" } }
+		{
+			count: 2
+			id: "0E08BBAFBE0330F5"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			random_bonus: 2
+		}
+		{
+			id: "1344BAB83FDF20E7"
+			item: {
+				count: 1
+				id: "minecraft:ancient_debris"
+			}
+			random_bonus: 2
+		}
+		{
+			id: "3A212741B9B5BB22"
+			item: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+			random_bonus: 3
+		}
+		{ id: "0918301996722086", item: { count: 1, id: "minecraft:saddle" } }
+		{
+			count: 2
+			id: "3C99A69404C7B953"
+			item: {
+				count: 1
+				id: "minecraft:prismarine_shard"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "1C13971F66C58BE1"
+			item: {
+				count: 1
+				id: "minecraft:prismarine_crystals"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "6AFF6ACAD73FBBDA"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 4
+			id: "2B074B0D28744648"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 4
+			id: "56E24EC7E45F6E9A"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "36FE1EE149838A3E"
+			item: {
+				count: 1
+				id: "functionalstorage:copper_upgrade"
+			}
+			random_bonus: 2
+		}
+		{ id: "3FC8647E2A4FED57", item: { count: 1, id: "functionalstorage:compacting_drawer" } }
+		{ id: "736F1E03502F0D08", item: { count: 1, id: "functionalstorage:simple_compacting_drawer" } }
+		{ id: "3D42B95082CF3F29", item: { count: 1, id: "functionalstorage:storage_controller" } }
+		{ id: "6BF380A86723E537", item: { count: 1, id: "mekanism:basic_smelting_factory" } }
+		{
+			count: 8
+			id: "0213AC7FDB99F2D6"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_universal_cable"
+			}
+		}
+		{
+			count: 4
+			id: "77C2FD890995397A"
+			item: {
+				count: 1
+				id: "pipez:item_pipe"
+			}
+			random_bonus: 4
+		}
+		{ id: "46D2C8CC13F5398D", item: { count: 1, id: "ironfurnaces:gold_furnace" } }
+		{ id: "59C87F6D8B99A6E5", item: { count: 1, id: "ironfurnaces:iron_furnace" } }
+		{ id: "7F590A78B8B24015", item: { count: 1, id: "powah:solar_panel_basic" } }
+		{ id: "0022FB075CD220D5", item: { count: 1, id: "powah:thermo_generator_hardened" } }
+		{ id: "09C66AFE04FD5191", item: { count: 1, id: "mekanismgenerators:wind_generator" } }
+		{ id: "65557596549326F6", item: { count: 1, id: "pipez:improved_upgrade" } }
+		{ id: "0EDF5C1858BF448E", item: { count: 1, id: "pipez:basic_upgrade" } }
+		{
+			count: 8
+			id: "6E6E33F455B9DCDE"
+			item: {
+				count: 1
+				id: "pipez:energy_pipe"
+			}
+		}
+		{
+			count: 8
+			id: "4B43EEF46AB0F43B"
+			item: {
+				count: 1
+				id: "pipez:fluid_pipe"
+			}
+		}
+		{
+			count: 8
+			id: "4D9BA29F1F8956D5"
+			item: {
+				count: 1
+				id: "gag:mining_dynamite"
+			}
+		}
+		{ id: "01D66872F7BF8AC1", item: { count: 1, id: "gag:energized_hearthstone" } }
+		{ id: "35FD13A65FB8D4DB", item: { count: 1, id: "gag:escape_rope" } }
+		{ id: "2C1226833041CBC2", item: { count: 1, id: "gag:hearthstone" } }
+		{ id: "33D89686541BB426", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:fortune": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "6FAAEAF345526478", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:looting": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "71B6DB2610CA52DC", item: { count: 1, id: "waystones:waystone" } }
+		{ id: "0378BDC8ED278E32", item: { count: 1, id: "waystones:warp_stone" } }
+	]
+	use_title: true
+}

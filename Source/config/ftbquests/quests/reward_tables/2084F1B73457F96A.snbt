@@ -1,0 +1,45 @@
+{
+	icon: {
+		components: {
+			"apotheosis:gem": "apotheosis:the_end/endersurge"
+			"apotheosis:purity": "flawless"
+		}
+		id: "apotheosis:gem"
+	}
+	id: "2084F1B73457F96A"
+	loot_crate: {
+		color: 16755200
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Flawless Gems Bag"
+		string_id: "flawless_gems_bag"
+	}
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ id: "2274576BD9634BBB", item: { components: { "apotheosis:gem": "apotheosis:core/ballast", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "1DF71782A44BE8EB", item: { components: { "apotheosis:gem": "apotheosis:core/brawlers", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "7A3C91BAB05131FD", item: { components: { "apotheosis:gem": "apotheosis:core/breach", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "482D5748C56E37C0", item: { components: { "apotheosis:gem": "apotheosis:core/combatant", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "0E9A9A9E0DEF7A44", item: { components: { "apotheosis:gem": "apotheosis:core/guardian", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "0EB7154F9C77C57F", item: { components: { "apotheosis:gem": "apotheosis:core/lightning", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "398343B5AA1BEDA0", item: { components: { "apotheosis:gem": "apotheosis:core/lunar", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "1B644AE459030A21", item: { components: { "apotheosis:gem": "apotheosis:core/samurai", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "510B5C3F483D6CAA", item: { components: { "apotheosis:gem": "apotheosis:core/slipstream", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "0FB2925D195E10B7", item: { components: { "apotheosis:gem": "apotheosis:core/solar", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "4BDB74A17800236C", item: { components: { "apotheosis:gem": "apotheosis:core/splendor", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "52EBE673092A70E4", item: { components: { "apotheosis:gem": "apotheosis:core/tyrannical", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "1CD4264F1BB132A2", item: { components: { "apotheosis:gem": "apotheosis:core/warlord", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "07AE5FA61B033F67", item: { components: { "apotheosis:gem": "apotheosis:overworld/earth", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "0A53A7B5F420EE51", item: { components: { "apotheosis:gem": "apotheosis:overworld/royalty", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "0CFAD8F0B1DCF71F", item: { components: { "apotheosis:gem": "apotheosis:the_end/endersurge", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "2153C0C28C5D8A43", item: { components: { "apotheosis:gem": "apotheosis:the_end/mageslayer", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "4E0F4A816BAD01C6", item: { components: { "apotheosis:gem": "apotheosis:the_nether/blood_lord", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "6899E00C5AC08FF1", item: { components: { "apotheosis:gem": "apotheosis:the_nether/inferno", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+	]
+	use_title: true
+}

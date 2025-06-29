@@ -1,0 +1,330 @@
+{
+	icon: {
+		id: "functionalstorage:oak_1"
+	}
+	id: "0BCFC3959C93667A"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Box of Storage Parts"
+		string_id: "storage_box"
+	}
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			id: "362763E8748D953B"
+			item: {
+				count: 1
+				id: "ae2:item_storage_cell_1k"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "2F8EDA73BBF6615A"
+			item: {
+				count: 1
+				id: "ae2:item_storage_cell_4k"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "2403BF4FF3AAFCF7"
+			item: {
+				count: 1
+				id: "ae2:item_storage_cell_16k"
+			}
+			weight: 10.0f
+		}
+		{ id: "3E1D91B14B06A83F", item: { count: 1, id: "ae2:item_storage_cell_64k" } }
+		{
+			id: "2A21F19F46AA32E7"
+			item: {
+				count: 1
+				id: "functionalstorage:compacting_drawer"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "0C582B9CD2970068"
+			item: {
+				count: 1
+				id: "functionalstorage:storage_controller"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "1C9004D580EDE305"
+			item: {
+				count: 1
+				id: "functionalstorage:controller_extension"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "7B513398323D3859"
+			item: {
+				count: 1
+				id: "functionalstorage:simple_compacting_drawer"
+			}
+			weight: 50.0f
+		}
+		{
+			count: 2
+			id: "5C777EBF6E1831E3"
+			item: {
+				count: 1
+				id: "functionalstorage:ender_drawer"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "25C41CF6F11AD9CA"
+			item: {
+				components: {
+					"sophisticatedstorage:wood_type": "oak"
+				}
+				count: 1
+				id: "sophisticatedstorage:iron_chest"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "29B3A3E0C8854261"
+			item: {
+				components: {
+					"sophisticatedstorage:wood_type": "oak"
+				}
+				count: 1
+				id: "sophisticatedstorage:gold_chest"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "3D67240087446B79"
+			item: {
+				components: {
+					"sophisticatedstorage:wood_type": "oak"
+				}
+				count: 1
+				id: "sophisticatedstorage:diamond_chest"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "5CA553781B989F4A"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:stack_upgrade_tier_1"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "17C71B995270EA71"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:stack_upgrade_tier_2"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "7B744A8ABF016698"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:stack_upgrade_tier_3"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "5BCAC3C56B9ADDAB"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:void_upgrade"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "1B17BC96526B6A1F"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:crafting_upgrade"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "2DB2F049E8B8423C"
+			item: {
+				count: 1
+				id: "pocketstorage:psu_1"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "32041719D96D8299"
+			item: {
+				count: 1
+				id: "pocketstorage:psu_2"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "6507480538B1A3F0"
+			item: {
+				count: 1
+				id: "pocketstorage:psu_3"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "3FE84D90B91C7225"
+			item: {
+				count: 1
+				id: "functionalstorage:copper_upgrade"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "6E848D3EED68742E"
+			item: {
+				count: 1
+				id: "functionalstorage:gold_upgrade"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "24C9DAF3C9FD879C"
+			item: {
+				count: 1
+				id: "functionalstorage:diamond_upgrade"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "316C7EA31E9EF6BD"
+			item: {
+				count: 1
+				id: "functionalstorage:void_upgrade"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "50CCDF79855D81FF"
+			item: {
+				count: 1
+				id: "ars_nouveau:archwood_chest"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "2A5821E25CC41371"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:crafting_upgrade"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "06D7A2C5B58BAC7A"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:magnet_upgrade"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "358FF1FBF94AB24B"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:feeding_upgrade"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "47E18A11E34C500B"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "5183E52DCC726DC4"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "28124159F0658403"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "6426C64394E12847"
+			item: {
+				count: 1
+				id: "minecraft:chest"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "044A0FF553962E55"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:basic_tier_upgrade"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "4AE6A7AA1D9BCB0B"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "3986D272995FC0D5"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "2370D4B4846878D1"
+			item: {
+				count: 1
+				id: "refinedstorage:1k_storage_disk"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "677E008BE1B8A791"
+			item: {
+				count: 1
+				id: "refinedstorage:4k_storage_disk"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "077FCE57DF167491"
+			item: {
+				count: 1
+				id: "refinedstorage:16k_storage_disk"
+			}
+			weight: 10.0f
+		}
+		{ id: "02F289DA952938F3", item: { count: 1, id: "refinedstorage:64k_storage_disk" } }
+	]
+	use_title: true
+}

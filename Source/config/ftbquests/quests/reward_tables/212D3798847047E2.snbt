@@ -1,0 +1,44 @@
+{
+	icon: {
+		id: "enderio:yeta_wrench"
+	}
+	id: "212D3798847047E2"
+	loot_size: 1
+	order_index: 45
+	rewards: [
+		{
+			count: 64
+			id: "1711A46FCCFCA0E7"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:ender_energy"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+		{
+			count: 64
+			id: "65DE8B8A319DFEAB"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:ender_fluid"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+		{
+			count: 64
+			id: "4F8FD7FEC62A3B68"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:ender_chemical"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+		}
+	]
+	use_title: true
+}

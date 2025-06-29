@@ -1,0 +1,43 @@
+{
+	icon: {
+		id: "pipez:wrench"
+	}
+	id: "221F2A0942F0D722"
+	loot_size: 1
+	order_index: 40
+	rewards: [
+		{
+			count: 8
+			id: "2AA5518CF8170C23"
+			item: {
+				count: 1
+				id: "pipez:item_pipe"
+			}
+		}
+		{
+			count: 8
+			id: "0E2F73B8DBD39034"
+			item: {
+				count: 1
+				id: "pipez:fluid_pipe"
+			}
+		}
+		{
+			count: 8
+			id: "56C5FE7BEFFA8C25"
+			item: {
+				count: 1
+				id: "pipez:energy_pipe"
+			}
+		}
+		{
+			count: 8
+			id: "31E6299A185A7272"
+			item: {
+				count: 1
+				id: "pipez:gas_pipe"
+			}
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,19 @@
+{
+	icon: {
+		id: "ae2:item_storage_cell_16k"
+	}
+	id: "3DCF21A4C3549B6A"
+	loot_size: 1
+	order_index: 37
+	rewards: [
+		{ id: "0A1A2664F35E9B42", item: { count: 1, id: "ae2things:disk_drive_16k" } }
+		{ id: "21F120493FB3E948", item: { count: 1, id: "ae2:item_storage_cell_16k" } }
+		{ id: "4F95349FF6827D9C", item: { count: 1, id: "enderdrives:ender_disk_16k" } }
+		{ id: "1FABBD40EED43E48", item: { count: 1, id: "ae2:fluid_storage_cell_16k" } }
+		{ id: "2446BAED5FCBF8F5", item: { count: 1, id: "appflux:fe_16k_cell" } }
+		{ id: "28C3B556D11CEBAB", item: { count: 1, id: "appmek:chemical_storage_cell_16k" } }
+		{ id: "5B6D92C739C71605", item: { count: 1, id: "arseng:source_storage_cell_16k" } }
+		{ id: "10B42310234D60F4", item: { count: 1, id: "ae2:16k_crafting_storage" } }
+	]
+	use_title: true
+}

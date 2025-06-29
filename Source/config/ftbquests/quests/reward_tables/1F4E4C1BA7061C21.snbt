@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "mekanism:configurator"
+	}
+	id: "1F4E4C1BA7061C21"
+	loot_size: 1
+	order_index: 41
+	rewards: [
+		{
+			count: 8
+			id: "6F6B4C6764035796"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_universal_cable"
+			}
+		}
+		{
+			count: 8
+			id: "0E37E4ED4477A111"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_mechanical_pipe"
+			}
+		}
+		{
+			count: 8
+			id: "0120DEC3A60B8C61"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_pressurized_tube"
+			}
+		}
+		{
+			count: 8
+			id: "31010211C71376F5"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_logistical_transporter"
+			}
+		}
+		{
+			count: 8
+			id: "74E7B27EEC52B6A2"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_thermodynamic_conductor"
+			}
+		}
+	]
+	use_title: true
+}

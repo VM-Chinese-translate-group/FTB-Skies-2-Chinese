@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "modularrouters:speed_upgrade"
+	}
+	id: "786A0D3E6BEDA2C3"
+	loot_size: 1
+	order_index: 55
+	rewards: [
+		{
+			count: 3
+			id: "647D87947F17063C"
+			item: {
+				count: 1
+				id: "modularrouters:speed_upgrade"
+			}
+		}
+		{
+			count: 3
+			id: "0E44A91D6E587F6F"
+			item: {
+				count: 1
+				id: "modularrouters:stack_upgrade"
+			}
+		}
+		{
+			count: 3
+			id: "3A11895D2A1CE854"
+			item: {
+				count: 1
+				id: "modularrouters:fluid_upgrade"
+			}
+		}
+		{
+			count: 3
+			id: "1654D676CF3A870B"
+			item: {
+				count: 1
+				id: "modularrouters:energy_upgrade"
+			}
+		}
+		{
+			count: 4
+			id: "2990A44AF2611D4C"
+			item: {
+				count: 1
+				id: "modularrouters:muffler_upgrade"
+			}
+		}
+	]
+	use_title: true
+}

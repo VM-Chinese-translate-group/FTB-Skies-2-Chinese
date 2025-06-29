@@ -1,0 +1,611 @@
+{
+	autofocus_id: "773F797227054C32"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "genetics"
+	group: "3E3B6463983F18FB"
+	icon: {
+		components: {
+			"ftbquests:icon": "geneticsresequenced:item/dna_helix"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "4142E847135C4F5E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0A81E251CAB36215"]
+			id: "560BC956F5EB0000"
+			optional: true
+			rewards: [
+				{
+					id: "2484BA89BE93F778"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "745D1513CA64FC83"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "2FE4521DD9DF39B3"
+				item: { count: 1, id: "geneticsresequenced:coal_generator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["126B2AC119617AD0"]
+			icon: {
+				id: "geneticsresequenced:cell_analyzer"
+			}
+			id: "0A81E251CAB36215"
+			rewards: [
+				{
+					id: "0255C14F07E020A7"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "35C08269D5E75B61"
+					item: {
+						count: 1
+						id: "geneticsresequenced:overclocker"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EB57FEBE2E1DB18"
+					table_id: 1967739393353469521L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "72A79BEB34964D27"
+					item: { count: 1, id: "geneticsresequenced:cell_analyzer" }
+					type: "item"
+				}
+				{
+					id: "6C0FB893E84A3A56"
+					item: { count: 1, id: "geneticsresequenced:overclocker" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0444EF9A04406894"]
+			id: "190616DB4087BDE9"
+			rewards: [
+				{
+					count: 3
+					id: "78D7385038FB3DC0"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38283834335C2805"
+					table_id: 1967739393353469521L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6AC050B08761F6BE"
+				item: { count: 1, id: "geneticsresequenced:dna_extractor" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["190616DB4087BDE9"]
+			id: "64BAFDA004F32960"
+			rewards: [
+				{
+					count: 3
+					id: "04762D764A642B93"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2808029559B4A5AD"
+					table_id: 1967739393353469521L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5DE7156A50E46046"
+				item: { count: 1, id: "geneticsresequenced:dna_decryptor" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1454D836D282A9C3"]
+			id: "5CB6AE8F5F9A1211"
+			rewards: [
+				{
+					id: "68E060895F22C5BB"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "309DF882A1BF5A3D"
+					table_id: 1967739393353469521L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "591902D2D8F91015"
+				item: { count: 1, id: "geneticsresequenced:blood_purifier" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64AF17DD741E9301"]
+			id: "173411DE23DFB758"
+			rewards: [
+				{
+					id: "1D966D491C2E1D8C"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E9A2C4BACEF2F19"
+					table_id: 1967739393353469521L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E463ECC670B3E5D"
+				item: { count: 1, id: "geneticsresequenced:plasmid_infuser" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5CB6AE8F5F9A1211"
+				"64AF17DD741E9301"
+			]
+			id: "05D58770A092F5E6"
+			rewards: [
+				{
+					id: "4AF96D8C1EDFEE8B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15B9333AD079ECC8"
+					table_id: 1967739393353469521L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "35C696A19F0B331C"
+				item: { count: 1, id: "geneticsresequenced:plasmid_injector" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["773F797227054C32"]
+			hide_dependency_lines: true
+			id: "17B4FE9A8136B16A"
+			rewards: [
+				{
+					id: "610CB2C0223F7EC2"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23C1388B635A79C8"
+					table_id: 1967739393353469521L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "74AF46BE237658D4"
+				item: { count: 1, id: "geneticsresequenced:incubator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17B4FE9A8136B16A"]
+			id: "7C3455DD09527D90"
+			rewards: [
+				{
+					count: 3
+					id: "31A6945E09760F41"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24BBF517710E481B"
+					table_id: 1967739393353469521L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F01098C08DB20F2"
+				item: { count: 1, id: "geneticsresequenced:advanced_incubator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["773F797227054C32"]
+			hide_dependency_lines: true
+			icon: {
+				id: "geneticsresequenced:syringe"
+			}
+			id: "1454D836D282A9C3"
+			rewards: [
+				{
+					count: 3
+					id: "4FA0EED4161DC975"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "01EBA336F8ED90D5"
+					item: {
+						count: 1
+						id: "geneticsresequenced:syringe"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1BD36BE9A2D8BA24"
+					item: { count: 1, id: "geneticsresequenced:syringe" }
+					type: "item"
+				}
+				{
+					id: "43B063309D5F934B"
+					item: { count: 1, id: "geneticsresequenced:metal_syringe" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "773F797227054C32"
+			rewards: [
+				{
+					id: "156AB1E878A4F306"
+					item: {
+						components: {
+							"patchouli:book": "geneticsresequenced:guide"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+				{
+					id: "5816FFF538D4D6D0"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "47517140680DA49F"
+				item: { count: 1, id: "geneticsresequenced:scraper" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["173411DE23DFB758"]
+			id: "7D775D72987F0F47"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "2293C6B8C2885CB0"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5EF962B863C40F23"
+				item: { count: 1, id: "geneticsresequenced:gene_checker" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"190616DB4087BDE9"
+				"7C3455DD09527D90"
+			]
+			icon_scale: 1.25d
+			id: "33C257571749A2EF"
+			rewards: [
+				{
+					id: "61332DAD0362FF4A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20FEABBBB6296D70"
+					table_id: 1967739393353469521L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "574A5C7FB8C33496"
+				item: { count: 1, id: "geneticsresequenced:gmo_cell" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["646C60B4094F3671"]
+			icon: {
+				id: "geneticsresequenced:plasmid"
+			}
+			id: "64AF17DD741E9301"
+			rewards: [
+				{
+					id: "6885E400BE5C5A49"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AD19C0BD3FDF0C0"
+					table_id: 1967739393353469521L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "46AC0F87BF70E606"
+				item: { count: 1, id: "geneticsresequenced:plasmid" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["173411DE23DFB758"]
+			hide_dependency_lines: true
+			icon: {
+				id: "geneticsresequenced:anti_field_orb"
+			}
+			id: "74586CD5CF7512DD"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "517D96030DDFB0AF"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "77CB3C2133C61F53"
+					item: { count: 1, id: "geneticsresequenced:anti_field_orb" }
+					type: "item"
+				}
+				{
+					id: "336FD45DC43CED9E"
+					item: { count: 1, id: "geneticsresequenced:anti_field_block" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["773F797227054C32"]
+			id: "126B2AC119617AD0"
+			rewards: [
+				{
+					id: "045798F81633D9C3"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "410E057C74C6BD8E"
+					table_id: 1967739393353469521L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "17DB138008247A17"
+				item: { components: { "geneticsresequenced:entity_type": "minecraft:pig" }, count: 1, id: "geneticsresequenced:organic_matter" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0A81E251CAB36215"]
+			icon_scale: 1.25d
+			id: "0444EF9A04406894"
+			rewards: [
+				{
+					id: "0219534706CC2B38"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EB152C4972D40D1"
+					table_id: 1967739393353469521L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "33FF1E686010FE58"
+				item: { components: { "geneticsresequenced:entity_type": "minecraft:pig" }, count: 1, id: "geneticsresequenced:cell" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"64BAFDA004F32960"
+				"33C257571749A2EF"
+			]
+			dependency_requirement: "one_completed"
+			id: "646C60B4094F3671"
+			rewards: [
+				{
+					id: "416FDD8031BA139B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C290EA5D1E475BD"
+					table_id: 1967739393353469521L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "1F130750AFD84FFB"
+				item: { components: { "geneticsresequenced:gene": "geneticsresequenced:basic" }, count: 1, id: "geneticsresequenced:dna_helix" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["173411DE23DFB758"]
+			id: "5FDA7663267368F9"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "3AFF0592C8F1C4AF"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3F5CC469C2DD5ACB"
+				item: { count: 1, id: "geneticsresequenced:anti_plasmid" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.5d
+		}
+	]
+}

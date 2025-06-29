@@ -1,0 +1,19 @@
+{
+	icon: {
+		components: {
+			"titanium:augments": {
+				Speed: 3.0f
+			}
+		}
+		id: "industrialforegoing:speed_addon_tier_2"
+	}
+	id: "67FFE8A964083E77"
+	loot_size: 1
+	order_index: 53
+	rewards: [
+		{ id: "58D60E5A11899135", item: { components: { "titanium:augments": { Speed: 3.0f } }, count: 1, id: "industrialforegoing:speed_addon_tier_2" } }
+		{ id: "486891039B93AFCB", item: { components: { "titanium:augments": { Efficiency: 0.8f } }, count: 1, id: "industrialforegoing:efficiency_addon_tier_2" } }
+		{ id: "2BA57599FA214B62", item: { components: { "titanium:augments": { Processing: 3.0f } }, count: 1, id: "industrialforegoing:processing_addon_tier_2" } }
+	]
+	use_title: true
+}

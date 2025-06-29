@@ -1,0 +1,734 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "factory_blocks:block/fan/medium_fan"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "5980398643E65CBF"
+	loot_crate: {
+		color: 5592575
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Box of Old Tech Parts"
+		string_id: "technology_bundle"
+	}
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 2
+			id: "7E38B1CCB7E2DD4D"
+			item: {
+				count: 1
+				id: "mekanism:quantum_entangloporter"
+			}
+		}
+		{
+			id: "31869FD58FD8D93E"
+			item: {
+				count: 1
+				id: "ae2:flawless_budding_quartz"
+			}
+			weight: 50.0f
+		}
+		{
+			count: 2
+			id: "496B9824F500EB24"
+			item: {
+				count: 1
+				id: "hostilenetworks:overworld_prediction"
+			}
+			random_bonus: 2
+			weight: 75.0f
+		}
+		{
+			count: 2
+			id: "2BBFDD6F164723D5"
+			item: {
+				count: 1
+				id: "hostilenetworks:nether_prediction"
+			}
+			random_bonus: 2
+			weight: 50.0f
+		}
+		{
+			count: 2
+			id: "7148692EAC67C733"
+			item: {
+				count: 1
+				id: "hostilenetworks:end_prediction"
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{
+			count: 8
+			id: "7B96B720898DE612"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:energy"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+			weight: 50.0f
+		}
+		{
+			count: 8
+			id: "66FC9FAEA46118E0"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:enhanced_energy"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 8
+			id: "2E49887BC2C598A0"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_universal_cable"
+			}
+			weight: 50.0f
+		}
+		{
+			count: 8
+			id: "36D2A5BD2C53AACB"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_pressurized_tube"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 8
+			id: "37990DAD60C222A4"
+			item: {
+				count: 1
+				id: "pipez:universal_pipe"
+			}
+			weight: 50.0f
+		}
+		{
+			count: 8
+			id: "684AC7297E1400D1"
+			item: {
+				count: 1
+				id: "pipez:item_pipe"
+			}
+			weight: 50.0f
+		}
+		{
+			count: 8
+			id: "18C4115BA832E7C0"
+			item: {
+				count: 1
+				id: "pipez:energy_pipe"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "5809486F20E97A1C"
+			item: {
+				count: 1
+				id: "pipez:basic_upgrade"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "7FEA0289AE298013"
+			item: {
+				count: 1
+				id: "pipez:improved_upgrade"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "2D17FCAB14A35E98"
+			item: {
+				count: 1
+				id: "pipez:advanced_upgrade"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "29B62ED4C13772AE"
+			item: {
+				count: 1
+				id: "pipez:ultimate_upgrade"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "3DF241DA3A0170B2"
+			item: {
+				count: 1
+				id: "powah:thermo_generator_basic"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "1424554064F62E23"
+			item: {
+				count: 1
+				id: "mekanismgenerators:gas_burning_generator"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "7B69BA65DBDDE9B7"
+			item: {
+				count: 1
+				id: "mekanismgenerators:bio_generator"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "43BFF49F880A46E2"
+			item: {
+				count: 1
+				id: "mekanismgenerators:advanced_solar_generator"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "6B08353C9F176F48"
+			item: {
+				count: 1
+				id: "mekanismgenerators:solar_generator"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "743960B496A2BD76"
+			item: {
+				count: 1
+				id: "mekanismgenerators:heat_generator"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "4DDDB002244DD852"
+			item: {
+				count: 1
+				id: "mekanismgenerators:wind_generator"
+			}
+			weight: 50.0f
+		}
+		{
+			count: 8
+			id: "23D52C7120B3AB1B"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:ender_energy"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 8
+			id: "36319EF37BC2F643"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:item"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "5D16D55CA8A08796"
+			item: {
+				count: 1
+				id: "xycraft_machines:stake"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "7753685F000DB8FD"
+			item: {
+				count: 1
+				id: "simplemagnets:basicmagnet"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 36
+			id: "7765B86835306C3D"
+			item: {
+				count: 1
+				id: "powah:reactor_basic"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "31125AF571A75613"
+			item: {
+				count: 1
+				id: "powah:player_transmitter_starter"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "7DA9BD7E38C6DA57"
+			item: {
+				count: 1
+				id: "powah:energy_cell_basic"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 2
+			id: "5CAC256DD0938888"
+			item: {
+				count: 1
+				id: "powah:ender_gate_basic"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "5A3C17B6BC3F57BA"
+			item: {
+				count: 1
+				id: "pneumaticcraft:security_upgrade"
+			}
+			random_bonus: 3
+			weight: 20.0f
+		}
+		{
+			id: "68DFDED42C6B15E6"
+			item: {
+				count: 1
+				id: "pneumaticcraft:compressed_iron_block"
+			}
+			random_bonus: 3
+			weight: 25.0f
+		}
+		{
+			id: "458DF3D9326855E8"
+			item: {
+				count: 1
+				id: "modularrouters:modular_router"
+			}
+			random_bonus: 3
+			weight: 25.0f
+		}
+		{
+			count: 6
+			id: "09D66259C4B28A4D"
+			item: {
+				count: 1
+				id: "modularrouters:speed_upgrade"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 6
+			id: "78A237A46B854996"
+			item: {
+				count: 1
+				id: "modularrouters:stack_upgrade"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "7ED4978F052D6785"
+			item: {
+				count: 1
+				id: "mininggadgets:mininggadget_simple"
+			}
+			weight: 10.0f
+		}
+		{ id: "16A6270E8ED79463", item: { count: 1, id: "mekanism:pellet_antimatter" } }
+		{
+			count: 8
+			id: "2C52C0F266AEF24B"
+			item: {
+				count: 1
+				id: "minecraft:slime_ball"
+			}
+			random_bonus: 24
+			weight: 50.0f
+		}
+		{
+			id: "1B74B88CCD29230A"
+			item: {
+				count: 1
+				id: "justdirethings:generatorfluidt1"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "23657B9125C72870"
+			item: {
+				count: 1
+				id: "justdirethings:energytransmitter"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "536D66DE7EE2EFB7"
+			item: {
+				count: 1
+				id: "justdirethings:upgrade_orescanner"
+			}
+			weight: 10.0f
+		}
+		{ id: "0309DBAE620163B2", item: { count: 1, id: "justdirethings:portalgun" } }
+		{
+			id: "0A6518FCB4DB3892"
+			item: {
+				count: 1
+				id: "ironfurnaces:diamond_furnace"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "6354A41A60B40444"
+			item: {
+				count: 1
+				id: "buildinggadgets2:gadget_building"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "404FE1AF4BFBC585"
+			item: {
+				count: 1
+				id: "justdirethings:generatort1"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "082FB39EDEDA293F"
+			item: {
+				count: 1
+				id: "justdirethings:itemcollector"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "45B594FDEC93B67A"
+			item: {
+				count: 1
+				id: "mekanism:basic_smelting_factory"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "4AA48B716478E3F7"
+			item: {
+				count: 1
+				id: "mekanism:basic_fluid_tank"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "0FF83B0C51AE0AF7"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;16000000L]
+					}
+				}
+				count: 1
+				id: "mekanism:advanced_energy_cube"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "42D68E90C6EBB6AB"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;4000000L]
+					}
+				}
+				count: 1
+				id: "mekanism:basic_energy_cube"
+			}
+			weight: 50.0f
+		}
+		{
+			count: 4
+			id: "6AD6DC658AF31E36"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+			random_bonus: 4
+			weight: 75.0f
+		}
+		{
+			count: 4
+			id: "253A3788F005F961"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+			random_bonus: 4
+			weight: 75.0f
+		}
+		{
+			id: "2274599FDA9604EC"
+			item: {
+				count: 1
+				id: "powah:energy_cell_hardened"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 8
+			id: "337ACB956DFAC378"
+			item: {
+				count: 1
+				id: "powah:energy_cable_blazing"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 2
+			id: "4DBD043032E7ECA7"
+			item: {
+				count: 1
+				id: "powah:ender_gate_hardened"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "461AE38676870D59"
+			item: {
+				count: 1
+				id: "powah:furnator_hardened"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "31E949A5908E3869"
+			item: {
+				count: 1
+				id: "powah:magmator_hardened"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "628B762A68BB1EAB"
+			item: {
+				count: 1
+				id: "powah:thermo_generator_hardened"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 36
+			id: "04DBD05274F7030B"
+			item: {
+				count: 1
+				id: "powah:reactor_basic"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "40A088130D8A1AF6"
+			item: {
+				count: 1
+				id: "powah:solar_panel_hardened"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "0EA8578FF3FAC053"
+			item: {
+				count: 1
+				id: "mekanism_turrets:ultimate_laser_turret"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "418E9FB166BB4A81"
+			item: {
+				count: 1
+				id: "itemcollectors:advanced_collector"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "26A3B5B714CABC3F"
+			item: {
+				count: 1
+				id: "mekanism:basic_induction_cell"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "00769D60B126700C"
+			item: {
+				count: 1
+				id: "mekanism:basic_induction_provider"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "1B9A570729DC7E52"
+			item: {
+				count: 1
+				id: "modern_industrialization:superconductor_cable"
+			}
+			random_bonus: 8
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "2A27EF08B3DDA5E4"
+			item: {
+				count: 1
+				id: "modern_industrialization:me_wire"
+			}
+			random_bonus: 16
+			weight: 25.0f
+		}
+		{
+			count: 12
+			id: "1A8F56B8C24CB165"
+			item: {
+				count: 1
+				id: "modern_industrialization:capacitor"
+			}
+			random_bonus: 8
+			weight: 25.0f
+		}
+		{
+			count: 4
+			id: "7D77402C8526E7AF"
+			item: {
+				count: 1
+				id: "modern_industrialization:resistor"
+			}
+			random_bonus: 8
+			weight: 25.0f
+		}
+		{
+			count: 4
+			id: "22EF9B8EA6EE8CDF"
+			item: {
+				count: 1
+				id: "modern_industrialization:basic_upgrade"
+			}
+			random_bonus: 8
+			weight: 50.0f
+		}
+		{
+			count: 2
+			id: "2B8D091CF4FBDF05"
+			item: {
+				count: 1
+				id: "modern_industrialization:advanced_upgrade"
+			}
+			random_bonus: 4
+			weight: 25.0f
+		}
+		{
+			count: 2
+			id: "2CD5C52AF9599C12"
+			item: {
+				count: 1
+				id: "modern_industrialization:steel_upgrade"
+			}
+			random_bonus: 2
+			weight: 50.0f
+		}
+		{
+			count: 2
+			id: "4B50F07BD09AE532"
+			item: {
+				count: 1
+				id: "modern_industrialization:analog_circuit"
+			}
+			random_bonus: 4
+			weight: 25.0f
+		}
+		{
+			count: 12
+			id: "25C1D737DECF95B9"
+			item: {
+				count: 1
+				id: "modern_industrialization:steel_machine_casing"
+			}
+			random_bonus: 12
+			weight: 25.0f
+		}
+		{
+			count: 12
+			id: "4843A8693CE21D9B"
+			item: {
+				count: 1
+				id: "modern_industrialization:fluid_pipe"
+			}
+			random_bonus: 12
+			weight: 25.0f
+		}
+		{
+			count: 4
+			id: "28B2CF2EDDAE7424"
+			item: {
+				count: 1
+				id: "modern_industrialization:motor"
+			}
+			random_bonus: 8
+			weight: 25.0f
+		}
+		{
+			count: 4
+			id: "5CD9960F6EDBDEF5"
+			item: {
+				count: 1
+				id: "modern_industrialization:pump"
+			}
+			random_bonus: 8
+			weight: 25.0f
+		}
+		{
+			count: 2
+			id: "43DC6A737DC8A299"
+			item: {
+				count: 1
+				id: "modern_industrialization:electronic_circuit"
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{
+			count: 8
+			id: "18E17354486B2531"
+			item: {
+				count: 1
+				id: "ftbmaterials:aluminum_ingot"
+			}
+			random_bonus: 16
+			weight: 25.0f
+		}
+		{
+			count: 16
+			id: "473408F54DA9D85F"
+			item: {
+				count: 1
+				id: "ftbmaterials:bronze_ingot"
+			}
+			random_bonus: 32
+			weight: 25.0f
+		}
+	]
+	use_title: true
+}

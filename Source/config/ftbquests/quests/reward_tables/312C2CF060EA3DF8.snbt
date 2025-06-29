@@ -1,0 +1,23 @@
+{
+	icon: {
+		id: "fargostalismans:ankh_shield"
+	}
+	id: "312C2CF060EA3DF8"
+	loot_size: 1
+	order_index: 57
+	rewards: [
+		{ id: "1B20E0A4B294328C", item: { count: 1, id: "fargostalismans:ankh_shield" } }
+		{ id: "6D2BCF7D64D9FF13", item: { count: 1, id: "fargostalismans:bee_cloak" } }
+		{ id: "74A14164D1995E49", item: { count: 1, id: "fargostalismans:brain_of_confusion" } }
+		{ id: "3CB7E085644E47FD", item: { count: 1, id: "fargostalismans:charm_of_myths" } }
+		{ id: "48651984352D1B9A", item: { count: 1, id: "fargostalismans:frozen_shield" } }
+		{ id: "73B0A7371C18A075", item: { count: 1, id: "fargostalismans:hand_warmer" } }
+		{ id: "433E967F4E040583", item: { count: 1, id: "fargostalismans:hero_shield" } }
+		{ id: "024BC67AF92FCB27", item: { count: 1, id: "fargostalismans:obsidian_horseshoe" } }
+		{ id: "4BFB038C384EFA07", item: { count: 1, id: "fargostalismans:pocket_mirror" } }
+		{ id: "7635613E4AD6CFD1", item: { count: 1, id: "fargostalismans:shiny_stone" } }
+		{ id: "0E29F5A3D6FBC91B", item: { count: 1, id: "fargostalismans:star_veil" } }
+		{ id: "5CE4B877862359C6", item: { count: 1, id: "fargostalismans:worm_scarf" } }
+	]
+	use_title: true
+}

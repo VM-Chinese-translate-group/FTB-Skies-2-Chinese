@@ -3126,6 +3126,9 @@
 	quest.1F09A28387DA18A6.title: "&fNBT Tags \\&\\ Storage Logistics"
 	quest.1F0ADF87B63B50AC.quest_subtitle: "Lightning Set"
 	quest.1F0ADF87B63B50AC.title: "&3Electromancer Set"
+	quest.1F0C3CD47947DA8D.quest_desc: ["If something happens to you, you may lose your &ePortable Shrinking Device&r. In the compact machine start, this can be tragic, so have one on us."]
+	quest.1F0C3CD47947DA8D.quest_subtitle: "Oh no!"
+	quest.1F0C3CD47947DA8D.title: "PSD PTSD"
 	quest.1F2E5FBD59466D57.quest_desc: [
 		"The &aFluid Module&r allows the &dRouter&r to handle fluids, as long as it has some kind of storage item in the buffer like a &aBucket&r or a &aTank&r."
 		""
@@ -3900,7 +3903,7 @@
 	]
 	quest.26EA309139C7C27E.title: "&fThe &aFurnace"
 	quest.26ECC091E6B3FA57.quest_desc: [
-		"You can find &dAzure Silver Ore&r in the End."
+		"&dAzure Silver&r can be obtained through bees."
 		""
 		"This ore requires a harvest tier of Netherite to mine. This metal is mostly used to craft &dAzure Electrum Ingots&r."
 	]
@@ -4127,7 +4130,7 @@
 	]
 	quest.29CEF5D43415B227.title: "&dWarping Source"
 	quest.29E2CEADF6720EB3.quest_desc: [
-		"&cCrimson Iron Ore&r can be found in the Nether at most heights."
+		"&cCrimson Iron Ore&r can be obtained from bees."
 		""
 		"While it has decent stats, a &cCrimson Iron Tip Upgrade&r can grant a tool Auto-Smelt!"
 		""
@@ -4572,7 +4575,7 @@
 		""
 		"Need to teleport to a waystone while out in the wild? Make a &dWarp Stone&r to access all of your waystones!"
 	]
-	quest.2E30AE23A0602A0A.title: "&bGetting Around"
+	quest.2E30AE23A0602A0A.title: "&bFast Travel"
 	quest.2E3D059E42C0BB35.quest_desc: [
 		"&bBrooms&r are powerful transportation tools that allow flight whenever they have a &bBrush&r attachment."
 		""
@@ -6483,7 +6486,7 @@
 	quest.3F80D4097EA8C49B.quest_desc: [
 		"Dripping fluids slowly and steadily onto different materials is a very useful tactic."
 		""
-		"By using a bowl to scoop just a little water out at a time from what's around, it can be placed in the Dripper to break down leaves into more water and convert other materials!"
+		"By clicking a bowl on a water source, it turns into a bowl of water, which can be placed in the Dripper to break down leaves into more water and convert other materials!"
 		""
 		"Another sneakier way to make more water is to use bonemeal underneath flowing water. If there's enough space, seagrass will grow and make the water into full sources!"
 	]
@@ -7528,6 +7531,12 @@
 	quest.4A707D443EC2DE33.title: "&6Functional Drawers"
 	quest.4A7198127F58DA94.quest_desc: ["&aLogic Directors&r are used to craft advanced network components."]
 	quest.4A7198127F58DA94.title: "&fLogic Director"
+	quest.4A7A15ECB8ABDF88.quest_desc: [
+		"&7Zinc&r is a crucial part of Create progression. So how do you get it?"
+		""
+		"You have several options. You can hammer tuff on a cutting board, sure. But you can &bexplore&r, use &2GeOres&r, breed &eZinc Bees&r, or go into &dMalum&r, You may even find another way!"
+	]
+	quest.4A7A15ECB8ABDF88.title: "Where is the Zinc?"
 	quest.4AB10BE58B13DBDD.title: "&eAE2 1k Disk Bundle"
 	quest.4AB3FD2B686C1F10.quest_desc: [
 		"A standard chalice gives +1x base power"
@@ -12172,6 +12181,19 @@
 	quest.7D22824ADC29DA26.quest_desc: ["This small island forms out in the void, where oversized crystal crabs spawn near an altar dedicated to their kind."]
 	quest.7D22824ADC29DA26.quest_subtitle: "Time for crab"
 	quest.7D22824ADC29DA26.title: "Come Across a &dCherry Island"
+	quest.7D2375372CF328C3.quest_desc: [
+		"Eager to explore the great void? There is one item that can help a lot: A few stacks of &6Burning Dash Scrolls&r!"
+		""
+		"Throw a single piece of paper into a &6fire&r to make a &6Burning Dash Scroll&r."
+		""
+		"Everything you need to make these can be automated right now:"
+		"- &2Dispensers&r can light &6fires&r with &7flint and steel&r, break &asugarcane&r with &bwater,&r or toss items."
+		"- &2Hoppers&r under &2mud&r can still pick up items."
+		"- &2Snad&r, when directly pulsed with redstone, causes &asugarcane&r to grow quite fast."
+		""
+		"Warning: &cThrow only one piece of paper! Using more will waste the rest of the stack!&r"
+	]
+	quest.7D2375372CF328C3.title: "Air Dash"
 	quest.7D23D1C9DE75721F.title: "&fKill 20 &cSkeletons"
 	quest.7D3A5740B5857874.quest_desc: [
 		"The &dSecurity Manager&r allows you to control who has access to different network functions."
@@ -12795,6 +12817,7 @@
 	task.18A648FD1DB785BB.title: "Compacting Upgrade"
 	task.18BBCE523EABE49C.title: "Coal"
 	task.19039CC0F9AB1E54.title: "Any #minecraft:logs"
+	task.196A4B2F83C7B04E.title: "Have a Tragic Accident"
 	task.19FEB64A680EC482.title: "MI Fluid Pipes"
 	task.1A3819027110CDC5.title: "&fSummon a &aCommon Animal"
 	task.1A4A5A59FFF815E2.title: "&cHeater&r"

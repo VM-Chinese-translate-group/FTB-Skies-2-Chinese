@@ -1,0 +1,761 @@
+{
+	autofocus_id: "12468F8BF7B80737"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: "hexagon"
+	filename: "the_travelers_quest"
+	group: "293B0513F4340751"
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:block/nether_portal"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "24B8C5083DAC9280"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lava_still"
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			height: 4.0d
+			image: "ftb:textures/quests/titles_and_logos/travelers_quest_logo.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.422222222222222d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 4.0d
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.6d
+			image: "irons_spellbooks:textures/entity/acid_orb/acid_orb.png"
+			rotation: 45.0d
+			width: 1.6d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			height: 2.5d
+			image: "irons_spellbooks:block/cinderous_soul_rune"
+			order: -9
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			height: 5.0d
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle1.png"
+			order: -9
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			color: 5636095
+			height: 6.0d
+			image: "malum:item/geas/pact_of_the_berserker"
+			order: -10
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.4d
+			image: "malum:textures/mob_effect/rejected.png"
+			rotation: 0.0d
+			width: 1.4d
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	order_index: 4
+	quest_links: [
+		{
+			id: "41205D7519567E72"
+			linked_quest: "447242EAC91413A9"
+			shape: "diamond"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "7184BB30527E8170"
+			linked_quest: "7768A4D80488E53D"
+			shape: "diamond"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "71A1B77A36280588"
+			linked_quest: "781D7DA09E444B95"
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	quests: [
+		{
+			id: "12468F8BF7B80737"
+			min_width: 250
+			rewards: [{
+				id: "5C4ADDC7F82B8A3E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7EAA8ABB633CEEE1"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2B4392602E94D3D8"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A201DC82D5E095B"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+				{
+					id: "71199E855CB820FE"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "fargostalismans:item/master_ninja_gear"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "6F50B64460D2EC3D"
+				structure: "ftb:fargo"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:cherry_sapling"
+			}
+			id: "2444739C768D6C1A"
+			rewards: [
+				{
+					id: "4712B166F8C20033"
+					item: {
+						components: {
+							"minecraft:entity_data": {
+								id: "minecraft:painting"
+								variant: "ftb:skies2"
+							}
+						}
+						count: 1
+						id: "minecraft:painting"
+					}
+					type: "item"
+				}
+				{
+					id: "6E6FEC69740098C1"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				icon: {
+					id: "minecraft:cherry_log"
+				}
+				id: "4FC3BC8A7A312F41"
+				structure: "ftb:skyvillage"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				id: "minecraft:crimson_fungus"
+			}
+			id: "43332C74EA1B94AB"
+			rewards: [
+				{
+					id: "4C6FB27591D2A59F"
+					item: {
+						components: {
+							"minecraft:entity_data": {
+								id: "minecraft:painting"
+								variant: "ftb:skies2_night"
+							}
+						}
+						count: 1
+						id: "minecraft:painting"
+					}
+					type: "item"
+				}
+				{
+					id: "577F532F44624765"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:crimson_stem"
+					}
+					id: "0290B3120DAD48ED"
+					optional_task: true
+					structure: "ftb:crimson_sky_village"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "minecraft:warped_stem"
+					}
+					id: "176957689D9994FC"
+					optional_task: true
+					structure: "ftb:warped_sky_village"
+					type: "structure"
+				}
+			]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:abyssal_sacrifice"
+			}
+			id: "67D1E0D81B2C5D8D"
+			rewards: [{
+				id: "403D8518392C545A"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5C3A03650166A961"
+					structure: "ftb:water_orb"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:coralssus"
+					id: "6D2BF51317854A51"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_priest"
+					id: "56F4B59903257C92"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1B4D85928A33FFE4"
+					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+					type: "item"
+				}
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "79B58E484D4196CD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "ars_additions:ancient_codex_entry"
+			}
+			id: "2EA531C50FE17444"
+			rewards: [
+				{
+					count: 2
+					id: "79203403B5E861A4"
+					item: {
+						count: 1
+						id: "ars_additions:lost_codex_entry"
+					}
+					type: "item"
+				}
+				{
+					id: "07BB12FCBBB16765"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A10DD6AAF05B8DC"
+				structure: "ftb:arcane_library"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7768A4D80488E53D"]
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:burning_ashes"
+			}
+			id: "3A084B83B8CFAACD"
+			rewards: [{
+				id: "206611DC929A9370"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1129E77967D0783F"
+					structure: "ftb:burning_arena"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:ignited_berserker"
+					id: "590BA3A3FF454C9F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ignited_revenant"
+					id: "7EA00D7548DFAE17"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ignis"
+					id: "19AAFC3C9FA8644D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:chiseled_polished_blackstone"
+			}
+			id: "5455CF5D3C37ECA9"
+			rewards: [
+				{
+					id: "7669B5E8EFA5F56E"
+					item: {
+						count: 1
+						id: "minecraft:raw_gold_block"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "162AEEF3F8C65370"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "27B5B3E2F6360E5F"
+					structure: "ftb:bastion"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "0C13FA83021AE4C5"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "irons_spellbooks:permafrost_shard"
+			}
+			id: "5003396EDC1C994E"
+			rewards: [{
+				count: 4
+				id: "4E83431EE92163D9"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F637306293D20C8"
+				structure: "ftb:cryomancer_tower"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "irons_spellbooks:fire_ale"
+			}
+			id: "1B8F8FB85E523670"
+			rewards: [{
+				count: 2
+				id: "66C7792E17A252B3"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E8A40FC83FDC270"
+				structure: "ftb:pyromancer"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "irons_spellbooks:netherward_tincture"
+			}
+			id: "21A521011401074F"
+			rewards: [{
+				count: 2
+				id: "5B9FA04B7FC49065"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B8D2EA3B6BC97C1"
+				structure: "ftb:apothecary_hut"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "cataclysm:necklace_of_the_desert"
+			}
+			id: "3CCE39C0957034B3"
+			rewards: [{
+				id: "53403C7210F89933"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "69DB26B69DC04127"
+					structure: "ftb:blazing_desert"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:koboleton"
+					id: "74534CC66FBC3BD3"
+					optional_task: true
+					type: "kill"
+					value: 2L
+				}
+			]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "minecraft:magma_block"
+			}
+			id: "45C187DEF7B60C05"
+			rewards: [
+				{
+					count: 32
+					id: "435A5B6523C12DE7"
+					item: {
+						count: 1
+						id: "ae2:sky_stone_block"
+					}
+					type: "item"
+				}
+				{
+					id: "44398FCF71CD0363"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03CB37E752FE1DD1"
+				structure: "ftb:volcano"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["447242EAC91413A9"]
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:void_core"
+			}
+			id: "040795388568AB69"
+			rewards: [{
+				id: "644A3C67367BABB0"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7D9038B9019EBFEC"
+					structure: "cataclysm:ruined_citadel"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:ender_golem"
+					id: "709D22141E914EBE"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "5B82C7AEA857BED3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:cursed_tombstone"
+			}
+			id: "4F8C7DC594972DE4"
+			rewards: [{
+				id: "75612FEA8A5007C3"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2E4D00ED273B0E08"
+					structure: "ftb:ice_castle"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:aptrgangr"
+					id: "179DE9F43A4001F3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:maledictus"
+					id: "4415E9DB78B55B97"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "minecraft:nether_bricks"
+			}
+			id: "12498DE8D427D40E"
+			rewards: [
+				{
+					count: 8
+					id: "5311D641691B566E"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+				{
+					id: "0DF33C4BCFCFA7C1"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "554CEA60D1280A89"
+				structure: "betterfortresses:fortress"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:blessed_amethyst_crab_meat"
+			}
+			id: "7D22824ADC29DA26"
+			rewards: [{
+				count: 3
+				id: "0D6EE3D98BB05B95"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "022935E19BC9A7EF"
+					structure: "ftb:cherry"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:amethyst_crab"
+					id: "01A8B6D685C1FB27"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/archevoker_logbook"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4BB5ADD98F958712"
+			rewards: [{
+				count: 2
+				id: "30602B40042B91AA"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61EB975FAD009EF7"
+				structure: "ftb:magical_dungeon"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7768A4D80488E53D"]
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:witherite_ingot"
+			}
+			id: "7913B52AD9D28D2B"
+			rewards: [{
+				id: "1AD40729E8DC0A3B"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "226AB3512612624B"
+					structure: "ftb:nether_castle"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:the_watcher"
+					id: "349CB5A281EE3E5B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_prowler"
+					id: "73E22145698B74EB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "0707B05028ADBA69"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -2.0d
+			y: 4.5d
+		}
+	]
+}

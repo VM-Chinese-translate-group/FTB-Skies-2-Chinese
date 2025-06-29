@@ -1,0 +1,2288 @@
+{
+	autofocus_id: "369FFEE79A6478A0"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "the_wild_hunt"
+	group: "293B0513F4340751"
+	icon: {
+		id: "justdirethings:ferricore_sword"
+	}
+	id: "4A4EF884469A95F5"
+	images: [
+		{
+			height: 6.5d
+			image: "ftb:textures/quests/titles_and_logos/wildhunt_logo.png"
+			rotation: 0.0d
+			width: 12.75d
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			height: 12.0d
+			image: "ftb:textures/quests/warden.png"
+			rotation: 0.0d
+			width: 10.447058823529412d
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			height: 3.0d
+			image: "relics:textures/hud/abilities/card_frame_active.png"
+			order: -5
+			rotation: 45.0d
+			width: 3.0d
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			height: 3.0d
+			image: "relics:textures/hud/abilities/card_frame_active.png"
+			order: -5
+			rotation: -45.0d
+			width: 3.0d
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			color: 5635925
+			height: 2.7d
+			image: "minecraft:textures/map/map_background_checkerboard.png"
+			order: -6
+			rotation: 45.0d
+			width: 2.7d
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			color: 5635925
+			height: 2.7d
+			image: "minecraft:textures/map/map_background_checkerboard.png"
+			order: -6
+			rotation: -45.0d
+			width: 2.7d
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "relics:textures/gui/description/general/bottom_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 2.7613636363636362d
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "relics:textures/gui/description/general/bottom_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 2.7613636363636362d
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "relics:textures/gui/description/general/bottom_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 2.7613636363636362d
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "relics:textures/gui/description/general/bottom_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 2.7613636363636362d
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "relics:textures/gui/description/general/bottom_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 2.7613636363636362d
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "relics:textures/gui/description/general/bottom_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 2.7613636363636362d
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			alpha: 155
+			color: 170
+			height: 3.0d
+			image: "relics:item/space_dissector"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			height: 4.0d
+			image: "fargostalismans:item/hero_shield"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			height: 4.0d
+			image: "fargostalismans:item/hero_shield"
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			height: 4.0d
+			image: "justdirethings:item/celestigem_sword_active"
+			rotation: 135.0d
+			width: 4.0d
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			height: 4.0d
+			image: "justdirethings:item/celestigem_sword_active"
+			rotation: 135.0d
+			width: 4.0d
+			x: -6.0d
+			y: 1.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "handcrafted:creeper_trophy"
+			}
+			id: "369FFEE79A6478A0"
+			min_width: 200
+			rewards: [{
+				id: "77CF7C2635272348"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "002121EABF41AEB1"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
+			id: "59C71582F19E8554"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2BCBF4C030F96C45"
+					table_id: 4634798818103374212L
+					type: "choice"
+				}
+				{
+					id: "639EB235737F064A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "6347BBAD2ED20F25"
+				type: "kill"
+				value: 20L
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "7D23D1C9DE75721F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B55FEE5D4307832"
+					table_id: 4634798818103374212L
+					type: "choice"
+				}
+				{
+					id: "6CFFE9572A95E4A8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "268F689AFA620C03"
+				type: "kill"
+				value: 20L
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "6DC738A434C5B02F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D74009AC20ED9CF"
+					table_id: 4634798818103374212L
+					type: "choice"
+				}
+				{
+					id: "33E46282D4A0D82E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: {
+					id: "minecraft:ender_pearl"
+				}
+				id: "4087591E474FC477"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "77F964631F38EA2E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52F4213F19ACA84E"
+					table_id: 4634798818103374212L
+					type: "choice"
+				}
+				{
+					id: "32C8926AF346A4DB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: {
+					id: "minecraft:gunpowder"
+				}
+				id: "79684EDD87FFB47C"
+				type: "kill"
+				value: 20L
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "2EE5352D8E5F715F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42C855B11DDB5B71"
+					table_id: 4634798818103374212L
+					type: "choice"
+				}
+				{
+					id: "6DD4E14E86701AA5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: {
+					id: "minecraft:spider_eye"
+				}
+				id: "3F437642D1B08EBF"
+				type: "kill"
+				value: 20L
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "3D687BF735E54AE8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2396FF1DBF2129EE"
+					table_id: 4634798818103374212L
+					type: "choice"
+				}
+				{
+					id: "19EB650216578509"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: {
+					id: "minecraft:blaze_powder"
+				}
+				id: "05BA59C2F9E1F43B"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "708DD6CD3AE7F0FE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "04340617F050C6E7"
+					table_id: 4634798818103374212L
+					type: "choice"
+				}
+				{
+					id: "6E8720774B8E23C6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: {
+					id: "minecraft:wither_skeleton_skull"
+				}
+				id: "7B71A001741520D3"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "3E0D5504617365AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A5294045244EB6E"
+					table_id: 4634798818103374212L
+					type: "choice"
+				}
+				{
+					id: "5EBC0499B225E322"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				icon: {
+					id: "minecraft:gold_nugget"
+				}
+				id: "6C730129357A78D0"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "34F6FE4467BB71E0"
+			rewards: [{
+				id: "50BD000296E95C3C"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "minecraft:dragon_head"
+				}
+				id: "747DDA167BA0D47A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "1237537100194BED"
+			rewards: [{
+				id: "0557C07388AAE669"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:wither"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "491E250D69066BBC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B4392602E94D3D8"]
+			icon_scale: 2.0d
+			id: "7A8669713BE28E8F"
+			rewards: [{
+				id: "4D8089814646119A"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:warden"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "61C0F35123FBB85E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			id: "67078BCAD52BC4B4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "55EF9DCBF4F78263"
+					table_id: 4634798818103374212L
+					type: "choice"
+				}
+				{
+					id: "1DB9141D63E26F7F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:slime"
+				icon: {
+					id: "minecraft:slime_ball"
+				}
+				id: "58687506041183E7"
+				type: "kill"
+				value: 20L
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/hero_of_the_village.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "24445EC4DA6492F1"
+			shape: "square"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/mob_effect/hero_of_the_village.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "02098D6B16FB668C"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "2BA10689E508FACC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28DD1ECA2E4DBF16"
+				table_id: 4634798818103374212L
+				type: "choice"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "minecraft:husbandry/obtain_sniffer_egg"
+				criterion: ""
+				id: "1D48B836D04638D7"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "29E78B39C74FBC4E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51B025355FA595E6"
+					table_id: 4634798818103374212L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D594A4BD1288922"
+					table_id: 4731917950609681627L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "623A75209C1A862E"
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_all_mobs"
+				criterion: ""
+				icon: {
+					components: {
+						"ftbquests:icon": "mffs:item/anti_hostile_module"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "05B209B3FC005914"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "4020A8E11C423C7F"
+			shape: "square"
+			tasks: [{
+				advancement: "minecraft:adventure/two_birds_one_arrow"
+				criterion: ""
+				icon: {
+					id: "minecraft:spectral_arrow"
+				}
+				id: "6E13E2A3DC19FBC3"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "1CA8D89EE7C50CFD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78A187C05E0EADD5"
+					table_id: 4634798818103374212L
+					type: "choice"
+				}
+				{
+					id: "2AAF6C19D2EA6229"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:shulker"
+				icon: {
+					id: "minecraft:shulker_shell"
+				}
+				id: "5B97CEFB80FF361B"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "3E0191A718C8CFF9"
+			shape: "square"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/gui/sprites/hud/heart/hardcore_full.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "4BEC99EFB3F7A310"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 1728000
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "0D35D0D33922A201"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C53A26BFF3ADB8F"
+				table_id: 4634798818103374212L
+				type: "choice"
+			}]
+			shape: "square"
+			tasks: [{
+				icon: {
+					components: {
+						"gateways:gateway": "gateways:overworldian_nights"
+					}
+					id: "gateways:gate_pearl"
+				}
+				id: "4335140E412572D8"
+				stat: "gateways:gates_defeated"
+				type: "stat"
+				value: 10
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "5A284AE3AC14D070"
+			rewards: [
+				{
+					id: "008BFD0A49443332"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 5
+					id: "7B52F27AFDE0765F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				icon: {
+					id: "minecraft:oak_log"
+				}
+				id: "257DB4A574FF1E69"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 72000
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5A284AE3AC14D070"]
+			id: "0DF48D4589272952"
+			rewards: [
+				{
+					id: "237E15B704B27D47"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "08C86264DDA9794B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				icon: {
+					id: "minecraft:stone"
+				}
+				id: "6FA6CE6F848C29EC"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 720000
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0DF48D4589272952"]
+			id: "72766EEF59130E19"
+			rewards: [
+				{
+					id: "7C201104E1BBC177"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A5DE29B943E54D1"
+					table_id: 4731917950609681627L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				icon: {
+					id: "minecraft:iron_block"
+				}
+				id: "7224F301AE8ED1E3"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1800000
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["72766EEF59130E19"]
+			id: "47C45A0552FBC1BD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "711E7D7854271593"
+					table_id: 4634798818103374212L
+					type: "choice"
+				}
+				{
+					id: "09AA360688FB7296"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55E793E00CDDA5A1"
+					table_id: 4731917950609681627L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "434B6AA9D9D42F84"
+					table_id: 2343263475298990442L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				icon: {
+					id: "minecraft:gold_block"
+				}
+				id: "2B2473620B056467"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 3600000
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["47C45A0552FBC1BD"]
+			id: "4DBD57AF035CAA6B"
+			rewards: [
+				{
+					id: "41FF07CA6E820754"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "24839980CE13C04E"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				icon: {
+					id: "minecraft:diamond_block"
+				}
+				id: "5312722528B8561B"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 7200000
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			id: "678BE54BD4BB70CC"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B11119B3306B84C"
+				table_id: 9029519111662458436L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3ECB9406C79BE369"
+				item: { count: 1, id: "justdirethings:eclipsealloy_sword" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			id: "4F7B9F938127746E"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64B1D8C9AC655ED2"
+				table_id: 9029519111662458436L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "11CCABF431F8C426"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_sword" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "3EFFF19211814CEF"
+			optional: true
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "5EA9F5E788E28EA8"
+				item: { count: 1, id: "modern_industrialization:quantum_sword" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "2638544A28C99F78"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55B5E8EEE07936FF"
+				table_id: 9029519111662458436L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "796F0EEE8031F402"
+				item: { count: 1, id: "roots:living_sword" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["107C26E8BF309BC1"]
+			hide_dependency_lines: true
+			id: "1902A402B951AAF6"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3011E795A519C7ED"
+				table_id: 352034913589945553L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0832E39073A96F69"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:counterspell", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:spellbreaker" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["107C26E8BF309BC1"]
+			hide_dependency_lines: true
+			id: "4E3A4B79573FC1F2"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C655AC0FB3E5292"
+				table_id: 352034913589945553L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7C9241AADCF9B6C6"
+				item: { count: 1, id: "malum:tyrving" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "irons_spellbooks:blood_staff"
+			}
+			id: "58CD2EA60183F861"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21C0C22FEA3254AB"
+				table_id: 9029519111662458436L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "0DA99BABD3FBF8C8"
+				item: { count: 1, id: "irons_spellbooks:blood_staff" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["107C26E8BF309BC1"]
+			hide_dependency_lines: true
+			id: "664924519F78893C"
+			optional: true
+			rewards: [{
+				id: "5DAFA4D50D22FBB7"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "602B3E0D6B44C271"
+				item: { count: 1, id: "irons_spellbooks:graybeard_staff" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "0D63039E72A4F69A"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E87FDA8696CD6B7"
+				table_id: 9029519111662458436L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "40691E6A668693C8"
+				item: { count: 1, id: "irons_spellbooks:ice_staff" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EE0A8941A69703E"]
+			hide_dependency_lines: true
+			id: "31AA29EBC3AC9060"
+			optional: true
+			rewards: [
+				{
+					id: "031281FF3B9C5C98"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4683E8E3E9459C60"
+					table_id: 8220593782532651155L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32C318B7C6DF0ED9"
+					table_id: 4929013804932707720L
+					type: "choice"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "707ECA424901443F"
+				item: { count: 1, id: "irons_spellbooks:artificer_cane" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			id: "3B68EF55AB8E61C3"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A83573DBC114D63"
+				table_id: 9029519111662458436L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "7C76748296F2BDDA"
+				item: { count: 1, id: "irons_spellbooks:lightning_rod" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "6A67BDD225DCF812"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A9E288AA5821CCA"
+				table_id: 9029519111662458436L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "1E208DC4E373401C"
+				item: { count: 1, id: "minecraft:mace" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftb:item/skill_reset_melee"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "35CCB0359596DE32"
+			rewards: [{
+				command: "/puffish_skills skills reset @p puffish_skills:melee"
+				icon: {
+					components: {
+						"ftbquests:icon": "ftb:item/skill_reset_melee"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "5870EC9F52AB69C7"
+				permission_level: 2
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B2325C6AF94E846"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftb:item/skill_reset_ranged"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "794C1EAA6252BC44"
+			rewards: [{
+				command: "/puffish_skills skills reset @p puffish_skills:ranged"
+				icon: {
+					components: {
+						"ftbquests:icon": "ftb:item/skill_reset_ranged"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "57DC44652AED36CC"
+				permission_level: 2
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "774EBA6A762BC415"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftb:item/skill_reset_mining"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6A22434958A72911"
+			rewards: [{
+				command: "/puffish_skills skills reset @p puffish_skills:mining"
+				icon: {
+					components: {
+						"ftbquests:icon": "ftb:item/skill_reset_mining"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "2A9A44AE9AC7E045"
+				permission_level: 2
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "75CE8877F456D5E9"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftb:item/skill_reset_athletics"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0E19151FCABF4759"
+			rewards: [{
+				command: "/puffish_skills skills reset @p puffish_skills:athletics"
+				icon: {
+					components: {
+						"ftbquests:icon": "ftb:item/skill_reset_athletics"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "1175BAFEEF40A724"
+				permission_level: 2
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C0D41D354010177"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftb:item/skill_reset_magic"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7C8E0FEEEF80F70B"
+			rewards: [{
+				command: "/puffish_skills skills reset @p puffish_skills:magic"
+				feedback_message: "Magic Skills Have Been Reset"
+				icon: {
+					components: {
+						"ftbquests:icon": "ftb:item/skill_reset_magic"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "26C058E5EA512AFC"
+				permission_level: 2
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E25F96E4ECA6380"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftb:item/skill_reset_defense"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4BF0B397B0B9EE8C"
+			rewards: [{
+				command: "/puffish_skills skills reset @p puffish_skills:defense"
+				icon: {
+					components: {
+						"ftbquests:icon": "ftb:item/skill_reset_defense"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "70B20DBD76B83038"
+				permission_level: 2
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "264FDB7064AF2C7B"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/archevoker_helmet"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5119EFBB9FB39CDE"
+			rewards: [
+				{
+					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					icon: {
+						components: {
+							"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/charge.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4E0A424438B78332"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "4E1B9075FD66C51A"
+					item: {
+						count: 1
+						id: "irons_spellbooks:archevoker_logbook_translated"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "irons_spellbooks:archevoker"
+				id: "58DC7CD2A4F595DD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/furled_map"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1FE2B36C234A35C9"
+			rewards: [
+				{
+					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					icon: {
+						components: {
+							"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/charge.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "6687BDFBA7DB3DC4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "60023699A03B5A45"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					entity: "irons_spellbooks:apothecarist"
+					id: "6064031AABA0D8D1"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: {
+						id: "minecraft:spyglass"
+					}
+					id: "530B680860B7C5E7"
+					observe_type: 5
+					optional_task: true
+					timer: 0L
+					to_observe: "irons_spellbooks:apothecarist"
+					type: "observation"
+				}
+			]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/cryomancer_helmet"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5A8CEB600CAADCD2"
+			rewards: [
+				{
+					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					icon: {
+						components: {
+							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "72E83AADB4AC2FE1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "11F7AA04D10E98DA"
+					item: {
+						count: 1
+						id: "irons_spellbooks:permafrost_shard"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "irons_spellbooks:cryomancer"
+				id: "671339615BA68B10"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/pyromancer_helmet"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2B86CBB61E10051F"
+			rewards: [
+				{
+					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					icon: {
+						components: {
+							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7FF50BBC4D6C7D2E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "63554E2C820F1A1F"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					entity: "irons_spellbooks:pyromancer"
+					id: "327D6E2AE8863BC1"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: {
+						id: "minecraft:spyglass"
+					}
+					id: "6A495CBF42B6447E"
+					observe_type: 5
+					optional_task: true
+					timer: 0L
+					to_observe: "irons_spellbooks:pyromancer"
+					type: "observation"
+				}
+			]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/priest_helmet"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "099481C1F0718B67"
+			rewards: [
+				{
+					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					icon: {
+						components: {
+							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "6B5DCDFD3982680B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "1D91F45A6DB3E7C1"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					entity: "irons_spellbooks:priest"
+					id: "7AC3BD79A70049CA"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: {
+						id: "minecraft:spyglass"
+					}
+					id: "3BAB7DD1F21B76F7"
+					observe_type: 5
+					optional_task: true
+					timer: 0L
+					to_observe: "irons_spellbooks:priest"
+					type: "observation"
+				}
+			]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B4392602E94D3D8"]
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/tarnished_crown"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2B21D8D19E0413AC"
+			rewards: [
+				{
+					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					icon: {
+						components: {
+							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "0FAE076B5534411A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "7F7A999F163A404D"
+					item: {
+						count: 1
+						id: "irons_spellbooks:music_disc_dead_king_lullaby"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6FE82F1E5C66F1AD"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					id: "irons_spellbooks:dead_king_corpse_spawn_egg"
+				}
+				id: "5FD1AC346811740C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/scroll_blood"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6DD9A75EE8C97710"
+			rewards: [
+				{
+					command: "/puffish_skills points add @p puffish_skills:magic 5"
+					icon: {
+						components: {
+							"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/charge.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "06B2039F9E638FA6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "09FD495E30848586"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 8
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:rotten_spell_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "irons_spellbooks:necromancer"
+				id: "1B724AA2EDADE92A"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "17612A3DF8930377"
+			optional: true
+			rewards: [
+				{
+					id: "4DB1A69FED867EC3"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10C1C42C23186B55"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4B59CA26DFE59F61"
+				item: { components: { "relics:data": { abilities: { abilities: { explode: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { capacity: { initialValue: 30.85515d }, damage: { initialValue: 0.48118d }, stun: { initialValue: 0.09606d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:reflection_necklace" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			id: "4EB43B146ED82F1E"
+			optional: true
+			rewards: [
+				{
+					id: "334D1E1F5EE5E1F9"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "471FD9E2C7C96589"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6D2F55D55D868462"
+				item: { components: { "relics:data": { abilities: { abilities: { backstab: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.65957d }, distance: { initialValue: 15.04332d } } }, vanish: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { light: { initialValue: 1.7066d }, speed: { initialValue: 0.21747d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:midnight_robe" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			id: "1F804789D4AD363F"
+			optional: true
+			rewards: [
+				{
+					id: "080C6E471C844047"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DCFC508D79105EF"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5DB12D6923702EE2"
+				item: { components: { "relics:data": { abilities: { abilities: { anchor: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { sinking: { initialValue: 4.86368d }, slowness: { initialValue: 0.38578d } } }, pressure: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.43097d } } }, riptide: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 5.42005d } } }, slots: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { charm: { initialValue: 1.85876d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:drowned_belt" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			id: "612B021FC1A3B205"
+			optional: true
+			rewards: [
+				{
+					id: "4919ADF137F57409"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "632A72473B58691B"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "71082F1172459C07"
+				item: { components: { "relics:data": { abilities: { abilities: { paralysis: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 1.12919d } } }, shock: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 2.12641d } } }, unsinkable: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:jellyfish_necklace" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			id: "58EA61D0CE13D752"
+			optional: true
+			rewards: [
+				{
+					id: "733B8B7CAD04C136"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54E6DD27490AD5C2"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6D78101DB013C2C0"
+				item: { components: { "relics:data": { abilities: { abilities: { slots: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { charm: { initialValue: 1.65991d } } }, training: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.63175d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:hunter_belt" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			id: "3F53B8955DF5B0F2"
+			optional: true
+			rewards: [
+				{
+					id: "3E8C30479BBE12EE"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21310140C99A9C64"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "613A13CF4D70D818"
+				item: { components: { "relics:data": { abilities: { abilities: { phlebotomy: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { attack_speed: { initialValue: 0.00897d }, heal: { initialValue: 2.0E-4d }, movement_speed: { initialValue: 0.01653d } } }, rage: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { dealt_damage: { initialValue: 0.06937d }, duration: { initialValue: 2.34858d }, incoming_damage: { initialValue: 0.03516d } } }, spurt: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 15.22197d }, damage: { initialValue: 0.17432d }, distance: { initialValue: 4.55068d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:rage_glove" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			id: "1E7B5442F153ED3B"
+			optional: true
+			rewards: [
+				{
+					id: "47E67BC42E3E40CA"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49493F74F9B29549"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5DDBC5E72F64B4EB"
+				item: { components: { "relics:data": { abilities: { abilities: { compass: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } }, trade: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { rolls: { initialValue: 0.25795d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:bastion_ring" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			id: "1771DF7C6EBF1B89"
+			optional: true
+			rewards: [
+				{
+					id: "67A7822505E89A17"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77038F8A75D39F87"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "05E86E5FA7582788"
+				item: { components: { "relics:data": { abilities: { abilities: { blink: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 7.59408d }, distance: { initialValue: 23.59026d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:chorus_inhibitor" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			id: "3CF6C19B0626B465"
+			optional: true
+			rewards: [
+				{
+					id: "28E8A57652CDA34F"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "132470E0BC86D05D"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2FB4716166B4314D"
+				item: { components: { "relics:data": { abilities: { abilities: { dissection: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { distance: { initialValue: 26.87633d }, time: { initialValue: 6.30897d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:space_dissector" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			id: "21EFDF1BA33AE805"
+			optional: true
+			rewards: [
+				{
+					id: "40B789CCA9A6F140"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21C5DDED41A6B0B0"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "51D0F630AB15A051"
+				item: { components: { "relics:data": { abilities: { abilities: { ascension: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 0.69631d }, max_duration: { initialValue: 9.37088d } } }, belief: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.12587d }, capacity: { initialValue: 11.86709d }, count: { initialValue: 1.66297d }, radius: { initialValue: 5.34083d } } }, blessing: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { consumption: { initialValue: 7.49629d } } }, faith: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 0.25242d }, health: { initialValue: 0.21513d }, radius: { initialValue: 6.63616d } } }, penitence: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.33492d } } }, repentance: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 0.14446d }, radius: { initialValue: 2.44838d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:holy_locket" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			id: "682D4887ED36D3B7"
+			optional: true
+			rewards: [
+				{
+					id: "4DF49DCBE0375966"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08AB2938E3052476"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4DD9F25373207D9D"
+				item: { components: { "relics:data": { abilities: { abilities: { neutrality: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } }, swap: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { distance: { initialValue: 29.11728d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:enders_hand" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			id: "6B9371B721B992AD"
+			optional: true
+			rewards: [
+				{
+					id: "7B485F4E2B7FBAFD"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C5FCD4D11539180"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4326C5AB078E8AFE"
+				item: { components: { "relics:data": { abilities: { abilities: { buffer: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { capacity: { initialValue: 2.21893d }, chance: { initialValue: 0.03579d } } }, explosion: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { size: { initialValue: 0.0583d } } }, multiplying: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.08169d }, chance: { initialValue: 0.06681d }, size: { initialValue: 0.05186d } } }, spore: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 10.89387d }, damage: { initialValue: 0.41364d }, duration: { initialValue: 3.17987d }, size: { initialValue: 0.49457d } } }, spore_mist: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 6.48189d }, damage: { initialValue: 0.20185d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:spore_sack" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			id: "1C696E4A9A6F90BE"
+			optional: true
+			rewards: [
+				{
+					id: "2802B980338F63A4"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6060B8BD72C47A8E"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7584F1EB19BC795A"
+				item: { components: { "relics:charge": 8, "relics:data": { abilities: { abilities: { cloning: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.0766d } } }, glaive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { bounces: { initialValue: 4.38442d }, damage: { initialValue: 3.96884d }, radius: { initialValue: 3.00455d }, recharge: { initialValue: 28.6805d } } }, mayhem: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { bounces: { initialValue: 5.69585d }, chance: { initialValue: 0.1178d }, damage: { initialValue: 0.19228d } } }, saw: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 0.84245d }, speed: { initialValue: 15.73678d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:shadow_glaive" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			id: "6FEF508F7DDDB261"
+			optional: true
+			rewards: [
+				{
+					id: "563C4241FEAA203C"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48F16FDF7AF4E6C6"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7A938C651EF96140"
+				item: { components: { "relics:data": { abilities: { abilities: { skating: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 16.82367d }, speed: { initialValue: 0.00359d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:roller_skates" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			id: "428A1ABBA6791E75"
+			optional: true
+			rewards: [
+				{
+					id: "4C0206C7535A2202"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "210FA346C877CC52"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "637C6B7772AB0E06"
+				item: { components: { "relics:charge": 10, "relics:data": { abilities: { abilities: { autophagy: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { feed: { initialValue: 1.48075d } } }, infusion: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 3.18708d } } }, marinade: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 2.14285d } } }, meat_bat: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 0.96607d }, stun: { initialValue: 0.07325d } } }, regeneration: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 16.51748d }, feed: { initialValue: 1.17234d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:infinity_ham" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			id: "423C04D5968C6A2B"
+			optional: true
+			rewards: [
+				{
+					id: "54174F7E097E7A36"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56BA63FB2DC63A6E"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "040B632B030AAFF5"
+				item: { components: { "relics:data": { abilities: { abilities: { slots: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { charm: { initialValue: 2.69558d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:leather_belt" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			id: "66E5ACACAC79B1F8"
+			optional: true
+			rewards: [
+				{
+					id: "1B8795C30BBA1EA7"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C14F52B7C0858C6"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5F2445F8BA6A12ED"
+				item: { components: { "relics:data": { abilities: { abilities: { gills: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.08064d } } }, slipping: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 20.81139d }, speed: { initialValue: 0.00916d } } }, swimming: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 30.65871d }, speed: { initialValue: 0.00669d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:amphibian_boot" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			id: "37CB1AD3D940346F"
+			optional: true
+			rewards: [
+				{
+					id: "61599280A6A177D8"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:solid_xp_baby"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AB4137F3A00B658"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "38D16B7EA60FC5E5"
+				item: { components: { "relics:data": { abilities: { abilities: { bounce: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { power: { initialValue: 0.43594d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:springy_boot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			id: "5C2C0986D6014ADD"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "16E241DC0F5C9B2E"
+					item: {
+						count: 1
+						id: "utilitarian:white_soliciting_carpet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "162390D3E7D61CED"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "minecraft:emerald"
+				}
+				id: "40BB388E2251B800"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:wandering_trader"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "34B36731D0C2F1AF"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/effect give @p minecraft:bad_omen 1800"
+					icon: {
+						components: {
+							"ftbquests:icon": "minecraft:textures/mob_effect/unluck.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "29C328309964A796"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					id: "347F08A311B15EE7"
+					item: {
+						count: 1
+						id: "gag:no_solicitors"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/mob_effect/bad_omen.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "6CE262DF23E5DC46"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A084B83B8CFAACD"]
+			icon: {
+				id: "irons_spellbooks:cinderous_soulcaller"
+			}
+			id: "50BB7069AC5A1A14"
+			rewards: [
+				{
+					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					icon: {
+						components: {
+							"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/charge.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2C3F1A2D2E41F827"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					id: "0782AA4E1ABC2C8F"
+					item: {
+						count: 1
+						id: "irons_spellbooks:music_disc_flame_still_burns"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7F22054509AF47F8"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "674F3DD079A634F9"
+					item: { count: 1, id: "irons_spellbooks:cinderous_soulcaller" }
+					type: "item"
+				}
+				{
+					entity: "irons_spellbooks:fire_boss"
+					icon: {
+						id: "irons_spellbooks:cinderous_soul_rune"
+					}
+					id: "2FB8AB5ADB1F8D26"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -6.5d
+			y: 6.0d
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	icon: {
+		id: "refinedstorage:importer"
+	}
+	id: "7F48F8045BCBF002"
+	loot_size: 1
+	order_index: 62
+	rewards: [
+		{ id: "351664EB41E15C83", item: { count: 1, id: "refinedstorage:importer" } }
+		{ id: "1E18E811322DB92A", item: { count: 1, id: "refinedstorage:exporter" } }
+		{ id: "69BDB5662007AF6E", item: { count: 1, id: "refinedstorage:interface" } }
+		{ id: "63597CF30A13E3F5", item: { count: 1, id: "refinedstorage:external_storage" } }
+	]
+	use_title: true
+}

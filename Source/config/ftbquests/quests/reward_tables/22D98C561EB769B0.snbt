@@ -1,0 +1,13 @@
+{
+	icon: {
+		id: "ghasts_update:ghast_saddle"
+	}
+	id: "22D98C561EB769B0"
+	loot_size: 1
+	order_index: 68
+	rewards: [
+		{ id: "1F0A701D7D01D7AD", item: { count: 1, id: "ghasts_update:ghast_saddle" } }
+		{ id: "3F6D3BA3B5511D6B", item: { count: 1, id: "ghasts_update:purple_ghast_saddle" } }
+	]
+	use_title: true
+}

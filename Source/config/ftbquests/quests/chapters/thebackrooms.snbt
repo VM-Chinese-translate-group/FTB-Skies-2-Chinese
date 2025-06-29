@@ -1,0 +1,171 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thebackrooms"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:textures/mob_effect/blindness.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "33808F1AE9F1266A"
+	images: [{
+		height: 5.0d
+		image: "minecraft:textures/gui/advancements/window.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: -1.0d
+		y: 6.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/blindness.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5E8B72B0CA428F12"
+			tasks: [{
+				id: "3839665C66B55FA1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1BB404B2D4AE8431"
+			max_completable_dependents: 1
+			tasks: [
+				{
+					dimension: "ftbteambases:lobby"
+					id: "54C628760E085822"
+					optional_task: true
+					type: "dimension"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "1910803A29C58BEF"
+					optional_task: true
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "35FEF6958F633F42"
+			tasks: [{
+				id: "096B6ADE76D715F1"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "2BD29E8328B23166"
+			invisible: true
+			tasks: [{
+				id: "105E6D45CD9A402B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "nothing"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "5075DB5162A800C4"
+			tasks: [{
+				id: "5F6FF27A6B03405E"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "41065510F700B8AC"
+			rewards: [{
+				auto: "invisible"
+				id: "161B2DF98B388516"
+				stage: "after_cobble"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "0D338C808852C5E7"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "708C19120EB4F31F"
+			rewards: [{
+				auto: "invisible"
+				id: "43B7887DAAC8A025"
+				stage: "after_diamond"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "784921A0C07EA2FA"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "1425B79ADD456D59"
+			rewards: [{
+				auto: "invisible"
+				id: "1A5F9E062D0EDF18"
+				stage: "after_iron"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "5DF02CDB783E7994"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			id: "03E4CB8D36436FD1"
+			rewards: [{
+				auto: "invisible"
+				id: "3EDCE8A46B60F4DA"
+				stage: "after_netherite"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "6C18593C22B6B411"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "56C6C2E5CA811E21"
+			tasks: [{
+				icon: {
+					id: "malum:large_strange_crystal"
+				}
+				id: "6A6796A27493FB6C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "malum:large_strange_crystal"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+}

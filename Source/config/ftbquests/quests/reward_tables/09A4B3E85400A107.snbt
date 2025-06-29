@@ -1,0 +1,101 @@
+{
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "09A4B3E85400A107"
+	loot_crate: {
+		color: 43520
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Grassy Seeds"
+		string_id: "grassy_seeds"
+	}
+	loot_size: 8
+	order_index: 31
+	rewards: [
+		{
+			count: 2
+			id: "67DBF0C76D4DAF8A"
+			item: {
+				count: 1
+				id: "occultism:datura_seeds"
+			}
+		}
+		{
+			count: 2
+			id: "312F283C6E5FC5C4"
+			item: {
+				count: 1
+				id: "enchanted:belladonna_seeds"
+			}
+		}
+		{
+			count: 2
+			id: "244435A6DB20E23C"
+			item: {
+				count: 1
+				id: "enchanted:garlic"
+			}
+		}
+		{
+			count: 2
+			id: "43142CB57D88D6AC"
+			item: {
+				count: 1
+				id: "enchanted:mandrake_seeds"
+			}
+		}
+		{
+			count: 2
+			id: "53AF70CDF9097500"
+			item: {
+				count: 1
+				id: "enchanted:snowbell_seeds"
+			}
+		}
+		{
+			count: 2
+			id: "09FDC1D920E73205"
+			item: {
+				count: 1
+				id: "enchanted:water_artichoke_seeds"
+			}
+		}
+		{
+			count: 2
+			id: "1685B4CF0A144E3E"
+			item: {
+				count: 1
+				id: "enchanted:wolfsbane_seeds"
+			}
+		}
+		{
+			count: 2
+			id: "7B78A157D7775661"
+			item: {
+				count: 1
+				id: "roots:aubergine_seeds"
+			}
+		}
+		{
+			count: 2
+			id: "1CEFE6CFBBB7B711"
+			item: {
+				count: 1
+				id: "roots:grove_spores"
+			}
+		}
+		{
+			count: 2
+			id: "299FCB281A295F9A"
+			item: {
+				count: 1
+				id: "roots:wildroot"
+			}
+		}
+	]
+	use_title: true
+}

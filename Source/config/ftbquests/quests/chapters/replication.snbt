@@ -1,0 +1,211 @@
+{
+	autofocus_id: "098FC37FAEAFCA33"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "replication"
+	group: "03201DC13AAA49AA"
+	icon: {
+		id: "replication:replica_ingot"
+	}
+	id: "158D033F7F934345"
+	images: [
+		{
+			height: 1.0d
+			image: "ftb:textures/quests/titles_and_logos/replication_logo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			alpha: 150
+			height: 9.0d
+			image: "replication:item/memory_chip"
+			rotation: 45.0d
+			width: 9.0d
+			x: 3.5d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0BEF15E1352A5F72"]
+			id: "705E4FFB4FCADFD1"
+			rewards: [{
+				id: "76CCF880E52D1144"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31929EA58B1939C7"
+				item: { count: 1, id: "replication:matter_network_pipe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["705E4FFB4FCADFD1"]
+			id: "5624865A6F796087"
+			rewards: [{
+				count: 3
+				id: "28DA27D9F7369B80"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56BB8661527B61FB"
+				item: { count: 1, id: "replication:replicator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["705E4FFB4FCADFD1"]
+			id: "2F8BB4724991B7C4"
+			rewards: [{
+				count: 3
+				id: "5ABA491A09721798"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B5FC1CBA6FC0537"
+				item: { count: 1, id: "replication:identification_chamber" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["705E4FFB4FCADFD1"]
+			id: "388014ECCC529C2C"
+			rewards: [{
+				count: 3
+				id: "5C261D8F747169D2"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ECD19CBCC75C138"
+				item: { count: 1, id: "replication:disintegrator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["705E4FFB4FCADFD1"]
+			id: "39751E377C0F22EE"
+			rewards: [{
+				count: 2
+				id: "6C50CAFA9EB878ED"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DDAFD205F5C12EB"
+				item: { count: 1, id: "replication:replication_terminal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34DA4C91DEADF93D"]
+			id: "17EBE81C391DE37E"
+			rewards: [{
+				id: "6D5DD0EFEEF8166A"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29DF36A900DC90E9"
+				item: { count: 1, id: "replication:chip_storage" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F8BB4724991B7C4"]
+			id: "34DA4C91DEADF93D"
+			rewards: [{
+				id: "6B5018A3EB9F2A13"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "588E62E4F95DE83A"
+				item: { count: 1, id: "replication:memory_chip" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["388014ECCC529C2C"]
+			id: "2464B384CC26F2EC"
+			rewards: [{
+				id: "60895326733F8ECB"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73CEEE9A982651AD"
+				item: { count: 1, id: "replication:matter_tank" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "0BEF15E1352A5F72"
+			rewards: [{
+				id: "361FACF05797B64D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1C51CCD9A0ABCABF"
+				item: { count: 1, id: "replication:raw_replica" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+}

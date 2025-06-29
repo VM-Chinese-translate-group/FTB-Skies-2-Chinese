@@ -1,0 +1,86 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "malum:item/spirit_shard"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "47066E2D7B6F4332"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "spirit_bundle"
+	}
+	loot_size: 1
+	order_index: 66
+	rewards: [
+		{
+			count: 16
+			id: "2E2C584F8D317FF7"
+			item: {
+				count: 1
+				id: "malum:infernal_spirit"
+			}
+		}
+		{
+			count: 16
+			id: "1F87E4880179F0DE"
+			item: {
+				count: 1
+				id: "malum:aqueous_spirit"
+			}
+		}
+		{
+			count: 16
+			id: "709C48F04EAE83AD"
+			item: {
+				count: 1
+				id: "malum:earthen_spirit"
+			}
+		}
+		{
+			count: 16
+			id: "6E731A47C30D0D5D"
+			item: {
+				count: 1
+				id: "malum:aerial_spirit"
+			}
+		}
+		{
+			count: 16
+			id: "5D3E1F1291215D65"
+			item: {
+				count: 1
+				id: "malum:sacred_spirit"
+			}
+		}
+		{
+			count: 16
+			id: "16961630803E5C6C"
+			item: {
+				count: 1
+				id: "malum:wicked_spirit"
+			}
+		}
+		{
+			count: 8
+			id: "2A90B035974CD91F"
+			item: {
+				count: 1
+				id: "malum:arcane_spirit"
+			}
+		}
+		{
+			count: 4
+			id: "29D3B590CF983CDF"
+			item: {
+				count: 1
+				id: "malum:eldritch_spirit"
+			}
+		}
+	]
+}

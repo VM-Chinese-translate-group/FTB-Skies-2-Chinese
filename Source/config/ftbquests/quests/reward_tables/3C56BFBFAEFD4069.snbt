@@ -1,0 +1,49 @@
+{
+	icon: {
+		id: "create:andesite_alloy"
+	}
+	id: "3C56BFBFAEFD4069"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			count: 4
+			id: "20CF15CF75B5EED8"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "43D98E9CDB9990DB"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "2D7543839AB943B3"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+			random_bonus: 2
+		}
+		{
+			id: "10CC46BB31B1F482"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+			random_bonus: 1
+		}
+		{ id: "79C391C74E86F3C5", item: { count: 1, id: "create:gearbox" } }
+		{ id: "26C862E17DC8CE25", item: { count: 1, id: "create:depot" } }
+		{ id: "4CBB71D5CBD26F6B", item: { count: 1, id: "create:andesite_funnel" } }
+	]
+	use_title: true
+}

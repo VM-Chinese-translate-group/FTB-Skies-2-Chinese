@@ -1,0 +1,23 @@
+{
+	icon: {
+		id: "fargostalismans:shield_of_cthulhu"
+	}
+	id: "187C086DF19189F1"
+	loot_size: 1
+	order_index: 56
+	rewards: [
+		{ id: "49F8FD709199CC6F", item: { count: 1, id: "fargostalismans:aeolus_boots" } }
+		{ id: "481FB480DF533D77", item: { count: 1, id: "fargostalismans:amber_horseshoe_balloon" } }
+		{ id: "2153343C0A9ABBBD", item: { count: 1, id: "fargostalismans:ancient_horn" } }
+		{ id: "1DAE706C2072620F", item: { count: 1, id: "fargostalismans:blessed_apple" } }
+		{ id: "11A3D17D7CBE4207", item: { count: 1, id: "fargostalismans:brain_scrambler" } }
+		{ id: "6D882B6913786457", item: { count: 1, id: "fargostalismans:bundle_of_horseshoe_balloons" } }
+		{ id: "2CC6417B932ED782", item: { count: 1, id: "fargostalismans:flying_carpet" } }
+		{ id: "79C00ED9F4DE9316", item: { count: 1, id: "fargostalismans:master_ninja_gear" } }
+		{ id: "5D58C3FAB3B7D105", item: { count: 1, id: "fargostalismans:mechanical_cart" } }
+		{ id: "135BA3934D1BBF34", item: { count: 1, id: "fargostalismans:reindeer_bells" } }
+		{ id: "30F94126AC508622", item: { count: 1, id: "fargostalismans:shield_of_cthulhu" } }
+		{ id: "596409E38C76B993", item: { count: 1, id: "fargostalismans:sweetheart_necklace" } }
+	]
+	use_title: true
+}

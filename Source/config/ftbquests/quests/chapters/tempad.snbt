@@ -1,0 +1,666 @@
+{
+	autofocus_id: "54B7D149B45635F4"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: "rsquare"
+	filename: "tempad"
+	group: "293B0513F4340751"
+	icon: {
+		id: "tempad:location_broadcaster"
+	}
+	id: "3C9226E63258D73B"
+	images: [
+		{
+			alpha: 191
+			height: 12.5d
+			image: "ftb:textures/quests/titles_and_logos/tempad_bg.png"
+			order: -10
+			rotation: 0.0d
+			width: 22.5d
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			alpha: 127
+			height: 1.0d
+			image: "tempad:textures/gui/sprites/app/tp_to/normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			alpha: 127
+			height: 1.0d
+			image: "tempad:textures/gui/sprites/app/timeline/normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			alpha: 127
+			height: 1.0d
+			image: "tempad:textures/gui/sprites/app/knowledge_repository/normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			alpha: 127
+			height: 1.0d
+			image: "tempad:textures/gui/sprites/button/teleport/normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			alpha: 127
+			height: 1.0d
+			image: "tempad:textures/gui/sprites/guide/images/tva.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -1.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["408AB6B9AEFBC23D"]
+			id: "1ADE323F448DCF12"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "7B6F75ABE8279E5F"
+					item: {
+						count: 1
+						id: "tempad:location_card"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "15B3EE029C83D29C"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6EE2487F56C71D4D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "1160D43AF702BD7B"
+				item: { count: 1, id: "tempad:card_wallet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"59968CB3EFFC440D"
+				"3A43CCB33A024711"
+			]
+			id: "7F2A004DF03F6BEC"
+			optional: true
+			rewards: [
+				{
+					id: "5CA2571FFF674963"
+					item: {
+						count: 1
+						id: "tempad:location_broadcaster"
+					}
+					type: "item"
+				}
+				{
+					id: "5826F9948162E9F9"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "642FADD7B3286A96"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [{
+				id: "4C9D5FEB492AC602"
+				item: { count: 1, id: "tempad:player_teleport_upgrade" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A43CCB33A024711"]
+			id: "007707B4F0DAD692"
+			optional: true
+			rewards: [
+				{
+					id: "07683D451F18ACDB"
+					item: {
+						count: 1
+						id: "minecraft:bookshelf"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "452ECF2034A20F64"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "40D22C6906C073D7"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "gear"
+			size: 0.75d
+			tasks: [{
+				id: "47080D09C0D57D84"
+				item: { count: 1, id: "tempad:knowledge_repository_upgrade" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F7F7C7ABF851D84"]
+			id: "0219C9D8447C8936"
+			optional: true
+			rewards: [
+				{
+					id: "676722973021E26F"
+					item: {
+						components: {
+							"tempad:chronon_content": 2000
+						}
+						count: 1
+						id: "tempad:chronon_cell"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "61AC1E72AE02141F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "091CAFE1080CDD3E"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "3D2D458043B75906"
+				item: { count: 1, id: "tempad:timedoor_projector" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0566053CCA772771"]
+			hide_dependency_lines: true
+			icon: {
+				id: "tempad:timedoor_marker"
+			}
+			id: "408AB6B9AEFBC23D"
+			rewards: [
+				{
+					id: "6815B04C3C4E9F7C"
+					item: {
+						count: 1
+						id: "tempad:timedoor_marker"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "17D3375DD2CFE445"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "21C461F347E626D5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "44DE193241E5F100"
+					item: { count: 1, id: "tempad:timedoor_marker" }
+					type: "item"
+				}
+				{
+					id: "6BB266317B26CB61"
+					item: { count: 1, id: "tempad:location_card" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "tempad:chronon_cell"
+			}
+			id: "0566053CCA772771"
+			rewards: [
+				{
+					id: "3C2AD7D46A39DEB8"
+					item: {
+						count: 1
+						id: "tempad:knowledge_projector"
+					}
+					type: "item"
+				}
+				{
+					id: "61D597B9B945C369"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "531B9F132FEC0A1E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "0A6FFAE93401D919"
+				item: { count: 1, id: "tempad:chronon_cell" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0566053CCA772771"]
+			id: "0F7F7C7ABF851D84"
+			rewards: [
+				{
+					id: "7BB2C6969C5EA6E1"
+					item: {
+						count: 1
+						id: "minecraft:clock"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0EB8DC30739AF3C2"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "765D683A4C70D8D6"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "32BBF64ABFE71BDF"
+				item: { count: 1, id: "tempad:chronon_generator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0566053CCA772771"]
+			hide_dependency_lines: true
+			id: "59968CB3EFFC440D"
+			optional: true
+			rewards: [
+				{
+					id: "1E8DD31790A9BF92"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+				{
+					id: "1E6B3C3610171F00"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6B80137F121D00B1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "3B552557B658ACD7"
+				item: { count: 1, id: "tempad:location_broadcaster" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53FBBFC675F1FE7F"]
+			id: "7DE9A4C7979AC1FA"
+			rewards: [
+				{
+					id: "0432010453988287"
+					item: {
+						count: 1
+						id: "tempad:chronon_battery"
+					}
+					type: "item"
+				}
+				{
+					id: "4D637521E280E83C"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5EE1281AFE8FD194"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2F44186A4DA8CB3C"
+				item: { count: 1, id: "tempad:tempad" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["408AB6B9AEFBC23D"]
+			id: "669DCBD04E5C4D5E"
+			optional: true
+			rewards: [
+				{
+					id: "61EAC69FF7B8A144"
+					item: {
+						count: 1
+						id: "tempad:chronomark"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0CF4760A6C40DFD8"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "221C02CB865B35FC"
+				item: { count: 1, id: "tempad:chronomark" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D28E1AFBB33C43E"]
+			id: "53FBBFC675F1FE7F"
+			rewards: [
+				{
+					count: 4
+					id: "35D95F087E92B598"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "32633CA507E4F65A"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [{
+				id: "6BDF16773361ABBB"
+				item: { count: 1, id: "tempad:chronon_battery" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53FBBFC675F1FE7F"]
+			id: "214D210F200CD11F"
+			optional: true
+			rewards: [
+				{
+					id: "580D4B389D5C2F7F"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "545AE7011D2B6AAF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "6F40388CBA960719"
+				item: { count: 1, id: "tempad:time_twister" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"53FBBFC675F1FE7F"
+				"0F7F7C7ABF851D84"
+			]
+			dependency_requirement: "one_completed"
+			id: "54B7D149B45635F4"
+			rewards: [
+				{
+					count: 3
+					id: "005FAA3F386BF75E"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "32A14260925CE652"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "55C720CD3637149B"
+				item: { count: 1, id: "tempad:chronometer" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7DE9A4C7979AC1FA"]
+			id: "3A43CCB33A024711"
+			rewards: [
+				{
+					id: "2D39EE756037A114"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0D0F31F4D4448E01"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "01DFA0CD379F7EB2"
+				item: { count: 1, id: "tempad:workstation" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54B7D149B45635F4"]
+			id: "575A111D4418BFB6"
+			rewards: [
+				{
+					count: 6
+					id: "4431EDA9F717BA78"
+					item: {
+						count: 1
+						id: "tempad:time_steel"
+					}
+					type: "item"
+				}
+				{
+					id: "56DC22833A5266EF"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "77C3407B0E74AAEF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "087FB63FB0661AED"
+				item: { count: 1, id: "tempad:metronome" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59968CB3EFFC440D"]
+			id: "31FBB4478F32B054"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "2CB859EBF633C44D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3BFA2E10F8132EF3"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [{
+				id: "0E59EAE103B456D2"
+				item: { count: 1, id: "tempad:screening_device" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0566053CCA772771"]
+			id: "6D28E1AFBB33C43E"
+			rewards: [
+				{
+					count: 4
+					id: "7B804FEC14D74103"
+					item: {
+						count: 1
+						id: "tempad:time_steel"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "021FFB6829EE0351"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "420EB97B3025EACF"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [{
+				id: "75DBA364117DAF1C"
+				item: { count: 1, id: "tempad:time_steel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

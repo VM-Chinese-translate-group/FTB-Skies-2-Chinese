@@ -1,0 +1,43 @@
+{
+	icon: {
+		id: "mekanism:basic_tier_installer"
+	}
+	id: "1075B17A76D5A7C0"
+	loot_size: 1
+	order_index: 67
+	rewards: [
+		{
+			id: "78EF1B7B1A26BFE1"
+			item: {
+				count: 1
+				id: "mekanism:basic_tier_installer"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "0AB1841E9DCD1784"
+			item: {
+				count: 1
+				id: "mekanism:advanced_tier_installer"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "4AB3BFFFA0085A4B"
+			item: {
+				count: 1
+				id: "mekanism:elite_tier_installer"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "10D05E086F7E841F"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_tier_installer"
+			}
+			weight: 10.0f
+		}
+	]
+	use_title: true
+}

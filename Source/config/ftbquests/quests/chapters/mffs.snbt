@@ -1,0 +1,581 @@
+{
+	autofocus_id: "1A1161EF6276767F"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "mffs"
+	group: "3E3B6463983F18FB"
+	icon: {
+		id: "mffs:projector"
+	}
+	id: "6237554E573576FE"
+	images: [
+		{
+			height: 2.0d
+			image: "ftb:textures/quests/titles_and_logos/mffs_logo.png"
+			rotation: 0.0d
+			width: 8.61d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			alpha: 128
+			height: 3.0d
+			image: "minecraft:textures/gui/sprites/boss_bar/blue_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.9d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			alpha: 63
+			height: 6.0d
+			image: "mffs:model/force_cube"
+			order: -2
+			rotation: 0.0d
+			width: 9.6d
+			x: 1.51d
+			y: 1.5d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["68258EA281734B4A"]
+			id: "711E7B6204708BD7"
+			rewards: [
+				{
+					id: "1B07D538658D1C2C"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07223AD5B1166FDC"
+					table_id: 5579741163600094424L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5AF080B22E04F06C"
+				item: { count: 1, id: "mffs:projector" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["75818C9F54BD4C02"]
+			dependency_requirement: "one_completed"
+			id: "68258EA281734B4A"
+			rewards: [
+				{
+					id: "2BE57CD1EE1B8342"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "281625E06090AAB1"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "2A4D07A70621939D"
+				item: { count: 1, id: "mffs:fortron_capacitor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A1161EF6276767F"]
+			id: "75818C9F54BD4C02"
+			rewards: [
+				{
+					id: "2AFDCC5F56035EEE"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4CBBC9041F4EFA98"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "40E3029325F9283A"
+				item: { count: 1, id: "mffs:coercion_deriver" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "ftbmaterials:steel_ingot"
+			}
+			id: "1A1161EF6276767F"
+			min_width: 300
+			rewards: [
+				{
+					id: "5BFFD0D93AC14D20"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "33F0BEC55DEA36D1"
+					item: {
+						components: {
+							"patchouli:book": "mffs:handbook"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "728A13464D476887"
+					item: { count: 1, id: "ftbmaterials:steel_ingot" }
+					type: "item"
+				}
+				{
+					id: "31B6D54220BB0866"
+					item: { count: 1, id: "mffs:focus_matrix" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["75818C9F54BD4C02"]
+			icon: {
+				components: {
+					"ftbquests:icon": "mffs:textures/particle/fortron.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "166BA0D04A1686C7"
+			rewards: [
+				{
+					count: 3
+					id: "5CB03805C86B47A8"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3ADF48A765C45D64"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "mffs:fortron_fluid"
+				}
+				id: "53E0FD5ED01424A5"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68258EA281734B4A"]
+			icon: {
+				id: "mffs:biometric_identifier"
+			}
+			id: "1E2A91B73A752B3B"
+			min_width: 300
+			rewards: [
+				{
+					id: "3D94FFC0ACAA9CDB"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "53C815D701D680C5"
+					item: {
+						count: 1
+						id: "mffs:id_card"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "10BA343758533260"
+					item: { count: 1, id: "mffs:biometric_identifier" }
+					type: "item"
+				}
+				{
+					id: "7DFAA6543B12E7B4"
+					item: { count: 1, id: "mffs:id_card" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E2A91B73A752B3B"]
+			icon: {
+				id: "mffs:interdiction_matrix"
+			}
+			id: "0089BFB911BD5E5B"
+			rewards: [
+				{
+					id: "1B3DA8627734811F"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42B3838736E85676"
+					table_id: 5579741163600094424L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6B61A2CE5218C23D"
+				item: { count: 1, id: "mffs:interdiction_matrix" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["711E7B6204708BD7"]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "mffs:cube_mode"
+			}
+			id: "0B1E459D12D11A0D"
+			min_width: 300
+			rewards: [
+				{
+					count: 3
+					id: "37D55CD719754CD9"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1584DB2EA48C51EE"
+					table_id: 5579741163600094424L
+					type: "choice"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "635B7364CF619AF2"
+					item: { components: { "ftbfiltersystem:filter": "or(item(mffs:cube_mode)item(mffs:sphere_mode)item(mffs:tube_mode)item(mffs:pyramid_mode)item(mffs:cylinder_mode)item(mffs:custom_mode))", "minecraft:custom_name": "\"Shape Modes\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "44697126865CD99F"
+					item: { count: 1, id: "mffs:inverter_module" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["711E7B6204708BD7"]
+			icon: {
+				id: "mffs:camouflage_module"
+			}
+			id: "56519A6A39FA9430"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "342719FE2340880C"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27A771B6495ABB5E"
+					table_id: 5579741163600094424L
+					type: "choice"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "3EE910748019C5AF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mffs:dome_module)item(mffs:camouflage_module)item(mffs:shock_module)item(mffs:glow_module)item(mffs:silence_module))", "minecraft:custom_name": "\"Forcefield Tweaks\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0089BFB911BD5E5B"]
+			icon: {
+				id: "mffs:warn_module"
+			}
+			id: "56E9C123DD727E46"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "0B4745014D6AD4F5"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A81F5AD04BF498C"
+					table_id: 5579741163600094424L
+					type: "choice"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "564EB2A18D14814B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mffs:warn_module)item(mffs:block_access_module)item(mffs:block_alter_module)item(mffs:anti_friendly_module)item(mffs:anti_hostile_module)item(mffs:anti_personnel_module)item(mffs:anti_spawn_module)item(mffs:confiscation_module))", "minecraft:custom_name": "\"Matrix Effects\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A1161EF6276767F"]
+			id: "2CA74676EAC1A040"
+			optional: true
+			rewards: [
+				{
+					id: "65DBDE29FABCFAFA"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "008C7B89807F5BB5"
+					table_id: 5579741163600094424L
+					type: "choice"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2CA2C3F040C5B825"
+				item: { count: 1, id: "mffs:frequency_card" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75818C9F54BD4C02"]
+			icon: {
+				id: "mffs:speed_module"
+			}
+			id: "6600E26635FD3D0E"
+			rewards: [
+				{
+					id: "00FCC3DB46BF868B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "041D49792FAC35C6"
+					item: {
+						count: 1
+						id: "mffs:speed_module"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "166E90CF57B8C438"
+					item: {
+						count: 1
+						id: "mffs:capacity_module"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "30DB060A3D74269F"
+					item: { count: 1, id: "mffs:speed_module" }
+					type: "item"
+				}
+				{
+					id: "03B212FED6115796"
+					item: { count: 1, id: "mffs:capacity_module" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["711E7B6204708BD7"]
+			icon: {
+				id: "mffs:collection_module"
+			}
+			id: "3435641A78B90D97"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "7618A797A9DD9B62"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BC6866ADF48DC44"
+					table_id: 5579741163600094424L
+					type: "choice"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "353EC1F56D14BEF5"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mffs:disintegration_module)item(mffs:sponge_module)item(mffs:stabilization_module)item(mffs:collection_module))", "minecraft:custom_name": "\"Field Effects\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B1E459D12D11A0D"]
+			icon: {
+				id: "mffs:scale_module"
+			}
+			id: "381B55C984A8BD33"
+			rewards: [
+				{
+					count: 3
+					id: "59CD6D3881B8DF1C"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D67842C745FFF39"
+					table_id: 5579741163600094424L
+					type: "choice"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "63BED63863DF7B24"
+					item: { count: 1, id: "mffs:scale_module" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6005CC29C4A280B2"
+					item: { count: 1, id: "mffs:translation_module" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7B851AF49BDDA8F0"
+					item: { count: 1, id: "mffs:rotation_module" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+}

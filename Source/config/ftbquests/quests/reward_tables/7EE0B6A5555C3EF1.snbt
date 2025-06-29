@@ -1,0 +1,28 @@
+{
+	icon: {
+		id: "create:electron_tube"
+	}
+	id: "7EE0B6A5555C3EF1"
+	loot_size: 1
+	order_index: 50
+	rewards: [
+		{ id: "5D1C004B0546E232", item: { count: 1, id: "create:super_glue" } }
+		{ id: "792353C6A584FEE9", item: { count: 1, id: "create:steam_engine" } }
+		{ id: "3A9A502363C5E4AD", item: { count: 1, id: "create:mechanical_press" } }
+		{ id: "0325F1B1011E170E", item: { count: 1, id: "create:mechanical_drill" } }
+		{ id: "65D026EE47E2EC51", item: { count: 1, id: "create:mechanical_saw" } }
+		{ id: "1F6A30946FB645BA", item: { count: 1, id: "create:mechanical_harvester" } }
+		{ id: "43C793FD4F4D0B74", item: { count: 1, id: "create:packager" } }
+		{ id: "1D3FB7C05D009FCF", item: { count: 1, id: "create:repackager" } }
+		{ id: "6A0138F653136220", item: { count: 1, id: "create:package_frogport" } }
+		{
+			count: 2
+			id: "2A80C17DAA6337F8"
+			item: {
+				count: 1
+				id: "create:stock_link"
+			}
+		}
+	]
+	use_title: true
+}

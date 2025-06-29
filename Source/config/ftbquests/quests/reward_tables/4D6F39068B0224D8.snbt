@@ -1,0 +1,56 @@
+{
+	icon: {
+		id: "mffs:focus_matrix"
+	}
+	id: "4D6F39068B0224D8"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{
+			count: 4
+			id: "1D16D5CE384A0605"
+			item: {
+				count: 1
+				id: "mffs:speed_module"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 4
+			id: "009A6382A394EA51"
+			item: {
+				count: 1
+				id: "mffs:capacity_module"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 9
+			id: "30118C4B9B9C5A33"
+			item: {
+				count: 1
+				id: "mffs:focus_matrix"
+			}
+			random_bonus: 9
+		}
+		{
+			count: 2
+			id: "353C169418CDCD50"
+			item: {
+				count: 1
+				id: "mffs:translation_module"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "27FA230A6DE1DF8F"
+			item: {
+				count: 1
+				id: "mffs:scale_module"
+			}
+			random_bonus: 2
+		}
+	]
+	use_title: true
+}

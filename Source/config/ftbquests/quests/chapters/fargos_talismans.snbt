@@ -1,0 +1,2367 @@
+{
+	autofocus_id: "48E284F256F6453E"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "fargos_talismans"
+	group: "293B0513F4340751"
+	icon: {
+		id: "fargostalismans:soul_of_dimensions"
+	}
+	id: "485ABBDAA9A6C0CD"
+	images: [
+		{
+			height: 10.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 8.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: -45.0d
+			width: 1.0d
+			x: 6.52d
+			y: 7.29d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: -45.0d
+			width: 1.0d
+			x: 10.31d
+			y: 4.37d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 45.0d
+			width: 1.0d
+			x: 10.31d
+			y: -4.36d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.4d
+			y: -6.17d
+		}
+		{
+			height: 8.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: -45.0d
+			width: 1.0d
+			x: 8.42d
+			y: 5.82d
+		}
+		{
+			height: 8.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 45.0d
+			width: 1.0d
+			x: 8.42d
+			y: -5.82d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 45.0d
+			width: 1.0d
+			x: 6.52d
+			y: -7.285d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: -45.0d
+			width: 1.0d
+			x: 12.21d
+			y: 2.9d
+		}
+		{
+			height: 7.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.4d
+			y: 4.1d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 45.0d
+			width: 1.0d
+			x: 12.22d
+			y: -2.9d
+		}
+		{
+			height: 7.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.4d
+			y: -4.1d
+		}
+		{
+			height: 13.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.375d
+			y: -8.21d
+		}
+		{
+			height: 16.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.38d
+			y: -10.31d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.4d
+			y: 6.19d
+		}
+		{
+			height: 13.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.375d
+			y: 8.25d
+		}
+		{
+			height: 16.0d
+			image: "minecraft:block/light_gray_stained_glass_pane_top"
+			rotation: 90.0d
+			width: 1.0d
+			x: 16.38d
+			y: 10.31d
+		}
+		{
+			height: 4.0d
+			image: "malum:textures/particle/staff/staff_slam_03.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			color: 16777045
+			height: 4.0d
+			image: "malum:textures/vfx/ritual/decor_radiant.png"
+			rotation: 45.0d
+			width: 4.0d
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			color: 6577559
+			height: 5.0d
+			image: "lollipop:textures/misc/magic/rune_circle.png"
+			order: -5
+			rotation: 0.0d
+			width: 5.0d
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "ftb:textures/quests/titles_and_logos/fargos_talisman_logo.png"
+			rotation: 0.0d
+			width: 8.25d
+			x: -2.0d
+			y: -2.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7FDD118A1E3901C6"
+				"5E3CC82782A93C54"
+				"11129E29B22F9898"
+				"13A336971A4AD188"
+				"6B390939597DC9E7"
+			]
+			hide_dependency_lines: false
+			hide_lock_icon: true
+			icon_scale: 2.0d
+			id: "776A013F2CDD8ACD"
+			rewards: [
+				{
+					count: 3
+					id: "628BC5AB4222F590"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3E10E94296C69EB8"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "none"
+			size: 4.0d
+			tasks: [{
+				id: "4ABF39EB605F2DFF"
+				item: { count: 1, id: "fargostalismans:soul_of_dimensions" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FA9FABD84B4751A"]
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "5E3CC82782A93C54"
+			rewards: [
+				{
+					id: "17C54F92B4937452"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "39C73DA114FF56D3"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "59D2260FF0128F3A"
+				item: { count: 1, id: "fargostalismans:talisman_base_godly" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17A73A05FAE4D6F5"]
+			dependency_requirement: "one_completed"
+			icon_scale: 1.5d
+			id: "4FA9FABD84B4751A"
+			rewards: [
+				{
+					count: 2
+					id: "6873E68142BE9A8C"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "687CA5FB1EB6699B"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "5C7EEF1EAC5C74A7"
+				item: { count: 1, id: "fargostalismans:talisman_base_ultimate" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.246603069191224E-15d
+		}
+		{
+			dependencies: [
+				"7F630367E12209A4"
+				"4D05E74FE351708F"
+				"7CD3D31BAA53F592"
+				"723303AA9DCD6588"
+				"423950ED16C2422B"
+				"24A60877D5FAD4A5"
+				"4FA9FABD84B4751A"
+				"4835F10B1C5BCAAE"
+				"093330A5C170F843"
+			]
+			hide_dependent_lines: true
+			id: "7FDD118A1E3901C6"
+			min_width: 350
+			rewards: [{
+				id: "6A06C17C945756C0"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "03D4E441D144197C"
+				item: { count: 1, id: "fargostalismans:soul_of_minecraft" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			icon_scale: 1.5d
+			id: "17A73A05FAE4D6F5"
+			rewards: [
+				{
+					id: "5BFE497C129F6263"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1F0540935F3C61DF"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "68D1927033654408"
+				item: { count: 1, id: "fargostalismans:talisman_base_legendary" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			icon_scale: 1.5d
+			id: "04561BBA227DE4D6"
+			rewards: [
+				{
+					count: 3
+					id: "58C2423C74B9FE94"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "718A9A14EA064599"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "08148F58753BE67F"
+				item: { count: 1, id: "fargostalismans:talisman_base_epic" }
+				type: "item"
+			}]
+			x: 7.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			icon_scale: 1.5d
+			id: "27E867855AC60BF0"
+			rewards: [
+				{
+					count: 2
+					id: "61E2AF64E4DD98FF"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1BF4CE3765D8E425"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "44CDA3B538E684C0"
+				item: { count: 1, id: "fargostalismans:talisman_base_advanced" }
+				type: "item"
+			}]
+			x: 4.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48E284F256F6453E"]
+			icon: {
+				id: "fargostalismans:talisman_base_normal"
+			}
+			icon_scale: 1.5d
+			id: "54EA7CEFB131A995"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "2436B7AAD9A29A5C"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "266EAB114A226826"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "54FF1FAE40DC7C8A"
+				item: { count: 1, id: "fargostalismans:talisman_base_normal" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FA9FABD84B4751A"]
+			hide_dependent_lines: true
+			icon: {
+				id: "fargostalismans:soul_of_flight_mastery"
+			}
+			id: "6B390939597DC9E7"
+			rewards: [{
+				id: "22C00D01869951ED"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "1846C7BB6F496CAA"
+					item: { count: 1, id: "fargostalismans:ancient_wings_elytra" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "335946C25101D8FA"
+					item: { count: 1, id: "fargostalismans:astral_wings_elytra" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11B4F23F0632EB5B"
+					item: { count: 1, id: "fargostalismans:blazing_wings_elytra" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "09949D44E66BB5FD"
+					item: { count: 1, id: "fargostalismans:dragon_wings_elytra" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "60D660D2F1EC2B9E"
+					item: { count: 1, id: "fargostalismans:dusty_wings_elytra" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D6A5ADCB314370B"
+					item: { count: 1, id: "fargostalismans:ender_wings_elytra" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E929408D6F88F14"
+					item: { count: 1, id: "fargostalismans:enchanted_wings_elytra" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7DD4F348EA9A4C73"
+					item: { count: 1, id: "fargostalismans:forest_wings_elytra" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7753BC7EC7012390"
+					item: { count: 1, id: "fargostalismans:frozen_wings_elytra" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D5BBDCC8C4E539F"
+					item: { count: 1, id: "fargostalismans:ghastly_wings_elytra" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E8E231D6A28E9DD"
+					item: { count: 1, id: "fargostalismans:oceans_fins_elytra" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A32184611CA369F"
+					item: { count: 1, id: "fargostalismans:phantom_wings_elytra" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "59B6F07D4AC7C0CE"
+					item: { count: 1, id: "fargostalismans:volcanic_ash_elytra" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3F48FB1659ED48D7"
+					item: { count: 1, id: "fargostalismans:wither_wings_elytra" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79D5B7098833E6D9"
+					item: { count: 1, id: "fargostalismans:soul_of_flight_mastery" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4FA9FABD84B4751A"]
+			hide_dependent_lines: true
+			icon: {
+				id: "fargostalismans:soul_of_supersonic"
+			}
+			id: "13A336971A4AD188"
+			rewards: [{
+				id: "0EAEB0E9A29B06E1"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "47719E267D8A03A9"
+					item: { count: 1, id: "fargostalismans:aeolus_boots" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2F5456F8834E3C7C"
+					item: { count: 1, id: "fargostalismans:amber_horseshoe_balloon" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "39490ABA0BA5C6C2"
+					item: { count: 1, id: "fargostalismans:ancient_horn" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7067531136099315"
+					item: { count: 1, id: "fargostalismans:blessed_apple" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "74A3593C69B941C0"
+					item: { count: 1, id: "fargostalismans:brain_scrambler" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "40EBEF623B489A45"
+					item: { count: 1, id: "fargostalismans:bundle_of_horseshoe_balloons" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "29D06AA3D8FC41CA"
+					item: { count: 1, id: "fargostalismans:flying_carpet" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0B686A162559188F"
+					item: { count: 1, id: "fargostalismans:master_ninja_gear" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "32E4378767042CE5"
+					item: { count: 1, id: "fargostalismans:mechanical_cart" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4350DF2C1310FEB4"
+					item: { count: 1, id: "fargostalismans:reindeer_bells" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "04C1F51794C73F3A"
+					item: { count: 1, id: "fargostalismans:shield_of_cthulhu" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "10D26A1266459967"
+					item: { count: 1, id: "fargostalismans:sweetheart_necklace" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "148776B4C0AB0856"
+					item: { count: 1, id: "fargostalismans:soul_of_supersonic" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6AF5FF1455F7C977"
+				"2B5ED424CC73B3EB"
+				"54D3D470531CEAB8"
+				"2A19E0AF462C1FD2"
+				"07C181C204CF1240"
+				"5063CB99AD11CEB6"
+			]
+			hide_dependent_lines: true
+			id: "723303AA9DCD6588"
+			min_width: 300
+			rewards: [{
+				id: "75C8966A32B78DD4"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "7603C9B26E7F626B"
+				item: { count: 1, id: "fargostalismans:force_of_overworld" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.1d
+		}
+		{
+			dependencies: [
+				"7C03724DFA7CC612"
+				"0350C018A0E693ED"
+				"302A4F4F2971CF8E"
+				"39FD7B49554CE935"
+			]
+			disable_toast: true
+			hide_dependent_lines: true
+			id: "7F630367E12209A4"
+			rewards: [{
+				id: "2D75073D4905E3BB"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "5D6E5D30C219EFEE"
+				item: { count: 1, id: "fargostalismans:force_of_nature" }
+				type: "item"
+			}]
+			x: 7.35d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"529BB6E3B5A93A91"
+				"11D49C5B6C2D4CF0"
+				"1811EC8E48EAD1BD"
+				"5C291965A6AEE07E"
+				"21672A342A11A0DE"
+				"520C1874B05F2DB9"
+				"23B63CC05AA3EAAB"
+				"44DFEE9CA0A7070B"
+			]
+			hide_dependent_lines: true
+			id: "7CD3D31BAA53F592"
+			rewards: [{
+				id: "4A08AC96F715AA6E"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "47889EF2A3780861"
+				item: { count: 1, id: "fargostalismans:force_of_rejectors" }
+				type: "item"
+			}]
+			x: 11.45d
+			y: -3.7d
+		}
+		{
+			dependencies: [
+				"06F4EAE4810BC03A"
+				"629308DC692DB140"
+				"3272827DE96C5F64"
+				"719BCB8D5D1AF974"
+				"792AD85AE9FB81E0"
+			]
+			hide_dependent_lines: true
+			id: "24A60877D5FAD4A5"
+			rewards: [{
+				id: "76BD5B9E45E66133"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "670B33C1B7A6FEAF"
+				item: { count: 1, id: "fargostalismans:force_of_explorer" }
+				type: "item"
+			}]
+			x: 12.75d
+			y: 7.2d
+		}
+		{
+			dependencies: [
+				"4A5402081BC88910"
+				"33E96DCB466BC28C"
+				"3B1C807CEEC4E2ED"
+				"2369D81BC32A5982"
+				"19FB0270DFB28E04"
+				"3695B30822BC674E"
+			]
+			hide_dependent_lines: true
+			id: "4D05E74FE351708F"
+			rewards: [{
+				id: "4D2DF1333D159184"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "3B70C35E31A863B1"
+				item: { count: 1, id: "fargostalismans:force_of_mystic" }
+				type: "item"
+			}]
+			x: 13.6d
+			y: -5.1d
+		}
+		{
+			dependencies: [
+				"2B6FC4E870E364E0"
+				"3FF612F915DF4BF5"
+				"56F225D27E646F33"
+				"74E9A69F9F8CDA3D"
+				"4A1E69C9C543011E"
+			]
+			hide_dependent_lines: true
+			id: "423950ED16C2422B"
+			rewards: [{
+				id: "7C9B527004F70B23"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "6CB43D56B6B05025"
+				item: { count: 1, id: "fargostalismans:force_of_warrior" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "6AF5FF1455F7C977"
+			rewards: [{
+				count: 2
+				id: "35DB0DCB306698A8"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "6DCC2FB0E99DAB9F"
+				item: { count: 1, id: "fargostalismans:amethyst_talisman" }
+				type: "item"
+			}]
+			x: 9.15d
+			y: 8.1d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "5063CB99AD11CEB6"
+			rewards: [{
+				count: 2
+				id: "570D3A15D5F8C1CE"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "723993620734991C"
+				item: { count: 1, id: "fargostalismans:redstone_talisman" }
+				type: "item"
+			}]
+			x: 6.65d
+			y: 5.6d
+		}
+		{
+			dependencies: [
+				"27E867855AC60BF0"
+				"68A718B129075CDF"
+			]
+			hide_dependency_lines: true
+			id: "2A19E0AF462C1FD2"
+			rewards: [{
+				count: 2
+				id: "064726D629DF737C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "3EBC078CCCDA3128"
+				item: { count: 1, id: "fargostalismans:diamond_talisman" }
+				type: "item"
+			}]
+			x: 7.35d
+			y: 6.3d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "2B5ED424CC73B3EB"
+			rewards: [{
+				id: "027A8C88CB3699A4"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "18316AFEF9AD880A"
+				item: { count: 1, id: "fargostalismans:emerald_talisman" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.1d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "07C181C204CF1240"
+			rewards: [{
+				count: 2
+				id: "1588EEA531B576BC"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "31A7054899891DB0"
+				item: { count: 1, id: "fargostalismans:lapis_talisman" }
+				type: "item"
+			}]
+			x: 8.45d
+			y: 7.4d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "54D3D470531CEAB8"
+			rewards: [{
+				id: "7033348D84745ED7"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47B4280EE20EBCFF"
+				item: { count: 1, id: "fargostalismans:gold_talisman" }
+				type: "item"
+			}]
+			x: 5.9d
+			y: 8.4d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "0350C018A0E693ED"
+			rewards: [{
+				count: 2
+				id: "0370A9E0DCBC8C52"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "69420EB7AE3CCC58"
+				item: { count: 1, id: "fargostalismans:air_talisman" }
+				type: "item"
+			}]
+			x: 4.75d
+			y: 1.7d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "302A4F4F2971CF8E"
+			rewards: [{
+				id: "3AF929FAD8187448"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B187D2571EBF28D"
+				item: { count: 1, id: "fargostalismans:earth_talisman" }
+				type: "item"
+			}]
+			x: 2.45d
+			y: 2.5d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "7C03724DFA7CC612"
+			rewards: [{
+				count: 2
+				id: "2F1C6883F5C8E6A4"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "54F3516C3AB0DF4F"
+				item: { count: 1, id: "fargostalismans:fire_talisman" }
+				type: "item"
+			}]
+			x: 4.75d
+			y: 3.2d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "39FD7B49554CE935"
+			rewards: [{
+				count: 2
+				id: "5256C0B15214CFE3"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "7A572B19D4EB1284"
+				item: { count: 1, id: "fargostalismans:water_talisman" }
+				type: "item"
+			}]
+			x: 5.35d
+			y: 4.3d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "06F4EAE4810BC03A"
+			rewards: [{
+				id: "48D668D0F74CA2DC"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "54BD9E6651C05DFD"
+				item: { count: 1, id: "fargostalismans:architect_talisman" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "719BCB8D5D1AF974"
+			rewards: [{
+				count: 2
+				id: "151ACC076AEBF274"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "302EC5840422942C"
+				item: { count: 1, id: "fargostalismans:arctic_talisman" }
+				type: "item"
+			}]
+			x: 12.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "3272827DE96C5F64"
+			rewards: [{
+				id: "655E7075DB1C0070"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "163D5309C818BDC9"
+				item: { count: 1, id: "fargostalismans:enderman_talisman" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "629308DC692DB140"
+			rewards: [{
+				id: "6B34B5DBCCE34D97"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E6B211A06FDB7F7"
+				item: { count: 1, id: "fargostalismans:glowstone_talisman" }
+				type: "item"
+			}]
+			x: 14.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "792AD85AE9FB81E0"
+			rewards: [{
+				id: "2CC9406C421271E9"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "283BD6D636B525D0"
+				item: { count: 1, id: "fargostalismans:spectral_talisman" }
+				type: "item"
+			}]
+			x: 13.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "520C1874B05F2DB9"
+			rewards: [{
+				count: 2
+				id: "1ACF76FD7636B05A"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "3F815283F9799F8A"
+				item: { count: 1, id: "fargostalismans:blaze_talisman" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: -5.68d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "1811EC8E48EAD1BD"
+			rewards: [{
+				id: "6005C592A3831A42"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "536B1E3D4018C763"
+				item: { count: 1, id: "fargostalismans:creeper_talisman" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: -9.5d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "23B63CC05AA3EAAB"
+			rewards: [{
+				count: 2
+				id: "7EF7A85BF3872308"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "5FCEE265AEBAF463"
+				item: { count: 1, id: "fargostalismans:dragon_talisman" }
+				type: "item"
+			}]
+			x: 8.1d
+			y: -7.3d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "5C291965A6AEE07E"
+			rewards: [{
+				id: "17ED4883BC791873"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D41415E179B57DC"
+				item: { count: 1, id: "fargostalismans:ghast_talisman" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.3d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			icon: {
+				id: "fargostalismans:skeleton_talisman"
+			}
+			id: "11D49C5B6C2D4CF0"
+			rewards: [{
+				id: "0785D87E5A57F3B0"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6ACBC25AE89ACDDE"
+				item: { count: 1, id: "fargostalismans:skeleton_talisman" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.2d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "529BB6E3B5A93A91"
+			rewards: [{
+				id: "1952BFC6E3254136"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D9D4218D4580811"
+				item: { count: 1, id: "fargostalismans:vindicator_talisman" }
+				type: "item"
+			}]
+			x: 6.1d
+			y: -8.3d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "44DFEE9CA0A7070B"
+			rewards: [{
+				count: 2
+				id: "182EACC2AE81BA0A"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "27340B16D932E793"
+				item: { count: 1, id: "fargostalismans:wither_talisman" }
+				type: "item"
+			}]
+			x: 7.35d
+			y: -6.5d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "21672A342A11A0DE"
+			rewards: [{
+				id: "0FF24D455CDBB560"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0579C484A235659D"
+				item: { count: 1, id: "fargostalismans:zombie_talisman" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "3B1C807CEEC4E2ED"
+			rewards: [{
+				count: 3
+				id: "21C4201DE43FA98C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3A1D1EEDFDBB1DC8"
+				item: { count: 1, id: "fargostalismans:enchanting_talisman" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.25d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "33E96DCB466BC28C"
+			rewards: [{
+				count: 3
+				id: "3B9CC039DDEECF8D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C831C5CF0E7D9B4"
+				item: { count: 1, id: "fargostalismans:librarian_talisman" }
+				type: "item"
+			}]
+			x: 14.75d
+			y: -7.25d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "3695B30822BC674E"
+			rewards: [{
+				id: "0A72FFD9E000AF15"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07576B017FB93A12"
+				item: { count: 1, id: "fargostalismans:shulker_talisman" }
+				type: "item"
+			}]
+			x: 13.6d
+			y: -11.25d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "4A5402081BC88910"
+			rewards: [{
+				count: 2
+				id: "54726677F44E36B9"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "4A83F6920581154E"
+				item: { count: 1, id: "fargostalismans:undying_talisman" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -9.25d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "2369D81BC32A5982"
+			rewards: [{
+				count: 2
+				id: "2B70B65F45953E58"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "5BBBA2A9E1ED5392"
+				item: { count: 1, id: "fargostalismans:vampiric_talisman" }
+				type: "item"
+			}]
+			x: 14.75d
+			y: -9.25d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "19FB0270DFB28E04"
+			rewards: [{
+				count: 3
+				id: "2DC032D0876C8AC2"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1FD6B1C388349F4F"
+				item: { count: 1, id: "fargostalismans:witch_talisman" }
+				type: "item"
+			}]
+			x: 13.6d
+			y: -7.25d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "56F225D27E646F33"
+			rewards: [{
+				count: 2
+				id: "0DDDE6FFF47240EB"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "66CA8A41E92732D6"
+				item: { count: 1, id: "fargostalismans:battle_talisman" }
+				type: "item"
+			}]
+			x: 4.75d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "3FF612F915DF4BF5"
+			rewards: [{
+				count: 2
+				id: "25E7A8D6F4DC4EE5"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "32FC8D8D1E3631E9"
+				item: { count: 1, id: "fargostalismans:cactus_talisman" }
+				type: "item"
+			}]
+			x: 4.75d
+			y: -3.1d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "74E9A69F9F8CDA3D"
+			rewards: [{
+				count: 2
+				id: "4AFA767A6989584D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "0818E69FA8AFCC2C"
+				item: { count: 1, id: "fargostalismans:iron_golem_talisman" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.1d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "4A1E69C9C543011E"
+			rewards: [{
+				id: "30E22852BDB65052"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33A24E03C7985819"
+				item: { count: 1, id: "fargostalismans:thorny_talisman" }
+				type: "item"
+			}]
+			x: 2.65d
+			y: -4.5d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "2B6FC4E870E364E0"
+			rewards: [{
+				id: "25B6C3865610ABF1"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "51C54D5E7E6C9519"
+				item: { count: 1, id: "fargostalismans:void_talisman" }
+				type: "item"
+			}]
+			x: 2.45d
+			y: -3.0d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "39CA68E8B84CF962"
+			optional: true
+			rewards: [{
+				id: "49FCCE3BED9BDFC6"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0F0007DAF594DE25"
+				item: { count: 1, id: "fargostalismans:copper_talisman" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -11.25d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			id: "68A718B129075CDF"
+			rewards: [{
+				id: "199F175471D2C3FE"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6155773BCF045FD1"
+				item: { count: 1, id: "fargostalismans:iron_talisman" }
+				type: "item"
+			}]
+			x: 5.2d
+			y: 7.5d
+		}
+		{
+			dependencies: ["54EA7CEFB131A995"]
+			hide_dependency_lines: true
+			icon: {
+				id: "fargostalismans:pickaxe_talisman"
+			}
+			id: "19EE1C45669E7132"
+			optional: true
+			rewards: [{
+				id: "3C825D61DDD453AF"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3F702CC613ED7614"
+				item: { count: 1, id: "fargostalismans:pickaxe_talisman" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -11.25d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "348ED4326CAB9A0E"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "086FF7B1E5D2CB4F"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "130B0125B8AA158A"
+				item: { count: 1, id: "fargostalismans:apple_talisman" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "6A1CD115285158D3"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "79C9EF3C46DA358B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "05A5B721D2778158"
+				item: { count: 1, id: "fargostalismans:mooshroom_talisman" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["27E867855AC60BF0"]
+			hide_dependency_lines: true
+			id: "54DBA22A5D1CD75D"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "62C09B3A346DA90D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "264ACE95921DAF96"
+				item: { count: 1, id: "fargostalismans:obsidian_talisman" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "034B66770C749332"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "60E90C896B7E0850"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "40A3E3010FC59A3C"
+				item: { count: 1, id: "fargostalismans:nether_star_talisman" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4FA9FABD84B4751A"]
+			hide_dependent_lines: true
+			icon: {
+				id: "fargostalismans:soul_of_colossus"
+			}
+			id: "11129E29B22F9898"
+			rewards: [{
+				id: "329F97E856459D0F"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "2F1E73E0E5CF8953"
+					item: { count: 1, id: "fargostalismans:ankh_shield" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C00FB678A17D86A"
+					item: { count: 1, id: "fargostalismans:bee_cloak" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6821B2F4C74BB631"
+					item: { count: 1, id: "fargostalismans:brain_of_confusion" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "37335B8B0ADF6EBF"
+					item: { count: 1, id: "fargostalismans:charm_of_myths" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26542521973EFCBE"
+					item: { count: 1, id: "fargostalismans:frozen_shield" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6081DA23094A5EE4"
+					item: { count: 1, id: "fargostalismans:hand_warmer" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "33C410EB243ACA31"
+					item: { count: 1, id: "fargostalismans:hero_shield" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "531A20D70ED2F5FF"
+					item: { count: 1, id: "fargostalismans:obsidian_horseshoe" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6435FA4A5669FA9E"
+					item: { count: 1, id: "fargostalismans:pocket_mirror" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "35B8468DCD11C920"
+					item: { count: 1, id: "fargostalismans:shiny_stone" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "23977252B85BE231"
+					item: { count: 1, id: "fargostalismans:star_veil" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1B5F78BC374C0249"
+					item: { count: 1, id: "fargostalismans:worm_scarf" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "51A1BA580DD1F9A3"
+					item: { count: 1, id: "fargostalismans:soul_of_colossus" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "fargostalismans:guide_book"
+			}
+			id: "48E284F256F6453E"
+			min_width: 300
+			rewards: [
+				{
+					id: "0A470CAA5A7A5031"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "34688D78CC4E5E6B"
+					item: {
+						count: 1
+						id: "fargostalismans:guide_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2B97A2DFF700B056"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48E284F256F6453E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "294FEC9B0B58EFDC"
+			optional: true
+			rewards: [{
+				id: "1CC78974CEDF086B"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4096CA7300D6F0EB"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48E284F256F6453E"]
+			id: "544DCCAF97078924"
+			optional: true
+			rewards: [{
+				id: "5B1F4134AB9443C7"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "229ACBC2EDAFCA5A"
+				item: { count: 1, id: "fargostalismans:pedestal" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "535C11E589E11056"
+			rewards: [{
+				count: 3
+				id: "3091EA69A1100492"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "314F0EF385252ECB"
+				item: { count: 1, id: "fargostalismans:fatigued_talisman" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -6.8d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "72E5DE96165E5DE2"
+			rewards: [{
+				count: 3
+				id: "70FCBA6D11EDF0B4"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "359CB52DD7055BE9"
+				item: { count: 1, id: "fargostalismans:nauseated_talisman" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.8d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "19EC021D1722EFC1"
+			rewards: [{
+				count: 3
+				id: "52FC49E5C5E84CEC"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "01C8C74CEF6A621F"
+				item: { count: 1, id: "fargostalismans:fired_talisman" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -7.6d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "4B5BFD1142133E93"
+			rewards: [{
+				count: 3
+				id: "62B8FDAC46F73BF4"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "180D58D6CEC7A513"
+				item: { count: 1, id: "fargostalismans:blinded_talisman" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -7.6d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "4235989DE2A9CAF2"
+			rewards: [{
+				count: 3
+				id: "58808859F4EE6137"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "33CA3253CD5B2CAA"
+				item: { count: 1, id: "fargostalismans:poisoned_talisman" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -6.8d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "6F49DC432E5968AC"
+			rewards: [{
+				count: 3
+				id: "3B257E3AFD80C594"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0698C7A9F0D43235"
+				item: { count: 1, id: "fargostalismans:slowed_talisman" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -7.6d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "1C3D395850C1C4A4"
+			rewards: [{
+				count: 3
+				id: "73F33174BC1A7ADF"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4ADBB8372255D45A"
+				item: { count: 1, id: "fargostalismans:weakened_talisman" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -6.8d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "0FA7ECE8C07ADAB1"
+			rewards: [{
+				count: 3
+				id: "66CC6E0B2E3FA056"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "48A0B4B065F99DC3"
+				item: { count: 1, id: "fargostalismans:withered_talisman" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -7.6d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "07FFA633237BB905"
+			rewards: [{
+				count: 3
+				id: "27F1523CF9C843B1"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "42BD66BC14044A8A"
+				item: { count: 1, id: "fargostalismans:day_talisman" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 6.85d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "5CC65B3FE402E58B"
+			rewards: [{
+				count: 3
+				id: "7CDC693962982A6E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D8249AFA2C607A0"
+				item: { count: 1, id: "fargostalismans:night_talisman" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 6.85d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "5B28036A3960FCAC"
+			rewards: [{
+				count: 3
+				id: "2734585426766414"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "063C7736F21A5281"
+				item: { count: 1, id: "fargostalismans:rain_talisman" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 7.6d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "0B8D5E01DAE9AD6C"
+			rewards: [{
+				count: 3
+				id: "49DD84C433A309F4"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "14222A34CF051DAB"
+				item: { count: 1, id: "fargostalismans:snowy_talisman" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 7.6d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "68C3F238B65BD483"
+			rewards: [{
+				count: 3
+				id: "5DE32F05D5D2046C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "31A152250B098613"
+				item: { count: 1, id: "fargostalismans:storm_talisman" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.6d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "2173412A2D676009"
+			rewards: [{
+				count: 3
+				id: "6C8827FA561A80EB"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "756A7141BE70AAE3"
+				item: { count: 1, id: "fargostalismans:full_moon_talisman" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.85d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "6324941CAA013A6D"
+			rewards: [{
+				count: 3
+				id: "636BAF42E0FD96C4"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0032DE701162938E"
+				item: { count: 1, id: "fargostalismans:sun_talisman" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 7.6d
+		}
+		{
+			dependencies: ["04561BBA227DE4D6"]
+			hide_dependency_lines: true
+			id: "4B02EB096A1670AB"
+			rewards: [{
+				count: 3
+				id: "3648B4D62AB4C960"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "03C13EA554A11CDB"
+				item: { count: 1, id: "fargostalismans:true_sun_talisman" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 6.85d
+		}
+		{
+			dependencies: [
+				"07FFA633237BB905"
+				"68C3F238B65BD483"
+				"2173412A2D676009"
+				"5CC65B3FE402E58B"
+				"5B28036A3960FCAC"
+				"0B8D5E01DAE9AD6C"
+				"6324941CAA013A6D"
+				"4B02EB096A1670AB"
+			]
+			hide_dependent_lines: true
+			id: "093330A5C170F843"
+			rewards: [{
+				id: "50367B3B45D157E5"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "23B3D3203CC31317"
+				item: { count: 1, id: "fargostalismans:force_of_environment" }
+				type: "item"
+			}]
+			x: 17.15d
+			y: 5.1d
+		}
+		{
+			dependencies: [
+				"72E5DE96165E5DE2"
+				"535C11E589E11056"
+				"4235989DE2A9CAF2"
+				"6F49DC432E5968AC"
+				"1C3D395850C1C4A4"
+				"0FA7ECE8C07ADAB1"
+				"19EC021D1722EFC1"
+				"4B5BFD1142133E93"
+			]
+			hide_dependent_lines: true
+			id: "4835F10B1C5BCAAE"
+			rewards: [{
+				id: "0025B79D6EA2AD37"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "32D5045473C001E0"
+				item: { count: 1, id: "fargostalismans:force_of_negative" }
+				type: "item"
+			}]
+			x: 17.85d
+			y: -5.1d
+		}
+		{
+			dependencies: ["48E284F256F6453E"]
+			id: "20B98E676C8CC943"
+			rewards: [{
+				id: "56C113FBC1D5ED15"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7AB4123F573F6549"
+				item: { count: 1, id: "fargostalismans:abominable_energy" }
+				type: "item"
+			}]
+			x: 0.25d
+			y: 0.0d
+		}
+	]
+}

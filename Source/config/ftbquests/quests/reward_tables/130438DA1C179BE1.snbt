@@ -1,0 +1,20 @@
+{
+	icon: {
+		id: "actuallyadditions:drill_upgrade_speed"
+	}
+	id: "130438DA1C179BE1"
+	loot_size: 1
+	order_index: 63
+	rewards: [
+		{ id: "632A0482DD1AE84F", item: { count: 1, id: "actuallyadditions:drill_upgrade_speed" } }
+		{ id: "5B4DC99AFB1145CD", item: { count: 1, id: "actuallyadditions:drill_upgrade_speed_ii" } }
+		{ id: "028964B4DA722A0A", item: { count: 1, id: "actuallyadditions:drill_upgrade_speed_iii" } }
+		{ id: "31BB3AEDBDD1D589", item: { count: 1, id: "actuallyadditions:drill_upgrade_silk_touch" } }
+		{ id: "333FC235D013B317", item: { count: 1, id: "actuallyadditions:drill_upgrade_fortune" } }
+		{ id: "421487D4AF7CDDAD", item: { count: 1, id: "actuallyadditions:drill_upgrade_fortune_ii" } }
+		{ id: "1CE0061B1B27DDA0", item: { count: 1, id: "actuallyadditions:drill_upgrade_three_by_three" } }
+		{ id: "035CF3361E12EBC5", item: { count: 1, id: "actuallyadditions:drill_upgrade_five_by_five" } }
+		{ id: "403A1D58BD0E25A4", item: { count: 1, id: "actuallyadditions:drill_upgrade_block_placing" } }
+	]
+	use_title: true
+}

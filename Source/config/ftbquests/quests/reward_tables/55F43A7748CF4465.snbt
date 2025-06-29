@@ -1,0 +1,45 @@
+{
+	icon: {
+		id: "create:cogwheel"
+	}
+	id: "55F43A7748CF4465"
+	loot_size: 1
+	order_index: 48
+	rewards: [
+		{
+			count: 4
+			id: "229601C123DFA1A6"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+		}
+		{
+			count: 4
+			id: "798F1D81082C3A5A"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+		}
+		{
+			count: 2
+			id: "617A1EA6E510792D"
+			item: {
+				count: 1
+				id: "create:water_wheel"
+			}
+		}
+		{
+			count: 2
+			id: "60CD37579DD6FD9F"
+			item: {
+				count: 1
+				id: "create:large_water_wheel"
+			}
+		}
+		{ id: "4DF93B206380E7B1", item: { count: 1, id: "create:depot" } }
+		{ id: "56BD2460F2008F0C", item: { count: 1, id: "create:belt_connector" } }
+	]
+	use_title: true
+}

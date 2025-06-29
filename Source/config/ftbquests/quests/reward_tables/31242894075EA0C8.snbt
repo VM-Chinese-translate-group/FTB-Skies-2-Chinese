@@ -1,0 +1,43 @@
+{
+	icon: {
+		components: {
+			"apotheosis:gem": "apotheosis:core/samurai"
+			"apotheosis:purity": "normal"
+		}
+		id: "apotheosis:gem"
+	}
+	id: "31242894075EA0C8"
+	loot_crate: {
+		color: 16733695
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Gems Bag"
+		string_id: "gems_bag"
+	}
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{ id: "5AEDF4E828D04591", item: { components: { "apotheosis:gem": "apotheosis:core/ballast", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "5820D027EABBB452", item: { components: { "apotheosis:gem": "apotheosis:core/brawlers", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "4DF33CBDC7A0EAF2", item: { components: { "apotheosis:gem": "apotheosis:core/breach", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "219829988C43319E", item: { components: { "apotheosis:gem": "apotheosis:core/combatant", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "29A7D697D26DDB44", item: { components: { "apotheosis:gem": "apotheosis:core/guardian", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "5C05C52DA272442B", item: { components: { "apotheosis:gem": "apotheosis:core/lunar", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "682509A286C358EA", item: { components: { "apotheosis:gem": "apotheosis:core/samurai", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "21876EFF4E558041", item: { components: { "apotheosis:gem": "apotheosis:core/slipstream", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "64126F5A43C4BC7C", item: { components: { "apotheosis:gem": "apotheosis:core/solar", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "1CE09127E0969AD5", item: { components: { "apotheosis:gem": "apotheosis:core/splendor", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "0E7ACD7E2E44FFA9", item: { components: { "apotheosis:gem": "apotheosis:core/tyrannical", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "008171DB164471B8", item: { components: { "apotheosis:gem": "apotheosis:core/warlord", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "2BCE636952BCDD51", item: { components: { "apotheosis:gem": "apotheosis:overworld/earth", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "3DE1EA41FB25A100", item: { components: { "apotheosis:gem": "apotheosis:overworld/royalty", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "76371EA6CAE840F3", item: { components: { "apotheosis:gem": "apotheosis:the_end/mageslayer", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "59BF917BA85CE781", item: { components: { "apotheosis:gem": "apotheosis:the_nether/blood_lord", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "396418B8AA302CDD", item: { components: { "apotheosis:gem": "apotheosis:the_nether/inferno", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
+	]
+	use_title: true
+}
