@@ -46,7 +46,7 @@
 	chapter_group.4E06BB3DD10B837B.title: "主线任务"
 	file.0000000000000001.title: "&6FTB Skies 2"
 	quest.0017F48E23512C75.quest_desc: ["[\"你现在可以使用\", {\"text\": \"橙色粉笔\", \"color\": \"#FCA645\"}, \"、\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"和\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"来再次升级现有的\", {\"text\": \"五芒星\", \"color\": \"#55FFFF\"}, \"了。\"]"]
-	quest.0017F48E23512C75.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" & \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" Chalks\"]"
+	quest.0017F48E23512C75.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \" & \", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"粉笔\"]"
 	quest.0056517EDF3DAB08.quest_desc: [
 		"&a速度表&r可以显示你的动力网络中某个特定部件的运行速度"
 		""
@@ -783,7 +783,7 @@
 		""
 		"你也可以用特殊的&d增强箭&r来增强法术威力！"
 	]
-	quest.082551D21363A1D9.title: "&fEnchanter's Bow \\&\\ Crossbow"
+	quest.082551D21363A1D9.title: "&f巫师之弓和巫师之弩"
 	quest.0826EF3E7B15B219.quest_desc: ["消耗粉色的物品发电。"]
 	quest.0826EF3E7B15B219.title: "&f菌丝网络粉色发电机"
 	quest.082DD19BC652E4FF.quest_desc: [
@@ -1346,13 +1346,13 @@
 	quest.0C9CD2D8F10D750F.quest_desc: ["&c磁通门&r是一种高级组件，可用于合成游戏后期的机器。"]
 	quest.0C9CD2D8F10D750F.title: "&c磁通门"
 	quest.0CA75E81F6824B22.quest_desc: [
-		"如果你既爱魔法又爱探险，快来试试&eIron的法术与魔法书&r模组吧！这是个超级棒的魔法模组，添加了海量法术供你组合游玩！"
+		"If you're into magic AND exploration, try out &eIron's Spells 'n Spellbooks&r. This is an amazing magic mod that adds a ton of spells for you to play with."
 		""
-		"除非你能在战利品中找到&a法术书&r，否则可以先制作一本&a初学者法术书&r或&a铁箍书卷&r来存放初始法术。我们还会提供几张初始&d法术卷轴&r给你！"
+		"Unless you find a &aSpell Book&r as loot, you can start by making a &aFlimsy Journal&r or &aIronbound Tome&r to hold a few spells. We'll even provide a few starter &dSpell Scrolls&r for you!"
 		""
-		"你可以将它们作为一次性卷轴来施法，也可以抄写到法术书中，这样就能随心所欲地消耗法力值来施放这些法术！"
+		"These can be cast as single-use items, or placed in your Spell Book to cast at-will with Mana."
 	]
-	quest.0CA75E81F6824B22.title: "&eIron的法术与魔法书"
+	quest.0CA75E81F6824B22.title: "&eIron's Spells 'n Spellbooks"
 	quest.0CD3050976F79358.title: "&f熟鸡肉丁"
 	quest.0CEB6ADF1306381D.quest_desc: [
 		"The &aDisplay Panel&r will be one of your best friends when learning new &6I.D&r systems as it can show show you what is stored within a &aVariable Card&r."
@@ -2477,7 +2477,7 @@
 		"{@pagebreak}"
 		"此处为了教学，请编写一个&e弹射物-破坏&d法术&r！ "
 		""
-		"&dSpells&r follow a specific order to be cast, starting with the &bForm&r. This is \"how\" it is cast."
+		"&d法术&r施放是按照特定顺序执行魔符的，法术开头必须是&b形态&r魔符。&b形态&r决定了法术“如何”被施放。"
 		""
 		"比如在法术编写界面你有&3触摸&r、&3弹射物&r和&3自身&r可选。单击选择&a弹射物&r形态，然后下栏中就会开始&d法术&r构建。"
 		""
@@ -2959,6 +2959,9 @@
 	quest.1F09A28387DA18A6.title: "&fNBT标签与存储物流"
 	quest.1F0ADF87B63B50AC.quest_subtitle: "雷霆套装"
 	quest.1F0ADF87B63B50AC.title: "&3雷霆术士套装"
+	quest.1F0C3CD47947DA8D.quest_desc: ["If something happens to you, you may lose your &ePortable Shrinking Device&r. In the compact machine start, this can be tragic, so have one on us."]
+	quest.1F0C3CD47947DA8D.quest_subtitle: "Oh no!"
+	quest.1F0C3CD47947DA8D.title: "PSD PTSD"
 	quest.1F2E5FBD59466D57.quest_desc: [
 		"&a流体模块&r可以将周边的流体当水处理，前提是路由器中必须有流体类储存容器，比如&a桶&r，或者&a储罐&r。"
 		""
@@ -3134,7 +3137,7 @@
 	]
 	quest.21672A342A11A0DE.title: "&7Zombie Talisman"
 	quest.216FBD5E15FE2E7D.quest_desc: [
-		"If we want our machines to handle these levels of power, we'll need to make &5Quantum Upgrades&r."
+		"你需要&5量子升级&r才能让机器处理量子级别的能量。"
 		""
 		"你做出来的第一个升级应该安装在&3电动打包机&r上，这样可以解锁新的配方！"
 		""
@@ -3380,7 +3383,7 @@
 	quest.2444739C768D6C1A.quest_desc: [
 		"这些悬浮于天空的空岛村庄藏有大量稀有资源，不仅能通过交易获取物资，甚至无需翻箱倒柜掠夺宝箱。"
 		""
-		"Using an &3Eye of Legend&r will lead you to one of these."
+		"使用一颗&3传说之眼&r将会指引你找到其中一个。"
 	]
 	quest.2444739C768D6C1A.title: "找到&b天空村庄"
 	quest.2444EAF58C073E51.quest_desc: [
@@ -3678,7 +3681,7 @@
 	]
 	quest.26EA309139C7C27E.title: "&a熔炉"
 	quest.26ECC091E6B3FA57.quest_desc: [
-		"你可以在末地找到&d蔚蓝银矿&r。"
+		"&dAzure Silver&r can be obtained through bees."
 		""
 		"这种矿物的挖掘等级为下界合金，一般作用是&d制造蔚蓝琥珀金锭&r。"
 	]
@@ -3883,7 +3886,7 @@
 	]
 	quest.29CEF5D43415B227.title: "&d远程传输魔源"
 	quest.29E2CEADF6720EB3.quest_desc: [
-		"&c绯红铁矿石&r在地狱的任意高度都可以生成。"
+		"&cCrimson Iron Ore&r can be obtained from bees."
 		""
 		"这东西不仅数值惊人，而且&c绯红铁镐头&r附带自动熔炼的特性！"
 		""
@@ -4299,7 +4302,7 @@
 		""
 		"需要在外出时传送到一个传送石碑？制作一个&d传送石&r来造访你所有的传送石碑！"
 	]
-	quest.2E30AE23A0602A0A.title: "&b到处逛逛"
+	quest.2E30AE23A0602A0A.title: "&bFast Travel"
 	quest.2E3D56F5BC1075DB.quest_desc: ["这个升级可以让你拥有创造飞行的能力，把它加装到你的&d蚀空合金胸甲&r上就行。"]
 	quest.2E3D56F5BC1075DB.title: "&f升级：飞行"
 	quest.2E56DB4CBFE2F37C.quest_desc: ["1个高级精华=64个下级精华"]
@@ -4436,7 +4439,7 @@
 		""
 		"这个包里&b钻头不会被消耗掉&r。"
 		""
-		"&eNote&r: Different &aDrills&r and tiers will yield different ores, so check the uses to best target the ores you want the most. Make sure your output is large enough to accommodate all the ore types or use multiple output hatches so you don't miss any ores!"
+		"&e注意&r：不同的&a钻头&r会产出不同的矿石，所以最好确保使用正确的钻头来开采你想要的矿物！确保你的输出口容量足以容纳你产出的所有矿石，或者选择使用多个输出口来对矿石进行分类处理！"
 	]
 	quest.2FEC8EC3EB592A03.title: "&f你的第一个 &d采石场&f！"
 	quest.2FEF07B495E0331D.title: "&a冒险家奖励包"
@@ -4942,7 +4945,7 @@
 		""
 		"虽然这个MI指导书中的发展路线不算太慢，但是你可以直接用这个包中另外的制钢手段，直接跳到钢铁阶段。"
 		""
-		"[\"This could mean using \", {\"text\": \"Mekanism's \", \"color\": \"yellow\"}, {\"text\": \"Metallurgic Infuser\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"616E3CE38F1D73AE\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Metallurgic Infuser Quest\"}}, \", \", {\"text\": \"Immersive Engineering's \", \"color\": \"yellow\"}, {\"text\": \"Blast Furnace\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"56367596C11E78A9\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Blast Furnace Quest\"}}, \", or just sticking with \", {\"text\": \"MI\", \"color\": \"yellow\"}, \" to craft it as well.\"]"
+		"[\"这可能意味着使用 \", {\"text\": \"通用机械的 \", \"color\": \"yellow\"}, {\"text\": \"冶金灌注机\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"616E3CE38F1D73AE\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往冶金灌注机任务\"}}, \"，\", {\"text\": \"沉浸工程的\", \"color\": \"yellow\"}, {\"text\": \"高炉\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"56367596C11E78A9\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往高炉任务\"}}, \"，或者只是坚持用\", {\"text\": \"MI\", \"color\": \"yellow\"}, \"来制作它。\"]"
 		""
 		"对于那些没怎么或者根本没玩过&e现代工业化&r的玩家来说，钢永远都不嫌多，穿上工作服去整点钢锭吧（ゝω・）"
 	]
@@ -5016,7 +5019,7 @@
 		"{@pagebreak}"
 		"界面中会显示你目前可以制造的全部&b魔符&r，其中也包括你已经学到过的那些。你可以在右边以等级来筛选搜索结果，或者直接搜索特定&b魔符&r。"
 		""
-		"For our first &bGlyph&r, let's make &aAmplify&r! Search for it, then click it to see what items you need at the bottom, then click the \"Select\" button."
+		"如果硬要说先做哪一个&b魔符&r的话，就做&a魔符：强化&r吧！首先搜索它，然后点击其图标查看你所需要的材料，最后点“选择”即可。"
 		""
 		"然后退出界面，手持所需物品右击你的抄写台，见证魔法的时刻！"
 	]
@@ -5127,7 +5130,7 @@
 	quest.35F2D26D7089C231.quest_desc: [
 		"在能用上电器前，你得先用&7蒸汽&r驱动手头的青铜机器。"
 		""
-		"&7Steam&r produced via &eMekanism&r should work as well, but you will need to make sure that it is &lLIQUID&r steam."
+		"&e通用机械&r的&7蒸汽&r也能用！"
 		""
 		"假如你想用&eMI&r自己的&7蒸汽&r制造方法的话，那么&a青铜锅炉&r可以为你的青铜时代科技提供动力！"
 		""
@@ -5205,7 +5208,7 @@
 		""
 		"使用护符后，你的德格米就会在这个苔石周边十格内安家，苔石会变成&2德格米石阵&r。"
 		""
-		"Any mob within 10 blocks will also be \"farmed\" by the Drygmy, so they will need a place to store the items! Beside the Hedge, make sure to place down a chest for storage. Each time the Drygmy tries to obtain drops from a mob, it will require Source. This means you'll need a Source Jar as well!"
+		"德格米周边十格内的生物会被自动“刷怪”，所以你需要准备一个地方来保存掉落物！在德格米石阵边上放个箱子就可以自动储存物品。每次德格米试图获取怪物掉落物的时候都需要魔源，所以别忘了再放个魔源罐！"
 		""
 		"{image:ftb:textures/quests/ars/hengesetup.png width:160 height:125 align:center}"
 		"{@pagebreak}"
@@ -5536,7 +5539,7 @@
 	quest.3A084B83B8CFAACD.quest_desc: [
 		"一座悬浮于下界虚空中的竞技场，击败炽燃遗魂，收集它们的炽燃余烬，点燃顶层的祭坛即可迎战其真正的主人。"
 		""
-		"The lava-strewn floor at the base holds the memory of an ancient champion, to be woken with a Cinderous Soulcaller."
+		"熔岩遍布之地，封存着一位远古强敌的记忆，需用炽燃余烬将其唤醒。"
 	]
 	quest.3A084B83B8CFAACD.title: "发现&c烈焰竞技场"
 	quest.3A17E4DF31D26856.quest_desc: [
@@ -5687,7 +5690,7 @@
 	quest.3B09E14800C7276A.quest_desc: [
 		"得到&7含硫原油&r后，将它和&b氢气&r一同放入&3化学反应釜&r内化合并获得产物&e硫酸&r与&7原油&r。"
 		""
-		"[\"You can also run it through a \", {\"text\": \"Thermopneumatic Processing Plant\", \"color\": \"blue\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6CD6367FB419EA35\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Processing Plant Quest\"}}, \" from \", {\"text\": \"PNCR\", \"color\": \"yellow\"}, \" to get \", {\"text\": \"Sulfur Dust\", \"color\": \"yellow\"}, \" and \", {\"text\": \"Crude Oil\", \"color\": \"gray\"}, \". The processing route you chose is up to you!\"]"
+		"[\"你还可以通过\", \"来自\", {\"text\": \"气动工艺\", \"color\": \"yellow\"}, \"的\", {\"text\": \"热气动加工机\", \"color\": \"blue\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6CD6367FB419EA35\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往热气动加工机任务\"}},  \"来获取\", {\"text\": \"硫粉\", \"color\": \"yellow\"}, \"和\", {\"text\": \"原油\", \"color\": \"gray\"}, \"。你选择的加工路线由你自己来决定！\"]"
 	]
 	quest.3B09E14800C7276A.title: "&7含硫原油"
 	quest.3B1C807CEEC4E2ED.quest_desc: [
@@ -5835,8 +5838,8 @@
 		"Poppets can be held onto or placed in a &aPoppet Shelf&r to function wherever a target is."
 	]
 	quest.3CC88B6ACDC68D5F.title: "Poppetry"
-	quest.3CCE39C0957034B3.quest_desc: ["A desert island floating in the void, this isolated pile of sand hosts a unique flavor of the undead in skeletal lizardfolk. "]
-	quest.3CCE39C0957034B3.title: "Wander into the &6Blazing Desert"
+	quest.3CCE39C0957034B3.quest_desc: ["一座漂浮在虚空中的荒岛，这片与世隔绝的沙丘栖息着一种叫骷髅狗头人的特殊亡灵生物。"]
+	quest.3CCE39C0957034B3.title: "漫步进入&6炽热沙漠"
 	quest.3CD163AB900EDCF4.quest_subtitle: "货币兑换"
 	quest.3CD163AB900EDCF4.title: "&f水晶 <- 金"
 	quest.3CD3CA5B619F5698.quest_desc: ["&aFortune&r and &aSilk Touch&r upgrades can be used in &aConstructors&r to apply their enchantment to the mined block."]
@@ -6049,7 +6052,7 @@
 	quest.3F80D4097EA8C49B.quest_desc: [
 		"将流体缓慢而稳定地滴在不同材料上是非常有用的策略。"
 		""
-		"通过使用碗从周围的水中一次舀出少量水，可以将其放入滴水器中，将树叶分解成更多的水并转化其他材料！"
+		"By clicking a bowl on a water source, it turns into a bowl of water, which can be placed in the Dripper to break down leaves into more water and convert other materials!"
 		""
 		"另一种更巧妙的方法制作更多水是在流动的水下方使用骨粉。如果有足够的空间，海草会长出并将水流变成水源方块！"
 	]
@@ -6117,7 +6120,7 @@
 	quest.4020A8E11C423C7F.quest_subtitle: "用一支穿透箭同时击杀两只幻翼"
 	quest.4020A8E11C423C7F.title: "&f两只鸟，&d一箭双雕"
 	quest.40255F6F1C60B588.title: "&f流体接口"
-	quest.403967C03F9A6054.quest_desc: ["With &bPolyethylene&r available, we can craft &3Advanced Upgrades&r that are 8x more effective than the &aBasic Upgrade&r."]
+	quest.403967C03F9A6054.quest_desc: ["有了&b聚乙烯&r，我们可以制作&3个高级升级&r，效果比&a基础升级&r高8倍。"]
 	quest.403967C03F9A6054.title: "&3高级升级"
 	quest.408165388CBC4556.quest_subtitle: "传输气体和化学品"
 	quest.408165388CBC4556.title: "&f化学品导管"
@@ -6142,7 +6145,7 @@
 		""
 		"而且这个魔源通道可以将周围地上3x3的草方块/泥土转化为菌丝，且如果周边为空地，则在菌丝上会长出蘑菇。"
 		""
-		"You can \"feed\" it items by using nearby pedestals."
+		"你可以在周边放置基座来“喂”它。"
 	]
 	quest.40AD268694D57BD9.title: "&d菌丝魔源通道"
 	quest.40B00524384110B9.quest_desc: [
@@ -6397,7 +6400,7 @@
 	quest.4327499499C5397F.quest_desc: ["要制作&3电子电路&r，我们需要先制作&b电子电路板&r来承载各个元件。"]
 	quest.4327499499C5397F.title: "&b电子电路板"
 	quest.43332C74EA1B94AB.quest_desc: [
-		"These villages out in the Nether's void hold plenty of rare materials and offer the chance to trade for resources, even before swiping resources out of their chests which they won't be happy about."
+		"这些位于下界虚空中的村庄藏有大量稀有材料，你甚至可以先通过交易获取物资。当然，要是从他们的箱子里拿走资源，他们可不会因此感到高兴。"
 		""
 		"Using an &3Eye of Legend&r will lead you to one of these."
 	]
@@ -6647,8 +6650,8 @@
 		"Warning sirens will engage before it reaches those temperatures. Depending on the size of the &dReactor&r and the number of &aFuel Rods&r, the meltdown will result in a bigger or smaller explosion."
 	]
 	quest.45B2C8BD2ACBA46D.title: "&fDesigning Your &dReactor"
-	quest.45C187DEF7B60C05.quest_desc: ["Out in the void are small mountains of fire and various types of stone. If you'd like to harvest lots of Skystone for a build or for some use in digital storage, this is definitely the place."]
-	quest.45C187DEF7B60C05.title: "Find a &cVolcano"
+	quest.45C187DEF7B60C05.quest_desc: ["虚空之中遍布着火焰小山和各种各样的石头。如果你想采集大量的天石用于建筑或是数字存储，这里绝对是不二之选。"]
+	quest.45C187DEF7B60C05.title: "找到&c火山"
 	quest.45C2A0B3F277C09B.quest_desc: ["&e进阶提示&r：你可以直接对着通用机械的任意管道使用&c合金&r就直接将它们升至下一级！"]
 	quest.45C2A0B3F277C09B.quest_subtitle: "能量管道"
 	quest.45C2A0B3F277C09B.title: "{\"text\": \"Basic Univesal Cable\", \"color\": \"#5EFCB6\"}"
@@ -6769,7 +6772,7 @@
 	]
 	quest.46D4262D31E94814.title: "&f获取蜜蜂"
 	quest.46EE104195D0391C.quest_desc: [
-		"A &aMixer&r is also a very essential machine to have from &eMI&r, as you'll be using it to mix a variety of dusts and/or materials/components!"
+		"&a搅拌机&r也是&eMI&r非常重要的机器，因为你需要它才能搅拌出大量的粉末和材料/组件！"
 		""
 		"For example, you can mix &2Gunpowder&r and &2Charcoal Dust&r to get your first &7Sulfur Dust&r."
 	]
@@ -7041,6 +7044,12 @@
 	quest.4A707D443EC2DE33.title: "&6功能性存储"
 	quest.4A7198127F58DA94.quest_desc: ["&aLogic Directors&r are used to craft advanced network components."]
 	quest.4A7198127F58DA94.title: "&fLogic Director"
+	quest.4A7A15ECB8ABDF88.quest_desc: [
+		"&7Zinc&r is a crucial part of Create progression. So how do you get it?"
+		""
+		"You have several options. You can hammer tuff on a cutting board, sure. But you can &bexplore&r, use &2GeOres&r, breed &eZinc Bees&r, or go into &dMalum&r, You may even find another way!"
+	]
+	quest.4A7A15ECB8ABDF88.title: "Where is the Zinc?"
 	quest.4AB10BE58B13DBDD.title: "&eAE2 1k磁盘奖励包"
 	quest.4AB3FD2B686C1F10.quest_desc: [
 		"A standard chalice gives +1x base power"
@@ -7137,8 +7146,8 @@
 		"这个升级可以自动销毁白名单内的物品，升级后还有更多过滤选项！"
 	]
 	quest.4BA8E435EDA995AC.title: "&f虚空升级"
-	quest.4BB5ADD98F958712.quest_desc: ["Out in the void lies a dungeon packed with all sorts of ill-gotten magical loot, guarded by a similar assortment of creatures. An archevoker oversees it all from the highest level."]
-	quest.4BB5ADD98F958712.title: "Discover a &6Certain Magical Dungeon"
+	quest.4BB5ADD98F958712.quest_desc: ["虚空深处隐藏着一座地牢，里面堆满了各种来路不明的魔法宝物，由各类诡异的生物守卫着。高位唤魔者站在最高层，掌控着这片禁地。"]
+	quest.4BB5ADD98F958712.title: "发现&6神秘魔法地牢"
 	quest.4BB6832FE4685131.quest_desc: ["要使用&3灵魂&r，请将&a灵魂涌动&r指向你想要加速的方块，并使用&a灵魂管道&r将其连接到&d灵魂镭射钻&r。"]
 	quest.4BB6832FE4685131.title: "&3转移灵魂"
 	quest.4BBEE37F0D847BA9.quest_subtitle: "传输流体"
@@ -7538,7 +7547,7 @@
 		""
 		"Defeat the largest of these foes to gain entrance to the source, and be prepared to fight it out."
 	]
-	quest.4F8C7DC594972DE4.title: "Come upon the &bIce Castle"
+	quest.4F8C7DC594972DE4.title: "邂逅那座&b冰雪城堡（Ice Castle）"
 	quest.4FA766AD24D00325.quest_desc: ["&b苍穹晶&r可以合成该模组的高级机器！"]
 	quest.4FA766AD24D00325.title: "&f高级机器"
 	quest.4FA9FABD84B4751A.quest_desc: [
@@ -7573,13 +7582,13 @@
 	]
 	quest.4FF4DA1DA3551C1C.title: "&f初级替换器"
 	quest.5003396EDC1C994E.quest_desc: ["An island that hosts a hostile cryomancer's base of operations. Find their sneaky basement entrance and confront them."]
-	quest.5003396EDC1C994E.title: "Discover a &3Cryomancer Tower"
+	quest.5003396EDC1C994E.title: "找到&3冰霜术士塔"
 	quest.50049BE2452AB7F5.quest_desc: [
 		"我们第一个目标是要将现有的&7蒸汽&r转化为电力来给机器供能。"
 		""
 		"&2低压蒸汽涡轮&r可以使用蒸汽发电，其功率最高可达32EU/t。"
 		""
-		"[\"To transfer the power out of the \", {\"text\": \"Turbine\", \"color\": \"dark_green\"}, \", you'll need to  use the right \", { \"text\": \"cables for LV power\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5BA74A759CC43BBB\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to LV Cables Quest\"}}, \", which can extract up to 256 EU/t.\"]"
+		"[\"要将电从\", {\"text\": \"涡轮机\", \"color\": \"dark_green\"}, \"取出，你需要使用\", { \"text\": \"低压电源电缆\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5BA74A759CC43BBB\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"转到低压电缆任务\"}}, \"，可提取高达 256 EU/t的电力。\"]"
 		""
 		"如果你需要更多的能量，应该使用不同的电缆来建立独立的能量网络。使用每种不同的电缆，你可以传输高达768 EU/t的&2低压&r电力。"
 	]
@@ -7926,7 +7935,7 @@
 	]
 	quest.544DCCAF97078924.title: "&fTalisman Pedestal"
 	quest.5455CF5D3C37ECA9.quest_desc: ["This imposing structure in the Nether's void contains valuable loot and porcine foes, with a powerful construct that attacks those who draw near."]
-	quest.5455CF5D3C37ECA9.title: "Find a &6Bastion"
+	quest.5455CF5D3C37ECA9.title: "找到&6堡垒"
 	quest.5461C3C56F568B75.quest_desc: [
 		"&a金属模具&b工程师蓝图&r提供了不同模具的制作配方，这些模具还能应用于&a金属冲压机&r以外的机器。"
 		""
@@ -8136,7 +8145,7 @@
 		""
 		"第一种制备方式：首先你需要用&3蒸馏室&r提取出&2轻燃油和重燃油&r，接下来用&2搅拌机&r把它们混合为&e柴油&r即可。"
 		""
-		"[\"You can also refine \",{\"text\": \"Crude Oil\", \"color\": \"green\"}, \" it using a \", {\"text\": \"Thermopneumatic Processing Plant\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6CD6367FB419EA35\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Processing Plant Quest\"}}, \" from \", {\"text\": \"PNCR\", \"color\": \"yellow\"}, \", which will require heat and pressure.\"]"
+		"[\"你还可以优化\",{\"text\": \"原油\", \"color\": \"green\"}, \"生产线，使用\", {\"text\": \"气动工艺\", \"color\": \"yellow\"}, \"的\", {\"text\": \"热气动加工机\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6CD6367FB419EA35\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往热气动加工机任务\"}}, \"，其需要一些热量和压力。\"]"
 	]
 	quest.56E1FAD44A6E8C11.title: "&e柴油"
 	quest.56E9C123DD727E46.quest_desc: [
@@ -8456,7 +8465,7 @@
 	quest.5A5D6A90C0999828.quest_desc: [
 		"&3进阶机器外壳&r用于制造各种&3中压机器&r，标志着我们进入了&3中压阶段&r。"
 		""
-		"You can also upgrade your existing &2LV&r processing machines by inserting one into its upgrade slot. This will allow the machine to accept and process &3MV&r tier energy and recipes."
+		"你可以给现有的&2低压&r机器的升级槽插入进阶机器外壳来使其可以接受中压电并处理&3中压&r配方。"
 		""
 		"哦，你就没想过你得把每个等级的所有新机器全部都做出来？"
 	]
@@ -8511,7 +8520,7 @@
 		""
 		"你需要把水和&a碳粉&r或&a焦煤粉&r放入搅拌机，制作&3粗制合成油&r。"
 		""
-		"[\"To make Coal Coke, you'll need to use \", { \"text\": \"MI's Coke Oven\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"06FD385E707F4E12\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI's Coke Oven Quest\"}}, \" or \", { \"text\": \"Immersive Engineering's Coke Oven\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0A2DB5AFC89E852F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to IE's Coke Oven Quest\"}}, \".\"]"
+		"[\"制作焦煤，你需要使用\", { \"text\": \"MI焦炉\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"06FD385E707F4E12\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往MI焦炉任务\"}}, \"或\", { \"text\": \"沉浸工程焦炉\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0A2DB5AFC89E852F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往沉浸工程焦炉任务\"}}, \".\"]"
 	]
 	quest.5B7CC380E28893C1.title: "&a粉末榨油"
 	quest.5B85AB4B095F240B.quest_desc: [
@@ -8639,7 +8648,7 @@
 	quest.5D0742E56290E42B.quest_desc: [
 		"下一阶科技要用&3电子电路&r了"
 		""
-		"[\"You can substitute a \", {\"text\": \"Mekansim \", \"color\": \"yellow\"}, {\"text\": \"Ultimate Control Circuit\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19874DF48B8B2A75\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Ultimate Control Circuit Quest\"}}, \" in these recipes as well but beyond this tier you'll need to automate the remaining processors with \", {\"text\": \"MI\", \"color\": \"yellow\"}, \".\"]"
+		"[\"你现在还能用\", {\"text\": \"通用机械\", \"color\": \"yellow\"}, {\"text\": \"终极控制电路\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19874DF48B8B2A75\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往终极控制电路任务\"}}, \"凑数，但超出这级，你就需要使用 \", {\"text\": \"MI\", \"color\": \"yellow\"}, \"的东西了。\"]"
 	]
 	quest.5D0742E56290E42B.title: "&3我们正在抵制这一点"
 	quest.5D2D114B66DE61EE.quest_desc: [
@@ -9656,7 +9665,7 @@
 		""
 		"Once this item is used on the central altar, the boss will be summoned."
 	]
-	quest.67D1E0D81B2C5D8D.title: "Dip into the &3Leviathan's Fishbowl"
+	quest.67D1E0D81B2C5D8D.title: "潜入&3利维坦的鱼缸"
 	quest.67DE9E103F50E3F1.quest_desc: [
 		"&aAndesite Casings&r are used to craft most early-game blocks and machines."
 		""
@@ -9777,7 +9786,7 @@
 		""
 		"&2研磨机&r可以使矿石增产并可以从一些物品中获得副产物。"
 	]
-	quest.69159D10C2791C2E.title: "&fCrushing \\&\\ Cutting"
+	quest.69159D10C2791C2E.title: "&f粉碎和切割"
 	quest.69282BCC2FA04060.quest_desc: [
 		"This block has a very simple, yet important role within your &6I.D&r network, which is to store existing variables that a system can referece back to."
 		""
@@ -9827,7 +9836,7 @@
 		""
 		"经过改进的新采石场可以使用更好的&b钻头&r，如金钻、钢钻和不锈钢钻。"
 		""
-		"[\"If you wish to get into \", {\"text\": \"Petrochemicals\", \"color\": \"dark_green\"}, \" and/or sustainable \", {\"text\": \"Diesel Fuels\", \"color\": \"dark_green\"}, \", it may be worth building an \", {\"text\": \"Oil Drilling Rig\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71D274A5F226DAEC\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Drilling Rig Quest\"}}, \" soon with aluminum drills for virulent mixture.\"]"
+		"[\"如果你希望涉足\", {\"text\": \"石油化工产品\", \"color\": \"dark_green\"}, \" 和可持续的\", {\"text\": \"柴油燃料\", \"color\": \"dark_green\"}, \"，尽快着手建造一个\", {\"text\": \"石油钻机\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71D274A5F226DAEC\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往石油钻机任务\"}}, \"是很值得，这样就可以使用铝钻头来钻取有毒的混合物。\"]"
 		""
 		"&7&o请记住，此包中不会消耗钻头。"
 	]
@@ -10072,7 +10081,7 @@
 		"One particular goal of this is to create &bplants and saplings unique to the mod&r, though it can create a wide variety of plants from other mods too."
 	]
 	quest.6E07405D08CCC2D4.quest_desc: ["[\"为了把现有的\", {\"text\": \"五芒星\", \"color\": \"#55FFFF\"}, \"升至下一级别，你将需要\", {\"text\": \"黄绿色粉笔\", \"color\": \"#E2FC97\"}, \"、\", {\"text\": \"淡灰色粉笔\", \"color\": \"#C2C2C2\"}, \"以及一些骷髅头颅。\"]"]
-	quest.6E07405D08CCC2D4.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"Lime\", \"color\": \"#E2FC97\"}, \" & \", {\"text\": \"Light Gray\", \"color\": \"#C2C2C2\"}, \" Chalks\"]"
+	quest.6E07405D08CCC2D4.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"黄绿色\", \"color\": \"#E2FC97\"}, \" & \", {\"text\": \"淡灰色\", \"color\": \"#C2C2C2\"}, \" 粉笔\"]"
 	quest.6E62CF3784A15E0F.title: "&f化学品卡"
 	quest.6E66D752E153E00F.title: "&f实用的&a一阶&r魔符"
 	quest.6E9BCC46F9963413.quest_subtitle: "11x11的灌溉范围！"
@@ -10560,7 +10569,7 @@
 	quest.735DAACDBF57DA01.quest_desc: [
 		"&a油菜&r可以用来生产&a菜籽油&r之类的东西，然后用它们发电。"
 		""
-		"[ \"Canola seeds can be found in the world, or bought from \", { \"text\": \"The Market\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"073546F80EDA632E\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Market Quest\"]} }, \".\" ]"
+		"[ \"油菜籽可以在世界中找到，也可以从\", { \"text\": \"贸易站\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"073546F80EDA632E\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往贸易站任务\"]} }, \"购买。\" ]"
 	]
 	quest.735DAACDBF57DA01.title: "&a油菜"
 	quest.7365369CF1CCB2C9.quest_desc: ["The &aPortable Tank&r can store up to 256000mb of any fluid and will retain all fluids when broken."]
@@ -10652,7 +10661,7 @@
 	quest.740DA65D6FB1F0EC.quest_desc: ["&a魂金&r是一种被注入灵魂的特殊合金，能用来做一些游戏后期的机器，比如&d灵魂绑定器&r和&a头颅装配机&r。"]
 	quest.740DA65D6FB1F0EC.title: "&f魂金锭"
 	quest.741F91C5833DEFFA.quest_desc: [
-		"The &bVitalic Sourcelink&r generates Source from \"the cycle of life\"."
+		"&b生死魔源通道&r从“生死轮回”中生产魔源。"
 		""
 		"意味着周围只要有怪物死亡，或者动物繁育，就会产生魔源。它还可以用周边的幼年动物生产魔源，同时加速它的成长。"
 	]
@@ -10945,7 +10954,7 @@
 	]
 	quest.77E29BF73DB402C5.title: "&3Fluid Valve"
 	quest.77EFC3A24E922F93.quest_desc: [
-		"Now that we have &dAnnealed Copper&r, we can craft the &dAdvanced Components&r needed to upgrade our tech."
+		"现在我们有&d退火铜&r，你就可以制作所需的&d进阶元件&r，以此升级我们的科技水平。"
 		""
 		"首先，你需要制作一些&a高级电动机&r，因为需要它们才能制作&2高级泵&r！"
 	]
@@ -11049,7 +11058,7 @@
 	]
 	quest.790B688EBB673CBA.title: "&f魔法&d种子"
 	quest.7913B52AD9D28D2B.quest_desc: ["A massive stronghold found in the Nether. This castle's core harbors a destructive Harbinger, guarded by Watchers and Prowlers."]
-	quest.7913B52AD9D28D2B.title: "Discover the &4Nether Castle"
+	quest.7913B52AD9D28D2B.title: "发现&4下界堡垒"
 	quest.792AD85AE9FB81E0.quest_desc: [
 		"The &7Spectral Talisman&r prevents natural phantom aggression, but does not prevent phantoms from spawning."
 		""
@@ -11378,9 +11387,22 @@
 	]
 	quest.7D11FCF02C35213F.quest_subtitle: "Drill Baby Drill"
 	quest.7D11FCF02C35213F.title: "&aMechanical Drill"
-	quest.7D22824ADC29DA26.quest_desc: ["This small island forms out in the void, where oversized crystal crabs spawn near an altar dedicated to their kind."]
-	quest.7D22824ADC29DA26.quest_subtitle: "Time for crab"
-	quest.7D22824ADC29DA26.title: "Come Across a &dCherry Island"
+	quest.7D22824ADC29DA26.quest_desc: ["这座小岛悬浮在虚空之中，巨大的水晶蟹会在专为它们而设的祭坛附近生成。"]
+	quest.7D22824ADC29DA26.quest_subtitle: "是时候吃螃蟹了"
+	quest.7D22824ADC29DA26.title: "偶遇&d樱花岛"
+	quest.7D2375372CF328C3.quest_desc: [
+		"Eager to explore the great void? There is one item that can help a lot: A few stacks of &6Burning Dash Scrolls&r!"
+		""
+		"Throw a single piece of paper into a &6fire&r to make a &6Burning Dash Scroll&r."
+		""
+		"Everything you need to make these can be automated right now:"
+		"- &2Dispensers&r can light &6fires&r with &7flint and steel&r, break &asugarcane&r with &bwater,&r or toss items."
+		"- &2Hoppers&r under &2mud&r can still pick up items."
+		"- &2Snad&r, when directly pulsed with redstone, causes &asugarcane&r to grow quite fast."
+		""
+		"Warning: &cThrow only one piece of paper! Using more will waste the rest of the stack!&r"
+	]
+	quest.7D2375372CF328C3.title: "Air Dash"
 	quest.7D23D1C9DE75721F.title: "&f击杀20只&c骷髅"
 	quest.7D3A5740B5857874.quest_desc: [
 		"The &dSecurity Manager&r allows you to control who has access to different network functions."
@@ -11505,7 +11527,7 @@
 		""
 		"&a自动破坏器&r和&a流体收集器&r可以自动破坏或收集机器面前的方块或流体。"
 	]
-	quest.7EA01C721DFBF014.title: "&aBlock \\&\\ Fluid Management"
+	quest.7EA01C721DFBF014.title: "&a方块和流体管理"
 	quest.7EA2616705E80E24.quest_desc: ["破坏方块，但不兼容精准采集或时运。"]
 	quest.7EA2616705E80E24.title: "&f自动破坏方块"
 	quest.7EA8C2CD09DD85A3.quest_desc: [
@@ -11606,7 +11628,7 @@
 		""
 		"除了控制器方块，你还需要任务中展示的流体和物品&a输入仓&r和物品&c输出仓&r。剩下的方块需要使用耐火砖块。"
 		""
-		"You can configure the inputs and outputs in many different ways. Holding the wrench or an &ainput&r/&coutput&r hatch should show you where their valid placements are."
+		"你可以将输入仓和输出仓放在结构中的不同位置，手持一个扳手或&a输入仓&r/&c输出仓&r来查看可用位置。"
 	]
 	quest.7FA34CEB41A4D9F5.title: "&a蒸汽高炉"
 	quest.7FBA170218539BE8.quest_desc: [
@@ -11898,6 +11920,7 @@
 	task.183FEFA2AEF46058.title: "观察&a灵火"
 	task.185302C49E85B5E3.title: "&f召唤一个&a小鹿使魔"
 	task.19039CC0F9AB1E54.title: "任意原木"
+	task.196A4B2F83C7B04E.title: "Have a Tragic Accident"
 	task.19FEB64A680EC482.title: "MI的流体管道"
 	task.1A3819027110CDC5.title: "&f召唤一个&a普通动物"
 	task.1A4A5A59FFF815E2.title: "&c加热器&r"
