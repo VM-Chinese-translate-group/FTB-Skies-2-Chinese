@@ -4,7 +4,7 @@
 
 | FTB官网                                                         | 加载器   | 支持整合包版本 | 汉化维护状态 |
 | :-------------------------------------------------------------- | :------- | :------------- | :----------- |
-| [链接](https://www.feed-the-beast.com/modpacks/129-ftb-skies-2) | Neoforge | mc1.21.1 1.0.0 | 翻译中       |
+| [链接](https://www.feed-the-beast.com/modpacks/129-ftb-skies-2) | Neoforge | mc1.21.1 1.0.1 | 翻译中       |
 
 ---
 
