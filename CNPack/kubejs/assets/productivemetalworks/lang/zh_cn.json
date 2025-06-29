@@ -150,7 +150,7 @@
     "block.productivemetalworksfoundry_tank.fluid_tooltip":"存有：%smB %s",
     "book.productivemetalworks.intro_category.text":"建造熔铸炉的基础指南。",
     "book.productivemetalworks.intro_category.title":"简介",
-    "book.productivemetalworks.intro_page.building":"搭建熔铸炉需要的方块有：$(br)* 熔铸炉控制器$(br)* 熔铸炉储罐$(br) * 液体加热线圈$(br) * 熔铸炉排液孔$(br) * 耐火砖块或熔铸炉视窗$(br) * 铸件台&铸造盆$(br2)熔铸炉的尺寸可以是1x1的，也可以是任何矩形的。右侧你看到的是3x3正方形熔铸炉示例。",
+    "book.productivemetalworks.intro_page.building":"The blocks you will need to achieve your foundry are:$(br)* Foundry Controller$(br)* Foundry Tank$(br)* Liquid Heating Coils$(br)* Fire Bricks or Foundry Windows$(br)* Foundry Drain and Taps$(br)* Casting Basin & Table$(br2)The foundry can be as small as  1x1 and any rectangular shape. To the right you can see an example of a square 3x3 setup.",
     "book.productivemetalworks.intro_page.casting":"想要从原料中获取有用的材料，你需要使用铸造盆或是铸件台和铸模将其铸造为锭或块。$(br2)红石钟或红石脉冲可以控制浇注口，实现自动化；熔铸炉浇注口也可以替换为任何流体管道。",
     "book.productivemetalworks.intro_page.metalworks":"欢迎游玩Productive Metalworks，其灵感来源于匠魂的冶炼炉。你能发现两者既有不同之处，也有相似之处。但是请注意，这个模组不含工具制造，只包含熔铸炉。",
     "book.productivemetalworks.intro_page.multiblock":"3x3熔铸炉",
