@@ -45,7 +45,7 @@
 	chapter_group.3E3B6463983F18FB.title: "科技模组"
 	chapter_group.4E06BB3DD10B837B.title: "主线任务"
 	file.0000000000000001.title: "&6FTB Skies 2"
-	quest.0017F48E23512C75.quest_desc: ["[\"你现在可以使用\", {\"text\": \"橙色粉笔\", \"color\": \"#FCA645\"}, \"、\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"和\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"来再次升级现有的\", {\"text\": \"五芒星\", \"color\": \"#55FFFF\"}, \"了。\"]"]
+	quest.0017F48E23512C75.quest_desc: ["[\"你现在可以使用\", {\"text\": \"橙色粉笔\", \"color\": \"#FCA645\"}, \"、\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"和\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"来再次升级现有的\", {\"text\": \"五芒星\", \"color\": \"#55FFFF\"}, \"了。\"]"]
 	quest.0017F48E23512C75.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \" & \", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"粉笔\"]"
 	quest.0056517EDF3DAB08.quest_desc: [
 		"&a速度表&r可以显示你的动力网络中某个特定部件的运行速度"
@@ -120,7 +120,7 @@
 	quest.011DBD2652E49B97.quest_desc: [
 		"&6神化&r拥有一个全新的&b世界等级&r系统，默认可以通过“CTRL + T”查看。"
 		""
-		"[\"获得第一个\", {\"text\": \"词缀物品\", \"color\": \"#55FF55\"}, \"时，你就会从\", {\"text\": \"保护区\", \"color\": \"#7E7E7E\"}, \"等级开始，更多等级会随着你的模组进展而解锁。\"]"
+		"[\"获得第一个\", {\"text\": \"词缀物品\", \"color\": \"#55FF55\"}, \"时，你就会从\", {\"text\": \"保护区\", \"color\": \"#7E7E7E\"}, \"等级开始，更多等级会随着你的模组进展而解锁。\"]"
 		""
 		"更高的等级中，所有维度的难度和奖励将会增加。这些奖励可以在“等级”菜单（“CTRL+T”）中查看。"
 		""
@@ -130,16 +130,16 @@
 		"{@pagebreak}"
 		"&b世界难度等级&r"
 		""
-		"[\"\", {\"text\": \"保护区\", \"color\": \"#7E7E7E\"}, \" - 获得第一个\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"装备。\"]"
+		"[\"\", {\"text\": \"保护区\", \"color\": \"#7E7E7E\"}, \" - 获得第一个\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"装备。\"]"
 		""
-		"[\"\", {\"text\": \"边境\", \"color\": \"#55FF55\"}, \" - 穿上一整套\", {\"text\": \"普通\", \"color\": \"#7E7E7E\"}, \"或更高\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备。\"]"
+		"[\"\", {\"text\": \"边境\", \"color\": \"#55FF55\"}, \" - 穿上一整套\", {\"text\": \"普通\", \"color\": \"#7E7E7E\"}, \"或更高\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备。\"]"
 		""
-		"[\"\", {\"text\": \"半阶\", \"color\": \"#5454FC\"}, \" - 穿上一整套\", {\"text\": \"罕见\", \"color\": \"#55FF55\"}, \"或更高\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀一名\", {\"text\": \"神化\", \"color\": \"#FFAA00\"}, \"Boss怪物。\"]"
+		"[\"\", {\"text\": \"半阶\", \"color\": \"#5454FC\"}, \" - 穿上一整套\", {\"text\": \"罕见\", \"color\": \"#55FF55\"}, \"或更高\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀一名\", {\"text\": \"神化\", \"color\": \"#FFAA00\"}, \"Boss怪物。\"]"
 		"它们可以在小型地下地牢中找到，也可以在夜晚的世界各处发现。"
 		""
-		"[\"\", {\"text\": \"顶峰\", \"color\": \"#B900B9\"}, \" - 穿上一整套\", {\"text\": \"稀有\", \"color\": \"#5454FC\"}, \"或更高\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀凋灵\"]"
+		"[\"\", {\"text\": \"顶峰\", \"color\": \"#B900B9\"}, \" - 穿上一整套\", {\"text\": \"稀有\", \"color\": \"#5454FC\"}, \"或更高\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀凋灵\"]"
 		""
-		"[\"\", {\"text\": \"极巅\", \"color\": \"#EA6F14\"}, \" - 穿上一整套\", {\"text\": \"史诗\", \"color\": \"#B900B9\"}, \"或更高\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀末影龙\"]"
+		"[\"\", {\"text\": \"极巅\", \"color\": \"#EA6F14\"}, \" - 穿上一整套\", {\"text\": \"史诗\", \"color\": \"#B900B9\"}, \"或更高\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀末影龙\"]"
 		""
 		"可以在&b世界等级&r菜单（默认为“CTRL+T”）中查看每个等级的变化。"
 	]
@@ -155,7 +155,7 @@
 	]
 	quest.013375F170CE6A2F.quest_subtitle: "附身五芒星：级别2"
 	quest.013375F170CE6A2F.title: "&c伊哈根奴役术"
-	quest.016E959A387A1E03.quest_desc: ["[\"粉碎末地石能让你制作\", {\"text\": \"紫色粉笔\", \"color\": \"#9D7AD0\"}, \"，它是进行更高级\", {\"text\": \"仪式\", \"color\": \"aqua\"}, \"所需用到的下一级粉笔。\"]"]
+	quest.016E959A387A1E03.quest_desc: ["[\"粉碎末地石能让你制作\", {\"text\": \"紫色粉笔\", \"color\": \"#9D7AD0\"}, \"，它是进行更高级\", {\"text\": \"仪式\", \"color\": \"aqua\"}, \"所需用到的下一级粉笔。\"]"]
 	quest.016E959A387A1E03.quest_subtitle: "灌注粉笔"
 	quest.016E959A387A1E03.title: "{\"text\": \"紫色粉笔\", \"color\": \"#9D7AD0\"}"
 	quest.0171D054BE838062.quest_desc: [
@@ -490,7 +490,7 @@
 	quest.0533C0C07AE600FD.quest_desc: [
 		"&e通用机械&r的&d裂变反应堆&r以裂变燃料和冷却剂为原料，并将其转化为&4核废料&r和&b热冷却液&r。"
 		""
-		"[\"\", {\"text\": \"Fission Reactors\", \"color\": \"light_purple\"}, \" \", {\"text\": \"do not\", \"color\": \"red\"}, \" produce power by themselves. See the \", { \"text\": \"Industrial Turbine quest\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"31C83D9253FFF685\" } }, \" to convert steam into power.\" ]"
+		"[\"\", {\"text\": \"Fission Reactors\", \"color\": \"light_purple\"}, \" \", {\"text\": \"do not\", \"color\": \"red\"}, \" produce power by themselves. See the \", { \"text\": \"Industrial Turbine quest\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"31C83D9253FFF685\" } }, \" to convert steam into power.\" ]"
 		""
 		"&d反应堆&r接受两种冷却剂，它们可以通过超临界移相器端口直接泵入多方块结构中。用&b水冷却&r更简单但效果较差，而&6钠冷却&r效果更好但是需要额外的多方块结构。"
 		""
@@ -597,7 +597,7 @@
 		""
 		"The &2LV Steam Turbine&r, which produces 32 EU/t."
 		""
-		"[\"You can refer to the Main LV Steam Turbine Quest for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+		"[\"You can refer to the Main LV Steam Turbine Quest for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
 	]
 	quest.0603F40C8DB12868.title: "&2低压柴油发电机"
 	quest.06666C9D93C1A3EE.quest_desc: [
@@ -1299,7 +1299,7 @@
 	quest.0C0E16939C8567C6.quest_desc: ["你也可以通过&d火灵&r的力量修复盔甲和工具"]
 	quest.0C0E16939C8567C6.title: "&d其余修理仪式"
 	quest.0C24D8CD961D86B2.quest_desc: [
-		"[\"有了\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"和\", {\"text\": \"橙色粉笔\", \"color\": \"#FCA645\"}, \"，你现在就能把\", {\"text\": \"欧菲克斯的呼唤\", \"color\": \"#FF5555\"}, \"升级为\", {\"text\": \"阿巴拉斯开环召唤术\", \"color\": \"#FF55FF\"}, \"了。\"]"
+		"[\"有了\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"和\", {\"text\": \"橙色粉笔\", \"color\": \"#FCA645\"}, \"，你现在就能把\", {\"text\": \"欧菲克斯的呼唤\", \"color\": \"#FF5555\"}, \"升级为\", {\"text\": \"阿巴拉斯开环召唤术\", \"color\": \"#FF55FF\"}, \"了。\"]"
 		""
 		"此仪式只能用于召唤&d未约束火灵&r。杀死它可以获得一些火灵灵髓，进而制作出&c红色粉笔&r。"
 		""
@@ -2050,7 +2050,7 @@
 		""
 		"还在纠结箱子的问题？箱子墙和箱子房，还需要挂告示牌来“分类”箱子？再也不需要了！"
 		""
-		"[\"一开始先用基础的箱子，想要了解进阶存储方法请详见\", {\"text\": \"通用存储\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"049DE43A1B31C38F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往通用存储章节\"]} }, \" 章节！\"]"
+		"[\"一开始先用基础的箱子，想要了解进阶存储方法请详见\", {\"text\": \"通用存储\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"049DE43A1B31C38F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往通用存储章节\"]} }, \" 章节！\"]"
 	]
 	quest.14D727685CB433C1.quest_subtitle: "简易存储"
 	quest.14D727685CB433C1.title: "&f老旧可靠的&2箱子"
@@ -2066,7 +2066,7 @@
 	quest.1514FAC5930B55D2.quest_desc: [
 		"为你的基地发电开始可能看起来尤为艰巨，特别是在游戏前期！"
 		""
-		"[\"记得查看\", {\"text\": \"发电\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"754048401D3A6A7B\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往发电章节\"]} }, \"章节来全面了解你可以用来发电的所有不同方式。\"]"
+		"[\"记得查看\", {\"text\": \"发电\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"754048401D3A6A7B\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往发电章节\"]} }, \"章节来全面了解你可以用来发电的所有不同方式。\"]"
 	]
 	quest.1514FAC5930B55D2.title: "&c能量章节"
 	quest.154E08BC9091684F.quest_desc: [
@@ -2245,7 +2245,7 @@
 	quest.176610923FDE130F.quest_desc: ["你可以通过使用&b掺杂硅板&r来大大提高各种配方的产量！"]
 	quest.176610923FDE130F.title: "&f掺杂硅板"
 	quest.1770A460E1FD7CC8.quest_desc: [
-		"[\"\", {\"text\": \"粒子加速器\", \"color\":\"#FF55FF\"}, \"可以根据目标以多种方式构建。\"{\"text\": \"直线型马达阵列\", \"color\":\"#55FF55\"}, \"可以将粒子射向某个目标，但更高效率的速度通常通过环形设计实现。非常大的环可能需要包含某些要素。慢速粒子需要\", {\"text\": \"导向环\", \"color\": \"#55FF55\"}, \"紧密排列，因此从小环开始\", {\"text\": \"使用红石\", \"color\":\"#55FFFF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"778A876616D4638E\" } }, \" 然后切换到更大的环通常是有意义的。\"]"
+		"[\"\", {\"text\": \"粒子加速器\", \"color\":\"#FF55FF\"}, \"可以根据目标以多种方式构建。\"{\"text\": \"直线型马达阵列\", \"color\":\"#55FF55\"}, \"可以将粒子射向某个目标，但更高效率的速度通常通过环形设计实现。非常大的环可能需要包含某些要素。慢速粒子需要\", {\"text\": \"导向环\", \"color\": \"#55FF55\"}, \"紧密排列，因此从小环开始\", {\"text\": \"使用红石\", \"color\":\"#55FFFF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"778A876616D4638E\" } }, \" 然后切换到更大的环通常是有意义的。\"]"
 		""
 		"某些情况下可能需要设计多环结构。"
 	]
@@ -2518,7 +2518,7 @@
 		""
 		"请使用&d配置器&r来配置管道和线缆。配置器就是通用机械的扳手，而且还有很多有用的功能。"
 		""
-		"[\"你可以了解更多有关本工具的信息于\", { \"text\": \"通用机械\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"644874076A06F5F4\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往通用机械章节\"} }, \" 这一章节！\" ]"
+		"[\"你可以了解更多有关本工具的信息于\", { \"text\": \"通用机械\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"644874076A06F5F4\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往通用机械章节\"} }, \" 这一章节！\" ]"
 	]
 	quest.1ABA5F2ECAA6D9D2.title: "&e通用机械"
 	quest.1ADE323F448DCF12.quest_desc: [
@@ -3167,7 +3167,7 @@
 		""
 		"&7&o“当那些硬币开始让你感到沉重时，来找我。”它说。"
 		""
-		"[\"\", {\"text\": \"你会\", \"color\": \"gray\", \"italic\":true}, {\"text\": \"跟随那个声音\", \"color\": \"blue\", \"italic\":true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"325567B88BAFAD0D\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"屈服于声音\"]} }, {\"text\": \"吗？\", \"color\":\"gray\", \"italic\":true}]"
+		"[\"\", {\"text\": \"你会\", \"color\": \"gray\", \"italic\":true}, {\"text\": \"跟随那个声音\", \"color\": \"blue\", \"italic\":true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"325567B88BAFAD0D\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"屈服于声音\"]} }, {\"text\": \"吗？\", \"color\":\"gray\", \"italic\":true}]"
 	]
 	quest.219B014D60EF0DDD.title: "&f风中低语"
 	quest.21A521011401074F.quest_desc: ["一座生活着药剂师的岛屿，同时也被一群不太友善的女巫所盘踞。"]
@@ -3286,7 +3286,7 @@
 		""
 		"This is the &bOffset Settings&r interface, allowing you to change the block that the component is reading, allowing you to hide components behind other blocks to clean up your setups."
 		""
-		"[\"You can manually select a number in increments of 4 depending on how many \", {\"text\": \"Offset Enhancements\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3DEA6BCF3DD509D9\" } }, \" you've applied to the part.\"]"
+		"[\"You can manually select a number in increments of 4 depending on how many \", {\"text\": \"Offset Enhancements\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3DEA6BCF3DD509D9\" } }, \" you've applied to the part.\"]"
 		""
 		"You can also use a &aWrench&r in offset mode to automatically calculate the relative offset, or use variable cards for more complex or mobile systems."
 	]
@@ -3322,7 +3322,7 @@
 	]
 	quest.2382B2FED36766E4.title: "&d退火铜锭"
 	quest.23B06AB674CC7193.quest_desc: [
-		"[\"升级\", {\"text\": \"斯特里格高等束缚\", \"color\": \"#FF5555\"}, \" 需要使用\", {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \"和\", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"粉笔，以及\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"。这将允许你将一位强大的\", {\"text\": \"火灵\", \"color\": \"#FF55FF\"}, \" 永久囚禁于一件物品中\"]"
+		"[\"升级\", {\"text\": \"斯特里格高等束缚\", \"color\": \"#FF5555\"}, \" 需要使用\", {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \"和\", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"粉笔，以及\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"。这将允许你将一位强大的\", {\"text\": \"火灵\", \"color\": \"#FF55FF\"}, \" 永久囚禁于一件物品中\"]"
 		""
 		"某些&e绑定仪式&r不是必须的，但想要达到&6神秘学&r的终局，你可能会经常用到它们。"
 		""
@@ -3476,7 +3476,7 @@
 	quest.24E7FEB8D24FAB4A.title: "&a化学压射室&r"
 	quest.24ED2EE2C33C6E29.title: "&b通用机械管道奖励包"
 	quest.24F17FA24ED466FA.quest_desc: [
-		"[\"The \", {\"text\": \"Basic Fluid Tank\", \"color\": \"#5EFCB6\"}, \" isn't just an easy way to store your fluids, it also acts as a bucket!\"]"
+		"[\"The \", {\"text\": \"Basic Fluid Tank\", \"color\": \"#5EFCB6\"}, \" isn't just an easy way to store your fluids, it also acts as a bucket!\"]"
 		""
 		"潜行的时候手持储罐，使用鼠标中键滚轮调整为&a桶&r，这样就可以装起多桶流体（比如水或熔岩）。"
 	]
@@ -3517,7 +3517,7 @@
 	quest.2588279A071E5A6B.quest_desc: [
 		"当一个生物或活体实体死亡时，它会释放一个&b灵魂&r。如果范围（16个方块）内有能够收集灵魂的方块， &b灵魂&r将会被该方块收集。这在视觉上表现为一个小&b灵魂&r飞向该方块。"
 		""
-		"[\"\", {\"text\": \"Souls\", \"color\": \"#FFFFFF\"}, \" can be collected by \", {\"text\": \"Arcane Catalysts\", \"color\": \"#FF55FF\"}, \" and \", { \"text\": \"Spawner Controllers\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2765AC7C3E0350FE\" } }, \", and will always move towards the closest collecting block.\"]"
+		"[\"\", {\"text\": \"Souls\", \"color\": \"#FFFFFF\"}, \" can be collected by \", {\"text\": \"Arcane Catalysts\", \"color\": \"#FF55FF\"}, \" and \", { \"text\": \"Spawner Controllers\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2765AC7C3E0350FE\" } }, \", and will always move towards the closest collecting block.\"]"
 	]
 	quest.2588279A071E5A6B.title: "&9收集灵魂"
 	quest.25A18CFB6B3E038B.quest_desc: [
@@ -4332,9 +4332,9 @@
 	]
 	quest.2EBDE5767588B43C.title: "&6醒觉粉&r"
 	quest.2ECAD5F752E445F1.quest_desc: [
-		"[\"\", { \"text\": \"Prometheum\", \"color\": \"#FCD205\"}, \" is an advanced material that can only be produced in an \", { \"text\": \"Atomic Forge\", \"color\":\"#FF55FF\"}, \".\" ]"
+		"[\"\", { \"text\": \"Prometheum\", \"color\": \"#FCD205\"}, \" is an advanced material that can only be produced in an \", { \"text\": \"Atomic Forge\", \"color\":\"#FF55FF\"}, \".\" ]"
 		""
-		"[\"This powerful resource is essential for crafting \", {\"text\": \"Prometheum Tools\", \"color\":\"#FCD205\"}, \" and the \", {\"text\": \"Ultimate Machine Core\", \"color\":\"#FF55FF\"}, \".\"]"
+		"[\"This powerful resource is essential for crafting \", {\"text\": \"Prometheum Tools\", \"color\":\"#FCD205\"}, \" and the \", {\"text\": \"Ultimate Machine Core\", \"color\":\"#FF55FF\"}, \".\"]"
 	]
 	quest.2ECAD5F752E445F1.title: "{\"text\": \"Prometheum\", \"color\": \"#FCD205\"}"
 	quest.2ECE092636880CB8.quest_desc: [
@@ -4800,7 +4800,7 @@
 		""
 		"这些化学品可以进一步转化为&2靶丸&r，去除最终仍需衰变的一些化学杂质。"
 		""
-		"[\"Pellets of \", {\"text\": \"Polonium\", \"color\": \"blue\"}, \" and \", {\"text\": \"Plutonium\", \"color\": \"dark_aqua\"}, \" are the penultimate materials in \", {\"text\": \"Mekanism\", \"color\": \"yellow\"}, \", used to heavily upgrade \", { \"text\": \"QIO Storage\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4101E75F69C9909F\"}}, \" and to craft the \", {\"text\": \"MekaGear\", \"color\": \"gold\"}, \": one of the most powerful sets of equipment in the game.\"]"
+		"[\"Pellets of \", {\"text\": \"Polonium\", \"color\": \"blue\"}, \" and \", {\"text\": \"Plutonium\", \"color\": \"dark_aqua\"}, \" are the penultimate materials in \", {\"text\": \"Mekanism\", \"color\": \"yellow\"}, \", used to heavily upgrade \", { \"text\": \"QIO Storage\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4101E75F69C9909F\"}}, \" and to craft the \", {\"text\": \"MekaGear\", \"color\": \"gold\"}, \": one of the most powerful sets of equipment in the game.\"]"
 	]
 	quest.333E8FBE15AE980D.quest_subtitle: "它们有何不同呢？"
 	quest.333E8FBE15AE980D.title: "&f你说的是钋，我说的是钚。"
@@ -4819,7 +4819,7 @@
 	quest.337838FB759E4377.quest_desc: [
 		"我开始寻思&5古老众神&r是否插手了创造万物这种事"
 		""
-		"[\"为了制作\", {\"text\": \"品红色粉笔\", \"color\": \"#D17CC9\"}, \"，你需要\", {\"text\": \"龙裔粉\", \"color\": \"#FF55FF\"}, \".\"]"
+		"[\"为了制作\", {\"text\": \"品红色粉笔\", \"color\": \"#D17CC9\"}, \"，你需要\", {\"text\": \"龙裔粉\", \"color\": \"#FF55FF\"}, \".\"]"
 		""
 		"这只能通过使用&6修菲斯倒转之塔&r获得"
 	]
@@ -4945,7 +4945,7 @@
 		""
 		"虽然这个MI指导书中的发展路线不算太慢，但是你可以直接用这个包中另外的制钢手段，直接跳到钢铁阶段。"
 		""
-		"[\"这可能意味着使用 \", {\"text\": \"通用机械的 \", \"color\": \"yellow\"}, {\"text\": \"冶金灌注机\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"616E3CE38F1D73AE\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往冶金灌注机任务\"}}, \"，\", {\"text\": \"沉浸工程的\", \"color\": \"yellow\"}, {\"text\": \"高炉\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"56367596C11E78A9\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往高炉任务\"}}, \"，或者只是坚持用\", {\"text\": \"MI\", \"color\": \"yellow\"}, \"来制作它。\"]"
+		"[\"这可能意味着使用 \", {\"text\": \"通用机械的 \", \"color\": \"yellow\"}, {\"text\": \"冶金灌注机\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"616E3CE38F1D73AE\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往冶金灌注机任务\"}}, \"，\", {\"text\": \"沉浸工程的\", \"color\": \"yellow\"}, {\"text\": \"高炉\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"56367596C11E78A9\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往高炉任务\"}}, \"，或者只是坚持用\", {\"text\": \"MI\", \"color\": \"yellow\"}, \"来制作它。\"]"
 		""
 		"对于那些没怎么或者根本没玩过&e现代工业化&r的玩家来说，钢永远都不嫌多，穿上工作服去整点钢锭吧（ゝω・）"
 	]
@@ -5690,7 +5690,7 @@
 	quest.3B09E14800C7276A.quest_desc: [
 		"得到&7含硫原油&r后，将它和&b氢气&r一同放入&3化学反应釜&r内化合并获得产物&e硫酸&r与&7原油&r。"
 		""
-		"[\"你还可以通过\", \"来自\", {\"text\": \"气动工艺\", \"color\": \"yellow\"}, \"的\", {\"text\": \"热气动加工机\", \"color\": \"blue\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6CD6367FB419EA35\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往热气动加工机任务\"}},  \"来获取\", {\"text\": \"硫粉\", \"color\": \"yellow\"}, \"和\", {\"text\": \"原油\", \"color\": \"gray\"}, \"。你选择的加工路线由你自己来决定！\"]"
+		"[\"你还可以通过\", \"来自\", {\"text\": \"气动工艺\", \"color\": \"yellow\"}, \"的\", {\"text\": \"热气动加工机\", \"color\": \"blue\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6CD6367FB419EA35\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往热气动加工机任务\"}},  \"来获取\", {\"text\": \"硫粉\", \"color\": \"yellow\"}, \"和\", {\"text\": \"原油\", \"color\": \"gray\"}, \"。你选择的加工路线由你自己来决定！\"]"
 	]
 	quest.3B09E14800C7276A.title: "&7含硫原油"
 	quest.3B1C807CEEC4E2ED.quest_desc: [
@@ -6215,7 +6215,7 @@
 		""
 		"这意味着你只需要4个19x19的空间就可以摆下所有四种&b五芒星&r！"
 		"{@pagebreak}"
-		"[\"\", {\"text\": \"仪式\", \"color\": \"#55FFFF\"}, \" 主要分为四种类型：\", {\"text\": \"绑定\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"51D07B8762C46982\"}}, \"、\", {\"text\": \"附身\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EBEF0B2D2F13C3D\"}}, \"、\", {\"text\": \"使魔\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6338A56F731A5F25\"}}, \"和\", {\"text\": \"召唤\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6137DE875E13EF72\"}}, \"。\"]"
+		"[\"\", {\"text\": \"仪式\", \"color\": \"#55FFFF\"}, \" 主要分为四种类型：\", {\"text\": \"绑定\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"51D07B8762C46982\"}}, \"、\", {\"text\": \"附身\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EBEF0B2D2F13C3D\"}}, \"、\", {\"text\": \"使魔\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6338A56F731A5F25\"}}, \"和\", {\"text\": \"召唤\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6137DE875E13EF72\"}}, \"。\"]"
 		""
 		"你刚才使用的&a阿维亚之环&r就属于&a召唤五芒星&r。"
 		""
@@ -6476,7 +6476,7 @@
 	quest.43BF1E0CE33F8BB7.quest_desc: [
 		"想要和&5古老众神&r取得联系，我们需要正确颜色的&b粉笔&r"
 		""
-		"[\"使用\", {\"text\": \"泽奥夫伦斯召唤术\", \"color\": \"#FFAA00\"}, \"，获取\", {\"text\": \"残暴精华\", \"color\": \"#FF5555\"}, \" 可以被用于制作\", {\"text\": \"棕色粉笔\", \"color\": \"#AA7B5A\"}, \".\"]"
+		"[\"使用\", {\"text\": \"泽奥夫伦斯召唤术\", \"color\": \"#FFAA00\"}, \"，获取\", {\"text\": \"残暴精华\", \"color\": \"#FF5555\"}, \" 可以被用于制作\", {\"text\": \"棕色粉笔\", \"color\": \"#AA7B5A\"}, \".\"]"
 	]
 	quest.43BF1E0CE33F8BB7.quest_subtitle: "邪恶粉笔"
 	quest.43BF1E0CE33F8BB7.title: "{\"text\": \"棕色粉笔\", \"color\": \"#AA7B5A\"}"
@@ -6931,7 +6931,7 @@
 	quest.49B8310D0C7A6C55.quest_desc: [
 		"运行&d裂变反应堆&r所需的&3裂变燃料&r是通过处理&e硫&r、&7氟石&r和&2铀&r以及一些水的产物制成的。这看起来很复杂，但与现实生活不同，其实没那么难。"
 		""
-		"[\"First, use \", { \"text\": \"Sulfuric Acid\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4EAE9F58776D84C8\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Jump to Sulfuric Acid Quest\"]}},\" to break down \", {\"text\": \"Fluorite\", \"color\": \"gray\"}, \" into \", {\"text\": \"Hydrofluoric Acid\", \"color\": \"blue\"}, \" in a \", {\"text\": \"Chemical Dissolution Chamber\", \"color\": \"dark_green\"}, \".\"] "
+		"[\"First, use \", { \"text\": \"Sulfuric Acid\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4EAE9F58776D84C8\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Jump to Sulfuric Acid Quest\"]}},\" to break down \", {\"text\": \"Fluorite\", \"color\": \"gray\"}, \" into \", {\"text\": \"Hydrofluoric Acid\", \"color\": \"blue\"}, \" in a \", {\"text\": \"Chemical Dissolution Chamber\", \"color\": \"dark_green\"}, \".\"] "
 		""
 		"其次，将&a铀&r锭提炼成&6铀黄饼&r，再将其氧化成&6氧化铀&r。"
 		""
@@ -7361,7 +7361,7 @@
 	quest.4DE5B826AB6CB2B5.quest_desc: [
 		"&eIron Jetpacks&r provides several tiers of jetpacks that will grant you creative flight (limited at lower tiers) while powered."
 		""
-		"[\"\", {\"text\": \"Note\", \"color\": \"yellow\"}, \": This mod does not provide any way to generate power or charge the jetpacks, so you will need to look to other mods for that. Take a look at the \", { \"text\": \"Power Generation Chapter\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"754048401D3A6A7B\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Power Generation Chapter\"}}, \" for some ideas.\"]"
+		"[\"\", {\"text\": \"Note\", \"color\": \"yellow\"}, \": This mod does not provide any way to generate power or charge the jetpacks, so you will need to look to other mods for that. Take a look at the \", { \"text\": \"Power Generation Chapter\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"754048401D3A6A7B\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Power Generation Chapter\"}}, \" for some ideas.\"]"
 	]
 	quest.4DE5B826AB6CB2B5.title: "&fJetpacks"
 	quest.4DE5CB7A5A1D717B.quest_desc: [
@@ -7558,7 +7558,7 @@
 	quest.4FA9FABD84B4751A.title: "&c终极护身符模板"
 	quest.4FB0FFF42551378E.title: "&a嗅探兽召唤"
 	quest.4FD0504ADB98E0C0.quest_desc: [
-		"[\"升级\", {\"text\": \"埃兹维斯灵体强迫\", \"color\": \"#55FFFF\"}, \"后，你就可以把\", {\"text\": \"巨灵\", \"color\": \"#FF5555\"}, \"绑定到物品上了。\"]"
+		"[\"升级\", {\"text\": \"埃兹维斯灵体强迫\", \"color\": \"#55FFFF\"}, \"后，你就可以把\", {\"text\": \"巨灵\", \"color\": \"#FF5555\"}, \"绑定到物品上了。\"]"
 		""
 		"某些&e绑定仪式&r不是必须的，但想要达到&6神秘学&r的终局，你可能会经常用到它们。"
 		""
@@ -7588,7 +7588,7 @@
 		""
 		"&2低压蒸汽涡轮&r可以使用蒸汽发电，其功率最高可达32EU/t。"
 		""
-		"[\"要将电从\", {\"text\": \"涡轮机\", \"color\": \"dark_green\"}, \"取出，你需要使用\", { \"text\": \"低压电源电缆\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5BA74A759CC43BBB\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"转到低压电缆任务\"}}, \"，可提取高达 256 EU/t的电力。\"]"
+		"[\"要将电从\", {\"text\": \"涡轮机\", \"color\": \"dark_green\"}, \"取出，你需要使用\", { \"text\": \"低压电源电缆\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5BA74A759CC43BBB\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"转到低压电缆任务\"}}, \"，可提取高达 256 EU/t的电力。\"]"
 		""
 		"如果你需要更多的能量，应该使用不同的电缆来建立独立的能量网络。使用每种不同的电缆，你可以传输高达768 EU/t的&2低压&r电力。"
 	]
@@ -7834,7 +7834,7 @@
 	]
 	quest.52C305EDBE2CCC55.title: "&aGrids"
 	quest.52D486F9FE1BCC66.quest_desc: [
-		"[\"The \", {\"text\": \"Prometheum Battleaxe\", \"color\":\"#FCD205\"}, \" is an advanced, unbreakable, and enchantable tool that serves as an axe.\"]"
+		"[\"The \", {\"text\": \"Prometheum Battleaxe\", \"color\":\"#FCD205\"}, \" is an advanced, unbreakable, and enchantable tool that serves as an axe.\"]"
 		""
 		"Shift while harvesting to mine an entire tree."
 	]
@@ -7857,7 +7857,7 @@
 	quest.535C11E589E11056.title: "&d挖掘疲劳护身符"
 	quest.536FE5C4A9D37909.quest_desc: ["烈焰筛网是最高等级的网。其效能卓绝，常常能产出金属锭，而低阶筛网只能得到金属粒。"]
 	quest.536FE5C4A9D37909.quest_subtitle: "Is the String Still There, Under all the Layers?"
-	quest.53B7A49C8138D3B0.quest_desc: ["[\"使用\", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"和\", {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \"粉笔，和\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"，你现在就可以控制\", {\"text\": \"火灵\", \"color\": \"#FF55FF\"}, \" 附身僵尸猪灵了。它被杀死后会掉落\", {\"text\": \"恶魔之肉\", \"color\": \"#55FF55\"}, \" \"]"]
+	quest.53B7A49C8138D3B0.quest_desc: ["[\"使用\", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"和\", {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \"粉笔，和\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"，你现在就可以控制\", {\"text\": \"火灵\", \"color\": \"#FF55FF\"}, \" 附身僵尸猪灵了。它被杀死后会掉落\", {\"text\": \"恶魔之肉\", \"color\": \"#55FF55\"}, \" \"]"]
 	quest.53B7A49C8138D3B0.quest_subtitle: "附身五芒星：级别3"
 	quest.53B7A49C8138D3B0.title: "&c阿巴拉斯开环强令召唤术"
 	quest.53E72F025E4CB895.quest_desc: ["The &3Mechanical Saw&r can be used to mine entire trees at once or process item recipes."]
@@ -7915,7 +7915,7 @@
 	]
 	quest.542AF3802E9CFBE2.title: "&d黑曜石粉&r"
 	quest.543197E63ABD06C5.quest_desc: [
-		"[\"The \", {\"text\": \"Prometheum Pickaxe\", \"color\":\"#FCD205\"}, \" is an advanced, unbreakable, and enchantable tool that functions as a pickaxe.\"]"
+		"[\"The \", {\"text\": \"Prometheum Pickaxe\", \"color\":\"#FCD205\"}, \" is an advanced, unbreakable, and enchantable tool that functions as a pickaxe.\"]"
 		""
 		"It features two modes: silk touch and area (1x3 mining). To switch between modes, hold shift and right-click."
 	]
@@ -8145,7 +8145,7 @@
 		""
 		"第一种制备方式：首先你需要用&3蒸馏室&r提取出&2轻燃油和重燃油&r，接下来用&2搅拌机&r把它们混合为&e柴油&r即可。"
 		""
-		"[\"你还可以优化\",{\"text\": \"原油\", \"color\": \"green\"}, \"生产线，使用\", {\"text\": \"气动工艺\", \"color\": \"yellow\"}, \"的\", {\"text\": \"热气动加工机\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6CD6367FB419EA35\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往热气动加工机任务\"}}, \"，其需要一些热量和压力。\"]"
+		"[\"你还可以优化\",{\"text\": \"原油\", \"color\": \"green\"}, \"生产线，使用\", {\"text\": \"气动工艺\", \"color\": \"yellow\"}, \"的\", {\"text\": \"热气动加工机\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6CD6367FB419EA35\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往热气动加工机任务\"}}, \"，其需要一些热量和压力。\"]"
 	]
 	quest.56E1FAD44A6E8C11.title: "&e柴油"
 	quest.56E9C123DD727E46.quest_desc: [
@@ -8441,7 +8441,7 @@
 		"它们似乎还是用来制作&d某种东西&r的关键材料，但它们目前的存在形式还做不到…"
 	]
 	quest.59CA9831FDCAFA10.title: "经验晶"
-	quest.59CBFA5583139A3B.quest_desc: ["[\"此\", {\"text\": \"重铸台\", \"color\": \"#B900B9\"}, \"是\", {\"text\": \"简易重铸台\", \"color\":\"#55FF55\"}, \"的升级版，允许你重铸所有稀有度的物品，包括\", {\"text\": \"神话\", \"color\":\"#EA6F14\"}, \"等级的物品。\"]"]
+	quest.59CBFA5583139A3B.quest_desc: ["[\"此\", {\"text\": \"重铸台\", \"color\": \"#B900B9\"}, \"是\", {\"text\": \"简易重铸台\", \"color\":\"#55FF55\"}, \"的升级版，允许你重铸所有稀有度的物品，包括\", {\"text\": \"神话\", \"color\":\"#EA6F14\"}, \"等级的物品。\"]"]
 	quest.59CBFA5583139A3B.title: "{\"text\": \"重铸台\", \"color\": \"#B900B9\"}"
 	quest.5A0865A75DD91A0E.quest_desc: ["Though mostly decorative, the &dPeculiar Bell&r can be placed above soulfire to convert it into the &dHaunted Bell&r, which shows nearby dark spots where mobs can spawn when rang."]
 	quest.5A0865A75DD91A0E.title: "&d奇异钟"
@@ -8520,7 +8520,7 @@
 		""
 		"你需要把水和&a碳粉&r或&a焦煤粉&r放入搅拌机，制作&3粗制合成油&r。"
 		""
-		"[\"制作焦煤，你需要使用\", { \"text\": \"MI焦炉\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"06FD385E707F4E12\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往MI焦炉任务\"}}, \"或\", { \"text\": \"沉浸工程焦炉\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0A2DB5AFC89E852F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往沉浸工程焦炉任务\"}}, \".\"]"
+		"[\"制作焦煤，你需要使用\", { \"text\": \"MI焦炉\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"06FD385E707F4E12\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往MI焦炉任务\"}}, \"或\", { \"text\": \"沉浸工程焦炉\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0A2DB5AFC89E852F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往沉浸工程焦炉任务\"}}, \".\"]"
 	]
 	quest.5B7CC380E28893C1.title: "&a粉末榨油"
 	quest.5B85AB4B095F240B.quest_desc: [
@@ -8648,7 +8648,7 @@
 	quest.5D0742E56290E42B.quest_desc: [
 		"下一阶科技要用&3电子电路&r了"
 		""
-		"[\"你现在还能用\", {\"text\": \"通用机械\", \"color\": \"yellow\"}, {\"text\": \"终极控制电路\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19874DF48B8B2A75\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往终极控制电路任务\"}}, \"凑数，但超出这级，你就需要使用 \", {\"text\": \"MI\", \"color\": \"yellow\"}, \"的东西了。\"]"
+		"[\"你现在还能用\", {\"text\": \"通用机械\", \"color\": \"yellow\"}, {\"text\": \"终极控制电路\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19874DF48B8B2A75\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往终极控制电路任务\"}}, \"凑数，但超出这级，你就需要使用 \", {\"text\": \"MI\", \"color\": \"yellow\"}, \"的东西了。\"]"
 	]
 	quest.5D0742E56290E42B.title: "&3我们正在抵制这一点"
 	quest.5D2D114B66DE61EE.quest_desc: [
@@ -8834,7 +8834,7 @@
 		""
 		"&2低压蒸汽涡轮机&r功率最高可达32EU/t。"
 		""
-		"[\"You can refer to the \", {\"text\": \"Main LV Steam Turbine Quest\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50049BE2452AB7F5\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to LV Steam Turbine Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+		"[\"You can refer to the \", {\"text\": \"Main LV Steam Turbine Quest\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50049BE2452AB7F5\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to LV Steam Turbine Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
 	]
 	quest.5EF11F96A97C2A23.title: "&2LV Steam Turbine"
 	quest.5F0AAD028931A220.quest_desc: [
@@ -9205,13 +9205,13 @@
 		"&e基础粉笔&r是一系列能够与其它无色粉笔相互替代使用的粉笔类型，前提是粉笔支持对应的级别。基础粉笔总共有四种级别与颜色："
 		""
 		"- 白色：级别1"
-		"[\"- \", {\"text\": \"淡灰色\", \"color\": \"#C6C6C6\"}, {\"text\": \": 级别2\", \"color\": \"white\"}]"
-		"[\"- \", {\"text\": \"灰色\", \"color\": \"#929292\"}, {\"text\": \"：级别3\", \"color\": \"white\"}]"
-		"[\"- \", {\"text\": \"黑色\", \"color\": \"#000000\"}, {\"text\": \"：级别4\", \"color\": \"white\"}]"
+		"[\"- \", {\"text\": \"淡灰色\", \"color\": \"#C6C6C6\"}, {\"text\": \": 级别2\", \"color\": \"white\"}]"
+		"[\"- \", {\"text\": \"灰色\", \"color\": \"#929292\"}, {\"text\": \"：级别3\", \"color\": \"white\"}]"
+		"[\"- \", {\"text\": \"黑色\", \"color\": \"#000000\"}, {\"text\": \"：级别4\", \"color\": \"white\"}]"
 		""
 		"更高级的&b仪式&r需要更好的&e基础粉笔&r。"
 		"{@pagebreak}"
-		"[\"举个例子，你可以使用\", {\"text\": \"黑色粉笔\", \"color\": \"#000000\"}, \"绘制白色、\", {\"text\": \"淡灰色\", \"color\": \"#C6C6C6\"}, \"和\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"的粉笔图案来完成\", {\"text\": \"仪式\", \"color\": \"#55FFFF\"}, \"。 反之，用白色粉笔的粉笔图案替代\", {\"text\": \"淡灰色\", \"color\": \"#C6C6C6\"}, \"，\", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"和\", {\"text\": \"黑色粉笔\", \"color\": \"#000000\"}, \"则无法进行仪式。\"]"
+		"[\"举个例子，你可以使用\", {\"text\": \"黑色粉笔\", \"color\": \"#000000\"}, \"绘制白色、\", {\"text\": \"淡灰色\", \"color\": \"#C6C6C6\"}, \"和\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"的粉笔图案来完成\", {\"text\": \"仪式\", \"color\": \"#55FFFF\"}, \"。 反之，用白色粉笔的粉笔图案替代\", {\"text\": \"淡灰色\", \"color\": \"#C6C6C6\"}, \"，\", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"和\", {\"text\": \"黑色粉笔\", \"color\": \"#000000\"}, \"则无法进行仪式。\"]"
 	]
 	quest.633843210DE84A0D.title: "基础粉笔"
 	quest.6338A56F731A5F25.quest_desc: [
@@ -9537,7 +9537,7 @@
 	]
 	quest.6686C39B8D5B5319.title: "&f嵌套升级"
 	quest.6697F832067F1A9C.quest_desc: [
-		"[\"The \", {\"text\": \"Enderic Railgun\", \"color\": \"#FCD205\"}, \" is a powerful ranged weapon that fires a high speed projectile, dealing significant damage to enemies and break blocks at a distance. The \", {\"text\": \"Railgun\", \"color\": \"#FCD205\"}, \" is powered by RF, and must be charged to function.\"]"
+		"[\"The \", {\"text\": \"Enderic Railgun\", \"color\": \"#FCD205\"}, \" is a powerful ranged weapon that fires a high speed projectile, dealing significant damage to enemies and break blocks at a distance. The \", {\"text\": \"Railgun\", \"color\": \"#FCD205\"}, \" is powered by RF, and must be charged to function.\"]"
 		""
 		"Left mouse button can fire a continuous beam that damages any entities in its path and can also mine the first block in line. Energy will be transferred to an energy containing block instead of breaking it. It can also transform mined blocks, similar to the &aEnderic Laser&r."
 		""
@@ -9836,7 +9836,7 @@
 		""
 		"经过改进的新采石场可以使用更好的&b钻头&r，如金钻、钢钻和不锈钢钻。"
 		""
-		"[\"如果你希望涉足\", {\"text\": \"石油化工产品\", \"color\": \"dark_green\"}, \" 和可持续的\", {\"text\": \"柴油燃料\", \"color\": \"dark_green\"}, \"，尽快着手建造一个\", {\"text\": \"石油钻机\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71D274A5F226DAEC\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往石油钻机任务\"}}, \"是很值得，这样就可以使用铝钻头来钻取有毒的混合物。\"]"
+		"[\"如果你希望涉足\", {\"text\": \"石油化工产品\", \"color\": \"dark_green\"}, \" 和可持续的\", {\"text\": \"柴油燃料\", \"color\": \"dark_green\"}, \"，尽快着手建造一个\", {\"text\": \"石油钻机\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71D274A5F226DAEC\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往石油钻机任务\"}}, \"是很值得，这样就可以使用铝钻头来钻取有毒的混合物。\"]"
 		""
 		"&7&o请记住，此包中不会消耗钻头。"
 	]
@@ -10080,7 +10080,7 @@
 		"Mutandis is used on various small plants like saplings to &bmutate&r them into different forms. The process is &orandom&r, so you may go through a good amount of this reagent."
 		"One particular goal of this is to create &bplants and saplings unique to the mod&r, though it can create a wide variety of plants from other mods too."
 	]
-	quest.6E07405D08CCC2D4.quest_desc: ["[\"为了把现有的\", {\"text\": \"五芒星\", \"color\": \"#55FFFF\"}, \"升至下一级别，你将需要\", {\"text\": \"黄绿色粉笔\", \"color\": \"#E2FC97\"}, \"、\", {\"text\": \"淡灰色粉笔\", \"color\": \"#C2C2C2\"}, \"以及一些骷髅头颅。\"]"]
+	quest.6E07405D08CCC2D4.quest_desc: ["[\"为了把现有的\", {\"text\": \"五芒星\", \"color\": \"#55FFFF\"}, \"升至下一级别，你将需要\", {\"text\": \"黄绿色粉笔\", \"color\": \"#E2FC97\"}, \"、\", {\"text\": \"淡灰色粉笔\", \"color\": \"#C2C2C2\"}, \"以及一些骷髅头颅。\"]"]
 	quest.6E07405D08CCC2D4.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"黄绿色\", \"color\": \"#E2FC97\"}, \" & \", {\"text\": \"淡灰色\", \"color\": \"#C2C2C2\"}, \" 粉笔\"]"
 	quest.6E62CF3784A15E0F.title: "&f化学品卡"
 	quest.6E66D752E153E00F.title: "&f实用的&a一阶&r魔符"
@@ -10431,7 +10431,7 @@
 		""
 		"- &eSave Offset \\&\\ Side&r: Does the same as the above, but also saves the side of the block you selected. This is particularly useful for blocks that have functionality on a specific side."
 		""
-		"[\"Saving offsets and sides can be useful when using a \", {\"text\": \"Part Enhancement: Offset\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3DEA6BCF3DD509D9\" } }, \", as it saves you the trouble of having to calculate and keep track of offsets mentally.\"]"
+		"[\"Saving offsets and sides can be useful when using a \", {\"text\": \"Part Enhancement: Offset\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3DEA6BCF3DD509D9\" } }, \", as it saves you the trouble of having to calculate and keep track of offsets mentally.\"]"
 	]
 	quest.727F2932543CADDA.title: "&aWrench"
 	quest.729119C5F9501F72.quest_desc: [
@@ -11498,15 +11498,15 @@
 	]
 	quest.7E884375320D7823.title: "&b自定义工具和武器"
 	quest.7E88C7654F281E43.quest_desc: [
-		"[\"此\", {\"text\": \"强化台\", \"color\": \"#EA6F14\"}, \"是一个游戏末期才能制作的制作站，用于增强装备的\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}]"
+		"[\"此\", {\"text\": \"强化台\", \"color\": \"#EA6F14\"}, \"是一个游戏末期才能制作的制作站，用于增强装备的\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}]"
 		""
 		"它有两个用途："
 		""
-		"[\"首先，它可以升级现有的\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"，花费两个\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"升级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的25%。提供的提升程度因\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"而论。\"]"
+		"[\"首先，它可以升级现有的\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"，花费两个\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"升级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的25%。提供的提升程度因\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"而论。\"]"
 		"{@pagebreak}"
-		"[\"其次，它可以切换\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"花费一个\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"切换选定的\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"，另一个同类型的替代选项将显示在左侧。\"]"
+		"[\"其次，它可以切换\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"花费一个\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"切换选定的\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"，另一个同类型的替代选项将显示在左侧。\"]"
 		""
-		"[\"你的\", {\"text\": \"强化台\", \"color\": \"#EA6F14\"}, \"有两个输入槽，上方放你想\", {\"text\": \"强化\", \"color\": \"#FF55FF\"}, \"的物品，它必须是一个\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"物品。下方放\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"用来\", {\"text\": \"强化\", \"color\": \"#FF55FF\"}, \"。\"]"
+		"[\"你的\", {\"text\": \"强化台\", \"color\": \"#EA6F14\"}, \"有两个输入槽，上方放你想\", {\"text\": \"强化\", \"color\": \"#FF55FF\"}, \"的物品，它必须是一个\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"物品。下方放\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"用来\", {\"text\": \"强化\", \"color\": \"#FF55FF\"}, \"。\"]"
 	]
 	quest.7E88C7654F281E43.title: "{\"text\":\"调整物品\", \"color\":\"#EA6F14\"}"
 	quest.7E909792A1E7CFD1.quest_desc: [
