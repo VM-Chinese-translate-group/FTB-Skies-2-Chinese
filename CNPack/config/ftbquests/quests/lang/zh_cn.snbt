@@ -1410,16 +1410,16 @@
 	]
 	quest.0D92EFDB73114B0C.title: "&2二级&f生物种子"
 	quest.0DB5CBE2E76D2FD9.quest_desc: [
-		"如果你在找那种可以传输万物的管道的话，那我觉得&ePipez&r模组正合你意。"
+		"If you're looking for a pipe to transfer pretty much anything in or out, the &ePipez&r mod has you covered."
 		""
 		"这个模组添加了很多有用的管道，涵盖&b物品&r、&9流体&r、&c能量&r以及&2气体&r。你甚至可以用&d通用管道&r实现四合一。"
 		""
-		"如果想设定一个管道的抽取端，首先你得潜行，朝着想要抽取物品的管道尾端使用&a管道扳手&r。设定完毕后，你还可以用&b管道升级&r来升级管道，比如加快传输速度和过滤物品之类的升级！"
+		"如果想要将管道设置为抽取模式，首先你得潜行，朝着想要抽取物品的管道尾端使用&a管道扳手&r。设定完毕后，你还可以用&b管道升级&r来升级管道，比如加快传输速度和过滤物品之类的升级！"
 	]
 	quest.0DB5CBE2E76D2FD9.title: "&ePipez"
 	quest.0DF48D4589272952.title: "&f游玩 &a10 小时"
 	quest.0DF5D2B35FDEE536.quest_desc: [
-		"&eXNET&r是一个物流模组，在单个连接网络上设置多达8种通道类型（能源、物品、流体、气体、化学品等）。"
+		"&eXNET&r是一个物流模组，在单个连接网络上可设置多达8种频道类型（能源、物品、流体、气体、化学品等）。"
 		""
 		"然后，机器和存储设备可以在单个网络上进行连接和管理，占用的空间非常小，无需繁琐的电缆管理。"
 		""
@@ -6263,14 +6263,14 @@
 	]
 	quest.4194F3C176E50B7B.title: "Malignant Weapons"
 	quest.41C439295D5558C2.quest_desc: [
-		"&bSpirit&r is collected from creatures slain by a &eCrude Scythe&r or any other appropriately attuned tool."
+		"使用&e粗制镰刀&r或其他合适的工具杀死生物，你就能收集到&b精魂&r。"
 		""
-		"While &dArcane&r is the most essential and fundamental of spirit aspects, and a reliable supply of this is all but mandatory for further creations, access to all the different types is an important goal to progress towards. Slay all manner of creatures to discover what aspects they may hold!"
+		"&d奥术精魂&r是精魂中最关键也最基本的一种，稳定获取奥术精魂对于进一步的合成来说几乎是必须的。不过若想往前推进，收集所有类型的精魂同样是一个重要的目标。去杀死各种各样的生物，看看它们精魂是什么派别！"
 		""
 		""
-		"&eJars&r can be crafted soon that can hold a vast amount of any one type of these spirits, and with a &eLamplighter's Tongs&r in one hand they can be placed as a mesmerizing block of light."
+		"&e精魂罐&r的制作很简单，这种罐子可以大量贮藏任意一种精魂。如果你一手拿着&e明灯夹铅&r，另一手拿着精魂，那么你就可以放出精魂聚块，这是一种迷人的发光方块。"
 	]
-	quest.41C439295D5558C2.title: "Aspects of the Soul"
+	quest.41C439295D5558C2.title: "灵魂派别"
 	quest.41C7ED53AA36D647.quest_desc: [
 		"&c巨灵&r可以将时间快进到&a黎明&r或者&a黄昏&r，取决于你的需求"
 		""
@@ -7221,9 +7221,9 @@
 	]
 	quest.4C8EB2205707AE45.title: "&f线是关键"
 	quest.4C8EDEEFBC40E44B.quest_desc: [
-		"&bRunewood&r is a sturdy tree with beautiful amber or azure leaves and rich brown bark. You might find some growing on floating chunks of land, or trade for a sapling in the &eMarket&r."
+		"&b符文树&r是一种十分粗壮的树，有着琥珀色或青蓝色的树叶以及厚实的棕色树皮。你有概率在空岛上找到这种树，此外也可以在&e贸易站&r里买到它们的树苗。"
 		""
-		"Its wood hums with latent magical energy, and serves nicely as a base material for arcane utility. This magical energy sometimes causes sap to seep through the wood and well up under the bark. Scraping the bark off these places allows you to collect the &bsap&r in bottles to providing minor healing when consumed or be turned into a slimeball substitute."
+		"它们的木材潜藏着魔法的能量，很适合用来作为奥术的基本材料。这种魔法能量有时会导致树液浸出树干，并在树皮下积聚。用斧头刨去这种树皮，你就可以用玻璃瓶把&b符文树脂&r收集起来。这种树脂可以喝，能给予你简单的治疗效果；也可以制成符文树脂球，用于替代黏液球进行合成。"
 	]
 	quest.4C8EDEEFBC40E44B.title: "符文树"
 	quest.4C9473D2E4149656.quest_desc: [
@@ -7806,7 +7806,7 @@
 	]
 	quest.529BB6E3B5A93A91.title: "&7卫道士护身符"
 	quest.52A1154376134EDD.quest_desc: ["These &aspirit-infused stones&r are mostly just decoation on their own, but harnessing the combined magical properties allows the creation of new devices and machines."]
-	quest.52A1154376134EDD.title: "Rocks of Taint and Twist"
+	quest.52A1154376134EDD.title: "扭曲而污秽的岩石"
 	quest.52A48E0F92AD4399.quest_desc: [
 		"如果你想把魔源直接全部输出到附近的魔源罐中，那就用&a魔源中继器：存放型&r吧！"
 		""
@@ -9174,8 +9174,8 @@
 		"完成&b仪式&r要使用哪种&a绑定之书&r，取决于你想要召唤的&b魔灵&r的级别以及仪式&b五芒星&r的级别。"
 	]
 	quest.62BB8F93956480BA.title: "&b魔灵&r"
-	quest.62C92C8960875611.quest_desc: ["Metalworking is just as important in magic as it is with the mundane, even if the methods are far different. Ingots that have been infused with spiritual properties will be instrumental in progressing deeper into this craft."]
-	quest.62C92C8960875611.title: "Spiritual Metallurgy"
+	quest.62C92C8960875611.quest_desc: ["无论是在物理领域还是在魔法领域，金属加工都是非常重要的，不过两个领域的加工方式大相径庭。注入了精魂的金属锭非常有利于更加深远的发展。"]
+	quest.62C92C8960875611.title: "精魂冶金学"
 	quest.62CFAFC74ADA4781.quest_desc: ["The &3Encased Fan&r create air current that can be used to push entities or process items."]
 	quest.62CFAFC74ADA4781.title: "&3鼓风机"
 	quest.62E203E1AC025DAF.quest_desc: ["&aChain Conveyors&r connect to each other via chains, allowing them to transfer a variety of &eCreate&r things, as well as &bRotational Force&r."]
