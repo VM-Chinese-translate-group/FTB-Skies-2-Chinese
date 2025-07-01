@@ -1,0 +1,24 @@
+{
+  "packId": 129,
+  "packName": "FTB Skies 2",
+  "infoFilePath": "CNPack/modpackinfo.json",
+  "sourceDir": "Source",
+  "attentionList": {
+    "folders": [
+      {
+        "path": "config/ftbquests/quests",
+        "ignoreDeletions": false
+      }
+    ],
+    "filePatterns": [
+      {
+        "pattern": "kubejs/assets/*/lang/en_us.json",
+        "ignoreDeletions": true
+      }
+    ]
+  },
+  "exclusionPatterns": [
+    "**/lang/*.*",
+    "!**/lang/en_us.*"
+  ]
+}
