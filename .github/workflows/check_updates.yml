@@ -1,0 +1,76 @@
+name: Check for Modpack Updates
+
+on:
+  schedule:
+    # 每天北京时间8点运行 (UTC 0:00)
+    - cron: '0 0 * * *'
+  # 允许在 Actions 页面手动触发
+  workflow_dispatch:
+
+jobs:
+  check-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        # actions/checkout@v4 默认会检出触发工作流的那个分支
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Download CurseTheBeast
+        run: |
+          curl -L -o CurseTheBeast https://github.com/maxinglo/curse-the-beast/releases/download/v0.7.1/CurseTheBeast
+          chmod +x ./CurseTheBeast
+          echo "$(pwd)" >> $GITHUB_PATH
+
+      - name: Run Update Checker Script
+        id: checker
+        run: python .github/scripts/update_checker.py
+
+      - name: Create Pull Request if changes were detected
+        if: steps.checker.outputs.changes_detected == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BASE_BRANCH: ${{ github.ref_name }}
+        run: |
+          # 从脚本的输出中获取变量
+          PACK_NAME=$(echo "${{ steps.checker.outputs.pack_name }}")
+          NEW_VERSION=$(echo "${{ steps.checker.outputs.new_version }}")
+          
+          # 创建一个标准化的分支名
+          BRANCH_NAME_RAW="autoupdate/${PACK_NAME}-${NEW_VERSION}"
+          BRANCH_NAME=$(echo "$BRANCH_NAME_RAW" | tr ' ' '-' | tr '[:upper:]' '[:lower:]')
+
+          PR_TITLE="chore(autoupdate): Update ${PACK_NAME} to v${NEW_VERSION}"
+          PR_BODY_FILE="pr_body.md"
+
+          # 配置 Git 用户信息
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          # git checkout -b 会在当前分支（已经由 actions/checkout 检出）的基础上创建新分支
+          git checkout -b $BRANCH_NAME
+
+          # 添加所有脚本修改过的文件
+          git add -A ${{ steps.checker.outputs.info_file_path }}
+          git add -A ${{ steps.checker.outputs.source_dir }}
+
+          # 提交变更
+          git commit -m "$PR_TITLE"
+
+          # 强制推送到远程分支，如果同名分支已存在则覆盖
+          git push --force -u origin $BRANCH_NAME
+
+          # 使用 GitHub CLI 创建 PR
+          # <-- 关键改动 2: 使用 $BASE_BRANCH 变量作为 PR 的目标分支
+          gh pr create \
+            --base $BASE_BRANCH \
+            --head $BRANCH_NAME \
+            --title "$PR_TITLE" \
+            --body-file "$PR_BODY_FILE"
+          
+          echo "Pull Request for ${PACK_NAME} v${NEW_VERSION} targeting branch '${BASE_BRANCH}' created/updated successfully."
