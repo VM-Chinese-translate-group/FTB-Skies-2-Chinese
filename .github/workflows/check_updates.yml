@@ -66,7 +66,6 @@ jobs:
           git push --force -u origin $BRANCH_NAME
 
           # 使用 GitHub CLI 创建 PR
-          # <-- 关键改动 2: 使用 $BASE_BRANCH 变量作为 PR 的目标分支
           gh pr create \
             --base $BASE_BRANCH \
             --head $BRANCH_NAME \
