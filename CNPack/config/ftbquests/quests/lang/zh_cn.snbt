@@ -242,7 +242,7 @@
 	quest.0235143D388D81A2.quest_desc: ["&a注液器&r用于将流体装入桶或玻璃瓶等物品中。"]
 	quest.0235143D388D81A2.title: "&a注液器"
 	quest.0241EAE68EA53595.quest_desc: [
-		"你可以通过制造&2蜂巢&r来获取大量蜜蜂！"
+		"你可以通过制作&2蜂巢&r来获取大量蜜蜂！"
 		""
 		"大多数蜂巢需要放入物品来吸引蜜蜂，基础蜂巢需要的是&e蜜蜂小食&r，对蜂巢使用此物品将会启动蜜蜂入住计时器，此时再次使用蜜蜂小食会缩短入住时间。"
 	]
@@ -828,7 +828,7 @@
 		""
 		"想要发展神秘农业，首先得收集一些&a下级精华&r，你可以通过钓鱼、击杀怪物或者挖矿获得。"
 		""
-		"拥有至少八个下级精华后，你就可以制作并种下你的第一个&a下级种子&r了！"
+		"Once you have at least 8, you can make your first &aInferium Seed&r to start growing it!"
 	]
 	quest.085B40A50A0D4244.quest_subtitle: "等级一"
 	quest.085B40A50A0D4244.title: "&e神秘农业"
@@ -886,7 +886,7 @@
 		""
 		"要收容这些蜜蜂，可以在蜂巢中安装&a升级：反传送&r来阻止它们传送！"
 	]
-	quest.090946AC35693607.title: "&e升级：&e反传送"
+	quest.090946AC35693607.title: "&e升级：&f反传送"
 	quest.091A160BBBC99627.quest_desc: [
 		"做出&6绯红钢&r后，接下来用&6合金锻炉&r就可以将材料熔炼在一起了。"
 		""
@@ -989,14 +989,14 @@
 	]
 	quest.099594F0A383C280.title: "&d高级机器框架"
 	quest.09B3528CF3C615C6.quest_desc: [
-		"Obtaining &bCertus Quartz&r, the key ingredient for this digital storage system, can be done one of two ways:"
+		"获取该数字存储系统的关键材料——&b赛特斯石英&r，有两种方法："
 		"Purifying budding Black Quartz using some DireGoo, or trading for some with a villager who has a &dCharger as their job site&r."
 		""
-		"The presses for making digital circuits can then either be made through essence crafting, or by further trades with this &d'Fluix Researcher.'&r Multiple researchers may be required, however..."
+		"用于制造数字电路的压印模板，可以通过精华合成来制造，也可以通过与&d“福鲁伊克斯研究员”&r进行更多交易来获得。不过，可能需要多名研究员才能集齐……"
 		""
-		"If you're patient, the wandering traders that sometimes appear might sell a &bMysterious Cube&r that drops one of each press when broken or if you're really PRESSED for presses you can buy them from the shop."
+		"如果你有耐心，偶尔出现的流浪商人可能会出售一种&b神秘方块&r，打破它会掉落每种压印模板各一个。如果你实在迫切想要压印模板，你也可以从商店购买。"
 	]
-	quest.09B3528CF3C615C6.title: "&fA &bCertain Quartz"
+	quest.09B3528CF3C615C6.title: "&b某种石英"
 	quest.09B6F6758B0EEEC5.quest_desc: [
 		"With a bit of luck and maybe more than a bit of &eMutandis&r, you'll be able to get your hands on some of the &aunique saplings&r for this mod. While &aRowan&r is the key interest to make a &eWhiff of Magic&r, the other two tree types have their own uses as well."
 		""
@@ -1008,7 +1008,7 @@
 		""
 		"&a升级：幼年蜂&r就是来解决这种问题的！将其安装到高级蜂箱后，每当蜂箱内的蜜蜂出去采蜜时，蜂箱中都有小几率生成幼年蜜蜂。生成蜜蜂的类型取决于当前蜂箱内的蜜蜂。"
 		"{@pagebreak}"
-		"如果蜂箱内蜜蜂无法进行种内繁殖，则该升级不生效。一般只有那些不能合成/繁殖的蜜蜂才会触发，比如凋灵蜜蜂。"
+		"如果蜂箱内的蜜蜂无法进行种内繁殖，则该升级不生效。一般只有那些不能合成/繁殖的蜜蜂才会触发，比如凋灵蜜蜂。"
 		""
 		"该升级也可以作为过滤器安装到&a捕捉器&r中，使其只捕捉幼蜂。"
 	]
@@ -1036,7 +1036,7 @@
 	quest.0A1FDABEAAA0723B.quest_desc: [
 		"可能是对服务器最友好的升级，&a升级：模拟&r让蜜蜂不用离开蜂箱就能采蜜。"
 		""
-		"蜂箱周围仍需要放置制造蜜脾用的物品或方块。如果安装了此升级，则必须将采蜜方块或饲养板放置在蜂箱正面一格下的位置，如下图所示。"
+		"蜂箱周围仍需要放置采蜜用的物品或方块。如果安装了此升级，则必须将采蜜方块或饲养板放置在蜂箱正面一格下的位置，如下图所示。"
 		""
 		"{image:ftb:textures/quests/productivebees/advancedbeehivesim.png width:125 height:150 align:center}"
 	]
@@ -1382,7 +1382,7 @@
 	quest.0D79C07499BF6E95.quest_desc: [
 		"你需要合成一个新的祭坛来制作&6觉醒精华&r。"
 		""
-		"和&a注魔祭坛&r一样，把&6觉醒祭坛&r先摆在地上，它就会自动显示基座和精华储罐的放置位置。祭坛需要红石信号才能启动。"
+		"和&a注魔祭坛&r一样，把&6觉醒祭坛&r先摆在地上，它就会自动显示基座和精华储罐的放置位置。祭坛需要红石信号启动。"
 		""
 		"合成配方需要的物品直接放在&6觉醒基座&r上即可，&6精华储罐&r中则需要分别放入四种不同的&b元素精华&r。"
 	]
@@ -1410,7 +1410,7 @@
 	]
 	quest.0D92EFDB73114B0C.title: "&2二级&f生物种子"
 	quest.0DB5CBE2E76D2FD9.quest_desc: [
-		"If you're looking for a pipe to transfer pretty much anything in or out, the &ePipez&r mod has you covered."
+		"如果你在找那种可将万物移入移出的管道的话，那我觉得&ePipez&r模组正合你意。"
 		""
 		"这个模组添加了很多有用的管道，涵盖&b物品&r、&9流体&r、&c能量&r以及&2气体&r。你甚至可以用&d通用管道&r实现四合一。"
 		""
@@ -1513,7 +1513,7 @@
 	]
 	quest.0EC122E853F2083C.title: "&f高级压力管道"
 	quest.0ED940DF43A934ED.quest_desc: [
-		"The &aVacuum Module&r works exactly like it sounds. This allows the &dRouter&r to collect any item that drops into the world within a certain radius, which can be upgraded by placing &aRange Up Augments&r inside of the module."
+		"&a真空模块&r和它的名字一样，可以像虚空漏斗一样收集范围内的掉落物。这样&d路由器&r 就能收集在一定半径内的物品，可以安装&a范围升级拓展&r来加大范围。"
 		""
 		"&a快速拾取拓展&r也可以放在这个模块内，它可以加快拾取速度。"
 	]
@@ -1667,7 +1667,7 @@
 	quest.109CB437DFAECDC6.title: "&a合金炉"
 	quest.10AB0C0930A5D77D.title: "&5生命恢复"
 	quest.10B7437F3E412D26.quest_desc: [
-		"在&a钻石蜜蜂&r上使用&a下界合金块&r以将其转换成&6远古蜜蜂&r。"
+		"对&a钻石蜜蜂&r使用&a下界合金块&r以将其转换成&6远古蜜蜂&r。"
 		""
 		"这种蜜蜂从&a下界合金块&r采蜜，有点奢侈。"
 	]
@@ -2168,7 +2168,7 @@
 		"{@pagebreak}"
 		"如果想知道怎么让样板供应器和装配室工作变快，请查阅AE2教程！"
 	]
-	quest.16B60BCB8240F808.quest_subtitle: "The \"What\" and \"Where\" of Autocrafting"
+	quest.16B60BCB8240F808.quest_subtitle: "它负责告诉自动合成“该干什么”和“把东西放在哪”"
 	quest.16B60BCB8240F808.title: "储存你的样板"
 	quest.16C3EFC0741108EE.quest_desc: [
 		"&5量子装备&r就是这个游戏最强装备了，你可以不消耗能量到处飞翔，不受到任何外界伤害，而且用&5量子剑&r可以对所有怪物一击必杀。"
@@ -2206,7 +2206,7 @@
 		""
 		"你需要恩特罗水晶、一大堆能量和一个&d奇点&r才能合成它。"
 	]
-	quest.16E0A9FD1B08D34E.title: "&fInscriber Concurrent Press"
+	quest.16E0A9FD1B08D34E.title: "&f并发压印模板"
 	quest.16EAA225AFBF41E6.quest_desc: [
 		"&d蚀空烬质&r可以制备能量密度最高的燃料！"
 		""
@@ -2554,19 +2554,19 @@
 	quest.1B10A2DED0629D6B.title: "&a虚空升级"
 	quest.1B18D4F1BDD51268.title: "&f稻米农场"
 	quest.1B1E4B79CB5D4C35.quest_desc: [
-		"&aInterfaces&r have many uses, mainly that they are a fluid/item storage block that can have 9 individually configured slots to fill and/or empty itself from a network storage."
+		"&a接口&r的用途十分广泛，其核心功能是充当一个连通ME网络的智能缓存。它自带9个槽位，并且每个槽位都可以独立设置，以规定是从网络中取出特定物品/流体填满自身，还是将物品/流体存入网络。"
 		""
-		"They're essentially just chests/multi-fluid tanks with built-in &aImport Busses&r, &aExport Busses&r, and &bLevel Emitters&r."
+		"本质上，它就是一个自带了&aME输入总线&r、&aME输出总线&r和&bME标准发信器&r全部功能的箱子或多流体储罐。"
 		""
-		"&aInterfaces&r come in 2 different variants (normal and flat/subpart) which changes where their inventories can be accessed from and what they can provide a network connection to."
+		"&aME接口&r分为两种形态（标准型和面板型），不同形态的接口，其物品栏的交互面和可提供网络连接的面也各不相同。"
 		"{@pagebreak}"
-		"&aIntefaces&r also have a few special functionalities with other AE2 devices:"
+		"当&aME接口&r与其他AE2设备联动时，还能实现一些特殊的高级功能："
 		""
-		"Connecting a &bStorage Bus&r to an &aInterface&r will allow the &bStorage Bus'&r entire storage network to connect to the &aInterface&r as if it were placed on one big chest."
+		"将一个&bME存储总线&r贴在&aME接口&r上，整个&aME接口&r所连接的外部存储网络就会被视作一个超大箱子，可以直接被&bME存储总线&r所在的网络访问。"
 		""
-		"If a &cPatter Provider&r is connected to an unconfigured interface on &esubnets&r, it will skip the interface entirely and push directly to that subnet's storage, not filling it with recipe batches, and more importantly, not inserting the next batch until there's space in storage."
+		"当&cME样板供应器&r连接到&e子网络&r中一个未配置的ME接口时，它会无视该ME接口的存储槽，直接将物品推送到子网络的存储空间里。这样做的好处是，合成任务的中间产物不会塞满ME接口的缓存；更重要的是，它会等到存储空间空闲后，再推送下一批次的材料，避免了卡顿和溢出。"
 	]
-	quest.1B1E4B79CB5D4C35.title: "&fME Interface"
+	quest.1B1E4B79CB5D4C35.title: "&fME接口"
 	quest.1B20BEE2BE4476A7.quest_desc: [
 		"&d赛博改造中心&r允许你直接在你身体内安装赛博&b植入体&r，为你提供各种各样的被动增益和主动能力。"
 		""
@@ -3002,13 +3002,13 @@
 	]
 	quest.1F8EC3339B8873B9.title: "&f经验方尖碑"
 	quest.1F94DD493FE20C0B.quest_desc: [
-		"&e盆栽&r模组允许你大量获取所有类型的原木，只要你有树苗和其所需的土壤就可以。"
+		"&e盆景&r模组允许你大量获取所有类型的原木，只要你有树苗和其所需的土壤就可以。"
 		""
 		"你同样需要给它提供&a斧子&r来砍树，斧子会消耗耐久。"
 		""
 		"&7&o盆栽盆还有一个用来伪装成另一个方块的伪装格。&r"
 	]
-	quest.1F94DD493FE20C0B.title: "&e盆栽"
+	quest.1F94DD493FE20C0B.title: "&e盆景"
 	quest.1F9E582F684EA247.quest_desc: [
 		"&a搅拌机&r是一种&b重型机器&r，用于溶解固体并混合制作一些流体。"
 		""
@@ -3068,9 +3068,9 @@
 	]
 	quest.207CE761F35EB902.title: "&f合成用零件&b工程师蓝图"
 	quest.207CED1C925F85C4.quest_desc: [
-		"当你有了&c红石蜜蜂&r，将其与&a蓝色条纹蜜蜂&r一起繁殖来获取&9青金石蜜蜂&r！"
+		"当你有了&c红石蜜蜂&r，将其与&a蓝色条纹蜜蜂&r一起繁殖即可获取&9青金石蜜蜂&r！"
 		""
-		"这是繁育钻石蜜蜂的必经之路。"
+		"这是繁殖钻石蜜蜂的必经之路。"
 	]
 	quest.207CED1C925F85C4.title: "&9青金石蜜蜂"
 	quest.208A53545D649C8D.quest_desc: [
@@ -3237,7 +3237,7 @@
 	quest.22F07FB51C5DE600.title: "&a超棒的挖矿工具"
 	quest.230A9E24A34690DE.title: "&6时间棱镜"
 	quest.230E34A0E4A4C014.quest_desc: [
-		"手动收获&e蜜脾&r和&e蜂蜜瓶&r相当累人，而且真有人用营火驱蜜蜂吗？被蛰了接着干就是了，对不对啊家人们？"
+		"手动收获&e蜜脾&r和&e蜂蜜瓶&r相当累人，而且真有人用营火驱蜜蜂吗？被蛰了接着干就是了，家人们我做得对吗？"
 		""
 		"制作一个&a高级蜂箱&r，你将再也不需要手动收获资源，蜜蜂们会把产物留在他们的新家里，真是方便！"
 		""
@@ -3251,7 +3251,7 @@
 	quest.2315DBE189D330DA.quest_desc: [
 		"末影龙蜜蜂已经干了很多活儿了，但这一切都将得到回报。"
 		""
-		"&6升级：产量ω&r是蜂箱的终极升级，每个升级可以提高蜜蜂260%的产量，且同时具有升级：模拟和升级：蜜脾块的功能，这意味着加装此升级后，蜂箱将直接产出蜜脾块。"
+		"&6升级：产量ω&r是蜂箱的终极升级，每个升级可以提高260%的产量，且同时具有升级：模拟和升级：蜜脾块的功能，这意味着加装此升级后，蜂箱将直接产出蜜脾块。"
 		""
 		"高玩提示：四个升级：产量比四个升级：速度更好！"
 	]
@@ -3525,7 +3525,7 @@
 		""
 		"你可以用它改进你的赛特斯石英水晶和恩特罗水晶产线，尤其是防止你的无瑕母岩降级。"
 	]
-	quest.25A18CFB6B3E038B.title: "&fCrystal Fixer"
+	quest.25A18CFB6B3E038B.title: "&f水晶修复器"
 	quest.25CDD6087C675F1A.quest_desc: [
 		"&e多级线缆&r模组提供了许多升级版本的面板，越高级的工作速度越快，过滤槽位越多。"
 		""
@@ -3675,13 +3675,13 @@
 	quest.26EA309139C7C27E.quest_desc: [
 		"想要个熔炼速度更快的熔炉？试试神秘农业的吧！"
 		""
-		"&b熔炉&r消耗能量来熔炼物品，且内部自带燃烧煤炭或木头发电的&a发电机&r"
+		"&b熔炉&r消耗能量来熔炼物品，且内部自带燃烧煤炭或木头发电的&a发电机&r。"
 		""
 		"这种&b熔炉&r和同模组的其它机器一样，可以加装&a机器升级&r以提升整体速度和燃料容量等属性。"
 	]
 	quest.26EA309139C7C27E.title: "&a熔炉"
 	quest.26ECC091E6B3FA57.quest_desc: [
-		"&dAzure Silver&r can be obtained through bees."
+		"&d蔚蓝银矿&r可以在末地获得。"
 		""
 		"这种矿物的挖掘等级为下界合金，一般作用是&d制造蔚蓝琥珀金锭&r。"
 	]
@@ -3886,7 +3886,7 @@
 	]
 	quest.29CEF5D43415B227.title: "&d远程传输魔源"
 	quest.29E2CEADF6720EB3.quest_desc: [
-		"&cCrimson Iron Ore&r can be obtained from bees."
+		"&c绯红铁矿石&r可以养蜜蜂获得。"
 		""
 		"这东西不仅数值惊人，而且&c绯红铁镐头&r附带自动熔炼的特性！"
 		""
@@ -3916,7 +3916,7 @@
 	]
 	quest.2A5C2E704DE70301.title: "&c烈焰金剑"
 	quest.2A65FC21A4BBF686.quest_subtitle: "传输能量"
-	quest.2A65FC21A4BBF686.title: "&fEnergy Pipe"
+	quest.2A65FC21A4BBF686.title: "&f能量管道"
 	quest.2A6D6091E1A8F979.title: "&f钻石水晶"
 	quest.2A8BA3D5BB4B3023.quest_desc: [
 		"基本所有的产能机器都需要&c红石&r进行制作。"
@@ -4070,9 +4070,9 @@
 	]
 	quest.2BA10689E508FACC.title: "&f获取一枚&d嗅探兽蛋"
 	quest.2BCDA4C64936EBE2.quest_desc: [
-		"一些母岩需要将熔融金属倒在&e铸造盆&r中的&3虚无晶体催化剂&r以获得，只要找到些许资源，就可以用这种方式生产更多。"
+		"一些母岩需要将熔融金属倒在&e铸造盆&r中的&3虚无晶体催化剂&r以获取，只要找到些许资源，就可以用这种方式生产更多。"
 		""
-		"这些资源大多可以通过探索和刷怪获得，也可以通过矿石制造装置来获得，如&e旷工透镜&r，还可以通过在熔铸炉献祭生物的方式……"
+		"这些资源大多可以通过探索和刷怪获得，也可以通过矿石制造装置来获得，如&e矿工透镜&r，还可以通过在熔铸炉献祭生物的方式……"
 		"&7小小尝试一下其他的资源获取方式，也许会让母岩制作更容易。&r "
 		""
 		""
@@ -4544,7 +4544,7 @@
 	]
 	quest.3148FCED5BF543B5.title: "&fTool Belt"
 	quest.314E9901D4E89E6F.quest_desc: [
-		"The &cRedstone Module&r allows the &dRouter&r to give off a redstone signal whenever an item is inside of the buffer slot."
+		"&c检测模块&r在物品进入&d路由器&r内部缓存时，可以释放红石信号。"
 		""
 		"这对于自动化很有用，或者也能拿来控制其余模块开关！"
 	]
@@ -4809,7 +4809,7 @@
 		""
 		"它可以一次制造四个处理器！"
 	]
-	quest.333F134987890582.title: "&fCrystal Assembler"
+	quest.333F134987890582.title: "&f水晶装配器"
 	quest.3356E0CCB928EC2C.quest_desc: ["&a链式传动箱&r可将&b旋转力&r传输到相连的&a链式传动箱&r，可驱动多台机器并排运行，或者轻松改变旋转轴。"]
 	quest.3356E0CCB928EC2C.title: "&a链式传动箱"
 	quest.335783B21CB10145.quest_desc: ["&a幼仔分管机&r可以将成年动物繁育出的幼体分开，所以你就可以只用生下来的幼仔产肉了。"]
@@ -5268,7 +5268,7 @@
 		""
 		"&a骷髅&r蜜蜂和&a僵尸&r蜜蜂只会住在完全黑暗的高级蜂箱中，它们可以产出原版怪物掉落物！"
 	]
-	quest.3738420663297397.title: "&a快把浴霸关上"
+	quest.3738420663297397.title: "&a能否别把灯打开"
 	quest.373AB8CD1B10D694.quest_desc: ["减少完成一次操作的耗时。"]
 	quest.373AB8CD1B10D694.title: "&b效率升级"
 	quest.374BD99B92E454B7.quest_desc: ["召唤一个友好的家伙，提供物品交易。随着游戏进程的推进，可进行的交易种类将逐渐增加。"]
@@ -5708,11 +5708,11 @@
 	]
 	quest.3B2B26B1AD947CC5.title: "&fLarge Energy Storage"
 	quest.3B33C4D5A2D400D4.quest_desc: [
-		"&bSky Stone&r can be obtained from the &dFluix Researcher&r villager through trading, from a friendly &eWandering Trader&r, or by smelting some &bsky stone dust&r. Many floating structures also contain an abundance of skystone that you can mine while exploring."
+		"&b陨石&r可以通过与&d福鲁伊克斯研究员&r村民交易、从友好的&e流浪商人&r处购买，或是通过烧炼&b陨石粉&r来获得。许多浮空结构中也含有大量的陨石，你可以在探索时开采它们。"
 		""
-		"This dust is mined by placing an &eAnnilation Plane&r facing up at the build limit and linking it to storage."
+		"这种粉末可以通过在建造高度上限处放置一个朝上的&eME破坏面板&r，并将其连接到存储系统来开采。"
 	]
-	quest.3B33C4D5A2D400D4.title: "But where's the &bSkystone&r?"
+	quest.3B33C4D5A2D400D4.title: "但是&b陨石&r在哪里呢？"
 	quest.3B37556B49098933.quest_desc: ["&a异界眼镜&r能为穿戴者提供&b第三只眼&r效果，从而使&9异界&r的方块可见。"]
 	quest.3B37556B49098933.title: "&a异界眼镜"
 	quest.3B3CE4B6B25CB8DB.quest_desc: ["The key point of progress. &dAttuned Stones&r are made using Whiffs of Magic and diamonds, and making this item allows progression into even more mod mechancs such as &bPoppets&r and &bCircle Magic&r."]
@@ -5795,13 +5795,13 @@
 	quest.3C2916E5CA485AEA.title: "&fMachine Core Upgrades!"
 	quest.3C2A1A2A6D357657.title: "&31024B Fluid Storage Part"
 	quest.3C60FA46EA54C899.quest_desc: [
-		"供电后，&d战利品制造器&r可以从&b预测产物&r中产生战利品。"
+		"供电后，&d战利品制造器&r可以从&b预测产物&r中生成战利品。"
 		""
 		"一些生物会掉落多种战利品，你可以在&d战利品制造器&r的界面上选择想要获取的资源。"
 		""
 		"自动化方面，战利品制造器会记忆你对预测产物的选择，如果没有做出过选择，机器将不会工作。"
 		""
-		"为了完成&6FTB金字塔&r，推荐对&d监守者&r、&3凋灵&r和&5末影龙&r的&b预测产物&r进行自动化。"
+		"In order to complete the &6FTB Pyramid&r, it is recommended to automate &dWarden&r, &3Wither&r, and &5Ender Dragon &bPredictions&r."
 	]
 	quest.3C60FA46EA54C899.title: "&d生成战利品"
 	quest.3CAA89E621ED5B6E.quest_desc: [
@@ -5911,7 +5911,7 @@
 	quest.3D687BF735E54AE8.quest_desc: ["下界要塞的烈焰守卫"]
 	quest.3D687BF735E54AE8.title: "&f击杀10只&c烈焰人"
 	quest.3D767C3E2F0DE320.quest_desc: [
-		"To build the multiblock &6Quantum Computer&r, the structure itself can range from a 3x3x3 to a 7x7x7 square."
+		"多方块&6量子计算机&r的结构是大小在3×3×3和7×7×7之间的正方体。"
 		""
 		"最小的量子计算机必须有一个&6量子计算机核心&r，框架和六个面必须全都是&d量子结构方块&r。4x4x4的多方块中至少要有56个结构方块。"
 		""
@@ -6371,7 +6371,7 @@
 	quest.42C41784169B2308.quest_desc: [
 		"想要用某个生物的数据模型制造战利品，你得先将一个等级至少为基础的数据模型放进&a模拟室&r里。"
 		""
-		"提供&2预测矩阵&r和能源后，&a模拟室&r将模拟你对该生物的击杀过程，每次模拟消耗的电量取决于被模拟生物的稀有度。"
+		"提供&2预测矩阵&r和能源后，&a模拟室&r将模拟你对该生物的击杀过程，每次模拟消耗的能源取决于被模拟生物的稀有度。"
 		""
 		"模拟失败时，会生成&b通用预测产物&r；模拟成功时，会生成对应生物的&6预测产物&r。"
 		""
@@ -6852,13 +6852,13 @@
 	]
 	quest.487A0367385B68BC.title: "&6末影水晶粉"
 	quest.4882D3E03CC01268.quest_desc: [
-		"&bStorage Buses&r allow your network to see and interact with items inside an external storage block/network, such as a chest, or &eStorage Controller&r (from &6Functional Storage&r mod)."
+		"&bME存储总线&r能让你的ME网络读取并操作外部容器或存储网络里的物品，比如一个普通的箱子，或是来自&6功能性存储&r模组的&e存储控制器&r。"
 		""
-		"&bStorage Buses&r come in different types, and can also be filtered to only allow certain items to be stored and interacted with."
+		"&bME存储总线&r有多种不同类型，并且可以配置过滤器，从而只允许特定的物品存入或进行交互。"
 		""
-		"&7&oIt is possible to create an essentially infinite storage network that only takes up one channel."
+		"&7&o利用这个特性，你可以搭建一个仅占用单一频道，但容量近乎无限的存储网络。"
 	]
-	quest.4882D3E03CC01268.title: "&bStorage Bus"
+	quest.4882D3E03CC01268.title: "&bME存储总线"
 	quest.4887C8EA4441F62B.quest_desc: [
 		"The &cFuel Generator&r is a 3x3x2 multiblock generator that consumes &3Crude Oil&r or &cTurbofuel&r to generate power."
 		""
@@ -7084,7 +7084,7 @@
 	quest.4B21575B498FFEA1.quest_subtitle: "3x3范围的铲子"
 	quest.4B21575B498FFEA1.title: "&f开掘铲蓝图"
 	quest.4B463FDAEAC42511.quest_desc: [
-		"The &3Matter Condensor&r will destroy any item inserted into it like a trashcan. If you provide it a Cell to act as a buffer, it can instead convert the items into &aMatter Balls&r(1-16k) or &dSingularities&r (64k+)."
+		"&3物质聚合器&r会把输入的物品像垃圾桶一样销毁，但如果你给它插入一个1-16k的存储元件的话，则它会把输入物品转化为&b物质球&r。你也可以给它插入一个64k或以上的存储元件，此时它能够把输入的物品转化为&d奇点&r。"
 		""
 		"&d奇点&r要用来制作大规模存储设备，以及跨维度链接装置。"
 	]
@@ -8959,13 +8959,13 @@
 	]
 	quest.60984D2D55BF2E24.title: "&d淘金者火灵"
 	quest.609DF15D870AE2C0.quest_desc: [
-		"&6Soulplied Energistics&r is an addon mod for &6IF Souls&r that allows the transferring of souls using &6AE2&r."
+		"&6Soulplied Energistics&r是&6Industrial Foregoing: Souls&r和&6Applied Energistics 2&r的附属模组。它实现了通过&6AE2&r网络自动化传输灵魂的功能。"
 		""
-		"Attaching a &aStorage Bus&r to the &dSoul Laser Base&r will allow your network to access the &3Warden Souls&r inside it. Then, use any &6IF Souls&r item on an &aInterface Filter&r to request &3Souls&r."
+		"将&aME存储总线&r连接到&d灵魂镭射钻基座&r上方，你的ME网络便能访问其中的&3监守者灵魂&r。在&aME接口的过滤槽&r中放入任意&6IF Souls&r的物品，即可通过网络请求&3灵魂&r。"
 		""
-		"Finally, attach a &bSoul Pipe&r to the &aInterface&r and it will use its &3Warden Souls&r to power &bSoul Surges&r."
+		"最后，将&b灵魂管道&r连接到该&a接口&r，接口便会消耗其中的&3监守者灵魂&r来驱动&b灵魂促速器&r。"
 	]
-	quest.609DF15D870AE2C0.quest_subtitle: "Networked Souls"
+	quest.609DF15D870AE2C0.quest_subtitle: "网上灵魂"
 	quest.609DF15D870AE2C0.title: "&6Soulplied Energistics"
 	quest.60AFCA1889670F26.quest_desc: [
 		"&6化学清洗机&r，正如其名，是用来洗涤污浊的矿物浆液的。"
@@ -9818,7 +9818,7 @@
 		""
 		"样板放入正确槽位后，点击样板下方的按钮就能编写样板，日后自动合成就能用了！"
 	]
-	quest.69F87073390131D5.title: "&aCreating Patterns"
+	quest.69F87073390131D5.title: "&a编写样板"
 	quest.69FD7F8DD28A1C75.quest_desc: ["&dThreshold Switches&r can be configured to emit a redstone pulse based on how full a storage is."]
 	quest.69FD7F8DD28A1C75.title: "&d存量转信器"
 	quest.6A18A087EA934C46.quest_desc: [
@@ -10634,9 +10634,9 @@
 	]
 	quest.73E91712D4D9A762.title: "&f一切恐惧来源于火力不足"
 	quest.73EC5E7F2300B99D.quest_desc: [
-		"&aBudding Certus Quartz&r works similarly to amethyst and will bud crystals over time."
+		"&a赛特斯石英母岩&r的运作方式与紫水晶类似，会随着时间的推移长出水晶。"
 		""
-		"Each time a crystal is formed, or if the block is broken, the budding block has a chance to decay to a lower tier version and must be repaired by throwing it in water with &bCharged Certus Quartz Crystals&r."
+		"每当一个水晶生成，或该方块被破坏时，母岩方块都有几率退化为更低阶的版本，并且必须通过将其与&b充能赛特斯石英水晶&r一同丢入水中来修复。"
 		""
 		"但是无瑕的赛特斯石英母岩不会退化，可以无限生长！"
 		"然而如果你直接挖掉无瑕母岩的话，它就会变成&a有瑕的赛特斯石英母岩&r。如果使用&b纸箱&r之类的手段则可以无损移动它。"
@@ -10647,7 +10647,7 @@
 		""
 		"所以你游戏前期可以用跳舞来催生水晶！拿着锄头疯狂蹲起就行。"
 	]
-	quest.73EC5E7F2300B99D.title: "&bCertus Quartz Budding"
+	quest.73EC5E7F2300B99D.title: "&b赛特斯石英母岩"
 	quest.73F82078E2BC4DA5.quest_desc: [
 		"现在升级开始有意思了！"
 		""
@@ -11912,7 +11912,7 @@
 	task.16643E9DD53BA701.title: "修复套件"
 	task.16E099D5EA18961B.title: "震彻大地"
 	task.16E364F01286BDB3.title: "&b元素&f种子"
-	task.16F2199AE6D61307.title: "&6Souplied Energistics"
+	task.16F2199AE6D61307.title: "&6Soulplied Energistics"
 	task.17766119BC2ED7A3.title: "部件的属性"
 	task.17E5AF15A0633680.title: "&d节魔之戒&r"
 	task.17F5C28F412FABC5.title: "&f召唤一个&e被附身的女巫"
@@ -12094,7 +12094,7 @@
 	task.4A5574B73D5286B1.title: "Any equippable Rune"
 	task.4B48F3912AE46B3C.title: "&f召唤一个&e被附身的幻翼"
 	task.4B65088186551D3C.title: "&f虚空升级"
-	task.4BB1855917140E38.title: "&bCasting Spells"
+	task.4BB1855917140E38.title: "&b施放法术"
 	task.4BEC99EFB3F7A310.title: "&b适者生存"
 	task.4C1919EBB6897E10.title: "高级蜂箱"
 	task.4C37818287E9D1ED.title: "&e观察&f：柴油发电机"
@@ -12154,7 +12154,7 @@
 	task.5BE8C72BDBCC78CE.title: "&e使魔仪式"
 	task.5BF75EED8F2F48DC.title: "&f召唤一个&a克苏鲁使魔"
 	task.5C621DC20ED224E0.title: "厨柜"
-	task.5CCDA50CD1637BEC.title: "&eObserve&f: &aDamaged Budding Quartz"
+	task.5CCDA50CD1637BEC.title: "&e观察&f：&a损坏的石英母岩"
 	task.5CE52CCA9AEA95D5.title: "Tips \\&\\ Tricks!"
 	task.5CF6E53B06825D6C.title: "基础晶矿"
 	task.5D00E27FDC3A9CEE.title: "&6觉醒精华&f工具"
