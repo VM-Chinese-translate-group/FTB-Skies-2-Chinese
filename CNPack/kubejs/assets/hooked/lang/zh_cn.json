@@ -28,9 +28,9 @@
     "item.hooked.wood_hook.tip":"总比卡住强",
     "itemGroup.hooked":"钩爪",
     "key.category.hooked":"钩爪",
-    "key.hooked.fire":"Fire Hook",
-    "stat.hooked.hook_one_cm":"Distance by Grappling Hook",
-    "stat.hooked.hooks_fired":"Grappling Hooks Fired",
-    "trinkets.slot.chest.hooked":"Grappling Hook",
-    "curios.identifier.hooked_hook":"Grappling Hook"
+    "key.hooked.fire":"火焰钩",
+    "stat.hooked.hook_one_cm":"钩抓射程",
+    "stat.hooked.hooks_fired":"钩抓已发射",
+    "trinkets.slot.chest.hooked":"钩抓",
+    "curios.identifier.hooked_hook":"钩抓"
 }

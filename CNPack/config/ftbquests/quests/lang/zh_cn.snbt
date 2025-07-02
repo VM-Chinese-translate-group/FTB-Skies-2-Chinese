@@ -1090,9 +1090,9 @@
 	]
 	quest.0A9CA5D70C2FD76F.title: "&a灌注室"
 	quest.0AA1977AC1B5E5A9.quest_desc: [
-		"Anvils are all well and good for repairing mundane gear, but magical goods can be much more expensive or even repossible to repair in this manner. With a &aRepair Pylon&r, the &eSpirit Crucible&r is able to focus spirits and a repair material into a piece of gear, so long as it already has ties to &bcertain magics&r or is totally mundane."
+		"铁砧用来修复一般的装备非常合适，但用来修理魔法物品却会有非常昂贵的消耗，甚至可能无法修复。但只要有了&a修复基柱&r，你就可以用&e精魂坩埚&r来把精魂和修复材料集聚到装备上。无论是已经与&b特定种类的魔法&r相关联的装备，还是普通的装备，都可以修复。"
 		""
-		"This is also the only way to repair a &eFractured Impetus&r."
+		"此外，这也是唯一一种能够修复&e碎裂促符&r的方法。"
 	]
 	quest.0ABD10520EAB1C57.quest_desc: [
 		"&a存储控制器&r能连接大量抽屉并与其进行交互。对于要一直进出的自动化抽屉系统来说，这东西简直就是神器！"
@@ -2656,11 +2656,11 @@
 	]
 	quest.1BFDE3507411C116.title: "&6熔铸炉&f主组件"
 	quest.1C0024A48898FB90.quest_desc: [
-		"With an &aAlchemical Impetus&r as a focus, &aSpirit Crucibles&r are able to channel spirits into a physical form such as dusts or gems that align with their aspects. This slowly uses up the Impetus's material, but it can be repaired or made anew."
+		"只要以&a炼金促符&r作为核心材料，你就能用&a精魂坩埚&r来把精魂转化成其派别对应的物理形式，比如粉末或是宝石。这种转化会缓慢消耗促符的耐久度，不过你可以修复它，也可以重新制作。"
 		""
-		"Of note is &e'blazing quartz'&r which cannot otherwise be found in the void."
+		"值得一提的是，空岛上是不会自然生成&e“烈焰石英”&r的。"
 		""
-		"Other types of Impetus also can be crafted, allowing the conversion of spirits into a wider variety of resources."
+		"你还可以做出其他类型的促符，它们能把精魂转换成的资源种类会更加丰富。"
 	]
 	quest.1C044AAAA1306C6F.title: "&d使魔&f的床"
 	quest.1C276A8E48C36F56.title: "&b铜升级"
@@ -3712,7 +3712,7 @@
 		"A &aTotemic Staff&r will let you see what this area is, and can be used on an attuned log to make it glow without activation."
 	]
 	quest.272E84656D0F133C.quest_subtitle: "Few quests, countless uses"
-	quest.272E84656D0F133C.title: "Totemic Rites"
+	quest.272E84656D0F133C.title: "图腾仪式"
 	quest.275F70A4E1F7382A.quest_subtitle: "可合成"
 	quest.275F70A4E1F7382A.title: "&a学徒法术书"
 	quest.2765AC7C3E0350FE.quest_desc: [
@@ -7259,7 +7259,7 @@
 		""
 		"The same cannot be said of resulting &aSoulwood Saplings&r however, which reproduce this rush of blight whenever they mature. Controlled cultivation is advised, if any."
 	]
-	quest.4D1EBD92C674531E.title: "Unchained Blight"
+	quest.4D1EBD92C674531E.title: "无尽荒芜"
 	quest.4D1FE471FC2D8EF4.quest_desc: [
 		"在&3化学反应釜&r中将&7苯乙烯-丁二烯&r和&c小撮铬粉&r或&a小撮铅粉&r化合以得到&d丁苯橡胶&r。"
 		""
@@ -9935,9 +9935,9 @@
 	quest.6B9371B721B992AD.quest_desc: ["孢子会爆开。"]
 	quest.6B9371B721B992AD.title: "&a孢子囊"
 	quest.6B971FA156A96BD5.quest_desc: [
-		"A &aSpirit Catalyzer&r consumes inserted furnace fuels to accelerate the processing speed of a nearby &eCrucible&r, up to eight able to function on a single Crucible."
+		"&a精魂催化器&r会消耗熔炉可用的燃料来给附近的&e坩埚&r加速。1个坩埚最多可以被8个催化器加速。"
 		""
-		"This speed can sometimes cause more damage to the focal &eImpetus&r than usual, decreasing the total amount of material it can create before needing to be fixed or replaced."
+		"这种加速可能会导致作为核心材料的&e促符&r损坏得更快，从而减小它能够合成的物品数量，而后你就必须修复或替换它了。"
 	]
 	quest.6BA77922132D132E.title: "&6失物招领：第二层"
 	quest.6BB9FD515DFD8FF1.quest_desc: [
@@ -11253,13 +11253,13 @@
 	]
 	quest.7B954D1F7620FA41.title: "&bAll-In-One Tools"
 	quest.7BA228FC749BF70A.quest_desc: [
-		"Although the &eCatalyzer&r can increase the speed of the &eSpirit Crucible&r, many more aspects of its function can be tweaked with various &aAugments&r. Some of these effect different Crucible stats, while others will add entirely new mechanics to the system. Consult the &eMalum book&r for details!"
+		"&e精魂坩埚&r的合成速度可以被&e催化器&r提高，但其他的功能需要用到各种不同的&a增强件&r才能调整。其中一些增强件可以为坩埚属性带来不同的影响，另一些则会为坩埚的合成系统添加全新的机制。具体信息请看&e奥术全典&r！"
 		""
-		"A &aTuning Fork&r will show these stats and features above the Crucible when held, and can tweak some minor aspects when used on it."
+		"手持&a调谐音叉&r时，你可以看见坩埚的属性等信息，还可以选择优先属性。"
 		""
-		"Up to four can be applied to the Crucible itself, and linked Catalyzers can accept one augement each to apply to their Crucible."
+		"坩埚本体最多可以安置四个增强件，而附近的催化器则每个都可以安置一个增强件，从而给坩埚带来增益。"
 	]
-	quest.7BA228FC749BF70A.title: "Crucible Augments"
+	quest.7BA228FC749BF70A.title: "坩埚增强件"
 	quest.7BA817A69CE39AF0.quest_subtitle: "+10% 召唤伤害"
 	quest.7BA817A69CE39AF0.title: "&a召唤师护符"
 	quest.7BBE12078C2FC82E.quest_desc: [
