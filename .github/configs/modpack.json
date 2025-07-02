@@ -19,6 +19,7 @@
   },
   "exclusionPatterns": [
     "**/lang/*.*",
-    "!**/lang/en_us.*"
+    "!**/lang/en_us.*",
+    "kubejs/assets/modern_industrialization/lang/en_us.json"
   ]
 }

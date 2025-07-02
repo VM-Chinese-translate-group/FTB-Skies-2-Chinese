@@ -74,16 +74,31 @@ def generate_pr_body(pack_name, new_version, updated, added, deleted, source_roo
     return body
 
 def apply_exclusion_rules(file_set, exclusion_patterns, root_path):
-    if not exclusion_patterns: return file_set
-    inclusion_patterns = [p[1:] for p in exclusion_patterns if p.startswith('!')]
-    exclusion_patterns = [p for p in exclusion_patterns if not p.startswith('!')]
+    """
+    Filters a set of file paths based on an ordered list of exclusion patterns.
+    The last matching pattern in the list wins.
+    """
+    if not exclusion_patterns:
+        return file_set
+
     kept_files = set()
     for file_path in file_set:
         relative_path = file_path.relative_to(root_path)
-        is_excluded = any(relative_path.match(p) for p in exclusion_patterns)
-        if is_excluded and any(relative_path.match(p) for p in inclusion_patterns):
-            is_excluded = False
-        if not is_excluded: kept_files.add(file_path)
+        is_excluded = False  # Default to include
+
+        # Iterate through patterns in the specified order
+        for pattern in exclusion_patterns:
+            is_negation = pattern.startswith('!')
+            match_pattern = pattern[1:] if is_negation else pattern
+            
+            if relative_path.match(match_pattern):
+                # If it's a negation, it should be included (not excluded)
+                # If it's a regular pattern, it should be excluded
+                is_excluded = not is_negation
+        
+        if not is_excluded:
+            kept_files.add(file_path)
+            
     return kept_files
 
 
