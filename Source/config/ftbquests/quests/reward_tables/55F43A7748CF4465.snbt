@@ -4,8 +4,16 @@
 	}
 	id: "55F43A7748CF4465"
 	loot_size: 1
-	order_index: 48
+	order_index: 45
 	rewards: [
+		{
+			count: 8
+			id: "546EC7427B42A705"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+		}
 		{
 			count: 4
 			id: "229601C123DFA1A6"

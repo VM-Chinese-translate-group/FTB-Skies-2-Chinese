@@ -3,6 +3,15 @@
 		id: "mysticalagriculture:inferium_essence"
 	}
 	id: "74D2721A88E9AAA0"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "essence_goodie_bag"
+	}
 	loot_size: 1
 	order_index: 1
 	rewards: [

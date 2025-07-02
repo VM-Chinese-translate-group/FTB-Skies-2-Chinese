@@ -115,18 +115,6 @@
 					type: "item"
 				}
 				{
-					count: 8
-					id: "2514F48A601E7024"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "grassy_seeds"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-				{
 					id: "66D860958C7D7AE1"
 					item: {
 						components: {
@@ -142,6 +130,18 @@
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "559D85A058F75357"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "grassy_seeds"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
 					}
 					type: "item"
 				}

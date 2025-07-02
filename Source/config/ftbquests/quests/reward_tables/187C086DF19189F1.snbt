@@ -4,7 +4,7 @@
 	}
 	id: "187C086DF19189F1"
 	loot_size: 1
-	order_index: 56
+	order_index: 53
 	rewards: [
 		{ id: "49F8FD709199CC6F", item: { count: 1, id: "fargostalismans:aeolus_boots" } }
 		{ id: "481FB480DF533D77", item: { count: 1, id: "fargostalismans:amber_horseshoe_balloon" } }

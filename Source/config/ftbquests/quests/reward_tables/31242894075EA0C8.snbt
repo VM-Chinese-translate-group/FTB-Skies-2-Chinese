@@ -19,7 +19,7 @@
 		string_id: "gems_bag"
 	}
 	loot_size: 1
-	order_index: 22
+	order_index: 19
 	rewards: [
 		{ id: "5AEDF4E828D04591", item: { components: { "apotheosis:gem": "apotheosis:core/ballast", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }
 		{ id: "5820D027EABBB452", item: { components: { "apotheosis:gem": "apotheosis:core/brawlers", "apotheosis:purity": "normal" }, count: 1, id: "apotheosis:gem" } }

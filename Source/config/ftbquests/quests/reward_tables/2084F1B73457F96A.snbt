@@ -19,7 +19,7 @@
 		string_id: "flawless_gems_bag"
 	}
 	loot_size: 1
-	order_index: 23
+	order_index: 20
 	rewards: [
 		{ id: "2274576BD9634BBB", item: { components: { "apotheosis:gem": "apotheosis:core/ballast", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
 		{ id: "1DF71782A44BE8EB", item: { components: { "apotheosis:gem": "apotheosis:core/brawlers", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }

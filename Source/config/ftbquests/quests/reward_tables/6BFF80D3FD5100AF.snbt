@@ -7,7 +7,7 @@
 	}
 	id: "6BFF80D3FD5100AF"
 	loot_size: 1
-	order_index: 43
+	order_index: 40
 	rewards: [
 		{ id: "1A0E48A43DE77593", item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:amulet_of_protection", "minecraft:custom_name": "\"Amulet of Protection Scroll\"" }, count: 1, id: "irons_jewelry:recipe" } }
 		{ id: "63541573AA68B10D", item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:bane_ring", "minecraft:custom_name": "\"Bane Ring Scroll\"" }, count: 1, id: "irons_jewelry:recipe" } }

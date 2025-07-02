@@ -53,6 +53,7 @@
     "ftb.geode_catalyst.line.ruby": "§c - Ruby§7 → Ruby Geode",
     "ftb.geode_catalyst.line.sapphire": "§9 - Sapphire§7 → Sapphire Geode",
     "ftb.geode_catalyst.line.topaz": "§e - Topaz§7 → Topaz Geode",
+    "ftb.tooltip.minecraft.sculk_shrieker": "§aⓘ Drop from the Peer into the Abyss Gateway or rarely found in the world§f.",
     "ftb.tooltip.ae2.meteorite_compass": "§aⓘ §6Meteorites§f are disabled in this pack.",
     "ftb.tooltip.hangglider.hang_glider": "§aⓘ Obtained from a level 2 cartographer trade§f.",
     "ftb.tooltip.supplementaries.ash": "§aⓘ Ash can be obtained by burning logs or enemies with fire§f.",
@@ -60,6 +61,7 @@
     "ftb.tooltip.ae2.cable_anchor.2": "§a      Anchor§f",
     "ftb.tooltip.ae2.cable_anchor.3": "§aAnchor ■ Anchor§f",
     "ftb.tooltip.ae2.cable_anchor.4": "§a      Anchor§f",
+    "ftb.tooltip.minecraft.netherite_scrap": "§aⓘ Can be found in the §6Nether§f or as a reward for the waves of the §aHellish Fortress Gateway.§f",
     "ftb.tooltip.enderio.grains_of_infinity": "§aⓘ Grains of Infinity can also be obtained by jumping into the void§f.",
     "ftb.tooltip.justdirethings.experienceholder": "§aⓘ You can Right Click with a Bucket to fill it with XP. (§nMust be Exactly 1 Bucket§f§a)§f",
     "ftb.tooltip.toolbelt.belt.1": "§aⓘ Press [V] §8(Default Key)§a to open the Belt Slot Menu to Equip it.",
@@ -87,6 +89,8 @@
     "ftb.tooltip.irons_spellbooks.netherward_tincture": "§aⓘ§f Can be obtained from a §6Apothecarist Trade§f.",
     "ftb.tooltip.malum.natural_quartz": "§aⓘ§7 A §dPlaceable Variant§7 of §fQuartz§7.",
     "ftb.tooltip.minecraft.snowball": "§aⓘ§f Can be Obtained through the §aHarvesting§f of a §bSnowbell Plant§f.",
+    "ftb.tooltip.realized_transcendence.1": "§dTrue Consciousness§f can only be achieved by those who §5Peer into the §lAbyss§f.",
+    "ftb.tooltip.realized_transcendence.2": "§8§o(You'll have to progress further into Malum to be able to visualize this Recipe)§f",
     "ftb.tooltip.modern_industrialization.advanced_coke_oven": "§aⓘ§f A §eMore Efficient§f and §dFast Alternative§f to Basic §6Coke Ovens§f.",
     "ftbquests.chapter.attack_of_the_drones.quest1.description1": "The &6Amadron Trade Network&r offers a random assortment of pre-existing villager trades that will refresh each Minecraft day. There are also some pack and mod specific trades that will always be available so make sure to keep checking back!",
     "ftbquests.chapter.attack_of_the_drones.quest1.description2": "One trade of particular interest to the avid explorers may be the &dEnder Apple&r trade. By trading an Ender Apple, you can obtain an &6Enchanted Book of Stepping&r. When applied to any boots, it will grant you permanent step assist. Great for all those hills and mountains around!",
@@ -726,6 +730,7 @@
     "ftbquests.chapter.quantumania.quest8.title": "&5Quantum Gear&r",
     "ftbquests.chapter.quantumania.title": "7. Quantumania",
     "ftb_event_system.event.allay.spawned": "Spawned Allay with trade: %s for %s",
+    "ftb.event.fairy_buff": "Bippity Boppity Boo!",
     "ftb_event_system.event.allay.trade.success": "Trade successful! You received: %s",
     "ftb_event_system.event.goat.warning": "⚠ You hear some rustling nearby as if some creature is approaching...",
     "ftb_event_system.event.goat.disablestage": "✔ Goat Event's can now be disabled in the Quest Book!",
@@ -767,5 +772,8 @@
     "painting.ftb.skies2_night.author": "FTB",
     "painting.ftb.skies2_night.title": "Skies 2 Night",
     "painting.ftb.skies2.author": "FTB",
-    "painting.ftb.skies2.title": "Skies 2"
+    "painting.ftb.skies2.title": "Skies 2",
+
+    "crop.mysticalcustomization.entro_crystal": "Entro Crystal",
+    "crop.mysticalcustomization.quartz_enriched_copper": "Quartz Enriched Copper"
 }

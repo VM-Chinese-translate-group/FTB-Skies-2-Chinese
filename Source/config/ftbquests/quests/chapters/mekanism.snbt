@@ -164,9 +164,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				icon: {
-					id: "ftbmaterials:osmium_raw_ore"
-				}
 				id: "56BA1011DDE093D0"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/osmium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"

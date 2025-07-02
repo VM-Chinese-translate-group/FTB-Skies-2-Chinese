@@ -4,7 +4,7 @@
 	}
 	id: "5E2115937816D432"
 	loot_size: 1
-	order_index: 36
+	order_index: 33
 	rewards: [
 		{ id: "4F9B87314D0BF232", item: { count: 1, id: "ae2things:disk_drive_256k" } }
 		{ id: "69C3D29DDAAD60BD", item: { count: 1, id: "ae2:item_storage_cell_256k" } }

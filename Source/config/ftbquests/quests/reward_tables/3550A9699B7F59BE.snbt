@@ -9,7 +9,7 @@
 	}
 	id: "3550A9699B7F59BE"
 	loot_size: 1
-	order_index: 52
+	order_index: 49
 	rewards: [
 		{ id: "5026CF26421D16F8", item: { components: { "titanium:augments": { Speed: 2.0f } }, count: 1, id: "industrialforegoing:speed_addon_tier_1" } }
 		{ id: "4EA60158245323A8", item: { components: { "titanium:augments": { Efficiency: 0.9f } }, count: 1, id: "industrialforegoing:efficiency_addon_tier_1" } }

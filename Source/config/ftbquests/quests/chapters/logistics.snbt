@@ -69,6 +69,7 @@
 			rewards: [
 				{
 					id: "54C2DE9FA7808113"
+					team_reward: false
 					type: "xp"
 					xp: 5
 				}
@@ -113,6 +114,7 @@
 			rewards: [
 				{
 					id: "4B5C8389F162339C"
+					team_reward: false
 					type: "xp"
 					xp: 5
 				}

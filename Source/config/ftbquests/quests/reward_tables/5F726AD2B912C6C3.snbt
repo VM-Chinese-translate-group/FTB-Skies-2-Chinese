@@ -4,7 +4,7 @@
 	}
 	id: "5F726AD2B912C6C3"
 	loot_size: 1
-	order_index: 19
+	order_index: 17
 	rewards: [
 		{ id: "12810653970AEC05", item: { count: 1, id: "fargostalismans:force_of_overworld" } }
 		{ id: "2ECB6E6D5F14951B", item: { count: 1, id: "fargostalismans:force_of_nature" } }

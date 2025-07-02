@@ -321,7 +321,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [
 		{
 			id: "3BEB951A156B8AB9"
@@ -4089,14 +4089,25 @@
 				id: "bonsaitrees4:bonsaipot"
 			}
 			id: "1F94DD493FE20C0B"
-			rewards: [{
-				id: "59E624004441C58F"
-				item: {
-					count: 1
-					id: "minecraft:cyan_glazed_terracotta"
+			rewards: [
+				{
+					id: "59E624004441C58F"
+					item: {
+						count: 1
+						id: "minecraft:cyan_glazed_terracotta"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "0428435678EF5600"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "1FC358BB7DD54134"

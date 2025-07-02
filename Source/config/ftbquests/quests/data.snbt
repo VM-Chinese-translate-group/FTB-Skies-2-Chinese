@@ -21,6 +21,10 @@
 			count: 1
 			id: "minecraft:ice"
 		}
+		{
+			count: 1
+			id: "enderio:grains_of_infinity"
+		}
 	]
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d

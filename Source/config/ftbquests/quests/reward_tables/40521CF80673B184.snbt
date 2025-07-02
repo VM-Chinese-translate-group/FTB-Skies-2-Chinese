@@ -8,7 +8,7 @@
 	}
 	id: "40521CF80673B184"
 	loot_size: 1
-	order_index: 14
+	order_index: 12
 	rewards: [
 		{ id: "78E81A2852382318", item: { components: { "ftbquests:loot_crate": "technology_bundle" }, count: 1, id: "ftbquests:lootcrate" } }
 		{ id: "7C6765119EE86E22", item: { components: { "ftbquests:loot_crate": "magic_bundle" }, count: 1, id: "ftbquests:lootcrate" } }

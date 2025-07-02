@@ -14,7 +14,7 @@
 		string_id: "teleporter_bundle"
 	}
 	loot_size: 2
-	order_index: 18
+	order_index: 16
 	rewards: [
 		{
 			count: 2

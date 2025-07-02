@@ -19,7 +19,7 @@
 		string_id: "perfect_gems_bag"
 	}
 	loot_size: 1
-	order_index: 24
+	order_index: 21
 	rewards: [
 		{ id: "190775E9A3B86A1E", item: { components: { "apotheosis:gem": "apotheosis:core/ballast", "apotheosis:purity": "perfect" }, count: 1, id: "apotheosis:gem" } }
 		{ id: "4F8FE4D08A87A57F", item: { components: { "apotheosis:gem": "apotheosis:core/brawlers", "apotheosis:purity": "perfect" }, count: 1, id: "apotheosis:gem" } }

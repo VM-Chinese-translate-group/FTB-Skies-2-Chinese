@@ -91,8 +91,8 @@
 			image: "ftb:textures/quests/enderdragon.png"
 			rotation: 0.0d
 			width: 19.4d
-			x: 21.5d
-			y: 3.0d
+			x: 19.5d
+			y: 4.0d
 		}
 		{
 			height: 4.0d
@@ -250,6 +250,8 @@
 			y: -6.5d
 		}
 		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:diamond"
 			}
@@ -477,6 +479,7 @@
 			optional: true
 			rewards: [{
 				id: "5B47B6611835FFF6"
+				team_reward: false
 				type: "xp"
 				xp: 5
 			}]
@@ -657,14 +660,15 @@
 			size: 1.25d
 			tasks: [
 				{
-					count: 10L
 					id: "2F7F3A515637AEA1"
 					item: { count: 1, id: "minecraft:obsidian" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "69C1FAE003DBD484"
 					item: { count: 1, id: "minecraft:flint_and_steel" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -688,12 +692,14 @@
 					type: "item"
 				}
 				{
-					id: "17F065313CA4B5B6"
+					id: "50AEEFA70FCF0425"
 					item: {
+						components: {
+							"gateways:gateway": "gateways:overworldian_nights"
+						}
 						count: 1
-						id: "minecraft:ender_pearl"
+						id: "gateways:gate_pearl"
 					}
-					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -1475,6 +1481,7 @@
 					exclude_from_claim_all: true
 					id: "0B7A64473C4E6EBC"
 					table_id: 8721787916292516836L
+					team_reward: false
 					type: "loot"
 				}
 				{
@@ -1533,20 +1540,12 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "398A044927F3A072"
-					item: { count: 1, id: "minecraft:raw_iron" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2235FC6E28AEB063"
-					item: { count: 1, id: "minecraft:iron_ingot" }
-					type: "item"
-				}
-			]
-			x: 7.5d
+			tasks: [{
+				id: "285225AAFD7D27DE"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
 			y: -1.0d
 		}
 		{
@@ -1591,16 +1590,27 @@
 		{
 			dependencies: ["11EEAE553AD6C287"]
 			id: "66BCBE932B1CCA45"
-			rewards: [{
-				count: 8
-				id: "77BE9519DBB8D179"
-				item: {
-					count: 1
-					id: "minecraft:charcoal"
+			rewards: [
+				{
+					count: 8
+					id: "77BE9519DBB8D179"
+					item: {
+						count: 1
+						id: "minecraft:charcoal"
+					}
+					random_bonus: 4
+					type: "item"
 				}
-				random_bonus: 4
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "1FAB496B1D671D17"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
@@ -1627,24 +1637,12 @@
 				type: "item"
 			}]
 			size: 1.0d
-			tasks: [
-				{
-					icon: {
-						id: "minecraft:grass_block"
-					}
-					id: "00107D4762617954"
-					observe_type: 0
-					timer: 0L
-					to_observe: "minecraft:grass_block"
-					type: "observation"
-				}
-				{
-					id: "0ADB52BBD5F6E8FC"
-					item: { count: 1, id: "jags:grass_seed" }
-					optional_task: true
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0ADB52BBD5F6E8FC"
+				item: { count: 1, id: "jags:grass_seed" }
+				optional_task: true
+				type: "item"
+			}]
 			x: 0.0d
 			y: -2.0d
 		}
@@ -1866,7 +1864,6 @@
 		}
 		{
 			dependencies: ["11EEAE553AD6C287"]
-			hide_dependency_lines: true
 			icon: {
 				id: "ftbstuff:stone_hammer"
 			}
@@ -1939,11 +1936,12 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 2.5d
+			x: 3.75d
+			y: 3.25d
 		}
 		{
-			dependencies: ["642E67C7C2D1CF10"]
+			dependencies: ["6CADA41796D0F7F9"]
+			hide_dependency_lines: true
 			icon: {
 				id: "ftbstuff:iron_auto_hammer"
 			}
@@ -1957,7 +1955,6 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
 			tasks: [
 				{
 					id: "7394F08519BFDFBF"
@@ -1984,8 +1981,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 2.5d
+			x: 9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -2083,9 +2080,17 @@
 					type: "item"
 				}
 				{
-					id: "40191E4A78779CA3"
-					item: { count: 1, id: "minecraft:lava_bucket" }
-					optional_task: true
+					icon: {
+						components: {
+							"bucketlib:fluid": {
+								amount: 1000
+								id: "minecraft:lava"
+							}
+						}
+						id: "ceramicbucket:ceramic_bucket"
+					}
+					id: "7BA0B2F953A998BF"
+					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:lava_bucket)component(fuzzy:{\"bucketlib:fluid\":{amount:1000,id:\"minecraft:lava\"}}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -2113,8 +2118,8 @@
 				item: { count: 1, id: "ftbstuff:stone_cobblestone_generator" }
 				type: "item"
 			}]
-			x: 1.55d
-			y: 2.0d
+			x: 1.25d
+			y: 3.75d
 		}
 		{
 			icon: {
@@ -2182,6 +2187,7 @@
 		}
 		{
 			dependencies: ["5FCEA8229BB6955C"]
+			dependency_requirement: "all_started"
 			icon: {
 				components: {
 					"ftbquests:icon": "ftb:textures/quests/ftb_shop/ftb_shopkeeper_hooded.png"
@@ -2298,6 +2304,7 @@
 		}
 		{
 			dependencies: ["03837E8A75948DE5"]
+			hide_dependent_lines: true
 			id: "4A7A15ECB8ABDF88"
 			rewards: [
 				{
@@ -2362,10 +2369,51 @@
 			tasks: [{
 				id: "13424A9A95F161A0"
 				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:burning_dash", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: 10.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["5FCEA8229BB6955C"]
+			icon: {
+				id: "chipped:stop_black_concrete"
+			}
+			id: "3E6ED23A93BCBD03"
+			rewards: [{
+				auto: "invisible"
+				icon: {
+					id: "mffs:infinite_power_card"
+				}
+				id: "54BFA4339B81E086"
+				ignore_reward_blocking: true
+				stage: "no_infinity"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "4077DAFE2A38D249"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/icon/search.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2006F24858B4B4BB"
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				id: "7A101D6B281579D5"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -2.5d
 		}
 	]
 }

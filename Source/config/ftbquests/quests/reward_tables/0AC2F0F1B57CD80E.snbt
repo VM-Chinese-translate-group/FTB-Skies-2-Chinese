@@ -15,7 +15,7 @@
 		string_id: "reward_table"
 	}
 	loot_size: 1
-	order_index: 15
+	order_index: 13
 	rewards: [
 		{ id: "79B3C255C9FF51B1", item: { components: { "ars_nouveau:tome_caster": { flavor_text: " A utility spell to aid you in your adventures", spells: { 0: { color: { b: 1, g: 90, id: "ars_nouveau:constant", r: 225 }, name: "You were hurt, but you're fine", particleTimeline: { }, recipe: [ "ars_nouveau:glyph_self", "ars_nouveau:glyph_conjure_water", "ars_nouveau:glyph_heal", "ars_nouveau:glyph_amplify", "ars_nouveau:glyph_amplify", "ars_nouveau:glyph_phantom_block", "ars_nouveau:glyph_aoe", "ars_nouveau:glyph_aoe", "ars_nouveau:glyph_aoe" ], sound: { } } } }, "minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"text\":\"You were hurt, but you're fine\"}" }, count: 1, id: "ars_nouveau:caster_tome" } }
 		{ id: "5978B1AA92FBA64A", item: { components: { "ars_nouveau:tome_caster": { flavor_text: "Creates a temporary tunnel of blocks.", spells: { 0: { color: { b: 180, g: 25, id: "ars_nouveau:constant", r: 255 }, name: "The Shadow's Temporary Tunnel", particleTimeline: { }, recipe: [ "ars_nouveau:glyph_touch", "ars_nouveau:glyph_intangible", "ars_nouveau:glyph_aoe", "ars_nouveau:glyph_aoe", "ars_nouveau:glyph_pierce", "ars_nouveau:glyph_pierce", "ars_nouveau:glyph_pierce", "ars_nouveau:glyph_pierce", "ars_nouveau:glyph_pierce", "ars_nouveau:glyph_extend_time" ], sound: { } } } }, "minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"text\":\"The Shadow's Temporary Tunnel\"}" }, count: 1, id: "ars_nouveau:caster_tome" } }

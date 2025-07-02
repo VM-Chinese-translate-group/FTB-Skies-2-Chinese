@@ -4,7 +4,7 @@
 	}
 	id: "2A0BEF0439EFEF21"
 	loot_size: 1
-	order_index: 61
+	order_index: 58
 	rewards: [
 		{ id: "68A73057A0BDA46E", item: { count: 1, id: "extrastorage:disk_256k" } }
 		{ id: "135BF5F9BC683E28", item: { count: 1, id: "extrastorage:disk_16384b_fluid" } }

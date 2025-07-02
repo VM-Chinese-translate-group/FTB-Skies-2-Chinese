@@ -16,7 +16,7 @@
 		string_id: "spirit_bundle"
 	}
 	loot_size: 1
-	order_index: 66
+	order_index: 63
 	rewards: [
 		{
 			count: 16

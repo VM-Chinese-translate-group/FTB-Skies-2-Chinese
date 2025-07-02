@@ -4,7 +4,7 @@
 	}
 	id: "130438DA1C179BE1"
 	loot_size: 1
-	order_index: 63
+	order_index: 60
 	rewards: [
 		{ id: "632A0482DD1AE84F", item: { count: 1, id: "actuallyadditions:drill_upgrade_speed" } }
 		{ id: "5B4DC99AFB1145CD", item: { count: 1, id: "actuallyadditions:drill_upgrade_speed_ii" } }
