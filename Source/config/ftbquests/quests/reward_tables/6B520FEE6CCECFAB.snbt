@@ -13,7 +13,7 @@
 	}
 	id: "6B520FEE6CCECFAB"
 	loot_size: 1
-	order_index: 39
+	order_index: 36
 	rewards: [
 		{ id: "50BBEBF0A293D99B", item: { components: { "minecraft:custom_name": "\"Metallic Matter Tank\"", "replication:tile": { tank: { Amount: 128000.0d, MatterName: "replication:metallic" } } }, count: 1, id: "replication:matter_tank" } }
 		{ id: "1F571F120A610FA7", item: { components: { "minecraft:custom_name": "\"Earth Matter Tank\"", "replication:tile": { tank: { Amount: 128000.0d, MatterName: "replication:earth" } } }, count: 1, id: "replication:matter_tank" } }

@@ -304,7 +304,7 @@
 			y: 5.5d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [
 		{
 			id: "6CB372A72C838C9C"
@@ -1219,21 +1219,14 @@
 		}
 		{
 			id: "754048401D3A6A7B"
-			rewards: [
-				{
-					id: "4D1E9E0A4F64DF4B"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "575512EA4198D7E6"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "575512EA4198D7E6"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "2E2AAC08F926D8EE"

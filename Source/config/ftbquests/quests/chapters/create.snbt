@@ -225,6 +225,7 @@
 			id: "1CA4AF485A77607F"
 			rewards: [{
 				id: "488DBEED8EE58488"
+				team_reward: false
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -591,6 +592,7 @@
 				{
 					id: "545076386345A0A4"
 					item: { count: 1, id: "create:gearbox" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -3588,7 +3590,7 @@
 		{
 			dependencies: ["67DE9E103F50E3F1"]
 			icon: {
-				id: "ftbmaterials:iron_plate"
+				id: "create:mechanical_press"
 			}
 			id: "0BF770CB2B6312CF"
 			min_width: 300
@@ -3611,11 +3613,19 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "56E777FE460B3ED0"
-				item: { components: { "ftbfiltersystem:filter": "or(item(ftbmaterials:iron_plate)item(ftbmaterials:copper_plate)item(ftbmaterials:gold_plate))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "56E777FE460B3ED0"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ftbmaterials:iron_plate)item(ftbmaterials:copper_plate)item(ftbmaterials:gold_plate))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "6638C5DDB8B673A8"
+					item: { count: 1, id: "create:mechanical_press" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 0.0d
 		}

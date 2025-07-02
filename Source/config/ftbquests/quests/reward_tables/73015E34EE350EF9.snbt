@@ -1,7 +1,7 @@
 {
 	id: "73015E34EE350EF9"
 	loot_size: 1
-	order_index: 16
+	order_index: 14
 	rewards: [
 		{ id: "01BF7F2ECA7FD9BA", item: { count: 1, id: "irons_spellbooks:fire_rune" } }
 		{ id: "6B9D9582B9989C3B", item: { count: 1, id: "irons_spellbooks:ice_rune" } }

@@ -4,7 +4,7 @@
 	}
 	id: "7DBBC64108FD99E1"
 	loot_size: 1
-	order_index: 60
+	order_index: 57
 	rewards: [
 		{ id: "349D3FB05B0FE634", item: { count: 1, id: "refinedstorage:16k_storage_disk" } }
 		{ id: "410423631A35C6C8", item: { count: 1, id: "refinedstorage:1024b_fluid_storage_disk" } }

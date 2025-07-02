@@ -8,7 +8,7 @@
 	}
 	id: "26C5AE087E71F21F"
 	loot_size: 1
-	order_index: 65
+	order_index: 62
 	rewards: [
 		{ id: "695DE52FC7EEFD40", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:pig" }, count: 1, id: "hostilenetworks:data_model" } }
 		{ id: "440A968CDD86E4AD", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:cow" }, count: 1, id: "hostilenetworks:data_model" } }

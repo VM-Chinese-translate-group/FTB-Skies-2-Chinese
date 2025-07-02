@@ -4,7 +4,7 @@
 	}
 	id: "07BA254FD6B1F745"
 	loot_size: 1
-	order_index: 49
+	order_index: 46
 	rewards: [
 		{ id: "6D3EA1DDE930DF9A", item: { count: 1, id: "create:rotation_speed_controller" } }
 		{ id: "24A58EDF198A2E5D", item: { count: 1, id: "create:mechanical_arm" } }

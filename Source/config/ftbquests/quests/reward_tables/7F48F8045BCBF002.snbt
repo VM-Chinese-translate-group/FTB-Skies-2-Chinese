@@ -4,7 +4,7 @@
 	}
 	id: "7F48F8045BCBF002"
 	loot_size: 1
-	order_index: 62
+	order_index: 59
 	rewards: [
 		{ id: "351664EB41E15C83", item: { count: 1, id: "refinedstorage:importer" } }
 		{ id: "1E18E811322DB92A", item: { count: 1, id: "refinedstorage:exporter" } }

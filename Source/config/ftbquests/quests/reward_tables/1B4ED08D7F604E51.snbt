@@ -7,7 +7,7 @@
 	}
 	id: "1B4ED08D7F604E51"
 	loot_size: 1
-	order_index: 28
+	order_index: 25
 	rewards: [
 		{
 			command: "give @p geneticsresequenced:plasmid[geneticsresequenced:plasmid_progress={dna_points:16,gene:\"geneticsresequenced:bioluminescence\"}] 1"

@@ -15,7 +15,7 @@
 		string_id: "storage_box"
 	}
 	loot_size: 1
-	order_index: 11
+	order_index: 10
 	rewards: [
 		{
 			id: "362763E8748D953B"

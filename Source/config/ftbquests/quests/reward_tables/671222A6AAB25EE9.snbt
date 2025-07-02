@@ -4,7 +4,7 @@
 	}
 	id: "671222A6AAB25EE9"
 	loot_size: 1
-	order_index: 58
+	order_index: 55
 	rewards: [
 		{ id: "7E9BD95B9E210A16", item: { count: 1, id: "farmersdelight:rich_soil" } }
 		{

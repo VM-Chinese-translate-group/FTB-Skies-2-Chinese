@@ -17,7 +17,7 @@
 		string_id: "utility_spell_scrolls"
 	}
 	loot_size: 2
-	order_index: 32
+	order_index: 29
 	rewards: [
 		{ id: "6261FCF45BE9F52C", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:shield", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
 		{ id: "607ECFCE851ADBDE", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:recall", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }

@@ -4,7 +4,7 @@
 	}
 	id: "0B2A45C7A39E4FD1"
 	loot_size: 1
-	order_index: 54
+	order_index: 51
 	rewards: [
 		{ id: "0E5540DBED186280", item: { count: 1, id: "functionalstorage:framed_1" } }
 		{

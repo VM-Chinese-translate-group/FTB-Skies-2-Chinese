@@ -1126,8 +1126,17 @@
 			id: "4145FED51D1ACD76"
 			rewards: [
 				{
-					count: 8
+					count: 2
 					id: "37F1C06FE94608C1"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "438D75D997B09983"
 					item: {
 						count: 1
 						id: "minecraft:nether_wart"
@@ -1135,18 +1144,10 @@
 					type: "item"
 				}
 				{
-					id: "670938C991A97D9C"
+					id: "09196593C56987B7"
+					team_reward: false
 					type: "xp"
-					xp: 10
-				}
-				{
-					count: 2
-					id: "438D75D997B09983"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+					xp: 25
 				}
 			]
 			shape: "diamond"

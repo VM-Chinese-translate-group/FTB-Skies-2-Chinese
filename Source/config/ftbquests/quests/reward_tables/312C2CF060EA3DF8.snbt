@@ -4,7 +4,7 @@
 	}
 	id: "312C2CF060EA3DF8"
 	loot_size: 1
-	order_index: 57
+	order_index: 54
 	rewards: [
 		{ id: "1B20E0A4B294328C", item: { count: 1, id: "fargostalismans:ankh_shield" } }
 		{ id: "6D2BCF7D64D9FF13", item: { count: 1, id: "fargostalismans:bee_cloak" } }

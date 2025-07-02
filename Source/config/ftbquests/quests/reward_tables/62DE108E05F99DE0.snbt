@@ -4,7 +4,7 @@
 	}
 	id: "62DE108E05F99DE0"
 	loot_size: 1
-	order_index: 44
+	order_index: 41
 	rewards: [
 		{ id: "16BDA1DE3D36B383", item: { count: 1, id: "ae2:interface" } }
 		{ id: "63EE7B6C379460A4", item: { count: 1, id: "ae2:import_bus" } }

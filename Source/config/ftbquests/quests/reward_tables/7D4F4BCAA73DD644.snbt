@@ -8,7 +8,7 @@
 	}
 	id: "7D4F4BCAA73DD644"
 	loot_size: 1
-	order_index: 7
+	order_index: 6
 	rewards: [
 		{
 			id: "27729AFFD4C94FAC"
@@ -498,31 +498,6 @@
 			item: {
 				components: {
 					"ftbquests:loot_crate": "relic_bag"
-				}
-				count: 1
-				id: "ftbquests:lootcrate"
-			}
-			weight: 50.0f
-		}
-		{
-			icon: {
-				id: "simpleteleporters:teleporter"
-			}
-			id: "6999E16872CD66DD"
-			item: {
-				components: {
-					"ftbquests:loot_crate": "teleporter_bundle"
-				}
-				count: 1
-				id: "ftbquests:lootcrate"
-			}
-			weight: 50.0f
-		}
-		{
-			id: "47308D142B13E72D"
-			item: {
-				components: {
-					"ftbquests:loot_crate": "flawed_gems_bag"
 				}
 				count: 1
 				id: "ftbquests:lootcrate"

@@ -1491,17 +1491,18 @@
 					type: "item"
 				}
 				{
-					id: "503C5D1C25DABD5E"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "115172F43628013B"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "5F5AACD8E69E30ED"
+					team_reward: false
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "hexagon"

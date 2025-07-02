@@ -4,7 +4,7 @@
 	}
 	id: "7EE0B6A5555C3EF1"
 	loot_size: 1
-	order_index: 50
+	order_index: 47
 	rewards: [
 		{ id: "5D1C004B0546E232", item: { count: 1, id: "create:super_glue" } }
 		{ id: "792353C6A584FEE9", item: { count: 1, id: "create:steam_engine" } }

@@ -1,7 +1,9 @@
 {
-	always_invisible: true
+	autofocus_id: "6AA8A1FF1C8089F7"
 	default_hide_dependency_lines: false
+	default_min_width: 250
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "resources__you"
 	group: "03201DC13AAA49AA"
 	icon: {
@@ -25,12 +27,606 @@
 			x: 4.5d
 			y: -3.5d
 		}
+		{
+			height: 1.0d
+			hover: ["Item Interactions"]
+			image: "ars_nouveau:textures/gui/doc_spellstyle_rainbow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			height: 1.2d
+			hover: ["Foundry Work"]
+			image: "productivemetalworks:block/foundry_controller_front_on"
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Special Crafts"]
+			image: "minecraft:block/tnt_top"
+			order: 10
+			rotation: 0.0d
+			width: 0.8d
+			x: 23.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/red_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/red_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/red_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/red_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/red_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/red_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/red_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 27.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 32.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 32.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/fishing_rod"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/red_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 32.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/red_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 33.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/red_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 33.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 30.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 33.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "mysticalagriculture:item/inferium_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 29.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/red_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/red_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 25.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 27.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lime_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 27.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/red_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 32.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/honeycomb"
+			rotation: 0.0d
+			width: 1.0d
+			x: 31.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/yellow_concrete"
+			rotation: 0.0d
+			width: 1.0d
+			x: 33.0d
+			y: 4.0d
+		}
 	]
-	order_index: 3
-	quest_links: [ ]
+	order_index: 0
+	quest_links: [
+		{
+			id: "70FE87D759B2C053"
+			linked_quest: "595F8AC6DB5DACD8"
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			id: "620514397B2DDBED"
+			linked_quest: "4A7A15ECB8ABDF88"
+			x: 20.5d
+			y: 0.0d
+		}
+	]
 	quests: [
 		{
 			id: "79758946937D2AE9"
+			optional: true
 			rewards: [{
 				count: 2
 				id: "26D3591B81F9B578"
@@ -50,6 +646,7 @@
 		}
 		{
 			id: "56A327D4172F3DD6"
+			optional: true
 			rewards: [{
 				count: 5
 				id: "6650C9432AB324C2"
@@ -69,6 +666,7 @@
 		}
 		{
 			id: "75F7DB301ADF3667"
+			optional: true
 			rewards: [{
 				id: "0FF56F54B4E6FA05"
 				item: {
@@ -87,6 +685,7 @@
 		}
 		{
 			id: "08904FDA836C003B"
+			optional: true
 			rewards: [{
 				count: 2
 				id: "5581941060339777"
@@ -106,6 +705,7 @@
 		}
 		{
 			id: "536FE5C4A9D37909"
+			optional: true
 			rewards: [{
 				id: "174E43B6F71E93D0"
 				item: {
@@ -124,6 +724,7 @@
 		}
 		{
 			id: "32E926D3AC96233A"
+			optional: true
 			rewards: [
 				{
 					count: 64
@@ -154,6 +755,7 @@
 		}
 		{
 			id: "47121E98CEF12BDE"
+			optional: true
 			rewards: [
 				{
 					count: 64
@@ -184,6 +786,7 @@
 		}
 		{
 			id: "6DB493D9D20E8B45"
+			optional: true
 			rewards: [
 				{
 					count: 64
@@ -214,6 +817,7 @@
 		}
 		{
 			id: "1C62ECB8EDF694BB"
+			optional: true
 			rewards: [
 				{
 					count: 64
@@ -248,6 +852,7 @@
 				"32E926D3AC96233A"
 			]
 			id: "1F4E326DA743674D"
+			optional: true
 			rewards: [{
 				id: "460D86E753649C28"
 				item: {
@@ -270,6 +875,7 @@
 				"32E926D3AC96233A"
 			]
 			id: "34E7A6645B4AA48F"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "75A3DB2A9E33FECF"
@@ -293,6 +899,7 @@
 				"47121E98CEF12BDE"
 			]
 			id: "5CAFA39A77F46A83"
+			optional: true
 			rewards: [{
 				id: "74C561A940F86F7F"
 				item: {
@@ -315,8 +922,9 @@
 				"6DB493D9D20E8B45"
 			]
 			id: "4E5CA72883474230"
+			optional: true
 			rewards: [{
-				id: "6D5C7028F55FA41D"
+				id: "7EDD6C431B4B4C17"
 				item: {
 					count: 1
 					id: "magic_coins:silver_coin"
@@ -337,8 +945,9 @@
 				"1C62ECB8EDF694BB"
 			]
 			id: "70C60D8F7C05BDA9"
+			optional: true
 			rewards: [{
-				id: "0E4215E9D5ED5CB5"
+				id: "165D2F7ECC33580F"
 				item: {
 					count: 1
 					id: "magic_coins:silver_coin"
@@ -359,6 +968,7 @@
 				"47121E98CEF12BDE"
 			]
 			id: "19512B784164186D"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "210430C660AE2932"
@@ -382,6 +992,7 @@
 				"1C62ECB8EDF694BB"
 			]
 			id: "33D4E1FE5CD1DBE2"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "7164E1649DB4EB20"
@@ -405,6 +1016,7 @@
 				"6DB493D9D20E8B45"
 			]
 			id: "1D6D9CCF4E0072E1"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "7E88C9559DC4A1C5"
@@ -428,6 +1040,7 @@
 				"47121E98CEF12BDE"
 			]
 			id: "340542E5E1413650"
+			optional: true
 			rewards: [{
 				id: "765C24ABD8542A1C"
 				item: {
@@ -450,6 +1063,7 @@
 				"6DB493D9D20E8B45"
 			]
 			id: "297EAB81A2EC051F"
+			optional: true
 			rewards: [{
 				count: 5
 				id: "62C674099FA59E74"
@@ -473,6 +1087,7 @@
 				"47121E98CEF12BDE"
 			]
 			id: "6A02985C3F8D48F3"
+			optional: true
 			rewards: [{
 				count: 5
 				id: "126BD6EFEC8DB813"
@@ -496,6 +1111,7 @@
 				"1C62ECB8EDF694BB"
 			]
 			id: "217D720A52277579"
+			optional: true
 			rewards: [{
 				count: 5
 				id: "7E08A7FFEC45D5EE"
@@ -519,6 +1135,7 @@
 				"1C62ECB8EDF694BB"
 			]
 			id: "6F9389517D5495A6"
+			optional: true
 			rewards: [{
 				id: "77043F077E328B87"
 				item: {
@@ -541,6 +1158,7 @@
 				"1C62ECB8EDF694BB"
 			]
 			id: "36AA71D456F0A3C1"
+			optional: true
 			rewards: [{
 				id: "19B0AE2BD00B35EA"
 				item: {
@@ -563,6 +1181,7 @@
 				"05A727E11657DA51"
 			]
 			id: "4B7545530D6055AE"
+			optional: true
 			rewards: [{
 				count: 5
 				id: "246BAA88AE49F162"
@@ -586,6 +1205,7 @@
 				"4B7545530D6055AE"
 			]
 			id: "13CBFF5DAD6A1FA1"
+			optional: true
 			rewards: [{
 				id: "6D027D112E4B50CE"
 				item: {
@@ -608,6 +1228,7 @@
 				"13CBFF5DAD6A1FA1"
 			]
 			id: "12506117C5C46682"
+			optional: true
 			rewards: [{
 				id: "403BAE8DDE806F81"
 				item: {
@@ -630,6 +1251,7 @@
 				"59053EA2D933CD8D"
 			]
 			id: "2084A6104747D903"
+			optional: true
 			rewards: [{
 				id: "0758C1742BA74BA3"
 				item: {
@@ -652,6 +1274,7 @@
 				"08BEE8CFBAF691DA"
 			]
 			id: "59053EA2D933CD8D"
+			optional: true
 			rewards: [{
 				count: 5
 				id: "585F266D1B78AE1F"
@@ -671,6 +1294,7 @@
 		}
 		{
 			id: "05A727E11657DA51"
+			optional: true
 			rewards: [
 				{
 					count: 64
@@ -697,11 +1321,12 @@
 				item: { count: 1, id: "ftbstuff:crushed_netherrack" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
 			id: "08BEE8CFBAF691DA"
+			optional: true
 			rewards: [
 				{
 					count: 64
@@ -728,11 +1353,12 @@
 				item: { count: 1, id: "ftbstuff:crushed_basalt" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.5d
+			x: 9.5d
+			y: 2.5d
 		}
 		{
 			id: "0AF5AB8F0D7DB4B7"
+			optional: true
 			rewards: [
 				{
 					count: 64
@@ -759,8 +1385,8 @@
 				item: { count: 16, id: "ftb:crushed_kivi" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 3.0d
+			x: 11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -768,6 +1394,7 @@
 				"0AF5AB8F0D7DB4B7"
 			]
 			id: "4B8E75ACE0AA6FA0"
+			optional: true
 			rewards: [{
 				id: "7769804ACD7237FF"
 				item: {
@@ -783,6 +1410,871 @@
 			}]
 			x: 11.5d
 			y: 5.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "geore:budding_coal"
+			}
+			id: "6AA8A1FF1C8089F7"
+			optional: true
+			tasks: [
+				{
+					id: "72096AF6F886235E"
+					item: { count: 1, id: "geore:budding_coal" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "34269033188C3D4E"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "geore:budding_coal"
+					type: "observation"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "geore:budding_copper"
+			}
+			id: "6856355966CA2B7F"
+			optional: true
+			tasks: [
+				{
+					id: "6BD2606C1C57832B"
+					item: { count: 1, id: "geore:budding_copper" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5A362F978460462C"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "geore:budding_copper"
+					type: "observation"
+				}
+			]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["595F8AC6DB5DACD8"]
+			id: "5492FCDE4698D732"
+			optional: true
+			tasks: [{
+				id: "74A085051C1103B0"
+				item: { count: 1, id: "geore:budding_diamond" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["038C26F86776F520"]
+			id: "021C3C2A48069C7F"
+			optional: true
+			tasks: [{
+				id: "5AA7FF23FEEE29C7"
+				item: { count: 1, id: "geore:budding_emerald" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "geore:budding_gold"
+			}
+			id: "3E328C7EB939180D"
+			optional: true
+			tasks: [
+				{
+					id: "00B94844DBB45537"
+					item: { count: 1, id: "geore:budding_gold" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "70CC66090B7739F7"
+					observe_type: 0
+					timer: 0L
+					to_observe: "geore:budding_gold"
+					type: "observation"
+				}
+			]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "geore:budding_iron"
+			}
+			id: "7900FC41FB06C932"
+			optional: true
+			tasks: [
+				{
+					id: "63C3996471F63686"
+					item: { count: 1, id: "geore:budding_iron" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4C0C6BE0D30DB185"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "geore:budding_iron"
+					type: "observation"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "geore:budding_lapis"
+			}
+			id: "53D528FE7C905A39"
+			optional: true
+			tasks: [
+				{
+					id: "5080A19D1EE9DD0A"
+					item: { count: 1, id: "geore:budding_lapis" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1091FDE6D51C1552"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "geore:budding_lapis"
+					type: "observation"
+				}
+			]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B65BEA50EBC983D"]
+			id: "3CEB8BF2F48ECDBA"
+			optional: true
+			tasks: [{
+				id: "161080E043002D8A"
+				item: { count: 1, id: "geore:budding_quartz" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["038C26F86776F520"]
+			id: "1ADCEE9410309CAB"
+			optional: true
+			tasks: [{
+				id: "074E39E3D62A9F25"
+				item: { count: 1, id: "minecraft:budding_amethyst" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "geore:budding_redstone"
+			}
+			id: "56EC29FFC567ECC2"
+			optional: true
+			tasks: [
+				{
+					id: "69A4CF5A94C56272"
+					item: { count: 1, id: "geore:budding_redstone" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50AE2F612F55EC15"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "geore:budding_redstone"
+					type: "observation"
+				}
+			]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6DEB5453D8E3BD76"]
+			id: "08A966CE036BC9D1"
+			optional: true
+			tasks: [{
+				id: "68037F97AA25A918"
+				item: { count: 1, id: "geore:budding_ancient_debris" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "geore:budding_ruby"
+			}
+			id: "082F7B17CA57C1F7"
+			optional: true
+			tasks: [
+				{
+					id: "522527B2B82C8D80"
+					item: { count: 1, id: "geore:budding_ruby" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "60578D8CD1499673"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "geore:budding_ruby"
+					type: "observation"
+				}
+			]
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "geore:budding_sapphire"
+			}
+			id: "20F74AEE28351167"
+			optional: true
+			tasks: [
+				{
+					id: "2947856938F97F98"
+					item: { count: 1, id: "geore:budding_sapphire" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "02B5F445F3572537"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "geore:budding_sapphire"
+					type: "observation"
+				}
+			]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "geore:budding_topaz"
+			}
+			id: "1536AFFBBB6D858A"
+			optional: true
+			tasks: [
+				{
+					id: "0B4CD49FF079AAE6"
+					item: { count: 1, id: "geore:budding_topaz" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5021B204BDFD9928"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "geore:budding_topaz"
+					type: "observation"
+				}
+			]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4A7A15ECB8ABDF88"]
+			id: "576B6C8DD5E4B82E"
+			optional: true
+			tasks: [{
+				id: "043CA49AE7DFECDD"
+				item: { count: 1, id: "geore:budding_zinc" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B65BEA50EBC983D"]
+			id: "7EFFA8FF1CAD80E3"
+			optional: true
+			tasks: [{
+				id: "5004FFA86581F343"
+				item: { count: 1, id: "geore:budding_black_quartz" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 2.0d
+		}
+		{
+			id: "41A0D46C31E1DDDC"
+			optional: true
+			tasks: [{
+				id: "541D2568F3247AC1"
+				item: { count: 1, id: "geore:budding_monazite" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "geore:budding_aluminum"
+			}
+			id: "7E49ACE4F6DBA10B"
+			optional: true
+			tasks: [{
+				id: "3D94C8AC140220B9"
+				item: { count: 1, id: "geore:budding_aluminum" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "geore:budding_lead"
+			}
+			id: "413A7D5169734560"
+			optional: true
+			tasks: [
+				{
+					id: "5116066C19D60736"
+					item: { count: 1, id: "geore:budding_lead" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B09EA51A55C4756"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "geore:budding_lead"
+					type: "observation"
+				}
+			]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "geore:budding_nickel"
+			}
+			id: "6B779BFEDE0CB57A"
+			optional: true
+			tasks: [
+				{
+					id: "32F6A349486E7AEC"
+					item: { count: 1, id: "geore:budding_nickel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11091C159F3468C6"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "geore:budding_nickel"
+					type: "observation"
+				}
+			]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			id: "27EA4B653A952968"
+			optional: true
+			tasks: [{
+				id: "30519D64D4669BE2"
+				item: { count: 1, id: "geore:budding_osmium" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			id: "03597EC99930955D"
+			optional: true
+			tasks: [{
+				id: "05C02E4E1CE08A8D"
+				item: { count: 1, id: "geore:budding_platinum" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.0d
+		}
+		{
+			id: "282953A521BACF41"
+			optional: true
+			tasks: [{
+				id: "7006E7C960C72FDF"
+				item: { count: 1, id: "geore:budding_silver" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "geore:budding_tin"
+			}
+			id: "24F275DFF6D07418"
+			optional: true
+			tasks: [
+				{
+					id: "2E8F8014915DA1C1"
+					item: { count: 1, id: "geore:budding_tin" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "458D3A3F4428BE1E"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "geore:budding_tin"
+					type: "observation"
+				}
+			]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			id: "6EF660B54A169591"
+			optional: true
+			tasks: [{
+				id: "4C2DE89132067BBC"
+				item: { count: 1, id: "geore:budding_tungsten" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			id: "250EAE6FF7C67284"
+			optional: true
+			tasks: [{
+				id: "562E11878C1B1756"
+				item: { count: 1, id: "geore:budding_uranium" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 3.0d
+		}
+		{
+			id: "12C1810996C15294"
+			optional: true
+			tasks: [{
+				id: "4652A86254DEAE8C"
+				item: { count: 1, id: "mysticalagriculture:iron_essence" }
+				type: "item"
+			}]
+			x: 28.5d
+			y: 2.0d
+		}
+		{
+			id: "087ACAF5A47079FB"
+			optional: true
+			tasks: [{
+				id: "3171AD188DC82418"
+				item: { count: 1, id: "mysticalagriculture:coal_essence" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 2.0d
+		}
+		{
+			id: "4B30FD3141EB1AD0"
+			optional: true
+			tasks: [{
+				id: "48C0F01DD174697A"
+				item: { count: 1, id: "mysticalagriculture:copper_essence" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 2.0d
+		}
+		{
+			id: "323E664C39860E4F"
+			optional: true
+			tasks: [{
+				id: "38F9F85CB65051DE"
+				item: { count: 1, id: "mysticalagriculture:gold_essence" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 3.0d
+		}
+		{
+			id: "22D894556A026817"
+			optional: true
+			tasks: [{
+				id: "653E12EF54E8C77B"
+				item: { count: 1, id: "mysticalagriculture:redstone_essence" }
+				type: "item"
+			}]
+			x: 28.5d
+			y: 3.0d
+		}
+		{
+			id: "6ABA6F335165D860"
+			optional: true
+			tasks: [{
+				id: "270A15FACFABA45B"
+				item: { count: 1, id: "mysticalagriculture:tin_essence" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 4.0d
+		}
+		{
+			id: "5AAC3C7D6E9976C5"
+			optional: true
+			tasks: [{
+				id: "51F486E3B43B3170"
+				item: { count: 1, id: "mysticalagriculture:lead_essence" }
+				type: "item"
+			}]
+			x: 28.5d
+			y: 4.0d
+		}
+		{
+			id: "7E1EEF5E7F216B49"
+			optional: true
+			tasks: [{
+				id: "1B073303FC1FDB79"
+				item: { count: 1, id: "mysticalagriculture:zinc_essence" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 4.0d
+		}
+		{
+			id: "4F8BA7C2B9064AFB"
+			optional: true
+			tasks: [{
+				id: "54C7CC6187CF9AF3"
+				item: { count: 1, id: "mysticalagriculture:nickel_essence" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 4.0d
+		}
+		{
+			id: "01C52B543E30F365"
+			optional: true
+			tasks: [{
+				id: "7E4FB2EC1C4F0FE7"
+				item: { count: 1, id: "mysticalagriculture:lapis_lazuli_essence" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4A07DF8EB4A0C40A"
+				"595F8AC6DB5DACD8"
+			]
+			dependency_requirement: "one_completed"
+			id: "42535B4BBB87AC3D"
+			optional: true
+			tasks: [{
+				id: "73466973F764B194"
+				item: { count: 1, id: "mysticalagriculture:diamond_essence" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["038C26F86776F520"]
+			id: "013FC4C13A426EB1"
+			optional: true
+			tasks: [{
+				id: "3509E3BF17596825"
+				item: { count: 1, id: "mysticalagriculture:emerald_essence" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["038C26F86776F520"]
+			id: "2CDC1DACAC37E5EB"
+			optional: true
+			tasks: [{
+				id: "3A7D50CDEDC44CD9"
+				item: { count: 1, id: "mysticalagriculture:amethyst_essence" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: 4.0d
+		}
+		{
+			id: "40C4ECF69211C872"
+			optional: true
+			tasks: [{
+				id: "6541E8335355B0F9"
+				item: { count: 1, id: "mysticalagriculture:osmium_essence" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B65BEA50EBC983D"]
+			id: "4AFFA2E9FA61CC83"
+			optional: true
+			tasks: [{
+				id: "2DEFDDA65180710C"
+				item: { count: 1, id: "mysticalagriculture:nether_quartz_essence" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 5.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:piglin_head"
+			}
+			id: "7B65BEA50EBC983D"
+			optional: true
+			tasks: [
+				{
+					id: "7B3C68AC9FCC3DD2"
+					item: { count: 1, id: "minecraft:quartz" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2D05013A95F75576"
+					item: { count: 1, id: "actuallyadditions:black_quartz" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "44DD28FDA5FE92BB"
+					item: { count: 1, id: "minecraft:gold_ingot" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			id: "75C7413F93325A3B"
+			optional: true
+			tasks: [{
+				id: "5CF9E8911BD36308"
+				item: { count: 1, id: "mysticalagriculture:silver_essence" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 2.0d
+		}
+		{
+			id: "053278F000CB8DB8"
+			optional: true
+			tasks: [{
+				id: "65AF27118BBBDC2B"
+				item: { count: 1, id: "mysticalagriculture:platinum_essence" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 2.0d
+		}
+		{
+			id: "631BA261529E71CC"
+			optional: true
+			tasks: [{
+				id: "5260AF0EB036C2DD"
+				item: { count: 1, id: "mysticalagriculture:uranium_essence" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 3.0d
+		}
+		{
+			id: "2C4584B4B17872BF"
+			optional: true
+			tasks: [{
+				id: "7F95D068D136547B"
+				item: { count: 1, id: "mysticalagriculture:aluminum_essence" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6DEB5453D8E3BD76"]
+			id: "58541CC7998332A3"
+			optional: true
+			tasks: [{
+				id: "2635270864432510"
+				item: { count: 1, id: "mysticalagriculture:netherite_essence" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 5.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:cherry_sapling"
+			}
+			id: "038C26F86776F520"
+			optional: true
+			tasks: [
+				{
+					id: "22626ED3C13F4672"
+					optional_task: true
+					structure: "ftb:skyvillage"
+					type: "structure"
+				}
+				{
+					id: "16C5DD7813E28E47"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2D4C921973A5E988"
+					item: { count: 1, id: "minecraft:emerald" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6DEB5453D8E3BD76"
+				"595F8AC6DB5DACD8"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				components: {
+					"occultism:max_mining_time": 50
+					"occultism:rolls_per_operation": 1
+				}
+				id: "occultism:miner_marid_master"
+			}
+			id: "4B0B08ED9D193AEA"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "7DA98CB70D4ACAED"
+				item: { count: 1, id: "occultism:dimensional_mineshaft" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["595F8AC6DB5DACD8"]
+			id: "3329922774973A7D"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "39D0FB4456FE81C1"
+				item: { count: 1, id: "mekanism_lasers:ore_generator" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["595F8AC6DB5DACD8"]
+			id: "2AFB466982F0D9CE"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "5835ADFEEB4EC055"
+				item: { count: 1, id: "modern_industrialization:electric_quarry" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6DEB5453D8E3BD76"
+				"595F8AC6DB5DACD8"
+			]
+			id: "44CE0F10E7E24F23"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "343C6F5B6B21F7F3"
+				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 6.0d
+		}
+		{
+			id: "4186A1B8873DBF55"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "655979D152B6F696"
+				item: { count: 1, id: "actuallyadditions:lens_of_the_miner" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 5.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:ancient_debris"
+			}
+			id: "6DEB5453D8E3BD76"
+			optional: true
+			tasks: [
+				{
+					id: "73D645978C2B7DD9"
+					item: { count: 1, id: "minecraft:ancient_debris" }
+					type: "item"
+				}
+				{
+					id: "2F51960614CCD692"
+					item: { count: 1, id: "minecraft:netherite_scrap" }
+					type: "item"
+				}
+			]
+			x: 26.5d
+			y: 0.0d
+		}
+		{
+			id: "56279976861A0A95"
+			optional: true
+			tasks: [{
+				id: "06F0C110F6DF4933"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:red_concrete)item(minecraft:yellow_concrete)item(minecraft:lime_concrete))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				optional_task: true
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.0d
 		}
 	]
 }

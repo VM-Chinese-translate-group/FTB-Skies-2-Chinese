@@ -4,7 +4,7 @@
 	}
 	id: "7CCF18DC0540A34E"
 	loot_size: 1
-	order_index: 51
+	order_index: 48
 	rewards: [
 		{ id: "3461DBFDFB5103BF", item: { count: 1, id: "fluxnetworks:flux_point" } }
 		{ id: "6D553F90EE5A143D", item: { count: 1, id: "fluxnetworks:flux_plug" } }

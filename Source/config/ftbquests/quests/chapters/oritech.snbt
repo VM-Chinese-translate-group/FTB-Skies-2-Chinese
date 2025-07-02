@@ -130,6 +130,9 @@
 		}
 		{
 			can_repeat: false
+			icon: {
+				id: "ftbmaterials:nickel_raw_ore"
+			}
 			id: "33E4C81B762892B2"
 			rewards: [
 				{
@@ -155,7 +158,8 @@
 			size: 2.0d
 			tasks: [{
 				id: "765414790D7CA99B"
-				item: { count: 1, id: "ftbmaterials:nickel_raw_ore" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/nickel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				optional_task: true
 				type: "item"
 			}]
 			x: -6.0d

@@ -847,6 +847,7 @@
 				{
 					id: "62448629F990F9B5"
 					item: { count: 1, id: "immersiveengineering:wirecutter" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1813,7 +1814,7 @@
 					id: "34642DD49B9ECA13"
 					item: {
 						count: 1
-						id: "modern_industrialization:coke_dust"
+						id: "ftbmaterials:coal_coke_dust"
 					}
 					random_bonus: 4
 					type: "item"
@@ -1830,7 +1831,7 @@
 			]
 			tasks: [{
 				id: "6F6D13104BBA15D1"
-				item: { count: 1, id: "modern_industrialization:coke_dust" }
+				item: { count: 1, id: "ftbmaterials:coal_coke_dust" }
 				type: "item"
 			}]
 			x: 12.0d

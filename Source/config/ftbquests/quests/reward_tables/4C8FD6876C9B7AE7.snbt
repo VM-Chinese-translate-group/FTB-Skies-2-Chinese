@@ -4,7 +4,7 @@
 	}
 	id: "4C8FD6876C9B7AE7"
 	loot_size: 1
-	order_index: 34
+	order_index: 31
 	rewards: [
 		{ id: "4A07F3EB30D00D78", item: { count: 1, id: "ae2:logic_processor" } }
 		{ id: "38FE07E2E668F856", item: { count: 1, id: "ae2:calculation_processor" } }

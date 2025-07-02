@@ -4,17 +4,18 @@
 	}
 	id: "09A4B3E85400A107"
 	loot_crate: {
-		color: 43520
+		color: 170
 		drops: {
 			boss: 0
 			monster: 0
 			passive: 0
 		}
+		glow: 1b
 		item_name: "Grassy Seeds"
 		string_id: "grassy_seeds"
 	}
 	loot_size: 8
-	order_index: 31
+	order_index: 28
 	rewards: [
 		{
 			count: 2
