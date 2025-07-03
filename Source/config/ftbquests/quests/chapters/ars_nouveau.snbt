@@ -1024,7 +1024,8 @@
 			min_width: 300
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1304,7 +1305,8 @@
 			min_width: 350
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1423,7 +1425,8 @@
 			min_width: 300
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1472,7 +1475,8 @@
 			min_width: 300
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1522,7 +1526,8 @@
 			min_width: 300
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1564,7 +1569,8 @@
 			min_width: 300
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1607,7 +1613,8 @@
 			optional: true
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1677,7 +1684,8 @@
 			id: "39217B517F7C280A"
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -2025,7 +2033,8 @@
 			min_width: 300
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 3"
+					command: "/puffish_skills points add @s puffish_skills:magic 3"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -2214,7 +2223,8 @@
 			min_width: 250
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -2224,6 +2234,7 @@
 					id: "4DF1D3710DEEB1AB"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
 				}
 				{

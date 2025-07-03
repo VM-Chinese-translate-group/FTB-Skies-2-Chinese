@@ -4,7 +4,7 @@
 	default_min_width: 250
 	default_quest_shape: ""
 	disable_toast: true
-	filename: "resources__you"
+	filename: "resources_and_you"
 	group: "03201DC13AAA49AA"
 	icon: {
 		id: "createsifter:sifter"
@@ -727,15 +727,6 @@
 			optional: true
 			rewards: [
 				{
-					count: 64
-					id: "2FD3168E33634434"
-					item: {
-						count: 1
-						id: "minecraft:dirt"
-					}
-					type: "item"
-				}
-				{
 					id: "2E6C3DC2677E5151"
 					item: {
 						count: 1
@@ -743,9 +734,17 @@
 					}
 					type: "item"
 				}
+				{
+					count: 16
+					id: "2FD3168E33634434"
+					item: {
+						count: 1
+						id: "minecraft:dirt"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
-				count: 16L
 				id: "7182B57F293D804E"
 				item: { count: 1, id: "minecraft:dirt" }
 				type: "item"
@@ -758,15 +757,6 @@
 			optional: true
 			rewards: [
 				{
-					count: 64
-					id: "234B2F5F20C63CD5"
-					item: {
-						count: 1
-						id: "minecraft:gravel"
-					}
-					type: "item"
-				}
-				{
 					id: "656A206938C270DE"
 					item: {
 						count: 1
@@ -774,11 +764,19 @@
 					}
 					type: "item"
 				}
+				{
+					count: 16
+					id: "234B2F5F20C63CD5"
+					item: {
+						count: 1
+						id: "minecraft:gravel"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
-				count: 16L
 				id: "01E008B28F75F3EA"
-				item: { count: 16, id: "minecraft:gravel" }
+				item: { count: 1, id: "minecraft:gravel" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -789,15 +787,6 @@
 			optional: true
 			rewards: [
 				{
-					count: 64
-					id: "2FDA82036EC4D8B8"
-					item: {
-						count: 1
-						id: "minecraft:sand"
-					}
-					type: "item"
-				}
-				{
 					id: "00E201A51A99D4BB"
 					item: {
 						count: 1
@@ -805,9 +794,17 @@
 					}
 					type: "item"
 				}
+				{
+					count: 16
+					id: "2FDA82036EC4D8B8"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
-				count: 16L
 				id: "228ABE9902B7DC9A"
 				item: { count: 16, id: "minecraft:sand" }
 				type: "item"
@@ -820,15 +817,6 @@
 			optional: true
 			rewards: [
 				{
-					count: 64
-					id: "302A20FDFFE481DA"
-					item: {
-						count: 1
-						id: "ftbstuff:dust"
-					}
-					type: "item"
-				}
-				{
 					id: "1AB7920E83CA2520"
 					item: {
 						count: 1
@@ -836,9 +824,17 @@
 					}
 					type: "item"
 				}
+				{
+					count: 16
+					id: "302A20FDFFE481DA"
+					item: {
+						count: 1
+						id: "ftbstuff:dust"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
-				count: 16L
 				id: "79519C0D5A72766E"
 				item: { count: 1, id: "ftbstuff:dust" }
 				type: "item"
@@ -1297,15 +1293,6 @@
 			optional: true
 			rewards: [
 				{
-					count: 64
-					id: "118ABCA0547A9EC4"
-					item: {
-						count: 1
-						id: "ftbstuff:crushed_netherrack"
-					}
-					type: "item"
-				}
-				{
 					count: 5
 					id: "7E4F52A4FD208922"
 					item: {
@@ -1314,9 +1301,17 @@
 					}
 					type: "item"
 				}
+				{
+					count: 16
+					id: "118ABCA0547A9EC4"
+					item: {
+						count: 1
+						id: "ftbstuff:crushed_netherrack"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
-				count: 16L
 				id: "36891717C03BB5DE"
 				item: { count: 1, id: "ftbstuff:crushed_netherrack" }
 				type: "item"
@@ -1329,15 +1324,6 @@
 			optional: true
 			rewards: [
 				{
-					count: 64
-					id: "1FE13CFF8B2DD2FC"
-					item: {
-						count: 1
-						id: "ftbstuff:crushed_basalt"
-					}
-					type: "item"
-				}
-				{
 					count: 5
 					id: "3F50214AA943AC9F"
 					item: {
@@ -1346,9 +1332,17 @@
 					}
 					type: "item"
 				}
+				{
+					count: 16
+					id: "1FE13CFF8B2DD2FC"
+					item: {
+						count: 1
+						id: "ftbstuff:crushed_basalt"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
-				count: 16L
 				id: "4D85F29C62FF1039"
 				item: { count: 1, id: "ftbstuff:crushed_basalt" }
 				type: "item"
@@ -1361,15 +1355,6 @@
 			optional: true
 			rewards: [
 				{
-					count: 64
-					id: "3D73BDB9B5162DF0"
-					item: {
-						count: 1
-						id: "ftb:crushed_kivi"
-					}
-					type: "item"
-				}
-				{
 					count: 5
 					id: "23890415F0D3DBCF"
 					item: {
@@ -1378,9 +1363,17 @@
 					}
 					type: "item"
 				}
+				{
+					count: 16
+					id: "3D73BDB9B5162DF0"
+					item: {
+						count: 1
+						id: "ftb:crushed_kivi"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
-				count: 16L
 				id: "0FC36CC4BB083004"
 				item: { count: 16, id: "ftb:crushed_kivi" }
 				type: "item"
@@ -1418,6 +1411,14 @@
 			}
 			id: "6AA8A1FF1C8089F7"
 			optional: true
+			rewards: [{
+				id: "2DCC2ECC487016D3"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "72096AF6F886235E"
@@ -1443,6 +1444,14 @@
 			}
 			id: "6856355966CA2B7F"
 			optional: true
+			rewards: [{
+				id: "01C16EDD2F4D1EFE"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6BD2606C1C57832B"
@@ -1466,6 +1475,14 @@
 			dependencies: ["595F8AC6DB5DACD8"]
 			id: "5492FCDE4698D732"
 			optional: true
+			rewards: [{
+				id: "2DF8B853259AF6EF"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "74A085051C1103B0"
 				item: { count: 1, id: "geore:budding_diamond" }
@@ -1478,6 +1495,14 @@
 			dependencies: ["038C26F86776F520"]
 			id: "021C3C2A48069C7F"
 			optional: true
+			rewards: [{
+				id: "0174DEA567D690DF"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5AA7FF23FEEE29C7"
 				item: { count: 1, id: "geore:budding_emerald" }
@@ -1492,6 +1517,14 @@
 			}
 			id: "3E328C7EB939180D"
 			optional: true
+			rewards: [{
+				id: "04DEA3301F55CF92"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "00B94844DBB45537"
@@ -1516,6 +1549,14 @@
 			}
 			id: "7900FC41FB06C932"
 			optional: true
+			rewards: [{
+				id: "1BFF6994B3086618"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "63C3996471F63686"
@@ -1541,6 +1582,14 @@
 			}
 			id: "53D528FE7C905A39"
 			optional: true
+			rewards: [{
+				id: "7F3F0D4B3117401F"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5080A19D1EE9DD0A"
@@ -1564,6 +1613,15 @@
 			dependencies: ["7B65BEA50EBC983D"]
 			id: "3CEB8BF2F48ECDBA"
 			optional: true
+			rewards: [{
+				count: 3
+				id: "38C18BD140517D7B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "161080E043002D8A"
 				item: { count: 1, id: "geore:budding_quartz" }
@@ -1576,6 +1634,14 @@
 			dependencies: ["038C26F86776F520"]
 			id: "1ADCEE9410309CAB"
 			optional: true
+			rewards: [{
+				id: "74731FBDCF743C08"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "074E39E3D62A9F25"
 				item: { count: 1, id: "minecraft:budding_amethyst" }
@@ -1590,6 +1656,14 @@
 			}
 			id: "56EC29FFC567ECC2"
 			optional: true
+			rewards: [{
+				id: "1F264E5D72ACC572"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "69A4CF5A94C56272"
@@ -1613,6 +1687,14 @@
 			dependencies: ["6DEB5453D8E3BD76"]
 			id: "08A966CE036BC9D1"
 			optional: true
+			rewards: [{
+				id: "51437A313292DAAF"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "68037F97AA25A918"
 				item: { count: 1, id: "geore:budding_ancient_debris" }
@@ -1627,6 +1709,14 @@
 			}
 			id: "082F7B17CA57C1F7"
 			optional: true
+			rewards: [{
+				id: "3FC7453B96E70C40"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "522527B2B82C8D80"
@@ -1652,6 +1742,14 @@
 			}
 			id: "20F74AEE28351167"
 			optional: true
+			rewards: [{
+				id: "0B790A89B18C154F"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2947856938F97F98"
@@ -1677,6 +1775,14 @@
 			}
 			id: "1536AFFBBB6D858A"
 			optional: true
+			rewards: [{
+				id: "25E45DFAD31AD9F9"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0B4CD49FF079AAE6"
@@ -1700,6 +1806,15 @@
 			dependencies: ["4A7A15ECB8ABDF88"]
 			id: "576B6C8DD5E4B82E"
 			optional: true
+			rewards: [{
+				count: 3
+				id: "0C4617C4175DA3AC"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "043CA49AE7DFECDD"
 				item: { count: 1, id: "geore:budding_zinc" }
@@ -1712,6 +1827,15 @@
 			dependencies: ["7B65BEA50EBC983D"]
 			id: "7EFFA8FF1CAD80E3"
 			optional: true
+			rewards: [{
+				count: 3
+				id: "7C2CB11EC3DF6611"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5004FFA86581F343"
 				item: { count: 1, id: "geore:budding_black_quartz" }
@@ -1723,6 +1847,15 @@
 		{
 			id: "41A0D46C31E1DDDC"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "0AD1897F6EFDC4A7"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "541D2568F3247AC1"
 				item: { count: 1, id: "geore:budding_monazite" }
@@ -1737,6 +1870,15 @@
 			}
 			id: "7E49ACE4F6DBA10B"
 			optional: true
+			rewards: [{
+				count: 3
+				id: "6D384DE1786C2086"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D94C8AC140220B9"
 				item: { count: 1, id: "geore:budding_aluminum" }
@@ -1751,6 +1893,14 @@
 			}
 			id: "413A7D5169734560"
 			optional: true
+			rewards: [{
+				id: "2A38F626D2891629"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5116066C19D60736"
@@ -1776,6 +1926,14 @@
 			}
 			id: "6B779BFEDE0CB57A"
 			optional: true
+			rewards: [{
+				id: "77DF13AF9884DF39"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "32F6A349486E7AEC"
@@ -1798,6 +1956,14 @@
 		{
 			id: "27EA4B653A952968"
 			optional: true
+			rewards: [{
+				id: "03065297744AF8D5"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "30519D64D4669BE2"
 				item: { count: 1, id: "geore:budding_osmium" }
@@ -1809,6 +1975,14 @@
 		{
 			id: "03597EC99930955D"
 			optional: true
+			rewards: [{
+				id: "1476DE168730CED5"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "05C02E4E1CE08A8D"
 				item: { count: 1, id: "geore:budding_platinum" }
@@ -1820,6 +1994,15 @@
 		{
 			id: "282953A521BACF41"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "000E781EE793FF7D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7006E7C960C72FDF"
 				item: { count: 1, id: "geore:budding_silver" }
@@ -1834,6 +2017,14 @@
 			}
 			id: "24F275DFF6D07418"
 			optional: true
+			rewards: [{
+				id: "1CDD51245AA8773C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2E8F8014915DA1C1"
@@ -1856,6 +2047,14 @@
 		{
 			id: "6EF660B54A169591"
 			optional: true
+			rewards: [{
+				id: "587B1E4F00BF8EF2"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C2DE89132067BBC"
 				item: { count: 1, id: "geore:budding_tungsten" }
@@ -1867,6 +2066,14 @@
 		{
 			id: "250EAE6FF7C67284"
 			optional: true
+			rewards: [{
+				id: "3FC0D2AD4C048AFD"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "562E11878C1B1756"
 				item: { count: 1, id: "geore:budding_uranium" }
@@ -1878,6 +2085,14 @@
 		{
 			id: "12C1810996C15294"
 			optional: true
+			rewards: [{
+				id: "212828E54B6D78D2"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4652A86254DEAE8C"
 				item: { count: 1, id: "mysticalagriculture:iron_essence" }
@@ -1889,6 +2104,14 @@
 		{
 			id: "087ACAF5A47079FB"
 			optional: true
+			rewards: [{
+				id: "3F1DC4A627143818"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3171AD188DC82418"
 				item: { count: 1, id: "mysticalagriculture:coal_essence" }
@@ -1900,6 +2123,14 @@
 		{
 			id: "4B30FD3141EB1AD0"
 			optional: true
+			rewards: [{
+				id: "67994A26E8656854"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "48C0F01DD174697A"
 				item: { count: 1, id: "mysticalagriculture:copper_essence" }
@@ -1911,6 +2142,14 @@
 		{
 			id: "323E664C39860E4F"
 			optional: true
+			rewards: [{
+				id: "620725ADEF69B5A5"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "38F9F85CB65051DE"
 				item: { count: 1, id: "mysticalagriculture:gold_essence" }
@@ -1922,6 +2161,14 @@
 		{
 			id: "22D894556A026817"
 			optional: true
+			rewards: [{
+				id: "32645846BDAE1B69"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "653E12EF54E8C77B"
 				item: { count: 1, id: "mysticalagriculture:redstone_essence" }
@@ -1933,6 +2180,14 @@
 		{
 			id: "6ABA6F335165D860"
 			optional: true
+			rewards: [{
+				id: "641FED13AFA765A1"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "270A15FACFABA45B"
 				item: { count: 1, id: "mysticalagriculture:tin_essence" }
@@ -1944,6 +2199,14 @@
 		{
 			id: "5AAC3C7D6E9976C5"
 			optional: true
+			rewards: [{
+				id: "5174FACEE4A345E2"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "51F486E3B43B3170"
 				item: { count: 1, id: "mysticalagriculture:lead_essence" }
@@ -1955,6 +2218,15 @@
 		{
 			id: "7E1EEF5E7F216B49"
 			optional: true
+			rewards: [{
+				count: 3
+				id: "0D8BF792FFCA6C2E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B073303FC1FDB79"
 				item: { count: 1, id: "mysticalagriculture:zinc_essence" }
@@ -1966,6 +2238,14 @@
 		{
 			id: "4F8BA7C2B9064AFB"
 			optional: true
+			rewards: [{
+				id: "701010C7AEE44B88"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "54C7CC6187CF9AF3"
 				item: { count: 1, id: "mysticalagriculture:nickel_essence" }
@@ -1977,6 +2257,14 @@
 		{
 			id: "01C52B543E30F365"
 			optional: true
+			rewards: [{
+				id: "00A03BA779E38E7B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E4FB2EC1C4F0FE7"
 				item: { count: 1, id: "mysticalagriculture:lapis_lazuli_essence" }
@@ -1993,6 +2281,15 @@
 			dependency_requirement: "one_completed"
 			id: "42535B4BBB87AC3D"
 			optional: true
+			rewards: [{
+				count: 4
+				id: "5DDDAF84FA736D78"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "73466973F764B194"
 				item: { count: 1, id: "mysticalagriculture:diamond_essence" }
@@ -2005,6 +2302,15 @@
 			dependencies: ["038C26F86776F520"]
 			id: "013FC4C13A426EB1"
 			optional: true
+			rewards: [{
+				count: 4
+				id: "3AF6EC374990C217"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3509E3BF17596825"
 				item: { count: 1, id: "mysticalagriculture:emerald_essence" }
@@ -2017,6 +2323,14 @@
 			dependencies: ["038C26F86776F520"]
 			id: "2CDC1DACAC37E5EB"
 			optional: true
+			rewards: [{
+				id: "476E062C7A86699B"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A7D50CDEDC44CD9"
 				item: { count: 1, id: "mysticalagriculture:amethyst_essence" }
@@ -2028,6 +2342,14 @@
 		{
 			id: "40C4ECF69211C872"
 			optional: true
+			rewards: [{
+				id: "77A2110730A932DF"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6541E8335355B0F9"
 				item: { count: 1, id: "mysticalagriculture:osmium_essence" }
@@ -2040,6 +2362,15 @@
 			dependencies: ["7B65BEA50EBC983D"]
 			id: "4AFFA2E9FA61CC83"
 			optional: true
+			rewards: [{
+				count: 3
+				id: "4F412C5DC4174A9F"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DEFDDA65180710C"
 				item: { count: 1, id: "mysticalagriculture:nether_quartz_essence" }
@@ -2055,6 +2386,14 @@
 			}
 			id: "7B65BEA50EBC983D"
 			optional: true
+			rewards: [{
+				id: "6D61709A5E6C75DE"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7B3C68AC9FCC3DD2"
@@ -2081,6 +2420,15 @@
 		{
 			id: "75C7413F93325A3B"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "65490D9B020BC6F7"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5CF9E8911BD36308"
 				item: { count: 1, id: "mysticalagriculture:silver_essence" }
@@ -2092,6 +2440,14 @@
 		{
 			id: "053278F000CB8DB8"
 			optional: true
+			rewards: [{
+				id: "7684060464A20866"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "65AF27118BBBDC2B"
 				item: { count: 1, id: "mysticalagriculture:platinum_essence" }
@@ -2103,6 +2459,14 @@
 		{
 			id: "631BA261529E71CC"
 			optional: true
+			rewards: [{
+				id: "14C723250EAD0D14"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5260AF0EB036C2DD"
 				item: { count: 1, id: "mysticalagriculture:uranium_essence" }
@@ -2114,6 +2478,15 @@
 		{
 			id: "2C4584B4B17872BF"
 			optional: true
+			rewards: [{
+				count: 3
+				id: "7D3EB4CC1B2CD835"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F95D068D136547B"
 				item: { count: 1, id: "mysticalagriculture:aluminum_essence" }
@@ -2126,6 +2499,14 @@
 			dependencies: ["6DEB5453D8E3BD76"]
 			id: "58541CC7998332A3"
 			optional: true
+			rewards: [{
+				id: "0DE1F5215A32F0EB"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2635270864432510"
 				item: { count: 1, id: "mysticalagriculture:netherite_essence" }
@@ -2249,6 +2630,14 @@
 			}
 			id: "6DEB5453D8E3BD76"
 			optional: true
+			rewards: [{
+				id: "200870CD8F65B374"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "73D645978C2B7DD9"

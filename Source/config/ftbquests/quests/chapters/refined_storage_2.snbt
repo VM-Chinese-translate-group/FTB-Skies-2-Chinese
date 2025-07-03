@@ -389,7 +389,12 @@
 		}
 	]
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [{
+		id: "30FF79B49C758720"
+		linked_quest: "3B33C4D5A2D400D4"
+		x: -2.0d
+		y: 0.0d
+	}]
 	quests: [
 		{
 			icon: {
@@ -398,23 +403,18 @@
 			id: "1069575C4B5BCE39"
 			rewards: [
 				{
-					id: "7F6D3F019D56FAE0"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3A985D8B4C0DA28A"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "0C20BBDA3E414E84"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A985D8B4C0DA28A"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -423,6 +423,11 @@
 				{
 					id: "5B6983381A5C5459"
 					item: { count: 1, id: "refinedstorage:quartz_enriched_iron" }
+					type: "item"
+				}
+				{
+					id: "3BCDCDA7A609C9A6"
+					item: { count: 1, id: "megacells:sky_steel_ingot" }
 					type: "item"
 				}
 				{
@@ -442,9 +447,13 @@
 			id: "60C650264AA5525D"
 			rewards: [
 				{
-					id: "4CBDBEC0D91A99F9"
-					type: "xp"
-					xp: 25
+					count: 3
+					id: "04E083519A7D07C1"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -453,13 +462,10 @@
 					type: "loot"
 				}
 				{
-					count: 3
-					id: "04E083519A7D07C1"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+					id: "4CBDBEC0D91A99F9"
+					team_reward: false
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "hexagon"

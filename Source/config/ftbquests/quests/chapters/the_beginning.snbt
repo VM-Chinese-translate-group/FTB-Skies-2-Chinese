@@ -83,7 +83,7 @@
 			image: "minecraft:block/spruce_log_top"
 			rotation: 0.0d
 			width: 2.0d
-			x: -3.25d
+			x: -3.0d
 			y: 1.0d
 		}
 		{
@@ -108,7 +108,7 @@
 		{
 			id: "1A3286C0CF18BCB8"
 			linked_quest: "1F94DD493FE20C0B"
-			x: -5.0d
+			x: -4.5d
 			y: 3.0d
 		}
 		{
@@ -184,7 +184,8 @@
 			id: "3B6BEB5B9B49DC06"
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -316,6 +317,7 @@
 				}
 				{
 					id: "16990847C1BFC052"
+					team_reward: false
 					type: "xp"
 					xp: 5
 				}
@@ -502,7 +504,8 @@
 			}
 			id: "231BAC05D93088B2"
 			rewards: [{
-				command: "/puffish_skills points add @p puffish_skills:athletics 1"
+				command: "/puffish_skills points add @s puffish_skills:athletics 1"
+				feedback_message: "Athletic Skills Levelled Up"
 				icon: {
 					components: {
 						"ftbquests:icon": "minecraft:textures/mob_effect/speed.png"
@@ -576,7 +579,8 @@
 			id: "1E45E1137B022BA3"
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:melee 1"
+					command: "/puffish_skills points add @s puffish_skills:melee 1"
+					feedback_message: "Melee Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "minecraft:textures/mob_effect/strength.png"
@@ -590,7 +594,8 @@
 					type: "command"
 				}
 				{
-					command: "/puffish_skills points add @p puffish_skills:ranged 1"
+					command: "/puffish_skills points add @s puffish_skills:ranged 1"
+					feedback_message: "Ranged Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "relics:textures/gui/description/icons/arrow_quiver/arrow.png"
@@ -758,21 +763,21 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "7CFB90FE946A68CB"
-					item: {
-						count: 1
-						id: "minecraft:ender_eye"
-					}
-					random_bonus: 2
-					type: "item"
-				}
-				{
 					count: 3
 					id: "2408F33809877DC8"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
+					type: "item"
+				}
+				{
+					id: "7CFB90FE946A68CB"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					random_bonus: 2
 					type: "item"
 				}
 			]
@@ -831,7 +836,7 @@
 				item: { count: 1, id: "minecraft:chest" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: -0.5d
 		}
 		{
@@ -1441,24 +1446,15 @@
 				id: "minecraft:composter"
 			}
 			id: "776E4614E4DACC9D"
-			rewards: [
-				{
-					id: "50D93D7E554E2E3A"
-					item: {
-						count: 1
-						id: "transfer_labels:itemstack_insert_transfer_label"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "36D79BF53CB792A3"
+				item: {
+					count: 1
+					id: "pneumaticcraft:transfer_gadget"
 				}
-				{
-					id: "18D04303CD850FBA"
-					item: {
-						count: 1
-						id: "transfer_labels:itemstack_extract_transfer_label"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "10E00C0FA3EFC1EF"
@@ -1504,7 +1500,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.25d
+			x: -3.0d
 			y: 1.0d
 		}
 		{
@@ -1563,7 +1559,8 @@
 					type: "item"
 				}
 				{
-					command: "/puffish_skills points add @p puffish_skills:mining 1"
+					command: "/puffish_skills points add @s puffish_skills:mining 1"
+					feedback_message: "Mining Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "minecraft:textures/mob_effect/haste.png"
@@ -1571,6 +1568,7 @@
 						id: "ftbquests:custom_icon"
 					}
 					id: "6E39028F7E470FCF"
+					permission_level: 2
 					silent: true
 					team_reward: false
 					type: "command"
@@ -1643,7 +1641,7 @@
 				optional_task: true
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: -2.0d
 		}
 		{
@@ -1799,7 +1797,7 @@
 					type: "item"
 				}
 			]
-			x: -3.25d
+			x: -3.0d
 			y: 2.5d
 		}
 		{
@@ -1829,7 +1827,7 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
+			x: -4.5d
 			y: 0.5d
 		}
 		{
@@ -1859,7 +1857,7 @@
 				item: { count: 1, id: "minecraft:clay_ball" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: 2.0d
 		}
 		{
@@ -1936,8 +1934,8 @@
 					type: "item"
 				}
 			]
-			x: 3.75d
-			y: 3.25d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6CADA41796D0F7F9"]
@@ -2118,8 +2116,8 @@
 				item: { count: 1, id: "ftbstuff:stone_cobblestone_generator" }
 				type: "item"
 			}]
-			x: 1.25d
-			y: 3.75d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			icon: {
@@ -2176,13 +2174,13 @@
 		{
 			id: "5FCEA8229BB6955C"
 			shape: "hexagon"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				id: "38A4B41361B70325"
 				item: { count: 1, id: "enderio:grains_of_infinity" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -2210,8 +2208,8 @@
 				id: "2ADC1FF0AC128794"
 				type: "checkmark"
 			}]
-			x: -0.75d
-			y: -2.75d
+			x: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["219B014D60EF0DDD"]
@@ -2246,7 +2244,7 @@
 				item: { count: 1, id: "ghasts_update:dried_ghast" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: -3.5d
 		}
 		{
@@ -2267,7 +2265,7 @@
 				id: "645240ECCC87A5BD"
 				type: "checkmark"
 			}]
-			x: -1.5d
+			x: -4.0d
 			y: -3.5d
 		}
 		{
@@ -2299,8 +2297,8 @@
 					type: "custom"
 				}
 			]
-			x: -3.25d
-			y: -1.75d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["03837E8A75948DE5"]
@@ -2391,12 +2389,13 @@
 				stage: "no_infinity"
 				type: "gamestage"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "4077DAFE2A38D249"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: -3.0d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			icon: {

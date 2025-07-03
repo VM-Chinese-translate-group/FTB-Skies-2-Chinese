@@ -1257,7 +1257,7 @@
 			]
 			tasks: [{
 				id: "1E077548E9C8149C"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/lithium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { count: 1, id: "ftbmaterials:lithium_dust" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -1630,7 +1630,7 @@
 					id: "7CA1E1E974DED692"
 					item: {
 						count: 1
-						id: "mekanism:dust_sulfur"
+						id: "ftbmaterials:sulfur_dust"
 					}
 					random_bonus: 8
 					type: "item"
@@ -1651,7 +1651,7 @@
 				}
 				{
 					id: "702CFEE2BB765C7F"
-					item: { count: 1, id: "mekanism:dust_sulfur" }
+					item: { count: 1, id: "ftbmaterials:sulfur_dust" }
 					type: "item"
 				}
 			]
@@ -1959,10 +1959,23 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "48DC30FE8B5DEC6D"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					fluid: {
+						amount: 1000
+						id: "mekanism:lithium"
+					}
+					id: "751F371909719907"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "5C0008A7BF220942"
+					item: { count: 1, id: "mekanism:lithium_bucket" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 11.5d
 		}
@@ -2388,12 +2401,12 @@
 			tasks: [
 				{
 					id: "4C9B617FE734DCC7"
-					item: { count: 1, id: "mekanism:dust_sulfur" }
+					item: { count: 1, id: "ftbmaterials:sulfur_dust" }
 					type: "item"
 				}
 				{
 					id: "3D2E49C8976DA98B"
-					item: { count: 1, id: "mekanism:fluorite_gem" }
+					item: { count: 1, id: "ftbmaterials:fluorite_gem" }
 					type: "item"
 				}
 				{
