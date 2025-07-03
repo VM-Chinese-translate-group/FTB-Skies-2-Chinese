@@ -1,0 +1,473 @@
+{
+	"root_ranged_damage+5%": {
+		"title": "+5% Ranged Damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+
+	"ranged_damage+5%": {
+		"title": "+5% Ranged Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"ranged_damage+10%": {
+		"title": "+10% Ranged Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"ranged_damage+25%": {
+		"title": "+25% Ranged Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"ranged_damage+50%": {
+		"title": "+50% Ranged Damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.50,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"arrow_damage+5%": {
+		"title": "+5% Arrow Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_damage+10%": {
+		"title": "+10% Arrow Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_damage",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_damage+20%": {
+		"title": "+20% Arrow Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_damage",
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_damage+25%": {
+		"title": "+25% Arrow Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_damage",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_damage+50%": {
+		"title": "+50% Arrow Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_damage",
+					"value": 0.50,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_damage+100%": {
+		"title": "+100% Arrow Damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_damage",
+					"value": 1.00,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+
+	"arrow_velocity+10%": {
+		"title": "+10% Arrow Velocity",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_velocity",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_velocity+20%": {
+		"title": "+20% Arrow Velocity",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_velocity",
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_velocity+40%": {
+		"title": "+40% Arrow Velocity",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_velocity",
+					"value": 0.40,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_velocity+60%": {
+		"title": "+60% Arrow Velocity",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_velocity",
+					"value": 0.60,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_velocity+80%": {
+		"title": "+80% Arrow Velocity",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_velocity",
+					"value": 0.80,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_velocity+100%": {
+		"title": "+100% Arrow Velocity",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_velocity",
+					"value": 1.00,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"arrow_drawspeed+10%": {
+		"title": "+10% Draw Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:draw_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_drawspeed+20%": {
+		"title": "+20% Draw Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:draw_speed",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_drawspeed+40%": {
+		"title": "+40% Draw Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:draw_speed",
+					"value": 0.4,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_drawspeed+60%": {
+		"title": "+60% Draw Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:draw_speed",
+					"value": 0.6,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_drawspeed+80%": {
+		"title": "+80% Draw Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:draw_speed",
+					"value": 0.8,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_drawspeed+100%": {
+		"title": "+100% Draw Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:draw_speed",
+					"value": 1.0,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"unlocked_by_default": true,
+	"title": "Athletics",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "fargostalismans:soul_of_supersonic"
+		}
+	},
+	"background": {
+		"texture": "ftb:textures/misc/trial_chamber.png",
+		"width": 1920,
+		"height": 1080,
+		"position": "fill_height"
+	}
+}

@@ -1,0 +1,583 @@
+{
+	"root_movement_speed+5%": {
+		"title": "+5% Movement Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+
+	"movement_speed+2%": {
+		"title": "+2% Movement Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"movement_speed+5%": {
+		"title": "+5% Movement Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"movement_speed+25%": {
+		"title": "+25% Movement Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"movement_speed+50%": {
+		"title": "+50% Movement Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.50,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"movement_speed+100%": {
+		"title": "+100% Movement Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 1.00,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"dodge_chance+2%": {
+		"title": "+2% Dodge Chance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "absorption"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:dodge_chance",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"dodge_chance+5%": {
+		"title": "+5% Dodge Chance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "absorption"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:dodge_chance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"dodge_chance+10%": {
+		"title": "+10% Dodge Chance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "absorption"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:dodge_chance",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"dodge_chance+20%": {
+		"title": "+20% Dodge Chance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "absorption"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:dodge_chance",
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"reduced_falldamage-10%": {
+		"title": "-10% Damage From Falling",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slow_falling"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.feather",
+					"value": 0.10,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"reduced_falldamage-20%": {
+		"title": "-20% Damage From Falling",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slow_falling"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.feather",
+					"value": 0.20,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"reduced_falldamage-25%": {
+		"title": "-25% Damage From Falling",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slow_falling"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.feather",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"jump_height+1": {
+		"title": "+1 Jump Height",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.jump",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"jump_height+2": {
+		"title": "+2 Jump Height",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.jump",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"jump_height+3": {
+		"title": "+3 Jump Height",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.jump",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"sprint_speed+2%": {
+		"title": "5% Sprint Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "wind_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.sprinting_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"sprint_speed+5%": {
+		"title": "10% Sprint Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "wind_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.sprinting_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"sprint_speed+20%": {
+		"title": "20% Sprint Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "wind_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.sprinting_speed",
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"sprint_speed+25%": {
+		"title": "25% Sprint Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "wind_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.sprinting_speed",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"sprint_speed+50%": {
+		"title": "50% Sprint Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "wind_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.sprinting_speed",
+					"value": 0.50,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"sprint_speed+100%": {
+		"title": "100% Sprint Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "wind_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.sprinting_speed",
+					"value": 1.00,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"swim_speed+10%": {
+		"title": "10% Swim Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slowness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "neoforge:swim_speed",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"swim_speed+20%": {
+		"title": "20% Swim Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slowness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "neoforge:swim_speed",
+					"value": 0.20,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"swim_speed+25%": {
+		"title": "25% Swim Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slowness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "neoforge:swim_speed",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"swim_speed+50%": {
+		"title": "50% Swim Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slowness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "neoforge:swim_speed",
+					"value": 0.50,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"swim_speed+100%": {
+		"title": "100% Swim Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slowness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "neoforge:swim_speed",
+					"value": 1.00,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"scale+50%": {
+		"title": "Grow In Size",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "conduit_power"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.scale",
+					"value": 0.50,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+}

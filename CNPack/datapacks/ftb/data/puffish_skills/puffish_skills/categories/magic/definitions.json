@@ -1,0 +1,997 @@
+{
+	"root_ars_spell_damage+3": {
+		"title": "+3 Ars Nouveau Spell Power",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:hellfire"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 3.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"ars_spell_damage+1": {
+		"title": "+1 Ars Nouveau Spell Power",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:hellfire"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 1.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ars_spell_damage+3": {
+		"title": "+3 Ars Nouveau Spell Power",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:hellfire"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 3.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ars_spell_damage+5": {
+		"title": "+5 Ars Nouveau Spell Power",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:hellfire"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 5.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ars_spell_damage+10": {
+		"title": "+10 Ars Nouveau Spell Power",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:hellfire"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 10.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ars_spell_damage+25": {
+		"title": "+25 Ars Nouveau Spell Power",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:hellfire"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 25.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ars_spell_damage+50": {
+		"title": "+50 Ars Nouveau Spell Power",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:hellfire"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 50.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"ars_max_mana+10": {
+		"title": "+10 Max Mana",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:mana_shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 10.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ars_max_mana+25": {
+		"title": "+25 Max Mana",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:mana_shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 25.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ars_max_mana+50": {
+		"title": "+50 Max Mana",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:mana_shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 50.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ars_max_mana+100": {
+		"title": "+100 Max Mana",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:mana_shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 100.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ars_max_mana+200": {
+		"title": "+200 Max Mana",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:mana_shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 200.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"ars_mana_regen+3": {
+		"title": "+3 Mana Regen",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:mana_shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 3.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ars_mana_regen+5": {
+		"title": "+5 Mana Regen",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:mana_shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 5.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ars_mana_regen+10": {
+		"title": "+10 Mana Regen",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:mana_shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 10.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ars_mana_regen+25": {
+		"title": "+25 Mana Regen",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:mana_shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 25.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"ars_summon_power+5": {
+		"title": "+5 Summoning Power",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:enthralled"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+					"value": 5.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ars_summon_power+10": {
+		"title": "+10 Summoning Power",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:enthralled"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+					"value": 10.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ars_summon_power+25": {
+		"title": "+25 Summoning Power",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:enthralled"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+					"value": 25.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+
+	"root_iron_spell_damage+10%": {
+		"title": "+10% Iron's Spellbooks Spell Power",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:guided"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.10,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"iron_spell_damage+5%": {
+		"title": "+5% Iron's Spellbooks Spell Power",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:guided"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_spell_damage+10%": {
+		"title": "+10% Iron's Spellbooks Spell Power",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:guided"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_spell_damage+25%": {
+		"title": "+25% Iron's Spellbooks Spell Power",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:guided"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_spell_damage+50%": {
+		"title": "+50% Iron's Spellbooks Spell Power",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:guided"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.50,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_spell_damage+100%": {
+		"title": "+100% Iron's Spellbooks Spell Power",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:guided"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 1.0,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"iron_max_mana+10": {
+		"title": "+10 Max Mana",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:guided"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 10.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"iron_max_mana+25": {
+		"title": "+25 Max Mana",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:guided"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"iron_max_mana+50": {
+		"title": "+50 Max Mana",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:guided"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"iron_max_mana+100": {
+		"title": "+100 Max Mana",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:guided"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 100.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"iron_max_mana+200": {
+		"title": "+200 Max Mana",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:guided"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 200.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"iron_cast_speed+5%": {
+		"title": "+5% Faster Casting",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:static_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_cast_speed+10%": {
+		"title": "+10% Faster Casting",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:static_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_cast_speed+25%": {
+		"title": "+25% Faster Casting",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:static_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_cast_speed+50%": {
+		"title": "+50% Faster Casting",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "ars_elemental:static_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.50,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"iron_cooldown-5%": {
+		"title": "-5% Spell Cooldown",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_cooldown-10%": {
+		"title": "-10% Spell Cooldown",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_cooldown-25%": {
+		"title": "-25% Spell Cooldown",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_cooldown-50%": {
+		"title": "-50% Spell Cooldown",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.5,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"iron_mana_regen+5%": {
+		"title": "+5% Mana Regen",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:planar_sight"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_mana_regen+10%": {
+		"title": "+10% Mana Regen",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:planar_sight"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_mana_regen+25%": {
+		"title": "+25% Mana Regen",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:planar_sight"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_mana_regen+50%": {
+		"title": "+50% Mana Regen",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:planar_sight"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.50,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_mana_regen+100%": {
+		"title": "+100% Mana Regen",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:planar_sight"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 1.0,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"iron_summon_damage+5%": {
+		"title": "+5% Summon Damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:raise_dead_timer"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:summon_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_summon_damage+10%": {
+		"title": "+10% Summon Damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:raise_dead_timer"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:summon_damage",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_summon_damage+25%": {
+		"title": "+25% Summon Damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:raise_dead_timer"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:summon_damage",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_summon_damage+50%": {
+		"title": "+50% Summon Damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:raise_dead_timer"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:summon_damage",
+					"value": 0.50,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"iron_summon_damage+100%": {
+		"title": "+100% Summon Damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:raise_dead_timer"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:summon_damage",
+					"value": 1.00,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+}

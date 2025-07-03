@@ -1,0 +1,16 @@
+{
+  "unlocked_by_default": true,
+  "title": "Mining",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "diamond_pickaxe"
+    }
+  },
+  "background": {
+    "texture": "ftb:textures/quests/backgrounds/mining_background.png",
+    "width": 1920,
+    "height": 1080,
+    "position": "fill_height"
+  }
+}

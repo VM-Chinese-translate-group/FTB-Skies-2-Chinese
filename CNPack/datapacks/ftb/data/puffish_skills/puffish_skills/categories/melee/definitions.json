@@ -1,0 +1,443 @@
+{
+	"root_melee_damage+5%": {
+		"title": "+5% Melee Damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"melee_damage+3%": {
+		"title": "+3% Melee Damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+
+	"melee_damage+5%": {
+		"title": "+5% Melee Damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+
+	"melee_damage+10%": {
+		"title": "+10% Melee Damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"melee_damage+25%": {
+		"title": "+25% Melee Damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+
+
+	"attack_speed+5%": {
+		"title": "+5% Attack Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"attack_speed+10%": {
+		"title": "+10% Attack Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"attack_speed+25%": {
+		"title": "+25% Attack Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	
+	"attack_knockback+1": {
+		"title": "+1 Extra Knockback",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "wind_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_knockback",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"attack_knockback+2": {
+		"title": "+2 Extra Knockback",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "wind_charged"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_knockback",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+
+	"looting+1": {
+		"title": "+1 Extra Looting",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"attack_reach+1": {
+		"title": "+1 Extra Reach",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "glowing"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "player.entity_interaction_range",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+
+	"attack_reach+2": {
+		"title": "+2 Extra Reach",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "glowing"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "player.entity_interaction_range",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+
+	"attack_reach+3": {
+		"title": "+3 Extra Reach",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "glowing"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "player.entity_interaction_range",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+
+	"armor_pierce+5%": {
+		"title": "+5% Armor Pierce",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "weakness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:armor_shred",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"armor_pierce+10%": {
+		"title": "+10% Armor Pierce",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "weakness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:armor_shred",
+					"value": 0.10,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"armor_pierce+20%": {
+		"title": "+20% Armor Pierce",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "weakness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:armor_shred",
+					"value": 0.20,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+
+	"crit_chance+2%": {
+		"title": "+2% Crit Chance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "relics:stun"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"crit_chance+5%": {
+		"title": "+5% Crit Chance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "relics:stun"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"crit_chance+10%": {
+		"title": "+10% Crit Chance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "relics:stun"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"value": 0.10,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+
+	"life_steal+5%": {
+		"title": "+5% Life Steal",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:life_steal",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"life_steal+10%": {
+		"title": "+10% Life Steal",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:life_steal",
+					"value": 0.10,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+}

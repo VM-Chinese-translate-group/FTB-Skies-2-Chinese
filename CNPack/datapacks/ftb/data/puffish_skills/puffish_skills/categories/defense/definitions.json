@@ -1,0 +1,432 @@
+{
+	"root_maxhealth_+1": {
+		"title": "+1 Max Health",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"maxhealth_+1": {
+		"title": "+1 Max Health",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"maxhealth_+2": {
+		"title": "+2 Max Health",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"maxhealth_+3": {
+		"title": "+3 Max Health",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"maxhealth_+5": {
+		"title": "+5 Max Health",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"resistance_+5%": {
+		"title": "+5% Resistance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"resistance_+10%": {
+		"title": "+10% Resistance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"resistance_+25%": {
+		"title": "+25% Resistance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"stamina+5%": {
+		"title": "+5% Stamina",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"stamina+10%": {
+		"title": "+10% Stamina",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"stamina+25%": {
+		"title": "+25% Stamina",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"healing+5%": {
+		"title": "+5% Natural Healing",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"healing+10%": {
+		"title": "+10% Healing",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"healing+25%": {
+		"title": "+25% Healing",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"healing+50%": {
+		"title": "+50% Healing",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.50,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	
+	"knockback_resistance+10%": {
+		"title": "+10% Knockback Resistance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "absorption"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.knockback_resistance",
+					"value": 0.10,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"knockback_resistance+20%": {
+		"title": "+20% Knockback Resistance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "absorption"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.knockback_resistance",
+					"value": 0.20,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"knockback_resistance+25%": {
+		"title": "+25% Knockback Resistance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "absorption"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.knockback_resistance",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"base_armor+1": {
+		"title": "+1 Base Armor",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"base_armor+2": {
+		"title": "+2 Base Armor",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"base_armor+3": {
+		"title": "+3 Base Armor",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"base_armor+5": {
+		"title": "+5 Base Armor",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+}

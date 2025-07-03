@@ -1,0 +1,355 @@
+{
+	"root_ultimine_upgrade+1": {
+		"title": "Ultimine Upgrade: 32 Blocks",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stone_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbranks add @p ultimine_upgrade1"
+				}
+			}
+		]
+	},
+	"ultimine_upgrade+2": {
+		"title": "Ultimine Upgrade: 48 Blocks",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbranks add @p ultimine_upgrade2"
+				}
+			}
+		]
+	},
+	"ultimine_upgrade+3": {
+		"title": "Ultimine Upgrade: 64 Blocks",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbranks add @p ultimine_upgrade3"
+				}
+			}
+		]
+	},
+	"ultimine_upgrade+4": {
+		"title": "Ultimine Upgrade: 96 Blocks",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbranks add @p ultimine_upgrade4"
+				}
+			}
+		]
+	},
+	"ultimine_upgrade+5": {
+		"title": "Ultimine Upgrade: 128 Blocks",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbranks add @p ultimine_upgrade5"
+				}
+			}
+		]
+	},
+	
+	"fortune+1": {
+		"title": "+1 Fortune",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.fortune",
+					"value": 1.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"fortune+2": {
+		"title": "+1 Fortune",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.fortune",
+					"value": 2.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"fortune+3": {
+		"title": "+3 Fortune",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.fortune",
+					"value": 3.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"mining_speed+5%": {
+		"title": "+5% Mining Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mining_speed+10%": {
+		"title": "+10% Mining Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mining_speed+25%": {
+		"title": "+25% Mining Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.25,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mining_speed+50%": {
+		"title": "+50% Mining Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.50,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	
+	"block_reach+1": {
+		"title": "+1 Block Reach",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "weaving"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "player.block_interaction_range",
+					"value": 1.00,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	
+	"water_mining_speed+10%": {
+		"title": "+10% Mining Speed While Underwater",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "mining_fatigue"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "player.submerged_mining_speed",
+					"value": 0.10,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"water_mining_speed+25%": {
+		"title": "+25% Mining Speed While Underwater",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "mining_fatigue"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "player.submerged_mining_speed",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"water_mining_speed+50%": {
+		"title": "+50% Mining Speed While Underwater",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "mining_fatigue"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "player.submerged_mining_speed",
+					"value": 0.50,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+	
+}

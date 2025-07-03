@@ -1,0 +1,16 @@
+{
+	"unlocked_by_default": true,
+	"title": "Defense",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "shield"
+		}
+	},
+	"background": {
+		"texture": "ftb:textures/misc/dripstone_caves.png",
+		"width": 1920,
+		"height": 1080,
+		"position": "fill_height"
+	}
+}

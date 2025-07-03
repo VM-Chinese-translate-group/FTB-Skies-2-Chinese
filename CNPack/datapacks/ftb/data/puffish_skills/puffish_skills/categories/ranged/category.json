@@ -1,0 +1,16 @@
+{
+  "unlocked_by_default": true,
+  "title": "Ranged",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "bow"
+    }
+  },
+  "background": {
+    "texture": "ftb:textures/quests/backgrounds/ranged_background.png",
+    "width": 1920,
+    "height": 1080,
+    "position": "fill_height"
+  }
+}
