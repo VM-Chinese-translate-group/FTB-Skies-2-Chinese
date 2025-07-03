@@ -156,6 +156,7 @@
 	]
 	quest.013375F170CE6A2F.quest_subtitle: "附身五芒星：级别2"
 	quest.013375F170CE6A2F.title: "&c伊哈根奴役术"
+	quest.013FC4C13A426EB1.title: "&fEmerald Essence"
 	quest.016E959A387A1E03.quest_desc: ["[\"粉碎末地石能让你制作\", {\"text\": \"紫色粉笔\", \"color\": \"#9D7AD0\"}, \"，它是进行更高级\", {\"text\": \"仪式\", \"color\": \"aqua\"}, \"所需用到的下一级粉笔。\"]"]
 	quest.016E959A387A1E03.quest_subtitle: "灌注粉笔"
 	quest.016E959A387A1E03.title: "{\"text\": \"紫色粉笔\", \"color\": \"#9D7AD0\"}"
@@ -184,6 +185,7 @@
 		"- 4号槽位：分割线纹理"
 	]
 	quest.019C7CBC9B62C803.title: "&f镶框抽屉"
+	quest.01C52B543E30F365.title: "&fLapis Lazuli Essence"
 	quest.01D2CEAF59872C33.quest_desc: [
 		"&a宝石切割台&r可以升级&b宝石&r。"
 		""
@@ -221,6 +223,7 @@
 	]
 	quest.0219C9D8447C8936.title: "&2任意门投影仪"
 	quest.021C3C2A48069C7F.quest_subtitle: "将熔融的绿宝石倾倒在催化剂上"
+	quest.021C3C2A48069C7F.title: "&fBudding Emerald Geore"
 	quest.0224277CBEC1375E.quest_desc: [
 		"AE2有自己的能量单位，叫做&bAE&r。AE2的设备通常不支持其他模组的能量。"
 		""
@@ -341,6 +344,7 @@
 	quest.03569C25419223DC.title: "&f升级等级"
 	quest.03597EC99930955D.quest_desc: ["矿石生成这种资源来制造母岩"]
 	quest.03597EC99930955D.quest_subtitle: "将熔融的铂倒在催化剂上"
+	quest.03597EC99930955D.title: "&fBudding Platinum Geore"
 	quest.0361236BF20549B5.quest_desc: [
 		"A skeleton skull gives +1x base power and recharge speed"
 		""
@@ -391,7 +395,7 @@
 		"使用&e传说之眼&r或&e探险者指南针&r来定位并前往这些地方，可能会让你收获颇丰。"
 	]
 	quest.038C26F86776F520.quest_subtitle: "绿宝石与紫水晶"
-	quest.038C26F86776F520.title: "天空村庄材料"
+	quest.038C26F86776F520.title: "&fSky Village Materials"
 	quest.03BEFC2150D09E7A.quest_desc: [
 		"&d无线终端&r可在&3无线访问点&r的信号范围内远程访问你的存储网络。"
 		""
@@ -500,6 +504,7 @@
 	quest.05315396D48EE815.title: "&6乙烯"
 	quest.053278F000CB8DB8.quest_desc: ["要制作种子，矿石会首先生成这种资源"]
 	quest.053278F000CB8DB8.quest_subtitle: "矿石会产生这个"
+	quest.053278F000CB8DB8.title: "&fPlatinum Essence"
 	quest.0533C0C07AE600FD.quest_desc: [
 		"&e通用机械&r的&d裂变反应堆&r以裂变燃料和冷却剂为原料，并将其转化为&4核废料&r和&b热冷却液&r。"
 		""
@@ -585,6 +590,7 @@
 	]
 	quest.05A6946A5AF26684.title: "&f红石控制"
 	quest.05A727E11657DA51.quest_subtitle: "筛选玄武岩或进行提取！"
+	quest.05A727E11657DA51.title: "&fCrushed Netherrack"
 	quest.05ACCA23B0F13E0A.quest_desc: ["&a油菜压榨机&r可以将&a油菜&r压榨成&a菜籽油&r，菜籽油处理后就是&a精制菜籽油&r。"]
 	quest.05ACCA23B0F13E0A.title: "&a油菜压榨机"
 	quest.05C37B2A26DF8F2C.quest_subtitle: "可合成"
@@ -759,7 +765,7 @@
 	]
 	quest.07E089F01484D9C7.title: "&a材料&f分级"
 	quest.07FFA633237BB905.quest_desc: [
-		"&d白天护符&r在白天时增加5%的伤害。"
+		"&d白天护符&r在白天时增加5%伤害。"
 		""
 		"它还用于制作&b环境力量&r。"
 	]
@@ -810,6 +816,7 @@
 	quest.082DD19BC652E4FF.title: "&d工厂仪表"
 	quest.082F7B17CA57C1F7.quest_desc: ["&a红宝石&r可以通过&b手动开采矿石&r获得，或者偶尔通过与使用&e珠宝加工台&r作为工作地点的村民进行交易升级来获取。"]
 	quest.082F7B17CA57C1F7.quest_subtitle: "在催化剂上使用红宝石"
+	quest.082F7B17CA57C1F7.title: "&fBudding Ruby Geore"
 	quest.083990CE5CA6E313.quest_desc: [
 		"你可以用&a元件工作台&r给AE存储元件进行设定，例如你想让它可以存储什么物品。"
 		""
@@ -866,6 +873,7 @@
 		"同样值得一提的是，绯红森林中的&e疣猪兽&r会掉落所谓的&c疣猪皮&r。这种材料可以用来制作一些更强的法术书及相关物品。"
 	]
 	quest.08766B8721B4E541.title: "&c下界&f奇妙之旅"
+	quest.087ACAF5A47079FB.title: "&fCoal Essence"
 	quest.087D1FBAE8A425C0.quest_desc: [
 		"你可以用传送核心的力量构建&d传送门&r！不仅可以在基地周围快速移动，甚至可以跨维度传送！"
 		""
@@ -882,16 +890,19 @@
 	quest.087D1FBAE8A425C0.title: "&f搭建&d传送门&r！"
 	quest.08904FDA836C003B.quest_desc: ["钻石筛网可以堪称为一种万能的网具，我推荐用它筛取钻石，以便制作更多！"]
 	quest.08904FDA836C003B.quest_subtitle: "如何向地质学家求婚"
+	quest.08904FDA836C003B.title: "&fMechanical Diamond Mesh"
+	quest.08A966CE036BC9D1.title: "&fBudding Ancient Debris Geore"
 	quest.08BEE8CFBAF691DA.quest_desc: [
 		"&a玄武岩&r可以通过常规的、虽然有点复杂的原版方式获取。"
 		""
 		"&c熔岩&r流到&6灵魂土&r上时，如果同时接触到&3蓝冰&r，就会变成玄武岩，类似于生成圆石的过程。"
 		""
-		"Blue ice can be tricky to obtain, but by pumping water into an automated &eTempered Jar&r settled over a source of &bchilling temperature&r, you can build up plenty of ice to compress."
+		"蓝冰获取起来有些棘手，但通过将水注入进一个放在&b寒冷温度&r源上方的自动化&e钢化玻璃罐&r中，便能积攒大量冰块用于压缩合成。"
 		""
 		"&7Try placing water in a cold biome or high altitude to freeze."
 	]
 	quest.08BEE8CFBAF691DA.quest_subtitle: "粉碎玄武岩！"
+	quest.08BEE8CFBAF691DA.title: "&fCrushed Basalt"
 	quest.08D03AA0E1D218F7.quest_subtitle: "自然套装"
 	quest.08D03AA0E1D218F7.title: "&7瘟疫术士套装"
 	quest.08E4BC23ACDC52EA.quest_desc: [
@@ -1117,7 +1128,7 @@
 	]
 	quest.0A9CA5D70C2FD76F.title: "&a灌注室"
 	quest.0AA1977AC1B5E5A9.quest_desc: [
-		"铁砧用来修复一般的装备非常合适，但用来修理魔法物品却会有非常昂贵的消耗，甚至可能无法修复。但只要有了&a修复基柱&r，你就可以用&e精魂坩埚&r来把精魂和修复材料集聚到装备上。无论是已经与&b特定种类的魔法&r相关联的装备，还是普通的装备，都可以修复。"
+		"Anvils are all well and good for repairing mundane gear, but magical goods can be much more expensive or even impossible to repair in this manner. With a &aRepair Pylon&r, the &eSpirit Crucible&r is able to focus spirits and a repair material into a piece of gear, so long as it already has ties to &bcertain magics&r or is totally mundane."
 		""
 		"此外，这也是唯一一种能够修复&e碎裂促符&r的方法。"
 	]
@@ -1179,6 +1190,7 @@
 	quest.0AF5992D0DF57313.title: "&6四阶矿物处理产线&r"
 	quest.0AF5AB8F0D7DB4B7.quest_desc: ["&aKivi&r can easily be obtained by dripping lava onto a &eVoid Crystal Catalyst&r, and then generated using an &eExtractor&r."]
 	quest.0AF5AB8F0D7DB4B7.quest_subtitle: "捣碎奇异果！"
+	quest.0AF5AB8F0D7DB4B7.title: "&fCrushed Kivi"
 	quest.0B1C26C45144306A.quest_desc: [
 		"钓鱼获取精华的收益远超预期！这些精华可以转化成推动进程所需的资源。将它们与下级精华和活化种子结合，就能培育出生长这些精华的作物！"
 		""
@@ -1242,7 +1254,7 @@
 	quest.0B89C5C624AD9686.quest_desc: ["&2电磁偏振器&r可以将许多物品磁化，它最主要的用处就是制作&a磁化钢杆&r。"]
 	quest.0B89C5C624AD9686.title: "&2电磁偏振器"
 	quest.0B8D5E01DAE9AD6C.quest_desc: [
-		"&d雪天护符&r在雪暴时增加20%的伤害。"
+		"&d雪天护符&r在雪暴时增加20%伤害。"
 		""
 		"它还用于制作&b环境力量&r。"
 	]
@@ -1593,7 +1605,7 @@
 	quest.0F8037316FBF818A.quest_desc: ["&e苯乙烯-丁二烯&r是用来做&7丁苯橡胶&r的。"]
 	quest.0F8037316FBF818A.title: "&e苯乙烯-丁二烯"
 	quest.0FA7ECE8C07ADAB1.quest_desc: [
-		"&d枯萎的护符&r在玩家受到凋零效果影响时增加25%的伤害"
+		"&d枯萎的护符&r在玩家受到凋零效果影响时增加25%伤害"
 		""
 		"它还用于制作&b负面力量&r。"
 	]
@@ -1665,7 +1677,7 @@
 	quest.1069575C4B5BCE39.quest_desc: [
 		"&e精致存储2&r（简称&eRS2&r）是一个大型物品存储模组。它提供了一个基于网络的存储系统，让你可以在一个可扩展的设备网络中集中存储物品、流体和气体。"
 		""
-		"先合成一些&a机械外壳&r，以后有很多网络组件都需要用到它。"
+		"Before crafting your first &aMachine Core&r, which is used for many network components, you'll need to obtain Sky Steel Ingots. Check the attached quest to see how that can be done."
 	]
 	quest.1069575C4B5BCE39.title: "&f欢迎来到&e精致存储2"
 	quest.107C26E8BF309BC1.quest_desc: [
@@ -1675,9 +1687,7 @@
 		"{@pagebreak}"
 		"也许你还会找到一些&a空白符文&r，用它可以合成各种&2符文&r。符文可以制造该模组最强大的装备。杀死巫师类敌怪后，你也有概率得到&a符文&r。"
 		""
-		"你在Y轴-38以下挖矿的时候，有可能碰上&b秘银&r。秘银矿石只会在石头中出现，不会裸露在外，且只能用下界合金镐才能挖掘。"
-		""
-		"&b秘银&r是一种传说中的金属，你无法在这茫茫虚空中正常获得它——或者说无法用所谓的“正常”手段获得它。也许有什么魔法手段能把它生产出来…"
+		"&bMithril&r is a legendary metal not obtainable through usual methods in the void, or at least what passes for usual. Perhaps some magical source could provide it, some sort of gate..."
 	]
 	quest.107C26E8BF309BC1.title: "&f奥术战利品"
 	quest.109CB437DFAECDC6.quest_desc: [
@@ -1849,6 +1859,7 @@
 	quest.12468F8BF7B80737.title: "&2探索永无边界！"
 	quest.12498DE8D427D40E.quest_desc: ["下界要塞中会大量生成烈焰人和凋灵骷髅，既能产出关键资源，还能收获不少战利品。"]
 	quest.12498DE8D427D40E.title: "&f找到&c下界要塞"
+	quest.12506117C5C46682.title: "&bBlack Quartz"
 	quest.125A4B95A5D21B04.title: "&e工业先锋Tier1插件奖励包"
 	quest.12662BF53A31F0B4.quest_desc: [
 		"不想让别的玩家乱动你的东西？做个&a驱逐塔&r！"
@@ -1865,7 +1876,7 @@
 	quest.126B4E4814DADCC8.quest_desc: [
 		"&a矿工透镜&r可以在激光照射处生成矿石。"
 		""
-		"When the laser hits a block of stone or deepslate, it will convert it into overworld ores, and when it hits a block of netherrack it will be converted into nether ores."
+		"当激光击中石头或深板岩时，它将会转化为主世界矿石，而当它击中下界岩时，它将会转化为下界矿石。"
 	]
 	quest.126B4E4814DADCC8.title: "&a矿工透镜"
 	quest.1277CECF9C633D8B.quest_desc: [
@@ -1882,6 +1893,7 @@
 		"用它可以做出前期最棒的挖矿工具！"
 	]
 	quest.12B8D538B54497E2.title: "&f又要锻造了"
+	quest.12C1810996C15294.title: "&fIron Essence"
 	quest.12CB62610FEAADA0.quest_desc: ["消耗龙息发电。"]
 	quest.12CB62610FEAADA0.title: "&f菌丝网络口臭发电机"
 	quest.131199313AE3F5E9.quest_desc: ["&a电力熔炼炉&r使用能量烧炼东西，不过它可以进行升级！"]
@@ -1963,6 +1975,7 @@
 	quest.13AEA5AF8009472C.title: "&f速度升级"
 	quest.13C8B2286F5184C7.quest_desc: ["手持充能过的&3传送权杖&r将会把你传送到光标处，最大距离是100格方块。"]
 	quest.13C8B2286F5184C7.title: "&3传送权杖"
+	quest.13CBFF5DAD6A1FA1.title: "&fBlaze Powder"
 	quest.13D6C551C8DBC124.quest_desc: [
 		"一位魔法师要是没有自己搞学问的魔法桌子，怎么潜心钻研魔法？魔法桌子需要用魔法森林中的魔法木头制作。"
 		""
@@ -2098,6 +2111,7 @@
 	quest.1514FAC5930B55D2.title: "&c能量章节"
 	quest.1536AFFBBB6D858A.quest_desc: ["&aTopaz&r can only be found rarely from leveling trades with a villager that's using a &eJewelcrafting Station&r as their job site."]
 	quest.1536AFFBBB6D858A.quest_subtitle: "Use Topaz on a Catalyst"
+	quest.1536AFFBBB6D858A.title: "&fBudding Topaz Geore"
 	quest.154E08BC9091684F.quest_desc: [
 		"&e荧石粉&r可以增强效果强度。"
 		""
@@ -2223,7 +2237,7 @@
 	quest.16D89D5036F39756.quest_desc: [
 		"&e灵灾&r是一个围绕着灵魂的自然层面和精神层面展开的模组。这个模组将通过这些元素来为你和你所处的世界带来各种奥术影响！"
 		""
-		"这个模组仍在积极更新中，其中最新的更新带来了一个新的系统，能让玩家通过签订契约来获得能力。"
+		"This mod is still in active development, with the most recent addition being a system of pacts for players to accept in exchange for abilities."
 		""
 		"要想在这个模组里起步，你需要找到或自己做出&d灵魂石&r，才能造出这个模组里最基本的两个物品：精魂祭坛，以及粗制镰刀。"
 		""
@@ -2351,9 +2365,9 @@
 	]
 	quest.18913114C6D06E74.title: "&aEasy Villagers"
 	quest.189DE52ADD270985.quest_desc: [
-		"Lenses are placed on an &eAtomic Reconstructor&r to change its functionality."
+		"将透镜放在&e原子再构机&r上以更改其功能。"
 		""
-		"The basic &aLens&r is only used as a crafting material for other lenses."
+		"基础&a透镜&r仅为其他透镜的制作材料。"
 	]
 	quest.189DE52ADD270985.title: "&a透镜"
 	quest.18AD721D008B8FFE.quest_desc: [
@@ -2401,6 +2415,7 @@
 		"When using a &dGenetically Modified Cell&r instead of a regular &aCell&r, it will reveal a stronger &bDNA Helix&r genetic for that specific mob."
 	]
 	quest.190616DB4087BDE9.title: "&2DNA提取器"
+	quest.19512B784164186D.title: "&fLead Chunk"
 	quest.1953C2127633B6D7.quest_desc: [
 		"&d无线通用终端&r可以一个顶许多类别的终端用。"
 		""
@@ -2450,17 +2465,17 @@
 	]
 	quest.19BD1DF4EFF584A6.title: "&c烈焰金锄"
 	quest.19EC021D1722EFC1.quest_desc: [
-		"The &dFired Talisman&r increases damage by 25% while the player is on fire."
+		"&d燃烧的护符&r在玩家着火时增加25%伤害。"
 		""
 		"它还用于制作&b负面力量&r。"
 	]
 	quest.19EC021D1722EFC1.title: "&d燃烧的护符（着火护身符）"
-	quest.19EE1C45669E7132.quest_desc: ["The &7Pickaxe Talisman&r doubles mining speed."]
+	quest.19EE1C45669E7132.quest_desc: ["&7镐护身符&r可以将挖掘速度翻倍。"]
 	quest.19EE1C45669E7132.title: "&7镐护身符"
 	quest.19FB0270DFB28E04.quest_desc: [
-		"The &dWitch Talisman&r makes witches throw potions with positive effects at the player."
+		"&d女巫护身符&r可以使女巫向玩家投掷具有增益效果的药水。"
 		""
-		"It is also used to craft the &bForce of Mystic&r."
+		"它还用于制作&b神秘力量&r。"
 	]
 	quest.19FB0270DFB28E04.title: "&d女巫护身符"
 	quest.1A1161EF6276767F.quest_desc: [
@@ -2555,6 +2570,7 @@
 	]
 	quest.1ABA5F2ECAA6D9D2.title: "&e通用机械"
 	quest.1ADCEE9410309CAB.quest_subtitle: "Pour Molten Amethyst over a Catalyst"
+	quest.1ADCEE9410309CAB.title: "&fBudding Amethyst"
 	quest.1ADE323F448DCF12.quest_desc: [
 		"在基地内的箱子里到处放这些&a位置卡&r，是一件非常痛苦的事情。"
 		""
@@ -2699,7 +2715,7 @@
 	quest.1C044AAAA1306C6F.title: "&d使魔&f的床"
 	quest.1C276A8E48C36F56.title: "&b铜升级"
 	quest.1C3D395850C1C4A4.quest_desc: [
-		"The &dWeakened Talisman&r increases damage by 25% while the player is affected by weakness."
+		"&d虚弱的护符&r在玩家受到虚弱效果影响时增加25%伤害。"
 		""
 		"它还用于制作&b负面力量&r。"
 	]
@@ -2719,6 +2735,7 @@
 	quest.1C3DFCB335276952.title: "&f想试试看&d核反应堆&f吗？"
 	quest.1C4D453BC0276A08.title: "&a奶奶的味道"
 	quest.1C62ECB8EDF694BB.quest_subtitle: "砸碎沙子！"
+	quest.1C62ECB8EDF694BB.title: "&fDust"
 	quest.1C65FB6D312F1287.quest_subtitle: "物品管道"
 	quest.1C65FB6D312F1287.title: "{\"text\": \"Basic Logistical Transporter\", \"color\": \"#5EFCB6\"}"
 	quest.1C696E4A9A6F90BE.quest_desc: ["你还未做好准备。"]
@@ -2854,6 +2871,7 @@
 	quest.1D410DFB7EFEE4CE.title: "&a咖啡豆"
 	quest.1D572D53A6EE3205.quest_desc: ["在&2采石场&r中挖出&a铂矿石&r后，把它粉碎变为&b粗铂&r。"]
 	quest.1D572D53A6EE3205.title: "&d粗铂"
+	quest.1D6D9CCF4E0072E1.title: "&fGold Chunk"
 	quest.1D846D3D48C87FC4.title: "&bAE2总线奖励包"
 	quest.1DA78BAB2A6E2C82.quest_desc: [
 		"对于模组老手而言，&e末影接口&r因其令人惊叹的管道而留下了美好的回忆，它们被称为&d导管&r。"
@@ -2971,9 +2989,9 @@
 	quest.1EE339A0DCABD78E.quest_subtitle: "并不会让猪灵对你保持中立"
 	quest.1EE339A0DCABD78E.title: "&6光明使者胸甲"
 	quest.1EFED5AC265CDB0C.quest_desc: [
-		"Before having a &aMetal Press&r, you will need to craft plates by processing ingots with a &eForge Hammer&r or &eCreate Press&r."
+		"在建造&a金属冲压机&r前，你需要使用&a工程师锤&r或&e动力冲压机&r制作金属板。"
 		""
-		"To craft wires, place a plate in a &eStonecutter&r in the same way and later in specialized machines which will provide a higher yield."
+		"要制作线材，请将金属板放入&e切石机&r中，然后再放入专门的机器中，这会提供更高的产量。"
 	]
 	quest.1EFED5AC265CDB0C.title: "&f金属板和线"
 	quest.1F09A28387DA18A6.quest_desc: [
@@ -3012,6 +3030,7 @@
 		"&5量子机器外壳&r和别的机器外壳一样，可以把你的机器升级到对应等级！"
 	]
 	quest.1F3C96D0DAC4F080.title: "&5量子机器框架"
+	quest.1F4E326DA743674D.title: "&fMenril Sapling"
 	quest.1F60FA812127821E.quest_desc: ["&2电动打包机&r可以用来进行许多重要的配方，比如制作&eAE2&r的各种电路板。"]
 	quest.1F60FA812127821E.title: "&2打包时间到！"
 	quest.1F6870BC630E1581.quest_desc: ["&6再结晶器&r可以将你的&b宝石&r组合起来，然后做出你的自定义宝石！"]
@@ -3114,6 +3133,7 @@
 		"这是繁殖钻石蜜蜂的必经之路。"
 	]
 	quest.207CED1C925F85C4.title: "&9青金石蜜蜂"
+	quest.2084A6104747D903.title: "&fDirty Netherite Scrap"
 	quest.208A53545D649C8D.quest_desc: [
 		"该模组的机器可以用&a机器升级&r来升级！"
 		""
@@ -3140,6 +3160,7 @@
 	quest.20DCC194EED4395B.title: "&c惊悚南瓜套装"
 	quest.20F74AEE28351167.quest_desc: ["&aSapphires&r can be found by &bmanually generating ores&r or rarely from leveling trades with a villager that's using a &eJewelcrafting Station&r as their job site."]
 	quest.20F74AEE28351167.quest_subtitle: "Use Sapphire on a Catalyst"
+	quest.20F74AEE28351167.title: "&fBudding Sapphire Geore"
 	quest.210833F817D7AF9E.quest_desc: ["&6下界合金自动合成仓&r有81个&a样板&r槽位，基础工作速度相当于满速度升级的&d钻石自动合成仓&r。"]
 	quest.210833F817D7AF9E.title: "&6下界合金自动合成仓"
 	quest.210E56AC8F66C19E.quest_desc: [
@@ -3174,7 +3195,7 @@
 	]
 	quest.2160C6D61B76C8FE.title: "&e魔法存储"
 	quest.21672A342A11A0DE.quest_desc: [
-		"The &7Zombie Talisman&r boosts attack speed for the next 3 hits after not attacking for at least 5 seconds."
+		"&7僵尸护身符&r在至少5秒未攻击后，提高接下来3次攻击的攻击速度。"
 		""
 		"它还用于制作&b排斥者力量&r。"
 	]
@@ -3200,11 +3221,12 @@
 	]
 	quest.21723F4B52A69BE9.title: "&f无人机港"
 	quest.2173412A2D676009.quest_desc: [
-		"The &dFull Moon Talisman&r increases player damage by 15% during a full moon."
+		"&d满月护符&r在满月时增加15%伤害。"
 		""
-		"It is also used to craft the &bForce of Environment&r."
+		"它还用于制作&b环境力量&r。"
 	]
 	quest.2173412A2D676009.title: "&d满月护符（满月护身符）"
+	quest.217D720A52277579.title: "&fBauxite Dust"
 	quest.219B014D60EF0DDD.quest_desc: [
 		"&7&o你听到了沙沙声，叮当声，一个……声音？"
 		""
@@ -3266,6 +3288,7 @@
 	quest.22B223553DE205D6.title: "&3动力搅拌器"
 	quest.22B83D03C6C3E61E.quest_desc: ["提升运作速度，但是会减少能量使用效率。"]
 	quest.22B83D03C6C3E61E.title: "&f速度升级插件"
+	quest.22D894556A026817.title: "&fRedstone Essence"
 	quest.22F07FB51C5DE600.quest_desc: [
 		"如果想要增产的话，&d精准采集&r是最重要的附魔：用精准采集挖下来的原矿方块可以产出更多产物。"
 		""
@@ -3342,9 +3365,9 @@
 	quest.23671BD388852F62.quest_desc: ["消耗&b生物燃油&r发电。"]
 	quest.23671BD388852F62.title: "&f生物燃油发电机"
 	quest.2369D81BC32A5982.quest_desc: [
-		"The &aVampire Talisman&r heals the player for 20% of damage dealt to mobs."
+		"&a吸血鬼护身符&r治愈玩家相当于造成伤害20%的生命值。"
 		""
-		"It is also used to craft the &bForce of Mystic&r."
+		"它还用于制作&b神秘力量&r。"
 	]
 	quest.2369D81BC32A5982.title: "&a吸血鬼护身符"
 	quest.237E58A9DE4CA9F8.quest_desc: [
@@ -3374,7 +3397,7 @@
 	quest.23B06AB674CC7193.quest_subtitle: "绑定五芒星：级别3"
 	quest.23B06AB674CC7193.title: "&d赛维拉永囚咒"
 	quest.23B63CC05AA3EAAB.quest_desc: [
-		"The &aDragon Talisman&r provides immunity to direct and indirect magic damage."
+		"&a龙护身符&r使玩家免疫直接和非直接魔法伤害。"
 		""
 		"它还用于制作&b排斥者力量&r。"
 	]
@@ -3491,11 +3514,11 @@
 	quest.24952389F0C8B0B1.quest_desc: ["召唤能带来闪电的风暴召唤师！在你需要利用闪电来合成物品的时候非常有用！"]
 	quest.24952389F0C8B0B1.title: "&d风暴召唤师"
 	quest.24A60877D5FAD4A5.quest_desc: [
-		"The &dForce of Explorer&r provides all effects of the talisman used to craft it:"
+		"&d探险者力量&r提供用于制作它的护身符的所有效果："
 		""
 		"It increases block reach by 59 blocks, prevents phantom and enderman aggression, provides immunity to freezing damage, and applies the glowing effect to mobs within a 12-block radius."
 		""
-		"It is also used to craft the &3Soul of Minecraft&r."
+		"它还用于制作&3Minecraft之魂&r。"
 	]
 	quest.24A60877D5FAD4A5.title: "&d探险者力量（探险家之力）"
 	quest.24CE908ED60FD514.quest_desc: [
@@ -3526,13 +3549,13 @@
 	]
 	quest.24F17FA24ED466FA.title: "{\"text\": \"Basic Fluid Tank\", \"color\": \"#5EFCB6\"}"
 	quest.24F275DFF6D07418.quest_subtitle: "Use Light Grey Dye on a Catalyst"
+	quest.24F275DFF6D07418.title: "&fBudding Tin Geore"
 	quest.25023C87AA259688.quest_desc: ["虽然这可能不是最坚固的盔甲，但当你穿上全套&3纸板&r套装时，&3纸板盔甲&r会为你提供酷炫的潜行效果。"]
 	quest.25023C87AA259688.quest_subtitle: "偷偷摸摸"
 	quest.25023C87AA259688.title: "&3纸板盔甲"
-	quest.2508682D56B9950D.quest_subtitle: "传输物品"
-	quest.2508682D56B9950D.title: "§f物品传输标贴"
 	quest.250EAE6FF7C67284.quest_desc: ["矿石生成这种资源来制造母岩"]
 	quest.250EAE6FF7C67284.quest_subtitle: "Pour Molten Uranium over a Catalyst"
+	quest.250EAE6FF7C67284.title: "&fBudding Uranium Geore"
 	quest.253FA29ADE459464.quest_desc: [
 		"有了营火，就有可能通过处理让玻璃和铁来承受更高的温度。"
 		""
@@ -3802,9 +3825,9 @@
 	quest.27E0738B56C6ED8C.quest_desc: ["将&7魔精&r绑定到背包上可以显著增加其存储容量，使其成为旅行的好伙伴。"]
 	quest.27E0738B56C6ED8C.title: "&a意外结实的挎包"
 	quest.27E867855AC60BF0.quest_desc: [
-		"The &aAdvanced Talisman Base&r is an improved version of the &7Normal Talisman Base&r."
+		"&a高级护符底座&r是&7普通护符底座&r的升级。"
 		""
-		"It allows you to craft tier 2 talismans, and can be upgraded into the &dEpic Talisman Base&r."
+		"你可以使用它制作二级护身符，也可以将其升级为&d史诗护符底座&r。"
 	]
 	quest.27E867855AC60BF0.title: "&a高级护符底座（高级护符基板）"
 	quest.27EA4B653A952968.quest_desc: [
@@ -3814,6 +3837,7 @@
 		"&7This process is far more complicated, but still possible without an ore generator."
 	]
 	quest.27EA4B653A952968.quest_subtitle: "Pour Molten Osmium over a Catalyst, or..."
+	quest.27EA4B653A952968.title: "&fBudding Osmium Geore"
 	quest.282692A786304653.title: "&d黄铜板"
 	quest.282953A521BACF41.quest_desc: [
 		"&aSilver&r can be a tricky precious resource to find, and you may need to resort to a general purpose ore generator to get your hands on some."
@@ -3821,11 +3845,12 @@
 		"There is rumor of some odd methods however, transmuting gold through some &dspiritual power&r, or through converting aluminum with &6goo&r..."
 	]
 	quest.282953A521BACF41.quest_subtitle: "Pour Molten Silver over a Catalyst, or..."
+	quest.282953A521BACF41.title: "&fBudding Silver Geore"
 	quest.2829F5B836301246.title: "&e加速卡"
 	quest.283EA4E7BA93DA11.quest_desc: [
 		"&a充能台&r可以消耗周围的物品，用它们的力量充能你的水晶。"
 		""
-		"You'll need to set up each &aDisplay Stand&r three blocks away (two block gap) on each side of the &aEmpowerer&r."
+		"您需要在&a充能台&r的每一侧第三个方块处（两个方块间隙）放置&a物品展示台&r 。"
 		""
 		"&a物品展示台&r上的物品位置都无所谓，你只需要给它们充能即可。"
 	]
@@ -3904,6 +3929,7 @@
 	quest.294FEC9B0B58EFDC.title: "&f切换护身符效果"
 	quest.296C424C7D2C7589.quest_subtitle: "气体/化学品管道"
 	quest.296C424C7D2C7589.title: "{\"text\": \"Basic Pressurized Tube\", \"color\": \"#5EFCB6\"}"
+	quest.297EAB81A2EC051F.title: "&fProsperity Shard"
 	quest.298BFB73F3B2E3D5.quest_desc: [
 		"&a电池&r很适合便携存储能量，无论是有线还是无线都能给它充能。"
 		""
@@ -4057,15 +4083,17 @@
 		"这种注魔水晶可以无限使用！"
 	]
 	quest.2AF9753B396F7625.title: "&d终极注魔水晶"
+	quest.2AFB466982F0D9CE.quest_desc: [
+		"[\"See its \", {\"text\": \"quest\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6A22BBE9C146E910\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Electric Quarry Quest\"]} }, \" for more details.\"]"
+		""
+		"This is the second tier of quarry from Modern Industrialization. The steam tier doesn't offer much outside of basic Path resources."
+	]
 	quest.2AFB466982F0D9CE.quest_subtitle: "General purpose ore generation"
+	quest.2AFB466982F0D9CE.title: "&fElectric Quarry"
 	quest.2B02D9425E19F560.quest_desc: [
 		"发现有些功能不太对劲？"
 		""
-		"希望你们可以在Discord上告诉我们，或者在Github上发个bug报告，这样我们就能找到bug然后将它修复。"
-		""
-		"[\"\",{\"text\":\"访问我们的Discord频道！\",\"color\":\"#55FFFF\",\"bold\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.com/invite/X5UGvBs\"}}]"
-		""
-		"[\"\",{\"text\":\"或者来Github上告诉我们也行！\",\"color\":\"#FF55FF\",\"bold\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/FTBTeam/FTB-Modpack-Issues/issues\"}}]"
+		"[\"We'd love to know so we can fix it! You can stop by to let us know on \", {\"text\": \"Discord\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://discord.com/invite/X5UGvBs\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Open the Discord invite\"]} }, \" or by making a bug report on \", {\"text\": \"GitHub\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://github.com/FTBTeam/FTB-Modpack-Issues/issues\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Open the Github link\"]} }, \".\"]"
 	]
 	quest.2B02D9425E19F560.title: "&f发现了Bug？"
 	quest.2B0CFC423CE66AAE.quest_desc: [
@@ -4183,6 +4211,7 @@
 		"&7这个过程稍微复杂一些，但即使没有矿石生成器也能完成。"
 	]
 	quest.2C4584B4B17872BF.quest_subtitle: "Ore generate this, or..."
+	quest.2C4584B4B17872BF.title: "&fAluminum Essence"
 	quest.2C55C6EBABA86BA8.quest_desc: ["This &2Simple Block Breaker&r is bound and determined to use its tool to break the block in front of it. Even if the tool is a stick and the block is obsidian. It'll get there."]
 	quest.2C55C6EBABA86BA8.quest_subtitle: "There's a block here and I don't like it"
 	quest.2C55C6EBABA86BA8.title: "&f初级方块破坏器"
@@ -4225,8 +4254,9 @@
 		"它可以让掉落作物直接传送到锄头绑定的存储方块中！"
 	]
 	quest.2CBB753B405D3888.title: "&d苍穹晶锄"
-	quest.2CEF038B5DA1FF25.quest_desc: ["Generates power by consuming Fireworks."]
-	quest.2CEF038B5DA1FF25.title: "&fRocket Mycelial Generator"
+	quest.2CDC1DACAC37E5EB.title: "&fAmethyst Essence"
+	quest.2CEF038B5DA1FF25.quest_desc: ["消耗烟花火箭发电。"]
+	quest.2CEF038B5DA1FF25.title: "&f菌丝网络烟花火箭发电机"
 	quest.2D09494ED3235CC8.quest_desc: [
 		"&3动力泵&r是使流体管道能够实际输送流体的核心装置。"
 		""
@@ -4251,7 +4281,7 @@
 	quest.2D2EC0BCFF1DA68C.title: "&f蜜蜂属性"
 	quest.2D31E8D06F40EAA9.quest_desc: ["&e柴油&r可以直接当成燃料，也可以用&2乙醚&r将其富集为&6增压柴油&r。"]
 	quest.2D31E8D06F40EAA9.title: "&e柴油"
-	quest.2D4682CC6A524A50.title: "&fSpirited Crystal"
+	quest.2D4682CC6A524A50.title: "&f富生水晶"
 	quest.2D4CECA1F01E2E3B.title: "&b高级&f机器升级"
 	quest.2D5EE42EABBB295F.title: "&eAE2处理器奖励包"
 	quest.2D7445BDE865635C.quest_desc: [
@@ -4431,7 +4461,7 @@
 	quest.2F15D918EF183051.quest_desc: [
 		"&6FTB Skies 2&r是个以沙盒模式为主的空岛整合包，你可以按照自己想要的方式进行游玩！"
 		""
-		"这个整合包为各类玩家准备了海量模组。模组无门槛限制，随心所欲地体验游戏过程吧！"
+		"This pack has tons of mods for all types of players. Mods are not particularly gated, so experience progression however you'd like!"
 		""
 		"对于那些渴望挑战的玩家，这个整合包的最终目标就是完成&dFTB金字塔&r挑战，你觉得你有这个能力吗？"
 	]
@@ -4759,12 +4789,13 @@
 	quest.321229F5E7574245.title: "&e方形绿宝石之戒"
 	quest.3219123B72D9F360.title: "&3256B化学品存储组件"
 	quest.323A230EB571C4CA.quest_desc: [
-		"&aReactors&r are where generating power starts to get serious!"
+		"&a反应堆&r才是真正的发电大户！"
 		""
 		"These will burn up &6Uraninite&r using &bCoal&r and &cRedstone&r to generate a ton of power. It also needs some sort of coolant inside, with the basic requirement being a bucket of water."
 		"{@pagebreak}"
 		"To build one, you'll need &a36 Reactor Blocks&r in your inventory. Right clicking to place it down will automatically build out the 3x4x3 structure if it has room."
 	]
+	quest.323E664C39860E4F.title: "&fGold Essence"
 	quest.3246845CBF6BD699.title: "&f核源铁护腿"
 	quest.3251545A2BDA31AD.title: "&f核源铁头盔"
 	quest.325567B88BAFAD0D.quest_desc: [
@@ -4858,10 +4889,12 @@
 	quest.32E0A399AFBE3099.quest_subtitle: "绑定五芒星：级别1"
 	quest.32E0A399AFBE3099.title: "&a粉笔需求增大"
 	quest.32E926D3AC96233A.quest_subtitle: "砸碎砾石！"
+	quest.32E926D3AC96233A.title: "&fDirt"
 	quest.330F69D2F2626B50.quest_desc: ["&a斑斓透镜&r射出的激光会穿透物品，然后改变它们本身的颜色，比如染色玻璃或玻璃板、地毯、染料、羊毛以及带釉陶瓦。"]
 	quest.330F69D2F2626B50.title: "&a斑斓透镜"
+	quest.3329922774973A7D.quest_desc: ["[\"See its \", {\"text\": \"quest\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"449E702C9B877CD3\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Ore Generator Quest!\"]} }, \" for more details.\"]"]
 	quest.3329922774973A7D.quest_subtitle: "General purpose ore generation"
-	quest.3329922774973A7D.title: "Ore Generator, with Lazahs!"
+	quest.3329922774973A7D.title: "&fOre Generator, with Lazahs!"
 	quest.3334E05101A7297F.quest_desc: [
 		"&a反应仓&r是个处理速度非常快的机器，可以产生大部分AE2的材料，只不过耗能可能大了一点。"
 		""
@@ -4929,6 +4962,7 @@
 		"The &aMachine Reader&r allows you to read information from a machine block, such as: its temperature, available recipe list, energy values, and many more..."
 	]
 	quest.33CD8F19B27FA484.title: "&fReading Networks \\&\\ Machines"
+	quest.33D4E1FE5CD1DBE2.title: "&fNiter Dust"
 	quest.33DCE0CBA0FD02FD.title: "&e机械动力入门奖励包"
 	quest.33E4C81B762892B2.quest_desc: [
 		"&eOritech&r is a tech mod centered around customizable multiblock machines that will change the way you use tech mods!"
@@ -4943,7 +4977,7 @@
 	quest.33E96DCB466BC28C.quest_desc: [
 		"The &dLibrarian Talisman&r increases experience gained by 50%."
 		""
-		"It is also used to craft the &bForce of Mystic&r."
+		"它还用于制作&b神秘力量&r。"
 	]
 	quest.33E96DCB466BC28C.title: "&d图书管理员护身符"
 	quest.33EDFB2DC1BEA7F0.quest_desc: ["&3合成监视器&r可查看所有正在进行的自动合成任务的状态。"]
@@ -4955,6 +4989,7 @@
 	quest.3404B0A29BF5A055.quest_desc: ["The &2Simple Fluid Collector&r collects in world fluids, without needing a bucket or such. Great for infinite water sources!"]
 	quest.3404B0A29BF5A055.quest_subtitle: "Why does water Do That, anyway?"
 	quest.3404B0A29BF5A055.title: "&f初级流体收集器"
+	quest.340542E5E1413650.title: "&fDiamond Chunk"
 	quest.340D7F25B5EB0D33.quest_desc: [
 		"下一阶的凝胶叫&d虚空辉凝胶&r，它可以将&b钻石块&r转化为&d苍穹晶块&r。"
 		""
@@ -5082,6 +5117,7 @@
 	quest.34D191F76AA69707.title: "&e通量网络"
 	quest.34DA4C91DEADF93D.quest_desc: ["&a存储芯片&r可以储存16个物品的&b物质&r值。"]
 	quest.34DA4C91DEADF93D.title: "&f存储芯片（Memory Chip）"
+	quest.34E7A6645B4AA48F.title: "&fCherry Sapling"
 	quest.34EC72BBCD9F197F.quest_desc: [
 		"这就是我之前和你说的魔法桌子！"
 		""
@@ -5298,11 +5334,12 @@
 	quest.3695B30822BC674E.quest_desc: [
 		"The &7Shulker Talisman&r provides immunity to the levitation effect."
 		""
-		"It is also used to craft the &bForce of Mystic&r."
+		"它还用于制作&b神秘力量&r。"
 	]
 	quest.3695B30822BC674E.title: "&7潜影贝护身符"
 	quest.369FFEE79A6478A0.quest_desc: ["在本章节中，你将发现整合包内诸多&6挑战&r，无论是击败Boss、探索生物群落，还是收集稀有物品！"]
 	quest.369FFEE79A6478A0.title: "欢迎来到&d狂猎&r章节！"
+	quest.36AA71D456F0A3C1.title: "&fIndustrial Aluminum Dust"
 	quest.36BFF140EA423C7B.title: "&dMEGA并行处理单元"
 	quest.36DD75256D280C4A.quest_desc: [
 		"很多&6工业先锋&r的机器的工作范围都很大，在GUI中点击“显示工作范围”就可以可视化显示。"
@@ -5311,7 +5348,7 @@
 	]
 	quest.36DD75256D280C4A.title: "&b范围升级"
 	quest.36E0D875AA8E2F66.quest_desc: [
-		"在深暗之域逛了一圈后，你手头的材料足够你做出最高级的凝胶：&5暗影脉凝胶&r。"
+		"After challenging the Deep Dark's denizen, you can make the final tier of goo: &5Shadowpulse Goo&r."
 		""
 		"这种凝胶可以将&6下界合金块&r转化为&5蚀空合金矿石&r。"
 		""
@@ -5598,14 +5635,14 @@
 	quest.39CA68E8B84CF962.quest_desc: ["The &7Copper Talisman&r pulls items within a 10-block radius to the player."]
 	quest.39CA68E8B84CF962.title: "&7铜护身符"
 	quest.39ED88D2EF2F617B.quest_desc: [
-		"While equipping yourself with all sorts of &bcurios and baubles&r is a common enough practice, certain choices are shunned. &aBrooches&r allow a few tweaks to this, exchanging one option for another. Among these options are the allowance for new &bRune slots&r."
+		"往自己身上装各种各样的&b饰品和其他小玩意&r是非常常见的做法，然而你不得不对一部分选择进行取舍。&a胸针&r能够改变这种情况，它们使玩家能够牺牲一部分饰品栏从而换来其他种类的饰品栏，这其中就包括&b符文栏&r。"
 		""
-		"Runes are made by inserting the base material into a &aRunic Workbench&r, then applying the amount and type of spirits required."
+		"只要将基础材料放进&a符文工作台&r，然后加入特定种类的数量的精魂，你就能造出符文。"
 		""
-		"Runes provide a wide variety of potent effects: some applying a personal form of &bSpirit Rites&r as performed by &eTotems&r, others providing noticeable stat buffs, and still more that have their own unique traits."
-		"As typical, consult your &eEncyclopedia&r for more information."
+		"符文有着非常多的强力效果：有些能够对佩戴者单独作用，效果等同于由&e图腾&r展开的&b精魂仪式&r；有些能够带来非常显著的属性效果提升；还有些有着自己独特的特征。"
+		"和往常一样，你可以查阅&e奥术全典&r来获悉更多信息。"
 	]
-	quest.39ED88D2EF2F617B.title: "Runeworking"
+	quest.39ED88D2EF2F617B.title: "符文工艺"
 	quest.39FB54DD235A1E10.quest_desc: ["将&a粘液蜂巢&r放置在沼泽生物群系后，放入蜜蜂小食即可吸引粘液蜜蜂。"]
 	quest.39FB54DD235A1E10.title: "&f粘液蜂巢"
 	quest.39FD7B49554CE935.quest_desc: [
@@ -5774,7 +5811,7 @@
 	quest.3B1C807CEEC4E2ED.quest_desc: [
 		"The &dEnchanting Talisman&r removes curses from items held."
 		""
-		"It is also used to craft the &bForce of Mystic&r."
+		"它还用于制作&b神秘力量&r。"
 	]
 	quest.3B1C807CEEC4E2ED.title: "&d附魔护身符"
 	quest.3B2115D3C8C3A486.quest_subtitle: "二阶能量存储"
@@ -5790,7 +5827,7 @@
 		""
 		"这种粉末可以通过在建造高度上限处放置一个朝上的&eME破坏面板&r，并将其连接到存储系统来开采。"
 	]
-	quest.3B33C4D5A2D400D4.title: "但是&b陨石&r在哪里呢？"
+	quest.3B33C4D5A2D400D4.title: "&fBut where's the &bSkystone&f?"
 	quest.3B37556B49098933.quest_desc: ["&a异界眼镜&r能为穿戴者提供&b第三只眼&r效果，从而使&9异界&r的方块可见。"]
 	quest.3B37556B49098933.title: "&a异界眼镜"
 	quest.3B3CE4B6B25CB8DB.quest_desc: ["The key point of progress. &dAttuned Stones&r are made using Whiffs of Magic and diamonds, and making this item allows progression into even more mod mechancs such as &bPoppets&r and &bCircle Magic&r."]
@@ -5828,11 +5865,11 @@
 	]
 	quest.3B829DC47FFE77D6.title: "&fWriting Redstone"
 	quest.3B9B79565D5E2CA3.quest_desc: [
-		"Armor made from soulwoven silk doesn't provide much defense, but it's better than typical clothing and much better than nothing at all."
+		"用魂织绸缎制成的盔甲并没有很高的防御力，但已经比之前的盔甲好很多了，而且总比没有好。"
 		""
-		"On the plus side, the infused arcane ash helps to enhance a wearer's magic prowess."
+		"增益方面，咒灰的注入加强了穿戴者的法术强度。"
 	]
-	quest.3B9B79565D5E2CA3.title: "Soulhunter Set"
+	quest.3B9B79565D5E2CA3.title: "灵魂猎手套装"
 	quest.3BCB8667CCEBAE57.quest_desc: [
 		"&a存储促动器基座&r是访问您的存储维度所需的两个部件中的第一个部件。"
 		""
@@ -5923,6 +5960,7 @@
 	quest.3CD3CA5B619F5698.quest_desc: ["&a时运&r和&a精准采集&r升级可以安装在&a破坏面板&r中，这样它破坏方块时就会有这种魔咒的效果了。"]
 	quest.3CD3CA5B619F5698.title: "&a时运\\&\\精准采集升级"
 	quest.3CEB8BF2F48ECDBA.quest_subtitle: "Pour Molten Quartz over a Catalyst"
+	quest.3CEB8BF2F48ECDBA.title: "&fBudding Quartz Geore"
 	quest.3CEB99462830B35F.quest_desc: [
 		"你可能注意到了有些工具有特定的&a属性&r，比如铁杆有磁铁的能力！"
 		""
@@ -6054,6 +6092,7 @@
 	quest.3E25D043676C1CE9.title: "&f黏土"
 	quest.3E2E68B54A985CBF.title: "&bFargo的地牢战利品奖励包"
 	quest.3E328C7EB939180D.quest_subtitle: "Use Yellow Dye on a Catalyst"
+	quest.3E328C7EB939180D.title: "&fBudding Gold Geore"
 	quest.3E37D6522BE4EB9B.title: "&b高级精华&f护甲"
 	quest.3E63D54D05A3E300.quest_desc: [
 		"把&e盐水&r输入进热力蒸馏塔，就会产出&6液态锂&r。"
@@ -6068,7 +6107,7 @@
 		""
 		"禁用后，你将无法以此方式获取它们，而需通过常规合成获得。但紧急时仍可从应急物品中取用。"
 	]
-	quest.3E6ED23A93BCBD03.title: "并非无限"
+	quest.3E6ED23A93BCBD03.title: "&fNot so Infinity"
 	quest.3E7001F4A49CF787.quest_desc: [
 		"&6进气口&r可以放在真空冷冻室的物品输入总线上，以制造&9液态空气&r。"
 		""
@@ -6262,6 +6301,7 @@
 		"[\"It's possible to convert silver essence through a bit of transmutation with \", {\"text\": \"knowledge\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"469C88B6CEC1F9E7\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to the Cognition questline\"]} }, \", and some black quartz though...\"]"
 	]
 	quest.40C4ECF69211C872.quest_subtitle: "Ore generate this, or..."
+	quest.40C4ECF69211C872.title: "&fOsmium Essence"
 	quest.40CCB0B7868233CA.quest_desc: ["将你刚得到的&a硫酸铂溶液&r&3离心&r，便可以得到&2纯净硫酸铂溶液&r，处理完后有小概率得到副产物&d小撮铂粉&r。"]
 	quest.40CCB0B7868233CA.title: "&d小堆依粉"
 	quest.40D416328C50C9F4.quest_desc: ["大多数如铜或红石这样的基础晶矿可以通过对虚无晶体催化剂使用&e染料&r的方式将其转化为特定种类的晶矿母岩方块。"]
@@ -6329,6 +6369,7 @@
 	quest.412FD0DA6B746561.quest_subtitle: "通过交易获得"
 	quest.412FD0DA6B746561.title: "&f村民圣典"
 	quest.413A7D5169734560.quest_subtitle: "Use Grey Dye on a Catalyst"
+	quest.413A7D5169734560.title: "&fBudding Lead Geore"
 	quest.4145FED51D1ACD76.quest_subtitle: "一切药水的基础。"
 	quest.4145FED51D1ACD76.title: "&f下界疣"
 	quest.415BB9A778991D01.title: "&e内存卡"
@@ -6347,7 +6388,7 @@
 	quest.4186A1B8873DBF55.quest_desc: [
 		"Though it requires some research into metal alloying and a fair amount of energy to fire, a Lens of the Miner doesn't require any diamonds to craft and can generate diamond ore, as well as many other resources."
 		""
-		"[\"See its \", {\"text\": \"quest\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"126B4E4814DADCC8\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"AA Lens of the Miner\"]} }, \" for more details.\"]"
+		"[\"See its \", {\"text\": \"quest\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"126B4E4814DADCC8\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Lens of the Miner Quest\"]} }, \" for more details.\"]"
 	]
 	quest.4186A1B8873DBF55.quest_subtitle: "General purpose ore generation"
 	quest.4194F3C176E50B7B.quest_desc: [
@@ -6362,6 +6403,7 @@
 	]
 	quest.4194F3C176E50B7B.title: "恶念武器"
 	quest.41A0D46C31E1DDDC.quest_subtitle: "Chemically mix ingredients with a Catalyst"
+	quest.41A0D46C31E1DDDC.title: "&fBudding Monazite Geore"
 	quest.41C439295D5558C2.quest_desc: [
 		"使用&e粗制镰刀&r或其他合适的工具杀死生物，你就能收集到&b精魂&r。"
 		""
@@ -6420,13 +6462,14 @@
 		""
 		"It provides temporary barrier after taking damage, immunity from sweet berry bushes and falling into the void, reflects 25% of damage taken, and increases current health by 2x."
 		""
-		"It is also used to craft the &3Soul of Minecraft&r."
+		"它还用于制作&3Minecraft之魂&r。"
 	]
 	quest.423950ED16C2422B.title: "&b战士力量（战士之力）"
 	quest.423C04D5968C6A2B.quest_subtitle: "更多栏位！"
 	quest.423C04D5968C6A2B.title: "&a皮革腰带"
 	quest.424BFFB9EFAB9565.quest_desc: ["&3电子管&r是一种合成部件，用于在&e机械动力&r中制作一些电子或可以控制的机械装置。"]
 	quest.424BFFB9EFAB9565.title: "&3电子管"
+	quest.42535B4BBB87AC3D.title: "&fDiamond Essence"
 	quest.425A41A378E7BF52.quest_desc: ["&3工程师护目镜&r可显示你的&e机械动力&r网络中的各种元素，包括特定方块的 &bRPM&r。"]
 	quest.425A41A378E7BF52.title: "&3工程师护目镜"
 	quest.425CB9CE53FBC0FF.quest_desc: [
@@ -6674,7 +6717,9 @@
 		"拿着吧，我们早就猜到了，毕竟万事皆有可能发生嘛。;)"
 	]
 	quest.44C154128D90ACB2.title: "&a失物招领：第一层"
+	quest.44CE0F10E7E24F23.quest_desc: ["[\"See its \", {\"text\": \"quest\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"2E283756BD053685\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Ore Laser Quest\"]} }, \" for more details.\"]"]
 	quest.44CE0F10E7E24F23.quest_subtitle: "General purpose ore generation"
+	quest.44CE0F10E7E24F23.title: "&fOre Laser Base"
 	quest.44DFEE9CA0A7070B.quest_desc: [
 		"The &aWither Talisman&r provides immunity to the wither effect."
 		""
@@ -6695,14 +6740,6 @@
 		"如果想把终端和网络链接在一起的话，首先做一对&d量子纠缠奇点&r，然后一个放在接入基地的&6量子桥&r内，另一个和量子桥卡一起装入你的&d无线终端&r即可。"
 	]
 	quest.450A1BAD728F594B.title: "&d无限距离无线访问"
-	quest.450E4A06AC631D23.quest_desc: [
-		"&e物流标贴&r是一个简单的物流模组，可让你在相邻方块之间转移物品和液体。"
-		""
-		"&b标贴访问器&r能断开和管理&a标贴&r。"
-		""
-		"可以在其界面中添加其他标贴来升级标贴。"
-	]
-	quest.450E4A06AC631D23.title: "&e传输标贴"
 	quest.451FD4CA758C6019.title: "&6进化秘石"
 	quest.452A356F35EE46DD.quest_desc: ["&3充能钻石水晶&r可以合成一些&e实用拓展&r的东西，但它的最大用处是合成&6FTB金字塔的关键材料：&d异彩棱晶&r。"]
 	quest.452A356F35EE46DD.title: "&3充能钻石水晶"
@@ -6718,13 +6755,13 @@
 	]
 	quest.456030ECDFA9CE3B.title: "&bReactor Heat Absorbers"
 	quest.457E591ED546A456.quest_desc: [
-		"While it's an ordinary use, soulstained and hallowed ingots can be used to make rings and other equipment. These &atrinkets&r provide small defense boosts on their own, but mainly serve as a base for &7more powerful odds and ends&r."
+		"神圣金锭和魂染钢锭的常规用途之一是制作戒指及其他饰品。这些&a饰品&r本身可以增加一点防御力，但主要是用来进一步合成&7更加强大的玩意&r的。"
 		""
-		"Consult the notes of the &eEncyclopedia&r for more information."
+		"你可以查阅&e奥术全典&r来获悉更多信息。"
 		""
-		"&o&7Suggestion: look into the Ring of Esoteric Spoils in particular for easier &bSpirit&r &o&7collection.&r"
+		"&o&7小建议：看看隐秘掠夺戒指，它能让你更轻松地收集&b精魂&r&o&7。"
 	]
-	quest.457E591ED546A456.title: "Malum trinkets"
+	quest.457E591ED546A456.title: "Malum Trinkets"
 	quest.458B3C345767E296.title: "&5下界之星种子"
 	quest.45A36EB1C2133600.quest_desc: [
 		"为了制作更先进的电路，你需要为电路板制作一个非常重要的模块：&d随机存取存储器&r，简称&dRAM&r。"
@@ -6875,10 +6912,11 @@
 	quest.46EE104195D0391C.quest_desc: [
 		"&a搅拌机&r也是&eMI&r非常重要的机器，因为你需要它才能搅拌出大量的粉末和材料/组件！"
 		""
-		"For example, you can mix &2Gunpowder&r and &2Charcoal Dust&r to get your first &7Sulfur Dust&r."
+		"例如，你可以混合&2石英粉&r和沙子&r，以获得你的第一个&7硅&r！"
 	]
 	quest.46EE104195D0391C.title: "&f混合搭配"
 	quest.47121E98CEF12BDE.quest_subtitle: "砸碎圆石！"
+	quest.47121E98CEF12BDE.title: "&fGravel"
 	quest.47547FC5591CE0D3.quest_desc: [
 		"&e实用拓展&r的主要内容就是合成水晶，然后给它们充能……至于怎么搞，当然是用激光照射它们啦！"
 		""
@@ -6926,7 +6964,7 @@
 		""
 		"It increases damage by 25% when affected by blindness, nausea, mining fatigue, poison, weakness, slowness, wither, and while on fire."
 		""
-		"It is also used to craft the &3Soul of Minecraft&r."
+		"它还用于制作&3Minecraft之魂&r。"
 	]
 	quest.4835F10B1C5BCAAE.title: "&b负面力量（负面效果之力）"
 	quest.4843F5564CA5810C.quest_desc: [
@@ -7105,7 +7143,7 @@
 	quest.4A5402081BC88910.quest_desc: [
 		"The &aUndying Talisman&r revives the player once upon death."
 		""
-		"It is also used to craft the &bForce of Mystic&r."
+		"它还用于制作&b神秘力量&r。"
 		""
 		""
 		"&e&lNote&r: This item's revival effect is not working at the moment.&r"
@@ -7176,15 +7214,23 @@
 		""
 		"As a final upgrade, &dFume Filters&r can be placed on the two Funnels to get these fumes every time."
 	]
+	quest.4AFFA2E9FA61CC83.title: "&fNether Quartz Essence"
 	quest.4B02EB096A1670AB.quest_desc: [
 		"The &dTrue Sun Talisman&r increases player damage by 5% during a sunny day with nothing above the player."
 		""
-		"It is also used to craft the &bForce of Environment&r."
+		"它还用于制作&b环境力量&r。"
 	]
 	quest.4B02EB096A1670AB.title: "&d真正的太阳护符（真正的太阳护身符）"
+	quest.4B0B08ED9D193AEA.quest_desc: [
+		"[\"See its \", {\"text\": \"quest\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"2AAD4463A90C639B\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Dimensional Mineshaft Quest\"]} }, \" for more details.\"]"
+		""
+		"Note that the tier to mine netherite requires a netherite pickaxe."
+	]
 	quest.4B0B08ED9D193AEA.quest_subtitle: "General purpose ore generation"
+	quest.4B0B08ED9D193AEA.title: "&fDimensional Mineshaft"
 	quest.4B21575B498FFEA1.quest_subtitle: "3x3范围的铲子"
 	quest.4B21575B498FFEA1.title: "&f开掘铲蓝图"
+	quest.4B30FD3141EB1AD0.title: "&fCopper Essence"
 	quest.4B463FDAEAC42511.quest_desc: [
 		"&3物质聚合器&r会把输入的物品像垃圾桶一样销毁，但如果你给它插入一个1-16k的存储元件的话，则它会把输入物品转化为&b物质球&r。你也可以给它插入一个64k或以上的存储元件，此时它能够把输入的物品转化为&d奇点&r。"
 		""
@@ -7231,6 +7277,7 @@
 		"They function like their &eTinker's Construct&r version, for those who remember that."
 	]
 	quest.4B6154D6F9B7C7BF.title: "&fCrafting Stations"
+	quest.4B7545530D6055AE.title: "&fGlowstone Dust"
 	quest.4B7FE5A718A97706.quest_desc: ["&d黄铜&r在&e机械动力&r中会经常用于制作一些更强大的方块和物品。"]
 	quest.4B7FE5A718A97706.title: "&d黄铜时代"
 	quest.4B81B0228592E5C9.quest_desc: [
@@ -7241,6 +7288,7 @@
 		"&e提示&r：你可以锁定输入和输出槽以防止不小心制造别的物品。这一点对于自动化非常重要。另外，你在以后会需要很多这些东西！"
 	]
 	quest.4B81B0228592E5C9.title: "&fMI&2装配机"
+	quest.4B8E75ACE0AA6FA0.title: "&fXychromium Gems"
 	quest.4BA37B79F377FF8D.title: "&6觉醒&f机器升级"
 	quest.4BA8E435EDA995AC.quest_desc: [
 		"You are probably tired of picking up SO MUCH COBBLE when you are out on your mining trips. Why not make a &aVoid Upgrade&r to help get rid of them?"
@@ -7317,7 +7365,7 @@
 	]
 	quest.4C78823B3EFA3105.title: "&d附魔装置"
 	quest.4C8EB2205707AE45.quest_desc: [
-		"在肥沃的草方块上使用骨粉会导致草丛迅速生长。然后便可以割草以获得小麦和工业大麻种子。"
+		"Using &aBone Meal&r on fertile grass blocks causes a rush of grassy growth. This can be harvested to yield seeds for Wheat and Hemp."
 		""
 		"后者现在更重要，因为长成的工业大麻堆肥效率很高，并且可以转化为线！"
 	]
@@ -7346,7 +7394,7 @@
 		""
 		"It removes curses from held items, makes witches throw positive effect potions, increases XP gain by 50%, heals for 20% of damage dealt, provides levitation immunity, and revives the player once upon death."
 		""
-		"It is also used to craft the &3Soul of Minecraft&r."
+		"它还用于制作&3Minecraft之魂&r。"
 		""
 		""
 		"&e&lNote&r: This item's revival effect is not working at the moment.&r"
@@ -7510,6 +7558,7 @@
 		"如果周边熔岩没有封顶，则它会在熔岩顶部生成一片&c熔岩睡莲&r。（译注：当前版本已移除）"
 	]
 	quest.4E4E33E04625A9EB.title: "&c火山魔源通道"
+	quest.4E5CA72883474230.title: "&fTin Chunk"
 	quest.4E623BAFD92591EE.quest_desc: [
 		"&a旅行权杖&r是一件非常强大的工具，Shift+右击，它会将你往前传送一小段距离。用这个方法，你甚至能穿墙！"
 		""
@@ -7644,6 +7693,7 @@
 	quest.4F7B94DCD4B52CE4.quest_subtitle: "附身五芒星：级别1"
 	quest.4F7B94DCD4B52CE4.title: "&a海德林诱惑术"
 	quest.4F7B9F938127746E.title: "&6觉醒精华剑"
+	quest.4F8BA7C2B9064AFB.title: "&fNickel Essence"
 	quest.4F8C7DC594972DE4.quest_desc: [
 		"一座被亡灵占据的寒冰宫殿，其中游荡着已失去灵魂的躯壳大军，它们被某种诡异之力驱使，并对活人怀有深深的憎恨。"
 		""
@@ -7767,9 +7817,9 @@
 	quest.5119EFBB9FB39CDE.quest_desc: ["敌对掠夺者部队的首领，驻守在&b魔法塔&r的顶端。"]
 	quest.5119EFBB9FB39CDE.title: "&f击杀&d高位唤魔者"
 	quest.51373D5476F2FD7F.quest_desc: [
-		"Collecting spirits is important work for an aspiring spirit mage, but an evening spent slaying the hostile creatures of the night can be a hassle with all the resources to sort and manage, especially when &eSpirit&r is involved."
+		"对于志存高远的精魂法师来说，收集精魂是个非常重要的工作。但花费一整晚的时间来杀敌可能会是件麻烦事，因为你还需要分类和管理资源，尤其是战利品里还多出了&e精魂&r。"
 		""
-		"A &bSoulwoven Pouch&r helps ease this burden but funneling Spirit and certain other drops into itself before they'd touch its holder’s inventory, up to 8 stacks worth. The pouch can be used to dump its contents into the world, or used in the inventory to pull out sets of items at a time."
+		"一个&b魂织布袋&r可以减轻这方面的压力，它会在精魂以及其他物品进入你的物品栏前自动把它们吸入自己体内，最多可以装八组精魂。你可以通过手持这个布袋右击来直接倒出里面的全部物品，也可以在物品栏里一组一组地取出物品。"
 	]
 	quest.514E3A822BFB730B.quest_desc: [
 		"很多烹饪配方都要用到&b奶&r，每次都要跑去找牛就太麻烦了。"
@@ -7907,7 +7957,7 @@
 		"它还用于制作&b排斥者力量&r。"
 	]
 	quest.529BB6E3B5A93A91.title: "&7卫道士护身符"
-	quest.52A1154376134EDD.quest_desc: ["这些&a受到精魂灌注的岩石&r本身只是装饰性方块，然而只要善用它们蕴含的魔法能量，你就能打造出全新的仪器和设备。"]
+	quest.52A1154376134EDD.quest_desc: ["These &aspirit-infused stones&r are mostly just decoration on their own, but harnessing the combined magical properties allows the creation of new devices and machines."]
 	quest.52A1154376134EDD.title: "扭曲而污秽的岩石"
 	quest.52A48E0F92AD4399.quest_desc: [
 		"如果你想把魔源直接全部输出到附近的魔源罐中，那就用&a魔源中继器：存放型&r吧！"
@@ -7959,10 +8009,12 @@
 	quest.535C11E589E11056.title: "&d疲惫的护符（挖掘疲劳护身符）"
 	quest.536FE5C4A9D37909.quest_desc: ["烈焰筛网是最高等级的网。其效能卓绝，常常能产出金属锭，而低阶筛网只能得到金属粒。"]
 	quest.536FE5C4A9D37909.quest_subtitle: "Is the String Still There, Under all the Layers?"
+	quest.536FE5C4A9D37909.title: "&fMechanical Blazing Mesh"
 	quest.53B7A49C8138D3B0.quest_desc: ["[\"使用\", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"和\", {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \"粉笔，和\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"，你现在就可以控制\", {\"text\": \"火灵\", \"color\": \"#FF55FF\"}, \" 附身僵尸猪灵了。它被杀死后会掉落\", {\"text\": \"恶魔之肉\", \"color\": \"#55FF55\"}, \" \"]"]
 	quest.53B7A49C8138D3B0.quest_subtitle: "附身五芒星：级别3"
 	quest.53B7A49C8138D3B0.title: "&c阿巴拉斯开环强令召唤术"
 	quest.53D528FE7C905A39.quest_subtitle: "Use Blue Dye on a Catalyst"
+	quest.53D528FE7C905A39.title: "&fBudding Lapis Geore"
 	quest.53E72F025E4CB895.quest_desc: ["&3动力锯&r可以一次性砍伐整棵树或处理物品配方。"]
 	quest.53E72F025E4CB895.title: "&3动力锯"
 	quest.53E949B1A0D04290.quest_desc: [
@@ -8056,6 +8108,7 @@
 	quest.548DEBAD9D4CB726.quest_desc: ["&d火灵碎矿者&r的功能与其他所有的&b碎矿者&r相同，但它的产出量是四倍。"]
 	quest.548DEBAD9D4CB726.title: "&d火灵碎矿者"
 	quest.5492FCDE4698D732.quest_subtitle: "Pour Molten Diamond over a Catalyst"
+	quest.5492FCDE4698D732.title: "&fBudding Diamond Geore"
 	quest.54997B1A97E7A40D.quest_desc: [
 		"在周围召唤一个神化BOSS。"
 		""
@@ -8173,13 +8226,13 @@
 		"Hopefully this guide can ease up on the recipe menu squint!"
 		""
 		""
-		"&2Green&r: obtainable at the start of a path or easy to obtain at your island"
+		"&2Green&r: Obtainable at the start of a path or easy to obtain at your island."
 		""
-		"&6Yellow&r: trickier to understand, may require exploration off your island or self-guidance"
+		"&6Yellow&r: Trickier to understand, may require exploration off your island or self-guidance."
 		""
-		"&cRed&r: very few options, general purpose ore generation almost required"
+		"&cRed&r: Very few options, general purpose ore generation almost required."
 	]
-	quest.56279976861A0A95.title: "Ease of Access Guide"
+	quest.56279976861A0A95.title: "&fEase of Access Guide"
 	quest.56367596C11E78A9.quest_desc: [
 		"&a高炉&r是游戏早期最重要的多方块之一，因为它用于将铁转化为&a钢&r。"
 		""
@@ -8255,6 +8308,7 @@
 	quest.5694360EC1FB87EB.title: "&dResearch Stations"
 	quest.56A327D4172F3DD6.quest_desc: ["铁筛网是布筛网的固实升级。在升级到金筛网之前，记得先处理掉里面的泥土！"]
 	quest.56A327D4172F3DD6.quest_subtitle: "获得升级"
+	quest.56A327D4172F3DD6.title: "&fMechanical Iron Mesh"
 	quest.56C6C2E5CA811E21.quest_desc: ["Seems to happen when blight spreads onto stone, but only existing blighted earth gets transformed?"]
 	quest.56C6C2E5CA811E21.quest_subtitle: "stone blight?"
 	quest.56E1FAD44A6E8C11.quest_desc: [
@@ -8284,6 +8338,7 @@
 	quest.56E9C123DD727E46.quest_subtitle: "&oThere are no bad ones"
 	quest.56E9C123DD727E46.title: "&aMatrix Motivators"
 	quest.56EC29FFC567ECC2.quest_subtitle: "Use Red Dye on a Catalyst"
+	quest.56EC29FFC567ECC2.title: "&fBudding Redstone Geore"
 	quest.56F225D27E646F33.quest_desc: [
 		"The &aBattle Talisman&r provides an additional 0.25s immunity after taking damage."
 		""
@@ -8325,6 +8380,7 @@
 	]
 	quest.575A111D4418BFB6.title: "&6Metronome"
 	quest.576B6C8DD5E4B82E.quest_subtitle: "Pour Molten Zinc over a Catalyst"
+	quest.576B6C8DD5E4B82E.title: "&fBudding Zinc Geore"
 	quest.5777FBF5D06D2F8E.quest_desc: [
 		"自定义戒指需要用&a戒指蓝图&r制造。"
 		""
@@ -8448,6 +8504,7 @@
 	]
 	quest.583FFE29C881EE8C.title: "&f关于网络的一切！"
 	quest.584ED3F64917276E.title: "&e模块化路由器"
+	quest.58541CC7998332A3.title: "&fNetherite Essence"
 	quest.586E18023A595A6C.quest_desc: [
 		"蜜蜂很可爱，但是只能产蜂蜜……要是蜜蜂能产其他的东西呢？"
 		""
@@ -8504,6 +8561,7 @@
 		"These &aSolar Panels&r from Mekanism are great for renewable energy in the early game, but it might be a good idea to have some energy storage for when the lights go out."
 	]
 	quest.5901B0375947AAE4.title: "&aSolar Panels"
+	quest.59053EA2D933CD8D.title: "&fSulfur Dust"
 	quest.59090638A27CEC29.title: "&d终极精华&f护甲"
 	quest.59376277A06E251A.quest_desc: [
 		"给箱子的升级数不胜数，但以下升级能让你玩的更舒服！"
@@ -8535,7 +8593,7 @@
 		"要获得钻石，你需要将&e闪电&r引导到绿宝石上（当物品在地上时），将&e多态流体&r滴在绿宝石块上，或者更明智地在虚空中寻找一些已经存在的钻石。一旦有了一点，你就能够生产更多。"
 		"&6流浪商人&r也能帮你完成这个转化……"
 		""
-		"&7&oThere is also the rare chance to fish up some diamond essence, and other more technical methods exist that could generate diamonds such as &acoal compression&r&7&o or a &aLens of the Miner&r&o..."
+		"&7&o也有极低概率钓到钻石精华，或通过技术性的方法生成钻石，例如&a煤炭压缩&r&7&o或&a矿工透镜&r&o……"
 	]
 	quest.595F8AC6DB5DACD8.title: "&a你的第一颗&b钻石"
 	quest.597ED5B26C78539D.title: "&dAE2量子环套件"
@@ -8597,6 +8655,7 @@
 	quest.5A8CEB600CAADCD2.title: "&f杀死&b冰霜术士"
 	quest.5A8E25FA6815812E.quest_desc: ["&a漏斗升级&r可以让箱子拥有漏斗的功能，你能在顶部输入物品，或者从底部输出物品。"]
 	quest.5A8E25FA6815812E.title: "&a漏斗升级"
+	quest.5AAC3C7D6E9976C5.title: "&fLead Essence"
 	quest.5AC7EEC3D69AF032.quest_desc: [
 		"你可以将铲子、镐子和斧头合并为&b苍穹晶镐尖斧&r。"
 		""
@@ -8608,7 +8667,7 @@
 	quest.5B28036A3960FCAC.quest_desc: [
 		"The &dRain Talisman&r increases player swimimng speed 50% during the rain."
 		""
-		"It is also used to craft the &bForce of Environment&r."
+		"它还用于制作&b环境力量&r。"
 	]
 	quest.5B28036A3960FCAC.title: "&d雨天护符（雨天护身符）"
 	quest.5B2920835630AF78.title: "&6维度之魂"
@@ -8726,6 +8785,7 @@
 		"该耕地生长速度优于普通耕地。"
 	]
 	quest.5CAC010680313D6B.title: "&f特殊的土壤"
+	quest.5CAFA39A77F46A83.title: "&fCopper Chunk"
 	quest.5CB6AE8F5F9A1211.quest_desc: ["充能时，&c血液净化器&r可净化&a注射器&r。"]
 	quest.5CB6AE8F5F9A1211.title: "&c血液净化器"
 	quest.5CC11DF487EA2867.quest_desc: [
@@ -8742,7 +8802,7 @@
 	quest.5CC65B3FE402E58B.quest_desc: [
 		"The &dNight Talisman&r increases player armor by 10% during the night."
 		""
-		"It is also used to craft the &bForce of Environment&r."
+		"它还用于制作&b环境力量&r。"
 	]
 	quest.5CDC5A9146549977.title: "&f唤魔升级法球"
 	quest.5CDE33FC6A041416.quest_desc: ["&3自动合成仓管理器&r可配置网络中所有的&3自动合成仓&r。"]
@@ -9207,23 +9267,23 @@
 	]
 	quest.61AD9B2268BB32E6.title: "&3AE仓储桥接器"
 	quest.61B948F3E526ADF9.quest_desc: [
-		"With the right combination of ingredients placed into a &aSoulbinding Brazier&r, semi-permanent &bOaths&r (also known as Geasa, singular: Geas) can be sworn on one's soul that change your experience in ways from minor to drastic."
+		"只要把正确的材料放进&a魂缚火盆&r，你就能为自己的灵魂签下一个半永久的&b条约&r，这会在各种大大小小的方面改变你的游戏体验。"
 		""
-		"Some examples are providing &2innate armor&r at the cost of &onever&r wearing any, or making you a &3titan of the sea&r, but &oonly&r when in water..."
+		"举个例子，一种条约会让你&2天生自带护甲值&r，但你将&o不能&r穿盔甲；另一种能让你成为&3海中霸主&r，但也&o只有&r在海里才是霸主…"
 		""
-		"Check &eMalum's Encyclopedia&r to see the conditions of these various Oaths."
-		"Check the next page for details on the Oath-making process."
+		"你可以通过&e奥术全典&r来查阅签署这些条约的条件。"
+		"签下条约的完整过程在下一页。"
 		"{@pagebreak}"
-		"To use the &aBrazier&r, the central item outlined in the &eEncyclopedia&r must be inserted first. From there, the spirits and additional materials can be applied. Once the &bOath&r is prepared, use &eEther&r on the brazier to light it and begin the Oath."
+		"要想使用这个&a火盆&r，你需要先把&e奥术全典&r里提到的核心物品放进去。随后，你就可以加入精魂及其他材料。&b誓约&r准备完成后，用&e灵火&r即可点燃火盆，开始签订条约。"
 		""
-		"The Oath process will take a few dozen seconds, and any willing player may interact with the Brazier to accept the Oath at this time at the cost of a little damage, with each player able to take on two Oaths at once."
+		"条约的签订会持续数十秒的时间，想签订条约的玩家只需要右击火盆即可进行签订，但需要受到一定伤害作为代价。每个玩家都只能同时拥有两个条约。"
 		""
-		"&o&7Unwilling, or unwitting, players and creatures can be included into Oaths by applying weakness to them before lighting the Brazier."
+		"&o&7身上具有虚弱效果的玩家或生物会在火盆开始燃烧后自动签下条约，无论他们自己意愿如何。"
 		""
-		"To end the effects of an Oath, this process can be repeated with a &eParacasual Flame&r lighting the &aBrazier&r instead."
+		"要想解除条约，只需要再放入同样的仪式材料，但是改用&e违因火焰&r来引燃&a火盆&r即可。"
 	]
-	quest.61B948F3E526ADF9.quest_subtitle: "Boons and rules"
-	quest.61B948F3E526ADF9.title: "Soulbinding Pacts"
+	quest.61B948F3E526ADF9.quest_subtitle: "利益法则"
+	quest.61B948F3E526ADF9.title: "魂缚条约"
 	quest.61D6B29594193438.quest_desc: [
 		"&6沉浸工程&r的能量分为3类，&a低压&r（&aLV&r），&c中压&r（&cMV&r）以及&d高压&r（&dHV&r）。"
 		""
@@ -9313,13 +9373,14 @@
 	quest.6303F008757BA13F.title: "&f肉丸意面"
 	quest.631BA261529E71CC.quest_desc: ["Ore generate this resource first to make a seed"]
 	quest.631BA261529E71CC.quest_subtitle: "Ore generate this"
+	quest.631BA261529E71CC.title: "&fUranium Essence"
 	quest.6323068C93CF7DCE.quest_desc: ["&d对称之杖&r可以设置布局，自动镜像你放置的方块。"]
 	quest.6323068C93CF7DCE.quest_subtitle: "一个建筑师的梦想"
 	quest.6323068C93CF7DCE.title: "&d对称之杖"
 	quest.6324941CAA013A6D.quest_desc: [
 		"The &dSun Talisman&r increases player damage by 5% during a sunny day."
 		""
-		"It is also used to craft the &bForce of Environment&r."
+		"它还用于制作&b环境力量&r。"
 	]
 	quest.6324941CAA013A6D.title: "&d太阳护符（太阳护身符）"
 	quest.633843210DE84A0D.quest_desc: [
@@ -9553,7 +9614,7 @@
 	quest.64FE17214A14F903.title: "&d苍穹晶头盔"
 	quest.6507BA74DED764C1.quest_desc: ["&5氘（重氢）&r是&6反应堆&r中&9水&r被&6快中子&r轰击时的副产物，可以用来生产&9重水&r。"]
 	quest.6507BA74DED764C1.title: "&5氘"
-	quest.652650C157E16712.quest_desc: ["One obvious use of hex ash is to make equipment from it. Infusing the material into cloth provides a fine base to use the Ash's properties."]
+	quest.652650C157E16712.quest_desc: ["咒灰的作用之一就是制作装备。将咒灰注入布料，你就能得到包含咒灰特征的优秀装备材料。"]
 	quest.6541D2082B84F2BB.quest_desc: [
 		"全自动采集面对的作物，但不会复种。"
 		""
@@ -9693,15 +9754,15 @@
 	quest.66BCBE932B1CCA45.title: "&f这里变&c热&f了吗？"
 	quest.66E5ACACAC79B1F8.title: "&a两栖靴"
 	quest.66FE429D36389F75.quest_desc: [
-		"When collecting spirits from slain creatures, there is a chance that the spirit infuses the creature's normal resource with its essence, causing a new item to form."
+		"在杀死生物收集精魂时，它们的精魂有概率把蕴含的精华注入到原本的掉落物中，从而使它们获得新的形态。"
 		""
-		"Rotting Essence drops from fleshy undead"
+		"腐朽精华会从那些腐烂的亡灵生物身上掉落"
 		""
-		"Grim Talc drops from skeletal undead"
+		"阴冷骨石会从那些瘦削的不死骷髅身上掉落"
 		""
-		"Warp Flux drops from teleporting elderitch creatures"
+		"Warp Flux drops from teleporting eldritch creatures"
 		""
-		"Astral Weave drops from ghostly flying foes"
+		"星灵织物会从那些鬼魅的空中恶敌身上掉落"
 	]
 	quest.67078BCAD52BC4B4.title: "&f击杀20只&c史莱姆"
 	quest.670A52F1036507BB.quest_desc: [
@@ -9841,6 +9902,7 @@
 	quest.684AAE454101D8B7.quest_subtitle: "神圣套装"
 	quest.684AAE454101D8B7.title: "&6牧师套装"
 	quest.6856355966CA2B7F.quest_subtitle: "Use Orange Dye on a Catalyst"
+	quest.6856355966CA2B7F.title: "&fBudding Copper Geore"
 	quest.68583162106594A8.quest_desc: [
 		"据我所知，移动箱子一般都会搞得一团糟，但至少现在不会了！"
 		""
@@ -9884,7 +9946,7 @@
 	quest.68C3F238B65BD483.quest_desc: [
 		"The &dStorm Talisman&r increases player damage by 15% during a lightning or thunder storm."
 		""
-		"It is also used to craft the &bForce of Environment&r."
+		"它还用于制作&b环境力量&r。"
 	]
 	quest.68C3F238B65BD483.title: "&d风暴护符（雷暴护身符）"
 	quest.68F600EFC7166908.quest_desc: [
@@ -9945,6 +10007,7 @@
 	quest.69F87073390131D5.title: "&a编写样板"
 	quest.69FD7F8DD28A1C75.quest_desc: ["可以配置&d存量转信器&r根据容器的存量来发出红石脉冲。"]
 	quest.69FD7F8DD28A1C75.title: "&d存量转信器"
+	quest.6A02985C3F8D48F3.title: "&fEmerald Chunk"
 	quest.6A18A087EA934C46.quest_desc: [
 		"你需要做的一个合金是&a青铜&r，合成方式有很多，包括在工作台直接混合金属粉末。"
 		""
@@ -10026,6 +10089,8 @@
 	]
 	quest.6AA51581B0CA5271.title: "&a磁盘驱动器"
 	quest.6AA8A1FF1C8089F7.quest_subtitle: "Use Black Dye on a Catalyst"
+	quest.6AA8A1FF1C8089F7.title: "&fBudding Coal Geore"
+	quest.6ABA6F335165D860.title: "&fTin Essence"
 	quest.6AC94BF73641EC4A.quest_subtitle: "真正的迅捷"
 	quest.6AC94BF73641EC4A.title: "&a迅捷之靴"
 	quest.6AF5FF1455F7C977.quest_desc: [
@@ -10058,6 +10123,7 @@
 	quest.6B584FB6F2EEBCD0.quest_subtitle: "前期游戏的法师装备"
 	quest.6B584FB6F2EEBCD0.title: "&a流浪法师&f套装"
 	quest.6B779BFEDE0CB57A.quest_subtitle: "Use Brown Dye on a Catalyst"
+	quest.6B779BFEDE0CB57A.title: "&fBudding Nickel Geore"
 	quest.6B9371B721B992AD.quest_desc: ["孢子会爆开。"]
 	quest.6B9371B721B992AD.title: "&a孢子囊"
 	quest.6B971FA156A96BD5.quest_desc: [
@@ -10197,11 +10263,12 @@
 	quest.6D739E1A4F4304B3.title: "&f基础法术炮塔"
 	quest.6D8B17AD5ABEC7BC.title: "&6终极奇点"
 	quest.6DB493D9D20E8B45.quest_subtitle: "砸碎泥土！"
+	quest.6DB493D9D20E8B45.title: "&fSand"
 	quest.6DC738A434C5B02F.title: "&f击杀10只&d末影人"
 	quest.6DD9A75EE8C97710.quest_desc: ["&d死灵法师&r与常见的敌对生物同时刷出来的概率极低，如果未做好准备，碰到他们将极为致命。在虚空岛屿上，有时能发现生成它们的刷怪笼。"]
 	quest.6DD9A75EE8C97710.title: "&f击杀5只&d亡灵术士"
 	quest.6DEB5453D8E3BD76.quest_desc: ["This highly precious material can be found in nether fortresses, bastions, and other &cNether structures&r as loot or placed in the world. One dungeon is even rumored to have an &6entire block of netherite&r in its depths..."]
-	quest.6DEB5453D8E3BD76.title: "远古残骸与下界合金"
+	quest.6DEB5453D8E3BD76.title: "&fAncient Debris and Netherite"
 	quest.6E009D4747E3E485.quest_desc: [
 		"The next step in Enchanted's progression is obtaining &aMutandis&r. Remember the &eWitch's Oven&r? You'll need it for one of the ingredients! Be sure to extract all six to clear out the cauldron, or there will be mixed ingredients next time."
 		""
@@ -10225,6 +10292,7 @@
 	quest.6EE1C1B7FFB86C6C.quest_desc: ["&a镶孔符石&r能增加&b词缀&r物品&b镶嵌槽&r的数量。"]
 	quest.6EE1C1B7FFB86C6C.title: "&a镶孔符石"
 	quest.6EF660B54A169591.quest_subtitle: "Explode Tungsten Dust and a Catalyst"
+	quest.6EF660B54A169591.title: "&fBudding Tugnsten Geore"
 	quest.6F06B178DDBCAC38.quest_desc: [
 		"我们的下一步涉及到一些化学知识！"
 		""
@@ -10279,6 +10347,7 @@
 		"它的用途比普通的普通侦测器更多。"
 	]
 	quest.6F92C81242A198ED.title: "&d智能侦测器"
+	quest.6F9389517D5495A6.title: "&fRedstone Chunk"
 	quest.6F966D2071DBA50A.quest_desc: [
 		"The &aPlacer&r, &aDestroyer&r, and &aFertilizer&r blocks all operate on a gantry built with &aMachine Frames&r designating the area in which the machines operate. The working area must be rectangular and empty inside."
 		""
@@ -10366,6 +10435,7 @@
 		""
 		"You can also use the &aBinding Card&r on an Enderman to convert it into a &dDimensional Binding Card&r, which allows the Transmitter to work across dimensions."
 	]
+	quest.70C60D8F7C05BDA9.title: "&fDirt Essence"
 	quest.70D5BEA5CC437AB6.quest_desc: ["一大堆带附魔的护甲？用&d拆解宝典&r把想要的附魔祛下来！"]
 	quest.70D5BEA5CC437AB6.title: "&f保存附魔"
 	quest.71024D8DC19834AC.quest_desc: [
@@ -10515,7 +10585,7 @@
 		""
 		"It repairs armor durability, attracts XP orbs, prevents piglin aggression, provides projectile immunity and 20% damage reduction, doubles damage dealt to pillagers and illagers, and bonemeals nearby crops."
 		""
-		"It is also used to craft the &3Soul of Minecraft&r."
+		"它还用于制作&3Minecraft之魂&r。"
 	]
 	quest.723303AA9DCD6588.title: "&d世界力量（主世界之力）"
 	quest.7244D5DADCF0D7A2.quest_desc: [
@@ -10621,7 +10691,7 @@
 		"在FTB Skies 2中，你的小岛不是唯一可以定居的地方，你也不是第一个来到这里的生物。带着一些游历虚空的工具和一张追踪你位置的地图，出去探索吧！谁知道有什么朋友、敌人或宝藏在等着你……"
 		""
 		""
-		"[\"\", {\"text\": \"Head over to the \", \"color\": \"gray\"}, {\"text\": \"Traveller's Quest Chapter\", \"color\": \"blue\", \"italic\":true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"12468F8BF7B80737\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"See what lies ahead\"]} }, {\"text\": \" for more information.\", \"color\":\"gray\"}]"
+		"[\"\", {\"text\": \"前往\", \"color\": \"gray\"}, {\"text\": \"旅行家的探索章节\", \"color\": \"blue\", \"italic\":true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"12468F8BF7B80737\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"See what lies ahead\"]} }, {\"text\": \"了解更多信息。\", \"color\":\"gray\"}]"
 	]
 	quest.72DEF57BE1372907.title: "&b探索时间到&f！"
 	quest.72E5DE96165E5DE2.quest_desc: [
@@ -10904,6 +10974,7 @@
 		"There is rumor of some odd methods however, transmuting gold through some &dspiritual power&r, or through converting aluminum with &6goo&r..."
 	]
 	quest.75C7413F93325A3B.quest_subtitle: "Ore generate this, or..."
+	quest.75C7413F93325A3B.title: "&fSilver Essence"
 	quest.75CE1ACD81A3CAC5.quest_desc: [
 		"粉碎的&7锰&r必须在&3化学反应釜&r与强酸（如&e硫酸&r）混合，这项工序与提炼&c铬&r的过程类似。"
 		""
@@ -10930,12 +11001,13 @@
 	quest.75D3AC9CCA5A82E4.title: "&d动力合成器"
 	quest.75F7DB301ADF3667.quest_desc: ["金筛网是制作钻石等级前的绝佳选择。事实上，你获得的绿宝石碎片会是你要用的……"]
 	quest.75F7DB301ADF3667.quest_subtitle: "由苹果公司赞助"
+	quest.75F7DB301ADF3667.title: "&fMechanical Gold Mesh"
 	quest.76120A38BC49FB92.quest_desc: [
-		"&bPlastic Sheets&r are a main crafting component of several more advanced recipes."
+		"&bPlastic&r is a main crafting component of several more advanced recipes."
 		""
-		"You'll want a lot of these, especially if you are planning on making more Addons!"
+		"You'll want a lot of this, especially if you are planning on making more Addons!"
 		""
-		"These can be made in a Centrifuge using either &aRaw Biopolymer&r and water, or water and &3Polymer Resin&r made from Crude Oil."
+		"It can be made in a Centrifuge using either &aRaw Biopolymer&r and water, or water and &3Polymer Resin&r made from Crude Oil."
 	]
 	quest.76120A38BC49FB92.title: "&fPlastic Sheet"
 	quest.762BEF38A5CD79C5.title: "&6神圣&f升级法球"
@@ -11027,7 +11099,7 @@
 	quest.776E4614E4DACC9D.quest_desc: [
 		"有机物质紧密压实并放置一段时间后会分解成肥料。"
 		""
-		"One of the best ways to do this is with a &aComposter&r, using spare leaves or saplings for now. Make sure to hold onto at least one!"
+		"最佳方案是使用&a堆肥桶&r，目前可用多余的树叶或树苗进行堆肥。但务必保留至少一个！"
 	]
 	quest.776E4614E4DACC9D.title: "&f生长的绿色"
 	quest.7771675453230C65.quest_desc: [
@@ -11193,6 +11265,7 @@
 	]
 	quest.78C04CC1114AECF7.title: "&7魔精 &f异界树苗交易者"
 	quest.7900FC41FB06C932.quest_subtitle: "Use White Dye on a Catalyst"
+	quest.7900FC41FB06C932.title: "&fBudding Iron Geore"
 	quest.790B688EBB673CBA.quest_desc: [
 		"你可以用附魔装置制造出&d法师之花种子&r，用它满足你的纤维需求。"
 		""
@@ -11240,6 +11313,7 @@
 	quest.795A3ABA29AC0E4F.quest_desc: ["Generates power by consuming Frozen/Snow Items."]
 	quest.795A3ABA29AC0E4F.title: "&fFrosty Mycelial Generator"
 	quest.79758946937D2AE9.quest_desc: ["你的第一个筛网！非常适合收集一些简单的资源，或者采集更多植物来使用。"]
+	quest.79758946937D2AE9.title: "&fMechanical Cloth Mesh"
 	quest.7983727D0EE456FD.quest_desc: [
 		"&aJust Dire Things&r的资源获取有自己的一套机理。"
 		""
@@ -11275,8 +11349,6 @@
 		"对某些自动化很有用，比如用&2镰刀&r自动收割范围内的作物。"
 	]
 	quest.799515068A0B6D57.title: "&f自动点击"
-	quest.799CFD124816CA95.quest_subtitle: "传输流体"
-	quest.799CFD124816CA95.title: "§f流体传输标贴"
 	quest.79C4735198D85139.quest_desc: ["有了&d聚氯乙烯&r，现在你就可以给你的机器制作&d中级升级&r了！其工作速度比&3进阶升级&r快8倍。"]
 	quest.79C4735198D85139.title: "&d中级升级"
 	quest.79CC3BBEC8B16640.quest_desc: ["&a冰箱&r是冷藏食物的绝佳容器，升级后可为&d多方块厨房&r提供更多烹饪配方！"]
@@ -11358,10 +11430,12 @@
 		"Sometimes you wish you could pick up items from a little further away, or maybe a lot further away. There's A Mod For That!(tm)"
 		""
 		"Other mods may add their own types, but &eSimple Magnets&r keeps it...simple. Just craft a &aMagnet&r, activate it with right click, and while it's on your person any items in range will be swiftly pulled to your person to get picked up!"
-		"The &aAdvanced Magnet&r has a larger range and a filter menu opened by sneak + right clicking."
 		""
-		"Don't want your magnet to pull items in a particular area? Check out the &eDemagnetization Coils&r!"
-		"Any items in their range will ignore Simple Magnets pulling on them."
+		"The &dAdvanced Magnet&r has a larger range and a filter menu opened by sneak + right clicking."
+		""
+		"Don't want your magnet to pull items in a particular area? Check out the &2Demagnetization Coils&r!"
+		""
+		"Any items in their range will ignore &aSimple Magnets&r pulling on them."
 	]
 	quest.7B20023BE78887DA.title: "&aSimple Magnets"
 	quest.7B251A6CE40BAF4B.title: "&6觉醒精华&f工具"
@@ -11384,10 +11458,10 @@
 	quest.7B65BEA50EBC983D.quest_desc: [
 		"After entering the Nether void, various porcine creatures may appear if given a large enough surface. Some of them may attack you on sight, but these &aPiglins&r are neutral to anyone &bwearing gold&r."
 		""
-		"Gold ingots can be tossed nearby or handed to them directly, which they will consider for a moment before giving something back in return. This could be &7nether quartz&r or &8black quartz&r, or a fair number of other useful goods."
+		"&6Gold ingots&r can be tossed nearby or handed to them directly, which they will consider for a moment before giving something back in return. This could be &7nether quartz&r or &8black quartz&r, or a fair number of other useful goods."
 	]
 	quest.7B65BEA50EBC983D.quest_subtitle: "Nether Quartz and Black Quartz"
-	quest.7B65BEA50EBC983D.title: "Piglin Trading"
+	quest.7B65BEA50EBC983D.title: "&fPiglin Trading"
 	quest.7B6F974C02639696.title: "&f渔夫宝典"
 	quest.7B77544B48E690CB.quest_desc: [
 		"如果你想把你的所有存储方块都并入一个存储网络，做一个&a存储控制器&r就可以轻松解决。"
@@ -11512,14 +11586,14 @@
 		""
 		"It increases arrow damage, ignites and applies weakness to nearby hostile monsters, temporarily boosts damage and attack speed, provides immunity wither and magic, and grants explosive jumps."
 		""
-		"It is also used to craft the &3Soul of Minecraft&r."
+		"它还用于制作&3Minecraft之魂&r。"
 	]
 	quest.7CEB53DFAD26F485.quest_desc: [
 		"虽然木碗足够好用，但它不擅长携带流体。"
 		""
 		"一个合适的桶更适合这项任务，而烧制的黏土表现良好。"
 		""
-		"&7&oIt can even hold hot fluids! ...once..."
+		"&7&o它甚至能装热流体！……不过只能用一次……"
 	]
 	quest.7CEB53DFAD26F485.title: "&f黏土桶"
 	quest.7D0175F16F9A2D0D.quest_desc: ["&a电磁铁&r是一种能量驱动的饰品，它可以将最大5格范围内的物品吸到你的物品栏中。"]
@@ -11614,6 +11688,7 @@
 	]
 	quest.7E0BE6024525BF56.title: "&f时间手杖"
 	quest.7E1EEF5E7F216B49.quest_subtitle: "Tuff it out!"
+	quest.7E1EEF5E7F216B49.title: "&fZinc Essence"
 	quest.7E2399076FA8B7AC.quest_desc: [
 		"The &aMono-Directional Connector&r can connect two networks in a straight like up to 512 blocks away."
 		""
@@ -11627,6 +11702,7 @@
 		"&7这个过程稍微复杂一些，但即使没有矿石生成器也能完成。"
 	]
 	quest.7E49ACE4F6DBA10B.quest_subtitle: "Pour Molten Aluminum over a Catalyst, or..."
+	quest.7E49ACE4F6DBA10B.title: "&fBudding Aluminum Geore"
 	quest.7E4FF5A454039E47.quest_desc: [
 		"数字化存储的主要用处就是&6自动制造物品&r。"
 		""
@@ -11728,6 +11804,7 @@
 	]
 	quest.7EF7546FF007EF36.title: "&2生物燃料&r"
 	quest.7EFFA8FF1CAD80E3.quest_subtitle: "引爆焦黑石英与催化剂"
+	quest.7EFFA8FF1CAD80E3.title: "&fBudding Black Quartz Geore"
 	quest.7F141E9CF9676D0F.title: "&6凋灵预测产物"
 	quest.7F1B3EDA4DAFF0CB.quest_subtitle: "9x9的灌溉范围！"
 	quest.7F1B3EDA4DAFF0CB.title: "&b高级精华&f洒水壶"
@@ -11757,7 +11834,7 @@
 		""
 		"It negates fall damage, provides infinite water breathing, and fire and lava immunity, and allows conversion of dirt into grass."
 		""
-		"It is also used to craft the &3Soul of Minecraft&r."
+		"它还用于制作&3Minecraft之魂&r。"
 	]
 	quest.7F630367E12209A4.title: "&d自然力量（自然之力）"
 	quest.7F6363864003FFC0.quest_desc: [
@@ -11900,7 +11977,6 @@
 	reward.26C058E5EA512AFC.title: "重置魔法技能树"
 	reward.29C328309964A796.title: "*你感受到自己的罪孽爬上了脊背"
 	reward.2A9A44AE9AC7E045.title: "重置挖矿技能树"
-	reward.2BF7EEF146BBDBB7.title: "一个黏液惊喜"
 	reward.2C3F1A2D2E41F827.title: "+1 魔法技能点"
 	reward.2DEC2295D4153802.title: "1点&6远程&r技能点"
 	reward.30027B5188AB9E9B.title: "+1 魔法技能点"
@@ -11919,6 +11995,7 @@
 	reward.4E0A424438B78332.title: "+1 魔法技能点"
 	reward.4E2CEF4A69F4F992.title: "召唤风暴召唤师"
 	reward.5231D78F5A4E994D.title: "召唤一头嗅探兽"
+	reward.54BFA4339B81E086.title: "No More Infinity"
 	reward.54CFD44E7021DDAE.title: "&f1点&d魔法&f技能点"
 	reward.54EA6D3EAF40CD8A.title: "+1 魔法技能点"
 	reward.57DC44652AED36CC.title: "重置远程技能树"
@@ -12020,6 +12097,7 @@
 	task.027656729B7830D9.title: "&e观察&f：挖掘机"
 	task.027A2DFFEB1A7AC1.title: "&c伊哈根魔灵附身"
 	task.0290B3120DAD48ED.title: "&e找到&f：&c绯红天空村庄"
+	task.02B5F445F3572537.title: "&eObserve&f: &aBudding Sapphire Geore"
 	task.02C8EDC8ACEFC3B7.title: "&b四级&f生物种子"
 	task.02E6504A12BEF04F.title: "&f召唤一个&6魔王碎矿者"
 	task.033C0800D02082EF.title: "&f召唤一个&a水生动物"
@@ -12056,7 +12134,7 @@
 	task.0D0541DC3C0F1FDC.title: "&d终极精华&f工具"
 	task.0D41D1A509DD941A.title: "输入接口"
 	task.0E023EF28D4D86F3.title: "范围升级"
-	task.0E7B34D38F84AC11.title: "Any Brooch"
+	task.0E7B34D38F84AC11.title: "任意胸针"
 	task.0E8C4E7C9C329FA2.title: "&e观察&f：避雷针"
 	task.0E9F56ED131D460D.title: "充能催化剂"
 	task.0ECBFE9262249011.title: "任意魂染工具"
@@ -12064,8 +12142,9 @@
 	task.101BA566216C32AD.title: "AE线缆"
 	task.10328EE3113F66B2.title: "&c伊哈根使魔"
 	task.1053A406B1F9DAAD.title: "&e观察&f：&c火焰"
+	task.1091FDE6D51C1552.title: "&eObserve&f: &aBudding Lapis Geore"
 	task.10F21F1905A48313.title: "&f召唤一个&a特殊动物"
-	task.110E6C2DF4533110.title: "黑曜石粉"
+	task.11091C159F3468C6.title: "&eObserve&f: &aBudding Nickel Geore"
 	task.1114E07F8446FAA0.title: "方块管理"
 	task.115CB2D5036912BA.title: "任意#minecraft:leaves"
 	task.1203293F62D3F55F.title: "第三层：完成"
@@ -12092,7 +12171,7 @@
 	task.196A4B2F83C7B04E.title: "历经了一场麻烦的事故"
 	task.19FEB64A680EC482.title: "MI流体管道"
 	task.1A3819027110CDC5.title: "&f召唤一个&a普通动物"
-	task.1A4A5A59FFF815E2.title: "&c加热器&r"
+	task.1A4A5A59FFF815E2.title: "&cHeaters"
 	task.1A712E5D65A28EF4.title: "&dPocket Storage&f!"
 	task.1A827D742E3970EB.title: "垂钓效率"
 	task.1AAB99A83BB718BE.title: "任意德鲁伊树皮"
@@ -12163,7 +12242,7 @@
 	task.2DCE94139CB2078D.title: "&a实用升级"
 	task.2E079C677B170563.title: "&f基础粉笔"
 	task.2E1EB6FEC1AE28D0.title: "寂静装备蓝图"
-	task.2E2AAC08F926D8EE.title: "&fPower \\&\\ You"
+	task.2E2AAC08F926D8EE.title: "&f能量与你"
 	task.2E2CF42092AA43D8.title: "升级版&a磁盘接口"
 	task.2EE3E482A1A9CA90.title: "&f召唤一个&a妖精使魔"
 	task.2EFE6456D9A62378.title: "仪式复选标记"
@@ -12180,6 +12259,7 @@
 	task.329BA2B5EB3185FC.title: "拆解可获得的材料"
 	task.32FB3083ABF6FFB4.title: "&f通用机械能量线缆"
 	task.33E428135EC63BC7.title: "&fPlayer Transmitters"
+	task.34269033188C3D4E.title: "&eObserve&f: &aBudding Coal Geore"
 	task.344DCD6A3921B1ED.title: "效率升级"
 	task.345089696B5A7211.title: "饮食多样性"
 	task.346A097A266F1BCD.title: "&f任务线提示"
@@ -12201,6 +12281,7 @@
 	task.39D4236DC3AC99FA.title: "&a可选的绿色清洁能源&r"
 	task.39F659B8811B8581.title: "&f通用机械气体管道"
 	task.3A3DB763BBBC3F31.title: "&e观察&f：改良高炉"
+	task.3B09EA51A55C4756.title: "&eObserve&f: &aBudding Lead Geore"
 	task.3B199396B2DF554D.title: "&c下界&f蜂巢"
 	task.3B2325C6AF94E846.title: "重置近战技能树"
 	task.3B68713C93B4FAA8.title: "拾取升级"
@@ -12247,6 +12328,7 @@
 	task.4507BF42E5A8FD9D.title: "&b四级&f种子"
 	task.451E61A1ECC2650B.title: "FTB事件"
 	task.4544EA17F4CDD321.title: "了解词缀物品的特性"
+	task.458D3A3F4428BE1E.title: "&eObserve&f: &aBudding Tin Geore"
 	task.45CC5A8334951331.title: "我已阅读并同意以下条款"
 	task.461DC877898F48C2.title: "&f世界中的方块"
 	task.4668931B20B14CA6.title: "&6JustDire's &fEmpowered Coal"
@@ -12257,17 +12339,17 @@
 	task.47E296C60E6A6459.title: "&d五级&f生物种子"
 	task.48693C868CF2C4D6.title: "召唤一个&7异界树苗交易者"
 	task.48BB22683A4C50AD.title: "&a下级精华&f工具"
-	task.48DC30FE8B5DEC6D.title: "&6液态锂"
 	task.491E250D69066BBC.title: "&f击杀：1x &d凋灵&r"
 	task.497CF86F5BC5A7D0.title: "Basic Cables"
 	task.49DF96867DE0BB9D.title: "Any #malum:aspected_spirits"
 	task.4A0037264C36EBE1.title: "&e观察&f：&d电弧炉"
 	task.4A18F4F81AEA7421.title: "第一层：完成"
-	task.4A5574B73D5286B1.title: "Any equippable Rune"
+	task.4A5574B73D5286B1.title: "任意可佩戴的符文"
 	task.4B48F3912AE46B3C.title: "&f召唤一个&e被附身的幻翼"
 	task.4B65088186551D3C.title: "&f虚空升级"
 	task.4BB1855917140E38.title: "&b施放法术"
 	task.4BEC99EFB3F7A310.title: "&b适者生存"
+	task.4C0C6BE0D30DB185.title: "&eObserve&f: &aBudding Iron Geore"
 	task.4C1919EBB6897E10.title: "高级蜂箱"
 	task.4C37818287E9D1ED.title: "&e观察&f：柴油发电机"
 	task.4CB210B43A88AD57.title: "任意元素土壤"
@@ -12277,6 +12359,8 @@
 	task.4F3BD1ECA2A53285.title: "&f通用机械流体管道"
 	task.4F725B8E1BB9B8D1.title: "&e绑定仪式"
 	task.4FAE5B3549E023A9.title: "&aFTB金字塔"
+	task.5021B204BDFD9928.title: "&eObserve&f: &aBudding Topaz Geore"
+	task.50AE2F612F55EC15.title: "&eObserve&f: &aBudding Redstone Geore"
 	task.5110161504E22255.title: "&f净化一只&e恼鬼"
 	task.51876BE373B08431.title: "&dEnder &fGates"
 	task.51960CB0D71494BF.title: "&fReactors"
@@ -12305,7 +12389,7 @@
 	task.56BA1011DDE093D0.title: "&f粗锇"
 	task.56E777FE460B3ED0.title: "&d金属板"
 	task.575F4232C0E9D957.title: "魔法装备"
-	task.579A856376CC3518.title: "Any Malum curio"
+	task.579A856376CC3518.title: "任意灵灾饰品"
 	task.57A9D2B9030E96F9.title: "&2初级精华&f护甲"
 	task.57FEAD1653F0F2DD.title: "&f召唤一个&a村民"
 	task.580FC1A9FFD21906.title: "我已经阅读并同意创造有史以来最好的药剂"
@@ -12316,6 +12400,7 @@
 	task.58DC7CD2A4F595DD.title: "&f击杀：1x &d高位唤魔者"
 	task.591E2F53EFC69C37.title: "&9二阶"
 	task.5A0B7C6C05EEBEE2.title: "&6抽屉升级"
+	task.5A362F978460462C.title: "&eObserve&f: &aBudding Copper Geore"
 	task.5A4A1F326C2F75BC.title: "&b五芒星&r已完成"
 	task.5A7D16167EA18581.title: "&d末地&f蜂巢"
 	task.5AC8CFBCB4375AC0.title: "召唤一个&d火灵熔炼工"
@@ -12342,6 +12427,7 @@
 	task.5F6FF27A6B03405E.title: "create cobblegen"
 	task.5FD1AC346811740C.title: "&f击杀：1x &6死者之王"
 	task.5FD3ED03945F754B.title: "&f召唤一个&a鹦鹉使魔"
+	task.60578D8CD1499673.title: "&eObserve&f: &aBudding Ruby Geore"
 	task.6064031AABA0D8D1.title: "&f击杀：1x &d药剂师"
 	task.60763988647E0462.title: "瓶装&d魔法&f"
 	task.60789ACB2B0A6E74.title: "&b灌注精华"
@@ -12392,7 +12478,7 @@
 	task.6CDF504643794087.title: "&e观察&f：灌装机"
 	task.6CE262DF23E5DC46.title: "你击杀了交易者……"
 	task.6D5A51E40562FF88.title: "&c三级&f种子"
-	task.6D8527E9C8C06246.title: "Soulful Drops"
+	task.6D8527E9C8C06246.title: "灵魂掉落物"
 	task.6E13E2A3DC19FBC3.title: "用一支穿透箭同时击杀两只幻翼"
 	task.6E326027133166B6.title: "&a海德林魔灵附身"
 	task.6F06D38FC0B0F1EF.title: "&f修理一个矿工"
@@ -12405,6 +12491,7 @@
 	task.6FBF3A3F71E35DF0.title: "进阶机器"
 	task.700CAE784D0CDAAB.title: "&d三阶"
 	task.70A33763E18B8F83.title: "蓝色条纹蜜蜂"
+	task.70CC66090B7739F7.title: "&eObserve&f: &aBudding Gold Geore"
 	task.70D1CD95527B6359.title: "探索"
 	task.7143B1EFAB0A1582.title: "&f群聚召唤"
 	task.71B63908FDE6CC61.title: "&bAll-In-One Tools"

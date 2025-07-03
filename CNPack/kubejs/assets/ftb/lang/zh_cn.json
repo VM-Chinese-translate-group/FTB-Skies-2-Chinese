@@ -86,6 +86,7 @@
     "ftb.tooltip.ftbstuff.diamond_basalt_generator":"§aⓘ§f Generates §616§f Basalt / Sec",
     "ftb.tooltip.ftbstuff.netherite_basalt_generator":"§aⓘ§f Generates §632§f Basalt / Sec",
     "ftb.tooltip.sophisticatedstorage.upgrade_requirement":"§aⓘ§f Use §aUpgrades§f to obtain §5Iron Chests§f/§5Barrels§f.",
+    "ftb.tooltip.sophisticatedstorage.cardboard_box_blacklist":"§c⚠§f Not Moveable with §6Cardboard Boxes§f.",
     "ftb.tooltip.irons_spellbooks.netherward_tincture":"§aⓘ§f Can be obtained from a §6Apothecarist Trade§f.",
     "ftb.tooltip.malum.natural_quartz":"§aⓘ§7 A §dPlaceable Variant§7 of §fQuartz§7.",
     "ftb.tooltip.minecraft.snowball":"§aⓘ§f Can be Obtained through the §aHarvesting§f of a §bSnowbell Plant§f.",
