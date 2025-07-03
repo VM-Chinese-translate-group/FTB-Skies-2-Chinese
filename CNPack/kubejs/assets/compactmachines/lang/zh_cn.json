@@ -1,8 +1,8 @@
 {
-    "machine.compactmachines.colossal":"Compact Machine (Colossal)",
-    "machine.compactmachines.giant":"Compact Machine (Giant)",
-    "machine.compactmachines.large":"Compact Machine (Large)",
-    "machine.compactmachines.normal":"Compact Machine (Normal)",
-    "machine.compactmachines.small":"Compact Machine (Small)",
-    "machine.compactmachines.tiny":"Compact Machine (Tiny)"
+    "machine.compactmachines.colossal":"空间压缩机械（超大型）",
+    "machine.compactmachines.giant":"空间压缩机械（巨型）",
+    "machine.compactmachines.large":"空间压缩机械（大型）",
+    "machine.compactmachines.normal":"空间压缩机械（标准）",
+    "machine.compactmachines.small":"空间压缩机械（小型）",
+    "machine.compactmachines.tiny":"空间压缩机械（微型）"
 }

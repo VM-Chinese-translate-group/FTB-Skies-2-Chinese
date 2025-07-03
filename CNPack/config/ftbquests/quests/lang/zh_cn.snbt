@@ -382,9 +382,9 @@
 		""
 		"&6烈焰&r筛网可以消耗一些替代资源以直接获得金属锭，但是筛子必须在&6下界&r中运行。"
 	]
-	quest.03837E8A75948DE5.quest_subtitle: "\"Not this S*** Again\" - AlfredGG"
+	quest.03837E8A75948DE5.quest_subtitle: "“怎么又是这破事” - AlfredGG"
 	quest.03837E8A75948DE5.title: "&f老方法"
-	quest.0385764FC547BCC9.title: "&aMekanism Installer Bag"
+	quest.0385764FC547BCC9.title: "&a通用机械工厂安装器奖励包"
 	quest.038C26F86776F520.quest_desc: [
 		"&b天空村庄&r的空岛上散布着许多前期极为稀有的资源，比如&2绿宝石&r、&d紫水晶&r，以及一些特殊的模组材料，如&5灵魂石&r。"
 		""
@@ -999,7 +999,7 @@
 		""
 		"这些灰烬有多种用途，例如合成火把或压缩成粗制的&a木炭&r。"
 		""
-		"&aAsh&r can also be obtained if creatures die while set on fire."
+		"生物在燃烧时死亡也会掉落&a灰烬&r。"
 	]
 	quest.098F5497E0ABED3E.quest_subtitle: "火焰的渴求"
 	quest.098F5497E0ABED3E.title: "&fFiresticks"
@@ -1524,7 +1524,7 @@
 		""
 		"要注意的是，一些配方需要在&a提取机&r的特定方向放置某些方块。"
 		""
-		"&7The easiest way to get pointed dripstone is by hammering dripstone blocks on a cutting board."
+		"&7最简单的获取滴水石锥的方式是在砧板上用锤子敲击滴水石块。"
 	]
 	quest.0EBA58B7FD2AF36D.title: "&a提取独特材料&r"
 	quest.0EBEF0B2D2F13C3D.quest_desc: [
@@ -2108,9 +2108,9 @@
 	quest.1553CDD5ED42DF02.quest_desc: [
 		"滤水器和筛子在过去一直很好用，现在也毫无问题！"
 		""
-		"This path uses &eCreate&r sifters to potentially automate the production of resources from this essence-rich void."
+		"这条路径使用&e机械动力&r的筛子来实现自动化从这片富含精华的虚空中生产资源。"
 		""
-		"To start, drip some water over &7Andesite&r obtained from the &aStrainer&r. This will form deposits of &2Andesite Amalgam&r that can be mined for early &7Andesite Alloy&r."
+		"首先，将从&a滤水器&r中获得的&7安山岩&r上滴一些水。这将形成&2安山岩混合物矿床&r，开采后可获得早期的&7安山合金&r。"
 	]
 	quest.1553CDD5ED42DF02.quest_subtitle: "创造点滴"
 	quest.1553CDD5ED42DF02.title: "&f勘探之路"
@@ -2303,7 +2303,7 @@
 	quest.17C82FAD796695DE.quest_desc: [
 		"致力于勘探的一次性新手奖励！"
 		""
-		"&n&4Warning!&r Completing this quest by checking the checkmark will set your team on the Path of Prospecting and lockout the other 2 path rewards."
+		"&n&4警告！&r通过勾选完成标记来完成此任务将让你的团队踏上勘探之道，并锁定其他2条路径的奖励。"
 	]
 	quest.17C82FAD796695DE.title: "&f缓解应力"
 	quest.17CD9810D724547E.quest_desc: [
@@ -2995,7 +2995,7 @@
 	quest.1F0ADF87B63B50AC.title: "&3雷霆术士套装"
 	quest.1F0C3CD47947DA8D.quest_desc: ["万一遭遇不测，你可能会丢失你的&e个人缩放设备&r。在以压缩空间开局的整合包中，这会非常麻烦……所以我们送你一个备用。"]
 	quest.1F0C3CD47947DA8D.quest_subtitle: "哦不！"
-	quest.1F0C3CD47947DA8D.title: "&fPSD PTSD"
+	quest.1F0C3CD47947DA8D.title: "&f个人缩放设备丢失焦虑"
 	quest.1F2E5FBD59466D57.quest_desc: [
 		"&a流体模块&r让&d路由器&r可以处理流体，前提是其中必须有流体储存容器，比如&a桶&r，或者&a储罐&r。"
 		""
@@ -3078,12 +3078,12 @@
 	]
 	quest.1FEEBCA6D633B479.title: "&a末影存储"
 	quest.2006F24858B4B4BB.quest_desc: [
-		"There's a lot of basic resources in Minecraft, and mods add way more on top of that!"
+		"我的世界中有大量基础资源，而模组在此基础上增添了更多！"
 		""
-		"[\"If you're struggling how to obtain a particular type, you can check the \", {\"text\": \"First Materials chapter\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6AA8A1FF1C8089F7\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to the First Materials chapter\"]} }, \" for a guide on some of ways you can get your hands on it rather than wade through a dozen pages of JEI on your own.\"]"
+		"[\"如果你不清楚特定材料的获取方式，可查阅\", {\"text\": \"初始材料章节\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6AA8A1FF1C8089F7\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往初始材料章节\"]} }, \"获得指引，无需独自翻阅十几页JEI。\"]"
 	]
-	quest.2006F24858B4B4BB.quest_subtitle: "How Do I Craft This Again?"
-	quest.2006F24858B4B4BB.title: "&6First Materials Guide"
+	quest.2006F24858B4B4BB.quest_subtitle: "这个物品还能怎么合成来着？"
+	quest.2006F24858B4B4BB.title: "&6初始材料指南"
 	quest.201BB935C9972574.quest_desc: [
 		"小型法术槽升级可以使用大量&c疣猪皮&r及少量&b奥术布匹&r来合成。"
 		""
@@ -3466,30 +3466,30 @@
 		""
 		"玩家可以使用命令&b/events toggle ftb:[事件名称]&r来禁用或重新启用每个事件，以满足自己的喜好。"
 		""
-		"&3Allay:&r A helpful allay will appear, offering to trade one item for another."
+		"&3Allay：&r一个有用的悦灵会出现，想和你以物换物。"
 		""
-		"&3Apoth Boss:&rIf the player has the Bad Omen effect, an Apotheosis boss spawns in their vicinity."
+		"&3Apoth Boss：&r如果玩家有不祥之兆效果，一个神话模组的Boss会在其附近生成。"
 		""
-		"&3Creeper:&r Just a wee prank :)"
+		"&3Creeper：&r只是一个小小的恶作剧：）"
 		"{@pagebreak}"
-		"&3Goat:&r Players standing near the edge may receive a little nudge to help them experience the void."
+		"&3Goat：&r站在岛屿边缘附近的玩家可能会被轻轻推一下，帮助他们体验虚空。"
 		""
-		"&3Fairy:&r This benevolent invisible sprite provides a little boost before it moves on"
+		"&3Fairy：&r这个友好的隐形精灵会在离开前提供一点加速。"
 		""
-		"&3Frogs:&r If there's a body of water nearby, a frog or squid spawns in."
+		"&3Frogs：&r如果附近有水，则会生成一只青蛙或鱿鱼。"
 		""
 		"{@pagebreak}"
-		"&3Llama:&r A special sort of llama spawns that spits helpful items at players. If placed on a lead, these can be kept around and fed to spit resources instead."
+		"&3Llama：&r一种特殊的羊驼会生成，向玩家吐出有用的物品。如果拴在绳子上，它们可以被留下并喂养以吐出资源。"
 		""
-		"&3Phantom:&r A malicious phantom swoops down to drop an anvil on someone's head! Free anvil tho..."
+		"&3Phantom：&r一只恶意的幻翼俯冲下来，将铁砧砸在某人头上！免费的铁砧……"
 		""
-		"&3Pyromancer:&r A novice pyromancer stops by, if you'd like to trade a few magical goods."
+		"&3Pyromancer：&r一个初级火术士会顺道拜访，如果你愿意交易一些魔法物品的话。"
 		""
-		"&3Wandering Trader:&r One of the many traders from the Wanderer guild pays a visit, offering various items to help in your adventures."
+		"&3Wandering Trader：&r来自流浪商人公会的众多商人之一会来拜访你，提供各种物品来帮助你的冒险。"
 	]
-	quest.2485AE690A2FAB3E.title: "&6FTB &fEvents"
-	quest.24952389F0C8B0B1.quest_desc: ["Summon the &dMaster of Storms&r to bring the thunder! Useful for lightning crafting recipes!"]
-	quest.24952389F0C8B0B1.title: "&dMaster of Storms"
+	quest.2485AE690A2FAB3E.title: "&6FTB&f事件"
+	quest.24952389F0C8B0B1.quest_desc: ["召唤能带来闪电的风暴召唤师！在你需要利用闪电来合成物品的时候非常有用！"]
+	quest.24952389F0C8B0B1.title: "&d风暴召唤师"
 	quest.24A60877D5FAD4A5.quest_desc: [
 		"The &dForce of Explorer&r provides all effects of the talisman used to craft it:"
 		""
@@ -3835,9 +3835,9 @@
 	quest.285560808B9ED997.quest_desc: [
 		"&d末影珍珠&r是&a末影人&r掉落的珍贵战利品，可以被投掷来使你到处传送。"
 		""
-		"These are also needed to find your way to the &dEnder Dragon&r and to craft many of the custom Gateways in this pack!"
+		"这也是你前往挑战&d末影龙&r以及合成整合包中众多定制传送门所必需的！"
 		""
-		"You can find endermen in great abundance in the Warped Forest biome in the nether or from a mob farm. Legend says Piglins are also likely to trade for a bit of gold!"
+		"你可以在下界的诡异森林群系或刷怪塔中找到大量末影人。传说猪灵也会乐意用少量金子交易！"
 	]
 	quest.285560808B9ED997.title: "&d末影珍珠"
 	quest.287D00E1CE70F334.quest_desc: [
@@ -4076,7 +4076,7 @@
 	quest.2B0CFC423CE66AAE.title: "&fTwerk To Work"
 	quest.2B21D8D19E0413AC.quest_desc: ["一位沉睡的远古巫妖深藏在&b下界地牢&r之中。与其“遗体”交互，即可挑战它那强大的力量。"]
 	quest.2B21D8D19E0413AC.title: "&f击杀&6死者之王&r"
-	quest.2B2BB685DE246BCC.quest_desc: ["消耗熔岩（可选加入红石）发电。"]
+	quest.2B2BB685DE246BCC.quest_desc: ["消耗熔岩（加入红石可选）发电。"]
 	quest.2B2BB685DE246BCC.title: "&f菌丝网络熔岩发电机"
 	quest.2B2C42F215FD0385.quest_desc: ["&d时钟轴承&r会根据我的世界中的时间转动连接的结构，像时钟一样。"]
 	quest.2B2C42F215FD0385.title: "&d时钟轴承"
@@ -4180,7 +4180,7 @@
 		"&aAluminum&r can be a tricky precious resource to find, and you may need to resort to a general purpose ore generator to get your hands on some."
 		""
 		"[\"Though if you could get your hands on some iron, you could use your \", {\"text\": \"experience\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"469C88B6CEC1F9E7\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to the Cognition questline\"]} }, \" and a puddle of molten ender pearls to convert it.\"]"
-		"&7This process is a little more complicated, but still possible without an ore generator."
+		"&7这个过程稍微复杂一些，但即使没有矿石生成器也能完成。"
 	]
 	quest.2C4584B4B17872BF.quest_subtitle: "Ore generate this, or..."
 	quest.2C55C6EBABA86BA8.quest_desc: ["This &2Simple Block Breaker&r is bound and determined to use its tool to break the block in front of it. Even if the tool is a stick and the block is obsidian. It'll get there."]
@@ -4188,9 +4188,9 @@
 	quest.2C55C6EBABA86BA8.title: "&f初级方块破坏器"
 	quest.2C7CFA7BB32C25BA.title: "&d末影&f升级法球"
 	quest.2C82E0C4537DEF65.quest_desc: [
-		"&aStrainers&r, when placed in water, will passively collect the essence drifting through void waters, letting them form familiar resources both material and organic."
+		"当&a滤水器&r被放置在水中时，会从水中吸收虚空之精华，并将它们形成我们熟悉的物质和有机资源。"
 		""
-		"The &2nature essence&r that strainers collect is useful for a vast variety of plant based goods!"
+		"滤水器收集的&2自然精华&r可用于合成多种植物制品！"
 	]
 	quest.2C82E0C4537DEF65.title: "&f别太辛苦"
 	quest.2C9DEB9B0DF58090.quest_desc: [
@@ -4505,7 +4505,7 @@
 		""
 		"它仍然很烫，所以小心脚下！"
 		""
-		"&eNote&r: a &aSkillet&r placed over a campfire can hold a stack of items to cook the same way!"
+		"&e注意&r：在营火上放一个&a煎锅&r可以容纳一堆物品进行烹饪！"
 	]
 	quest.2FD12A67DBC2D15D.title: "&f营火"
 	quest.2FEC8EC3EB592A03.quest_desc: [
@@ -4695,7 +4695,7 @@
 		"一旦能够附魔，另一个触发闪电的方法就是在雷暴期间用带有&3引雷&r附魔的&e三叉戟&r攻击实体或避雷针。"
 	]
 	quest.31C81ED0EEA8FD34.quest_subtitle: "关于闪电的信息"
-	quest.31C81ED0EEA8FD34.title: "&fStrike the Earth"
+	quest.31C81ED0EEA8FD34.title: "&f震彻大地"
 	quest.31C83D9253FFF685.quest_desc: [
 		"&3工业涡轮&r是垂直的多方块结构，能将&7蒸汽&r转化为能量，并可选择使用&9饱和冷凝器&r将其变回&b水&r。请注意，如果涡轮的能量已满，它将停止运行或排出蒸汽。"
 		""
@@ -5349,7 +5349,7 @@
 	quest.3738420663297397.title: "&a能否别把灯打开"
 	quest.373AB8CD1B10D694.quest_desc: ["减少完成一次操作的耗时。"]
 	quest.373AB8CD1B10D694.title: "&b效率升级"
-	quest.374BD99B92E454B7.quest_desc: ["Spawns a helpful allay, offering to trade one item for another. More trades will open the farther you progress."]
+	quest.374BD99B92E454B7.quest_desc: ["召唤一个友好的家伙，提供物品交易。随着游戏进程的推进，可进行的交易种类将逐渐增加。"]
 	quest.374BD99B92E454B7.title: "&a悦灵事件"
 	quest.37588DD1D7FA6795.title: "&f巧克力派"
 	quest.37930E206E34084C.quest_desc: [
@@ -5632,7 +5632,7 @@
 		"{@pagebreak}"
 		"你可以把它放到饰品栏，然后按快捷键就能打开。如果背包在主手的话直接潜行右键就能放下。"
 		""
-		"[\"To learn more, check out the \", {\"text\": \"General Storage\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"049DE43A1B31C38F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to General Storage chapter\"]} }, \" chapter.\"]"
+		"[\"要了解更多，请查看\", {\"text\": \"通用存储\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"049DE43A1B31C38F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往通用存储章节\"]} }, \"章节。\"]"
 	]
 	quest.3A180E0119D95D05.title: "&a背包"
 	quest.3A1D7C93E69415F0.quest_desc: ["&d红石工程块&r是一个消耗纸的&6区块加载机&r。"]
@@ -6047,7 +6047,7 @@
 	]
 	quest.3E1D73D9FEAF119F.title: "&d强化黑曜石粉"
 	quest.3E25D043676C1CE9.quest_desc: [
-		"Dripping water over dirt can work it into a much more malleable form: &7Clay&r!"
+		"将水滴在泥土上可以将其加工成更具延展性的形式：&7黏土&r！"
 		""
 		"这种物质因其多功能性而常受重视，尽管它似乎比以前想象的要容易获得……多么平衡啊！"
 	]
@@ -6064,11 +6064,11 @@
 	]
 	quest.3E63D54D05A3E300.title: "&6液态锂"
 	quest.3E6ED23A93BCBD03.quest_desc: [
-		"Once you've gotten enough grains of infinity and no longer wish to obtain them at a low Y level you can disable this feature with this quest. "
+		"当你获得足够的无限粉，且不需要在低Y轴高度获取时，你就可通过此任务来禁用此功能。"
 		""
-		"Once you disable them, you'll no longer be able to obtain them in this manner and will need to produce them by normal crafting. You can always grab one from the emergency items if needed however."
+		"禁用后，你将无法以此方式获取它们，而需通过常规合成获得。但紧急时仍可从应急物品中取用。"
 	]
-	quest.3E6ED23A93BCBD03.title: "Not so Infinity"
+	quest.3E6ED23A93BCBD03.title: "并非无限"
 	quest.3E7001F4A49CF787.quest_desc: [
 		"&6进气口&r可以放在真空冷冻室的物品输入总线上，以制造&9液态空气&r。"
 		""
@@ -6138,7 +6138,7 @@
 	quest.3F80D4097EA8C49B.quest_desc: [
 		"将流体缓慢而稳定地滴在不同材料上是非常有用的策略。"
 		""
-		"By clicking a bowl on a water source, it turns into a bowl of water, which can be placed in the &aDripper&r to break down leaves into more water and convert other materials!"
+		"通过用碗点击水源可以舀出一碗水，将其放入&a滴水器&r中，便可以将树叶分解成更多的水并转化其他材料！"
 		""
 		"另一种更巧妙的方法制作更多水是在流动的水下方使用骨粉。如果有足够的空间，海草会长出并将水流变成水源方块！"
 	]
@@ -7148,9 +7148,9 @@
 	quest.4A7A15ECB8ABDF88.quest_desc: [
 		"&7锌&r是发展机械动力的关键部分。所以你改怎么获得呢？"
 		""
-		"You can hammer tuff on a cutting board, sure, but after that you can use Create's crushing wheels to crush tuff automatically, &2GeOres&r, make Zinc seeds, breed &eZinc Bees&r, or go into &dMalum&r. You may even find other ways such as ore generators and lense of the miner!"
+		"你当然可以在砧板上用锤子敲打凝灰岩来获取。在此之后你也可以使用粉碎轮来自动粉碎凝灰岩、使用&2GeOres&r模组、培育&e锌蜜蜂&r、或者投身于&dMalum&r模组中。说不定你还能发现其他方法呢！"
 	]
-	quest.4A7A15ECB8ABDF88.title: "&fWhere is the Zinc?"
+	quest.4A7A15ECB8ABDF88.title: "&f锌从哪来？"
 	quest.4AB10BE58B13DBDD.title: "&eAE2 1k磁盘奖励包"
 	quest.4AB3FD2B686C1F10.quest_desc: [
 		"A standard chalice gives +1x base power"
@@ -8532,8 +8532,8 @@
 	quest.595F8AC6DB5DACD8.quest_desc: [
 		"在原版获得第一颗&b钻石&r是件大事，在这也不简单！"
 		""
-		"In order to get diamonds you'll need to either channel &elightning&r into emeralds (as items on the ground), drip &ePolymorphic Fluid&r onto an emerald block or, more sanely, find some &balready existing&r somewhere in the void. Once you have a few, you'll be able to generate more."
-		"A &6wandering trader&r might also make this conversion for you..."
+		"要获得钻石，你需要将&e闪电&r引导到绿宝石上（当物品在地上时），将&e多态流体&r滴在绿宝石块上，或者更明智地在虚空中寻找一些已经存在的钻石。一旦有了一点，你就能够生产更多。"
+		"&6流浪商人&r也能帮你完成这个转化……"
 		""
 		"&7&oThere is also the rare chance to fish up some diamond essence, and other more technical methods exist that could generate diamonds such as &acoal compression&r&7&o or a &aLens of the Miner&r&o..."
 	]
@@ -9005,9 +9005,9 @@
 	quest.5FCEA8229BB6955C.quest_desc: [
 		"就简简单单地离开你那点稳定的地面进入虚空，在你落回到地面之前，你就可以获得&a无限粉&r。这比预期的要宽容得多，除了你落回实心地面上发出的轻微撞击声。"
 		""
-		"This is based on how close you are to the depths of the void, and hanging out &elow enough&r will allow you to passively collect &aGrains&r."
+		"这取决于你离虚空深处有多近，在&e足够低&r的位置停留能让你被动地收集&a无限粉&r。"
 	]
-	quest.5FCEA8229BB6955C.title: "&aGrains of Infinity"
+	quest.5FCEA8229BB6955C.title: "&a无限粉"
 	quest.5FD42392FCECCB47.quest_desc: [
 		"With the power of &dEnderic Lasers&r, you can focus the laser to mine Amethyst Clusters to get &dFluxite&r."
 		""
@@ -9441,7 +9441,7 @@
 		""
 		"&7还有类似的一个方块用于生成玄武岩，熔岩与流动的&e蜂蜜&r&7和&8巧克力&r&7也有特殊的反应……"
 	]
-	quest.63F1648925C79179.title: "&fCompact Cobble"
+	quest.63F1648925C79179.title: "&f紧凑的造石机"
 	quest.63FEA36CF7C088F3.quest_desc: ["Getting into &bEnderIO&r? This is the basic generator that you can make to generate power for your machines."]
 	quest.63FEA36CF7C088F3.title: "&fStirling Generator"
 	quest.6428F17B7E4873A6.quest_desc: [
@@ -10201,7 +10201,7 @@
 	quest.6DD9A75EE8C97710.quest_desc: ["&d死灵法师&r与常见的敌对生物同时刷出来的概率极低，如果未做好准备，碰到他们将极为致命。在虚空岛屿上，有时能发现生成它们的刷怪笼。"]
 	quest.6DD9A75EE8C97710.title: "&f击杀5只&d亡灵术士"
 	quest.6DEB5453D8E3BD76.quest_desc: ["This highly precious material can be found in nether fortresses, bastions, and other &cNether structures&r as loot or placed in the world. One dungeon is even rumored to have an &6entire block of netherite&r in its depths..."]
-	quest.6DEB5453D8E3BD76.title: "Ancient Debris and Netherite"
+	quest.6DEB5453D8E3BD76.title: "远古残骸与下界合金"
 	quest.6E009D4747E3E485.quest_desc: [
 		"The next step in Enchanted's progression is obtaining &aMutandis&r. Remember the &eWitch's Oven&r? You'll need it for one of the ingredients! Be sure to extract all six to clear out the cauldron, or there will be mixed ingredients next time."
 		""
@@ -10252,12 +10252,12 @@
 	quest.6F3FDE3AF1678CE5.quest_desc: [
 		"肥沃的草地在许多地方都很常见，但这里不是。虚空中的大多数岛屿都只有一种传播自身的草。"
 		""
-		"If you find yourself without grass in your starting location, get some Grains of Infinity and toss them in a puddle of water with some dirt, and the essence-rich fluid will convert the two into a &aGrass Seed&r."
+		"如果你初始位置没有草，获取一些无限粉，将它们与一些泥土一起扔进水里，富含精华的液体会将两者转化为&a草种子&r。"
 		""
-		"When you right click a grass seed onto dirt it will convert to normal grass and &bspread to nearby dirt&r. Be careful not to let the fake grass overtake your dirt first! A path or stone barrier can help prevent this."
+		"对泥土右键使用草种子会将其转化为草方块，并&b蔓延至附近的泥土上&r。当心别让伪装草方块先占据你的泥土！铺设道路或石质屏障可阻止蔓延。"
 	]
 	quest.6F3FDE3AF1678CE5.quest_subtitle: "触碰是可选项"
-	quest.6F3FDE3AF1678CE5.title: "&fGetting Grass"
+	quest.6F3FDE3AF1678CE5.title: "&f获取草"
 	quest.6F49DC432E5968AC.quest_desc: [
 		"The &dSlowed Talisman&r increases damage by 25% while the player is affected by slowness."
 		""
@@ -10618,7 +10618,7 @@
 	quest.72DEF57BE1372907.quest_desc: [
 		"有了基础资源的积累，是时候看看虚空中形成了哪些其他的陆地了！"
 		""
-		"In FTB Skies 2, your little island isn't the only place to settle, nor are you the first being to come here. With a few tools to travel the void and a map to track your location, go out and explore! Who knows what friends or foes or treasures await you..."
+		"在FTB Skies 2中，你的小岛不是唯一可以定居的地方，你也不是第一个来到这里的生物。带着一些游历虚空的工具和一张追踪你位置的地图，出去探索吧！谁知道有什么朋友、敌人或宝藏在等着你……"
 		""
 		""
 		"[\"\", {\"text\": \"Head over to the \", \"color\": \"gray\"}, {\"text\": \"Traveller's Quest Chapter\", \"color\": \"blue\", \"italic\":true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"12468F8BF7B80737\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"See what lies ahead\"]} }, {\"text\": \" for more information.\", \"color\":\"gray\"}]"
@@ -10835,7 +10835,7 @@
 	quest.74B2332D6BBC0721.quest_desc: [
 		"&a传奇之眼&r是一种可以让流浪者在虚空中找到通往漂浮村庄之路的特殊物品。只需使用该物品，它就会在消散之前短暂地朝一个方向漂移来指引方向。"
 		""
-		"&eTIP&r: Need some &3Gunpowder&r to make TNT? You could make a mob farm, sure, but our chosen way is to just craft the &3Overworldian Nights Gateway&r any time you need some. Each wave will drop gunpowder which should give you more than enough to progress easily!"
+		"&e提示&r：需要&3火药&r制作TNT？当然可以造刷怪塔，但我们推荐你在需要时直接合成&3主世界夜境传送门&r。每波袭击都会掉落火药，足够轻松推进进度！"
 	]
 	quest.74B2332D6BBC0721.title: "&a传奇之眼"
 	quest.74BED9604BDE1EA5.quest_desc: [
@@ -11556,7 +11556,7 @@
 		""
 		"警告：&c切记一次只扔一张纸！扔多张纸会浪费整组物品！&r"
 	]
-	quest.7D2375372CF328C3.title: "&fAir Dash"
+	quest.7D2375372CF328C3.title: "&f空中冲刺"
 	quest.7D23D1C9DE75721F.title: "&f击杀20只&c骷髅"
 	quest.7D3A5740B5857874.quest_desc: [
 		"&d权限管理器&r可设置不同用户对各种网络功能的权限。"
@@ -11624,7 +11624,7 @@
 		"&aAluminum&r can be a tricky precious resource to find, and you may need to resort to a general purpose ore generator to get your hands on some."
 		""
 		"[\"Though if you could get your hands on some iron, you could use your \", {\"text\": \"experience\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"469C88B6CEC1F9E7\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to the Cognition questline\"]} }, \" and a puddle of molten ender pearls to convert it.\"]"
-		"&7This process is a little more complicated, but still possible without an ore generator."
+		"&7这个过程稍微复杂一些，但即使没有矿石生成器也能完成。"
 	]
 	quest.7E49ACE4F6DBA10B.quest_subtitle: "Pour Molten Aluminum over a Catalyst, or..."
 	quest.7E4FF5A454039E47.quest_desc: [
@@ -11727,7 +11727,7 @@
 		"生物质还能用来制取&6乙烯&r，这种气体不仅能量密度高，而且还可以用来制造&e高密度聚乙烯颗粒&r。"
 	]
 	quest.7EF7546FF007EF36.title: "&2生物燃料&r"
-	quest.7EFFA8FF1CAD80E3.quest_subtitle: "Explode Black Quartz and a Catalyst"
+	quest.7EFFA8FF1CAD80E3.quest_subtitle: "引爆焦黑石英与催化剂"
 	quest.7F141E9CF9676D0F.title: "&6凋灵预测产物"
 	quest.7F1B3EDA4DAFF0CB.quest_subtitle: "9x9的灌溉范围！"
 	quest.7F1B3EDA4DAFF0CB.title: "&b高级精华&f洒水壶"
@@ -11917,7 +11917,7 @@
 	reward.4D979D15145E5BAF.title: "流浪商人事件"
 	reward.4DF1D3710DEEB1AB.title: "&f1点&d魔法&f技能点"
 	reward.4E0A424438B78332.title: "+1 魔法技能点"
-	reward.4E2CEF4A69F4F992.title: "Summon Master of Storms"
+	reward.4E2CEF4A69F4F992.title: "召唤风暴召唤师"
 	reward.5231D78F5A4E994D.title: "召唤一头嗅探兽"
 	reward.54CFD44E7021DDAE.title: "&f1点&d魔法&f技能点"
 	reward.54EA6D3EAF40CD8A.title: "+1 魔法技能点"
@@ -12063,7 +12063,7 @@
 	task.0F323A1897237ED1.title: "召唤一个&c晴天魔灵"
 	task.101BA566216C32AD.title: "AE线缆"
 	task.10328EE3113F66B2.title: "&c伊哈根使魔"
-	task.1053A406B1F9DAAD.title: "&eObserve&f: &cFire"
+	task.1053A406B1F9DAAD.title: "&e观察&f：&c火焰"
 	task.10F21F1905A48313.title: "&f召唤一个&a特殊动物"
 	task.110E6C2DF4533110.title: "黑曜石粉"
 	task.1114E07F8446FAA0.title: "方块管理"
@@ -12130,7 +12130,7 @@
 	task.247B79A552BA6CCE.title: "穿戴整齐，出门探险！"
 	task.2499252075BAB96E.title: "&a一级&f种子"
 	task.250E86F309F06DC5.title: "召唤一个&7魔精清洁工"
-	task.251D75C6FA5F28AD.title: "&eVisit Dimension&f: &cNether"
+	task.251D75C6FA5F28AD.title: "&e造访维度&f：&c下界"
 	task.25225ED0412FB977.title: "&f召唤一个&6魔王熔炼工"
 	task.257DB4A574FF1E69.title: "&f游玩&b 1 小时"
 	task.25C2CD55816664D4.title: "&fl族群召唤"
@@ -12169,7 +12169,7 @@
 	task.2EFE6456D9A62378.title: "仪式复选标记"
 	task.2F24789F418ADCF8.title: "锄头"
 	task.2FB8AB5ADB1F8D26.title: "击杀回响"
-	task.30028AE66B544B97.title: "&eVisit Dimension&r: &aCompact Machine World"
+	task.30028AE66B544B97.title: "&e造访维度&r：&a压缩空间"
 	task.307A38BAB131FECA.title: "Collecting Souls"
 	task.30C33068A3EA7072.title: "标记"
 	task.30C463CFF560647D.title: "&f修理一支粉笔"
@@ -12435,12 +12435,12 @@
 	task.79182D262D72B84F.title: "&f试炼召唤"
 	task.79684EDD87FFB47C.title: "&f击杀20只&c苦力怕"
 	task.7A024E88591A8862.title: "&f召唤一个&a蝙蝠使魔"
-	task.7A101D6B281579D5.title: "First Materials Guide"
+	task.7A101D6B281579D5.title: "初始材料指南"
 	task.7A2B58FD3F6E8094.title: "&f任意&e精致存储&a控制器"
 	task.7AC3BD79A70049CA.title: "&f击杀：1x &6牧师"
 	task.7AFA5CC185A71520.title: "欢迎游玩&e神化&r模组！"
 	task.7B71A001741520D3.title: "击杀50只&c凋灵骷髅"
-	task.7BA0B2F953A998BF.title: "Lava Bucket"
+	task.7BA0B2F953A998BF.title: "熔岩桶"
 	task.7C0D41D354010177.title: "重置运动技能树"
 	task.7C7AAE907BD49D83.title: "&aEasy Villagers&r"
 	task.7D4016582D0FDBDB.title: "&f召唤一个&e被附身的末影人"
