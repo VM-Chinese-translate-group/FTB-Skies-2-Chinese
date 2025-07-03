@@ -1,16 +1,18 @@
 {
-	"unlocked_by_default": true,
-	"title": "Melee",
-	"icon": {
-		"type": "item",
-		"data": {
-			"item": "diamond_sword"
-		}
-	},
-	"background": {
-		"texture": "ftb:textures/misc/lush_caves.png",
-		"width": 1920,
-		"height": 1080,
-		"position": "fill_height"
-	}
+    "unlocked_by_default": true,
+    "title": {
+        "translate": "puffish_skills.category.melee.title"
+    },
+    "icon": {
+        "type": "item",
+        "data": {
+            "item": "diamond_sword"
+        }
+    },
+    "background": {
+        "texture": "ftb:textures/misc/lush_caves.png",
+        "width": 1920,
+        "height": 1080,
+        "position": "fill_height"
+    }
 }

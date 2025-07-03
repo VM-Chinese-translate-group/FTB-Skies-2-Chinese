@@ -1,16 +1,18 @@
 {
-  "unlocked_by_default": true,
-  "title": "Magic",
-  "icon": {
-    "type": "item",
-    "data": {
-      "item": "ars_nouveau:creative_spell_book"
+    "unlocked_by_default": true,
+    "title": {
+        "translate": "puffish_skills.category.magic.title"
+    },
+    "icon": {
+        "type": "item",
+        "data": {
+            "item": "ars_nouveau:creative_spell_book"
+        }
+    },
+    "background": {
+        "texture": "ftb:textures/quests/backgrounds/ironspells_king.png",
+        "width": 1920,
+        "height": 1080,
+        "position": "fill_height"
     }
-  },
-  "background": {
-    "texture": "ftb:textures/quests/backgrounds/ironspells_king.png",
-    "width": 1920,
-    "height": 1080,
-    "position": "fill_height"
-  }
 }
