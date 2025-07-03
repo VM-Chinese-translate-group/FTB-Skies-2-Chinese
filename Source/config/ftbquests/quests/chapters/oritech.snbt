@@ -820,7 +820,7 @@
 					id: "50091A3762338524"
 					item: {
 						count: 1
-						id: "oritech:plastic_sheet"
+						id: "industrialforegoing:plastic"
 					}
 					random_bonus: 2
 					type: "item"
@@ -892,7 +892,7 @@
 					id: "6FB47C76AE6B6A11"
 					item: {
 						count: 1
-						id: "oritech:plastic_sheet"
+						id: "industrialforegoing:plastic"
 					}
 					random_bonus: 2
 					type: "item"
@@ -955,7 +955,7 @@
 					id: "15DBD82DE37F1CA8"
 					item: {
 						count: 1
-						id: "oritech:plastic_sheet"
+						id: "industrialforegoing:plastic"
 					}
 					random_bonus: 2
 					type: "item"
@@ -997,7 +997,7 @@
 					id: "402DF14C0622FB62"
 					item: {
 						count: 1
-						id: "oritech:plastic_sheet"
+						id: "industrialforegoing:plastic"
 					}
 					random_bonus: 2
 					type: "item"
@@ -1042,9 +1042,10 @@
 					id: "0D346E0A5D62778E"
 					item: {
 						count: 1
-						id: "oritech:plastic_sheet"
+						id: "industrialforegoing:plastic"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1095,7 +1096,7 @@
 					id: "1193AF61D7E75E24"
 					item: {
 						count: 1
-						id: "oritech:plastic_sheet"
+						id: "industrialforegoing:plastic"
 					}
 					random_bonus: 2
 					type: "item"
@@ -1148,7 +1149,7 @@
 					id: "0C44E1D6F335475B"
 					item: {
 						count: 1
-						id: "oritech:plastic_sheet"
+						id: "industrialforegoing:plastic"
 					}
 					random_bonus: 2
 					type: "item"
@@ -1198,7 +1199,7 @@
 					id: "590349B01718DB0E"
 					item: {
 						count: 1
-						id: "oritech:plastic_sheet"
+						id: "industrialforegoing:plastic"
 					}
 					random_bonus: 2
 					type: "item"
@@ -1838,7 +1839,7 @@
 					id: "4EF203B341B92770"
 					item: {
 						count: 1
-						id: "oritech:plastic_sheet"
+						id: "industrialforegoing:plastic"
 					}
 					random_bonus: 2
 					type: "item"
@@ -1954,7 +1955,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "2A85CA853CF7DD4E"
-				item: { count: 1, id: "oritech:plastic_sheet" }
+				item: { count: 1, id: "industrialforegoing:plastic" }
 				type: "item"
 			}]
 			x: 4.0d

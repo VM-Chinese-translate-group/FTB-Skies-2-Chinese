@@ -425,6 +425,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "1029F8E7C523BC66"
+				permission_level: 2
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -792,8 +793,8 @@
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "206EB1DD6B3ED7A7"
+					count: 5L
+					id: "42BB206DD3569A99"
 					item: { count: 5, id: "magic_coins:silver_coin" }
 					type: "item"
 				}
@@ -1998,6 +1999,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "4D979D15145E5BAF"
+				permission_level: 2
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -2030,6 +2032,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "6E84C01F4D769E8F"
+				permission_level: 2
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -2442,6 +2445,7 @@
 					id: "minecraft:turtle_egg"
 				}
 				id: "7F6BAAED74F08FE4"
+				permission_level: 2
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -2815,6 +2819,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "3D8D3AFE6F8E741E"
+				permission_level: 2
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -2841,6 +2846,7 @@
 					id: "minecraft:armadillo_scute"
 				}
 				id: "1C5F7D1F57C698CE"
+				permission_level: 2
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -2867,6 +2873,7 @@
 					id: "minecraft:sniffer_egg"
 				}
 				id: "5231D78F5A4E994D"
+				permission_level: 2
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -2925,6 +2932,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "36415A47C49ABE7C"
+				permission_level: 2
 				type: "command"
 			}]
 			tasks: [{
@@ -2982,6 +2990,7 @@
 						id: "ftbquests:custom_icon"
 					}
 					id: "4E2CEF4A69F4F992"
+					permission_level: 2
 					type: "command"
 				}
 				{

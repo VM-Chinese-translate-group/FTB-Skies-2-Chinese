@@ -335,6 +335,15 @@
 			id: "3D687BF735E54AE8"
 			rewards: [
 				{
+					count: 3
+					id: "2DF4C6DD04450531"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					exclude_from_claim_all: true
 					id: "2396FF1DBF2129EE"
 					table_id: 4634798818103374212L
@@ -342,6 +351,7 @@
 				}
 				{
 					id: "19EB650216578509"
+					team_reward: false
 					type: "xp"
 					xp: 50
 				}
@@ -1150,7 +1160,8 @@
 			}
 			id: "35CCB0359596DE32"
 			rewards: [{
-				command: "/puffish_skills skills reset @p puffish_skills:melee"
+				command: "/puffish_skills skills reset @s puffish_skills:melee"
+				feedback_message: "Melee Skills Have Been Reset"
 				icon: {
 					components: {
 						"ftbquests:icon": "ftb:item/skill_reset_melee"
@@ -1181,7 +1192,8 @@
 			}
 			id: "794C1EAA6252BC44"
 			rewards: [{
-				command: "/puffish_skills skills reset @p puffish_skills:ranged"
+				command: "/puffish_skills skills reset @s puffish_skills:ranged"
+				feedback_message: "Ranged Skills Have Been Reset"
 				icon: {
 					components: {
 						"ftbquests:icon": "ftb:item/skill_reset_ranged"
@@ -1212,7 +1224,8 @@
 			}
 			id: "6A22434958A72911"
 			rewards: [{
-				command: "/puffish_skills skills reset @p puffish_skills:mining"
+				command: "/puffish_skills skills reset @s puffish_skills:mining"
+				feedback_message: "Mining Skills Have Been Reset"
 				icon: {
 					components: {
 						"ftbquests:icon": "ftb:item/skill_reset_mining"
@@ -1243,7 +1256,8 @@
 			}
 			id: "0E19151FCABF4759"
 			rewards: [{
-				command: "/puffish_skills skills reset @p puffish_skills:athletics"
+				command: "/puffish_skills skills reset @s puffish_skills:athletics"
+				feedback_message: "Athletic Skills Have Been Reset"
 				icon: {
 					components: {
 						"ftbquests:icon": "ftb:item/skill_reset_athletics"
@@ -1274,7 +1288,7 @@
 			}
 			id: "7C8E0FEEEF80F70B"
 			rewards: [{
-				command: "/puffish_skills skills reset @p puffish_skills:magic"
+				command: "/puffish_skills skills reset @s puffish_skills:magic"
 				feedback_message: "Magic Skills Have Been Reset"
 				icon: {
 					components: {
@@ -1307,6 +1321,7 @@
 			id: "4BF0B397B0B9EE8C"
 			rewards: [{
 				command: "/puffish_skills skills reset @p puffish_skills:defense"
+				feedback_message: "Defense Skills Have Been Reset"
 				icon: {
 					components: {
 						"ftbquests:icon": "ftb:item/skill_reset_defense"
@@ -1337,7 +1352,16 @@
 			id: "5119EFBB9FB39CDE"
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					id: "4E1B9075FD66C51A"
+					item: {
+						count: 1
+						id: "irons_spellbooks:archevoker_logbook_translated"
+					}
+					type: "item"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/charge.png"
@@ -1347,15 +1371,8 @@
 					id: "4E0A424438B78332"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
-				}
-				{
-					id: "4E1B9075FD66C51A"
-					item: {
-						count: 1
-						id: "irons_spellbooks:archevoker_logbook_translated"
-					}
-					type: "item"
 				}
 			]
 			shape: "square"
@@ -1378,7 +1395,8 @@
 			id: "1FE2B36C234A35C9"
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/charge.png"
@@ -1433,7 +1451,8 @@
 			id: "5A8CEB600CAADCD2"
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1474,7 +1493,8 @@
 			id: "2B86CBB61E10051F"
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1529,7 +1549,8 @@
 			id: "099481C1F0718B67"
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1585,7 +1606,8 @@
 			id: "2B21D8D19E0413AC"
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1638,7 +1660,8 @@
 			id: "6DD9A75EE8C97710"
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 5"
+					command: "/puffish_skills points add @s puffish_skills:magic 5"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/charge.png"
@@ -1682,18 +1705,24 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "10C1C42C23186B55"
-					table_id: 9029519111662458436L
-					type: "loot"
-				}
-				{
 					id: "2CC2CDB2F8CFD089"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10C1C42C23186B55"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+				{
+					id: "2C9CE379FCD322EA"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -1710,18 +1739,24 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "471FD9E2C7C96589"
-					table_id: 9029519111662458436L
-					type: "loot"
-				}
-				{
 					id: "25DF5E559596F465"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "471FD9E2C7C96589"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+				{
+					id: "573C897527C9570D"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -1738,10 +1773,10 @@
 			optional: true
 			rewards: [
 				{
-					id: "080C6E471C844047"
+					id: "79897E0E73879DF0"
 					item: {
 						count: 1
-						id: "mob_grinding_utils:solid_xp_baby"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1750,6 +1785,12 @@
 					id: "5DCFC508D79105EF"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					id: "13F77928CB45764F"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -1766,10 +1807,10 @@
 			optional: true
 			rewards: [
 				{
-					id: "4919ADF137F57409"
+					id: "645AD3731F107D7E"
 					item: {
 						count: 1
-						id: "mob_grinding_utils:solid_xp_baby"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1778,6 +1819,12 @@
 					id: "632A72473B58691B"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					id: "239E2722CAF7D0DC"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -1794,10 +1841,10 @@
 			optional: true
 			rewards: [
 				{
-					id: "733B8B7CAD04C136"
+					id: "4B83976EBCE086BF"
 					item: {
 						count: 1
-						id: "mob_grinding_utils:solid_xp_baby"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1806,6 +1853,12 @@
 					id: "54E6DD27490AD5C2"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					id: "184913E79EA29A65"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -1835,6 +1888,12 @@
 					table_id: 9029519111662458436L
 					type: "random"
 				}
+				{
+					id: "294232DBE3615A37"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
+				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -1850,10 +1909,10 @@
 			optional: true
 			rewards: [
 				{
-					id: "47E67BC42E3E40CA"
+					id: "3B089CB31B753B84"
 					item: {
 						count: 1
-						id: "mob_grinding_utils:solid_xp_baby"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1862,6 +1921,12 @@
 					id: "49493F74F9B29549"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					id: "2973AA1249D22179"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -1878,10 +1943,10 @@
 			optional: true
 			rewards: [
 				{
-					id: "67A7822505E89A17"
+					id: "4D8F4E4251C08740"
 					item: {
 						count: 1
-						id: "mob_grinding_utils:solid_xp_baby"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1890,6 +1955,12 @@
 					id: "77038F8A75D39F87"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					id: "766E9A96956B2D1E"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -1906,18 +1977,24 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "132470E0BC86D05D"
-					table_id: 9029519111662458436L
-					type: "loot"
-				}
-				{
 					id: "21448CE9C3324049"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "132470E0BC86D05D"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+				{
+					id: "4059CEC8CDF583B1"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -1934,10 +2011,10 @@
 			optional: true
 			rewards: [
 				{
-					id: "40B789CCA9A6F140"
+					id: "16E957D0C8019F66"
 					item: {
 						count: 1
-						id: "mob_grinding_utils:solid_xp_baby"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1946,6 +2023,12 @@
 					id: "21C5DDED41A6B0B0"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					id: "4EC2E6F2A914FFDC"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -1962,10 +2045,10 @@
 			optional: true
 			rewards: [
 				{
-					id: "4DF49DCBE0375966"
+					id: "67B9A403C4368E54"
 					item: {
 						count: 1
-						id: "mob_grinding_utils:solid_xp_baby"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1974,6 +2057,12 @@
 					id: "08AB2938E3052476"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					id: "11923B1B7EB64C16"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -1990,10 +2079,10 @@
 			optional: true
 			rewards: [
 				{
-					id: "7B485F4E2B7FBAFD"
+					id: "5D88858C71CF2B81"
 					item: {
 						count: 1
-						id: "mob_grinding_utils:solid_xp_baby"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -2002,6 +2091,12 @@
 					id: "6C5FCD4D11539180"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					id: "38D31E8A07C98693"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -2018,10 +2113,10 @@
 			optional: true
 			rewards: [
 				{
-					id: "2802B980338F63A4"
+					id: "37A434A0F7BC2844"
 					item: {
 						count: 1
-						id: "mob_grinding_utils:solid_xp_baby"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -2030,6 +2125,12 @@
 					id: "6060B8BD72C47A8E"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					id: "3DA91A2C0355F826"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -2046,10 +2147,10 @@
 			optional: true
 			rewards: [
 				{
-					id: "563C4241FEAA203C"
+					id: "425C39DF399DC719"
 					item: {
 						count: 1
-						id: "mob_grinding_utils:solid_xp_baby"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -2058,6 +2159,12 @@
 					id: "48F16FDF7AF4E6C6"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					id: "011465CFFDAE387B"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -2074,10 +2181,10 @@
 			optional: true
 			rewards: [
 				{
-					id: "4C0206C7535A2202"
+					id: "3BD01C90F6F9003A"
 					item: {
 						count: 1
-						id: "mob_grinding_utils:solid_xp_baby"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -2086,6 +2193,12 @@
 					id: "210FA346C877CC52"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					id: "799D5901BA70A2E2"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -2102,10 +2215,10 @@
 			optional: true
 			rewards: [
 				{
-					id: "54174F7E097E7A36"
+					id: "2CFD5525C6FEE2A0"
 					item: {
 						count: 1
-						id: "mob_grinding_utils:solid_xp_baby"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -2114,6 +2227,12 @@
 					id: "56BA63FB2DC63A6E"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					id: "4B113973DF49B734"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -2130,10 +2249,10 @@
 			optional: true
 			rewards: [
 				{
-					id: "1B8795C30BBA1EA7"
+					id: "1D31A489C4011A09"
 					item: {
 						count: 1
-						id: "mob_grinding_utils:solid_xp_baby"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -2142,6 +2261,12 @@
 					id: "0C14F52B7C0858C6"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					id: "615BEC7EEF939297"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -2158,10 +2283,10 @@
 			optional: true
 			rewards: [
 				{
-					id: "61599280A6A177D8"
+					id: "7E31C39ED1B95C7E"
 					item: {
 						count: 1
-						id: "mob_grinding_utils:solid_xp_baby"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -2170,6 +2295,12 @@
 					id: "3AB4137F3A00B658"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					id: "22EC0401074897D4"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -2275,7 +2406,8 @@
 			id: "50BB7069AC5A1A14"
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:magic 1"
+					command: "/puffish_skills points add @s puffish_skills:magic 1"
+					feedback_message: "Magic Skills Levelled Up"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/charge.png"

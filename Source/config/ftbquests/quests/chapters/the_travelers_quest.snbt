@@ -177,6 +177,14 @@
 			id: "2444739C768D6C1A"
 			rewards: [
 				{
+					id: "6E6FEC69740098C1"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "4712B166F8C20033"
 					item: {
 						components: {
@@ -187,14 +195,6 @@
 						}
 						count: 1
 						id: "minecraft:painting"
-					}
-					type: "item"
-				}
-				{
-					id: "6E6FEC69740098C1"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}

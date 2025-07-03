@@ -185,18 +185,18 @@
 			min_width: 250
 			rewards: [
 				{
-					id: "6F2BE316BF27F025"
-					item: {
-						count: 1
-						id: "ae2:not_so_mysterious_cube"
-					}
-					type: "item"
-				}
-				{
 					id: "659AD36453F9AC47"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6F2BE316BF27F025"
+					item: {
+						count: 1
+						id: "ae2:not_so_mysterious_cube"
 					}
 					type: "item"
 				}
@@ -2182,6 +2182,11 @@
 			y: -5.0d
 		}
 		{
+			dependencies: [
+				"1069575C4B5BCE39"
+				"37104662F0BDDE66"
+			]
+			dependency_requirement: "one_started"
 			icon: {
 				id: "ae2:sky_stone_block"
 			}
@@ -2195,6 +2200,8 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "7C18A8BC8F5747A6"
@@ -2209,8 +2216,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -5.0d
+			x: -3.5d
+			y: -3.0d
 		}
 	]
 }

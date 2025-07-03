@@ -409,9 +409,13 @@
 			id: "5B9E15BA5FDF0F24"
 			rewards: [
 				{
-					id: "756344C4B4441166"
-					type: "xp"
-					xp: 10
+					count: 5
+					id: "519C1731F8841997"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					count: 4
@@ -423,13 +427,10 @@
 					type: "item"
 				}
 				{
-					count: 5
-					id: "519C1731F8841997"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+					id: "756344C4B4441166"
+					team_reward: false
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "square"

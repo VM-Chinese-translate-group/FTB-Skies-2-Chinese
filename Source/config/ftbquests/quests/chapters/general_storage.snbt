@@ -289,6 +289,7 @@
 				}
 				{
 					id: "5F10B2244EEBAF19"
+					team_reward: false
 					type: "xp"
 					xp: 10
 				}
@@ -323,6 +324,7 @@
 				}
 				{
 					id: "629B907F1ACE6BDC"
+					team_reward: false
 					type: "xp"
 					xp: 10
 				}
@@ -364,6 +366,7 @@
 				}
 				{
 					id: "1098FB1EC177C654"
+					team_reward: false
 					type: "xp"
 					xp: 10
 				}
@@ -393,6 +396,7 @@
 				}
 				{
 					id: "7D695943FC7BC470"
+					team_reward: false
 					type: "xp"
 					xp: 10
 				}
@@ -441,6 +445,7 @@
 				}
 				{
 					id: "4F22207D66A4F626"
+					team_reward: false
 					type: "xp"
 					xp: 10
 				}
@@ -475,6 +480,7 @@
 				}
 				{
 					id: "6E4530774128A919"
+					team_reward: false
 					type: "xp"
 					xp: 10
 				}
@@ -544,6 +550,7 @@
 				}
 				{
 					id: "57BA47322DEAF495"
+					team_reward: false
 					type: "xp"
 					xp: 10
 				}
@@ -579,6 +586,7 @@
 				}
 				{
 					id: "586DC82009CA7C22"
+					team_reward: false
 					type: "xp"
 					xp: 10
 				}
@@ -615,6 +623,7 @@
 				}
 				{
 					id: "2709A47B55FB8191"
+					team_reward: false
 					type: "xp"
 					xp: 10
 				}
@@ -1090,9 +1099,12 @@
 			optional: true
 			rewards: [
 				{
-					id: "576C38E63A1AA53A"
-					type: "xp"
-					xp: 10
+					id: "08C8BEACB8E91AAE"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					count: 3
@@ -1104,12 +1116,10 @@
 					type: "item"
 				}
 				{
-					id: "08C8BEACB8E91AAE"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+					id: "576C38E63A1AA53A"
+					team_reward: false
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "rsquare"
@@ -1431,6 +1441,7 @@
 				}
 				{
 					id: "185927D4D5923E9F"
+					team_reward: false
 					type: "xp"
 					xp: 50
 				}
