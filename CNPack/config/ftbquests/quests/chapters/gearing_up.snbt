@@ -1,0 +1,4679 @@
+{
+			autofocus_id: "37F99696A47264FD"
+			default_hide_dependency_lines: false
+			default_min_width: 250
+			default_quest_shape: ""
+			filename: "gearing_up"
+			group: "293B0513F4340751"
+			icon: {
+				components: {
+					"ftbquests:icon": "occultism:item/repair_icon"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2EF5133328945047"
+			images: [
+				{
+					alpha: 128
+					height: 2.0d
+					image: "apothic_enchanting:blocks/treasure_shelf_side"
+					rotation: 0.0d
+					width: 2.0d
+					x: 12.0d
+					y: -5.0d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_h_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: -7.75d
+					y: -0.09d
+				}
+				{
+					alpha: 128
+					height: 2.5d
+					image: "apothic_enchanting:blocks/heart_seashelf"
+					rotation: 0.0d
+					width: 2.5d
+					x: 8.0d
+					y: -3.5d
+				}
+				{
+					alpha: 128
+					height: 2.4d
+					image: "apothic_enchanting:blocks/echoing_sculkshelf"
+					rotation: 0.0d
+					width: 2.4d
+					x: 17.0d
+					y: -2.5d
+				}
+				{
+					alpha: 128
+					height: 2.4d
+					image: "apothic_enchanting:blocks/draconic_endshelf"
+					rotation: 0.0d
+					width: 2.4d
+					x: 23.0d
+					y: -3.5d
+				}
+				{
+					alpha: 128
+					height: 2.5d
+					image: "apothic_enchanting:blocks/sight_side"
+					rotation: 0.0d
+					width: 2.5d
+					x: 5.0d
+					y: 3.5d
+				}
+				{
+					alpha: 128
+					height: 2.4d
+					image: "apothic_enchanting:blocks/ender_library/side"
+					rotation: 0.0d
+					width: 2.4d
+					x: 23.0d
+					y: -1.5d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_h_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: -7.53d
+					y: -3.02d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_h_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: -1.1071428571428612d
+					y: -3.0d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_d_end.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: -1.68d
+					y: 1.21d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_d_end.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: -2.54d
+					y: -4.39d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_d_end.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: -8.0d
+					y: -1.3d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_q_water.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: -5.6d
+					y: 1.9d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_q_water.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: -4.5d
+					y: -5.0d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_h_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: -3.13d
+					y: 1.91d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_d_end.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: -6.9d
+					y: 1.2d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_q_water.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: -1.0d
+					y: -0.17d
+				}
+				{
+					alpha: 200
+					height: 7.0d
+					image: "ftb:textures/quests/titles_and_logos/apoth_logo.png"
+					order: -1
+					rotation: 0.0d
+					width: 7.0d
+					x: -4.5d
+					y: -1.5d
+				}
+				{
+					alpha: 128
+					height: 2.5d
+					image: "apothic_enchanting:blocks/hellshelf"
+					rotation: 0.0d
+					width: 2.5d
+					x: 2.0d
+					y: 0.5d
+				}
+				{
+					alpha: 128
+					height: 2.5d
+					image: "apothic_enchanting:blocks/seashelf"
+					rotation: 0.0d
+					width: 2.5d
+					x: 2.0d
+					y: -3.5d
+				}
+				{
+					alpha: 128
+					height: 2.0d
+					image: "apothic_enchanting:blocks/filtering_shelf/occupied"
+					rotation: 0.0d
+					width: 2.0d
+					x: 5.0d
+					y: -5.5d
+				}
+				{
+					color: 5636095
+					height: 3.0d
+					image: "malum:item/geas/pact_of_tidal_affinity"
+					order: 2
+					rotation: 0.0d
+					width: 3.0d
+					x: 5.0d
+					y: -3.5d
+				}
+				{
+					alpha: 128
+					height: 2.5d
+					image: "apothic_enchanting:blocks/blazing_hellshelf"
+					rotation: 0.0d
+					width: 2.5d
+					x: 8.0d
+					y: 0.5d
+				}
+				{
+					color: 16751972
+					height: 3.0d
+					image: "malum:item/geas/pact_of_the_flamekeeper"
+					order: 2
+					rotation: 0.0d
+					width: 3.0d
+					x: 5.0d
+					y: 0.5d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_h_water.png"
+					rotation: 180.0d
+					width: 1.0d
+					x: 4.02d
+					y: -3.3d
+				}
+				{
+					color: 16738922
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_d_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 5.66d
+					y: 1.139d
+				}
+				{
+					color: 16743034
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_q_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 4.5d
+					y: 0.75d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_q_water.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 6.05d
+					y: -3.87d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_z_sculk.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: -6.32d
+					y: -4.5d
+				}
+				{
+					alpha: 128
+					height: 2.0d
+					image: "apothic_enchanting:blocks/geode_shelf"
+					rotation: 0.0d
+					width: 2.0d
+					x: -1.0d
+					y: 3.0d
+				}
+				{
+					color: 43690
+					height: 4.0d
+					image: "malum:item/geas/pact_of_the_high_priest"
+					order: -2
+					rotation: 0.0d
+					width: 4.0d
+					x: 12.0d
+					y: -1.5d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_d_end.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 11.5d
+					y: -2.0d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_l_end.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 11.5d
+					y: -1.0d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_q_end.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 13.0d
+					y: -1.0d
+				}
+				{
+					alpha: 128
+					height: 2.4d
+					image: "apothic_enchanting:blocks/echoing_deepshelf"
+					rotation: 0.0d
+					width: 2.4d
+					x: 15.0d
+					y: -2.5d
+				}
+				{
+					color: 11141290
+					height: 3.0d
+					image: "malum:item/geas/oath_of_the_overkeen_eye"
+					order: -2
+					rotation: 0.0d
+					width: 3.0d
+					x: 20.0d
+					y: -1.5d
+				}
+				{
+					alpha: 128
+					height: 2.4d
+					image: "apothic_enchanting:blocks/soul_touched_sculkshelf"
+					rotation: 0.0d
+					width: 2.4d
+					x: 17.0d
+					y: 0.0d
+				}
+				{
+					alpha: 128
+					height: 2.4d
+					image: "apothic_enchanting:blocks/pearl_endshelf"
+					rotation: 0.0d
+					width: 2.4d
+					x: 23.0d
+					y: 0.5d
+				}
+				{
+					alpha: 128
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_d_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 21.04d
+					y: -0.471d
+				}
+				{
+					alpha: 128
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_q_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 19.111d
+					y: -0.65d
+				}
+				{
+					alpha: 128
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_u_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 20.161d
+					y: -2.71d
+				}
+				{
+					height: 1.0d
+					image: "minecraft:item/diamond_helmet"
+					rotation: 0.0d
+					width: 1.0d
+					x: -4.0d
+					y: 4.5d
+				}
+				{
+					height: 1.0d
+					image: "minecraft:item/diamond_chestplate"
+					rotation: 0.0d
+					width: 1.0d
+					x: -4.0d
+					y: 5.5d
+				}
+				{
+					height: 1.0d
+					image: "minecraft:item/diamond_leggings"
+					rotation: 0.0d
+					width: 1.0d
+					x: -4.0d
+					y: 6.5d
+				}
+				{
+					height: 1.0d
+					image: "minecraft:item/diamond_boots"
+					rotation: 0.0d
+					width: 1.0d
+					x: -4.0d
+					y: 7.5d
+				}
+				{
+					height: 0.75d
+					image: "minecraft:item/diamond_sword"
+					rotation: 0.0d
+					width: 0.75d
+					x: -5.0d
+					y: 4.5d
+				}
+				{
+					height: 0.75d
+					image: "minecraft:item/diamond_pickaxe"
+					rotation: 0.0d
+					width: 0.75d
+					x: -5.0d
+					y: 5.5d
+				}
+				{
+					height: 0.75d
+					image: "minecraft:item/bow"
+					rotation: 0.0d
+					width: 0.75d
+					x: -5.0d
+					y: 6.5d
+				}
+				{
+					height: 0.75d
+					image: "minecraft:item/fishing_rod"
+					rotation: 0.0d
+					width: 0.75d
+					x: -5.0d
+					y: 7.5d
+				}
+				{
+					alpha: 128
+					height: 2.0d
+					image: "apothic_enchanting:blocks/library/side2"
+					rotation: 0.0d
+					width: 2.0d
+					x: 5.0d
+					y: -1.5d
+				}
+				{
+					alpha: 128
+					height: 2.4d
+					image: "apothic_enchanting:blocks/soul_touched_deepshelf"
+					rotation: 0.0d
+					width: 2.4d
+					x: 15.0d
+					y: 0.0d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_z_sculk.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 17.75d
+					y: -3.5d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_m_sculk.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 15.850000000000001d
+					y: -0.57d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_d_sculk.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 13.0d
+					y: -2.0d
+				}
+				{
+					color: 16748920
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_h_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 9.147d
+					y: -0.265d
+				}
+				{
+					color: 16743034
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_q_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 7.233d
+					y: 1.391d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_h_water.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 7.338d
+					y: -2.717d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_q_water.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 9.088d
+					y: -4.217d
+				}
+				{
+					alpha: 128
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_u_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 24.0d
+					y: -4.5d
+				}
+				{
+					alpha: 128
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_q_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 24.0d
+					y: 1.5d
+				}
+				{
+					alpha: 128
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_d_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 22.0d
+					y: 0.5d
+				}
+				{
+					alpha: 128
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_a_fire.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: 22.0d
+					y: -2.5d
+				}
+				{
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_d_end.png"
+					rotation: 0.0d
+					width: 1.0d
+					x: -0.8d
+					y: -1.3d
+				}
+				{
+					alpha: 128
+					height: 1.0d
+					image: "apothic_enchanting:textures/particle/sga_a_fire.png"
+					rotation: -180.0d
+					width: 1.0d
+					x: 24.0d
+					y: -1.5d
+				}
+				{
+					height: 7.0d
+					image: "ftb:textures/quests/silentgear/starlight_setup.png"
+					rotation: 0.0d
+					width: 9.345222929936305d
+					x: -30.5d
+					y: -1.5d
+				}
+				{
+					height: 2.0d
+					image: "ftbquests:textures/shapes/hexagon/background.png"
+					rotation: 0.0d
+					width: 2.0d
+					x: -24.0d
+					y: -0.5d
+				}
+				{
+					color: 12235775
+					height: 2.0d
+					image: "ftbquests:textures/shapes/hexagon/background.png"
+					rotation: 0.0d
+					width: 2.0d
+					x: -24.0d
+					y: -2.5d
+				}
+				{
+					height: 0.75d
+					image: "silentgear:item/blaze_gold_dust"
+					rotation: 0.0d
+					width: 0.75d
+					x: -30.5d
+					y: -1.7000000000000002d
+				}
+				{
+					height: 1.25d
+					image: "silentgear:block/alloy_forge_front"
+					rotation: 0.0d
+					width: 1.25d
+					x: -22.0d
+					y: -1.0d
+				}
+				{
+					height: 1.25d
+					image: "silentgear:block/salvager"
+					rotation: 0.0d
+					width: 1.25d
+					x: -22.0d
+					y: -2.0d
+				}
+				{
+					height: 1.25d
+					image: "silentgear:block/recrystallizer_side"
+					rotation: 0.0d
+					width: 1.25d
+					x: -26.0d
+					y: -1.5d
+				}
+				{
+					height: 2.0d
+					image: "xycraft_world:block/connected/glass_viewer_single"
+					rotation: 45.0d
+					width: 2.0d
+					x: -19.5d
+					y: 3.5d
+				}
+				{
+					height: 2.0d
+					image: "xycraft_world:block/connected/glass_viewer_single"
+					rotation: 45.0d
+					width: 2.0d
+					x: -24.0d
+					y: -6.5d
+				}
+				{
+					height: 2.0d
+					image: "xycraft_world:block/connected/glass_viewer_single"
+					rotation: 45.0d
+					width: 2.0d
+					x: -24.0d
+					y: 3.5d
+				}
+				{
+					height: 1.0d
+					image: "silentgear:item/blueprint_katana"
+					rotation: 0.0d
+					width: 1.0d
+					x: -18.0d
+					y: -6.5d
+				}
+				{
+					height: 1.0d
+					image: "silentgear:item/blueprint_katana"
+					rotation: -88.0d
+					width: 1.0d
+					x: -17.900000000000006d
+					y: -6.5d
+				}
+				{
+					height: 1.0d
+					image: "silentgear:item/blueprint_katana"
+					rotation: -88.0d
+					width: 1.0d
+					x: -21.0d
+					y: -6.5d
+				}
+				{
+					height: 1.0d
+					image: "silentgear:item/blueprint_katana"
+					rotation: 0.0d
+					width: 1.0d
+					x: -21.1d
+					y: -6.5d
+				}
+				{
+					height: 1.0d
+					image: "silentgear:item/blueprint_shield"
+					rotation: 0.0d
+					width: 1.0d
+					x: -19.5d
+					y: -7.5d
+				}
+				{
+					height: 1.0d
+					image: "silentgear:item/azure_repair_kit"
+					rotation: 0.0d
+					width: 1.0d
+					x: -17.5d
+					y: 2.0d
+				}
+				{
+					height: 1.0d
+					image: "silentgear:item/very_crude_repair_kit"
+					rotation: 0.0d
+					width: 1.0d
+					x: -21.5d
+					y: 2.0d
+				}
+				{
+					height: 5.0d
+					image: "lollipop:textures/misc/magic/rune_circle.png"
+					rotation: 0.0d
+					width: 5.0d
+					x: -16.0d
+					y: -1.5d
+				}
+				{
+					height: 2.0d
+					image: "framedblocks:block/iron_plate_frame"
+					rotation: 45.0d
+					width: 2.0d
+					x: -16.0d
+					y: -1.5d
+				}
+				{
+					height: 1.0d
+					image: "apotheosis:items/gems/royalty"
+					rotation: 0.0d
+					width: 1.0d
+					x: -10.0d
+					y: -5.0d
+				}
+				{
+					height: 1.0d
+					image: "apotheosis:items/gems/endersurge"
+					rotation: 0.0d
+					width: 1.0d
+					x: -9.5d
+					y: -9.5d
+				}
+				{
+					height: 1.75d
+					image: "apotheosis:blocks/augmenting/top"
+					rotation: 0.0d
+					width: 1.75d
+					x: -9.0d
+					y: -13.0d
+				}
+				{
+					height: 1.75d
+					image: "apotheosis:blocks/reforging/table_top"
+					rotation: 0.0d
+					width: 1.75d
+					x: -13.0d
+					y: -13.0d
+				}
+				{
+					height: 2.0d
+					image: "ftbchunks:textures/circle_mask.png"
+					order: -1
+					rotation: 45.0d
+					width: 2.0d
+					x: -11.0d
+					y: -6.5d
+				}
+				{
+					height: 2.0d
+					image: "xycraft_world:block/connected/glass_viewer_silicon_single"
+					order: 1
+					rotation: 45.0d
+					width: 2.0d
+					x: -11.0d
+					y: -6.5d
+				}
+				{
+					height: 2.0d
+					image: "ftbquests:tasks/input_only"
+					rotation: 45.0d
+					width: 2.0d
+					x: -11.0d
+					y: -6.5d
+				}
+				{
+					alpha: 100
+					height: 1.0d
+					image: "minecraft:textures/gui/sprites/advancements/challenge_frame_obtained.png"
+					order: -1
+					rotation: 0.0d
+					width: 1.0d
+					x: -10.0d
+					y: -5.0d
+				}
+				{
+					alpha: 100
+					height: 1.0d
+					image: "minecraft:textures/gui/sprites/advancements/challenge_frame_obtained.png"
+					order: -1
+					rotation: 0.0d
+					width: 1.0d
+					x: -12.0d
+					y: -5.0d
+				}
+				{
+					height: 1.0d
+					image: "apotheosis:items/gems/inferno"
+					rotation: 0.0d
+					width: 1.0d
+					x: -12.5d
+					y: -9.5d
+				}
+				{
+					alpha: 100
+					height: 1.0d
+					image: "minecraft:textures/gui/sprites/advancements/goal_frame_obtained.png"
+					order: -1
+					rotation: 0.0d
+					width: 1.0d
+					x: -12.5d
+					y: -9.5d
+				}
+				{
+					height: 1.0d
+					image: "apotheosis:items/gems/blood_lord"
+					rotation: 0.0d
+					width: 1.0d
+					x: -12.0d
+					y: -5.0d
+				}
+				{
+					alpha: 100
+					height: 1.0d
+					image: "minecraft:textures/gui/sprites/advancements/goal_frame_obtained.png"
+					order: -1
+					rotation: 0.0d
+					width: 1.0d
+					x: -9.5d
+					y: -9.5d
+				}
+				{
+					alpha: 200
+					color: 10637261
+					height: 4.0d
+					image: "rftoolspower:block/endergenic/floatingsphere"
+					rotation: 0.0d
+					width: 4.0d
+					x: -16.0d
+					y: -1.5d
+				}
+				{
+					height: 4.0d
+					image: "cognition:block/cognitive_alloy_block"
+					rotation: 0.0d
+					width: 4.0d
+					x: -11.0d
+					y: 3.5d
+				}
+			]
+			order_index: 2
+			quest_links: [ ]
+			quests: [
+				{
+					dependencies: ["00A7C1FE54F86429"]
+					hide_dependency_lines: true
+					id: "28EA66B1EBB05B93"
+					rewards: [
+						{
+							id: "43B1222CC0A94B73"
+							type: "xp"
+							xp: 10
+						}
+						{
+							count: 3
+							id: "69DE0781A0F88778"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					size: 1.5d
+					tasks: [
+						{
+							id: "595B4BDC4F5CD927"
+							item: {
+								count: 1
+								id: "apothic_enchanting:seashelf"
+							}
+							type: "item"
+						}
+					]
+					x: 2.0d
+					y: -3.5d
+				}
+				{
+					icon_scale: 1.2d
+					id: "00A7C1FE54F86429"
+					min_width: 300
+					rewards: [
+						{
+							id: "2EAFC9D5D28C16B2"
+							type: "xp"
+							xp: 25
+						}
+						{
+							count: 3
+							id: "5360F092E8487495"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 2.0d
+					tasks: [
+						{
+							id: "744D7BEFE1B47769"
+							item: {
+								count: 1
+								id: "minecraft:enchanting_table"
+							}
+							type: "item"
+						}
+					]
+					x: -4.5d
+					y: -1.5d
+				}
+				{
+					dependencies: ["00A7C1FE54F86429"]
+					hide_dependency_lines: true
+					id: "3A7774F5F0FD174E"
+					rewards: [
+						{
+							id: "4E2335833445E942"
+							type: "xp"
+							xp: 10
+						}
+						{
+							count: 3
+							id: "4EDB943669686477"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					size: 1.5d
+					tasks: [
+						{
+							id: "07D4EE7733B205CD"
+							item: {
+								count: 1
+								id: "apothic_enchanting:hellshelf"
+							}
+							type: "item"
+						}
+					]
+					x: 2.0d
+					y: 0.5d
+				}
+				{
+					dependencies: ["4DE5CB7A5A1D717B"]
+					id: "7244D5DADCF0D7A2"
+					rewards: [
+						{
+							id: "02CE0E5E189543A8"
+							type: "xp"
+							xp: 25
+						}
+						{
+							count: 5
+							id: "08E0D6192B4FDC67"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "765351B69FEBD2AE"
+							item: {
+								count: 1
+								id: "apothic_enchanting:filtering_shelf"
+							}
+							type: "item"
+						}
+					]
+					x: 5.0d
+					y: -5.5d
+				}
+				{
+					dependencies: ["3A7774F5F0FD174E"]
+					icon_scale: 1.25d
+					id: "3A53BB7A6B708966"
+					rewards: [
+						{
+							id: "2D8EE917F31110B4"
+							type: "xp"
+							xp: 25
+						}
+						{
+							count: 5
+							id: "7D0AFB9D8D660F67"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					size: 1.5d
+					tasks: [
+						{
+							id: "3D2D95906C1AD982"
+							item: {
+								count: 1
+								id: "apothic_enchanting:infused_hellshelf"
+							}
+							type: "item"
+						}
+					]
+					x: 5.0d
+					y: 0.5d
+				}
+				{
+					dependencies: [
+						"4DE5CB7A5A1D717B"
+						"3A53BB7A6B708966"
+					]
+					dependency_requirement: "one_completed"
+					id: "0EE35D6E57FAD973"
+					rewards: [
+						{
+							id: "094CB48479F47232"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "0F66902C81E7309E"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "5C8A06A3BFC38B13"
+							item: {
+								count: 1
+								id: "apothic_enchanting:library"
+							}
+							type: "item"
+						}
+					]
+					x: 5.0d
+					y: -1.5d
+				}
+				{
+					dependencies: ["4DE5CB7A5A1D717B"]
+					icon: {
+						id: "apothic_enchanting:heart_seashelf"
+					}
+					id: "7206EEA9D5C8393C"
+					min_width: 250
+					rewards: [
+						{
+							id: "6770906613D894B5"
+							type: "xp"
+							xp: 10
+						}
+						{
+							count: 8
+							id: "0A0D3409CDBA0E21"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "6BF8FCAB0911A96C"
+							item: {
+								count: 1
+								id: "apothic_enchanting:crystal_seashelf"
+							}
+							optional_task: true
+							type: "item"
+						}
+						{
+							id: "3CBC3459A3774D67"
+							item: {
+								count: 1
+								id: "apothic_enchanting:heart_seashelf"
+							}
+							optional_task: true
+							type: "item"
+						}
+					]
+					x: 8.0d
+					y: -3.5d
+				}
+				{
+					dependencies: ["28EA66B1EBB05B93"]
+					icon_scale: 1.25d
+					id: "4DE5CB7A5A1D717B"
+					rewards: [
+						{
+							id: "3DEB246B4B6F93D1"
+							type: "xp"
+							xp: 25
+						}
+						{
+							count: 5
+							id: "183A1146E68D9070"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					size: 1.5d
+					tasks: [
+						{
+							id: "5C80BD7DD1674336"
+							item: {
+								count: 1
+								id: "apothic_enchanting:infused_seashelf"
+							}
+							type: "item"
+						}
+					]
+					x: 5.0d
+					y: -3.5d
+				}
+				{
+					dependencies: ["3A53BB7A6B708966"]
+					icon: {
+						id: "apothic_enchanting:blazing_hellshelf"
+					}
+					id: "722901B4259D8AEC"
+					min_width: 250
+					rewards: [
+						{
+							id: "3899860206C43EBD"
+							type: "xp"
+							xp: 10
+						}
+						{
+							count: 8
+							id: "5AEFB3649F175164"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					size: 1.5d
+					tasks: [
+						{
+							id: "2F47FEE2D056FB46"
+							item: {
+								count: 1
+								id: "apothic_enchanting:blazing_hellshelf"
+							}
+							optional_task: true
+							type: "item"
+						}
+						{
+							id: "136B1FDD1B7CF9D7"
+							item: {
+								count: 1
+								id: "apothic_enchanting:glowing_hellshelf"
+							}
+							optional_task: true
+							type: "item"
+						}
+					]
+					x: 8.0d
+					y: 0.5d
+				}
+				{
+					dependencies: [
+						"74AB8112B4B1D4E0"
+						"675BB2F97FC2D293"
+					]
+					icon_scale: 1.25d
+					id: "268CC540E5B605A9"
+					rewards: [
+						{
+							id: "234A4DA907CD2F6A"
+							type: "xp"
+							xp: 50
+						}
+						{
+							count: 2
+							id: "5BDF48F62B63D706"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					size: 2.0d
+					tasks: [
+						{
+							id: "2DB2C2C4E9427C22"
+							item: {
+								count: 1
+								id: "apothic_enchanting:infused_breath"
+							}
+							type: "item"
+						}
+					]
+					x: 20.0d
+					y: -1.5d
+				}
+				{
+					dependencies: [
+						"7206EEA9D5C8393C"
+						"722901B4259D8AEC"
+					]
+					dependency_requirement: "one_completed"
+					id: "30689B890F5E7A03"
+					min_width: 250
+					rewards: [
+						{
+							id: "02302C8E07C2021D"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "358DBC09CEDA4C77"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 2.0d
+					tasks: [
+						{
+							id: "17FACB7C31DCC505"
+							item: {
+								count: 1
+								id: "apothic_enchanting:deepshelf"
+							}
+							type: "item"
+						}
+					]
+					x: 12.0d
+					y: -1.5d
+				}
+				{
+					dependencies: ["353F6C94B5D5FF0B"]
+					id: "74AB8112B4B1D4E0"
+					rewards: [
+						{
+							id: "03638B8B6B698460"
+							type: "xp"
+							xp: 25
+						}
+						{
+							count: 2
+							id: "674852BE687C3D1C"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "0E928E07631F6C8E"
+							item: {
+								count: 1
+								id: "apothic_enchanting:echoing_sculkshelf"
+							}
+							type: "item"
+						}
+					]
+					x: 17.0d
+					y: -2.5d
+				}
+				{
+					dependencies: ["30689B890F5E7A03"]
+					icon: {
+						id: "apothic_enchanting:echoing_deepshelf"
+					}
+					id: "353F6C94B5D5FF0B"
+					rewards: [
+						{
+							id: "3183CC55EAE22347"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "551ED6DCA5035076"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "7AC831A9CC5774E5"
+							item: {
+								count: 1
+								id: "apothic_enchanting:echoing_deepshelf"
+							}
+							type: "item"
+						}
+					]
+					x: 15.0d
+					y: -2.5d
+				}
+				{
+					dependencies: ["30689B890F5E7A03"]
+					id: "0E0BB49B16E88A66"
+					rewards: [
+						{
+							id: "3487A3AC73C6C9C9"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "1EAC89131C316537"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "5D2A9B29ACC89C89"
+							item: {
+								count: 1
+								id: "apothic_enchanting:treasure_shelf"
+							}
+							type: "item"
+						}
+					]
+					x: 12.0d
+					y: -5.0d
+				}
+				{
+					dependencies: ["23B6C73FDF8C322A"]
+					id: "675BB2F97FC2D293"
+					rewards: [
+						{
+							id: "417FDFE933AB5AAF"
+							type: "xp"
+							xp: 25
+						}
+						{
+							count: 2
+							id: "34419EF9888A52A6"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "50A91CDFC00C7A10"
+							item: {
+								count: 1
+								id: "apothic_enchanting:soul_touched_sculkshelf"
+							}
+							type: "item"
+						}
+					]
+					x: 17.0d
+					y: 0.0d
+				}
+				{
+					dependencies: ["268CC540E5B605A9"]
+					id: "26B74124E89189F7"
+					rewards: [
+						{
+							id: "231B46C852E1BDA9"
+							type: "xp"
+							xp: 25
+						}
+						{
+							count: 3
+							id: "6A80A2FD57EA2E43"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "pentagon"
+					size: 2.0d
+					tasks: [
+						{
+							id: "77051455BD8C57C1"
+							item: {
+								count: 1
+								id: "apothic_enchanting:endshelf"
+							}
+							type: "item"
+						}
+					]
+					x: 23.0d
+					y: -1.5d
+				}
+				{
+					dependencies: ["26B74124E89189F7"]
+					id: "2722C0E2E8993658"
+					rewards: [
+						{
+							id: "037B7A40DD0E2E42"
+							type: "xp"
+							xp: 100
+						}
+						{
+							count: 3
+							id: "15548A7108E60665"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "pentagon"
+					size: 2.0d
+					tasks: [
+						{
+							id: "4C11CF5409FED271"
+							item: {
+								count: 1
+								id: "apothic_enchanting:draconic_endshelf"
+							}
+							type: "item"
+						}
+					]
+					x: 23.0d
+					y: -3.5d
+				}
+				{
+					dependencies: ["26B74124E89189F7"]
+					id: "33587574C28D7747"
+					rewards: [
+						{
+							id: "7F52DCE02723916E"
+							type: "xp"
+							xp: 25
+						}
+						{
+							count: 3
+							id: "6104C312F78D6DC3"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "pentagon"
+					size: 2.0d
+					tasks: [
+						{
+							id: "0008A9FF5D367AE1"
+							item: {
+								count: 1
+								id: "apothic_enchanting:pearl_endshelf"
+							}
+							type: "item"
+						}
+					]
+					x: 23.0d
+					y: 0.5d
+				}
+				{
+					dependencies: ["1DC46E0EA2BC83C3"]
+					id: "2E7EBD2A61897192"
+					min_width: 250
+					optional: true
+					rewards: [
+						{
+							id: "4AB7A9500992CB83"
+							type: "xp"
+							xp: 50
+						}
+						{
+							count: 8
+							id: "5BFB2216107D4197"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "6BE057CA6B26501E"
+							item: {
+								count: 1
+								id: "apothic_enchanting:extraction_tome"
+							}
+							type: "item"
+						}
+					]
+					x: 3.0d
+					y: -6.5d
+				}
+				{
+					dependencies: ["04563030DE224F18"]
+					id: "70D5BEA5CC437AB6"
+					optional: true
+					rewards: [
+						{
+							id: "140DD387B591B798"
+							item: {
+								count: 1
+								id: "apothic_enchanting:scrap_tome"
+							}
+							random_bonus: 2
+							type: "item"
+						}
+						{
+							id: "737CE4FBC20D660E"
+							type: "xp"
+							xp: 10
+						}
+						{
+							count: 3
+							id: "36178FCC8548A70C"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "062B423B8E9746C4"
+							item: {
+								count: 1
+								id: "apothic_enchanting:scrap_tome"
+							}
+							type: "item"
+						}
+					]
+					x: 1.0d
+					y: -6.5d
+				}
+				{
+					dependencies: [
+						"28EA66B1EBB05B93"
+						"70D5BEA5CC437AB6"
+					]
+					id: "1DC46E0EA2BC83C3"
+					optional: true
+					rewards: [
+						{
+							id: "333441FEB287F453"
+							type: "xp"
+							xp: 25
+						}
+						{
+							count: 5
+							id: "6D3D3C72E85DFE79"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "43F29D8BE362B8D1"
+							item: {
+								count: 1
+								id: "apothic_enchanting:improved_scrap_tome"
+							}
+							type: "item"
+						}
+					]
+					x: 2.0d
+					y: -6.5d
+				}
+				{
+					dependencies: ["00A7C1FE54F86429"]
+					hide_dependency_lines: true
+					icon_scale: 1.25d
+					id: "04563030DE224F18"
+					rewards: [
+						{
+							id: "2DBEA501C6B0921A"
+							type: "xp"
+							xp: 10
+						}
+						{
+							count: 3
+							id: "1D00C8CFE1C7935F"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "gear"
+					size: 1.5d
+					tasks: [
+						{
+							id: "23A58CDD62ECB351"
+							item: {
+								count: 1
+								id: "minecraft:anvil"
+							}
+							type: "item"
+						}
+					]
+					x: -1.0d
+					y: -5.5d
+				}
+				{
+					dependencies: ["5994E561F25FAEEC"]
+					id: "6896CCBC73B09381"
+					optional: true
+					rewards: [
+						{
+							id: "430681FEAA1E5643"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "46A21F97F3D8A77A"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "501AC1E376A70997"
+							item: {
+								count: 1
+								id: "apothic_enchanting:helmet_tome"
+							}
+							type: "item"
+						}
+					]
+					x: -3.0d
+					y: 4.5d
+				}
+				{
+					dependencies: ["5994E561F25FAEEC"]
+					hide_dependency_lines: true
+					id: "19BA687C317C19B7"
+					optional: true
+					rewards: [
+						{
+							id: "29CAF78F926E6F8A"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "3B36F39A0366A399"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "0E2AF55FAE88567E"
+							item: {
+								count: 1
+								id: "apothic_enchanting:chestplate_tome"
+							}
+							type: "item"
+						}
+					]
+					x: -3.0d
+					y: 5.5d
+				}
+				{
+					dependencies: ["5994E561F25FAEEC"]
+					hide_dependency_lines: true
+					id: "2CA56BBAC9EBE913"
+					optional: true
+					rewards: [
+						{
+							id: "5A1B6EA5C64F6702"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "43ECBE5AFEADD9ED"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "151FF6F2ADA75583"
+							item: {
+								count: 1
+								id: "apothic_enchanting:leggings_tome"
+							}
+							type: "item"
+						}
+					]
+					x: -3.0d
+					y: 6.5d
+				}
+				{
+					dependencies: ["5994E561F25FAEEC"]
+					hide_dependency_lines: true
+					id: "5FF6DBF82E242BB7"
+					optional: true
+					rewards: [
+						{
+							id: "6CC4462DE260A119"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "67B6466D095972D3"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "43AED382FA8015EE"
+							item: {
+								count: 1
+								id: "apothic_enchanting:boots_tome"
+							}
+							type: "item"
+						}
+					]
+					x: -3.0d
+					y: 7.5d
+				}
+				{
+					dependencies: ["5994E561F25FAEEC"]
+					id: "5B9742FB9474DB3A"
+					optional: true
+					rewards: [
+						{
+							id: "0EF4C29C55A0A23B"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "68527C68A461D9A5"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "49EAA332DBDF7E4C"
+							item: {
+								count: 1
+								id: "apothic_enchanting:weapon_tome"
+							}
+							type: "item"
+						}
+					]
+					x: -6.0d
+					y: 4.5d
+				}
+				{
+					dependencies: ["5994E561F25FAEEC"]
+					hide_dependency_lines: true
+					id: "0D877E94710B32B1"
+					optional: true
+					rewards: [
+						{
+							id: "2ACBC336A1D3496E"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "1EAA69157AF18AEA"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "5DECA20C0B0751CA"
+							item: {
+								count: 1
+								id: "apothic_enchanting:pickaxe_tome"
+							}
+							type: "item"
+						}
+					]
+					x: -6.0d
+					y: 5.5d
+				}
+				{
+					dependencies: ["5994E561F25FAEEC"]
+					hide_dependency_lines: true
+					id: "5DB30D6FE7046A35"
+					optional: true
+					rewards: [
+						{
+							id: "0AF0B9FDEA73A142"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "562C764A18168654"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "0781244E358171F2"
+							item: {
+								count: 1
+								id: "apothic_enchanting:bow_tome"
+							}
+							type: "item"
+						}
+					]
+					x: -6.0d
+					y: 6.5d
+				}
+				{
+					dependencies: ["5994E561F25FAEEC"]
+					hide_dependency_lines: true
+					id: "7B6F974C02639696"
+					optional: true
+					rewards: [
+						{
+							id: "11120717BC019939"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "6C0C8B7D4AD79D2D"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "7118E93DA5386E69"
+							item: {
+								count: 1
+								id: "apothic_enchanting:fishing_tome"
+							}
+							type: "item"
+						}
+					]
+					x: -6.0d
+					y: 7.5d
+				}
+				{
+					dependencies: ["5994E561F25FAEEC"]
+					hide_dependency_lines: true
+					id: "47F3EAA83952FE79"
+					optional: true
+					rewards: [
+						{
+							id: "6A33CB6F571B086B"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "3A58227118A03C33"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "3B7E50BF00647128"
+							item: {
+								count: 1
+								id: "apothic_enchanting:other_tome"
+							}
+							type: "item"
+						}
+					]
+					x: -4.5d
+					y: 8.5d
+				}
+				{
+					dependencies: ["00A7C1FE54F86429"]
+					icon: {
+						id: "minecraft:blaze_rod"
+					}
+					icon_scale: 1.25d
+					id: "5994E561F25FAEEC"
+					rewards: [
+						{
+							count: 16
+							id: "2E1B1AC0EF8CA8CF"
+							item: {
+								count: 1
+								id: "minecraft:book"
+							}
+							type: "item"
+						}
+						{
+							id: "2CF140CB97FE5E70"
+							type: "xp"
+							xp: 10
+						}
+						{
+							count: 3
+							id: "2CEB6B51B77D5D68"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					size: 1.5d
+					tasks: [
+						{
+							id: "7698B85DBEBE3FD6"
+							item: {
+								count: 1
+								id: "minecraft:blaze_rod"
+							}
+							type: "item"
+						}
+					]
+					x: -4.5d
+					y: 3.0d
+				}
+				{
+					dependencies: ["00A7C1FE54F86429"]
+					hide_dependency_lines: true
+					id: "427682661459BB4F"
+					rewards: [
+						{
+							id: "2450D7CFB009D26B"
+							type: "xp"
+							xp: 10
+						}
+						{
+							count: 3
+							id: "282367509A7B7B2C"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "gear"
+					size: 1.5d
+					tasks: [
+						{
+							id: "44FB6DBF567B0F34"
+							item: {
+								count: 1
+								id: "apothic_enchanting:geode_shelf"
+							}
+							type: "item"
+						}
+					]
+					x: -1.0d
+					y: 3.0d
+				}
+				{
+					dependencies: ["3A53BB7A6B708966"]
+					icon: {
+						id: "apothic_enchanting:sightshelf"
+					}
+					id: "5F2E83D75D192FA8"
+					rewards: [
+						{
+							id: "135339AF0CC9051E"
+							type: "xp"
+							xp: 10
+						}
+						{
+							count: 5
+							id: "7EC272C79D5A8E61"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "02C46AC7CC3639FF"
+							item: {
+								count: 1
+								id: "apothic_enchanting:sightshelf"
+							}
+							type: "item"
+						}
+						{
+							id: "05D0F0681A04CAFD"
+							item: {
+								count: 1
+								id: "apothic_enchanting:sightshelf_t2"
+							}
+							optional_task: true
+							type: "item"
+						}
+					]
+					x: 5.0d
+					y: 3.5d
+				}
+				{
+					dependencies: ["30689B890F5E7A03"]
+					id: "23B6C73FDF8C322A"
+					rewards: [
+						{
+							id: "370D5949981ABADF"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "284B2999DAD64E16"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "4FD93974B936DBBA"
+							item: {
+								count: 1
+								id: "apothic_enchanting:soul_touched_deepshelf"
+							}
+							type: "item"
+						}
+					]
+					x: 15.0d
+					y: 0.0d
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "silentgear:item/blueprint_package"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "78337B57A6D6AC08"
+					min_width: 250
+					rewards: [
+						{
+							id: "7C962CD682605528"
+							item: {
+								count: 1
+								id: "silentgear:blueprint_package"
+							}
+							type: "item"
+						}
+						{
+							id: "5DD2E7078A4B36C3"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "4B6AD0CAAB59166A"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "gear"
+					size: 2.0d
+					tasks: [
+						{
+							id: "3C860F0D8A0EB84A"
+							item: {
+								components: {
+									"ftbfiltersystem:filter": "or(item(silentgear:template_board)item(silentgear:blueprint_paper))"
+								}
+								count: 1
+								id: "ftbfiltersystem:smart_filter"
+							}
+							type: "item"
+						}
+					]
+					x: -16.0d
+					y: -1.5d
+				}
+				{
+					dependencies: ["78337B57A6D6AC08"]
+					hide_dependency_lines: true
+					id: "793B64D2E4921799"
+					min_width: 250
+					optional: true
+					rewards: [
+						{
+							id: "27133BA7A9BDB4AC"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "rsquare"
+					tasks: [
+						{
+							id: "487B8A93531533EA"
+							item: {
+								components: {
+									"minecraft:tool": {
+										rules: [
+											{
+												blocks: "#silentgear:incorrect_for_iron_tools"
+												correct_for_drops: 0b
+											}
+											{
+												blocks: "#minecraft:mineable/pickaxe"
+												correct_for_drops: 1b
+												speed: 6.0f
+											}
+										]
+									}
+									"silentgear:construction": {
+										broken_count: 0
+										example: 0b
+										parts: [
+											{
+												item: {
+													components: {
+														"silentgear:material_list": [
+															{
+																item: {
+																	count: 1
+																	id: "minecraft:iron_ingot"
+																}
+																material: "silentgear:iron"
+															}
+														]
+													}
+													count: 1
+													id: "silentgear:pickaxe_head"
+												}
+												part: "silentgear:pickaxe_head"
+											}
+											{
+												item: {
+													components: {
+														"silentgear:material_list": [
+															{
+																material: "silentgear:wood"
+															}
+														]
+													}
+													count: 1
+													id: "silentgear:rod"
+												}
+												part: "silentgear:rod"
+											}
+										]
+										repairedCount: 0
+									}
+									"silentgear:model_index": 3
+									"silentgear:model_key": "pickaxe:pickaxe_head{iron},rod{wood},"
+									"silentgear:properties": {
+										"silentgear:armor": 15.0f
+										"silentgear:armor_durability": 15.0f
+										"silentgear:armor_toughness": 0.0f
+										"silentgear:attack_damage": 3.0f
+										"silentgear:attack_reach": 6.0f
+										"silentgear:attack_speed": 1.2f
+										"silentgear:block_reach": 0.0f
+										"silentgear:charging_value": 0.7f
+										"silentgear:draw_speed": 0.1f
+										"silentgear:durability": 250.0f
+										"silentgear:enchantment_value": 14.0f
+										"silentgear:harvest_speed": 6.0f
+										"silentgear:harvest_tier": {
+											incorrect_blocks_for_tool: "silentgear:incorrect_for_iron_tools"
+											level_hint: "2"
+											name: "iron"
+										}
+										"silentgear:knockback_resistance": 0.0f
+										"silentgear:magic_armor": 6.0f
+										"silentgear:magic_damage": 1.0f
+										"silentgear:projectile_accuracy": 1.1f
+										"silentgear:projectile_speed": 1.0f
+										"silentgear:ranged_damage": 1.0f
+										"silentgear:rarity": 20.0f
+										"silentgear:repair_efficiency": 1.0f
+										"silentgear:repair_value": 0.0f
+										"silentgear:traits": [
+											{
+												conditions: [ ]
+												level: 3
+												trait: "silentgear:malleable"
+											}
+											{
+												conditions: [ ]
+												level: 2
+												trait: "silentgear:flexible"
+											}
+										]
+									}
+								}
+								count: 1
+								id: "silentgear:pickaxe"
+							}
+							match_components: "fuzzy"
+							type: "item"
+						}
+					]
+					x: -16.0d
+					y: 2.0d
+				}
+				{
+					dependencies: ["78337B57A6D6AC08"]
+					id: "35DAD5FF7B007310"
+					min_width: 300
+					rewards: [
+						{
+							id: "2C43CE5FB4FE413B"
+							item: {
+								count: 1
+								id: "minecraft:blaze_rod"
+							}
+							type: "item"
+						}
+						{
+							id: "4C7C6F1A439E3D52"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "7598B819212215D5"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "gear"
+					size: 1.5d
+					tasks: [
+						{
+							id: "53F3B8015E90233B"
+							item: {
+								count: 1
+								id: "ftbmaterials:iron_rod"
+							}
+							type: "item"
+						}
+					]
+					x: -19.5d
+					y: -1.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					id: "3CEB99462830B35F"
+					min_width: 250
+					rewards: [
+						{
+							id: "10AA599378BE9B23"
+							item: {
+								count: 1
+								id: "minecraft:amethyst_shard"
+							}
+							type: "item"
+						}
+						{
+							id: "56137BCADEAEABF6"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "575E87488C2316C5"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "0B991205A7523D3F"
+							item: {
+								count: 1
+								id: "silentgear:tip_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -18.5d
+					y: -3.0d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					icon: {
+						id: "silentgear:azure_repair_kit"
+					}
+					id: "466D603FACE8FDF5"
+					min_width: 250
+					rewards: [
+						{
+							count: 2
+							id: "7DCF5674A87C1290"
+							item: {
+								count: 1
+								id: "silentgear:blueprint_paper"
+							}
+							random_bonus: 2
+							type: "item"
+						}
+						{
+							id: "4FB9BA28DE535F2B"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "346AF0D062444967"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "16643E9DD53BA701"
+							item: {
+								components: {
+									"ftbfiltersystem:filter": "or(item(silentgear:very_crude_repair_kit)item(silentgear:crude_repair_kit)item(silentgear:sturdy_repair_kit)item(silentgear:crimson_repair_kit)item(silentgear:azure_repair_kit))"
+								}
+								count: 1
+								id: "ftbfiltersystem:smart_filter"
+							}
+							type: "item"
+						}
+					]
+					x: -18.5d
+					y: 0.0d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					icon: {
+						id: "silentgear:chestplate_blueprint"
+					}
+					id: "7F1D6971036A31DA"
+					rewards: [
+						{
+							id: "473923148CF594F9"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "229F93762EA38374"
+							item: {
+								count: 1
+								id: "silentgear:helmet_blueprint"
+							}
+							type: "item"
+						}
+						{
+							id: "1D7C3C28B36E0037"
+							item: {
+								count: 1
+								id: "silentgear:chestplate_blueprint"
+							}
+							type: "item"
+						}
+						{
+							id: "359C9A973CABDB26"
+							item: {
+								count: 1
+								id: "silentgear:leggings_blueprint"
+							}
+							type: "item"
+						}
+						{
+							id: "1C50203171E2F5E5"
+							item: {
+								count: 1
+								id: "silentgear:boots_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -20.5d
+					y: 0.0d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					icon: {
+						components: {
+							"ftbquests:icon": "silentgear:item/mod_kit"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2680E1E74C44F336"
+					rewards: [
+						{
+							id: "69FA6AF8D89C0E1E"
+							item: {
+								count: 1
+								id: "minecraft:book"
+							}
+							type: "item"
+						}
+						{
+							id: "5F829138CEB0898B"
+							item: {
+								count: 1
+								id: "minecraft:lapis_lazuli"
+							}
+							type: "item"
+						}
+						{
+							id: "60636FE929371A5E"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "5CAD1010C61A4AE8"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "17766119BC2ED7A3"
+							type: "checkmark"
+						}
+					]
+					x: -20.5d
+					y: -3.0d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "227BF4C2E9500AE2"
+					rewards: [
+						{
+							id: "1D4F5D02CE25CCC5"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "0123DCA45908A72B"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "59EEA6EB65D829EA"
+							item: {
+								count: 1
+								id: "silentgear:spear_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -20.0d
+					y: -4.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "55001F51828284B5"
+					rewards: [
+						{
+							id: "08528FB04BC0B0FB"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "0DA1B1289213FD4C"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "43F91AF6F55A8A22"
+							item: {
+								count: 1
+								id: "silentgear:dagger_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -18.5d
+					y: -5.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "7C250D8F959DB418"
+					rewards: [
+						{
+							id: "28EE13CB4AADCB45"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "1610C441FCF85CD0"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "6B376FE39323B194"
+							item: {
+								count: 1
+								id: "silentgear:knife_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -21.0d
+					y: -4.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "7D7E98A886175D22"
+					rewards: [
+						{
+							id: "1F5308F126E5F1A0"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "025486C428938316"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "04F6A51B64107993"
+							item: {
+								count: 1
+								id: "silentgear:machete_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -19.5d
+					y: -5.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "1C88E4B44A1C55A9"
+					rewards: [
+						{
+							id: "2D8295819B973DB1"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "41E4C686D2278493"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "447FEB82B9C682B6"
+							item: {
+								count: 1
+								id: "silentgear:katana_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -20.5d
+					y: -5.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "50DDF29161948476"
+					rewards: [
+						{
+							id: "5B3FFD52B5993C85"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "59DB314C566A3EAC"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "187C047C604A29ED"
+							item: {
+								count: 1
+								id: "silentgear:trident_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -19.0d
+					y: -4.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "18E870A4E5F4CE4F"
+					rewards: [
+						{
+							id: "0217C3ECDC56DE43"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "434FB0CDB81BAA2A"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "3740F2A7C7DCC909"
+							item: {
+								count: 1
+								id: "silentgear:mace_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -18.0d
+					y: -4.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "018027C0128159CB"
+					rewards: [
+						{
+							id: "4F2FFBA467D291B9"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "1C66EB64DF6A4369"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "6EA0F703057C39DB"
+							item: {
+								count: 1
+								id: "silentgear:shield_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -19.5d
+					y: -6.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "5D7ACF0BDFDB4AC0"
+					optional: true
+					rewards: [
+						{
+							id: "6747A74B3602486F"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "747D93EF0F52C206"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "2C1515C9127D091D"
+							item: {
+								count: 1
+								id: "silentgear:hammer_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -20.5d
+					y: 2.0d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "61510124CF911EA0"
+					rewards: [
+						{
+							id: "087975FFE45FBD0A"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "2B89C0FB99F5FDFA"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "3D31AC8F3DFB3276"
+							item: {
+								count: 1
+								id: "silentgear:paxel_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -19.5d
+					y: 1.5d
+				}
+				{
+					dependencies: ["4EE236E24901E582"]
+					id: "5425A6F613CA7304"
+					rewards: [
+						{
+							id: "4CB09B683BC3D18A"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "307F407216431DC8"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "63CFD1492F4AA692"
+							item: {
+								count: 1
+								id: "silentgear:necklace_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -23.5d
+					y: 3.5d
+				}
+				{
+					dependencies: ["4EE236E24901E582"]
+					id: "5777FBF5D06D2F8E"
+					rewards: [
+						{
+							id: "3562288BB44DBF3C"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "11192E72B7BDF193"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "761D66A6FDFF5008"
+							item: {
+								count: 1
+								id: "silentgear:ring_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -24.5d
+					y: 3.5d
+				}
+				{
+					dependencies: ["4EE236E24901E582"]
+					id: "729119C5F9501F72"
+					rewards: [
+						{
+							id: "1238197697534322"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "38DD27F571149FE4"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "7CE28996F5E72292"
+							item: {
+								count: 1
+								id: "silentgear:bracelet_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -24.0d
+					y: 4.0d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "2471364BFF963F98"
+					rewards: [
+						{
+							exclude_from_claim_all: true
+							id: "32E68317B1A2F065"
+							table_id: 4634798818103374212L
+							type: "choice"
+						}
+						{
+							id: "5750366F09C1952F"
+							type: "xp"
+							xp: 10
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "7F40DBB68A2BEB1B"
+							item: {
+								count: 1
+								id: "silentgear:bow_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -24.5d
+					y: -6.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "0764D0BFDD7EBF71"
+					optional: true
+					rewards: [
+						{
+							exclude_from_claim_all: true
+							id: "20ED2FBF067841F5"
+							table_id: 4634798818103374212L
+							type: "loot"
+						}
+						{
+							id: "387E1085E2632FAB"
+							type: "xp"
+							xp: 10
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "607FDED9FF11B28D"
+							item: {
+								count: 1
+								id: "silentgear:crossbow_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -23.5d
+					y: -6.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					icon: {
+						id: "silentgear:slingshot_blueprint"
+					}
+					id: "522B9BAA4849605C"
+					optional: true
+					rewards: [
+						{
+							count: 64
+							id: "5D21515FC6165463"
+							item: {
+								count: 1
+								id: "silentgear:pebble"
+							}
+							type: "item"
+						}
+						{
+							id: "4A8131D22B8015E8"
+							type: "xp"
+							xp: 10
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "04DC7F61ADA5E487"
+							item: {
+								count: 1
+								id: "silentgear:slingshot_blueprint"
+							}
+							type: "item"
+						}
+						{
+							id: "54F302993475CFF5"
+							item: {
+								count: 1
+								id: "silentgear:pebble"
+							}
+							type: "item"
+						}
+					]
+					x: -24.0d
+					y: -6.0d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					icon: {
+						id: "silentgear:arrow_blueprint"
+					}
+					id: "1D2DF91FC1559504"
+					rewards: [
+						{
+							exclude_from_claim_all: true
+							id: "2E3AE3678A547F9B"
+							table_id: 9029519111662458436L
+							type: "loot"
+						}
+						{
+							id: "7E4F56222066DD7C"
+							type: "xp"
+							xp: 10
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "45FC3CCE964961FF"
+							item: {
+								count: 1
+								id: "silentgear:fletching_blueprint"
+							}
+							type: "item"
+						}
+						{
+							id: "2ACEFECE1E28F6F6"
+							item: {
+								count: 1
+								id: "silentgear:arrow_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -24.0d
+					y: -7.0d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "748CD701E0452769"
+					optional: true
+					rewards: [
+						{
+							id: "10FAF8334BF84FC9"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "37BEFF5F160A3006"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "3C84772EB0788747"
+							item: {
+								count: 1
+								id: "silentgear:coating_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -20.0d
+					y: 3.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "64632C84E79406AB"
+					optional: true
+					rewards: [
+						{
+							id: "0CCAD175FBBC6423"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "1F7DF230A9AA560C"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "686963087456A91C"
+							item: {
+								count: 1
+								id: "silentgear:grip_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -19.5d
+					y: 3.0d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "4E4D77AD4D7F6262"
+					optional: true
+					rewards: [
+						{
+							id: "2048D2280183AFB1"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "0AE7814BD397AD56"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "4B38916E8C54A59E"
+							item: {
+								count: 1
+								id: "silentgear:binding_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -19.5d
+					y: 4.0d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "132D9163A97ED955"
+					rewards: [
+						{
+							id: "242B0F58B671C8BE"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "2F28B6D7FE69C897"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "4259978183B8EBCC"
+							item: {
+								count: 1
+								id: "silentgear:lining_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -19.0d
+					y: 3.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					icon: {
+						id: "silentgear:raw_crimson_iron"
+					}
+					id: "29E2CEADF6720EB3"
+					rewards: [
+						{
+							id: "035A3B9523CE7CD2"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "1655F6E537609F08"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "3ED5CDAEECBCD0C1"
+							item: {
+								count: 1
+								id: "silentgear:crimson_iron_ingot"
+							}
+							type: "item"
+						}
+					]
+					x: -23.0d
+					y: -1.5d
+				}
+				{
+					dependencies: ["29E2CEADF6720EB3"]
+					hide_dependency_lines: false
+					id: "581196E0FC364F66"
+					rewards: [
+						{
+							id: "198CE3DBC0A57B69"
+							type: "xp"
+							xp: 25
+						}
+						{
+							count: 5
+							id: "60C585AB860160C6"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "4477A3AB8D170482"
+							item: {
+								count: 1
+								id: "silentgear:salvager"
+							}
+							type: "item"
+						}
+					]
+					x: -22.0d
+					y: -2.0d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					icon: {
+						id: "silentgear:material_grader"
+					}
+					id: "07E089F01484D9C7"
+					rewards: [
+						{
+							id: "1639F330C56591E5"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "716B5D8FBB5CF69A"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "253FC7CF4A892ACB"
+							item: {
+								count: 1
+								id: "silentgear:material_grader"
+							}
+							type: "item"
+						}
+						{
+							id: "5F37B6A58234D49E"
+							item: {
+								components: {
+									"ftbfiltersystem:filter": "or(item(silentgear:glowing_dust)item(silentgear:blazing_dust)item(silentgear:glittery_dust))"
+								}
+								count: 1
+								id: "ftbfiltersystem:smart_filter"
+							}
+							type: "item"
+						}
+					]
+					x: -24.0d
+					y: -2.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					icon: {
+						id: "silentgear:jeweler_tools"
+					}
+					id: "4EE236E24901E582"
+					rewards: [
+						{
+							id: "58688AAAF91296A7"
+							type: "xp"
+							xp: 10
+						}
+						{
+							count: 5
+							id: "7DE000E0AE81F247"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "0BDC180064EA558D"
+							item: {
+								count: 1
+								id: "silentgear:bort"
+							}
+							type: "item"
+						}
+						{
+							id: "25EC0DE158A06C7F"
+							item: {
+								count: 1
+								id: "silentgear:jeweler_tools"
+							}
+							type: "item"
+						}
+					]
+					x: -24.0d
+					y: 3.0d
+				}
+				{
+					dependencies: ["29E2CEADF6720EB3"]
+					id: "091A160BBBC99627"
+					rewards: [
+						{
+							id: "5F68A2A46CC20C4C"
+							type: "xp"
+							xp: 25
+						}
+						{
+							count: 5
+							id: "2B860ABA11DEB1E1"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "3184D4A14408F1C7"
+							item: {
+								count: 1
+								id: "silentgear:alloy_forge"
+							}
+							type: "item"
+						}
+					]
+					x: -22.0d
+					y: -1.0d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					icon: {
+						id: "silentgear:raw_azure_silver"
+					}
+					id: "26ECC091E6B3FA57"
+					rewards: [
+						{
+							id: "7D1B7567284C9923"
+							type: "xp"
+							xp: 25
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "1B25B975F149C019"
+							item: {
+								count: 1
+								id: "silentgear:azure_silver_ingot"
+							}
+							type: "item"
+						}
+					]
+					x: -25.0d
+					y: -1.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					icon: {
+						id: "silentgear:starlight_charger"
+					}
+					id: "1A648F49F72639CC"
+					rewards: [
+						{
+							id: "5E160E6E67B28482"
+							type: "xp"
+							xp: 25
+						}
+						{
+							id: "7C89842019BDC651"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "17E451DB47185157"
+							item: {
+								count: 1
+								id: "silentgear:starlight_charger"
+							}
+							type: "item"
+						}
+						{
+							id: "0E9F56ED131D460D"
+							item: {
+								components: {
+									"ftbfiltersystem:filter": "or(item(silentgear:blaze_gold_dust)item(silentgear:azure_silver_dust)item(silentgear:starmetal_dust))"
+								}
+								count: 1
+								id: "ftbfiltersystem:smart_filter"
+							}
+							type: "item"
+						}
+					]
+					x: -24.0d
+					y: -0.5d
+				}
+				{
+					dependencies: ["35DAD5FF7B007310"]
+					hide_dependency_lines: true
+					id: "4B21575B498FFEA1"
+					rewards: [
+						{
+							id: "67DF68DA6925294A"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "7830B2DF0C629E75"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "78355B21B37418EF"
+							item: {
+								count: 1
+								id: "silentgear:excavator_blueprint"
+							}
+							type: "item"
+						}
+					]
+					x: -18.5d
+					y: 2.0d
+				}
+				{
+					dependencies: ["26ECC091E6B3FA57"]
+					id: "1F6870BC630E1581"
+					rewards: [
+						{
+							exclude_from_claim_all: true
+							id: "042B99DD548EB01F"
+							table_id: 4634798818103374212L
+							type: "choice"
+						}
+						{
+							id: "47577039B24A3E5E"
+							type: "xp"
+							xp: 25
+						}
+					]
+					shape: "square"
+					tasks: [
+						{
+							id: "15DA914DA23F1596"
+							item: {
+								count: 1
+								id: "silentgear:recrystallizer"
+							}
+							type: "item"
+						}
+					]
+					x: -26.0d
+					y: -1.5d
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "occultism:item/repair_icon"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "37F99696A47264FD"
+					rewards: [
+						{
+							id: "4BC96834E20B3714"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "square"
+					size: 3.0d
+					tasks: [
+						{
+							id: "247B79A552BA6CCE"
+							type: "checkmark"
+						}
+					]
+					x: -11.0d
+					y: -1.5d
+				}
+				{
+					dependencies: [
+						"011DBD2652E49B97"
+						"464AED8311A32476"
+					]
+					dependency_requirement: "one_completed"
+					icon: {
+						id: "apotheosis:gem_dust"
+					}
+					id: "4498E3F4B2DC24FC"
+					rewards: [
+						{
+							id: "3587B22E6A76E2E4"
+							item: {
+								count: 1
+								id: "apotheosis:gem_dust"
+							}
+							random_bonus: 2
+							type: "item"
+						}
+						{
+							id: "2E4B4C354580E27F"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "27469A6FEC63596C"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "5CB5CE9439E15B78"
+							item: {
+								count: 1
+								id: "apotheosis:gem_dust"
+							}
+							type: "item"
+						}
+					]
+					x: -11.0d
+					y: -9.5d
+				}
+				{
+					dependencies: ["4498E3F4B2DC24FC"]
+					icon: {
+						id: "apotheosis:salvaging_table"
+					}
+					id: "7E685EAD7FB60B45"
+					rewards: [
+						{
+							id: "23DCFA3A985FBD8C"
+							item: {
+								count: 1
+								id: "apotheosis:gem_dust"
+							}
+							random_bonus: 1
+							type: "item"
+						}
+						{
+							id: "3DA8D371CB248BF4"
+							type: "xp"
+							xp: 10
+						}
+						{
+							count: 3
+							id: "5AD83E2A54391A6B"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "176BF5AB2BCFFC93"
+							item: {
+								count: 1
+								id: "apotheosis:salvaging_table"
+							}
+							type: "item"
+						}
+						{
+							id: "329BA2B5EB3185FC"
+							item: {
+								components: {
+									"ftbfiltersystem:filter": "or(item(apotheosis:common_material)item(apotheosis:uncommon_material)item(apotheosis:rare_material)item(apotheosis:epic_material)item(apotheosis:mythic_material))"
+								}
+								count: 1
+								id: "ftbfiltersystem:smart_filter"
+							}
+							type: "item"
+						}
+					]
+					x: -9.0d
+					y: -11.0d
+				}
+				{
+					dependencies: ["4498E3F4B2DC24FC"]
+					id: "01D2CEAF59872C33"
+					rewards: [
+						{
+							id: "757D40A50C20E7F5"
+							item: {
+								count: 1
+								id: "apotheosis:gem_dust"
+							}
+							random_bonus: 1
+							type: "item"
+						}
+						{
+							id: "6A5575F0294838AB"
+							type: "xp"
+							xp: 25
+						}
+						{
+							count: 3
+							id: "0B5248BCED336CB0"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "05E47B149DB70754"
+							item: {
+								count: 1
+								id: "apotheosis:gem_cutting_table"
+							}
+							type: "item"
+						}
+					]
+					x: -11.0d
+					y: -12.0d
+				}
+				{
+					dependencies: ["4498E3F4B2DC24FC"]
+					id: "3208AF90091D1B6B"
+					min_width: 250
+					rewards: [
+						{
+							id: "6B393108773827F3"
+							item: {
+								count: 1
+								id: "apotheosis:gem_dust"
+							}
+							random_bonus: 1
+							type: "item"
+						}
+						{
+							id: "5B9B421348D7EBC5"
+							type: "xp"
+							xp: 25
+						}
+						{
+							count: 3
+							id: "2A5D09FC31B7DF3A"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "0D868842F7660ACA"
+							item: {
+								count: 1
+								id: "apotheosis:simple_reforging_table"
+							}
+							type: "item"
+						}
+					]
+					x: -13.0d
+					y: -11.0d
+				}
+				{
+					dependencies: ["3208AF90091D1B6B"]
+					icon: {
+						id: "apotheosis:reforging_table"
+					}
+					id: "59CBFA5583139A3B"
+					rewards: [
+						{
+							id: "47E987C4E0C0B907"
+							type: "xp"
+							xp: 25
+						}
+						{
+							count: 5
+							id: "57199AAFCD043B34"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "48008656C39E5268"
+							item: {
+								count: 1
+								id: "apotheosis:reforging_table"
+							}
+							type: "item"
+						}
+						{
+							id: "431B1422414449EC"
+							item: {
+								count: 1
+								id: "apotheosis:sigil_of_rebirth"
+							}
+							type: "item"
+						}
+					]
+					x: -13.0d
+					y: -13.0d
+				}
+				{
+					dependencies: ["7E685EAD7FB60B45"]
+					icon: {
+						id: "apotheosis:augmenting_table"
+					}
+					id: "7E88C7654F281E43"
+					min_width: 300
+					rewards: [
+						{
+							id: "2A056D9591721911"
+							type: "xp"
+							xp: 50
+						}
+						{
+							count: 5
+							id: "33EA39215D9D888F"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "05B05212FBEA7B38"
+							item: {
+								count: 1
+								id: "apotheosis:augmenting_table"
+							}
+							type: "item"
+						}
+						{
+							id: "0638CAD5B4AB6A9B"
+							item: {
+								count: 1
+								id: "apotheosis:sigil_of_enhancement"
+							}
+							type: "item"
+						}
+					]
+					x: -9.0d
+					y: -13.0d
+				}
+				{
+					dependencies: ["4498E3F4B2DC24FC"]
+					hide_dependency_lines: true
+					id: "4BCA8A5C3F80D375"
+					optional: true
+					rewards: [
+						{
+							id: "4B6684711A766A65"
+							type: "xp"
+							xp: 10
+						}
+						{
+							count: 3
+							id: "2DF3C002E3B499F2"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "010A9BB03F089B5B"
+							item: {
+								count: 1
+								id: "apotheosis:sigil_of_unnaming"
+							}
+							type: "item"
+						}
+					]
+					x: -11.0d
+					y: -13.8d
+				}
+				{
+					dependencies: ["4498E3F4B2DC24FC"]
+					hide_dependency_lines: true
+					id: "4DE483256F9E1D4F"
+					optional: true
+					rewards: [
+						{
+							id: "574DF1AD7730E482"
+							item: {
+								count: 1
+								id: "apotheosis:gem_dust"
+							}
+							random_bonus: 2
+							type: "item"
+						}
+						{
+							id: "30C3F56CEB920570"
+							type: "xp"
+							xp: 100
+						}
+						{
+							count: 3
+							id: "2201D86C77CBE02A"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "51B1908A17140640"
+							item: {
+								count: 1
+								id: "apotheosis:sigil_of_withdrawal"
+							}
+							type: "item"
+						}
+					]
+					x: -10.5d
+					y: -13.0d
+				}
+				{
+					dependencies: ["4498E3F4B2DC24FC"]
+					hide_dependency_lines: true
+					id: "6EE1C1B7FFB86C6C"
+					optional: true
+					rewards: [
+						{
+							id: "01494831A74F04DD"
+							item: {
+								count: 1
+								id: "apotheosis:gem_dust"
+							}
+							random_bonus: 2
+							type: "item"
+						}
+						{
+							id: "4278632EDA858ED7"
+							type: "xp"
+							xp: 100
+						}
+						{
+							count: 3
+							id: "16E6D50EB45DDEDE"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					tasks: [
+						{
+							id: "2D241DCDF063BA09"
+							item: {
+								count: 1
+								id: "apotheosis:sigil_of_socketing"
+							}
+							type: "item"
+						}
+					]
+					x: -11.5d
+					y: -13.0d
+				}
+				{
+					dependencies: ["60FDF616DEDE5E73"]
+					dependency_requirement: "one_completed"
+					icon: {
+						components: {
+							"ftbquests:icon": "apotheosis:textures/gui/sword_full.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "464AED8311A32476"
+					min_width: 300
+					rewards: [
+						{
+							id: "6B76828831EEE6D5"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "7D4F020C78A16013"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.0d
+					tasks: [
+						{
+							id: "4544EA17F4CDD321"
+							type: "checkmark"
+						}
+					]
+					x: -11.5d
+					y: -8.0d
+				}
+				{
+					dependencies: ["60FDF616DEDE5E73"]
+					id: "011DBD2652E49B97"
+					min_width: 300
+					rewards: [
+						{
+							id: "7A37CB94868F6BBD"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "3A9769C19047BAF0"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "hexagon"
+					size: 1.0d
+					tasks: [
+						{
+							advancement: "apotheosis:progression/root"
+							criterion: ""
+							id: "764B54AFBF12BC31"
+							type: "advancement"
+						}
+					]
+					x: -10.5d
+					y: -8.0d
+				}
+				{
+					icon: {
+						components: {
+							"apotheosis:gem": "apotheosis:overworld/earth"
+							"apotheosis:purity": "perfect"
+						}
+						id: "apotheosis:gem"
+					}
+					id: "60FDF616DEDE5E73"
+					rewards: [
+						{
+							id: "733CE486C388970D"
+							item: {
+								components: {
+									"patchouli:book": "apotheosis:apoth_chronicle"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}
+							type: "item"
+						}
+						{
+							id: "1DD2297C2EBA9B02"
+							type: "xp"
+							xp: 10
+						}
+						{
+							id: "1B0A0452531FEE5C"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					size: 2.0d
+					tasks: [
+						{
+							id: "7AFA5CC185A71520"
+							type: "checkmark"
+						}
+					]
+					x: -11.0d
+					y: -6.5d
+				}
+				{
+					dependencies: ["68668718B414B6E4"]
+					id: "3EB56937CCDFCB2A"
+					rewards: [
+						{
+							id: "2417527928BB1097"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "rsquare"
+					tasks: [
+						{
+							id: "66EDA58C67B464E6"
+							item: {
+								count: 1
+								id: "productivemetalworks:ingot_cast"
+							}
+							type: "item"
+						}
+					]
+					x: -16.0d
+					y: -8.0d
+				}
+				{
+					dependencies: ["1B8BB733ADF897FE"]
+					id: "53E949B1A0D04290"
+					rewards: [
+						{
+							count: 3
+							id: "114D7651741AD324"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							count: 21L
+							id: "07E6CE6D4AE40F04"
+							item: {
+								count: 1
+								id: "productivemetalworks:black_fire_bricks"
+							}
+							type: "item"
+						}
+					]
+					x: -15.0d
+					y: -7.5d
+				}
+				{
+					dependencies: ["1B8BB733ADF897FE"]
+					icon: {
+						id: "productivemetalworks:black_foundry_controller"
+					}
+					id: "1BFDE3507411C116"
+					rewards: [
+						{
+							count: 3
+							id: "0172957990647AFA"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "72A2063FA6729BB8"
+							item: {
+								count: 1
+								id: "productivemetalworks:black_foundry_controller"
+							}
+							type: "item"
+						}
+						{
+							id: "41E8D534394BE0F6"
+							item: {
+								count: 1
+								id: "productivemetalworks:black_foundry_tank"
+							}
+							type: "item"
+						}
+						{
+							count: 9L
+							id: "49BE384F4A813689"
+							item: {
+								count: 9
+								id: "productivemetalworks:liquid_heating_coil"
+							}
+							type: "item"
+						}
+					]
+					x: -14.0d
+					y: -7.0d
+				}
+				{
+					dependencies: ["1B8BB733ADF897FE"]
+					icon: {
+						id: "productivemetalworks:casting_table"
+					}
+					id: "68668718B414B6E4"
+					rewards: [
+						{
+							count: 3
+							id: "051D62EED43C1F73"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "08EFFB248F8B2871"
+							item: {
+								count: 1
+								id: "productivemetalworks:black_foundry_drain"
+							}
+							type: "item"
+						}
+						{
+							id: "274E4F5FEA287092"
+							item: {
+								count: 1
+								id: "productivemetalworks:casting_table"
+							}
+							type: "item"
+						}
+						{
+							id: "08E3B925DDB25F7A"
+							item: {
+								count: 1
+								id: "productivemetalworks:foundry_tap"
+							}
+							type: "item"
+						}
+						{
+							id: "5EED6B6D906F69FF"
+							item: {
+								count: 1
+								id: "productivemetalworks:casting_basin"
+							}
+							optional_task: true
+							type: "item"
+						}
+					]
+					x: -16.0d
+					y: -7.0d
+				}
+				{
+					icon: {
+						id: "productivemetalworks:fire_brick"
+					}
+					id: "1B8BB733ADF897FE"
+					rewards: [
+						{
+							id: "021AC786AE6665CA"
+							item: {
+								components: {
+									"patchouli:book": "productivemetalworks:guide"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}
+							type: "item"
+						}
+						{
+							id: "573109B9B72A46C6"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "1164FC5110B084D3"
+							item: {
+								count: 1
+								id: "productivemetalworks:fire_clay"
+							}
+							type: "item"
+						}
+						{
+							id: "22FD57DA3281B309"
+							item: {
+								count: 1
+								id: "productivemetalworks:fire_brick"
+							}
+							type: "item"
+						}
+					]
+					x: -15.0d
+					y: -6.5d
+				}
+				{
+					dependencies: ["1BFDE3507411C116"]
+					icon: {
+						components: {
+							"ftbquests:icon": "minecraft:textures/gui/sprites/icon/info.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2AD996C548EBF4A4"
+					rewards: [
+						{
+							id: "2FB6D066B25E2FE7"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "rsquare"
+					tasks: [
+						{
+							id: "74FD82EA0E9371E3"
+							type: "checkmark"
+						}
+					]
+					x: -14.0d
+					y: -8.0d
+				}
+				{
+					icon: {
+						id: "cognition:cognitive_crystal_block"
+					}
+					id: "469C88B6CEC1F9E7"
+					rewards: [
+						{
+							count: 16
+							id: "01E6B1B568EAB4E9"
+							item: {
+								count: 1
+								id: "cognition:cognitive_amalgam"
+							}
+							type: "item"
+						}
+						{
+							count: 4
+							id: "543B56CB3E01B0C9"
+							item: {
+								count: 1
+								id: "cognition:cognitive_crystal"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "5C499D48F7E06DDA"
+							item: {
+								count: 1
+								id: "cognition:cognitive_flux"
+							}
+							type: "item"
+						}
+						{
+							id: "36D1454FF4138BED"
+							item: {
+								count: 1
+								id: "cognition:astute_assembly"
+							}
+							type: "item"
+						}
+					]
+					x: -11.0d
+					y: 2.0d
+				}
+				{
+					dependencies: ["469C88B6CEC1F9E7"]
+					id: "392BCAC9B70F5948"
+					rewards: [
+						{
+							id: "15A835497F7F5451"
+							item: {
+								count: 1
+								id: "cognition:attunement_staff"
+							}
+							type: "item"
+						}
+						{
+							id: "7A76E925BA865EC4"
+							item: {
+								count: 1
+								id: "cognition:memory_tablet"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "192697347CE506EB"
+							item: {
+								count: 1
+								id: "cognition:experience_obelisk"
+							}
+							type: "item"
+						}
+					]
+					x: -11.0d
+					y: 3.5d
+				}
+				{
+					dependencies: ["392BCAC9B70F5948"]
+					icon: {
+						id: "cognition:molecular_metamorpher"
+					}
+					id: "67396087E1916115"
+					rewards: [
+						{
+							count: 8
+							id: "33B0972DF34621D6"
+							item: {
+								count: 1
+								id: "cognition:mending_neurogel_blob"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "117A6DC11D92941B"
+							item: {
+								count: 1
+								id: "cognition:molecular_metamorpher"
+							}
+							type: "item"
+						}
+						{
+							id: "5DF9BDDFAAEB5483"
+							item: {
+								count: 1
+								id: "cognition:transforming_focus"
+							}
+							optional_task: true
+							type: "item"
+						}
+					]
+					x: -11.0d
+					y: 5.0d
+				}
+				{
+					dependencies: ["67396087E1916115"]
+					icon: {
+						id: "cognition:bibliophage"
+					}
+					id: "7FBA170218539BE8"
+					optional: true
+					rewards: [
+						{
+							id: "5F76B4FCA19511A4"
+							item: {
+								count: 1
+								id: "cognition:flask_of_chaos"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "4AC9159928703D92"
+							item: {
+								count: 1
+								id: "cognition:bibliophage"
+							}
+							type: "item"
+						}
+						{
+							icon: {
+								id: "cognition:infected_bookshelf"
+							}
+							id: "1359EB00772FEB8A"
+							observe_type: 0
+							timer: 0L
+							to_observe: "cognition:infected_bookshelf"
+							type: "observation"
+						}
+						{
+							id: "21919230889FB25A"
+							item: {
+								count: 1
+								id: "cognition:fluorescent_agar"
+							}
+							optional_task: true
+							type: "item"
+						}
+					]
+					x: -10.0d
+					y: 4.5d
+				}
+				{
+					dependencies: ["392BCAC9B70F5948"]
+					id: "6F63C69CE07E0F0A"
+					optional: true
+					rewards: [
+						{
+							count: 8
+							id: "717AF68CB0538A21"
+							item: {
+								count: 1
+								id: "minecraft:experience_bottle"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "1ED44A8926473E4E"
+							item: {
+								count: 1
+								id: "cognition:experience_fountain"
+							}
+							type: "item"
+						}
+					]
+					x: -12.0d
+					y: 4.5d
+				}
+				{
+					dependencies: ["469C88B6CEC1F9E7"]
+					id: "6C25708068B5197C"
+					optional: true
+					shape: "diamond"
+					tasks: [
+						{
+							id: "4E6DD6EC3BAE3D6C"
+							item: {
+								count: 1
+								id: "cognition:precision_dispeller"
+							}
+							type: "item"
+						}
+					]
+					x: -12.0d
+					y: 2.5d
+				}
+				{
+					dependencies: ["469C88B6CEC1F9E7"]
+					icon: {
+						components: {
+							"ftbquests:icon": "cognition:item/cognitive_bow_pulling_2"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1C8A5F2BD1C17A3E"
+					optional: true
+					rewards: [
+						{
+							id: "315B748A0F0AEE92"
+							item: {
+								count: 1
+								id: "cognition:fortuitous_amulet"
+							}
+							type: "item"
+						}
+						{
+							count: 5
+							id: "42D7B8FCCD8A42D6"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							icon: {
+								id: "cognition:cognitive_chestplate"
+							}
+							id: "3128F6B31EF0AAA7"
+							item: {
+								components: {
+									"ftbfiltersystem:filter": "or(item(cognition:cognitive_helmet)item(cognition:cognitive_chestplate)item(cognition:cognitive_leggings)item(cognition:cognitive_boots))"
+									"minecraft:custom_name": "\"Cognitive Armor\""
+								}
+								count: 1
+								id: "ftbfiltersystem:smart_filter"
+							}
+							optional_task: true
+							type: "item"
+						}
+						{
+							icon: {
+								id: "cognition:cognitive_pickaxe"
+							}
+							id: "555E91E3488C8559"
+							item: {
+								components: {
+									"ftbfiltersystem:filter": "or(item(cognition:cognitive_sword)item(cognition:cognitive_shovel)item(cognition:cognitive_pickaxe)item(cognition:cognitive_axe)item(cognition:cognitive_hoe))"
+									"minecraft:custom_name": "\"Standard Cognitive Tools\""
+								}
+								count: 1
+								id: "ftbfiltersystem:smart_filter"
+							}
+							optional_task: true
+							type: "item"
+						}
+						{
+							icon: {
+								id: "cognition:cognitive_rod"
+							}
+							id: "67799BCB12DD052F"
+							item: {
+								components: {
+									"ftbfiltersystem:filter": "or(item(cognition:cognitive_bow)item(cognition:flint_and_cognitive_alloy)item(cognition:cognitive_shears)item(cognition:cognitive_rod))"
+									"minecraft:custom_name": "\"NicheCognitiveTools\""
+								}
+								count: 1
+								id: "ftbfiltersystem:smart_filter"
+							}
+							optional_task: true
+							type: "item"
+						}
+					]
+					x: -10.0d
+					y: 2.5d
+				}
+			]
+		}

@@ -1,0 +1,826 @@
+{
+			default_hide_dependency_lines: false
+			default_min_width: 250
+			default_quest_shape: ""
+			filename: "roots_4"
+			group: "33401D44ADADF4FC"
+			icon: {
+				id: "roots:ritual_spreading_forest"
+			}
+			id: "03A37FD64AD57D11"
+			images: [
+				{
+					height: 4.5d
+					image: "ftb:textures/quests/titles_and_logos/roots_classic_logo.png"
+					order: 10
+					rotation: 0.0d
+					width: 6.0d
+					x: 0.0d
+					y: 1.0d
+				}
+				{
+					height: 1.8d
+					image: "minecraft:block/grass_block_side"
+					rotation: 0.0d
+					width: 1.8d
+					x: -4.5d
+					y: 0.5d
+				}
+				{
+					height: 1.75d
+					image: "roots:block/crops/aubergine_7"
+					order: -9
+					rotation: 0.0d
+					width: 1.75d
+					x: -3.5d
+					y: -1.0d
+				}
+				{
+					height: 1.8d
+					image: "roots:block/runestone"
+					rotation: 0.0d
+					width: 1.8d
+					x: 0.0d
+					y: -1.0d
+				}
+				{
+					height: 1.8d
+					image: "minecraft:block/grass_block_side"
+					rotation: 0.0d
+					width: 1.8d
+					x: -3.0d
+					y: 0.5d
+				}
+				{
+					height: 1.8d
+					image: "minecraft:block/grass_block_side"
+					rotation: 0.0d
+					width: 1.8d
+					x: -1.5d
+					y: 0.5d
+				}
+				{
+					height: 1.8d
+					image: "minecraft:block/grass_block_side"
+					rotation: 0.0d
+					width: 1.8d
+					x: 0.0d
+					y: 0.5d
+				}
+				{
+					height: 1.8d
+					image: "minecraft:block/grass_block_side"
+					rotation: 0.0d
+					width: 1.8d
+					x: 1.5d
+					y: 0.5d
+				}
+				{
+					height: 1.8d
+					image: "minecraft:block/grass_block_side"
+					rotation: 0.0d
+					width: 1.8d
+					x: 3.0d
+					y: 0.5d
+				}
+				{
+					height: 1.8d
+					image: "minecraft:block/grass_block_side"
+					rotation: 0.0d
+					width: 1.8d
+					x: 4.5d
+					y: 0.5d
+				}
+				{
+					height: 1.8d
+					image: "roots:block/runestone"
+					rotation: 0.0d
+					width: 1.8d
+					x: 0.0d
+					y: -2.5d
+				}
+				{
+					height: 1.8d
+					image: "roots:block/chiseled_runestone"
+					rotation: 0.0d
+					width: 1.8d
+					x: 0.0d
+					y: -4.0d
+				}
+				{
+					height: 1.6d
+					image: "minecraft:block/oak_log"
+					order: -8
+					rotation: 90.0d
+					width: 1.6d
+					x: 3.0d
+					y: 0.0d
+				}
+				{
+					height: 1.5d
+					image: "minecraft:block/campfire_fire"
+					order: -10
+					rotation: 0.0d
+					width: 1.5d
+					x: 3.0d
+					y: -0.5d
+				}
+			]
+			order_index: 5
+			quest_links: [ ]
+			quests: [
+				{
+					icon: {
+						id: "roots:wildroot"
+					}
+					id: "0B2614FA7E949C6F"
+					rewards: [
+						{
+							count: 4
+							id: "3056CC59E9B0DD5A"
+							item: {
+								count: 1
+								id: "roots:wildroot"
+							}
+							type: "item"
+						}
+						{
+							count: 4
+							id: "3F75FB966CB00F49"
+							item: {
+								count: 1
+								id: "roots:grove_spores"
+							}
+							type: "item"
+						}
+						{
+							count: 4
+							id: "27CAA8CC778721FD"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					shape: "pentagon"
+					size: 1.5d
+					tasks: [
+						{
+							id: "7C0F9FD4009159C1"
+							item: {
+								count: 1
+								id: "roots:wildroot"
+							}
+							type: "item"
+						}
+						{
+							id: "66DA2CB6927D784E"
+							item: {
+								components: {
+									"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(roots:knives)"
+								}
+								count: 1
+								id: "ftbfiltersystem:smart_filter"
+							}
+							type: "item"
+						}
+						{
+							id: "596A5B51E0D22695"
+							item: {
+								count: 1
+								id: "roots:grove_spores"
+							}
+							optional_task: true
+							type: "item"
+						}
+					]
+					x: 0.0d
+					y: 0.0d
+				}
+				{
+					dependencies: ["3A17E4DF31D26856"]
+					id: "0171D054BE838062"
+					rewards: [
+						{
+							id: "50E9FF881FEF515A"
+							item: {
+								count: 1
+								id: "roots:decorative_soul_pyre"
+							}
+							type: "item"
+						}
+						{
+							count: 4
+							id: "1EA2DC5DDC98B930"
+							item: {
+								count: 1
+								id: "roots:fire_starter"
+							}
+							type: "item"
+						}
+						{
+							count: 2
+							id: "34DDA8F85D82584C"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "7F73FCEB31DD5ADA"
+							item: {
+								count: 1
+								id: "roots:pyre"
+							}
+							type: "item"
+						}
+					]
+					x: 2.0d
+					y: -2.0d
+				}
+				{
+					dependencies: ["0171D054BE838062"]
+					icon: {
+						id: "roots:pereskia"
+					}
+					id: "65D55532C0286746"
+					rewards: [
+						{
+							id: "3C65A7F23AE8D0C3"
+							item: {
+								count: 1
+								id: "roots:aubergine_salad"
+							}
+							type: "item"
+						}
+						{
+							count: 8
+							id: "33651D14104B72FC"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "056DCB4713EB0918"
+							item: {
+								components: {
+									"ftbfiltersystem:filter": "item_tag(roots:crops)not(or(item(roots:wildroot)item(roots:wildewheet)item(roots:spiritleaf)))"
+									"minecraft:custom_name": "\"magic crops\""
+								}
+								count: 1
+								id: "ftbfiltersystem:smart_filter"
+							}
+							optional_task: true
+							type: "item"
+						}
+						{
+							id: "79FEF1685D86F527"
+							item: {
+								count: 1
+								id: "roots:bafflecap"
+							}
+							optional_task: true
+							type: "item"
+						}
+					]
+					x: 2.0d
+					y: -4.0d
+				}
+				{
+					dependencies: ["5BF13A09E1CBCA76"]
+					icon: {
+						id: "roots:aqueous_soil"
+					}
+					id: "5C5DF94E94E43B8F"
+					rewards: [
+						{
+							count: 4
+							id: "674A53237BFF4021"
+							item: {
+								count: 1
+								id: "roots:elemental_soil"
+							}
+							type: "item"
+						}
+						{
+							count: 4
+							id: "6F34E466BAC56FD3"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "7FF729FA044C363A"
+							item: {
+								count: 1
+								id: "roots:elemental_soil"
+							}
+							type: "item"
+						}
+						{
+							icon: {
+								id: "roots:aqueous_soil"
+							}
+							id: "4CB210B43A88AD57"
+							item: {
+								components: {
+									"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(roots:soils)"
+								}
+								count: 1
+								id: "ftbfiltersystem:smart_filter"
+							}
+							optional_task: true
+							type: "item"
+						}
+					]
+					x: -2.0d
+					y: -4.0d
+				}
+				{
+					dependencies: [
+						"3A17E4DF31D26856"
+						"0171D054BE838062"
+					]
+					icon: {
+						id: "roots:grove_crafter"
+					}
+					id: "5BF13A09E1CBCA76"
+					rewards: [
+						{
+							id: "74A4DCAE83E0100F"
+							item: {
+								count: 1
+								id: "roots:charm_of_alertness"
+							}
+							type: "item"
+						}
+						{
+							count: 3
+							id: "7C37B27335853BF0"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "068FC1F38E1D9F52"
+							item: {
+								count: 1
+								id: "roots:grove_crafter"
+							}
+							type: "item"
+						}
+						{
+							id: "3B9C67DDF30F8DA3"
+							item: {
+								count: 1
+								id: "roots:primal_grove_stone"
+							}
+							type: "item"
+						}
+						{
+							id: "6188157620BF5DA8"
+							item: {
+								count: 1
+								id: "roots:grove_pedestal"
+							}
+							type: "item"
+						}
+						{
+							id: "5157259C5DA373F5"
+							item: {
+								count: 1
+								id: "roots:ritual_grove_supplication"
+							}
+							optional_task: true
+							type: "item"
+						}
+					]
+					x: -2.0d
+					y: -2.0d
+				}
+				{
+					dependencies: ["3A17E4DF31D26856"]
+					icon: {
+						id: "roots:pestle"
+					}
+					id: "16206DA366CABDBE"
+					rewards: [
+						{
+							count: 5
+							id: "2F7BDA0EEB108226"
+							item: {
+								count: 1
+								id: "roots:runestone"
+							}
+							type: "item"
+						}
+						{
+							count: 2
+							id: "79E942C397DCC1D5"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "1DE117E5D0E4D445"
+							item: {
+								count: 1
+								id: "roots:mortar"
+							}
+							type: "item"
+						}
+						{
+							id: "124DD70420528DD7"
+							item: {
+								count: 1
+								id: "roots:pestle"
+							}
+							type: "item"
+						}
+					]
+					x: 1.0d
+					y: -1.0d
+				}
+				{
+					dependencies: ["0B2614FA7E949C6F"]
+					id: "3A17E4DF31D26856"
+					rewards: [
+						{
+							count: 3
+							id: "0FABDAE7F0E308E5"
+							item: {
+								count: 1
+								id: "roots:runestone"
+							}
+							random_bonus: 3
+							type: "item"
+						}
+						{
+							id: "01ED933A1EBDE18D"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "275852A2DAE81F94"
+							item: {
+								count: 1
+								id: "roots:runestone"
+							}
+							type: "item"
+						}
+					]
+					x: 0.0d
+					y: -2.0d
+				}
+				{
+					dependencies: ["0B2614FA7E949C6F"]
+					icon: {
+						id: "roots:spruce_bark"
+					}
+					id: "084450FB6934B329"
+					rewards: [
+						{
+							count: 8
+							id: "6FAE6E3984064C65"
+							item: {
+								count: 1
+								id: "minecraft:birch_log"
+							}
+							type: "item"
+						}
+						{
+							id: "7253AA921D6F8A89"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "1AAB99A83BB718BE"
+							item: {
+								components: {
+									"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(roots:barks)"
+								}
+								count: 1
+								id: "ftbfiltersystem:smart_filter"
+							}
+							type: "item"
+						}
+					]
+					x: -1.0d
+					y: -1.0d
+				}
+				{
+					icon: {
+						id: "roots:antlers"
+					}
+					id: "5A23D4BE3D221C70"
+					optional: true
+					rewards: [
+						{
+							id: "26DBB99597803A09"
+							item: {
+								count: 1
+								id: "roots:beetle_spawn_egg"
+							}
+							type: "item"
+						}
+						{
+							count: 2
+							id: "4C27F1490095F79B"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "7044312336BE0572"
+							item: {
+								count: 1
+								id: "roots:antlers"
+							}
+							optional_task: true
+							type: "item"
+						}
+						{
+							id: "278985E58CC15F76"
+							item: {
+								count: 1
+								id: "roots:carapace"
+							}
+							optional_task: true
+							type: "item"
+						}
+					]
+					x: 0.0d
+					y: -4.0d
+				}
+				{
+					dependencies: ["0171D054BE838062"]
+					icon: {
+						id: "roots:ritual_animal_harvest"
+					}
+					id: "554D9B6BE7F3B16E"
+					rewards: [
+						{
+							id: "6855A013B350D660"
+							item: {
+								count: 1
+								id: "roots:jerboa_spawn_egg"
+							}
+							type: "item"
+						}
+						{
+							id: "1E49B5BE0431B3D3"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "76B5B3750B213617"
+							item: {
+								count: 1
+								id: "roots:ritual_animal_harvest"
+							}
+							optional_task: true
+							type: "item"
+						}
+						{
+							id: "2EFE6456D9A62378"
+							type: "checkmark"
+						}
+					]
+					x: 3.0d
+					y: -3.0d
+				}
+				{
+					dependencies: ["5BF13A09E1CBCA76"]
+					icon: {
+						id: "roots:runic_shears"
+					}
+					id: "0C005377C48763F4"
+					rewards: [
+						{
+							count: 6
+							id: "74E0991ADDB8F838"
+							item: {
+								count: 1
+								id: "roots:wildewheet_bread"
+							}
+							type: "item"
+						}
+						{
+							id: "06BBC146A310B23C"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "05310D883C41B8AA"
+							item: {
+								count: 1
+								id: "roots:runic_shears"
+							}
+							type: "item"
+						}
+						{
+							id: "6F572D352FC14D03"
+							item: {
+								count: 1
+								id: "roots:spiritleaf"
+							}
+							optional_task: true
+							type: "item"
+						}
+						{
+							id: "1E45D7215BD4B848"
+							item: {
+								count: 1
+								id: "roots:wildewheet"
+							}
+							optional_task: true
+							type: "item"
+						}
+					]
+					x: -4.0d
+					y: -2.0d
+				}
+				{
+					dependencies: [
+						"0B2614FA7E949C6F"
+						"0171D054BE838062"
+					]
+					dependency_requirement: "one_completed"
+					icon: {
+						id: "roots:staff"
+					}
+					id: "26967FC6CE3428BC"
+					rewards: [
+						{
+							id: "57DE98C0600A3482"
+							item: {
+								count: 1
+								id: "roots:herb_pouch"
+							}
+							type: "item"
+						}
+						{
+							count: 6
+							id: "606C7F914B635578"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "6F8341C1F6365913"
+							item: {
+								components: {
+									"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(roots:casting_tools)"
+								}
+								count: 1
+								id: "ftbfiltersystem:smart_filter"
+							}
+							type: "item"
+						}
+						{
+							id: "30C33068A3EA7072"
+							type: "checkmark"
+						}
+					]
+					x: 2.0d
+					y: 0.0d
+				}
+				{
+					dependencies: ["5BF13A09E1CBCA76"]
+					icon: {
+						id: "roots:living_sword"
+					}
+					id: "478E51BC941263E9"
+					optional: true
+					rewards: [
+						{
+							count: 4
+							id: "404E66A45E307ED5"
+							item: {
+								count: 1
+								id: "roots:grove_moss"
+							}
+							type: "item"
+						}
+						{
+							id: "52A657C953F3FD85"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "628DC7385ADA8103"
+							item: {
+								components: {
+									"ftbfiltersystem:filter": "or(item(roots:living_sword)item(roots:living_axe)item(roots:living_pickaxe)item(roots:living_shovel)item(roots:living_hoe))"
+									"minecraft:custom_name": "\"Living tools\""
+								}
+								count: 1
+								id: "ftbfiltersystem:smart_filter"
+							}
+							type: "item"
+						}
+					]
+					x: -3.0d
+					y: -3.0d
+				}
+				{
+					dependencies: ["0171D054BE838062"]
+					icon: {
+						id: "roots:wildwood_sapling"
+					}
+					id: "00AE6584ACB79B5D"
+					rewards: [
+						{
+							id: "09D177CB1A736659"
+							item: {
+								count: 1
+								id: "roots:wildwood_sapling"
+							}
+							type: "item"
+						}
+						{
+							id: "6FF7F4BBE669ACE2"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "5236935A9BEE59B3"
+							item: {
+								count: 1
+								id: "roots:ritual_wildroot_growth"
+							}
+							optional_task: true
+							type: "item"
+						}
+						{
+							id: "2187E3F212D52DEC"
+							item: {
+								count: 1
+								id: "roots:wildwood_log"
+							}
+							type: "item"
+						}
+					]
+					x: 4.0d
+					y: -2.0d
+				}
+			]
+		}
