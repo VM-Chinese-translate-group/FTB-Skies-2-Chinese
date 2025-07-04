@@ -158,8 +158,19 @@ def main() -> None:
         json_dir = str(ftb_quests_lang_dir)
         output_snbt_file = 'CNPack/config/ftbquests/quests/lang/zh_cn.snbt'
 
-        # 直接调用从 LangSpliter 导入的函数
-        merge_all_to_snbt(json_dir, output_snbt_file)
+        # 新增 chapters 目录的定义
+        source_chapters_dir = 'Source/config/ftbquests/quests/chapters'
+        output_chapters_dir = 'CNPack/config/ftbquests/quests/chapters'
+
+        # 直接调用从 LangSpliter 导入的函数，并传入所有必需的参数
+        if os.path.isdir(source_chapters_dir):
+            print(f"检测到章节目录，将启用 custom_name/lore 更新功能...")
+            merge_all_to_snbt(json_dir, output_snbt_file, source_chapters_dir, output_chapters_dir)
+        else:
+            print(f"未检测到章节目录 {source_chapters_dir}，将禁用 custom_name/lore 更新功能...")
+
+            # 如果源目录不存在，传入空字符串或None来禁用功能
+            merge_all_to_snbt(json_dir, output_snbt_file, "", "")
 
        # 合并完成后，清除已合并的临时JSON文件所在的父目录
         cleanup_dir = ftb_quests_lang_dir.parent
