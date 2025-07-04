@@ -342,7 +342,7 @@
 		"注意：你也可以直接将基础等级升级到更高等级！"
 	]
 	quest.03569C25419223DC.title: "&f升级等级"
-	quest.03597EC99930955D.quest_desc: ["矿石生成这种资源来制造母岩"]
+	quest.03597EC99930955D.quest_desc: ["矿石生成这种资源来形成母岩"]
 	quest.03597EC99930955D.quest_subtitle: "将熔融的铂倒在催化剂上"
 	quest.03597EC99930955D.title: "&fBudding Platinum Geore"
 	quest.0361236BF20549B5.quest_desc: [
@@ -395,7 +395,7 @@
 		"使用&e传说之眼&r或&e探险者指南针&r来定位并前往这些地方，可能会让你收获颇丰。"
 	]
 	quest.038C26F86776F520.quest_subtitle: "绿宝石与紫水晶"
-	quest.038C26F86776F520.title: "&fSky Village Materials"
+	quest.038C26F86776F520.title: "&f天空村庄材料"
 	quest.03BEFC2150D09E7A.quest_desc: [
 		"&d无线终端&r可在&3无线访问点&r的信号范围内远程访问你的存储网络。"
 		""
@@ -1188,8 +1188,8 @@
 		"这条处理产线矿物产量翻五倍。"
 	]
 	quest.0AF5992D0DF57313.title: "&6四阶矿物处理产线&r"
-	quest.0AF5AB8F0D7DB4B7.quest_desc: ["&aKivi&r can easily be obtained by dripping lava onto a &eVoid Crystal Catalyst&r, and then generated using an &eExtractor&r."]
-	quest.0AF5AB8F0D7DB4B7.quest_subtitle: "捣碎奇异果！"
+	quest.0AF5AB8F0D7DB4B7.quest_desc: ["&a磊岩&r只需将熔岩滴在&e虚无晶体催化剂&r表面即可轻松获取，然后用&e提取器&r装置生成就好了。 "]
+	quest.0AF5AB8F0D7DB4B7.quest_subtitle: "捣碎磊岩！"
 	quest.0AF5AB8F0D7DB4B7.title: "&fCrushed Kivi"
 	quest.0B1C26C45144306A.quest_desc: [
 		"钓鱼获取精华的收益远超预期！这些精华可以转化成推动进程所需的资源。将它们与下级精华和活化种子结合，就能培育出生长这些精华的作物！"
@@ -2109,8 +2109,8 @@
 		"[\"记得查看\", {\"text\": \"发电\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"754048401D3A6A7B\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往发电章节\"]} }, \"章节来全面了解你可以用来发电的所有不同方式。\"]"
 	]
 	quest.1514FAC5930B55D2.title: "&c能量章节"
-	quest.1536AFFBBB6D858A.quest_desc: ["&aTopaz&r can only be found rarely from leveling trades with a villager that's using a &eJewelcrafting Station&r as their job site."]
-	quest.1536AFFBBB6D858A.quest_subtitle: "Use Topaz on a Catalyst"
+	quest.1536AFFBBB6D858A.quest_desc: ["&a黄玉&r只能小概率通过与使用&e珠宝加工台&r作为工作地点的村民进行交易升级来获取。"]
+	quest.1536AFFBBB6D858A.quest_subtitle: "在催化剂上使用黄玉"
 	quest.1536AFFBBB6D858A.title: "&fBudding Topaz Geore"
 	quest.154E08BC9091684F.quest_desc: [
 		"&e荧石粉&r可以增强效果强度。"
@@ -2569,7 +2569,7 @@
 		"[\"你可以了解更多有关本工具的信息于\", { \"text\": \"通用机械\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"644874076A06F5F4\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往通用机械章节\"} }, \" 这一章节！\" ]"
 	]
 	quest.1ABA5F2ECAA6D9D2.title: "&e通用机械"
-	quest.1ADCEE9410309CAB.quest_subtitle: "Pour Molten Amethyst over a Catalyst"
+	quest.1ADCEE9410309CAB.quest_subtitle: "将熔融紫水晶倒在催化剂上"
 	quest.1ADCEE9410309CAB.title: "&fBudding Amethyst"
 	quest.1ADE323F448DCF12.quest_desc: [
 		"在基地内的箱子里到处放这些&a位置卡&r，是一件非常痛苦的事情。"
@@ -3158,8 +3158,8 @@
 	quest.20CC7D7B65AE1BB4.title: "&5蚀空合金头盔"
 	quest.20DCC194EED4395B.quest_subtitle: "优秀的作战套装"
 	quest.20DCC194EED4395B.title: "&c惊悚南瓜套装"
-	quest.20F74AEE28351167.quest_desc: ["&aSapphires&r can be found by &bmanually generating ores&r or rarely from leveling trades with a villager that's using a &eJewelcrafting Station&r as their job site."]
-	quest.20F74AEE28351167.quest_subtitle: "Use Sapphire on a Catalyst"
+	quest.20F74AEE28351167.quest_desc: ["&a蓝宝石&r可以通过&b手动开采矿石&r获得，或者偶尔通过与使用&e珠宝加工台&r作为工作地点的村民进行交易升级来获取。"]
+	quest.20F74AEE28351167.quest_subtitle: "在催化剂上使用蓝宝石"
 	quest.20F74AEE28351167.title: "&fBudding Sapphire Geore"
 	quest.210833F817D7AF9E.quest_desc: ["&6下界合金自动合成仓&r有81个&a样板&r槽位，基础工作速度相当于满速度升级的&d钻石自动合成仓&r。"]
 	quest.210833F817D7AF9E.title: "&6下界合金自动合成仓"
@@ -3516,7 +3516,7 @@
 	quest.24A60877D5FAD4A5.quest_desc: [
 		"&d探险者力量&r提供用于制作它的所有护身符的效果："
 		""
-		"It increases block reach by 59 blocks, prevents phantom and enderman aggression, provides immunity to freezing damage, and applies the glowing effect to mobs within a 12-block radius."
+		"增加59格放置距离，消除幻翼和末影人的敌意，免疫寒冷伤害，对半径12格范围内的生物施加发光效果。"
 		""
 		"它还用于制作&3Minecraft之魂&r。"
 	]
@@ -3548,13 +3548,13 @@
 		"潜行的时候手持储罐，使用鼠标中键滚轮调整为&a桶&r，这样就可以装起多桶流体（比如水或熔岩）。"
 	]
 	quest.24F17FA24ED466FA.title: "{\"text\": \"Basic Fluid Tank\", \"color\": \"#5EFCB6\"}"
-	quest.24F275DFF6D07418.quest_subtitle: "Use Light Grey Dye on a Catalyst"
+	quest.24F275DFF6D07418.quest_subtitle: "在催化剂上使用浅灰色染料"
 	quest.24F275DFF6D07418.title: "&fBudding Tin Geore"
 	quest.25023C87AA259688.quest_desc: ["虽然这可能不是最坚固的盔甲，但当你穿上全套&3纸板&r套装时，&3纸板盔甲&r会为你提供酷炫的潜行效果。"]
 	quest.25023C87AA259688.quest_subtitle: "偷偷摸摸"
 	quest.25023C87AA259688.title: "&3纸板盔甲"
-	quest.250EAE6FF7C67284.quest_desc: ["矿石生成这种资源来制造母岩"]
-	quest.250EAE6FF7C67284.quest_subtitle: "Pour Molten Uranium over a Catalyst"
+	quest.250EAE6FF7C67284.quest_desc: ["矿石生成这种资源来形成母岩"]
+	quest.250EAE6FF7C67284.quest_subtitle: "将熔融铀倒在催化剂上"
 	quest.250EAE6FF7C67284.title: "&fBudding Uranium Geore"
 	quest.253FA29ADE459464.quest_desc: [
 		"有了营火，就有可能通过处理让玻璃和铁来承受更高的温度。"
@@ -3831,12 +3831,12 @@
 	]
 	quest.27E867855AC60BF0.title: "&a高级护符底座（高级护符基板）"
 	quest.27EA4B653A952968.quest_desc: [
-		"&aOsmium&r can be a tricky precious resource to find, and you may need to resort to a general purpose ore generator to get your hands on some."
+		"&a锇&r是一种难以寻觅的珍贵资源，你可能需要借助通用矿石产生器来获取一些。"
 		""
 		"[\"Though if you could get your hands on some silver, you could use your \", {\"text\": \"experience\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"469C88B6CEC1F9E7\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to the Cognition questline\"]} }, \", obsidian dust, and a puddle of molten ender pearls to convert it.\"]"
 		"&7This process is far more complicated, but still possible without an ore generator."
 	]
-	quest.27EA4B653A952968.quest_subtitle: "Pour Molten Osmium over a Catalyst, or..."
+	quest.27EA4B653A952968.quest_subtitle: "将熔融锇倒在催化剂上，或者……"
 	quest.27EA4B653A952968.title: "&fBudding Osmium Geore"
 	quest.282692A786304653.title: "&d黄铜板"
 	quest.282953A521BACF41.quest_desc: [
@@ -6209,7 +6209,7 @@
 	quest.3FC961B8C0657214.title: "&3Carbon Fibre&r"
 	quest.3FE99AE10B0737BB.title: "&f大量存储单一物品"
 	quest.3FF612F915DF4BF5.quest_desc: [
-		"&a仙人掌护身符&r将受到伤害的25%反弹给攻击者。"
+		"&a仙人掌护身符&r反射受到伤害的25%给攻击者。"
 		""
 		"它还用于制作&b战士力量&r。"
 	]
@@ -6296,7 +6296,7 @@
 	]
 	quest.40B9A5403390D8A1.title: "&eMI&a管道"
 	quest.40C4ECF69211C872.quest_desc: [
-		"&aOsmium&r can be a tricky precious resource to find, and you may need to resort to a general purpose ore generator to get your hands on some."
+		"&a锇&r是一种难以寻觅的珍贵资源，你可能需要借助通用矿石产生器来获取一些。"
 		""
 		"[\"It's possible to convert silver essence through a bit of transmutation with \", {\"text\": \"knowledge\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"469C88B6CEC1F9E7\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to the Cognition questline\"]} }, \", and some black quartz though...\"]"
 	]
@@ -6460,7 +6460,7 @@
 	quest.423950ED16C2422B.quest_desc: [
 		"&b战士力量&r提供用于制作它的所有护身符的效果："
 		""
-		"It provides temporary barrier after taking damage, immunity from sweet berry bushes and falling into the void, reflects 25% of damage taken, and increases current health by 2x."
+		"受伤提供暂时的防护，免疫甜浆果丛和虚空伤害，反射25%受到的伤害，将当前生命值翻倍。"
 		""
 		"它还用于制作&3Minecraft之魂&r。"
 	]
@@ -6962,7 +6962,7 @@
 	quest.4835F10B1C5BCAAE.quest_desc: [
 		"&b负面力量&r提供用于制作它的所有护身符的效果："
 		""
-		"It increases damage by 25% when affected by blindness, nausea, mining fatigue, poison, weakness, slowness, wither, and while on fire."
+		"每受失明、反胃、挖掘疲劳、中毒、虚弱、缓慢、凋零效果影响，和着火时，增加25%伤害。"
 		""
 		"它还用于制作&3Minecraft之魂&r。"
 	]
@@ -11584,7 +11584,7 @@
 	quest.7CD3D31BAA53F592.quest_desc: [
 		"&b排斥者力量&r提供用于制作它的所有护身符的效果："
 		""
-		"It increases arrow damage, ignites and applies weakness to nearby hostile monsters, temporarily boosts damage and attack speed, provides immunity wither and magic, and grants explosive jumps."
+		"提升箭矢伤害，引燃周围的敌对生物并对其施加虚弱，暂时性增加伤害和攻击速度，免疫凋零和魔法伤害，还有爆炸跳。"
 		""
 		"它还用于制作&3Minecraft之魂&r。"
 	]
@@ -11830,9 +11830,9 @@
 	]
 	quest.7F4E7C687E7D8707.title: "&e物品收集器&r"
 	quest.7F630367E12209A4.quest_desc: [
-		"The &dForce of Nature&r provides all effects of the talisman used to craft it:"
+		"&d自然力量&r提供用于制作它的所有护身符的效果："
 		""
-		"It negates fall damage, provides infinite water breathing, and fire and lava immunity, and allows conversion of dirt into grass."
+		"免疫摔落伤害，提供无限水下呼吸，免疫火焰和熔岩伤害，将泥土转化为草方块。"
 		""
 		"它还用于制作&3Minecraft之魂&r。"
 	]
@@ -11909,39 +11909,39 @@
 	]
 	quest.7FDC0BD1CCD75B31.title: "&b甲苯"
 	quest.7FDD118A1E3901C6.quest_desc: [
-		"The &3Soul of Minecraft&r provides all buffs from the &bForces&r used in its craft."
+		"&3Minecraft之魂&r提供用于制作它的所有&b力量&r的效果。"
 		""
-		"Go to the next page for the full list of effects."
+		"前往下一页以获取完整的效果列表。"
 		"{@pagebreak}"
-		"Increases XP gain, current health, block reach, armor, arrow damage, all damage when affected by negative effects, and during different weather and time of day, and swimming speed by during the rain."
+		"增加经验获取，增加生命值、放置距离、护甲、箭矢伤害，受负面效果影响时增伤，在不同的天气和时段增伤，在雨天增加游泳速度。"
 		""
-		"Doubles damage dealt to pillagers/illagers,"
+		"对掠夺者/灾厄村民的伤害翻倍，"
 		""
-		"Temporarily boosts damage and attack speed,"
+		"暂时增加伤害和攻击速度，"
 		""
-		"Heals for 20% of damage dealt,"
+		"造成伤害的20%恢复为生命，"
 		""
-		"Provides temporary barrier after taking damage, and unlimited water breathing, and fire resistance,"
+		"受伤后提供暂时防护，提供水下呼吸以及火焰抗性，"
 		""
-		"Immunity to levitation, wither, magic damage, sweet berry bushes, falling into the void, fall damage, projectiles, and freezing."
+		"免疫漂浮、凋零、魔法伤害、甜浆果丛伤害、虚空伤害、摔落伤害、投射物伤害、寒冷伤害。"
 		"{@pagebreak}"
-		"Applies glowing, ignites, and weakens nearby monsters,"
+		"对周围的怪物施加发光、引燃、虚弱效果，"
 		""
-		"Grants damage reduction, and explosive jumps."
+		"伤害减免，爆炸跳。"
 		""
-		"Reflects damage taken,"
+		"反射受到的伤害，"
 		""
-		"Bonemeals nearby crops and allows conversion of dirt into grass."
+		"催熟附近作物，将泥土转化为草方块。"
 		""
-		"Repairs armor durability, "
+		"修复护甲耐久，"
 		""
-		"Attracts XP orbs,"
+		"吸引经验球，"
 		""
-		"Prevents piglin, phantom, and enderman aggression, "
+		"消除猪灵、幻翼、末影人的敌意，"
 		""
-		"Removes curses from held items,"
+		"移除手持物品的诅咒，"
 		""
-		"Makes witches throw positive effect potions"
+		"使女巫投掷正面效果药水"
 	]
 	quest.7FDD118A1E3901C6.title: "&3Minecraft之魂"
 	quest.7FDD828A23BEABFF.quest_desc: ["&3离心&r红石会产生&c红宝石粉&r，以及其他一些有用的副产品，包括&d钕&r。你最终将在先进磁能设施以及超导线缆利用这些副产物。"]

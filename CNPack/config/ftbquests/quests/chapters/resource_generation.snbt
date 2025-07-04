@@ -2714,7 +2714,7 @@
 							id: "089AF2CAA7FC5B4B"
 							item: {
 								components: {
-									"minecraft:custom_name": "\"An Unnecessary Tool\""
+									"minecraft:custom_name": "“非必须工具”"
 								}
 								count: 1
 								id: "ae2:fluix_pickaxe"
@@ -4649,7 +4649,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(hostilenetworks:overworld_prediction)item(hostilenetworks:nether_prediction)item(hostilenetworks:end_prediction))"
-									"minecraft:custom_name": "\"Predictions\""
+									"minecraft:custom_name": "“预测产物”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -4873,7 +4873,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(geore:iron_shard)item(geore:gold_shard)item(geore:copper_shard)item(geore:coal_shard)item(geore:redstone_shard)item(geore:lapis_shard)item(geore:nickel_shard)item(geore:tin_shard)item(geore:lead_shard))"
-									"minecraft:custom_name": "\"Basic Geores\""
+									"minecraft:custom_name": "“基础晶矿”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -4912,7 +4912,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(geore:diamond_shard)item(geore:emerald_shard)item(geore:quartz_shard)item(geore:ancient_debris_shard)item(geore:uranium_shard)item(geore:silver_shard)item(geore:aluminum_shard)item(geore:osmium_shard)item(geore:zinc_shard)item(geore:platinum_shard))"
-									"minecraft:custom_name": "\"Foundry Geores\""
+									"minecraft:custom_name": "“熔铸炉晶矿”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -4925,7 +4925,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(geore:budding_diamond)item(geore:budding_emerald)item(geore:budding_quartz)item(geore:budding_ancient_debris)item(geore:budding_uranium)item(geore:budding_silver)item(geore:budding_aluminum)item(geore:budding_osmium)item(geore:budding_zinc)item(geore:budding_platinum))"
-									"minecraft:custom_name": "\"Foundry Geore Buds\""
+									"minecraft:custom_name": "“熔铸炉晶矿母岩”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -4962,7 +4962,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(geore:black_quartz_shard)item(geore:tungsten_shard)item(geore:monazite_shard))"
-									"minecraft:custom_name": "\"Niche Geores\""
+									"minecraft:custom_name": "“小众晶矿”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -4974,7 +4974,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(geore:budding_black_quartz)item(geore:budding_tungsten)item(geore:budding_monazite))"
-									"minecraft:custom_name": "\"Niche Budding Geores\""
+									"minecraft:custom_name": "“小众晶矿母岩”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
