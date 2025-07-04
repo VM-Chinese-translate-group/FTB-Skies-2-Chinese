@@ -1,0 +1,1204 @@
+{
+			autofocus_id: "755E80CFF2053CF8"
+			default_hide_dependency_lines: false
+			default_min_width: 250
+			default_quest_shape: "square"
+			filename: "ftb_pyramid"
+			group: "4E06BB3DD10B837B"
+			icon: {
+				id: "ftb:creative_ascension"
+			}
+			id: "3883EC8201EE0E54"
+			images: [
+				{
+					height: 4.0d
+					image: "ftb:textures/quests/titles_and_logos/ftb_pyramid_logo.png"
+					rotation: 0.0d
+					width: 9.58d
+					x: 1.5d
+					y: -5.25d
+				}
+				{
+					height: 2.0d
+					image: "ftb:item/creative_ascension"
+					rotation: 0.0d
+					width: 2.0d
+					x: 1.5d
+					y: -2.5d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_top"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: -0.5d
+					y: 1.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_top"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 0.5d
+					y: 1.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_top"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 1.5d
+					y: 1.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_top"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 2.5d
+					y: 1.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_top"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 3.5d
+					y: 1.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_top"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 2.5d
+					y: 0.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_top"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 1.5d
+					y: 0.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_top"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 0.5d
+					y: 0.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_top"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 1.5d
+					y: -1.0d
+				}
+				{
+					height: 1.0d
+					image: "ftb:block/pyramid_top"
+					order: -1
+					rotation: 0.0d
+					width: 1.0d
+					x: -1.5d
+					y: 1.5d
+				}
+				{
+					height: 1.0d
+					image: "ftb:block/pyramid_top"
+					order: -1
+					rotation: 0.0d
+					width: 1.0d
+					x: 4.5d
+					y: 1.5d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_top"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 1.5d
+					y: 7.5d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_top"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 3.0d
+					y: 7.5d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_top"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 0.0d
+					y: 7.5d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyra_mid_upper"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 0.0d
+					y: 9.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyra_mid_upper"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: -1.5d
+					y: 9.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyra_mid_upper"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 1.5d
+					y: 9.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyra_mid_upper"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 3.0d
+					y: 9.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyra_mid_upper"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 4.5d
+					y: 9.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyra_mid_lower"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: -3.0d
+					y: 10.5d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyra_mid_lower"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: -1.5d
+					y: 10.5d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyra_mid_lower"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 0.0d
+					y: 10.5d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyra_mid_lower"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 1.5d
+					y: 10.5d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyra_mid_lower"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 3.0d
+					y: 10.5d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyra_mid_lower"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 4.5d
+					y: 10.5d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyra_mid_lower"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 6.0d
+					y: 10.5d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_base"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: -3.0d
+					y: 12.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_base"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: -4.5d
+					y: 12.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_base"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: -1.5d
+					y: 12.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_base"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 0.0d
+					y: 12.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_base"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 1.5d
+					y: 12.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_base"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 3.0d
+					y: 12.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_base"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 4.5d
+					y: 12.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_base"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 6.0d
+					y: 12.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:block/pyramid_base"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 7.5d
+					y: 12.0d
+				}
+				{
+					height: 2.0d
+					image: "ftb:item/creative_ascension"
+					order: -1
+					rotation: 0.0d
+					width: 2.0d
+					x: 1.5d
+					y: 5.0d
+				}
+				{
+					height: 2.0d
+					image: "minecraft:block/beacon"
+					order: -2
+					rotation: 0.0d
+					width: 2.0d
+					x: 1.5d
+					y: 6.5d
+				}
+			]
+			order_index: 1
+			quest_links: [ ]
+			quests: [
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "ftb:item/evolutionary_matter"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "319098064145CF21"
+					rewards: [
+						{
+							id: "27F6602B99F80FC1"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "7643A644CF3ED301"
+							type: "xp_levels"
+							xp_levels: 25
+						}
+					]
+					tasks: [
+						{
+							id: "7B9AAE5115B7A1DC"
+							item: {
+								count: 1
+								id: "ftb:evolutionary_matter"
+							}
+							type: "item"
+						}
+					]
+					x: 2.0d
+					y: 1.5d
+				}
+				{
+					id: "7EE04D8B354DC5CB"
+					rewards: [
+						{
+							count: 2
+							id: "69B709D01C5F1AA0"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "73D939797042A50E"
+							type: "xp_levels"
+							xp_levels: 50
+						}
+					]
+					tasks: [
+						{
+							id: "3B130726886A52A2"
+							item: {
+								count: 1
+								id: "ftb:ender_transmitter"
+							}
+							type: "item"
+						}
+					]
+					x: 0.0d
+					y: 0.5d
+				}
+				{
+					id: "773C44B85A2A1042"
+					rewards: [
+						{
+							count: 3
+							id: "7C04EFE69DF7EAD7"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "31611F81F7E07034"
+							type: "xp_levels"
+							xp_levels: 75
+						}
+					]
+					tasks: [
+						{
+							id: "272883C0A77A52A1"
+							item: {
+								count: 1
+								id: "ftb:supercritical_mass"
+							}
+							type: "item"
+						}
+					]
+					x: 1.0d
+					y: -0.5d
+				}
+				{
+					id: "0F2DD1EF4E57E523"
+					rewards: [
+						{
+							count: 2
+							id: "69557286DD69EB4B"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "5E5E5CF2C1594E0F"
+							type: "xp_levels"
+							xp_levels: 50
+						}
+					]
+					tasks: [
+						{
+							id: "2E453872616F0F35"
+							item: {
+								count: 1
+								id: "ftb:dimensional_memory_fragment"
+							}
+							type: "item"
+						}
+					]
+					x: 1.0d
+					y: 0.5d
+				}
+				{
+					id: "230A9E24A34690DE"
+					rewards: [
+						{
+							count: 2
+							id: "27E10710DFF6EE58"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "185E34977281E7A6"
+							type: "xp_levels"
+							xp_levels: 50
+						}
+					]
+					tasks: [
+						{
+							id: "0E452464ECE78E32"
+							item: {
+								count: 1
+								id: "ftb:time_prism"
+							}
+							type: "item"
+						}
+					]
+					x: 2.0d
+					y: 0.5d
+				}
+				{
+					dependencies: [
+						"451FD4CA758C6019"
+						"6D8B17AD5ABEC7BC"
+						"0F2DD1EF4E57E523"
+						"230A9E24A34690DE"
+						"7EE04D8B354DC5CB"
+					]
+					hide_dependent_lines: true
+					icon: {
+						id: "ftb:pyra_mid_lower"
+					}
+					id: "5B164374A2849270"
+					rewards: [
+						{
+							count: 2
+							id: "5A7DEC8B1236DEEB"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							count: 49
+							id: "063898090CC6F56A"
+							item: {
+								count: 1
+								id: "ftb:pyra_mid_lower"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "757810F183F6346C"
+							type: "checkmark"
+						}
+					]
+					x: 4.0d
+					y: 0.5d
+				}
+				{
+					id: "1105D1809EB9ADEF"
+					rewards: [
+						{
+							count: 3
+							id: "0DCCB0C949313F54"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "00A687E432647460"
+							type: "xp_levels"
+							xp_levels: 75
+						}
+					]
+					tasks: [
+						{
+							id: "461147855A1CBB68"
+							item: {
+								count: 1
+								id: "ftb:infinitely_compressed_circuit_board"
+							}
+							type: "item"
+						}
+					]
+					x: 0.0d
+					y: -0.5d
+				}
+				{
+					id: "5C825FB7E9A2F962"
+					rewards: [
+						{
+							id: "4075CF406CF5B1CA"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "51D20433DCB5B274"
+							type: "xp_levels"
+							xp_levels: 25
+						}
+					]
+					tasks: [
+						{
+							id: "25F6E45BF912A28D"
+							item: {
+								count: 1
+								id: "ftb:ethereal_essence"
+							}
+							type: "item"
+						}
+					]
+					x: 3.0d
+					y: 1.5d
+				}
+				{
+					id: "018258B166F270D8"
+					rewards: [
+						{
+							id: "07AE50EE075055C8"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "5D8A16F300D652DB"
+							type: "xp_levels"
+							xp_levels: 25
+						}
+					]
+					tasks: [
+						{
+							id: "35E680E8C11C1385"
+							item: {
+								count: 1
+								id: "ftb:realized_transcendence"
+							}
+							type: "item"
+						}
+					]
+					x: -1.0d
+					y: 1.5d
+				}
+				{
+					dependencies: [
+						"1105D1809EB9ADEF"
+						"028BF2D5CFCDA52A"
+						"773C44B85A2A1042"
+					]
+					hide_dependent_lines: true
+					icon: {
+						id: "ftb:pyra_mid_upper"
+					}
+					id: "51DE4859912D1EB6"
+					rewards: [
+						{
+							count: 3
+							id: "6B763900B7152DF6"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							count: 25
+							id: "2E47551CD7AB4EF0"
+							item: {
+								count: 1
+								id: "ftb:pyra_mid_upper"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "1203293F62D3F55F"
+							type: "checkmark"
+						}
+					]
+					x: 3.0d
+					y: -0.5d
+				}
+				{
+					id: "5DA25070A4A1CF4E"
+					rewards: [
+						{
+							id: "69E810A909EA768B"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "462229FC41F8259B"
+							type: "xp_levels"
+							xp_levels: 25
+						}
+					]
+					tasks: [
+						{
+							id: "553F35BCF5331046"
+							item: {
+								count: 1
+								id: "ftb:dissolved_potential"
+							}
+							type: "item"
+						}
+					]
+					x: 4.0d
+					y: 1.5d
+				}
+				{
+					dependencies: ["60105BDA4CA76BD6"]
+					hide_dependent_lines: true
+					icon: {
+						id: "ftb:pyramid_top"
+					}
+					id: "6C0B018694B279E1"
+					rewards: [
+						{
+							count: 5
+							id: "2862736CD992E7B9"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							count: 9
+							id: "77FA826570A1255F"
+							item: {
+								count: 1
+								id: "ftb:pyramid_top"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "7811A2884A512908"
+							type: "checkmark"
+						}
+					]
+					x: 2.0d
+					y: -1.5d
+				}
+				{
+					dependencies: [
+						"5B164374A2849270"
+						"51DE4859912D1EB6"
+						"1BDE743ABCC3E78A"
+						"6C0B018694B279E1"
+					]
+					id: "755E80CFF2053CF8"
+					progression_mode: "linear"
+					rewards: [
+						{
+							auto: "invisible"
+							id: "648A123219C26A33"
+							ignore_reward_blocking: true
+							stage: "completed_pyramid"
+							type: "gamestage"
+						}
+						{
+							auto: "enabled"
+							description: "Fed The Beast"
+							icon: {
+								id: "ars_elemental:rainbow_prism_lens"
+							}
+							id: "5E71D2A58521E928"
+							type: "toast"
+						}
+						{
+							count: 10
+							id: "1FFFAE4E61F34CD4"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "13C422EFD88E61FE"
+							item: {
+								components: {
+									"minecraft:custom_name": "{\"extra\":[{\"color\":\"gold\",\"italic\":false,\"text\":\"Nether Star of Infinite Cacti\"}],\"text\":\"\"}"
+									"minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"用于激活FTB金字塔\"}],\"text\":\"\"}"]
+								}
+								count: 1
+								id: "minecraft:nether_star"
+							}
+							type: "item"
+						}
+						{
+							id: "66B75B0EEFC06459"
+							type: "xp_levels"
+							xp_levels: 1000
+						}
+					]
+					shape: "square"
+					size: 1.0d
+					tasks: [
+						{
+							id: "77F6AEE4BD3EC187"
+							item: {
+								count: 1
+								id: "minecraft:beacon"
+							}
+							type: "item"
+						}
+					]
+					x: 1.5d
+					y: -2.5d
+				}
+				{
+					id: "451FD4CA758C6019"
+					rewards: [
+						{
+							count: 2
+							id: "3A5FE2832D3EE26A"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "283F6C81DC59043E"
+							type: "xp_levels"
+							xp_levels: 50
+						}
+					]
+					tasks: [
+						{
+							id: "37A8CC7EED89AC24"
+							item: {
+								count: 1
+								id: "ftb:evolutionary_arcanum"
+							}
+							type: "item"
+						}
+					]
+					x: -1.0d
+					y: 0.5d
+				}
+				{
+					id: "028BF2D5CFCDA52A"
+					rewards: [
+						{
+							count: 3
+							id: "60D6FE93390925B0"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "65C14DF42E721D7E"
+							type: "xp_levels"
+							xp_levels: 75
+						}
+					]
+					tasks: [
+						{
+							id: "35ABD78841632298"
+							item: {
+								count: 1
+								id: "ftb:mekanized_super_computer"
+							}
+							type: "item"
+						}
+					]
+					x: 2.0d
+					y: -0.5d
+				}
+				{
+					id: "60105BDA4CA76BD6"
+					rewards: [
+						{
+							count: 5
+							id: "55A05D6970838195"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "0913824D894A8556"
+							type: "xp_levels"
+							xp_levels: 100
+						}
+					]
+					tasks: [
+						{
+							id: "6B1721A50D91999B"
+							item: {
+								count: 1
+								id: "ftb:bio_neural_circuit"
+							}
+							type: "item"
+						}
+					]
+					x: 1.0d
+					y: -1.5d
+				}
+				{
+					id: "3142B7C67CB8EEB3"
+					rewards: [
+						{
+							id: "44C50F5C7D3FA026"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "26657BC02318C7AE"
+							type: "xp_levels"
+							xp_levels: 25
+						}
+					]
+					tasks: [
+						{
+							id: "276DF68ED07984D5"
+							item: {
+								count: 1
+								id: "ftb:omega_dragon_egg"
+							}
+							type: "item"
+						}
+					]
+					x: 0.0d
+					y: 1.5d
+				}
+				{
+					id: "4619BC2AB4CB9BD9"
+					rewards: [
+						{
+							id: "465D6C057EE00ED0"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "4311AA3EA09EE8C7"
+							type: "xp_levels"
+							xp_levels: 25
+						}
+					]
+					tasks: [
+						{
+							id: "4671E6299F81ADDA"
+							item: {
+								count: 1
+								id: "ftb:elemental_arcanite"
+							}
+							type: "item"
+						}
+					]
+					x: 1.0d
+					y: 1.5d
+				}
+				{
+					id: "6D8B17AD5ABEC7BC"
+					rewards: [
+						{
+							count: 2
+							id: "5513588199B3C58E"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "33F3684E021F0DE4"
+							type: "xp_levels"
+							xp_levels: 50
+						}
+					]
+					tasks: [
+						{
+							id: "4C6360CFCF3DF147"
+							item: {
+								count: 1
+								id: "ftb:ultimate_singularity"
+							}
+							type: "item"
+						}
+					]
+					x: 3.0d
+					y: 0.5d
+				}
+				{
+					dependencies: [
+						"4619BC2AB4CB9BD9"
+						"319098064145CF21"
+						"5C825FB7E9A2F962"
+						"018258B166F270D8"
+						"5DA25070A4A1CF4E"
+						"3142B7C67CB8EEB3"
+					]
+					hide_dependent_lines: true
+					icon: {
+						id: "ftb:pyramid_base"
+					}
+					id: "1BDE743ABCC3E78A"
+					rewards: [
+						{
+							id: "23381A8A02E5E545"
+							item: {
+								count: 1
+								id: "magic_coins:crystal_coin"
+							}
+							type: "item"
+						}
+						{
+							count: 81
+							id: "412F22A25C50B048"
+							item: {
+								count: 1
+								id: "ftb:pyramid_base"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "4A18F4F81AEA7421"
+							type: "checkmark"
+						}
+					]
+					x: 5.0d
+					y: 1.5d
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7318F114EA136854"
+					min_width: 300
+					rewards: [
+						{
+							id: "7F41CEA33A50057F"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "4FAE5B3549E023A9"
+							type: "checkmark"
+						}
+					]
+					x: -2.0d
+					y: 1.5d
+				}
+				{
+					can_repeat: true
+					dependencies: ["1BDE743ABCC3E78A"]
+					hide_dependent_lines: true
+					hide_until_deps_complete: true
+					icon: {
+						id: "ftb:pyramid_base"
+					}
+					id: "44C154128D90ACB2"
+					rewards: [
+						{
+							count: 81
+							id: "07A888DCEAEC57EC"
+							item: {
+								count: 1
+								id: "ftb:pyramid_base"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "41292855B7B129B2"
+							type: "checkmark"
+						}
+					]
+					x: 0.0d
+					y: 3.0d
+				}
+				{
+					can_repeat: true
+					dependencies: ["5B164374A2849270"]
+					hide_dependent_lines: true
+					hide_until_deps_complete: true
+					icon: {
+						id: "ftb:pyra_mid_lower"
+					}
+					id: "6BA77922132D132E"
+					rewards: [
+						{
+							count: 49
+							id: "38740F827C06D7F9"
+							item: {
+								count: 1
+								id: "ftb:pyra_mid_lower"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "53785B38F6D90C6D"
+							type: "checkmark"
+						}
+					]
+					x: 1.0d
+					y: 3.0d
+				}
+				{
+					can_repeat: true
+					dependencies: ["51DE4859912D1EB6"]
+					hide_dependent_lines: true
+					hide_until_deps_complete: true
+					icon: {
+						id: "ftb:pyra_mid_upper"
+					}
+					id: "5484F0F27A60F614"
+					rewards: [
+						{
+							count: 25
+							id: "3590D6DBD3C2D6BE"
+							item: {
+								count: 1
+								id: "ftb:pyra_mid_upper"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "5892FD1BCAC4D3ED"
+							type: "checkmark"
+						}
+					]
+					x: 2.0d
+					y: 3.0d
+				}
+				{
+					can_repeat: true
+					dependencies: ["6C0B018694B279E1"]
+					hide_dependent_lines: true
+					hide_until_deps_complete: true
+					icon: {
+						id: "ftb:pyramid_top"
+					}
+					id: "4322977FABD58A5D"
+					rewards: [
+						{
+							count: 9
+							id: "1D552F4D8C20CABC"
+							item: {
+								count: 1
+								id: "ftb:pyramid_top"
+							}
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "37A4930F3EA020C4"
+							type: "checkmark"
+						}
+					]
+					x: 3.0d
+					y: 3.0d
+				}
+			]
+		}

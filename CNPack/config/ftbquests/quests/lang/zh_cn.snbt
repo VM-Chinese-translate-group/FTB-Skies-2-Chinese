@@ -899,7 +899,7 @@
 		""
 		"蓝冰获取起来有些棘手，但通过将水注入进一个放在&b寒冷温度&r源上方的自动化&e钢化玻璃罐&r中，便能积攒大量冰块用于压缩合成。"
 		""
-		"&7Try placing water in a cold biome or high altitude to freeze."
+		"&7试着在寒冷生物群系或高原群系倒水，看看会不会结冰。"
 	]
 	quest.08BEE8CFBAF691DA.quest_subtitle: "粉碎玄武岩！"
 	quest.08BEE8CFBAF691DA.title: "&fCrushed Basalt"
