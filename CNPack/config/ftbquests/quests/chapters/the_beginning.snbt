@@ -1214,7 +1214,7 @@
 							id: "3249174C092EA7E4"
 							item: {
 								components: {
-									"minecraft:custom_name": "\"Wood You Like Some Crystals?\""
+									"minecraft:custom_name": "“要来点水晶吗？”"
 									"minecraft:enchantments": {
 										levels: {
 											"minecraft:fortune": 3
@@ -1582,7 +1582,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(ftbstuff:acacia_water_strainer)item(ftbstuff:bamboo_water_strainer)item(ftbstuff:birch_water_strainer)item(ftbstuff:cherry_water_strainer)item(ftbstuff:crimson_water_strainer)item(ftbstuff:dark_oak_water_strainer)item(ftbstuff:jungle_water_strainer)item(ftbstuff:mangrove_water_strainer)item(ftbstuff:oak_water_strainer)item(ftbstuff:spruce_water_strainer)item(ftbstuff:warped_water_strainer))"
-									"minecraft:custom_name": "\"Strainers\""
+									"minecraft:custom_name": "\"滤水器\""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1919,7 +1919,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(minecraft:wooden_shovel)item(minecraft:wooden_pickaxe)item(minecraft:wooden_axe)item(minecraft:wooden_hoe)item(minecraft:wooden_sword))"
-									"minecraft:custom_name": "\"Wooden Tools\""
+									"minecraft:custom_name": "“木质工具”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1959,7 +1959,7 @@
 							id: "528915BE14CD3CE5"
 							item: {
 								components: {
-									"minecraft:custom_name": "{\"color\":\"#FF3710\",\"italic\":false,\"text\":\"Rod of Hostile Ignition\"}"
+									"minecraft:custom_name": "{\"color\":\"#FF3710\",\"italic\":false,\"text\":\"敌对生物点燃之棒\"}"
 									"minecraft:enchantments": {
 										levels: {
 											"minecraft:fire_aspect": 2
@@ -2327,7 +2327,7 @@
 							id: "14F255237337150A"
 							item: {
 								components: {
-									"minecraft:custom_name": "\"Rod of the Skies\""
+									"minecraft:custom_name": "“天空法杖”"
 									"minecraft:enchantments": {
 										levels: {
 											"minecraft:luck_of_the_sea": 3

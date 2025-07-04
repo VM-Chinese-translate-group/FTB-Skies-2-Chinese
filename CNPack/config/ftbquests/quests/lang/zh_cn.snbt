@@ -948,7 +948,7 @@
 	]
 	quest.091B8E814908DEDF.title: "&d原子融合厂"
 	quest.093330A5C170F843.quest_desc: [
-		"&b环境力量&r提供用于制作它的护身符的所有效果："
+		"&b环境力量&r提供用于制作它的所有护身符的效果："
 		""
 		"在晴天、雪暴、满月、雷暴天气增加伤害，在夜晚增加10%护甲，在雨天增加50%游泳速度。"
 		""
@@ -3514,7 +3514,7 @@
 	quest.24952389F0C8B0B1.quest_desc: ["召唤能带来闪电的风暴召唤师！在你需要利用闪电来合成物品的时候非常有用！"]
 	quest.24952389F0C8B0B1.title: "&d风暴召唤师"
 	quest.24A60877D5FAD4A5.quest_desc: [
-		"&d探险者力量&r提供用于制作它的护身符的所有效果："
+		"&d探险者力量&r提供用于制作它的所有护身符的效果："
 		""
 		"It increases block reach by 59 blocks, prevents phantom and enderman aggression, provides immunity to freezing damage, and applies the glowing effect to mobs within a 12-block radius."
 		""
@@ -3984,9 +3984,9 @@
 	quest.29E6EF882A568585.quest_desc: ["这些&a经验晶方尖碑&r把知识浓缩成了微型图腾，只需要3个这样的方尖碑就能为&e附魔台&r提供15个书架的等级提升效果！"]
 	quest.29E78B39C74FBC4E.title: "&f击杀每种敌对生物各一只"
 	quest.2A19E0AF462C1FD2.quest_desc: [
-		"The &aDiamond Talisman&r provides 20% damage reduction."
+		"&a钻石护身符&r提供20%伤害减免。"
 		""
-		"It is also used to craft the &dForce of Overworld&r."
+		"它还用于制作&d世界力量&r。"
 	]
 	quest.2A19E0AF462C1FD2.title: "&a钻石护身符"
 	quest.2A1AE478A678C1A9.title: "&f能量接口"
@@ -4117,9 +4117,9 @@
 	]
 	quest.2B4392602E94D3D8.title: "&f找到&cFargo的地牢"
 	quest.2B5ED424CC73B3EB.quest_desc: [
-		"The &7Emerald Talisman&r doubles damage dealt to pillager/illager type mobs, and bonemeals crops within a 2-block radius of the player every 15 seconds."
+		"&7绿宝石护身符&r可以翻倍对掠夺者/灾厄村民造成的伤害，且每15秒对玩家半径两格范围内的作物施加催熟效果。"
 		""
-		"It is also used to craft the &dForce of Overworld&r."
+		"它还用于制作&d世界力量&r。"
 	]
 	quest.2B5ED424CC73B3EB.title: "&7绿宝石护身符"
 	quest.2B6A88AA896C54A6.quest_desc: ["加装该升级的工具在使用后就会穿墙自动显示周边的矿石。"]
@@ -4133,9 +4133,9 @@
 	]
 	quest.2B6EC298B50C0D03.title: "&fTree Automation"
 	quest.2B6FC4E870E364E0.quest_desc: [
-		"The &7Void Talisman&r provides immunity from falling into the void, teleporting the player to the top of the dimension."
+		"&7虚空护身符&r使玩家免疫虚空伤害，在坠入虚空时将玩家传送到世界顶端。"
 		""
-		"It is also used to craft the &bForce of Warrior&r."
+		"它还用于制作&b战士力量&r。"
 	]
 	quest.2B6FC4E870E364E0.title: "&7虚空护身符"
 	quest.2B7E7CFF01172556.quest_desc: [
@@ -4565,9 +4565,9 @@
 	]
 	quest.30053CAD8FABA638.title: "&f石头和泥土蜂巢"
 	quest.302A4F4F2971CF8E.quest_desc: [
-		"The &7Earth Talisman&r allows you to turn dirt into grass by right-clicking dirt with an empty hand."
+		"&7大地护身符&r允许你通过空手右击泥土将其转化为草方块。"
 		""
-		"It is also used to craft the &dForce of Nature&r."
+		"它还用于制作&d自然力量&r。"
 	]
 	quest.302A4F4F2971CF8E.title: "&7大地护身符（土护身符）"
 	quest.302C29E7007A61D9.quest_desc: [
@@ -4822,9 +4822,9 @@
 	]
 	quest.325D35004FF683C2.title: "&f量子计算机&d的核心&f部件"
 	quest.3272827DE96C5F64.quest_desc: [
-		"The &7Enderman Talisman&r prevents enderman aggression when looking at them."
+		"&7末影人护身符&r可以消除末影人被注视时产生的敌意。"
 		""
-		"It is also used to craft the &dForce of Overworld&r."
+		"它还用于制作&d世界力量&r。"
 	]
 	quest.3272827DE96C5F64.title: "&7末影人护身符"
 	quest.327E27800EB44FCA.quest_desc: [
@@ -4975,7 +4975,7 @@
 	quest.33E90998B6E11500.quest_desc: ["&a大型水车&r的&bRPM&r仅为&a水车&r的一半，但其&b应力量&r要高得多。"]
 	quest.33E90998B6E11500.title: "&a大型水车"
 	quest.33E96DCB466BC28C.quest_desc: [
-		"The &dLibrarian Talisman&r increases experience gained by 50%."
+		"&d图书管理员护身符&r增加50%经验获取。"
 		""
 		"它还用于制作&b神秘力量&r。"
 	]
@@ -5040,7 +5040,7 @@
 		"你需要不少的&2铀&r才能产出可用的&6核能&r，以及为了升级组件你还需要大量的&7铱&r。"
 	]
 	quest.346290B1274A92FF.title: "&6钛钻"
-	quest.348ED4326CAB9A0E.quest_desc: ["The &aApple Talisman&r enchances healing effects by an additional 25%."]
+	quest.348ED4326CAB9A0E.quest_desc: ["&a苹果护身符&r提高25%治疗效果。"]
 	quest.348ED4326CAB9A0E.title: "&a苹果护身符"
 	quest.3490E1E29396D066.quest_desc: [
 		"这些种子只需要&a下级精华&r就可以制作，用来合成整合包中大多数的基础物品。"
@@ -5332,7 +5332,7 @@
 	]
 	quest.3684E99D50168389.title: "&d德格米&b刷怪场"
 	quest.3695B30822BC674E.quest_desc: [
-		"The &7Shulker Talisman&r provides immunity to the levitation effect."
+		"&7潜影贝护身符&r使玩家免疫飘浮效果。"
 		""
 		"它还用于制作&b神秘力量&r。"
 	]
@@ -5632,7 +5632,7 @@
 	quest.39751E377C0F22EE.title: "&f检阅你的网络！"
 	quest.39BC89942A5CA7E1.quest_desc: ["Improves energy efficiency."]
 	quest.39BC89942A5CA7E1.title: "&fMachine Efficiency Addon"
-	quest.39CA68E8B84CF962.quest_desc: ["The &7Copper Talisman&r pulls items within a 10-block radius to the player."]
+	quest.39CA68E8B84CF962.quest_desc: ["&7铜护身符&r将玩家半径十格范围内的掉落物吸引至玩家。"]
 	quest.39CA68E8B84CF962.title: "&7铜护身符"
 	quest.39ED88D2EF2F617B.quest_desc: [
 		"往自己身上装各种各样的&b饰品和其他小玩意&r是非常常见的做法，然而你不得不对一部分选择进行取舍。&a胸针&r能够改变这种情况，它们使玩家能够牺牲一部分饰品栏从而换来其他种类的饰品栏，这其中就包括&b符文栏&r。"
@@ -5646,9 +5646,9 @@
 	quest.39FB54DD235A1E10.quest_desc: ["将&a粘液蜂巢&r放置在沼泽生物群系后，放入蜜蜂小食即可吸引粘液蜜蜂。"]
 	quest.39FB54DD235A1E10.title: "&f粘液蜂巢"
 	quest.39FD7B49554CE935.quest_desc: [
-		"The &aWater Talisman&r provides infinite water breathing."
+		"&a水护身符&r提供永久的水下呼吸效果。"
 		""
-		"It is also used to craft the &dForce of Nature&r."
+		"它还用于制作&d自然力量&r。"
 	]
 	quest.39FD7B49554CE935.title: "&a水护身符"
 	quest.3A084B83B8CFAACD.quest_desc: [
@@ -5809,7 +5809,7 @@
 	]
 	quest.3B09E14800C7276A.title: "&7含硫原油"
 	quest.3B1C807CEEC4E2ED.quest_desc: [
-		"The &dEnchanting Talisman&r removes curses from items held."
+		"&d附魔护身符&r可以移除手持物品的诅咒。"
 		""
 		"它还用于制作&b神秘力量&r。"
 	]
@@ -6107,7 +6107,7 @@
 		""
 		"禁用后，你将无法以此方式获取它们，而需通过常规合成获得。但紧急时仍可从应急物品中取用。"
 	]
-	quest.3E6ED23A93BCBD03.title: "&fNot so Infinity"
+	quest.3E6ED23A93BCBD03.title: "&f并非无限"
 	quest.3E7001F4A49CF787.quest_desc: [
 		"&6进气口&r可以放在真空冷冻室的物品输入总线上，以制造&9液态空气&r。"
 		""
@@ -6209,9 +6209,9 @@
 	quest.3FC961B8C0657214.title: "&3Carbon Fibre&r"
 	quest.3FE99AE10B0737BB.title: "&f大量存储单一物品"
 	quest.3FF612F915DF4BF5.quest_desc: [
-		"The &aCactus Talisman&r reflects 25% of damage taken back to the attacker."
+		"&a仙人掌护身符&r将受到伤害的25%反弹给攻击者。"
 		""
-		"It is also used to craft the &bForce of Warrior&r."
+		"它还用于制作&b战士力量&r。"
 	]
 	quest.3FF612F915DF4BF5.title: "&a仙人掌护身符"
 	quest.4004CA1BEBA2914C.quest_desc: ["&d脉冲合金&r是一种更高级的合金，可用于许多合成配方，包括&a电磁铁&r和&d八位电容&r。"]
@@ -6452,13 +6452,13 @@
 	]
 	quest.420F14616E3F8EEF.title: "&c厨锅"
 	quest.4235989DE2A9CAF2.quest_desc: [
-		"The &dPoisoned Talisman&r increases damage by 25% while the player is affected by poison."
+		"&d中毒的护符&r在玩家受到中毒效果影响时增加25%伤害。"
 		""
 		"它还用于制作&b负面力量&r。"
 	]
 	quest.4235989DE2A9CAF2.title: "&d中毒的护符（中毒护身符）"
 	quest.423950ED16C2422B.quest_desc: [
-		"The &bForce of Warrior&r provides all effects of the talisman used to craft it:"
+		"&b战士力量&r提供用于制作它的所有护身符的效果："
 		""
 		"It provides temporary barrier after taking damage, immunity from sweet berry bushes and falling into the void, reflects 25% of damage taken, and increases current health by 2x."
 		""
@@ -6721,7 +6721,7 @@
 	quest.44CE0F10E7E24F23.quest_subtitle: "General purpose ore generation"
 	quest.44CE0F10E7E24F23.title: "&fOre Laser Base"
 	quest.44DFEE9CA0A7070B.quest_desc: [
-		"The &aWither Talisman&r provides immunity to the wither effect."
+		"&a凋灵护身符&r使玩家免疫凋零效果。"
 		""
 		"它还用于制作&b排斥者力量&r。"
 	]
@@ -6960,7 +6960,7 @@
 	quest.48162C60D5F25178.title: "&6处理单元"
 	quest.481D6E00305764E4.title: "&e存储控制器"
 	quest.4835F10B1C5BCAAE.quest_desc: [
-		"The &bForce of Negative&r provides all effects of the talisman used to craft it:"
+		"&b负面力量&r提供用于制作它的所有护身符的效果："
 		""
 		"It increases damage by 25% when affected by blindness, nausea, mining fatigue, poison, weakness, slowness, wither, and while on fire."
 		""
@@ -7117,9 +7117,9 @@
 	quest.4A07DF8EB4A0C40A.quest_subtitle: "垂钓与收获"
 	quest.4A07DF8EB4A0C40A.title: "&f耕作之道"
 	quest.4A1E69C9C543011E.quest_desc: [
-		"The &7Thorny Talisman&r provides immunity from sweet berry bushes."
+		"&7荆棘护身符&r使玩家免疫来自甜浆果丛的伤害。"
 		""
-		"It is also used to craft the &bForce of Warrior&r."
+		"它还用于制作&b战士力量&r。"
 	]
 	quest.4A1E69C9C543011E.title: "&7荆棘护身符"
 	quest.4A207BA624849BB8.quest_desc: [
@@ -7141,12 +7141,12 @@
 	]
 	quest.4A41B30728ED1307.title: "&2化学氧化机"
 	quest.4A5402081BC88910.quest_desc: [
-		"The &aUndying Talisman&r revives the player once upon death."
+		"&a不死护身符&r可以在玩家死亡时复活玩家一次。"
 		""
 		"它还用于制作&b神秘力量&r。"
 		""
 		""
-		"&e&lNote&r: This item's revival effect is not working at the moment.&r"
+		"&e&l注意&r：此物品的复活效果目前不生效。&r"
 	]
 	quest.4A5402081BC88910.title: "&a不死护身符"
 	quest.4A5FD3641E0A566E.quest_desc: [
@@ -7216,7 +7216,7 @@
 	]
 	quest.4AFFA2E9FA61CC83.title: "&fNether Quartz Essence"
 	quest.4B02EB096A1670AB.quest_desc: [
-		"The &dTrue Sun Talisman&r increases player damage by 5% during a sunny day with nothing above the player."
+		"&d真正的太阳护符&r在晴天且玩家头顶不被遮挡时增加5%伤害。"
 		""
 		"它还用于制作&b环境力量&r。"
 	]
@@ -7264,7 +7264,7 @@
 	]
 	quest.4B50B455573D924B.title: "&d阿巴拉斯魔灵附身"
 	quest.4B5BFD1142133E93.quest_desc: [
-		"The &dBlinded Talisman&r increases damage by 25% while the player is affected by blindness."
+		"&d失明的护符&r在玩家受到失明效果影响时增加25%伤害。"
 		""
 		"它还用于制作&b负面力量&r。"
 	]
@@ -7365,7 +7365,7 @@
 	]
 	quest.4C78823B3EFA3105.title: "&d附魔装置"
 	quest.4C8EB2205707AE45.quest_desc: [
-		"Using &aBone Meal&r on fertile grass blocks causes a rush of grassy growth. This can be harvested to yield seeds for Wheat and Hemp."
+		"在肥沃的草方块上使用&a骨粉&r会导致草丛迅速生长。然后便可以割草以获得小麦和工业大麻种子。"
 		""
 		"后者现在更重要，因为长成的工业大麻堆肥效率很高，并且可以转化为线！"
 	]
@@ -7390,14 +7390,14 @@
 	]
 	quest.4CDCFE544B72E6C4.title: "&5古老邪灵矿工"
 	quest.4D05E74FE351708F.quest_desc: [
-		"The &bForce of Mystic&r provides all effects of the talisman used to craft it:"
+		"&b神秘力量&r提供用于制作它的所有护身符的效果："
 		""
-		"It removes curses from held items, makes witches throw positive effect potions, increases XP gain by 50%, heals for 20% of damage dealt, provides levitation immunity, and revives the player once upon death."
+		"移除手持物品的诅咒，使女巫投掷增益效果药水，增加50%经验获取，20%造成的伤害恢复为生命，免疫漂浮效果，复活一次。"
 		""
 		"它还用于制作&3Minecraft之魂&r。"
 		""
 		""
-		"&e&lNote&r: This item's revival effect is not working at the moment.&r"
+		"&e&l注意&r：此物品的复活效果目前不生效。&r"
 	]
 	quest.4D05E74FE351708F.title: "&b神秘力量（神秘之力）"
 	quest.4D1EBD92C674531E.quest_desc: [
@@ -7703,7 +7703,7 @@
 	quest.4FA766AD24D00325.quest_desc: ["&b苍穹晶&r可以合成该模组的高级机器！"]
 	quest.4FA766AD24D00325.title: "&f高级机器"
 	quest.4FA9FABD84B4751A.quest_desc: [
-		"The &cUltimate Talisman Base&r is a upgrade to the &bLegendary Talisman Base&r."
+		"&c终极护符底座&r是&b传奇护符底座&r的升级。"
 		""
 		"It allows you to craft &6Soul Parts&r, and can be upgraded into the &6Godly Talisman Base&r."
 	]
@@ -7757,9 +7757,9 @@
 	quest.504EEAA75990C78C.quest_subtitle: "古代粉笔"
 	quest.504EEAA75990C78C.title: "{\"text\": \"青色粉笔\", \"color\": \"#3DADAD\"}"
 	quest.5063CB99AD11CEB6.quest_desc: [
-		"The &aRedstone Talisman&r repairs 1 durability to &lequipped armor&r every 5-7.5 seconds."
+		"&a红石护身符&r每5-7.5秒修复&l穿戴护甲&r1点耐久。"
 		""
-		"It is also used to craft the &dForce of Overworld&r."
+		"它还用于制作&d世界力量&r。"
 	]
 	quest.5063CB99AD11CEB6.title: "&a红石护身符"
 	quest.5075DB5162A800C4.quest_desc: [
@@ -7914,7 +7914,7 @@
 	]
 	quest.52087840AA16E7B4.title: "&d火灵天气法师"
 	quest.520C1874B05F2DB9.quest_desc: [
-		"The &aBlaze Talisman&r ignites hostile monsters within a 4-block radius of the player."
+		"&a烈焰人护身符&r引燃玩家半径四格范围内的敌对生物。"
 		""
 		"它还用于制作&b排斥者力量&r。"
 	]
@@ -7952,7 +7952,7 @@
 	quest.5283000032BDFE0B.quest_subtitle: "传输流体"
 	quest.5283000032BDFE0B.title: "&fMI的流体管道"
 	quest.529BB6E3B5A93A91.quest_desc: [
-		"The &7Vindicator Talisman&r increases damage by 50% for 1 hit after switching tools once every 30 seconds."
+		"&7卫道士护身符&r每30秒，你切换工具后的第一下攻击增加50%伤害。"
 		""
 		"它还用于制作&b排斥者力量&r。"
 	]
@@ -8002,7 +8002,7 @@
 	]
 	quest.5346FF153D836A07.title: "&a乙炔"
 	quest.535C11E589E11056.quest_desc: [
-		"The &dFatigued Talisman&r increases damage by 25% while the player is affected by mining fatigue."
+		"&d疲惫的护符&r在玩家受到挖掘疲劳效果影响时增加25%伤害。"
 		""
 		"它还用于制作&b负面力量&r。"
 	]
@@ -8140,12 +8140,12 @@
 	]
 	quest.54D361B81A53A872.title: "&a基础电容"
 	quest.54D3D470531CEAB8.quest_desc: [
-		"The &7Gold Talisman&r prevents piglin aggression towards the player, even when attacked."
+		"&7金护身符&r可以消除猪灵对玩家的敌意，攻击猪灵也不会使其敌对。"
 		""
-		"It is also used to craft the &dForce of Overworld&r."
+		"它还用于制作&d世界力量&r。"
 	]
 	quest.54D3D470531CEAB8.title: "&7金护身符"
-	quest.54DBA22A5D1CD75D.quest_desc: ["The &aObsidian Talisman&r provides immunity to blast damage."]
+	quest.54DBA22A5D1CD75D.quest_desc: ["&a黑曜石护符&r使玩家免疫爆炸伤害。"]
 	quest.54DBA22A5D1CD75D.title: "&a黑曜石护身符"
 	quest.54EA7CEFB131A995.quest_desc: [
 		"&7普通护符底座&r是用于制作护身符的最初级的基板。"
@@ -8340,9 +8340,9 @@
 	quest.56EC29FFC567ECC2.quest_subtitle: "Use Red Dye on a Catalyst"
 	quest.56EC29FFC567ECC2.title: "&fBudding Redstone Geore"
 	quest.56F225D27E646F33.quest_desc: [
-		"The &aBattle Talisman&r provides an additional 0.25s immunity after taking damage."
+		"&a战斗护身符&r在玩家受击后提供额外0.25秒的无敌效果。"
 		""
-		"It is also used to craft the &bForce of Warrior&r."
+		"它还用于制作&b战士力量&r。"
 	]
 	quest.56F225D27E646F33.title: "&a战斗护身符"
 	quest.570CA0A0CA64C09E.quest_desc: [
@@ -8665,7 +8665,7 @@
 	quest.5B063F5520171280.title: "&c中级精华&f工具"
 	quest.5B164374A2849270.title: "&6第二层"
 	quest.5B28036A3960FCAC.quest_desc: [
-		"The &dRain Talisman&r increases player swimimng speed 50% during the rain."
+		"&d雨天护符&r在雨天时增加50%游泳速度。"
 		""
 		"它还用于制作&b环境力量&r。"
 	]
@@ -8751,7 +8751,7 @@
 	]
 	quest.5BFA3D0271320E07.title: "&3温室玻璃"
 	quest.5C291965A6AEE07E.quest_desc: [
-		"The &7Ghast Talisman&r applies weakness to hostile mobs within a 3-block radius of the player for 2 seconds."
+		"&7恶魂护身符&r对玩家半径三格范围内的敌对生物施加2秒虚弱效果。"
 		""
 		"它还用于制作&b排斥者力量&r。"
 	]
@@ -8800,7 +8800,7 @@
 	quest.5CC11DF487EA2867.title: "&7魔精&f清洁工"
 	quest.5CC2FE30CF016754.title: "&a1k存储元件"
 	quest.5CC65B3FE402E58B.quest_desc: [
-		"The &dNight Talisman&r increases player armor by 10% during the night."
+		"&d夜晚护符&r在夜晚时增加10%护甲。"
 		""
 		"它还用于制作&b环境力量&r。"
 	]
@@ -8988,7 +8988,7 @@
 		"喜欢用某个法术，但是这个法术有点太弱了？在&a奥术铁砧&r上用高阶墨水升级它！"
 	]
 	quest.5E3A4A3F00FDDEC0.title: "&f升级你的&b法术&r和&a装备"
-	quest.5E3CC82782A93C54.quest_desc: ["The &6Godly Talisman Base&r is the final tier used to craft the &dSoul of Dimensions&r."]
+	quest.5E3CC82782A93C54.quest_desc: ["&6神圣护符底座&r是最高级的基板，用来制作&d维度之魂&r。"]
 	quest.5E3CC82782A93C54.title: "&6神圣护符底座（神级护符基板）"
 	quest.5E48B3223335F4F6.quest_desc: [
 		"在&d采石场&r中使用你的&6钛钻&r，以此挖掘&7铱矿&r。"
@@ -9319,9 +9319,9 @@
 	]
 	quest.627CC178ACA711E6.title: "&6艾瑟傀儡"
 	quest.629308DC692DB140.quest_desc: [
-		"The &7Glowstone Talisman&r applies the glowing effect to hostile mobs not visible within a 12-block radius, highlighting them in the world."
+		"&7荧石护身符&r对玩家半径12格范围内的不可见敌对生物施加发光效果，让它们在世界中高亮显示。"
 		""
-		"It is also used to craft the &dForce of Overworld&r."
+		"它还用于制作&d世界力量&r。"
 	]
 	quest.629308DC692DB140.title: "&7荧石护身符"
 	quest.629C6374800613C4.quest_desc: [
@@ -9378,7 +9378,7 @@
 	quest.6323068C93CF7DCE.quest_subtitle: "一个建筑师的梦想"
 	quest.6323068C93CF7DCE.title: "&d对称之杖"
 	quest.6324941CAA013A6D.quest_desc: [
-		"The &dSun Talisman&r increases player damage by 5% during a sunny day."
+		"&d太阳护符&r在晴天时增加5%伤害。"
 		""
 		"它还用于制作&b环境力量&r。"
 	]
@@ -9925,9 +9925,9 @@
 	quest.68778308CBAB4AE3.title: "&a外部存储"
 	quest.6896CCBC73B09381.title: "&f头盔宝典"
 	quest.68A718B129075CDF.quest_desc: [
-		"The &7Iron Talisman&r provides 5% damage reduction."
+		"&7铁护身符&r提供5%伤害减免。"
 		""
-		"It is also used when crafting the &aDiamond Talisman&r."
+		"它还用于制作&a钻石护身符&r。"
 	]
 	quest.68A718B129075CDF.title: "&7铁护身符"
 	quest.68A9006D2FE4A38D.quest_desc: [
@@ -9944,7 +9944,7 @@
 	quest.68A9B5BD25E86D75.quest_subtitle: "等级三"
 	quest.68A9B5BD25E86D75.title: "&c中级精华&f"
 	quest.68C3F238B65BD483.quest_desc: [
-		"The &dStorm Talisman&r increases player damage by 15% during a lightning or thunder storm."
+		"&d风暴护符&r在雷暴时增加15%伤害。"
 		""
 		"它还用于制作&b环境力量&r。"
 	]
@@ -10014,10 +10014,10 @@
 		"这个合金非常非常重要，你有了它就可以解锁&eMI的青铜时代&r了！"
 	]
 	quest.6A18A087EA934C46.title: "&f青铜锭"
-	quest.6A1CD115285158D3.quest_desc: ["The &aMooshroom Talisman&r increases player health regen while standing on mycelium."]
+	quest.6A1CD115285158D3.quest_desc: ["&a哞菇护身符&r站在菌丝体上时，增加玩家的生命再生速度。"]
 	quest.6A1CD115285158D3.title: "&a哞菇护身符"
-	quest.6A22434958A72911.quest_desc: ["重置挖矿技能树中已使用的技能点。"]
-	quest.6A22434958A72911.title: "&f重置挖矿技能树"
+	quest.6A22434958A72911.quest_desc: ["重置挖掘技能树中已使用的技能点。"]
+	quest.6A22434958A72911.title: "&f重置挖掘技能树"
 	quest.6A22BBE9C146E910.quest_desc: [
 		"你的&2蒸汽采石场&r可以通过使用相同的多方块结构直接升级为&3电动版&r！"
 		""
@@ -10094,9 +10094,9 @@
 	quest.6AC94BF73641EC4A.quest_subtitle: "真正的迅捷"
 	quest.6AC94BF73641EC4A.title: "&a迅捷之靴"
 	quest.6AF5FF1455F7C977.quest_desc: [
-		"The &aAmethyst Talisman&r provides immunity to projectile damage."
+		"&a紫水晶护身符&r使玩家免疫投射物伤害。"
 		""
-		"It is also used to craft the &dForce of Overworld&r."
+		"它还用于制作&d世界力量&r。"
 	]
 	quest.6AF5FF1455F7C977.title: "&a紫水晶护身符"
 	quest.6B04DF90E7F33C9D.quest_desc: ["&a焦煤粉&r通过粉碎&3焦煤&r获取，能在&a挤压机&r中处理成&3石墨粉&r。"]
@@ -10106,11 +10106,11 @@
 	quest.6B2F4AA722DAC535.quest_desc: ["Generates power by consuming Nether Stars."]
 	quest.6B2F4AA722DAC535.title: "&fNetherstar Mycelial Generator"
 	quest.6B390939597DC9E7.quest_desc: [
-		"The &3Soul of Flight Mastery&r provides unlimited creative flight."
+		"&3飞行大师之魂&r提供无限时间的创造飞行。"
 		""
-		"The items used to craft the &3Soul of Flight Mastery&r are all elytra variants."
+		"合成&3飞行大师之魂&r需要的物品均为鞘翅的变种。"
 		""
-		"The &3Soul of Flight Mastery&r can be used to craft the &9Soul of Dimensions&r."
+		"&3飞行大师之魂&r可以用来制作&9维度之魂&r。"
 	]
 	quest.6B390939597DC9E7.title: "&3飞行大师之魂"
 	quest.6B584FB6F2EEBCD0.quest_desc: [
@@ -10327,7 +10327,7 @@
 	quest.6F3FDE3AF1678CE5.quest_subtitle: "触碰是可选项"
 	quest.6F3FDE3AF1678CE5.title: "&f获取草"
 	quest.6F49DC432E5968AC.quest_desc: [
-		"The &dSlowed Talisman&r increases damage by 25% while the player is affected by slowness."
+		"&d减速的护符&r在玩家受到缓慢效果影响时增加25%伤害。"
 		""
 		"它还用于制作&b负面力量&r。"
 	]
@@ -10510,9 +10510,9 @@
 	]
 	quest.718AF92800C06825.title: "&f封禁塔"
 	quest.719BCB8D5D1AF974.quest_desc: [
-		"The &aArtic Talisman&r provides immunity to freezing damage."
+		"&a北极护身符&r使玩家免疫寒冷伤害。"
 		""
-		"It is also used to craft the &dForce of Explorer&r."
+		"它还用于制作&d探险者力量&r。"
 	]
 	quest.719BCB8D5D1AF974.title: "&a北极护身符"
 	quest.71C6807139E44B6A.quest_subtitle: "+15% 法术抗性"
@@ -10581,9 +10581,9 @@
 	]
 	quest.722901B4259D8AEC.title: "&c升级过的下界书架"
 	quest.723303AA9DCD6588.quest_desc: [
-		"The &dForce of Overworld&r provides all effects of the talisman used to craft it:"
+		"&d世界力量&r提供用于制作它的所有护身符的效果："
 		""
-		"It repairs armor durability, attracts XP orbs, prevents piglin aggression, provides projectile immunity and 20% damage reduction, doubles damage dealt to pillagers and illagers, and bonemeals nearby crops."
+		"修复护甲耐久，吸引经验球，消除猪灵敌意，免疫投射物伤害，20%伤害减免，对掠夺者及灾厄村民伤害翻倍，催熟周围的作物。"
 		""
 		"它还用于制作&3Minecraft之魂&r。"
 	]
@@ -10695,7 +10695,7 @@
 	]
 	quest.72DEF57BE1372907.title: "&b探索时间到&f！"
 	quest.72E5DE96165E5DE2.quest_desc: [
-		"The &dNauseated Talisman&r increases damage by 25% while the player is affected by nausea."
+		"&d恶心的护符&r在玩家受到反胃效果影响时增加25%伤害。"
 		""
 		"它还用于制作&b负面力量&r。"
 	]
@@ -10927,9 +10927,9 @@
 	]
 	quest.74CC5FF2097C0839.title: "&eHostile Neural Networks&f！"
 	quest.74E9A69F9F8CDA3D.quest_desc: [
-		"The &aIron Golem Talisman&r increases current health by 2x."
+		"&a铁傀儡护身符&r将当前生命值翻倍。"
 		""
-		"It is also used to craft the &bForce of Warrior&r."
+		"它还用于制作&b战士力量&r。"
 	]
 	quest.74E9A69F9F8CDA3D.title: "&a铁傀儡护身符"
 	quest.74EA351011AA309F.quest_desc: [
@@ -11090,9 +11090,9 @@
 	]
 	quest.7768A4D80488E53D.title: "&c下界&b之旅"
 	quest.776A013F2CDD8ACD.quest_desc: [
-		"The &9Soul of Dimensions&r is the final &3Soul&r in &6Fargo's&r... for now."
+		"&9维度之魂&r是&6Fargo的护身符&r模组最终极的&3灵魂&r……暂时如此。"
 		""
-		"It combines all benefits into a single item."
+		"它将所有增益归于一体。"
 	]
 	quest.776A013F2CDD8ACD.quest_subtitle: "  步入神格！"
 	quest.776A013F2CDD8ACD.title: "&9维度之魂"
@@ -11279,11 +11279,11 @@
 	quest.7913B52AD9D28D2B.quest_desc: ["一座巨型要塞坐落于下界之中。这座城堡的核心隐藏着一个具有毁灭性的先驱者，由观测者和徘徊者严密守护。"]
 	quest.7913B52AD9D28D2B.title: "发现&4下界堡垒"
 	quest.792AD85AE9FB81E0.quest_desc: [
-		"The &7Spectral Talisman&r prevents natural phantom aggression, but does not prevent phantoms from spawning."
+		"&7幽灵护身符&r可以消除自然生成的幻翼的敌意，但不会阻止幻翼生成。"
 		""
-		"It is also used to craft the &dForce of Overworld&r."
+		"它还用于制作&d世界力量&r。"
 	]
-	quest.792AD85AE9FB81E0.title: "&7幽灵护身符（光灵护身符）"
+	quest.792AD85AE9FB81E0.title: "&7幽灵护身符（幻灵护身符）"
 	quest.792BD1143635482C.quest_desc: [
 		"这些蜂巢只能放在特定的生物群系才能吸引蜜蜂！"
 		""
@@ -11498,9 +11498,9 @@
 	quest.7BEB2CB9C3BF6318.quest_desc: ["&3仓储链接站&r允许您设置和管理物品的库存网络，使这些物品可以在同一网络中的其他系统请求时可用。"]
 	quest.7BEB2CB9C3BF6318.title: "&3仓储链接站"
 	quest.7C03724DFA7CC612.quest_desc: [
-		"The &aFire Talisman&r provides fire and lava immunity."
+		"&a火护身符&r使玩家免疫火焰和熔岩伤害。"
 		""
-		"It is also used to craft the &dForce of Nature&r."
+		"它还用于制作&d自然力量&r。"
 	]
 	quest.7C03724DFA7CC612.title: "&a火护身符"
 	quest.7C0EFB4A52F2EC61.quest_desc: [
@@ -11582,7 +11582,7 @@
 	]
 	quest.7CA250EE0C5FBEFA.title: "&fAutomating Crop Farms!"
 	quest.7CD3D31BAA53F592.quest_desc: [
-		"The &bForce of Rejectors&r provides all effects of the talisman used to craft it:"
+		"&b排斥者力量&r提供用于制作它的所有护身符的效果："
 		""
 		"It increases arrow damage, ignites and applies weakness to nearby hostile monsters, temporarily boosts damage and attack speed, provides immunity wither and magic, and grants explosive jumps."
 		""
@@ -11976,7 +11976,7 @@
 	reward.239B71D23AC7CC7B.title: "+1 魔法技能点"
 	reward.26C058E5EA512AFC.title: "重置魔法技能树"
 	reward.29C328309964A796.title: "*你感受到自己的罪孽爬上了脊背"
-	reward.2A9A44AE9AC7E045.title: "重置挖矿技能树"
+	reward.2A9A44AE9AC7E045.title: "重置挖掘技能树"
 	reward.2C3F1A2D2E41F827.title: "+1 魔法技能点"
 	reward.2DEC2295D4153802.title: "1点&6远程&r技能点"
 	reward.30027B5188AB9E9B.title: "+1 魔法技能点"
@@ -11995,7 +11995,7 @@
 	reward.4E0A424438B78332.title: "+1 魔法技能点"
 	reward.4E2CEF4A69F4F992.title: "召唤风暴召唤师"
 	reward.5231D78F5A4E994D.title: "召唤一头嗅探兽"
-	reward.54BFA4339B81E086.title: "No More Infinity"
+	reward.54BFA4339B81E086.title: "无限终结"
 	reward.54CFD44E7021DDAE.title: "&f1点&d魔法&f技能点"
 	reward.54EA6D3EAF40CD8A.title: "+1 魔法技能点"
 	reward.57DC44652AED36CC.title: "重置远程技能树"
@@ -12009,7 +12009,7 @@
 	reward.67CDCFCE4B21FD1D.title: "1点&d魔法&r技能点"
 	reward.6A8F44D2C9B08F75.title: "获得时间增量2.5小时"
 	reward.6B5DCDFD3982680B.title: "+1 魔法技能点"
-	reward.6E39028F7E470FCF.title: "1点&b挖矿&r技能点"
+	reward.6E39028F7E470FCF.title: "1点&b挖掘&r技能点"
 	reward.6E84C01F4D769E8F.title: "神话BOSS事件"
 	reward.6ED22F189FEB27E2.title: "+1 魔法技能点"
 	reward.70B20DBD76B83038.title: "重置防御技能树"
@@ -12505,7 +12505,7 @@
 	task.757810F183F6346C.title: "第二层：完成"
 	task.75950ADE1D19EBBB.title: "召唤一个&c黄昏魔灵"
 	task.75A91CC491740DEA.title: "&a精妙存储&r"
-	task.75CE8877F456D5E9.title: "重置挖矿技能树"
+	task.75CE8877F456D5E9.title: "重置挖掘技能树"
 	task.765414790D7CA99B.title: "Raw Nickel Ore"
 	task.7675055D1AE5D019.title: "召唤一个&c巨灵熔炼工"
 	task.768B60201808B40A.title: "磨球"
