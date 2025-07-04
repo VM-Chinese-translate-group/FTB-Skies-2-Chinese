@@ -1,3 +1,14 @@
+# Jetbrains
+.idea
+
+# MacOS Desktop Services Store
+.DS_Store
+.AppleDouble
+.LSOverride
+
 *.zip
-*.pyc
-__pycache__/
+
+# Python
+__pycache__
+build
+dist

@@ -1,12 +1,13 @@
-import json
-import re
-import os
-import sys
 import argparse
+import json
+import os
+import re
+import sys
 from collections.abc import Generator
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Union, List
+from typing import Union
+
 
 @dataclass
 class ErrorRecord:
@@ -14,6 +15,7 @@ class ErrorRecord:
     key: str
     value: str
     error_message: str
+
 
 def check_line_for_errors(
     line: str, file_path: str, key: str
@@ -27,9 +29,9 @@ def check_line_for_errors(
             file_path, key, line.strip(), f"'&'后包含非法字符 '{match.group(1)}'"
         )
 
-    stripped_line = line.rstrip('&')
+    stripped_line = line.rstrip("&")
     if line != stripped_line and not line.strip().endswith("\\&"):
-         yield ErrorRecord(file_path, key, line.strip(), "行尾包含非法字符 '&'")
+        yield ErrorRecord(file_path, key, line.strip(), "行尾包含非法字符 '&'")
 
 
 def check_json(file_path: str) -> Generator[ErrorRecord, None, None]:
@@ -40,10 +42,10 @@ def check_json(file_path: str) -> Generator[ErrorRecord, None, None]:
         def process_value(value: Union[str, list, dict], parent_key: str = ""):
             if isinstance(value, str):
                 for i, line in enumerate(value.split("\n")):
-                    line_key = f"{parent_key}[line {i+1}]" if "\n" in value else parent_key
-                    yield from check_line_for_errors(
-                        line, file_path, line_key
+                    line_key = (
+                        f"{parent_key}[line {i + 1}]" if "\n" in value else parent_key
                     )
+                    yield from check_line_for_errors(line, file_path, line_key)
             elif isinstance(value, list):
                 for index, item in enumerate(value):
                     yield from process_value(item, f"{parent_key}[{index}]")
@@ -57,7 +59,7 @@ def check_json(file_path: str) -> Generator[ErrorRecord, None, None]:
     except json.JSONDecodeError:
         yield ErrorRecord(file_path, "-", "-", "JSON 解析失败，请检查 JSON 格式")
     except FileNotFoundError:
-         yield ErrorRecord(file_path, "-", "-", "文件未找到")
+        yield ErrorRecord(file_path, "-", "-", "文件未找到")
     except Exception as e:
         yield ErrorRecord(file_path, "-", "-", f"打开或读取文件时出错：{str(e)}")
 
@@ -67,8 +69,8 @@ def check_directory(dir_path: str) -> Generator[ErrorRecord, None, None]:
     print(f"正在检查目录: {dir_path}")
     json_files_found = 0
     for entry in Path(dir_path).rglob("*.json"):
-        if "patchouli_books" in entry.parts:
-           continue
+        if "patchouli_books" in entry.parts or "productivemetalworks" in entry.parts:
+            continue
         json_files_found += 1
         yield from check_json(str(entry))
     if json_files_found == 0:
@@ -124,17 +126,21 @@ def generate_html_report(
 
     for error in errors:
         import html
+
         escaped_value = html.escape(error.value)
 
-        highlighted_value = re.sub(r'&([^a-v0-9\s\\#])', r'&<span class="highlight">\1</span>', escaped_value)
-
-        if error.error_message == "行尾包含非法字符 '&'" and escaped_value.endswith('&'):
-             highlighted_value = highlighted_value[:-1] + '<span class="highlight">&</span>'
-
-
-        html_content += (
-            f"<tr><td>{html.escape(error.file_path)}</td><td>{html.escape(error.key)}</td><td>{highlighted_value}</td><td class='error'>{html.escape(error.error_message)}</td></tr>\n"
+        highlighted_value = re.sub(
+            r"&([^a-v0-9\s\\#])", r'&<span class="highlight">\1</span>', escaped_value
         )
+
+        if error.error_message == "行尾包含非法字符 '&'" and escaped_value.endswith(
+            "&"
+        ):
+            highlighted_value = (
+                highlighted_value[:-1] + '<span class="highlight">&</span>'
+            )
+
+        html_content += f"<tr><td>{html.escape(error.file_path)}</td><td>{html.escape(error.key)}</td><td>{highlighted_value}</td><td class='error'>{html.escape(error.error_message)}</td></tr>\n"
 
     html_content += """</tbody>
     </table>
@@ -152,19 +158,15 @@ def generate_html_report(
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description=f"FTB任务颜色字符合法检查"
-    )
+    parser = argparse.ArgumentParser(description="FTB任务颜色字符合法检查")
     parser.add_argument(
-        "path",
-        help="要检查的 JSON 文件或包含 JSON 文件的目录的路径",
-        type=str
+        "path", help="要检查的 JSON 文件或包含 JSON 文件的目录的路径", type=str
     )
     parser.add_argument(
         "--report-output",
         help="HTML 错误报告的输出路径 (默认为 error_report.html)",
         default="error_report.html",
-        type=str
+        type=str,
     )
 
     args = parser.parse_args()
@@ -175,16 +177,18 @@ def main():
         print(f"错误: 路径不存在 -> {check_path}", file=sys.stderr)
         sys.exit(1)
 
-    errors: List[ErrorRecord] = []
+    errors: list[ErrorRecord] = []
 
     if os.path.isdir(check_path):
         errors.extend(check_directory(check_path))
-    elif os.path.isfile(check_path) and check_path.lower().endswith('.json'):
+    elif os.path.isfile(check_path) and check_path.lower().endswith(".json"):
         errors.extend(check_json(check_path))
     else:
-        print(f"错误: 无效的路径类型或文件格式 -> {check_path} (需要 .json 文件或目录)", file=sys.stderr)
+        print(
+            f"错误: 无效的路径类型或文件格式 -> {check_path} (需要 .json 文件或目录)",
+            file=sys.stderr,
+        )
         sys.exit(1)
-
 
     print(f"\n检查完成。总共发现 {len(errors)} 个错误。")
 
@@ -193,6 +197,7 @@ def main():
         if generated_report_path:
             print(f"详细错误报告请查看文件: {generated_report_path}")
         sys.exit(0)
+
 
 if __name__ == "__main__":
     main()

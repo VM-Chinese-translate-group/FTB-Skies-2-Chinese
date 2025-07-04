@@ -19,12 +19,16 @@
 在 Skies 2 中，玩家通过三条独具匠心且平衡的资源生产路径来推进游戏：
 
 - **水晶炼金之路**
-  运用 FTB Ez Crystals、GeOre Nouveau、Productive Metalworks 等自定义机制，掌控萌芽晶洞的力量，开启晶体变换与奥术物质合成的新篇章。用一颗颗宝石，稳步扩展你的帝国疆域。
+
+  运用 FTB Ez Crystals、GeOre、Productive Metalworks 等自定义机制，掌控萌芽晶洞的力量，开启晶体变换与奥术物质合成的新篇章。
+  用一颗颗宝石，稳步扩展你的帝国疆域。
 
 - **耕耘之路**
+
   沉浸于可持续农业的世界，结合神秘农业、资源蜜蜂和 Fishing Overhaul，耕作、养殖、钓鱼三管齐下。自动化与生物技术交织，带你走向丰收之路。
 
 - **探矿之路**
+
   利用机械动力和机械动力：筛子打造复杂机械装置，体验从原料中发掘珍宝的刺激。这条路径专为钟爱机械自动化与探险乐趣的玩家量身打造。
 
 每条路径独特且相辅相成，你可以选择专精一条，或是三路齐飞，成为真正的多面手。
@@ -44,8 +48,8 @@
 ## 玩家成长与战斗进阶
 
 - 通过 Pufferfish 的技能系统、Apothic 属性与遗物不断升级。
-- 装备强力的 Curios 配饰、Iron’s Gems ’n Jewelry 的珠宝，以及 Apothic 的强化装备。
-- 施展 Iron’s Spells ’n Spellbooks 的法术，借助灵灾的仪式，配合工业先锋与 Mekanism Unleashed 的科技，挑战强敌与精英Boss。
+- 装备强力的 Curios 配饰、Iron的宝石与饰品，以及 Apothic 的强化装备。
+- 施展Iron的法术与魔法书的法术，借助灵灾的仪式，配合工业先锋与 Mekanism Unleashed 的科技，挑战强敌与精英Boss。
 
 ## 自定义世界生成与终极挑战
 
@@ -57,11 +61,15 @@
 
 ## 模组亮点
 
-**魔法类：** 新生魔艺、灵灾、神秘学、Enchanted: Witchcraft、Irons' Spells、Roots 4
+**魔法类：** 新生魔艺、灵灾、神秘学、Enchanted: Witchcraft、Iron法术与魔法书、根源魔法
+
 **科技类：** 机械动力、通用机械、工业先锋、Oritech、Just Dire Things、现代工业化
-**存储类：** 精致存储、应用能源2、Mekanism QIO、精妙存储
-**世界与进程：** FTB Team Bases、永恒之门、Compact Machines、Replication
-**辅助类：** 数千自定义配方、FTB 模组套装、刷怪塔实用设备、Fargo的护身符、遗物、Tempad、Genetics、MFFS、寂静装备、Cognition、Apotheosis 等等！
+
+**存储类：** 精致存储、应用能源2、Mekanism QIO、精妙存储、功能性存储
+
+**世界与进程：** FTB Team Bases、永恒之门、压缩空间、Replication
+
+**辅助类：** 数千自定义配方、FTB 系列模组、刷怪塔实用设备、Fargo的护身符、遗物、任意门、基因工程、MFFS、寂静装备、Cognition、神话等等！
 
 FTB Skies 2 并非硬核专家包，却毫无疑问是一场以渐进成长、创造力、探索与战略为核心的冒险盛宴。
 
