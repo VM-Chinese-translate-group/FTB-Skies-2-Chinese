@@ -20,6 +20,8 @@ LangSpliter 命令行工具
      python LangSpliter.py merge
    - 指定自定义路径:
      python LangSpliter.py merge --json-dir "path/to/json_files" --output-snbt "path/to/zh_cn.snbt"
+   - **(新功能)** 在合并时，将 custom_name/lore 更新回其原始的章节 SNBT 文件中:
+     python LangSpliter.py merge --chapters-dir "path/to/chapters" --output-chapters-dir "path/to/modified_chapters"
 
 要查看所有可用参数，请使用 -h 或 --help:
   python LangSpliter.py -h
@@ -214,6 +216,13 @@ def create_sort_key(item, config, task_to_quest_map, reward_to_quest_map):
             is_chapter_key = 1
             quest_group_id = task_to_quest_map.get(task_id, task_id)  # 分组ID是其父任务的ID
             internal_type_priority = 1  # 在任务组内，task排第二
+    elif key.startswith('tasks.'):
+        match = re.match(r'^tasks\.([0-9A-F]+)', key)
+        if match:
+            task_id = match.group(1)
+            is_chapter_key = 1
+            quest_group_id = task_to_quest_map.get(task_id, task_id)
+            internal_type_priority = 1
     elif key.startswith('reward.'):
         match = re.match(r'^reward\.([0-9A-F]+)', key)
         if match:
@@ -221,6 +230,13 @@ def create_sort_key(item, config, task_to_quest_map, reward_to_quest_map):
             is_chapter_key = 1
             quest_group_id = reward_to_quest_map.get(reward_id, reward_id)  # 分组ID是其父任务的ID
             internal_type_priority = 2  # 在任务组内，reward排第三
+    elif key.startswith('rewards.'):
+        match = re.match(r'^rewards\.([0-9A-F]+)', key)
+        if match:
+            reward_id = match.group(1)
+            is_chapter_key = 1
+            quest_group_id = reward_to_quest_map.get(reward_id, reward_id)
+            internal_type_priority = 2
 
     # 2. 计算自定义优先级
     if key_prefix_for_config and key_prefix_for_config in config:
@@ -235,7 +251,7 @@ def create_sort_key(item, config, task_to_quest_map, reward_to_quest_map):
                     break
 
     # 3. 为自然排序准备
-    id_match = re.match(r'^(?:chapter|quest|task|reward)\.[0-9A-F]+\.(.*)', key)
+    id_match = re.match(r'^(?:chapter|quest|task|tasks|reward|rewards)\.[0-9A-F]+\.(.*)', key)
     key_suffix_for_natural_sort = id_match.group(1) if id_match else ''
     non_numeric_part = key_suffix_for_natural_sort
     numeric_part = 0
@@ -246,6 +262,67 @@ def create_sort_key(item, config, task_to_quest_map, reward_to_quest_map):
 
     # 返回最终的、能够正确表达层级关系的排序元组
     return (is_chapter_key, quest_group_id, internal_type_priority, custom_priority, non_numeric_part, numeric_part)
+
+
+def process_item_list_for_components(item_list, list_key_name, output_dict):
+    """
+    扫描项目列表（如 'tasks' 或 'rewards'），为每个项目执行深度递归搜索，
+    以查找 'minecraft:custom_name' 和 'minecraft:lore'。
+    此函数可处理 'components' 块在项目数据结构中的任意嵌套。
+    """
+    if not isinstance(item_list, list):
+        return
+
+    def find_translatables_recursively(data, current_item_id):
+        """
+        在数据结构中递归搜索，携带父项的 ID。
+        """
+        if isinstance(data, dict):
+            # 检查当前字典是否包含 'components' 块
+            if 'components' in data and isinstance(data['components'], dict):
+                components = data['components']
+
+                # 提取 custom_name
+                if '"minecraft:custom_name"' in components:
+                    name_val = components['"minecraft:custom_name"']
+                    try:
+                        name_val = name_val.replace(r'\\', '\\')
+                        name_val = name_val.replace(r'\"', '"')
+                    except (json.JSONDecodeError, TypeError):
+                        pass
+                    lang_key = f"{list_key_name}.{current_item_id}.custom_name"
+                    output_dict[lang_key] = name_val
+
+                # 提取 lore
+                if '"minecraft:lore"' in components:
+                    lore_list = components['"minecraft:lore"']
+                    if isinstance(lore_list, list):
+                        for i, lore_line in enumerate(lore_list, 1):
+                            try:
+                                lore_line = lore_line.replace(r'\\', '\\')
+                                lore_line = lore_line.replace(r'\"', '"')
+                            except (json.JSONDecodeError, TypeError):
+                                pass
+                            lang_key = f"{list_key_name}.{current_item_id}.lore{i}"
+                            output_dict[lang_key] = lore_line
+
+            # 无论是否找到 'components'，都继续向更深层递归
+            for value in data.values():
+                find_translatables_recursively(value, current_item_id)
+
+        elif isinstance(data, list):
+            # 如果是列表，则对每个元素进行递归
+            for element in data:
+                find_translatables_recursively(element, current_item_id)
+
+    # 遍历列表中的每一个顶层项目（如每个 task 或 reward）
+    for item_dict in item_list:
+        if not isinstance(item_dict, dict) or 'id' not in item_dict:
+            continue
+
+        item_id = item_dict['id']
+        # 对当前项目启动递归搜索，并将此项目的 ID 传递下去
+        find_translatables_recursively(item_dict, item_id)
 
 
 def process_chapter_quests(chapters_dir, chapters_lang_data, quests_data, tasks_data, rewards_data, output_dir):
@@ -306,6 +383,10 @@ def process_chapter_quests(chapters_dir, chapters_lang_data, quests_data, tasks_
                     if key.startswith(quest_prefix):
                         chapter_output_content[key] = value
 
+                # 从任务和奖励中提取基于组件的翻译
+                process_item_list_for_components(quest.get('tasks', []), 'tasks', chapter_output_content)
+                process_item_list_for_components(quest.get('rewards', []), 'rewards', chapter_output_content)
+
                 for task in quest.get('tasks', []):
                     task_id = task.get('id')
                     if not task_id: continue
@@ -342,10 +423,118 @@ def process_chapter_quests(chapters_dir, chapters_lang_data, quests_data, tasks_
         except Exception as e:
             print(f"  -> 处理文件 {filename} 时发生错误: {e}")
 
-def merge_all_to_snbt(json_dir: str, output_snbt_file: str):
+
+def update_chapter_files_with_components(component_data, input_chapters_dir, output_chapters_dir):
     """
-    合并所有JSON文件，将 "key1", "key2" 格式的条目还原为列表，
-    进行必要的转义后，输出为单个SNBT文件。
+    将来自JSON的component翻译（custom_name, lore）更新回其原始的章节SNBT文件。
+    从 input_chapters_dir 读取，并写入到 output_chapters_dir。
+    """
+    if not component_data:
+        return
+    if not os.path.isdir(input_chapters_dir):
+        print(f"警告：未提供有效的章节目录 '{input_chapters_dir}'。跳过 SNBT 文件内 custom_name/lore 的更新。")
+        return
+
+    print("\n--- 开始将 custom_name/lore 更新到章节 SNBT 文件 ---")
+    os.makedirs(output_chapters_dir, exist_ok=True)
+
+    # 1. 解析 component 数据，按 item ID 组织
+    mods_by_id = {}
+    lore_pattern = re.compile(r'^(?:tasks|rewards)\.([0-9A-F]+)\.lore(\d+)$')
+    name_pattern = re.compile(r'^(?:tasks|rewards)\.([0-9A-F]+)\.custom_name$')
+
+    for key, value in component_data.items():
+        name_match = name_pattern.match(key)
+        if name_match:
+            item_id = name_match.group(1)
+            mods_by_id.setdefault(item_id, {})['name'] = value
+            continue
+
+        lore_match = lore_pattern.match(key)
+        if lore_match:
+            item_id, lore_index = lore_match.groups()
+            lore_index = int(lore_index)
+            lore_list = mods_by_id.setdefault(item_id, {}).setdefault('lore', [])
+            # 确保列表足够长
+            while len(lore_list) < lore_index:
+                lore_list.append("")
+            lore_list[lore_index - 1] = value
+
+    # 2. 遍历章节文件，应用修改
+    modified_files_count = 0
+    updated_ids = set()
+
+    for filename in os.listdir(input_chapters_dir):
+        if not filename.endswith('.snbt') or not mods_by_id:
+            continue
+
+        input_file_path = os.path.join(input_chapters_dir, filename)
+        try:
+            with open(input_file_path, 'r', encoding='utf-8') as f:
+                snbt_data = snbtlib.loads(f.read())
+
+            file_was_modified = [False]  # 使用列表以在内部函数中修改
+
+            def find_and_update_components_recursively(data, modifications):
+                if isinstance(data, dict):
+                    # 首先处理 'components'，以支持任意嵌套
+                    if 'components' in data:
+                        components = data['components']
+                        if '"minecraft:custom_name"' in components and 'name' in modifications:
+                            components['"minecraft:custom_name"'] = modifications['name'].replace('"', '\\"')
+                            file_was_modified[0] = True
+                        if '"minecraft:lore"' in components and 'lore' in modifications:
+                            components['"minecraft:lore"'] = [line.replace('"', '\\"') for line in
+                                                            modifications['lore']]
+                            file_was_modified[0] = True
+
+                    # 递归到子值
+                    for v in data.values():
+                        find_and_update_components_recursively(v, modifications)
+
+                elif isinstance(data, list):
+                    for elem in data:
+                        find_and_update_components_recursively(elem, modifications)
+
+            def traverse_and_apply(data, mods):
+                if not mods: return
+
+                if isinstance(data, dict):
+                    item_id = data.get('id')
+                    if item_id in mods:
+                        find_and_update_components_recursively(data, mods[item_id])
+                        updated_ids.add(item_id)
+                        # 为避免重复修改，可以在此处从 mods 中移除 item_id，但为安全起见，先不这样做
+
+                    for value in data.values():
+                        traverse_and_apply(value, mods)
+                elif isinstance(data, list):
+                    for item in data:
+                        traverse_and_apply(item, mods)
+
+            traverse_and_apply(snbt_data, mods_by_id)
+
+            if file_was_modified[0]:
+                snbt_output_string = snbtlib.dumps(snbt_data, indent=2)
+                output_file_path = os.path.join(output_chapters_dir, filename)
+                with open(output_file_path, 'w', encoding='utf-8') as f:
+                    f.write(snbt_output_string)
+                print(f"  -> 已将更新后的 {filename} 写入到: {output_file_path}")
+                modified_files_count += 1
+        except Exception as e:
+            print(f"  -> 更新文件 {filename} 时出错: {e}")
+
+    print(f"更新完成。共修改了 {modified_files_count} 个文件。")
+    remaining_ids = set(mods_by_id.keys()) - updated_ids
+    if remaining_ids:
+        print(f"警告：在任何章节文件中都找不到以下 {len(remaining_ids)} 个物品ID：{', '.join(remaining_ids)}")
+
+
+def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, output_chapters_dir: str):
+    """
+    合并所有JSON文件为单个SNBT文件。
+    如果提供了chapters_dir，则会将 custom_name/lore 更新回原始章节文件，
+    并从最终的语言文件中排除这些条目。
     """
     print(f"--- 2. 开始从 {json_dir} 合并所有 JSON 文件到 SNBT ---")
     if not os.path.isdir(json_dir):
@@ -368,6 +557,20 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str):
         print("错误：没有加载到任何数据，无法生成 SNBT 文件。")
         return
 
+    # 分离 component 相关键和标准语言键
+    component_data = OrderedDict()
+    standard_data = OrderedDict()
+    component_key_pattern = re.compile(r'^(tasks|rewards)\.[0-9A-F]+\.(custom_name|lore\d+)$')
+    for key, value in combined_data.items():
+        if chapters_dir and component_key_pattern.match(key):
+            component_data[key] = value
+        else:
+            standard_data[key] = value
+
+    # 更新章节 SNBT 文件（如果需要）
+    if chapters_dir and component_data:
+        update_chapter_files_with_components(component_data, chapters_dir, output_chapters_dir)
+
     print("\n开始重构多行文本条目...")
 
     multi_line_pattern = re.compile(r'^(.*?)(\d+)$')
@@ -375,7 +578,8 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str):
     temp_multiline = OrderedDict()
     reconstructed_data = OrderedDict()
 
-    for key, value in combined_data.items():
+    # 只处理标准数据
+    for key, value in standard_data.items():
         match = multi_line_pattern.match(key)
         if match:
             base_key = match.group(1)
@@ -392,7 +596,12 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str):
         sorted_lines = [line_text for _, line_text in lines_with_nums]
         reconstructed_data[base_key] = sorted_lines
 
-    print(f"重构完成。原始 {len(combined_data)} 条条目被合并为 {len(reconstructed_data)} 条 SNBT 条目。")
+    print(f"重构完成。原始 {len(standard_data)} 条标准条目被合并为 {len(reconstructed_data)} 条 SNBT 条目。")
+
+    if not reconstructed_data:
+        print("没有需要写入 SNBT 语言文件的标准条目。")
+        print("--- 合并完成 ---")
+        return
 
     sorted_items = sorted(reconstructed_data.items())
     print(f"\n总共合并了 {len(sorted_items)} 条最终条目，并已按键名排序。")
@@ -431,6 +640,7 @@ if __name__ == "__main__":
         DEFAULT_CHAPTERS_DIR = "chapters"
         DEFAULT_JSON_OUTPUT_DIR = "output_json"
         DEFAULT_MERGED_SNBT_FILE = "lang/zh_cn.snbt"
+        DEFAULT_MODIFIED_CHAPTERS_DIR = "modified_chapters"
 
         parser = argparse.ArgumentParser(description="FTB Quests 语言文件拆分与合并工具。")
         subparsers = parser.add_subparsers(dest='task', required=True,
@@ -458,6 +668,10 @@ if __name__ == "__main__":
                                   help=f'指定包含 JSON 文件的目录。默认: {DEFAULT_JSON_OUTPUT_DIR}')
         parser_merge.add_argument('--output-snbt', default=DEFAULT_MERGED_SNBT_FILE,
                                   help=f'指定最终输出的 SNBT 文件的路径。默认: {DEFAULT_MERGED_SNBT_FILE}')
+        parser_merge.add_argument('--chapters-dir', default=DEFAULT_CHAPTERS_DIR,
+                                  help=f'指定用于更新的输入章节 SNBT 目录。如果提供此项，将启用 component 更新功能。默认: {DEFAULT_CHAPTERS_DIR}')
+        parser_merge.add_argument('--output-chapters-dir', default=DEFAULT_MODIFIED_CHAPTERS_DIR,
+                                  help=f'指定更新后的章节 SNBT 文件的输出目录。默认: {DEFAULT_MODIFIED_CHAPTERS_DIR}')
 
         args = parser.parse_args()
 
@@ -473,7 +687,10 @@ if __name__ == "__main__":
         elif args.task == 'merge':
             merge_all_to_snbt(
                 json_dir=args.json_dir,
-                output_snbt_file=args.output_snbt
+                output_snbt_file=args.output_snbt,
+                chapters_dir=args.chapters_dir,
+                output_chapters_dir=args.output_chapters_dir
             )
+
 
     main_cli()
