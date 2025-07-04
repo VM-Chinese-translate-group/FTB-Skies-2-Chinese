@@ -1189,8 +1189,8 @@
 	]
 	quest.0AF5992D0DF57313.title: "&6四阶矿物处理产线&r"
 	quest.0AF5AB8F0D7DB4B7.quest_desc: ["&a磊岩&r只需将熔岩滴在&e虚无晶体催化剂&r表面即可轻松获取，然后用&e提取器&r装置生成就好了。 "]
-	quest.0AF5AB8F0D7DB4B7.quest_subtitle: "捣碎磊岩！"
-	quest.0AF5AB8F0D7DB4B7.title: "&fCrushed Kivi"
+	quest.0AF5AB8F0D7DB4B7.quest_subtitle: "粉碎磊岩！"
+	quest.0AF5AB8F0D7DB4B7.title: "&f粉碎磊岩"
 	quest.0B1C26C45144306A.quest_desc: [
 		"钓鱼获取精华的收益远超预期！这些精华可以转化成推动进程所需的资源。将它们与下级精华和活化种子结合，就能培育出生长这些精华的作物！"
 		""
@@ -3471,7 +3471,7 @@
 	]
 	quest.2464B384CC26F2EC.title: "&f物质储罐（Matter Tank）"
 	quest.2465C83C97A189EA.quest_desc: [
-		"将无限粉与圆石合成&a虚空晶体催化剂&r。这个方块在染色后会形成水晶母岩，依据染料类型持续生成基础资源。"
+		"将无限粉与圆石合成&a虚无晶体催化剂&r。这个方块在染色后会形成水晶母岩，依据染料类型持续生成基础资源。"
 		""
 		"&7对于铁矿，用骨粉制成的白色染料。"
 	]
@@ -6304,7 +6304,7 @@
 	quest.40C4ECF69211C872.title: "&fOsmium Essence"
 	quest.40CCB0B7868233CA.quest_desc: ["将你刚得到的&a硫酸铂溶液&r&3离心&r，便可以得到&2纯净硫酸铂溶液&r，处理完后有小概率得到副产物&d小撮铂粉&r。"]
 	quest.40CCB0B7868233CA.title: "&d小堆依粉"
-	quest.40D416328C50C9F4.quest_desc: ["大多数如铜或红石这样的基础晶矿可以通过对虚无晶体催化剂使用&e染料&r的方式将其转化为特定种类的晶矿母岩方块。"]
+	quest.40D416328C50C9F4.quest_desc: ["Most basic geore resources such as copper and redstone can be made by simply using a &edye&r on a &3Void Crystal Catalyst&r to convert it to a particular budding geore block."]
 	quest.40D416328C50C9F4.title: "&f基础晶矿"
 	quest.40D4E56DD0876A7D.quest_desc: [
 		"将&c红宝石粉&r&3离心&r后可以获得&6粉碎的铬&r，你可以将其进一步加工成&4碎铬粉&r。"
