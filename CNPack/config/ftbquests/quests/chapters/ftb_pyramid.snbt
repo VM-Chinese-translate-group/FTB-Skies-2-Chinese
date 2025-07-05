@@ -801,7 +801,7 @@
 							id: "13C422EFD88E61FE"
 							item: {
 								components: {
-									"minecraft:custom_name": "{\"extra\":[{\"color\":\"gold\",\"italic\":false,\"text\":\"Nether Star of Infinite Cacti\"}],\"text\":\"\"}"
+									"minecraft:custom_name": "{\"extra\":[{\"color\":\"gold\",\"italic\":false,\"text\":\"下界之星或无限仙人掌\"}],\"text\":\"\"}"
 									"minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"用于激活FTB金字塔\"}],\"text\":\"\"}"]
 								}
 								count: 1

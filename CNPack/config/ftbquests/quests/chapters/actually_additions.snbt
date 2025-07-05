@@ -904,8 +904,8 @@
 										}
 										Counter: 3
 									}
-									"minecraft:custom_name": "\"Sugar Rush\""
-									"minecraft:lore": ["\"Who puts this much sugar in their drink ?\""]
+									"minecraft:custom_name": "“甜蜜冲击”"
+									"minecraft:lore": ["“谁在他们的饮料里放了这么多糖？”"]
 									"minecraft:max_damage": 5
 								}
 								count: 1
@@ -1318,7 +1318,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(actuallyadditions:coal_generator)item(actuallyadditions:heat_collector)item(actuallyadditions:oil_generator))"
-									"minecraft:custom_name": "\"Power Generators\""
+									"minecraft:custom_name": "“发电机”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"

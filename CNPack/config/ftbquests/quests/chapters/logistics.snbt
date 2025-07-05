@@ -2241,7 +2241,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(xnet:connector_red)item(xnet:connector_blue)item(xnet:connector_green)item(xnet:connector_yellow))"
-									"minecraft:custom_name": "\"Connectors\""
+									"minecraft:custom_name": "“连接器”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"

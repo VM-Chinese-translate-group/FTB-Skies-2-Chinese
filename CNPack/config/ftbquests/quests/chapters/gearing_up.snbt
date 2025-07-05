@@ -4631,7 +4631,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(cognition:cognitive_helmet)item(cognition:cognitive_chestplate)item(cognition:cognitive_leggings)item(cognition:cognitive_boots))"
-									"minecraft:custom_name": "\"Cognitive Armor\""
+									"minecraft:custom_name": "“认知装备”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -4647,7 +4647,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(cognition:cognitive_sword)item(cognition:cognitive_shovel)item(cognition:cognitive_pickaxe)item(cognition:cognitive_axe)item(cognition:cognitive_hoe))"
-									"minecraft:custom_name": "\"Standard Cognitive Tools\""
+									"minecraft:custom_name": "“认知三件套”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -4663,7 +4663,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(cognition:cognitive_bow)item(cognition:flint_and_cognitive_alloy)item(cognition:cognitive_shears)item(cognition:cognitive_rod))"
-									"minecraft:custom_name": "\"NicheCognitiveTools\""
+									"minecraft:custom_name": "“小众认知工具”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
