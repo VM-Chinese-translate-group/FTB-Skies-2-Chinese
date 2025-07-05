@@ -822,5 +822,12 @@
     "painting.ftb.skies2.title": "Skies 2",
 
     "crop.mysticalcustomization.entro_crystal": "Entro Crystal",
-    "crop.mysticalcustomization.quartz_enriched_copper": "Quartz Enriched Copper"
+    "crop.mysticalcustomization.quartz_enriched_copper": "Quartz Enriched Copper",
+
+    "block.modern_industrialization.advanced_coke_oven": "Advanced Coke Oven",
+    "rei_categories.modern_industrialization.advanced_coke_oven": "Advanced Coke Oven",
+    "block.modern_industrialization.bricked_fluid_input_hatch": "Bricked Fluid Input Hatch",
+    "block.modern_industrialization.bricked_fluid_output_hatch": "Bricked Fluid Output Hatch",
+    "block.modern_industrialization.bricked_item_input_hatch": "Bricked Item Input Hatch",
+    "block.modern_industrialization.bricked_item_output_hatch": "Bricked Item Output Hatch"
 }
