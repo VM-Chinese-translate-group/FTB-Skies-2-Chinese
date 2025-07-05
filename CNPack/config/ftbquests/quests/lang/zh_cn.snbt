@@ -171,7 +171,7 @@
 	quest.0174ACD260158165.quest_subtitle: "传输气体和化学品"
 	quest.0174ACD260158165.title: "&f气体管道"
 	quest.018027C0128159CB.title: "&f盾牌蓝图"
-	quest.018258B166F270D8.title: "&a实现超越"
+	quest.018258B166F270D8.title: "&a具现超脱"
 	quest.018B19721F4404FF.quest_desc: ["消耗末影珍珠或末影之眼发电。"]
 	quest.018B19721F4404FF.title: "&f菌丝网络末影发电机"
 	quest.019C7CBC9B62C803.quest_desc: [
@@ -258,7 +258,7 @@
 		"这些锭用于制作一些高级物品，例如&d高压蓄电池&r。"
 	]
 	quest.026A64F01C301119.title: "&3高定向热解石墨&r"
-	quest.028BF2D5CFCDA52A.title: "&e通用超级计算机"
+	quest.028BF2D5CFCDA52A.title: "&e机械化超级计算机"
 	quest.02BC61BBCDB931A3.quest_desc: [
 		"&6燃气发电机&r是游戏前期中最强的发电方式之一，可一直用到游戏中期。"
 		""
@@ -447,7 +447,7 @@
 	quest.04561BBA227DE4D6.title: "&d史诗护符底座（史诗护符基板）"
 	quest.04563030DE224F18.quest_desc: ["&e神化&r模组中，铁砧如果附上了&b耐久&r的话，其耐久就会大幅提升！"]
 	quest.04563030DE224F18.title: "&f给铁砧附魔！"
-	quest.0457FBD64D57E07B.quest_desc: ["你需要&3充能绿宝石水晶块&r来制作&6FTB金字塔所需物品：&d熔融本源&r。"]
+	quest.0457FBD64D57E07B.quest_desc: ["你需要&3充能绿宝石水晶块&r来制作&6FTB金字塔所需物品：&d溶解潜能&r。"]
 	quest.0457FBD64D57E07B.title: "&3充能绿宝石水晶"
 	quest.0467ED23E790F1C4.quest_desc: ["&3物品保险库&r是一种无交互界面的存储设备，可以通过将更多的&3物品保险库&r组合进行扩容。"]
 	quest.0467ED23E790F1C4.title: "&3物品保险库"
@@ -888,7 +888,7 @@
 		"右击它，就会显示你目前传送机的全部频率。选择并传送即可！"
 	]
 	quest.087D1FBAE8A425C0.title: "&f搭建&d传送门&r！"
-	quest.08904FDA836C003B.quest_desc: ["钻石筛网可以堪称为一种万能的网具，我推荐用它筛取钻石，以便制作更多！"]
+	quest.08904FDA836C003B.quest_desc: ["钻石筛网可以堪称为一种万能的网具，我推荐用它筛出钻石，以便制作更多！"]
 	quest.08904FDA836C003B.quest_subtitle: "如何向地质学家求婚"
 	quest.08904FDA836C003B.title: "&fMechanical Diamond Mesh"
 	quest.08A966CE036BC9D1.title: "&fBudding Ancient Debris Geore"
@@ -3833,8 +3833,8 @@
 	quest.27EA4B653A952968.quest_desc: [
 		"&a锇&r是一种难以寻觅的珍贵资源，你可能需要借助通用矿石产生器来获取一些。"
 		""
-		"[\"Though if you could get your hands on some silver, you could use your \", {\"text\": \"experience\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"469C88B6CEC1F9E7\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to the Cognition questline\"]} }, \", obsidian dust, and a puddle of molten ender pearls to convert it.\"]"
-		"&7This process is far more complicated, but still possible without an ore generator."
+		"[\"不过，如果你搞到了些银锭，便可用你的\", {\"text\": \"认知经验\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"469C88B6CEC1F9E7\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往认知任务线\"]} }, \"、黑曜石粉与一滩熔融末影珍珠进行转化。\"]"
+		"&7这一过程要复杂得多，但即便没有矿物生成器也并非不可实现。"
 	]
 	quest.27EA4B653A952968.quest_subtitle: "将熔融锇倒在催化剂上，或者……"
 	quest.27EA4B653A952968.title: "&fBudding Osmium Geore"
@@ -6304,7 +6304,7 @@
 	quest.40C4ECF69211C872.title: "&fOsmium Essence"
 	quest.40CCB0B7868233CA.quest_desc: ["将你刚得到的&a硫酸铂溶液&r&3离心&r，便可以得到&2纯净硫酸铂溶液&r，处理完后有小概率得到副产物&d小撮铂粉&r。"]
 	quest.40CCB0B7868233CA.title: "&d小堆依粉"
-	quest.40D416328C50C9F4.quest_desc: ["Most basic geore resources such as copper and redstone can be made by simply using a &edye&r on a &3Void Crystal Catalyst&r to convert it to a particular budding geore block."]
+	quest.40D416328C50C9F4.quest_desc: ["大多数如铜或红石这样的基础晶矿可以通过对&3虚无晶体催化剂&r使用&e染料&r的方式将其转化为特定种类的晶矿母岩方块。"]
 	quest.40D416328C50C9F4.title: "&f基础晶矿"
 	quest.40D4E56DD0876A7D.quest_desc: [
 		"将&c红宝石粉&r&3离心&r后可以获得&6粉碎的铬&r，你可以将其进一步加工成&4碎铬粉&r。"
@@ -7186,7 +7186,7 @@
 	quest.4A7A15ECB8ABDF88.quest_desc: [
 		"&7锌&r是发展机械动力的关键部分。所以你改怎么获得呢？"
 		""
-		"你当然可以在砧板上用锤子敲打凝灰岩来获取。在此之后你也可以使用粉碎轮来自动粉碎凝灰岩、使用&2GeOres&r模组、培育&e锌蜜蜂&r、或者投身于&dMalum&r模组中。说不定你还能发现其他方法呢！"
+		"You can hammer tuff on a cutting board, sure, but after that you can use Create's crushing wheels to crush tuff automatically, &2GeOres&r, make Zinc seeds, breed &eZinc Bees&r, or go into &dMalum&r. You may even find other ways such as ore generators and lense of the miner!"
 	]
 	quest.4A7A15ECB8ABDF88.title: "&f锌从哪来？"
 	quest.4AB10BE58B13DBDD.title: "&eAE2 1k磁盘奖励包"
@@ -10946,7 +10946,7 @@
 		""
 		"把信标放在金字塔塔顶，然后用&6下界之星或无限仙人掌&r激活它。"
 		""
-		"然后这座机器就会将你的&d下界之星&r变成&6飞升之证&r，用它就可以制作&d创造物品&r。"
+		"从现在起，这台机器将会把&d下界之星&r转化为&6飞升之证&r，用它就可以制作&d创造物品&r。"
 		""
 		"恭喜你！你通关了这个整合包！"
 	]
@@ -11074,7 +11074,7 @@
 		"使用&a以太扳手&r可轻松完成导管配置。如果导管被导管框架覆盖，只需手持扳手即可使其显现，便于进行配置调整。"
 	]
 	quest.77372AD6C4049263.title: "&6末影接口&d导管"
-	quest.773C44B85A2A1042.title: "&e超临界质"
+	quest.773C44B85A2A1042.title: "&e超临界量"
 	quest.773F797227054C32.quest_desc: [
 		"你是否曾经看着一只怪物，想着“啊，我要是也能这样就好了”？现在这已经可以实现了！"
 		""
