@@ -1,4 +1,7 @@
 {
+	icon: {
+		id: "minecraft:diamond_pickaxe"
+	}
 	id: "32AF1F440497F6AA"
 	loot_crate: {
 		color: 11184810
@@ -15,103 +18,12 @@
 	order_index: 11
 	rewards: [
 		{
-			id: "35E2E2126E5190B2"
-			item: {
-				count: 1
-				id: "farmersdelight:skillet"
-			}
-			weight: 25.0f
-		}
-		{
 			id: "45C390B3DCB759CF"
 			item: {
 				count: 1
 				id: "mysticalagriculture:diamond_scythe"
 			}
 			weight: 10.0f
-		}
-		{
-			id: "573859A13D202EAF"
-			item: {
-				components: {
-					"minecraft:enchantments": {
-						levels: {
-							"minecraft:efficiency": 4
-							"minecraft:silk_touch": 1
-							"minecraft:unbreaking": 3
-						}
-					}
-				}
-				count: 1
-				id: "minecraft:iron_pickaxe"
-			}
-			weight: 30.0f
-		}
-		{
-			id: "6276E4FC807B3B82"
-			item: {
-				components: {
-					"minecraft:enchantments": {
-						levels: {
-							"minecraft:efficiency": 2
-							"minecraft:unbreaking": 1
-						}
-					}
-				}
-				count: 1
-				id: "minecraft:iron_pickaxe"
-			}
-			weight: 30.0f
-		}
-		{
-			id: "67C9B3FAFBFFC891"
-			item: {
-				components: {
-					"minecraft:enchantments": {
-						levels: {
-							"minecraft:efficiency": 2
-							"minecraft:unbreaking": 2
-						}
-					}
-				}
-				count: 1
-				id: "minecraft:iron_pickaxe"
-			}
-			weight: 30.0f
-		}
-		{
-			id: "26594BA88605C846"
-			item: {
-				components: {
-					"minecraft:enchantments": {
-						levels: {
-							"apothic_enchanting:miners_fervor": 1
-							"minecraft:fortune": 4
-							"minecraft:unbreaking": 4
-						}
-					}
-				}
-				count: 1
-				id: "minecraft:iron_pickaxe"
-			}
-			weight: 30.0f
-		}
-		{
-			id: "2F9CBB32185EF698"
-			item: {
-				components: {
-					"minecraft:enchantments": {
-						levels: {
-							"minecraft:efficiency": 2
-							"minecraft:fortune": 1
-							"minecraft:unbreaking": 2
-						}
-					}
-				}
-				count: 1
-				id: "minecraft:iron_pickaxe"
-			}
-			weight: 25.0f
 		}
 		{
 			id: "47705C6AE07BC640"
@@ -254,22 +166,6 @@
 			weight: 20.0f
 		}
 		{
-			id: "6AAD9F43DFB9F69D"
-			item: {
-				count: 1
-				id: "minecraft:iron_pickaxe"
-			}
-			weight: 50.0f
-		}
-		{
-			id: "1874D14A1AE4147E"
-			item: {
-				count: 1
-				id: "minecraft:golden_pickaxe"
-			}
-			weight: 25.0f
-		}
-		{
 			id: "67802FB2782029E5"
 			item: {
 				count: 1
@@ -303,28 +199,12 @@
 			weight: 10.0f
 		}
 		{
-			id: "5EF0DB27B909D731"
-			item: {
-				count: 1
-				id: "mekanismtools:iron_paxel"
-			}
-			weight: 50.0f
-		}
-		{
 			id: "6EEE9FADADE162D5"
 			item: {
 				count: 1
 				id: "mekanismtools:diamond_paxel"
 			}
 			weight: 10.0f
-		}
-		{
-			id: "536446ADC20B2703"
-			item: {
-				count: 1
-				id: "mekanismtools:bronze_paxel"
-			}
-			weight: 25.0f
 		}
 		{
 			id: "31E786CB2D0D76A3"
@@ -375,14 +255,6 @@
 			weight: 20.0f
 		}
 		{
-			id: "31715B2335DC4E94"
-			item: {
-				count: 1
-				id: "mekanism:configurator"
-			}
-			weight: 25.0f
-		}
-		{
 			id: "1C20B9C42D53ADE7"
 			item: {
 				count: 1
@@ -406,38 +278,6 @@
 				id: "toolbelt:belt"
 			}
 			weight: 20.0f
-		}
-		{
-			id: "4B0153B8AA693676"
-			item: {
-				count: 1
-				id: "pneumaticcraft:pneumatic_wrench"
-			}
-			weight: 25.0f
-		}
-		{
-			id: "0925337330EE36F6"
-			item: {
-				count: 1
-				id: "modern_industrialization:wrench"
-			}
-			weight: 25.0f
-		}
-		{
-			id: "51EF37E40A4B2367"
-			item: {
-				count: 1
-				id: "mekanism:configuration_card"
-			}
-			weight: 25.0f
-		}
-		{
-			id: "1AEEC4359D51831E"
-			item: {
-				count: 1
-				id: "measurements:tape_measure"
-			}
-			weight: 25.0f
 		}
 		{
 			id: "3A4DC3B684FA02AF"

@@ -435,12 +435,12 @@
 					type: "item"
 				}
 				{
+					count: 2
 					id: "5D42AAB57401AD36"
 					item: {
 						count: 1
 						id: "create:redstone_link"
 					}
-					random_bonus: 2
 					type: "item"
 				}
 				{

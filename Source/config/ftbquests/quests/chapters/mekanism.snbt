@@ -163,11 +163,20 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "56BA1011DDE093D0"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/osmium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "56BA1011DDE093D0"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/osmium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E50285A2BA689A5"
+					item: { count: 1, id: "ftbmaterials:osmium_ingot" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -282,6 +291,7 @@
 				{
 					id: "49ED6C9038545B3D"
 					item: { count: 1, id: "mekanism:enriched_iron" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -604,10 +614,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"437F2C378CD6FE51"
-				"3E7E07DB49639EA5"
-			]
+			dependencies: ["437F2C378CD6FE51"]
 			hide_dependent_lines: true
 			id: "33A9FF901E2D7725"
 			rewards: [
@@ -1665,10 +1672,11 @@
 			min_width: 250
 			rewards: [
 				{
+					count: 5
 					id: "1688EF5244176B91"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1913,7 +1921,7 @@
 				"4A41B30728ED1307"
 			]
 			icon: {
-				id: "mekanism:sulfuric_acid_bucket"
+				id: "modern_industrialization:sulfuric_acid_bucket"
 			}
 			id: "4EAE9F58776D84C8"
 			rewards: [{
@@ -1929,7 +1937,7 @@
 				{
 					fluid: {
 						amount: 1000
-						id: "mekanism:sulfuric_acid"
+						id: "modern_industrialization:sulfuric_acid"
 					}
 					id: "0FC6E89DD1C13CEA"
 					optional_task: true
@@ -1937,7 +1945,7 @@
 				}
 				{
 					id: "0B4D753BAE5A3568"
-					item: { count: 1, id: "mekanism:sulfuric_acid_bucket" }
+					item: { count: 1, id: "modern_industrialization:sulfuric_acid_bucket" }
 					optional_task: true
 					type: "item"
 				}

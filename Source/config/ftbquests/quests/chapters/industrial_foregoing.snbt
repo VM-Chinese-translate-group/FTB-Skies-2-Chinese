@@ -973,24 +973,19 @@
 			id: "13FD704C45145E23"
 			rewards: [
 				{
-					id: "08FCF9EA711410DB"
-					type: "xp"
-					xp: 10
+					id: "7570A6A8E9B35D55"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					count: 16
 					id: "1EF220C31A96083B"
 					item: {
 						count: 1
-						id: "minecraft:oak_log"
-					}
-					type: "item"
-				}
-				{
-					id: "7570A6A8E9B35D55"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
+						id: "minecraft:acacia_log"
 					}
 					type: "item"
 				}
@@ -1007,21 +1002,14 @@
 		{
 			dependencies: ["13FD704C45145E23"]
 			id: "400EF0F598308431"
-			rewards: [
-				{
-					id: "527727FDACC07FA4"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				id: "080FE0D74AEE26E9"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "080FE0D74AEE26E9"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "05F6CE633213A56A"
 				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
@@ -1034,9 +1022,12 @@
 			id: "75D124AF83D637A8"
 			rewards: [
 				{
-					id: "43AC5B00EC45D144"
-					type: "xp"
-					xp: 5
+					id: "2ACCE760F29871DE"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "3D50AD7107C29612"
@@ -1046,14 +1037,6 @@
 						}
 						count: 1
 						id: "patchouli:guide_book"
-					}
-					type: "item"
-				}
-				{
-					id: "2ACCE760F29871DE"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1071,21 +1054,14 @@
 		{
 			id: "0971483C3C7A4259"
 			optional: true
-			rewards: [
-				{
-					id: "41C328DDB662946E"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				id: "4CB18E41FF6DFA7D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "4CB18E41FF6DFA7D"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "731A9BE549D2A808"
 				item: { count: 1, id: "industrialforegoing:pitiful_generator" }
@@ -1132,9 +1108,13 @@
 			id: "798FDDD76EAB8F65"
 			rewards: [
 				{
-					id: "59DBE087A3748B66"
-					type: "xp"
-					xp: 10
+					count: 3
+					id: "7E63BDA8FDBA7D1F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					count: 2
@@ -1147,13 +1127,12 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "7E63BDA8FDBA7D1F"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 76120A38BC49FB92"
+					id: "6C81BB4C1D5B0C93"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			size: 1.5d
@@ -1168,22 +1147,15 @@
 		{
 			dependencies: ["637CDD290456F2B2"]
 			id: "0FEE43187F69FA22"
-			rewards: [
-				{
-					id: "56E7E89EB7FAAE39"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "4FBAE948A89EB4AC"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 3
-					id: "4FBAE948A89EB4AC"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -1199,24 +1171,19 @@
 			id: "637CDD290456F2B2"
 			rewards: [
 				{
-					id: "40140599EEC1E06E"
-					type: "xp"
-					xp: 25
+					count: 3
+					id: "215D2EFDBD069989"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "5DE2DBD1506BAB5E"
 					item: {
 						count: 1
 						id: "industrialforegoing:latex_bucket"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "215D2EFDBD069989"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1365,22 +1332,15 @@
 			hide_dependency_lines: true
 			id: "2DD91C033DC7C87B"
 			optional: true
-			rewards: [
-				{
-					id: "21754F916E4B4906"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "7B190A5EA84890D4"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 3
-					id: "7B190A5EA84890D4"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "51AEC4936C84B282"
@@ -1465,22 +1425,15 @@
 			hide_dependency_lines: true
 			id: "2474908186EBBD0D"
 			optional: true
-			rewards: [
-				{
-					id: "72D6E3D8F9B191C0"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "170A789A94123544"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 3
-					id: "170A789A94123544"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6075FAD34FA8CA25"
@@ -1502,21 +1455,14 @@
 				id: "industrialforegoing:range_addon_tier_9"
 			}
 			id: "36DD75256D280C4A"
-			rewards: [
-				{
-					id: "44C05161B5BB13A7"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				id: "7331AAB4B6E09D0D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "7331AAB4B6E09D0D"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E023EF28D4D86F3"
 				item: { components: { "ftbfiltersystem:filter": "or(item(industrialforegoing:range_addon_tier_0)item(industrialforegoing:range_addon_tier_1)item(industrialforegoing:range_addon_tier_2)item(industrialforegoing:range_addon_tier_3)item(industrialforegoing:range_addon_tier_4)item(industrialforegoing:range_addon_tier_5)item(industrialforegoing:range_addon_tier_6)item(industrialforegoing:range_addon_tier_7)item(industrialforegoing:range_addon_tier_8)item(industrialforegoing:range_addon_tier_9)item(industrialforegoing:range_addon_tier_10)item(industrialforegoing:range_addon_tier_11))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -2243,9 +2189,12 @@
 			id: "4EF7ACF0C1883E76"
 			rewards: [
 				{
-					id: "7DF728F9EED3F31D"
-					type: "xp"
-					xp: 10
+					id: "7BEFC2BE576D29A9"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "33B68ED8FD981AB8"
@@ -2257,14 +2206,6 @@
 						}
 						count: 1
 						id: "industrialforegoing:speed_addon_tier_2"
-					}
-					type: "item"
-				}
-				{
-					id: "7BEFC2BE576D29A9"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -2291,9 +2232,12 @@
 			id: "373AB8CD1B10D694"
 			rewards: [
 				{
-					id: "4ACD423A84534DB9"
-					type: "xp"
-					xp: 10
+					id: "69FFEE4A1B66AB6B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "057CA8306CDE4698"
@@ -2305,14 +2249,6 @@
 						}
 						count: 1
 						id: "industrialforegoing:efficiency_addon_tier_2"
-					}
-					type: "item"
-				}
-				{
-					id: "69FFEE4A1B66AB6B"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -2339,9 +2275,12 @@
 			id: "7B8076959957E3FA"
 			rewards: [
 				{
-					id: "1402E9A2E29FD5F5"
-					type: "xp"
-					xp: 10
+					id: "7DF78D176BE266D1"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "5BE6A0DB2D57D719"
@@ -2353,14 +2292,6 @@
 						}
 						count: 1
 						id: "industrialforegoing:processing_addon_tier_2"
-					}
-					type: "item"
-				}
-				{
-					id: "7DF78D176BE266D1"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}

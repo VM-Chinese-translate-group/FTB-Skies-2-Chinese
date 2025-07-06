@@ -19,8 +19,8 @@
 			image: "apothic_enchanting:blocks/treasure_shelf_side"
 			rotation: 0.0d
 			width: 2.0d
-			x: 12.0d
-			y: -5.0d
+			x: 14.25d
+			y: -1.5d
 		}
 		{
 			height: 1.0d
@@ -36,7 +36,7 @@
 			image: "apothic_enchanting:blocks/heart_seashelf"
 			rotation: 0.0d
 			width: 2.5d
-			x: 8.0d
+			x: 7.0d
 			y: -3.5d
 		}
 		{
@@ -45,8 +45,8 @@
 			image: "apothic_enchanting:blocks/echoing_sculkshelf"
 			rotation: 0.0d
 			width: 2.4d
-			x: 17.0d
-			y: -2.5d
+			x: 15.5d
+			y: -3.5d
 		}
 		{
 			alpha: 128
@@ -54,26 +54,26 @@
 			image: "apothic_enchanting:blocks/draconic_endshelf"
 			rotation: 0.0d
 			width: 2.4d
-			x: 23.0d
+			x: 24.0d
 			y: -3.5d
 		}
 		{
 			alpha: 128
-			height: 2.5d
+			height: 2.0d
 			image: "apothic_enchanting:blocks/sight_side"
 			rotation: 0.0d
-			width: 2.5d
-			x: 5.0d
-			y: 3.5d
+			width: 2.0d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			alpha: 128
-			height: 2.4d
+			height: 2.0d
 			image: "apothic_enchanting:blocks/ender_library/side"
 			rotation: 0.0d
-			width: 2.4d
-			x: 23.0d
-			y: -1.5d
+			width: 2.0d
+			x: 24.0095238095238d
+			y: -1.525d
 		}
 		{
 			height: 1.0d
@@ -189,7 +189,7 @@
 			image: "apothic_enchanting:blocks/filtering_shelf/occupied"
 			rotation: 0.0d
 			width: 2.0d
-			x: 5.0d
+			x: 4.5d
 			y: -5.5d
 		}
 		{
@@ -199,7 +199,7 @@
 			order: 2
 			rotation: 0.0d
 			width: 3.0d
-			x: 5.0d
+			x: 4.5d
 			y: -3.5d
 		}
 		{
@@ -208,7 +208,7 @@
 			image: "apothic_enchanting:blocks/blazing_hellshelf"
 			rotation: 0.0d
 			width: 2.5d
-			x: 8.0d
+			x: 7.0d
 			y: 0.5d
 		}
 		{
@@ -218,7 +218,7 @@
 			order: 2
 			rotation: 0.0d
 			width: 3.0d
-			x: 5.0d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
@@ -226,7 +226,7 @@
 			image: "apothic_enchanting:textures/particle/sga_h_water.png"
 			rotation: 180.0d
 			width: 1.0d
-			x: 4.02d
+			x: 3.5199999999999996d
 			y: -3.3d
 		}
 		{
@@ -235,7 +235,7 @@
 			image: "apothic_enchanting:textures/particle/sga_d_fire.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.66d
+			x: 5.16d
 			y: 1.139d
 		}
 		{
@@ -244,7 +244,7 @@
 			image: "apothic_enchanting:textures/particle/sga_q_fire.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.5d
+			x: 4.0d
 			y: 0.75d
 		}
 		{
@@ -252,7 +252,7 @@
 			image: "apothic_enchanting:textures/particle/sga_q_water.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.05d
+			x: 5.55d
 			y: -3.87d
 		}
 		{
@@ -279,7 +279,7 @@
 			order: -2
 			rotation: 0.0d
 			width: 4.0d
-			x: 12.0d
+			x: 10.0d
 			y: -1.5d
 		}
 		{
@@ -287,7 +287,7 @@
 			image: "apothic_enchanting:textures/particle/sga_d_end.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.5d
+			x: 9.5d
 			y: -2.0d
 		}
 		{
@@ -295,7 +295,7 @@
 			image: "apothic_enchanting:textures/particle/sga_l_end.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.5d
+			x: 9.5d
 			y: -1.0d
 		}
 		{
@@ -303,7 +303,7 @@
 			image: "apothic_enchanting:textures/particle/sga_q_end.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 13.0d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
@@ -312,8 +312,8 @@
 			image: "apothic_enchanting:blocks/echoing_deepshelf"
 			rotation: 0.0d
 			width: 2.4d
-			x: 15.0d
-			y: -2.5d
+			x: 13.0d
+			y: -3.5d
 		}
 		{
 			color: 11141290
@@ -322,7 +322,7 @@
 			order: -2
 			rotation: 0.0d
 			width: 3.0d
-			x: 20.0d
+			x: 18.389d
 			y: -1.5d
 		}
 		{
@@ -331,16 +331,16 @@
 			image: "apothic_enchanting:blocks/soul_touched_sculkshelf"
 			rotation: 0.0d
 			width: 2.4d
-			x: 17.0d
-			y: 0.0d
+			x: 15.5d
+			y: 0.5d
 		}
 		{
 			alpha: 128
-			height: 2.4d
+			height: 2.5d
 			image: "apothic_enchanting:blocks/pearl_endshelf"
 			rotation: 0.0d
-			width: 2.4d
-			x: 23.0d
+			width: 2.5d
+			x: 24.0d
 			y: 0.5d
 		}
 		{
@@ -349,8 +349,8 @@
 			image: "apothic_enchanting:textures/particle/sga_d_fire.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 21.04d
-			y: -0.471d
+			x: 19.066666666666677d
+			y: -0.3023809523809433d
 		}
 		{
 			alpha: 128
@@ -358,8 +358,8 @@
 			image: "apothic_enchanting:textures/particle/sga_q_fire.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 19.111d
-			y: -0.65d
+			x: 17.288095238095252d
+			y: -1.1773809523809504d
 		}
 		{
 			alpha: 128
@@ -367,8 +367,8 @@
 			image: "apothic_enchanting:textures/particle/sga_u_fire.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.161d
-			y: -2.71d
+			x: 18.72380952380952d
+			y: -2.5595238095238173d
 		}
 		{
 			height: 1.0d
@@ -440,7 +440,7 @@
 			image: "apothic_enchanting:blocks/library/side2"
 			rotation: 0.0d
 			width: 2.0d
-			x: 5.0d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -449,31 +449,31 @@
 			image: "apothic_enchanting:blocks/soul_touched_deepshelf"
 			rotation: 0.0d
 			width: 2.4d
-			x: 15.0d
-			y: 0.0d
+			x: 13.0d
+			y: 0.5d
 		}
 		{
 			height: 1.0d
 			image: "apothic_enchanting:textures/particle/sga_z_sculk.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 17.75d
-			y: -3.5d
+			x: 15.188095238095244d
+			y: -4.30238095238095d
 		}
 		{
 			height: 1.0d
 			image: "apothic_enchanting:textures/particle/sga_m_sculk.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.850000000000001d
-			y: -0.57d
+			x: 13.850000000000001d
+			y: 0.0d
 		}
 		{
 			height: 1.0d
 			image: "apothic_enchanting:textures/particle/sga_d_sculk.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 13.0d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
@@ -482,8 +482,8 @@
 			image: "apothic_enchanting:textures/particle/sga_h_fire.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 9.147d
-			y: -0.265d
+			x: 7.800000000000001d
+			y: -0.25d
 		}
 		{
 			color: 16743034
@@ -491,7 +491,7 @@
 			image: "apothic_enchanting:textures/particle/sga_q_fire.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.233d
+			x: 6.233d
 			y: 1.391d
 		}
 		{
@@ -499,7 +499,7 @@
 			image: "apothic_enchanting:textures/particle/sga_h_water.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.338d
+			x: 6.338d
 			y: -2.717d
 		}
 		{
@@ -507,7 +507,7 @@
 			image: "apothic_enchanting:textures/particle/sga_q_water.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 9.088d
+			x: 8.088d
 			y: -4.217d
 		}
 		{
@@ -516,8 +516,8 @@
 			image: "apothic_enchanting:textures/particle/sga_u_fire.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
-			y: -4.5d
+			x: 24.990476190476173d
+			y: -4.3261904761905114d
 		}
 		{
 			alpha: 128
@@ -525,8 +525,8 @@
 			image: "apothic_enchanting:textures/particle/sga_q_fire.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
-			y: 1.5d
+			x: 24.93333333333331d
+			y: -0.2690476190476545d
 		}
 		{
 			alpha: 128
@@ -534,8 +534,8 @@
 			image: "apothic_enchanting:textures/particle/sga_d_fire.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
-			y: 0.5d
+			x: 23.2190476190476d
+			y: 1.3880952380952039d
 		}
 		{
 			alpha: 128
@@ -543,8 +543,8 @@
 			image: "apothic_enchanting:textures/particle/sga_a_fire.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
-			y: -2.5d
+			x: 23.047619047619023d
+			y: -3.0976190476190695d
 		}
 		{
 			height: 1.0d
@@ -560,8 +560,8 @@
 			image: "apothic_enchanting:textures/particle/sga_a_fire.png"
 			rotation: -180.0d
 			width: 1.0d
-			x: 24.0d
-			y: -1.5d
+			x: 22.419047619047603d
+			y: -1.5261904761905072d
 		}
 		{
 			height: 7.0d
@@ -848,6 +848,33 @@
 			x: -11.0d
 			y: 3.5d
 		}
+		{
+			alpha: 128
+			height: 2.5d
+			image: "apothic_enchanting:blocks/endshelf"
+			rotation: 0.0d
+			width: 2.5d
+			x: 21.389d
+			y: -1.5d
+		}
+		{
+			alpha: 128
+			height: 2.0d
+			image: "apothic_enchanting:blocks/sight_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			alpha: 128
+			height: 1.5d
+			image: "apothic_enchanting:blocks/beeshelf"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: -1.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -858,11 +885,6 @@
 			id: "28EA66B1EBB05B93"
 			rewards: [
 				{
-					id: "43B1222CC0A94B73"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 3
 					id: "69DE0781A0F88778"
 					item: {
@@ -870,6 +892,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "43B1222CC0A94B73"
+					team_reward: false
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "diamond"
@@ -888,11 +916,6 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "2EAFC9D5D28C16B2"
-					type: "xp"
-					xp: 25
-				}
-				{
 					count: 3
 					id: "5360F092E8487495"
 					item: {
@@ -900,6 +923,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "2EAFC9D5D28C16B2"
+					team_reward: false
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "hexagon"
@@ -918,11 +947,6 @@
 			id: "3A7774F5F0FD174E"
 			rewards: [
 				{
-					id: "4E2335833445E942"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 3
 					id: "4EDB943669686477"
 					item: {
@@ -930,6 +954,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "4E2335833445E942"
+					team_reward: false
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "diamond"
@@ -947,11 +977,6 @@
 			id: "7244D5DADCF0D7A2"
 			rewards: [
 				{
-					id: "02CE0E5E189543A8"
-					type: "xp"
-					xp: 25
-				}
-				{
 					count: 5
 					id: "08E0D6192B4FDC67"
 					item: {
@@ -959,6 +984,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "02CE0E5E189543A8"
+					team_reward: false
+					type: "xp"
+					xp: 150
 				}
 			]
 			shape: "hexagon"
@@ -968,7 +999,7 @@
 				item: { count: 1, id: "apothic_enchanting:filtering_shelf" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -5.5d
 		}
 		{
@@ -976,11 +1007,6 @@
 			icon_scale: 1.25d
 			id: "3A53BB7A6B708966"
 			rewards: [
-				{
-					id: "2D8EE917F31110B4"
-					type: "xp"
-					xp: 25
-				}
 				{
 					count: 5
 					id: "7D0AFB9D8D660F67"
@@ -990,6 +1016,12 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2D8EE917F31110B4"
+					team_reward: false
+					type: "xp"
+					xp: 100
+				}
 			]
 			shape: "diamond"
 			size: 1.5d
@@ -998,7 +1030,7 @@
 				item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
@@ -1010,17 +1042,18 @@
 			id: "0EE35D6E57FAD973"
 			rewards: [
 				{
-					id: "094CB48479F47232"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "0F66902C81E7309E"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "094CB48479F47232"
+					team_reward: false
+					type: "xp"
+					xp: 250
 				}
 			]
 			shape: "hexagon"
@@ -1030,7 +1063,7 @@
 				item: { count: 1, id: "apothic_enchanting:library" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -1042,11 +1075,6 @@
 			min_width: 250
 			rewards: [
 				{
-					id: "6770906613D894B5"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 8
 					id: "0A0D3409CDBA0E21"
 					item: {
@@ -1054,6 +1082,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "6770906613D894B5"
+					team_reward: false
+					type: "xp"
+					xp: 150
 				}
 			]
 			shape: "hexagon"
@@ -1072,7 +1106,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 7.0d
 			y: -3.5d
 		}
 		{
@@ -1080,11 +1114,6 @@
 			icon_scale: 1.25d
 			id: "4DE5CB7A5A1D717B"
 			rewards: [
-				{
-					id: "3DEB246B4B6F93D1"
-					type: "xp"
-					xp: 25
-				}
 				{
 					count: 5
 					id: "183A1146E68D9070"
@@ -1094,6 +1123,12 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3DEB246B4B6F93D1"
+					team_reward: false
+					type: "xp"
+					xp: 100
+				}
 			]
 			shape: "diamond"
 			size: 1.5d
@@ -1102,7 +1137,7 @@
 				item: { count: 1, id: "apothic_enchanting:infused_seashelf" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -3.5d
 		}
 		{
@@ -1114,11 +1149,6 @@
 			min_width: 250
 			rewards: [
 				{
-					id: "3899860206C43EBD"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 8
 					id: "5AEFB3649F175164"
 					item: {
@@ -1126,6 +1156,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "3899860206C43EBD"
+					team_reward: false
+					type: "xp"
+					xp: 150
 				}
 			]
 			shape: "diamond"
@@ -1144,7 +1180,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 7.0d
 			y: 0.5d
 		}
 		{
@@ -1156,11 +1192,6 @@
 			id: "268CC540E5B605A9"
 			rewards: [
 				{
-					id: "234A4DA907CD2F6A"
-					type: "xp"
-					xp: 50
-				}
-				{
 					count: 2
 					id: "5BDF48F62B63D706"
 					item: {
@@ -1168,6 +1199,12 @@
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "234A4DA907CD2F6A"
+					team_reward: false
+					type: "xp"
+					xp: 350
 				}
 			]
 			shape: "diamond"
@@ -1177,7 +1214,7 @@
 				item: { count: 1, id: "apothic_enchanting:infused_breath" }
 				type: "item"
 			}]
-			x: 20.0d
+			x: 18.389d
 			y: -1.5d
 		}
 		{
@@ -1190,17 +1227,18 @@
 			min_width: 250
 			rewards: [
 				{
-					id: "02302C8E07C2021D"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "358DBC09CEDA4C77"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "02302C8E07C2021D"
+					team_reward: false
+					type: "xp"
+					xp: 200
 				}
 			]
 			shape: "hexagon"
@@ -1210,18 +1248,13 @@
 				item: { count: 1, id: "apothic_enchanting:deepshelf" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["353F6C94B5D5FF0B"]
 			id: "74AB8112B4B1D4E0"
 			rewards: [
-				{
-					id: "03638B8B6B698460"
-					type: "xp"
-					xp: 25
-				}
 				{
 					count: 2
 					id: "674852BE687C3D1C"
@@ -1231,6 +1264,12 @@
 					}
 					type: "item"
 				}
+				{
+					id: "03638B8B6B698460"
+					team_reward: false
+					type: "xp"
+					xp: 300
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -1239,8 +1278,8 @@
 				item: { count: 1, id: "apothic_enchanting:echoing_sculkshelf" }
 				type: "item"
 			}]
-			x: 17.0d
-			y: -2.5d
+			x: 15.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["30689B890F5E7A03"]
@@ -1250,17 +1289,18 @@
 			id: "353F6C94B5D5FF0B"
 			rewards: [
 				{
-					id: "3183CC55EAE22347"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "551ED6DCA5035076"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "3183CC55EAE22347"
+					team_reward: false
+					type: "xp"
+					xp: 250
 				}
 			]
 			shape: "hexagon"
@@ -1270,18 +1310,13 @@
 				item: { count: 1, id: "apothic_enchanting:echoing_deepshelf" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: -2.5d
+			x: 13.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["30689B890F5E7A03"]
 			id: "0E0BB49B16E88A66"
 			rewards: [
-				{
-					id: "3487A3AC73C6C9C9"
-					type: "xp"
-					xp: 25
-				}
 				{
 					id: "1EAC89131C316537"
 					item: {
@@ -1289,6 +1324,12 @@
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "3487A3AC73C6C9C9"
+					team_reward: false
+					type: "xp"
+					xp: 350
 				}
 			]
 			shape: "hexagon"
@@ -1298,18 +1339,13 @@
 				item: { count: 1, id: "apothic_enchanting:treasure_shelf" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -5.0d
+			x: 14.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["23B6C73FDF8C322A"]
 			id: "675BB2F97FC2D293"
 			rewards: [
-				{
-					id: "417FDFE933AB5AAF"
-					type: "xp"
-					xp: 25
-				}
 				{
 					count: 2
 					id: "34419EF9888A52A6"
@@ -1319,6 +1355,12 @@
 					}
 					type: "item"
 				}
+				{
+					id: "417FDFE933AB5AAF"
+					team_reward: false
+					type: "xp"
+					xp: 300
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -1327,18 +1369,13 @@
 				item: { count: 1, id: "apothic_enchanting:soul_touched_sculkshelf" }
 				type: "item"
 			}]
-			x: 17.0d
-			y: 0.0d
+			x: 15.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["268CC540E5B605A9"]
 			id: "26B74124E89189F7"
 			rewards: [
-				{
-					id: "231B46C852E1BDA9"
-					type: "xp"
-					xp: 25
-				}
 				{
 					count: 3
 					id: "6A80A2FD57EA2E43"
@@ -1348,6 +1385,12 @@
 					}
 					type: "item"
 				}
+				{
+					id: "231B46C852E1BDA9"
+					team_reward: false
+					type: "xp"
+					xp: 500
+				}
 			]
 			shape: "pentagon"
 			size: 2.0d
@@ -1356,7 +1399,7 @@
 				item: { count: 1, id: "apothic_enchanting:endshelf" }
 				type: "item"
 			}]
-			x: 23.0d
+			x: 21.389d
 			y: -1.5d
 		}
 		{
@@ -1365,15 +1408,15 @@
 			rewards: [
 				{
 					id: "037B7A40DD0E2E42"
+					team_reward: false
 					type: "xp"
-					xp: 100
+					xp: 750
 				}
 				{
-					count: 3
-					id: "15548A7108E60665"
+					id: "2D903B37165B4E13"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "magic_coins:crystal_coin"
 					}
 					type: "item"
 				}
@@ -1385,18 +1428,13 @@
 				item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
 				type: "item"
 			}]
-			x: 23.0d
+			x: 24.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["26B74124E89189F7"]
 			id: "33587574C28D7747"
 			rewards: [
-				{
-					id: "7F52DCE02723916E"
-					type: "xp"
-					xp: 25
-				}
 				{
 					count: 3
 					id: "6104C312F78D6DC3"
@@ -1406,6 +1444,12 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7F52DCE02723916E"
+					team_reward: false
+					type: "xp"
+					xp: 750
+				}
 			]
 			shape: "pentagon"
 			size: 2.0d
@@ -1414,7 +1458,7 @@
 				item: { count: 1, id: "apothic_enchanting:pearl_endshelf" }
 				type: "item"
 			}]
-			x: 23.0d
+			x: 24.0d
 			y: 0.5d
 		}
 		{
@@ -1424,11 +1468,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "4AB7A9500992CB83"
-					type: "xp"
-					xp: 50
-				}
-				{
 					count: 8
 					id: "5BFB2216107D4197"
 					item: {
@@ -1437,6 +1476,21 @@
 					}
 					type: "item"
 				}
+				{
+					id: "5BF83B21A32BB43D"
+					item: {
+						count: 1
+						id: "apothic_enchanting:extraction_tome"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4AB7A9500992CB83"
+					team_reward: false
+					type: "xp"
+					xp: 150
+				}
 			]
 			shape: "square"
 			tasks: [{
@@ -1444,28 +1498,14 @@
 				item: { count: 1, id: "apothic_enchanting:extraction_tome" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -6.5d
+			x: 2.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["04563030DE224F18"]
 			id: "70D5BEA5CC437AB6"
 			optional: true
 			rewards: [
-				{
-					id: "140DD387B591B798"
-					item: {
-						count: 1
-						id: "apothic_enchanting:scrap_tome"
-					}
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "737CE4FBC20D660E"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 3
 					id: "36178FCC8548A70C"
@@ -1475,6 +1515,22 @@
 					}
 					type: "item"
 				}
+				{
+					count: 4
+					id: "140DD387B591B798"
+					item: {
+						count: 1
+						id: "apothic_enchanting:scrap_tome"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "737CE4FBC20D660E"
+					team_reward: false
+					type: "xp"
+					xp: 50
+				}
 			]
 			shape: "square"
 			tasks: [{
@@ -1483,21 +1539,14 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
-			dependencies: [
-				"28EA66B1EBB05B93"
-				"70D5BEA5CC437AB6"
-			]
+			dependencies: ["70D5BEA5CC437AB6"]
 			id: "1DC46E0EA2BC83C3"
+			min_required_dependencies: 1
 			optional: true
 			rewards: [
-				{
-					id: "333441FEB287F453"
-					type: "xp"
-					xp: 25
-				}
 				{
 					count: 5
 					id: "6D3D3C72E85DFE79"
@@ -1507,6 +1556,22 @@
 					}
 					type: "item"
 				}
+				{
+					count: 2
+					id: "1156EC717E18761B"
+					item: {
+						count: 1
+						id: "apothic_enchanting:improved_scrap_tome"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "333441FEB287F453"
+					team_reward: false
+					type: "xp"
+					xp: 100
+				}
 			]
 			shape: "square"
 			tasks: [{
@@ -1515,7 +1580,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["00A7C1FE54F86429"]
@@ -1524,11 +1589,6 @@
 			id: "04563030DE224F18"
 			rewards: [
 				{
-					id: "2DBEA501C6B0921A"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 3
 					id: "1D00C8CFE1C7935F"
 					item: {
@@ -1536,6 +1596,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "2DBEA501C6B0921A"
+					team_reward: false
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "gear"
@@ -1554,17 +1620,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "430681FEAA1E5643"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "46A21F97F3D8A77A"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "430681FEAA1E5643"
+					team_reward: false
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "hexagon"
@@ -1583,17 +1650,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "29CAF78F926E6F8A"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "3B36F39A0366A399"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "29CAF78F926E6F8A"
+					team_reward: false
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "hexagon"
@@ -1612,17 +1680,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "5A1B6EA5C64F6702"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "43ECBE5AFEADD9ED"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "5A1B6EA5C64F6702"
+					team_reward: false
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "hexagon"
@@ -1641,17 +1710,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "6CC4462DE260A119"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "67B6466D095972D3"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "6CC4462DE260A119"
+					team_reward: false
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "hexagon"
@@ -1669,17 +1739,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "0EF4C29C55A0A23B"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "68527C68A461D9A5"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "0EF4C29C55A0A23B"
+					team_reward: false
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "hexagon"
@@ -1698,17 +1769,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "2ACBC336A1D3496E"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "1EAA69157AF18AEA"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "2ACBC336A1D3496E"
+					team_reward: false
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "hexagon"
@@ -1727,17 +1799,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "0AF0B9FDEA73A142"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "562C764A18168654"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "0AF0B9FDEA73A142"
+					team_reward: false
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "hexagon"
@@ -1756,17 +1829,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "11120717BC019939"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "6C0C8B7D4AD79D2D"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "11120717BC019939"
+					team_reward: false
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "hexagon"
@@ -1785,17 +1859,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "6A33CB6F571B086B"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "3A58227118A03C33"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "6A33CB6F571B086B"
+					team_reward: false
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "hexagon"
@@ -1816,6 +1891,15 @@
 			id: "5994E561F25FAEEC"
 			rewards: [
 				{
+					count: 3
+					id: "2CEB6B51B77D5D68"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 16
 					id: "2E1B1AC0EF8CA8CF"
 					item: {
@@ -1826,17 +1910,9 @@
 				}
 				{
 					id: "2CF140CB97FE5E70"
+					team_reward: false
 					type: "xp"
 					xp: 10
-				}
-				{
-					count: 3
-					id: "2CEB6B51B77D5D68"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "diamond"
@@ -1855,11 +1931,6 @@
 			id: "427682661459BB4F"
 			rewards: [
 				{
-					id: "2450D7CFB009D26B"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 3
 					id: "282367509A7B7B2C"
 					item: {
@@ -1867,6 +1938,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "337999AE72D93C77"
+					team_reward: false
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "gear"
@@ -1887,11 +1964,6 @@
 			id: "5F2E83D75D192FA8"
 			rewards: [
 				{
-					id: "135339AF0CC9051E"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 5
 					id: "7EC272C79D5A8E61"
 					item: {
@@ -1900,34 +1972,27 @@
 					}
 					type: "item"
 				}
+				{
+					id: "135339AF0CC9051E"
+					team_reward: false
+					type: "xp"
+					xp: 150
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "02C46AC7CC3639FF"
-					item: { count: 1, id: "apothic_enchanting:sightshelf" }
-					type: "item"
-				}
-				{
-					id: "05D0F0681A04CAFD"
-					item: { count: 1, id: "apothic_enchanting:sightshelf_t2" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 3.5d
+			tasks: [{
+				id: "02C46AC7CC3639FF"
+				item: { count: 1, id: "apothic_enchanting:sightshelf" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["30689B890F5E7A03"]
 			id: "23B6C73FDF8C322A"
 			rewards: [
-				{
-					id: "370D5949981ABADF"
-					type: "xp"
-					xp: 25
-				}
 				{
 					id: "284B2999DAD64E16"
 					item: {
@@ -1935,6 +2000,12 @@
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "370D5949981ABADF"
+					team_reward: false
+					type: "xp"
+					xp: 250
 				}
 			]
 			shape: "hexagon"
@@ -1944,8 +2015,8 @@
 				item: { count: 1, id: "apothic_enchanting:soul_touched_deepshelf" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.0d
+			x: 13.0d
+			y: 0.5d
 		}
 		{
 			icon: {
@@ -1958,23 +2029,18 @@
 			min_width: 250
 			rewards: [
 				{
-					id: "7C962CD682605528"
-					item: {
-						count: 1
-						id: "silentgear:blueprint_package"
-					}
-					type: "item"
-				}
-				{
-					id: "5DD2E7078A4B36C3"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "4B6AD0CAAB59166A"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7C962CD682605528"
+					item: {
+						count: 1
+						id: "silentgear:blueprint_package"
 					}
 					type: "item"
 				}
@@ -3137,25 +3203,21 @@
 			id: "4498E3F4B2DC24FC"
 			rewards: [
 				{
+					id: "27469A6FEC63596C"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
 					id: "3587B22E6A76E2E4"
 					item: {
 						count: 1
 						id: "apotheosis:gem_dust"
 					}
 					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "2E4B4C354580E27F"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "27469A6FEC63596C"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -3177,26 +3239,21 @@
 			id: "7E685EAD7FB60B45"
 			rewards: [
 				{
-					id: "23DCFA3A985FBD8C"
-					item: {
-						count: 1
-						id: "apotheosis:gem_dust"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					id: "3DA8D371CB248BF4"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 3
 					id: "5AD83E2A54391A6B"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
+					type: "item"
+				}
+				{
+					id: "23DCFA3A985FBD8C"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -3222,26 +3279,21 @@
 			id: "01D2CEAF59872C33"
 			rewards: [
 				{
-					id: "757D40A50C20E7F5"
-					item: {
-						count: 1
-						id: "apotheosis:gem_dust"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					id: "6A5575F0294838AB"
-					type: "xp"
-					xp: 25
-				}
-				{
 					count: 3
 					id: "0B5248BCED336CB0"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
+					type: "item"
+				}
+				{
+					id: "757D40A50C20E7F5"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -3261,26 +3313,21 @@
 			min_width: 250
 			rewards: [
 				{
-					id: "6B393108773827F3"
-					item: {
-						count: 1
-						id: "apotheosis:gem_dust"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					id: "5B9B421348D7EBC5"
-					type: "xp"
-					xp: 25
-				}
-				{
 					count: 3
 					id: "2A5D09FC31B7DF3A"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
+					type: "item"
+				}
+				{
+					id: "6B393108773827F3"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -3300,22 +3347,15 @@
 				id: "apotheosis:reforging_table"
 			}
 			id: "59CBFA5583139A3B"
-			rewards: [
-				{
-					id: "47E987C4E0C0B907"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 5
+				id: "57199AAFCD043B34"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "57199AAFCD043B34"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -3340,22 +3380,15 @@
 			}
 			id: "7E88C7654F281E43"
 			min_width: 300
-			rewards: [
-				{
-					id: "2A056D9591721911"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				count: 5
+				id: "33EA39215D9D888F"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "33EA39215D9D888F"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -3378,22 +3411,15 @@
 			hide_dependency_lines: true
 			id: "4BCA8A5C3F80D375"
 			optional: true
-			rewards: [
-				{
-					id: "4B6684711A766A65"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				count: 3
+				id: "2DF3C002E3B499F2"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 3
-					id: "2DF3C002E3B499F2"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "010A9BB03F089B5B"
@@ -3410,26 +3436,21 @@
 			optional: true
 			rewards: [
 				{
-					id: "574DF1AD7730E482"
-					item: {
-						count: 1
-						id: "apotheosis:gem_dust"
-					}
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "30C3F56CEB920570"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 3
 					id: "2201D86C77CBE02A"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
+					type: "item"
+				}
+				{
+					id: "574DF1AD7730E482"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					random_bonus: 2
 					type: "item"
 				}
 			]
@@ -3449,26 +3470,21 @@
 			optional: true
 			rewards: [
 				{
-					id: "01494831A74F04DD"
-					item: {
-						count: 1
-						id: "apotheosis:gem_dust"
-					}
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "4278632EDA858ED7"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 3
 					id: "16E6D50EB45DDEDE"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
+					type: "item"
+				}
+				{
+					id: "01494831A74F04DD"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					random_bonus: 2
 					type: "item"
 				}
 			]
@@ -3492,21 +3508,14 @@
 			}
 			id: "464AED8311A32476"
 			min_width: 300
-			rewards: [
-				{
-					id: "6B76828831EEE6D5"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				id: "7D4F020C78A16013"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "7D4F020C78A16013"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -3520,21 +3529,14 @@
 			dependencies: ["60FDF616DEDE5E73"]
 			id: "011DBD2652E49B97"
 			min_width: 300
-			rewards: [
-				{
-					id: "7A37CB94868F6BBD"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				id: "3A9769C19047BAF0"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "3A9769C19047BAF0"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -3557,6 +3559,14 @@
 			id: "60FDF616DEDE5E73"
 			rewards: [
 				{
+					id: "1B0A0452531FEE5C"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "733CE486C388970D"
 					item: {
 						components: {
@@ -3564,19 +3574,6 @@
 						}
 						count: 1
 						id: "patchouli:guide_book"
-					}
-					type: "item"
-				}
-				{
-					id: "1DD2297C2EBA9B02"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "1B0A0452531FEE5C"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -3718,6 +3715,14 @@
 			id: "1B8BB733ADF897FE"
 			rewards: [
 				{
+					id: "573109B9B72A46C6"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "021AC786AE6665CA"
 					item: {
 						components: {
@@ -3725,14 +3730,6 @@
 						}
 						count: 1
 						id: "patchouli:guide_book"
-					}
-					type: "item"
-				}
-				{
-					id: "573109B9B72A46C6"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -4018,6 +4015,110 @@
 			]
 			x: -10.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["2722C0E2E8993658"]
+			id: "44C341DE3BCD64CC"
+			rewards: [
+				{
+					id: "5E8EEB215C112A70"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "08368C44D8CE1705"
+					team_reward: false
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "2F50803890DA38CA"
+				item: { count: 1, id: "apothic_enchanting:ender_library" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F2E83D75D192FA8"]
+			id: "7552BF792403EF44"
+			rewards: [
+				{
+					id: "1D3A1CFB73BC87B9"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "68981FEABAC66184"
+					team_reward: false
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "415D1D4FBFD9DD8B"
+				item: { count: 1, id: "apothic_enchanting:sightshelf_t2" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "apothic_enchanting:beeshelf"
+			}
+			id: "226E5BD0BEB1BA75"
+			rewards: [
+				{
+					count: 3
+					id: "6E3CAE0DF98FD40B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0250F7F59C327C79"
+					team_reward: false
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3E8E7FE8C6F7BA34"
+					item: { count: 1, id: "apothic_enchanting:beeshelf" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "162A08E108ED05DE"
+					item: { count: 1, id: "apothic_enchanting:melonshelf" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3DBE154DB4FD0ABE"
+					item: { count: 1, id: "apothic_enchanting:stoneshelf" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
 		}
 	]
 }

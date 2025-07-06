@@ -233,6 +233,7 @@
 				}
 				{
 					id: "3E10E94296C69EB8"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 100
 				}
@@ -263,6 +264,7 @@
 				}
 				{
 					id: "39C73DA114FF56D3"
+					team_reward: false
 					type: "xp"
 					xp: 1000
 				}
@@ -355,6 +357,7 @@
 				}
 				{
 					id: "1F0540935F3C61DF"
+					team_reward: false
 					type: "xp"
 					xp: 250
 				}
@@ -385,6 +388,7 @@
 				}
 				{
 					id: "718A9A14EA064599"
+					team_reward: false
 					type: "xp"
 					xp: 150
 				}
@@ -403,22 +407,15 @@
 			dependencies: ["54EA7CEFB131A995"]
 			icon_scale: 1.5d
 			id: "27E867855AC60BF0"
-			rewards: [
-				{
-					count: 2
-					id: "61E2AF64E4DD98FF"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "61E2AF64E4DD98FF"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "1BF4CE3765D8E425"
-					type: "xp"
-					xp: 100
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -437,21 +434,14 @@
 			icon_scale: 1.5d
 			id: "54EA7CEFB131A995"
 			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "2436B7AAD9A29A5C"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "2436B7AAD9A29A5C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "266EAB114A226826"
-					type: "xp"
-					xp: 50
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -1899,6 +1889,7 @@
 			optional: true
 			rewards: [{
 				id: "1CC78974CEDF086B"
+				team_reward: false
 				type: "xp"
 				xp: 50
 			}]

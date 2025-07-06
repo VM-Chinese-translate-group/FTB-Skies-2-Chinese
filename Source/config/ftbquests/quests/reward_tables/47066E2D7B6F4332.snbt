@@ -13,6 +13,7 @@
 			monster: 0
 			passive: 0
 		}
+		item_name: "Spirit Bundle"
 		string_id: "spirit_bundle"
 	}
 	loot_size: 1
@@ -83,4 +84,5 @@
 			}
 		}
 	]
+	use_title: true
 }

@@ -91,7 +91,7 @@
 			y: -2.0d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [
 		{
 			id: "41205D7519567E72"
@@ -141,18 +141,18 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "4A201DC82D5E095B"
-					table_id: 9029519111662458436L
-					type: "loot"
-				}
-				{
 					id: "71199E855CB820FE"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A201DC82D5E095B"
+					table_id: 9029519111662458436L
+					type: "loot"
 				}
 			]
 			shape: "square"
@@ -218,6 +218,14 @@
 			id: "43332C74EA1B94AB"
 			rewards: [
 				{
+					id: "577F532F44624765"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "4C6FB27591D2A59F"
 					item: {
 						components: {
@@ -228,14 +236,6 @@
 						}
 						count: 1
 						id: "minecraft:painting"
-					}
-					type: "item"
-				}
-				{
-					id: "577F532F44624765"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -317,19 +317,19 @@
 			id: "2EA531C50FE17444"
 			rewards: [
 				{
+					id: "07BB12FCBBB16765"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 2
 					id: "79203403B5E861A4"
 					item: {
 						count: 1
 						id: "ars_additions:lost_codex_entry"
-					}
-					type: "item"
-				}
-				{
-					id: "07BB12FCBBB16765"
-					item: {
-						count: 1
-						id: "magic_coins:crystal_coin"
 					}
 					type: "item"
 				}
@@ -392,19 +392,19 @@
 			id: "5455CF5D3C37ECA9"
 			rewards: [
 				{
-					id: "7669B5E8EFA5F56E"
-					item: {
-						count: 1
-						id: "minecraft:raw_gold_block"
-					}
-					type: "item"
-				}
-				{
 					count: 3
 					id: "162AEEF3F8C65370"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7669B5E8EFA5F56E"
+					item: {
+						count: 1
+						id: "minecraft:raw_gold_block"
 					}
 					type: "item"
 				}
@@ -529,19 +529,19 @@
 			id: "45C187DEF7B60C05"
 			rewards: [
 				{
+					id: "44398FCF71CD0363"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 32
 					id: "435A5B6523C12DE7"
 					item: {
 						count: 1
 						id: "ae2:sky_stone_block"
-					}
-					type: "item"
-				}
-				{
-					id: "44398FCF71CD0363"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -634,19 +634,19 @@
 			id: "12498DE8D427D40E"
 			rewards: [
 				{
+					id: "0DF33C4BCFCFA7C1"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 8
 					id: "5311D641691B566E"
 					item: {
 						count: 1
 						id: "minecraft:nether_wart"
-					}
-					type: "item"
-				}
-				{
-					id: "0DF33C4BCFCFA7C1"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}

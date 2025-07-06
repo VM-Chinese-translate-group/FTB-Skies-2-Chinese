@@ -479,19 +479,19 @@
 			optional: true
 			rewards: [
 				{
-					id: "26DBB99597803A09"
-					item: {
-						count: 1
-						id: "roots:beetle_spawn_egg"
-					}
-					type: "item"
-				}
-				{
 					count: 2
 					id: "4C27F1490095F79B"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "26DBB99597803A09"
+					item: {
+						count: 1
+						id: "roots:beetle_spawn_egg"
 					}
 					type: "item"
 				}

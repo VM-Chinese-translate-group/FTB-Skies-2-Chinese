@@ -230,7 +230,7 @@
 			tasks: [
 				{
 					id: "07CD5267730566F9"
-					item: { components: { "ftbfiltersystem:filter": "or(item(oritech:plastic_sheet)item(pneumaticcraft:plastic))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { count: 1, id: "industrialforegoing:plastic" }
 					type: "item"
 				}
 				{
@@ -895,6 +895,14 @@
 			id: "3FB51F0568B0896C"
 			rewards: [
 				{
+					id: "17FD99085982C58E"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "5FB4C44A3C809742"
 					item: {
 						components: {
@@ -902,14 +910,6 @@
 						}
 						count: 1
 						id: "pneumaticcraft:pneumatic_wrench"
-					}
-					type: "item"
-				}
-				{
-					id: "17FD99085982C58E"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
