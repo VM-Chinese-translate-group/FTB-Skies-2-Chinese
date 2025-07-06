@@ -1922,11 +1922,6 @@
 					id: "6BB9FD515DFD8FF1"
 					rewards: [
 						{
-							id: "2E62ACDB54CBA418"
-							type: "xp"
-							xp: 5
-						}
-						{
 							id: "2131A48E8A82A165"
 							item: {
 								count: 1
@@ -2418,6 +2413,7 @@
 						id: "ae2:large_quartz_bud"
 					}
 					id: "09B3528CF3C615C6"
+					min_width: 350
 					rewards: [
 						{
 							count: 3
@@ -2463,10 +2459,6 @@
 					y: -5.0d
 				}
 				{
-					dependencies: [
-						"1069575C4B5BCE39"
-						"37104662F0BDDE66"
-					]
 					dependency_requirement: "one_started"
 					icon: {
 						id: "ae2:sky_stone_block"

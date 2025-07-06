@@ -3378,7 +3378,7 @@
 							id: "658096EE60703879"
 							item: {
 								count: 1
-								id: "modern_industrialization:stainless_steel_hot_ingot"
+								id: "ftbmaterials:stainless_steel_ingot"
 							}
 							random_bonus: 4
 							type: "item"
@@ -3391,7 +3391,7 @@
 							id: "4D2DA730DFB3CD10"
 							item: {
 								count: 1
-								id: "modern_industrialization:stainless_steel_ingot"
+								id: "ftbmaterials:stainless_steel_ingot"
 							}
 							type: "item"
 						}
@@ -8051,7 +8051,7 @@
 				{
 					dependencies: ["7FA34CEB41A4D9F5"]
 					icon: {
-						id: "modern_industrialization:coke"
+						id: "ftbmaterials:coal_coke_gem"
 					}
 					id: "5B7CC380E28893C1"
 					rewards: [
@@ -8082,6 +8082,7 @@
 								count: 1
 								id: "ftbmaterials:coal_coke_gem"
 							}
+							optional_task: true
 							type: "item"
 						}
 						{
@@ -8090,6 +8091,7 @@
 								count: 1
 								id: "ftbmaterials:coal_coke_dust"
 							}
+							optional_task: true
 							type: "item"
 						}
 					]

@@ -36,7 +36,7 @@
     "item.pipe_connector.gui.button.defaultPathfinding":"曼哈顿寻路算法",
     "item.pipe_connector.gui.button.stepPath":"步骤路径",
     "item.pipe_connector.gui.tooltip.stepPath":"选定第一个位置后，路径将根据所选深度沿着你的行进方向生成。",
-    "item.pipe_connector.gui.tooltip.comingSoon":"即将推出TM...",
+    "item.pipe_connector.gui.tooltip.comingSoon":"即将推出TM……",
     "item.pipe_connector.gui.button.infoSign":"？",
     "item.pipe_connector.gui.label.utilizeExistingPipes":"使用已铺设的管道",
     "item.pipe_connector.gui.label.preventBlockWithInventoryDestruction":"箱子守护",
