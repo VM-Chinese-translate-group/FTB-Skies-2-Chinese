@@ -705,12 +705,6 @@
 			id: "68A9B5BD25E86D75"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "6D347F6E010B624F"
-					table_id: 8417916111800609440L
-					type: "loot"
-				}
-				{
 					count: 3
 					id: "2925A72CEBA4D994"
 					item: {
@@ -718,6 +712,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D347F6E010B624F"
+					table_id: 8417916111800609440L
+					type: "loot"
 				}
 			]
 			shape: "none"
@@ -4091,6 +4091,15 @@
 			id: "1F94DD493FE20C0B"
 			rewards: [
 				{
+					count: 2
+					id: "0428435678EF5600"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "59E624004441C58F"
 					item: {
 						count: 1
@@ -4099,11 +4108,13 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "0428435678EF5600"
+					id: "72C03000C551818E"
 					item: {
+						components: {
+							"patchouli:book": "bonsaitrees4:book_of_trees"
+						}
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "patchouli:guide_book"
 					}
 					type: "item"
 				}
@@ -4139,7 +4150,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(geore:iron_shard)item(geore:gold_shard)item(geore:copper_shard)item(geore:coal_shard)item(geore:redstone_shard)item(geore:lapis_shard)item(geore:nickel_shard)item(geore:tin_shard)item(geore:lead_shard))", "minecraft:custom_name": "\"Basic Geores\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -5.0d
 		}
 		{
@@ -4208,7 +4219,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 1.0d
 			y: -5.0d
 		}
 	]

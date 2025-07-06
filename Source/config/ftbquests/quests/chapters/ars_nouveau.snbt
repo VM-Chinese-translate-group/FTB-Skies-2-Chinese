@@ -2223,6 +2223,14 @@
 			min_width: 250
 			rewards: [
 				{
+					id: "318C88BF03404BDF"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
 					feedback_message: "Magic Skills Levelled Up"
 					icon: {
@@ -2236,14 +2244,6 @@
 					silent: true
 					team_reward: false
 					type: "command"
-				}
-				{
-					id: "318C88BF03404BDF"
-					item: {
-						count: 1
-						id: "magic_coins:crystal_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "diamond"

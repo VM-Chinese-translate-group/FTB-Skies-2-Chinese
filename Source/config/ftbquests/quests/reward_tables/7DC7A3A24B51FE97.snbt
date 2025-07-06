@@ -1,0 +1,91 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:textures/mob_effect/haste.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "7DC7A3A24B51FE97"
+	loot_size: 1
+	order_index: 66
+	rewards: [
+		{
+			command: "/puffish_skills points add @s puffish_skills:melee 1"
+			feedback_message: "Melee Skill Levelled Up!"
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/strength.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5E05D7FD0861A13B"
+			type: "command"
+		}
+		{
+			command: "/puffish_skills points add @s puffish_skills:defense 1"
+			feedback_message: "Defense Skill Levelled Up!"
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/resistance.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "67E5000402E634D7"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/puffish_skills points add @s puffish_skills:ranged 1"
+			feedback_message: "Ranged Skill Levelled Up!"
+			icon: {
+				components: {
+					"ftbquests:icon": "relics:textures/gui/description/icons/arrow_quiver/arrow.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "11D5E72A2A8AD707"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/puffish_skills points add @s puffish_skills:athletics 1"
+			feedback_message: "Athletics Skill Levelled Up!"
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/speed.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "366EEEAE0290B879"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/puffish_skills points add @s puffish_skills:magic 1"
+			feedback_message: "Magic Skill Levelled Up!"
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5CF1FF581D9CE7C1"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/puffish_skills points add @s puffish_skills:mining 1"
+			feedback_message: "Mining Skill Levelled Up!"
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/haste.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "36978A333E01A6DA"
+			permission_level: 2
+			type: "command"
+		}
+	]
+	use_title: true
+}

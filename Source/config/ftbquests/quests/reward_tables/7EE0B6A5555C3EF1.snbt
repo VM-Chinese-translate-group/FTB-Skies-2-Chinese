@@ -23,6 +23,14 @@
 				id: "create:stock_link"
 			}
 		}
+		{
+			count: 2
+			id: "205FFF8A194D9F74"
+			item: {
+				count: 1
+				id: "create:redstone_link"
+			}
+		}
 	]
 	use_title: true
 }

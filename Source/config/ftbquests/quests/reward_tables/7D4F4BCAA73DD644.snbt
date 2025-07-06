@@ -406,62 +406,6 @@
 			weight: 25.0f
 		}
 		{
-			command: "/puffish_skills points add @p puffish_skills:athletics 1"
-			feedback_message: "+1 Athletics Skill"
-			icon: {
-				components: {
-					"ftbquests:icon": "minecraft:textures/mob_effect/speed.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "323E61FF63FC8444"
-			permission_level: 2
-			type: "command"
-			weight: 50.0f
-		}
-		{
-			command: "/puffish_skills points add @p puffish_skills:melee 1"
-			feedback_message: "+1 Melee Skill"
-			icon: {
-				components: {
-					"ftbquests:icon": "minecraft:item/empty_slot_sword"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "0A34DF8EF9677B5E"
-			permission_level: 2
-			silent: true
-			type: "command"
-			weight: 50.0f
-		}
-		{
-			command: "/puffish_skills points add @p puffish_skills:defense 1"
-			feedback_message: "+1 Defense Skill"
-			icon: {
-				components: {
-					"ftbquests:icon": "fargostalismans:item/hero_shield"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "4E967B03055DAA63"
-			permission_level: 2
-			silent: true
-			type: "command"
-			weight: 50.0f
-		}
-		{
-			command: "/puffish_skills points add @p puffish_skills:ranged 1"
-			feedback_message: "+1 Ranged Skill"
-			icon: {
-				id: "minecraft:bow"
-			}
-			id: "2E749066F6317CAA"
-			permission_level: 2
-			silent: true
-			type: "command"
-			weight: 50.0f
-		}
-		{
 			id: "1836EF854A2DE2EB"
 			item: {
 				count: 1

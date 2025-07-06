@@ -1240,9 +1240,13 @@
 			id: "7B579D0762DB9F33"
 			rewards: [
 				{
-					id: "4C777D8A5FBEB769"
-					type: "xp"
-					xp: 5
+					count: 3
+					id: "47FF7377C340369C"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					count: 4
@@ -1250,15 +1254,6 @@
 					item: {
 						count: 1
 						id: "minecraft:coal"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "47FF7377C340369C"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1861,6 +1856,9 @@
 		{
 			dependencies: ["7C0EFB4A52F2EC61"]
 			hide_dependency_lines: true
+			icon: {
+				id: "powah:thermo_generator_nitro"
+			}
 			id: "5B512AED08EC1899"
 			rewards: [
 				{

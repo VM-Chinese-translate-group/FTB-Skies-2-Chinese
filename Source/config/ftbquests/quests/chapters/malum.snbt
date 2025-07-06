@@ -644,20 +644,20 @@
 			id: "1C0024A48898FB90"
 			rewards: [
 				{
-					count: 8
-					id: "7B6B262BB9D70459"
-					item: {
-						count: 1
-						id: "malum:alchemical_calx"
-					}
-					type: "item"
-				}
-				{
 					count: 2
 					id: "5F4F1F1EB541A5D5"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7B6B262BB9D70459"
+					item: {
+						count: 1
+						id: "malum:alchemical_calx"
 					}
 					type: "item"
 				}
