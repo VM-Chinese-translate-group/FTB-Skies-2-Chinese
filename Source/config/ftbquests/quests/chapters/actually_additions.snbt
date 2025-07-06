@@ -158,21 +158,14 @@
 			}
 			icon_scale: 1.5d
 			id: "47547FC5591CE0D3"
-			rewards: [
-				{
-					id: "7015723D43167F70"
-					type: "xp"
-					xp: 100
+			rewards: [{
+				id: "6DFC445C134FF8B4"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "6DFC445C134FF8B4"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -204,9 +197,10 @@
 					type: "item"
 				}
 				{
-					id: "635D35CB103C8A07"
-					type: "xp_levels"
-					xp_levels: 2
+					id: "528498ACF7A35A3C"
+					team_reward: false
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -1059,9 +1053,10 @@
 					type: "item"
 				}
 				{
-					id: "61662D83A15C8B75"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "556D371CF2A4D6D7"
+					team_reward: false
+					type: "xp"
+					xp: 500
 				}
 			]
 			shape: "hexagon"
@@ -1461,11 +1456,6 @@
 					random_bonus: 3
 					type: "item"
 				}
-				{
-					id: "23A2D6192A4C0787"
-					type: "xp_levels"
-					xp_levels: 1
-				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -1500,11 +1490,6 @@
 					}
 					random_bonus: 2
 					type: "item"
-				}
-				{
-					id: "5C82080B99C4CBFD"
-					type: "xp_levels"
-					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -1543,11 +1528,6 @@
 					}
 					random_bonus: 3
 					type: "item"
-				}
-				{
-					id: "4A7E2671ECB26764"
-					type: "xp_levels"
-					xp_levels: 1
 				}
 			]
 			shape: "diamond"
@@ -1604,9 +1584,13 @@
 					type: "item"
 				}
 				{
-					id: "111B223DFF8E6132"
-					type: "xp_levels"
-					xp_levels: 2
+					id: "29120F056E16ADDD"
+					item: {
+						count: 1
+						id: "actuallyadditions:empowered_emeradic_crystal"
+					}
+					random_bonus: 3
+					type: "item"
 				}
 			]
 			shape: "diamond"

@@ -1,0 +1,229 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "curios:textures/gui/curios/button_highlighted.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "1B90BDE1AD083BBA"
+	loot_size: 1
+	order_index: 67
+	rewards: [
+		{
+			command: "/curios add an_focus @s 1"
+			feedback_message: "Added Ars Nouveau Focus Curio Slot"
+			icon: {
+				id: "ars_elemental:debug"
+			}
+			id: "342B8F576B06EEFF"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/curios add head @s 1"
+			feedback_message: "Added Head Curio Slot"
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "4D69DB0EB94D6166"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/curios add back @s 1"
+			feedback_message: "Added Back Curio Slot"
+			icon: {
+				components: {
+					"sophisticatedcore:accent_color": -393218
+					"sophisticatedcore:main_color": -393218
+				}
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "204C094BCB3A0668"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/curios add bracelet @s 1"
+			icon: {
+				id: "silentgear:bracelet"
+			}
+			id: "20C7FA090634760B"
+			type: "command"
+		}
+		{
+			command: "/curios add hands @s 1"
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								phlebotomy: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										attack_speed: {
+											initialValue: 0.00852d
+										}
+										heal: {
+											initialValue: 1.5E-4d
+										}
+										movement_speed: {
+											initialValue: 0.01613d
+										}
+									}
+								}
+								rage: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										dealt_damage: {
+											initialValue: 0.07261d
+										}
+										duration: {
+											initialValue: 3.74902d
+										}
+										incoming_damage: {
+											initialValue: 0.04324d
+										}
+									}
+								}
+								spurt: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										cooldown: {
+											initialValue: 17.94927d
+										}
+										damage: {
+											initialValue: 0.14351d
+										}
+										distance: {
+											initialValue: 5.79689d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
+				id: "relics:rage_glove"
+			}
+			id: "4B4E6E0741A62FB9"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/curios add ring @s 1"
+			icon: {
+				id: "irons_spellbooks:emerald_stoneplate_ring"
+			}
+			id: "1FA0D520E337EE54"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/curios add belt @s 1"
+			icon: {
+				id: "toolbelt:belt"
+			}
+			id: "28110E1A8FB59355"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/curios add feet @s 1"
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								bridge: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 1b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: {
+											0: [I;
+												3
+												1
+												2
+											]
+											3: [I;4]
+											5: [I;
+												4
+												3
+											]
+										}
+										researched: 1b
+									}
+									stats: {
+										duration: {
+											initialValue: 0.82804d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
+				id: "relics:phantom_boot"
+			}
+			id: "57F58718AA395BAF"
+			permission_level: 2
+			type: "command"
+		}
+	]
+	use_title: true
+}

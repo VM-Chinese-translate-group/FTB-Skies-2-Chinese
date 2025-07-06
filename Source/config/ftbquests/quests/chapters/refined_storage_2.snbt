@@ -151,7 +151,7 @@
 			image: "ftb:textures/quests/titles_and_logos/refined_storage_logo.png"
 			rotation: 0.0d
 			width: 8.0d
-			x: 2.5d
+			x: 0.5d
 			y: -6.5d
 		}
 		{
@@ -376,7 +376,7 @@
 			order: -2
 			rotation: 0.0d
 			width: 8.75d
-			x: 2.5d
+			x: 0.5d
 			y: -6.5d
 		}
 		{
@@ -397,6 +397,7 @@
 	}]
 	quests: [
 		{
+			dependencies: ["3B33C4D5A2D400D4"]
 			icon: {
 				id: "refinedstorage:machine_casing"
 			}
@@ -461,12 +462,6 @@
 					table_id: 2174502260259284846L
 					type: "loot"
 				}
-				{
-					id: "4CBDBEC0D91A99F9"
-					team_reward: false
-					type: "xp"
-					xp: 25
-				}
 			]
 			shape: "hexagon"
 			size: 1.25d
@@ -483,17 +478,6 @@
 			id: "71F17C85D540C559"
 			rewards: [
 				{
-					id: "1D84CB4D680B67B9"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "25573443750721EB"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 3
 					id: "70E0BEA99CECE5BC"
 					item: {
@@ -501,6 +485,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25573443750721EB"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -519,17 +509,6 @@
 			id: "0D864FD6A668D8C6"
 			rewards: [
 				{
-					id: "21355AC653557D94"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1309488E2D7C589A"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 3
 					id: "3A36149FF8792742"
 					item: {
@@ -538,17 +517,25 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "1309488E2D7C589A"
+					table_id: 2174502260259284846L
+					type: "loot"
+				}
 			]
 			shape: "diamond"
 			tasks: [
 				{
 					id: "6FC669F1EEC65421"
 					item: { count: 1, id: "refinedstorage:exporter" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3D22C65DCF3BF778"
 					item: { count: 1, id: "refinedstorage:importer" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -567,9 +554,12 @@
 			optional: true
 			rewards: [
 				{
-					id: "3F9FE33E6B01940C"
-					type: "xp"
-					xp: 25
+					id: "0277A9ABC2050A05"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -596,17 +586,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "298528D3CC80FA07"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "430018F51E3F2FE0"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 3
 					id: "594801682520081F"
 					item: {
@@ -614,6 +593,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "430018F51E3F2FE0"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -632,23 +617,18 @@
 			id: "612340743D7C7536"
 			rewards: [
 				{
-					id: "164DC952945BB7C2"
-					type: "xp"
-					xp: 75
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5B5C3FF1C8722125"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "1F555566E52A6399"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B5C3FF1C8722125"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "rsquare"
@@ -669,17 +649,6 @@
 			min_width: 350
 			rewards: [
 				{
-					id: "5F10BE3F6D8BBB29"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6D8F165F99887EB3"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 3
 					id: "2FADC0D1AF6FC053"
 					item: {
@@ -687,6 +656,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D8F165F99887EB3"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -714,23 +689,18 @@
 			id: "52C305EDBE2CCC55"
 			rewards: [
 				{
-					id: "16D9C93306667EBB"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "09A66A7B37B207D9"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "519F95E1EF5CCAC5"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09A66A7B37B207D9"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -758,23 +728,18 @@
 			id: "35E8F57E93106BFE"
 			rewards: [
 				{
-					id: "22BC40E2D69860A2"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4687DD5B4386BA06"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "56AB224260283220"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4687DD5B4386BA06"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -801,23 +766,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "0C64F0AC965CDB11"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "79733FA87AC74535"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "0485F5BEF515C51A"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79733FA87AC74535"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -850,17 +810,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "668B5E87B6FD0093"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "342C8110F31CB465"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 3
 					id: "19520E49C7E7A6CA"
 					item: {
@@ -868,6 +817,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "342C8110F31CB465"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -896,17 +851,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "240C90E2D6A0463B"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0DC2ADD052E88E0D"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 3
 					id: "64F2C5B0E6AFCFB5"
 					item: {
@@ -914,6 +858,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DC2ADD052E88E0D"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -945,17 +895,6 @@
 			id: "3F5480E01ABA887B"
 			rewards: [
 				{
-					id: "4FC1F1DB4196FC15"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "37D84F0DC5C91699"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 3
 					id: "60892087262B4917"
 					item: {
@@ -963,6 +902,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37D84F0DC5C91699"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -979,23 +924,18 @@
 			id: "5CDE33FC6A041416"
 			rewards: [
 				{
-					id: "6B6714AC6F0C0C55"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3C752796BFEF95F4"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "3BB8C9E23E248172"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C752796BFEF95F4"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1012,23 +952,18 @@
 			id: "33EDFB2DC1BEA7F0"
 			rewards: [
 				{
-					id: "0FCA1B914766A225"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "08AFB403D0BEB9CF"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "226222F3D5E2AA2B"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08AFB403D0BEB9CF"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1045,17 +980,6 @@
 			id: "5CC2FE30CF016754"
 			rewards: [
 				{
-					id: "77C7EB04ED4F9BE4"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "32A104C46756DBFE"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 5
 					id: "26191D8A316DE399"
 					item: {
@@ -1063,6 +987,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32A104C46756DBFE"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1079,17 +1009,6 @@
 			id: "7F27B48C280FA27F"
 			rewards: [
 				{
-					id: "41A805BF1542F7B7"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "12E2D4CB38A61149"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 8
 					id: "2804082BEDA1A2EE"
 					item: {
@@ -1097,6 +1016,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12E2D4CB38A61149"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1113,23 +1038,18 @@
 			id: "15F9D5C1BDCF2D80"
 			rewards: [
 				{
-					id: "120A99A2F914E043"
-					type: "xp"
-					xp: 75
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6316295EE253BD8D"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "2A703FFF7D7F4064"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6316295EE253BD8D"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1146,17 +1066,6 @@
 			id: "7AAE6DAFE0092A95"
 			rewards: [
 				{
-					id: "54CAA34098626225"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4409AC32E5958DE1"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 2
 					id: "04AC5FD8B1600BE6"
 					item: {
@@ -1164,6 +1073,12 @@
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4409AC32E5958DE1"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1181,17 +1096,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "0C940C45D1B916CF"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "69134AD322220803"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 5
 					id: "7EF6D445DC58D768"
 					item: {
@@ -1199,6 +1103,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69134AD322220803"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1216,17 +1126,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "054397AFA8F93916"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "15CC433BAED4600B"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 8
 					id: "5976C4A6D99D78D6"
 					item: {
@@ -1234,6 +1133,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15CC433BAED4600B"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1251,23 +1156,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "4B10A3D248457F2B"
-					type: "xp"
-					xp: 75
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7649A22282E92629"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "429933582817C1B5"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7649A22282E92629"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1285,17 +1185,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "4DBD5C359D1FF25E"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "57CC5C5769510516"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 2
 					id: "02AD794994D6BA2E"
 					item: {
@@ -1303,6 +1192,12 @@
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57CC5C5769510516"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1320,17 +1215,6 @@
 			id: "27D28CC22BB5C665"
 			rewards: [
 				{
-					id: "5875F8BAB08ACA9C"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "70D6DB499F7A64E6"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 3
 					id: "6EB7B466F7D7BDFC"
 					item: {
@@ -1338,6 +1222,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70D6DB499F7A64E6"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1357,17 +1247,6 @@
 			id: "31FD89FA8B730048"
 			rewards: [
 				{
-					id: "4727311EE6B6FB9B"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "568CDF4D54E7721F"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 5
 					id: "541C0D1CA65AC82A"
 					item: {
@@ -1375,6 +1254,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "568CDF4D54E7721F"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1390,8 +1275,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -3.0d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["27D28CC22BB5C665"]
@@ -1402,17 +1287,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "1EC132F494FE0D8B"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "75CA635E1B2680DF"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 5
 					id: "7B0A3020435AAD4F"
 					item: {
@@ -1420,6 +1294,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75CA635E1B2680DF"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1447,17 +1327,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "239925A8CF0E39C8"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "55D6A6FFD8F57DAF"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 5
 					id: "2739DCB167051E46"
 					item: {
@@ -1465,6 +1334,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55D6A6FFD8F57DAF"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1481,17 +1356,6 @@
 			id: "50EFBD8BDE0C88AF"
 			rewards: [
 				{
-					id: "6322912D1E255798"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "005F92EABD8E970A"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 5
 					id: "3FFE2B7B6C8B85AA"
 					item: {
@@ -1500,6 +1364,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "005F92EABD8E970A"
+					table_id: 2174502260259284846L
+					type: "loot"
+				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -1507,24 +1377,13 @@
 				item: { count: 1, id: "refinedstorage:range_upgrade" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.5d
+			x: 5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["27D28CC22BB5C665"]
 			id: "4F72252AD2DCAECC"
 			rewards: [
-				{
-					id: "7EFBA56C82939A7E"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "028CC01BD4DFF3F2"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
 				{
 					count: 5
 					id: "004826C01AC70E6D"
@@ -1533,6 +1392,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "028CC01BD4DFF3F2"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1550,24 +1415,19 @@
 			optional: true
 			rewards: [
 				{
-					id: "57785A43444E111F"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "76ABFBA7ED45993D"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
-					count: 5
+					count: 3
 					id: "313853DDC8B81CBF"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76ABFBA7ED45993D"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1585,23 +1445,19 @@
 			optional: true
 			rewards: [
 				{
-					id: "625BFCDEDCFE77D3"
-					type: "xp"
-					xp: 50
+					count: 5
+					id: "1F075EB653B690FF"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "0A7A04B08D598668"
 					table_id: 2174502260259284846L
 					type: "loot"
-				}
-				{
-					id: "1F075EB653B690FF"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "diamond"
@@ -1619,9 +1475,12 @@
 			optional: true
 			rewards: [
 				{
-					id: "2C66E9A3E7A03D16"
-					type: "xp"
-					xp: 75
+					id: "6B6EB212E6AD993D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -1645,17 +1504,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "60FBEB70180501CF"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7E68F60E8F2009A6"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 2
 					id: "18AF0087EE2BBA0F"
 					item: {
@@ -1663,6 +1511,12 @@
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E68F60E8F2009A6"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1681,23 +1535,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "7148B32C95F2EDC7"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0C7D633DF61E88F8"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "4C21EE29D1FB4E56"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C7D633DF61E88F8"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1718,23 +1567,18 @@
 			id: "5E1FD04538F89292"
 			rewards: [
 				{
-					id: "5F305BF34FF346EC"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1592ACC04E9FC776"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "3C4390B61D887212"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1592ACC04E9FC776"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -1765,23 +1609,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "32BF4300156DFC4F"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "381A2D7B837DB1A0"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "47E2410FAB506743"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "381A2D7B837DB1A0"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1801,23 +1640,18 @@
 			id: "03BEFC2150D09E7A"
 			rewards: [
 				{
-					id: "6A18C7C81A8C19A4"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "33305DDF0955E3AD"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "3EA11E240CE42AFC"
 					item: {
 						count: 1
 						id: "magic_coins:crystal_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33305DDF0955E3AD"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "rsquare"
@@ -1850,17 +1684,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "1DFEC2B02D92562C"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "51115F51AE36F54B"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 5
 					id: "7A0B5131E21395C2"
 					item: {
@@ -1868,6 +1691,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51115F51AE36F54B"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1885,23 +1714,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "4F2827A0A20D5E72"
-					type: "xp"
-					xp: 200
-				}
-				{
-					exclude_from_claim_all: true
-					id: "43A44E9EF2462F46"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "2744F4157AD39338"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43A44E9EF2462F46"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1919,17 +1743,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "23CFF97F54AA01B5"
-					type: "xp"
-					xp: 500
-				}
-				{
-					exclude_from_claim_all: true
-					id: "53B5F638A86B7DCE"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 2
 					id: "1DA0E84698D71FFA"
 					item: {
@@ -1937,6 +1750,12 @@
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53B5F638A86B7DCE"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -1955,9 +1774,12 @@
 			optional: true
 			rewards: [
 				{
-					id: "5C15860A5BB14F86"
-					type: "xp"
-					xp: 1000
+					id: "4348CF6198C1144E"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -1970,14 +1792,6 @@
 					id: "47B28A8D65F8F03A"
 					table_id: 2174502260259284846L
 					type: "loot"
-				}
-				{
-					id: "4348CF6198C1144E"
-					item: {
-						count: 1
-						id: "magic_coins:crystal_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -1996,23 +1810,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "27558CFC85F0DDF3"
-					type: "xp"
-					xp: 150
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2BD8EEE799B690DD"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "622F721456163740"
 					item: {
 						count: 1
 						id: "magic_coins:crystal_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BD8EEE799B690DD"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -2030,15 +1839,16 @@
 			optional: true
 			rewards: [
 				{
-					id: "150C3F63255758F7"
-					type: "xp"
-					xp: 200
-				}
-				{
 					exclude_from_claim_all: true
 					id: "52149A820DD69142"
 					table_id: 2174502260259284846L
 					type: "loot"
+				}
+				{
+					id: "40DAAEA98D4AFBB4"
+					team_reward: false
+					type: "xp"
+					xp: 250
 				}
 			]
 			shape: "diamond"
@@ -2056,15 +1866,16 @@
 			optional: true
 			rewards: [
 				{
-					id: "0839A9D00AFB79A0"
-					type: "xp"
-					xp: 500
-				}
-				{
 					exclude_from_claim_all: true
 					id: "476D8F2CC91EBA3C"
 					table_id: 2174502260259284846L
 					type: "loot"
+				}
+				{
+					id: "0839A9D00AFB79A0"
+					team_reward: false
+					type: "xp"
+					xp: 500
 				}
 			]
 			shape: "diamond"
@@ -2083,6 +1894,7 @@
 			rewards: [
 				{
 					id: "71782057CFDEF138"
+					team_reward: false
 					type: "xp"
 					xp: 1000
 				}
@@ -2108,23 +1920,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "1539576C30FC17B5"
-					type: "xp"
-					xp: 150
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2BC81238E0A72033"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "131075E9A9FE545C"
 					item: {
 						count: 1
 						id: "magic_coins:crystal_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BC81238E0A72033"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -2142,15 +1949,16 @@
 			optional: true
 			rewards: [
 				{
-					id: "7CC959F2D03A6CA9"
-					type: "xp"
-					xp: 200
-				}
-				{
 					exclude_from_claim_all: true
 					id: "076AC80412C510DA"
 					table_id: 2174502260259284846L
 					type: "loot"
+				}
+				{
+					id: "1E207AC61FABF933"
+					team_reward: false
+					type: "xp"
+					xp: 250
 				}
 			]
 			shape: "diamond"
@@ -2168,15 +1976,16 @@
 			optional: true
 			rewards: [
 				{
-					id: "7A5FDD2556F18762"
-					type: "xp"
-					xp: 500
-				}
-				{
 					exclude_from_claim_all: true
 					id: "3621489D9310F5E5"
 					table_id: 2174502260259284846L
 					type: "loot"
+				}
+				{
+					id: "7A5FDD2556F18762"
+					team_reward: false
+					type: "xp"
+					xp: 500
 				}
 			]
 			shape: "diamond"
@@ -2194,15 +2003,16 @@
 			optional: true
 			rewards: [
 				{
-					id: "49BF7E8F284CBF3D"
-					type: "xp"
-					xp: 1000
-				}
-				{
 					exclude_from_claim_all: true
 					id: "7583618753F813A3"
 					table_id: 2174502260259284846L
 					type: "loot"
+				}
+				{
+					id: "49BF7E8F284CBF3D"
+					team_reward: false
+					type: "xp"
+					xp: 1000
 				}
 			]
 			shape: "diamond"
@@ -2223,17 +2033,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "15884C0C8B5BF3B3"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "49E4DF9D3BC373F0"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					count: 5
 					id: "2AB9FE7E5C33EC43"
 					item: {
@@ -2241,6 +2040,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49E4DF9D3BC373F0"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -2282,23 +2087,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "2540CFE439A3A79D"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "48CC9D930910D44F"
-					table_id: 2174502260259284846L
-					type: "loot"
-				}
-				{
 					id: "235D667DA5D036F5"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48CC9D930910D44F"
+					table_id: 2174502260259284846L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
@@ -2326,17 +2126,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "341CD81897F44444"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "49D1BA5A72A88577"
-					table_id: 2174502260259284846L
-					type: "random"
-				}
-				{
 					count: 5
 					id: "6F33AD152AF9A807"
 					item: {
@@ -2344,6 +2133,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49D1BA5A72A88577"
+					table_id: 2174502260259284846L
+					type: "random"
 				}
 			]
 			shape: "diamond"
@@ -2382,17 +2177,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "657400382CCB59E9"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1B04A3EFDCCBD871"
-					table_id: 2174502260259284846L
-					type: "random"
-				}
-				{
 					count: 3
 					id: "23294C724914AA07"
 					item: {
@@ -2400,6 +2184,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B04A3EFDCCBD871"
+					table_id: 2174502260259284846L
+					type: "random"
 				}
 			]
 			shape: "diamond"
@@ -2420,23 +2210,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "4DEF7A03C3BF0432"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "350F4978FBEB7440"
-					table_id: 2174502260259284846L
-					type: "random"
-				}
-				{
 					id: "3AF87B11184039CD"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "350F4978FBEB7440"
+					table_id: 2174502260259284846L
+					type: "random"
 				}
 			]
 			shape: "diamond"
@@ -2474,23 +2259,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "70E00DB1DB4C5625"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0D21F2662B17B99F"
-					table_id: 2174502260259284846L
-					type: "random"
-				}
-				{
 					id: "7446424817B9FB3A"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D21F2662B17B99F"
+					table_id: 2174502260259284846L
+					type: "random"
 				}
 			]
 			shape: "diamond"
@@ -2518,6 +2298,68 @@
 			]
 			x: 3.25d
 			y: -3.0d
+		}
+		{
+			dependencies: ["50EFBD8BDE0C88AF"]
+			id: "1BF77D602FFDF292"
+			rewards: [
+				{
+					count: 3
+					id: "5D187309B1B62B31"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04F4AFB2EDB093E1"
+					table_id: 2174502260259284846L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5F0752FFCB7B9A59"
+				item: { count: 1, id: "rsinfinitybooster:infinity_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BF77D602FFDF292"]
+			id: "05BB2A6101B519A0"
+			rewards: [
+				{
+					id: "0B65DF72512DEF70"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "41FD2632DE010377"
+					table_id: 2174502260259284846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70B9E70DBA216A16"
+					table_id: 2174502260259284846L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2672AB1624A82678"
+				item: { count: 1, id: "rsinfinitybooster:dimension_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
 		}
 	]
 }

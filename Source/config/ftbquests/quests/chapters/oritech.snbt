@@ -27,14 +27,14 @@
 			rotation: 45.0d
 			width: 2.0d
 			x: -6.0d
-			y: -0.5d
+			y: -3.0d
 		}
 		{
 			height: 4.0d
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 0.0d
 			width: 4.0d
-			x: -11.0d
+			x: -10.0d
 			y: -3.0d
 		}
 		{
@@ -43,7 +43,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: -6.0d
-			y: -0.5d
+			y: -3.0d
 		}
 		{
 			height: 1.5d
@@ -156,38 +156,22 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "765414790D7CA99B"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/nickel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				optional_task: true
-				type: "item"
-			}]
-			x: -6.0d
-			y: -0.5d
-		}
-		{
-			dependencies: [
-				"33E4C81B762892B2"
-				"2BD29E8328B23166"
+			tasks: [
+				{
+					id: "765414790D7CA99B"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/nickel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E4AEB1113D49AF9"
+					item: { count: 1, id: "ftbmaterials:nickel_ingot" }
+					optional_task: true
+					type: "item"
+				}
 			]
-			hide_until_deps_complete: true
-			icon: {
-				id: "ftbmaterials:platinum_deepslate_ore"
-			}
-			id: "678E839BD49FF48B"
-			optional: true
-			rewards: [{
-				id: "5DC8B697D81655EE"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7FB4D75ADDA4D50D"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 1.0d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["46AF8085E4151D9E"]
@@ -311,7 +295,7 @@
 				}
 			]
 			x: -6.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["11E086D8E2C6B642"]
@@ -518,8 +502,8 @@
 				item: { count: 1, id: "oritech:machine_extender" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -3.0d
+			x: -7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6EA5652195DB5FE3"]
@@ -849,7 +833,7 @@
 					type: "item"
 				}
 			]
-			x: -10.0d
+			x: -9.0d
 			y: -4.0d
 		}
 		{
@@ -913,7 +897,7 @@
 				item: { count: 1, id: "oritech:machine_yield_addon" }
 				type: "item"
 			}]
-			x: -10.0d
+			x: -9.0d
 			y: -2.0d
 		}
 		{
@@ -976,7 +960,7 @@
 				item: { count: 1, id: "oritech:quarry_addon" }
 				type: "item"
 			}]
-			x: -12.0d
+			x: -11.0d
 			y: -3.0d
 		}
 		{
@@ -1018,7 +1002,7 @@
 				item: { count: 1, id: "oritech:machine_hunter_addon" }
 				type: "item"
 			}]
-			x: -12.0d
+			x: -11.0d
 			y: -2.0d
 		}
 		{
@@ -1072,7 +1056,7 @@
 					type: "item"
 				}
 			]
-			x: -10.0d
+			x: -9.0d
 			y: -3.0d
 		}
 		{
@@ -1125,7 +1109,7 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
+			x: -10.0d
 			y: -2.0d
 		}
 		{
@@ -1178,7 +1162,7 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
+			x: -10.0d
 			y: -3.0d
 		}
 		{
@@ -1220,7 +1204,7 @@
 				item: { count: 1, id: "oritech:machine_inventory_proxy_addon" }
 				type: "item"
 			}]
-			x: -12.0d
+			x: -11.0d
 			y: -4.0d
 		}
 		{
@@ -1252,7 +1236,7 @@
 				item: { count: 1, id: "oritech:machine_redstone_addon" }
 				type: "item"
 			}]
-			x: -11.0d
+			x: -10.0d
 			y: -4.0d
 		}
 		{
@@ -1336,7 +1320,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["091B8E814908DEDF"]
@@ -1938,13 +1922,11 @@
 			y: -6.5d
 		}
 		{
-			dependencies: [
-				"2A1D8E6B742C603E"
-				"1277CECF9C633D8B"
-			]
+			dependencies: ["1277CECF9C633D8B"]
 			dependency_requirement: "one_completed"
 			id: "76120A38BC49FB92"
 			rewards: [{
+				auto: "enabled"
 				id: "7A4E753CE07D2D9E"
 				item: {
 					count: 1
@@ -1987,26 +1969,6 @@
 			}]
 			x: 13.0d
 			y: -5.0d
-		}
-		{
-			dependencies: ["08E4BC23ACDC52EA"]
-			id: "2A1D8E6B742C603E"
-			rewards: [{
-				id: "70E84B2D548D9C9F"
-				item: {
-					count: 1
-					id: "magic_coins:silver_coin"
-				}
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "6D74FDA3848ED056"
-				item: { count: 1, id: "pneumaticcraft:oil_bucket" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -5.5d
 		}
 		{
 			dependencies: ["49D399724FD1805B"]
@@ -2087,7 +2049,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["143E07D2565798AB"]
+			dependencies: ["33E4C81B762892B2"]
 			icon: {
 				id: "oritech:motor"
 			}
@@ -2164,7 +2126,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1277CECF9C633D8B"]
@@ -2185,7 +2147,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -9.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2ECAD5F752E445F1"]

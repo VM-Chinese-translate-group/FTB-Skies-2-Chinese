@@ -425,7 +425,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "1029F8E7C523BC66"
-				permission_level: 2
+				permission_level: 3
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -457,12 +457,12 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				count: 2L
+				count: 5L
 				id: "065DA64586AD5AA6"
 				item: { count: 1, id: "magic_coins:silver_coin" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -11.5d
 			y: 4.5d
 		}
 		{
@@ -487,7 +487,7 @@
 				item: { count: 1, id: "magic_coins:silver_coin" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: 4.5d
 		}
 		{
@@ -899,7 +899,7 @@
 				item: { count: 1, id: "magic_coins:silver_coin" }
 				type: "item"
 			}]
-			x: -11.5d
+			x: -8.5d
 			y: 4.5d
 		}
 		{
@@ -924,7 +924,7 @@
 				item: { count: 1, id: "magic_coins:silver_coin" }
 				type: "item"
 			}]
-			x: -10.5d
+			x: -9.5d
 			y: 4.5d
 		}
 		{
@@ -1496,7 +1496,6 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				count: 2L
 				id: "5CA7F6C428A95605"
 				item: { count: 1, id: "magic_coins:gold_coin" }
 				type: "item"
@@ -1850,6 +1849,7 @@
 				id: "modularrouters:speed_upgrade"
 			}
 			id: "73741B4979E89F93"
+			min_required_dependencies: 2
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6B5C1CFFBD8265D8"
@@ -1858,7 +1858,7 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				count: 6L
+				count: 8L
 				id: "3FB913948A72B7EB"
 				item: { count: 1, id: "magic_coins:silver_coin" }
 				type: "item"
@@ -1885,7 +1885,7 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				count: 2L
+				count: 10L
 				id: "76BE1B3F00020BB9"
 				item: { count: 1, id: "magic_coins:crystal_coin" }
 				type: "item"
@@ -1999,7 +1999,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "4D979D15145E5BAF"
-				permission_level: 2
+				permission_level: 3
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -2032,7 +2032,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "6E84C01F4D769E8F"
-				permission_level: 2
+				permission_level: 3
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -2113,20 +2113,12 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					count: 2L
-					id: "6597A645044632A7"
-					item: { count: 1, id: "magic_coins:crystal_coin" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "6B16450E9EAB1B35"
-					item: { count: 3, id: "magic_coins:gold_coin" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 15L
+				id: "6597A645044632A7"
+				item: { count: 1, id: "magic_coins:crystal_coin" }
+				type: "item"
+			}]
 			x: 8.5d
 			y: 12.5d
 		}
@@ -2149,7 +2141,7 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				count: 5L
+				count: 50L
 				id: "352706E15635D1A6"
 				item: { count: 1, id: "magic_coins:crystal_coin" }
 				type: "item"
@@ -2181,8 +2173,8 @@
 		}
 		{
 			dependencies: [
-				"342F1C3D3A821B2B"
 				"325567B88BAFAD0D"
+				"342F1C3D3A821B2B"
 			]
 			dependency_requirement: "all_started"
 			icon: {
@@ -2205,9 +2197,8 @@
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "662E0BD4B5C55252"
-					item: { count: 8, id: "magic_coins:silver_coin" }
+					id: "108F42F293A05CBC"
+					item: { count: 1, id: "magic_coins:gold_coin" }
 					type: "item"
 				}
 			]
@@ -2257,19 +2248,11 @@
 				type: "choice"
 			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "39FDA1621F2910BD"
-					item: { count: 1, id: "magic_coins:gold_coin" }
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "05D9C1852E1DCDEB"
-					item: { count: 5, id: "magic_coins:silver_coin" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "39FDA1621F2910BD"
+				item: { count: 1, id: "magic_coins:gold_coin" }
+				type: "item"
+			}]
 			x: 2.5d
 			y: 4.5d
 		}
@@ -2445,7 +2428,7 @@
 					id: "minecraft:turtle_egg"
 				}
 				id: "7F6BAAED74F08FE4"
-				permission_level: 2
+				permission_level: 3
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -2819,7 +2802,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "3D8D3AFE6F8E741E"
-				permission_level: 2
+				permission_level: 3
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -2846,7 +2829,7 @@
 					id: "minecraft:armadillo_scute"
 				}
 				id: "1C5F7D1F57C698CE"
-				permission_level: 2
+				permission_level: 3
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -2873,7 +2856,7 @@
 					id: "minecraft:sniffer_egg"
 				}
 				id: "5231D78F5A4E994D"
-				permission_level: 2
+				permission_level: 3
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -2932,7 +2915,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "36415A47C49ABE7C"
-				permission_level: 2
+				permission_level: 3
 				type: "command"
 			}]
 			tasks: [{
@@ -2990,7 +2973,7 @@
 						id: "ftbquests:custom_icon"
 					}
 					id: "4E2CEF4A69F4F992"
-					permission_level: 2
+					permission_level: 3
 					type: "command"
 				}
 				{
@@ -3012,6 +2995,160 @@
 			}]
 			x: 2.5d
 			y: 17.0d
+		}
+		{
+			dependencies: ["325567B88BAFAD0D"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/haste.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6890BFFFE9D4A223"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44D6F8A904A8E5CB"
+				table_id: 9063392692550106775L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 3L
+				id: "6D6DFC4E08727A0B"
+				item: { count: 1, id: "magic_coins:crystal_coin" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["325567B88BAFAD0D"]
+			icon: {
+				components: {
+					"ftbquests:icon": "curios:textures/gui/curios/button_highlighted.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4B721BE2E2B87A30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D09AA19F63F4683"
+				table_id: 1986296212638677946L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 25L
+				id: "3952A9E9BE298C93"
+				item: { count: 1, id: "magic_coins:crystal_coin" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5FBD41923B66C239"
+				"325567B88BAFAD0D"
+			]
+			icon: {
+				id: "functionalstorage:void_upgrade"
+			}
+			id: "79C2E6B94AF54292"
+			rewards: [{
+				id: "3B3304CF442CF650"
+				item: {
+					count: 1
+					id: "functionalstorage:void_upgrade"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5C66F1CDFA0FF1BF"
+				item: { count: 1, id: "magic_coins:gold_coin" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["325567B88BAFAD0D"]
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+			}
+			id: "0E201000BADC9B61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D9B4421502E50F7"
+				table_id: 3652172199816066730L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0A721B6AA0443944"
+				item: { count: 1, id: "magic_coins:gold_coin" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"41C439295D5558C2"
+				"325567B88BAFAD0D"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "malum:item/spirit_shard"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "61AA9E353AB6E76A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EC4764B5B23563B"
+				table_id: 5117899168176620338L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "3DFE8CFAF5A842F2"
+				item: { count: 8, id: "magic_coins:silver_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["325567B88BAFAD0D"]
+			icon: {
+				id: "mysticalagriculture:cognizant_dust"
+			}
+			id: "2BD672ED1CC617EA"
+			rewards: [{
+				id: "2FF139A25581BB26"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"mysticalagriculture:mystical_enlightenment": 4
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5331187A22E679A0"
+				item: { count: 1, id: "magic_coins:gold_coin" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
 		}
 	]
 }
