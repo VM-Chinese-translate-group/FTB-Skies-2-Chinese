@@ -5827,7 +5827,7 @@
 		""
 		"这种粉末可以通过在建造高度上限处放置一个朝上的&eME破坏面板&r，并将其连接到存储系统来开采。"
 	]
-	quest.3B33C4D5A2D400D4.title: "&fBut where's the &bSkystone&f?"
+	quest.3B33C4D5A2D400D4.title: "&f但是&b陨石&r在哪里呢&f？"
 	quest.3B37556B49098933.quest_desc: ["&a异界眼镜&r能为穿戴者提供&b第三只眼&r效果，从而使&9异界&r的方块可见。"]
 	quest.3B37556B49098933.title: "&a异界眼镜"
 	quest.3B3CE4B6B25CB8DB.quest_desc: ["The key point of progress. &dAttuned Stones&r are made using Whiffs of Magic and diamonds, and making this item allows progression into even more mod mechancs such as &bPoppets&r and &bCircle Magic&r."]
