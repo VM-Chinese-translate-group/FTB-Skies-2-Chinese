@@ -541,9 +541,9 @@
 		"{@pagebreak}"
 		"&d反应堆&r能以每刻1mB *（&3燃料组件&r数量）的最大速率燃烧燃料，最低可降至每刻0.01mB。"
 		""
-		"这个速率也会影响冷却剂的需求，以及&7蒸汽&r和&c核废料&r的产出。请检查配方，确保你的管道和冷却剂生产能够供应得上。"
+		"这个速率也会影响冷却剂的需求，以及&7蒸汽&r和&c核废料&r的产出。请检查配方，确保你的管道能承受这些速率，同时冷却剂供应充足。"
 		""
-		"&a厨房水槽&r没有被ban，但你如何能快速地将它取出并导入你的反应堆呢？"
+		"&a厨房水槽&r竟能无限供水，但你能以多快的速度将其抽取出来并输入反应堆呢？"
 		""
 		"{image:ftb:textures/quests/mekanism/fission_reactor_open.png width:100 height:100 align:center}"
 	]
@@ -563,23 +563,23 @@
 	]
 	quest.0566053CCA772771.title: "&f欢迎使用&e任意门模组"
 	quest.056C62BBBCEB1173.quest_desc: [
-		"当一个&d反应堆&r的废料缓冲器溢出，或者一个装有放射性化学品的管道/机器损坏时，辐射源会蔓延到世界中，从而引发&4核事故&r。"
+		"当一个&d反应堆&r的废料缓冲区溢出，或者一个装有放射性化学品的管道或装置损坏时，辐射源会蔓延到世界中，从而引发&4核事故&r。"
 		""
-		"强烈的&c辐射源&r可以在游戏世界中持续存在数个现实时间的小时。如果受到辐射，唯一可行的选择是通过&a保持距离&r、&a防护服&r或两者结合来停止接收辐射，然后让辐射慢慢消退。"
+		"强烈的&c辐射源&r可以在游戏世界中，以现实时间为单位持续数小时。如果受到辐射，唯一可行的选择是通过&a保持距离&r、&a防护措施&r或双管齐下，然后等待辐射慢慢消退。"
 		""
 		"&a放射性废料桶&r为常规和废弃的&c核废料&r提供了一个安全的缓慢衰变场所，可以同时使用多个废料桶。这种材料&4无法通过任何其他方法销毁&r。&b钋和钚&r不会在废料桶中衰变，但可以储存。比较器可以读取&a废料桶&r的满载程度。"
 		""
-		"你需要一套完整的&6防化服&r或同等升级才能保护自己免受辐射。然而，这并不能治愈辐射效果，也不能装备到生物身上，所以请注意管理放射性材料的存放地点。"
+		"你需要一套完整的&6防化服&r或同等升级装备才能保护自己免受辐射。然而，这并不能治愈辐射效果，也不能装备到生物身上，所以在处理放射性物质时务必小心谨慎。"
 		"{@pagebreak}"
 		"&e避免核事故的小建议&f："
 		""
-		"核事故发生是早晚的事。在生产放射性产物之前，请准备好防护措施。"
+		"将&c核事故&r视为“必然”而非“可能”更为稳妥。在生产放射性产物之前，务必做好充分的预防措施。"
 		""
-		"处理核废料时，请使用整数份量，并让多余的废料在废料桶中衰变。"
+		"处理核废料时，请使用整数份量，并让多余的废料在废料桶中自然衰变。"
 		""
-		"请使用只传输不储存化学物质的物流方式，例如&e应用能源&r或&ePipez&r。发生核事故的头号原因就是误操作导致储存危险材料的管道破裂，这非常&o危险&r。"
+		"请使用只传输不储存化学物质的物流方式，例如&e应用能源&r或&ePipez&r。发生核事故的头号原因，往往是误拆了存有危险物质的管道，这可是个&o严重&r的情况。"
 	]
-	quest.056C62BBBCEB1173.quest_subtitle: "不是所有的辐射都有益"
+	quest.056C62BBBCEB1173.quest_subtitle: "并非所有辐都炫酷"
 	quest.056C62BBBCEB1173.title: "&f辐射与你"
 	quest.058C71F15E4AB3E2.quest_desc: ["Upgraded from &7Ferricore&r using a &6Blazegold Template&r"]
 	quest.058C71F15E4AB3E2.title: "&c烈焰金头盔"
@@ -643,11 +643,11 @@
 	]
 	quest.06666C9D93C1A3EE.title: "&f探险家指南针"
 	quest.06765AD5169D189D.quest_desc: [
-		"你想过用激光来防御你的基地吗？如果没想过，你还好吗bro？（Destr0yer）"
+		"你想过用激光来保护你的基地？如果没有，你还好吗？"
 		""
-		"&a激光炮塔&r使用激光射杀敌人，是基础的防御炮塔。如果配置得当的话，这个炮塔还能射击玩家"
+		"&a激光炮塔&r是基地防御设施，消耗能量攻击敌人。可设置为攻击玩家模式，防止他人闯入你的基地。"
 	]
-	quest.06765AD5169D189D.title: "&a保卫基地&r！"
+	quest.06765AD5169D189D.title: "&a基地防御&r！"
 	quest.06918197435AF24E.quest_desc: [
 		"你可以用&a进阶样板供应器升级&r将AE2供应器升级到AdvancedAE版。"
 		""
@@ -800,9 +800,9 @@
 		""
 		"放下后，右击打开UI。你可以在UI里设定特定频率，然后用频率将&d传送装置&r无线链接起来。"
 		""
-		"&d无线传送装置&r内有缓存槽，可以储存少量能量或气体之类的东西。如果你想用它来传输气体的话，最好把输入面和输出面妥善设定一下！"
+		"&d无线传送装置&r内有缓存槽，可以储存少量能量或气体之类的东西。最好把输入面和输出面妥善设定一下，特别是当你用它来传输气体时！"
 	]
-	quest.08145422E66D2B7D.title: "&d量子传送装置&r"
+	quest.08145422E66D2B7D.title: "&d量子传送装置"
 	quest.081F9BFA0347582F.quest_desc: [
 		"你需要获得一些&c诅咒蜂蜜&r来制作下一种颜色的粉笔。"
 		""
@@ -890,7 +890,7 @@
 	quest.08766B8721B4E541.title: "&c下界&f奇妙之旅"
 	quest.087ACAF5A47079FB.title: "&f煤精华"
 	quest.087D1FBAE8A425C0.quest_desc: [
-		"你可以用传送核心的力量构建&d传送门&r！不仅可以在基地周围快速移动，甚至可以跨维度传送！"
+		"你可以用传送核心的力量构建专属的&d传送门&r！不仅可以在基地周围快速移动，甚至可以跨维度传送！"
 		""
 		"要想搭建传送门的话，你得先准备一个&d传送机&r和9个&b传送框架&r。建好后给传送机供电，然后打开UI设定给传送频率命名。千万记得命名后要点确定！"
 		""
@@ -1093,7 +1093,7 @@
 		""
 		"The &aFacade Wrench&r can be used to toggle facade transparency by Sneak + Right-clicking it."
 	]
-	quest.09DE55D4265E6E9D.title: "&eCable Facades"
+	quest.09DE55D4265E6E9D.title: "&e电缆伪装"
 	quest.0A06A270AD88C9D8.quest_desc: [
 		"鱼竿一直以来都是一种很小众的普通工具，但现在它终于有了个高级用法！"
 		"&d巫师钓鱼竿&r的用法和普通鱼竿类似，但当鱼线钩住一个生物时，&b再次使用&r就会对被钩住的生物施放法术。"
@@ -1157,7 +1157,7 @@
 	]
 	quest.0A9CA5D70C2FD76F.title: "&a灌注室"
 	quest.0AA1977AC1B5E5A9.quest_desc: [
-		"Anvils are all well and good for repairing mundane gear, but magical goods can be much more expensive or even impossible to repair in this manner. With a &aRepair Pylon&r, the &eSpirit Crucible&r is able to focus spirits and a repair material into a piece of gear, so long as it already has ties to &bcertain magics&r or is totally mundane."
+		"铁砧用来修复一般的装备非常合适，但用来修理魔法物品却会有非常昂贵的消耗，甚至可能无法修复。但只要有了&a修复基柱&r，你就可以用&e精魂坩埚&r来把精魂和修复材料集聚到装备上。无论是已经与&b特定种类的魔法&r相关联的装备，还是普通的装备，都可以修复。"
 		""
 		"此外，这也是唯一一种能够修复&e碎裂促符&r的方法。"
 	]
@@ -1270,7 +1270,7 @@
 	quest.0B27B02715F61690.title: "&e通用机械&9流体管道"
 	quest.0B34E3B58783A93A.quest_desc: ["Upgraded from &7Ferricore&r using a &6Blazegold Template&r"]
 	quest.0B34E3B58783A93A.title: "&c烈焰金胸甲"
-	quest.0B5E11225338F0CF.quest_desc: ["把铁锭丢到激光上就可以得到&a铁晶&r，机器配方和机器外壳都需要它。"]
+	quest.0B5E11225338F0CF.quest_desc: ["把铁锭丢到激光上，你就可以得到&a铁晶&r，机器配方和机器外壳都需要用到它。"]
 	quest.0B5E11225338F0CF.title: "&a铁晶"
 	quest.0B65E6E75D87ED60.quest_desc: ["&a动力活塞&r可以让连接的结构沿一个轴往复移动。"]
 	quest.0B65E6E75D87ED60.title: "&a动力活塞"
@@ -2323,7 +2323,7 @@
 	quest.16D89D5036F39756.quest_desc: [
 		"&e灵灾&r是一个围绕着灵魂的自然层面和精神层面展开的模组。这个模组将通过这些元素来为你和你所处的世界带来各种奥术影响！"
 		""
-		"This mod is still in active development, with the most recent addition being a system of pacts for players to accept in exchange for abilities."
+		"这个模组仍在积极更新中，其中最新的更新带来了一个新的系统，能让玩家通过签订条约来获得能力。"
 		""
 		"要想在这个模组里起步，你需要找到或自己做出&d灵魂石&r，才能造出这个模组里最基本的两个物品：精魂祭坛，以及粗制镰刀。"
 		""
@@ -2420,9 +2420,9 @@
 	]
 	quest.1811EC8E48EAD1BD.title: "&7苦力怕护身符"
 	quest.1820069FEA2237E6.quest_desc: [
-		"往激光上丢&a石英块&r就会生成&2装饰用石英&r，如果丢&b雕纹石英块&r则会生成装饰用绿色石英方块。"
+		"往激光上丢&a石英块&r，你就会得到&2装饰用石英&r，如果丢&b雕纹石英块&r则会得到装饰用绿色石英方块。"
 		""
-		"这两种装饰用石英各需三个，因为你要做&a物品展示台&r。"
+		"你需要这两种石英块各三块才能做出&a物品展示台&r。"
 	]
 	quest.1820069FEA2237E6.title: "&a装饰用石英"
 	quest.1841C1DAEC960312.quest_desc: [
@@ -3092,7 +3092,7 @@
 	quest.1E7B5442F153ED3B.title: "&e堡垒之戒"
 	quest.1E9349AC359E058E.quest_desc: ["&a动力轴承&r可以旋转连接的结构"]
 	quest.1E9349AC359E058E.title: "&a动力轴承"
-	quest.1E95AD23243FEF87.quest_desc: ["现在你就可以制造&e实用拓展&r模组中的最强燃料！只需动动手把&a充能油菜种子&r丢进&3晶化油&r里，然后你就有&d充能油&r啦！"]
+	quest.1E95AD23243FEF87.quest_desc: ["现在你就可以制造&e实用拓展&r模组中的最强燃料了。只需简单地把&a充能油菜种子&r丢进&3晶化油&r里，然后你就有&d充能油&r了！"]
 	quest.1E95AD23243FEF87.title: "&d充能油菜种子"
 	quest.1E9AD94E5373BFAB.quest_desc: ["&a十字齿轮箱&r让你可以改变旋转轴和旋转方向"]
 	quest.1E9AD94E5373BFAB.title: "&a十字齿轮箱"
@@ -3240,7 +3240,7 @@
 		""
 		"给它供应足够的能量后，它就会射出一道长10格的激光，如有方块则激光会被挡住。"
 		""
-		"它会把激光路径上的所有掉落物或放置的方块全部晶化。"
+		"这道激光会把路径上的掉落物或放置在激光两侧的方块全部晶体化。"
 	]
 	quest.206987FC6B1524F8.title: "&a原子再构机"
 	quest.2075944B1DA3B63C.quest_subtitle: "施放需要长时间吟唱的法术不会被打断"
@@ -4011,11 +4011,11 @@
 	quest.282953A521BACF41.title: "&f银矿晶母岩"
 	quest.2829F5B836301246.title: "&e加速卡"
 	quest.283EA4E7BA93DA11.quest_desc: [
-		"&a充能台&r可以消耗周围的物品，用它们的力量充能你的水晶。"
+		"&a充能台&r可以通过消耗周围的物品来给你的水晶充能。"
 		""
-		"您需要在&a充能台&r的每一侧第三个方块处（两个方块间隙）放置&a物品展示台&r 。"
+		"你需要在&a充能台&r每一侧的第三个方块处（两个方块间隙）放置&a物品展示台&r 。"
 		""
-		"&a物品展示台&r上的物品位置都无所谓，你只需要给它们充能即可。"
+		"物品在&a物品展示台&r上的位置不重要，你只需要给它们充能即可。"
 	]
 	quest.283EA4E7BA93DA11.title: "&f水晶充能"
 	quest.28493A960B770451.quest_desc: ["每个&d三阶维度存储稳定器&r能增加2048000个物品和256个物品种类，最多支持四个&a稳定器&r。"]
@@ -6999,7 +6999,7 @@
 	]
 	quest.450A1BAD728F594B.title: "&d无限距离无线访问"
 	quest.451FD4CA758C6019.title: "&6进化秘石"
-	quest.452A356F35EE46DD.quest_desc: ["&3充能钻石水晶&r可以合成一些&e实用拓展&r的东西，但它的最大用处是合成&6FTB金字塔的关键材料：&d异彩棱晶&r。"]
+	quest.452A356F35EE46DD.quest_desc: ["&3充能钻石水晶&r可以用于&e实用拓展&r里的一些配方，不过它还需要用来合成&6FTB金字塔&r中的&d异彩棱晶&r。"]
 	quest.452A356F35EE46DD.title: "&3充能钻石水晶"
 	quest.4554DAFCC3ED4543.title: "&b冰霜&f升级法球"
 	quest.456030ECDFA9CE3B.quest_desc: [
@@ -7153,7 +7153,7 @@
 		"When in operation, the &cBedrock Extractor&r mines ores directly below it, covering the entire 3x3 area. Each operation randomly selects one of the blocks below. Not all blocks need to be &aResources Nodes&r. Try to find a spot with the most ores right below the extractor for the highest yield."
 	]
 	quest.46AF8085E4151D9E.title: "&cBedrock Extractor"
-	quest.46BB702F2847F818.quest_desc: ["把红石丢到激光上就可以得到&a红石水晶&r，很多&e实用拓展&r的合成配方都需要它。"]
+	quest.46BB702F2847F818.quest_desc: ["把红石丢到激光上,你就可以得到&a红石水晶&r，&e实用拓展&r里的很多合成配方都需要它。"]
 	quest.46BB702F2847F818.title: "&a红石水晶"
 	quest.46C2C45AE017AE81.quest_desc: ["这个升级装入&aJust Dire模组的镐&r后，右击就会让周边的矿石透过墙壁发光。"]
 	quest.46C2C45AE017AE81.title: "&f升级：矿石扫描"
@@ -7180,9 +7180,9 @@
 	quest.47121E98CEF12BDE.quest_subtitle: "砸碎圆石！"
 	quest.47121E98CEF12BDE.title: "&f沙砾"
 	quest.47547FC5591CE0D3.quest_desc: [
-		"&e实用拓展&r的主要内容就是合成水晶，然后给它们充能……至于怎么搞，当然是用激光照射它们啦！"
+		"&e实用拓展&r的主要内容就是合成水晶，然后用激光照射它们来给它们充能！"
 		""
-		"为了伟大的事业！现在去获取&a焦黑石英芽&r或者与猪灵交易获得一些焦黑石英吧！"
+		"为了发展！现在去获取&a焦黑石英矿晶母岩&r或者与猪灵交易获得一些焦黑石英吧！"
 	]
 	quest.47547FC5591CE0D3.title: "&f欢迎游玩&e实用拓展&f！"
 	quest.4782346A565FF21F.quest_desc: [
@@ -8277,7 +8277,7 @@
 		"它还用于制作&b排斥者力量&r。"
 	]
 	quest.529BB6E3B5A93A91.title: "&7卫道士护身符"
-	quest.52A1154376134EDD.quest_desc: ["These &aspirit-infused stones&r are mostly just decoration on their own, but harnessing the combined magical properties allows the creation of new devices and machines."]
+	quest.52A1154376134EDD.quest_desc: ["这些&a受到精魂灌注的岩石&r本身只是装饰性方块，然而只要善用它们蕴含的魔法能量，你就能打造出全新的仪器和设备。"]
 	quest.52A1154376134EDD.title: "扭曲而污秽的岩石"
 	quest.52A48E0F92AD4399.quest_desc: [
 		"如果你想把魔源直接全部输出到附近的魔源罐中，那就用&a魔源中继器：存放型&r吧！"
@@ -10134,7 +10134,7 @@
 		""
 		"阴冷骨石会从那些瘦削的不死骷髅身上掉落"
 		""
-		"Warp Flux drops from teleporting eldritch creatures"
+		"扭曲能流会从那些会瞬移的骇人生物身上掉落"
 		""
 		"星灵织物会从那些鬼魅的空中恶敌身上掉落"
 	]
@@ -11197,7 +11197,7 @@
 	quest.735DAACDBF57DA01.quest_desc: [
 		"&a油菜&r可以用来生产&a菜籽油&r之类的东西，然后用它们发电。"
 		""
-		"[ \"油菜籽可以在世界中找到，也可以从\", { \"text\": \"贸易站\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"073546F80EDA632E\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往贸易站任务\"]} }, \"购买。\" ]"
+		"[\"油菜籽可以在世界中找到，也可以从\", { \"text\": \"贸易站\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"073546F80EDA632E\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往贸易站任务\"]} }, \"购买。\" ]"
 	]
 	quest.735DAACDBF57DA01.title: "&a油菜"
 	quest.7365369CF1CCB2C9.quest_desc: ["The &aPortable Tank&r can store up to 256000mb of any fluid and will retain all fluids when broken."]
