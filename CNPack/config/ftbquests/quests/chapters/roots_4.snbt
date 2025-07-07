@@ -273,7 +273,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "item_tag(roots:crops)not(or(item(roots:wildroot)item(roots:wildewheet)item(roots:spiritleaf)))"
-									"minecraft:custom_name": "\"magic crops\""
+									"minecraft:custom_name": "“魔法作物”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -765,7 +765,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(roots:living_sword)item(roots:living_axe)item(roots:living_pickaxe)item(roots:living_shovel)item(roots:living_hoe))"
-									"minecraft:custom_name": "\"Living tools\""
+									"minecraft:custom_name": "“蕴生工具”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
