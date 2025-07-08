@@ -9,7 +9,7 @@
     "createsifter.itemGroup:main":"机械动力：筛子",
     "createsifter.ponder.sifter.header":"方块过筛",
     "createsifter.ponder.sifter.text_1":"筛子可以筛取物品",
-    "createsifter.ponder.sifter.text_2":"在其侧边使用齿轮与其相耦合，方可为其通入动力",
+    "createsifter.ponder.sifter.text_2":"They can be powered from the side using cogwheels",
     "createsifter.ponder.sifter.text_3":"顶部可以丢入或者放入物品",
     "createsifter.ponder.sifter.text_4":"等待一段时间，右击筛子可以取出过筛后的产物",
     "createsifter.ponder.sifter.text_5":"产物输出也是可以自动化的",

@@ -260,7 +260,7 @@
     "item.ftbmaterials.bronze_plate":"青铜板",
     "item.ftbmaterials.bronze_rod":"青铜棒",
     "item.ftbmaterials.bronze_small_dust":"小撮青铜粉",
-    "item.ftbmaterials.bronze_tiny_dust":"小撮青铜粉",
+    "item.ftbmaterials.bronze_tiny_dust":"Tiny Bronze Dust",
     "item.ftbmaterials.bronze_wire":"青铜线",
     "item.ftbmaterials.charcoal_block":"木炭块",
     "item.ftbmaterials.charcoal_dust":"木炭粉",
@@ -750,7 +750,7 @@
     "item.ftbmaterials.sulfur_dirty_dust":"污浊硫磺粉",
     "item.ftbmaterials.sulfur_dust":"硫粉",
     "item.ftbmaterials.sulfur_end_ore":"末地硫磺矿石",
-    "item.ftbmaterials.sulfur_gem":"硫宝石",
+    "item.ftbmaterials.sulfur_gem":"Sulfur Gem",
     "item.ftbmaterials.sulfur_nether_ore":"下界硫磺矿石",
     "item.ftbmaterials.sulfur_shard":"硫磺碎片",
     "item.ftbmaterials.sulfur_stone_ore":"硫磺矿石",
@@ -844,7 +844,7 @@
     "item.ftbmaterials.zinc_block":"锌块",
     "item.ftbmaterials.zinc_chunk":"锌矿块",
     "item.ftbmaterials.zinc_clump":"锌碎块",
-    "item.ftbmaterials.zinc_cluster":"锌矿簇",
+    "item.ftbmaterials.zinc_cluster":"Zinc Cluster",
     "item.ftbmaterials.zinc_crystal":"锌晶体",
     "item.ftbmaterials.zinc_deepslate_ore":"深层锌矿石",
     "item.ftbmaterials.zinc_dirty_dust":"污浊锌粉",
@@ -863,5 +863,5 @@
     "item.ftbmaterials.zinc_stone_ore":"锌矿石",
     "item.ftbmaterials.zinc_tiny_dust":"锌粉末",
     "item.ftbmaterials.zinc_wire":"锌线",
-    "itemGroup.ftbmaterials.ftbmaterials_main":"FTB Material"
+    "itemGroup.ftbmaterials.ftbmaterials_main":"FTB Materials"
 }
