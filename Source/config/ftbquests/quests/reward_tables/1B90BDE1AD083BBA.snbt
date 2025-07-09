@@ -16,7 +16,7 @@
 				id: "ars_elemental:debug"
 			}
 			id: "342B8F576B06EEFF"
-			permission_level: 2
+			permission_level: 3
 			type: "command"
 		}
 		{
@@ -26,7 +26,57 @@
 				id: "minecraft:player_head"
 			}
 			id: "4D69DB0EB94D6166"
-			permission_level: 2
+			permission_level: 3
+			type: "command"
+		}
+		{
+			command: "/curios add necklace @s 1"
+			feedback_message: "Added Necklace Curio Slot"
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								explode: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										capacity: {
+											initialValue: 23.76503d
+										}
+										damage: {
+											initialValue: 0.47177d
+										}
+										stun: {
+											initialValue: 0.11117d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
+				id: "relics:reflection_necklace"
+			}
+			id: "3CB6A78132101CF9"
+			permission_level: 3
 			type: "command"
 		}
 		{
@@ -40,7 +90,7 @@
 				id: "sophisticatedbackpacks:backpack"
 			}
 			id: "204C094BCB3A0668"
-			permission_level: 2
+			permission_level: 3
 			type: "command"
 		}
 		{
@@ -49,6 +99,7 @@
 				id: "silentgear:bracelet"
 			}
 			id: "20C7FA090634760B"
+			permission_level: 3
 			type: "command"
 		}
 		{
@@ -149,7 +200,7 @@
 				id: "relics:rage_glove"
 			}
 			id: "4B4E6E0741A62FB9"
-			permission_level: 2
+			permission_level: 3
 			type: "command"
 		}
 		{
@@ -158,7 +209,7 @@
 				id: "irons_spellbooks:emerald_stoneplate_ring"
 			}
 			id: "1FA0D520E337EE54"
-			permission_level: 2
+			permission_level: 3
 			type: "command"
 		}
 		{
@@ -167,7 +218,7 @@
 				id: "toolbelt:belt"
 			}
 			id: "28110E1A8FB59355"
-			permission_level: 2
+			permission_level: 3
 			type: "command"
 		}
 		{
@@ -221,7 +272,21 @@
 				id: "relics:phantom_boot"
 			}
 			id: "57F58718AA395BAF"
-			permission_level: 2
+			permission_level: 3
+			type: "command"
+		}
+		{
+			command: "/curios add charm @s 1"
+			icon: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "minecraft:long_night_vision"
+					}
+				}
+				id: "apotheosis:potion_charm"
+			}
+			id: "075F9862BFD15149"
+			permission_level: 3
 			type: "command"
 		}
 	]

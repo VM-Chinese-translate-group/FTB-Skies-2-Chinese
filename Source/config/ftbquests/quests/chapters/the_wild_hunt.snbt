@@ -1199,7 +1199,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["107C26E8BF309BC1"]
+			dependencies: ["59497745146C1EFD"]
 			hide_dependency_lines: true
 			id: "4E3A4B79573FC1F2"
 			optional: true
@@ -2603,7 +2603,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "162390D3E7D61CED"
 					item: {
 						count: 1

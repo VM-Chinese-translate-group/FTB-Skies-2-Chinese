@@ -127,21 +127,14 @@
 				id: "ars_nouveau:green_archwood_sapling"
 			}
 			id: "13D6C551C8DBC124"
-			rewards: [
-				{
-					id: "6C1C87BC965684DF"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "657A2D0440D2653C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "657A2D0440D2653C"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "07B3E353519E2FE6"
@@ -154,21 +147,14 @@
 		{
 			id: "1114D1FD164E514B"
 			min_width: 300
-			rewards: [
-				{
-					id: "1BE1C6B560506CDF"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				id: "5994CA30C8431683"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "5994CA30C8431683"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -189,21 +175,14 @@
 			}
 			id: "1A6984A6484FF8F3"
 			min_width: 350
-			rewards: [
-				{
-					id: "491D9124C08BBA5A"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "3E354107717349AE"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "3E354107717349AE"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4770154ADE2ED622"
@@ -249,21 +228,14 @@
 		{
 			dependencies: ["13D6C551C8DBC124"]
 			id: "7FF04E6E35CA419F"
-			rewards: [
-				{
-					id: "3ADA8B37C9D3A2D7"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "418CBA01AC384D02"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "418CBA01AC384D02"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "726B11CBB496A20B"
 				item: { count: 1, id: "ars_nouveau:sourceberry_bush" }
@@ -276,22 +248,15 @@
 			dependencies: ["1114D1FD164E514B"]
 			icon_scale: 2.0d
 			id: "11EAC083A8DF86EC"
-			rewards: [
-				{
-					id: "791DC19893A83745"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				count: 3
+				id: "6823CC427931FE37"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 3
-					id: "6823CC427931FE37"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "none"
 			tasks: [{
 				id: "74BD8EE1BBF132AB"

@@ -1,0 +1,35 @@
+{
+	icon: {
+		id: "mekanism:upgrade_speed"
+	}
+	id: "78C9ADA190F7FFB5"
+	loot_size: 1
+	order_index: 68
+	rewards: [
+		{
+			count: 8
+			id: "439338A387A91A0F"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+		}
+		{
+			count: 8
+			id: "3022552881294B1A"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+		}
+		{
+			count: 8
+			id: "132F292CFF48B66A"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_chemical"
+			}
+		}
+	]
+	use_title: true
+}

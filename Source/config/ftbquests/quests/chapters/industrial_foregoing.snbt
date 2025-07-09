@@ -1075,22 +1075,15 @@
 			hide_dependency_lines: true
 			id: "6FB2393F2348D59E"
 			optional: true
-			rewards: [
-				{
-					id: "5124555230A59343"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				count: 3
+				id: "183EB0407B58532F"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 3
-					id: "183EB0407B58532F"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3EB1584AE783263E"
@@ -1187,6 +1180,24 @@
 					}
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "1CF40BFA76497518"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "482994E71F1B5A79"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			size: 1.5d
 			tasks: [{
@@ -1262,22 +1273,15 @@
 			hide_dependency_lines: true
 			id: "7EA2616705E80E24"
 			optional: true
-			rewards: [
-				{
-					id: "61AF66744A5EA212"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				count: 3
+				id: "2F258973A0673A51"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 3
-					id: "2F258973A0673A51"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "24C9C8862E24DFCB"
@@ -1394,22 +1398,15 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "7FE552DC58B0A718"
-			rewards: [
-				{
-					id: "4B5DE72705CFC70D"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				count: 3
+				id: "036D4788F253429B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 3
-					id: "036D4788F253429B"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{

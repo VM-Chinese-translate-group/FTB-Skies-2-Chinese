@@ -117,7 +117,7 @@
 				id: "3669D971B5C36B32"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:crystal_coin"
 				}
 				type: "item"
 			}]
@@ -141,7 +141,7 @@
 				id: "10ED3F005639AD4A"
 				item: {
 					count: 1
-					id: "magic_coins:gold_coin"
+					id: "magic_coins:crystal_coin"
 				}
 				type: "item"
 			}]
@@ -183,7 +183,7 @@
 				id: "365BB38FB61C15FB"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -200,7 +200,7 @@
 			min_width: 250
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "48D5109218F53CAA"
 					item: {
 						count: 1
@@ -218,6 +218,25 @@
 					}
 					id: "01DD1B67FB317DD9"
 					permission_level: 3
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "6F035EB270CC2F5C"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "1C1EC512C7063063"
+					permission_level: 3
+					silent: true
 					type: "command"
 				}
 			]
@@ -413,6 +432,7 @@
 			id: "63D831B65B0532F1"
 			rewards: [
 				{
+					count: 5
 					id: "5955578DDF632550"
 					item: {
 						count: 1
@@ -521,7 +541,7 @@
 					id: "5D4E210FDEB89907"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -530,6 +550,24 @@
 					id: "311902BAF586092C"
 					table_id: 9029519111662458436L
 					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New loot bag available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New loot bag available in the Shop!"
+					id: "7766CFCAA08995A0"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "2A0256E5D14221EA"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			tasks: [{
@@ -654,10 +692,10 @@
 					type: "loot"
 				}
 				{
-					id: "5E5837E52C6D78F5"
+					id: "4A168C0F2EAAA39A"
 					team_reward: false
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -676,7 +714,7 @@
 					id: "42FEED78478EA5AD"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "magic_coins:crystal_coin"
 					}
 					type: "item"
 				}
@@ -690,7 +728,7 @@
 					id: "0E6195B94476C983"
 					team_reward: false
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -708,7 +746,7 @@
 				id: "0F1B8F1C8A9884EC"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -823,7 +861,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "3DE956A33BC6E600"
 					item: {
 						count: 1
@@ -897,22 +935,14 @@
 				id: "ironjetpacks:jetpack"
 			}
 			id: "4DE5B826AB6CB2B5"
-			rewards: [
-				{
-					id: "187DB0936039BAD0"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "2AD4494E8F37D2EE"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					id: "60B67E8D45A1B96E"
-					team_reward: false
-					type: "xp"
-					xp: 10
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "3084E61C595943E3"
 				item: { components: { "ftbfiltersystem:filter": "or(item(ironjetpacks:jetpack))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -926,7 +956,6 @@
 				id: "cable_facades:facade"
 			}
 			id: "09DE55D4265E6E9D"
-			min_width: 300
 			rewards: [{
 				id: "7146B704E4AE06D8"
 				item: {

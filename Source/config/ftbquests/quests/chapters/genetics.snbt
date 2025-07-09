@@ -574,6 +574,24 @@
 					table_id: 1967739393353469521L
 					type: "random"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New loot bag available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New loot bag available in the Shop!"
+					id: "27FF908D1F661D17"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "7658C332D08FAF0D"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "circle"
 			size: 1.0d

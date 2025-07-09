@@ -333,6 +333,24 @@
 					}
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "19E91DBE0CFE27C4"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "4721FD0D9EAB82A3"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
@@ -568,6 +586,24 @@
 					}
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "14843FD6711938E5"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "2C51F406748D835A"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -642,6 +678,24 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "2F44E969AA8B8E85"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "3E94D535BA1A6F4A"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -1673,6 +1727,24 @@
 					}
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "7CCD5BED73290162"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "124421D07D548291"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "rsquare"
 			tasks: [
@@ -1785,6 +1857,24 @@
 					}
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "40EC853C1B90B96A"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "3D2869481E4F35F1"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "none"
 			tasks: [{
@@ -1824,6 +1914,24 @@
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "5B79A1B3455EA509"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "5014E9FECEEC5F40"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -2025,6 +2133,24 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "5A3CD57D3B56A62A"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "28D8148789A49575"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			tasks: [{

@@ -3348,7 +3348,9 @@
 			}
 			id: "59CBFA5583139A3B"
 			rewards: [{
-				count: 5
+				icon: {
+					id: "magic_coins:gold_coin"
+				}
 				id: "57199AAFCD043B34"
 				item: {
 					count: 1
@@ -3381,11 +3383,10 @@
 			id: "7E88C7654F281E43"
 			min_width: 300
 			rewards: [{
-				count: 5
 				id: "33EA39215D9D888F"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:crystal_coin"
 				}
 				type: "item"
 			}]

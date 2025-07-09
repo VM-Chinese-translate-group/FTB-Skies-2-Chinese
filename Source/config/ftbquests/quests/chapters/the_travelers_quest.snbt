@@ -39,6 +39,7 @@
 			y: -4.5d
 		}
 		{
+			alpha: 100
 			height: 4.0d
 			image: "cataclysm:textures/entity/flame_strike_sigil.png"
 			rotation: 0.0d
@@ -47,6 +48,7 @@
 			y: 3.5d
 		}
 		{
+			alpha: 100
 			height: 1.6d
 			image: "irons_spellbooks:textures/entity/acid_orb/acid_orb.png"
 			rotation: 45.0d
@@ -55,6 +57,7 @@
 			y: 3.5d
 		}
 		{
+			alpha: 100
 			height: 2.5d
 			image: "irons_spellbooks:block/cinderous_soul_rune"
 			order: -9
@@ -64,6 +67,7 @@
 			y: 3.5d
 		}
 		{
+			alpha: 100
 			height: 5.0d
 			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle1.png"
 			order: -9
@@ -73,6 +77,7 @@
 			y: 3.5d
 		}
 		{
+			alpha: 100
 			color: 5636095
 			height: 6.0d
 			image: "malum:item/geas/pact_of_the_berserker"

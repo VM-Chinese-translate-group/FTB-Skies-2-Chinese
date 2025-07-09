@@ -9,7 +9,6 @@
 		{ id: "3461DBFDFB5103BF", item: { count: 1, id: "fluxnetworks:flux_point" } }
 		{ id: "6D553F90EE5A143D", item: { count: 1, id: "fluxnetworks:flux_plug" } }
 		{ id: "582197D780AFE1D0", item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" } }
-		{ id: "25535096070159A9", item: { count: 1, id: "fluxnetworks:flux_controller" } }
 	]
 	use_title: true
 }

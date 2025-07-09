@@ -348,7 +348,7 @@
 				id: "2688703BC07CBBCA"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -450,12 +450,13 @@
 					type: "item"
 				}
 				{
+					count: 4
 					id: "34C1679ACF8072E8"
 					item: {
 						count: 1
 						id: "minecraft:apple"
 					}
-					random_bonus: 3
+					random_bonus: 4
 					type: "item"
 				}
 			]
