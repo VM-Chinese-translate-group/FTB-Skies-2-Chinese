@@ -2215,11 +2215,11 @@
 	quest.1553CDD5ED42DF02.title: "&f勘探之路"
 	quest.15801A9BA5162395.title: "&f核源铁靴子"
 	quest.15956817DCDAD8C3.quest_desc: [
-		"Enchanted是受旧版本模组巫术（Witchery）的极大启发而作的模组。"
+		"Enchanted是受旧版本模组巫术（Witchery）极大启发而作的模组。"
 		""
 		"While the &aWitch's Oven&r is the iconic block of the mod, to really get started you'll need to take a dip into&e herbology&r off to the side."
 		""
-		"You can rarely get these seeds to drop from grass, but here's a few boxes with magical seeds to help get your green thumb going."
+		"这些种子难以通过打草掉落，不过这里有几个装着魔法种子的箱子帮助你开启园艺之路。"
 	]
 	quest.15956817DCDAD8C3.quest_subtitle: "巫术之路"
 	quest.15956817DCDAD8C3.title: "步入Enchanted"
@@ -9819,19 +9819,19 @@
 	]
 	quest.63C6CCD277C86EF4.title: "&a\"Simple\" &fFuel Generator"
 	quest.63D1F9A9465CC28F.quest_desc: [
-		"Growing a little bit of everything is important as you progress deeper into Enchanted."
+		"什么东西都种一点对推进Enchanted模组进度相当重要。"
 		""
-		"Mostly herbs are standard crops, but there are a few notes:"
+		"大多数药草都是标准作物，但是有一些需要注意的点："
 		""
-		"&bSnowbell&r can often be harvested for snowballs, even in warm climates. "
+		"&b雪铃花&r可以收获雪球，无论在温暖气候还是寒冷气候。"
 		""
-		"&3Water Artichoke&r needs to be planted on still water."
+		"&3水洋蓟&r需要种在静止的水上。"
 		""
-		"&dMandrakes&r are occasionally be harvested without incident, but &aEarmuffs&r are heavily suggested as they tend to sprout up out of the ground when plucked, and will run around with a dizzying scream until slain."
+		"&d曼德拉草&r偶尔可以正常收获，但强烈建议佩戴&a隔音耳罩&r，因为曼德拉草被拔出时会发芽，发出能够令人昏迷的尖叫并四处奔跑，直到被杀死。"
 		""
-		"&7Wolfsbane and Garlic have no current uses, but more utility may come from them in the future."
+		"&7狼毒草和大蒜现在还没用，但是将来可能会派上用场。"
 	]
-	quest.63D1F9A9465CC28F.title: "Essential Herbs"
+	quest.63D1F9A9465CC28F.title: "基础草药"
 	quest.63D831B65B0532F1.quest_desc: [
 		"If you've ever wanted to build in the sky but hate building a giant tower up to start building, the &dAngel Block&r has the solution."
 		""
