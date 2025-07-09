@@ -410,6 +410,24 @@
 							table_id: 8417916111800609440L
 							type: "random"
 						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New loot bag available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New loot bag available in the Shop!"
+							id: "6806C80AF0A1AC56"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "10638BCCD3EBB174"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
 					]
 					shape: "diamond"
 					size: 1.5d
@@ -488,7 +506,7 @@
 						id: "ftbquests:custom_icon"
 					}
 					id: "586E18023A595A6C"
-					min_width: 250
+					min_width: 350
 					rewards: [
 						{
 							id: "6288CCD87A44F2B0"
@@ -910,6 +928,9 @@
 				}
 				{
 					dependencies: ["5CE002C1C1142CD1"]
+					icon: {
+						id: "mysticalagriculture:fire_seeds"
+					}
 					id: "5E04779BC1EB52E9"
 					rewards: [
 						{
@@ -930,13 +951,10 @@
 					shape: "pentagon"
 					tasks: [
 						{
-							icon: {
-								id: "mysticalagriculture:fire_seeds"
-							}
-							id: "16E364F01286BDB3"
+							id: "4F1777D10DAD6649"
 							item: {
 								components: {
-									"ftbfiltersystem:filter": "or(item(mysticalagriculture:air_seeds)item(mysticalagriculture:earth_seeds)item(mysticalagriculture:water_seeds)item(mysticalagriculture:fire_seeds))"
+									"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:elementalseed)"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -949,6 +967,9 @@
 				}
 				{
 					dependencies: ["5CE002C1C1142CD1"]
+					icon: {
+						id: "mysticalagriculture:dirt_seeds"
+					}
 					id: "3490E1E29396D066"
 					rewards: [
 						{
@@ -965,17 +986,32 @@
 							table_id: 7049040448275086035L
 							type: "random"
 						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New loot bag available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New loot bag available in the Shop!"
+							id: "7C4351D1843B8B7D"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "6F30F8AE159C7079"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
 					]
 					shape: "pentagon"
 					tasks: [
 						{
-							icon: {
-								id: "mysticalagriculture:dirt_seeds"
-							}
-							id: "2499252075BAB96E"
+							id: "10797452061EB3E6"
 							item: {
 								components: {
-									"ftbfiltersystem:filter": "or(item(mysticalagriculture:stone_seeds)item(mysticalagriculture:dirt_seeds)item(mysticalagriculture:wood_seeds)item(mysticalagriculture:ice_seeds)item(mysticalagriculture:deepslate_seeds))"
+									"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t1seeds)"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -988,6 +1024,9 @@
 				}
 				{
 					dependencies: ["5574D291E6E69013"]
+					icon: {
+						id: "mysticalagriculture:dye_seeds"
+					}
 					id: "736EF0026F658DA7"
 					rewards: [
 						{
@@ -1009,13 +1048,10 @@
 					shape: "hexagon"
 					tasks: [
 						{
-							icon: {
-								id: "mysticalagriculture:dye_seeds"
-							}
-							id: "2694B69E0E2DA5CD"
+							id: "5F91F645D55E49BB"
 							item: {
 								components: {
-									"ftbfiltersystem:filter": "or(item(mysticalagriculture:nature_seeds)item(mysticalagriculture:dye_seeds)item(mysticalagriculture:nether_seeds)item(mysticalagriculture:coal_seeds)item(mysticalagriculture:coral_seeds)item(mysticalagriculture:honey_seeds)item(mysticalagriculture:amethyst_seeds)item(mysticalagriculture:rubber_seeds)item(mysticalagriculture:silicon_seeds)item(mysticalagriculture:menril_seeds)item(mysticalagriculture:apatite_seeds)item(mysticalagriculture:saltpeter_seeds)item(mysticalagriculture:aluminum_seeds)item(mysticalagriculture:sulfur_seeds))"
+									"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t2seeds)"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1086,6 +1122,9 @@
 						"5574D291E6E69013"
 						"33AC3264C0AE8FF1"
 					]
+					icon: {
+						id: "mysticalagriculture:cow_seeds"
+					}
 					id: "0D92EFDB73114B0C"
 					rewards: [
 						{
@@ -1107,13 +1146,10 @@
 					shape: "hexagon"
 					tasks: [
 						{
-							icon: {
-								id: "mysticalagriculture:cow_seeds"
-							}
-							id: "44471E3598AA381B"
+							id: "2566CE0AC0925C71"
 							item: {
 								components: {
-									"ftbfiltersystem:filter": "or(item(mysticalagriculture:pig_seeds)item(mysticalagriculture:chicken_seeds)item(mysticalagriculture:cow_seeds)item(mysticalagriculture:sheep_seeds)item(mysticalagriculture:squid_seeds)item(mysticalagriculture:fish_seeds)item(mysticalagriculture:slime_seeds)item(mysticalagriculture:turtle_seeds)item(mysticalagriculture:armadillo_seeds))"
+									"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t2mobseeds)"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1129,6 +1165,9 @@
 						"68A9B5BD25E86D75"
 						"33AC3264C0AE8FF1"
 					]
+					icon: {
+						id: "mysticalagriculture:zombie_seeds"
+					}
 					id: "45F8CB4497591B10"
 					rewards: [
 						{
@@ -1150,13 +1189,10 @@
 					shape: "hexagon"
 					tasks: [
 						{
-							icon: {
-								id: "mysticalagriculture:zombie_seeds"
-							}
-							id: "55F2E8D6E339FE04"
+							id: "5AF37B4A61876A3E"
 							item: {
 								components: {
-									"ftbfiltersystem:filter": "or(item(mysticalagriculture:zombie_seeds)item(mysticalagriculture:skeleton_seeds)item(mysticalagriculture:creeper_seeds)item(mysticalagriculture:spider_seeds)item(mysticalagriculture:rabbit_seeds))"
+									"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t3mobseeds)"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1193,10 +1229,10 @@
 					shape: "hexagon"
 					tasks: [
 						{
-							id: "6D5A51E40562FF88"
+							id: "62AEAB0BA2360576"
 							item: {
 								components: {
-									"ftbfiltersystem:filter": "or(item(mysticalagriculture:iron_seeds)item(mysticalagriculture:copper_seeds)item(mysticalagriculture:nether_quartz_seeds)item(mysticalagriculture:glowstone_seeds)item(mysticalagriculture:redstone_seeds)item(mysticalagriculture:obsidian_seeds)item(mysticalagriculture:prismarine_seeds)item(mysticalagriculture:tin_seeds)item(mysticalagriculture:bronze_seeds)item(mysticalagriculture:zinc_seeds)item(mysticalagriculture:brass_seeds)item(mysticalagriculture:silver_seeds)item(mysticalagriculture:lead_seeds)item(mysticalagriculture:graphite_seeds)item(mysticalagriculture:sky_stone_seeds)item(mysticalagriculture:certus_quartz_seeds)item(mysticalagriculture:quartz_enriched_iron_seeds))"
+									"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t3seeds)"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1212,6 +1248,9 @@
 						"2E56DB4CBFE2F37C"
 						"33AC3264C0AE8FF1"
 					]
+					icon: {
+						id: "mysticalagriculture:ghast_seeds"
+					}
 					id: "7C4F7E36320797C5"
 					rewards: [
 						{
@@ -1233,13 +1272,10 @@
 					shape: "hexagon"
 					tasks: [
 						{
-							icon: {
-								id: "mysticalagriculture:experience_seeds"
-							}
-							id: "02C8EDC8ACEFC3B7"
+							id: "3D6DD528D310D8B9"
 							item: {
 								components: {
-									"ftbfiltersystem:filter": "or(item(mysticalagriculture:experience_seeds)item(mysticalagriculture:breeze_seeds)item(mysticalagriculture:blaze_seeds)item(mysticalagriculture:ghast_seeds)item(mysticalagriculture:enderman_seeds))"
+									"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t4mobseeds)"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1276,10 +1312,10 @@
 					shape: "hexagon"
 					tasks: [
 						{
-							id: "4507BF42E5A8FD9D"
+							id: "75EC422F0D5A29CE"
 							item: {
 								components: {
-									"ftbfiltersystem:filter": "or(item(mysticalagriculture:gold_seeds)item(mysticalagriculture:lapis_lazuli_seeds)item(mysticalagriculture:end_seeds)item(mysticalagriculture:steel_seeds)item(mysticalagriculture:nickel_seeds)item(mysticalagriculture:constantan_seeds)item(mysticalagriculture:electrum_seeds)item(mysticalagriculture:invar_seeds)item(mysticalagriculture:uranium_seeds)item(mysticalagriculture:soulium_seeds)item(mysticalagriculture:osmium_seeds)item(mysticalagriculture:fluorite_seeds)item(mysticalagriculture:refined_glowstone_seeds)item(mysticalagriculture:refined_obsidian_seeds)item(mysticalagriculture:compressed_iron_seeds)item(mysticalagriculture:fluix_seeds)item(mysticalagriculture:energized_steel_seeds)item(mysticalagriculture:blazing_crystal_seeds))"
+									"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t4seeds)"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1315,10 +1351,10 @@
 					shape: "hexagon"
 					tasks: [
 						{
-							id: "47E296C60E6A6459"
+							id: "19FB3879C5AE09BA"
 							item: {
 								components: {
-									"ftbfiltersystem:filter": "or(item(mysticalagriculture:wither_skeleton_seeds))"
+									"ftbfiltersystem:filter": "item_tag(ftb:t5mobseeds)"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1331,6 +1367,9 @@
 				}
 				{
 					dependencies: ["2AE9ADF578ABEA11"]
+					icon: {
+						id: "mysticalagriculture:diamond_seeds"
+					}
 					id: "60EBD67EDCE669DD"
 					rewards: [
 						{
@@ -1351,13 +1390,10 @@
 					shape: "hexagon"
 					tasks: [
 						{
-							icon: {
-								id: "mysticalagriculture:diamond_seeds"
-							}
-							id: "64CC6BB34041EAFB"
+							id: "683638FC21EA1713"
 							item: {
 								components: {
-									"ftbfiltersystem:filter": "or(item(mysticalagriculture:diamond_seeds)item(mysticalagriculture:emerald_seeds)item(mysticalagriculture:netherite_seeds)item(mysticalagriculture:platinum_seeds)item(mysticalagriculture:iridium_seeds)item(mysticalagriculture:niotic_crystal_seeds)item(mysticalagriculture:spirited_crystal_seeds))"
+									"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t5seeds)"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1381,7 +1417,7 @@
 							id: "0169D020B0C475F3"
 							item: {
 								count: 1
-								id: "magic_coins:crystal_coin"
+								id: "magic_coins:gold_coin"
 							}
 							type: "item"
 						}
@@ -1433,10 +1469,11 @@
 					id: "7123022757E50A70"
 					rewards: [
 						{
+							count: 2
 							id: "309674F383370AB5"
 							item: {
 								count: 1
-								id: "magic_coins:crystal_coin"
+								id: "magic_coins:gold_coin"
 							}
 							type: "item"
 						}
@@ -1470,10 +1507,11 @@
 					id: "458B3C345767E296"
 					rewards: [
 						{
+							count: 2
 							id: "65EAAC4774F5553C"
 							item: {
 								count: 1
-								id: "magic_coins:crystal_coin"
+								id: "magic_coins:gold_coin"
 							}
 							type: "item"
 						}
@@ -1514,10 +1552,11 @@
 					id: "4FD329857906DB24"
 					rewards: [
 						{
+							count: 2
 							id: "12E84724F45570A0"
 							item: {
 								count: 1
-								id: "magic_coins:crystal_coin"
+								id: "magic_coins:gold_coin"
 							}
 							type: "item"
 						}
@@ -2332,6 +2371,24 @@
 							table_id: 8417916111800609440L
 							type: "random"
 						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "6352A221FE9E724F"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "3AAC71DA6F8CD418"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
 					]
 					shape: "rsquare"
 					tasks: [
@@ -2477,10 +2534,11 @@
 					min_width: 250
 					rewards: [
 						{
+							count: 2
 							id: "3E39F2F91401AD86"
 							item: {
 								count: 1
-								id: "magic_coins:crystal_coin"
+								id: "magic_coins:gold_coin"
 							}
 							type: "item"
 						}
@@ -2489,6 +2547,24 @@
 							id: "6DE35B11D87136A6"
 							table_id: 8417916111800609440L
 							type: "random"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "1DE637E48DACD120"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "5D4F7757AB821B23"
+							permission_level: 3
+							silent: true
+							type: "command"
 						}
 					]
 					shape: "diamond"
@@ -2542,6 +2618,16 @@
 								count: 1
 								id: "mysticalagriculture:awakened_supremium_block"
 							}
+							optional_task: true
+							type: "item"
+						}
+						{
+							id: "17986591F29BE0F6"
+							item: {
+								count: 1
+								id: "mysticalagriculture:awakened_supremium_essence"
+							}
+							optional_task: true
 							type: "item"
 						}
 					]
@@ -2875,6 +2961,7 @@
 					min_width: 250
 					rewards: [
 						{
+							count: 3
 							id: "57ECEBDDE6746291"
 							item: {
 								count: 1
@@ -2957,7 +3044,7 @@
 					min_width: 250
 					rewards: [
 						{
-							count: 3
+							count: 5
 							id: "2F500AF1D66269C8"
 							item: {
 								count: 1
@@ -2984,7 +3071,7 @@
 						}
 					]
 					x: -8.0d
-					y: -3.9d
+					y: -3.9000000000000004d
 				}
 				{
 					dependencies: ["2D2EC0BCFF1DA68C"]
@@ -3002,10 +3089,11 @@
 					min_width: 300
 					rewards: [
 						{
+							count: 3
 							id: "02969AF4B9285A78"
 							item: {
 								count: 1
-								id: "magic_coins:gold_coin"
+								id: "magic_coins:silver_coin"
 							}
 							type: "item"
 						}
@@ -3112,7 +3200,7 @@
 					id: "090946AC35693607"
 					rewards: [
 						{
-							count: 3
+							count: 5
 							id: "40DE734598AC6EC3"
 							item: {
 								count: 1
@@ -3648,6 +3736,7 @@
 					optional: true
 					rewards: [
 						{
+							count: 2
 							id: "022966B78D492132"
 							item: {
 								count: 1
@@ -3680,6 +3769,7 @@
 					id: "7FC24DE55428724A"
 					rewards: [
 						{
+							count: 2
 							id: "5A64BA6C3CCBA1E2"
 							item: {
 								count: 1
@@ -3818,7 +3908,6 @@
 					id: "2315DBE189D330DA"
 					rewards: [
 						{
-							count: 2
 							id: "72ABB7027DE3C048"
 							item: {
 								count: 1
@@ -4118,11 +4207,11 @@
 					id: "1ED979557DB19A2D"
 					rewards: [
 						{
-							count: 2
+							count: 5
 							id: "5EFE9E5C324215A7"
 							item: {
 								count: 1
-								id: "magic_coins:gold_coin"
+								id: "magic_coins:silver_coin"
 							}
 							type: "item"
 						}
@@ -4364,6 +4453,12 @@
 							}
 							type: "item"
 						}
+						{
+							id: "33C41B1B00BC10A1"
+							team_reward: false
+							type: "xp"
+							xp: 100
+						}
 					]
 					shape: "square"
 					tasks: [
@@ -4576,6 +4671,24 @@
 							}
 							type: "item"
 						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "0C732BB7F6C643DB"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "5E5C5247D2359EAB"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
 					]
 					shape: "square"
 					tasks: [
@@ -4625,6 +4738,24 @@
 							random_bonus: 16
 							type: "item"
 						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "2B14BE8ADA94158C"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "6BC9A5BBDB50AAE9"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
 					]
 					shape: "square"
 					tasks: [
@@ -4663,6 +4794,9 @@
 				{
 					dependencies: ["42C41784169B2308"]
 					hide_dependent_lines: true
+					icon: {
+						id: "hostilenetworks:loot_fabricator"
+					}
 					id: "3C60FA46EA54C899"
 					rewards: [
 						{
@@ -4681,6 +4815,24 @@
 							}
 							type: "item"
 						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "3BFD190A717B5159"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "430BED624A8E8D9D"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
 					]
 					shape: "square"
 					tasks: [
@@ -4690,6 +4842,15 @@
 								count: 1
 								id: "hostilenetworks:loot_fabricator"
 							}
+							type: "item"
+						}
+						{
+							id: "7D92DCAF3B18ADC4"
+							item: {
+								count: 1
+								id: "hostilenetworks:fab_directive"
+							}
+							optional_task: true
 							type: "item"
 						}
 					]

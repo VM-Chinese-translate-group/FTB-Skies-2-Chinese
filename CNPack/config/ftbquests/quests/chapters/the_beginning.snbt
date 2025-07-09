@@ -83,8 +83,8 @@
 					image: "minecraft:block/spruce_log_top"
 					rotation: 0.0d
 					width: 2.0d
-					x: -3.0d
-					y: 1.0d
+					x: -5.5d
+					y: -0.5d
 				}
 				{
 					height: 10.0d
@@ -108,8 +108,8 @@
 				{
 					id: "1A3286C0CF18BCB8"
 					linked_quest: "1F94DD493FE20C0B"
-					x: -4.5d
-					y: 3.0d
+					x: -4.0d
+					y: 2.0d
 				}
 				{
 					id: "4A430610F07814F1"
@@ -169,6 +169,24 @@
 								id: "magic_coins:silver_coin"
 							}
 							type: "item"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New loot bag available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New loot bag available in the Shop!"
+							id: "7CF737CCB81345A8"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "6F2C9AD0F2E53A05"
+							permission_level: 3
+							silent: true
+							type: "command"
 						}
 					]
 					shape: "square"
@@ -339,6 +357,14 @@
 					optional: true
 					rewards: [
 						{
+							id: "5533A8FE0E2A91CD"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+						{
 							count: 8
 							id: "303E8A2D1DAC4562"
 							item: {
@@ -348,18 +374,22 @@
 							type: "item"
 						}
 						{
-							id: "16990847C1BFC052"
-							team_reward: false
-							type: "xp"
-							xp: 5
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "4E1ECF3EB642CE35"
+							permission_level: 3
+							silent: true
+							type: "command"
 						}
 						{
-							id: "5533A8FE0E2A91CD"
-							item: {
-								count: 1
-								id: "magic_coins:silver_coin"
-							}
-							type: "item"
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "070FE834EFF99D3F"
+							permission_level: 3
+							silent: true
+							type: "command"
 						}
 					]
 					shape: "hexagon"
@@ -392,6 +422,7 @@
 					optional: true
 					rewards: [
 						{
+							count: 3
 							id: "08C961ADA7F26356"
 							item: {
 								count: 1
@@ -465,7 +496,7 @@
 					id: "2E30AE23A0602A0A"
 					rewards: [
 						{
-							count: 3
+							count: 5
 							id: "37E53B7A9A7A9EC1"
 							item: {
 								count: 1
@@ -557,6 +588,14 @@
 					optional: true
 					rewards: [
 						{
+							id: "0962766968EF6819"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+						{
 							id: "5B47B6611835FFF6"
 							team_reward: false
 							type: "xp"
@@ -584,6 +623,14 @@
 					}
 					id: "231BAC05D93088B2"
 					rewards: [
+						{
+							id: "0C9183FD1C27B6C3"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:athletics 1"
 							feedback_message: "Athletic Skills Levelled Up"
@@ -943,6 +990,7 @@
 				}
 				{
 					dependencies: ["3BF066E5C333F217"]
+					hide_dependency_lines: true
 					id: "14D727685CB433C1"
 					rewards: [
 						{
@@ -959,7 +1007,7 @@
 							type: "item"
 						}
 					]
-					shape: "diamond"
+					shape: "rsquare"
 					tasks: [
 						{
 							id: "1742109302C18521"
@@ -970,8 +1018,8 @@
 							type: "item"
 						}
 					]
-					x: -3.5d
-					y: -0.5d
+					x: -3.0d
+					y: 2.0d
 				}
 				{
 					dependencies: [
@@ -1177,6 +1225,14 @@
 					optional: true
 					rewards: [
 						{
+							id: "098A56B495F682BA"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+						{
 							id: "37E00B759F239244"
 							item: {
 								count: 1
@@ -1229,15 +1285,6 @@
 							}
 							type: "item"
 						}
-						{
-							count: 5
-							id: "098A56B495F682BA"
-							item: {
-								count: 1
-								id: "magic_coins:silver_coin"
-							}
-							type: "item"
-						}
 					]
 					shape: "octagon"
 					size: 1.2d
@@ -1262,6 +1309,14 @@
 					id: "17C82FAD796695DE"
 					optional: true
 					rewards: [
+						{
+							id: "23E5B1DCDB882FC8"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
 						{
 							id: "078CB7AA1B8BF951"
 							item: {
@@ -1298,15 +1353,6 @@
 								id: "create:shaft"
 							}
 							team_reward: true
-							type: "item"
-						}
-						{
-							count: 5
-							id: "23E5B1DCDB882FC8"
-							item: {
-								count: 1
-								id: "magic_coins:silver_coin"
-							}
 							type: "item"
 						}
 					]
@@ -1361,7 +1407,7 @@
 					optional: true
 					rewards: [
 						{
-							count: 2
+							count: 3
 							id: "6AB79ECD2B72E6E8"
 							item: {
 								count: 1
@@ -1456,13 +1502,19 @@
 					optional: true
 					rewards: [
 						{
-							count: 2
+							count: 3
 							id: "449C442E4FE07F29"
 							item: {
 								count: 1
 								id: "magic_coins:silver_coin"
 							}
 							type: "item"
+						}
+						{
+							exclude_from_claim_all: true
+							id: "2092806C26DF0EDD"
+							table_id: 8417916111800609440L
+							type: "random"
 						}
 					]
 					tasks: [
@@ -1528,7 +1580,7 @@
 							type: "item"
 						}
 						{
-							count: 2
+							count: 3
 							id: "38441DDE0756CB4A"
 							item: {
 								count: 1
@@ -1565,6 +1617,14 @@
 					}
 					id: "2C82E0C4537DEF65"
 					rewards: [
+						{
+							id: "13AD1741F108F44A"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
 						{
 							count: 16
 							id: "00277F99D07A627F"
@@ -1614,6 +1674,14 @@
 					id: "4C8EB2205707AE45"
 					rewards: [
 						{
+							id: "409E76A4A8598D25"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+						{
 							count: 8
 							id: "19C83F9A820DFD7B"
 							item: {
@@ -1662,10 +1730,10 @@
 					rewards: [
 						{
 							count: 2
-							id: "36D79BF53CB792A3"
+							id: "04C5C42F9E236E69"
 							item: {
 								count: 1
-								id: "pneumaticcraft:transfer_gadget"
+								id: "minecraft:hopper"
 							}
 							type: "item"
 						}
@@ -1729,8 +1797,8 @@
 							type: "item"
 						}
 					]
-					x: -3.0d
-					y: 1.0d
+					x: -5.5d
+					y: -0.5d
 				}
 				{
 					dependencies: [
@@ -1746,7 +1814,7 @@
 					id: "6CADA41796D0F7F9"
 					rewards: [
 						{
-							count: 3
+							count: 5
 							id: "039346DB4612B078"
 							item: {
 								count: 1
@@ -1775,13 +1843,22 @@
 							type: "item"
 						}
 					]
-					x: 7.0d
+					x: 6.5d
 					y: -1.0d
 				}
 				{
 					dependencies: ["2C82E0C4537DEF65"]
 					id: "11EEAE553AD6C287"
 					rewards: [
+						{
+							count: 3
+							id: "716139F4274C8578"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
 						{
 							count: 16
 							id: "231E30977552094F"
@@ -1829,6 +1906,15 @@
 					id: "66BCBE932B1CCA45"
 					rewards: [
 						{
+							count: 3
+							id: "1FAB496B1D671D17"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+						{
 							count: 8
 							id: "77BE9519DBB8D179"
 							item: {
@@ -1836,15 +1922,6 @@
 								id: "minecraft:charcoal"
 							}
 							random_bonus: 4
-							type: "item"
-						}
-						{
-							count: 2
-							id: "1FAB496B1D671D17"
-							item: {
-								count: 1
-								id: "magic_coins:silver_coin"
-							}
 							type: "item"
 						}
 					]
@@ -1860,8 +1937,8 @@
 							type: "item"
 						}
 					]
-					x: 6.0d
-					y: 1.5d
+					x: 5.964285714285708d
+					y: 1.4464285714285694d
 				}
 				{
 					dependencies: ["5FCEA8229BB6955C"]
@@ -1897,6 +1974,7 @@
 				}
 				{
 					dependencies: ["3BF066E5C333F217"]
+					hide_dependency_lines: true
 					icon: {
 						id: "minecraft:wooden_hoe"
 					}
@@ -1914,7 +1992,7 @@
 							type: "item"
 						}
 					]
-					shape: "diamond"
+					shape: "rsquare"
 					tasks: [
 						{
 							id: "40EF108176203527"
@@ -1938,8 +2016,8 @@
 							type: "item"
 						}
 					]
-					x: -2.5d
-					y: -0.5d
+					x: -5.0d
+					y: 2.0d
 				}
 				{
 					dependencies: ["3BF066E5C333F217"]
@@ -2011,7 +2089,7 @@
 						}
 					]
 					x: -1.5d
-					y: 0.5d
+					y: 0.0d
 				}
 				{
 					dependencies: ["098F5497E0ABED3E"]
@@ -2078,7 +2156,7 @@
 						}
 					]
 					x: -3.0d
-					y: 2.5d
+					y: 1.0d
 				}
 				{
 					dependencies: ["3BF066E5C333F217"]
@@ -2086,6 +2164,14 @@
 						id: "ftbstuff:dripper"
 					}
 					id: "3F80D4097EA8C49B"
+					rewards: [
+						{
+							exclude_from_claim_all: true
+							id: "31BFFCB91C4EAF76"
+							table_id: 8721787916292516836L
+							type: "random"
+						}
+					]
 					tasks: [
 						{
 							id: "3497E6671BB17023"
@@ -2119,8 +2205,8 @@
 							type: "item"
 						}
 					]
-					x: -4.5d
-					y: 0.5d
+					x: -5.0d
+					y: 1.0d
 				}
 				{
 					dependencies: ["3F80D4097EA8C49B"]
@@ -2154,8 +2240,8 @@
 							type: "item"
 						}
 					]
-					x: -4.5d
-					y: 2.0d
+					x: -4.0d
+					y: 1.0d
 				}
 				{
 					dependencies: ["11EEAE553AD6C287"]
@@ -2164,6 +2250,14 @@
 					}
 					id: "642E67C7C2D1CF10"
 					rewards: [
+						{
+							id: "3F6286225E94CB35"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
 						{
 							count: 32
 							id: "7259B1528629F28B"
@@ -2264,6 +2358,14 @@
 					id: "31B2CB47C8867F0A"
 					rewards: [
 						{
+							id: "14687D19F5A29215"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+						{
 							count: 2
 							id: "0F73562D32A93744"
 							item: {
@@ -2324,7 +2426,16 @@
 						id: "mysticalagriculture:imperium_fishing_rod"
 					}
 					id: "3A4111B0851B336E"
+					optional: true
 					rewards: [
+						{
+							id: "533EA8CDA0879A67"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
 						{
 							id: "14F255237337150A"
 							item: {
@@ -2362,15 +2473,6 @@
 							}
 							type: "item"
 						}
-						{
-							count: 5
-							id: "533EA8CDA0879A67"
-							item: {
-								count: 1
-								id: "magic_coins:silver_coin"
-							}
-							type: "item"
-						}
 					]
 					shape: "octagon"
 					size: 1.2d
@@ -2399,6 +2501,14 @@
 					}
 					id: "253FA29ADE459464"
 					rewards: [
+						{
+							id: "60E7198798CB17B5"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
 						{
 							id: "0B3DCD0FD8D54F2E"
 							item: {
@@ -2438,16 +2548,22 @@
 							type: "item"
 						}
 					]
-					x: 0.0d
+					x: -0.5d
 					y: 2.0d
 				}
 				{
-					dependencies: [
-						"253FA29ADE459464"
-						"11EEAE553AD6C287"
-					]
+					dependencies: ["6CADA41796D0F7F9"]
 					id: "63F1648925C79179"
 					rewards: [
+						{
+							count: 3
+							id: "4E0DEC538F713B36"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
 						{
 							id: "101240E6CA60F33E"
 							item: {
@@ -2457,8 +2573,6 @@
 							type: "item"
 						}
 					]
-					shape: "hexagon"
-					size: 1.25d
 					tasks: [
 						{
 							id: "0AAF86315221DC57"
@@ -2469,8 +2583,8 @@
 							type: "item"
 						}
 					]
-					x: 1.5d
-					y: 2.0d
+					x: 7.678571428571416d
+					y: -1.017857142857146d
 				}
 				{
 					icon: {
@@ -2524,6 +2638,16 @@
 						id: "minecraft:lightning_rod"
 					}
 					id: "31C81ED0EEA8FD34"
+					rewards: [
+						{
+							id: "20D9002757F19B2B"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
 					shape: "gear"
 					size: 1.0d
 					tasks: [
@@ -2589,19 +2713,19 @@
 					id: "0337CA08F644568B"
 					rewards: [
 						{
-							exclude_from_claim_all: true
-							id: "155FA841D5F77808"
-							table_id: 2511192568746174896L
-							team_reward: false
-							type: "choice"
-						}
-						{
 							id: "7B3F3029DD2B90D4"
 							item: {
 								count: 1
 								id: "magic_coins:silver_coin"
 							}
 							type: "item"
+						}
+						{
+							exclude_from_claim_all: true
+							id: "155FA841D5F77808"
+							table_id: 2511192568746174896L
+							team_reward: false
+							type: "choice"
 						}
 						{
 							id: "55016884F82D4F59"
@@ -2657,6 +2781,7 @@
 					}
 					id: "1F0C3CD47947DA8D"
 					invisible: true
+					optional: true
 					rewards: [
 						{
 							id: "0208E60FCE198163"
@@ -2688,6 +2813,7 @@
 					dependencies: ["03837E8A75948DE5"]
 					hide_dependent_lines: true
 					id: "4A7A15ECB8ABDF88"
+					optional: true
 					rewards: [
 						{
 							id: "7511B64B0617C00C"
@@ -2707,7 +2833,8 @@
 							type: "item"
 						}
 					]
-					shape: "circle"
+					shape: "gear"
+					size: 0.75d
 					tasks: [
 						{
 							id: "1BB1BE5908323D0F"
@@ -2718,14 +2845,24 @@
 							type: "item"
 						}
 					]
-					x: 7.5d
-					y: 1.25d
+					x: 4.875d
+					y: 0.75d
 				}
 				{
 					dependencies: ["6CADA41796D0F7F9"]
 					hide_dependency_lines: true
 					id: "7D2375372CF328C3"
+					min_width: 350
 					rewards: [
+						{
+							count: 3
+							id: "7AD63B07EA278D78"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
 						{
 							id: "457F4C396A59D667"
 							item: {
@@ -2788,22 +2925,40 @@
 						id: "chipped:stop_black_concrete"
 					}
 					id: "3E6ED23A93BCBD03"
+					optional: true
 					rewards: [
 						{
-							auto: "invisible"
+							auto: "enabled"
 							icon: {
 								id: "mffs:infinite_power_card"
 							}
 							id: "54BFA4339B81E086"
 							ignore_reward_blocking: true
 							stage: "no_infinity"
+							team_reward: true
 							type: "gamestage"
+						}
+						{
+							auto: "invisible"
+							command: "/ftbquests change_progress @s reset 5784C27AA29E7344"
+							id: "5F0866BA0510C5BC"
+							permission_level: 3
+							type: "command"
 						}
 					]
 					shape: "diamond"
 					tasks: [
 						{
-							id: "4077DAFE2A38D249"
+							count: 4L
+							id: "4B2CFA896F51A126"
+							item: {
+								count: 1
+								id: "enderio:grains_of_infinity"
+							}
+							type: "item"
+						}
+						{
+							id: "50ADFBD431F6AF95"
 							type: "checkmark"
 						}
 					]
@@ -2818,6 +2973,16 @@
 						id: "ftbquests:custom_icon"
 					}
 					id: "2006F24858B4B4BB"
+					rewards: [
+						{
+							id: "6AAC272E86E89CAA"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+					]
 					shape: "gear"
 					size: 1.1d
 					tasks: [
@@ -2828,6 +2993,47 @@
 					]
 					x: 9.0d
 					y: -2.5d
+				}
+				{
+					dependencies: ["3E6ED23A93BCBD03"]
+					hide_until_deps_complete: true
+					icon: {
+						components: {
+							"ftbquests:icon": "pipez:item/infinity_upgrade"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5784C27AA29E7344"
+					optional: true
+					rewards: [
+						{
+							auto: "enabled"
+							icon: {
+								id: "mffs:infinite_power_card"
+							}
+							id: "15E473C7732E2CA7"
+							ignore_reward_blocking: true
+							remove: true
+							stage: "no_infinity"
+							type: "gamestage"
+						}
+						{
+							auto: "invisible"
+							command: "/ftbquests change_progress @s reset 3E6ED23A93BCBD03"
+							id: "0408421B2722E04E"
+							team_reward: false
+							type: "command"
+						}
+					]
+					shape: "diamond"
+					tasks: [
+						{
+							id: "0E43BBA4534C1D1B"
+							type: "checkmark"
+						}
+					]
+					x: -5.107142857142868d
+					y: -2.9107142857142847d
 				}
 			]
 		}

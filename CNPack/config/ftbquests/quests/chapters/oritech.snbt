@@ -1620,6 +1620,24 @@
 							random_bonus: 2
 							type: "item"
 						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "6C6DE2E89E7475A7"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "03F62F5E1755501B"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
 					]
 					shape: "hexagon"
 					size: 2.0d

@@ -305,6 +305,24 @@
 							random_bonus: 2
 							type: "item"
 						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "53F6811C6E07258F"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "000697EE8AEF6FC1"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
 					]
 					shape: "diamond"
 					tasks: [
@@ -380,6 +398,24 @@
 							random_bonus: 1
 							type: "item"
 						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "49E992440A9513DF"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "57054D481E605AC4"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
 					]
 					shape: "diamond"
 					tasks: [
@@ -427,6 +463,24 @@
 								id: "enderio:octadic_capacitor"
 							}
 							type: "item"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "14C3175DE5191EE4"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "62DBE5DC6D51BA3B"
+							permission_level: 3
+							silent: true
+							type: "command"
 						}
 					]
 					shape: "diamond"
@@ -1210,6 +1264,24 @@
 							random_bonus: 16
 							type: "item"
 						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "408472A6920ABA8C"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "35A2B554A33FEA95"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
 					]
 					shape: "rsquare"
 					tasks: [
@@ -1230,6 +1302,7 @@
 								count: 1
 								id: "enderio:yeta_wrench"
 							}
+							optional_task: true
 							type: "item"
 						}
 					]

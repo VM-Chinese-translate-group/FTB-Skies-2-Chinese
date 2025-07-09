@@ -72,12 +72,12 @@
 	quest.007CD364F96C2912.quest_desc: ["想跑的比兔子还快吗？&a自由助跑器&r就像闪电靴一样，让你的机动性增强。"]
 	quest.007CD364F96C2912.title: "&f跑得&a飞快！"
 	quest.0089BFB911BD5E5B.quest_desc: [
-		"While only being able to operate in a radius (1 block per &2scale module&r), the &eInterdiction Matrix&r is no less powerful for it."
+		"虽然只能在一定范围内生效（每个&2尺寸模块&r一格半径），&e结界矩阵&r的能力却并不小。"
 		""
-		"When powered by &3Fortron&r and with a &aBiometric Identifier&r on its frequency, it can use installed &amodules&r to perform various key functions, such as: killing hostile mobs, denying block interaction without use of chunk claims or among team members, and warning the general public that they're getting too close to that nuclear mishap &l(not your fault)&r"
+		"提供&3Fortron&r和一台处于相同频率的&a生物识别器&r，结界矩阵就可以使用安装其内的&a模块&r来实现多种关键功能，例如击杀敌对生物，在不使用区块声明和队伍的情况下禁止方块交互，警告过于靠近核事故区的公众&l（不是你的错）&r等等。"
 	]
-	quest.0089BFB911BD5E5B.quest_subtitle: "&o\"The action of prohibiting or forbidding something\""
-	quest.0089BFB911BD5E5B.title: "&eInterdiction Matrix"
+	quest.0089BFB911BD5E5B.quest_subtitle: "&o“阻止或禁止某些东西的行为”"
+	quest.0089BFB911BD5E5B.title: "&e结界矩阵"
 	quest.00A7C1FE54F86429.quest_desc: [
 		"&e神化模组&r给原版附魔系统做了个大改，现在它有了三个全新的数值，可以进行更高阶的附魔，而且书架也可以升级了。在附魔台面前乱点之前先来看看这三个数值是干啥的吧。"
 		""
@@ -224,7 +224,6 @@
 	]
 	quest.01DB719967817220.quest_subtitle: "反物质重要吗？"
 	quest.01DB719967817220.title: "&d超临界移相器"
-	quest.01EACBB904547728.title: "&f斗轮式挖掘机"
 	quest.0219C9D8447C8936.quest_desc: [
 		"&2任意门投影仪&r是一个可以开启任意门用于快速旅行的简单设备！"
 		""
@@ -244,7 +243,7 @@
 		""
 		"假如你的网络里头机器太多了，把能量都吸干了的话，加装一个缓存AE能量的&b能源元件&r也许是个不错的选择。"
 		"{@pagebreak}"
-		"&b水晶共振生成器&r可以为你免费产生AE能量。"
+		"&d水晶共振生成器&r可以为你免费产生AE能量。"
 		""
 		"这个共振发生器会吸收水晶的震动能量，大约能产生20AE/t的能量。不过由于共振的原因，每个AE网络只允许安装一个。"
 	]
@@ -270,7 +269,7 @@
 		""
 		"这些锭用于制作一些高级物品，例如&d高压蓄电池&r。"
 	]
-	quest.026A64F01C301119.title: "&3高定向热解石墨&r"
+	quest.026A64F01C301119.title: "&3HOP Graphite Dust"
 	quest.028BF2D5CFCDA52A.title: "&e机械化超级计算机"
 	quest.02BC61BBCDB931A3.quest_desc: [
 		"&6燃气发电机&r是游戏前期中最强的发电方式之一，可一直用到游戏中期。"
@@ -289,7 +288,7 @@
 	quest.02F52598328E84A0.quest_desc: [
 		"通过将我们全新的&b强化合金&r和&c高级控制电路&r相结合，就能做出&9精英控制电路&r。"
 		""
-		"你需要用这些材料升级机器至&9精英&r工厂所必需的，以备高阶合成使用。"
+		"These are needed to upgrade machines to the &9Elite&r tier of factories, as well as being used in higher tier crafts."
 	]
 	quest.02F52598328E84A0.title: "&b精英控制电路"
 	quest.02F6AC9E53029E0A.quest_desc: [
@@ -348,11 +347,11 @@
 	quest.0354E57671DAFDF3.quest_desc: ["Upgraded from &7Ferricore&r using a &6Blazegold Template&r"]
 	quest.0354E57671DAFDF3.title: "&c烈焰金靴子"
 	quest.03569C25419223DC.quest_desc: [
-		"你可以把你的存储方块升级到不同的金属等级，和&6精妙背包&r一样。"
+		"Just like &eSophisticated Backpacks&r, you can upgrade your storage to the different metal tiers."
 		""
 		"你可以制作一个&a基础铁&r升级，然后对你的存储方块使用它。"
 		""
-		"注意：你也可以直接将基础等级升级到更高等级！"
+		"&eNote&r: You can also upgrade to the higher tiers from the basic tier as well!"
 	]
 	quest.03569C25419223DC.title: "&f升级等级"
 	quest.03597EC99930955D.quest_desc: ["矿石生成这种资源来形成母岩。"]
@@ -615,9 +614,9 @@
 		""
 		"你可以制作一个&2精妙背包&r来解决这个难题。它们能简单粗暴解决掉你的物品栏空间不足问题！背包升级后能让你存储更多物品，除此之外，背包还有一大堆酷炫升级，例如&a合成升级&r能让你随时使用工作台。"
 		""
-		"你可以把背包放到饰品栏，然后按快捷键就能打开。如果它在主手的话直接潜行右击就能放下。"
+		"You can place these in a &eCurio Slot&r as well for easy access using a keybind. These can also be placed down in the world by Sneak + Right-clicking while it's in your main hand."
 	]
-	quest.05CEF45909A11F60.title: "&6精妙背包"
+	quest.05CEF45909A11F60.title: "&eSophisticated Backpacks"
 	quest.05D58770A092F5E6.quest_desc: [
 		"充能时，&3质粒注入器&r可将&3质粒&r加入&c装满的注射器&r中。"
 		""
@@ -634,6 +633,7 @@
 		"[\"You can refer to the Main LV Steam Turbine Quest for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
 	]
 	quest.0603F40C8DB12868.title: "&2低压柴油发电机"
+	quest.060A25320CCAF480.title: "&bElectronic Circuit"
 	quest.06666C9D93C1A3EE.quest_desc: [
 		"&a探索者指南针&r可以定位整合包中的任何结构！"
 		""
@@ -878,6 +878,7 @@
 		"这些方块会被转化为&a原初煤炭&r，是个不错的燃料。"
 	]
 	quest.0868EF9F8233B6ED.title: "&f黏糊糊的&a煤炭"
+	quest.086CEFFCD4F4F088.title: "&dDigital Circuit"
 	quest.08766B8721B4E541.quest_desc: [
 		"你在下界探索的时候，可能会碰到&c军团前哨&r。"
 		""
@@ -1086,7 +1087,7 @@
 		"&7&o厌倦了丑陋的电缆在基地周围晃来晃去？厌倦了每个模组都有自己一套隐藏电缆的方法？厌倦了那些甚至无法隐藏电缆的模组？现在再也不用烦恼了！"
 		""
 		"&eCable Facades&r模组提供了一种万能解决方案，可以隐藏您所有的电缆。"
-		""
+		"{@pagebreak}"
 		"要设置一个空的&b伪装方块&r，只需将其与目标方块一起放入工作台的合成栏中。虽然会“消耗”该方块，但此过程可以通过将&b伪装方块&r放回合成栏并合成方块来逆转。"
 		""
 		"设置完成后，只需将&b伪装方块&r覆盖在杂乱的电缆上，电缆就消失无踪了！"
@@ -1302,7 +1303,7 @@
 		"&a装配IO单元&r控制配方的输入和输出。必须在面积为3x3的区域内拥有箱子和装配平台之类的空存储空间。"
 	]
 	quest.0B9781072E9E935C.title: "&f装配线"
-	quest.0BA2B0E5F57A6FC8.title: "&bGenetic Pool Bag"
+	quest.0BA2B0E5F57A6FC8.title: "&b基因库奖励包"
 	quest.0BA61DBFC36F585E.quest_desc: ["&6魔王碎矿者&r的功能与其他所有的&b碎矿者&r相同，但它的产出量是六倍。"]
 	quest.0BA61DBFC36F585E.title: "&6魔王碎矿者"
 	quest.0BA876EC757BBE6F.quest_desc: ["&d钻石自动合成仓&r有63个&a样板&r槽位，基础工作速度相当于满速度升级的&3金自动合成仓&r。"]
@@ -1445,6 +1446,7 @@
 		"小提示：&d魔灵同调水晶&r在搭建附魔台时很有用！"
 	]
 	quest.0D0892AD0DB44795.title: "&f魔灵同调宝石"
+	quest.0D140D95D0537559.title: "&bEssence Goodie Bag"
 	quest.0D35D0D33922A201.quest_desc: [
 		"传送门可通过JEI中的对应配方合成。制作完成后，右击方块即可激活传送门，同时做好战斗准备吧！敌人将蜂拥而出，等待你去消灭。"
 		""
@@ -1559,7 +1561,7 @@
 	quest.0E19151FCABF4759.title: "&f重置运动技能树"
 	quest.0E1F59CE575178C7.quest_desc: ["Upgraded from &6Blazegold&r using a &3Celestigem Template&r"]
 	quest.0E1F59CE575178C7.title: "&d苍穹晶护腿"
-	quest.0E201000BADC9B61.title: "&bRandom Tool Bag"
+	quest.0E201000BADC9B61.title: "&b随机工具奖励包"
 	quest.0E610A03BB4007B6.quest_desc: ["消耗个别怪物的掉落物发电。"]
 	quest.0E610A03BB4007B6.title: "&f菌丝网络死灵发电机"
 	quest.0EA1B56A92D0403F.quest_desc: [
@@ -1747,7 +1749,7 @@
 	]
 	quest.107C26E8BF309BC1.title: "&f奥术战利品"
 	quest.109CB437DFAECDC6.quest_desc: [
-		"&a合金炉&r将是你&e末影接口&r旅途中最常用的机器，它比&7简易合金炉&r要好得多，且可以用&b电容&r升级。"
+		"The &aAlloy Smelter&r will be your most used machine in &eEnderIO&r as it is an improved version of the &7Primitive Alloy Smelter&r, and can be upgraded with &bCapacitors&r."
 		""
 		"在&a合金炉&r的UI内，你可以按需进行自动化配置，比如侧面输入/输出、红石控制，以及切换工作模式。"
 		"{@pagebreak}"
@@ -1903,14 +1905,13 @@
 	quest.1208CF1D5CA9E590.quest_desc: [
 		"&a斯特林发电机&r是末影接口提供的早期发电机。它可以燃烧可燃物（如煤炭）并产生微量能量"
 		""
-		"&7&oEnderIO machines can also be powered by other energy mods."
+		"&7&o末影接口的机器也可以由其他模组的电力供能"
 	]
 	quest.1208CF1D5CA9E590.title: "&f发电"
 	quest.1237537100194BED.quest_desc: [
 		"作为掌管腐朽之神，&d凋灵&r被击败后掉落的&6下界之星&r愈发成为彰显实力的重要象征。"
 		""
 		"将3个凋灵骷髅头颅放置于4块灵魂沙组成的“T”形结构上面即可召唤。"
-		""
 		""
 		"{image:minecraft:textures/painting/wither.png width:100 height:100 align:center}"
 	]
@@ -2062,24 +2063,22 @@
 		"&6Oritech&r提供了两种不同的附魔方式。该模组的所有装备和工具都可以附魔。"
 		""
 		"&d稳定附魔器&r允许将“正常”的附魔应用于装备。当附近有充满&9灵魂&r的&d奥术触媒&r时候，可以将任何附魔书中的附魔应用到任何物品上，并且可以达到任意等级"
-		""
 		"{@pagebreak}"
-		"把物品放入&d稳定附魔台&r后，就可以在GUI中选择可用的附魔。附魔可以保留给下一个物品，或者直接换掉。"
+		"When inserting an item into the &dStabilized Enchanter&r, you can select the enchantment to be applied from the GUI. The enchantment is stored for subsequent items but can also be changed."
 		""
-		"稳定附魔台需要能量和&9灵魂&r才能正常运作，但&d稳定附魔台&r本身不会主动收集灵魂，它会从周围的&d奥术触媒&r中自动提取&9灵魂&r。附魔等级越高需要的&d奥术触媒&r越多。"
+		"Both energy and &9Souls&r are required to operate. The &dStabilized Enchanter&r doesn't collect souls by itself, but instead uses &9Souls&r stored in nearby &dArcane Catalysts&r. The number of required &dArcane Catalysts&r depends on the level of the enchant."
 		""
-		"注意：只有储存了&9灵魂&r的&d奥术触媒&r才会被计算在内。"
-		""
+		"Only &dArcane Catalysts&r with stored &9Souls&r are counted."
 		"{@pagebreak}"
-		"&d奥术触媒&r还可以用附魔书附魔物品，前提是附魔书上的附魔必须满级。它可以把任意附魔附加到任意物品上。"
+		"The &dArcane Catalysts&r may also enchant items using books. The book used must be at the maximum level of the enchantment. It can apply any enchantment to any item."
 		""
-		"如果工具已经处于或高于所应用附魔的最大等级，它将被&6超附&r。 这会显著增加附魔成本，但允许你超过默认的最大等级。"
+		"If a tool is already at the maximum or higher level of the applied enchantment, it will be &6Hyper Enchanted&r. This significantly increases the enchantment cost but allows you to exceed the default max level."
 		""
-		"默认情况下，&d奥术触媒&r可以存储50个灵魂。然而，&6超附&r需要超过50个灵魂。"
+		"By default, an &dArcane Catalyst&r can store up to 50 &9Souls&r. However, &6Hyper Enchanting&r requires more than that."
 		""
-		"你可以使用&a末影激光器&r来稳定&d奥术触媒&r。每个激光器都会增加可存储的&9灵魂&r数量。"
+		"You can stabilize the &dArcane Catalysts&r using &aEnderic Lasers&r, each one increasing the number of &9Souls&r that can be stored."
 		""
-		"&c&l注意！！！&r，如果储存大量&9灵魂&r的时候失去外部稳定，则可能造成&c 极 其 严 重 &r的后果！！"
+		"&c&lWARNING!&r Loss of stabilization while storing &9Souls&r may have &ccatastrophic&r consequences."
 	]
 	quest.13DFA7B0975971B7.title: "&dOritech的附魔方式"
 	quest.13EC7C64DFBD1556.quest_desc: [
@@ -2216,14 +2215,14 @@
 	quest.1553CDD5ED42DF02.title: "&f勘探之路"
 	quest.15801A9BA5162395.title: "&f核源铁靴子"
 	quest.15956817DCDAD8C3.quest_desc: [
-		"Enchanted is a mod heavily inspired by the old mod Witchery."
+		"Enchanted是受旧版本模组巫术（Witchery）的极大启发而作的模组。"
 		""
 		"While the &aWitch's Oven&r is the iconic block of the mod, to really get started you'll need to take a dip into&e herbology&r off to the side."
 		""
 		"You can rarely get these seeds to drop from grass, but here's a few boxes with magical seeds to help get your green thumb going."
 	]
-	quest.15956817DCDAD8C3.quest_subtitle: "The Way of Witchery"
-	quest.15956817DCDAD8C3.title: "Entering Enchanted"
+	quest.15956817DCDAD8C3.quest_subtitle: "巫术之路"
+	quest.15956817DCDAD8C3.title: "步入Enchanted"
 	quest.15AE2FB38468A8B3.quest_desc: [
 		"将你的纯&2石脑油&r和&7蒸汽&r在&3化学反应釜&r中化合并制造&d蒸汽裂解石脑油&r。"
 		""
@@ -2262,7 +2261,7 @@
 	quest.15F655AA668D6541.title: "&f流体混合器"
 	quest.15F9D5C1BDCF2D80.title: "&316k存储元件"
 	quest.16180601C60DA378.title: "&f升级：夜视"
-	quest.1619084AFCD0B0DD.quest_desc: ["&bSleeping Bags&r can be used to sleep at night without resetting your spawn point!"]
+	quest.1619084AFCD0B0DD.quest_desc: ["&aSleeping Bags&r can be used to sleep at night without resetting your spawn point!"]
 	quest.1619084AFCD0B0DD.title: "&bSleeping On The Go"
 	quest.16206DA366CABDBE.quest_desc: ["用&a研钵&r和&a研钵&r粉碎可以制作一些物品或扩展其它用途，它也是创建&b法术&r的关键工具。"]
 	quest.16206DA366CABDBE.quest_subtitle: "研钵及研杵？"
@@ -2445,8 +2444,6 @@
 		"With &aEasy Villagers&r, you can literally pick up villagers by sneak-right clicking on them. This makes for super easy villager halls!"
 		""
 		"You can also create &aTrader Blocks&r to place them in with their trading table to create a one block trading solution."
-		""
-		"This mod also allows for one block solutions for crop farms, iron golems, and more! Also available for piglin bartering!"
 	]
 	quest.18913114C6D06E74.title: "&aEasy Villagers"
 	quest.189DE52ADD270985.quest_desc: [
@@ -2470,7 +2467,7 @@
 		"{@pagebreak}"
 		"在主界面内，你会发现每个功能中都有一个“&a+&r”键。这其中有非常多配置可以更改，以便于打造更为精细的系统。"
 		""
-		"不过，由于可修改的配置数量实在是惊人，你最好还是查阅&6I.D&r的指导书来查看更具体的配置说明。"
+		"Due to the sheer amount of different properties, it is best to refer to the &eI.D&r guidebook for more specific properties."
 		"{@pagebreak}"
 		"{image:ftb:textures/quests/integrated_dynamics/interfaces/info_interface.png width:150 height:150 align:center}"
 		""
@@ -2597,6 +2594,7 @@
 	quest.1A43F480970FEBBB.title: "&5蚀空合金锄"
 	quest.1A4F6C1AC9BD2F42.quest_desc: ["你可以通过让&a发光蜜蜂&r和&a巧克力穴居蜜蜂&r一起繁殖，以制作&c红石蜜蜂&r。"]
 	quest.1A4F6C1AC9BD2F42.title: "&c红石蜜蜂"
+	quest.1A4FFDB9FCD04537.title: "&bRandom Seed Bag"
 	quest.1A648F49F72639CC.quest_desc: [
 		"&d星光充能台&r可以使用&5夜晚&r的力量给装备充能，充能会给主材料巨大的属性加成。"
 		""
@@ -3051,26 +3049,26 @@
 	quest.1E0BB50868F951A3.quest_subtitle: "可以储存配方所需物品。"
 	quest.1E0BB50868F951A3.title: "&f水果篮"
 	quest.1E2A91B73A752B3B.quest_desc: [
-		"The &aBiometric Identifier&r is a requirement for making the &dForcefield&r and the &eInterdiction Matrix&r function on an individual level, such as being able to sneak to walk through field blocks."
+		"&a生物识别器&r为&d力场&r和&e结界矩阵&r提供了调整个体权限的功能，例如潜行穿过力场方块的权限。"
 		""
-		"Any player not sneaking inside a field block will take instantaneous &cinfinite damage&r.&r"
+		"任何不在力场方块内潜行的玩家都将瞬间受到&c无限大的伤害&r。&r"
 		""
-		"You will need an &bIdentification Card&r registered to yourself and one per any relevant players. These registered &bcards&r are placed into slots in the &aIdentifier&r machine."
+		"你需要为自己注册一张&b身份卡&r，也要给你的朋友注册一张，这些注册过的&b身份卡&r需要放进&a生物识别器&r的对应槽位里。"
 		""
-		"Other players can be registered by sneak + right-clicking them with the &bcard&r."
+		"手持&b身份卡&r潜行右击其他玩家即可对其进行注册。"
 		"{@pagebreak}"
-		"GUI Breakdown:"
+		"GUI解析："
 		""
-		"The first slot is for allowing/disallowing various \"rights\" to the &bcard's&r registered player."
+		"第一个槽位可以允许或禁止&b身份卡&r注册人的“权限”。"
 		""
-		"The second slot will copy the rights of a &bcard&r in the first slot onto any &bcard&r placed into the second."
+		"第二个槽位用来复制第一个槽位中&b身份卡&r的权限并将其写入第二个槽位的&b身份卡&r中。"
 		""
-		"The third slot grants all rights to the &bcard's&r registered player. The &aIdentifier&r will &lnot&r turn on without a card in this slot."
+		"第三个槽位将赋予&b身份卡&r注册人所有权限，&a生物识别器&r在该槽位没有身份卡时将&l不会&r运行。"
 		""
-		"The remaining 9 slots will apply the defined rights to the relevant player when a &bcard&r is placed inside."
+		"将&b身份卡&r放进其余九个槽位以定义对应玩家的权限。"
 	]
-	quest.1E2A91B73A752B3B.quest_subtitle: "&oWho are you again?"
-	quest.1E2A91B73A752B3B.title: "&aBiometric Identifier"
+	quest.1E2A91B73A752B3B.quest_subtitle: "&o你又是谁？"
+	quest.1E2A91B73A752B3B.title: "&a生物识别器"
 	quest.1E2E7BE146EC3D58.quest_desc: ["&7&o在领取任务奖励前，确保你的背包中有时间之袋。"]
 	quest.1E2E7BE146EC3D58.title: "&a时间增量（10分钟）"
 	quest.1E39AB995B86D47A.quest_desc: [
@@ -3086,8 +3084,6 @@
 		"虽然开始时很弱，但你在与生物战斗的过程中会获得更多&b优势和技能&r。你可以按&aK&r打开技能界面，在&6近战&r和&6远程&r标签页中查看这些技能。"
 	]
 	quest.1E45E1137B022BA3.title: "&a出击&f时见到！"
-	quest.1E4E6C65458B75AE.quest_subtitle: "货币兑换"
-	quest.1E4E6C65458B75AE.title: "&f银 -> 金"
 	quest.1E7B5442F153ED3B.quest_subtitle: "猪灵是好朋友"
 	quest.1E7B5442F153ED3B.title: "&e堡垒之戒"
 	quest.1E9349AC359E058E.quest_desc: ["&a动力轴承&r可以旋转连接的结构"]
@@ -3209,7 +3205,7 @@
 	]
 	quest.1FE952E6D58451EA.title: "&f抄录&d法术&r"
 	quest.1FEEBCA6D633B479.quest_desc: [
-		"&6末影存储&r可以实现跨维度存储流体和物品。"
+		"&eEnder Storage&r allows for cross-dimensional storage of items and fluids."
 		""
 		"相同颜色排列的&a末影箱子&r之间互通，用任意颜色的染料对着它的羊毛右击就可以改变颜色。"
 		"{@pagebreak}"
@@ -3219,13 +3215,13 @@
 		""
 		"手持&b钻石&r右击&a末影箱子&r会将它转化为私人模式，这样就只有对它使用钻石的玩家能使用它了，服务器用这个挺舒适的。"
 	]
-	quest.1FEEBCA6D633B479.title: "&a末影存储"
+	quest.1FEEBCA6D633B479.title: "&eEnder Storage"
 	quest.2006F24858B4B4BB.quest_desc: [
 		"我的世界中有大量基础资源，而模组在此基础上增添了更多！"
 		""
 		"[\"如果你不清楚特定材料的获取方式，可查阅\", {\"text\": \"初始材料章节\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6AA8A1FF1C8089F7\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往初始材料章节\"]} }, \"获得指引，无需独自翻阅十几页JEI。\"]"
 	]
-	quest.2006F24858B4B4BB.quest_subtitle: "这个物品还能怎么合成来着？"
+	quest.2006F24858B4B4BB.quest_subtitle: "How Do I Get This Again?"
 	quest.2006F24858B4B4BB.title: "&6初始材料指南"
 	quest.201BB935C9972574.quest_desc: [
 		"小型法术槽升级可以使用大量&c疣猪皮&r及少量&b奥术布匹&r来合成。"
@@ -3274,10 +3270,8 @@
 		"&bFargo的地牢&r可以在&c下界&r的y:25到y:50之间找到。"
 	]
 	quest.20B98E676C8CC943.title: "&d可憎的能量（憎恶能量）"
-	quest.20C356E104F549CD.quest_subtitle: "货币兑换"
-	quest.20C356E104F549CD.title: "&f金-> 水晶"
 	quest.20C91F9D612B52D1.quest_desc: ["一只急需补水干枯恶魂。把它放在水里20分钟，你即可获得一位新朋友！"]
-	quest.20C91F9D612B52D1.title: "&eDried Ghast"
+	quest.20C91F9D612B52D1.title: "&e失水恶魂"
 	quest.20CC7D7B65AE1BB4.quest_desc: ["Upgraded from &3Celestigem&r using an &5Eclipse Alloy Template&r"]
 	quest.20CC7D7B65AE1BB4.title: "&5蚀空合金头盔"
 	quest.20DCC194EED4395B.quest_subtitle: "优秀的作战套装"
@@ -3470,7 +3464,7 @@
 	quest.2315DBE189D330DA.quest_subtitle: "给末影龙蜜蜂放个假吧"
 	quest.2315DBE189D330DA.title: "&e升级：&f产量ω"
 	quest.231BAC05D93088B2.quest_desc: [
-		"当你在外采矿时，你可能在聊天中看到你获得了一个技能点！"
+		"While you were chopping trees and running around your area, you might have seen in chat that you've gained a skill point!"
 		""
 		"这个整合包使用&dPuffish Skills&r模组的自定义技能，&b技能界面&r可以通过按&bK&r（默认）打开。"
 		""
@@ -3816,9 +3810,11 @@
 	]
 	quest.2680E1E74C44F336.title: "&a部件属性&r"
 	quest.2682A911828C2D88.quest_desc: [
-		"Have you ever wished you had stairs of a certain block type? Maybe a slab of a block that you don't normally have?"
+		"&7&oHave you ever wished you had stairs of a certain block type? Maybe a slab of a block that you don't normally have?"
 		""
-		"&aFramed Blocks&r allow you to create custom blocks and shapes that uses the texture of almost any other block in the pack! To do this, place down a framed block, and then use the block with the desired texture on the framed block to copy the texture over."
+		"&eFramed Blocks&r allow you to create custom blocks and shapes that uses the texture of almost any other block in the pack!"
+		""
+		"To do this, place down a framed block, and then use the block with the desired texture on the framed block to copy the texture over."
 		""
 		"There are also some cool features for these blocks, like using &6Glowstone Dust&r on a framed block to make it glow!"
 	]
@@ -3905,7 +3901,7 @@
 	quest.26D8F6345B6AB232.title: "&b咒术师套装"
 	quest.26E9A55633DF1D07.title: "&e抽屉奖励包"
 	quest.26EA309139C7C27E.quest_desc: [
-		"想要个熔炼速度更快的熔炉？试试神秘农业的吧！"
+		"&7&oYou want a faster furnace? Mystical Ag. has you covered."
 		""
 		"&b熔炉&r消耗能量来熔炼物品，且内部自带燃烧煤炭或木头发电的&a发电机&r。"
 		""
@@ -3939,7 +3935,7 @@
 		"将图腾基座放在底部，然后在基座上方放置至多五块图腾原木，使其形成一根柱子，你就可以用精魂来把它们变成特定的图腾柱了。只要全套图腾样式正确，你就可以右击基座来激活图腾柱，从而展开&e图腾仪式&r。再次右击基座可以停止仪式。"
 		""
 		"这些仪式会为这个世界及附近区域的人带来各种各样的影响。"
-		"虽然你可以在同一片区域内进行多个仪式，但是两个及以上的相同仪式会导致它们彼此抵消。"
+		"While multiple Rites can be invoked on an area, two or more of the same Rite will cancel each other out."
 		""
 		"&a图腾法杖&r可以让你看到仪式作用范围，还可以调节图腾柱，使其在没激活时也能够发光。"
 	]
@@ -4114,7 +4110,7 @@
 	quest.2992268BD1E5C553.quest_desc: ["&3充能&r整个方块与单个水晶的耗材相同，可以为你节约一些充能材料。"]
 	quest.2992268BD1E5C553.quest_subtitle: "900%的价值！"
 	quest.2992268BD1E5C553.title: "&3充能水晶块"
-	quest.2993D08F60B41ABF.title: "&6Max Storage Upgrade"
+	quest.2993D08F60B41ABF.title: "&6最大存储升级"
 	quest.299CD86325D3D74B.quest_desc: [
 		"&a散热片&r放在方块或机器上，就可以加快对应方块的&c散热速度&r！"
 		""
@@ -4267,7 +4263,7 @@
 	quest.2B0CFC423CE66AAE.quest_desc: [
 		"If you hold a &aHoe&r in either hand and spam crouch, you can speed up the growth of nearby crops!"
 		""
-		"While this doesn't work on crops from Mystical Agriculture, it does work on &bBudding Certus Quartz&r!"
+		"While this doesn't work on crops from &eMystical Agriculture&r, it does work on &bBudding Certus Quartz&r!"
 	]
 	quest.2B0CFC423CE66AAE.title: "&fTwerk To Work"
 	quest.2B21D8D19E0413AC.quest_desc: ["[\"一位沉睡的\", {\"text\": \"远古巫妖\", \"color\": \"gold\", \"italic\":false}, \"深藏在\", {\"text\": \"下界地牢\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2B4392602E94D3D8\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往Fargo的地牢任务\"]} }, \"之中。与其“遗体”交互，即可挑战它那强大的力量。\"]"]
@@ -4334,14 +4330,14 @@
 		"这些资源大多可以通过探索和刷怪获得，也可以通过矿石制造装置来获得，如&e矿工透镜&r，还可以通过在熔铸炉献祭生物的方式……"
 		"&7小小尝试一下其他的资源获取方式，也许会让母岩制作更容易。&r "
 		""
-		""
-		"锇晶矿母岩是一个例外，其拥有另外一个可选配方，将一些材料丢进&3熔融谐振末影&r来获得。"
+		"One exception to this is Osmium, which has an alternate recipe of tossing certain ingredients into a puddle of &3Molten Ender&r to bind them."
 	]
 	quest.2BCDA4C64936EBE2.title: "&f熔铸炉晶矿"
 	quest.2BD29E8328B23166.quest_desc: ["also make the quests invis until dependencies are complete"]
 	quest.2BD29E8328B23166.quest_subtitle: "Make this a dependency to help hide quests"
 	quest.2BD29E8328B23166.title: "始终隐藏"
-	quest.2BD672ED1CC617EA.title: "&bMystical Enlightenment IV"
+	quest.2BD672ED1CC617EA.quest_desc: ["&7&oWhat? Of course I don't have Cognizant Dust... I'm a trader, not a fighter!"]
+	quest.2BD672ED1CC617EA.title: "&b神秘启示 IV"
 	quest.2BFD68083AD1B894.quest_desc: ["&a成型面板&r可以将网络中的东西放置到世界中。"]
 	quest.2BFD68083AD1B894.title: "&a成型面板"
 	quest.2C0332B3354D8A9C.quest_desc: [
@@ -4359,11 +4355,11 @@
 	]
 	quest.2C0C63951FDED180.title: "&dParticle Accelerator"
 	quest.2C1649AE3DADD71D.quest_desc: [
-		"&bConstruction Sticks&r is a mod all about making the building process much faster."
+		"&eConstruction Sticks&r is a mod all about making the building process much faster."
 		""
-		"While holding a &bConstruction Stick&r in your hand, you can extend blocks in any direction with just one click!"
+		"While holding a &eConstruction Stick&r in your hand, you can extend blocks in any direction with just one click!"
 		""
-		"There are also some cool upgrades that you can add to the Sticks, like making it use power instead of durability."
+		"There are also some cool upgrades that you can add to the &eSticks&r, like making it use power instead of durability."
 	]
 	quest.2C1649AE3DADD71D.quest_subtitle: "Construction Sticks"
 	quest.2C1649AE3DADD71D.title: "&bFaster Building"
@@ -4572,8 +4568,7 @@
 	quest.2E30AE23A0602A0A.quest_desc: [
 		"需要在基地中快速传送，或者另一个基地？制作一个&d传送石碑&r！"
 		""
-		""
-		"需要在外出时传送到一个传送石碑？制作一个&d传送石&r来造访你所有的传送石碑！"
+		"Need to teleport to a waystone while out in the wild? Make a &dWarp Stone&r to access all of your waystones!"
 	]
 	quest.2E30AE23A0602A0A.title: "&b快速旅行"
 	quest.2E3D56F5BC1075DB.quest_desc: ["这个升级可以让你拥有创造飞行的能力，把它加装到你的&d蚀空合金胸甲&r上就行。"]
@@ -4627,8 +4622,8 @@
 	]
 	quest.2ECE092636880CB8.title: "&f物品处理"
 	quest.2EE5352D8E5F715F.title: "&f击杀20只&c蜘蛛"
-	quest.2EEE782146096F9C.quest_desc: ["Probably one of the best mods out there for builders, the &6Building Gadgets&r mod adds several new gadgets that are a must have to make building better!"]
-	quest.2EEE782146096F9C.title: "&6Building Gadgets"
+	quest.2EEE782146096F9C.quest_desc: ["Probably one of the best mods out there for builders, the &eBuilding Gadgets&r mod adds several new gadgets that are a must have to make building better!"]
+	quest.2EEE782146096F9C.title: "&eBuilding Gadgets"
 	quest.2F057F981B68EB95.quest_desc: ["The &2Simple Fluid Placer&r takes a fluid input and puts it in the world for all to see."]
 	quest.2F057F981B68EB95.quest_subtitle: "放置器"
 	quest.2F057F981B68EB95.title: "&f初级流体放置器"
@@ -4740,7 +4735,7 @@
 		"上述的设备可以加装各种&a卡&r，比如能让它受红石控制的卡，只允许特定NBT物品输入（或者模糊）的卡，提升速度的&e加速卡&r，以及提升样板存储容量的&e容量卡&r。"
 	]
 	quest.2FFA4CF8C062AD5E.title: "&f输入/输出总线"
-	quest.2FFE7E2CD655C226.title: "&aArtisan Scroll Bag"
+	quest.2FFE7E2CD655C226.title: "&a工匠卷轴奖励包"
 	quest.30053CAD8FABA638.quest_desc: [
 		"这些蜂巢没有生物群系要求。"
 		""
@@ -4976,12 +4971,17 @@
 	quest.323A230EB571C4CA.quest_desc: [
 		"&a反应堆&r才是真正的发电大户！"
 		""
-		"These will burn up &6Uraninite&r using &bCoal&r and &cRedstone&r to generate a ton of power. It also needs some sort of coolant inside, with the basic requirement being a bucket of water."
+		"These will burn up &6Uraninite&r using &bCoal&r and &cRedstone&r to generate a ton of power."
+		""
+		"[\"It also needs some sort of complex coolant inside, with the most basic being a bucket of \", {\"text\": \"Menril Resin\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1403ABF77D987200\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Squeezer Quest\"} }, \".\"]"
+		""
+		"&eReactors will not accept water in this pack!"
 		"{@pagebreak}"
 		"To build one, you'll need &a36 Reactor Blocks&r in your inventory. Right clicking to place it down will automatically build out the 3x4x3 structure if it has room."
 	]
 	quest.323E664C39860E4F.title: "&f金精华"
 	quest.3246845CBF6BD699.title: "&f核源铁护腿"
+	quest.324CFD7CEF5C6CD5.title: "&bDiamond Furnace"
 	quest.3251545A2BDA31AD.title: "&f核源铁头盔"
 	quest.325567B88BAFAD0D.quest_desc: [
 		"你好，冒险家朋友，欢迎来到这个小小的&6FTB商店&r！"
@@ -5208,21 +5208,21 @@
 	quest.3424F0E39EB5DFC6.quest_desc: ["在你用&3蒸馏机&r在&a糖溶液&r中获得&2乙醇&r的同时，也许你还可以利用多余的&e硫酸&r和&3乙烯&r制造更多的&2乙醇&r？"]
 	quest.3424F0E39EB5DFC6.title: "&2乙醇"
 	quest.3429ADCC43607897.quest_desc: [
-		"产出的种子太多处理不了？南部地区大都认为这是上帝的恩泽。嗯没错。"
+		"&7&oHave a problem with getting too many extra seeds? In the South, we call that a blessing. I think."
 		""
 		"把多余的种子放入&a种子再处理器&r里，就能把它们变为精华！"
 	]
 	quest.3429ADCC43607897.title: "&f再处理&2多余的种子"
 	quest.342F1C3D3A821B2B.title: "&d终极精华&f工具"
 	quest.3435641A78B90D97.quest_desc: [
-		"A &bDisintegration Module&r can be used on its own to break any existing blocks where the field would generate and drop them into the world as items. When a &bCollection Module&r is also present, the &dprojector&r can place those items into an adjacent chest or other inventory."
+		"&b分解模块&r能够破坏位于力场生成位置的方块并留下掉落物。在同时安装&b收集模块&r的情况下，&d力场投影仪&r可以把掉落物放进相邻的箱子或其他容器内。"
 		""
-		"&bStabilization Modules&r will cause a &dprojector&r to take block items from an adjacent chest/inventory and replace the field with said blocks."
+		"&b稳定化模块&r让&d力场投影仪&r能够用相邻箱子或容器中的方块构建力场。"
 		""
-		"&bSponge Modules&r affect the &lentire&r space enclosed by a mode's field, evaporating all fluids present within."
+		"&b海绵模块&r可以影响&l整个&r力场笼罩的区域，蒸发其中所有的流体。"
 	]
-	quest.3435641A78B90D97.quest_subtitle: "&oBreaking (and placing) Blocks"
-	quest.3435641A78B90D97.title: "&fAffecting the Area"
+	quest.3435641A78B90D97.quest_subtitle: "&o破坏（和放置）方块"
+	quest.3435641A78B90D97.title: "&f影响区域"
 	quest.343ACE0C81548119.quest_desc: [
 		"&a切割机&r可以更高效地制作一些板，也可用于将木头切割成木板，它用于制作无法直接制作板材的材料。在切割木头时，它还能将每根原木切割成6块木板。"
 		""
@@ -5308,14 +5308,11 @@
 	quest.34D191F76AA69707.quest_desc: [
 		"&e通量网络&r是无线能源方面的最强模组！"
 		""
-		"首先，你需要在反应室中制作&a通量粉尘&r。"
-		"也可以在末地找到铁砧和基岩之间粉碎&c红石&r来制作。"
+		"[\"To get started, you'll need to create \", {\"text\": \"Flux Dust\", \"color\": \"green\"}, \" in a \", {\"text\": \"Reaction Chamber\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"3334E05101A7297F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Reaction Chamber Quest\"}}, \", or in bulk by crushing \", {\"text\": \"Redstone\", \"color\": \"red\"}, \" between an \", {\"text\": \"Anvil\", \"color\": \"green\"}, \" and \", {\"text\": \"Bedrock\", \"color\": \"gray\"}, \" found in the \", {\"text\": \"End\", \"color\": \"light_purple\"}, \".\"]"
 		""
-		"要做到这一点，请在基岩上扔一些红石。在红石上方，放一块黑曜石，然后左击它将红石粉碎成&a通量粉尘&r。"
+		"&aFlux Dust&r is the main crafting material for all blocks within the mod. "
 		""
-		"&a通量粉尘&r是本模组中方块的主要合成材料。"
-		""
-		"用它制作&b能量网络控制器&r，它能够显示所有你能访问的通量网络并且能让你远程管理网络中的所有设备。"
+		"Use this to make the &bFlux Configurator&r, which shows all power networks you have access to and allows you to remotely manage all devices connected to that network."
 	]
 	quest.34D191F76AA69707.title: "&e通量网络"
 	quest.34DA4C91DEADF93D.quest_desc: ["&a存储芯片&r可以储存16个物品的&b物质&r值。"]
@@ -5680,11 +5677,11 @@
 	quest.37F99696A47264FD.quest_desc: ["这一章节就是教你怎么合成、升级和附魔冒险装备的！"]
 	quest.37F99696A47264FD.title: "&f穿戴整齐，出门探险！"
 	quest.381B55C984A8BD33.quest_desc: [
-		"&2Scale Modules&r add one block along the specified axis, which is mirrored in some &aModes&r and directional in others."
+		"每个&2尺寸模块&r都会在指定方向轴上增加一格长度，在某些&a模式&r下会增加两端长度，也可能只增加一侧。"
 		""
-		"&2Translation Modules&r shift the origin of the projection by one block per module in the specified direction relative to the &dProjector&r, starting at itself."
+		"每个&2移动模块&r都会把&d力场投影仪&r的投影原点以自身为中心向指定方向偏移一格。"
 		""
-		"&2Rotation Modules&r will rotate the projected area by 2° per module in the specified direction."
+		"每个&2旋转模块&r都会将投影区域朝指定方向旋转2°。"
 	]
 	quest.381B55C984A8BD33.quest_subtitle: "&o那到底是有多大呢？"
 	quest.381B55C984A8BD33.title: "&b大小&f问题"
@@ -5701,8 +5698,6 @@
 	]
 	quest.3830D82DFA731ABA.quest_subtitle: "基础粉笔"
 	quest.3830D82DFA731ABA.title: "&f基础粉笔"
-	quest.3840DF75DC473533.quest_subtitle: "货币兑换"
-	quest.3840DF75DC473533.title: "&fGold <- Crystal"
 	quest.384287F30638679E.title: "&d五级&f生物种子"
 	quest.385293121273C7FB.quest_desc: [
 		"你可以用四个&6升级：产量α&r和一些&d下界之星&r来合成下一等级的产量升级：&6升级：产量β&r。"
@@ -5988,6 +5983,7 @@
 		"&7If you do mess up a recipe, you can clear out the Cauldron using an empty bucket."
 	]
 	quest.3AB6083CCDD1B74A.title: "Toil and Trouble"
+	quest.3ABDE5FC61DE36A6.title: "&6Infinity Pipe Upgrade"
 	quest.3AC24F0B92156F55.quest_desc: [
 		"The &dAssembler&r features a 2x2 crafting grid and will automatically assemble items as long as it has energy, items in the input slots, and space for the finished product in the output slot."
 		""
@@ -5997,15 +5993,15 @@
 	quest.3ACEBC2F651514F4.quest_desc: ["&3咀叶发电机&r会消耗七格半径内的树叶，然后产出能量。"]
 	quest.3ACEBC2F651514F4.title: "&3咀叶发电机"
 	quest.3ACF3359B3B59A05.quest_desc: [
-		"&a精妙存储&r可以给你的箱子、桶之类的存储方块升级！"
+		"&eSophisticated Storage&r allows you to create and upgrade your chests, barrels, and more!"
 		""
-		"精妙存储可以装下更多物品，储存更多流体，甚至还可以自动进行熔炼等任务。"
+		"These &aStorages&r can hold even more items, hold fluids, or even automate certain tasks like smelting down ores."
 		""
-		"想入门，你得先用原版箱子和红石火把合成精妙存储模组的箱子才行。"
+		"To start out, you can craft a &aSophisticated Chest&r or &aSophisticated Barrel&r by combining the vanilla item with a redstone torch. "
 		""
 		"如果你已经把存储方块放了下来，你可以做一个&a基础升级&r然后对着它使用就行。"
 	]
-	quest.3ACF3359B3B59A05.title: "&6精妙存储"
+	quest.3ACF3359B3B59A05.title: "&eSophisticated Storage"
 	quest.3AE87DA3A5C23D67.quest_desc: ["&3货物蛙港&r允许您使用&a锁链传动轮&r在物流网络中传输包裹。"]
 	quest.3AE87DA3A5C23D67.title: "&3货物蛙港"
 	quest.3AEBDB8CAA13C522.quest_desc: ["&a磁力指环&r在有能量的时候，会自动拾取玩家周围6格内的掉落物。"]
@@ -6189,8 +6185,6 @@
 	quest.3CC88B6ACDC68D5F.title: "Poppetry"
 	quest.3CCE39C0957034B3.quest_desc: ["一座漂浮在虚空中的&6沙漠孤岛&r，这片与世隔绝的沙丘栖息着一种叫骷髅狗头人的特殊亡灵生物。"]
 	quest.3CCE39C0957034B3.title: "&f漫步进入&6炽热沙漠"
-	quest.3CD163AB900EDCF4.quest_subtitle: "货币兑换"
-	quest.3CD163AB900EDCF4.title: "&f银 <- 金"
 	quest.3CD3CA5B619F5698.quest_desc: ["&a时运&r和&a精准采集&r升级可以安装在&a破坏面板&r中，这样它破坏方块时就会有这种魔咒的效果了。"]
 	quest.3CD3CA5B619F5698.title: "&a时运\\&\\精准采集升级"
 	quest.3CEB8BF2F48ECDBA.quest_subtitle: "将熔融石英倒在催化剂上"
@@ -6351,7 +6345,7 @@
 	quest.3E7E07DB49639EA5.quest_desc: [
 		"用你的冶金灌注机和&c红石&r制作基础&a合金&r与&a电路&r吧！把产物组合起来就可以做出&c高级控制电路&r，这种电路可以制造更高级的机器。"
 		""
-		"通用机械内的大部分物品都需要使用它们制作。"
+		"These will be used to create most of the items in &eMekanism&r."
 	]
 	quest.3E7E07DB49639EA5.title: "&c红石&a灌注"
 	quest.3E92AE1CCA722AA3.quest_desc: [
@@ -6855,8 +6849,9 @@
 		""
 		"Place it down, and you'll get a balloon attached to you that you can use to fly around it with."
 		""
-		"Just don't go too far or it'll SNAP! (just don't look down!)"
+		"Just don't go too far or it'll SNAP! "
 	]
+	quest.4399D3751762F77A.quest_subtitle: "Don't Look Down!"
 	quest.4399D3751762F77A.title: "&fTemporary Flight?"
 	quest.43B4B6F09B5AF30C.quest_desc: [
 		"&b支配之杖&r就是新生魔艺的扳手，用处很多！"
@@ -6875,6 +6870,7 @@
 	]
 	quest.43BF1E0CE33F8BB7.quest_subtitle: "邪恶粉笔"
 	quest.43BF1E0CE33F8BB7.title: "{\"text\": \"棕色粉笔\", \"color\": \"#AA7B5A\"}"
+	quest.43C671A31442BD48.title: "&aIron Furnace"
 	quest.43CA621F23D0298A.quest_desc: ["可以放置方块，任意方位皆可，非常适合给你的&7树液提取器&r换原木！"]
 	quest.43CA621F23D0298A.title: "&f方块放置器"
 	quest.43D386072996F3BE.quest_desc: [
@@ -7085,6 +7081,7 @@
 	quest.461A01BDC4D4B1BD.title: "&a破坏面板"
 	quest.462A47B2E1360AB5.quest_desc: ["除了提供额外的护甲外，&d下界合金潜水服&r在完整穿戴时还能免疫熔岩和火焰伤害。"]
 	quest.462A47B2E1360AB5.title: "&d下界合金潜水套装"
+	quest.4638D7D057A96571.title: "&aStorage Upgrade Bag"
 	quest.464AED8311A32476.quest_desc: [
 		"在你畅爽游玩&e神化&r模组前，我觉得我应该和你解释一下&b词缀&r是干什么的！"
 		""
@@ -7344,15 +7341,15 @@
 	quest.49B8310D0C7A6C55.quest_desc: [
 		"运行&d裂变反应堆&r所需的&3裂变燃料&r是通过处理&e硫&r、&7氟石&r和&2铀&r以及一些水的产物制成的。这看起来很复杂，但与现实生活不同，其实没那么难。"
 		""
-		"[\"First, use \", { \"text\": \"Sulfuric Acid\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4EAE9F58776D84C8\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Jump to Sulfuric Acid Quest\"]}},\" to break down \", {\"text\": \"Fluorite\", \"color\": \"gray\"}, \" into \", {\"text\": \"Hydrofluoric Acid\", \"color\": \"blue\"}, \" in a \", {\"text\": \"Chemical Dissolution Chamber\", \"color\": \"dark_green\"}, \".\"] "
+		"[\"首先，使用\", { \"text\": \"硫酸\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4EAE9F58776D84C8\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"跳转至硫酸任务\"]}},\" 在 \", {\"text\": \"化学溶解室\", \"color\": \"dark_green\"}, \" 中将 \", {\"text\": \"氟石\", \"color\": \"gray\"}, \" 分解为 \", {\"text\": \"氢氟酸\", \"color\": \"blue\"}, \"。\"]"
 		""
-		"其次，将&a铀&r锭提炼成&6铀黄饼&r，再将其氧化成&6氧化铀&r。"
+		"其次，将&a铀&r锭富集成&6铀黄饼&r，再将其氧化成&6氧化铀&r。"
 		""
-		"最后，在&9化学灌注机&r中混合&9氢氟酸&r和&6氧化铀&r，然后将其输送到&2同位素离心机&r中以生产&3裂变燃料&r。"
+		"最后，在&a化学灌注机&r中混合&9氢氟酸&r和&6氧化铀&r，然后将其输送到&2同位素离心机&r中以生产&3裂变燃料&r。"
 		""
-		"&e提示&r：&7氟石块&r分解所需的&e硫酸&r量与单个&7氟石晶体l&r大致相同，但产生的&9氢氟酸&r量是九个&7氟石晶体&r的量，从而节省了&e硫&r！"
+		"&e提示&r：&7氟石&r分解所需的&e硫酸&r量与单个&7氟石晶体l&r大致相同，但产生的&9氢氟酸&r量是九个&7氟石晶体&r的量，从而节省了&e硫&r！"
 	]
-	quest.49B8310D0C7A6C55.title: "&f燃料线"
+	quest.49B8310D0C7A6C55.title: "&f燃料产线"
 	quest.49CBB0619F943B81.quest_desc: ["&6列车时刻表&r允许司机按照设定的模式自动操作列车。"]
 	quest.49CBB0619F943B81.title: "&6列车时刻表"
 	quest.49D399724FD1805B.quest_desc: [
@@ -7409,7 +7406,7 @@
 	quest.4A41B30728ED1307.quest_desc: [
 		"&a化学氧化机&r可以将物品变为气体。"
 		""
-		"如果你想要升级你的矿物处理线的话，你就需要用这个把&c硫粉&r变成能用的&a二氧化硫&r。"
+		"如果你想要升级你的矿物处理线的话，你需要制作这个设备来把&c硫粉&r变成能用的&a二氧化硫&r。"
 		""
 		"如果把二氧化硫再在化学灌注机中和&b氧气&r组合的话，就会产生&e三氧化硫&r。"
 	]
@@ -7455,24 +7452,24 @@
 	quest.4A68D2CD7437589E.quest_desc: ["Generates power by consuming Potions."]
 	quest.4A68D2CD7437589E.title: "&fPotion Mycelial Generator"
 	quest.4A707D443EC2DE33.quest_desc: [
-		"&6功能性存储&r旨在提供大宗物品储存的解决方式。"
+		"&eFunctional Drawers&r is a storage mod that aims to provide an easy solution to storing tons of items in a single block!"
 		""
-		"抽屉有不同的样式：1x1，1x2，2x2抽屉"
+		"&aDrawers&r come in three varieties: Single Drawers, 1x2 Drawers, and 2x2 Drawers."
 		""
 		"虽然一个2×2的抽屉能存4种不同类型的物品，但其基础物品存储量也要除以4。"
 		"{@pagebreak}"
-		"如果要把东西放进去，手持物品右击抽屉即可，右击两次抽屉会将多组物品一块存进去。"
+		"To place an item in, simply right click on the &aDrawer&r with the item. Double Right-clicking will deposit multiple stacks at a time."
 		""
-		"如果要从抽屉里头取出物品，左击抽屉一次可取出一个物品，潜行左击可取出一组。"
+		"To remove items from a &aDrawer&r, Left-clicking it will remove 1 item at a time, while Sneak + Left-clicking will pull out a full stack."
 	]
 	quest.4A707D443EC2DE33.quest_subtitle: "绝对有用"
-	quest.4A707D443EC2DE33.title: "&6功能性存储"
+	quest.4A707D443EC2DE33.title: "&eFunctional Drawers"
 	quest.4A7198127F58DA94.quest_desc: ["&a逻辑导向零件&r用于制作高级网络组件。"]
 	quest.4A7198127F58DA94.title: "&f逻辑导向零件"
 	quest.4A7A15ECB8ABDF88.quest_desc: [
-		"&7锌&r是发展机械动力的关键部分。所以你改怎么获得呢？"
+		"&7Zinc&r is a crucial part of &eCreate&r progression. So how do you get it?"
 		""
-		"你当然可以在砧板上用锤子敲打凝灰岩来获取。在此之后你也可以使用粉碎轮来自动粉碎凝灰岩、使用&2GeOres&r模组、培育&e锌蜜蜂&r、或者投身于&dMalum&r模组中。说不定你还能发现其他方法，例如矿石生成器和矿工透镜！"
+		"You can hammer tuff on a cutting board, sure, but after that you can use &eCreate's&r crushing wheels to crush tuff automatically, &2GeOres&r, make Zinc seeds, breed &eZinc Bees&r, or go into &dMalum&r. You may even find other ways such as ore generators and lense of the miner!"
 	]
 	quest.4A7A15ECB8ABDF88.title: "&f锌从哪来？"
 	quest.4AB10BE58B13DBDD.title: "&eAE2 1k磁盘奖励包"
@@ -7485,7 +7482,11 @@
 	quest.4AC0B8A467BB5FA8.quest_desc: [
 		"这本书看起来老旧不堪，但其中涌动着远古魔法之力。"
 		""
-		"你可以在&6远古城市&r的战利品箱里找到这本书。"
+		"You can find this in &6Ancient City&r loot, and as a reward from the two &eGate Pearls&r:"
+		""
+		"&a- A Tale of Life and Death&r,"
+		""
+		"&2- The Last Battle of a Fallen Kingdom&r"
 	]
 	quest.4AC0B8A467BB5FA8.quest_subtitle: "远古城市的战利品"
 	quest.4AC0B8A467BB5FA8.title: "&3颓残之书"
@@ -7518,7 +7519,7 @@
 	quest.4B21575B498FFEA1.title: "&f开掘铲蓝图"
 	quest.4B30FD3141EB1AD0.title: "&f铜精华"
 	quest.4B463FDAEAC42511.quest_desc: [
-		"&3物质聚合器&r会把输入的物品像垃圾桶一样销毁，但如果你给它插入一个1-16k的存储元件的话，则它会把输入物品转化为&b物质球&r。你也可以给它插入一个64k或以上的存储元件，此时它能够把输入的物品转化为&d奇点&r。"
+		"&3物质聚合器&r会把输入的物品像垃圾一样销毁，但如果你给它插入一个1-16k的存储元件的话，则它会把输入物品转化为&a物质球&r。你也可以给它插入一个64k或以上的存储元件，此时它能够把输入的物品转化为&d奇点&r。"
 		""
 		"&d奇点&r要用来制作大规模存储设备，以及跨维度链接装置。"
 	]
@@ -7563,7 +7564,7 @@
 		"They function like their &eTinker's Construct&r version, for those who remember that."
 	]
 	quest.4B6154D6F9B7C7BF.title: "&fCrafting Stations"
-	quest.4B721BE2E2B87A30.title: "&6Curio Slot Bundle"
+	quest.4B721BE2E2B87A30.title: "&6饰品栏奖励包"
 	quest.4B7545530D6055AE.title: "&f荧石粉"
 	quest.4B7FE5A718A97706.quest_desc: ["&d黄铜&r在&e机械动力&r中会经常用于制作一些更强大的方块和物品。"]
 	quest.4B7FE5A718A97706.title: "&d黄铜时代"
@@ -7715,7 +7716,7 @@
 	quest.4D5D4F2002B33DB6.quest_desc: [
 		"&a化学灌注器&r可以把两种不同的气体合成为一种新的气体。"
 		""
-		"它有很多用处，不过暂且先用它制备一些氯化氢吧，你的矿物处理线等着要用呢。"
+		"它有多种重要用途，不过现在我们可以先用来制造氯化氢，以构建更高效的矿石处理流程。"
 		""
 		"要制备&a氯化氢&r的话，你得先把热力蒸馏塔里的盐水提取出来，然后把它导入&e电解分离器&r里。这样它就会被分解为&a钠&r和&b氯气&r。"
 		""
@@ -7724,7 +7725,7 @@
 	quest.4D5D4F2002B33DB6.title: "&a化学灌注器"
 	quest.4D5E3B93FFCF091B.quest_subtitle: "+15% 法力值恢复"
 	quest.4D5E3B93FFCF091B.title: "&d紫水晶共鸣护符"
-	quest.4D63D311C8E7CA04.title: "&bRS2 Parts Bundle"
+	quest.4D63D311C8E7CA04.title: "&bRS2组件奖励包"
 	quest.4D6C3ED87414B7D1.quest_desc: [
 		"想搭配一些远程武器的玩家可能会对&a核源铁弓&r感兴趣。"
 		""
@@ -7828,12 +7829,6 @@
 	]
 	quest.4E2F296E04F1DA38.title: "&a水车"
 	quest.4E3A4B79573FC1F2.title: "&d提尔锋"
-	quest.4E48ACEA714B5976.quest_desc: [
-		"在村民附近放置一个&a工程师工作台&r就能成为&6IE&r&b机械师&r。"
-		""
-		"一旦达到&d大师&r级别，该村民能将&a电极&b蓝图&r卖给你。"
-	]
-	quest.4E48ACEA714B5976.title: "&f电弧炉电极&b工程师蓝图"
 	quest.4E4D77AD4D7F6262.quest_desc: [
 		"&a绑定结&r可以添加到大多数工具和武器中，对于&6鞘翅&r来说是必需部分。"
 		""
@@ -7901,7 +7896,7 @@
 	quest.4EAE9F58776D84C8.quest_desc: [
 		"在化学灌注机内将&a三氧化硫&r和&b水蒸气&r组合，就可以产出&e硫酸&r。"
 		""
-		"这是一种强酸，你需要用它才能在&6化学溶解室&r中溶解某些物品。当然，这是发展必须制作的东西！"
+		"这是一种强酸，你需要用它才能在&6化学溶解室&r中溶解某些物品。这是发展过程必须制作的东西！"
 		""
 		"你需要将该化学物质通过&a回旋式气液转换机&r，才能将其装桶或泵送一桶（1000mB）的量到指定的&a任务目标显示器&r中。"
 	]
@@ -8204,7 +8199,7 @@
 	quest.51DFB5D58190EEEF.quest_desc: [
 		"&c铀-235&r是&6铀&r的罕见同位素，至于&2铀-238&r只是随地可见的东西而已。"
 		""
-		"当处理配方中使用了&6铀-235的燃料棒&r时，你能取回用于制造它的2/3原料，这意味着你需要不断离心&6铀&r才能得到 更多铀-235。"
+		"When processing &6Uranium Fuel Rods&r that used 235 in their recipe, you will get back 2/3 of the 235 used to create it, meaning that you will need to constantly be centrifuging &6Uranium&r to get more 235."
 		""
 		"这比普通&6铀燃料棒&r效率更高，但比起&5钚&r来说还是差了一点。"
 	]
@@ -8346,7 +8341,7 @@
 	]
 	quest.53E949B1A0D04290.title: "&6镕铸炉&f外部结构"
 	quest.53EEF2EC6314E8F2.quest_desc: [
-		"你现在可以用&9富集钻石&r来强化你的合金，利用&a冶金灌注机&r给&c灌注合金&r注入钻石即可。"
+		"你现在可以用&9富集钻石&r来强化你的合金，利用&a冶金灌注机&r给&c灌注合金&r注入钻石融合即可。"
 		""
 		"这是下一阶的合金，你需要用它制作&9精英控制电路&r。"
 	]
@@ -8527,13 +8522,11 @@
 	]
 	quest.560BC956F5EB0000.title: "&2发电&r"
 	quest.562156281B8D0843.quest_desc: [
-		"这台机器可以将某些流体（比如&b水&r）电解成两种不同的&a气体&r。"
+		"This machine is used to break down specific liquids, like &bWater&r, into 2 separate &agases&r."
 		""
-		"要合成这台机器，你需要想办法制造矿粉，用富集仓或者粉碎机就可以。"
-		""
-		"制作出机器之后，其第一个用法就是把&b水&r分解成&e氧气&r和&e氢气&r。许多机器都要使用&a氧气&r，比如&a提纯仓&r。"
+		"The first use you'll have is separating &bWater&r into &eOxygen&r and &eHydrogen&r. &aOxygen&r is needed for several machines, including the &aPurification Chamber&r."
 	]
-	quest.562156281B8D0843.title: "&a电解分离器&r"
+	quest.562156281B8D0843.title: "&a电解分离器"
 	quest.562421EC1575F837.quest_desc: ["当你有了&a石英蜜蜂&r和&a灰烬穴居蜜蜂&r，将其一起繁殖来获取&a铁蜜蜂&r！"]
 	quest.562421EC1575F837.title: "&f铁蜜蜂"
 	quest.5624865A6F796087.quest_desc: [
@@ -8552,7 +8545,7 @@
 		""
 		"&6黄色&r：获取方式较为复杂，可能需要离岛探索或自行摸索。"
 		""
-		"&c红色&r：获取途径极少，几乎必须依赖常规矿物生成机制获取。 "
+		"&c红色&r：获取途径极少，几乎必须依赖常规矿物生成机制获取。请查看下方的这些选项"
 	]
 	quest.56279976861A0A95.title: "&f无障碍使用指南"
 	quest.56367596C11E78A9.quest_desc: [
@@ -8564,21 +8557,21 @@
 	]
 	quest.56367596C11E78A9.title: "&f高炉"
 	quest.56519A6A39FA9430.quest_desc: [
-		"Via the &dField Projector's&r matrix slots, additional tweaks can be applied to the field's area. You can insert more than one of each, but most will not stack."
+		"在&d力场投影仪&r的矩阵槽安装模块，可以对力场区域进行调整。每个模块都可以安装多个，但大多数模块无法堆叠。"
 		""
-		"One &bSilence Module&r will silence the &dField Projector&r while it's running."
+		"&b静音模块&r会使&d力场投影仪&r无声运行。"
 		""
-		"The &bDome Module&r tweaks the projected mode to only generate at and above the &dField Projector&r."
+		"&b圆顶模块&r将投影模式调整为只在&d力场投影仪&r及以上的高度生成投影。"
 		""
-		"A &bCamouflage Module&r will cause the projected field to copy the appearance of a block left of it in the Matrix slots. &oNote: some non-standard blocks don't appreciate being copied. Mimic other modded machines at your own risk.&r"
+		"&b伪装模块&r使投影的力场应用伪装模块左侧方块的外观。&o注意：一些非标准方块不支持应用，模仿其他模组机器产生的风险自负。"
 		""
 		"{@pagebreak}"
-		"Adding &bShock Modules&r to your &dField Projector&r will cause the shield to deal damage to entities that contact it at 1 damage/module."
+		"在你的&d力场投影仪&r安装&b电击模块&r会使力场对接触到的实体造成伤害，每个模块造成一点伤害。"
 		""
-		"&bGlow Modules&r will cause the field blocks to emit light, brightness increasing by 1 every 4 modules up to the level of glowstone."
+		"&b发光模块&r使力场方块能够发光，每四个模块增加一点亮度，最高不超过荧石的亮度（15）。"
 	]
-	quest.56519A6A39FA9430.quest_subtitle: "&oMore than just a pretty block"
-	quest.56519A6A39FA9430.title: "&fFunctional Forcefields"
+	quest.56519A6A39FA9430.quest_subtitle: "&o可不是花瓶"
+	quest.56519A6A39FA9430.title: "&f功能型力场"
 	quest.565AF0E2D4AB41BE.quest_desc: [
 		"虽然它叫这个名字，但&6Just Dire Things&r其实是一个很酷很轻量的模组，它加入了一些&o令人眼前一亮&r而且有些小超模的&2小帮手&r、&a工具&r，以及&9盔甲&r！"
 		""
@@ -8613,11 +8606,11 @@
 		"&a堆叠升级&r能使单个槽位的物品堆叠数量翻倍。这比&a精妙背包&r升级便宜多了。"
 	]
 	quest.5672B339AE16EE6C.title: "&a堆叠升级"
-	quest.567E45A89AC9E2E3.title: "&aTurtle Summon"
+	quest.567E45A89AC9E2E3.title: "&a召唤海龟"
 	quest.5691235133373883.quest_desc: [
 		"The &bEnergy Battery&r can store a base of one million RF, but you can craft it with other batteries to combine their capacity, creating massive storage units."
 		""
-		"It is also used to craft other energy-related components within &6I.D&r."
+		"It is also used to craft other energy-related components within &eI.D&r."
 	]
 	quest.5691235133373883.title: "&fEnergy Battery"
 	quest.5694360EC1FB87EB.quest_desc: [
@@ -8631,6 +8624,7 @@
 	quest.56A327D4172F3DD6.quest_desc: ["铁筛网是布筛网的固实升级。在升级到金筛网之前，记得先处理掉里面的泥土！"]
 	quest.56A327D4172F3DD6.quest_subtitle: "获得升级"
 	quest.56A327D4172F3DD6.title: "&f机械铁筛网"
+	quest.56B533B5B84145D9.title: "&aFurnace Upgrade Bag"
 	quest.56C6C2E5CA811E21.quest_desc: ["Seems to happen when blight spreads onto stone, but only existing blighted earth gets transformed?"]
 	quest.56C6C2E5CA811E21.quest_subtitle: "stone blight?"
 	quest.56E1FAD44A6E8C11.quest_desc: [
@@ -8642,23 +8636,23 @@
 	]
 	quest.56E1FAD44A6E8C11.title: "&e柴油"
 	quest.56E9C123DD727E46.quest_desc: [
-		"The &eInterdiction Matrix&r has 8 slots available for &bModules&r that work off the registration and rights defined in a system's &aBiometric Identifier&r."
+		"&e结界矩阵&r基于系统中&a生物识别器&r注册的身份卡和定义的权限运行，拥有八个槽位可供安装&b模块&r。"
 		""
-		"&bWarning Modules&r will increase the additional warning range of the &eMatrix&r by 1 block/module. By default, there is a 3 block radius beyond the range of other &bmodules&r that alerts unregistered players that they may be affected by the &eMatrix's&r actions. This is the only module that has a stacking effect."
+		"每个&b警告模块&r额外增加一格&e矩阵&r的警告范围。默认情况下，其他&b模块&r作用半径以外三格将作为警告区域，警告未注册的玩家他们将受到&e矩阵&r影响。这是唯一一个可以堆叠效果的模块。"
 		""
-		"&bBlock Access Modules&r prevent interaction with levers, machines, and the like for players without the right to bypass it."
+		"&b访问拦截模块&r会阻止没有对应权限的玩家与拉杆、机器等方块互动。"
 		""
-		"&bBlock Alter Modules&r act similarly to the above module, but disallow the breaking and placement of blocks altogether."
+		"&b修改拦截模块&r与上述模块作用相似，但还会禁止没有对应权限的玩家破坏或放置方块。"
 		""
 		"{@pagebreak}"
-		"&bConfiscation Modules&r can be &4very nasty&r in multiplayer. Using the other 9 slots in the &eMatrix&r, up to 9 items can be selected to take from or leave in the inventory of unregistered players, with anything taken being dropped at the &ematrix&r or placed in adjacent inventories. This applies to armor as well. &4Be mindful&r when using this on normally &afriendly&r servers..."
+		"&b收缴模块&r在多人模式下&4非常讨厌&r，其使用&e矩阵&r内的另外九个槽位，你可以选择最多九个物品，决定这些物品在未注册玩家的物品栏会被拿走还是留下，被拿走的物品会掉落在&e矩阵&r处或被放进相邻的容器内，对护甲同样奏效。在&a友好&r的服务器使用时要&4格外小心&r。"
 		""
-		"&bAnti-Friendly&r, &b-Hostile&r, and &b-Personnel Modules&r will cause the matrix to kill animals, hostile creatures, and unregistered players respectively with extremely high damage."
+		"&b反友好模块&r，&b反敌对模块&r和&b反玩家模块&r各自使矩阵能够以极高的伤害击杀动物、敌对生物和未注册的玩家。"
 		""
-		"An &bAnti-Spawn Module&r will prevent any and all mobs from spawning in the working radius of the &ematrix&r."
+		"&b反生成模块&r将阻止所有生物在&e矩阵&r的覆盖范围内生成。"
 	]
-	quest.56E9C123DD727E46.quest_subtitle: "&oThere are no bad ones"
-	quest.56E9C123DD727E46.title: "&aMatrix Motivators"
+	quest.56E9C123DD727E46.quest_subtitle: "&o没有坏家伙"
+	quest.56E9C123DD727E46.title: "&a矩阵驱动器"
 	quest.56EC29FFC567ECC2.quest_subtitle: "在催化剂上使用红色染料"
 	quest.56EC29FFC567ECC2.title: "&f红石矿晶母岩"
 	quest.56F225D27E646F33.quest_desc: [
@@ -8727,6 +8721,12 @@
 		"你其实没必要让每个&a激光节点&r的激光都直来直去，用&a激光连接器&r就可以中继激光！"
 	]
 	quest.5778BAEC8F095B3D.title: "&eLaserIO"
+	quest.5784C27AA29E7344.quest_desc: [
+		"&7&oDid you mess up? Or accidentally use your last &aGrain of Infinity&7?"
+		""
+		"&7&oYou know you can automate those... right?"
+	]
+	quest.5784C27AA29E7344.title: "&fWant Your Infinity Back?"
 	quest.57867D0F270E1E65.title: "&b金升级"
 	quest.5797A5E2EF8E4733.quest_subtitle: "末影套装"
 	quest.5797A5E2EF8E4733.title: "&f暗影行者套装"
@@ -8912,11 +8912,11 @@
 	quest.595F8AC6DB5DACD8.quest_desc: [
 		"在原版获得第一颗&b钻石&r是件大事，在这也不简单！"
 		""
-		"要获得钻石，你需要将&e闪电&r引导到绿宝石上（当物品在地上时），将&e多态流体&r滴在绿宝石块上，或者更明智地在虚空中寻找一些已经存在的钻石。一旦有了一点，你就能够生产更多。"
+		"In order to get diamonds you'll need to either channel &6Lightning&r into emeralds (as items on the ground), drip &ePolymorphic Fluid&r onto an emerald block, or, more sanely, find some while &bExploring Void Islands&r. Once you have a few, you'll be able to generate more."
 		""
-		"&6流浪商人&r也能帮你完成这个转化……"
+		"A &dWandering Trader&r &omight&r also make this conversion for you..."
 		""
-		"&7&o也有机会钓到一些钻石精华，并且存在其他更有技术性的方法来生成钻石，例如&a煤炭压缩&r&7或&a矿工透镜&r&o……"
+		"&7&oThere is also the rare chance to fish up some diamond essence, and other more technical methods exist that could generate diamonds such as &aCoal Compression&r&7&o, a &aLens of the Miner&r&7&o, and more..."
 	]
 	quest.595F8AC6DB5DACD8.title: "&a你的第一颗&b钻石"
 	quest.597ED5B26C78539D.title: "&dAE2量子环套件"
@@ -8927,7 +8927,7 @@
 	quest.59A6D7B544F1AE06.quest_desc: [
 		"Want an easy way to travel to different levels of your base? Make an &dElevator&r!"
 		""
-		"These can also copy the texture of another block by using that block directly on the Elevator."
+		"These can also copy the texture of another block by using that block directly on the &dElevator&r."
 	]
 	quest.59A6D7B544F1AE06.title: "&fElevators"
 	quest.59AD05C4C9642285.quest_desc: ["&2铁自动合成仓&r有27个&a样板&r槽位，基础工作速度相当于满速度升级的&a自动合成仓&r。"]
@@ -8997,15 +8997,15 @@
 	quest.5B2EF619290CBCDA.quest_subtitle: "让你获得抗火效果"
 	quest.5B2EF619290CBCDA.title: "&c焰护之戒"
 	quest.5B34FEF756C93961.quest_desc: [
-		"&6Integrated Dynamics&r (&6I.D&r) is a mod that allows you to build networks for simple or complex automations and systems, allowing you to go beyond the friendly interfaces and get right down to the core of modded Minecraft."
+		"&eIntegrated Dynamics&r (&eI.D&r) is a mod that allows you to build networks for simple or complex automations and systems, allowing you to go beyond the friendly interfaces and get right down to the core of modded Minecraft."
 		""
-		"This mod has a certain reputation for being hard to get into, as it contains many elements of coding/programming which can be scary for most people. If you enjoy programming, this is the mod for you!"
+		"This mod has a certain reputation for being hard to get into, as it contains many elements of coding/programming which can be scary for most people."
 		""
 		"Your first step will be to obtain a &bMenril Sapling&r, grow it, and break it down for some &aLogs&r and &aBerries&r."
 		""
-		"&eOn The Dynamics of Integration&r is a very helpful guidebook that goes in-depth into a lot of the more complex mechanics of the mod. If you're ever stuck, check it out!"
+		"&6On The Dynamics of Integration&r is a very helpful guidebook that goes in-depth into a lot of the more complex mechanics of the mod. If you're ever stuck, check it out!"
 	]
-	quest.5B34FEF756C93961.title: "&fWelcome to &6Integrated Dynamics&f!"
+	quest.5B34FEF756C93961.title: "&fWelcome to &eIntegrated Dynamics&f!"
 	quest.5B499DF961D9308B.quest_desc: ["A &2Simple Clicker&r block is a quite powerful little device. Despite being called simple, it has a few more options than the other simple machines. They're all straightforward though, try them on this noteblock here!"]
 	quest.5B499DF961D9308B.quest_subtitle: "What's a cooldown?"
 	quest.5B499DF961D9308B.title: "&f初级点击器"
@@ -9016,6 +9016,7 @@
 	]
 	quest.5B512AED08EC1899.title: "&fThermo Generators"
 	quest.5B5447A65D9C82B9.title: "&d16384B流体存储组件"
+	quest.5B62E0C65AAF1984.title: "&bMekanism Upgrade Bundle"
 	quest.5B6B40D5C7DBAA0D.quest_desc: ["Upgraded from &3Celestigem&r using an &5Eclipse Alloy Template&r"]
 	quest.5B6B40D5C7DBAA0D.title: "&5蚀空合金护腿"
 	quest.5B7CC380E28893C1.quest_desc: [
@@ -9029,7 +9030,7 @@
 	quest.5B85AB4B095F240B.quest_desc: [
 		"站上&a充电台&r，它会自动为你物品栏中有需要电能的物品充能。"
 		""
-		"&d机器人&r也是如此！"
+		"这也是你为&d机器人&r充电的方式！"
 	]
 	quest.5B85AB4B095F240B.title: "&f充能"
 	quest.5B9742FB9474DB3A.title: "&f武器宝典"
@@ -9179,6 +9180,7 @@
 		"&e仅开采矿石&r模式下，它会检索它下方的方块，直到找到矿物为止。然后它就会自动挖掘，并将挖掘到的矿石储存在内部空间。"
 	]
 	quest.5D4E2FAD79F5AC0A.title: "&3垂直挖矿机"
+	quest.5D590103CDA46CC5.title: "&bBasic to Diamond Tier Upgrade"
 	quest.5D5D0878275558BC.quest_subtitle: "冰霜粉笔"
 	quest.5D5D0878275558BC.title: "{\"text\": \"淡蓝色粉笔\", \"color\": \"#A6CAFC\"}"
 	quest.5D622DB7CB6889EA.quest_desc: ["&a物品舱口&r可以让你将手持物或玩家物品栏中的物品瞬间存入相连的容器"]
@@ -9257,7 +9259,7 @@
 		""
 		"这种容器可以上锁，安全地保护你的钻石和别的高价值物品！而且可以像背包一样在物品栏中直接打开。"
 	]
-	quest.5DFBE09D434ADADD.quest_subtitle: "不怕熊孩子的箱子！"
+	quest.5DFBE09D434ADADD.quest_subtitle: "服务器安全箱子！"
 	quest.5DFBE09D434ADADD.title: "&a私人存储"
 	quest.5E04779BC1EB52E9.quest_desc: [
 		"&b元素种子&r可以收获基础元素精华来合成物品，比如水桶和熔岩桶。"
@@ -9265,6 +9267,7 @@
 		"它们同样用于制作最强大的精华——&6觉醒精华&r。"
 	]
 	quest.5E04779BC1EB52E9.quest_subtitle: "在这加个阿凡达笑话"
+	quest.5E04779BC1EB52E9.title: "&bElemental Seeds"
 	quest.5E0AF550AAE74676.quest_desc: [
 		"If you want to automate any type of machine, you'll need to have some way to pipe things in and out."
 		""
@@ -9299,8 +9302,8 @@
 		"&7&o务必确保你的主网络系统所在的区块处于加载状态。"
 	]
 	quest.5E1FD04538F89292.title: "&d无线网络"
-	quest.5E1FFB29D89798F5.quest_desc: ["While simply placing a &aQIO Dashboard&r down whenever you need to access your storage is powerful, what if you didn't need to place it down at all?"]
-	quest.5E1FFB29D89798F5.quest_subtitle: "但我们能让他更无线吗？"
+	quest.5E1FFB29D89798F5.quest_desc: ["虽然随时放置一个&aQIO仪表板&r来访问存储已足够便捷，但如果你根本不需要放置它呢？"]
+	quest.5E1FFB29D89798F5.quest_subtitle: "但咱们能不能让它‘无线’得更彻底一些？"
 	quest.5E1FFB29D89798F5.title: "&f便携式&aQIO仪表板"
 	quest.5E36696532C72B3A.quest_desc: [
 		"The &aInventory Reader&r allows you to check all aspects of an attached inventory: If it's full, empty, how many items are in the inventory, what percentage of the inventory is full, all items in the inventory, etc..."
@@ -9371,7 +9374,7 @@
 	]
 	quest.5F6C674205F3D666.title: "&d末地&f蜂巢"
 	quest.5F820AFF46239CC6.quest_desc: [
-		"&a限类储物桶&r的工作机制和&a功能性存储&6的抽屉一样。"
+		"&aLimited Barrels&r function like &aDrawers&r from &eFunctional Storage&r."
 		""
 		"这种&2木桶&r最多只能容纳四种物品，但是每种物品的存储上限大大提升。物品存储种类数取决于你做的这个&a限类桶&r用的等级，一级只能放一种物品，四级能放四种。"
 	]
@@ -9471,6 +9474,8 @@
 		"如果你想让箱子自动拾取周边物品的话，有一些升级可以帮到你。"
 		""
 		"&a拾取升级&r是最基础的，但升级到&a磁铁升级&r后就有更多设置，以及更大的拾取范围！"
+		"{@pagebreak}"
+		"(new page placeholder text)"
 	]
 	quest.606BDEB81F65A79F.title: "&a拾取升级"
 	quest.6072C6281FBC7DCB.quest_desc: ["&a模拟拉杆&r是一个强大的红石信号输出器，可以实现对红石信号的精细控制"]
@@ -9501,7 +9506,7 @@
 		""
 		"这是四阶矿物处理产线的第2台机器，给它稳定供水，然后把溶解室中输出的污浊矿物浆液泵入。处理完毕后就会得到一桶纯净矿物浆液！"
 	]
-	quest.60AFCA1889670F26.title: "&6洗涤化学品&r"
+	quest.60AFCA1889670F26.title: "&6洗涤化学品"
 	quest.60B37EEA5AD64C3D.quest_desc: [
 		"The &aStorage Terminal&r consolidates all items, fluids, and energy values from interfaces connected to your network into the same interface."
 		""
@@ -9581,15 +9586,15 @@
 		""
 		"你可以用这个机器向金属中灌注特定材料，以此制造高级设备需要的&a合金&r与&2电路板&r。"
 		""
-		"下一页会为你详解内部UI！"
+		"有关界面完整说明，请查看下一页！"
 		"{@pagebreak}"
-		"Inside of the &2Infuser's&r interface, we have multiple slots that we can interact with to create new items."
+		"在&2灌注机&r的界面中，分布着多个可交互的槽位，通过不同操作来合成全新物品。"
 		""
-		"The slot on the far left is the &aExtra Slot&r, which is where you place infusion items like &cRedstone&r or &aCoal&r."
+		"最左侧的槽位是&a额外槽位&r，用于放置&c红石&r或&a煤炭&r等灌注物品。"
 		""
-		"The middle-left slot is for the item you wish to infuse, like Iron or Osmium!"
+		"中间靠左的槽位是要被灌注的材料，比如铁和锇！"
 		""
-		"On the right, we have the output slot as well as an energy slot. This slot can use items that store energy like batteries. If you see an energy slot in a &eMekanism&r machine, chances are you can put these items in it!"
+		"右侧是输出槽和能源槽，后者可放入电池等储能物品。如果在&e通用机械&r模组的机器中看到能源槽，可以试试放入这类物品！"
 	]
 	quest.616E3CE38F1D73AE.title: "&2冶金灌注机"
 	quest.617AB01D45539EA7.quest_desc: [
@@ -9604,7 +9609,7 @@
 		"它还可以用于将数据复制到一些&e机械动力&r方块中，例如&a过滤器&r和&2显示面板&r。"
 	]
 	quest.61A8D9B0C8D22D50.title: "&f剪贴板"
-	quest.61AA9E353AB6E76A.title: "&aSpirit Bundle"
+	quest.61AA9E353AB6E76A.title: "&a精魂奖励包"
 	quest.61AD9B2268BB32E6.quest_desc: [
 		"虽然&e机械动力&r和&b应用能源2&r都拥有强大而灵活的合成机制，但在存储方面它们并不能总是很好地协同工作。"
 		""
@@ -9790,7 +9795,7 @@
 	]
 	quest.63A28DBF66DBB1D2.title: "&f请求器或请求终端"
 	quest.63A3450169DD4B17.quest_desc: [
-		"To connect anything in &6I.D&r, you'll need to use &aLogic Cables&r. These are the pipes of the mod!"
+		"To connect anything in &eI.D&r, you'll need to use &aLogic Cables&r. These are the pipes of the mod!"
 		""
 		"While these don't connect to anything by themselves, you will be attaching parts like &aInterfaces&r to them to interact with blocks in the world."
 		""
@@ -9846,13 +9851,13 @@
 	quest.63E02402233F6865.quest_subtitle: "&m孵蛋和&r授粉，还是授粉"
 	quest.63E02402233F6865.title: "&a轻松繁殖&f！"
 	quest.63E9BE547681EB33.quest_desc: [
-		"&d裂变反应堆&r的初始设置很重要，但一旦它能自行稳定运行，就不用管了。这并不需要以牺牲安全为代价！"
+		"当&d裂变反应堆&r装置刚启动时，密切关注它的运行状态非常重要，但待其稳定运行后，你就可以去做其他事情了。这并不意味着要牺牲安全性！"
 		""
 		"这时就轮到&a裂变反应堆逻辑适配器&r登场了。当&d反应堆&r建造时带有一个或多个适配器时，它们可以被配置为在&c危险情况&r下发出红石信号，或者自动激活&d反应堆&r。"
 		""
 		"例如，使用比较器读取&a放射性废料桶&r，以便在废料桶过满时使&d反应堆&r关闭，或者在反应堆开始&c过热&r时切换紧急冷却剂供应。"
 	]
-	quest.63E9BE547681EB33.quest_subtitle: "快来紧急停机"
+	quest.63E9BE547681EB33.quest_subtitle: "赶紧紧急停机"
 	quest.63E9BE547681EB33.title: "&a裂变反应堆逻辑适配器"
 	quest.63F1648925C79179.quest_desc: [
 		"你可以通过让&c熔岩&r和&3水&r彼此接触来生成圆石，但记住放置方式有时不容易，而且坐在那里挖每一块你需要的石头也很麻烦。"
@@ -9893,9 +9898,9 @@
 	quest.644874076A06F5F4.quest_desc: [
 		"&e通用机械&r是这个包中最强大的科技模组！"
 		""
-		"这个模组下至风电产能，上至&a核废料&r产&d反物质&r……你想什么都可以用它实现！"
+		"从利用&a风力发电机&r产生基础电力，到用&a核废料&r制造&d反物质&r，这款模组统统都能搞定！"
 		""
-		"先去挖点&a锇&r吧。"
+		"首先，你需要搞到一些&a锇&r。"
 	]
 	quest.644874076A06F5F4.title: "&f欢迎游玩&e通用机械&f！"
 	quest.6453E5B28CE248A0.title: "&dRS2无线网络套件"
@@ -10032,11 +10037,7 @@
 	]
 	quest.6600E26635FD3D0E.quest_subtitle: "&o结果并不唯一"
 	quest.6600E26635FD3D0E.title: "&a机器升级"
-	quest.660443512BB2E867.quest_desc: [
-		"&d石墨电极&r主要作为&d电弧炉&r的燃料源使用，不过它也能成为&d磁轨炮&r的致命弹药。"
-		""
-		"&d石墨电极&r也能通过金属冲压机制作，该方法无需蓝图，但耐久度只有一半。"
-	]
+	quest.660443512BB2E867.quest_desc: ["&d石墨电极&r主要作为&d电弧炉&r的燃料源使用，不过它也能成为&d磁轨炮&r的致命弹药。"]
 	quest.660443512BB2E867.title: "&d石墨电极"
 	quest.663460DE8AF7E464.quest_desc: [
 		"&a压印器&r是AE2中最重要的机器。"
@@ -10090,7 +10091,7 @@
 	quest.6686C39B8D5B5319.quest_desc: [
 		"一般来说你是没法把一个背包套进另外一个背包的，除非你加装一个&d嵌套升级&r！"
 		""
-		"&o\"Yo dawg, I heard you like backpacks, so we put a backpack in your backpack so you can store more items while you store items!\"&r"
+		"&7&o\"Yo dawg, I heard you like backpacks, so we put a backpack in your backpack so you can store more items while you store items!\"&r"
 	]
 	quest.6686C39B8D5B5319.title: "&f嵌套升级"
 	quest.6697F832067F1A9C.quest_desc: [
@@ -10154,7 +10155,7 @@
 	quest.6712C96969CB1D58.quest_desc: [
 		"Using the &aSqueezer&r to squeeze Menril Logs into a &aDrying Basin&r, you can increase the amount of Crystallized Menril you get per tree!"
 		""
-		"Once you have a few blocks of Crystallized Menril, you can get started on the basics of &6I.D&r."
+		"Once you have a few blocks of Crystallized Menril, you can get started on the basics of &eI.D&r."
 	]
 	quest.6712C96969CB1D58.title: "&fCrystallized Menril"
 	quest.672560D43F5D603F.quest_desc: [
@@ -10285,11 +10286,13 @@
 	quest.6856355966CA2B7F.quest_subtitle: "在催化剂上使用橙色染料"
 	quest.6856355966CA2B7F.title: "&f铜矿晶母岩"
 	quest.68583162106594A8.quest_desc: [
-		"据我所知，移动箱子一般都会搞得一团糟，但至少现在不会了！"
+		"&7&oMoving chests has always been a pain. But not anymore!"
 		""
-		"&a包装带&r可以打包箱子，这样你就可以轻松移动&e精妙箱子&r。首先对着箱子使用包装带，之后把整个箱子打碎后作为物品捡起来。把箱子放下后胶带自动消失！"
+		"&aPacking Tape&r allows you to pack up &eSophisticated chests&r for you to easily move them."
 		""
-		"注意：装有&a堆叠升级&r的箱子必须先打包才能移动。"
+		"Use the packing tape on it first, then break it to get the chest as a single item. Once you've placed it down, the tape will disappear!"
+		""
+		"&eNote&r: Chests with &aStack Upgrades&r will need to be packed up first before moving."
 	]
 	quest.68583162106594A8.title: "&f移动箱子"
 	quest.68668718B414B6E4.quest_desc: [
@@ -10304,7 +10307,7 @@
 	quest.68668718B414B6E4.title: "&6镕铸炉&f排液孔"
 	quest.68778308CBAB4AE3.quest_desc: ["&a外部存储总线&r可直接访问网络外部的存储容器，如箱子、抽屉、储罐等。"]
 	quest.68778308CBAB4AE3.title: "&a外部存储"
-	quest.6890BFFFE9D4A223.title: "&dPuffish Skills Bundle"
+	quest.6890BFFFE9D4A223.title: "&dPuffish Skills 奖励包"
 	quest.6896CCBC73B09381.title: "&f头盔宝典"
 	quest.68A718B129075CDF.quest_desc: [
 		"&7铁护身符&r提供5%伤害减免。"
@@ -10417,15 +10420,15 @@
 	]
 	quest.6A346516646A3890.title: "&c烈焰人有什么"
 	quest.6A3BFD63419A15CE.quest_desc: [
-		"The &aCrusher&r has 3 main uses in &eMekanism&r."
+		"&e通用机械&r的&a粉碎机&r有3个用途。"
 		""
-		"1. 将锭打碎成&b粉&r，部分机器和升级只能用粉合成。"
+		"1. 该设备可直接将金属锭分解为&b粉&r，便于获取制造特定机器或升级部件所需的材料。"
 		""
-		"2. In the Tier 2 Ore Processing Chain, the &aCrusher&r takes &eore clumps&r made from the &aPurification Chamber&r and breaks them down into &aDirty Dusts&r."
+		"2. 在二阶矿物处理产线中，&a粉碎机&r会将来自&a提纯仓&r产出的&e矿石碎块&r粉碎成&a污浊矿粉&r。"
 		""
-		"3. 将生物质制成&a生物燃料&r，日后用其制作新的机器，它的副产品也有用！"
+		"3. 它能够利用有机材料制造出&a生物燃料&r，这种燃料可用于制作新的机器和副产品，对我们未来的发展至关重要！"
 	]
-	quest.6A3BFD63419A15CE.title: "&a粉碎机&r"
+	quest.6A3BFD63419A15CE.title: "&a粉碎机"
 	quest.6A45F51C228012B1.quest_desc: ["&3发信线圈&r是&e机械动力&r中某些电子系统的关键合成部件。"]
 	quest.6A45F51C228012B1.title: "&3发信线圈"
 	quest.6A4A2A2EFD552316.quest_desc: [
@@ -10484,6 +10487,8 @@
 	quest.6B04DF90E7F33C9D.quest_desc: ["&a焦煤粉&r通过粉碎&3焦煤&r获取，能在&a挤压机&r中处理成&3石墨粉&r。"]
 	quest.6B04DF90E7F33C9D.title: "&f焦煤粉"
 	quest.6B0731EE1A55A7F0.quest_desc: [
+		"&bQuality Multiplier&r: x1.0"
+		""
 		"&bBase Effect&r: Armor Pierce"
 		""
 		"&bPositive Effect&r: Regeneration"
@@ -10562,11 +10567,11 @@
 	]
 	quest.6C25708068B5197C.title: "&f精密祛魔台"
 	quest.6C4441CC63BC7603.quest_desc: [
-		"&c热力蒸馏塔&r可以加热内部流体，以此制造出新的流体。你要利用这个特性将&9水&r制作为&e盐水&r。"
+		"&c热力蒸馏塔&r可以加热内部流体，以此制造出新的流体。这次我们将用&9水&r来提炼出&e盐水&r。"
 		""
-		"搭建这个多方块结构至少需要53个热力蒸馏方块，3个热力蒸馏阀门和1个热力蒸馏控制器。材料备齐了？那就翻到下1页吧！"
+		"搭建这个多方块结构至少需要53个热力蒸馏方块，3个热力蒸馏阀门和1个热力蒸馏阀门。有了这些材料，咱们来学习怎么建造吧！"
 		"{@pagebreak}"
-		"&c热力蒸馏塔&r4格宽4格长，最低3格高，最高18格高。除了第1层外其余层均为空心（想象一个桶！），框架必须是热力蒸馏方块，控制器和阀门放在面上即可。"
+		"&c热力蒸馏塔&r多方块结构的长宽均为4格，高度至少3格，最多18格。除底层外，无论高度如何，中心均为空心区域，可以想象成一个巨大的水桶！框架必须由热力蒸馏方块构成，控制器和阀门需安装在框架表面。"
 		""
 		"下图为搭建示例："
 		""
@@ -10630,7 +10635,11 @@
 		"&a工程师手册&r可以为你展示如何搭建多方块结构，想必它会成为你的好伙伴。"
 	]
 	quest.6D06B791EFF6E965.title: "&f欢迎游玩&e沉浸工程&f！"
-	quest.6D165125DC0B8F50.quest_desc: ["&aPacking Tape&r is the best way to move your &eSophisticated chests&r! Right-clicking on storage with wrap it up in tape, then you can break and place it down wherever you need it."]
+	quest.6D165125DC0B8F50.quest_desc: [
+		"&aPacking Tape&r is the best way to move your &eSophisticated chests&r!"
+		""
+		"Right-clicking on storage with wrap it up in tape, then you can break and place it down wherever you need it."
+	]
 	quest.6D165125DC0B8F50.title: "&fPacking Tape"
 	quest.6D28E1AFBB33C43E.quest_desc: ["&d时间钢&r可用于升级你的现存设备，也可以合成一些有用的东西。"]
 	quest.6D28E1AFBB33C43E.title: "&d时间钢"
@@ -10918,11 +10927,11 @@
 	quest.717C94045F0ADA01.quest_desc: ["召唤流浪者公会中的众多商人之一前来拜访你，为你提供各种物品，在冒险时助你一臂之力。"]
 	quest.717C94045F0ADA01.title: "&a商人事件"
 	quest.71806E77AEE9E050.quest_desc: [
-		"挖到&a锇&r了吗？很好，用&e热力发电机&r开始产能吧。"
+		"一旦你获得了一些&a锇&r，就可使用&e热力发电机&r开始生成基础电力。"
 		""
 		"该发电机可以烧煤炭和木头之类的燃料产能，不过周边有&c熔岩&r的话也可以被动产能。"
 		""
-		"你需要给机器有正方形的面上接管道，才能导出能量。"
+		"要从发电机中提取能量，必须将管道或机器连接到带有方形标记的正面！"
 	]
 	quest.71806E77AEE9E050.title: "&f发&a电"
 	quest.718AF92800C06825.quest_desc: [
@@ -11050,11 +11059,11 @@
 		""
 		"It has three different modes:"
 		""
-		"- &eDefault&r: Allows you to disconnect cables from connecting to other cables or blocks next to them. A Logic Cable will NOT automatically connect to blocks except other Logic Cables or some &6I.D&r blocks."
+		"- &bDefault&r: Allows you to disconnect cables from connecting to other cables or blocks next to them. A Logic Cable will NOT automatically connect to blocks except other Logic Cables or some &eI.D&r blocks."
 		"{@pagebreak}"
-		"- &eSave Offset&r: Saves the co-ordinates of the selected block, and applies it as an offset to the selected part."
+		"- &bSave Offset&r: Saves the co-ordinates of the selected block, and applies it as an offset to the selected part."
 		""
-		"- &eSave Offset \\&\\ Side&r: Does the same as the above, but also saves the side of the block you selected. This is particularly useful for blocks that have functionality on a specific side."
+		"- &bSave Offset \\&\\ Side&r: Does the same as the above, but also saves the side of the block you selected. This is particularly useful for blocks that have functionality on a specific side."
 		""
 		"[\"Saving offsets and sides can be useful when using a \", {\"text\": \"Part Enhancement: Offset\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3DEA6BCF3DD509D9\" } }, \", as it saves you the trouble of having to calculate and keep track of offsets mentally.\"]"
 	]
@@ -11090,9 +11099,9 @@
 	quest.72AB47828922F73A.quest_desc: [
 		"&2收获塔&r可以自动收获和收集范围内的作物，估计是最适合管理农场的&e塔&r了。"
 		""
-		"这个&e塔&r收获的时候完全不会创造&a物品实体&r，而且内部存储满或放入的工具损毁时就会自动关机，服务器和TPS要高兴死了！"
+		"This &aPylon&r works without creating &aitem entities&r in the world whenever plants are harvested, and shuts down when the inventory is full or the tool it uses breaks. This makes it great for servers!"
 		"{@pagebreak}"
-		"把这个&e塔&r放在农场中间，然后让它含水。打开UI后放入塔工作用的&a锄头&r，然后在右上方调整工作范围。每次这个塔收获东西的时候锄头都会掉耐久，所以记得替换！"
+		"To use this &aPylon&r, place it in the center of your farm and waterlog it. Open up the interface and place a &aHoe&r inside for it to work with, then adjust the radius you'd like it to cover in the top right. The Hoe you choose to use will take durability each time the pylon collects, so make sure to replace it when needed!"
 		""
 		"调整完毕后再在塔上方放个存储方块，用它承载输出物品，之后就可以当甩手掌柜了！"
 	]
@@ -11112,10 +11121,9 @@
 	quest.72DEF57BE1372907.quest_desc: [
 		"有了基础资源的积累，是时候看看虚空中形成了哪些其他的陆地了！"
 		""
-		"在FTB Skies 2中，你的小岛不是唯一可以定居的地方，你也不是第一个来到这里的生物。带着一些游历虚空的工具和一张追踪你位置的地图，出去探索吧！谁知道有什么朋友、敌人或宝藏在等着你……"
+		"In &6Skies 2&r, your little island isn't the only place to settle, nor are you the first being to come here. With a few tools to travel the void and a map to track your location, go out and explore! Who knows what friends or foes or treasures await you..."
 		""
-		""
-		"[\"\", {\"text\": \"前往\", \"color\": \"gray\"}, {\"text\": \"旅行家的探索章节\", \"color\": \"blue\", \"italic\":true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"12468F8BF7B80737\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"See what lies ahead\"]} }, {\"text\": \"了解更多信息。\", \"color\":\"gray\"}]"
+		"[\"\", {\"text\": \"Head over to the \", \"color\": \"gray\"}, {\"text\": \"Traveller's Quest Chapter\", \"color\": \"blue\", \"italic\":true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"12468F8BF7B80737\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"See what lies ahead\"]} }, {\"text\": \" for more information.\", \"color\":\"gray\"}]"
 	]
 	quest.72DEF57BE1372907.title: "&b探索时间到&f！"
 	quest.72E5DE96165E5DE2.quest_desc: [
@@ -11335,7 +11343,7 @@
 	quest.74BED9604BDE1EA5.quest_desc: [
 		"&e通量网络&r总会自动从发电机的内部能量缓存中抽取能量，如果你想要额外的外部电量存储，试试&a能量存储器&r吧！"
 		""
-		"这些存储器可以储存2至128M的RF，如果在通量网络输入点中将其优先度设为低于发电机的话，那么它就可以当做备用电池。"
+		"They can store between 2 - 128 Million RF, and can be set to a lower priority than your &aFlux Plugs&r on your generators so they can be used exclusively as backups."
 	]
 	quest.74BED9604BDE1EA5.title: "&f存储能量"
 	quest.74C6CBDB38C29D4D.quest_desc: ["In this chapter, you'll find plenty of useful items and tips you can use in your playthrough!"]
@@ -11616,7 +11624,7 @@
 	quest.7804E97C7772403E.quest_desc: [
 		"Want a portable crafting table? Make a &aCrafting Table on a Stick&r!"
 		""
-		"You can put this in a Curio slot that you can even set a keybind for quick access."
+		"You can put this in a &bCurio Slot&r that you can even set a keybind for quick access."
 	]
 	quest.7804E97C7772403E.title: "&fOn A STICK!"
 	quest.7806FFBF4B24CD30.title: "&5蚀空合金弓"
@@ -11635,7 +11643,7 @@
 	]
 	quest.7819C1805C7E5BCD.title: "&a农场"
 	quest.781D7DA09E444B95.quest_desc: [
-		"这个来自虚空的&5结构&r散发着低语、心跳和哭泣的声音，它那黑暗的引力正向外界索取着某些物品。它…有想要的东西。试着把&e知识&r交给它，或者给它一些粗矿，看看你会得到什么回报。"
+		"This &5structure&r out in the void leaks whispers and heartbeats and weeping and tugs on certain items with its dark pull. It ... wants something. Try offering it your &earcane knowledge&r, or raw resources, see what you might get in return."
 		""
 		"被送回来的物品仍与它们原本的模样有些相似，但它们的改变却是不可逆转的。也许这个地方想要的仅仅是把事物改变而已，就像我们常做的那样。"
 		""
@@ -11756,13 +11764,13 @@
 	quest.7983727D0EE456FD.quest_subtitle: "我在东北玩泥巴……玩黏液。"
 	quest.7983727D0EE456FD.title: "&f万物始于&a黏液"
 	quest.79873815DEB7A086.quest_desc: [
-		"&a输入器&r和&a输出器&r能从你的&dQIO网络&r输入和输出资源。"
+		"&a输入端口&r和&a输出端口&r能从你的&dQIO网络&r输入和输出资源。"
 		""
 		"因为可以创建多个频率，所以可以用来创建独立的物品系统，或者仅用作主存储网络。"
 		""
-		"&bQIO红石适配器&r可以配置为根据设定频率中的物品数量发出红石信号，这对于自动化系统而不会使你的存储系统充斥物品非常有用。"
+		"&bQIO红石适配器&r可以根据物品数量在设定的频率下发出红石信号，非常适合用于自动化系统，同时避免存储系统被大量物品淹没。"
 	]
-	quest.79873815DEB7A086.title: "&dQIO &aImporting \\&\\ Exporting"
+	quest.79873815DEB7A086.title: "&dQIO &a输入与&a输出"
 	quest.798FDDD76EAB8F65.quest_desc: [
 		"搞到&2干橡胶&r后就把它熔炼成&a塑料&r吧。"
 		""
@@ -11783,7 +11791,7 @@
 	quest.799515068A0B6D57.title: "&f自动点击"
 	quest.79A7540F94A2183E.quest_desc: ["The &aAmulet of Protection&r applies a &2Gem's &bAction Effects&r whenever the player is struck by an enemy."]
 	quest.79A7540F94A2183E.title: "&fAmulet of Protection"
-	quest.79C2E6B94AF54292.title: "&bVoid Upgrade"
+	quest.79C2E6B94AF54292.title: "&b虚空升级"
 	quest.79C4735198D85139.quest_desc: ["有了&d聚氯乙烯&r，现在你就可以给你的机器制作&d中级升级&r了！其工作速度比&3进阶升级&r快8倍。"]
 	quest.79C4735198D85139.title: "&d中级升级"
 	quest.79CC3BBEC8B16640.quest_desc: ["&a冰箱&r是冷藏食物的绝佳容器，升级后可为&d多方块厨房&r提供更多烹饪配方！"]
@@ -11825,6 +11833,13 @@
 	quest.7A208CB40BAFC4A9.title: "&f苹果酒"
 	quest.7A26B0FFC0BCA275.quest_desc: ["Applicable to &aEnderic Lasers&r. Targets living entities."]
 	quest.7A26B0FFC0BCA275.title: "&fMachine Hunter Addon"
+	quest.7A62B07AD0BCCCEA.quest_desc: [
+		"While at first it seems that collecting &bSpirit&r can only be done manually, a closer inspection into &5Wicked-aligned&r runewood &espirit rites&r shows a special synergy."
+		""
+		"The lesser rite will &dslowly damage&r nearby hostile mobs down to low health, and the greater rite will &dcull mobs&r in both body and soul when they are at low health, generating &bSpirit&r alongside their standard drops!"
+		""
+		"&7A similar synergy exists for passive animals among the various rites..."
+	]
 	quest.7A7B3CDAAAC2409D.quest_desc: [
 		"在&6凋灵生成器&r里放入正确物品和所需能量后，它就会自动生成凋灵。"
 		""
@@ -11854,6 +11869,7 @@
 		"Skips non-grown crops or animals."
 	]
 	quest.7AC5EE9AF176EB85.title: "&fCrop Filter Addon"
+	quest.7AE4A9234F57F938.title: "&aBasic to Iron Tier Upgrade"
 	quest.7AEC335123E441BA.title: "&c三级&f种子"
 	quest.7B17CDF1C8FE0CDA.quest_desc: [
 		"&a头颅装配器&r可以将生物头颅转换为特殊机器部件。"
@@ -11862,7 +11878,7 @@
 	]
 	quest.7B17CDF1C8FE0CDA.title: "&f头颅装配器"
 	quest.7B20023BE78887DA.quest_desc: [
-		"Sometimes you wish you could pick up items from a little further away, or maybe a lot further away. There's A Mod For That!(tm)"
+		"&7&oSometimes you wish you could pick up items from a little further away, or maybe a lot further away. There's A Mod For That!"
 		""
 		"Other mods may add their own types, but &eSimple Magnets&r keeps it...simple. Just craft a &aMagnet&r, activate it with right click, and while it's on your person any items in range will be swiftly pulled to your person to get picked up!"
 		""
@@ -12008,11 +12024,11 @@
 	quest.7C8E0FEEEF80F70B.quest_desc: ["重置魔法技能树中已使用的技能点。"]
 	quest.7C8E0FEEEF80F70B.title: "&f重置魔法技能树"
 	quest.7C9B4CE2A2F62096.quest_desc: [
-		"你可以把基片放进另一台&a加压反应室&r内，用它制取&6高密度聚乙烯丸&r。这些高密度聚乙烯丸是高阶物品和机器的重要原材料！"
+		"你可以把基片放进另一台&a加压反应室&r内，用它制取&6高密度聚乙烯丸&r。这种高级材料是制作各类高阶物品与设备的关键原料！"
 		""
-		"想制取高密度聚乙烯，将基片、&6液态乙烯&r和氧气放入加压反应室即可。产物在富集仓内可以合成为&6高密度聚乙烯片&r！"
+		"想制取高密度聚乙烯，将基片、&6液态乙烯&r和氧气放入加压反应室即可。随后通过富化仓加工即可制成&6高密度聚乙烯片&r！"
 		""
-		"注意：要用的是液态乙烯，你得做个&a回旋式气液转换机&r才能把气态乙烯变成液态乙烯。现在再看看你的机器，你是不是提前就把气态乙烯输入进去了？用&a滴管&r把它移除就行。"
+		"注意：要用的是液态乙烯，你得做个&a回旋式气液转换机&r才能把气态乙烯变成液态乙烯。若反应仓内已注入气体？用&a滴管&r把它移出！"
 	]
 	quest.7C9B4CE2A2F62096.title: "&6高密度聚乙烯"
 	quest.7C9CABB75B422A4A.quest_desc: [
@@ -12066,16 +12082,16 @@
 	quest.7D22824ADC29DA26.quest_subtitle: "是时候吃螃蟹了"
 	quest.7D22824ADC29DA26.title: "&f偶遇&d樱花岛"
 	quest.7D2375372CF328C3.quest_desc: [
-		"渴望探索浩瀚虚空？有一件物品能帮上大忙：几组&6烈焰冲锋法术卷轴&r！"
+		"Eager to explore the great void? There is one item that can help a lot: A few stacks of &aBurning Dash Scrolls&r!"
 		""
-		"将一张纸扔进&6火&r里即可制成&6烈焰冲锋法术卷轴&r。"
+		"Throw a single piece of paper into a &cfire&r to make a &aBurning Dash Scroll&r."
 		""
 		"制作你所需要的一切现在就可以自动化："
-		"- &2发射器&r可以用&7打火石&r点&6火&r，用&b水&r破坏&a甘蔗&r，或者投掷物品。"
+		"- &2Dispensers&r can light &cfires&r with &7flint and steel&r, break &asugarcane&r with &bwater,&r or toss items."
 		"- &2漏斗&r，位于&2泥巴&r下方，可以拾取物品。"
 		"- &2子沙&r，在接收到红石信号脉冲时，会使甘蔗生长得飞快。"
 		""
-		"警告：&c切记一次只扔一张纸！扔多张纸会浪费整组物品！&r"
+		"&c&lWarning&r: Throw only one piece of paper! Using more will waste the rest of the stack!"
 	]
 	quest.7D2375372CF328C3.title: "&f空中冲刺"
 	quest.7D23D1C9DE75721F.title: "&f击杀20只&c骷髅"
@@ -12094,7 +12110,7 @@
 	quest.7D49D69623266062.title: "&5量子电路"
 	quest.7D4C8B02C09CF5AD.title: "&fNitro Crystal"
 	quest.7D6B50926D672B77.quest_desc: [
-		"你或许听说过&d通用机械&r的&a矿物处理产线&r，此处为产线之始！"
+		"你或许听说过&d通用机械&r的&a矿物处理产线&r，而这就是起点！"
 		""
 		"如果你想提升每个粗矿所产生的资源量，那么准备好一阶矿物处理产线所需的两个机器："
 		""
@@ -12102,7 +12118,7 @@
 		""
 		"然后，把矿粉放进&a电力熔炼炉&r中烧制成锭。"
 	]
-	quest.7D6B50926D672B77.title: "&a一阶矿物处理产线&r"
+	quest.7D6B50926D672B77.title: "&a一阶矿物处理产线"
 	quest.7D6F927122F7FE62.quest_desc: ["&6末影水晶&r是游戏后期物品，将&a脉冲水晶&r与&d末影人&r的灵魂相结合即可获得。"]
 	quest.7D6F927122F7FE62.title: "&6末影水晶"
 	quest.7D775D72987F0F47.quest_desc: ["&a基因检测器&r可以显示实体带有什么基因。当你没看着别的实体的时候，它就会显示你自己的基因。"]
@@ -12227,11 +12243,13 @@
 	quest.7EDADB7DB5EA981A.quest_desc: [
 		"当你完成任务时，你将获得&e银币&r、&b金币&r或&d水晶币&r，分别价值1、10和50货币单位。"
 		""
-		"右键使用这些硬币将把它们添加到你的玩家余额中，该余额在你的物品栏界面上方左侧可见，紧挨着一个棕色的美元符号的袋子。"
-		"{@pagebreak}"
-		"在你的物品栏界面中，你还会注意到玩家模型旁边有三个硬币图标。点击这些图标可以从总余额中提取货币。你也可以在商店中兑换货币。"
+		"&aMost shop items are gated behind quests, so keep that in mind when saving up."
 		""
-		"硬币可以提交给&6商店老板&r以交换物品、物品捆绑包或事件，这些会随着你在游戏中的进度而改进。大多数商店物品都受任务限制，所以在存钱时请记住这一点。"
+		"Right-Clicking these coins in your inventory will add them to your player balance, which is visible at the above and to the left of your of your inventory interface, next to a brown dollar-sign bag."
+		"{@pagebreak}"
+		"In your inventory interface, you'll also notice three coin icons next to your player model. These can be clicked to withdraw currency from your total balance. You can also exchange currency in the shop."
+		""
+		"Coins may be submitted to &6The Shopkeeper&r in exchange for items, item bundles, or events, which improve as you progress through the game."
 	]
 	quest.7EDADB7DB5EA981A.title: "&f使用&6FTB商店&f！"
 	quest.7EDCDC0CA1A03FA0.quest_desc: [
@@ -12248,9 +12266,9 @@
 		""
 		"你可以用它合成&a生物能发电机&r，前期它的能源产量非常可观！"
 		""
-		"生物质还能用来制取&6乙烯&r，这种气体不仅能量密度高，而且还可以用来制造&e高密度聚乙烯颗粒&r。"
+		"它还可以用来制造&6乙烯&r，这是一种能量密度很高的气体，可用于发电和制作&e高密度聚乙烯丸	&r。"
 	]
-	quest.7EF7546FF007EF36.title: "&2生物燃料&r"
+	quest.7EF7546FF007EF36.title: "&2生物燃料"
 	quest.7EFFA8FF1CAD80E3.quest_subtitle: "引爆焦黑石英与催化剂"
 	quest.7EFFA8FF1CAD80E3.title: "&f焦黑石英矿晶母岩"
 	quest.7F141E9CF9676D0F.title: "&6凋灵预测产物"
@@ -12309,7 +12327,7 @@
 		"如果你想升级法师盔甲，以让它有更多纤维槽的话，请使用&d附魔装置&r。"
 	]
 	quest.7F6F3CCD2F68E7E2.title: "&f修改&3服饰"
-	quest.7F8E338B8B2C9EDC.quest_desc: ["The &aGenerator&r is the only way to generate power within &6I.D&r, so it is recommended to have another mod that can generate a good mount of RF to keep up with your machines."]
+	quest.7F8E338B8B2C9EDC.quest_desc: ["The &aGenerator&r is the only way to generate power within &eI.D&r, so it is recommended to have another mod that can generate a good mount of RF to keep up with your machines."]
 	quest.7F8E338B8B2C9EDC.title: "&fGenerating Power"
 	quest.7FA34CEB41A4D9F5.quest_desc: [
 		"&a蒸汽高炉&r是你的第一个&e现代工业化&r的多方块结构。你需要向它提供&7蒸汽&r和生钢粉，这样才能用它制造&a钢锭&r。"
@@ -12349,7 +12367,7 @@
 		""
 		"这些富集材料放入&a冶金灌注机&r时，可以提供8倍的材料值。"
 	]
-	quest.7FCCB25011D69673.title: "&a富集仓&r"
+	quest.7FCCB25011D69673.title: "&a富集仓"
 	quest.7FDC0BD1CCD75B31.quest_desc: [
 		"&b甲苯&r可以用于制造&c工业TNT&r，它是&d内爆压缩机&r的必要原料！"
 		""
@@ -12415,7 +12433,10 @@
 	reward.1029F8E7C523BC66.title: "悦灵事件"
 	reward.1175BAFEEF40A724.title: "重置运动技能树"
 	reward.12F98B4197ADC9A1.title: "+1 魔法技能点"
+	reward.14843FD6711938E5.title: "Shop Notification Sound"
+	reward.15E473C7732E2CA7.title: "Back to Infinity"
 	reward.17E16DEEF43F32D8.title: "+1 魔法技能点"
+	reward.19E91DBE0CFE27C4.title: "Shop Notification Toast"
 	reward.1C5F7D1F57C698CE.title: "召唤一只犰狳"
 	reward.1EB731F51754C437.title: "+1 魔法技能点"
 	reward.1F72CF77D08A9E01.title: "1点&6近战&r技能点"
@@ -12426,17 +12447,25 @@
 	reward.29C328309964A796.title: "*你感受到自己的罪孽爬上了脊背"
 	reward.2A9A44AE9AC7E045.title: "重置挖掘技能树"
 	reward.2C3F1A2D2E41F827.title: "+1 魔法技能点"
+	reward.2C51F406748D835A.title: "Shop Sound"
+	reward.2CBE7F62F5869EA6.title: "Gain Temporal Time (10 mins)"
 	reward.2DEC2295D4153802.title: "1点&6远程&r技能点"
 	reward.30027B5188AB9E9B.title: "+1 魔法技能点"
 	reward.3069A1127E891692.title: "&f1点&d魔法&f技能点"
 	reward.35206AD87E887AE5.title: "&f1点&d魔法&f技能点"
 	reward.36415A47C49ABE7C.title: "炽焰术士事件"
 	reward.379F1B936DD490B9.title: "&f1点&d魔法&f技能点"
+	reward.39683D53EC9597B8.title: "Shop Toast"
 	reward.3AFA2A1F003D80F7.title: "&f1点&d魔法&f技能点"
+	reward.3BFD190A717B5159.title: "Shop Notification"
 	reward.3D8D3AFE6F8E741E.title: "精灵事件"
 	reward.3E1A04FDE4188A29.title: "+1 魔法技能点"
-	reward.424E9B6F1377BB10.title: "获得时间增量1小时"
+	reward.3F05EDAAAEEA77A8.title: "Shop Notification"
+	reward.424E9B6F1377BB10.title: "Gain Temporal Time (1 hr)"
+	reward.430BED624A8E8D9D.title: "Shop Sound"
 	reward.44EE4A6B85BE6E3C.title: "+3 魔法技能点"
+	reward.4721FD0D9EAB82A3.title: "Shop Notification Sound"
+	reward.4899C54F5EF7C8FF.title: "Shop Sound"
 	reward.49BAC1929B288851.title: "&f1点&d魔法&f技能点"
 	reward.4D979D15145E5BAF.title: "流浪商人事件"
 	reward.4DF1D3710DEEB1AB.title: "&f1点&d魔法&f技能点"
@@ -12455,7 +12484,7 @@
 	reward.648A123219C26A33.title: "&6FTB金字塔&r——搭建完毕！"
 	reward.6687BDFBA7DB3DC4.title: "+1 魔法技能点"
 	reward.67CDCFCE4B21FD1D.title: "1点&d魔法&r技能点"
-	reward.6A8F44D2C9B08F75.title: "获得时间增量2.5小时"
+	reward.6A8F44D2C9B08F75.title: "Gain Temporal Time (2.5 Hrs)"
 	reward.6B5DCDFD3982680B.title: "+1 魔法技能点"
 	reward.6E39028F7E470FCF.title: "1点&b挖掘&r技能点"
 	reward.6E84C01F4D769E8F.title: "神话BOSS事件"
@@ -12464,6 +12493,7 @@
 	reward.72E83AADB4AC2FE1.title: "+1 魔法技能点"
 	reward.76EAB252DC10CAB9.title: "1点&6运动&r技能点"
 	reward.78FAD81FB1199F94.title: "&f1点&d魔法&f技能点"
+	reward.7B560892DF3BC4FC.title: "Shop Sound"
 	reward.7E3073F12B6D47A4.title: "完全平衡！"
 	reward.7F6BAAED74F08FE4.title: "召唤一只海龟"
 	reward.7FF50BBC4D6C7D2E.title: "+1 魔法技能点"
@@ -12495,7 +12525,7 @@
 	reward_table.31242894075EA0C8.title: "神化&d宝石&r奖励包"
 	reward_table.312C2CF060EA3DF8.title: "&bFargo的地牢战利品奖励包"
 	reward_table.32AF1F440497F6AA.title: "随机工具箱"
-	reward_table.3550A9699B7F59BE.title: "&a工业先锋Tier1插件奖励包"
+	reward_table.3550A9699B7F59BE.title: "&aTier 1 Addon Bundle"
 	reward_table.37050078793DE537.title: "&aAE2物品奖励箱&r"
 	reward_table.38EFA17393EAF99E.title: "为你感到骄傲"
 	reward_table.3C56BFBFAEFD4069.title: "&a安山时代奖励包"
@@ -12518,10 +12548,12 @@
 	reward_table.60949FC8E19D94EA.title: "通用机械战利品"
 	reward_table.60B726C71BEFD2E9.title: "&aAE2 1k存储物品奖励包"
 	reward_table.61D338F0B6CBFAD3.title: "&b随机种子奖励包"
+	reward_table.61FD9A6CC07465C1.title: "&aFurnace Upgrade Bag"
 	reward_table.62DE108E05F99DE0.title: "&bAE2总线奖励包"
 	reward_table.6354668D8894CB11.title: "神化&9有瑕&r宝石奖励包"
 	reward_table.63F90206E51708AB.title: "&6黄铜时代奖励包"
 	reward_table.671222A6AAB25EE9.title: "&a基础农业奖励包"
+	reward_table.67712B94B59B8C0B.title: "&aStorage Upgrade Bag"
 	reward_table.67FFE8A964083E77.title: "&b工业先锋Tier2插件奖励包"
 	reward_table.687E9C40DF18ED70.title: "神化&5完美&r宝石奖励包"
 	reward_table.6AD278380BF9C4F4.title: "&a通用机械奖励包&r"
@@ -12531,6 +12563,7 @@
 	reward_table.73015E34EE350EF9.title: "可选符文"
 	reward_table.74D2721A88E9AAA0.title: "&b精华奖励包&r"
 	reward_table.786A0D3E6BEDA2C3.title: "&a路由器升级奖励包"
+	reward_table.78C9ADA190F7FFB5.title: "&bMekanism Upgrade Bundle"
 	reward_table.790A03E65CE8EBE4.title: "&6奶奶的味道&r"
 	reward_table.7CCF18DC0540A34E.title: "&b通量奖励包"
 	reward_table.7D4F4BCAA73DD644.title: "&6冒险家奖励包&r"
@@ -12546,11 +12579,9 @@
 	task.01C396395A09E9AD.title: "&e观察&f：合金窑"
 	task.020E0F95DC60069D.title: "召唤一个&7魔精熔炼工"
 	task.022935E19BC9A7EF.title: "&e找到建筑&f：&d樱花岛"
-	task.027656729B7830D9.title: "&e观察&f：斗轮式挖掘机"
 	task.027A2DFFEB1A7AC1.title: "&c伊哈根魔灵附身"
 	task.0290B3120DAD48ED.title: "&e找到建筑&f：&c绯红天空村庄"
 	task.02B5F445F3572537.title: "&e观察&f：&a蓝宝石矿晶母岩"
-	task.02C8EDC8ACEFC3B7.title: "&b四级&f生物种子"
 	task.02E6504A12BEF04F.title: "&f召唤一个&6魔王碎矿者"
 	task.033C0800D02082EF.title: "&f召唤一个&a水生动物"
 	task.033F807A7D0F6473.title: "建造巨型熔炉"
@@ -12587,6 +12618,7 @@
 	task.0D0541DC3C0F1FDC.title: "&d终极精华&f工具"
 	task.0D41D1A509DD941A.title: "输入接口"
 	task.0E023EF28D4D86F3.title: "范围升级"
+	task.0E43BBA4534C1D1B.title: "Did you mess up...?"
 	task.0E7B34D38F84AC11.title: "任意胸针"
 	task.0E8C4E7C9C329FA2.title: "&e观察&f：避雷针"
 	task.0E9F56ED131D460D.title: "充能催化剂"
@@ -12595,6 +12627,7 @@
 	task.101BA566216C32AD.title: "AE线缆"
 	task.10328EE3113F66B2.title: "&c伊哈根使魔"
 	task.1053A406B1F9DAAD.title: "&e观察&f：&c火焰"
+	task.10797452061EB3E6.title: "Any &aTier 1 &fSeeds"
 	task.1091FDE6D51C1552.title: "&e观察&f：&a青金石矿晶母岩"
 	task.10F21F1905A48313.title: "&f召唤一个&a特殊动物"
 	task.11091C159F3468C6.title: "&e观察&f：&a镍矿晶母岩"
@@ -12613,7 +12646,6 @@
 	task.15B36BA190076579.title: "&a海德林使魔"
 	task.16643E9DD53BA701.title: "修复套件"
 	task.16E099D5EA18961B.title: "震彻大地"
-	task.16E364F01286BDB3.title: "&b元素&f种子"
 	task.16F2199AE6D61307.title: "&6Soulplied Energistics"
 	task.176957689D9994FC.title: "&e找到建筑&f：&3诡异天空村庄"
 	task.17766119BC2ED7A3.title: "部件的属性"
@@ -12626,6 +12658,7 @@
 	task.19039CC0F9AB1E54.title: "任意原木"
 	task.196A4B2F83C7B04E.title: "历经了一场麻烦的事故"
 	task.19AAFC3C9FA8644D.title: "&e击杀&f：&c焰魔"
+	task.19FB3879C5AE09BA.title: "Any &dTier 5 &fMob Seeds"
 	task.19FEB64A680EC482.title: "MI流体管道"
 	task.1A10DD6AAF05B8DC.title: "&e找到建筑&f：&6奥术图书馆"
 	task.1A3819027110CDC5.title: "&f召唤一个&a普通动物"
@@ -12659,7 +12692,7 @@
 	task.1FC358BB7DD54134.title: "任意盆栽盆"
 	task.1FD9733065CA8D15.title: "&f实用的&a二阶&r魔符"
 	task.200DC63D1223B179.title: "&a反应堆棒"
-	task.2127DBDE1A06A297.title: "任意锤子"
+	task.2127DBDE1A06A297.title: "Any &eFTB Stuff &fHammer"
 	task.21E4AB2DCB81A632.title: "&e观察&f：粗制高炉"
 	task.220243C996A84559.title: "麻袋"
 	task.221C0FFE873F2F5E.title: "&d导管"
@@ -12670,18 +12703,16 @@
 	task.2307FBB6846EF266.title: "资源生成"
 	task.23DB2322C9E7ACFA.title: "精良和极致机器核心"
 	task.247B79A552BA6CCE.title: "穿戴整齐，出门探险！"
-	task.2499252075BAB96E.title: "&a一级&f种子"
 	task.250E86F309F06DC5.title: "召唤一个&7魔精清洁工"
 	task.251D75C6FA5F28AD.title: "&e造访维度&f：&c下界"
 	task.25225ED0412FB977.title: "&f召唤一个&6魔王熔炼工"
+	task.2566CE0AC0925C71.title: "Any &2Tier 2 &fMob Seeds"
 	task.257DB4A574FF1E69.title: "&f游玩&b 1 小时"
 	task.25C2CD55816664D4.title: "&fl族群召唤"
 	task.2612B5ABA237D9EA.title: "速度升级"
 	task.264FDB7064AF2C7B.title: "重置防御技能树"
 	task.2657647D4CF31BBA.title: "蜡烛"
 	task.268F689AFA620C03.title: "&e击杀&f：&c骷髅"
-	task.2694B69E0E2DA5CD.title: "&2二级&f种子"
-	task.279F53EDDE82D182.title: "Iron Storage"
 	task.27B5B3E2F6360E5F.title: "&e找到建筑&f：&6堡垒"
 	task.27F8AF789DE14145.title: "任意处理器"
 	task.27FFF0492348277F.title: "&d生长加速器"
@@ -12731,13 +12762,14 @@
 	task.349CB5A281EE3E5B.title: "&e击杀&f：&4观测者"
 	task.34C81AE26CFD0DE9.title: "&f召唤一个&a守护者使魔"
 	task.34F38A214F5DEFC3.title: "&e召唤仪式"
-	task.35409BE8A6FF3D03.title: "&6Mek护甲"
+	task.35409BE8A6FF3D03.title: "&6Meka护甲"
 	task.354FABEDA5A08474.title: "&6四阶"
 	task.35B25DCE07DF8A9A.title: "&d魔法&f护身符"
 	task.36580E6B2C957FE0.title: "&f召唤一个&a无头鼠骑士使魔"
 	task.36C5D1EED2022E8D.title: "&a一阶"
 	task.36D4CF12BC70DBDD.title: "&f关于网络的一切！"
 	task.373810705E9367E4.title: "&b五芒星&r已完成"
+	task.3772CB9C1C8A3D66.title: "Automating Spirits?"
 	task.3839665C66B55FA1.title: "对"
 	task.384B6BCA1FEDF650.title: "&f修理任意工具"
 	task.386D9AA214E6D415.title: "有用的升级"
@@ -12762,6 +12794,7 @@
 	task.3CB07FD3F54AFA92.title: "&6Relics&r"
 	task.3D00D0A8A61617EA.title: "Snad"
 	task.3D09A59994D73C21.title: "&f气压"
+	task.3D6DD528D310D8B9.title: "Any &bTier 4 &fMob Seeds"
 	task.3D77BC2D58CE8E37.title: "&f实用的&a三阶&r魔符"
 	task.3D8249AFA2C607A0.title: "&d夜晚护符（夜晚护身符）&r"
 	task.3E8EE10AD935D436.title: "&f熔炉&a强化"
@@ -12790,9 +12823,7 @@
 	task.4335140E412572D8.title: "&f摧毁10座&d永恒之门"
 	task.43F12298AA3644E9.title: "升级到铁器"
 	task.4415E9DB78B55B97.title: "&e击杀&f：&a咒翼灵骸"
-	task.44471E3598AA381B.title: "&2二级&f生物种子"
 	task.45016D6A71CA38A9.title: "&c能量立方&r"
-	task.4507BF42E5A8FD9D.title: "&b四级&f种子"
 	task.451E61A1ECC2650B.title: "FTB事件"
 	task.4544EA17F4CDD321.title: "了解词缀物品的特性"
 	task.458D3A3F4428BE1E.title: "&e观察&f：&a锡矿晶母岩"
@@ -12803,16 +12834,16 @@
 	task.4742ACCF0E820BD4.title: "&f召唤一个&a附身未约束具翼"
 	task.4750B6095A6DC2F2.title: "&e观察&f：粉碎机"
 	task.4770154ADE2ED622.title: "&f构建第一个&d法术"
-	task.47E296C60E6A6459.title: "&d五级&f生物种子"
 	task.48693C868CF2C4D6.title: "召唤一个&7异界树苗交易者"
 	task.48BB22683A4C50AD.title: "&a下级精华&f工具"
 	task.491E250D69066BBC.title: "&f击杀：1x &d凋灵&r"
 	task.497CF86F5BC5A7D0.title: "Basic Cables"
-	task.49C5C16F4BA317E7.title: "&e观察&f："
+	task.49C5C16F4BA317E7.title: "&eObserve&f: Budding Iron GeOre"
 	task.49DF96867DE0BB9D.title: "任意派别的精魂"
 	task.4A0037264C36EBE1.title: "&e观察&f：&d电弧炉"
 	task.4A18F4F81AEA7421.title: "第一层：完成"
 	task.4A5574B73D5286B1.title: "任意可佩戴的符文"
+	task.4A84D885C313D512.title: "&fStack Upgrades"
 	task.4B48F3912AE46B3C.title: "&f召唤一个&e被附身的幻翼"
 	task.4B65088186551D3C.title: "&f虚空升级"
 	task.4B67D8495CB6403D.title: "&aGems"
@@ -12825,11 +12856,13 @@
 	task.4D5C3B07083B5ED6.title: "我已经有了电力"
 	task.4DBC16ACBFEF4D40.title: "堆叠升级"
 	task.4DDC10B7CDEA5CB5.title: "&fInterfaces"
+	task.4F1777D10DAD6649.title: "Any &bElemental &fSeed"
 	task.4F3BD1ECA2A53285.title: "&f通用机械流体管道"
 	task.4F725B8E1BB9B8D1.title: "&e绑定仪式"
 	task.4FAE5B3549E023A9.title: "&aFTB金字塔"
 	task.4FC3BC8A7A312F41.title: "&e找到建筑&f：&b天空村庄"
 	task.5021B204BDFD9928.title: "&e观察&f：&a黄玉矿晶母岩"
+	task.50ADFBD431F6AF95.title: "Are You Sure You Want To Click Me?"
 	task.50AE2F612F55EC15.title: "&e观察&f：&a红石矿晶母岩"
 	task.5110161504E22255.title: "&f净化一只&e恼鬼"
 	task.51876BE373B08431.title: "&dEnder &fGates"
@@ -12852,7 +12885,6 @@
 	task.555E91E3488C8559.title: "认知三件套"
 	task.55B1C70507F60EDF.title: "&bAE2内置指南书&r"
 	task.55CC22F0E7476029.title: "&f召唤一尊&6艾瑟金属傀儡"
-	task.55F2E8D6E339FE04.title: "&c三级&f生物种子"
 	task.55F5BD3470BD58A4.title: "Energizing Rods"
 	task.56A35A967954A4C2.title: "&a抽屉"
 	task.56AEAE6BD791EA6C.title: "&fEnergy Cables"
@@ -12877,6 +12909,7 @@
 	task.5A4A1F326C2F75BC.title: "&b五芒星&r已完成"
 	task.5A7D16167EA18581.title: "&d末地&f蜂巢"
 	task.5AC8CFBCB4375AC0.title: "召唤一个&d火灵熔炼工"
+	task.5AF37B4A61876A3E.title: "Any &cTier 3 &fMob Seeds"
 	task.5AF5D5EBA8E1E158.title: "枪支改造"
 	task.5B0B7A1B78FA15B6.title: "&fEnergy Cells"
 	task.5B5BB0C38EB99A40.title: "&a通用预测产物"
@@ -12900,6 +12933,7 @@
 	task.5E824F724F133342.title: "&e观察&f：发酵机"
 	task.5F37B6A58234D49E.title: "分级催化剂"
 	task.5F6FF27A6B03405E.title: "create cobblegen"
+	task.5F91F645D55E49BB.title: "Any &2Tier 2 &fSeeds"
 	task.5FD1AC346811740C.title: "&e击杀&f：&6死者之王"
 	task.5FD3ED03945F754B.title: "&f召唤一个&a鹦鹉使魔"
 	task.60578D8CD1499673.title: "&e观察&f：&a红宝石矿晶母岩"
@@ -12910,13 +12944,13 @@
 	task.609F04747AC7E954.title: "&a神秘学&f的魔灵矿工"
 	task.60AE0E54D1CAE9EE.title: "&fBatteries"
 	task.6130E9ED81C8EECD.title: "&e魔法存储"
-	task.6149E8B94920BEB3.title: "&f堆叠升级"
 	task.616ED86B19DC0FFB.title: "&e观察&f：焦炉"
 	task.61B136724B06E927.title: "瘟疫术士面具"
 	task.61C0F35123FBB85E.title: "&f击杀：1x &d监守者"
 	task.61EB975FAD009EF7.title: "&e找到建筑&f：&6神秘魔法地牢"
 	task.62444557DFD28C36.title: "&a海德林的动物"
 	task.628DC7385ADA8103.title: "任意蕴生工具"
+	task.62AEAB0BA2360576.title: "Any &cTier 3 &fSeeds"
 	task.62DE6121CE506116.title: "管道升级"
 	task.62ED0EC3C8534504.title: "&2晶矿"
 	task.6347BBAD2ED20F25.title: "&e击杀&f：&c僵尸"
@@ -12925,7 +12959,6 @@
 	task.63C4D2F3F7059C8E.title: "&f自动拾取升级！"
 	task.63CCD5B192C043E9.title: "观察魔精碎矿者"
 	task.645240ECCC87A5BD.title: "现在，我明白了！"
-	task.64CC6BB34041EAFB.title: "&d五级&f种子"
 	task.650C8DFB185755AE.title: "小众晶矿"
 	task.654450BCAE6FF1CA.title: "&c中级精华&f护甲"
 	task.654B395F536F0D7C.title: "&f实用的&a一阶&r魔符"
@@ -12936,6 +12969,7 @@
 	task.67799BCB12DD052F.title: "小众认知工具"
 	task.67A22BBA4C91522B.title: "使用物品"
 	task.67AA4D77994AA256.title: "&a私人存储"
+	task.683638FC21EA1713.title: "Any &dTier 5 &fSeeds"
 	task.68E6367E2F80DCBE.title: "&cMining Gadgets&r"
 	task.69165B138F6A0983.title: "&c中级精华&f工具"
 	task.6925E00B803A9170.title: "传送石碑"
@@ -12955,7 +12989,6 @@
 	task.6CDF504643794087.title: "&e观察&f：灌装机"
 	task.6CE262DF23E5DC46.title: "你击杀了交易者……"
 	task.6D2BF51317854A51.title: "&e击杀&f：&3珊瑚巨像"
-	task.6D5A51E40562FF88.title: "&c三级&f种子"
 	task.6D8527E9C8C06246.title: "灵魂掉落物"
 	task.6E13E2A3DC19FBC3.title: "用一支穿透箭同时击杀两只幻翼"
 	task.6E326027133166B6.title: "&a海德林魔灵附身"
@@ -12987,6 +13020,7 @@
 	task.75950ADE1D19EBBB.title: "召唤一个&c黄昏魔灵"
 	task.75A91CC491740DEA.title: "&a精妙存储&r"
 	task.75CE8877F456D5E9.title: "重置挖掘技能树"
+	task.75EC422F0D5A29CE.title: "Any &bTier 4 &fSeeds"
 	task.765414790D7CA99B.title: "Raw Nickel Ore"
 	task.7675055D1AE5D019.title: "召唤一个&c巨灵熔炼工"
 	task.768B60201808B40A.title: "磨球"

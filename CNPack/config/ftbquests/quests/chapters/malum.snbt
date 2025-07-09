@@ -588,6 +588,24 @@
 							}
 							type: "item"
 						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "3F05EDAAAEEA77A8"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "4899C54F5EF7C8FF"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
 					]
 					shape: "diamond"
 					tasks: [
@@ -1909,6 +1927,37 @@
 					]
 					x: 0.0d
 					y: 6.5d
+				}
+				{
+					dependencies: ["272E84656D0F133C"]
+					icon: {
+						components: {
+							"ftbquests:icon": "malum:textures/mob_effect/sacrificial_empowerment.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7A62B07AD0BCCCEA"
+					rewards: [
+						{
+							auto: "enabled"
+							count: 6
+							id: "2DF4ED6FD005E15D"
+							item: {
+								count: 1
+								id: "malum:refined_brilliance"
+							}
+							random_bonus: 3
+							type: "item"
+						}
+					]
+					tasks: [
+						{
+							id: "3772CB9C1C8A3D66"
+							type: "checkmark"
+						}
+					]
+					x: 5.5d
+					y: 2.0d
 				}
 			]
 		}

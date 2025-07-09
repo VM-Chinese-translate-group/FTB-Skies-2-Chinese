@@ -30,23 +30,18 @@
 					min_width: 350
 					rewards: [
 						{
-							id: "038DF2D59DCD7EEA"
-							item: {
-								count: 1
-								id: "integrateddynamics:on_the_dynamics_of_integration"
-							}
-							type: "item"
-						}
-						{
-							id: "269C39E7AD84A8C2"
-							type: "xp"
-							xp: 10
-						}
-						{
 							id: "021DD8BE19FE96B1"
 							item: {
 								count: 1
 								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "038DF2D59DCD7EEA"
+							item: {
+								count: 1
+								id: "integrateddynamics:on_the_dynamics_of_integration"
 							}
 							type: "item"
 						}
@@ -91,25 +86,21 @@
 					min_width: 300
 					rewards: [
 						{
-							id: "65DE5ECC220DBBD7"
-							type: "xp"
-							xp: 10
-						}
-						{
-							count: 16
-							id: "642EF54669155934"
-							item: {
-								count: 1
-								id: "integrateddynamics:menril_log"
-							}
-							type: "item"
-						}
-						{
 							id: "5487CD9603EE9723"
 							item: {
 								count: 1
 								id: "magic_coins:silver_coin"
 							}
+							type: "item"
+						}
+						{
+							count: 8
+							id: "642EF54669155934"
+							item: {
+								count: 1
+								id: "integrateddynamics:menril_log"
+							}
+							random_bonus: 8
 							type: "item"
 						}
 					]
@@ -137,24 +128,19 @@
 					id: "6712C96969CB1D58"
 					rewards: [
 						{
-							id: "4E07DC2301F29CA1"
-							item: {
-								count: 1
-								id: "integrateddynamics:crystalized_menril_block"
-							}
-							type: "item"
-						}
-						{
-							id: "269BE72193CE617A"
-							type: "xp"
-							xp: 10
-						}
-						{
 							count: 2
 							id: "2363039DDC390457"
 							item: {
 								count: 1
 								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "4E07DC2301F29CA1"
+							item: {
+								count: 1
+								id: "integrateddynamics:crystalized_menril_block"
 							}
 							type: "item"
 						}
@@ -188,6 +174,14 @@
 					id: "63A3450169DD4B17"
 					rewards: [
 						{
+							id: "199547CC12635FB4"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
+						}
+						{
 							count: 8
 							id: "3B9BADFFB9EA742F"
 							item: {
@@ -195,20 +189,6 @@
 								id: "integrateddynamics:cable"
 							}
 							random_bonus: 8
-							type: "item"
-						}
-						{
-							id: "7EDAA298F4B78FDC"
-							type: "xp"
-							xp: 10
-						}
-						{
-							count: 3
-							id: "199547CC12635FB4"
-							item: {
-								count: 1
-								id: "magic_coins:silver_coin"
-							}
 							type: "item"
 						}
 					]
@@ -241,26 +221,21 @@
 					id: "6005C20FD96E6711"
 					rewards: [
 						{
-							count: 4
-							id: "204BF9A010909458"
-							item: {
-								count: 1
-								id: "integrateddynamics:crystalized_menril_chunk"
-							}
-							random_bonus: 4
-							type: "item"
-						}
-						{
-							id: "6F22DD595E8B52CD"
-							type: "xp"
-							xp: 10
-						}
-						{
 							id: "764D3069D5CDDE24"
 							item: {
 								count: 1
 								id: "magic_coins:gold_coin"
 							}
+							type: "item"
+						}
+						{
+							count: 24
+							id: "204BF9A010909458"
+							item: {
+								count: 1
+								id: "integrateddynamics:variable"
+							}
+							random_bonus: 24
 							type: "item"
 						}
 					]
@@ -479,16 +454,10 @@
 					min_width: 300
 					rewards: [
 						{
-							id: "0E1ED54A72C8832F"
-							type: "xp"
-							xp: 25
-						}
-						{
-							count: 3
-							id: "7DF74E72E6DD4F43"
+							id: "293014F8D1BFA05C"
 							item: {
 								count: 1
-								id: "magic_coins:silver_coin"
+								id: "magic_coins:gold_coin"
 							}
 							type: "item"
 						}
@@ -518,11 +487,6 @@
 					}
 					id: "60B37EEA5AD64C3D"
 					rewards: [
-						{
-							id: "4988D4102531F285"
-							type: "xp"
-							xp: 25
-						}
 						{
 							id: "7DD0E8B51A08FE15"
 							item: {
@@ -566,17 +530,22 @@
 					optional: true
 					rewards: [
 						{
-							id: "28C26558456152D5"
-							type: "xp"
-							xp: 25
-						}
-						{
 							count: 3
 							id: "456E3C22D829200E"
 							item: {
 								count: 1
 								id: "magic_coins:silver_coin"
 							}
+							type: "item"
+						}
+						{
+							count: 12
+							id: "2D4FE038C476F088"
+							item: {
+								count: 1
+								id: "integrateddynamics:variable"
+							}
+							random_bonus: 12
 							type: "item"
 						}
 					]
@@ -653,27 +622,21 @@
 					optional: true
 					rewards: [
 						{
-							count: 4
-							id: "370B9971B8081530"
-							item: {
-								count: 1
-								id: "integrateddynamics:crystalized_menril_chunk"
-							}
-							random_bonus: 4
-							type: "item"
-						}
-						{
-							id: "752C27D196E5BF4E"
-							type: "xp"
-							xp: 10
-						}
-						{
 							count: 3
 							id: "2E9FF145D075E86D"
 							item: {
 								count: 1
 								id: "magic_coins:silver_coin"
 							}
+							type: "item"
+						}
+						{
+							id: "04599B619B07A98C"
+							item: {
+								count: 1
+								id: "integrateddynamics:variablestore"
+							}
+							random_bonus: 2
 							type: "item"
 						}
 					]
@@ -845,11 +808,6 @@
 					optional: true
 					rewards: [
 						{
-							id: "381E1CD6B248462F"
-							type: "xp"
-							xp: 10
-						}
-						{
 							id: "35371114B956DB78"
 							item: {
 								count: 1
@@ -881,11 +839,6 @@
 					id: "729DF05C1D2AE6E7"
 					optional: true
 					rewards: [
-						{
-							id: "2AAC7C37F1C5E8CF"
-							type: "xp"
-							xp: 10
-						}
 						{
 							id: "319D582FF6368DB3"
 							item: {
@@ -952,24 +905,18 @@
 					optional: true
 					rewards: [
 						{
-							id: "46F8907F9F63232C"
-							item: {
-								count: 1
-								id: "minecraft:hopper"
-							}
-							type: "item"
-						}
-						{
-							id: "7F67CBADE6462894"
-							type: "xp"
-							xp: 25
-						}
-						{
-							count: 2
 							id: "0C00695CB9FC62B1"
 							item: {
 								count: 1
 								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+						{
+							id: "46F8907F9F63232C"
+							item: {
+								count: 1
+								id: "minecraft:hopper"
 							}
 							type: "item"
 						}
@@ -990,6 +937,7 @@
 								count: 1
 								id: "utilitarian:redstone_clock"
 							}
+							optional_task: true
 							type: "item"
 						}
 					]
@@ -1002,9 +950,12 @@
 					optional: true
 					rewards: [
 						{
-							id: "56D2ABB8E5BF71EC"
-							type: "xp"
-							xp: 25
+							id: "34605D404C522A7E"
+							item: {
+								count: 1
+								id: "magic_coins:gold_coin"
+							}
+							type: "item"
 						}
 						{
 							count: 2
@@ -1017,14 +968,6 @@
 								id: "integrateddynamics:enhancement_offset"
 							}
 							random_bonus: 2
-							type: "item"
-						}
-						{
-							id: "34605D404C522A7E"
-							item: {
-								count: 1
-								id: "magic_coins:gold_coin"
-							}
 							type: "item"
 						}
 					]
@@ -1054,17 +997,6 @@
 					min_width: 350
 					optional: true
 					rewards: [
-						{
-							exclude_from_claim_all: true
-							id: "25EEF6769C41E9DD"
-							table_id: 6449217915222121663L
-							type: "random"
-						}
-						{
-							id: "42997006759309DB"
-							type: "xp"
-							xp: 25
-						}
 						{
 							id: "56ED989260BCED3C"
 							item: {
@@ -1102,17 +1034,18 @@
 					optional: true
 					rewards: [
 						{
-							id: "32D89D39570575E6"
-							type: "xp"
-							xp: 100
-						}
-						{
 							id: "06109CA29230C947"
 							item: {
 								count: 1
 								id: "magic_coins:gold_coin"
 							}
 							type: "item"
+						}
+						{
+							id: "32D89D39570575E6"
+							team_reward: false
+							type: "xp"
+							xp: 100
 						}
 					]
 					tasks: [
@@ -1138,20 +1071,7 @@
 					optional: true
 					rewards: [
 						{
-							id: "21AD2F8F090058E7"
-							item: {
-								count: 1
-								id: "integrateddynamics:variable_transformer_input"
-							}
-							type: "item"
-						}
-						{
-							id: "2CDCB5D0A3046062"
-							type: "xp"
-							xp: 25
-						}
-						{
-							count: 2
+							count: 5
 							id: "2787C5A2D890F17E"
 							item: {
 								count: 1
@@ -1167,6 +1087,7 @@
 								count: 1
 								id: "integrateddynamics:part_inventory_reader"
 							}
+							optional_task: true
 							type: "item"
 						}
 						{
@@ -1175,6 +1096,7 @@
 								count: 1
 								id: "integrateddynamics:part_fluid_reader"
 							}
+							optional_task: true
 							type: "item"
 						}
 					]
@@ -1409,20 +1331,7 @@
 					optional: true
 					rewards: [
 						{
-							id: "36B8904D98650C75"
-							item: {
-								count: 1
-								id: "integrateddynamics:variable_transformer_output"
-							}
-							type: "item"
-						}
-						{
-							id: "79F569DADEB9CF1A"
-							type: "xp"
-							xp: 25
-						}
-						{
-							count: 2
+							count: 5
 							id: "6DB50B170C7FB063"
 							item: {
 								count: 1
@@ -1628,11 +1537,6 @@
 					optional: true
 					rewards: [
 						{
-							id: "0DB7A5AFC9E436AE"
-							type: "xp"
-							xp: 10
-						}
-						{
 							id: "34CFD3383A395F50"
 							item: {
 								count: 1
@@ -1701,6 +1605,14 @@
 					id: "14CA59973A2B33FF"
 					rewards: [
 						{
+							id: "6BD0A4024020D25C"
+							item: {
+								count: 1
+								id: "magic_coins:silver_coin"
+							}
+							type: "item"
+						}
+						{
 							count: 2
 							id: "2956B53699B8B174"
 							item: {
@@ -1709,11 +1621,6 @@
 							}
 							random_bonus: 2
 							type: "item"
-						}
-						{
-							id: "376F961AA7A3E2BE"
-							type: "xp"
-							xp: 10
 						}
 					]
 					tasks: [
@@ -1733,11 +1640,6 @@
 					dependencies: ["63A3450169DD4B17"]
 					id: "727F2932543CADDA"
 					rewards: [
-						{
-							id: "4D3E7A20F02DA5AD"
-							type: "xp"
-							xp: 10
-						}
 						{
 							id: "6E976C64707B43CE"
 							item: {
@@ -1770,11 +1672,6 @@
 					min_width: 300
 					rewards: [
 						{
-							id: "07755743BB12F432"
-							type: "xp"
-							xp: 25
-						}
-						{
 							count: 3
 							id: "04BA711CB5857D46"
 							item: {
@@ -1794,6 +1691,7 @@
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
 							}
+							optional_task: true
 							type: "item"
 						}
 						{
@@ -1806,6 +1704,7 @@
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
 							}
+							optional_task: true
 							type: "item"
 						}
 					]
@@ -1858,11 +1757,6 @@
 					id: "18AD721D008B8FFE"
 					min_width: 300
 					rewards: [
-						{
-							id: "170A2022B4380F09"
-							type: "xp"
-							xp: 10
-						}
 						{
 							id: "6E8688E3D5F66183"
 							item: {

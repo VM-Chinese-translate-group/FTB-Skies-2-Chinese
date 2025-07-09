@@ -852,6 +852,24 @@
 							random_bonus: 6
 							type: "item"
 						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "3A200EBFC57B1BE0"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "5F49D9451622ABCF"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
 					]
 					tasks: [
 						{
@@ -2433,6 +2451,24 @@
 							random_bonus: 4
 							type: "item"
 						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "1FA7CF2E31A9720B"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "0B34B1B96C5DC7CA"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
 					]
 					shape: "gear"
 					size: 2.0d
@@ -3651,7 +3687,7 @@
 				{
 					dependencies: ["50DF3CDEE3B111CE"]
 					icon: {
-						id: "modern_industrialization:ethanol_bucket"
+						id: "pneumaticcraft:ethanol_bucket"
 					}
 					id: "6126333E1B6B6925"
 					rewards: [
@@ -3665,23 +3701,37 @@
 							type: "item"
 						}
 						{
-							id: "1587A098D1C865F7"
+							id: "4EC5CBB060C89088"
 							item: {
 								components: {
 									"mekanism:fluids": {
 										fluid_tanks: [
 											{
 												amount: 16000
-												id: "modern_industrialization:ethanol"
+												id: "pneumaticcraft:ethanol"
 											}
 										]
 									}
 									"mekanism:owner": [I;
-										-2080683360
-										-531216653
-										-1125371426
-										-1956129796
+										1322214020
+										-1310177861
+										-1296886500
+										-1782337265
 									]
+									"minecraft:block_entity_data": {
+										delay: 0
+										edit_mode: 0
+										fluid_tanks: [
+											{
+												stored: {
+													amount: 16000
+													id: "pneumaticcraft:ethanol"
+												}
+												tank: 0b
+											}
+										]
+										id: "mekanism:basic_fluid_tank"
+									}
 								}
 								count: 1
 								id: "mekanism:basic_fluid_tank"
@@ -3694,7 +3744,7 @@
 						{
 							fluid: {
 								amount: 1000
-								id: "modern_industrialization:ethanol"
+								id: "pneumaticcraft:ethanol"
 							}
 							id: "34B19DCDD6C10E67"
 							optional_task: true
@@ -3704,7 +3754,7 @@
 							id: "7E04A84EBB9B0DFE"
 							item: {
 								count: 1
-								id: "modern_industrialization:ethanol_bucket"
+								id: "pneumaticcraft:ethanol_bucket"
 							}
 							optional_task: true
 							type: "item"
@@ -4016,6 +4066,24 @@
 							}
 							random_bonus: 4
 							type: "item"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "0DC2C1FECDB5726C"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "2BFBCAA0B329E381"
+							permission_level: 3
+							silent: true
+							type: "command"
 						}
 					]
 					shape: "gear"
@@ -7464,7 +7532,7 @@
 							id: "2C137217CD32FD49"
 							item: {
 								count: 1
-								id: "modern_industrialization:plutonium_dust"
+								id: "ftbmaterials:plutonium_dust"
 							}
 							random_bonus: 2
 							type: "item"
@@ -7475,7 +7543,7 @@
 							id: "02EF2B70FA4C297F"
 							item: {
 								count: 1
-								id: "modern_industrialization:plutonium_dust"
+								id: "ftbmaterials:plutonium_dust"
 							}
 							type: "item"
 						}

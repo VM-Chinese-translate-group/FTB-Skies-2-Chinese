@@ -615,22 +615,6 @@
 							}
 							type: "item"
 						}
-						{
-							id: "24DE591608CEEA48"
-							item: {
-								count: 1
-								id: "mekanism:enriched_redstone"
-							}
-							type: "item"
-						}
-						{
-							id: "221633202A01977F"
-							item: {
-								count: 1
-								id: "mekanism:enriched_carbon"
-							}
-							type: "item"
-						}
 					]
 					x: -0.5d
 					y: 8.0d
@@ -726,6 +710,24 @@
 							id: "48C779620B8D73CB"
 							table_id: 7697346895244018932L
 							type: "random"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "0693B13017DDF79D"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "02EF6B550587C5D0"
+							permission_level: 3
+							silent: true
+							type: "command"
 						}
 					]
 					shape: "square"
@@ -1595,14 +1597,6 @@
 					shape: "rsquare"
 					tasks: [
 						{
-							id: "6E195A6ABCC05BE5"
-							item: {
-								count: 1
-								id: "mekanism:osmium_compressor"
-							}
-							type: "item"
-						}
-						{
 							id: "5526BEDF58F779AF"
 							item: {
 								count: 1
@@ -1616,6 +1610,15 @@
 								count: 1
 								id: "ftbmaterials:refined_glowstone_ingot"
 							}
+							type: "item"
+						}
+						{
+							id: "6E195A6ABCC05BE5"
+							item: {
+								count: 1
+								id: "mekanism:osmium_compressor"
+							}
+							optional_task: true
 							type: "item"
 						}
 					]
@@ -1643,6 +1646,24 @@
 							id: "73AD544294A22D00"
 							table_id: 7697346895244018932L
 							type: "random"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+							feedback_message: "New items available in the Shop!"
+							id: "296709A8D97130CE"
+							permission_level: 3
+							silent: true
+							type: "command"
+						}
+						{
+							auto: "invisible"
+							command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+							exclude_from_claim_all: true
+							id: "5429CB5ADA2D1297"
+							permission_level: 3
+							silent: true
+							type: "command"
 						}
 					]
 					shape: "none"
@@ -3372,7 +3393,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(mekanism:mekasuit_helmet)item(mekanism:mekasuit_bodyarmor)item(mekanism:mekasuit_pants)item(mekanism:mekasuit_boots))"
-									"minecraft:custom_name": "\"Meka Armor\""
+									"minecraft:custom_name": "“Meka装甲”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
