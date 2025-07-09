@@ -16,7 +16,7 @@
 			image: "ftb:textures/quests/titles_and_logos/tiers.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: -2.5d
+			x: -2.0d
 			y: 3.0d
 		}
 		{
@@ -24,7 +24,7 @@
 			image: "ftb:textures/quests/titles_and_logos/materials.png"
 			rotation: 0.0d
 			width: 7.0d
-			x: 4.5d
+			x: 5.0d
 			y: -3.5d
 		}
 		{
@@ -33,7 +33,7 @@
 			image: "ars_nouveau:textures/gui/doc_spellstyle_rainbow.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.0d
+			x: 15.5d
 			y: 1.0d
 		}
 		{
@@ -42,7 +42,7 @@
 			image: "productivemetalworks:block/foundry_controller_front_on"
 			rotation: 0.0d
 			width: 1.2d
-			x: 19.5d
+			x: 20.0d
 			y: 1.0d
 		}
 		{
@@ -60,7 +60,7 @@
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.5d
+			x: 25.0d
 			y: -1.0d
 		}
 		{
@@ -68,7 +68,7 @@
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 19.5d
+			x: 20.0d
 			y: 2.0d
 		}
 		{
@@ -76,7 +76,7 @@
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.0d
+			x: 16.5d
 			y: 5.0d
 		}
 		{
@@ -84,7 +84,7 @@
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.0d
+			x: 15.5d
 			y: 5.0d
 		}
 		{
@@ -92,7 +92,7 @@
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 14.0d
+			x: 14.5d
 			y: 5.0d
 		}
 		{
@@ -100,7 +100,7 @@
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.5d
+			x: 21.0d
 			y: 3.0d
 		}
 		{
@@ -108,7 +108,7 @@
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.5d
+			x: 21.0d
 			y: 2.0d
 		}
 		{
@@ -116,7 +116,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.5d
+			x: 23.0d
 			y: -1.0d
 		}
 		{
@@ -124,7 +124,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 14.0d
+			x: 14.5d
 			y: 2.0d
 		}
 		{
@@ -132,7 +132,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.0d
+			x: 15.5d
 			y: 2.0d
 		}
 		{
@@ -140,7 +140,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.0d
+			x: 16.5d
 			y: 2.0d
 		}
 		{
@@ -148,7 +148,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.0d
+			x: 16.5d
 			y: 3.0d
 		}
 		{
@@ -156,7 +156,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.0d
+			x: 15.5d
 			y: 3.0d
 		}
 		{
@@ -164,7 +164,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 14.0d
+			x: 14.5d
 			y: 3.0d
 		}
 		{
@@ -172,7 +172,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 14.0d
+			x: 14.5d
 			y: 4.0d
 		}
 		{
@@ -180,7 +180,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.0d
+			x: 15.5d
 			y: 4.0d
 		}
 		{
@@ -188,7 +188,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.0d
+			x: 16.5d
 			y: 4.0d
 		}
 		{
@@ -196,7 +196,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 19.5d
+			x: 20.0d
 			y: 5.0d
 		}
 		{
@@ -204,7 +204,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 23.5d
+			x: 24.0d
 			y: 2.0d
 		}
 		{
@@ -212,7 +212,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 26.5d
+			x: 27.0d
 			y: 2.0d
 		}
 		{
@@ -220,7 +220,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 27.5d
+			x: 28.0d
 			y: 2.0d
 		}
 		{
@@ -228,7 +228,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 28.5d
+			x: 29.0d
 			y: 2.0d
 		}
 		{
@@ -236,7 +236,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 28.5d
+			x: 29.0d
 			y: 3.0d
 		}
 		{
@@ -244,7 +244,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 28.5d
+			x: 29.0d
 			y: 4.0d
 		}
 		{
@@ -252,7 +252,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 26.5d
+			x: 27.0d
 			y: 3.0d
 		}
 		{
@@ -260,7 +260,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 26.5d
+			x: 27.0d
 			y: 4.0d
 		}
 		{
@@ -268,7 +268,7 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.5d
+			x: 31.0d
 			y: 2.0d
 		}
 		{
@@ -276,7 +276,7 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.5d
+			x: 31.0d
 			y: 3.0d
 		}
 		{
@@ -284,7 +284,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 32.0d
+			x: 32.5d
 			y: 4.0d
 		}
 		{
@@ -292,7 +292,7 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 18.5d
 			y: 2.0d
 		}
 		{
@@ -300,7 +300,7 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 18.5d
 			y: 3.0d
 		}
 		{
@@ -308,7 +308,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 19.5d
+			x: 20.0d
 			y: 4.0d
 		}
 		{
@@ -316,7 +316,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.5d
+			x: 23.0d
 			y: 2.0d
 		}
 		{
@@ -324,7 +324,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.5d
+			x: 23.0d
 			y: 3.0d
 		}
 		{
@@ -332,7 +332,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 32.0d
+			x: 32.5d
 			y: 5.0d
 		}
 		{
@@ -340,15 +340,15 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 23.5d
-			y: -1.0d
+			x: 24.0d
+			y: -1.5d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:item/fishing_rod"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.0d
+			x: 30.5d
 			y: 1.0d
 		}
 		{
@@ -356,7 +356,7 @@
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 32.0d
+			x: 32.5d
 			y: 2.0d
 		}
 		{
@@ -364,7 +364,7 @@
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 33.0d
+			x: 33.5d
 			y: 2.0d
 		}
 		{
@@ -372,7 +372,7 @@
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 33.0d
+			x: 33.5d
 			y: 3.0d
 		}
 		{
@@ -380,7 +380,7 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 30.5d
+			x: 31.0d
 			y: 4.0d
 		}
 		{
@@ -388,7 +388,7 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.0d
+			x: 18.5d
 			y: 4.0d
 		}
 		{
@@ -396,7 +396,7 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.5d
+			x: 21.0d
 			y: 5.0d
 		}
 		{
@@ -404,7 +404,7 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 33.0d
+			x: 33.5d
 			y: 5.0d
 		}
 		{
@@ -412,7 +412,7 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
+			x: 1.0d
 			y: 5.0d
 		}
 		{
@@ -420,7 +420,7 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
+			x: 1.0d
 			y: 6.5d
 		}
 		{
@@ -428,7 +428,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
+			x: 1.0d
 			y: 0.5d
 		}
 		{
@@ -436,7 +436,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -444,7 +444,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
+			x: 1.0d
 			y: 3.5d
 		}
 		{
@@ -452,7 +452,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -460,7 +460,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.5d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -468,7 +468,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.0d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -476,7 +476,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.5d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -484,7 +484,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.5d
+			x: 9.0d
 			y: 2.5d
 		}
 		{
@@ -492,7 +492,7 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.0d
+			x: 10.5d
 			y: 2.5d
 		}
 		{
@@ -500,7 +500,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.0d
+			x: 11.5d
 			y: 4.0d
 		}
 		{
@@ -508,7 +508,7 @@
 			image: "mysticalagriculture:item/inferium_essence"
 			rotation: 0.0d
 			width: 1.0d
-			x: 29.5d
+			x: 30.0d
 			y: 0.5d
 		}
 		{
@@ -516,7 +516,7 @@
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 19.5d
+			x: 20.0d
 			y: 3.0d
 		}
 		{
@@ -524,7 +524,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 23.5d
+			x: 24.0d
 			y: 5.0d
 		}
 		{
@@ -532,7 +532,7 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
+			x: 22.5d
 			y: 6.0d
 		}
 		{
@@ -540,7 +540,7 @@
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
+			x: 24.5d
 			y: 6.0d
 		}
 		{
@@ -548,7 +548,7 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 25.0d
+			x: 25.5d
 			y: 6.0d
 		}
 		{
@@ -556,7 +556,7 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 23.0d
+			x: 23.5d
 			y: 6.0d
 		}
 		{
@@ -564,7 +564,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 27.5d
+			x: 28.0d
 			y: 4.0d
 		}
 		{
@@ -572,7 +572,7 @@
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 27.5d
+			x: 28.0d
 			y: 3.0d
 		}
 		{
@@ -580,7 +580,7 @@
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 32.0d
+			x: 32.5d
 			y: 3.0d
 		}
 		{
@@ -588,7 +588,7 @@
 			image: "minecraft:item/honeycomb"
 			rotation: 0.0d
 			width: 1.0d
-			x: 31.0d
+			x: 31.5d
 			y: 0.5d
 		}
 		{
@@ -596,15 +596,15 @@
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.5d
+			x: 33.5d
 			y: 4.0d
 		}
 		{
 			height: 1.0d
-			image: "minecraft:block/yellow_concrete"
+			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
-			x: 33.0d
+			x: 21.0d
 			y: 4.0d
 		}
 	]
@@ -613,13 +613,13 @@
 		{
 			id: "70FE87D759B2C053"
 			linked_quest: "595F8AC6DB5DACD8"
-			x: 19.0d
+			x: 19.5d
 			y: 0.0d
 		}
 		{
 			id: "620514397B2DDBED"
 			linked_quest: "4A7A15ECB8ABDF88"
-			x: 20.5d
+			x: 21.0d
 			y: 0.0d
 		}
 	]
@@ -641,7 +641,7 @@
 				item: { count: 1, id: "ftb:cloth_mesh" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 0.5d
 		}
 		{
@@ -661,7 +661,7 @@
 				item: { count: 1, id: "ftb:iron_mesh" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -680,7 +680,7 @@
 				item: { count: 1, id: "ftb:gold_mesh" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 3.5d
 		}
 		{
@@ -700,7 +700,7 @@
 				item: { count: 1, id: "ftb:diamond_mesh" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 5.0d
 		}
 		{
@@ -719,7 +719,7 @@
 				item: { count: 1, id: "ftb:blazing_mesh" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 6.5d
 		}
 		{
@@ -749,7 +749,7 @@
 				item: { count: 1, id: "minecraft:dirt" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -779,7 +779,7 @@
 				item: { count: 1, id: "minecraft:gravel" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -809,7 +809,7 @@
 				item: { count: 16, id: "minecraft:sand" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -839,7 +839,7 @@
 				item: { count: 1, id: "ftbstuff:dust" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -862,7 +862,7 @@
 				item: { count: 1, id: "integrateddynamics:menril_sapling" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -886,7 +886,7 @@
 				item: { count: 1, id: "minecraft:cherry_sapling" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -909,7 +909,7 @@
 				item: { count: 1, id: "ftbmaterials:copper_chunk" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
@@ -932,7 +932,7 @@
 				item: { count: 1, id: "ftbmaterials:tin_chunk" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 0.5d
 		}
 		{
@@ -955,7 +955,7 @@
 				item: { count: 1, id: "mysticalagriculture:dirt_essence" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 0.5d
 		}
 		{
@@ -979,7 +979,7 @@
 				item: { count: 1, id: "ftbmaterials:lead_chunk" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 2.0d
 		}
 		{
@@ -1003,7 +1003,7 @@
 				item: { count: 1, id: "ftbmaterials:niter_dust" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 2.0d
 		}
 		{
@@ -1027,7 +1027,7 @@
 				item: { count: 1, id: "ftbmaterials:gold_chunk" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -1050,7 +1050,7 @@
 				item: { count: 1, id: "ftbmaterials:diamond_chunk" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 5.0d
 		}
 		{
@@ -1074,7 +1074,7 @@
 				item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 3.5d
 		}
 		{
@@ -1098,7 +1098,7 @@
 				item: { count: 1, id: "ftbmaterials:emerald_chunk" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 3.5d
 		}
 		{
@@ -1122,7 +1122,7 @@
 				item: { count: 1, id: "ftbmaterials:bauxite_dust" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 3.5d
 		}
 		{
@@ -1145,7 +1145,7 @@
 				item: { count: 1, id: "ftbmaterials:redstone_chunk" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 5.0d
 		}
 		{
@@ -1168,7 +1168,7 @@
 				item: { count: 1, id: "modern_industrialization:aluminum_dust" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 6.5d
 		}
 		{
@@ -1192,7 +1192,7 @@
 				item: { count: 1, id: "minecraft:glowstone_dust" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 3.5d
 		}
 		{
@@ -1215,7 +1215,7 @@
 				item: { count: 1, id: "minecraft:blaze_powder" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 5.0d
 		}
 		{
@@ -1238,7 +1238,7 @@
 				item: { count: 1, id: "actuallyadditions:black_quartz" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 6.5d
 		}
 		{
@@ -1261,7 +1261,7 @@
 				item: { count: 1, id: "mekanism:dirty_netherite_scrap" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 5.0d
 		}
 		{
@@ -1285,7 +1285,7 @@
 				item: { count: 1, id: "ftbmaterials:sulfur_dust" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 3.5d
 		}
 		{
@@ -1316,7 +1316,7 @@
 				item: { count: 1, id: "ftbstuff:crushed_netherrack" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 2.5d
 		}
 		{
@@ -1347,7 +1347,7 @@
 				item: { count: 1, id: "ftbstuff:crushed_basalt" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 2.5d
 		}
 		{
@@ -1378,7 +1378,7 @@
 				item: { count: 16, id: "ftb:crushed_kivi" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 4.0d
 		}
 		{
@@ -1404,7 +1404,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:gems/xychorium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.0d
 			y: 5.0d
 		}
 		{
@@ -1438,7 +1438,7 @@
 					type: "observation"
 				}
 			]
-			x: 14.0d
+			x: 14.5d
 			y: 2.0d
 		}
 		{
@@ -1471,7 +1471,7 @@
 					type: "observation"
 				}
 			]
-			x: 15.0d
+			x: 15.5d
 			y: 2.0d
 		}
 		{
@@ -1491,7 +1491,7 @@
 				item: { count: 1, id: "geore:budding_diamond" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 18.5d
 			y: 2.0d
 		}
 		{
@@ -1511,7 +1511,7 @@
 				item: { count: 1, id: "geore:budding_emerald" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 18.5d
 			y: 3.0d
 		}
 		{
@@ -1543,7 +1543,7 @@
 					type: "observation"
 				}
 			]
-			x: 14.0d
+			x: 14.5d
 			y: 3.0d
 		}
 		{
@@ -1576,7 +1576,7 @@
 					type: "observation"
 				}
 			]
-			x: 16.0d
+			x: 16.5d
 			y: 2.0d
 		}
 		{
@@ -1609,7 +1609,7 @@
 					type: "observation"
 				}
 			]
-			x: 15.0d
+			x: 15.5d
 			y: 3.0d
 		}
 		{
@@ -1617,7 +1617,6 @@
 			id: "3CEB8BF2F48ECDBA"
 			optional: true
 			rewards: [{
-				count: 3
 				id: "38C18BD140517D7B"
 				item: {
 					count: 1
@@ -1630,7 +1629,7 @@
 				item: { count: 1, id: "geore:budding_quartz" }
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.0d
 			y: 5.0d
 		}
 		{
@@ -1650,7 +1649,7 @@
 				item: { count: 1, id: "minecraft:budding_amethyst" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 18.5d
 			y: 4.0d
 		}
 		{
@@ -1683,7 +1682,7 @@
 					type: "observation"
 				}
 			]
-			x: 16.0d
+			x: 16.5d
 			y: 3.0d
 		}
 		{
@@ -1703,7 +1702,7 @@
 				item: { count: 1, id: "geore:budding_ancient_debris" }
 				type: "item"
 			}]
-			x: 20.5d
+			x: 21.0d
 			y: 5.0d
 		}
 		{
@@ -1736,7 +1735,7 @@
 					type: "observation"
 				}
 			]
-			x: 16.0d
+			x: 16.5d
 			y: 5.0d
 		}
 		{
@@ -1769,7 +1768,7 @@
 					type: "observation"
 				}
 			]
-			x: 14.0d
+			x: 14.5d
 			y: 5.0d
 		}
 		{
@@ -1802,7 +1801,7 @@
 					type: "observation"
 				}
 			]
-			x: 15.0d
+			x: 15.5d
 			y: 5.0d
 		}
 		{
@@ -1810,7 +1809,6 @@
 			id: "576B6C8DD5E4B82E"
 			optional: true
 			rewards: [{
-				count: 3
 				id: "0C4617C4175DA3AC"
 				item: {
 					count: 1
@@ -1823,7 +1821,7 @@
 				item: { count: 1, id: "geore:budding_zinc" }
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.0d
 			y: 4.0d
 		}
 		{
@@ -1844,7 +1842,7 @@
 				item: { count: 1, id: "geore:budding_black_quartz" }
 				type: "item"
 			}]
-			x: 23.5d
+			x: 24.0d
 			y: 2.0d
 		}
 		{
@@ -1864,7 +1862,7 @@
 				item: { count: 1, id: "geore:budding_monazite" }
 				type: "item"
 			}]
-			x: 22.5d
+			x: 23.0d
 			y: 3.0d
 		}
 		{
@@ -1874,7 +1872,6 @@
 			id: "7E49ACE4F6DBA10B"
 			optional: true
 			rewards: [{
-				count: 3
 				id: "6D384DE1786C2086"
 				item: {
 					count: 1
@@ -1887,7 +1884,7 @@
 				item: { count: 1, id: "geore:budding_aluminum" }
 				type: "item"
 			}]
-			x: 20.5d
+			x: 21.0d
 			y: 4.0d
 		}
 		{
@@ -1920,7 +1917,7 @@
 					type: "observation"
 				}
 			]
-			x: 16.0d
+			x: 16.5d
 			y: 4.0d
 		}
 		{
@@ -1953,7 +1950,7 @@
 					type: "observation"
 				}
 			]
-			x: 15.0d
+			x: 15.5d
 			y: 4.0d
 		}
 		{
@@ -1972,7 +1969,7 @@
 				item: { count: 1, id: "geore:budding_osmium" }
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.0d
 			y: 3.0d
 		}
 		{
@@ -1991,7 +1988,7 @@
 				item: { count: 1, id: "geore:budding_platinum" }
 				type: "item"
 			}]
-			x: 20.5d
+			x: 21.0d
 			y: 2.0d
 		}
 		{
@@ -2011,7 +2008,7 @@
 				item: { count: 1, id: "geore:budding_silver" }
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.0d
 			y: 2.0d
 		}
 		{
@@ -2044,7 +2041,7 @@
 					type: "observation"
 				}
 			]
-			x: 14.0d
+			x: 14.5d
 			y: 4.0d
 		}
 		{
@@ -2063,7 +2060,7 @@
 				item: { count: 1, id: "geore:budding_tungsten" }
 				type: "item"
 			}]
-			x: 22.5d
+			x: 23.0d
 			y: 2.0d
 		}
 		{
@@ -2082,7 +2079,7 @@
 				item: { count: 1, id: "geore:budding_uranium" }
 				type: "item"
 			}]
-			x: 20.5d
+			x: 21.0d
 			y: 3.0d
 		}
 		{
@@ -2101,7 +2098,7 @@
 				item: { count: 1, id: "mysticalagriculture:iron_essence" }
 				type: "item"
 			}]
-			x: 28.5d
+			x: 29.0d
 			y: 2.0d
 		}
 		{
@@ -2120,7 +2117,7 @@
 				item: { count: 1, id: "mysticalagriculture:coal_essence" }
 				type: "item"
 			}]
-			x: 26.5d
+			x: 27.0d
 			y: 2.0d
 		}
 		{
@@ -2139,7 +2136,7 @@
 				item: { count: 1, id: "mysticalagriculture:copper_essence" }
 				type: "item"
 			}]
-			x: 27.5d
+			x: 28.0d
 			y: 2.0d
 		}
 		{
@@ -2158,7 +2155,7 @@
 				item: { count: 1, id: "mysticalagriculture:gold_essence" }
 				type: "item"
 			}]
-			x: 26.5d
+			x: 27.0d
 			y: 3.0d
 		}
 		{
@@ -2177,7 +2174,7 @@
 				item: { count: 1, id: "mysticalagriculture:redstone_essence" }
 				type: "item"
 			}]
-			x: 28.5d
+			x: 29.0d
 			y: 3.0d
 		}
 		{
@@ -2196,7 +2193,7 @@
 				item: { count: 1, id: "mysticalagriculture:tin_essence" }
 				type: "item"
 			}]
-			x: 26.5d
+			x: 27.0d
 			y: 4.0d
 		}
 		{
@@ -2215,7 +2212,7 @@
 				item: { count: 1, id: "mysticalagriculture:lead_essence" }
 				type: "item"
 			}]
-			x: 28.5d
+			x: 29.0d
 			y: 4.0d
 		}
 		{
@@ -2235,7 +2232,7 @@
 				item: { count: 1, id: "mysticalagriculture:zinc_essence" }
 				type: "item"
 			}]
-			x: 32.0d
+			x: 32.5d
 			y: 4.0d
 		}
 		{
@@ -2254,7 +2251,7 @@
 				item: { count: 1, id: "mysticalagriculture:nickel_essence" }
 				type: "item"
 			}]
-			x: 27.5d
+			x: 28.0d
 			y: 4.0d
 		}
 		{
@@ -2273,7 +2270,7 @@
 				item: { count: 1, id: "mysticalagriculture:lapis_lazuli_essence" }
 				type: "item"
 			}]
-			x: 27.5d
+			x: 28.0d
 			y: 3.0d
 		}
 		{
@@ -2285,7 +2282,7 @@
 			id: "42535B4BBB87AC3D"
 			optional: true
 			rewards: [{
-				count: 4
+				count: 5
 				id: "5DDDAF84FA736D78"
 				item: {
 					count: 1
@@ -2298,7 +2295,7 @@
 				item: { count: 1, id: "mysticalagriculture:diamond_essence" }
 				type: "item"
 			}]
-			x: 30.5d
+			x: 31.0d
 			y: 2.0d
 		}
 		{
@@ -2306,7 +2303,7 @@
 			id: "013FC4C13A426EB1"
 			optional: true
 			rewards: [{
-				count: 4
+				count: 5
 				id: "3AF6EC374990C217"
 				item: {
 					count: 1
@@ -2319,7 +2316,7 @@
 				item: { count: 1, id: "mysticalagriculture:emerald_essence" }
 				type: "item"
 			}]
-			x: 30.5d
+			x: 31.0d
 			y: 3.0d
 		}
 		{
@@ -2339,7 +2336,7 @@
 				item: { count: 1, id: "mysticalagriculture:amethyst_essence" }
 				type: "item"
 			}]
-			x: 30.5d
+			x: 31.0d
 			y: 4.0d
 		}
 		{
@@ -2358,7 +2355,7 @@
 				item: { count: 1, id: "mysticalagriculture:osmium_essence" }
 				type: "item"
 			}]
-			x: 32.0d
+			x: 32.5d
 			y: 3.0d
 		}
 		{
@@ -2379,7 +2376,7 @@
 				item: { count: 1, id: "mysticalagriculture:nether_quartz_essence" }
 				type: "item"
 			}]
-			x: 32.0d
+			x: 32.5d
 			y: 5.0d
 		}
 		{
@@ -2417,7 +2414,7 @@
 					type: "item"
 				}
 			]
-			x: 25.5d
+			x: 26.0d
 			y: 0.0d
 		}
 		{
@@ -2437,7 +2434,7 @@
 				item: { count: 1, id: "mysticalagriculture:silver_essence" }
 				type: "item"
 			}]
-			x: 32.0d
+			x: 32.5d
 			y: 2.0d
 		}
 		{
@@ -2456,7 +2453,7 @@
 				item: { count: 1, id: "mysticalagriculture:platinum_essence" }
 				type: "item"
 			}]
-			x: 33.0d
+			x: 33.5d
 			y: 2.0d
 		}
 		{
@@ -2475,7 +2472,7 @@
 				item: { count: 1, id: "mysticalagriculture:uranium_essence" }
 				type: "item"
 			}]
-			x: 33.0d
+			x: 33.5d
 			y: 3.0d
 		}
 		{
@@ -2495,7 +2492,7 @@
 				item: { count: 1, id: "mysticalagriculture:aluminum_essence" }
 				type: "item"
 			}]
-			x: 33.0d
+			x: 33.5d
 			y: 4.0d
 		}
 		{
@@ -2515,7 +2512,7 @@
 				item: { count: 1, id: "mysticalagriculture:netherite_essence" }
 				type: "item"
 			}]
-			x: 33.0d
+			x: 33.5d
 			y: 5.0d
 		}
 		{
@@ -2545,7 +2542,7 @@
 					type: "item"
 				}
 			]
-			x: 21.5d
+			x: 22.0d
 			y: 0.0d
 		}
 		{
@@ -2569,7 +2566,7 @@
 				item: { count: 1, id: "occultism:dimensional_mineshaft" }
 				type: "item"
 			}]
-			x: 23.0d
+			x: 23.5d
 			y: 6.0d
 		}
 		{
@@ -2582,7 +2579,7 @@
 				item: { count: 1, id: "mekanism_lasers:ore_generator" }
 				type: "item"
 			}]
-			x: 22.0d
+			x: 22.5d
 			y: 6.0d
 		}
 		{
@@ -2595,7 +2592,7 @@
 				item: { count: 1, id: "modern_industrialization:electric_quarry" }
 				type: "item"
 			}]
-			x: 24.0d
+			x: 24.5d
 			y: 6.0d
 		}
 		{
@@ -2611,7 +2608,7 @@
 				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
 				type: "item"
 			}]
-			x: 25.0d
+			x: 25.5d
 			y: 6.0d
 		}
 		{
@@ -2623,7 +2620,7 @@
 				item: { count: 1, id: "actuallyadditions:lens_of_the_miner" }
 				type: "item"
 			}]
-			x: 23.5d
+			x: 24.0d
 			y: 5.0d
 		}
 		{
@@ -2645,27 +2642,30 @@
 				{
 					id: "73D645978C2B7DD9"
 					item: { count: 1, id: "minecraft:ancient_debris" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2F51960614CCD692"
 					item: { count: 1, id: "minecraft:netherite_scrap" }
+					optional_task: true
 					type: "item"
 				}
 			]
-			x: 26.5d
+			x: 27.0d
 			y: 0.0d
 		}
 		{
 			id: "56279976861A0A95"
-			optional: true
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "06F0C110F6DF4933"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:red_concrete)item(minecraft:yellow_concrete)item(minecraft:lime_concrete))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				optional_task: true
 				type: "item"
 			}]
-			x: 23.5d
+			x: 24.0d
 			y: 0.0d
 		}
 	]

@@ -85,6 +85,24 @@
 					}
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "41EE1C3321B05F47"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "3A0D29FD1B094934"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -426,21 +444,14 @@
 				id: "mekanism:ultimate_pressurized_tube"
 			}
 			id: "4ECDF58A8FB43590"
-			rewards: [
-				{
-					id: "3EE51E0FFD0AEF1E"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "7EB9BCAF7CACB3BA"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "7EB9BCAF7CACB3BA"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "39F659B8811B8581"
@@ -456,21 +467,14 @@
 				id: "mekanism:ultimate_mechanical_pipe"
 			}
 			id: "0B27B02715F61690"
-			rewards: [
-				{
-					id: "728D603509605F27"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "4019564B8CAE51E9"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "4019564B8CAE51E9"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4F3BD1ECA2A53285"
@@ -486,21 +490,14 @@
 				id: "mekanism:ultimate_logistical_transporter"
 			}
 			id: "344A14365BC03575"
-			rewards: [
-				{
-					id: "2C261A1F0EF79E77"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "22D79F3FA17B147E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "22D79F3FA17B147E"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "71E7DDA8A2BC8D5A"
@@ -516,21 +513,14 @@
 				id: "modern_industrialization:black_fluid_pipe"
 			}
 			id: "5283000032BDFE0B"
-			rewards: [
-				{
-					id: "0EA1DC1464A6DEA5"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "596D2F50F47E8C96"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "596D2F50F47E8C96"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "19FEB64A680EC482"
@@ -546,21 +536,14 @@
 				id: "modern_industrialization:black_item_pipe"
 			}
 			id: "103DD37E53765969"
-			rewards: [
-				{
-					id: "6BAEBAED6037F540"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "36EF94501FF73CB5"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "36EF94501FF73CB5"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "77EA3C2586C0BFC9"
@@ -576,21 +559,14 @@
 				id: "modern_industrialization:tin_cable"
 			}
 			id: "5BAC67D69E4CEBFD"
-			rewards: [
-				{
-					id: "742EDBF92B05F16C"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "0D0E066D32D0AB3E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "0D0E066D32D0AB3E"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "53DBF8E185837F67"
@@ -603,22 +579,15 @@
 		{
 			id: "4EE97D251DD2E9B7"
 			min_width: 300
-			rewards: [
-				{
-					id: "587077FAE88F61BA"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				count: 3
+				id: "3B7045084D12AF39"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 3
-					id: "3B7045084D12AF39"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [{
@@ -636,9 +605,13 @@
 			id: "2AF7DF42143C5443"
 			rewards: [
 				{
-					id: "0C45BE0B4DDA5772"
-					type: "xp"
-					xp: 5
+					count: 3
+					id: "1D2BA88B721FAD5C"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					count: 8
@@ -648,15 +621,6 @@
 						id: "integrateddynamics:crystalized_menril_chunk"
 					}
 					random_bonus: 8
-					type: "item"
-				}
-				{
-					count: 3
-					id: "1D2BA88B721FAD5C"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -689,21 +653,14 @@
 			}
 			id: "2A1AE478A678C1A9"
 			optional: true
-			rewards: [
-				{
-					id: "0263E68246F5C5B4"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "3F053E2EFB9134F5"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "3F053E2EFB9134F5"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -734,26 +691,20 @@
 			}
 			id: "4D8644BC9308E349"
 			optional: true
-			rewards: [
-				{
-					id: "523F86B1093EDC65"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "636CA43E212F143B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "636CA43E212F143B"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
 					id: "6FEFC9253CA76761"
 					item: { count: 1, id: "integratedtunnels:part_interface_item" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -779,21 +730,14 @@
 			}
 			id: "40255F6F1C60B588"
 			optional: true
-			rewards: [
-				{
-					id: "334C091C186D7EA1"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "218FB1ECB8A1D726"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "218FB1ECB8A1D726"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -825,9 +769,13 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "16A3765D87DA6111"
-					type: "xp"
-					xp: 5
+					count: 3
+					id: "3DAE91206A90B978"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "50A1CDAAFCA078BE"
@@ -847,15 +795,6 @@
 						id: "laserio:overclocker_card"
 					}
 					random_bonus: 1
-					type: "item"
-				}
-				{
-					count: 3
-					id: "3DAE91206A90B978"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -884,21 +823,14 @@
 		{
 			dependencies: ["5778BAEC8F095B3D"]
 			id: "2061FEEF44253E13"
-			rewards: [
-				{
-					id: "2F0D601226A79FFD"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "19A1901D5BBACF9E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "19A1901D5BBACF9E"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "651A317C6DE47369"
@@ -911,21 +843,14 @@
 		{
 			dependencies: ["5778BAEC8F095B3D"]
 			id: "163228798680D7ED"
-			rewards: [
-				{
-					id: "7645C4716F1375A3"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "1CD86C1B30C4CB9B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "1CD86C1B30C4CB9B"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "47A12A4431A8E6DE"
@@ -938,21 +863,14 @@
 		{
 			dependencies: ["5778BAEC8F095B3D"]
 			id: "4D21DB3EC7424E9A"
-			rewards: [
-				{
-					id: "049263A5538416BD"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "46A19CBF1F5173BA"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "46A19CBF1F5173BA"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "176DF1BF495CD234"
@@ -965,21 +883,14 @@
 		{
 			dependencies: ["5778BAEC8F095B3D"]
 			id: "5CA5F9BE51C24FC8"
-			rewards: [
-				{
-					id: "565A387DCD985A22"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "0DE2F53B5F5F3364"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "0DE2F53B5F5F3364"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "483D029983C69BA1"
@@ -992,21 +903,14 @@
 		{
 			dependencies: ["5778BAEC8F095B3D"]
 			id: "6E62CF3784A15E0F"
-			rewards: [
-				{
-					id: "731646EE6F91CC1E"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "4735B770B2741C8A"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "4735B770B2741C8A"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6A395BAE50CD4F6D"
@@ -1075,9 +979,13 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "572DAB9782031E5B"
-					type: "xp"
-					xp: 5
+					count: 5
+					id: "600DB17B2D991345"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -1285,6 +1193,24 @@
 					type: "xp"
 					xp: 5
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "12AEABED6600E97E"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "1F835563B9ECAE7F"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "diamond"
 			size: 2.0d
@@ -1441,22 +1367,15 @@
 			id: "799515068A0B6D57"
 			min_width: 300
 			optional: true
-			rewards: [
-				{
-					id: "34B31B24BF6E5F51"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				count: 5
+				id: "08FA7FCE5C2FA96B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "08FA7FCE5C2FA96B"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0530F7E8DA9BE070"
@@ -1502,14 +1421,34 @@
 			id: "1F6FE0AAF690665D"
 			min_width: 300
 			optional: true
-			rewards: [{
-				id: "428D102FCDC18272"
-				item: {
-					count: 1
-					id: "magic_coins:silver_coin"
+			rewards: [
+				{
+					id: "428D102FCDC18272"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "6859C43F401C5B0F"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "2105B2DB1456870A"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1601,8 +1540,16 @@
 			}
 			icon_scale: 1.5d
 			id: "34D191F76AA69707"
-			min_width: 350
+			min_width: 300
 			rewards: [
+				{
+					id: "2B9D78FDFD4A389D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
 				{
 					id: "33C7B95D1BA2C94D"
 					item: {
@@ -1610,19 +1557,6 @@
 						id: "fluxnetworks:flux_dust"
 					}
 					random_bonus: 3
-					type: "item"
-				}
-				{
-					id: "0B9761312BCFDF74"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "2B9D78FDFD4A389D"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
 					type: "item"
 				}
 			]
@@ -1654,19 +1588,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "638405D1B19D06DC"
-					item: {
-						count: 1
-						id: "fluxnetworks:basic_flux_storage"
-					}
-					type: "item"
-				}
-				{
-					id: "747A61C5062E3E2F"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "309AFAF2462E6E8A"
 					item: {
 						count: 1
@@ -1674,13 +1595,36 @@
 					}
 					type: "item"
 				}
+				{
+					id: "684991084F132749"
+					item: {
+						count: 1
+						id: "fluxnetworks:gargantuan_flux_storage"
+					}
+					type: "item"
+				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "73921ECA6C7CF4B4"
-				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "73921ECA6C7CF4B4"
+					item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5D4EB543E1CF0C65"
+					item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "27776AC4DF8B967D"
+					item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: 5.0d
 		}
@@ -1693,6 +1637,14 @@
 			min_width: 250
 			rewards: [
 				{
+					id: "0000A38387412614"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "15FB97519E5EFEB1"
 					item: {
 						count: 1
@@ -1702,17 +1654,22 @@
 					type: "item"
 				}
 				{
-					id: "6EC3DFC70C9B9096"
-					type: "xp"
-					xp: 50
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "338A2B42CD20896B"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 				{
-					id: "0000A38387412614"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "7DBFAD6A8A3E4176"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "diamond"
@@ -1734,31 +1691,15 @@
 		{
 			dependencies: ["34D191F76AA69707"]
 			id: "6D5905345348ABEF"
-			min_width: 250
-			rewards: [
-				{
-					id: "401CE57CAF091973"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_core"
-					}
-					random_bonus: 3
-					type: "item"
+			min_width: 350
+			rewards: [{
+				id: "3D32FFAE912E1CF8"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
 				}
-				{
-					id: "051065E84457C6C7"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "3D32FFAE912E1CF8"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "706B296079D24F19"
@@ -1780,25 +1721,20 @@
 			min_width: 300
 			rewards: [
 				{
+					id: "7F3D583FA0CEA0EB"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "4382248CD8662A41"
 					item: {
 						count: 1
 						id: "fluxnetworks:flux_dust"
 					}
 					random_bonus: 3
-					type: "item"
-				}
-				{
-					id: "3DF719E198759387"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "7F3D583FA0CEA0EB"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]

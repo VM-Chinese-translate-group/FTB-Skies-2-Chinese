@@ -1,0 +1,36 @@
+{
+	icon: {
+		id: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+	}
+	id: "67712B94B59B8C0B"
+	loot_size: 1
+	order_index: 69
+	rewards: [
+		{
+			id: "63D8CD261BB1AE7B"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "7880455A2D147A7E"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "7F477BAFD67D2B5E"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+			}
+			weight: 5.0f
+		}
+		{ id: "3F0620D38FB00093", item: { count: 1, id: "sophisticatedstorage:basic_to_netherite_tier_upgrade" } }
+	]
+	use_title: true
+}

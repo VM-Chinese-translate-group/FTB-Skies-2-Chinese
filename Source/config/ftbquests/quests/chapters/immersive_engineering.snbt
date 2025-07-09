@@ -311,7 +311,7 @@
 				item: { count: 1, id: "immersiveengineering:workbench" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -338,6 +338,24 @@
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "777166216949D6F7"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "11ACCE171DED046C"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			size: 1.5d
@@ -438,7 +456,7 @@
 				type: "observation"
 			}]
 			x: 8.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5E5BDCBF185E48E3"]
@@ -516,63 +534,11 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5E5BDCBF185E48E3"]
-			icon: {
-				components: {
-					"immersiveengineering:blueprint": "electrode"
-				}
-				id: "immersiveengineering:blueprint"
-			}
-			id: "4E48ACEA714B5976"
-			rewards: [
-				{
-					count: 4
-					id: "46BD38D0F5DFCA22"
-					item: {
-						count: 1
-						id: "minecraft:emerald"
-					}
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "77DF06B686A67DF7"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "6A4B00A46EBF7563"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "3A490C81008F4DB1"
-					item: { count: 1, id: "immersiveengineering:craftingtable" }
-					type: "item"
-				}
-				{
-					id: "6B420EA5EEB024D4"
-					item: { components: { "immersiveengineering:blueprint": "electrode" }, count: 1, id: "immersiveengineering:blueprint" }
-					match_components: "strict"
-					type: "item"
-				}
-			]
-			x: 8.0d
 			y: 2.0d
 		}
 		{
 			dependencies: [
 				"026A64F01C301119"
-				"4E48ACEA714B5976"
 				"7F6363864003FFC0"
 			]
 			dependency_requirement: "one_completed"
@@ -583,7 +549,7 @@
 					id: "15F68D409D9F903E"
 					item: {
 						count: 1
-						id: "immersiveengineering:ingot_hop_graphite"
+						id: "immersiveengineering:dust_hop_graphite"
 					}
 					random_bonus: 2
 					type: "item"
@@ -601,6 +567,24 @@
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "330909F1542A5947"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "382FA12214C287F1"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			tasks: [{
@@ -670,13 +654,13 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -4.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["436BFB9B69B6D4A7"]
 			icon: {
-				id: "immersiveengineering:ingot_hop_graphite"
+				id: "immersiveengineering:dust_hop_graphite"
 			}
 			id: "026A64F01C301119"
 			rewards: [
@@ -685,7 +669,7 @@
 					id: "3E669150A4B0A8BC"
 					item: {
 						count: 1
-						id: "immersiveengineering:ingot_hop_graphite"
+						id: "immersiveengineering:dust_hop_graphite"
 					}
 					random_bonus: 2
 					type: "item"
@@ -699,18 +683,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "5900C14766E14E67"
-					item: { count: 1, id: "immersiveengineering:dust_hop_graphite" }
-					type: "item"
-				}
-				{
-					id: "212A73B92FEB412F"
-					item: { count: 1, id: "immersiveengineering:ingot_hop_graphite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5900C14766E14E67"
+				item: { count: 1, id: "immersiveengineering:dust_hop_graphite" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: 0.0d
 		}
@@ -771,7 +748,7 @@
 				}
 			]
 			x: 6.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2E9C2F524BE5FC10"]
@@ -809,7 +786,7 @@
 				to_observe: "immersiveengineering:crusher"
 				type: "observation"
 			}]
-			x: 14.0d
+			x: 10.0d
 			y: -2.0d
 		}
 		{
@@ -1631,7 +1608,7 @@
 			]
 			tasks: [{
 				id: "36B3F15841B7F400"
-				item: { count: 1, id: "modern_industrialization:ethanol_bucket" }
+				item: { count: 1, id: "pneumaticcraft:ethanol_bucket" }
 				type: "item"
 			}]
 			x: 14.0d
@@ -1802,7 +1779,7 @@
 				to_observe: "immersiveengineering:squeezer"
 				type: "observation"
 			}]
-			x: 12.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -1834,7 +1811,7 @@
 				item: { count: 1, id: "ftbmaterials:coal_coke_dust" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -2117,49 +2094,6 @@
 			}]
 			x: 8.0d
 			y: 8.0d
-		}
-		{
-			dependencies: ["2E9C2F524BE5FC10"]
-			id: "01EACBB904547728"
-			rewards: [
-				{
-					id: "4BBC092E0B90A798"
-					item: {
-						count: 1
-						id: "magic_coins:crystal_coin"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "2692FF43AF3A19F7"
-					item: {
-						count: 1
-						id: "minecraft:diamond_ore"
-					}
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "4CE3FB75D8E73780"
-					type: "xp"
-					xp: 500
-				}
-			]
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:excavator"
-				}
-				id: "027656729B7830D9"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:excavator"
-				type: "observation"
-			}]
-			x: 9.0d
-			y: -2.0d
 		}
 	]
 }

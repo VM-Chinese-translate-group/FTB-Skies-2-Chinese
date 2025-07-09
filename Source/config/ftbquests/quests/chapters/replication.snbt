@@ -34,14 +34,26 @@
 		{
 			dependencies: ["0BEF15E1352A5F72"]
 			id: "705E4FFB4FCADFD1"
-			rewards: [{
-				id: "76CCF880E52D1144"
-				item: {
-					count: 1
-					id: "magic_coins:silver_coin"
+			rewards: [
+				{
+					id: "76CCF880E52D1144"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 8
+					id: "6E56605BA230C992"
+					item: {
+						count: 1
+						id: "replication:matter_network_pipe"
+					}
+					random_bonus: 8
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "31929EA58B1939C7"
 				item: { count: 1, id: "replication:matter_network_pipe" }
@@ -54,7 +66,7 @@
 			dependencies: ["705E4FFB4FCADFD1"]
 			id: "5624865A6F796087"
 			rewards: [{
-				count: 3
+				count: 5
 				id: "28DA27D9F7369B80"
 				item: {
 					count: 1
@@ -73,15 +85,34 @@
 		{
 			dependencies: ["705E4FFB4FCADFD1"]
 			id: "2F8BB4724991B7C4"
-			rewards: [{
-				count: 3
-				id: "5ABA491A09721798"
-				item: {
-					count: 1
-					id: "magic_coins:silver_coin"
+			rewards: [
+				{
+					id: "5ABA491A09721798"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "594048D5E2CB8375"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "404ADFBB509045E8"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "0B5FC1CBA6FC0537"
 				item: { count: 1, id: "replication:identification_chamber" }
@@ -91,14 +122,13 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["705E4FFB4FCADFD1"]
+			dependencies: ["2464B384CC26F2EC"]
 			id: "388014ECCC529C2C"
 			rewards: [{
-				count: 3
 				id: "5C261D8F747169D2"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -107,18 +137,17 @@
 				item: { count: 1, id: "replication:disintegrator" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["705E4FFB4FCADFD1"]
 			id: "39751E377C0F22EE"
 			rewards: [{
-				count: 2
 				id: "6C50CAFA9EB878ED"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -153,10 +182,11 @@
 			dependencies: ["2F8BB4724991B7C4"]
 			id: "34DA4C91DEADF93D"
 			rewards: [{
+				count: 3
 				id: "6B5018A3EB9F2A13"
 				item: {
 					count: 1
-					id: "magic_coins:gold_coin"
+					id: "magic_coins:silver_coin"
 				}
 				type: "item"
 			}]
@@ -169,41 +199,86 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["388014ECCC529C2C"]
+			dependencies: ["705E4FFB4FCADFD1"]
 			id: "2464B384CC26F2EC"
-			rewards: [{
-				id: "60895326733F8ECB"
-				item: {
-					count: 1
-					id: "magic_coins:crystal_coin"
+			rewards: [
+				{
+					count: 5
+					id: "60895326733F8ECB"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "49F7AA8E31079EEC"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "3315EA3041B1E7BC"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "73CEEE9A982651AD"
 				item: { count: 1, id: "replication:matter_tank" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
+			icon: {
+				id: "replication:replica_ingot"
+			}
 			id: "0BEF15E1352A5F72"
-			rewards: [{
-				id: "361FACF05797B64D"
-				item: {
-					count: 1
-					id: "magic_coins:silver_coin"
+			rewards: [
+				{
+					id: "361FACF05797B64D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "36D7A2A98B384C17"
+					item: {
+						count: 1
+						id: "replication:raw_replica"
+					}
+					random_bonus: 12
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "1C51CCD9A0ABCABF"
-				item: { count: 1, id: "replication:raw_replica" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1C51CCD9A0ABCABF"
+					item: { count: 1, id: "replication:raw_replica" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0EF21A47B104E2E0"
+					item: { count: 1, id: "replication:replica_ingot" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 0.0d
 		}

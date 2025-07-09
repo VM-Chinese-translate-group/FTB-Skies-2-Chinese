@@ -268,6 +268,24 @@
 					type: "xp"
 					xp: 1000
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "53893164192291EE"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "4834617FDF25C4F8"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d
@@ -298,6 +316,24 @@
 					id: "687CA5FB1EB6699B"
 					type: "xp"
 					xp: 500
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "419DCEC2E7B4327C"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "3A4E283878D2647F"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "rsquare"
@@ -2337,14 +2373,34 @@
 		{
 			dependencies: ["48E284F256F6453E"]
 			id: "20B98E676C8CC943"
-			rewards: [{
-				id: "56C113FBC1D5ED15"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "56C113FBC1D5ED15"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "01124C1092EA7D94"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "743F5E972859AD44"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "7AB4123F573F6549"

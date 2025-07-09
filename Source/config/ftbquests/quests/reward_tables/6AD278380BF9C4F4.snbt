@@ -7,7 +7,7 @@
 	order_index: 0
 	rewards: [
 		{
-			count: 2
+			count: 4
 			id: "077927C84A9D3B21"
 			item: {
 				count: 1
@@ -17,7 +17,7 @@
 			weight: 100.0f
 		}
 		{
-			count: 2
+			count: 4
 			id: "56537A7FECA5C42B"
 			item: {
 				count: 1
@@ -27,13 +27,13 @@
 			weight: 100.0f
 		}
 		{
-			count: 2
+			count: 4
 			id: "078D2125B32C37E6"
 			item: {
 				count: 1
 				id: "mekanism:upgrade_chemical"
 			}
-			random_bonus: 2
+			random_bonus: 4
 			weight: 25.0f
 		}
 		{

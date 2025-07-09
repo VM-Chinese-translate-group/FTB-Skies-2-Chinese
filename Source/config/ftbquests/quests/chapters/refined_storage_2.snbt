@@ -462,6 +462,24 @@
 					table_id: 2174502260259284846L
 					type: "loot"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "44706DBA41D4E877"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "49CCC406C917B6F4"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 1.25d
@@ -522,6 +540,24 @@
 					id: "1309488E2D7C589A"
 					table_id: 2174502260259284846L
 					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "539B4274D309CEB7"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "73C2CAC253537E12"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "diamond"
@@ -994,6 +1030,24 @@
 					table_id: 2174502260259284846L
 					type: "loot"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "24D8805AC36D702C"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "64293998A03F2CB2"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -1260,6 +1314,24 @@
 					id: "568CDF4D54E7721F"
 					table_id: 2174502260259284846L
 					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "726A08E7969D97D7"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "2FF1F3C5A689CD52"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "diamond"
@@ -1580,6 +1652,24 @@
 					table_id: 2174502260259284846L
 					type: "loot"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "7BBCE2BBB73B716D"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "310D4B1AB4E3811F"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			tasks: [
@@ -1727,6 +1817,24 @@
 					table_id: 2174502260259284846L
 					type: "loot"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "397A9E858C60465A"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "11C98B81B4EE5A55"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -1792,6 +1900,24 @@
 					id: "47B28A8D65F8F03A"
 					table_id: 2174502260259284846L
 					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "62B442F5BA5EA7AD"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "648DF92611ADCE91"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "hexagon"

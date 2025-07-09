@@ -1443,22 +1443,15 @@
 			}
 			id: "323A230EB571C4CA"
 			min_width: 250
-			rewards: [
-				{
-					id: "22A0D7EF05E36AEF"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				count: 5
+				id: "573DE2DE1CCC0482"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "573DE2DE1CCC0482"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "51960CB0D71494BF"

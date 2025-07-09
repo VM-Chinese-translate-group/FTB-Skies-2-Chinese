@@ -320,14 +320,34 @@
 		{
 			id: "496903AB7E8A0A92"
 			min_width: 300
-			rewards: [{
-				id: "59307965CCFFE159"
-				item: {
-					count: 1
-					id: "magic_coins:silver_coin"
+			rewards: [
+				{
+					id: "59307965CCFFE159"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New loot bag available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New loot bag available in the Shop!"
+					id: "4BB6AC9252E5CCD3"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "0E3C70561DF36449"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -385,11 +405,10 @@
 			id: "4FB98E93DE3BE477"
 			optional: true
 			rewards: [{
-				count: 5
 				id: "6C55C4554391A136"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -429,11 +448,10 @@
 			id: "3389EB27CF459DB3"
 			optional: true
 			rewards: [{
-				count: 5
 				id: "645B830C846EDC39"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -451,11 +469,10 @@
 			id: "7B7A7CEC2F56275C"
 			optional: true
 			rewards: [{
-				count: 5
 				id: "2A3D54728782972E"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -473,11 +490,10 @@
 			id: "14844C0E66FD7F44"
 			optional: true
 			rewards: [{
-				count: 5
 				id: "6C81259064160A11"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -882,10 +898,11 @@
 			id: "4F1F2AA921441924"
 			optional: true
 			rewards: [{
+				count: 3
 				id: "61EE0FF6CAD7DCA2"
 				item: {
 					count: 1
-					id: "magic_coins:gold_coin"
+					id: "magic_coins:silver_coin"
 				}
 				type: "item"
 			}]
@@ -1061,14 +1078,26 @@
 		{
 			dependencies: ["26D7C5298D95C69A"]
 			id: "6E7E4899C5468DED"
-			rewards: [{
-				id: "138DDE7C2C73E1B6"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "138DDE7C2C73E1B6"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "4EF8DD2300347745"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mithril_ingot"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "77F05B69D604CB7B"
@@ -1081,14 +1110,26 @@
 		{
 			dependencies: ["26D7C5298D95C69A"]
 			id: "4A48519877EA5FF4"
-			rewards: [{
-				id: "14194C18F039D6B8"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "14194C18F039D6B8"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "45D70B20B2760CF0"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pyrium_ingot"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "40672CB2109A8020"
