@@ -269,7 +269,7 @@
 		""
 		"这些锭用于制作一些高级物品，例如&d高压蓄电池&r。"
 	]
-	quest.026A64F01C301119.title: "&3HOP Graphite Dust"
+	quest.026A64F01C301119.title: "&3高定向热解石墨粉末"
 	quest.028BF2D5CFCDA52A.title: "&e机械化超级计算机"
 	quest.02BC61BBCDB931A3.quest_desc: [
 		"&6燃气发电机&r是游戏前期中最强的发电方式之一，可一直用到游戏中期。"
@@ -4277,7 +4277,7 @@
 		""
 		"这个地方很适合搜刮战利品，搞到一些制作&6护符&r的材料！"
 		""
-		"There are also some powerful entities found here in tucked away rooms: &3Keepers of Silence&r, and an &6Ancient Archlich&r."
+		"这里还隐藏着一些强大的存在，藏匿在隐秘的房间中：&3寂静守护者&r，以及一位&6远古巫妖王&r。"
 	]
 	quest.2B4392602E94D3D8.title: "&f找到&cFargo的地牢"
 	quest.2B5ED424CC73B3EB.quest_desc: [
@@ -5308,11 +5308,11 @@
 	quest.34D191F76AA69707.quest_desc: [
 		"&e通量网络&r是无线能源方面的最强模组！"
 		""
-		"[\"To get started, you'll need to create \", {\"text\": \"Flux Dust\", \"color\": \"green\"}, \" in a \", {\"text\": \"Reaction Chamber\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"3334E05101A7297F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Reaction Chamber Quest\"}}, \", or in bulk by crushing \", {\"text\": \"Redstone\", \"color\": \"red\"}, \" between an \", {\"text\": \"Anvil\", \"color\": \"green\"}, \" and \", {\"text\": \"Bedrock\", \"color\": \"gray\"}, \" found in the \", {\"text\": \"End\", \"color\": \"light_purple\"}, \".\"]"
+		"[\"发展本模组，你需要在\", {\"text\": \"反应仓\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"3334E05101A7297F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往反应仓任务\"}}, \"中制作\", {\"text\": \"通量粉尘\", \"color\": \"green\"}, \"，或在\", {\"text\": \"末地\", \"color\": \"light_purple\"}, \"使用\", {\"text\": \"铁砧\", \"color\": \"green\"}, \"砸在\", {\"text\": \"基岩\", \"color\": \"gray\"}, \"上粉碎\", {\"text\": \"红石粉\", \"color\": \"red\"}, \"获得。\"]"
 		""
-		"&aFlux Dust&r is the main crafting material for all blocks within the mod. "
+		"&a通量粉尘&r是本模组中方块的主要合成材料。"
 		""
-		"Use this to make the &bFlux Configurator&r, which shows all power networks you have access to and allows you to remotely manage all devices connected to that network."
+		"用它制作&b能量网络控制器&r，它能够显示所有你能访问的通量网络并且能让你远程管理网络中的所有设备。"
 	]
 	quest.34D191F76AA69707.title: "&e通量网络"
 	quest.34DA4C91DEADF93D.quest_desc: ["&a存储芯片&r可以储存16个物品的&b物质&r值。"]
@@ -11151,7 +11151,7 @@
 		""
 		"你可以选择的任何顺序制作这些任务的每个必需物品，并将在每层结束时获得任务的对应层方块奖励。最终，你将搭建自己的功能性FTB金字塔。它的结构就像一个最高等级的信标！"
 		""
-		"热爱挑战，顶峰相见！"
+		"热爱挑战之人，我们顶峰相见！"
 	]
 	quest.7318F114EA136854.title: "&6FTB挑战：金字塔&r"
 	quest.73254377A0723540.quest_desc: [
@@ -11378,7 +11378,7 @@
 	quest.755E80CFF2053CF8.quest_desc: [
 		"&6FTB金字塔&r已经接近竣工了，现在就差最后的一个组件：FTB信标。"
 		""
-		"把信标放在金字塔塔顶，然后用&6下界之星或无限仙人掌&r激活它。"
+		"把信标放在金字塔塔顶，然后用&6无限仙人掌下界之星&r激活它。"
 		""
 		"从现在起，这台机器将会把&d下界之星&r转化为&6飞升之证&r，用它就可以制作&d创造物品&r。"
 		""
