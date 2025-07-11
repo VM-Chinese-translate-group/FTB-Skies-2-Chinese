@@ -317,11 +317,11 @@
 	]
 	quest.030F1F8A4B0C1EBF.title: "&c散热口&f和&c热管"
 	quest.032BAE6F419CA6C8.quest_desc: [
-		"&a传送带&r是&6工业先锋&r的基础自动化物品传输方式。"
+		"&aConveyor Belts&r are the primary method of moving items between machines using just &6Industrial Foregoing&r."
 		""
-		"你可以制作传送带输出和输入，以此链接机器和存储方块，还可以选择用它搭建产线。"
+		"You can craft extraction and insertion upgrades to connect to machines and storage, and create automated assembly lines."
 		""
-		"虽然别的模组的物流管道比这个要好，但是起码你能用它运输怪物。"
+		"虽然别的模组的物流管道比这个要好，但传送带还能运输怪物。"
 	]
 	quest.032BAE6F419CA6C8.title: "移动物品"
 	quest.0337CA08F644568B.quest_desc: [
@@ -417,11 +417,11 @@
 	quest.03DCAAACA804353E.quest_desc: [
 		"自动种植它物品缓存内的种子。"
 		""
-		"&a收获机&r收获的种子可以泵入创建自动农场！"
+		"Seeds harvested by the &aPlant Harvester&r can also be pumped in to create an automatic farm!"
 		""
-		"内部缓存里有九个颜色，它们分别代表了播种机的九个播种范围。"
+		"内部缓存里有九个颜色，分别代表了播种机的九个播种范围。"
 	]
-	quest.03DCAAACA804353E.title: "&a播种机"
+	quest.03DCAAACA804353E.title: "&aPlant Sower"
 	quest.03E1EFC3F5AD2CA5.quest_desc: [
 		"&3生物反应器&r可以消耗种子、食物和植物，并以此产出能量。"
 		""
@@ -443,8 +443,8 @@
 		"末影傀儡在各处游荡，但最难缠的敌人是驻守在最底层的&5末影守卫&r。"
 	]
 	quest.040795388568AB69.title: "&f找到&5废弃堡垒"
-	quest.0443A2BAF6025343.quest_desc: ["你可以把&c污水&r存着，日后用&c污水堆肥机&r可以将其转化为肥料，肥料可以加速作物生长。"]
-	quest.0443A2BAF6025343.title: "&c污水"
+	quest.0443A2BAF6025343.quest_desc: ["你可以把&c污水&r存着，日后用&c污水堆肥机&r将其转化为肥料，加速作物生长。"]
+	quest.0443A2BAF6025343.title: "&c动物排污器"
 	quest.0444EF9A04406894.quest_desc: [
 		"&a细胞&r用于合成&bDNA螺旋&r。"
 		""
@@ -582,7 +582,7 @@
 	quest.056C62BBBCEB1173.title: "&f辐射与你"
 	quest.058C71F15E4AB3E2.quest_desc: ["Upgraded from &7Ferricore&r using a &6Blazegold Template&r"]
 	quest.058C71F15E4AB3E2.title: "&c烈焰金头盔"
-	quest.059B456424293FF3.quest_desc: ["你可以用&d以太气&r的能量创造出最高级的机器框架！"]
+	quest.059B456424293FF3.quest_desc: ["With the power of &dEther Gas&r, you can craft the final tier of machine frames!"]
 	quest.059B456424293FF3.title: "&6超级机器框架"
 	quest.05A13861001BBF3C.quest_desc: [
 		"沉浸工程中最高的电压级别是&d高压&r。"
@@ -669,8 +669,8 @@
 	quest.06DA083C1726EE4C.title: "&f矿场插件"
 	quest.06E1B8F90FA2EBB3.quest_subtitle: "猩红套装"
 	quest.06E1B8F90FA2EBB3.title: "&a猩红教徒套装"
-	quest.06EB93CCDBA3C0D4.quest_desc: ["&a粉红史莱姆&r允许你制作&d高级机器框架&r，这是&6IF&r发展的关键部分。"]
-	quest.06EB93CCDBA3C0D4.title: "&f粉红史莱姆"
+	quest.06EB93CCDBA3C0D4.quest_desc: ["&aPink Slime&r allows you to create &dAdvanced Machine Frames&r which are a key part of &6Industrial Foregoing&r's progression."]
+	quest.06EB93CCDBA3C0D4.title: "&fPink Slime"
 	quest.06EC32E6140E68C1.quest_desc: [
 		"在汲取&6恩特罗水晶&r之力后，搓出最快的自动合成方式：&d量子自动合成&r不再是梦。"
 		""
@@ -1224,11 +1224,11 @@
 	quest.0B1C26C45144306A.quest_desc: [
 		"钓鱼获取精华的收益远超预期！这些精华可以转化成推动进程所需的资源。将它们与下级精华和活化种子结合，就能培育出生长这些精华的作物！"
 		""
-		"另一个选择是找到一些可以产出资源的勤劳且&e多产&r的生物。"
+		"另一个选择是找到一些勤劳且&e高产&r的生物，让它们来为你生产资源。"
 		""
 		"也许再来几杆就好了……"
 	]
-	quest.0B1C26C45144306A.title: "&f源质&m油&r&f水"
+	quest.0B1C26C45144306A.title: "&fEssential &mOils&r &fWaters"
 	quest.0B1E459D12D11A0D.quest_desc: [
 		"&a模式&r和&2模块&r用来指示&d力场投影仪&r如何运行。"
 		""
@@ -1745,7 +1745,7 @@
 		"{@pagebreak}"
 		"也许你还会找到一些&a空白符文&r，用它可以合成各种&2符文&r。符文可以制造该模组最强大的装备。杀死巫师类敌怪后，你也有概率得到&a符文&r。"
 		""
-		"&bMithril&r is a legendary metal not obtainable through usual methods in the void, or at least what passes for usual. Perhaps some magical source could provide it, some sort of gate..."
+		"&b秘银&r是一种传说中的金属，无法通在虚空中用常规手段获取，或者说，至少不是我们所认为的常规方式。或许需要借助某种魔法源泉，比如一扇传送门......"
 	]
 	quest.107C26E8BF309BC1.title: "&f奥术战利品"
 	quest.109CB437DFAECDC6.quest_desc: [
@@ -1826,7 +1826,7 @@
 	quest.11078789ACAB91CE.quest_desc: [
 		"当你有了末影珍珠和烈焰粉后，就可以制作&6末影之眼&r了。"
 		""
-		"它们用于引导你自己激活传送门来帮你前往末地，尽管它们在合成方面也有很多其他用途。"
+		"These are used to lead you to the End by activating a portal you'll need to make yourself, though there are plenty of other crafting uses for them as well."
 	]
 	quest.11078789ACAB91CE.title: "&6末影之眼"
 	quest.11129E29B22F9898.quest_desc: [
@@ -2175,10 +2175,10 @@
 		""
 		"还在纠结箱子的问题？箱子墙和箱子房，还需要挂告示牌来“分类”箱子？再也不需要了！"
 		""
-		"[\"一开始先用基础的箱子，想要了解进阶存储方法请详见\", {\"text\": \"通用存储\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"049DE43A1B31C38F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往通用存储章节\"]} }, \" 章节！\"]"
+		"[\"You'll need a basic chest to get you started, but head over to the \", {\"text\": \"General Storage\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"049DE43A1B31C38F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to General Storage chapter\"]} }, \" chapter to learn more ways to hold all of your stuff!\"]"
 	]
 	quest.14D727685CB433C1.quest_subtitle: "简易存储"
-	quest.14D727685CB433C1.title: "&f老旧可靠的&2箱子"
+	quest.14D727685CB433C1.title: "&f经典老&2箱子"
 	quest.14FFB82FB7EB0659.title: "&f苹果派"
 	quest.1507B28963B38101.quest_desc: [
 		"厌倦了手搓零件的日子了？那&a自动化工程师装配台&r正是为你量身定制的好帮手！"
@@ -2189,11 +2189,11 @@
 	]
 	quest.1507B28963B38101.title: "&f自动化工程师装配台"
 	quest.1514FAC5930B55D2.quest_desc: [
-		"为你的基地发电开始可能看起来尤为艰巨，特别是在游戏前期！"
+		"It can seem daunting to get started generating power for your base, especially in the early game!"
 		""
-		"[\"记得查看\", {\"text\": \"发电\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"754048401D3A6A7B\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往发电章节\"]} }, \"章节来全面了解你可以用来发电的所有不同方式。\"]"
+		"[\"记得查看\", {\"text\": \"发电\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"754048401D3A6A7B\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往发电章节\"]} }, \"章节，来全面了解各种能源的生产方式。\"]"
 	]
-	quest.1514FAC5930B55D2.title: "&c能量章节"
+	quest.1514FAC5930B55D2.title: "&c发电章节"
 	quest.1536AFFBBB6D858A.quest_desc: ["[\"\", {\"text\": \"黄玉\", \"color\": \"green\"}, \"可通过手动开采矿石获取，或者当村民将\", { \"text\": \"珠宝饰品工作台\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"496903AB7E8A0A92\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往珠宝章节\"]} }, \"作为工作地点时进行升级交易来获取。\"]"]
 	quest.1536AFFBBB6D858A.quest_subtitle: "在催化剂上使用黄玉"
 	quest.1536AFFBBB6D858A.title: "&f黄玉矿晶母岩"
@@ -2207,7 +2207,7 @@
 	quest.1553CDD5ED42DF02.quest_desc: [
 		"滤水器和筛子在过去一直很好用，现在也毫无问题！"
 		""
-		"这条路径使用&e机械动力&r的筛子来实现自动化从这片富含精华的虚空中生产资源。"
+		"这条路径使用&e机械动力&r的筛子，有可能实现从这片富含精华的虚空中自动化生产资源。"
 		""
 		"首先，将从&a滤水器&r中获得的&7安山岩&r上滴一些水。这将形成&2安山岩混合物矿床&r，开采后可获得早期的&7安山合金&r。"
 	]
@@ -3081,7 +3081,7 @@
 	quest.1E45E1137B022BA3.quest_desc: [
 		"你需要一些东西来保护自己，一把&a铁剑&r是很好的初始武器。一把基础的&a弓&r可以帮助你从远处击杀苦力怕，所以制作一把也无妨。"
 		""
-		"虽然开始时很弱，但你在与生物战斗的过程中会获得更多&b优势和技能&r。你可以按&aK&r打开技能界面，在&6近战&r和&6远程&r标签页中查看这些技能。"
+		"尽管初始实力很弱，但随着你在对抗怪物中不断成长，将逐步掌握更多&b技能与天赋&r。你可以按&aK&r打开技能界面，在&6近战&r和&6远程&r标签页中查看这些技能。"
 	]
 	quest.1E45E1137B022BA3.title: "&a出击&f时见到！"
 	quest.1E7B5442F153ED3B.quest_subtitle: "猪灵是好朋友"
@@ -3468,7 +3468,7 @@
 		""
 		"这个整合包使用&dPuffish Skills&r模组的自定义技能，&b技能界面&r可以通过按&bK&r（默认）打开。"
 		""
-		"有几个&b技能树&r可以解锁，每个技能树的等级取决于你做什么！采矿通过开挖矿升级，可以提升你的挖掘速度，给予时运等级，并升级你的&b连锁范围&r！"
+		"有几个&b技能树&r可以解锁，每个技能树的等级取决于你做什么！采矿通过开挖掘升级，可以提升你的挖掘速度，给予时运等级，并升级你的&b连锁范围&r！"
 	]
 	quest.231BAC05D93088B2.title: "&dPuffish技能点"
 	quest.2331E407E82138AB.quest_desc: [
@@ -4017,7 +4017,7 @@
 	quest.28493A960B770451.quest_desc: ["每个&d三阶维度存储稳定器&r能增加2048000个物品和256个物品种类，最多支持四个&a稳定器&r。"]
 	quest.28493A960B770451.title: "&d三阶维度存储稳定器"
 	quest.285560808B9ED997.quest_desc: [
-		"&d末影珍珠&r是&a末影人&r掉落的珍贵战利品，可以被投掷来使你到处传送。"
+		"&d末影珍珠&r是&a末影人&r掉落的珍贵战利品，投掷后可传送至各处。"
 		""
 		"这也是你前往挑战&d末影龙&r以及合成整合包中众多定制传送门所必需的！"
 		""
@@ -4069,7 +4069,7 @@
 		""
 		"更何况你一开始也没有其他选择。"
 		""
-		"如果你任意手持有&a锄头&r并反复潜行，你可以加速附近的作物生长！"
+		"如果你主手或副手持有&a锄头&r并反复按下潜行键，就可以加速附近的作物生长！"
 	]
 	quest.28FADB9F1CCA067B.title: "&f木质工具"
 	quest.290D1B111FD24B32.quest_desc: ["你需要用黑曜石蜂巢在末地捕获一只&a末影蜜蜂&r才能开始制作&d钻石蜜蜂&r，让末影蜜蜂和&9青金石蜜蜂&r繁殖就可以得到&d钻石蜜蜂&r了！"]
@@ -4566,11 +4566,11 @@
 	]
 	quest.2E283756BD053685.title: "&d获取免费资源"
 	quest.2E30AE23A0602A0A.quest_desc: [
-		"需要在基地中快速传送，或者另一个基地？制作一个&d传送石碑&r！"
+		"想要快速传送到基地的不同区域？或者另一个基地？制作一个&d传送石碑&r！"
 		""
 		"在野外想迅速传送到某个传送石碑？做个&d传送石&r，轻松造访所有传送石碑！"
 	]
-	quest.2E30AE23A0602A0A.title: "&b快速旅行"
+	quest.2E30AE23A0602A0A.title: "&b极速传送"
 	quest.2E3D56F5BC1075DB.quest_desc: ["这个升级可以让你拥有创造飞行的能力，把它加装到你的&d蚀空合金胸甲&r上就行。"]
 	quest.2E3D56F5BC1075DB.title: "&f升级：飞行"
 	quest.2E56DB4CBFE2F37C.quest_desc: ["1个高级精华=64个下级精华"]
@@ -4896,7 +4896,7 @@
 		""
 		"如果是雷暴天，&a避雷针&r会定期被闪电击中，同时影响其周围区域。"
 		""
-		"&eFTB泵&r的静电荷如果积聚起来，可以形成一次闪电打击，如果你愿意承受一些伤害的话。"
+		"&eFTB的泵&r产生的静电荷如果积聚起来，可以形成一次闪电打击，如果你愿意承受一些伤害的话。"
 		""
 		"如果你能弄到&d闪电卷轴&r，施放它可以转化物品和充能苦力怕。"
 		"{@pagebreak}"
