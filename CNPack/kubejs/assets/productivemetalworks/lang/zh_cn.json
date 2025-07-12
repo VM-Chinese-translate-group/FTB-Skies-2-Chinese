@@ -290,8 +290,7 @@
   "productivebees.ingredient.description.unobtainium_bee": "要获取这种蜜蜂，请查阅其刷怪蛋的合成配方。",
   "productivebees.ingredient.description.vibranium_bee": "要获取这种蜜蜂，请查阅其刷怪蛋的合成配方。",
   "productivemetalworks.information.upgrade.upgrade_stability": "禁用熔铸炉流体合金功能。",
-  "productivemetalworks.information.upgrade.upgrade_time": "可以安装在机器上加快处理速度。
-多个升级可以减少更多处理时间。",
+  "productivemetalworks.information.upgrade.upgrade_time": "可以安装在机器上加快处理速度。\n多个升级可以减少更多处理时间。",
   "productivemetalworks.information.upgrade.upgrade_time_2": "比另一个效率高一倍。",
   "productivemetalworks.message.foundry_formed": "熔铸炉结构搭建成功",
   "productivemetalworks.message.foundry_invalid": "熔铸炉结构无效。%s",

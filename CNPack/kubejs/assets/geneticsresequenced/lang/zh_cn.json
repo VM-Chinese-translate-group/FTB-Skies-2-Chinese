@@ -1,54 +1,34 @@
 {
   "advancement.geneticsresequenced.black_death.desc": "合成带有黑死病的DNA螺旋。",
   "advancement.geneticsresequenced.black_death.title": "大瘟疫",
-  "advancement.geneticsresequenced.blood_purifier.desc": "合成一个血液净化器。
-
-用于净化注射器。",
+  "advancement.geneticsresequenced.blood_purifier.desc": "合成一个血液净化器。\n\n用于净化注射器。",
   "advancement.geneticsresequenced.blood_purifier.title": "B Positive!",
-  "advancement.geneticsresequenced.cell_analyzer.desc": "合成一个细胞分析器。
-
-它可将有机物质转化为细胞。",
+  "advancement.geneticsresequenced.cell_analyzer.desc": "合成一个细胞分析器。\n\n它可将有机物质转化为细胞。",
   "advancement.geneticsresequenced.cell_analyzer.title": "工作细胞",
   "advancement.geneticsresequenced.decrypt_dna.desc": "解码一个DNA螺旋，获得它的基因。",
   "advancement.geneticsresequenced.decrypt_dna.title": "In-Gene-ius!",
-  "advancement.geneticsresequenced.dna_decryptor.desc": "合成一个DNA解码器。
-
-它可以解码出DNA螺旋中含有的基因。",
+  "advancement.geneticsresequenced.dna_decryptor.desc": "合成一个DNA解码器。\n\n它可以解码出DNA螺旋中含有的基因。",
   "advancement.geneticsresequenced.dna_decryptor.title": "DNA解码器",
-  "advancement.geneticsresequenced.dna_extractor.desc": "合成一个DNA提取器。
-
-它可将细胞转化为未解码的DNA螺旋。",
+  "advancement.geneticsresequenced.dna_extractor.desc": "合成一个DNA提取器。\n\n它可将细胞转化为未解码的DNA螺旋。",
   "advancement.geneticsresequenced.dna_extractor.title": "DNA提取器",
   "advancement.geneticsresequenced.flight.desc": "获得飞行基因。",
   "advancement.geneticsresequenced.flight.title": "To Infinity and Beyond!",
   "advancement.geneticsresequenced.get_gene.desc": "给自己转入任意一个基因。",
   "advancement.geneticsresequenced.get_gene.title": "What Are Midichlorians?",
-  "advancement.geneticsresequenced.get_milked.desc": "Get milked with the Milky Gene.
-
-You can milk yourself by sneaking!",
+  "advancement.geneticsresequenced.get_milked.desc": "Get milked with the Milky Gene.\n\nYou can milk yourself by sneaking!",
   "advancement.geneticsresequenced.get_milked.title": "Level 5 Non-Milk Substance",
   "advancement.geneticsresequenced.pathowogen.desc": "Get the Cringe Gene. Embrace your inner self.",
   "advancement.geneticsresequenced.pathowogen.title": "The PathOwOgen ",
-  "advancement.geneticsresequenced.plasmid_infuser.desc": "合成一个质粒构建器。
-
-用于将DNA螺旋插入质粒中。",
+  "advancement.geneticsresequenced.plasmid_infuser.desc": "合成一个质粒构建器。\n\n用于将DNA螺旋插入质粒中。",
   "advancement.geneticsresequenced.plasmid_infuser.title": "质粒构建器",
-  "advancement.geneticsresequenced.plasmid_injector.desc": "合成一个质粒注入器。
-
-用于将构建完成的质粒装入已净化的注射器。",
+  "advancement.geneticsresequenced.plasmid_injector.desc": "合成一个质粒注入器。\n\n用于将构建完成的质粒装入已净化的注射器。",
   "advancement.geneticsresequenced.plasmid_injector.title": "质粒注入器",
   "advancement.geneticsresequenced.scare.desc": "获得恐吓僵尸、恐吓蜘蛛、恐吓苦力怕、恐吓骷髅基因。",
   "advancement.geneticsresequenced.scare.title": "Boo!                 ",
-  "advancement.geneticsresequenced.scraper.desc": "合成一个刮刀。
-
-刮刀可从生物身上刮取有机物质。",
+  "advancement.geneticsresequenced.scraper.desc": "合成一个刮刀。\n\n刮刀可从生物身上刮取有机物质。",
   "advancement.geneticsresequenced.slimy_death.desc": "Trigger the Slimy Death Gene.",
   "advancement.geneticsresequenced.slimy_death.title": "Me and the Boys",
-  "advancement.geneticsresequenced.syringe.desc": "合成一个注射器。
-
-注射器用于从自己身上抽血。
-
-金属注射器用于从其他东西身上抽血。",
+  "advancement.geneticsresequenced.syringe.desc": "合成一个注射器。\n\n注射器用于从自己身上抽血。\n\n金属注射器用于从其他东西身上抽血。",
   "advancement.geneticsresequenced.syringe.title": "可能会痛一下噢",
   "block.geneticsresequenced.advanced_incubator": "高级孵化器",
   "block.geneticsresequenced.anti_field_block": "反场方块",
@@ -63,39 +43,19 @@ You can milk yourself by sneaking!",
   "block.geneticsresequenced.plasmid_injector": "质粒注入器",
   "book.geneticsresequenced.guide.blocks.advanced_incubator.description": "",
   "book.geneticsresequenced.guide.blocks.advanced_incubator.name": "高级孵化器",
-  "book.geneticsresequenced.guide.blocks.advanced_incubator.page_0.text": "[#](AA00AA)高级孵化器[#]()是升级版的[孵化器](entry://blocks/incubator)。 \
-  \
-和孵化器一样，它也差不多是一个酿造台。不过，高级孵化器还有个温度机制。 \
-  \
-点击GUI左侧的线圈，即可在高温/低温之间切换。",
+  "book.geneticsresequenced.guide.blocks.advanced_incubator.page_0.text": "[#](AA00AA)高级孵化器[#]()是升级版的[孵化器](entry://blocks/incubator)。 \\\n  \\\n和孵化器一样，它也差不多是一个酿造台。不过，高级孵化器还有个温度机制。 \\\n  \\\n点击GUI左侧的线圈，即可在高温/低温之间切换。",
   "book.geneticsresequenced.guide.blocks.advanced_incubator.page_0.title": "高级孵化器",
-  "book.geneticsresequenced.guide.blocks.advanced_incubator.page_1.text": "默认情况下，低温模式的工作速度会[#](FF5555)慢120倍[#]()。也就是说，如果不安装超频器，单次酿造就要花费整整20分钟。\
-  \
-那为什么还要用这个低温模式？因为这是获得[转基因细胞](entry://items/potion_cell_growth@gmo_cell)的唯一方式。",
+  "book.geneticsresequenced.guide.blocks.advanced_incubator.page_1.text": "默认情况下，低温模式的工作速度会[#](FF5555)慢120倍[#]()。也就是说，如果不安装超频器，单次酿造就要花费整整20分钟。\\\n  \\\n那为什么还要用这个低温模式？因为这是获得[转基因细胞](entry://items/potion_cell_growth@gmo_cell)的唯一方式。",
   "book.geneticsresequenced.guide.blocks.advanced_incubator.page_1.title": "",
-  "book.geneticsresequenced.guide.blocks.advanced_incubator.page_2.text": "一个成功的[转基因细胞](entry://items/potion_cell_growth@gmo_cell)[#](00AAAA)应该带有一个非基础的基因[#]()。 \
-  \
-每种转基因细胞都有自己的配方和一定的[#](FF5555)失败概率[#]()。 \
-  \
-比如说这个转基因细胞的配方，默认情况下有30%%的成功率。",
+  "book.geneticsresequenced.guide.blocks.advanced_incubator.page_2.text": "一个成功的[转基因细胞](entry://items/potion_cell_growth@gmo_cell)[#](00AAAA)应该带有一个非基础的基因[#]()。 \\\n  \\\n每种转基因细胞都有自己的配方和一定的[#](FF5555)失败概率[#]()。 \\\n  \\\n比如说这个转基因细胞的配方，默认情况下有30%%的成功率。",
   "book.geneticsresequenced.guide.blocks.advanced_incubator.page_2.title": "",
-  "book.geneticsresequenced.guide.blocks.advanced_incubator.page_3.text": "每多安装一个超频器，成功率就会[#](FF5555)下降10%%[#]()。 \
-  \
-不过，你可以在右侧上方的槽位里放入[#](00AAAA)紫颂果[#]()来提高成功率！ \
-  \
-默认情况下，每个紫颂果可使成功率提高10%%。高级孵化器会自动消耗紫颂果，直到成功率达到100%%。",
+  "book.geneticsresequenced.guide.blocks.advanced_incubator.page_3.text": "每多安装一个超频器，成功率就会[#](FF5555)下降10%%[#]()。 \\\n  \\\n不过，你可以在右侧上方的槽位里放入[#](00AAAA)紫颂果[#]()来提高成功率！ \\\n  \\\n默认情况下，每个紫颂果可使成功率提高10%%。高级孵化器会自动消耗紫颂果，直到成功率达到100%%。",
   "book.geneticsresequenced.guide.blocks.advanced_incubator.page_3.title": "",
   "book.geneticsresequenced.guide.blocks.anti_field_block.description": "",
   "book.geneticsresequenced.guide.blocks.anti_field_block.name": "反场方块",
-  "book.geneticsresequenced.guide.blocks.anti_field_block.page_0.text": "[#](AA00AA)反场方块[#]()可[#](00AAAA)临时禁用一些基因[#]()。 \
-  \
-具体来说，激活时，它可以禁用[物品引力场](entry://genes/geneticsresequenced/item_magnet)和[经验引力场](entry://genes/geneticsresequenced/xp_magnet)。 \
-  \
-[反场球](entry://items/anti_field_orb)也具有上述功能，区别是它是个物品而不是方块。",
+  "book.geneticsresequenced.guide.blocks.anti_field_block.page_0.text": "[#](AA00AA)反场方块[#]()可[#](00AAAA)临时禁用一些基因[#]()。 \\\n  \\\n具体来说，激活时，它可以禁用[物品引力场](entry://genes/geneticsresequenced/item_magnet)和[经验引力场](entry://genes/geneticsresequenced/xp_magnet)。 \\\n  \\\n[反场球](entry://items/anti_field_orb)也具有上述功能，区别是它是个物品而不是方块。",
   "book.geneticsresequenced.guide.blocks.anti_field_block.page_0.title": "反场方块",
-  "book.geneticsresequenced.guide.blocks.anti_field_block.page_1.text": "反场方块默认处于激活状态，给它提供红石信号即可关闭。\
-  \
-激活时，它可禁用周围半径25格内的引力场。作用范围大小可调整。",
+  "book.geneticsresequenced.guide.blocks.anti_field_block.page_1.text": "反场方块默认处于激活状态，给它提供红石信号即可关闭。\\\n  \\\n激活时，它可禁用周围半径25格内的引力场。作用范围大小可调整。",
   "book.geneticsresequenced.guide.blocks.anti_field_block.page_1.title": "",
   "book.geneticsresequenced.guide.blocks.blood_purifier.description": "",
   "book.geneticsresequenced.guide.blocks.blood_purifier.name": "血液净化器",
@@ -107,21 +67,13 @@ You can milk yourself by sneaking!",
   "book.geneticsresequenced.guide.blocks.cell_analyzer.page_0.title": "细胞分析器",
   "book.geneticsresequenced.guide.blocks.coal_generator.description": "",
   "book.geneticsresequenced.guide.blocks.coal_generator.name": "Coal Generator",
-  "book.geneticsresequenced.guide.blocks.coal_generator.page_0.text": "The [#](AA00AA)Coal Generator[#]() burns furnace fuels to generate FE. \
-  \
-Furnace fuels that burn longer produce more FE. \
-  \
-The amount is configurable, but defaults to 6FE/t. With this, [#](00AAAA)1 Coal generates 9,600 FE[#]().",
+  "book.geneticsresequenced.guide.blocks.coal_generator.page_0.text": "The [#](AA00AA)Coal Generator[#]() burns furnace fuels to generate FE. \\\n  \\\nFurnace fuels that burn longer produce more FE. \\\n  \\\nThe amount is configurable, but defaults to 6FE/t. With this, [#](00AAAA)1 Coal generates 9,600 FE[#]().",
   "book.geneticsresequenced.guide.blocks.coal_generator.page_0.title": "Coal Generator",
   "book.geneticsresequenced.guide.blocks.coal_generator.page_1.text": "If the Coal Generator fills up with fuel burning, it [#](00AAAA)pauses until it has room for more energy[#](), preventing waste!",
   "book.geneticsresequenced.guide.blocks.coal_generator.page_1.title": "",
   "book.geneticsresequenced.guide.blocks.dna_decryptor.description": "",
   "book.geneticsresequenced.guide.blocks.dna_decryptor.name": "DNA Decryptor",
-  "book.geneticsresequenced.guide.blocks.dna_decryptor.page_0.text": "The [#](AA00AA)DNA Decryptor[#]() uses FE to decrypt encrypted [DNA Helices](entry://items/dna_helix). \
-  \
-Every time DNA is decrypted, it will choose a [Gene](category://genes), based on the Entity the Helix came from. \
-  \
-This Gene is weighted, some Genes have a higher chance than others. The Gene is chosen at the start of the process.",
+  "book.geneticsresequenced.guide.blocks.dna_decryptor.page_0.text": "The [#](AA00AA)DNA Decryptor[#]() uses FE to decrypt encrypted [DNA Helices](entry://items/dna_helix). \\\n  \\\nEvery time DNA is decrypted, it will choose a [Gene](category://genes), based on the Entity the Helix came from. \\\n  \\\nThis Gene is weighted, some Genes have a higher chance than others. The Gene is chosen at the start of the process.",
   "book.geneticsresequenced.guide.blocks.dna_decryptor.page_0.title": "DNA Decryptor",
   "book.geneticsresequenced.guide.blocks.dna_decryptor.page_1.text": "If the Decryptor isn't working and there's a DNA Helix in the output slot, try taking it out. The next Gene may be of a different type, which means it can't stack with the one in the output slot.",
   "book.geneticsresequenced.guide.blocks.dna_decryptor.page_1.title": "",
@@ -138,28 +90,15 @@ This Gene is weighted, some Genes have a higher chance than others. The Gene is 
   "book.geneticsresequenced.guide.blocks.name": "Blocks",
   "book.geneticsresequenced.guide.blocks.plasmid_infuser.description": "",
   "book.geneticsresequenced.guide.blocks.plasmid_infuser.name": "Plasmid Infuser",
-  "book.geneticsresequenced.guide.blocks.plasmid_infuser.page_0.text": "The [#](AA00AA)Plasmid Infuser[#]() uses FE to infuse [DNA Helices](entry://items/dna_helix) into a [Plasmid](entry://items/plasmid). \
-  \
-Insert an empty Plasmid in the right slot, and a DNA Helix in the left slot. \
-  \
-The DNA Helix will be used up, and set the Plasmid's Gene to match the Helix's.",
+  "book.geneticsresequenced.guide.blocks.plasmid_infuser.page_0.text": "The [#](AA00AA)Plasmid Infuser[#]() uses FE to infuse [DNA Helices](entry://items/dna_helix) into a [Plasmid](entry://items/plasmid). \\\n  \\\nInsert an empty Plasmid in the right slot, and a DNA Helix in the left slot. \\\n  \\\nThe DNA Helix will be used up, and set the Plasmid's Gene to match the Helix's.",
   "book.geneticsresequenced.guide.blocks.plasmid_infuser.page_0.title": "Plasmid Infuser",
-  "book.geneticsresequenced.guide.blocks.plasmid_infuser.page_1.text": "Each Gene requires a certain amount of [#](00AAAA)DNA Points[#]() for the Plasmid to be completed. \
-  \
-- Basic Genes are worth 1 point.
-- Genes of the Plasmid's type are worth 2 points. \
-  \
-A Basic Gene cannot be the first one infused into a Plasmid.",
+  "book.geneticsresequenced.guide.blocks.plasmid_infuser.page_1.text": "Each Gene requires a certain amount of [#](00AAAA)DNA Points[#]() for the Plasmid to be completed. \\\n  \\\n- Basic Genes are worth 1 point.\n- Genes of the Plasmid's type are worth 2 points. \\\n  \\\nA Basic Gene cannot be the first one infused into a Plasmid.",
   "book.geneticsresequenced.guide.blocks.plasmid_infuser.page_1.title": "",
   "book.geneticsresequenced.guide.blocks.plasmid_injector.description": "",
   "book.geneticsresequenced.guide.blocks.plasmid_injector.name": "Plasmid Injector",
-  "book.geneticsresequenced.guide.blocks.plasmid_injector.page_0.text": "The [#](AA00AA)Plasmid Injector[#]() uses FE to inject completed [Plasmids](entry://items/plasmid) into a [Syringe](entry://items/syringe). \
-  \
-You can inject as many Plasmids into a single Syringe as you want.",
+  "book.geneticsresequenced.guide.blocks.plasmid_injector.page_0.text": "The [#](AA00AA)Plasmid Injector[#]() uses FE to inject completed [Plasmids](entry://items/plasmid) into a [Syringe](entry://items/syringe). \\\n  \\\nYou can inject as many Plasmids into a single Syringe as you want.",
   "book.geneticsresequenced.guide.blocks.plasmid_injector.page_0.title": "Plasmid Injector",
-  "book.geneticsresequenced.guide.blocks.plasmid_injector.page_1.text": "The Syringe must be full of uncompromised blood. \
-  \
-Decontaminate blood in the [Blood Purifier](entry://blocks/blood_purifier).",
+  "book.geneticsresequenced.guide.blocks.plasmid_injector.page_1.text": "The Syringe must be full of uncompromised blood. \\\n  \\\nDecontaminate blood in the [Blood Purifier](entry://blocks/blood_purifier).",
   "book.geneticsresequenced.guide.blocks.plasmid_injector.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/bioluminescence.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/bioluminescence.name": "Bioluminescence",
@@ -169,9 +108,7 @@ Decontaminate blood in the [Blood Purifier](entry://blocks/blood_purifier).",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/bioluminescence.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/chatterbox.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/chatterbox.name": "Chatterbox",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/chatterbox.page_0.text": "The [#](AA00AA)Chatterbox[#]() Gene causes your chat messages to be [#](00AAAA)read by the game's narrator[#](). \
-  \
-This only applies to players within 64 blocks of you, and can be disabled in the client config.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/chatterbox.page_0.text": "The [#](AA00AA)Chatterbox[#]() Gene causes your chat messages to be [#](00AAAA)read by the game's narrator[#](). \\\n  \\\nThis only applies to players within 64 blocks of you, and can be disabled in the client config.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/chatterbox.page_0.title": "Chatterbox",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/chatterbox.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/chatterbox.page_1.title": "",
@@ -183,17 +120,13 @@ This only applies to players within 64 blocks of you, and can be disabled in the
   "book.geneticsresequenced.guide.genes.geneticsresequenced/chilling.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/claws.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/claws.name": "Claws",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/claws.page_0.text": "The [#](AA00AA)Claws[#]() Gene gives entities a chance to [#](00AAAA)inflict Bleeding[#]() on empty-handed melee attacks. \
-  \
-When mutated into Claws II, the chance is doubled.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/claws.page_0.text": "The [#](AA00AA)Claws[#]() Gene gives entities a chance to [#](00AAAA)inflict Bleeding[#]() on empty-handed melee attacks. \\\n  \\\nWhen mutated into Claws II, the chance is doubled.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/claws.page_0.title": "Claws",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/claws.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/claws.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/dragons_breath.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/dragons_breath.name": "Dragon's Breath",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/dragons_breath.page_0.text": "The [#](AA00AA)Dragon's Breath[#]() Gene allows players to [#](00AAAA)shoot a dragon fireball[#]() when the \"Dragon's Breath\" keybind is pressed. \
-  \
-This has a configurable cooldown, with the default being 15 seconds.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/dragons_breath.page_0.text": "The [#](AA00AA)Dragon's Breath[#]() Gene allows players to [#](00AAAA)shoot a dragon fireball[#]() when the \"Dragon's Breath\" keybind is pressed. \\\n  \\\nThis has a configurable cooldown, with the default being 15 seconds.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/dragons_breath.page_0.title": "Dragon's Breath",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/dragons_breath.page_1.text": "This Gene [#](FF5555)cannot be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/dragons_breath.page_1.title": "",
@@ -205,33 +138,25 @@ This has a configurable cooldown, with the default being 15 seconds.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/eat_grass.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/efficiency.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/efficiency.name": "Efficiency",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/efficiency.page_0.text": "The [#](AA00AA)Efficiency[#]() Gene [#](00AAAA)makes players mine faster[#](). This stacks with enchantments and the Haste effect. \
-  \
-Can be mutated into [#](AA00AA)Efficiency IV[#]().",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/efficiency.page_0.text": "The [#](AA00AA)Efficiency[#]() Gene [#](00AAAA)makes players mine faster[#](). This stacks with enchantments and the Haste effect. \\\n  \\\nCan be mutated into [#](AA00AA)Efficiency IV[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/efficiency.page_0.title": "Efficiency",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/efficiency.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/efficiency.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/emerald_heart.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/emerald_heart.name": "Emerald Heart",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/emerald_heart.page_0.text": "The [#](AA00AA)Emerald Heart[#]() Gene causes entities to [#](00AAAA)drop an Emerald upon death[#](). \
-  \
-For players, this has a configurable cooldown, with the default being 60 seconds.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/emerald_heart.page_0.text": "The [#](AA00AA)Emerald Heart[#]() Gene causes entities to [#](00AAAA)drop an Emerald upon death[#](). \\\n  \\\nFor players, this has a configurable cooldown, with the default being 60 seconds.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/emerald_heart.page_0.title": "Emerald Heart",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/emerald_heart.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/emerald_heart.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/ender_dragon_health.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/ender_dragon_health.name": "Ender Dragon Health",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/ender_dragon_health.page_0.text": "The [#](AA00AA)Ender Dragon Health[#]() Gene allows players to [#](00AAAA)completely negate damage[#]() while a [Dragon Health Crystal](entry://items/dragon_health_crystal) is in their inventory. \
-  \
-Any damage they would take is instead dealt to the Crystal's durability.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/ender_dragon_health.page_0.text": "The [#](AA00AA)Ender Dragon Health[#]() Gene allows players to [#](00AAAA)completely negate damage[#]() while a [Dragon Health Crystal](entry://items/dragon_health_crystal) is in their inventory. \\\n  \\\nAny damage they would take is instead dealt to the Crystal's durability.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/ender_dragon_health.page_0.title": "Ender Dragon Health",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/ender_dragon_health.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/ender_dragon_health.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/explosive_exit.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/explosive_exit.name": "Explosive Exit",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/explosive_exit.page_0.text": "The [#](AA00AA)Explosive Exit[#]() Gene causes entities to [#](00AAAA)explode upon death[#](). \
-  \
-If a player has this Gene, they only explode if they have 5 Gunpowder in their inventory, which is removed upon detonation.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/explosive_exit.page_0.text": "The [#](AA00AA)Explosive Exit[#]() Gene causes entities to [#](00AAAA)explode upon death[#](). \\\n  \\\nIf a player has this Gene, they only explode if they have 5 Gunpowder in their inventory, which is removed upon detonation.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/explosive_exit.page_0.title": "Explosive Exit",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/explosive_exit.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/explosive_exit.page_1.title": "",
@@ -243,20 +168,13 @@ If a player has this Gene, they only explode if they have 5 Gunpowder in their i
   "book.geneticsresequenced.guide.genes.geneticsresequenced/fire_proof.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/flight.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/flight.name": "Flight",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/flight.page_0.text": "The [#](AA00AA)Flight[#]() Gene allows players to [#](00AAAA)fly[#]() by double-tapping jump. \
-  \
-By default, this Gene requires the following other Genes:
-- [Teleport](entry://genes/geneticsresequenced/teleport)
-- [Jump Boost](entry://genes/geneticsresequenced/jump_boost)
-- [No Fall Damage](entry://genes/geneticsresequenced/no_fall_damage)",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/flight.page_0.text": "The [#](AA00AA)Flight[#]() Gene allows players to [#](00AAAA)fly[#]() by double-tapping jump. \\\n  \\\nBy default, this Gene requires the following other Genes:\n- [Teleport](entry://genes/geneticsresequenced/teleport)\n- [Jump Boost](entry://genes/geneticsresequenced/jump_boost)\n- [No Fall Damage](entry://genes/geneticsresequenced/no_fall_damage)",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/flight.page_0.title": "Flight",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/flight.page_1.text": "This Gene [#](FF5555)cannot be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/flight.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/haste.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/haste.name": "Haste",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/haste.page_0.text": "The [#](AA00AA)Haste[#]() Gene gives entities the [#](00AAAA)Haste[#]() effect. \
-  \
-Can be mutated into [#](AA00AA)Haste II[#]().",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/haste.page_0.text": "The [#](AA00AA)Haste[#]() Gene gives entities the [#](00AAAA)Haste[#]() effect. \\\n  \\\nCan be mutated into [#](AA00AA)Haste II[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/haste.page_0.title": "Haste",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/haste.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/haste.page_1.title": "",
@@ -274,9 +192,7 @@ Can be mutated into [#](AA00AA)Haste II[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/invisible.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/item_magnet.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/item_magnet.name": "Item Attraction Field",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/item_magnet.page_0.text": "The [#](AA00AA)Item Attraction Field[#]() Gene causes players to [#](00AAAA)grab items from much larger distances[#](). \
-  \
-This Gene is disabled when the player has an active [Anti-Field Orb](entry://items/anti_field_orb), is near an active [Anti-Field Block](entry://blocks/anti_field_block), or when sneaking.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/item_magnet.page_0.text": "The [#](AA00AA)Item Attraction Field[#]() Gene causes players to [#](00AAAA)grab items from much larger distances[#](). \\\n  \\\nThis Gene is disabled when the player has an active [Anti-Field Orb](entry://items/anti_field_orb), is near an active [Anti-Field Block](entry://blocks/anti_field_block), or when sneaking.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/item_magnet.page_0.title": "Item Attraction Field",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/item_magnet.page_1.text": "This Gene [#](FF5555)cannot be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/item_magnet.page_1.title": "",
@@ -306,9 +222,7 @@ This Gene is disabled when the player has an active [Anti-Field Orb](entry://ite
   "book.geneticsresequenced.guide.genes.geneticsresequenced/knockback.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/lay_egg.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/lay_egg.name": "Lay Egg",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/lay_egg.page_0.text": "The [#](AA00AA)Lay Egg[#]() Gene causes entities to [#](00AAAA)spawn an Egg[#]() every so often. \
-  \
-This time is configurable, but defaults to once every 5 minutes.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/lay_egg.page_0.text": "The [#](AA00AA)Lay Egg[#]() Gene causes entities to [#](00AAAA)spawn an Egg[#]() every so often. \\\n  \\\nThis time is configurable, but defaults to once every 5 minutes.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/lay_egg.page_0.title": "Lay Egg",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/lay_egg.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/lay_egg.page_1.title": "",
@@ -320,11 +234,7 @@ This time is configurable, but defaults to once every 5 minutes.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/luck.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/meaty.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/meaty.name": "Meaty",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/meaty.page_0.text": "The [#](AA00AA)Meaty[#]() Gene allows entities to be [#](00AAAA)sheared for a Raw Porkchop[#](). \
-  \
-If a player has it, they can shear themselves by sneak right-clicking with Shears. \
-  \
-This has a configurable cooldown, but defaults to once every minute.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/meaty.page_0.text": "The [#](AA00AA)Meaty[#]() Gene allows entities to be [#](00AAAA)sheared for a Raw Porkchop[#](). \\\n  \\\nIf a player has it, they can shear themselves by sneak right-clicking with Shears. \\\n  \\\nThis has a configurable cooldown, but defaults to once every minute.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/meaty.page_0.title": "Meaty",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/meaty.page_1.text": "This can be mutated into Meaty II, which causes the entity to [#](00AAAA)drop a Cooked Porkchop[#]() once every 5 minutes.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/meaty.page_1.title": "",
@@ -332,27 +242,19 @@ This has a configurable cooldown, but defaults to once every minute.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/meaty.page_2.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/milky.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/milky.name": "Milky",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/milky.page_0.text": "The [#](AA00AA)Milky[#]() Gene allows entities to [#](00AAAA)be milked with a Bucket[#](). \
-  \
-If a player has it, they can milk themselves by sneak right-clicking with a Bucket. \
-  \
-This has a configurable cooldown, with the default being 1 tick.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/milky.page_0.text": "The [#](AA00AA)Milky[#]() Gene allows entities to [#](00AAAA)be milked with a Bucket[#](). \\\n  \\\nIf a player has it, they can milk themselves by sneak right-clicking with a Bucket. \\\n  \\\nThis has a configurable cooldown, with the default being 1 tick.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/milky.page_0.title": "Milky",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/milky.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/milky.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/mob_sight.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/mob_sight.name": "Mob Sight",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/mob_sight.page_0.text": "The [#](AA00AA)Mob Sight[#]() Gene occasionally [#](00AAAA)gives all nearby mobs the Glowing effect[#](). \
-  \
-Both the cooldown and radius are configurable, defaulting to 1 second and 32 blocks respectively.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/mob_sight.page_0.text": "The [#](AA00AA)Mob Sight[#]() Gene occasionally [#](00AAAA)gives all nearby mobs the Glowing effect[#](). \\\n  \\\nBoth the cooldown and radius are configurable, defaulting to 1 second and 32 blocks respectively.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/mob_sight.page_0.title": "Mob Sight",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/mob_sight.page_1.text": "This Gene [#](FF5555)cannot be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/mob_sight.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/more_hearts.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/more_hearts.name": "More Hearts",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/more_hearts.page_0.text": "The [#](AA00AA)More Hearts[#]() Gene gives entities [#](00AAAA)10 extra hearts[#](). \
-  \
-This can be mutated into [#](AA00AA)More Hearts II[#](), which gives [#](00AAAA)an additional 10 hearts[#](), for +20 hearts in total.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/more_hearts.page_0.text": "The [#](AA00AA)More Hearts[#]() Gene gives entities [#](00AAAA)10 extra hearts[#](). \\\n  \\\nThis can be mutated into [#](AA00AA)More Hearts II[#](), which gives [#](00AAAA)an additional 10 hearts[#](), for +20 hearts in total.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/more_hearts.page_0.title": "More Hearts",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/more_hearts.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/more_hearts.page_1.title": "",
@@ -388,17 +290,13 @@ This can be mutated into [#](AA00AA)More Hearts II[#](), which gives [#](00AAAA)
   "book.geneticsresequenced.guide.genes.geneticsresequenced/poison_immunity.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/regeneration.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/regeneration.name": "Regeneration",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/regeneration.page_0.text": "The [#](AA00AA)Regeneration[#]() Gene gives entities the [#](00AAAA)Regeneration[#]() effect. \
-  \
-Can be mutated into [#](AA00AA)Regeneration IV[#](), which gives the [#](00AAAA)Regeneration IV[#]() effect.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/regeneration.page_0.text": "The [#](AA00AA)Regeneration[#]() Gene gives entities the [#](00AAAA)Regeneration[#]() effect. \\\n  \\\nCan be mutated into [#](AA00AA)Regeneration IV[#](), which gives the [#](00AAAA)Regeneration IV[#]() effect.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/regeneration.page_0.title": "Regeneration",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/regeneration.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/regeneration.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/resistance.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/resistance.name": "Resistance",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/resistance.page_0.text": "The [#](AA00AA)Resistance[#]() Gene gives entities the [#](00AAAA)Resistance[#]() effect. \
-  \
-Can be mutated into [#](AA00AA)Resistance II[#](), which gives the [#](00AAAA)Resistance II[#]() effect.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/resistance.page_0.text": "The [#](AA00AA)Resistance[#]() Gene gives entities the [#](00AAAA)Resistance[#]() effect. \\\n  \\\nCan be mutated into [#](AA00AA)Resistance II[#](), which gives the [#](00AAAA)Resistance II[#]() effect.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/resistance.page_0.title": "Resistance",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/resistance.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/resistance.page_1.title": "",
@@ -434,17 +332,13 @@ Can be mutated into [#](AA00AA)Resistance II[#](), which gives the [#](00AAAA)Re
   "book.geneticsresequenced.guide.genes.geneticsresequenced/shoot_fireballs.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/slimy_death.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/slimy_death.name": "Slimy Death",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/slimy_death.page_0.text": "The [#](AA00AA)Slimy Death[#]() Gene makes it so, [#](00AAAA)upon the player dying, they are instantly revived and several friendly Support Slimes spawn[#](). \
-  \
-This has a configurable cooldown, with the default being 5 minutes.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/slimy_death.page_0.text": "The [#](AA00AA)Slimy Death[#]() Gene makes it so, [#](00AAAA)upon the player dying, they are instantly revived and several friendly Support Slimes spawn[#](). \\\n  \\\nThis has a configurable cooldown, with the default being 5 minutes.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/slimy_death.page_0.title": "Slimy Death",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/slimy_death.page_1.text": "This Gene [#](FF5555)cannot be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/slimy_death.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/speed.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/speed.name": "Speed",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/speed.page_0.text": "The [#](AA00AA)Speed[#]() Gene gives entities the [#](00AAAA)Speed[#]() effect. \
-  \
-Can be mutated into [#](AA00AA)Speed II[#]() and [#](AA00AA)Speed IV[#]().",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/speed.page_0.text": "The [#](AA00AA)Speed[#]() Gene gives entities the [#](00AAAA)Speed[#]() effect. \\\n  \\\nCan be mutated into [#](AA00AA)Speed II[#]() and [#](AA00AA)Speed IV[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/speed.page_0.title": "Speed",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/speed.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/speed.page_1.title": "",
@@ -456,17 +350,13 @@ Can be mutated into [#](AA00AA)Speed II[#]() and [#](AA00AA)Speed IV[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/step_assist.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/strength.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/strength.name": "Strength",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/strength.page_0.text": "The [#](AA00AA)Strength[#]() Gene gives entities the [#](00AAAA)Strength[#]() effect. \
-  \
-Can be mutated into [#](AA00AA)Strength II[#]().",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/strength.page_0.text": "The [#](AA00AA)Strength[#]() Gene gives entities the [#](00AAAA)Strength[#]() effect. \\\n  \\\nCan be mutated into [#](AA00AA)Strength II[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/strength.page_0.title": "Strength",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/strength.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/strength.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/teleport.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/teleport.name": "Teleport",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/teleport.page_0.text": "The [#](AA00AA)Teleport[#]() Gene allows players to [#](00AAAA)teleport forward[#]() when the \"Teleport\" keybind is pressed. \
-  \
-This has a configurable cooldown, with the default being 1 second. The distance is also configurable, defaulting to 10 blocks.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/teleport.page_0.text": "The [#](AA00AA)Teleport[#]() Gene allows players to [#](00AAAA)teleport forward[#]() when the \"Teleport\" keybind is pressed. \\\n  \\\nThis has a configurable cooldown, with the default being 1 second. The distance is also configurable, defaulting to 10 blocks.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/teleport.page_0.title": "Teleport",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/teleport.page_1.text": "This Gene [#](FF5555)cannot be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/teleport.page_1.title": "",
@@ -478,9 +368,7 @@ This has a configurable cooldown, with the default being 1 second. The distance 
   "book.geneticsresequenced.guide.genes.geneticsresequenced/thorns.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/wall_climbing.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/wall_climbing.name": "Climb Walls",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/wall_climbing.page_0.text": "The [#](AA00AA)Climb Walls[#]() Gene allows players to [#](00AAAA)climb up walls[#](). \
-  \
-You can hold sneak to stop climbing.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/wall_climbing.page_0.text": "The [#](AA00AA)Climb Walls[#]() Gene allows players to [#](00AAAA)climb up walls[#](). \\\n  \\\nYou can hold sneak to stop climbing.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/wall_climbing.page_0.title": "Climb Walls",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/wall_climbing.page_1.text": "This Gene [#](FF5555)cannot be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/wall_climbing.page_1.title": "",
@@ -504,19 +392,13 @@ You can hold sneak to stop climbing.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/wither_proof.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/wooly.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/wooly.name": "Wooly",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/wooly.page_0.text": "The [#](AA00AA)Wooly[#]() Gene allows entities to [#](00AAAA)be sheared for Wool[#](). \
-  \
-If a player has it, they can shear themselves by sneak right-clicking with Shears. \
-  \
-This has a configurable cooldown, with the default being 1 minute.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/wooly.page_0.text": "The [#](AA00AA)Wooly[#]() Gene allows entities to [#](00AAAA)be sheared for Wool[#](). \\\n  \\\nIf a player has it, they can shear themselves by sneak right-clicking with Shears. \\\n  \\\nThis has a configurable cooldown, with the default being 1 minute.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/wooly.page_0.title": "Wooly",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/wooly.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/wooly.page_1.title": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/xp_magnet.description": "",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/xp_magnet.name": "XP Attraction Field",
-  "book.geneticsresequenced.guide.genes.geneticsresequenced/xp_magnet.page_0.text": "The [#](AA00AA)XP Attraction Field[#]() Gene causes players to [#](00AAAA)grab XP Orbs from much larger distances[#](). \
-  \
-This Gene is disabled when the player has an active [Anti-Field Orb](entry://items/anti_field_orb), is near an active [Anti-Field Block](entry://blocks/anti_field_block), or when sneaking.",
+  "book.geneticsresequenced.guide.genes.geneticsresequenced/xp_magnet.page_0.text": "The [#](AA00AA)XP Attraction Field[#]() Gene causes players to [#](00AAAA)grab XP Orbs from much larger distances[#](). \\\n  \\\nThis Gene is disabled when the player has an active [Anti-Field Orb](entry://items/anti_field_orb), is near an active [Anti-Field Block](entry://blocks/anti_field_block), or when sneaking.",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/xp_magnet.page_0.title": "XP Attraction Field",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/xp_magnet.page_1.text": "This Gene [#](FF5555)cannot be given to mobs[#]().",
   "book.geneticsresequenced.guide.genes.geneticsresequenced/xp_magnet.page_1.title": "",
@@ -525,50 +407,32 @@ This Gene is disabled when the player has an active [Anti-Field Orb](entry://ite
   "book.geneticsresequenced.guide.getting_started.getting_genes.name": "Getting Genes",
   "book.geneticsresequenced.guide.getting_started.getting_genes.page_0.text": "Getting Genes is a rather involved process.",
   "book.geneticsresequenced.guide.getting_started.getting_genes.page_0.title": "Getting Genes",
-  "book.geneticsresequenced.guide.getting_started.getting_genes.page_1.text": "First, you'll need the [Scraper](entry://items/scraper). This tool can be used on entities to collect [Organic Matter](entry://items/organic_matter) from them. \
-  \
-The Organic Matter will have the entity's type attached. This is what decides what Genes you can get from it.",
+  "book.geneticsresequenced.guide.getting_started.getting_genes.page_1.text": "First, you'll need the [Scraper](entry://items/scraper). This tool can be used on entities to collect [Organic Matter](entry://items/organic_matter) from them. \\\n  \\\nThe Organic Matter will have the entity's type attached. This is what decides what Genes you can get from it.",
   "book.geneticsresequenced.guide.getting_started.getting_genes.page_1.title": "",
   "book.geneticsresequenced.guide.getting_started.name": "Getting Started",
   "book.geneticsresequenced.guide.getting_started.what_are_genes.description": "",
   "book.geneticsresequenced.guide.getting_started.what_are_genes.name": "What are Genes?",
-  "book.geneticsresequenced.guide.getting_started.what_are_genes.page_0.text": "[#](AA00AA)Genes[#]() can be taken from mobs to [#](00AAAA)harness their abilities[#](). \
-  \
-For example, Sheep have the [Wooly](entry://genes/geneticsresequenced/wooly) Gene. If you inject this into yourself, you will be able to be sheared for wool! \
-  \
-To see a full list of Genes, [see here](category://genes).",
+  "book.geneticsresequenced.guide.getting_started.what_are_genes.page_0.text": "[#](AA00AA)Genes[#]() can be taken from mobs to [#](00AAAA)harness their abilities[#](). \\\n  \\\nFor example, Sheep have the [Wooly](entry://genes/geneticsresequenced/wooly) Gene. If you inject this into yourself, you will be able to be sheared for wool! \\\n  \\\nTo see a full list of Genes, [see here](category://genes).",
   "book.geneticsresequenced.guide.getting_started.what_are_genes.page_0.title": "What are Genes?",
-  "book.geneticsresequenced.guide.getting_started.what_are_genes.page_1.text": "Each Gene page in the book will say what the Gene does. As for how to get it, the mod has [EMI](https://www.curseforge.com/minecraft/mc-mods/emi) integration. \
-  \
-Some Genes can even be given to mobs!",
+  "book.geneticsresequenced.guide.getting_started.what_are_genes.page_1.text": "Each Gene page in the book will say what the Gene does. As for how to get it, the mod has [EMI](https://www.curseforge.com/minecraft/mc-mods/emi) integration. \\\n  \\\nSome Genes can even be given to mobs!",
   "book.geneticsresequenced.guide.getting_started.what_are_genes.page_1.title": "",
   "book.geneticsresequenced.guide.items.anti_field_orb.description": "",
   "book.geneticsresequenced.guide.items.anti_field_orb.name": "Anti-Field Orb",
-  "book.geneticsresequenced.guide.items.anti_field_orb.page_0.text": "The [#](AA00AA)Anti-Field Orb[#]() allows you to [#](00AAAA)temporarily disable certain Genes[#](). \
-  \
-Specifically, it disables the [Item Attraction Field](entry://genes/geneticsresequenced/item_magnet) and [XP Attraction Field](entry://genes/geneticsresequenced/xp_magnet) when enabled.",
+  "book.geneticsresequenced.guide.items.anti_field_orb.page_0.text": "The [#](AA00AA)Anti-Field Orb[#]() allows you to [#](00AAAA)temporarily disable certain Genes[#](). \\\n  \\\nSpecifically, it disables the [Item Attraction Field](entry://genes/geneticsresequenced/item_magnet) and [XP Attraction Field](entry://genes/geneticsresequenced/xp_magnet) when enabled.",
   "book.geneticsresequenced.guide.items.anti_field_orb.page_0.title": "Anti-Field Orb",
   "book.geneticsresequenced.guide.items.anti_field_orb.page_1.text": "The Anti-Field Orb can be toggled by right-clicking it while held.",
   "book.geneticsresequenced.guide.items.anti_field_orb.page_1.title": "",
   "book.geneticsresequenced.guide.items.cell.description": "",
   "book.geneticsresequenced.guide.items.cell.name": "Cell",
-  "book.geneticsresequenced.guide.items.cell.page_0.text": "[#](AA00AA)Cells[#]() are a recipe ingredient used in the creation of [DNA Helices](entry://items/dna_helix). \
-  \
-This is done in the [DNA Extractor](entry://blocks/dna_extractor).",
+  "book.geneticsresequenced.guide.items.cell.page_0.text": "[#](AA00AA)Cells[#]() are a recipe ingredient used in the creation of [DNA Helices](entry://items/dna_helix). \\\n  \\\nThis is done in the [DNA Extractor](entry://blocks/dna_extractor).",
   "book.geneticsresequenced.guide.items.cell.page_0.title": "Cell",
-  "book.geneticsresequenced.guide.items.cell.page_1.text": "Each entity has its own Cell, which can be processed into a [DNA Helix](entry://items/dna_helix) of the entity's type. \
-  \
-You can see the Cell's entity type in the item's tooltip.",
+  "book.geneticsresequenced.guide.items.cell.page_1.text": "Each entity has its own Cell, which can be processed into a [DNA Helix](entry://items/dna_helix) of the entity's type. \\\n  \\\nYou can see the Cell's entity type in the item's tooltip.",
   "book.geneticsresequenced.guide.items.cell.page_1.title": "",
   "book.geneticsresequenced.guide.items.dna_helix.description": "",
   "book.geneticsresequenced.guide.items.dna_helix.name": "DNA Helix",
-  "book.geneticsresequenced.guide.items.dna_helix.page_0.text": "[#](AA00AA)DNA Helices[#]() contain genetic information. This can be either in the form of [Genes](category://genes) or an [#](00AAAA)entity type[#]() \
-  \
-Freshly crafted, a DNA Helix contains only the Entity that the DNA came from.",
+  "book.geneticsresequenced.guide.items.dna_helix.page_0.text": "[#](AA00AA)DNA Helices[#]() contain genetic information. This can be either in the form of [Genes](category://genes) or an [#](00AAAA)entity type[#]() \\\n  \\\nFreshly crafted, a DNA Helix contains only the Entity that the DNA came from.",
   "book.geneticsresequenced.guide.items.dna_helix.page_0.title": "DNA Helix",
-  "book.geneticsresequenced.guide.items.dna_helix.page_1.text": "This DNA Helix contains the genetic information of a [#](00AAAA)Cow[#](), but the actual Gene it has is [#](FF5555)unknown[#](). \
-  \
-To decrypt it, you'll need to pass it through a [DNA Decryptor](entry://blocks/dna_decryptor).",
+  "book.geneticsresequenced.guide.items.dna_helix.page_1.text": "This DNA Helix contains the genetic information of a [#](00AAAA)Cow[#](), but the actual Gene it has is [#](FF5555)unknown[#](). \\\n  \\\nTo decrypt it, you'll need to pass it through a [DNA Decryptor](entry://blocks/dna_decryptor).",
   "book.geneticsresequenced.guide.items.dna_helix.page_1.title": "Encrypted Helix",
   "book.geneticsresequenced.guide.items.dna_helix.page_2.text": "This DNA Helix has been decrypted, and now we can see it contains the [Milky](entry://genes/geneticsresequenced/milky) Gene.",
   "book.geneticsresequenced.guide.items.dna_helix.page_2.title": "Decrypted Helix",
@@ -576,9 +440,7 @@ To decrypt it, you'll need to pass it through a [DNA Decryptor](entry://blocks/d
   "book.geneticsresequenced.guide.items.dna_helix.page_3.title": "Basic Gene",
   "book.geneticsresequenced.guide.items.dragon_health_crystal.description": "",
   "book.geneticsresequenced.guide.items.dragon_health_crystal.name": "Dragon Health Crystal",
-  "book.geneticsresequenced.guide.items.dragon_health_crystal.page_0.text": "The [#](AA00AA)Dragon Health Crystal[#]() is part of the [Ender Dragon Health](entry://genes/geneticsresequenced/ender_dragon_health) Gene. \
-  \
-While you have that Gene, and while holding a Dragon Health Crystal, any incoming damage is negated and instead dealt to the Crystal.",
+  "book.geneticsresequenced.guide.items.dragon_health_crystal.page_0.text": "The [#](AA00AA)Dragon Health Crystal[#]() is part of the [Ender Dragon Health](entry://genes/geneticsresequenced/ender_dragon_health) Gene. \\\n  \\\nWhile you have that Gene, and while holding a Dragon Health Crystal, any incoming damage is negated and instead dealt to the Crystal.",
   "book.geneticsresequenced.guide.items.dragon_health_crystal.page_0.title": "Dragon Health Crystal",
   "book.geneticsresequenced.guide.items.dragon_health_crystal.page_1.text": "A fresh Dragon health Crystal has [#](00AAAA)1,000 durability[#](). Each half-heart deals 1 point of durability damage. It can be repaired with End Crystals.",
   "book.geneticsresequenced.guide.items.dragon_health_crystal.page_1.title": "",
@@ -591,19 +453,13 @@ While you have that Gene, and while holding a Dragon Health Crystal, any incomin
   "book.geneticsresequenced.guide.items.name": "Items",
   "book.geneticsresequenced.guide.items.organic_matter.description": "",
   "book.geneticsresequenced.guide.items.organic_matter.name": "Organic Matter",
-  "book.geneticsresequenced.guide.items.organic_matter.page_0.text": "Organic Matter is a recipe ingredient used in the creation of [Cells](entry://items/cell). \
-  \
-This is done in the [Cell Analyzer](entry://blocks/cell_analyzer).",
+  "book.geneticsresequenced.guide.items.organic_matter.page_0.text": "Organic Matter is a recipe ingredient used in the creation of [Cells](entry://items/cell). \\\n  \\\nThis is done in the [Cell Analyzer](entry://blocks/cell_analyzer).",
   "book.geneticsresequenced.guide.items.organic_matter.page_0.title": "Organic Matter",
-  "book.geneticsresequenced.guide.items.organic_matter.page_1.text": "Each entity has its own Organic Matter, which can be processed into a [Cell](entry://items/cell) of the entity's type. \
-  \
-You can see the Organic Matter's entity type in the item's tooltip.",
+  "book.geneticsresequenced.guide.items.organic_matter.page_1.text": "Each entity has its own Organic Matter, which can be processed into a [Cell](entry://items/cell) of the entity's type. \\\n  \\\nYou can see the Organic Matter's entity type in the item's tooltip.",
   "book.geneticsresequenced.guide.items.organic_matter.page_1.title": "",
   "book.geneticsresequenced.guide.items.overclocker.description": "",
   "book.geneticsresequenced.guide.items.overclocker.name": "Overclocker",
-  "book.geneticsresequenced.guide.items.overclocker.page_0.text": "The [#](AA00AA)Overclocker[#]() can be inserted into most of the mod's machines to [#](00AAAA)massively increase their speed[#](). \
-  \
-Each Overclocker doubles the speed, but increases the power draw by a quarter.",
+  "book.geneticsresequenced.guide.items.overclocker.page_0.text": "The [#](AA00AA)Overclocker[#]() can be inserted into most of the mod's machines to [#](00AAAA)massively increase their speed[#](). \\\n  \\\nEach Overclocker doubles the speed, but increases the power draw by a quarter.",
   "book.geneticsresequenced.guide.items.overclocker.page_0.title": "Overclocker",
   "book.geneticsresequenced.guide.items.overclocker.page_1.text": "You can have [#](00AAAA)up to 8 Overclockers[#]() in a machine.",
   "book.geneticsresequenced.guide.items.overclocker.page_1.title": "",
@@ -615,75 +471,45 @@ Each Overclocker doubles the speed, but increases the power draw by a quarter.",
   "book.geneticsresequenced.guide.items.panacea.page_1.title": "",
   "book.geneticsresequenced.guide.items.plasmid.description": "",
   "book.geneticsresequenced.guide.items.plasmid.name": "Plasmid",
-  "book.geneticsresequenced.guide.items.plasmid.page_0.text": "[#](AA00AA)Plasmids[#]() are the vehicle that carries [Genes](category://genes). \
-  \
-Plasmids default as [#](FF5555)empty[#](), with no genetic information. \
-  \
-To begin, use a [Plasmid Infuser](entry://blocks/plasmid_infuser) to infuse a decrypted DNA Helix into them. \
-  \
-This will set the Plasmid's Gene.",
+  "book.geneticsresequenced.guide.items.plasmid.page_0.text": "[#](AA00AA)Plasmids[#]() are the vehicle that carries [Genes](category://genes). \\\n  \\\nPlasmids default as [#](FF5555)empty[#](), with no genetic information. \\\n  \\\nTo begin, use a [Plasmid Infuser](entry://blocks/plasmid_infuser) to infuse a decrypted DNA Helix into them. \\\n  \\\nThis will set the Plasmid's Gene.",
   "book.geneticsresequenced.guide.items.plasmid.page_0.title": "Plasmid",
-  "book.geneticsresequenced.guide.items.plasmid.page_1.text": "Plasmids require a certain amount of [#](00AAAA)Gene Points[#]() to be complete. \
-  \
-The amount of Gene Points required depends on the Plasmid's Gene. More advanced Genes cost more Points.",
+  "book.geneticsresequenced.guide.items.plasmid.page_1.text": "Plasmids require a certain amount of [#](00AAAA)Gene Points[#]() to be complete. \\\n  \\\nThe amount of Gene Points required depends on the Plasmid's Gene. More advanced Genes cost more Points.",
   "book.geneticsresequenced.guide.items.plasmid.page_1.title": "",
-  "book.geneticsresequenced.guide.items.plasmid.page_2.text": "This Plasmid has been infused with the [Scare Creepers](entry://genes/geneticsresequenced/scare_creepers) Gene. \
-  \
-Notice, however, that it [#](FF5555)only contains 1 Gene Point[#](). \
-  \
-Infusing more DNA Helices of the same Gene will add +2 Points each, while Basic Genes will add +1 each.",
+  "book.geneticsresequenced.guide.items.plasmid.page_2.text": "This Plasmid has been infused with the [Scare Creepers](entry://genes/geneticsresequenced/scare_creepers) Gene. \\\n  \\\nNotice, however, that it [#](FF5555)only contains 1 Gene Point[#](). \\\n  \\\nInfusing more DNA Helices of the same Gene will add +2 Points each, while Basic Genes will add +1 each.",
   "book.geneticsresequenced.guide.items.plasmid.page_2.title": "",
-  "book.geneticsresequenced.guide.items.plasmid.page_3.text": "Once it's reached its maximum Gene Points required, the Plasmid will be marked [#](00AAAA)complete[#]()! \
-  \
-That means it's ready to be injected into a Syringe at the [Plasmid Injector](entry://blocks/plasmid_injector).",
+  "book.geneticsresequenced.guide.items.plasmid.page_3.text": "Once it's reached its maximum Gene Points required, the Plasmid will be marked [#](00AAAA)complete[#]()! \\\n  \\\nThat means it's ready to be injected into a Syringe at the [Plasmid Injector](entry://blocks/plasmid_injector).",
   "book.geneticsresequenced.guide.items.plasmid.page_3.title": "",
   "book.geneticsresequenced.guide.items.potion_cell_growth.description": "",
   "book.geneticsresequenced.guide.items.potion_cell_growth.name": "Potion of Cell Growth",
-  "book.geneticsresequenced.guide.items.potion_cell_growth.page_0.text": "[#](AA00AA)Potions of Cell Growth[#](), like Organic Substrate, has no effect when imbibed. It's more of a crafting ingredient than a potion. \
-  \
-These recipes allow you to [#](00AAAA)improve your odds of getting certain rare Genes[#]().",
+  "book.geneticsresequenced.guide.items.potion_cell_growth.page_0.text": "[#](AA00AA)Potions of Cell Growth[#](), like Organic Substrate, has no effect when imbibed. It's more of a crafting ingredient than a potion. \\\n  \\\nThese recipes allow you to [#](00AAAA)improve your odds of getting certain rare Genes[#]().",
   "book.geneticsresequenced.guide.items.potion_cell_growth.page_0.title": "Potion of Cell Growth",
   "book.geneticsresequenced.guide.items.potion_cell_growth.page_1.text": "A [Cell](entry://items/cell) can be brewed into the Potion of Cell Growth to [#](00AAAA)set the Potion to the Cell's entity type[#]().",
   "book.geneticsresequenced.guide.items.potion_cell_growth.page_1.title": "Entity Set",
   "book.geneticsresequenced.guide.items.potion_cell_growth.page_2.text": "From there, certain entity types have recipes to make [#](AA00AA)Genetically Modified Cells[#](), which are guaranteed to give a specific Gene.",
   "book.geneticsresequenced.guide.items.potion_cell_growth.page_2.title": "Genetically Modified Cell",
-  "book.geneticsresequenced.guide.items.potion_cell_growth.page_3.text": "A low-temperature Advanced Incubator takes a very long time, but can be accelerated using Overclockers. \
-  \
-Unfortunately, Overclockers lower your chances of success. Chorus Fruits increase it back, though!",
+  "book.geneticsresequenced.guide.items.potion_cell_growth.page_3.text": "A low-temperature Advanced Incubator takes a very long time, but can be accelerated using Overclockers. \\\n  \\\nUnfortunately, Overclockers lower your chances of success. Chorus Fruits increase it back, though!",
   "book.geneticsresequenced.guide.items.potion_cell_growth.page_3.title": "",
   "book.geneticsresequenced.guide.items.potion_mutation.description": "",
   "book.geneticsresequenced.guide.items.potion_mutation.name": "Potion of Mutation",
-  "book.geneticsresequenced.guide.items.potion_mutation.page_0.text": "The [#](AA00AA)Potion of Mutation[#]() is used to craft [Genetically Modified Cells](entry://items/potion_cell_growth@gmo_cell) that are set to [#](00AAAA)mutation Genes[#](). \
-  \
-Mutation Genes are effectively just [#](00AAAA)more powerful[#]() Genes, and generally [#](FF5555)require other Genes[#]().",
+  "book.geneticsresequenced.guide.items.potion_mutation.page_0.text": "The [#](AA00AA)Potion of Mutation[#]() is used to craft [Genetically Modified Cells](entry://items/potion_cell_growth@gmo_cell) that are set to [#](00AAAA)mutation Genes[#](). \\\n  \\\nMutation Genes are effectively just [#](00AAAA)more powerful[#]() Genes, and generally [#](FF5555)require other Genes[#]().",
   "book.geneticsresequenced.guide.items.potion_mutation.page_0.title": "Potion of Mutation",
   "book.geneticsresequenced.guide.items.scraper.description": "",
   "book.geneticsresequenced.guide.items.scraper.name": "Scraper",
-  "book.geneticsresequenced.guide.items.scraper.page_0.text": "The [#](AA00AA)Scraper[#]() is used to get [Organic Matter](entry://items/organic_matter) from mobs. \
-  \
-To use it, simply right-click the mob. This damages the mob, which counts as an attack and will anger neutral entities.",
+  "book.geneticsresequenced.guide.items.scraper.page_0.text": "The [#](AA00AA)Scraper[#]() is used to get [Organic Matter](entry://items/organic_matter) from mobs. \\\n  \\\nTo use it, simply right-click the mob. This damages the mob, which counts as an attack and will anger neutral entities.",
   "book.geneticsresequenced.guide.items.scraper.page_0.title": "Scraper",
   "book.geneticsresequenced.guide.items.scraper.page_1.text": "The Scraper can be enchanted with [#](00AAAA)Delicate Touch[#]() to prevent damaging and angering entities.",
   "book.geneticsresequenced.guide.items.scraper.page_1.title": "",
   "book.geneticsresequenced.guide.items.syringe.description": "",
   "book.geneticsresequenced.guide.items.syringe.name": "Syringe",
-  "book.geneticsresequenced.guide.items.syringe.page_0.text": "The [#](AA00AA)Syringe[#]() is used to [#](00AAAA)extract and inject blood[#](). Simply hold right-click, and the process will end automatically. \
-  \
-The reason you'd *want* to extract blood is that that's what carries completed [Plasmids](entry://items/plasmid) back into your body.",
+  "book.geneticsresequenced.guide.items.syringe.page_0.text": "The [#](AA00AA)Syringe[#]() is used to [#](00AAAA)extract and inject blood[#](). Simply hold right-click, and the process will end automatically. \\\n  \\\nThe reason you'd *want* to extract blood is that that's what carries completed [Plasmids](entry://items/plasmid) back into your body.",
   "book.geneticsresequenced.guide.items.syringe.page_0.title": "Syringe",
-  "book.geneticsresequenced.guide.items.syringe.page_1.text": "When you extract blood, it'll be [#](FF5555)contaminated[#](). You'll need to clean it in the [Blood Purifier](entry://blocks/blood_purifier) before it can be used. \
-  \
-Plasmids are added in the [Plasmid Injector](entry://blocks/plasmid_injector).",
+  "book.geneticsresequenced.guide.items.syringe.page_1.text": "When you extract blood, it'll be [#](FF5555)contaminated[#](). You'll need to clean it in the [Blood Purifier](entry://blocks/blood_purifier) before it can be used. \\\n  \\\nPlasmids are added in the [Plasmid Injector](entry://blocks/plasmid_injector).",
   "book.geneticsresequenced.guide.items.syringe.page_1.title": "",
-  "book.geneticsresequenced.guide.items.syringe.page_2.text": "You can also use the [#](AA00AA)Metal Syringe[#](), which targets others instead of yourself! \
-  \
-This is how you would give Genes to entities.",
+  "book.geneticsresequenced.guide.items.syringe.page_2.text": "You can also use the [#](AA00AA)Metal Syringe[#](), which targets others instead of yourself! \\\n  \\\nThis is how you would give Genes to entities.",
   "book.geneticsresequenced.guide.items.syringe.page_2.title": "",
   "book.geneticsresequenced.guide.items.viral_agents.description": "",
   "book.geneticsresequenced.guide.items.viral_agents.name": "Viral Agents",
-  "book.geneticsresequenced.guide.items.viral_agents.page_0.text": "[#](AA00AA)Viral Agents[#]() are the final crafting potion of the mod. They are used to craft [negative Genes](category://genes/negative), which are generally just any gene that's harmful. \
-  \
-Negative Genes are always lost on death, regardless of config setting. Additionally, there's a config to prevent players from even being able to get negative Genes in the first place.",
+  "book.geneticsresequenced.guide.items.viral_agents.page_0.text": "[#](AA00AA)Viral Agents[#]() are the final crafting potion of the mod. They are used to craft [negative Genes](category://genes/negative), which are generally just any gene that's harmful. \\\n  \\\nNegative Genes are always lost on death, regardless of config setting. Additionally, there's a config to prevent players from even being able to get negative Genes in the first place.",
   "book.geneticsresequenced.guide.items.viral_agents.page_0.title": "Viral Agents",
   "book.geneticsresequenced.guide.items.viral_agents.page_1.text": "Virus Cultivation recipes can be crafted in the Brewing Stand or in either Incubator.",
   "book.geneticsresequenced.guide.items.viral_agents.page_1.title": "",
@@ -702,11 +528,7 @@ Negative Genes are always lost on death, regardless of config setting. Additiona
   "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/bad_omen.page_1.title": "",
   "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/black_death.description": "",
   "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/black_death.name": "Black Death",
-  "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/black_death.page_0.text": "The [#](AA00AA)Black Death[#]() Plague Gene [#](FF5555)instantly kills whoever has it[#](). Given its strength, this Gene is much harder to acquire than others. \
-  \
-To craft its DNA Helix, you'll need to get a [#](00AAAA)Syringe with **every other negative gene** in the game[#](). This includes other Plagues, but not disabled Genes. \
-  \
-From there, simply brew that Syringe into a Potion of Viral Agents.",
+  "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/black_death.page_0.text": "The [#](AA00AA)Black Death[#]() Plague Gene [#](FF5555)instantly kills whoever has it[#](). Given its strength, this Gene is much harder to acquire than others. \\\n  \\\nTo craft its DNA Helix, you'll need to get a [#](00AAAA)Syringe with **every other negative gene** in the game[#](). This includes other Plagues, but not disabled Genes. \\\n  \\\nFrom there, simply brew that Syringe into a Potion of Viral Agents.",
   "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/black_death.page_0.title": "Black Death",
   "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/black_death.page_1.text": "This Gene [#](00AAAA)can be given to mobs[#]().",
   "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/black_death.page_1.title": "",
@@ -718,9 +540,7 @@ From there, simply brew that Syringe into a Potion of Viral Agents.",
   "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/blindness.page_1.title": "",
   "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/cringe.description": "",
   "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/cringe.name": "Cringe",
-  "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/cringe.page_0.text": "The [#](AA00AA)Cringe[#]() gives [#](00AAAA)uwufies your chat messages[#](), and sets your language to LOLCAT. \
-  \
-That second feature can be disabled in the client config.",
+  "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/cringe.page_0.text": "The [#](AA00AA)Cringe[#]() gives [#](00AAAA)uwufies your chat messages[#](), and sets your language to LOLCAT. \\\n  \\\nThat second feature can be disabled in the client config.",
   "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/cringe.page_0.title": "Cringe",
   "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/cringe.page_1.text": "This Gene [#](FF5555)cannot be given to mobs[#]().",
   "book.geneticsresequenced.guide.negative_genes.geneticsresequenced/cringe.page_1.title": "",
@@ -841,11 +661,9 @@ That second feature can be disabled in the client config.",
   "command.geneticsresequenced.add_gene.multiple_targets.success": "Added %1$s to %2$d entities!",
   "command.geneticsresequenced.add_gene.single_target.fail": "Failed to add %1$s to %2$s!",
   "command.geneticsresequenced.add_gene.single_target.success": "Added %1$s to %2$s!",
-  "command.geneticsresequenced.list.genes": "%1$s's Genes:
-",
+  "command.geneticsresequenced.list.genes": "%1$s's Genes:\n",
   "command.geneticsresequenced.list.no_genes": "No Genes found!",
-  "command.geneticsresequenced.list_all_genes": "Gene List:
-",
+  "command.geneticsresequenced.list_all_genes": "Gene List:\n",
   "command.geneticsresequenced.remove_all.multiple_targets": "Removed all Genes from %d entities!",
   "command.geneticsresequenced.remove_all.single_target": "Removed all Genes from %s!",
   "command.geneticsresequenced.remove_gene.multiple_targets.fail": "Failed to remove %1$s from %2$d entities!",
@@ -1026,39 +844,23 @@ That second feature can be disabled in the client config.",
   "geneticsresequenced.configuration.xpMagnetCooldown": "XP Magnet cooldown",
   "geneticsresequenced.configuration.xpMagnetRadius": "XP Magnet radius",
   "info.gene.geneticsresequenced.bad_omen": "Inflicts the Bad Omen potion effect.",
-  "info.gene.geneticsresequenced.basic": "The most basic Gene, which does nothing, and can't even be injected.
-
-It can be used as a crafting ingredient, as it's worth 1 DNA Point in the Plasmid Infuser.",
+  "info.gene.geneticsresequenced.basic": "The most basic Gene, which does nothing, and can't even be injected.\n\nIt can be used as a crafting ingredient, as it's worth 1 DNA Point in the Plasmid Infuser.",
   "info.gene.geneticsresequenced.bioluminescence": "Makes you leave behind a trail of light, which lasts a short while.",
   "info.gene.geneticsresequenced.black_death": "Instantly kills.",
   "info.gene.geneticsresequenced.blindness": "Inflicts the Blindness potion effect.",
-  "info.gene.geneticsresequenced.chatterbox": "Your chat messages are automatically read by the narrator (within 64 blocks).
-
-Can be disabled in the client config.",
+  "info.gene.geneticsresequenced.chatterbox": "Your chat messages are automatically read by the narrator (within 64 blocks).\n\nCan be disabled in the client config.",
   "info.gene.geneticsresequenced.chilling": "Has a chance of inflicting freezing damage on hit.",
-  "info.gene.geneticsresequenced.claws": "Has a chance of inflicting Bleeding on hit.
-
-Bleeding deals damage over time.",
+  "info.gene.geneticsresequenced.claws": "Has a chance of inflicting Bleeding on hit.\n\nBleeding deals damage over time.",
   "info.gene.geneticsresequenced.claws_2": "Doubles the chances of inflicting Bleeding on hit.",
-  "info.gene.geneticsresequenced.cringe": "Makes you a Discord moderator.
-
-(UwU-fies your outgoing chat messages, and sets your language to LOLCAT)",
+  "info.gene.geneticsresequenced.cringe": "Makes you a Discord moderator.\n\n(UwU-fies your outgoing chat messages, and sets your language to LOLCAT)",
   "info.gene.geneticsresequenced.cursed": "Inflicts the Cursed potion effect.",
   "info.gene.geneticsresequenced.dragons_breath": "Allows you to use the \"Dragon's Breath\" keybind to fire a dragon fireball.",
   "info.gene.geneticsresequenced.eat_grass": "Allows you to right-click Grass Blocks to regain hunger.",
-  "info.gene.geneticsresequenced.efficiency": "Increases your mining speed as if you were using an Efficiency tool.
-
-Stacks with Haste, as well as the actual Efficiency enchantment!",
-  "info.gene.geneticsresequenced.efficiency_4": "Increases your mining speed as if you were using an Efficiency IV tool.
-
-Stacks with Haste, as well as the actual Efficiency enchantment!",
+  "info.gene.geneticsresequenced.efficiency": "Increases your mining speed as if you were using an Efficiency tool.\n\nStacks with Haste, as well as the actual Efficiency enchantment!",
+  "info.gene.geneticsresequenced.efficiency_4": "Increases your mining speed as if you were using an Efficiency IV tool.\n\nStacks with Haste, as well as the actual Efficiency enchantment!",
   "info.gene.geneticsresequenced.emerald_heart": "Spawns an Emerald when you die.",
-  "info.gene.geneticsresequenced.ender_dragon_health": "Blocks damage if you're holding a Dragon Health Crystal.
-
-Damage is instead dealt to the Crystal's durability.",
-  "info.gene.geneticsresequenced.explosive_exit": "Makes you explode when you die, if you're holding at least 5 Gunpowder.
-
-Entities with the Gene do not need the Gunpowder.",
+  "info.gene.geneticsresequenced.ender_dragon_health": "Blocks damage if you're holding a Dragon Health Crystal.\n\nDamage is instead dealt to the Crystal's durability.",
+  "info.gene.geneticsresequenced.explosive_exit": "Makes you explode when you die, if you're holding at least 5 Gunpowder.\n\nEntities with the Gene do not need the Gunpowder.",
   "info.gene.geneticsresequenced.fire_proof": "Makes you immune to fire damage, and immediately extinguishes you.",
   "info.gene.geneticsresequenced.flambe": "Constantly lights you on fire",
   "info.gene.geneticsresequenced.flight": "Gives you Creative mode style flight.",
@@ -1069,9 +871,7 @@ Entities with the Gene do not need the Gunpowder.",
   "info.gene.geneticsresequenced.hunger": "Inflicts the Hunger potion effect.",
   "info.gene.geneticsresequenced.infinity": "Allows you to use Bows without any Arrows in your inventory.",
   "info.gene.geneticsresequenced.invisible": "Gives you the Invisibility potion effect.",
-  "info.gene.geneticsresequenced.item_magnet": "Makes you pick up all nearby items.
-
-Disables when sneaking, when holding an active Anti-Field Orb, or near an active Anti-Field Block.",
+  "info.gene.geneticsresequenced.item_magnet": "Makes you pick up all nearby items.\n\nDisables when sneaking, when holding an active Anti-Field Orb, or near an active Anti-Field Block.",
   "info.gene.geneticsresequenced.johnny": "Deal more damage using Axes",
   "info.gene.geneticsresequenced.jump_boost": "Gives you the Jump Boost potion effect.",
   "info.gene.geneticsresequenced.keep_inventory": "Makes you keep your inventory when you die.",
@@ -1104,9 +904,7 @@ Disables when sneaking, when holding an active Anti-Field Orb, or near an active
   "info.gene.geneticsresequenced.scare_spiders": "Makes Spiders and Cave Spiders run away from you.",
   "info.gene.geneticsresequenced.scare_zombies": "Makes Zombies run away from you.",
   "info.gene.geneticsresequenced.shoot_fireballs": "Lets you shoot Fire Charges when you right-click Blaze Rods.",
-  "info.gene.geneticsresequenced.slimy_death": "When you die, cancels it and spawns some Support Slimes to help you fight.
-
-Has a long cooldown.",
+  "info.gene.geneticsresequenced.slimy_death": "When you die, cancels it and spawns some Support Slimes to help you fight.\n\nHas a long cooldown.",
   "info.gene.geneticsresequenced.slowness": "Inflicts the Slowness potion effect.",
   "info.gene.geneticsresequenced.slowness_4": "Inflicts the Slowness VI potion effect.",
   "info.gene.geneticsresequenced.slowness_6": "Inflicts the Slowness IV potion effect.",
@@ -1127,16 +925,11 @@ Has a long cooldown.",
   "info.gene.geneticsresequenced.wither_hit": "Melee attacks inflict the Wither potion effect.",
   "info.gene.geneticsresequenced.wither_proof": "Makes you immune to the Wither potion effect.",
   "info.gene.geneticsresequenced.wooly": "Lets you be sheared for Wool.",
-  "info.gene.geneticsresequenced.xp_magnet": "Makes you pick up all nearby xp.
-
-Disables when sneaking, when holding an active Anti-Field Orb, or near an active Anti-Field Block.",
+  "info.gene.geneticsresequenced.xp_magnet": "Makes you pick up all nearby xp.\n\nDisables when sneaking, when holding an active Anti-Field Orb, or near an active Anti-Field Block.",
   "info.geneticsresequenced.mob_gene.line1": "%1$s has these Genes:",
-  "info.geneticsresequenced.mob_gene.line2": "
-%d%% of %2$s",
+  "info.geneticsresequenced.mob_gene.line2": "\n%d%% of %2$s",
   "info.geneticsresequenced.organic_matter": "Acquired by clicking a %1$s with a Scraper.",
-  "info.geneticsresequenced.organic_matter.empty": "Acquired by clicking an entity with a Scraper.
-
-For more information, look at one that actually has an entity set 😉",
+  "info.geneticsresequenced.organic_matter.empty": "Acquired by clicking an entity with a Scraper.\n\nFor more information, look at one that actually has an entity set 😉",
   "info.geneticsresequenced.requires_genes": "Required Genes:",
   "item.geneticsresequenced.anti_field_orb": "Anti-Field Orb",
   "item.geneticsresequenced.anti_plasmid": "Anti-Plasmid",
@@ -1188,21 +981,15 @@ For more information, look at one that actually has an entity set 😉",
   "message.geneticsresequenced.cringe.resources.add": "You feel the cringe entering your body, taking over. Your perception of the world changes in %d...",
   "message.geneticsresequenced.cringe.resources.reloading": "Reloading resources now!",
   "message.geneticsresequenced.cringe.resources.remove": "You feel yourself become more based, the cringe leaving the world in %d...",
-  "message.geneticsresequenced.cringe.resources.tooltip": "You can disable this in the client config!
-
-Your language is reset to normal when you leave the game.",
+  "message.geneticsresequenced.cringe.resources.tooltip": "You can disable this in the client config!\n\nYour language is reset to normal when you leave the game.",
   "message.geneticsresequenced.death_gene_removal": "Death has reset your Genes!",
   "message.geneticsresequenced.death_negative_gene_removal": "Death has remove your negative Genes!",
-  "message.geneticsresequenced.gene_checker.list": "You have the following Genes:
-%s",
+  "message.geneticsresequenced.gene_checker.list": "You have the following Genes:\n%s",
   "message.geneticsresequenced.gene_checker.no_genes": "You have no Genes!",
-  "message.geneticsresequenced.gene_checker.target.list": "%s has the following Genes:
-%s",
+  "message.geneticsresequenced.gene_checker.target.list": "%s has the following Genes:\n%s",
   "message.geneticsresequenced.gene_checker.target.no_genes": "%s has no Genes!",
-  "message.geneticsresequenced.gene_missing_requirements": "You feel the %s Gene fade away...
-It seems you §cdo not meet the requirements§r for it.",
-  "message.geneticsresequenced.gene_missing_requirements.list": "Required Genes:
-",
+  "message.geneticsresequenced.gene_missing_requirements": "You feel the %s Gene fade away...\nIt seems you §cdo not meet the requirements§r for it.",
+  "message.geneticsresequenced.gene_missing_requirements.list": "Required Genes:\n",
   "message.geneticsresequenced.meaty.recent": "This entity has already been meated recently!",
   "message.geneticsresequenced.metal_syringe.contaminated": "You can't inject entities with contaminated blood!",
   "message.geneticsresequenced.metal_syringe.mismatch": "This Syringe is for a different entity!",
@@ -1232,8 +1019,7 @@ It seems you §cdo not meet the requirements§r for it.",
   "tag.item.geneticsresequenced.activates_shoot_fireball_gene": "Usable for \"Shoot Fireballs\" Gene",
   "tag.item.geneticsresequenced.enchantable.delicate_touch": "Delicate Touch Enchantable",
   "tag.item.geneticsresequenced.item_magnet_gene_blacklist": "Blacklisted from \"Item Magnet\" Gene",
-  "tag.item.geneticsresequenced.prevents_some_mob_interaction": "Prevents item interaction with entities that have the #geneticsresequenced:allows_preventing_interaction tag
-Used for Villagers etc that already have their own interactions",
+  "tag.item.geneticsresequenced.prevents_some_mob_interaction": "Prevents item interaction with entities that have the #geneticsresequenced:allows_preventing_interaction tag\nUsed for Villagers etc that already have their own interactions",
   "tag.item.geneticsresequenced.syringes": "Syringes",
   "tooltip.geneticsresequenced.advanced_incubator.set_high": "Set temperature to high",
   "tooltip.geneticsresequenced.advanced_incubator.set_low": "Set temperature to low",
@@ -1242,8 +1028,7 @@ Used for Villagers etc that already have their own interactions",
   "tooltip.geneticsresequenced.antifield_inactive": "Inactive",
   "tooltip.geneticsresequenced.black_death_recipe": "Requires a Syringe that has every negative Gene.",
   "tooltip.geneticsresequenced.coal_generator.total_fe": "Stack total: %d FE",
-  "tooltip.geneticsresequenced.copy_gene_id": "Click to copy ID:
-%s",
+  "tooltip.geneticsresequenced.copy_gene_id": "Click to copy ID:\n%s",
   "tooltip.geneticsresequenced.dna_item.creative": "Creative: Right-click mob to set.",
   "tooltip.geneticsresequenced.dna_item.empty": "Empty",
   "tooltip.geneticsresequenced.dna_item.filled": "Cell type: %s",

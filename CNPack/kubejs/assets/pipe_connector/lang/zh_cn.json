@@ -16,7 +16,7 @@
   "item.pipe_connector.message.notEnoughPipes": "物品栏中的管道不足，缺少 %s 根管道",
   "item.pipe_connector.gui.button.tooltip.disabledNotEnoughPipes": "物品栏中的管道不足，缺少 %s 根管道",
   "item.pipe_connector.message.reachedPipeLimit": "无法一次性放置超过 %s 根管道",
-  "item.pipe_connector.message.unbreakableBlockReached": "管道无法替换 %s方块",
+  "item.pipe_connector.message.unbreakableBlockReached": "管道无法替换%s方块",
   "item.pipe_connector.gui.button.tooltip.disabledInventoryInPath": "无法破坏物品栏方块，路径中存在%s。",
   "item.pipe_connector.gui.button.ResetPipePos": "重置选点",
   "item.pipe_connector.gui.button.PlacePipes": "放置管道",
@@ -48,9 +48,7 @@
   "item.pipe_connector.gui.button.tooltip.utilizeExistingPipesInfoPartTwo": "连接不同位置的管道",
   "item.pipe_connector.gui.button.tooltip.InventoryGuard": "这样可以防止带有容器的方块被破坏。",
   "item.pipe_connector.jei.supportedPipesInfo": "支持的管道类型",
-  "item.pipe_connector.jei.description": "管道连接器允许你通过按住Shift+右击选择最多%s个位置。所有位置选定后，将显示路径的预览。\n你可以通过按住Shift+滚轮来调整管道的深度。\n当你对路径满意后，按住Shift+右击打开界面，然后点击“放置管道”来布置管道。
-若对所选位置不满意，点击\"重置选点\"可清除当前设置。
-支持的管道类型列表可在JEI模组中查看。",
+  "item.pipe_connector.jei.description": "管道连接器允许你通过按住Shift+右击选择最多%s个位置。所有位置选定后，将显示路径的预览。\n你可以通过按住Shift+滚轮来调整管道的深度。\n当你对路径满意后，按住Shift+右击打开界面，然后点击“放置管道”来布置管道。\n若对所选位置不满意，点击\"重置选点\"可清除当前设置。\n支持的管道类型列表可在JEI模组中查看。",
   "item.pipe_connector.message.maxNodesReached": "已达到节点数量上限，Shift+右击将现有节点移除"
 
 
