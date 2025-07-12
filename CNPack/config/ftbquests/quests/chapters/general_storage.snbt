@@ -1605,7 +1605,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(functionalstorage:dripping_upgrade)item(functionalstorage:water_generator_upgrade)item(functionalstorage:obsidian_upgrade))"
-									"minecraft:custom_name": "\"Drawer Generators\""
+									"minecraft:custom_name": "“抽屉生成器”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
