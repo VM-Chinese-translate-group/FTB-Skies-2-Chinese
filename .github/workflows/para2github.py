@@ -66,7 +66,7 @@ def get_files() -> None:
 
 def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
     """
-    保存翻译内容到指定的 JSON 文件。
+    保存翻译内容到指定的 JSON 文件，并保持与源文件完全相同的格式。
 
     :param zh_cn_dict: 翻译内容的字典
     :param path: 原始文件路径
@@ -77,20 +77,49 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
     file_path = dir_path / zh_cn_filename
     source_path = Path("Source") / path
 
-    with open(file_path, "w", encoding="UTF-8") as f:
-        try:
-            with open(source_path, "r", encoding="UTF-8") as f1:
-                # 使用 OrderedDict 保留源文件的键顺序
-                source_json: dict = json.load(f1, object_pairs_hook=OrderedDict)
+    try:
+        # 1. 将源文件完整读入，以保留所有格式（空行、缩进等）
+        with open(source_path, "r", encoding="UTF-8") as f1:
+            source_content = f1.read()
+            # 2. 使用 OrderedDict 解析，以获取正确的键顺序和原始值
+            # object_pairs_hook 会在读取时保留原始的键值对顺序
+            source_json = json.loads(source_content, object_pairs_hook=OrderedDict)
 
-            # 按源文件顺序更新值为翻译文本
-            for key in source_json.keys():
-                if key in zh_cn_dict:  # 仅更新存在的键
-                    source_json[key] = zh_cn_dict[key]
+        # 3. 遍历源文件的键，以确保替换顺序与源文件一致
+        for key, original_value in source_json.items():
+            # 仅当该键存在于翻译字典中时才进行替换
+            if key in zh_cn_dict:
+                translated_value = zh_cn_dict[key]
 
-            json.dump(source_json, f, ensure_ascii=False, indent=4, separators=(",", ":"))
-        except (IOError, FileNotFoundError):
-            print(f"{source_path}路径不存在，文件按首字母排序！")
+                # 4. 为防止意外替换，我们构建精确的查找和替换模式
+                # 使用 json.dumps 可以确保值被正确地转义为JSON字符串格式
+                original_value_str = json.dumps(original_value, ensure_ascii=False)
+                translated_value_str = json.dumps(translated_value, ensure_ascii=False)
+
+                # 5. 使用正则表达式查找 "key": "value" 结构
+                # re.escape 用于转义key和value中的特殊字符，以防它们被当作正则表达式元字符
+                # \s* 用于匹配冒号两边可能存在的任意数量的空格或换行
+                key_pattern = re.escape(json.dumps(key, ensure_ascii=False))
+                value_pattern = re.escape(original_value_str)
+                
+                # 创建一个正则表达式，捕获键和冒号部分，以便在替换时保留它
+                # 这使得替换操作更安全，只替换与键精确关联的值
+                pattern = re.compile(f"({key_pattern}\\s*:\\s*){value_pattern}")
+                
+                # 替换时，\1 代表第一个捕获组（即 "key": ），后面跟上新的值
+                replacement = f"\\1{translated_value_str}"
+                
+                # 执行替换，只替换第一个匹配项，以提高效率和安全性
+                source_content, num_replacements = pattern.subn(replacement, source_content, count=1)
+
+        # 6. 将修改后的完整内容写入新文件
+        with open(file_path, "w", encoding="UTF-8") as f:
+            f.write(source_content)
+
+    except (IOError, FileNotFoundError):
+        print(f"{source_path} 路径不存在，文件按首字母排序！")
+        # Fallback: 如果源文件不存在，则按原有的方式生成一个新文件
+        with open(file_path, "w", encoding="UTF-8") as f:
             json.dump(zh_cn_dict, f, ensure_ascii=False, indent=4, separators=(",", ":"), sort_keys=True)
 
 
