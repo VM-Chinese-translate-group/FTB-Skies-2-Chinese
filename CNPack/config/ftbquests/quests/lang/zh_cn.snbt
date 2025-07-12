@@ -319,7 +319,7 @@
 	quest.032BAE6F419CA6C8.quest_desc: [
 		"&a传送带&r是&6工业先锋&r的基础物品传输方式。"
 		""
-		"你可以将你的传送带升级为抽取传送带和卸货传送带，以此链接机器和存储方块，还可以选择用它搭建产线。"
+		"你可以使用传送带提取升级和传送带输入升级让传送带连接机器和容器，建立你的自动化产线。"
 		""
 		"虽然别的模组的物流管道比这个要好，但传送带还能运输怪物。"
 	]
@@ -5901,7 +5901,7 @@
 	quest.3A4111B0851B336E.quest_desc: [
 		"致力于耕作的一次性新手奖励！"
 		""
-		"&n&4警告！&r通过勾选完成标记来完成此任务将让你的团队踏上耕作之道，并锁定其他2条路径的奖励。"
+		"&n&4警告！&r勾选此勾选框完成任务后，让你的队伍踏上耕作之道，并锁定另外两条路径的奖励。"
 	]
 	quest.3A4111B0851B336E.title: "&f垂钓效率"
 	quest.3A43CCB33A024711.quest_desc: [
@@ -6109,11 +6109,11 @@
 	quest.3BD6FEDB8CFAC914.quest_desc: ["精炼&a乙醛&r与&a杂酚油&r即可制造出&a酚醛树脂&r，一种用于制作塑料的材料。"]
 	quest.3BD6FEDB8CFAC914.title: "&f酚醛树脂"
 	quest.3BF066E5C333F217.quest_desc: [
-		"开始在这个空旷的世界，你需要获取一些资源来扩展！"
+		"Starting off in this empty world, you'll need to get yourself some resources to expand!"
 		""
-		"那么你该怎么做？砍倒那棵树。你还可以按住&a`&r来激活&b连锁破坏&r ，这本质上是连锁挖掘！这让你可以一次性破坏整棵树，代价是消耗额外的饥饿值。"
+		"那么你该怎么做？直接撸树！你还可以按住&a`&r来激活&b连锁破坏&r！这让你可以一次性破坏整棵树，代价是消耗额外的饱食度。"
 		""
-		"幸好奶奶给你送了一份礼物来帮助你生存！"
+		"幸好奶奶给你寄来了一些好东西，帮你渡过难关！"
 	]
 	quest.3BF066E5C333F217.quest_subtitle: "原木在上"
 	quest.3BF066E5C333F217.title: "&f欢迎游玩&6我的世界"
@@ -12525,7 +12525,7 @@
 	reward_table.31242894075EA0C8.title: "神化&d宝石&r奖励包"
 	reward_table.312C2CF060EA3DF8.title: "&bFargo的地牢战利品奖励包"
 	reward_table.32AF1F440497F6AA.title: "随机工具箱"
-	reward_table.3550A9699B7F59BE.title: "&aTier 1 Addon Bundle"
+	reward_table.3550A9699B7F59BE.title: "&aTier1插件奖励包"
 	reward_table.37050078793DE537.title: "&aAE2物品奖励箱&r"
 	reward_table.38EFA17393EAF99E.title: "为你感到骄傲"
 	reward_table.3C56BFBFAEFD4069.title: "&a安山时代奖励包"
@@ -12548,12 +12548,12 @@
 	reward_table.60949FC8E19D94EA.title: "通用机械战利品"
 	reward_table.60B726C71BEFD2E9.title: "&aAE2 1k存储物品奖励包"
 	reward_table.61D338F0B6CBFAD3.title: "&b随机种子奖励包"
-	reward_table.61FD9A6CC07465C1.title: "&aFurnace Upgrade Bag"
+	reward_table.61FD9A6CC07465C1.title: "&a熔炉升级包"
 	reward_table.62DE108E05F99DE0.title: "&bAE2总线奖励包"
 	reward_table.6354668D8894CB11.title: "神化&9有瑕&r宝石奖励包"
 	reward_table.63F90206E51708AB.title: "&6黄铜时代奖励包"
 	reward_table.671222A6AAB25EE9.title: "&a基础农业奖励包"
-	reward_table.67712B94B59B8C0B.title: "&aStorage Upgrade Bag"
+	reward_table.67712B94B59B8C0B.title: "&a存储升级包"
 	reward_table.67FFE8A964083E77.title: "&b工业先锋Tier2插件奖励包"
 	reward_table.687E9C40DF18ED70.title: "神化&5完美&r宝石奖励包"
 	reward_table.6AD278380BF9C4F4.title: "&a通用机械奖励包&r"
@@ -12563,7 +12563,7 @@
 	reward_table.73015E34EE350EF9.title: "可选符文"
 	reward_table.74D2721A88E9AAA0.title: "&b精华奖励包&r"
 	reward_table.786A0D3E6BEDA2C3.title: "&a路由器升级奖励包"
-	reward_table.78C9ADA190F7FFB5.title: "&bMekanism Upgrade Bundle"
+	reward_table.78C9ADA190F7FFB5.title: "&b通用机械升级包"
 	reward_table.790A03E65CE8EBE4.title: "&6奶奶的味道&r"
 	reward_table.7CCF18DC0540A34E.title: "&b通量奖励包"
 	reward_table.7D4F4BCAA73DD644.title: "&6冒险家奖励包&r"
