@@ -3170,7 +3170,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(irons_spellbooks:copper_spell_book)item(irons_spellbooks:iron_spell_book))"
-									"minecraft:custom_name": "\"Starter Spellbooks\""
+									"minecraft:custom_name": "\"初学者法术书\""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
