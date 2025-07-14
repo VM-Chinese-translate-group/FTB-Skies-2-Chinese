@@ -545,11 +545,10 @@ def update_chapter_files_with_components(component_data, input_chapters_dir, out
                 if isinstance(data, dict):
                     if 'components' in data:
                         if 'name' in modifications:
-                            data['components']['minecraft:custom_name'] = json.dumps(modifications['name'],
-                                                                                     ensure_ascii=False)
+                            data['components']['"minecraft:custom_name"'] = modifications['name'].replace('"', '\\"')
                             file_was_modified[0] = True
                         if 'lore' in modifications:
-                            data['components']['minecraft:lore'] = [json.dumps(line, ensure_ascii=False) for line in
+                            data['components']['"minecraft:lore"'] = [line.replace('"', '\\"') for line in
                                                                     modifications['lore']]
                             file_was_modified[0] = True
                         updated_ids.add(item_id)
