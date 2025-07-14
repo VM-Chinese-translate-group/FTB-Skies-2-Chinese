@@ -352,7 +352,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "19E91DBE0CFE27C4"
 							permission_level: 3
 							silent: true
@@ -637,7 +637,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "14843FD6711938E5"
 							permission_level: 3
 							silent: true
@@ -743,7 +743,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "2F44E969AA8B8E85"
 							permission_level: 3
 							silent: true
@@ -876,7 +876,8 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(ae2:import_bus)item(ae2:export_bus))"
-									"minecraft:custom_name": "“输入/输出总线”"
+									"minecraft:custom_name": "\"I/O Bus\""
+									minecraft:custom_name: ""“输入/输出总线”""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -938,7 +939,8 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(ae2:1k_crafting_storage)item(ae2:4k_crafting_storage)item(ae2:16k_crafting_storage)item(ae2:64k_crafting_storage)item(ae2:256k_crafting_storage))"
-									"minecraft:custom_name": "“任意合成存储器”"
+									"minecraft:custom_name": "\"Any Crafting Storage\""
+									minecraft:custom_name: ""“任意合成存储器”""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1066,7 +1068,8 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(merequester:requester)item(merequester:requester_terminal))"
-									"minecraft:custom_name": "“ME请求器”"
+									"minecraft:custom_name": "\"ME Requester\""
+									minecraft:custom_name: ""“ME请求器”""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1934,7 +1937,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "7CCD5BED73290162"
 							permission_level: 3
 							silent: true
@@ -2082,7 +2085,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "40EC853C1B90B96A"
 							permission_level: 3
 							silent: true
@@ -2145,7 +2148,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "5B79A1B3455EA509"
 							permission_level: 3
 							silent: true
@@ -2393,7 +2396,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "5A3CD57D3B56A62A"
 							permission_level: 3
 							silent: true

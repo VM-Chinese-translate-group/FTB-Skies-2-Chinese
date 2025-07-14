@@ -308,7 +308,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "53F6811C6E07258F"
 							permission_level: 3
 							silent: true
@@ -401,7 +401,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "49E992440A9513DF"
 							permission_level: 3
 							silent: true
@@ -467,7 +467,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "14C3175DE5191EE4"
 							permission_level: 3
 							silent: true
@@ -797,7 +797,8 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(enderio:pulsating_alloy_grinding_ball)item(enderio:energetic_alloy_grinding_ball)item(enderio:vibrant_alloy_grinding_ball)item(enderio:conductive_alloy_grinding_ball)item(enderio:redstone_alloy_grinding_ball)item(enderio:soularium_grinding_ball)item(enderio:copper_alloy_grinding_ball)item(enderio:dark_steel_grinding_ball)item(enderio:end_steel_grinding_ball))"
-									"minecraft:custom_name": "\"Grinding Balls\""
+									"minecraft:custom_name": "\"Grinding Balls\""
+									minecraft:custom_name: ""\"Grinding Balls\"""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1267,7 +1268,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "408472A6920ABA8C"
 							permission_level: 3
 							silent: true

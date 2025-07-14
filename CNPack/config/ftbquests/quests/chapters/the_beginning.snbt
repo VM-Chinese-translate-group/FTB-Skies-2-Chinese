@@ -173,7 +173,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New loot bag available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New loot bag available in the Shop!"
+							feedback_message: "New loot bag available in the Shop!"
 							id: "7CF737CCB81345A8"
 							permission_level: 3
 							silent: true
@@ -219,7 +219,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:magic 1"
-							feedback_message: "Magic Skills Levelled Up"
+							feedback_message: "Magic Skills Levelled Up"
 							icon: {
 								components: {
 									"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -376,7 +376,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "4E1ECF3EB642CE35"
 							permission_level: 3
 							silent: true
@@ -633,7 +633,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:athletics 1"
-							feedback_message: "Athletic Skills Levelled Up"
+							feedback_message: "Athletic Skills Levelled Up"
 							icon: {
 								components: {
 									"ftbquests:icon": "minecraft:textures/mob_effect/speed.png"
@@ -728,7 +728,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:melee 1"
-							feedback_message: "Melee Skills Levelled Up"
+							feedback_message: "Melee Skills Levelled Up"
 							icon: {
 								components: {
 									"ftbquests:icon": "minecraft:textures/mob_effect/strength.png"
@@ -743,7 +743,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:ranged 1"
-							feedback_message: "Ranged Skills Levelled Up"
+							feedback_message: "Ranged Skills Levelled Up"
 							icon: {
 								components: {
 									"ftbquests:icon": "relics:textures/gui/description/icons/arrow_quiver/arrow.png"
@@ -1272,13 +1272,14 @@
 							id: "3249174C092EA7E4"
 							item: {
 								components: {
-									"minecraft:custom_name": "“要来点水晶吗？”"
+									"minecraft:custom_name": "\"Wood You Like Some Crystals?\""
 									"minecraft:enchantments": {
 										levels: {
 											"minecraft:fortune": 3
 											"minecraft:unbreaking": 8
 										}
 									}
+									minecraft:custom_name: ""“要来点水晶吗？”""
 								}
 								count: 1
 								id: "minecraft:wooden_pickaxe"
@@ -1644,7 +1645,8 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(ftbstuff:acacia_water_strainer)item(ftbstuff:bamboo_water_strainer)item(ftbstuff:birch_water_strainer)item(ftbstuff:cherry_water_strainer)item(ftbstuff:crimson_water_strainer)item(ftbstuff:dark_oak_water_strainer)item(ftbstuff:jungle_water_strainer)item(ftbstuff:mangrove_water_strainer)item(ftbstuff:oak_water_strainer)item(ftbstuff:spruce_water_strainer)item(ftbstuff:warped_water_strainer))"
-									"minecraft:custom_name": "\"滤水器\""
+									"minecraft:custom_name": "\"Strainers\""
+									minecraft:custom_name: ""\"滤水器\"""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1871,7 +1873,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:mining 1"
-							feedback_message: "Mining Skills Levelled Up"
+							feedback_message: "Mining Skills Levelled Up"
 							icon: {
 								components: {
 									"ftbquests:icon": "minecraft:textures/mob_effect/haste.png"
@@ -1999,7 +2001,8 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(minecraft:wooden_shovel)item(minecraft:wooden_pickaxe)item(minecraft:wooden_axe)item(minecraft:wooden_hoe)item(minecraft:wooden_sword))"
-									"minecraft:custom_name": "“木质工具”"
+									"minecraft:custom_name": "\"Wooden Tools\""
+									minecraft:custom_name: ""“木质工具”""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -2039,7 +2042,7 @@
 							id: "528915BE14CD3CE5"
 							item: {
 								components: {
-									"minecraft:custom_name": "{\"color\":\"#FF3710\",\"italic\":false,\"text\":\"敌对生物点燃之棒\"}"
+									"minecraft:custom_name": "{\"color\":\"#FF3710\",\"italic\":false,\"text\":\"Rod of Hostile Ignition\"}"
 									"minecraft:enchantments": {
 										levels: {
 											"minecraft:fire_aspect": 2
@@ -2047,6 +2050,7 @@
 										}
 									}
 									"minecraft:repair_cost": 3
+									minecraft:custom_name: ""{\"color\":\"#FF3710\",\"italic\":false,\"text\":\"敌对生物点燃之棒\"}""
 								}
 								count: 1
 								id: "enderio:infinity_rod"
@@ -2440,7 +2444,7 @@
 							id: "14F255237337150A"
 							item: {
 								components: {
-									"minecraft:custom_name": "“天空法杖”"
+									"minecraft:custom_name": "\"Rod of the Skies\""
 									"minecraft:enchantments": {
 										levels: {
 											"minecraft:luck_of_the_sea": 3
@@ -2449,6 +2453,7 @@
 											"minecraft:unbreaking": 3
 										}
 									}
+									minecraft:custom_name: ""“天空法杖”""
 								}
 								count: 1
 								id: "mysticalagriculture:imperium_fishing_rod"

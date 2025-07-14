@@ -236,7 +236,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "36B9B306ECD2E25D"
 							permission_level: 3
 							silent: true
@@ -332,7 +332,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "5CC9AF39BE57FB99"
 							permission_level: 3
 							silent: true
@@ -469,7 +469,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "7EDE63677BA325E0"
 							permission_level: 3
 							silent: true
@@ -1047,7 +1047,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New loot bag available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New loot bag available in the Shop!"
+							feedback_message: "New loot bag available in the Shop!"
 							id: "64EA7B7292944DA1"
 							permission_level: 3
 							silent: true
@@ -1605,7 +1605,8 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(functionalstorage:dripping_upgrade)item(functionalstorage:water_generator_upgrade)item(functionalstorage:obsidian_upgrade))"
-									"minecraft:custom_name": "“抽屉生成器”"
+									"minecraft:custom_name": "\"Drawer Generators\""
+									minecraft:custom_name: ""“抽屉生成器”""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"

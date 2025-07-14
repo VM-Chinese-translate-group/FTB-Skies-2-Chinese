@@ -13,7 +13,7 @@
 				{
 					click: "https://moddedmc.org/en/project/oritech/docs/interaction/particle_accelerator"
 					height: 1.0d
-					hover: ["Particle Accelerator Wiki"]
+					hover: ["Particle Accelerator Wiki"]
 					image: "jei:textures/jei/atlas/gui/icons/info.png"
 					rotation: 0.0d
 					width: 1.0d
@@ -57,7 +57,7 @@
 				{
 					click: "https://moddedmc.org/en/project/oritech/docs"
 					height: 5.0d
-					hover: ["Oritech Wiki"]
+					hover: ["Oritech Wiki"]
 					image: "ftb:textures/quests/oritechlogo.png"
 					rotation: 0.0d
 					width: 9.580152671755725d
@@ -76,7 +76,7 @@
 				{
 					click: "https://moddedmc.wiki/en/project/oritech/docs/processing/reactor/introduction"
 					height: 1.0d
-					hover: ["Nuclear Reactor Wiki"]
+					hover: ["Nuclear Reactor Wiki"]
 					image: "jei:textures/jei/atlas/gui/icons/info.png"
 					rotation: 0.0d
 					width: 1.0d
@@ -1623,7 +1623,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "6C6DE2E89E7475A7"
 							permission_level: 3
 							silent: true
@@ -2968,7 +2968,8 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(oritech:reactor_rod)item(oritech:reactor_double_rod)item(oritech:reactor_quad_rod))"
-									"minecraft:custom_name": "\"Reactor Rods\""
+									"minecraft:custom_name": "\"Reactor Rods\""
+									minecraft:custom_name: ""\"Reactor Rods\"""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -2996,7 +2997,8 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(oritech:uranium_pellet)item(oritech:plutonium_pellet))"
-									"minecraft:custom_name": "\"Reactor Fuel\""
+									"minecraft:custom_name": "\"Reactor Fuel\""
+									minecraft:custom_name: ""\"Reactor Fuel\"""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"

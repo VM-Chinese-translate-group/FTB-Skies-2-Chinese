@@ -801,8 +801,10 @@
 							id: "13C422EFD88E61FE"
 							item: {
 								components: {
-									"minecraft:custom_name": "{\"extra\":[{\"color\":\"gold\",\"italic\":false,\"text\":\"无限仙人掌下界之星\"}],\"text\":\"\"}"
-									"minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"用于激活FTB金字塔\"}],\"text\":\"\"}"]
+									"minecraft:custom_name": "{\"extra\":[{\"color\":\"gold\",\"italic\":false,\"text\":\"Nether Star of Infinite Cacti\"}],\"text\":\"\"}"
+									"minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"Used to Activate The FTB Pyramid\"}],\"text\":\"\"}"]
+									minecraft:custom_name: ""{\"extra\":[{\"color\":\"gold\",\"italic\":false,\"text\":\"无限仙人掌下界之星\"}],\"text\":\"\"}""
+									minecraft:lore: [""{\"extra\":[{\"italic\":false,\"text\":\"用于激活FTB金字塔\"}],\"text\":\"\"}""]
 								}
 								count: 1
 								id: "minecraft:nether_star"

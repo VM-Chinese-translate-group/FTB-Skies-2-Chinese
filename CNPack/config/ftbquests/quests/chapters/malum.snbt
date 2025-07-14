@@ -470,7 +470,8 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(malum:runewood_sapling)item(malum:azure_runewood_sapling))"
-									"minecraft:custom_name": "“符文树苗”"
+									"minecraft:custom_name": "\"Runewood Saplings\""
+									minecraft:custom_name: ""“符文树苗”""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -591,7 +592,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "3F05EDAAAEEA77A8"
 							permission_level: 3
 							silent: true
@@ -1242,7 +1243,8 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "item_tag(malum:soulhunters_treasure)item_tag(ars_elemental:soulbound_extra)or(item_tag(curios:belt)item_tag(curios:necklace)item_tag(curios:ring))or(mod(malum)mod(gaze))"
-									"minecraft:custom_name": "“灵灾饰品”"
+									"minecraft:custom_name": "\"Malum trinkets\""
+									minecraft:custom_name: ""“灵灾饰品”""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1408,7 +1410,8 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "item_tag(malum:mob_drops)mod(malum)"
-									"minecraft:custom_name": "“灵魂掉落物”"
+									"minecraft:custom_name": "\"Soulful Drops\""
+									minecraft:custom_name: ""“灵魂掉落物”""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1535,7 +1538,8 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(malum:soul_stained_steel_sword)item(malum:soul_stained_steel_pickaxe)item(malum:soul_stained_steel_axe)item(malum:soul_stained_steel_shovel)item(malum:soul_stained_steel_hoe))"
-									"minecraft:custom_name": "“魂染工具”"
+									"minecraft:custom_name": "\"Soulstained Tools\""
+									minecraft:custom_name: ""“魂染工具”""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"

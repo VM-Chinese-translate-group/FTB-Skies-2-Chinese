@@ -20,7 +20,7 @@
 				}
 				{
 					height: 7.0d
-					hover: ["Steam Blast Furnace"]
+					hover: ["Steam Blast Furnace"]
 					image: "ftb:textures/quests/modern_industrialization/steamblastfurnace.png"
 					rotation: 0.0d
 					width: 5.3637621023513145d
@@ -54,7 +54,7 @@
 				}
 				{
 					height: 10.0d
-					hover: ["The Steel Quarry"]
+					hover: ["The Steel Quarry"]
 					image: "ftb:textures/quests/modern_industrialization/steelquarry.png"
 					rotation: 0.0d
 					width: 7.187096774193549d
@@ -63,7 +63,7 @@
 				}
 				{
 					height: 4.0d
-					hover: ["Steam Boiler"]
+					hover: ["Steam Boiler"]
 					image: "ftb:textures/quests/modern_industrialization/largesteamboiler.png"
 					rotation: 0.0d
 					width: 3.211267605633803d
@@ -72,7 +72,7 @@
 				}
 				{
 					height: 5.0d
-					hover: ["Custom Multiblock Tanks!"]
+					hover: ["Custom Multiblock Tanks!"]
 					image: "ftb:textures/quests/modern_industrialization/largesteeltank.png"
 					rotation: 0.0d
 					width: 4.872773536895674d
@@ -855,7 +855,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "3A200EBFC57B1BE0"
 							permission_level: 3
 							silent: true
@@ -2454,7 +2454,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "1FA7CF2E31A9720B"
 							permission_level: 3
 							silent: true
@@ -2478,7 +2478,8 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(modern_industrialization:electronic_circuit)item(mekanism:ultimate_control_circuit))"
-									"minecraft:custom_name": "“终极控制电路或电子电路”"
+									"minecraft:custom_name": "\"Ultimate or Electronic Circuit\""
+									minecraft:custom_name: ""“终极控制电路或电子电路”""
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -4070,7 +4071,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "New items available in the Shop!"
 							id: "0DC2C1FECDB5726C"
 							permission_level: 3
 							silent: true
