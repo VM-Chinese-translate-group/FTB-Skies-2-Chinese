@@ -876,8 +876,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(ae2:import_bus)item(ae2:export_bus))"
-									"minecraft:custom_name": "\"I/O Bus\""
-									minecraft:custom_name: ""“输入/输出总线”""
+									"minecraft:custom_name": "“输入/输出总线”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -939,8 +938,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(ae2:1k_crafting_storage)item(ae2:4k_crafting_storage)item(ae2:16k_crafting_storage)item(ae2:64k_crafting_storage)item(ae2:256k_crafting_storage))"
-									"minecraft:custom_name": "\"Any Crafting Storage\""
-									minecraft:custom_name: ""“任意合成存储器”""
+									"minecraft:custom_name": "“任意合成存储器”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
@@ -1068,8 +1066,7 @@
 							item: {
 								components: {
 									"ftbfiltersystem:filter": "or(item(merequester:requester)item(merequester:requester_terminal))"
-									"minecraft:custom_name": "\"ME Requester\""
-									minecraft:custom_name: ""“ME请求器”""
+									"minecraft:custom_name": "“ME请求器”"
 								}
 								count: 1
 								id: "ftbfiltersystem:smart_filter"
