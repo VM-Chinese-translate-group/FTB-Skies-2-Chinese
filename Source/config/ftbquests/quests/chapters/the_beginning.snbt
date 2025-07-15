@@ -1727,7 +1727,6 @@
 			tasks: [{
 				id: "0ADB52BBD5F6E8FC"
 				item: { count: 1, id: "jags:grass_seed" }
-				optional_task: true
 				type: "item"
 			}]
 			x: -1.5d
@@ -1862,7 +1861,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -2202,15 +2201,6 @@
 					type: "item"
 				}
 				{
-					icon: {
-						components: {
-							"bucketlib:fluid": {
-								amount: 1000
-								id: "minecraft:lava"
-							}
-						}
-						id: "ceramicbucket:ceramic_bucket"
-					}
 					id: "7BA0B2F953A998BF"
 					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:lava_bucket)component(fuzzy:{\"bucketlib:fluid\":{amount:1000,id:\"minecraft:lava\"}}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
@@ -2267,6 +2257,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["285560808B9ED997"]
 			id: "74B2332D6BBC0721"
 			rewards: [{
 				count: 3
@@ -2630,6 +2621,66 @@
 			}]
 			x: -5.107142857142868d
 			y: -2.9107142857142847d
+		}
+		{
+			dependencies: ["11078789ACAB91CE"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/chicken.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "598652FE2E4839AC"
+			min_width: 300
+			rewards: [{
+				count: 2
+				id: "1CD8E0159234312F"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02A3DBF0B7B58E20"
+				item: { components: { "gateways:gateway": "gateways:emerald_grove" }, count: 1, id: "gateways:gate_pearl" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["253FA29ADE459464"]
+			id: "091C04F5A6163717"
+			optional: true
+			rewards: [
+				{
+					id: "32C041225092A8FF"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2608F9C62F434279"
+					item: {
+						count: 1
+						id: "farmersdelight:mixed_salad"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.8d
+			tasks: [{
+				id: "40CEC82FEB233968"
+				item: { count: 1, id: "ftbstuff:auto_processing_block" }
+				type: "item"
+			}]
+			x: 0.4d
+			y: 1.6d
 		}
 	]
 }

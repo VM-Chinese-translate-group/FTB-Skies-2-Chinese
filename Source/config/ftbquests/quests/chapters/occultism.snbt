@@ -462,6 +462,7 @@
 				id: "occultism:datura_seeds"
 			}
 			id: "10F792474C01A594"
+			min_width: 350
 			rewards: [
 				{
 					id: "58D5D69295E70FA8"

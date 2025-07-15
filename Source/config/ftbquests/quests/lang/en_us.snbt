@@ -48,14 +48,34 @@
 	chapter_group.3E3B6463983F18FB.title: "Tech Mods"
 	chapter_group.4E06BB3DD10B837B.title: "Main Questline"
 	file.0000000000000001.title: "&6FTB Skies 2"
+	quest.000F1E507ACDFAAE.quest_desc: [
+		"Drifting in the dark expanse of the End's void, the &9Acropolis&r is a complex building of pale seastone. This and the creatures that live here show it must have once been connected to an ocean. There's even a &cshrimp&r that packs quite a punch!"
+		""
+		"Near the top of this megastructure lays an &banchor&r holding some sort of magical connection to a mighty &bchampion of storms&r. Interact with it to challenge them in combat."
+		""
+		"&7&oIf defeated, an &eEye of Storms&r &7&ocan be used on the pedestal that appears to summon the champion again for a rematch."
+	]
+	quest.000F1E507ACDFAAE.title: "Behold the &9Acropolis"
 	quest.0017F48E23512C75.quest_desc: ["[\"You can now upgrade your existing \", {\"text\": \"Pentacles\", \"color\": \"#55FFFF\"}, \" with \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" and \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" chalks, and \", {\"text\": \"Spirit Attuned Crystals\", \"color\": \"#FF55FF\"}, \".\"]"]
 	quest.0017F48E23512C75.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" & \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" Chalks\"]"
+	quest.001F0C36B4AB9F5F.quest_desc: [
+		"If you think the Simple Coal Generator is good, you should try out the &aSimple Fuel Generator&r."
+		""
+		"Instead of burning coal, this uses the special &6Fuels&r from the mod, with the highest tier producing 4k RF/t."
+	]
+	quest.001F0C36B4AB9F5F.title: "&a\"Simple\" &fFuel Generator"
 	quest.0056517EDF3DAB08.quest_desc: [
 		"The &aSpeedometer&r shows how fast a certain part of your system is moving."
 		""
 		"The &aStressometer&r shows the total &bStress Capacity&r being used within your entire system."
 	]
 	quest.0056517EDF3DAB08.title: "&fMeasuring &bRPM &f\\&\\ &bStress"
+	quest.0058025036FE7E45.quest_desc: [
+		"The Celestigem Anvil can repair items using energy. Yes, just typical Forge Energy(FE)!"
+		""
+		"&7Tip: Upgrade from the previous tier using a template."
+	]
+	quest.0058025036FE7E45.title: "&dCelestigem Anvil"
 	quest.006014B382FCF6E6.quest_desc: [
 		"While the previous quest contains a lot of information, here is an example of how you could use this!"
 		""
@@ -68,6 +88,12 @@
 		"You can still set the settings to change how fast you want the coal to be exported by click the &a+&r button beside the Variable Card."
 	]
 	quest.006014B382FCF6E6.title: "&fFilter Examples"
+	quest.0065DA4214B7B303.quest_desc: [
+		"The &dEnd Castle&r is a large imposing building filled with shulker sentries that is found while exploring the End."
+		""
+		"Deep inside, the animated remains of an &6ancient reptilian tyrant&r can be encountered and fought."
+	]
+	quest.0065DA4214B7B303.title: "Approach the &dEnd Castle"
 	quest.007707B4F0DAD692.quest_desc: ["The &aKnowledge Repository Upgrade&r allows you to read all &eTempad Documentation&r from your &6Tempad&r."]
 	quest.007707B4F0DAD692.title: "&aKnowledge Repository Upgrade"
 	quest.007CD364F96C2912.quest_desc: ["Want to run faster? &aFree Runners&r are like powered boots that help you move a little better."]
@@ -147,7 +173,7 @@
 		"Changes for each tier can be checked in the &bWorld Tiers&r menu (\"CTRL + T\" by default)."
 	]
 	quest.011DBD2652E49B97.title: "&fApothic World Tiers"
-	quest.012AEBFDB1F1512E.title: "&fFerricore Chestplate"
+	quest.012AEBFDB1F1512E.title: "&fFerricore Armor"
 	quest.012DA013C192D30E.quest_subtitle: "Fluid Pipes"
 	quest.013375F170CE6A2F.quest_desc: [
 		"[\"Using \", {\"text\": \"Lime\", \"color\": \"#E2FC97\"}, \" and \", {\"text\": \"Light Gray\", \"color\": \"#D6D6D6\"}, \" chalks, you can now attract a \", {\"text\": \"Djinni\", \"color\": \"#FF5555\"}, \", allowing possession and summoning of stronger creatures.\"]"
@@ -201,6 +227,7 @@
 		"&bAction Effect&r: None"
 	]
 	quest.01B764188498B1FD.title: "&3Bronze Banding"
+	quest.01C52B543E30F365.quest_subtitle: "Fish this up!"
 	quest.01C52B543E30F365.title: "&fLapis Lazuli Essence"
 	quest.01D2CEAF59872C33.quest_desc: [
 		"The &aGem Cutting Table&r is used to upgrade &bGems&r."
@@ -240,15 +267,15 @@
 	quest.021C3C2A48069C7F.quest_subtitle: "Pour Molten Emerald over a Catalyst"
 	quest.021C3C2A48069C7F.title: "&fBudding Emerald Geore"
 	quest.0224277CBEC1375E.quest_desc: [
-		"AE2 has its own power unit called &bAE&r. By default, it does not accept power directly from other sources."
+		"&eAE2&r has its own power unit called &bAE&r. By default, it does not accept power directly from other sources."
 		""
-		"However, you can use an &bEnergy Acceptor&r to convert FE power into AE power for your network, which can be distributed out using &aGlass Cables&r."
+		"However, you can use an &aEnergy Acceptor&r to convert FE power into AE power for your network, which can be distributed out using &2Glass Cables&r."
 		""
-		"If you start running out of power as you add more machines to your network, it might help to create an energy buffer using &bEnergy Cells&r, which store AE for future use."
+		"If you start running out of power as you add more machines to your network, it might help to create an energy buffer using &bEnergy Cells&r, which store power for future use."
 		"{@pagebreak}"
 		"You can also generate free power using the &dCrystal Resonance Generator&r. "
 		""
-		"This generator extracts free energy from the vibrations of the crystals within it to generate around 20 AE/t. Due to excess vibrations, you can only have one of these per AE network."
+		"This generator extracts free energy from the vibrations of the crystals within it to generate around 20 AE/t. These vibrations limit your system to only have one of these per AE network."
 	]
 	quest.0224277CBEC1375E.title: "&fPowering Your &bNetwork"
 	quest.0224D5E40F659D36.quest_desc: [
@@ -295,17 +322,17 @@
 	]
 	quest.02F52598328E84A0.title: "&bElite Control Circuit"
 	quest.02F6AC9E53029E0A.quest_desc: [
-		"In another Inscriber, you can combine a &bPrinted Circuit&r with &aPrinted Silicon&r and a piece of &cRedstone&r to craft a complete &2Processor&r."
+		"In another &2Inscriber&r, you can combine a &bPrinted Circuit&r with &aPrinted Silicon&r and a piece of &cRedstone&r to craft a complete &dProcessor&r."
 		""
-		"These Processors are the main crafting components needed for most of the electronics you'll use, like &aTerminals&r, &eDisk Drives&r, and lots more."
+		"These &dProcessors&r are the main crafting components needed for most of the electronics you'll use, like &aTerminals&r, &eDisk Drives&r, and lots more."
 		""
 		"It's worth automating the production of these as soon as possible!"
 		"{@pagebreak}"
-		"As a tip for automation, you can use your 5th Inscriber to complete Processors in the chain."
+		"As a tip for automation, you can use a 5th Inscriber to complete Processors in the chain."
 		""
-		"You can set filters to pipe &cRedstone&r into back, &bPrinted Silicon&r into the top, and any &aPrinted Processor&r into the bottom. The finished Processors can then be piped out of the front."
+		"You can set filters to pipe &cRedstone&r into the back, &bPrinted Silicon&r into the top, and any &aPrinted Processor&r into the bottom. The finished Processors can then be piped out of the front."
 		""
-		"A simple way to achieve this is using locked &aFunctional Drawers&r."
+		"[\"A simple way to achieve this is using locked \", { \"text\": \"Functional Drawers\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A707D443EC2DE33\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Functional Drawers Quest\"}}, \".\"]"
 	]
 	quest.02F6AC9E53029E0A.title: "&aCompleting Processors"
 	quest.030DA26E4A03A96B.title: "&cTertium &fArmor"
@@ -347,8 +374,6 @@
 		"It is also used to craft the &dForce of Nature&r."
 	]
 	quest.0350C018A0E693ED.title: "&aAir Talisman"
-	quest.0354E57671DAFDF3.quest_desc: ["Upgraded from &7Ferricore&r using a &6Blazegold Template&r"]
-	quest.0354E57671DAFDF3.title: "&cBlazegold Boots"
 	quest.03569C25419223DC.quest_desc: [
 		"Just like &eSophisticated Backpacks&r, you can upgrade your storage to the different metal tiers."
 		""
@@ -403,6 +428,7 @@
 	]
 	quest.03837E8A75948DE5.quest_subtitle: "\"Not this S*** Again\" - AlfredGG"
 	quest.03837E8A75948DE5.title: "&fThe Old Ways"
+	quest.0385764FC547BCC9.quest_desc: ["&7&oRandomly gain Mekanism installers up to a tier."]
 	quest.0385764FC547BCC9.title: "&aMekanism Installer Bag"
 	quest.038C26F86776F520.quest_desc: [
 		"&bSky villages&r have resources strewn over their islands that are very rare early on, such as &2emeralds&r, &damethyst&r, and some more unique modded materials like &5soulstone&r."
@@ -501,9 +527,9 @@
 	]
 	quest.04AB4805983D4AE1.title: "&3Staff"
 	quest.04ABB8DD43099429.quest_desc: [
-		"The &aMagmator&r burns &cLava&r to generate power over time."
+		"The &aMagmator&r burns &cLava&r and other hot fluids to generate power over time."
 		""
-		"This is a great generator if you have a good way of generating lava!"
+		"This is a great early generator if you have a good way of generating lava, but gets even better once you can automate &emore advanced fuels&r!"
 	]
 	quest.04ABB8DD43099429.title: "&fMagmators"
 	quest.04D4223CC7A21FA4.quest_desc: [
@@ -571,7 +597,7 @@
 	]
 	quest.0533C0C07AE600FD.quest_subtitle: "The minimum requirements for fission"
 	quest.0533C0C07AE600FD.title: "&dSmall Modded Reactor"
-	quest.05604F58B8575ACA.quest_subtitle: "Do Not Open in Your Base"
+	quest.05604F58B8575ACA.quest_subtitle: "Don't Open This in Your Base"
 	quest.05604F58B8575ACA.title: "&eChance Cube"
 	quest.0566053CCA772771.quest_desc: [
 		"&eTempad&r is a teleportation mod that uses special temporary portals called timedoors to travel between locations."
@@ -603,8 +629,6 @@
 	]
 	quest.056C62BBBCEB1173.quest_subtitle: "Not all rads are rad"
 	quest.056C62BBBCEB1173.title: "&fRadiation and You"
-	quest.058C71F15E4AB3E2.quest_desc: ["Upgraded from &7Ferricore&r using a &6Blazegold Template&r"]
-	quest.058C71F15E4AB3E2.title: "&cBlazegold Helmet"
 	quest.059B456424293FF3.quest_desc: ["With the power of &dEther Gas&r, you can craft the final tier of machine frames!"]
 	quest.059B456424293FF3.title: "&6Supreme Machine Frame"
 	quest.05A13861001BBF3C.quest_desc: [
@@ -648,6 +672,9 @@
 		"You can also stack multiple genes on the same &aSyringe&r."
 	]
 	quest.05D58770A092F5E6.title: "&3Plasmid Injector"
+	quest.05D774264FE9042A.quest_desc: ["Generates at a base rate of 2048 FE/tick, 2x the previous tier!"]
+	quest.05D774264FE9042A.quest_subtitle: "Makes energy from sunlight, T4"
+	quest.05D774264FE9042A.title: "&5Eclipse Alloy Solar Panel"
 	quest.0603F40C8DB12868.quest_desc: [
 		"&eModern Industrialization&r (&eMI&r) has a variety of tiered &aSteam Turbines&r which can be used to convert &7Steam&r into &cPower&r."
 		""
@@ -672,11 +699,17 @@
 	]
 	quest.06765AD5169D189D.title: "&aBase Defense&f!"
 	quest.06918197435AF24E.quest_desc: [
-		"You can upgrade your Providers to the AdvancedAE version using &aAdvanced Pattern Provider Upgrades&r."
+		"You can upgrade your &aProviders&r to the &eAdvancedAE&r version using &3Advanced Pattern Provider Upgrades&r."
 		""
-		"The advanced versions allow for you to upgrade the Provider to store more pattern slots by providing &bPattern Provider Capacity Upgrades&r."
+		"This advanced version allows you to upgrade how many pattern slots are available by using &dPattern Provider Capacity Upgrades&r."
 	]
-	quest.06918197435AF24E.title: "&fAdvanced Pattern Provider Upgrade"
+	quest.06918197435AF24E.title: "&3Advanced Pattern Provider Upgrade"
+	quest.069C6BE96C1A7D73.quest_desc: [
+		"The Eclipse Alloy Anvil can repair items using energy just like the previous tier. If fueled with Time Fluid however, it gets an absurd boost to its repair rate and energy efficiency!"
+		""
+		"&7Tip: Upgrade from the previous tier using a template."
+	]
+	quest.069C6BE96C1A7D73.title: "&5Eclipse Alloy Anvil"
 	quest.069E5F18F03C1A78.quest_desc: [
 		"&3Toolboxes&r allow you to store 8 types of items, which do not get dropped when mined."
 		""
@@ -695,11 +728,11 @@
 	quest.06EB93CCDBA3C0D4.quest_desc: ["&aPink Slime&r allows you to create &dAdvanced Machine Frames&r which are a key part of &6Industrial Foregoing&r's progression."]
 	quest.06EB93CCDBA3C0D4.title: "&fPink Slime"
 	quest.06EC32E6140E68C1.quest_desc: [
-		"Using the power of &6Entro Crystals&r, you can create the fastest autocrafting setups using &dQuantum Autocrafting&r."
+		"Using the power of &2Entro Crystals&r, you can create the fastest autocrafting setups using &dQuantum Autocrafting&r."
 		""
-		"The base crafting block is the &dQuantum Crafting Unit&r, which is needed for both the &6Quantum Autocrafter&r and the &6Quantum Computer Multiblock&r."
+		"The base crafting block is the &dQuantum Crafting Unit&r, which is needed for both the &6Quantum Crafter&r and the &6Quantum Computer Multiblock&r."
 	]
-	quest.06EC32E6140E68C1.title: "&dQuantum &6Autocrafting"
+	quest.06EC32E6140E68C1.title: "&dQuantum Autocrafting"
 	quest.06F4EAE4810BC03A.quest_desc: [
 		"The &7Architect Talisman&r increases the player's block reach by 59 blocks, up to 64 blocks total."
 		""
@@ -856,7 +889,7 @@
 	quest.082F7B17CA57C1F7.quest_subtitle: "Use Ruby on a Catalyst"
 	quest.082F7B17CA57C1F7.title: "&fBudding Ruby Geore"
 	quest.083990CE5CA6E313.quest_desc: [
-		"The &aCell Workbench&r allows you to configure what types of items you want to allow onto an AE Storage Cell."
+		"The &aCell Workbench&r allows you to configure what types of items you want to allow onto an &2AE Storage Cell&r."
 		""
 		"The Cells can also be upgraded with &aEqual Distribution&r, which will ensure that all of the configured slots are allocated the same amount of space and a single item type won't overtake all available bytes of storage. "
 		"{@pagebreak}"
@@ -918,6 +951,7 @@
 		"Also of note is &eHoglins&r of the crimson forests dropping the appropriately named &cHogskin&r, which is required for some improved spellbook crafts."
 	]
 	quest.08766B8721B4E541.title: "&fA Magical Trip To The &cNether"
+	quest.087ACAF5A47079FB.quest_subtitle: "Fish this up!"
 	quest.087ACAF5A47079FB.title: "&fCoal Essence"
 	quest.087D1FBAE8A425C0.quest_desc: [
 		"Using the power of Teleportation Cores, we can create our own &dPortals&r to quickly travel around our bases, even across dimensions!"
@@ -936,7 +970,7 @@
 	quest.08904FDA836C003B.quest_desc: ["The diamond mesh is a great multipurpose mesh. I recommend using it to get diamonds to make more!"]
 	quest.08904FDA836C003B.quest_subtitle: "How to Propose to a Geologist"
 	quest.08904FDA836C003B.title: "&fMechanical Diamond Mesh"
-	quest.08A966CE036BC9D1.quest_desc: ["[\"You can also use an Ancient Debris \", { \"text\": \"GeOre Golem\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"47C817DA92CE31EA\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to GeOre Golems Quest\"]}}, \" to convert a regular block of Netherite into a Budding Ancient Debris GeOre.\" ]"]
+	quest.08A966CE036BC9D1.quest_desc: ["[\"You can also use an \", { \"text\": \"Ancient Debris GeOre Golem\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"47C817DA92CE31EA\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to GeOre Golems Quest\"]}}, \" to convert a regular block of Netherite into a Budding Ancient Debris GeOre.\"]"]
 	quest.08A966CE036BC9D1.title: "&fBudding Ancient Debris Geore"
 	quest.08BEE8CFBAF691DA.quest_desc: [
 		"&aBasalt&r can be obtained the usual, if complicated, vanilla way."
@@ -993,6 +1027,15 @@
 		"Energy pipes cannot connect directly to an &dAtomic Forge&r; it needs to be wirelessly powered by an &aEnderic Laser&r."
 	]
 	quest.091B8E814908DEDF.title: "&dAtomic Forge"
+	quest.091C04F5A6163717.quest_desc: [
+		"The &eTempered Jar&r has a lot of versatility, but needing to manually start the mixing process every time gets old fast. This is where the &aJar Automater&r helps!"
+		""
+		"By simply placing one above a tempered jar, any valid recipe inside said jar will automatically start!"
+		""
+		"&7&oPractically overpowered when it comes to lava generation..."
+	]
+	quest.091C04F5A6163717.quest_subtitle: "Mixing all the hits"
+	quest.091C04F5A6163717.title: "&aJar Automater"
 	quest.093330A5C170F843.quest_desc: [
 		"The &bForce of Environment&r provides all effects of the talisman used to craft it:"
 		""
@@ -1019,7 +1062,19 @@
 		"You can also sneak-use the tool in the air to change modes. There are several modes that you can configure for drawers, like hiding the count amount or disabling the render of items on a Drawer to save FPS."
 	]
 	quest.093FB6A70B7243F9.title: "&fConfiguring Drawers"
-	quest.0951775EB1F7B272.title: "&bAE2 16k Disk Bundle"
+	quest.0951775EB1F7B272.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 16k ME DISK Drive"
+		"&7&o- 16k ME Item Cell"
+		"&7&o- 16k Ender Item Cell"
+		"&7&o- 16k ME Fluid Cell"
+		"&7&o- 16k ME FE Cell"
+		"&7&o- 16k ME Checmical Cell"
+		"&7&o- 16k ME Source Cell"
+		"&7&o- 16k ME Crafting Storage"
+	]
+	quest.0951775EB1F7B272.title: "&bAE2 16k Disks"
 	quest.095A405D88EF0250.quest_desc: [
 		"The &cRedstone Remote&r can be used to wirelessly control redstone devices like levers and buttons."
 		""
@@ -1062,9 +1117,9 @@
 	quest.098F5497E0ABED3E.quest_desc: [
 		"Using two sticks to make fire is a well-established technique."
 		""
-		"Simply use the &aFirestick&r on a block and they form fire on top!"
+		"Simply use the &aFirestick&r on the top of a block and they form fire!"
 		""
-		"If any wood-based blocks burn, they will become &aAsh&r that can be dug up with a shovel."
+		"If any wood-based blocks burn away, they can become &aAsh&r that can be dug up with a shovel."
 		""
 		"This ash can be used for a few things, such as crafting into torches or being compressed into a crude &aCharcoal&r."
 		""
@@ -1087,15 +1142,21 @@
 	quest.09B3528CF3C615C6.quest_desc: [
 		"Obtaining &bCertus Quartz&r, the key ingredient for this digital storage system, can be done one of two ways:"
 		""
-		"Purifying budding Black Quartz using some DireGoo, or trading for some with a villager who has a &dCharger as their job site&r."
+		"[\"Purifying \", {\"text\": \"Budding Black Quartz\", \"color\": \"gray\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"7EFFA8FF1CAD80E3\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Black Quartz GeOre Quest\"}}, \" using some \", {\"text\": \"Advanced DireGoo\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"417573A657CAED05\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to DireGoo Quest\"}}, \".\"]"
 		""
-		"The presses for making digital circuits can then either be made through essence crafting, or by further trades with this &d'Fluix Researcher.'&r Multiple researchers may be required, however..."
+		"Trading for some with a villager who has a charger job site known as a &dFluix Researcher."
 		""
-		"If you're patient, the wandering traders that sometimes appears might sell a &bMysterious Cube&r that drops one of each press when broken or if you're really PRESSED for presses you can summon the trader from the shop."
+		"&7&oInformation on presses on the next page ->"
+		"{@pagebreak}"
+		"[\"The presses for making digital circuits can either be made through \", {\"text\": \"Essence Crafting\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"085B40A50A0D4244\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Mystical Agriculture Questline\"}}, \", or by further trading with the \", {\"text\": \"Fluix Researcher\", \"color\": \"light_purple\"}, \".\"]"
+		""
+		"Multiple &dResearchers&r may be required, however, if you're patient, the wandering traders that sometimes appears might sell a &2Mysterious Cube that drops one of each press when broken."
+		""
+		"[\"If you're really \", {\"text\": \"pressed\", \"bold\": true, \"italic\": true}, \" for presses you can always \", {\"text\": \"Summon the Trader from the Shop\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"717C94045F0ADA01\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Trader Shop Node\"}}, \".\"]"
 	]
 	quest.09B3528CF3C615C6.title: "&fA &bCertain Quartz"
 	quest.09B6F6758B0EEEC5.quest_desc: [
-		"With a bit of luck and maybe more than a bit of &eMutandis&r, you'll be able to get your hands on some of the &aunique saplings&r for this mod. While &aRowan&r is the key interest to make a &eWhiff of Magic&r, the other two tree types have their own uses as well."
+		"With a bit of luck and maybe more than a bit of &eMutandis&r, you'll be able to get your hands on some of the &aunique saplings&r for this mod using &7oak, birch, or acacia&r. While &aRowan&r is the key interest to make a &eWhiff of Magic&r, the other two tree types have their own uses as well."
 		""
 		"Be sure to grow these into proper trees for farming once you obtain a sapling, as it could take even more mutandis to get them again."
 	]
@@ -1132,6 +1193,8 @@
 		"Once you have everything you need for the ritual, place the items in and smack the Forge with a &aGavel&r to activate the ritual."
 	]
 	quest.0A000B0C8F2127A2.title: "&fPerforming &dRituals"
+	quest.0A01A04E60AEBAF3.quest_desc: ["&eJDT&r templates can be used like regular &aSmithing Templates&r to upgrade your gear to the next tier."]
+	quest.0A01A04E60AEBAF3.title: "&cTemplate: Blazegold"
 	quest.0A06A270AD88C9D8.quest_desc: [
 		"Fishing rods have always been a niche mundane tool, but now there’s finally a sophisticated use!"
 		"An &dEnchanter’s Fishing Rod&r can be used similarly to its mundane version, but when the line hooks onto a creature &banother use&r will cast the spell on the hooked creature."
@@ -1283,6 +1346,15 @@
 	quest.0AF5AB8F0D7DB4B7.quest_desc: ["&aKivi&r can easily be obtained by dripping lava onto a &eVoid Crystal Catalyst&r, and then generated using an &eExtractor&r."]
 	quest.0AF5AB8F0D7DB4B7.quest_subtitle: "Hammer Kivi!"
 	quest.0AF5AB8F0D7DB4B7.title: "&fCrushed Kivi"
+	quest.0AFF8E28FC51B123.quest_desc: [
+		"Need to swap two simple blocks with as little hassle as possible?"
+		"Try the Swapper Wand! Any two simple blocks can be swapped by using it on the two blocks you want to swap."
+		""
+		"&7Hint: if it's for processing or has an interface, it's probably too complex to swap."
+		""
+		"&7&oWarranty void if used to swap between dimensions."
+	]
+	quest.0AFF8E28FC51B123.title: "&cSwapper Wand"
 	quest.0B1BDF71E95BC9D3.quest_desc: [
 		"The &aCasting Altar&r is used to perform different &bRituals&r."
 		""
@@ -1375,6 +1447,7 @@
 		"&aAssembly IO Units&r control the input and output of the recipes. They must be able to reach an inventory, such as a chest, and the assembly platform. They can reach anything with a 3x3 area. "
 	]
 	quest.0B9781072E9E935C.title: "&fAssembly Line"
+	quest.0BA2B0E5F57A6FC8.quest_desc: ["&7&oRandomly gain some genetic data."]
 	quest.0BA2B0E5F57A6FC8.title: "&bGenetic Pool Bag"
 	quest.0BA61DBFC36F585E.quest_desc: ["The &6Marid Crusher&r functions like all other &bCrushers&r, but provides 6x the output."]
 	quest.0BA61DBFC36F585E.title: "&6Marid Crusher"
@@ -1449,7 +1522,7 @@
 	quest.0C0E16939C8567C6.quest_desc: ["You can also repair armor and tools with the power of an &dAfrit&r."]
 	quest.0C0E16939C8567C6.title: "&dOther Repairing Rituals"
 	quest.0C24D8CD961D86B2.quest_desc: [
-		"[\"With \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" and \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" chalks, you can now upgrade your \", {\"text\": \"Ophynx' Calling\", \"color\": \"#FF5555\"}, \" to \", {\"text\": \"Abras' Open Conjure\", \"color\": \"#FF55FF\"}, \".\"]"
+		"[\"With \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" and \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" chalks, you can now upgrade your \", {\"text\": \"Ophynx' Calling\", \"color\": \"#FF5555\"}, \" to \", {\"text\": \"Kandar's Opened Conjure\", \"color\": \"#FF55FF\"}, \".\"]"
 		""
 		"This &bRitual&r is only used to summon an &dUnbound Afrit&r. Killing it will grant you its essence, allowing you to make &cRed Chalk&r."
 		""
@@ -1458,7 +1531,7 @@
 		"This item is also needed to complete the &5FTB Pyramid&r."
 	]
 	quest.0C24D8CD961D86B2.quest_subtitle: "Summoning Pentacle: Tier 3"
-	quest.0C24D8CD961D86B2.title: "&cAbras' Open Conjure"
+	quest.0C24D8CD961D86B2.title: "&cKandar's Opened Conjure"
 	quest.0C259021A652EFCE.quest_desc: [
 		"While there are plenty of other ways to speed up crop growth from other mods, Mystical Agriculture comes with two ways to speed things up, the first one being Growth Accelerators."
 		""
@@ -1538,6 +1611,7 @@
 		"Note: &dSpirit Attuned Crystals&r are great to use in your Enchanting setups!"
 	]
 	quest.0D0892AD0DB44795.title: "&fSpirit Attuned Gem"
+	quest.0D140D95D0537559.quest_desc: ["&7&oRandomly gain a Mystical Aggriculture Essence."]
 	quest.0D140D95D0537559.title: "&bEssence Goodie Bag"
 	quest.0D35D0D33922A201.quest_desc: [
 		"Gateways can be crafted by following the recipe for the gate you wish to challenge found in JEI. Once you craft the gate, right click it on a block to activate it and prepare for battle! Wave after wave of enemy will spew forth for you to dispatch."
@@ -1578,7 +1652,17 @@
 		"Items for the recipe will be placed directly on the &6Awakening Pedestals&r. For the &6Essence Vessels&r, you'll need to place in one of each of the &bElemental Essences&r."
 	]
 	quest.0D79C07499BF6E95.title: "&fAwakening Altar"
-	quest.0D7A828100775AE9.title: "&dCreate Advanced Bundle"
+	quest.0D7A828100775AE9.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 2x Factory Gauge"
+		"&7&o- Rotation Speed Controller"
+		"&7&o- Mechanical Arm"
+		"&7&o- Deployer"
+		"&7&o- Wand of Symmetry"
+		"&7&o- Extendo Grip"
+	]
+	quest.0D7A828100775AE9.title: "&dAdvanced Create Components"
 	quest.0D7F5F7A7E41FDF3.quest_desc: [
 		"The &aConfiguration Card&r allows you to save side settings from one machine and apply them to another! This is great for setting up multiple &aInfusers&r."
 		""
@@ -1618,15 +1702,15 @@
 	]
 	quest.0DF5D2B35FDEE536.title: "&eXnet &fManagement"
 	quest.0E06BDC6265EB7F7.quest_desc: [
-		"&6Controllers&r are used to increase the amount of channels a network has. These aren't necessary to use in the early game, especially since you have 32 channels to work with by default. Networks without a &6Controller&r are considered &bAd-Hocs&r."
+		"&3Controllers&r are used to increase the amount of channels a network has. These aren't necessary to use in the early game, especially since you have 32 channels to work with by default. Networks without a &3Controller&r are considered &bAd-Hocs&r."
 		""
-		"The Controller is considered the routing hub of your ME network. You cannot have 2 separate ME Controllers in the same network, but you can build a massive multiblock Controller if you need the channels."
+		"The &3Controller&r is considered the routing hub of your ME network. You cannot have 2 separate &3ME Controllers&r in the same network, but you can build a massive multiblock setup if you need the extra channels."
 		"{@pagebreak}"
-		"A single Controller will provide &b128 Channels&r per face with the 4x settings. This makes it where if you add a controller, you will most likely never have to worry about channels."
+		"A single &6Controller&r will provide &b128 Channels&r per face with the pack's settings. This makes it where if you add a controller, you will most likely never have to worry about channels."
 		""
-		"You can find more info and rules for building multiblock controllers in the AE2 Guide."
+		"You can find more info and rules for building multiblock controllers in the &eAE2 Guide&r."
 	]
-	quest.0E06BDC6265EB7F7.title: "&fAdding More &6Channels"
+	quest.0E06BDC6265EB7F7.title: "&fAdding More &3Channels"
 	quest.0E0B4F549B42AF63.quest_desc: [
 		"&aReactor Fuel Rods&r are interior components that need to be supplied with &6Uranium&r or &dPlutonium&r &6Pellets&r from &aReactor Fuel Ports&r to generate heat."
 		""
@@ -1650,17 +1734,19 @@
 	quest.0E0BB49B16E88A66.quest_desc: ["&6Treasure Enchantments&r are special enchants that can only be found in loot, or from trading with villagers. That is, unless you have a &3Deepshelf of Arcane Treasures&r..."]
 	quest.0E0BB49B16E88A66.title: "&6Mending!"
 	quest.0E107AC18FCFDB57.quest_desc: [
-		"Now that we have some &aPrimogel Goo&r, we can use it to see how the Goo mechanic works."
+		"Now that we have some &aPrimogel Goo&r, we can use it to see how this mechanic works."
 		""
-		"Start by placing down the Primogel Goo somewhere in an open space. From here, you can place &aIron Blocks&r on any of the faces of the Goo, then activating it with either Sugar or Rotten Flesh."
+		"Start by placing down the &aPrimogel Goo&r somewhere in an open space, then activate it by giving it either &bSugar&r or &bRotten Flesh&r. You can now place &2Iron Blocks&r on any of its faces to start the conversion."
 		""
 		"{image:ftb:textures/quests/direthings/impure_daisy.png width:200 height:100 align:center}"
 		"{@pagebreak}"
-		"You'll notice the Goo slowly starting to spread over the Iron, taking it completely over. Once the process is complete, you'll be left with &aRaw Ferricore Ore&r."
+		"You'll notice the &bGoo&r slowly starting to spread over, taking it completely over. Once the process is complete, you'll be left with &aRaw Ferricore Ore&r."
+		""
+		"&7&oSome Shaders will not properly display this effect, so you might want to disable them if you want to see the changes."
 		""
 		"Mining this ore will give you &aRaw Ferricore&r, which you can smelt down into &aFerricore Ingots&r."
 		""
-		"Note: Fortune does not work on these ores. You will typically get between 3 or 4 raw ores."
+		"&eNote&r: Fortune does not work on these ores. You will typically get between 3 or 4 raw ores."
 	]
 	quest.0E107AC18FCFDB57.title: "&aGoo Transmutations&r"
 	quest.0E11DBABFFAB0FFA.quest_desc: [
@@ -1671,8 +1757,7 @@
 	quest.0E11DBABFFAB0FFA.title: "&dTungsten Ingot"
 	quest.0E19151FCABF4759.quest_desc: ["Refund your spent skill points in the Athletics tree."]
 	quest.0E19151FCABF4759.title: "&fReset Athletics"
-	quest.0E1F59CE575178C7.quest_desc: ["Upgraded from &6Blazegold&r using a &3Celestigem Template&r"]
-	quest.0E1F59CE575178C7.title: "&dCelestigem Leggings"
+	quest.0E201000BADC9B61.quest_desc: ["&7&oRandomly gain a early or midgame tool."]
 	quest.0E201000BADC9B61.title: "&bRandom Tool Bag"
 	quest.0E610A03BB4007B6.quest_desc: ["Generates power by consuming some Mob Drops."]
 	quest.0E610A03BB4007B6.title: "&fDeath Mycelial Generator"
@@ -1706,6 +1791,9 @@
 		"Before you can connect these to your machines, make sure they can handle the increased volume and pressure, or you can use a &bRegulator&r instead!"
 	]
 	quest.0EC122E853F2083C.title: "&fAdvanced Pressure Tubes"
+	quest.0ED8814CDDB8654F.quest_desc: ["Generates at a base rate of 1024 FE/tick, 2x the previous tier!"]
+	quest.0ED8814CDDB8654F.quest_subtitle: "Makes energy from sunlight, T3"
+	quest.0ED8814CDDB8654F.title: "&dCelestigem Solar Panel"
 	quest.0ED940DF43A934ED.quest_desc: [
 		"The &aVacuum Module&r works exactly like it sounds. This allows the &dRouter&r to collect any item that drops into the world within a certain radius, which can be upgraded by placing &aRange Up Augments&r inside of the module."
 		""
@@ -1810,9 +1898,9 @@
 	quest.0FFC6CBB213B30AD.quest_desc: ["Generates power by consuming Milk and Slimey Items."]
 	quest.0FFC6CBB213B30AD.title: "&fSlimey Mycelial Generator"
 	quest.10143533A2437ABE.quest_desc: [
-		"&aSilicon&r is needed for crafting most of the electronic parts in the mod, including creating completed &aProcessors&r. Silicon is crafted by smelting down &bCertus Dust&r."
+		"&aSilicon&r is needed for crafting most of the electronic parts in &eAE2&r, including creating completed &aProcessors&r."
 		""
-		"You'll want to have a dedicated Inscriber that is automated and pumps out &aPrinted Silicon&r as soon as possible!"
+		"You'll want to have a dedicated &2Inscriber&r that is automated and pumps out &aPrinted Silicon&r as soon as possible!"
 	]
 	quest.10143533A2437ABE.title: "&aSilicon"
 	quest.101457F50427E14E.quest_desc: [
@@ -1934,7 +2022,9 @@
 		""
 		"To get started, you'll need to find &aDemon's Dream Seeds&r or more likely buy them from a &eMarket&r."
 		""
-		"The &6Dictionary of Spirits&r is the ultimate guidebook for the mod. It's also needed for certain recipes, and can be used to create &bholograms&r to help you build out &dRituals&r!"
+		"While the &6Dictionary of Spirits&r is normally the ultimate guidebook for &eOccultism&r, &6Skies 2&r has had several changes to many of its recipes, so some information may not be accurate."
+		""
+		"The &6Dictionary of Spirits&r is, however, needed for certain recipes, and can be used to create &bholograms&r to help you build out &dRituals&r!"
 	]
 	quest.10F792474C01A594.title: "&fWelcome to &eOccultism&f!"
 	quest.1105D1809EB9ADEF.title: "&eInfinitely Compressed Circuit Board"
@@ -2052,7 +2142,14 @@
 	quest.12498DE8D427D40E.quest_desc: ["Nether fortresses spawn heavy amounts of blazes and wither skeletons, providing their key resources as well as a fair amount of loot."]
 	quest.12498DE8D427D40E.title: "&fFind a &cNether Fortress"
 	quest.12506117C5C46682.title: "&bBlack Quartz"
-	quest.125A4B95A5D21B04.title: "&eIF Tier 1 Addon Bundle"
+	quest.125A4B95A5D21B04.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- Addon: Speed Tier 1"
+		"&7&o- Addon: Efficiency Tier 1"
+		"&7&o- Addon: Processing Tier 1"
+	]
+	quest.125A4B95A5D21B04.title: "&eIF Tier 1 Addons"
 	quest.12662BF53A31F0B4.quest_desc: [
 		"Want to keep other players away from your stuff? Make an &aExpulsion Pylon&r!"
 		""
@@ -2091,6 +2188,7 @@
 		"You can also use these to make one of the best mining tools in the early game!"
 	]
 	quest.12B8D538B54497E2.title: "&fForge Ahead"
+	quest.12C1810996C15294.quest_subtitle: "Fish this up!"
 	quest.12C1810996C15294.title: "&fIron Essence"
 	quest.12CB62610FEAADA0.quest_desc: ["Generates power by consuming Dragon's Breath."]
 	quest.12CB62610FEAADA0.title: "&fHalitosis Mycelial Generator"
@@ -2332,11 +2430,10 @@
 		""
 		"This path uses &eCreate&r sifters to potentially automate the production of resources from this essence-rich void."
 		""
-		"To start, drip some water over &7Andesite&r obtained from the &aStrainer&r. This will form deposits of &2Andesite Amalgam&r that can be mined for early &7Andesite Alloy&r."
+		"To start, drip a bucket's worth of water over &7Andesite&r obtained from the &aStrainer&r. This will form deposits of &2Andesite Amalgam&r that can be mined for early &7Andesite Alloy&r."
 	]
 	quest.1553CDD5ED42DF02.quest_subtitle: "Drips of Creativity"
 	quest.1553CDD5ED42DF02.title: "&fPath of Prospecting"
-	quest.15801A9BA5162395.title: "&fFerricore Boots"
 	quest.15956817DCDAD8C3.quest_desc: [
 		"Enchanted is a mod heavily inspired by the old mod Witchery."
 		""
@@ -2416,15 +2513,15 @@
 	]
 	quest.169FF5F7AE73CF51.title: "&aCopper Diving Suit"
 	quest.16B60BCB8240F808.quest_desc: [
-		"Once you've encoded some patterns using the Pattern Encoding Terminal, you can place them  into a &aPattern Provider&r. The Providers will try to complete the craft using whatever block it is attached to."
+		"Once you've encoded some patterns using the &dPattern Encoding Terminal&r, you can place them into a &aPattern Provider&r. The &aProviders&r will try to complete the craft using whatever block it is attached to."
 		""
-		"For doing shaped and shapeless craft recipes that don't require machines, you can place the Provider next to a &dMolecular Assembler&r. These Assemblers are just fancy autocrafters!"
+		"For doing shaped and shapeless craft recipes that don't require machines, you can place the &aProvider&r next to a &3Molecular Assembler&r, which are just fancy autocrafters!"
 		"{@pagebreak}"
-		"For other autocrafting tasks that require some type of processing, you'd place the Provider facing the machine you want to craft in."
+		"For other autocrafting tasks that require some type of processing, you'd place the &aProvider&r facing the machine you want to craft in."
 		""
-		"For example, you can set up autosmelting for recipes by placing a Furnace in front of the Provider, and then encoding the appropriate smelting recipes onto patterns to be placed into the Providers."
-		"{@pagebreak}"
-		"For more information about how to make the Pattern Providers and Assemblers work faster, check out the AE2 Guide!"
+		"For example, you can set up autosmelting for recipes by placing a &2Furnace&r in front of the &aProvider&r, and then encoding the appropriate smelting recipes onto patterns to be placed into the &aProviders&r."
+		""
+		"For more information about how to make the &aPattern Providers&r and &3Assemblers&r work faster, check out the AE2 Guide!"
 	]
 	quest.16B60BCB8240F808.quest_subtitle: "The \"What\" and \"Where\" of Autocrafting"
 	quest.16B60BCB8240F808.title: "&fStoring Patterns"
@@ -2460,11 +2557,11 @@
 	quest.16D89D5036F39756.quest_subtitle: "The beginning of Malum"
 	quest.16D89D5036F39756.title: "&dSoulstone"
 	quest.16E0A9FD1B08D34E.quest_desc: [
-		"&6Concurrent Processors&r are high end processors used to calculate data on a &dquantum&r level."
+		"&3Concurrent Processors&r are high end processors used to calculate data on a &dquantum&r level."
 		""
-		"You'll need Entro Crystals, lots of power, and &dSingularities&r to begin crafting with these."
+		"You'll need &2Entro Crystals&r, lots of power, and &dSingularities&r to begin crafting with these."
 	]
-	quest.16E0A9FD1B08D34E.title: "&fInscriber Concurrent Press"
+	quest.16E0A9FD1B08D34E.title: "&fInscriber &3Concurrent Press"
 	quest.16EAA225AFBF41E6.quest_desc: [
 		"Using &dEclipse Embers&r, you can create the most energy dense fuel!"
 		""
@@ -2489,6 +2586,14 @@
 	quest.170CE041C0312188.title: "&3Stock Ticker"
 	quest.172955F8F798D2D8.quest_desc: ["The &dWican Ward&r stops mobs from spawning in a large area around it."]
 	quest.172955F8F798D2D8.title: "&dWican Ward"
+	quest.1733FCE814C7DE2D.quest_desc: [
+		"&eApplied Flux &fis an &baddon&r that allows your AE Network to store and automatically transfer power (FE) to connected machines."
+		""
+		"The &aFlux Accessor&r serves as your input/output block for managing FE within your system, which is stored within the relevant storage cells."
+		""
+		"Machines connected to a &2Pattern Provider&r can also be powered by inserting an &dInduction Card&r into said &2Pattern Providers&r, automatically powering those machines using FE within your system."
+	]
+	quest.1733FCE814C7DE2D.title: "&eApplied Flux"
 	quest.173411DE23DFB758.quest_desc: [
 		"When powered, the &dPlasmid Infuser&r injects &bDNA Helices&r into &3Plasmids&r, adding DNA points to its total."
 		""
@@ -2503,6 +2608,12 @@
 	quest.17612A3DF8930377.title: "&bReflecting Necklace"
 	quest.176610923FDE130F.quest_desc: ["By using &bDoped Silicon Plates&r over their regular counterparts, you can greatly increase the yield from their various recipes."]
 	quest.176610923FDE130F.title: "&fDoped Silicon Plates"
+	quest.176D9BAC77298ABB.quest_desc: [
+		"By placing these expensive machines against a hot block like magma or Primal Coal, coolant can be pumped in to generate energy."
+		""
+		"While water is easy enough to source, polymorphic fluid is more than twice as good and Time Fluid is ten times better. Consider automating these coolants for large amounts of power!"
+	]
+	quest.176D9BAC77298ABB.title: "&5Thermo Generator"
 	quest.1770A460E1FD7CC8.quest_desc: [
 		"[\"\", {\"text\": \"Particle Accelerators\", \"color\":\"#FF55FF\"}, \" can be built in various ways, depending on their goals. A straight line of \", {\"text\": \"Linear Motors\", \"color\":\"#55FF55\"}, \" can shoot particles at something, but higher speeds are more efficiently reached with a circular design. Very large rings might be needed to reach certain elements. Slow particles require \", {\"text\": \"Guide Rings\", \"color\": \"#55FF55\"}, \" to be close together, so starting in a small ring and then \", {\"text\": \"using redstone\", \"color\":\"#55FFFF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"778A876616D4638E\" } }, \" to move to a larger ring often makes sense.\"]"
 		""
@@ -2636,6 +2747,12 @@
 		"When using a &dGenetically Modified Cell&r instead of a regular &aCell&r, it will reveal a stronger &bDNA Helix&r genetic for that specific mob."
 	]
 	quest.190616DB4087BDE9.title: "&2DNA Extractor"
+	quest.191A3E81D26677F5.quest_desc: [
+		"A redstone-controllable trashcan! This block will void any liquid, item, or energy inside of it when active."
+		""
+		"&7It can also be used as a sneaky high-capacity fluid tank or energy buffer while disabled."
+	]
+	quest.191A3E81D26677F5.title: "&dBlackhole"
 	quest.19512B784164186D.title: "&fLead Chunk"
 	quest.1953C2127633B6D7.quest_desc: [
 		"The &dWireless Universal Terminal&r allows you to make use of the several different types of Wireless Terminals."
@@ -2741,6 +2858,7 @@
 	quest.1A43F480970FEBBB.title: "&5Eclipse Alloy Hoe"
 	quest.1A4F6C1AC9BD2F42.quest_desc: ["You can make &cRedstone Bees&r by breeding &aGlowing Bees&r with &aChocolate Mining Bees&r."]
 	quest.1A4F6C1AC9BD2F42.title: "&cRedstone Bees"
+	quest.1A4FFDB9FCD04537.quest_desc: ["&7&oRandomly gain a useful Mystical Aggriculture seed."]
 	quest.1A4FFDB9FCD04537.title: "&bRandom Seed Bag"
 	quest.1A648F49F72639CC.quest_desc: [
 		"The &dStarlight Charger&r uses the power of the &5Night&r to enchant materials with the &dStar Charged&r enchantment. This enchant grants a huge buff to the stats of the material."
@@ -2852,7 +2970,7 @@
 		""
 		"&aInterfaces&r come in 2 different variants (normal and flat/subpart) which changes where their inventories can be accessed from and what they can provide a network connection to."
 		"{@pagebreak}"
-		"&aIntefaces&r also have a few special functionalities with other AE2 devices:"
+		"&aIntefaces&r also have a few special functionalities with other &eAE2&r devices:"
 		""
 		"Connecting a &bStorage Bus&r to an &aInterface&r will allow the &bStorage Bus'&r entire storage network to connect to the &aInterface&r as if it were placed on one big chest."
 		""
@@ -2919,7 +3037,14 @@
 	]
 	quest.1BAF60BB97FE304B.title: "&fConverting To &bSteam&f!"
 	quest.1BB404B2D4AE8431.title: "Path Rewards Link"
-	quest.1BBD09EC32030FEC.title: "&bIF Tier 2 Addon Bundle"
+	quest.1BBD09EC32030FEC.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- Addon: Speed Tier 2"
+		"&7&o- Addon: Efficiency Tier 2"
+		"&7&o- Addon: Processing Tier 2"
+	]
+	quest.1BBD09EC32030FEC.title: "&bIF Tier 2 Addons"
 	quest.1BC0E8258FBDBF56.quest_desc: [
 		"Using &cIhagan's Enthrallment&r you can summon &ePossessed Animals&r that can be tamed or killed for loot."
 		""
@@ -2986,6 +3111,7 @@
 	]
 	quest.1C3DFCB335276952.quest_subtitle: "The other green power"
 	quest.1C3DFCB335276952.title: "&fSo You Want to Build a &dNuclear Reactor&f"
+	quest.1C4D453BC0276A08.quest_desc: ["&7&oRandomly gain an assortment of foods."]
 	quest.1C4D453BC0276A08.title: "&aGrandma's Treat"
 	quest.1C62ECB8EDF694BB.quest_subtitle: "Hammer Sand!"
 	quest.1C62ECB8EDF694BB.title: "&fDust"
@@ -3015,12 +3141,6 @@
 		"When combined with an active hostile mob farm, a steady supply of Essence can provide resources from all the other mobs that won't spawn passively."
 	]
 	quest.1C9A469C85F3425F.title: "&aMob Duplicator"
-	quest.1CA4AF485A77607F.quest_desc: [
-		"The &aWrench&r is a multipurpose tool for working with &eCreate&r contraptions."
-		""
-		"It can rotate, configure, and dismantle blocks, contraptions, and more!"
-	]
-	quest.1CA4AF485A77607F.title: "&aWrench"
 	quest.1CA7E96F42B75C2F.quest_desc: [
 		"One of the first machines that you can make is the &aPowered Furnace&r!"
 		""
@@ -3041,8 +3161,6 @@
 		"Good luck!"
 	]
 	quest.1CAC300C14A023BB.title: "&fWilden Tribute"
-	quest.1CB4BF0907316518.quest_desc: ["Upgraded from &7Ferricore&r using a &6Blazegold Template&r"]
-	quest.1CB4BF0907316518.title: "&cBlazegold Leggings"
 	quest.1CB65FAEA9125163.quest_desc: [
 		"With the &aEnrichment Chamber&r, we can give it diamonds to make &9Enriched Diamonds&r."
 		""
@@ -3137,7 +3255,15 @@
 	quest.1D572D53A6EE3205.quest_desc: ["Once your &2Quarry&r digs up some &aPlatinum Ore&r, we can macerate it down into &bRaw Platinum Ore&r."]
 	quest.1D572D53A6EE3205.title: "&dRaw Platinum"
 	quest.1D6D9CCF4E0072E1.title: "&fGold Chunk"
-	quest.1D846D3D48C87FC4.title: "&bAE2 Buses Bundle"
+	quest.1D846D3D48C87FC4.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- ME Import Bus"
+		"&7&o- ME Export Bus"
+		"&7&o- ME Interface"
+		"&7&o- ME Storage Bus"
+	]
+	quest.1D846D3D48C87FC4.title: "&bAE2 Buses"
 	quest.1DA78BAB2A6E2C82.quest_desc: [
 		"For modded veterans, &eEnderIO&r held great memories due to its amazing pipes, called &dConduits&r."
 		""
@@ -3160,7 +3286,15 @@
 		"If you haven't already upgraded your &2Large Bronze Boilers&r to the advance versions, now might be the time!"
 	]
 	quest.1DBE1D496463B310.title: "&3MV Steam Turbine"
-	quest.1DC3B817C185BBF4.title: "&bEnderIO Improved Conduit Bundle"
+	quest.1DC3B817C185BBF4.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 16x Enhanced Energy Conduit"
+		"&7&o- 16x Pressurized Fluid Conduit"
+		"&7&o- 16x Pressurized Chemical Conduit"
+		"&7&o- 16x Dense ME Conduit"
+	]
+	quest.1DC3B817C185BBF4.title: "&bImproved EnderIO Conduits"
 	quest.1DC46E0EA2BC83C3.quest_desc: [
 		"Like the &dTome of Scrapping&r, but infused to be even better!"
 		""
@@ -3403,6 +3537,7 @@
 		"Using a &bDiamond&r on the latch of an &aEnder Chest&r will move it to a separate private network for the player that used the diamond. This is especially good for server use."
 	]
 	quest.1FEEBCA6D633B479.title: "&eEnder Storage"
+	quest.1FFA8533BE4252F4.quest_desc: ["There are various budding blocks that take time and sometimes use odd mechanics to grow their crystals. By converting them to Echoing Budding blocks, you can bypass these restrictions using energy and Time Fluid to quickly grow crystals."]
 	quest.2006F24858B4B4BB.quest_desc: [
 		"There's a lot of basic resources in Minecraft, and mods add way more on top of that!"
 		""
@@ -3459,10 +3594,9 @@
 	quest.20B98E676C8CC943.title: "&dAbominable Energy"
 	quest.20C5D6535AC459F7.quest_desc: ["You can feed a crow &aSeed Mixture&r to tame it and use a &dCrow Flute&r to assign it commands."]
 	quest.20C5D6535AC459F7.title: "&dTaming Crows"
-	quest.20C91F9D612B52D1.quest_desc: ["A dried ghast awaits rehydration. A new friend awaits, just add water and wait about 20 minutes!"]
+	quest.20C91F9D612B52D1.quest_desc: ["&7&oA new friend awaits, just add water and wait about 20 minutes!"]
+	quest.20C91F9D612B52D1.quest_subtitle: "A dried ghast awaits rehydration"
 	quest.20C91F9D612B52D1.title: "&eDried Ghast"
-	quest.20CC7D7B65AE1BB4.quest_desc: ["Upgraded from &3Celestigem&r using an &5Eclipse Alloy Template&r"]
-	quest.20CC7D7B65AE1BB4.title: "&5Eclipse Alloy Helmet"
 	quest.20DCC194EED4395B.quest_subtitle: "Outstanding In Field Set"
 	quest.20DCC194EED4395B.title: "&cScarecrow Set"
 	quest.20F74AEE28351167.quest_desc: ["[\"\", {\"text\": \"Sapphires\", \"color\": \"green\"}, \" can be found by manually generating ores or rarely from leveling trades with a villager that's using a \", { \"text\": \"Jewelcrafting Station\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"496903AB7E8A0A92\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Jewelry Chapter\"]} }, \" as their job site.\"]"]
@@ -3625,11 +3759,14 @@
 	quest.22B223553DE205D6.title: "&3Mechanical Mixer"
 	quest.22B83D03C6C3E61E.quest_desc: ["Improves operation speed, but reduces energy efficiency."]
 	quest.22B83D03C6C3E61E.title: "&fMachine Speed Addon"
+	quest.22D894556A026817.quest_subtitle: "Fish this up!"
 	quest.22D894556A026817.title: "&fRedstone Essence"
 	quest.22F07FB51C5DE600.quest_desc: [
 		"&dSilk Touch&r is important for maximizing your ore outputs. By processing them in block form, you will receive more products and byproducts than via standard mining."
 		""
 		"Luckily, &eMI&r provides a solution to this! The miraculous &2Steam Mining Drill&r can mine a 3x3 area AND has a &dSilk Touch mode&r."
+		""
+		"&7For the recipe, try mixing together some invar in a jar..."
 		"{@pagebreak}"
 		"To use it, you'll need to provide it &9Water&r by just having a bucket in your inventory or by right clicking a water source block."
 		""
@@ -3699,6 +3836,8 @@
 	quest.234945ED1315945B.title: "&fProjectiles &bBlueprints"
 	quest.234A09F196E91BDD.quest_desc: ["There are many ways to generate resources, and this chapter aims to help cover most of the mods that help you farm millions of items!"]
 	quest.234A09F196E91BDD.title: "&6Resource Generation"
+	quest.234CF40C8251555D.quest_desc: ["The Ferricore Anvil can repair items using either iron ingots or ferricore ingots, with ferricore repairing twice as much durability!"]
+	quest.234CF40C8251555D.title: "&aFerricore Anvil"
 	quest.23671BD388852F62.quest_desc: ["Generates power by consuming &bBiofuel&r."]
 	quest.23671BD388852F62.title: "&fBiofuel Generator"
 	quest.2369D81BC32A5982.quest_desc: [
@@ -3755,6 +3894,8 @@
 	quest.23B6C73FDF8C322A.quest_subtitle: "The power of &cQuanta"
 	quest.23B6C73FDF8C322A.title: "&3Soul-Touched Deepshelf"
 	quest.23C9C45D06917EA9.title: "&aNature &fUpgrade Orb"
+	quest.23EFC393FBDD46E6.quest_desc: ["&7&oChoose one Flawed Apotheosis gem."]
+	quest.23EFC393FBDD46E6.title: "&aFlawed Apotheosis Gem Bag"
 	quest.23FBC0A6DAD10BE1.title: "&bLilypad of Fertility"
 	quest.23FFD172C3555282.quest_desc: [
 		"When connected to the &bKitchen Multiblock&r, the &aStove&r will provide access to recipes that require the use of a furnace or smoker as long as it has fuel."
@@ -3910,7 +4051,16 @@
 		"Once you've got it up and running, this machine breaks down 1 raw ore into 4 &aOre Shards&r, which can then be sent into the Purification Chamber to be further processed. "
 	]
 	quest.24E7FEB8D24FAB4A.title: "&aChemical Injection Chamber"
-	quest.24ED2EE2C33C6E29.title: "&bMekanism Pipes Bundle"
+	quest.24ED2EE2C33C6E29.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 16x Universal Cable"
+		"&7&o- 16x Mechanical Pipe"
+		"&7&o- 16x Pressurized Tube"
+		"&7&o- 16x Logistical Transporter"
+		"&7&o- 16x Thermodynamic Conductor"
+	]
+	quest.24ED2EE2C33C6E29.title: "&bMekanism Ultimate Pipes"
 	quest.24F17FA24ED466FA.quest_desc: [
 		"[\"The \", {\"text\": \"Basic Fluid Tank\", \"color\": \"#5EFCB6\"}, \" isn't just an easy way to store your fluids, it also acts as a bucket!\"]"
 		""
@@ -3932,13 +4082,13 @@
 		""
 		"Without a tank beside it, these jars will clumsily expel the fluids they create into the world as a fluid capsule."
 	]
-	quest.253FA29ADE459464.title: "&fMelting Rocks"
+	quest.253FA29ADE459464.title: "&fMelting Rocks and More"
 	quest.2568C81FA7914FE2.quest_desc: [
-		"The &6Quantum Entangler&r will effectively multiply all Quantum Storage blocks by 4."
+		"The &6Quantum Entangler&r will effectively multiply all &bQuantum Storage&r by 4."
 		""
-		"You can only use 1 per Quantum Computer multiblock."
+		"You can only use 1 per multiblock structure."
 	]
-	quest.2568C81FA7914FE2.title: "&fQuantum Data Entangler"
+	quest.2568C81FA7914FE2.title: "&6Quantum Data Entangler"
 	quest.257B0B828021A1E3.quest_desc: [
 		"The &bCelestigem Bow&r is a big upgrade as a ranged weapon."
 		""
@@ -3964,7 +4114,7 @@
 		""
 		"This is a good way to improve your Certus and Entro Crystal generation, especially if your Flawless Budding Crystals have degraded."
 	]
-	quest.25A18CFB6B3E038B.title: "&fCrystal Fixer"
+	quest.25A18CFB6B3E038B.title: "&aCrystal Fixer"
 	quest.25B68364744A64CC.quest_desc: ["The &aPestle and Mortar&r is used to turn things into paste, and to create &aSeed Mixture&r used to tame &bCrows&r."]
 	quest.25B68364744A64CC.title: "&fPestle and Mortar"
 	quest.25CDD6087C675F1A.quest_desc: [
@@ -4050,6 +4200,8 @@
 	quest.268CC540E5B605A9.title: "&eAchieving Enlightenment"
 	quest.269085315AD48F88.quest_subtitle: "+100 Max Mana"
 	quest.269085315AD48F88.title: "&bRing of Mana"
+	quest.2690BA6D29410ECB.quest_desc: ["&7&oA truly divine gift."]
+	quest.2690BA6D29410ECB.title: "&6Queen Bee's Treat"
 	quest.26967FC6CE3428BC.quest_desc: [
 		"Along with their knowledge of nature and its care, druids are known for the magic they cast."
 		""
@@ -4120,7 +4272,19 @@
 		"{image:ftb:textures/quests/ars/sorcererset.png width:130 height:125 align:center}"
 	]
 	quest.26D8F6345B6AB232.title: "&bSorceror Set"
-	quest.26E9A55633DF1D07.title: "&eDrawer Bundle"
+	quest.26E9A55633DF1D07.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- Framed Drawer (1x1)"
+		"&7&o- Framed Drawer (1x2)"
+		"&7&o- Framed Drawer (2x2)"
+		"&7&o- Framed Fluid Drawer (1x1)"
+		"&7&o- Framed Fluid Drawer (1x2)"
+		"&7&o- Framed Fluid Drawer (2x2)"
+		"&7&o- Framed Simple Compacting Drawer"
+		"&7&o- Framed Compacting Drawer"
+	]
+	quest.26E9A55633DF1D07.title: "&eStorage Drawers"
 	quest.26EA309139C7C27E.quest_desc: [
 		"&7&oYou want a faster furnace? Mystical Ag. has you covered."
 		""
@@ -4139,6 +4303,7 @@
 	quest.26EDB26B9D3431D8.title: "&dFluid Sieving Machine"
 	quest.26F18323EB6EFCA0.quest_desc: ["&bSnad&r blocks allow you to create farms of Cactus or Sugarcane easily. These can also be given a redstone signal to increase the growth rate of the crop."]
 	quest.26F18323EB6EFCA0.title: "&fSNAD"
+	quest.270A67B9066C195D.quest_desc: ["&7&oChoose one Matter tank filled with 64k Matter of a specific type."]
 	quest.270A67B9066C195D.title: "&bMatter Tanks (64k Matter)"
 	quest.2722C0E2E8993658.quest_desc: [
 		"The centerpiece of a fully-completed enchanting setup. "
@@ -4207,6 +4372,8 @@
 		"&eNote&r: You cannot use an Ultimate Tier Installer on a basic factory. It must follow the progression, so Basic to Advanced, Advanced to Elite, and then Elite to Ultimate."
 	]
 	quest.27C5F8272212B35A.title: "&aCreating &dFactories"
+	quest.27C9C8CEBC1464D1.quest_desc: ["The &6Revitalizer&r can be placed under your existing &aGoos&r to revive them using FE instead of feeding them items every now and then."]
+	quest.27C9C8CEBC1464D1.title: "&6Revitalizer"
 	quest.27D28CC22BB5C665.quest_subtitle: "Used to craft other upgrades"
 	quest.27D28CC22BB5C665.title: "&fUpgrade Base"
 	quest.27E0738B56C6ED8C.quest_desc: ["Binding a &7Foliot&r to the satchel significantly increases its storage capacity, making it a great travel companion."]
@@ -4347,7 +4514,6 @@
 	quest.2992268BD1E5C553.quest_desc: ["&3Empowering&r blocks costs the same as a single crystal, giving you more value per operation."]
 	quest.2992268BD1E5C553.quest_subtitle: "900% Value!"
 	quest.2992268BD1E5C553.title: "&3Empowered Crystal Blocks"
-	quest.2993D08F60B41ABF.title: "&6Max Storage Upgrade"
 	quest.299CD86325D3D74B.quest_desc: [
 		"&aHeat Sinks&r can be placed on a block or machine to help dissipate &cHeat&r faster!"
 		""
@@ -4493,7 +4659,9 @@
 	quest.2AFB466982F0D9CE.quest_desc: [
 		"[\"See its \", {\"text\": \"quest\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6A22BBE9C146E910\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Electric Quarry Quest\"]} }, \" for more details.\"]"
 		""
-		"This is the second tier of quarry from Modern Industrialization. The steam tier doesn't offer much outside of basic Path resources."
+		"This is the second tier of quarry from Modern Industrialization. The steam tier doesn't offer much outside of basic Path resources besides sulfur."
+		""
+		"Not recommended for beginners."
 	]
 	quest.2AFB466982F0D9CE.quest_subtitle: "General purpose ore generation"
 	quest.2AFB466982F0D9CE.title: "&fElectric Quarry"
@@ -4513,8 +4681,6 @@
 	quest.2B21D8D19E0413AC.title: "&fKill The &6Dead King"
 	quest.2B2BB685DE246BCC.quest_desc: ["Generates power by consuming Lava (and optionally redstone)."]
 	quest.2B2BB685DE246BCC.title: "&fMagma Mycelial Generator"
-	quest.2B2C42F215FD0385.quest_desc: ["&dClockwork Bearings&r turn attached contraptions relative to the time of day in minecraft, like a clock."]
-	quest.2B2C42F215FD0385.title: "&dClockwork Bearing"
 	quest.2B4392602E94D3D8.quest_desc: [
 		"Within the Nether you can find &aDungeons&r from the mod &eFargo's Talismans&r."
 		""
@@ -4629,9 +4795,9 @@
 	]
 	quest.2C4584B4B17872BF.quest_subtitle: "Ore generate this, or..."
 	quest.2C4584B4B17872BF.title: "&fAluminum Essence"
-	quest.2C55C6EBABA86BA8.quest_desc: ["This &2Simple Block Breaker&r is bound and determined to use its tool to break the block in front of it. Even if the tool is a stick and the block is obsidian. It'll get there."]
+	quest.2C55C6EBABA86BA8.quest_desc: ["This &aSimple Block Breaker&r is bound and determined to use its tool to break the block in front of it. Even if the tool is a stick and the block is obsidian. It'll get there."]
 	quest.2C55C6EBABA86BA8.quest_subtitle: "There's a block here and I don't like it"
-	quest.2C55C6EBABA86BA8.title: "&fSimple Block Breaker"
+	quest.2C55C6EBABA86BA8.title: "&aSimple Block Breaker"
 	quest.2C7CFA7BB32C25BA.title: "&dEnder &fUpgrade Orb"
 	quest.2C82E0C4537DEF65.quest_desc: [
 		"&aStrainers&r, when placed in water, will passively collect the essence drifting through void waters, letting them form familiar resources both material and organic."
@@ -4646,6 +4812,18 @@
 	]
 	quest.2C9DEB9B0DF58090.quest_subtitle: "Not Edible!"
 	quest.2C9DEB9B0DF58090.title: "&dPink Slime Ingot"
+	quest.2CA2995C290D13F5.quest_desc: [
+		"[\"The \", {\"text\": \"AE2-Replication Bridge\", \"color\": \"green\"}, \" connects your \", {\"text\": \"ME Network\", \"color\": \"aqua\"}, \" with a \", { \"text\": \"Replication Matter Network\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"158D033F7F934345\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Replication Chapter\"}}, \", seamlessly integrating the two systems.\"]"
+		""
+		"To link both systems, the &aAE2-Rep Bridge&r must be connected via cables to both systems. This will allow you to:"
+		""
+		"- View matter quantities using AE2 terminals."
+		"- Request replications using AE2 autocrafting."
+		"- Configure crafting priorities."
+		""
+		"&7&oYou can check GuideME documentation for further setup information."
+	]
+	quest.2CA2995C290D13F5.title: "&dAE2-Replication Bridge"
 	quest.2CA56BBAC9EBE913.title: "&fTome of Legplates"
 	quest.2CA74676EAC1A040.quest_desc: [
 		"&eMFFS&r machines need to be part of a system in order to run. Machines on the same &bFrequency&r will become part of the same system."
@@ -4699,10 +4877,17 @@
 	]
 	quest.2D2EC0BCFF1DA68C.title: "&fBee Stats"
 	quest.2D31E8D06F40EAA9.quest_desc: ["&eDiesel&r can be used as a fuel, or enriched into &6Boosted Diesel&r with the help of some &2Diethyl Ether&r. "]
-	quest.2D31E8D06F40EAA9.title: "&eDiesel"
+	quest.2D31E8D06F40EAA9.title: "&eDiesel, Again"
 	quest.2D4682CC6A524A50.title: "&fSpirited Crystal"
 	quest.2D4CECA1F01E2E3B.title: "&bImperium &fMachine Upgrade"
-	quest.2D5EE42EABBB295F.title: "&eAE2 Processor Bundle"
+	quest.2D5EE42EABBB295F.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 4x Logic Processor"
+		"&7&o- 4x Caculating Processor"
+		"&7&o- 4x Engineering Processor"
+	]
+	quest.2D5EE42EABBB295F.title: "&eAE2 Processors"
 	quest.2D7445BDE865635C.quest_desc: [
 		"The &aCoffee Maker&r is used to make a potion-like drink that provides several buffs when consumed."
 		""
@@ -4887,7 +5072,7 @@
 		""
 		"This is called &6Cognizant Dust&r, and will only drop when they are slain with a Mystical Agriculture weapon enchanted with &dMystical Enlightenment&r."
 		""
-		"[\"To get the \", {\"text\": \"Mystical Enlightenment\", \"color\": \"aqua\"}, \" enchantment, you'll need to \", { \"text\": \"Buy It\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2BD672ED1CC617EA\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"See The Shop\"}}, \" from the \", {\"text\": \"FTB Shop\", \"color\": \"gold\"}, \".\"]"
+		"[\"To get the \", {\"text\": \"Mystical Enlightenment\", \"color\": \"light_purple\"}, \" enchantment, you'll need to \", { \"text\": \"Buy It\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2BD672ED1CC617EA\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"See The Shop\"}}, \" from the \", {\"text\": \"FTB Shop\", \"color\": \"gold\"}, \".\"]"
 	]
 	quest.2EBDE5767588B43C.title: "&6Cognizant Dust&r"
 	quest.2EC52350485D4DC9.quest_desc: [
@@ -4923,9 +5108,9 @@
 	quest.2EE5352D8E5F715F.title: "&fKill 20 &cSpiders"
 	quest.2EEE782146096F9C.quest_desc: ["Probably one of the best mods out there for builders, the &eBuilding Gadgets&r mod adds several new gadgets that are a must have to make building better!"]
 	quest.2EEE782146096F9C.title: "&eBuilding Gadgets"
-	quest.2F057F981B68EB95.quest_desc: ["The &2Simple Fluid Placer&r takes a fluid input and puts it in the world for all to see."]
+	quest.2F057F981B68EB95.quest_desc: ["The &aSimple Fluid Placer&r takes a fluid input and puts it in the world for all to see."]
 	quest.2F057F981B68EB95.quest_subtitle: "Placer? I barely know her :D"
-	quest.2F057F981B68EB95.title: "&fSimple Fluid Placer"
+	quest.2F057F981B68EB95.title: "&aSimple Fluid Placer"
 	quest.2F0C6EA5380AA661.quest_desc: ["With &cAfrit Essence&r, you can create the next tier of Chalk: &cRed Chalk&r."]
 	quest.2F0C6EA5380AA661.quest_subtitle: "Chalk of Control"
 	quest.2F0C6EA5380AA661.title: "&cRed Chalk"
@@ -5027,6 +5212,7 @@
 		"&eNote&r: Different &aDrills&r and tiers will yield different ores, so check the uses to best target the ores you want the most. Make sure your output is large enough to accommodate all the ore types or use multiple output hatches so you don't miss any ores!"
 	]
 	quest.2FEC8EC3EB592A03.title: "&fYour First &dQuarry&f!"
+	quest.2FEF07B495E0331D.quest_desc: ["&7&oRandomly gain items to help with your adventures."]
 	quest.2FEF07B495E0331D.title: "&aAdventurer Bundle"
 	quest.2FFA4CF8C062AD5E.quest_desc: [
 		"&aImport&r and &aExport Buses&r will allow you to pipe items into and out of your system and any other connected inventories."
@@ -5036,6 +5222,7 @@
 		"These devices can be upgraded with &aCards&r to be redstone sensitive, accept NBT specific items or not (Fuzzy), or to increase speed and capacity with &eAcceleration&r and &eCapacity Cards&r."
 	]
 	quest.2FFA4CF8C062AD5E.title: "&fI/O Bus"
+	quest.2FFE7E2CD655C226.quest_desc: ["&7&oRandomly gain an Iron's Jewelry Artisan Scroll."]
 	quest.2FFE7E2CD655C226.title: "&aArtisan Scroll Bag"
 	quest.30053CAD8FABA638.quest_desc: [
 		"These Nests don't require a specific biome to lure in bees."
@@ -5128,7 +5315,8 @@
 	quest.30CE0A1635346670.title: "&6Meka-Gear"
 	quest.30D00AC248214D58.quest_desc: ["The &3Energetic Alloy&r is used in some crafting recipes, but is most commonly used to craft &aDouble Layer Capacitors&r and &dVibrant Alloy&r"]
 	quest.30D00AC248214D58.title: "&3Energetic Alloy"
-	quest.3108A2703AD6FA4F.title: "&bFargo's Mob Loot Bundle"
+	quest.3108A2703AD6FA4F.quest_desc: ["d&7&oChoose any item dropped from mobs in Fargo's Dungeons."]
+	quest.3108A2703AD6FA4F.title: "&bFargo's Mob Loot"
 	quest.3142B7C67CB8EEB3.title: "&aOmega Dragon Egg"
 	quest.3148FCED5BF543B5.quest_desc: [
 		"The &aTool Belt&r is the perfect place to store all of your tools in one place."
@@ -5288,10 +5476,9 @@
 		"{@pagebreak}"
 		"To build one, you'll need &a36 Reactor Blocks&r in your inventory. Right clicking to place it down will automatically build out the 3x4x3 structure if it has room."
 	]
+	quest.323E664C39860E4F.quest_subtitle: "Fish this up!"
 	quest.323E664C39860E4F.title: "&fGold Essence"
-	quest.3246845CBF6BD699.title: "&fFerricore Leggings"
 	quest.324CFD7CEF5C6CD5.title: "&bDiamond Furnace"
-	quest.3251545A2BDA31AD.title: "&fFerricore Helmet"
 	quest.325567B88BAFAD0D.quest_desc: [
 		"Greetings, fellow adventurer, and welcome to the humble &6FTB Shop&r!"
 		""
@@ -5308,13 +5495,13 @@
 	quest.325567B88BAFAD0D.quest_subtitle: "Coins In, Rarities Out"
 	quest.325567B88BAFAD0D.title: "&fWelcome to the &6FTB Shop&f!"
 	quest.325D35004FF683C2.quest_desc: [
-		"The &dQuantum Computer&r is the ultimate autocrafting multiblock, capable of crafting an unlimited amount of crafting tasks at the same time, as long as it has the crafting storage for it."
+		"The &6Quantum Computer&r will be your ultimate autocrafting multiblock, capable of crafting an unlimited amount of crafting tasks at the same time, as long as it has the crafting storage for it."
 		""
-		"The &dQuantum Computer Core&r is the core of the multiblock, and acts as 8 Co-Processors and 256M of storage all on its own."
+		"The &6Quantum Computer Core&r is the core of this multiblock, and acts as &b8 Co-Processors&r and &b256M of storage&r all on its own."
 		""
-		"It can be used for autocrafting by itself, but it can also form a multiblock to extend its processing even more."
+		"It can be used for autocrafting by itself, but using it within the &6Quantum Computer&r multiblock will extend its processing power even further."
 	]
-	quest.325D35004FF683C2.title: "&fThe &dQuantum Computer &fCore"
+	quest.325D35004FF683C2.title: "&fThe &6Quantum Computer &fCore"
 	quest.3272827DE96C5F64.quest_desc: [
 		"The &7Enderman Talisman&r prevents enderman aggression when looking at them."
 		""
@@ -5390,11 +5577,11 @@
 	quest.3329922774973A7D.quest_subtitle: "General purpose ore generation"
 	quest.3329922774973A7D.title: "&fOre Generator, with Lazahs!"
 	quest.3334E05101A7297F.quest_desc: [
-		"The &aReaction Chamber&r is a very fast machine that can produce many of the common AE2 materials at the cost of large amounts of power. "
+		"The &aReaction Chamber&r is a very fast machine that can produce many of the common &eAE2&r materials at the cost of large amounts of power. "
 		""
 		"It's important to make sure you have adequate power buffers as the crafts will not start without enough available power. You can export water or lava into these to process the recipes that require them. "
 		""
-		"This machine is also required for crafting some of the more advanced materials such as &6Sky Steel&r and &6Sky Bronze&r."
+		"This machine is also required for crafting some of the more advanced materials such as &dSky Steel&r and &dSky Bronze&r."
 	]
 	quest.3334E05101A7297F.title: "&fThe &aReaction Chamber"
 	quest.333E8FBE15AE980D.quest_desc: [
@@ -5409,11 +5596,11 @@
 	quest.333E8FBE15AE980D.quest_subtitle: "Whatcha mean they're different?"
 	quest.333E8FBE15AE980D.title: "&fYou say Polonium, I say Plutonium"
 	quest.333F134987890582.quest_desc: [
-		"The &6Crystal Assembler&r is used to craft many of the complex items from &bExtendedAE&r."
+		"The &3Crystal Assembler&r is used to craft many of the complex items from &bExtendedAE&r."
 		""
-		"It can also be used to craft 4 Processors at once!"
+		"It can also be used to craft 4 &2Processors&r at once!"
 	]
-	quest.333F134987890582.title: "&fCrystal Assembler"
+	quest.333F134987890582.title: "&3Crystal Assembler"
 	quest.334A319CC010293A.quest_desc: [
 		"Deep underwater, there is a small structure called the &6NauTec Ruins&r."
 		""
@@ -5496,7 +5683,19 @@
 		"To get started, craft a &aModel Framework&r and right-click it on a mob to create a &2Data Model&r for that specific mob."
 	]
 	quest.33D52BAC49699559.title: "&fWelcome to &6Hostile Neural Networks&f!"
-	quest.33DCE0CBA0FD02FD.title: "&eCreate Starter Bundle"
+	quest.33DCE0CBA0FD02FD.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 8x Andesite Casing"
+		"&7&o- 8x Windmill Sail"
+		"&7&o- 4x Cogwheel"
+		"&7&o- 4x Large Cogwheel"
+		"&7&o- 2x Water Wheel"
+		"&7&o- 2x Large Water Wheel"
+		"&7&o- Depot"
+		"&7&o- Mechanical Belt"
+	]
+	quest.33DCE0CBA0FD02FD.title: "&eCreate Starter Components"
 	quest.33E1A7CFF2B77F13.quest_desc: ["The &dAthame&r is a fast and deadly weapon with increased range."]
 	quest.33E1A7CFF2B77F13.title: "&dAthame"
 	quest.33E4C81B762892B2.quest_desc: [
@@ -5507,8 +5706,6 @@
 		"To get started, you'll need some &aRaw Nickel&r as this is the main crafting mat for the mod."
 	]
 	quest.33E4C81B762892B2.title: "&fWelcome To &eOritech&f!"
-	quest.33E90998B6E11500.quest_desc: ["The &aLarge Water Wheel&r provides half the &bRPM&r of a regular &aWater Wheel&r, but have a much higher &bStress Capacity&r."]
-	quest.33E90998B6E11500.title: "&aLarge Water Wheel"
 	quest.33E96DCB466BC28C.quest_desc: [
 		"The &dLibrarian Talisman&r increases experience gained by 50%."
 		""
@@ -5522,8 +5719,7 @@
 		"Having a sizable handful prepared for crafting is recommended."
 	]
 	quest.3404B0A29BF5A055.quest_desc: ["The &2Simple Fluid Collector&r collects in world fluids, without needing a bucket or such. Great for infinite water sources!"]
-	quest.3404B0A29BF5A055.quest_subtitle: "Why does water Do That, anyway?"
-	quest.3404B0A29BF5A055.title: "&fSimple Fluid Collector"
+	quest.3404B0A29BF5A055.title: "&aSimple Fluid Collector"
 	quest.340542E5E1413650.title: "&fDiamond Chunk"
 	quest.340D7F25B5EB0D33.quest_desc: [
 		"The next tier of Goo is called &dVoidshimmer Goo&r, and allows you to convert &bDiamond Blocks&r into &bCelestigems&r."
@@ -5542,7 +5738,14 @@
 		"If you put these on two connected &3Ender Chests&r you can effectively teleport &bAir Pressure&r!"
 	]
 	quest.34169D76520A5D85.title: "&fCharging Module"
-	quest.341C84EC38589562.title: "&dRS2 256k Storage Bundle"
+	quest.341C84EC38589562.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 256k Item Disk"
+		"&7&o- 256k Fluid Disk"
+		"&7&o- 2x 128k Checmical Disk"
+	]
+	quest.341C84EC38589562.title: "&dRS2 256k Storage Disks"
 	quest.3424F0E39EB5DFC6.quest_desc: ["While you have &2Ethanol&r from your &3Distilleries&r and &aSugar Solution&r, perhaps you could also make more using your excess &eSulfuric Acid&r and &3Ethylene&r."]
 	quest.3424F0E39EB5DFC6.title: "&2Ethanol"
 	quest.3429ADCC43607897.quest_desc: [
@@ -5562,9 +5765,9 @@
 	quest.3435641A78B90D97.quest_subtitle: "&oBreaking (and placing) Blocks"
 	quest.3435641A78B90D97.title: "&fAffecting the Area"
 	quest.343ACE0C81548119.quest_desc: [
-		"The &aCutting Machine&r can make some plates more efficiently, but is also used for cutting blocks into plates for materials that would otherwise lack direct plate recipes. It will also give you 6 planks per log when cutting wood."
+		"The &aCutting Machine&r can make some items more efficiently or automatically. It will also give you 6 planks per log when cutting wood."
 		""
-		"It's important to note that all opertaions with the cutting saw take a small amount of &bLubricant&r, so automating it is advised. "
+		"It's important to note that all operations with the cutting saw take a small amount of &bLubricant&r, so automating it is advised. "
 	]
 	quest.343ACE0C81548119.title: "&aBronze Cutting Machine"
 	quest.344A14365BC03575.quest_subtitle: "Transfers Items"
@@ -5593,6 +5796,8 @@
 	quest.3490E1E29396D066.title: "&aTier 1 &fSeeds"
 	quest.349143B50076A759.quest_desc: ["Each &6Tier 4 Dimensional Storage Stablizer&r adds 4096000 items, and 512 item types, up to four &aStablizers&r."]
 	quest.349143B50076A759.title: "&6Tier 4 Dimensional Storage Stabilizer"
+	quest.349187B37F1ACE99.quest_desc: ["&7&oChoose one Apotheosis gem."]
+	quest.349187B37F1ACE99.title: "&bApotheosis Gem Bag"
 	quest.34A49E11025231DA.quest_subtitle: "+15% Cast Time Reduction"
 	quest.34A49E11025231DA.title: "&fRing of Expendiency"
 	quest.34AB2B41BE99B9F9.quest_desc: [
@@ -5737,11 +5942,11 @@
 	]
 	quest.3557FBCEFEF444CC.title: "&dPrecision Mechanism"
 	quest.355C3ACB16CC2DE9.quest_desc: [
-		"The inside of the &6Quantum Computer&r multiblock can be customized using a mix of different blocks."
+		"&6Quantum Computer Accelerators&r add &b8 Co-Processors&r each to the multiblock."
 		""
-		"The &6Quantum Computer Accelerators&r add 8 Co-Processors each to the multiblock. These are nice to have many of inside of the Quantum Computer."
+		"These are nice to have many of inside of the multiblock structure."
 	]
-	quest.355C3ACB16CC2DE9.title: "&fQuantum &dAcceleration"
+	quest.355C3ACB16CC2DE9.title: "&6Quantum &dAcceleration"
 	quest.357591103765D4EF.quest_desc: [
 		"The &cMachine Operator&r transfers items specified in the &aDimensional Storage Actuator's&r interface to its managed machine and brings back the crafting results."
 		""
@@ -5772,8 +5977,6 @@
 		"Using any mode like Items or Fluids, this will configure pipes to push or pull."
 	]
 	quest.35B5935902738DCC.title: "&bConfigurator"
-	quest.35C3D3804B3E3B9B.quest_desc: ["Upgraded from &6Blazegold&r using a &3Celestigem Template&r"]
-	quest.35C3D3804B3E3B9B.title: "&dCelestigem Boots"
 	quest.35CCB0359596DE32.quest_desc: ["Refund your spent skill points in the Melee tree."]
 	quest.35CCB0359596DE32.title: "&fReset Melee"
 	quest.35DAD5FF7B007310.quest_desc: [
@@ -5875,6 +6078,7 @@
 	quest.361957009F62D810.quest_subtitle: "Oops"
 	quest.361957009F62D810.title: "&aRemoving Gases from Machines"
 	quest.361D61EE15801A6E.title: "&dHV Diesel Generator"
+	quest.362E2443BBAEDB95.quest_desc: ["&7&oRandomly gain a powerful Relic."]
 	quest.362E2443BBAEDB95.title: "&bRelic Bag"
 	quest.366F506F69C65F28.quest_subtitle: "Transfers Items"
 	quest.366F506F69C65F28.title: "&fItem Conduit"
@@ -5972,6 +6176,8 @@
 		"&eApplied Energistics&r (&eAE2&r) is a highly customizable &bdigital storage mod&r that completely changes the way you experience modded MC. Gone are the days of chest walls!"
 		""
 		"To get started with &eAE2&r, you'll want to first construct a &aCharger&r. This machine accepts power to charge items, which you'll need for the progression of the mod."
+		""
+		"&o&7Yes, the reward is for decoration. This is not a bug."
 	]
 	quest.37104662F0BDDE66.title: "&fGetting Started With &eApplied Energistics&f!"
 	quest.371D1FEFBD49CCFF.quest_desc: [
@@ -6077,6 +6283,8 @@
 	]
 	quest.381B55C984A8BD33.quest_subtitle: "&oBut how big exactly?"
 	quest.381B55C984A8BD33.title: "&fA Matter of &bSize"
+	quest.381E50C068AA6599.quest_desc: ["&7&oChoose one Flawless Apotheosis gem."]
+	quest.381E50C068AA6599.title: "&dFlawless Apotheosis Gem Bag"
 	quest.38248F3AE03BE9F7.quest_desc: ["The &dAfrit Smelter&r functions like all other &bSmelters&r, but processes things 90% faster than normal."]
 	quest.38248F3AE03BE9F7.title: "&dAfrit Smelter"
 	quest.3830D82DFA731ABA.quest_desc: [
@@ -6136,12 +6344,12 @@
 	quest.388EAAF7CFA6535F.quest_desc: ["You can catch yourself a &aGold Bee&r by using a &eNether Gold Nest&r in the Nether!"]
 	quest.388EAAF7CFA6535F.title: "&eGold Bees"
 	quest.389A8206E7B3A22C.quest_desc: [
-		"The &2Simple Block Placer&r places blocks. Simple!"
+		"The &aSimple Block Placer&r places blocks. Simple!"
 		""
 		"This is crucial for many automations. It's important to be creative!"
 	]
 	quest.389A8206E7B3A22C.quest_subtitle: "There's no block here and I don't like it"
-	quest.389A8206E7B3A22C.title: "&fSimple Block Placer"
+	quest.389A8206E7B3A22C.title: "&aSimple Block Placer"
 	quest.38AE15CA25C50869.quest_desc: ["This is the start of &6Industrial Foregoing&r's method of ore doubling, which involves combining raw ore with &cLiquid Meat&r, fermenting it, and sieving the results to get back more dust than you put in."]
 	quest.38AE15CA25C50869.title: "&dWashing Factory"
 	quest.38BD69DD1995E971.quest_desc: [
@@ -6229,12 +6437,12 @@
 	quest.39621D430CCBF307.quest_desc: ["We'll need stronger motors to make better machines. These can also provide a faster item transfer rate in pipes!"]
 	quest.39621D430CCBF307.title: "&6Large Advanced Motor"
 	quest.3964E9A95D52B0FD.quest_desc: [
-		"The next tier of &bSummoning Pentacle&r is &dAbras' Fortified Conjure&r."
+		"The next tier of &bSummoning Pentacle&r is &dTibira's Attraction&r."
 		""
 		"This &bRitual&r is only used to summon an &6Unbound Marid&r. Killing it will grant you its essence, allowing you to make &9Blue Chalk&r."
 	]
 	quest.3964E9A95D52B0FD.quest_subtitle: "Summoning Pentacle: Tier 5"
-	quest.3964E9A95D52B0FD.title: "&dAbras' Fortified Conjure"
+	quest.3964E9A95D52B0FD.title: "&dTibira's Attraction"
 	quest.39751E377C0F22EE.quest_desc: [
 		"The &aReplication Terminal&r shows all &bMatter&r and available replication blocks in your network."
 		""
@@ -6245,6 +6453,14 @@
 		"To view ongoing requests, click the &eReplication Tasks&r icon at the very top-right of the interface, next to the search bar."
 	]
 	quest.39751E377C0F22EE.title: "&fViewing Your Network"
+	quest.39A6CE8A1D5B2D8F.quest_desc: [
+		"The &aSimple Coal Generator&r from &6Just Dire's Things&r takes burning coal to a new level."
+		""
+		"While this can burn regular burnable items like coal or wood, it can also burn the different tiers of coal from the mod itself, like &aPrimal Coal&r!"
+		""
+		"Using these special coals will produce more power, with the higher tiers producing up to 960 RF/t."
+	]
+	quest.39A6CE8A1D5B2D8F.title: "&a\"Simple\" &fCoal Generator"
 	quest.39BC89942A5CA7E1.quest_desc: ["Improves energy efficiency."]
 	quest.39BC89942A5CA7E1.title: "&fMachine Efficiency Addon"
 	quest.39CA68E8B84CF962.quest_desc: ["The &7Copper Talisman&r pulls items within a 10-block radius to the player."]
@@ -6317,11 +6533,11 @@
 		""
 		"To make this, you'll need to build 2 identical multiblock structures: one connected to your main network, and one connected to the new place you want to build in."
 		""
-		"Each multiblock will consist of &b8 Quantum Rings&r with a &6ME Quantum Link Chamber&r in the center. To connect the two, you'll need to craft and use a &dQuantum Entangled Singularity&r on each of the Link Chambers to connect them."
+		"Each multiblock will consist of &b8 Quantum Rings&r with an &6ME Quantum Link Chamber&r in the center. To connect the two, you'll need to craft and use a &dQuantum Entangled Singularity&r on each of the Link Chambers to connect them."
 		"{@pagebreak}"
 		"The Quantum Ring only allows 128 channels total from it, no matter which face you connect to. You can also only connect to the 4 Quantum Rings that are adjacent to the Link Chamber, as the corners do not connect."
 		""
-		"Note: Both sides will need to be chunk loaded to work."
+		"&eNote&r: Both sides will need to be chunk loaded to work."
 	]
 	quest.3A59D1773EBD3B8A.quest_subtitle: "Extending Your Network"
 	quest.3A59D1773EBD3B8A.title: "&6Quantum Network Bridges"
@@ -6450,6 +6666,12 @@
 		"&bBase Effect&r: Max Mana"
 	]
 	quest.3B32575C5E266B55.title: "&fArcane Rune"
+	quest.3B328F7BA1089E9A.quest_desc: [
+		"The Blazegold Anvil can repair items using hot fluids such as lava or JDT fluid fuels. Fuels are more efficient per bucket than lava, getting stronger per fuel tier."
+		""
+		"&7Tip: Upgrade from the previous tier using a template."
+	]
+	quest.3B328F7BA1089E9A.title: "&cBlazegold Anvil"
 	quest.3B33C4D5A2D400D4.quest_desc: [
 		"&bSky Stone&r can be obtained from the &dFluix Researcher&r villager through trading, from a friendly &eWandering Trader&r, or by smelting some &bsky stone dust&r. Many floating structures also contain an abundance of skystone that you can mine while exploring."
 		""
@@ -6495,7 +6717,7 @@
 	quest.3B9B79565D5E2CA3.quest_desc: [
 		"Armor made from soulwoven silk doesn't provide much defense, but it's better than typical clothing and much better than nothing at all."
 		""
-		"On the plus side, the infused arcane ash helps to enhance a wearer's magic prowess."
+		"On the plus side, the infused &bSpirit&r helps to enhance a wearer's magic prowess."
 	]
 	quest.3B9B79565D5E2CA3.title: "Soulhunter Set"
 	quest.3BAE611AE4CEA7A6.quest_desc: [
@@ -6522,10 +6744,11 @@
 	quest.3BF066E5C333F217.quest_subtitle: "Logging On"
 	quest.3BF066E5C333F217.title: "&fWelcome to &6Minecraft"
 	quest.3BFF8EFB5E7186A4.quest_desc: [
-		"The inside of the &6Quantum Computer&r multiblock can be customized using a mix of different blocks."
+		"The inside of the &6Quantum Computer&r multiblock can be customized using a mix of different blocks, including extra &bQuantum Storage&r."
 		""
-		"The &6Quantum Computer Storage&r blocks effectively increase the amount of concurrent tasks the multiblock can handle at once."
+		"&6Quantum Computer Storage&r blocks effectively increase the amount of concurrent tasks the multiblock can handle at once."
 	]
+	quest.3BFF8EFB5E7186A4.title: "&dQuantum Storage"
 	quest.3C03D41F5B1A8BDC.quest_desc: [
 		"The &bArcanist Set&r is made from Iron Armor, and is more of the middle ground for those who want more defense, but don't want to give up the higher tier thread slots."
 		""
@@ -6682,13 +6905,13 @@
 	quest.3D687BF735E54AE8.quest_desc: ["Firey sentries of the nether fortresses"]
 	quest.3D687BF735E54AE8.title: "&fKill 10 &cBlazes"
 	quest.3D767C3E2F0DE320.quest_desc: [
-		"To build the multiblock &6Quantum Computer&r, the structure itself can range from a 3x3x3 to a 7x7x7 square."
+		"The structure of the &6Quantum Computer&r multiblock can range from a 3x3x3 to a 7x7x7 square."
 		""
-		"The minimum structure must contain a &6Quantum Computer Core&r, and all edges and sides of the cube must be &dQuantum Structure Blocks&r. To build the 4x4x4 multiblock, you'll need a total of 56 Structure Blocks to complete it."
+		"The minimum must contain at least a &6Quantum Computer Core&r, and all edges and sides of the cube must be &dQuantum Structure Blocks&r."
 		""
 		"&dQuantum Crafting Units&r can be used to fill in empty spaces within the multiblock, but do not serve a purpose otherwise when placed inside."
 	]
-	quest.3D767C3E2F0DE320.title: "&fThe &dQuantum Computer &fStructure"
+	quest.3D767C3E2F0DE320.title: "&fThe &6Quantum Computer &fStructure"
 	quest.3D9FFFF325533514.quest_desc: ["Double byproduct amount in &aFragment Forge&r. Increases block breaking yield in &aDestroyer Blocks&r and &aEnderic Lasers&r."]
 	quest.3D9FFFF325533514.title: "&fMachine Yield Addon"
 	quest.3DA1FF3D18606AD6.quest_desc: [
@@ -6744,7 +6967,8 @@
 		"This substance has often been prized for its versatility, though it seems much easier to obtain than previously thought...how balanced!"
 	]
 	quest.3E25D043676C1CE9.title: "&fClay"
-	quest.3E2E68B54A985CBF.title: "&bFargo's Dungeon Loot Bundle"
+	quest.3E2E68B54A985CBF.quest_desc: ["&7&oChoose any item found within chests in Fargo's Dungeons."]
+	quest.3E2E68B54A985CBF.title: "&bFargo's Dungeon Loot"
 	quest.3E328C7EB939180D.quest_subtitle: "Use Yellow Dye on a Catalyst"
 	quest.3E328C7EB939180D.title: "&fBudding Gold Geore"
 	quest.3E37D6522BE4EB9B.title: "&bImperium &fArmor"
@@ -6807,6 +7031,14 @@
 		"Instead, you can summon the different types by using a &3Summon Wilden Ritual&r. This can be used to get your first Wilden Drops, which are needed for several recipes, including upgrading to a &dTier 3 Spell Book&r."
 	]
 	quest.3F18A0C9F246235B.title: "&fTablet of Summon Wilden"
+	quest.3F26B10626145BBC.quest_desc: [
+		"The &aItem Collector&r from &eJust Dire Things&r is a highly configurable collector."
+		""
+		"Inside of the interface, you can adjust the radius up to a max of 11x11x11, but can also offset where the machine collects if needed."
+		""
+		"You can also adjust even more options like filtering which items it can pick up, or how fast it picks items up."
+	]
+	quest.3F26B10626145BBC.title: "&eJustDire's &fItem Collector"
 	quest.3F4C25DF20877606.quest_desc: [
 		"&aEthanol&r is a very useful resource that can be turned into &2Herbicide&r, &2Biodiesel&r, and &dAcetaldehyde&r."
 		""
@@ -6868,6 +7100,8 @@
 	quest.3FC961B8C0657214.quest_desc: ["&aCarbon Fibre Strands&r are sturdy enough to be used in machines and &bAddon&r recipes, and as crafting materials in other machines to craft more advanced components."]
 	quest.3FC961B8C0657214.quest_subtitle: "Or Is It Fiber?"
 	quest.3FC961B8C0657214.title: "&3Carbon Fibre&r"
+	quest.3FD6F10BE6F06FFF.quest_desc: ["Each &dAssembler Matrix Craft Core&r can run up to 8 crafting jobs simultaneously."]
+	quest.3FD6F10BE6F06FFF.title: "&dAssembler Matrix Craft Core"
 	quest.3FE99AE10B0737BB.title: "&fStores A Lot of 1 Item Type"
 	quest.3FECA0A4B5962630.quest_desc: [
 		"&bQuality Multiplier&r: x1.5"
@@ -7055,6 +7289,13 @@
 	quest.4145FED51D1ACD76.title: "&fNether Wart"
 	quest.415BB9A778991D01.title: "&eMemory Chip"
 	quest.415E659B7EB0125D.title: "&bDouble Layer Capacitor"
+	quest.4162EC6BA9824805.quest_desc: [
+		"Need to grab a block and place it somewhere else with as little hassle as possible?"
+		"Try the Picker Wand! Any simple block can be picked up and placed back down by using it."
+		""
+		"&7Hint: if it's for processing or has an interface, it's probably too complex to pick n place."
+	]
+	quest.4162EC6BA9824805.title: "&cPicker Wand"
 	quest.417573A657CAED05.quest_desc: [
 		"Once you've gathered some materials from the &cNether&r, you can upgrade to the next tier of Goo."
 		""
@@ -7224,6 +7465,12 @@
 		"The &aWindmill Bearing&r is a significant upgrade to the &aWater Wheel&r in both &bRPM&r and &bStress Capacity&r."
 		""
 		"It can have a wide variety of blocks attached to it, but is best used together with &aWindmill Sails&r."
+		"{@pagebreak}"
+		"&aWindmill Sails&r are useful early-game &bRPM&r generators as they attach automatically to surfaces and eachother without need a &aChassis&r or &aSuper Glue&r."
+		""
+		"You will need 128 &aSails&r to max out the &bStress Capacity&r of the &aWindmill Bearing&r."
+		""
+		"Any &aSails&r above 128 do not count towards increasing your &bStress Capacity&r and are purely decorative."
 	]
 	quest.42FE1FD899C2EABB.title: "&aWindmills"
 	quest.432185176A39B3B2.quest_desc: [
@@ -7292,7 +7539,7 @@
 	]
 	quest.437F2C378CD6FE51.title: "&cCarbon &aInfusion"
 	quest.43949500F6A0B46A.quest_desc: [
-		"The &dCrafting CPU Multiblock&r is the heart of autocrafting within AE2."
+		"The &dCrafting CPU Multiblock&r is the heart of autocrafting within &eAE2&r."
 		""
 		"These multiblocks must be built as rectangular prisms in shape with no empty blocks, and contain at least 1 or more &aCrafting Storages&r. While optional, &aCrafting Co-Processors&r are recommended to use as well."
 		"{@pagebreak}"
@@ -7323,7 +7570,7 @@
 		""
 		"First, this wand can be used to configure the transfer of &dSource&r between blocks. For example, you can use this to direct the flow of Source from a &aSource Relay&r into a specific &bSource Jar&r. Just use the wand on the block you'd like to take Source from, then use it again on the block you'd like to transfer it to."
 		""
-		"You can clear the selection by sneak-using the wand. Sneak-using the wand in the air willd switch it to Strict mode, allowing you to specify the exact side you want to use."
+		"You can clear the selection by sneak-using the wand. Sneak-using the wand in the air will switch it to Strict mode, allowing you to specify the exact side you want to use."
 		""
 		"This is also used to help control Familiars!"
 	]
@@ -7541,13 +7788,14 @@
 		""
 		"The &bStorage Bus&r allows you to connect your existing storages to your network."
 	]
-	quest.45E7D62C229F898C.title: "&fME Crafting Terminal"
+	quest.45E7D62C229F898C.title: "&aME Crafting Terminal"
 	quest.45F8CB4497591B10.title: "&cTier 3 &fMob Seeds"
 	quest.4619BC2AB4CB9BD9.title: "&aElemental Arcanite"
 	quest.461A01BDC4D4B1BD.quest_desc: ["&aDestructors&r can harvest resources in the world into your storage network."]
 	quest.461A01BDC4D4B1BD.title: "&aDestructor"
 	quest.462A47B2E1360AB5.quest_desc: ["On top of providing extra armor, the &dNetherite Diving Suit&r also provides immunity to Lava and Fire when wearing the full set."]
 	quest.462A47B2E1360AB5.title: "&dNetherite Diving Suit"
+	quest.4638D7D057A96571.quest_desc: ["&7&oRandomly gain an item to upgrade your basic chests or barrels."]
 	quest.4638D7D057A96571.title: "&aStorage Upgrade Bag"
 	quest.464AED8311A32476.quest_desc: [
 		"Before we dive into &eApotheosis&r, we need to cover what an &bAffix&r is!"
@@ -7559,7 +7807,22 @@
 		"There are a few different types of &bAffixes&r, each affecting a specific part of the item such as: Stats, Effects, Durability, and &bGem Sockets&r, which will be covered in the &bGems&r section."
 	]
 	quest.464AED8311A32476.title: "&fUnderstanding &aAffix &fitems"
-	quest.464D4E5932299825.title: "&bCreate Improved Bundle"
+	quest.464D4E5932299825.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 2x Stock Link"
+		"&7&o- 2x Redstone Link"
+		"&7&o- Super Glue"
+		"&7&o- Steam Engine"
+		"&7&o- Mechanical Press"
+		"&7&o- Mechanical Drill"
+		"&7&o- Mechanical Saw"
+		"&7&o- Mechanical Harvester"
+		"&7&o- Packager"
+		"&7&o- Re-Packager"
+		"&7&o- Package Frogport"
+	]
+	quest.464D4E5932299825.title: "&bImproved Create Components"
 	quest.466D603FACE8FDF5.quest_desc: [
 		"When a &6Silent Gear&r tool reaches 0 durability, it doesn't break forever. Instead, it becomes unusable until you repair it using a &aRepair Kit&r!"
 		""
@@ -7589,9 +7852,9 @@
 	quest.469C88B6CEC1F9E7.quest_subtitle: "The Experience Obelisk mod"
 	quest.469C88B6CEC1F9E7.title: "&2Cognition&f: Using your Knowledge"
 	quest.46A1341E5E97ABDC.quest_desc: [
-		"Before you start building out your &bAE Network&r, it's time to talk about &2Channels&r. Don't worry, the pack's default is set to &b4x by default&r with the intention of having an easier time for players who might be new to AE2."
+		"Before you start building out your &bAE Network&r, it's time to talk about &2Channels&r. Don't worry, the pack's default is set to &b4x by default&r with the intention of having an easier time for players who might be new to &eAE2&r."
 		""
-		"&2Channels&r are essentially the limit of the total number of devices that your Network can interact with at one time. This can be increased with some clever mechanics and the use of multiblock &aControllers&r, which will be discussed in a different quest."
+		"&2Channels&r are essentially the limit of the total number of devices that your Network can interact with at one time. This can be increased with some clever mechanics and the use of multiblock &3Controllers&r, which will be discussed in a different quest."
 		""
 		"With the increased settings, you have &232 Channels&r per network before needing to add more channels."
 		"{@pagebreak}"
@@ -7599,11 +7862,11 @@
 		""
 		"Each of these cables carry a different amount of &2Channels&r. This means you might run into issues if you run &bGlass Cables&r to every single part of your network when you get towards the end game."
 		"{@pagebreak}"
-		"&bGlass Cables&r transfer power, but can also transfer up to &232 Channels&r with the 4x settings."
+		"&bGlass Cables&r transfer power, but can also transfer up to &232 Channels&r with the pack's settings."
 		""
-		"&dSmart Cables&r don't add more channels, but give you a visual of how many channels that are being used with lines on the cable itself."
+		"&dSmart Cables&r don't add more channels, but give you a visual of how many channels are being used with lines on the cable itself."
 		""
-		"&3Dense Cables&r can transfer up to &2128 Channels&r, but does not support connecting to Buses or Panels. You can also make Dense Smart Cables!"
+		"&3Dense Cables&r can transfer up to &2128 Channels&r, but does not support connecting to Buses or Panels. You can also make &dDense Smart Cables&r!"
 	]
 	quest.46A1341E5E97ABDC.quest_subtitle: "Understanding AE Channels"
 	quest.46A1341E5E97ABDC.title: "&bCables &fand &2Channels"
@@ -7779,7 +8042,7 @@
 	]
 	quest.496561148E384759.title: "&dDistillation Tower"
 	quest.496903AB7E8A0A92.quest_desc: [
-		"&eIron's Jems \\&\\ Jewelry&r is a mod that focus on combining materials and &bJewels&r to provide the player with special effects or stat increases."
+		"&eIron's Gems \\&\\ Jewelry&r is a mod that focus on combining materials and &bJewels&r to provide the player with special effects or stat increases."
 		""
 		"You will need to craft a &aJewelcrafting Station&r to begin making some basic &bJewelry&r."
 		""
@@ -7789,21 +8052,21 @@
 	]
 	quest.496903AB7E8A0A92.title: "&fWelcome to &eIron's Gems \\&\\ Jewelry&f!"
 	quest.4978D64CC0840556.quest_desc: [
-		"Sometimes, you gotta go big. The &6MEGA&r mod gives you that option."
+		"Sometimes, you gotta go big. The &eMEGA&r mod gives you that option."
 		""
-		"To create the storage components for the mod, you'll need to make some &aSky Steel&r."
+		"To create the storage components for the mod, you'll need to make some &3Sky Steel&r."
 		""
-		"You'll also need a new type of Inscription Press, which can be crafted using a &dSingularity&r."
+		"You'll also need a new type of &2Inscription Press&r, which can be crafted using a &dSingularity&r."
 	]
-	quest.4978D64CC0840556.title: "&aMEGA &fStorage"
+	quest.4978D64CC0840556.title: "&eMEGA &fStorage"
 	quest.49835EC10C5AE8D8.quest_desc: [
-		"The &6Quantum Crafter&r acts like a Molecular Assembler, Pattern Provider, AND an ME Requester all in one."
+		"The &6Quantum Crafter&r acts like a &3Molecular Assembler&r, &aPattern Provider&r, AND an &2ME Requester&r all in one."
 		""
-		"It also crafts blazingly fast, can be configured to keep stock on multiple items at once, and can even be upgraded with Acceleration Cards."
+		"It also crafts blazingly fast, can be configured to keep stock on multiple items at once, and can even be upgraded with &bAcceleration Cards&r."
 		""
-		"The only limit it has is that it can only store 9 Patterns total."
+		"The only limit it has is that it can only store 9 &2Patterns&r total."
 	]
-	quest.49835EC10C5AE8D8.title: "&fQuantum Crafter"
+	quest.49835EC10C5AE8D8.title: "&6Quantum Crafter"
 	quest.498A5C0A00F19E2E.quest_desc: ["The most basic available reactor fuel is a regular &6Uranium Fuel Rod&r. It requires no fancy processing, but also outputs the least amount of energy. However, its simplicity makes it appealing to start with."]
 	quest.498A5C0A00F19E2E.quest_subtitle: "Whose Ranium?"
 	quest.498A5C0A00F19E2E.title: "&6Uranium Fuel Rod"
@@ -7955,10 +8218,25 @@
 	quest.4A7A15ECB8ABDF88.quest_desc: [
 		"&7Zinc&r is a crucial part of &eCreate&r progression. So how do you get it?"
 		""
-		"You can hammer tuff on a cutting board, sure, but after that you can use &eCreate's&r crushing wheels to crush tuff automatically, &2GeOres&r, make Zinc seeds, breed &eZinc Bees&r, or go into &dMalum&r. You may even find other ways such as ore generators and lense of the miner!"
+		"You can hammer tuff on a cutting board, sure, but after that you can use &eCreate's&r crushing wheels to crush tuff automatically, &2GeOres&r, make Zinc seeds, breed &eZinc Bees&r, or go into &dMalum&r. You may even use other ways such as ore generators and the Lens of the Miner!"
 	]
 	quest.4A7A15ECB8ABDF88.title: "&fWhere is the Zinc?"
-	quest.4AB10BE58B13DBDD.title: "&eAE2 1k Disk Bundle"
+	quest.4AAEFDA74FBE5637.quest_desc: ["&7&oChoose one Perfect Apotheosis gem."]
+	quest.4AAEFDA74FBE5637.quest_subtitle: "Highest Purity Gems"
+	quest.4AAEFDA74FBE5637.title: "&6Perfect Apotheosis Gem Bag"
+	quest.4AB10BE58B13DBDD.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 1k ME DISK Drive"
+		"&7&o- 1k ME Item Cell"
+		"&7&o- 1k Ender Item Cell"
+		"&7&o- 1k ME Fluid Cell"
+		"&7&o- 1k ME FE Cell"
+		"&7&o- 1k ME Checmical Cell"
+		"&7&o- 1k ME Source Cell"
+		"&7&o- 1k ME Crafting Storage"
+	]
+	quest.4AB10BE58B13DBDD.title: "&eAE2 1k Disks"
 	quest.4AB3FD2B686C1F10.quest_desc: [
 		"A standard chalice gives +1x base power"
 		""
@@ -8009,11 +8287,12 @@
 	quest.4B0B08ED9D193AEA.title: "&fDimensional Mineshaft"
 	quest.4B21575B498FFEA1.quest_subtitle: "3x3 Shovel"
 	quest.4B21575B498FFEA1.title: "&fExcavator Blueprint"
+	quest.4B30FD3141EB1AD0.quest_subtitle: "Fish this up!"
 	quest.4B30FD3141EB1AD0.title: "&fCopper Essence"
 	quest.4B463FDAEAC42511.quest_desc: [
 		"The &3Matter Condensor&r will destroy any item inserted into it like a trashcan. If you provide it a Cell to act as a buffer, it can instead convert the items into &aMatter Balls&r(1-16k) or &dSingularities&r (64k+)."
 		""
-		"These &dSingularities&r are critical for creating massive storages and inter-dimensional linking. "
+		"These &dSingularities&r are critical for creating massive storages and inter-dimensional links. "
 	]
 	quest.4B463FDAEAC42511.title: "&fThe &3Matter Condenser"
 	quest.4B4DFB318CE36DAE.quest_desc: [
@@ -8062,7 +8341,21 @@
 		"They function like their &eTinker's Construct&r version, for those who remember that."
 	]
 	quest.4B6154D6F9B7C7BF.title: "&fCrafting Stations"
-	quest.4B721BE2E2B87A30.title: "&6Curio Slot Bundle"
+	quest.4B721BE2E2B87A30.quest_desc: [
+		"&7&oChoose one of the following Curio Slots to add to your character:"
+		""
+		"&7&o- Ars Focus Slot"
+		"&7&o- Head Slot"
+		"&7&o- Necklace Slot"
+		"&7&o- Back Slot"
+		"&7&o- Bracelet Slot"
+		"&7&o- Hands Slot"
+		"&7&o- Ring Slot"
+		"&7&o- Belt Slot"
+		"&7&o- Feet Slot"
+		"&7&o- Charm Slot"
+	]
+	quest.4B721BE2E2B87A30.title: "&6Curio Slots"
 	quest.4B7545530D6055AE.title: "&fGlowstone Dust"
 	quest.4B7FE5A718A97706.quest_desc: ["&dBrass&r will be used quite often to make some of the more powerful blocks and items within &eCreate&r."]
 	quest.4B7FE5A718A97706.title: "&dThe Brass Age"
@@ -8225,7 +8518,15 @@
 	quest.4D5D4F2002B33DB6.title: "&fThe &aChemical Infuser"
 	quest.4D5E3B93FFCF091B.quest_subtitle: "+15% Mana Regeneration"
 	quest.4D5E3B93FFCF091B.title: "&dAmethyst Resonance Charm"
-	quest.4D63D311C8E7CA04.title: "&bRS2 Parts Bundle"
+	quest.4D63D311C8E7CA04.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- Importer"
+		"&7&o- Exporter"
+		"&7&o- Interface"
+		"&7&o- External Storage"
+	]
+	quest.4D63D311C8E7CA04.title: "&bRS2 Network Parts"
 	quest.4D6C3ED87414B7D1.quest_desc: [
 		"The &aFerricore Bow&r is a nice upgrade for those going for a ranged build."
 		""
@@ -8323,7 +8624,9 @@
 	quest.4E0DB5D4574FD4E2.quest_desc: ["The &cSmelter&r upgrade can be installed to activate &cAutosmelting&r."]
 	quest.4E0DB5D4574FD4E2.title: "&fUpgrade: Smelter"
 	quest.4E2F296E04F1DA38.quest_desc: [
-		"The &aWater Wheel&r allows you to passively generate &bRotational Force&r using nothing but water."
+		"&aWater Wheels&r allow you to generate passive &bRotational Force&r using nothing but water."
+		""
+		"The &aLarge Water Wheel&r provides half the &bRPM&r of a regular &aWater Wheel&r, but has a much higher &bStress Capacity&r."
 		""
 		"Multiple &aWheels&r can be stacked next to each other to increases your system's &bStress Capacity&r."
 	]
@@ -8374,12 +8677,6 @@
 	quest.4E6B0E9C678618A3.title: "&fFiltering Items"
 	quest.4E6EC6E1A507A52B.quest_desc: ["&dEnder Gates&r are used to transfer power wirelessly."]
 	quest.4E7F3FA96DAECC82.title: "&bGold Autocrafter"
-	quest.4E858EA44C329668.quest_desc: [
-		"Have a lot of excess Honey? Pipe it into a &aHoney Generator&r to convert it into power!"
-		""
-		"These can also be upgraded to produce more power using certain upgrades, like Speed or Productivity Upgrades."
-	]
-	quest.4E858EA44C329668.title: "&cPower &aFrom The Bees&f!"
 	quest.4E90956E9A3ADAC9.quest_desc: [
 		"Once you've planted a few Demon's Dream Seeds, you can harvest them to acquire &aDemon's Dream Fruit&r."
 		""
@@ -8404,6 +8701,7 @@
 		"The &aBlock Reader&r gives you information about a specific block in the world. Things like the dimension it is in, its coordinates, what block it is, its &3NBT Tags&r, its Biome, etc..."
 	]
 	quest.4EAB855FDFCD1955.title: "&fReading World Information"
+	quest.4EADC8E110D8C9BA.quest_desc: ["&7&oRandomly gain some starting vanilla resources."]
 	quest.4EADC8E110D8C9BA.title: "&aBasic Resource Bag"
 	quest.4EAE9F58776D84C8.quest_desc: [
 		"Combining &aSulfuric Trioxide&r with &bWater Vapor&r in a Chemical Infuser will give you &eSulfuric Acid&r."
@@ -8418,7 +8716,14 @@
 	quest.4ECDF58A8FB43590.quest_subtitle: "Transfers Gases or Chemicals"
 	quest.4ECDF58A8FB43590.title: "&eMekanism's &2Gas Tubes"
 	quest.4ECF22AA79A3688B.title: "&fCabbage Farm"
-	quest.4EDC63BEA9C6D69A.title: "&bFlux Bundle"
+	quest.4EDC63BEA9C6D69A.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- Flux Point"
+		"&7&o- Flux Plug"
+		"&7&o- Gargantuan Flux Storage"
+	]
+	quest.4EDC63BEA9C6D69A.title: "&bFlux Network Components"
 	quest.4EE236E24901E582.quest_desc: [
 		"With a set of &aJeweler Tools&r, you can make custom items that go into your Curios slots!"
 		""
@@ -8469,11 +8774,11 @@
 	quest.4F3787D3DCAFBB6F.quest_desc: ["Who needs efficiency enchants when you can just break things instantly?"]
 	quest.4F3787D3DCAFBB6F.title: "&fUpgrade: Instant Break"
 	quest.4F3CA2DCE719D18A.quest_desc: [
-		"The &6Quantum Multithreader&r will effectively multiply all Co-Processors in the Quantum Computer by 4."
+		"The &6Quantum Multithreader&r will effectively multiply all &bCo-Processors&r in the multiblock by 4."
 		""
-		"You can only use 1 per Quantum Computer multiblock."
+		"You can only use 1 per multiblock structure."
 	]
-	quest.4F3CA2DCE719D18A.title: "&fMulti-Threading"
+	quest.4F3CA2DCE719D18A.title: "&6Multi-Threading"
 	quest.4F5A267B3042E308.title: "&d256k Storage Part"
 	quest.4F63F8D79802D6ED.quest_desc: [
 		"The &dHP Large Steam Boiler&r can produce up to 2048 mb/t of &7Steam&r."
@@ -8502,6 +8807,7 @@
 	quest.4F7B94DCD4B52CE4.quest_subtitle: "Possession Pentacle: Tier 1"
 	quest.4F7B94DCD4B52CE4.title: "&aHedyrin's Lure"
 	quest.4F7B9F938127746E.title: "&6Awakened Supremium Sword"
+	quest.4F8BA7C2B9064AFB.quest_subtitle: "Fish this up!"
 	quest.4F8BA7C2B9064AFB.title: "&fNickel Essence"
 	quest.4F8C7DC594972DE4.quest_desc: [
 		"A chilling palace of the undead, the &bIce Castle&r hosts an army of bodies whose souls have long departed, yet somehow animated and given a hatred of the living."
@@ -8624,6 +8930,8 @@
 		"At the base of a large arena in the Nether lies a single &6Cinderous Soul Rune&r, binding the memory of a &4great champion of fire&r."
 		""
 		"Use a &6Cinderous Soulcaller&r nearby to challenge an Echo of that memory, though be wary of its power and allies."
+		""
+		"&7The keys that this Echo can drop can be used on the Vaults between the two arenas. These vaults can be reset using standard trial keys."
 	]
 	quest.50BB7069AC5A1A14.title: "&fDefeat the &4Echo of Flame"
 	quest.50CDEB1051A8B5E1.quest_desc: [
@@ -8656,9 +8964,9 @@
 	quest.5119EFBB9FB39CDE.quest_desc: ["[ \"The leader of a hostile illager troop, found at the top of a \", {\"text\": \"Certain Magical Dungeon\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4BB5ADD98F958712\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Magical Dungeon Quest\"]}}, \".\"]"]
 	quest.5119EFBB9FB39CDE.title: "&fKill The &dArchevoker"
 	quest.51373D5476F2FD7F.quest_desc: [
-		"Collecting spirits is important work for an aspiring spirit mage, but an evening spent slaying the hostile creatures of the night can be a hassle with all the resources to sort and manage, especially when &eSpirit&r is involved."
+		"Collecting spirits is important work for an aspiring spirit mage, but an evening spent slaying the hostile creatures of the night can be a hassle with all the resources to sort and manage, especially when &bSpirit&r is involved."
 		""
-		"A &bSoulwoven Pouch&r helps ease this burden but funneling Spirit and certain other drops into itself before they'd touch its holder’s inventory, up to 8 stacks worth. The pouch can be used to dump its contents into the world, or used in the inventory to pull out sets of items at a time."
+		"A &aSoulwoven Pouch&r helps ease this burden but funneling Spirit and certain other drops into itself before they'd touch its holder’s inventory, up to 8 stacks worth. The pouch can be used to dump its contents into the world, or used in the inventory to pull out sets of items at a time."
 	]
 	quest.514A09DAD34C39EB.quest_desc: [
 		"The &aBoline&r is a multi-purpose tool with many unique abilities:"
@@ -8919,9 +9227,9 @@
 	]
 	quest.5407B3A9D7544F43.quest_subtitle: "Valve? Half-Life 3 Confirmed"
 	quest.5407B3A9D7544F43.title: "&fPrecious Pressure"
-	quest.5408C57600A556AE.quest_desc: ["Tired of vanilla droppers needing redstone and throwing items everywhere? Try the &2Simple Dropper&r! You can precisely control quantity and throughput with these."]
+	quest.5408C57600A556AE.quest_desc: ["Tired of vanilla droppers needing redstone and throwing items everywhere? Try the &aSimple Dropper&r! You can precisely control quantity and throughput with these."]
 	quest.5408C57600A556AE.quest_subtitle: "The fanciest trash bin in FTB Skies 2"
-	quest.5408C57600A556AE.title: "&fSimple Dropper"
+	quest.5408C57600A556AE.title: "&aSimple Dropper"
 	quest.5425A6F613CA7304.quest_desc: [
 		"Custom necklaces can be made using the &aNecklace Blueprint&r."
 		""
@@ -8930,12 +9238,6 @@
 		"To be able to equip it, you'll need to craft the part together with &aJeweler Tools&r, as well as any &6Jewelry Settings&r you want to add!"
 	]
 	quest.5425A6F613CA7304.title: "&fNecklace Blueprint"
-	quest.542AF3802E9CFBE2.quest_desc: [
-		"&dObsidian Dust&r is used to make &aPlates&r for train parts."
-		""
-		"&dCrushing Wheels&r are an optional method of grinding items into dusts as it often provides experience for doing so."
-	]
-	quest.542AF3802E9CFBE2.title: "&dObsidian Dust&r"
 	quest.543197E63ABD06C5.quest_desc: [
 		"[\"The \", {\"text\": \"Prometheum Pickaxe\", \"color\":\"#FCD205\"}, \" is an advanced, unbreakable, and enchantable tool that functions as a pickaxe.\"]"
 		""
@@ -9145,11 +9447,11 @@
 	quest.56519A6A39FA9430.quest_subtitle: "&oMore than just a pretty block"
 	quest.56519A6A39FA9430.title: "&fFunctional Forcefields"
 	quest.565AF0E2D4AB41BE.quest_desc: [
-		"&6Just Dire Things&r is a cool little mod that despite the name, actually adds some &oimpressive&r and slightly overpowered &2Gadgets&r, &aTools&r and &9Armors&r!"
+		"&eJust Dire Things&r (&eJDT&r) is a cool tech mod that despite the name, actually adds some &oimpressive&r and slightly overpowered &2Gadgets&r, &aTools&r and &9Armors&r!"
 		""
-		"To get started with this mod, you'll need some basic resources like Iron and Redstone."
+		"To get started with this mod, you'll need to craft the &aPrimogel Goo&r."
 	]
-	quest.565AF0E2D4AB41BE.title: "&fWelcome to &6Just Dire Things&f!"
+	quest.565AF0E2D4AB41BE.title: "&fWelcome to &eJust Dire Things&f!"
 	quest.565B21FA569CF3CC.quest_desc: [
 		"With access to power and &bMenril&r, you can now create the powered versions of the &aSqueezer&r and the &aDrying Basin&r."
 		""
@@ -9196,6 +9498,7 @@
 	quest.56A327D4172F3DD6.quest_desc: ["The Iron Mesh is a solid upgrade to the cloth mesh. Make sure you process all your dirt before upgrading to gold!"]
 	quest.56A327D4172F3DD6.quest_subtitle: "Getting an Upgrade"
 	quest.56A327D4172F3DD6.title: "&fMechanical Iron Mesh"
+	quest.56B533B5B84145D9.quest_desc: ["&7&oRandomly gain an upgraded furnace."]
 	quest.56B533B5B84145D9.title: "&aFurnace Upgrade Bag"
 	quest.56C6C2E5CA811E21.quest_desc: ["Seems to happen when blight spreads onto stone, but only existing blighted earth gets transformed?"]
 	quest.56C6C2E5CA811E21.quest_subtitle: "stone blight?"
@@ -9251,8 +9554,6 @@
 		"This only affects &bRPM&r, which is still limited by its &bStress Capacity&r."
 	]
 	quest.57260AC6D2C4A9F9.title: "&dRotation Speed Controller"
-	quest.573607053A3A6A53.quest_desc: ["The &aCuckoo Clock&r shows you minecraft time, and emits a sound twice a day during noon and dusk."]
-	quest.573607053A3A6A53.title: "&aCuckoo Clock"
 	quest.5759DA1D4FD37834.quest_desc: [
 		"&dSource Gems&r are needed to create &aSourcestone&r. On top of being a great decorative block, this is another important crafting material you'll need! "
 		""
@@ -9325,6 +9626,8 @@
 		"Wixies are also great at autocrafting Potions!"
 	]
 	quest.57C9FE9D5A20E2A2.title: "&dWixie &fAutocrafting"
+	quest.57CBEE2A35F98614.quest_desc: ["The &aAssembler Matrix Frame&r must form the outer edges of the &dMatrix Assembler&r multiblock."]
+	quest.57CBEE2A35F98614.title: "&dAssembler Matrix Frame"
 	quest.57DF1A1F0556B970.quest_desc: [
 		"The &dEnchantment Applicator&r works like a mechanical anvil."
 		""
@@ -9507,6 +9810,17 @@
 	]
 	quest.595F8AC6DB5DACD8.title: "&aYour First &bDiamonds"
 	quest.597ED5B26C78539D.title: "&dAE2 Quantum Ring Set"
+	quest.598652FE2E4839AC.quest_desc: [
+		"Is waiting for farm animals to spawn on patches of non-fake grass just too slow for you?"
+		""
+		"Once you've gotten an eye of ender and a handful of flowers, you can make the &2Gateway of the Emerald Grove&r! Simply use this item on a block with enough walkable space around you to challenge the gateway."
+		""
+		"You'll need to fight a few waves of &3zombies&r and &aspiders&r, but plenty of basic farm animals will spawn in the area to join your little base afterwards!"
+		""
+		"&7Certain crop materials will also be rewarded for beating each wave."
+	]
+	quest.598652FE2E4839AC.quest_subtitle: "E I E I O"
+	quest.598652FE2E4839AC.title: "&aMore Animals More Now!"
 	quest.5994E561F25FAEEC.quest_desc: ["With so many enchantments, it's hard to get what you want. So, instead of using books, you can use &dTomes,&r which can be crafted to only support a certain class of enchantments."]
 	quest.5994E561F25FAEEC.title: "&fFine-Tuning Your Enchants"
 	quest.59968CB3EFFC440D.quest_desc: ["When active, the &aLocation Broadcaster&r will show you as an active teleport location to other players who are using an upgraded &6Tempad&r."]
@@ -9531,8 +9845,6 @@
 	quest.59CA9831FDCAFA10.title: "Brilliance"
 	quest.59CBFA5583139A3B.quest_desc: ["[\"The \", {\"text\": \"Reforging Table\", \"color\": \"#B900B9\"}, \" is an improved version of the \", {\"text\": \"Simple Reforging Table\", \"color\":\"#55FF55\"}, \", allowing you reforge items of all rarities including \", {\"text\": \"Mythic\", \"color\":\"#EA6F14\"}, \" items.\"]"]
 	quest.59CBFA5583139A3B.title: "{\"text\": \"Reforging Table\", \"color\": \"#B900B9\"}"
-	quest.5A0865A75DD91A0E.quest_desc: ["Though mostly decorative, the &dPeculiar Bell&r can be placed above soulfire to convert it into the &dHaunted Bell&r, which shows nearby dark spots where mobs can spawn when rang."]
-	quest.5A0865A75DD91A0E.title: "&dPeculiar Bell"
 	quest.5A23D4BE3D221C70.quest_desc: [
 		"&2Roots&r adds various &apassive creatures&r to the world that may spawn naturally alongside other animals."
 		""
@@ -9568,13 +9880,23 @@
 		"This item is best used together with &eJade&r, as that has more extensive support for &6NauTec.&r"
 	]
 	quest.5A637C0834B0D450.title: "&aPrism Monocle"
+	quest.5A7D39C555A4D031.title: "&bSturdy Bee Cage"
 	quest.5A818D2F39A6679B.quest_subtitle: "+15% Cooldown Reduction"
 	quest.5A818D2F39A6679B.title: "&aRing of Recovery"
+	quest.5A8828C63DC87282.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 8x Item Pipe"
+		"&7&o- 8x Fluid Pipe"
+		"&7&o- 8x Energy Pipe"
+		"&7&o- 8x Gas Pipe"
+	]
 	quest.5A8828C63DC87282.title: "&ePipez Pipes"
 	quest.5A8CEB600CAADCD2.quest_desc: ["[\"A wizard found alone in their \", {\"text\": \"Cryomancer Tower\", \"color\": \"dark_aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5003396EDC1C994E\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Cryomancer Tower Quest\"]} }, \". All tresspassers receive a chilling welcome.\" ]"]
 	quest.5A8CEB600CAADCD2.title: "&fKill The &bCryomancer"
 	quest.5A8E25FA6815812E.quest_desc: ["The &aHopper Upgrade&r allows the chest to function like a Hopper would, meaning it can pull items in from the top or push items out from the bottom. "]
 	quest.5A8E25FA6815812E.title: "&aHopper Upgrades"
+	quest.5AAC3C7D6E9976C5.quest_subtitle: "Fish this up!"
 	quest.5AAC3C7D6E9976C5.title: "&fLead Essence"
 	quest.5AC7EEC3D69AF032.quest_desc: [
 		"At this tier, you can now combine the shovel, pickaxe, and axe to create the &bCelestigem Paxel&r."
@@ -9604,6 +9926,7 @@
 		"It is also used to craft the &bForce of Environment&r."
 	]
 	quest.5B28036A3960FCAC.title: "&dRain Talisman"
+	quest.5B2920835630AF78.quest_desc: ["&7&oSo you're really just going to skip the whole mod?"]
 	quest.5B2920835630AF78.title: "&6Soul of Dimensions"
 	quest.5B2EF619290CBCDA.quest_subtitle: "Grants Fire Immunity"
 	quest.5B2EF619290CBCDA.title: "&cFireward Ring"
@@ -9617,19 +9940,28 @@
 		"&6On The Dynamics of Integration&r is a very helpful guidebook that goes in-depth into a lot of the more complex mechanics of the mod. If you're ever stuck, check it out!"
 	]
 	quest.5B34FEF756C93961.title: "&fWelcome to &eIntegrated Dynamics&f!"
-	quest.5B499DF961D9308B.quest_desc: ["A &2Simple Clicker&r block is a quite powerful little device. Despite being called simple, it has a few more options than the other simple machines. They're all straightforward though, try them on this noteblock here!"]
+	quest.5B499DF961D9308B.quest_desc: [
+		"A &2Simple Clicker&r block is a quite powerful little device. Despite being called simple, it has a few more options than the other simple machines."
+		""
+		"They're all straightforward though, try them on this noteblock here!"
+	]
 	quest.5B499DF961D9308B.quest_subtitle: "What's a cooldown?"
-	quest.5B499DF961D9308B.title: "&fSimple Clicker"
+	quest.5B499DF961D9308B.title: "&aSimple Clicker"
 	quest.5B512AED08EC1899.quest_desc: [
-		"While water is not a cool enough fluid for them, &aThermo Generators&r can provide a lot of power if supplied with proper &bcoolant&r."
+		"While water is not a cool enough fluid for them, &aThermo Generators&r can provide a lot of power if supplied with proper &badvanced coolant&r."
 		""
 		"They also need to be placed over a &chot enough&r block or fluid to run, very slowly consuming the coolant."
 	]
 	quest.5B512AED08EC1899.title: "&fThermo Generators"
 	quest.5B5447A65D9C82B9.title: "&d16384b Fluid Storage Part"
-	quest.5B62E0C65AAF1984.title: "&bMekanism Upgrade Bundle"
-	quest.5B6B40D5C7DBAA0D.quest_desc: ["Upgraded from &3Celestigem&r using an &5Eclipse Alloy Template&r"]
-	quest.5B6B40D5C7DBAA0D.title: "&5Eclipse Alloy Leggings"
+	quest.5B62E0C65AAF1984.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 8x Speed Upgrade"
+		"&7&o- 8x Energy Upgrade"
+		"&7&o- 8x Chemical Upgrade"
+	]
+	quest.5B62E0C65AAF1984.title: "&bMekanism Upgrades"
 	quest.5B7CC380E28893C1.quest_desc: [
 		"For us to make &2Rubber&r, we'll need to get our hands on some form of &aOil&r first."
 		""
@@ -9663,6 +9995,19 @@
 	quest.5BAC67D69E4CEBFD.quest_subtitle: "Transfers Basic Power"
 	quest.5BAC67D69E4CEBFD.title: "&fMI Basic Energy Cables"
 	quest.5BB991FE31FE9E61.title: "&eBasic Capacitor"
+	quest.5BBA51F8FE4D6C3B.quest_desc: [
+		"A solid block that you can choose whether you want to walk through it or not!"
+		"Just right click it to toggle its current state"
+		""
+		"While mobs don't know how to walk though this in its non-solid state, they can still be pushed or fall through."
+	]
+	quest.5BBA51F8FE4D6C3B.title: "&dPhasebox"
+	quest.5BD655FBD85F1831.quest_desc: [
+		"The Ferricore Clock is a redstone device that turns on and off on all active sides on a timer."
+		""
+		"Interact with a side to toggle its state, and sneak-interact to adjust the timer."
+	]
+	quest.5BD655FBD85F1831.title: "&aFerricore Clock"
 	quest.5BDBB419A8FA0D2D.quest_desc: [
 		"There are 2 Jars you can make to carry around with you, both being pretty useful!"
 		""
@@ -9686,6 +10031,7 @@
 		"The glass will only work during &edaytime&r, and it must have an unobstructed view of the sky."
 	]
 	quest.5BFA3D0271320E07.title: "&3Greenhouse Glass"
+	quest.5C1347CF318CF239.title: "&dUpgrade: Productivity Omega"
 	quest.5C28750958603F6C.quest_desc: [
 		"&bQuality Multiplier&r: x1.5"
 		""
@@ -9770,7 +10116,7 @@
 	quest.5D0742E56290E42B.quest_desc: [
 		"Opening up the next tier of technology will rely on the &3Electronic Circuit&r."
 		""
-		"[\"You can substitute a \", {\"text\": \"Mekansim \", \"color\": \"yellow\"}, {\"text\": \"Ultimate Control Circuit\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19874DF48B8B2A75\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Ultimate Control Circuit Quest\"}}, \" in these recipes as well but beyond this tier you'll need to automate the remaining processors with \", {\"text\": \"MI\", \"color\": \"yellow\"}, \".\"]"
+		"[\"You can substitute a \", {\"text\": \"Mekansim \", \"color\": \"yellow\"}, {\"text\": \"Ultimate Control Circuit\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19874DF48B8B2A75\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Ultimate Control Circuit Quest\"}}, \" in these recipes as well but beyond this tier you'll need to automate the remaining processors with \", {\"text\": \"MI\", \"color\": \"yellow\"}, \".\"]"
 	]
 	quest.5D0742E56290E42B.title: "&3We Are Resisting This"
 	quest.5D2D114B66DE61EE.quest_desc: [
@@ -9839,6 +10185,10 @@
 		"&eCreate&r's visual in-game documentation, called &bPonder&r, will teach you how most blocks work. Hover over an item in JEI or in your inventory to see if it has a &bPonder&r."
 		""
 		"To get started, craft some &aAndesite Alloys&r. You'll need a lot of these."
+		"{@pagebreak}"
+		"The &aWrench&r is a multipurpose tool for working with &eCreate&r contraptions."
+		""
+		"It can rotate, configure, and dismantle blocks, contraptions, and more!"
 	]
 	quest.5D96F0CE1154B9B8.title: "&fWelcome to &eCreate&f!"
 	quest.5D9EAE2A6D2B6646.quest_desc: [
@@ -10005,7 +10355,14 @@
 		"Pro Tip: You can also place these inside of a &3Storage Controller&r to increase the linking range."
 	]
 	quest.5FBD41923B66C239.title: "&aStorage Size Upgrades"
-	quest.5FCB70FA68E708BB.title: "&eRS2 Processor Bundle"
+	quest.5FCB70FA68E708BB.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 4x Basic Processor"
+		"&7&o- 2x Improved Processor"
+		"&7&o- 2x Advanced Processor"
+	]
+	quest.5FCB70FA68E708BB.title: "&eRS2 Processors"
 	quest.5FCEA8229BB6955C.quest_desc: [
 		"A simple walk off your bit of stable ground into the void can get you &aGrains of Infinity&r right before you loop back above the void. It's much more forgiving than one would expect, aside from the slight crunch when you land back on solid ground."
 		""
@@ -10055,6 +10412,7 @@
 	]
 	quest.600DE37317142D0D.title: "&fPrismatic Battery"
 	quest.60105BDA4CA76BD6.title: "&cBio-Neural Circuit"
+	quest.6021C8B16AAC79A6.quest_desc: ["&7&oChoose one Matter tank filled with 128k Matter of a specific type."]
 	quest.6021C8B16AAC79A6.title: "&dMatter Tanks (128k Matter)"
 	quest.603BAFEF92DA275E.quest_desc: [
 		"With the help of &bProsperity Ingots&r and &bGemstones&r, we can upgrade Diamond armor to be even better."
@@ -10080,7 +10438,14 @@
 		"&bAction Effect&r: Ignites"
 	]
 	quest.6045E57AA8E56711.title: "&fRuby"
-	quest.60672830F57C0EE7.title: "&dEnderIO Advanced Conduit Bundle"
+	quest.60672830F57C0EE7.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 64x Ender Energy Conduit"
+		"&7&o- 64x Ender Fluid Conduit"
+		"&7&o- 64x Ender Chemical Conduit"
+	]
+	quest.60672830F57C0EE7.title: "&dAdvanced EnderIO Conduits"
 	quest.606A9E518DA6CAE5.quest_desc: [
 		"&eEntangled&r allows you to bind two blocks together, allowing you to interact with them as if they were the same block!"
 		""
@@ -10097,10 +10462,8 @@
 		"(new page placeholder text)"
 	]
 	quest.606BDEB81F65A79F.title: "&aPickup Upgrades"
-	quest.6072C6281FBC7DCB.quest_desc: ["The &aAnalog Lever&r is a powerful redstone emitter that allows for fine control over a redstone output."]
-	quest.6072C6281FBC7DCB.title: "&aAnalog Lever"
 	quest.60871670B71C711F.quest_desc: [
-		"Budding Crystals can take some time to grow and when you're trying to get your system up and running, no one wants to do a bunch of waiting around."
+		"&2Budding Crystals&r can take some time to grow and when you're trying to get your system up and running, no one wants to do a bunch of waiting around."
 		""
 		"&bGrowth Accelerators&r can be crafted and placed under the budding block to speed up the rate they grow substantially. These do require power to work."
 	]
@@ -10112,14 +10475,14 @@
 	]
 	quest.60984D2D55BF2E24.title: "&dDeep Ore Afrit Miner"
 	quest.609DF15D870AE2C0.quest_desc: [
-		"&6Soulplied Energistics&r is an addon mod for &6IF Souls&r that allows the transferring of souls using &6AE2&r."
+		"&eSoulplied Energistics&r is an addon mod for &eIF Souls&r that allows the transferring of souls using &eAE2&r."
 		""
-		"Attaching a &aStorage Bus&r to the &dSoul Laser Base&r will allow your network to access the &3Warden Souls&r inside it. Then, use any &6IF Souls&r item on an &aInterface Filter&r to request &3Souls&r."
+		"Attaching a &aStorage Bus&r to the &dSoul Laser Base&r will allow your network to access the &3Warden Souls&r inside it. Then, use any &eIF Souls&r item on an &aInterface Filter&r to request &3Souls&r."
 		""
 		"Finally, attach a &bSoul Pipe&r to the &aInterface&r and it will use its &3Warden Souls&r to power &bSoul Surges&r."
 	]
 	quest.609DF15D870AE2C0.quest_subtitle: "Networked Souls"
-	quest.609DF15D870AE2C0.title: "&6Soulplied Energistics"
+	quest.609DF15D870AE2C0.title: "&eSoulplied Energistics"
 	quest.60AFCA1889670F26.quest_desc: [
 		"The &6Chemical Washer&r does exactly what it says it does. It's just a bath for Dirty Ore Slurry."
 		""
@@ -10137,8 +10500,6 @@
 	]
 	quest.60B37EEA5AD64C3D.quest_subtitle: "A Basic Storage Solution"
 	quest.60B37EEA5AD64C3D.title: "&fStorage Terminal"
-	quest.60B5EDBD6218FACC.quest_desc: ["Upgraded from &3Celestigem&r using an &5Eclipse Alloy Template&r"]
-	quest.60B5EDBD6218FACC.title: "&5Eclipse Alloy Boots"
 	quest.60C650264AA5525D.quest_desc: [
 		"The &aController&r is the main device that provides energy to your &eRS2&r network."
 		""
@@ -10230,7 +10591,19 @@
 		"It can also be used to copy data into some &eCreate&r blocks such as &aFilters&r and &2Display Panels&r"
 	]
 	quest.61A8D9B0C8D22D50.title: "&fClipboard"
-	quest.61AA9E353AB6E76A.title: "&aSpirit Bundle"
+	quest.61AA9E353AB6E76A.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 16x Infernal Spirit"
+		"&7&o- 16x Aqueous Spirit"
+		"&7&o- 16x Earth Spirit"
+		"&7&o- 16x Aerial Spirit"
+		"&7&o- 16x Sacred Spirit"
+		"&7&o- 16x Wicked Spirit"
+		"&7&o- 8x Arcane Spirit"
+		"&7&o- 4x Eldritch Spirit"
+	]
+	quest.61AA9E353AB6E76A.title: "&aMalum Spirits"
 	quest.61AD9B2268BB32E6.quest_desc: [
 		"While both &eCreate&r and &bApplied Energistics 2&r have powerful and flexible crafting mechanics, they don't always play nice with each other in terms of storage."
 		""
@@ -10362,6 +10735,12 @@
 		"Imagine how much you could use Ultimine during that time :)"
 	]
 	quest.6303F008757BA13F.title: "&fPasta with Meatballs"
+	quest.630661119379FA37.quest_desc: [
+		"&bJust Dyna Things&r is an addon mod for &eJDT&r which adds several new blocks and quality of life things to enchance your playthrough."
+		""
+		"&7Note that the [G] guide does not yet reflect the values custom configured for this pack."
+	]
+	quest.630661119379FA37.title: "&bJust Dyna Things"
 	quest.631BA261529E71CC.quest_desc: ["Ore generate this resource first to make a seed"]
 	quest.631BA261529E71CC.quest_subtitle: "Ore generate this"
 	quest.631BA261529E71CC.title: "&fUranium Essence"
@@ -10416,11 +10795,11 @@
 	quest.63A28DBF66DBB1D2.quest_desc: [
 		"The &aME Requester&r allows you to set certain thresholds for items to keep in stock. "
 		""
-		"As an example, if you tell the Requester you want to keep 20 crafting tables in stock at all times in the network, and your inventory drops below 20, it will automatically trigger crafting operations provided you've taught your system the recipe."
+		"As an example, if you tell the &aRequester&r you want to keep 20 crafting tables in stock at all times in the network, and your inventory drops below 20, it will automatically trigger crafting operations provided you've taught your system the recipe."
 		""
 		"You can also achieve similar functionality using level emitters and redstone cards on interfaces set to export a set amount of ingredients."
 	]
-	quest.63A28DBF66DBB1D2.title: "&fRequester or Requester Terminal"
+	quest.63A28DBF66DBB1D2.title: "&2Requesters"
 	quest.63A3450169DD4B17.quest_desc: [
 		"To connect anything in &eI.D&r, you'll need to use &aLogic Cables&r. These are the pipes of the mod!"
 		""
@@ -10439,12 +10818,6 @@
 		"&aTreated Wood&r is used to craft various &6I.E&r workstations, such as the &aEngineer's Workbench&r."
 	]
 	quest.63B7AC676FC1EE7F.title: "&fTreated Wood Planks"
-	quest.63C6CCD277C86EF4.quest_desc: [
-		"If you think the Simple Coal Generator is good, you should try out the &aSimple Fuel Generator&r."
-		""
-		"Instead of burning coal, this uses the special &6Fuels&r from the mod, with the highest tier producing 4k RF/t."
-	]
-	quest.63C6CCD277C86EF4.title: "&a\"Simple\" &fFuel Generator"
 	quest.63D1F9A9465CC28F.quest_desc: [
 		"Growing a little bit of everything is important as you progress deeper into Enchanted."
 		""
@@ -10618,11 +10991,9 @@
 		"Sneak-use a piece of &6Mundabitur Dust&r on the Smithing Table and you'll convert it over to the &dHephaestus Forge&r."
 	]
 	quest.64F8FC212D088BE1.title: "&fThe &6Hephaestus Forge"
-	quest.64FE17214A14F903.quest_desc: ["Upgraded from &6Blazegold&r using a &3Celestigem Template&r"]
-	quest.64FE17214A14F903.title: "&dCelestigem Helmet"
 	quest.6507BA74DED764C1.quest_desc: ["&5Deuterium&r is a byproduct of &9Water&r in a &6Nuclear Reactor&r when it is hit with a &6Fast Neutron&r. It can be used to make &9Heavy Water&r."]
 	quest.6507BA74DED764C1.title: "&5Deuterium"
-	quest.652650C157E16712.quest_desc: ["One obvious use of hex ash is to make equipment from it. Infusing the material into cloth provides a fine base to use the Ash's properties."]
+	quest.652650C157E16712.quest_desc: ["One obvious use of &bSpirit&r is to make equipment from it. Infusing it into cloth provides a fine base to use the Spirit's properties."]
 	quest.6541D2082B84F2BB.quest_desc: [
 		"Harvests plants in front of it, not leaving behind a seed."
 		""
@@ -10706,11 +11077,11 @@
 	]
 	quest.6633EE3A02AA52E1.title: "&aHerbalist Bench"
 	quest.663460DE8AF7E464.quest_desc: [
-		"The &aInscriber&r is one of the most important machines in AE2."
+		"The &aInscriber&r is one of the most important machines in &eAE2&r."
 		""
-		"These machines create processors for all of your AE technology. These do require power but can accept regular FE power from other modded sources."
+		"These machines create processors for all of your network parts and technology. These do require power but can accept regular FE power from other modded sources."
 		""
-		"You'll want one for each of &eInscriber Press&r you have, and should look to automate this as soon as possible. Each Inscriber can take up to &b4 Acceleration Cards&r to greatly increase their working speed."
+		"You'll want one for each of &2Inscriber Press&r you have, and should look to automate this as soon as possible. Each &aInscriber&r can take up to &b4 Acceleration Cards&r to greatly increase their working speed."
 	]
 	quest.663460DE8AF7E464.title: "&aInscribing Processors"
 	quest.6634CE80E1C7C18D.quest_desc: [
@@ -10870,14 +11241,6 @@
 	quest.6750DD01D865937D.title: "&5Stabilized Dimensional Storage Actuator"
 	quest.675BB2F97FC2D293.quest_desc: ["Combined with the magical energy of the Warden, &3Sculkshelves&r provide more power, and more insight."]
 	quest.675BB2F97FC2D293.title: "&3Soul-Touched Sculkshelf"
-	quest.675DB26958651818.quest_desc: [
-		"The &aSimple Coal Generator&r from &6Just Dire's Things&r takes burning coal to a new level."
-		""
-		"While this can burn regular burnable items like coal or wood, it can also burn the different tiers of coal from the mod itself, like &aPrimal Coal&r!"
-		""
-		"Using these special coals will produce more power, with the higher tiers producing up to 960 RF/t."
-	]
-	quest.675DB26958651818.title: "&a\"Simple\" &fCoal Generator"
 	quest.67647369B6065EEC.quest_desc: ["The &cHeating Upgrade&r can be added to a Stove to allow you to use Power to cook items instead of using Coal!"]
 	quest.67647369B6065EEC.title: "&fHeating Unit"
 	quest.6764E528D52BC952.quest_desc: ["&3Weighted Ejectors&r lauch items to a set block within range in the same horizontal axis."]
@@ -10903,7 +11266,14 @@
 		"As with &3Advanced Machine Frames&r, your existing processing machines can all be upgraded to this new voltage should you wish by either using the &dTurbo Machine Hull&r directly on the machine, or by placing it in the upgraded slot of the machine."
 	]
 	quest.67BDF0122CA3FAC1.title: "&dTurbo Machine Hull"
-	quest.67C7AC507F3439FB.title: "&eRS2 1k Storage Bundle"
+	quest.67C7AC507F3439FB.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 1k Item Disk"
+		"&7&o- 1k Fluid Disk"
+		"&7&o- 1k Checmical Disk"
+	]
+	quest.67C7AC507F3439FB.title: "&eRS2 1k Storage Disks"
 	quest.67CA7FA8D63E315F.quest_desc: [
 		"This multiblock is capable of processing up to three bacteria cultures at the same time, allowing them to generate their associated resources in exchange for a good bit of laser power, though they must be manually harvested."
 		""
@@ -10996,7 +11366,8 @@
 	quest.68668718B414B6E4.title: "&6Foundry &fDrains"
 	quest.68778308CBAB4AE3.quest_desc: ["&aExternal Storages&r can access inventories outside of your storage network (chests, drawers, tanks, etc...)"]
 	quest.68778308CBAB4AE3.title: "&aExternal Storage"
-	quest.6890BFFFE9D4A223.title: "&dPuffish Skills Bundle"
+	quest.6890BFFFE9D4A223.quest_desc: ["&7&oChoose any one Puffish Skill to level up."]
+	quest.6890BFFFE9D4A223.title: "&dPuffish Skills Level"
 	quest.6896CCBC73B09381.title: "&fTome of Helmets"
 	quest.68A718B129075CDF.quest_desc: [
 		"The &7Iron Talisman&r provides 5% damage reduction."
@@ -11040,7 +11411,7 @@
 	]
 	quest.69024F41C4025A48.title: "&aBlacksmith Familiar"
 	quest.69159D10C2791C2E.quest_desc: [
-		"The first few basic machine you'll want to make are the &aBronze Furnace&r and the &2Macerator&r."
+		"The first few basic machines you'll want to make are the &aBronze Furnace&r and the &2Macerator&r."
 		""
 		"The &aBronze Furnace&r is powered by &7Steam&r to smelt items faster than a regular vanilla furnace."
 		""
@@ -11074,9 +11445,9 @@
 	quest.69F87073390131D5.quest_desc: [
 		"To teach your system how to craft items, you'll need to provide it with &aCrafting Patterns&r. These are created inside of a &dPattern Encoding Terminal&r."
 		""
-		"By providing the terminal with &aBlank Patterns&r, you can use JEI to search for an item you want to make a pattern for, then clicking the &b+&r to add the recipe onto the terminal."
+		"By providing the terminal with &aBlank Patterns&r, you can use &eJEI&r to search for an item you want to make a pattern for, then clicking the &b+&r to add the recipe onto the terminal."
 		""
-		"Once the pattern is on the table, you can click the button below the Blank Pattern to encode the recipe onto the pattern to be used in autocrafting!"
+		"Once the pattern is on the table, you can click the button below the &aBlank Pattern&r to encode the recipe onto the pattern to be used in autocrafting!"
 	]
 	quest.69F87073390131D5.title: "&aCreating Patterns"
 	quest.69FD7F8DD28A1C75.quest_desc: ["&dThreshold Switches&r can be configured to emit a redstone pulse based on how full a storage is."]
@@ -11091,9 +11462,9 @@
 	]
 	quest.6A0527ECC1400671.title: "&cSage Burning Plate"
 	quest.6A18A087EA934C46.quest_desc: [
-		"Your first alloy you'll want to make is &aBronze&r. There are several ways to do this, including just mixing dusts in a crafting table."
+		"Your first alloy you'll want to make is &aBronze&r. There are several ways to do this, including just mixing dusts in a &eTempered Jar&r."
 		""
-		"It's a very important alloy for progression, and will open your path to &eMI's Bronze Age&r!"
+		"It's a very important alloy for progression, and will open your path to &bMI's Bronze Age&r!"
 	]
 	quest.6A18A087EA934C46.title: "&fBronze Ingot"
 	quest.6A1CD115285158D3.quest_desc: ["The &aMooshroom Talisman&r increases player health regen while standing on mycelium."]
@@ -11174,6 +11545,7 @@
 	quest.6AA51581B0CA5271.title: "&aDisk Drive"
 	quest.6AA8A1FF1C8089F7.quest_subtitle: "Use Black Dye on a Catalyst"
 	quest.6AA8A1FF1C8089F7.title: "&fBudding Coal Geore"
+	quest.6ABA6F335165D860.quest_subtitle: "Fish this up!"
 	quest.6ABA6F335165D860.title: "&fTin Essence"
 	quest.6AC94BF73641EC4A.quest_subtitle: "The Meaning of Haste"
 	quest.6AC94BF73641EC4A.title: "&aBoots of Speed"
@@ -11220,6 +11592,8 @@
 	]
 	quest.6B584FB6F2EEBCD0.quest_subtitle: "Early Game Mage Armor"
 	quest.6B584FB6F2EEBCD0.title: "&fThe &aWandering Magician &fArmor Set"
+	quest.6B6C60BFE1D378D0.quest_desc: ["These are all of the blocks you'll need to complete a typical high-end &dAssembler Matrix &rsetup focusing on pattern storage, speed, and processing power."]
+	quest.6B6C60BFE1D378D0.title: "&6Max Size Assembler Matrix"
 	quest.6B779BFEDE0CB57A.quest_subtitle: "Use Brown Dye on a Catalyst"
 	quest.6B779BFEDE0CB57A.title: "&fBudding Nickel Geore"
 	quest.6B9371B721B992AD.quest_subtitle: "Spores go boom"
@@ -11257,7 +11631,14 @@
 		"Once you have &6Nuclear Mixed Plates&r, blow them up in an &3Implosion Compressor&r to create &6Nuclear Alloy Plates&r. You'll need plenty of these for your reactors so its worth setting up a good automation line for them."
 	]
 	quest.6BD4E9B7B2C99C27.title: "&6Nuclear Alloy Plate"
-	quest.6BD6FF86A05A7314.title: "&bRS2 16k Storage Bundle"
+	quest.6BD6FF86A05A7314.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 16k Item Disk"
+		"&7&o- 16k Fluid Disk"
+		"&7&o- 16k Checmical Disk"
+	]
+	quest.6BD6FF86A05A7314.title: "&bRS2 16k Storage Disks"
 	quest.6C0B018694B279E1.title: "&cPyramid Top"
 	quest.6C25708068B5197C.quest_desc: [
 		"The vanilla &eGrindstone&r strips &levery&r enchantment off an item and turns them into XP, though it does not remove &ccurses&r."
@@ -11306,7 +11687,7 @@
 		"This sword has a much higher capacity for power, and allows you to install some of the best upgrades the mod has to offer."
 	]
 	quest.6C7F31673B12795D.title: "&5Eclipse Alloy Sword"
-	quest.6C8DC19C54ACF89D.title: "&eSpeed Upgrade"
+	quest.6C8DC19C54ACF89D.title: "&eSpeed Upgrades"
 	quest.6CA3339B472F4464.quest_desc: [
 		"&dProcessing Units&r unlock the ability to craft more advanced machines and technology."
 		""
@@ -11389,11 +11770,13 @@
 	quest.6E009D4747E3E485.quest_desc: [
 		"The next step in Enchanted's progression is obtaining &aMutandis&r. Remember the &eWitch's Oven&r? You'll need it for one of the ingredients! Be sure to extract all six to clear out the cauldron, or there will be mixed ingredients next time."
 		""
-		"Mutandis is used on various small plants like saplings to &bmutate&r them into different forms. The process is &orandom&r, so you may go through a good amount of this reagent."
-		"One particular goal of this is to create &bplants and saplings unique to the mod&r, though it can create a wide variety of plants from other mods too."
+		"Mutandis is used on various small plants like saplings to &bmutate&r them into different forms. The process is &2based on surrounding plants&r, so you may need to set up a proper space to mutate them. Check the 'Mutated Plants' section of the Herbology chapter in your &eguidebook&r for more details."
 	]
 	quest.6E07405D08CCC2D4.quest_desc: ["[\"For the next tier of Chalks to upgrade your existing \", {\"text\": \"Pentacles\", \"color\": \"#55FFFF\"}, \", you'll need \", {\"text\": \"Lime Chalk\", \"color\": \"#E2FC97\"}, \", \", {\"text\": \"Light Gray Chalk\", \"color\": \"#C2C2C2\"}, \", and some skeleton skulls.\"]"]
 	quest.6E07405D08CCC2D4.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"Lime\", \"color\": \"#E2FC97\"}, \" & \", {\"text\": \"Light Gray\", \"color\": \"#C2C2C2\"}, \" Chalks\"]"
+	quest.6E4526482AFA8D2A.title: "&dTemplate: Celestigem"
+	quest.6E4F3FE32C5D8285.quest_desc: ["&7&oRandomly gain a Bene Upgrade."]
+	quest.6E4F3FE32C5D8285.title: "&bBee Upgrade Bag"
 	quest.6E62CF3784A15E0F.title: "&fChemical Card"
 	quest.6E66D752E153E00F.title: "&fUseful &aTier 1&f Glyphs"
 	quest.6E7E4899C5468DED.quest_desc: [
@@ -11447,7 +11830,7 @@
 	]
 	quest.6F37482EE0AB4ABD.title: "&dIesnium Pickaxe"
 	quest.6F3FDE3AF1678CE5.quest_desc: [
-		"Fertile grass is plentiful in many places, but not this one. Most islands in the void have a breed of grass that only spreads more of iteself."
+		"Fertile grass is plentiful in many places, but not this one. Most islands in the void have a breed of grass that only spreads more of itself."
 		""
 		"If you find yourself without grass in your starting location, get some Grains of Infinity and toss them in a puddle of water with some dirt, and the essence-rich fluid will convert the two into a &aGrass Seed&r."
 		""
@@ -11496,7 +11879,19 @@
 		"Works on &chostile mobs&r as well!"
 	]
 	quest.6FB2393F2348D59E.title: "&fMoving Mobs"
-	quest.6FC43A837B01E067.title: "&eEnderIO Conduit Bundle"
+	quest.6FC43A837B01E067.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 8x Item Conduit"
+		"&7&o- 8x Energy Conduit"
+		"&7&o- 8x Fluid Conduit"
+		"&7&o- 8x Chemical Conduit"
+		"&7&o- 8x Heat Conduit"
+		"&7&o- 8x ME Conduit"
+		"&7&o- 8x Redstone Conduit"
+		"&7&o- 8x RS Conduit"
+	]
+	quest.6FC43A837B01E067.title: "&eEnderIO Conduits"
 	quest.6FD2FB59D54B3158.quest_desc: [
 		"&bQuality Multiplier&r: x2.5"
 		""
@@ -11523,6 +11918,7 @@
 	quest.6FEA088D2D5A3AEF.title: "&dBookwryms &fand Magical Storage!"
 	quest.6FEF508F7DDDB261.quest_subtitle: "Hard mode walking"
 	quest.6FEF508F7DDDB261.title: "&cRoller Skates"
+	quest.6FF28198DEFB8014.quest_desc: ["&7&oRandomly gain an Actually Additions Drill Augment."]
 	quest.6FF28198DEFB8014.title: "&aDrill Augment Bag"
 	quest.6FF752712E99A936.quest_desc: ["To craft any of the upgrades, you'll need to make an &aUpgrade Base&r."]
 	quest.6FF752712E99A936.title: "&fUpgrade Base"
@@ -11589,15 +11985,15 @@
 	quest.70D5BEA5CC437AB6.quest_desc: ["Got a lot of random enchanted gear? Using a &dTome of Scrapping&r, you can break it down and extract some of the enchantments from it."]
 	quest.70D5BEA5CC437AB6.title: "&fSalvaging Enchants"
 	quest.71024D8DC19834AC.quest_desc: [
-		"If you're looking to store your items &bDigitally&r, you'll want to make the &aDisk Drive Bay&r and some &2Storage Cells&r."
+		"If you're looking to store your items &bDigitally&r, you'll want to make the &aME Drive&r and some &2Storage Cells&r."
 		""
-		"The Disk Drive Bay can contain up to &b10 AE Disks&r. When connected to your network, items can automatically be stored as digital media and accessed via interfaces, I/O Buses and Terminals."
+		"The &aME Drive&r can house up to &b10 AE Disks&r. When connected to your network, items can automatically be stored as digital media and accessed via interfaces, I/O Buses and Terminals."
 		""
-		"Each &aItem Storage Cell&r can store up to 63 different item types. The size of the Storage Cell will determine how many of each item type it can store, which is measured in &bBytes&r."
+		"Each regular &aItem Storage Cell&r can store up to 63 different item types. The size of the Storage Cell will determine how many of each item type it can store, which is measured in &bBytes&r. There are, however, addons in this pack that change what gets1 stored and how it gets stored."
 		"{@pagebreak}"
-		"For Example: A 1k Item Storage Cell can hold up to 8,128 items of a single type. If you were using all 63 types on that disk, you could hold a maximum of 4160 items."
+		"For example: A &b1k Item Storage Cell&r can hold up to 8,128 items of a single type. If you were using all 63 types on that disk, you could hold a maximum of 4160 items."
 		""
-		"This may seem confusing at first, but it becomes fairly easy to understand when you start using them. If you really want to avoid typed drives however, AE2Things has you covered. You can make the &btypless drives&r for a slightly higher cost."
+		"This may seem confusing at first, but it becomes fairly easy to understand when you start using them. If you really want to avoid typed drives however, &eAE2Things&r allows you to make &btypless drives&r for a slightly higher cost."
 		""
 		"This quest rewards you with a choice of the storage type of your choosing."
 	]
@@ -11608,6 +12004,16 @@
 		"For some reason, the Overworld has infinite wind."
 	]
 	quest.711943CB0063626C.title: "&fWind Generator"
+	quest.711D381A7974F88A.quest_desc: [
+		"The &dAseembler Matrix&r is a multiblock structure that combines the functionality of &aMolecular Assemblers&r and &2Pattern Providers&r, and it can run many crafting jobs simultaneously."
+		""
+		"The &aAssembler Matrix&r can be between 3x3x3 and 7x7x7, must contain at least 1 Matrix Pattern Core and 1 Matrix Craft Core, and it must also not contain any hollow spaces."
+		""
+		"- The edges must be composed of &bAssembler Matrix Frames&r,"
+		"- The faces can be composed of &aAssembler Matrix Wall&r/&2Glass&r,"
+		"- The interior must be composed of &dMatrix Cores&r."
+	]
+	quest.711D381A7974F88A.title: "&fThe &dAssembler Matrix &fStructure"
 	quest.711E7B6204708BD7.quest_desc: [
 		"&dForce Field Projectors&r consume &3Fortron&r to create a procedurally regenerating area of blocks. It doesn't do much without a &2Mode&r to work from, but it's what makes all the &mmagic&r technology happen!"
 		""
@@ -11941,7 +12347,16 @@
 	quest.7365369CF1CCB2C9.quest_desc: ["The &aPortable Tank&r can store up to 256000mb of any fluid and will retain all fluids when broken."]
 	quest.7365369CF1CCB2C9.title: "&fPortable Tank"
 	quest.736EF0026F658DA7.title: "&2Tier 2 &fSeeds"
-	quest.73741B4979E89F93.title: "&eRouter Upgrade Bundle"
+	quest.73741B4979E89F93.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 9x Speed Upgrade"
+		"&7&o- 6x Stack Upgrade"
+		"&7&o- 4x Fluid Transfer Upgrade"
+		"&7&o- 4x Energy Upgrade"
+		"&7&o- 4x Muffler Upgrade"
+	]
+	quest.73741B4979E89F93.title: "&eRouter Upgrades"
 	quest.737E1886B44C3D8B.quest_desc: [
 		"&eMystical Agriculture's&r tools and armor can be upgraded using &dAugments&r in the &aTinkering Table&r."
 		""
@@ -12006,10 +12421,9 @@
 		""
 		"Each time a crystal is formed, or if the block is broken, the budding block has a chance to decay to a lower tier version and must be repaired by throwing it in water with &bCharged Certus Quartz Crystals&r."
 		""
-		"Flawless Budding Certus Quartz do not suffer this drawback and can be grown indefinitely!"
-		"However the Flawless blocks will decay into &aFlawed Budding Certus Quartz&r if you mine them, but can be moved safely using things like a &bCardboard Box&r. "
+		"&dFlawless Budding Certus Quartz&r do not suffer this drawback and can be grown indefinitely! These will decay into &7Flawed Budding Certus Quartz&r if mined, but can be moved safely using things like a &2Cardboard Box&r."
 		"{@pagebreak}"
-		"Harvesting the &bCertus Crystals&r before they are fully grown will only give dust, while fully grown crystals will give full &bCertus Quartz&r crystals."
+		"Harvesting the &2Certus Crystals&r before they are fully grown will only give dust, while fully grown crystals will give full &bCertus Quartz&r crystals."
 		""
 		"It is worth it to fully automate harvesting crystals as soon as possible, but that requires some Certus to get started with."
 		""
@@ -12141,6 +12555,12 @@
 	quest.75818C9F54BD4C02.title: "&3Fortron &7Generation"
 	quest.75A5A110FC155C5C.quest_desc: ["The &dMechanical Arm&r is an intricate and highly configurable machine that allows you to move items."]
 	quest.75A5A110FC155C5C.title: "&dMechanical Arm"
+	quest.75A7DDE0D617B5E6.quest_desc: [
+		"These are all of the blocks you'll need to complete the most optimal &6Quantum Computer&r setup."
+		""
+		"Though you can have more &6256M&r storage units within, 1 unit should be more than enough to handle all your crafting needs in this pack."
+	]
+	quest.75A7DDE0D617B5E6.title: "&fMaximum Size &6Quantum Computer"
 	quest.75C7413F93325A3B.quest_desc: [
 		"&aSilver&r can be a tricky precious resource to find, and you may need to resort to a general purpose ore generator to get your hands on some."
 		""
@@ -12172,6 +12592,8 @@
 		"&eNote&r: Due to impact on load times, general crafting is currently disabled. We apologize for the inconvenience."
 	]
 	quest.75D3AC9CCA5A82E4.title: "&dMechanical Crafter"
+	quest.75D7595FD90E77E5.quest_desc: ["Each &dAssembler Matrix Pattern Core&r provides 36 pattern slots to the &6Assembler Matrix&r."]
+	quest.75D7595FD90E77E5.title: "&dAssembler Matrix Pattern Core"
 	quest.75EE2E239783B03E.quest_desc: [
 		"While this armor might look weak at first, it gains actual attributes when supplied with power."
 		""
@@ -12207,6 +12629,12 @@
 		"&3Mechanical Harvesters&r are used to gather crops."
 	]
 	quest.767288EF95829225.title: "&3Mechanical Farming"
+	quest.7675666E156F0A94.quest_desc: [
+		"Each &dAssembler Matrix Speed Core&r counts as an &aAcceleration Card&r for the overall structure."
+		""
+		"The &6Assembler Matrix&r will run at full speed with 5 &dSpeed Cores&r. Any more will have no extra effect on its processing speeds."
+	]
+	quest.7675666E156F0A94.title: "&dAssembler Matrix Speed Core"
 	quest.7695C03E7A574D93.quest_desc: [
 		"&bProsperity Shards&r are mined from Prosperity ore. You'll need a lot of this to make the different seeds in Mystical Ag. It's also used in making most of the tools and armor."
 		""
@@ -12251,8 +12679,29 @@
 		""
 		"These charges replenish over time (seen on the hotbar), and can be increased or regained through various enchantments or trinkets."
 	]
-	quest.771A95966FB7FE50.title: "&eBasic Farming Bundle"
-	quest.771F1627EAD39DCA.title: "&dAE2 256k Disk Bundle"
+	quest.771A95966FB7FE50.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 8x Worm"
+		"&7&o- 4x Green Fertilizer"
+		"&7&o- 4x Red Fertilizer"
+		"&7&o- 2x Greenhouse Glass"
+		"&7&o- Rich Soil"
+	]
+	quest.771A95966FB7FE50.title: "&eBasic Farm Upgrades"
+	quest.771F1627EAD39DCA.quest_desc: [
+		"&7&n&oChoose one of the following:"
+		""
+		"&7&o- 256k ME DISK Drive"
+		"&7&o- 256k ME Item Cell"
+		"&7&o- 256k Ender Item Cell"
+		"&7&o- 256k ME Fluid Cell"
+		"&7&o- 256k ME FE Cell"
+		"&7&o- 256k ME Checmical Cell"
+		"&7&o- 256k ME Source Cell"
+		"&7&o- 256k ME Crafting Storage"
+	]
+	quest.771F1627EAD39DCA.title: "&dAE2 256k Disks"
 	quest.77372AD6C4049263.quest_desc: [
 		"For modded veterans, &eEnderIO&r held great memories due to its amazing pipes, called &dConduits&r."
 		""
@@ -12476,7 +12925,7 @@
 		""
 		"To make the &dFluix Crystal&r, you'll first need to charge &bCertus Quartz Crystal&r in the charger. Next, toss the crystal with a piece of redstone and nether quartz in a pool of water out in the world."
 		""
-		"The components will react and form a Fluix Crystal that is ready for refinement! You can do many of these at once to speed up the process, as well as eventually making machines that can automate the creation process for you."
+		"The components will react and form a &dFluix Crystal&r that is ready for refinement! You can do many of these at once to speed up the process, as well as eventually making machines that can automate the creation process for you."
 	]
 	quest.78ADC11570C5561E.title: "&dFluix Crystals"
 	quest.78C04CC1114AECF7.quest_desc: [
@@ -12537,14 +12986,14 @@
 	quest.79758946937D2AE9.quest_desc: ["Your first mesh! Great for some simple resources or gathering more plants to work with."]
 	quest.79758946937D2AE9.title: "&fMechanical Cloth Mesh"
 	quest.7983727D0EE456FD.quest_desc: [
-		"&aJust Dire Things&r has a very unique mechanic for acquiring its elusive materials."
+		"&eJDT&r has a very unique mechanic for acquiring its materials."
 		""
-		"It starts by making &aGoo&r, and spreading that Goo onto other blocks to convert them over."
+		"It starts by making &bGoo&r which will spread onto other blocks to convert them over time."
 		""
-		"The first Goo that you'll make is called &aPrimogel Goo&r, which takes only a few basic materials you'll come up with living in the skies."
+		"The first &bGoo&r that you'll make is called &aPrimogel Goo&r, which takes only a few basic materials."
 	]
 	quest.7983727D0EE456FD.quest_subtitle: "Gooey Goodness"
-	quest.7983727D0EE456FD.title: "&fIt all Starts with some &aGoo"
+	quest.7983727D0EE456FD.title: "&fIt All Starts With &aGoo"
 	quest.79873815DEB7A086.quest_desc: [
 		"&aImporters&r and &aExporters&r are able to wirelessly insert into and pull from a &dQIO system&r set to their frequency."
 		""
@@ -12573,19 +13022,21 @@
 	quest.799515068A0B6D57.title: "&fAuto-Clicking"
 	quest.79A7540F94A2183E.quest_desc: ["The &aAmulet of Protection&r applies a &2Gem's &bAction Effects&r whenever the player is struck by an enemy."]
 	quest.79A7540F94A2183E.title: "&fAmulet of Protection"
-	quest.79C2E6B94AF54292.title: "&bVoid Upgrade"
+	quest.79C048F1AC234068.quest_desc: ["Generates at a base rate of 512 FE/tick, 4x the previous tier!"]
+	quest.79C048F1AC234068.quest_subtitle: "Makes energy from sunlight, T2"
+	quest.79C048F1AC234068.title: "&cBlazegold Solar Panel"
 	quest.79C4735198D85139.quest_desc: ["With &dPolyvinyl Chloride&r, you can now make &dTurbo Upgrade&r for your machines, which work 8x faster than &3Advanced Upgrades&r."]
 	quest.79C4735198D85139.title: "&dTurbo Upgrade"
 	quest.79CC3BBEC8B16640.quest_desc: ["The &aFridge&r is the perfect place to store cold items, and can be upgraded to provide more recipes for your &bKitchen Multiblock&r!"]
 	quest.79CC3BBEC8B16640.title: "&fFridges"
 	quest.79E5C4E3958DA8DD.quest_desc: [
-		"&6Entro Crystals&r are harvested from budding blocks, just like harvesting Certus!"
+		"&2Entro Crystals&r are harvested from budding blocks, just like harvesting Certus!"
 		""
 		"To create the budding block that grows Entro Crystals, you'll need to make an &aEntro Seed&r first and then right click them on a &dFluix Block&r in the world to convert it over."
 		""
 		"It's a good idea to get these crystals growing early, especially if you plan on getting into &bExtended AE&r!"
 	]
-	quest.79E5C4E3958DA8DD.title: "&fGrowing &6Entro Crystals"
+	quest.79E5C4E3958DA8DD.title: "&fGrowing &2Entro Crystals"
 	quest.79F2BC05D79B9863.quest_desc: [
 		"The &bBattlemage's Set&r is for those who like to get up close and personal, while also slinging the occasional spell here or there."
 		""
@@ -12624,6 +13075,7 @@
 		""
 		"&7A similar synergy exists for passive animals among the various rites..."
 	]
+	quest.7A6E340CD1F4D5CA.title: "&5Template: Eclipse Alloy"
 	quest.7A7B3CDAAAC2409D.quest_desc: [
 		"The &6Wither Builder&r will automatically build the Wither for you when provided the proper items and power."
 		""
@@ -12647,12 +13099,6 @@
 	]
 	quest.7A9856F0E081944C.title: "&dSpell Imbuement"
 	quest.7AAE6DAFE0092A95.title: "&364k Storage Part"
-	quest.7AB20F8AB1A2F32C.quest_desc: [
-		"&aWindmill Sails&r are useful early-game &bRPM&r generators as they attach automatically to surfaces and eachother without need a &aChassis&r or &aSuper Glue&r."
-		""
-		"You will need 128 &aSails&r to max out the &bStress Capacity&r of the &aWindmill Bearing&r. Any &aSails&r above 128 do not count towards increasing your &bStress Capacity&r and are purely decorative."
-	]
-	quest.7AB20F8AB1A2F32C.title: "&aWindmill Sail"
 	quest.7AC5EE9AF176EB85.quest_desc: [
 		"Applicable to &aDestroyer Block&r and &aEnderic Laser&r."
 		""
@@ -12828,6 +13274,13 @@
 	]
 	quest.7C9CABB75B422A4A.quest_subtitle: "Awakened Tier"
 	quest.7C9CABB75B422A4A.title: "&6Awakened Essence&r"
+	quest.7C9D4AE81BA16D14.quest_desc: [
+		"Generates at a base rate of 64 FE/tick. Not much, but it's free power during the day if these can see the sky!"
+		""
+		"Height and the amount of solar generators placed can impact this base rate."
+	]
+	quest.7C9D4AE81BA16D14.quest_subtitle: "Makes energy from sunlight, T1"
+	quest.7C9D4AE81BA16D14.title: "&aFerricore Solar Panel"
 	quest.7CA250EE0C5FBEFA.quest_desc: [
 		"The &aFertilizer Block&r is used to enhance crop growth below the connected &aMachine Frame&r. It requires water and energy to operate. The effect on the blocks below is similar to applying bonemeal, although it is less potent."
 		""
@@ -12919,6 +13372,8 @@
 	quest.7D6F927122F7FE62.title: "&6Ender Crystal"
 	quest.7D775D72987F0F47.quest_desc: ["The &aGene Checker&r shows you what genes an entity has. It will show you your own genes if you are not looking at another entity."]
 	quest.7D775D72987F0F47.title: "&aGene Checker&r"
+	quest.7D7CA7502495EA2D.quest_desc: ["&7&oRandomly gain a Bene Gene."]
+	quest.7D7CA7502495EA2D.title: "&bBee Gene Bag"
 	quest.7D7E98A886175D22.quest_desc: [
 		"&aMachetes&r are slightly faster than a regular sword, but does less damage."
 		""
@@ -12929,8 +13384,6 @@
 	quest.7D84ECD5BBB7964A.title: "&dEnchantment Extractor"
 	quest.7D98D9AB89357FA6.quest_desc: ["We're now ready to make the journey into a new technological age, the &2LV Age&r. Each machine in this age will require these &aBasic Machine Hulls&r. You'll use &cA LOT&r of them."]
 	quest.7D98D9AB89357FA6.title: "&fThe &2LV Age"
-	quest.7DA49FF69A6E53E3.quest_desc: ["&dSequenced Gearshift&r can be configured to follow a preset rotation pattern."]
-	quest.7DA49FF69A6E53E3.title: "&dSequenced Gearshift"
 	quest.7DC700AAF1680424.title: "&aCardboard"
 	quest.7DE9A4C7979AC1FA.quest_desc: [
 		"The &6Tempad&r allows you to open a door to any marked location."
@@ -12946,7 +13399,7 @@
 		"This uses &6Time Fluid&r to speed up any block it's used on, similar to the Time in a Bottle or Temporal Pouch."
 	]
 	quest.7E0BE6024525BF56.title: "&fTime Wand"
-	quest.7E1EEF5E7F216B49.quest_subtitle: "Tuff it out!"
+	quest.7E1EEF5E7F216B49.quest_subtitle: "Tuff it out or fish it up"
 	quest.7E1EEF5E7F216B49.title: "&fZinc Essence"
 	quest.7E2399076FA8B7AC.quest_desc: [
 		"The &aMono-Directional Connector&r can connect two networks in a straight like up to 512 blocks away."
@@ -12964,13 +13417,13 @@
 	quest.7E49ACE4F6DBA10B.quest_subtitle: "Pour Molten Aluminum over a Catalyst, or..."
 	quest.7E49ACE4F6DBA10B.title: "&fBudding Aluminum Geore"
 	quest.7E4FF5A454039E47.quest_desc: [
-		"One of the main uses of digital storage is the ability to &6Autocraft Items&r."
+		"One of the main uses of digital storage is the ability to &3Autocraft Items&r."
 		""
-		"In AE2, this is done by creating custom multiblocks that make use of &aCrafting CPUs, Co-Processors&r, and more."
+		"In &eAE2&r, this is done by creating custom multiblocks that make use of &aCrafting CPUs, Co-Processors&r, and more."
 		""
-		"To get started, you'll need to make the main crafting component: the &6Crafting Unit&r."
+		"To get started, you'll need to make the main crafting component: the &3Crafting Unit&r."
 	]
-	quest.7E4FF5A454039E47.title: "&6Autocrafting"
+	quest.7E4FF5A454039E47.title: "&3Autocrafting"
 	quest.7E685EAD7FB60B45.quest_desc: [
 		"The &aSalvaging Table&r is used to break down affix items into their corresponding rarity materials:"
 		""
@@ -13048,14 +13501,6 @@
 		"Coins may be submitted to &6The Shopkeeper&r in exchange for items, item bundles, or events, which improve as you progress through the game."
 	]
 	quest.7EDADB7DB5EA981A.title: "&fUsing the &6FTB Shop&f!"
-	quest.7EDCDC0CA1A03FA0.quest_desc: [
-		"The &aItem Collector&r from &eJust Dire Things&r is a highly configurable collector."
-		""
-		"Inside of the interface, you can adjust the radius up to a max of 11x11x11, but can also offset where the machine collects if needed."
-		""
-		"You can also adjust even more options like filtering which items it can pick up, or how fast it picks items up."
-	]
-	quest.7EDCDC0CA1A03FA0.title: "&eJustDire's &fItem Collector"
 	quest.7EE04D8B354DC5CB.title: "&6Ender Transmitter"
 	quest.7EF3DE47C8EF094A.quest_desc: [
 		"&bHanging Herbs&r are a way to store and process your collected &aHerbs&r."
@@ -13218,7 +13663,19 @@
 	quest.7FDD828A23BEABFF.title: "&cRuby Dust"
 	quest.7FE552DC58B0A718.quest_desc: ["The &cMob Slaughter Factory&r does more than just kill passive mobs for meat—it reduces them to &dPink Slime&r, a liquid that is crucial for progression in &eIndustrial Foregoing&r."]
 	quest.7FE552DC58B0A718.title: "&cMob Slaughter Factory"
-	quest.7FE61681059EAE0A.title: "&bData Model Bundle"
+	quest.7FE61681059EAE0A.quest_desc: [
+		"&7&n&oChoose one of the following basic data models:"
+		""
+		"&7&o- Pigs"
+		"&7&o- Cows"
+		"&7&o- Chickens"
+		"&7&o- Zombies"
+		"&7&o- Skeletons"
+		"&7&o- Spiders"
+		"&7&o- Witches"
+		"&7&o- Endermen"
+	]
+	quest.7FE61681059EAE0A.title: "&bBasic Data Models"
 	quest.7FEDD82D9B47EFCD.quest_desc: ["The &aBio Generator&r consumes biomass to generate energy, which can be increased with &bAddons&r."]
 	quest.7FEDD82D9B47EFCD.title: "&fBio Generator"
 	quest.7FF04E6E35CA419F.quest_desc: [
@@ -13236,6 +13693,9 @@
 	reward.06B2039F9E638FA6.title: "+5 Magic Skill Points"
 	reward.075F9862BFD15149.title: "Charm Curio Slot"
 	reward.076D53F93DC2F63F.title: "&bResistance Gene"
+	reward.07A028DA833592A0.title: "&9Medium Productivity"
+	reward.08D5695A64211839.title: "&6Upgrade: Productivity Omega"
+	reward.0DF8D6B68AA314E2.title: "&9Upgrade: Productivity Beta"
 	reward.0EEA7EA0B2E08BB7.title: "&aBasic Spider Data Model"
 	reward.0F13AA671453AE24.title: "+1 Magic Skill"
 	reward.0F1402587A87F3EE.title: "&aEfficiency Gene"
@@ -13244,16 +13704,20 @@
 	reward.0FF440178E43262A.title: "&bMutated Speed Gene"
 	reward.1029F8E7C523BC66.title: "Allay Event"
 	reward.1041E1A660F007D2.title: "Scavenger I"
+	reward.1120F778F50873FF.title: "&aUpgrade: &aUpgrade: AdultBee"
 	reward.1175BAFEEF40A724.title: "Reset Athletics Skill Tree"
 	reward.11D5E72A2A8AD707.title: "+1 Ranged Skill Level"
+	reward.12A16F8A50A1AE1B.title: "&aNormal Productivity"
 	reward.12F98B4197ADC9A1.title: "+1 Magic Skill"
 	reward.14803F87ACFF4B3D.title: "Infinity"
 	reward.14843FD6711938E5.title: "Shop Notification Sound"
 	reward.15E473C7732E2CA7.title: "Back to Infinity"
 	reward.17E16DEEF43F32D8.title: "+1 Magic Skill"
 	reward.183727C7085361D6.title: "&dNo Fall Damage Gene"
+	reward.195B266904A61BB5.title: "&dUpgrade: Simulator"
 	reward.19E91DBE0CFE27C4.title: "Shop Notification Toast"
 	reward.1C5F7D1F57C698CE.title: "Summon an Armadillo"
+	reward.1D503E458220907C.title: "Spirit Selection"
 	reward.1E5DF95A17B95E9B.title: "If you're seeing this, you are in editor mode!"
 	reward.1EB731F51754C437.title: "+1 Magic Skill"
 	reward.1F72CF77D08A9E01.title: "1 Skill Point In &6Melee&r"
@@ -13261,13 +13725,17 @@
 	reward.200AC4BFFD66D2E2.title: "+3 Magic Skill"
 	reward.204C094BCB3A0668.title: "Back Curio Slot"
 	reward.20C7FA090634760B.title: "Bracelet Curio Slot"
+	reward.21B7676AF3477D15.title: "&aWeak Endurance"
 	reward.2204BB190CE01E8F.title: "&aBasic Witch Data Model"
 	reward.2292CE0AA6C85837.title: "&f1 Skill Point in &dMagic"
+	reward.233376C051EE8347.title: "&aUpgrade: Speed"
+	reward.23683E734E00C19D.title: "&6Metaturnal Behaviour"
 	reward.239B71D23AC7CC7B.title: "+1 Magic Skill"
 	reward.23AF98D5921D27AA.title: "Sharpness I"
 	reward.26C058E5EA512AFC.title: "Reset Magic Tree"
 	reward.28110E1A8FB59355.title: "Belt Curio Slot"
 	reward.292C3C519F23E22A.title: "&aNight Vision Gene"
+	reward.297DB6CB2A439CF6.title: "&9Normal Endurance"
 	reward.29C328309964A796.title: "You feel your sins crawling on your back"
 	reward.2A9A44AE9AC7E045.title: "Reset Mining Tree"
 	reward.2C3F1A2D2E41F827.title: "+1 Magic Skill"
@@ -13283,6 +13751,7 @@
 	reward.3158B71C6BC533B3.title: "+1 Melee Skill"
 	reward.322716245560216F.title: "&aWater Breathing Gene"
 	reward.323E61FF63FC8444.title: "+1 Athletics Skill"
+	reward.32548AF6E863C8EA.title: "{\"text\": \"Advanced Tier Installer\", \"color\": \"#FC7E69\"}"
 	reward.342B8F576B06EEFF.title: "Ars Nouveau Focus Curio Slot"
 	reward.34C0F383E16E4F8B.title: "+1 Melee Skill"
 	reward.35206AD87E887AE5.title: "&f1 Skill Point in &dMagic"
@@ -13299,11 +13768,16 @@
 	reward.3BFD190A717B5159.title: "Shop Notification"
 	reward.3CB6A78132101CF9.title: "Necklace Curio Slot"
 	reward.3CBFB62984232DA5.title: "Mending"
+	reward.3D294A2FFFF1FB57.title: "&dRain Tolerance"
+	reward.3D727C60023CE422.title: "&aUpgrade: Productivity Alpha"
 	reward.3D8D3AFE6F8E741E.title: "Fairy Event"
 	reward.3DB2169F865D196B.title: "&aChilling Gene"
+	reward.3DC3FFFA753A1A80.title: "&dUpgrade: Productivity Gamma"
 	reward.3E1A04FDE4188A29.title: "+1 Magic Skill"
 	reward.3EE8DD60EB22A9C1.title: "&aBasic Zombie Data Model"
 	reward.3F05EDAAAEEA77A8.title: "Shop Notification"
+	reward.3F1A10DEDBACEED9.title: "&6Upgrade: Block"
+	reward.3F1E4436CE251EAF.title: "&6Passive Temper"
 	reward.424E9B6F1377BB10.title: "Gain Temporal Time (1 hr)"
 	reward.430BED624A8E8D9D.title: "Shop Sound"
 	reward.4313988799774530.title: "&dMutated Haste Gene"
@@ -13322,39 +13796,50 @@
 	reward.4AC202E4CB2BFD9B.title: "&aBasic Enderman Data Model"
 	reward.4B4E6E0741A62FB9.title: "Hands Curio Slot"
 	reward.4D69DB0EB94D6166.title: "Head Curio Slot"
+	reward.4D6FD1554B75125F.title: "&dNormal Temper"
 	reward.4D979D15145E5BAF.title: "Wandering Trader Event"
 	reward.4DF1D3710DEEB1AB.title: "&f1 Skill Point in &dMagic"
 	reward.4E0A424438B78332.title: "+1 Magic Skill"
 	reward.4E2CEF4A69F4F992.title: "Summon Master of Storms"
 	reward.4E967B03055DAA63.title: "+1 Defense Skill"
+	reward.4E9BB971893946AA.title: "&9Upgrade: Speedier"
+	reward.516BE94A17309CC6.title: "&dMedium Endurance"
 	reward.5231D78F5A4E994D.title: "Summon a Sniffer"
 	reward.5477B1366AD724A2.title: "&6Ender Dragon Health Gene"
 	reward.54BFA4339B81E086.title: "No More Infinity"
 	reward.54CFD44E7021DDAE.title: "&f1 Skill Point in &dMagic"
 	reward.54EA6D3EAF40CD8A.title: "+1 Magic Skill"
+	reward.54F6251CB89C0328.title: "&6Weather Tolerance"
 	reward.56040354F0AAB372.title: "&6Mutated More Hearts Gene"
 	reward.57DC44652AED36CC.title: "Reset Ranged Tree"
 	reward.57F58718AA395BAF.title: "Feet Curio Slot"
 	reward.5870EC9F52AB69C7.title: "Reset Melee Tree"
+	reward.589A754A67ED17BC.title: "&aUpgrade: Anti-Teleportation"
 	reward.593BFE1B5647B03B.title: "&aChilling Gene"
 	reward.5A114EF239CA0349.title: "+1 Melee Skill"
+	reward.5A7BF7E771B20F92.title: "&9Hostile Temper"
 	reward.5C52ECADF27A58D3.title: "+1 Magic Skill"
 	reward.5CF1FF581D9CE7C1.title: "+1 Magic Skill Level"
 	reward.5D59202EA08550F4.title: "+3 Magic Skill"
 	reward.5DC894FF762F7520.title: "&fItem Magnet Gene"
+	reward.5DEA14F0C97DDCCA.title: "&aUpgrade: Range"
 	reward.5E05D7FD0861A13B.title: "+1 Melee Skill Level"
 	reward.5E71D2A58521E928.title: "Fed The Beast"
+	reward.5FB1B68C034FCC05.title: "&dUltimate Tier Installer"
 	reward.60761BAD47F6CAE9.title: "Knowledge of the Ages I"
 	reward.616B219E6DA751B5.title: "&fBioluminescence Gene"
 	reward.619B432AF9FBE14D.title: "You decide"
 	reward.633AA62E5EF1E3DC.title: "&dMutated Resistance Gene"
+	reward.63459C14DCD35DB8.title: "&dHigh Productivity"
 	reward.648A123219C26A33.title: "Completed The &6FTB Pyramid&r"
+	reward.6603A00422D813B5.title: "&bElite Tier Installer"
 	reward.66627D9AFAE15CEF.title: "&aClaws Gene"
 	reward.6671E03F4CA16AD6.title: "&6No Hunger Gene"
 	reward.6687BDFBA7DB3DC4.title: "+1 Magic Skill"
 	reward.6741C9241570AAA7.title: "&6Mutated Regeneration Gene"
 	reward.67CDCFCE4B21FD1D.title: "1 Skill Point In &dMagic&r"
 	reward.67E5000402E634D7.title: "+1 Defense Skill Level"
+	reward.68C6F3D444D3180C.title: "&6Very High Productivity"
 	reward.695DE52FC7EEFD40.title: "&aBasic Pig Data Model"
 	reward.69E9924221CB2512.title: "&aStrength Gene"
 	reward.6A5D0B618A1F9402.title: "&fJump Boost Gene"
@@ -13362,8 +13847,10 @@
 	reward.6B5DCDFD3982680B.title: "+1 Magic Skill"
 	reward.6DCF1BC08AC2433B.title: "&fWall Climbing Gene"
 	reward.6E39028F7E470FCF.title: "1 Skill Point In &bMining&r"
+	reward.6E663FD1C40ACE4B.title: "&6Strong Endurance"
 	reward.6E84C01F4D769E8F.title: "Apotheosis Boss Event"
 	reward.6ED22F189FEB27E2.title: "+1 Magic Skill"
+	reward.6EF3E2BC5962D2B6.title: "&6Queen Bee's Treat"
 	reward.707DD542ED076762.title: "&bWither Immunity Gene"
 	reward.70B20DBD76B83038.title: "Reset Defense Tree"
 	reward.70F43B9C300753C7.title: "&aBasic Skeleton Data Model"
@@ -13371,10 +13858,13 @@
 	reward.76EAB252DC10CAB9.title: "1 Skill Point In &6Athletics&r"
 	reward.77D9F9A25FBB23F7.title: "&dPhotosynthesis Gene"
 	reward.78FAD81FB1199F94.title: "&f1 Skill Point in &dMagic"
+	reward.7932D9CF0C07DB35.title: "&aDiurnal Behaviour"
+	reward.7A88B8503FA188DC.title: "&dNocturnal Behaviour"
 	reward.7B560892DF3BC4FC.title: "Shop Sound"
 	reward.7B96E0AF7B53A334.title: "&aBasic Chicken Data Model"
 	reward.7D70E419055C9031.title: "&aSpeed Gene"
 	reward.7E3073F12B6D47A4.title: "Toadally Balanced!"
+	reward.7EB575F8C799BBDE.title: "&aAggressive Temper"
 	reward.7ED54BCB74A2A12B.title: "&fGrass Eating Gene"
 	reward.7F6BAAED74F08FE4.title: "Summon a Turtle"
 	reward.7FF50BBC4D6C7D2E.title: "+1 Magic Skill"
@@ -13395,7 +13885,7 @@
 	reward_table.1BE7BED3AC9E9144.title: "&aEnderIO Basic Conduit Bundle"
 	reward_table.1E2D6248E209E76E.title: "&aBox of RS2 Goodies"
 	reward_table.1F4E4C1BA7061C21.title: "&bMekanism Pipes Bundle"
-	reward_table.2084F1B73457F96A.title: "Apotheosis &6Flawless&r Gems Bag"
+	reward_table.2084F1B73457F96A.title: "&dApotheosis Flawless Gems Bag"
 	reward_table.212D3798847047E2.title: "&dEnderIO Advanced Conduit Bundle"
 	reward_table.221F2A0942F0D722.title: "&aPipez Pipes Bundle"
 	reward_table.22D98C561EB769B0.title: "&aSaddle Up"
@@ -13403,7 +13893,7 @@
 	reward_table.2A0BEF0439EFEF21.title: "&dRS2 256k Storage Cell Bundle"
 	reward_table.2A6EB580E68A4DA4.title: "&aRS2 Processor Bundle"
 	reward_table.2F1621E7D65D48A1.title: "&aBasic Resource Bag"
-	reward_table.31242894075EA0C8.title: "Apotheosis &dGems&r Bag"
+	reward_table.31242894075EA0C8.title: "&bApotheosis Gems Bag"
 	reward_table.312C2CF060EA3DF8.title: "&bFargo's Dungeon Loot Bundle"
 	reward_table.32AF1F440497F6AA.title: "Random Tool Chest"
 	reward_table.3550A9699B7F59BE.title: "&aTier 1 Addon Bundle"
@@ -13437,6 +13927,7 @@
 	reward_table.67712B94B59B8C0B.title: "&aStorage Upgrade Bag"
 	reward_table.67FFE8A964083E77.title: "&bIF Tier 2 Addon Bundle"
 	reward_table.687E9C40DF18ED70.title: "Apotheosis &5Perfect&r Gems Bag"
+	reward_table.6A43918B4E018DD0.title: "&bBee Upgrade Bag"
 	reward_table.6AD278380BF9C4F4.title: "&aMekanism Goodie Bag&r"
 	reward_table.6B520FEE6CCECFAB.title: "&dReplication Matter Tanks (128k)"
 	reward_table.6BFF80D3FD5100AF.title: "&aArtisan Scroll Bag"
@@ -13444,6 +13935,7 @@
 	reward_table.73015E34EE350EF9.title: "Rune of Choice"
 	reward_table.74D2721A88E9AAA0.title: "&bEssence Goodie Bag&r"
 	reward_table.786A0D3E6BEDA2C3.title: "&aRouter Upgrade Bundle"
+	reward_table.789D58F7AF655AD8.title: "&bBee Gene Bag"
 	reward_table.78C9ADA190F7FFB5.title: "&bMekanism Upgrade Bundle"
 	reward_table.790A03E65CE8EBE4.title: "&6Grandma's Treat&r"
 	reward_table.7CCF18DC0540A34E.title: "&bFlux Bundle"
@@ -13453,7 +13945,6 @@
 	reward_table.7EE0B6A5555C3EF1.title: "&bCreate Improved Bundle"
 	reward_table.7F48F8045BCBF002.title: "&bRS2 Parts Bundle"
 	task.0020E6638DC77241.title: "&dRelics&r"
-	task.00A4D09EDA359F3C.title: "&fQuantum Storage"
 	task.00BCF298E9823CB5.title: "Player Augmentation"
 	task.00F90C52CBAECEBB.title: "&dSpell &aInks"
 	task.014032E1127D63B6.title: "Any Runewood sapling"
@@ -13519,6 +14010,7 @@
 	task.0E43BBA4534C1D1B.title: "Did you mess up...?"
 	task.0E7508D82D5586C2.title: "As Efficient As It Gets"
 	task.0E7B34D38F84AC11.title: "Any Brooch"
+	task.0E7BA466F8A98A9F.title: "&eKill: &cClawdian"
 	task.0E8C4E7C9C329FA2.title: "&eObserve&f: Lightning Rod"
 	task.0E9F56ED131D460D.title: "Charger Catalysts"
 	task.0ECBFE9262249011.title: "Any soulstained tool"
@@ -13540,6 +14032,7 @@
 	task.1203293F62D3F55F.title: "Mid Upper Layer"
 	task.1211B7B1BC40225B.title: "Storage Controllers"
 	task.121417E43B67D623.title: "Any standard candle"
+	task.12176C8DACC5E2E4.title: "Ultimate Meka Bundle"
 	task.1257CB86BCFAFF54.title: "&6Awakened Supremium &fArmor"
 	task.12D4A14AE64DAECC.title: "Any #minecraft:leaves"
 	task.1359EB00772FEB8A.title: "Observation: &aInfected Bookshelf"
@@ -13575,6 +14068,7 @@
 	task.19FB3879C5AE09BA.title: "Any &dTier 5 &fMob Seeds"
 	task.19FEB64A680EC482.title: "MI Fluid Pipes"
 	task.1A10DD6AAF05B8DC.title: "&eFind Structure&f: &6Arcane Library"
+	task.1A14716B7F473DC5.title: "Just Dyna Things"
 	task.1A3819027110CDC5.title: "&fSummon a &aCommon Animal"
 	task.1A4A5A59FFF815E2.title: "&cHeaters"
 	task.1A712E5D65A28EF4.title: "&dPocket Storage&f!"
@@ -13640,7 +14134,7 @@
 	task.269CF5B1D914AFC8.title: "Visit The &6Bumblezone&r"
 	task.270B2E91CFC59835.title: "Desert Trial Sherds"
 	task.27B5B3E2F6360E5F.title: "&eFind Structure&f: &6Bastion"
-	task.27F8AF789DE14145.title: "Any Processor"
+	task.27F8AF789DE14145.title: "Any &eAE2 &fProcessor"
 	task.27FFF0492348277F.title: "&dGrowth Accelerators"
 	task.281F47BF78FD194B.title: "&9It's Hammer Time&r"
 	task.2863432ECAE88DDF.title: "&fWild Summons"
@@ -13691,6 +14185,7 @@
 	task.3084E61C595943E3.title: "&aJetpack Options"
 	task.30C33068A3EA7072.title: "Schpellz"
 	task.30C463CFF560647D.title: "&fRepair a Chalk"
+	task.30E3977563D7722E.title: "Advanced Meka Bundle"
 	task.310335F073D442F0.title: "Hopper Upgrades"
 	task.3128F6B31EF0AAA7.title: "Any Cognitive armor"
 	task.31D3D8C34525AC97.title: "&fFilter Examples"
@@ -13723,6 +14218,7 @@
 	task.386D9AA214E6D415.title: "Useful Upgrades"
 	task.3895241AD9047B61.title: "Hidden"
 	task.38BED843EAAB96EF.title: "0"
+	task.38E423A13C37E437.title: "&dEchoing Budding Blocks"
 	task.390BE5325E1DE990.title: "&dTemporal Pouch&r"
 	task.3976B625344DFBB1.title: "&cIhagan's Animals"
 	task.397D694A3BBD7E9C.title: "Netherite Battlemage Set"
@@ -13746,6 +14242,7 @@
 	task.3CB07FD3F54AFA92.title: "&6Relics&r"
 	task.3D00D0A8A61617EA.title: "Snad"
 	task.3D09A59994D73C21.title: "&fAir Pressure"
+	task.3D326694D91E3A13.title: "Geore Golems"
 	task.3D6DD528D310D8B9.title: "Any &bTier 4 &fMob Seeds"
 	task.3D77BC2D58CE8E37.title: "&fUseful &dTier 3&f Glyphs"
 	task.3D8249AFA2C607A0.title: "&dNight Talisman&r "
@@ -13759,6 +14256,7 @@
 	task.3F46F72C0F67F699.title: "Skip this step"
 	task.3F5A6F2680A95A43.title: "&fImporters \\&\\ Exporters"
 	task.3F7FE89F1DBD4A48.title: "&eObserve&f: Squeezer"
+	task.3FB6FB9AEEAE5739.title: "150x Assembler Wall/Glass"
 	task.4087591E474FC477.title: "&fKill 10 &dEndermen"
 	task.4096CA7300D6F0EB.title: "Toggling Talisman Effects"
 	task.40BB388E2251B800.title: "&eObserve&f: &6Wandering Trader"
@@ -13771,6 +14269,7 @@
 	task.4180CC29AD0E5CB7.title: "Drink 8 Honey Bottles"
 	task.41C6DFE9A3B35FF8.title: "Exporters"
 	task.41D04382910066B5.title: "Gems"
+	task.41F820C3A757072B.title: "&eKill: &bScylla"
 	task.41F84CFCEEB9726B.title: "&6JustDire's &fFuel"
 	task.4231E260B5663246.title: "Summon an &7Otherstone Trader"
 	task.424E4C3828D04E2F.title: "Summon a &cDjinni Crusher"
@@ -13779,9 +14278,12 @@
 	task.4305EB1ACB09AEB9.title: "Processing Upgrades"
 	task.4309B43CD4447705.title: "&bConstruction Sticks&r"
 	task.43333831CA15EA20.title: "&fSummon a &ePossessed Warden"
+	task.43335047972E4FA8.title: "&eFind Structure&f: &dEnd Castle"
 	task.4335140E412572D8.title: "&fDefeat 10 &dGateways To Eternity"
+	task.43467AECBE710424.title: "Elite Meka Bundle"
 	task.43F12298AA3644E9.title: "Upgrading To Iron"
 	task.4415E9DB78B55B97.title: "&eKill&f: &aMaledictus"
+	task.446DBFCB73EC10E7.title: "&eFind Structure&f: &9The Acropolis"
 	task.45016D6A71CA38A9.title: "&cEnergy Cubes&r"
 	task.451E61A1ECC2650B.title: "FTB Events"
 	task.4544EA17F4CDD321.title: "Understanding Affix Items"
@@ -13810,6 +14312,7 @@
 	task.4A84D885C313D512.title: "&fStack Upgrades"
 	task.4AAA15EBC25F0934.title: "Hi Mikey"
 	task.4B1F104A44632F02.title: "Interactions"
+	task.4B459E2BBB4D1543.title: "&eJustDire's &fFuel"
 	task.4B48F3912AE46B3C.title: "&fSummon a &ePossessed Phantom"
 	task.4B65088186551D3C.title: "&fVoid Upgrades"
 	task.4B67D8495CB6403D.title: "&aGems"
@@ -13867,6 +14370,7 @@
 	task.557625D77812B78A.title: "Attack Upgrade"
 	task.55B1C70507F60EDF.title: "&fThe &bAE2 Guide"
 	task.55CC22F0E7476029.title: "&fSummon an &6Iesnium Golem"
+	task.55E36C96A2424F59.title: "&eKill: &6Ancient Remnant"
 	task.55F5BD3470BD58A4.title: "Energizing Rods"
 	task.56A35A967954A4C2.title: "&aDrawers"
 	task.56AEAE6BD791EA6C.title: "&fEnergy Cables"
@@ -13944,12 +14448,14 @@
 	task.6130E9ED81C8EECD.title: "&eMagical Storage"
 	task.61516AE235D5E73E.title: "5"
 	task.616ED86B19DC0FFB.title: "&eObserve&f: Coke Oven"
+	task.619E259715D3DAFC.title: "Any &eApplied Flux &fStorage Cell"
 	task.61B136724B06E927.title: "Plagued Set"
 	task.61B204D2034AFC4E.title: "2"
 	task.61C0F35123FBB85E.title: "&fKill: 1x &dWarden"
 	task.61EB975FAD009EF7.title: "&eFind Structure&f: &6Magical Dungeon"
 	task.62444557DFD28C36.title: "&aHyderin's Animals"
 	task.628DC7385ADA8103.title: "Any living tool"
+	task.62978C611C641A3D.title: "Any &eAE2&r Interface"
 	task.62AEAB0BA2360576.title: "Any &cTier 3 &fSeeds"
 	task.62B65545FCBA5292.title: "Discover All &6Bumblezone&r Biomes"
 	task.62DE6121CE506116.title: "Pipe Upgrades"
@@ -14058,6 +14564,7 @@
 	task.7811A2884A512908.title: "Pyramid Top"
 	task.785A1C5BF453C4CF.title: "Wireless Power?"
 	task.78869974512F8AD0.title: "Elevators"
+	task.78AD19380F54B22A.title: "&6JustDire's &fEmpowered Coal"
 	task.78CCC428BA2DE22B.title: "Visit The &dEnd&r"
 	task.79137957EC19FAE3.title: "&aBarks"
 	task.79182D262D72B84F.title: "&fTrial Summons"

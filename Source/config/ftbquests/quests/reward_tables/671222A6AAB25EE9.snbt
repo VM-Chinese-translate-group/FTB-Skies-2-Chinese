@@ -6,13 +6,12 @@
 	loot_size: 1
 	order_index: 55
 	rewards: [
-		{ id: "7E9BD95B9E210A16", item: { count: 1, id: "farmersdelight:rich_soil" } }
 		{
-			count: 4
-			id: "590D317EB1ECE836"
+			count: 8
+			id: "43C66B2BDFD6E584"
 			item: {
 				count: 1
-				id: "farmingforblockheads:red_fertilizer"
+				id: "actuallyadditions:worm"
 			}
 		}
 		{
@@ -24,11 +23,11 @@
 			}
 		}
 		{
-			count: 8
-			id: "43C66B2BDFD6E584"
+			count: 4
+			id: "590D317EB1ECE836"
 			item: {
 				count: 1
-				id: "actuallyadditions:worm"
+				id: "farmingforblockheads:red_fertilizer"
 			}
 		}
 		{
@@ -39,6 +38,7 @@
 				id: "actuallyadditions:greenhouse_glass"
 			}
 		}
+		{ id: "7E9BD95B9E210A16", item: { count: 1, id: "farmersdelight:rich_soil" } }
 	]
 	use_title: true
 }

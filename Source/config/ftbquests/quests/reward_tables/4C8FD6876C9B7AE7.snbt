@@ -7,22 +7,20 @@
 	order_index: 31
 	rewards: [
 		{
-			count: 2
+			count: 4
 			id: "4A07F3EB30D00D78"
 			item: {
 				count: 1
 				id: "ae2:logic_processor"
 			}
-			random_bonus: 2
 		}
 		{
-			count: 2
+			count: 4
 			id: "38FE07E2E668F856"
 			item: {
 				count: 1
 				id: "ae2:calculation_processor"
 			}
-			random_bonus: 2
 		}
 		{
 			count: 2
@@ -31,7 +29,6 @@
 				count: 1
 				id: "ae2:engineering_processor"
 			}
-			random_bonus: 2
 		}
 	]
 	use_title: true

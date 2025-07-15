@@ -7,7 +7,7 @@
 	order_index: 38
 	rewards: [
 		{
-			count: 8
+			count: 16
 			id: "6F6B4C6764035796"
 			item: {
 				count: 1
@@ -15,7 +15,7 @@
 			}
 		}
 		{
-			count: 8
+			count: 16
 			id: "0E37E4ED4477A111"
 			item: {
 				count: 1
@@ -23,7 +23,7 @@
 			}
 		}
 		{
-			count: 8
+			count: 16
 			id: "0120DEC3A60B8C61"
 			item: {
 				count: 1
@@ -31,7 +31,7 @@
 			}
 		}
 		{
-			count: 8
+			count: 16
 			id: "31010211C71376F5"
 			item: {
 				count: 1
@@ -39,7 +39,7 @@
 			}
 		}
 		{
-			count: 8
+			count: 16
 			id: "74E7B27EEC52B6A2"
 			item: {
 				count: 1

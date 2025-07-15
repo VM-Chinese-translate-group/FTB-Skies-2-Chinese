@@ -16,7 +16,7 @@
 		item_name: "Spirit Bundle"
 		string_id: "spirit_bundle"
 	}
-	loot_size: 1
+	loot_size: 8
 	order_index: 63
 	rewards: [
 		{

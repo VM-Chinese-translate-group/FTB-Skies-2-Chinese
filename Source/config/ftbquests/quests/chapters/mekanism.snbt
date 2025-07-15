@@ -2424,11 +2424,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "40CAF09EBC8C08FD"
-					type: "xp"
-					xp: 50
-				}
 			]
 			shape: "diamond"
 			tasks: [

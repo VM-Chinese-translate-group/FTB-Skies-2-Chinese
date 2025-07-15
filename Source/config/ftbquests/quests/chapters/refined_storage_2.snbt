@@ -871,6 +871,7 @@
 				{
 					id: "2E2CF42092AA43D8"
 					item: { components: { "ftbfiltersystem:filter": "or(item(cabletiers:elite_disk_interface)item(cabletiers:ultra_disk_interface)item(cabletiers:mega_disk_interface)item(cabletiers:creative_disk_interface))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 			]

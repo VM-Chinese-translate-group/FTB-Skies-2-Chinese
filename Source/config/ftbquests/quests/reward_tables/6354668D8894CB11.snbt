@@ -29,14 +29,14 @@
 		{ id: "7B47C7B0C672A3F8", item: { components: { "apotheosis:gem": "apotheosis:core/lunar", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
 		{ id: "39958DF2E881352D", item: { components: { "apotheosis:gem": "apotheosis:core/samurai", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
 		{ id: "5EBCF79F1DB12B0F", item: { components: { "apotheosis:gem": "apotheosis:core/slipstream", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
-		{ id: "4E20C17EA74F31F0", item: { components: { "apotheosis:gem": "apotheosis:the_nether/inferno", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
-		{ id: "0CBE686EAF930CFA", item: { components: { "apotheosis:gem": "apotheosis:the_nether/blood_lord", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
-		{ id: "4A2E2D715D29E242", item: { components: { "apotheosis:gem": "apotheosis:overworld/royalty", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
-		{ id: "766434FA3164A98E", item: { components: { "apotheosis:gem": "apotheosis:overworld/earth", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
-		{ id: "5EA063F308036EDE", item: { components: { "apotheosis:gem": "apotheosis:core/warlord", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
-		{ id: "41C45E42A27E5D3F", item: { components: { "apotheosis:gem": "apotheosis:core/tyrannical", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
-		{ id: "6EA8ED5F7F5DEBED", item: { components: { "apotheosis:gem": "apotheosis:core/splendor", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
 		{ id: "43CD5399C3A6C436", item: { components: { "apotheosis:gem": "apotheosis:core/solar", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "6EA8ED5F7F5DEBED", item: { components: { "apotheosis:gem": "apotheosis:core/splendor", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "41C45E42A27E5D3F", item: { components: { "apotheosis:gem": "apotheosis:core/tyrannical", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "5EA063F308036EDE", item: { components: { "apotheosis:gem": "apotheosis:core/warlord", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "766434FA3164A98E", item: { components: { "apotheosis:gem": "apotheosis:overworld/earth", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "4A2E2D715D29E242", item: { components: { "apotheosis:gem": "apotheosis:overworld/royalty", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "0CBE686EAF930CFA", item: { components: { "apotheosis:gem": "apotheosis:the_nether/blood_lord", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "4E20C17EA74F31F0", item: { components: { "apotheosis:gem": "apotheosis:the_nether/inferno", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
 	]
 	use_title: true
 }

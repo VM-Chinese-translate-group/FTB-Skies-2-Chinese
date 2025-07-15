@@ -7,15 +7,29 @@
 	order_index: 39
 	rewards: [
 		{
-			count: 2
+			count: 4
 			id: "5CD3610C26F82F0D"
 			item: {
 				count: 1
 				id: "refinedstorage:basic_processor"
 			}
 		}
-		{ id: "317FC4A608EC8EB5", item: { count: 1, id: "refinedstorage:improved_processor" } }
-		{ id: "4DAD7A82165BF225", item: { count: 1, id: "refinedstorage:advanced_processor" } }
+		{
+			count: 2
+			id: "317FC4A608EC8EB5"
+			item: {
+				count: 1
+				id: "refinedstorage:improved_processor"
+			}
+		}
+		{
+			count: 2
+			id: "4DAD7A82165BF225"
+			item: {
+				count: 1
+				id: "refinedstorage:advanced_processor"
+			}
+		}
 	]
 	use_title: true
 }

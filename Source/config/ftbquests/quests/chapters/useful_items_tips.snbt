@@ -325,7 +325,7 @@
 						id: "easy_villagers:trader"
 					}
 					id: "1C70AB93B6A0F1A6"
-					item: { components: { "ftbfiltersystem:filter": "or(item(easy_villagers:trader)item(easy_villagers:auto_trader)item(easy_villagers:farmer)item(easy_villagers:breeder)item(easy_villagers:converter)item(easy_villagers:iron_farm)item(easy_villagers:incubator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(easy_villagers:trader)item(easy_villagers:auto_trader))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
