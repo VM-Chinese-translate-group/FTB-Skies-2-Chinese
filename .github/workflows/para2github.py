@@ -138,7 +138,7 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
         value = re.sub(r'\\"', '\"', value)
 
         # 对quest文件进行特殊处理
-        if is_quest_file and "image" not in value and not value.startswith("[\""):
+        if is_quest_file and "image" not in value and not value.startswith("[\"") and "\"color\": " not in value:
             value = value.replace(" ", "\u00A0")
 
         # 保存替换后的值

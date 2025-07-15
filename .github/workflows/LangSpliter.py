@@ -32,7 +32,8 @@ LangSpliter 命令行工具
 import os
 import json
 import re
-import snbtlib
+import ftb_snbt_lib as snbtlib
+from ftb_snbt_lib.tag import List,String,Compound
 import argparse
 from collections import OrderedDict
 
@@ -530,12 +531,18 @@ def update_chapter_files_with_components(component_data, input_chapters_dir, out
 
             # 更新 hover
             if chapter_id in hover_mods_by_chapter_id:
-                images_list = snbt_data.get('images', [])
+                images_list = snbt_data.get('images', List())
                 for img_idx, lines in hover_mods_by_chapter_id[chapter_id].items():
                     if 0 <= img_idx < len(images_list):
                         original_key = f'chapter.{chapter_id}.image.{img_idx}.hover'
                         is_multiline = any(k.startswith(original_key + '1') for k in component_data.keys())
-                        images_list[img_idx]['hover'] = lines if is_multiline or len(lines) > 1 else lines[0]
+
+                        if is_multiline or len(lines) > 1:
+                            # 将 list[str] 转换为 List[String]
+                            images_list[img_idx]['hover'] = List([String(line) for line in lines])
+                        else:
+                            # 将 str 转换为 String
+                            images_list[img_idx]['hover'] = String(lines[0])
                         file_was_modified[0] = True
 
             def find_and_update_components_recursively(data, item_id, comp_mods):
@@ -545,14 +552,16 @@ def update_chapter_files_with_components(component_data, input_chapters_dir, out
                 if isinstance(data, dict):
                     if 'components' in data:
                         if 'name' in modifications:
-                            data['components']['"minecraft:custom_name"'] = modifications['name'].replace('"', '\\"')
+                            # 将 str 转换为 String，无需手动转义
+                            data['components'][String("minecraft:custom_name")] = String(modifications['name'])
                             file_was_modified[0] = True
                         if 'lore' in modifications:
-                            data['components']['"minecraft:lore"'] = [line.replace('"', '\\"') for line in
-                                                                    modifications['lore']]
+                            # 将 list[str] 转换为 List[String]，无需手动转义
+                            data['components'][String("minecraft:lore")] = List(
+                                [String(line) for line in modifications['lore']])
                             file_was_modified[0] = True
                         updated_ids.add(item_id)
-                        return  # 已找到并更新，停止在此分支中搜索
+                        return
 
                     for v in data.values():
                         find_and_update_components_recursively(v, item_id, comp_mods)
@@ -564,12 +573,15 @@ def update_chapter_files_with_components(component_data, input_chapters_dir, out
                 if isinstance(data, dict):
                     item_id = data.get('id')
                     if item_id:
-                        # 更新 feedback_message (仅在当前字典)
+                        # 更新 feedback_message
                         if item_id in feed_mods:
                             lines = feed_mods[item_id]
                             original_key = f'reward.{item_id}.feedback_message'
                             is_multiline = any(k.startswith(original_key + '1') for k in component_data.keys())
-                            data['feedback_message'] = lines if is_multiline or len(lines) > 1 else lines[0]
+                            if is_multiline or len(lines) > 1:
+                                data['feedback_message'] = List([String(line) for line in lines])
+                            else:
+                                data['feedback_message'] = String(lines[0])
                             file_was_modified[0] = True
                             updated_ids.add(item_id)
 
@@ -587,14 +599,16 @@ def update_chapter_files_with_components(component_data, input_chapters_dir, out
             traverse_and_apply(snbt_data, mods_by_id, feedback_mods_by_id)
 
             if file_was_modified[0]:
-                snbt_output_string = snbtlib.dumps(snbt_data, indent=2)
+                snbt_output_string = snbtlib.dumps(snbt_data)
                 output_file_path = os.path.join(output_chapters_dir, filename)
                 with open(output_file_path, 'w', encoding='utf-8') as f:
                     f.write(snbt_output_string)
                 print(f"  -> 已将更新后的 {filename} 写入到: {output_file_path}")
                 modified_files_count += 1
         except Exception as e:
+            import traceback
             print(f"  -> 更新文件 {filename} 时出错: {e}")
+            traceback.print_exc()
 
     print(f"更新完成。共修改了 {modified_files_count} 个文件。")
     all_updated_ids = updated_ids.union(set(feedback_mods_by_id.keys()))
@@ -653,7 +667,6 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
     print("\n开始重构多行文本条目...")
 
     multi_line_pattern = re.compile(r'^(.*?)(\d+)$')
-
     temp_multiline = OrderedDict()
     reconstructed_data = OrderedDict()
 
@@ -663,7 +676,6 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
         if match:
             base_key = match.group(1)
             line_number = int(match.group(2))
-
             if base_key not in temp_multiline:
                 temp_multiline[base_key] = []
             temp_multiline[base_key].append((line_number, value))
@@ -685,27 +697,35 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
     sorted_items = sorted(reconstructed_data.items())
     print(f"\n总共合并了 {len(sorted_items)} 条最终条目，并已按键名排序。")
 
-    snbt_ready_data = {}
+    snbt_ready_data = Compound()  # 使用 Compound 而不是 dict
     for key, value in sorted_items:
         if isinstance(value, list):
-            snbt_ready_data[key] = [escape_string_for_snbt(str(line)) for line in value]
+            # 将 list[str] 转换为 List[String]
+            # 无需手动转义
+            snbt_ready_data[key] = List([String(str(line)) for line in value])
         elif isinstance(value, str):
-            snbt_ready_data[key] = escape_string_for_snbt(value)
+            # 将 str 转换为 String
+            # 无需手动转义
+            snbt_ready_data[key] = String(value)
         else:
-            snbt_ready_data[key] = value
+            snbt_ready_data[key] = String(str(value))
 
     try:
+        # 现在 snbt_ready_data 是一个 Compound 对象，dumps 可以正确处理
         snbt_output_string = snbtlib.dumps(snbt_ready_data)
-        if not snbt_output_string.strip():
-            print("错误：snbtlib.dumps 返回了空字符串！")
-            return
+
+        if not snbt_output_string.strip() or snbt_output_string.strip() == "{}":
+            print("警告：snbtlib.dumps 返回了空或空的 Compound 字符串。检查 reconstructed_data 是否为空。")
+            if not reconstructed_data: return
 
         os.makedirs(os.path.dirname(output_snbt_file), exist_ok=True)
         with open(output_snbt_file, 'w', encoding='utf-8') as f:
             f.write(snbt_output_string)
         print(f"成功将所有条目合并并写入到: {output_snbt_file}")
     except Exception as e:
+        import traceback
         print(f"错误：生成或写入 SNBT 文件失败: {e}")
+        traceback.print_exc()
 
     print("--- 合并完成 ---")
 

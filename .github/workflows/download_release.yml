@@ -32,7 +32,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests snbtlib
+          pip install requests ftb_snbt_lib
 
       - name: Configure Git
         run: |
@@ -87,6 +87,8 @@ jobs:
     steps:
       - name: Checkout code for Release
         uses: actions/checkout@v4
+        with:
+          ref: 'main'
 
       - name: Download Error Report Artifact (if exists)
         id: download_error
