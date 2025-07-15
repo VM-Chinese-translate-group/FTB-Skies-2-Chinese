@@ -48,7 +48,7 @@
 	chapter_group.4E06BB3DD10B837B.title: "主线任务"
 	file.0000000000000001.title: "&6FTB Skies 2"
 	quest.0017F48E23512C75.quest_desc: ["[\"你现在可以使用\", {\"text\": \"橙色粉笔\", \"color\": \"#FCA645\"}, \"、\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"和\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"来再次升级现有的\", {\"text\": \"五芒星\", \"color\": \"#55FFFF\"}, \"了。\"]"]
-	quest.0017F48E23512C75.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \" & \", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"粉笔\"]"
+	quest.0017F48E23512C75.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \" & \", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"粉笔\"]"
 	quest.0056517EDF3DAB08.quest_desc: [
 		"The &aSpeedometer&r shows how fast a certain part of your system is moving."
 		""
@@ -149,7 +149,7 @@
 	quest.012AEBFDB1F1512E.title: "&f核源铁胸甲"
 	quest.012DA013C192D30E.quest_subtitle: "流体管道"
 	quest.013375F170CE6A2F.quest_desc: [
-		"[ \"有了\", {\"text\": \"黄绿色\", \"color\": \"#E2FC97\"}, \"和\", {\"text\": \"淡灰色\", \"color\": \"#C2C2C2\"}, \"粉笔， 你现在可以引诱\", {\"text\": \"巨灵\", \"color\": \"#FF5555\"}, \"，以召唤被附身的强大生物\"]"
+		"[ \"有了\", {\"text\": \"黄绿色\", \"color\": \"#E2FC97\"}, \"和\", {\"text\": \"淡灰色\", \"color\": \"#C2C2C2\"}, \"粉笔， 你现在可以引诱\", {\"text\": \"巨灵\", \"color\": \"#FF5555\"}, \"，以召唤被附身的强大生物\"]"
 		""
 		"大多数&e附身&r和&e使魔仪式&r是可选的，但你仍然需要为了完成游戏的最终目标而绘制它们的&b五芒星&r"
 		""
@@ -160,7 +160,7 @@
 	quest.013FC4C13A426EB1.title: "&f绿宝石精华"
 	quest.016E959A387A1E03.quest_desc: ["[\"粉碎末地石能让你制作\", {\"text\": \"紫色粉笔\", \"color\": \"#9D7AD0\"}, \"，它是进行更高级\", {\"text\": \"仪式\", \"color\": \"aqua\"}, \"所需用到的下一级粉笔。\"]"]
 	quest.016E959A387A1E03.quest_subtitle: "灌注粉笔"
-	quest.016E959A387A1E03.title: "{\"text\": \"紫色粉笔\", \"color\": \"#9D7AD0\"}"
+	quest.016E959A387A1E03.title: "{\"text\": \"紫色粉笔\", \"color\": \"#9D7AD0\"}"
 	quest.0171D054BE838062.quest_desc: [
 		"火通常被视为一种破坏，但它也是一种变革的力量。在&a柴堆&r引导后，一种力量将物品转化为另一个物品或创造各种&b仪式&r的效果。"
 		""
@@ -344,7 +344,7 @@
 		"它还用于制作&d自然力量&r。"
 	]
 	quest.0350C018A0E693ED.title: "&a空气护身符（风护身符）"
-	quest.0354E57671DAFDF3.quest_desc: ["Upgraded from &7Ferricore&r using a &6Blazegold Template&r"]
+	quest.0354E57671DAFDF3.quest_desc: ["由&7核源铁&r使用&6烈焰金模板&r升级而来"]
 	quest.0354E57671DAFDF3.title: "&c烈焰金靴子"
 	quest.03569C25419223DC.quest_desc: [
 		"你可以把你的存储方块升级到不同的金属等级，和&e精妙背包&r一样。"
@@ -580,7 +580,7 @@
 	]
 	quest.056C62BBBCEB1173.quest_subtitle: "并非所有辐都炫酷"
 	quest.056C62BBBCEB1173.title: "&f辐射与你"
-	quest.058C71F15E4AB3E2.quest_desc: ["Upgraded from &7Ferricore&r using a &6Blazegold Template&r"]
+	quest.058C71F15E4AB3E2.quest_desc: ["由&7核源铁&r使用&6烈焰金模板&r升级而来"]
 	quest.058C71F15E4AB3E2.title: "&c烈焰金头盔"
 	quest.059B456424293FF3.quest_desc: ["你可以用&d以太气体&r的能量创造出最高级机器框架！"]
 	quest.059B456424293FF3.title: "&6超级机器框架"
@@ -1009,7 +1009,7 @@
 		""
 		"&b免疫效果&r：中毒"
 		""
-		"&bAction Effect&r: Lighting Damage"
+		"&b行为触发效果&r：闪电伤害"
 	]
 	quest.09685FC620B33977.title: "&a铜"
 	quest.0971483C3C7A4259.quest_desc: [
@@ -1269,7 +1269,7 @@
 	quest.0B2614FA7E949C6F.title: "自然魔法的&2野根&r"
 	quest.0B27B02715F61690.quest_subtitle: "传输流体"
 	quest.0B27B02715F61690.title: "&e通用机械&9流体管道"
-	quest.0B34E3B58783A93A.quest_desc: ["Upgraded from &7Ferricore&r using a &6Blazegold Template&r"]
+	quest.0B34E3B58783A93A.quest_desc: ["由&7核源铁&r使用&6烈焰金模板&r升级而来"]
 	quest.0B34E3B58783A93A.title: "&c烈焰金胸甲"
 	quest.0B5E11225338F0CF.quest_desc: ["把铁锭丢到激光上，你就可以得到&a铁晶&r，机器配方和机器外壳都需要用到它。"]
 	quest.0B5E11225338F0CF.title: "&a铁晶"
@@ -1410,17 +1410,17 @@
 	]
 	quest.0C784115309E7C1C.title: "&d无线访问"
 	quest.0C9AF68E6C9CF4CA.quest_desc: [
-		"&bQuality Multiplier&r: x2.0"
+		"&b品质倍率加成&r：x2.0"
 		""
-		"&bBase Effect&r: Armor"
+		"&b属性提升&r：护甲值"
 		""
-		"&bPositive Effect&r: Resistance"
+		"&b正面效果&r：抗性提升"
 		""
-		"&bImmunity Effect&r: Weakness"
+		"&b免疫效果&r：虚弱"
 		""
-		"&bAction Effect&r: Magic Damage"
+		"&b行为触发效果&r：魔法伤害"
 	]
-	quest.0C9AF68E6C9CF4CA.title: "&fDiamond"
+	quest.0C9AF68E6C9CF4CA.title: "&f钻石"
 	quest.0C9CD2D8F10D750F.quest_desc: ["&c磁通门&r是一种高级组件，可用于合成游戏后期的机器。"]
 	quest.0C9CD2D8F10D750F.title: "&c磁通门"
 	quest.0CA75E81F6824B22.quest_desc: [
@@ -1559,7 +1559,7 @@
 	quest.0E11DBABFFAB0FFA.title: "&d钨锭"
 	quest.0E19151FCABF4759.quest_desc: ["重置运动技能树中已使用的技能点。"]
 	quest.0E19151FCABF4759.title: "&f重置运动技能树"
-	quest.0E1F59CE575178C7.quest_desc: ["Upgraded from &6Blazegold&r using a &3Celestigem Template&r"]
+	quest.0E1F59CE575178C7.quest_desc: ["由&6烈焰金&r使用&3苍穹晶模板&r升级而来"]
 	quest.0E1F59CE575178C7.title: "&d苍穹晶护腿"
 	quest.0E201000BADC9B61.title: "&b随机工具奖励包"
 	quest.0E610A03BB4007B6.quest_desc: ["消耗个别怪物的掉落物发电。"]
@@ -1621,8 +1621,8 @@
 		"注意：你只能从那个有大正方形的面中导出能量。"
 	]
 	quest.0EFA11536D00E653.title: "&2生物燃料发电"
-	quest.0F184788499005C6.quest_desc: ["The &aStalwart Ring&r applies a banding material's &bAction Effect&r whenever the player blocks with a shield."]
-	quest.0F184788499005C6.title: "&fStalwart Ring"
+	quest.0F184788499005C6.quest_desc: ["当玩家使用盾牌成功防御时，&a坚韧戒指&r将会触发对应行为效果。"]
+	quest.0F184788499005C6.title: "&f坚韧戒指"
 	quest.0F22A0A29B961A1C.quest_desc: ["在你着手&3蒸馏&r&d蒸汽裂解石脑油&r得到&e乙苯&r的时候，把多余的&3乙烯&r和&a苯&r化合为&e乙苯&r也是个选择。"]
 	quest.0F22A0A29B961A1C.quest_subtitle: "乙烯+苯"
 	quest.0F22A0A29B961A1C.title: "&e乙苯"
@@ -1650,17 +1650,17 @@
 	quest.0F8037316FBF818A.quest_desc: ["&e苯乙烯-丁二烯&r是用来做&7丁苯橡胶&r的。"]
 	quest.0F8037316FBF818A.title: "&e苯乙烯-丁二烯"
 	quest.0F9B3AAA45817C49.quest_desc: [
-		"&bQuality Multiplier&r: x0.75"
+		"&b品质倍率加成&r：x0.75"
 		""
-		"&bBase Effect&r: Knockback Resistance"
+		"&b属性提升&r：击退抗性"
 		""
 		"&b正面效果&r：无"
 		""
-		"&bImmunity Effect&r: None"
+		"&b免疫效果&r：无"
 		""
 		"&b行为触发效果&r：无"
 	]
-	quest.0F9B3AAA45817C49.title: "&aBrass Banding"
+	quest.0F9B3AAA45817C49.title: "&a黄铜"
 	quest.0FA7ECE8C07ADAB1.quest_desc: [
 		"&d枯萎的护符&r在玩家受到凋零效果影响时增加25%伤害"
 		""
@@ -1851,17 +1851,17 @@
 	]
 	quest.114B4840D2FA1CDF.title: "&a提纯矿物"
 	quest.117131CF7E2FE2DE.quest_desc: [
-		"&bQuality Multiplier&r: x1.0"
+		"&b品质倍率加成&r：x1.0"
 		""
-		"&bBase Effect&r: Experience Gain"
+		"&b属性提升&r：经验获取"
 		""
 		"&b正面效果&r：无"
 		""
-		"&bImmunity Effect&r: Glowing"
+		"&b免疫效果&r：发光"
 		""
-		"&bAction Effect&r: Slowness"
+		"&b行为触发效果&r：缓慢"
 	]
-	quest.117131CF7E2FE2DE.title: "&fLapis Lazuli"
+	quest.117131CF7E2FE2DE.title: "&f青金石"
 	quest.1190DD56F5C5AB46.quest_desc: [
 		"&a蓝图加农炮&r和&a蓝图桌&r允许你以&b蓝图&r的形式从一个位置复制并粘贴结构到另一个位置。"
 		""
@@ -2153,17 +2153,17 @@
 	]
 	quest.147C1793BE9C2766.title: "&f小蜜蜂孵化器"
 	quest.14844C0E66FD7F44.quest_desc: [
-		"&bQuality Multiplier&r: x2.0"
+		"&b品质倍率加成&r：x2.0"
 		""
-		"&bBase Effect&r: Attack Damage"
+		"&b属性提升&r：攻击伤害"
 		""
-		"&bPositive Effect&r: None"
+		"&b正面效果&r：无"
 		""
-		"&bImmunity Effect&r: Wither"
+		"&b免疫效果&r：凋零"
 		""
-		"&bAction Effect&r: Resistance"
+		"&b行为触发效果&r：抗性提升"
 	]
-	quest.14844C0E66FD7F44.title: "&fGarnet"
+	quest.14844C0E66FD7F44.title: "&f石榴石"
 	quest.14CA59973A2B33FF.quest_desc: [
 		"&b烘干池&r可以把其中的物品或流体烘干成其他物品。"
 		""
@@ -2572,17 +2572,17 @@
 	quest.1A1161EF6276767F.quest_subtitle: "&o钢铁生意"
 	quest.1A1161EF6276767F.title: "&f欢迎游玩&eMFFS"
 	quest.1A183C6EA50C9ADF.quest_desc: [
-		"&bQuality Multiplier&r: x1.0"
+		"&b品质倍率加成&r：x1.0"
 		""
-		"&bBase Effect&r: Speed"
+		"&b属性提升&r：速度"
 		""
-		"&bPositive Effect&r: Speed"
+		"&b正面效果&r：迅捷"
 		""
-		"&bImmunity Effect&r: Bad Omen"
+		"&b免疫效果&r：不祥之兆"
 		""
-		"&bAction Effect&r: Create Wind Burst Explosion"
+		"&b行为触发效果&r：产生风爆"
 	]
-	quest.1A183C6EA50C9ADF.title: "&3Silver Banding"
+	quest.1A183C6EA50C9ADF.title: "&3银"
 	quest.1A3C52B662D8237B.quest_desc: ["通过使用&9蓝色粉笔&r，你可以画出&6法特玛极效引诱&r，其可以召唤并绑定&6魔王&r，并让你驱使它们为你效劳"]
 	quest.1A3C52B662D8237B.quest_subtitle: "召唤五芒星：级别6"
 	quest.1A3C52B662D8237B.title: "&6法特玛极效引诱"
@@ -2638,7 +2638,7 @@
 	]
 	quest.1A6984A6484FF8F3.title: "&f构建第一个&d法术"
 	quest.1A867730290C7745.title: "&5大型蒸汽涡轮机"
-	quest.1A89ACDC528588D5.quest_desc: ["Upgraded from &6Blazegold&r using a &3Celestigem Template&r"]
+	quest.1A89ACDC528588D5.quest_desc: ["由&6烈焰金&r使用&3苍穹晶模板&r升级而来"]
 	quest.1A89ACDC528588D5.title: "&d苍穹晶胸甲"
 	quest.1A984CF299959C96.quest_desc: ["&a装备充能台&r用来给物品充能或加装&c涡轮燃料&r"]
 	quest.1A984CF299959C96.title: "&a装备充能台"
@@ -2835,7 +2835,7 @@
 	quest.1C62ECB8EDF694BB.quest_subtitle: "砸碎沙子！"
 	quest.1C62ECB8EDF694BB.title: "&f尘土"
 	quest.1C65FB6D312F1287.quest_subtitle: "物品管道"
-	quest.1C65FB6D312F1287.title: "{\"text\": \"基础物流管道\", \"color\": \"#5EFCB6\"}"
+	quest.1C65FB6D312F1287.title: "{\"text\": \"基础物流管道\", \"color\": \"#5EFCB6\"}"
 	quest.1C696E4A9A6F90BE.quest_subtitle: "你尚未准备就绪"
 	quest.1C696E4A9A6F90BE.title: "&d暗影之刃"
 	quest.1C866721E1F2FF50.quest_desc: [
@@ -2877,7 +2877,7 @@
 	quest.1CA8D89EE7C50CFD.quest_desc: ["末地城的隐秘守卫。"]
 	quest.1CA8D89EE7C50CFD.title: "&f击杀10只&d潜影贝"
 	quest.1CAA9A2F7F3EDAD3.quest_subtitle: "血肉粉笔"
-	quest.1CAA9A2F7F3EDAD3.title: "{\"text\": \"粉色粉笔\", \"color\": \"#FCB1D0\"}"
+	quest.1CAA9A2F7F3EDAD3.title: "{\"text\": \"粉色粉笔\", \"color\": \"#FCB1D0\"}"
 	quest.1CAC300C14A023BB.quest_desc: [
 		"&d荒野召唤仪式&r在放入增强物后可以召唤出新生魔艺的boss：&5荒野奇美拉&r。"
 		""
@@ -2886,7 +2886,7 @@
 		"武运昌隆！"
 	]
 	quest.1CAC300C14A023BB.title: "&f荒野供物"
-	quest.1CB4BF0907316518.quest_desc: ["Upgraded from &7Ferricore&r using a &6Blazegold Template&r"]
+	quest.1CB4BF0907316518.quest_desc: ["由&7核源铁&r使用&6烈焰金模板&r升级而来"]
 	quest.1CB4BF0907316518.title: "&c烈焰金护腿"
 	quest.1CB65FAEA9125163.quest_desc: [
 		"制造出&a富集仓&r后，把钻石放进去制作成&9富集钻石&r。"
@@ -2953,17 +2953,17 @@
 	]
 	quest.1CFEC4265CAAA0D8.title: "&a下级精华&f洒水壶"
 	quest.1D057B9B991EE4D2.quest_desc: [
-		"&bQuality Multiplier&r: x1.0"
+		"&b品质倍率加成&r：x1.0"
 		""
-		"&bBase Effect&r: Casting Movement Speed"
+		"&b属性提升&r：施法时移动速度"
 		""
-		"&bPositive Effect&r: Fortify"
+		"&b正面效果&r：神圣守护"
 		""
-		"&bImmunity Effect&r: Rend"
+		"&b免疫效果&r：破甲"
 		""
-		"&bAction Effect&r: Heal"
+		"&b行为触发效果&r：治疗"
 	]
-	quest.1D057B9B991EE4D2.title: "&fDivine Pearl"
+	quest.1D057B9B991EE4D2.title: "&f神圣珍珠"
 	quest.1D111EB515B0746B.title: "&6觉醒精华&f护甲"
 	quest.1D2DF91FC1559504.quest_desc: [
 		"制作你的自定义&a箭矢&r！"
@@ -3030,17 +3030,17 @@
 	quest.1DCCF9A58A557282.quest_subtitle: "七海粉笔"
 	quest.1DCCF9A58A557282.title: "&9蓝色粉笔"
 	quest.1DFA884DAB026DCA.quest_desc: [
-		"&bQuality Multiplier&r: x0.75"
+		"&b品质倍率加成&r：x0.75"
 		""
-		"&bBase Effect&r: Mining Speed"
+		"&b属性提升&r：挖掘速度"
 		""
-		"&bPositive Effect&r: None"
+		"&b正面效果&r：无"
 		""
-		"&bImmunity Effect&r: None"
+		"&b免疫效果&r：无"
 		""
-		"&bAction Effect&r: None"
+		"&b行为触发效果&r：无"
 	]
-	quest.1DFA884DAB026DCA.title: "&aLead Banding"
+	quest.1DFA884DAB026DCA.title: "&a铅"
 	quest.1E06F8A93F39DB2C.quest_desc: ["召唤一个友好的隐形精灵，在消失前提供一点加速。"]
 	quest.1E06F8A93F39DB2C.title: "&a精灵事件"
 	quest.1E0B67C6A341C817.quest_desc: ["&3绳索滑轮&r可以控制方块或结构延y轴移动。"]
@@ -3189,7 +3189,7 @@
 	]
 	quest.1F9E582F684EA247.title: "&f搅拌机"
 	quest.1FBEA2EB39456FD5.quest_subtitle: "存储气体"
-	quest.1FBEA2EB39456FD5.title: "{\"text\": \"基础化学品储罐\", \"color\": \"#5EFCB6\"}"
+	quest.1FBEA2EB39456FD5.title: "{\"text\": \"基础化学品储罐\", \"color\": \"#5EFCB6\"}"
 	quest.1FCE7E6527304CC5.quest_desc: ["&a储能单元&r可以将EU存起来以供之后使用，其传输速率与同等级的发电机一致。"]
 	quest.1FCE7E6527304CC5.title: "&2LV存储单元"
 	quest.1FDD26042785FB0C.quest_desc: ["&a信箱&r用于在列车站点之间运输包裹。"]
@@ -3272,7 +3272,7 @@
 	quest.20B98E676C8CC943.title: "&d可憎的能量（憎恶能量）"
 	quest.20C91F9D612B52D1.quest_desc: ["一只急需补水干枯恶魂。把它放在水里20分钟，你即可获得一位新朋友！"]
 	quest.20C91F9D612B52D1.title: "&e失水恶魂"
-	quest.20CC7D7B65AE1BB4.quest_desc: ["Upgraded from &3Celestigem&r using an &5Eclipse Alloy Template&r"]
+	quest.20CC7D7B65AE1BB4.quest_desc: ["由&3苍穹晶&r使用&5蚀空合金模板&r升级而来"]
 	quest.20CC7D7B65AE1BB4.title: "&5蚀空合金头盔"
 	quest.20DCC194EED4395B.quest_subtitle: "优秀的作战套装"
 	quest.20DCC194EED4395B.title: "&c惊悚南瓜套装"
@@ -3381,23 +3381,23 @@
 	quest.2205A58B395D40FE.quest_desc: [
 		"&b品质倍率加成&r：x1.5"
 		""
-		"&bBase Effect&r: Cooldown Reduction"
+		"&b属性提升&r：法术冷却缩减"
 	]
-	quest.2205A58B395D40FE.title: "&fRecovery Rune"
+	quest.2205A58B395D40FE.title: "&f法术冷却缩减符文"
 	quest.22251BF887A5EB81.quest_desc: ["&d附魔物品分拣机&r可以分离附魔物品与非附魔物品，将附魔物品放入上方输出格（其实是下方）。你可以使用管道从不同面提取物品。"]
 	quest.22251BF887A5EB81.title: "&d附魔物品分拣机"
 	quest.2262994A5B54AE0D.quest_desc: [
-		"&bQuality Multiplier&r: x1.5"
+		"&b品质倍率加成&r：x1.5"
 		""
-		"&bBase Effect&r: Mining Speed"
+		"&b属性提升&r：挖掘速度"
 		""
-		"&bPositive Effect&r: Fire Resistance"
+		"&b正面效果&r：抗火"
 		""
-		"&bImmunity Effect&r: Poison"
+		"&b免疫效果&r：中毒"
 		""
-		"&bAction Effect&r: Ignites"
+		"&b行为触发效果&r：点燃"
 	]
-	quest.2262994A5B54AE0D.title: "&dGold Banding"
+	quest.2262994A5B54AE0D.title: "&d金"
 	quest.226E5BD0BEB1BA75.quest_desc: ["这些独特的书架能提供某些增益，例如添加100%&c量子化&r，或删除&c量子化&r和&5阿卡纳&r。"]
 	quest.226E5BD0BEB1BA75.title: "&a杂项书架"
 	quest.22794ACEC855690B.quest_desc: [
@@ -3603,15 +3603,15 @@
 	]
 	quest.2444EAF58C073E51.title: "&f加&b压"
 	quest.2461B0DCE15C5BCE.quest_desc: [
-		"The &aSuperior Gemset Ring&r has a two &2Gem&r slots."
+		"&a优良宝石指环&r拥有2个&2宝石&r槽位。"
 		""
-		"The first has a base multiplier of x0.875, while the second has a x1.75 base multiplier."
+		"第一个槽位镶嵌的宝石的数值/效果倍率会降低至原本的0.875倍，而第二个槽位镶嵌的宝石的数值/效果倍率会提升至原本的1.75倍。"
 		""
-		"These base multipliers stack with banding material's &bQuality Multipliers&r."
+		"这些倍率改变会与指环材料的&b品质倍率&r叠加在一起，改变宝石的数值/效果等级。"
 		""
-		"The same gem can be slotted into both slots, increasing an effect by x2.625."
+		"两个宝石槽位也可以镶嵌同样的宝石，这样宝石的数值/效果倍率会提升2.625倍。"
 	]
-	quest.2461B0DCE15C5BCE.title: "&fSuperior Gemset Ring"
+	quest.2461B0DCE15C5BCE.title: "&f优良宝石指环"
 	quest.2464B384CC26F2EC.quest_desc: [
 		"&a物质储罐&r可以储存分解出的物质。"
 		""
@@ -3697,7 +3697,7 @@
 		""
 		"手持此物并潜行时，可切换模式至&a桶&r模式，这样就可以装起多桶流体（比如水或熔岩）。"
 	]
-	quest.24F17FA24ED466FA.title: "{\"text\": \"基础液体储罐\", \"color\": \"#5EFCB6\"}"
+	quest.24F17FA24ED466FA.title: "{\"text\": \"基础液体储罐\", \"color\": \"#5EFCB6\"}"
 	quest.24F275DFF6D07418.quest_subtitle: "在催化剂上使用浅灰色染料"
 	quest.24F275DFF6D07418.title: "&f锡矿晶母岩"
 	quest.25023C87AA259688.quest_desc: ["虽然这可能不是最坚固的盔甲，但当你穿上全套&3纸板&r套装时，&3纸板盔甲&r会为你提供酷炫的潜行效果。"]
@@ -3887,11 +3887,11 @@
 	]
 	quest.26D59E04760C5747.title: "&f方块破坏器"
 	quest.26D7C5298D95C69A.quest_desc: [
-		"When crafting &bJewelry&r, &aBanding Materials&r can be used by themselves to grant effects and/or stat increases."
+		"在制作&b珠宝饰品&r时，可以仅使用&a指环材料&r制成饰品来获得效果增益和/或属性数值加成。"
 		""
-		"Their main use, however, is to multiply &aGems&r effects with their quality multiplier."
+		"不过，指环材料的主要用途是增幅其镶嵌的&a宝石&r效果，增幅倍率由材料的品质倍率加成决定。"
 	]
-	quest.26D7C5298D95C69A.title: "&aBanding Materials"
+	quest.26D7C5298D95C69A.title: "&a指环材料"
 	quest.26D8F6345B6AB232.quest_desc: [
 		"&b咒术师套装&r适合那些完全不需要防御的玩家，因为他们绝不会在战斗中受伤……至少他们自己是这么认为的。"
 		""
@@ -3946,7 +3946,7 @@
 	quest.2765AC7C3E0350FE.quest_desc: [
 		"生物可以通过将&d刷怪器控制器&r与下方的&a刷怪器笼&r结合来生成。 生成实体的大小决定了所需的笼子尺寸。 生成的生物类型由第一个走过&d刷怪器控制器&r上方的生物决定，并且只能通过更换控制器来更改。"
 		""
-		"[ \"The controller collects \", { \"text\": \"Souls\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2588279A071E5A6B\" } }, \" and uses them to spawn the set mob, with the \", { \"text\": \"Soul\", \"color\": \"#5555FF\"}, \" cost depending on the mob's HP. Mobs will only spawn if an empty surface is available nearby.\" ]"
+		"[ \"The controller collects \", { \"text\": \"Souls\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2588279A071E5A6B\" } }, \" and uses them to spawn the set mob, with the \", { \"text\": \"Soul\", \"color\": \"#5555FF\"}, \" cost depending on the mob's HP. Mobs will only spawn if an empty surface is available nearby.\" ]"
 		""
 		"当设置了一个生物类型（或在无效时右击），&9刷怪器控制器&r会高亮显示下方所需&a生成笼&r的尺寸。 你也可以右击&9控制器&r以获取当前操作状态的信息。"
 	]
@@ -4075,17 +4075,17 @@
 	quest.290D1B111FD24B32.quest_desc: ["你需要用黑曜石蜂巢在末地捕获一只&a末影蜜蜂&r才能开始制作&d钻石蜜蜂&r，让末影蜜蜂和&9青金石蜜蜂&r繁殖就可以得到&d钻石蜜蜂&r了！"]
 	quest.290D1B111FD24B32.title: "&b钻石蜜蜂"
 	quest.290E1C79E7CD3C2A.quest_desc: [
-		"&bQuality Multiplier&r: x2.0"
+		"&b品质倍率加成&r：x2.0"
 		""
-		"&bBase Effect&r: Armor Pierce"
+		"&b属性提升&r：盔甲穿透"
 		""
-		"&bPositive Effect&r: Resistance"
+		"&b正面效果&r：抗性提升"
 		""
-		"&bImmunity Effect&r: Weakness"
+		"&b免疫效果&r：虚弱"
 		""
-		"&bAction Effect&r: Knockback"
+		"&b行为触发效果&r：击退"
 	]
-	quest.290E1C79E7CD3C2A.title: "&dPlatinum Banding"
+	quest.290E1C79E7CD3C2A.title: "&d铂"
 	quest.29323A6F09BAA5BD.quest_desc: ["&a方块放置器&r会放置其缓存内的方块，放置的方块位置为&a机器框架&r下方，你可以选择用它自动在耕地上种植种子，或者放置树苗。"]
 	quest.29323A6F09BAA5BD.title: "&f方块放置器"
 	quest.294AB45D52BE342B.quest_desc: ["&3打包机&r和&3理包机&r用于将物品打包为一个组移动到物流网络的另一部分。"]
@@ -4099,7 +4099,7 @@
 	]
 	quest.294FEC9B0B58EFDC.title: "&f切换护身符效果"
 	quest.296C424C7D2C7589.quest_subtitle: "气体/化学品管道"
-	quest.296C424C7D2C7589.title: "{\"text\": \"基础加压管道\", \"color\": \"#5EFCB6\"}"
+	quest.296C424C7D2C7589.title: "{\"text\": \"基础加压管道\", \"color\": \"#5EFCB6\"}"
 	quest.297EAB81A2EC051F.title: "&f活化水晶碎片"
 	quest.298BFB73F3B2E3D5.quest_desc: [
 		"&a电池&r很适合便携存储能量，无论是有线还是无线都能给它充能。"
@@ -4602,17 +4602,17 @@
 	]
 	quest.2EBDE5767588B43C.title: "&6醒觉粉&r"
 	quest.2EC52350485D4DC9.quest_desc: [
-		"&bQuality Multiplier&r: x1.5"
+		"&b品质倍率加成&r：x1.5"
 		""
-		"&bBase Effect&r: Spell Resistance"
+		"&b属性提升&r：法术抗性"
 	]
-	quest.2EC52350485D4DC9.title: "&fProtective Rune"
+	quest.2EC52350485D4DC9.title: "&f法术抗性符文"
 	quest.2ECAD5F752E445F1.quest_desc: [
 		"[\"\", { \"text\": \"钷\", \"color\": \"#FCD205\"}, \"是一种高级材料，仅能制作于\", { \"text\": \"原子锻造器\", \"color\":\"#FF55FF\"}, \"。\" ]"
 		""
 		"[\"这是一种用于制造\", {\"text\": \"钷工具\", \"color\":\"#FCD205\"}, \"和\", {\"text\": \"终极机器核心\", \"color\":\"#FF55FF\"}, \"的强大材料。\"]"
 	]
-	quest.2ECAD5F752E445F1.title: "{\"text\": \"钷\", \"color\": \"#FCD205\"}"
+	quest.2ECAD5F752E445F1.title: "{\"text\": \"钷\", \"color\": \"#FCD205\"}"
 	quest.2ECE092636880CB8.quest_desc: [
 		"&a安山漏斗&r和&a溜槽&r用于将物品移入和移出存储空间。"
 		""
@@ -4639,11 +4639,11 @@
 	]
 	quest.2F15D918EF183051.title: "&f欢迎游玩&6FTB Skies 2&f！"
 	quest.2F2DC018DD6A2A23.quest_desc: [
-		"&aGems&r are the part of most &bJewelry&r that grants effects."
+		"大多数&b珠宝饰品&r的效果加成都来自其所镶嵌的&a宝石&r 。"
 		""
-		"Different pieces of &bJewelry&r are affected by &aGems&r in different ways, so be sure to check each piece carefully before crafting."
+		"同样的&a宝石&r镶嵌在不同类型的&b珠宝饰品&r上会赋予不同的属性与增益，因此在合成前，需要仔细确认。"
 	]
-	quest.2F2DC018DD6A2A23.title: "&aGems"
+	quest.2F2DC018DD6A2A23.title: "&a宝石&r"
 	quest.2F2E3501A70EB920.quest_desc: ["&a物品吸收器&r可以收集周边6格以内的掉落物，而且收集的物品可以通过白名单或黑名单配置。"]
 	quest.2F2E3501A70EB920.title: "&a物品吸收器"
 	quest.2F31738F510B87C5.quest_desc: [
@@ -4662,8 +4662,8 @@
 	quest.2F34A04C7FB2D605.quest_subtitle: "氦？赫铃姆（HeLiUm）？我有个叔貌似就叫这个破名字……"
 	quest.2F34A04C7FB2D605.title: "&5液态氦等离子体"
 	quest.2F521CA6B9E1A4B3.title: "&d八位电容"
-	quest.2F6F52B669C50A01.quest_desc: ["The &aSharpshooter's Loop&r is a &bRing&r that applies a &2Gem's &bAction Effects&r whenever an arrow hits an enemy."]
-	quest.2F6F52B669C50A01.title: "&fSharpshooter's Loop"
+	quest.2F6F52B669C50A01.quest_desc: ["在&b戒指&r槽位装备&a神枪手指环&r后，当玩家使用弓箭命中敌人时，会对敌人施加&2宝石的&b行为触发效果&r。"]
+	quest.2F6F52B669C50A01.title: "&f神枪手之环"
 	quest.2F74CE4932170B99.quest_desc: [
 		"&2云杉木蜂巢&r可以在主世界生长云杉木的地方找到。"
 		""
@@ -5119,19 +5119,19 @@
 		"这只能通过使用&6修菲斯倒转之塔&r获得"
 	]
 	quest.337838FB759E4377.quest_subtitle: "龙之粉笔"
-	quest.337838FB759E4377.title: "{\"text\": \"品红色粉笔\", \"color\": \"#D17CC9\"}"
+	quest.337838FB759E4377.title: "{\"text\": \"品红色粉笔\", \"color\": \"#D17CC9\"}"
 	quest.3389EB27CF459DB3.quest_desc: [
-		"&bQuality Multiplier&r: x2.0"
+		"&b品质倍率加成&r：x2.0"
 		""
-		"&bBase Effect&r: Mining Speed"
+		"&b属性提升&r：挖掘速度"
 		""
-		"&bPositive Effect&r: Haste"
+		"&b正面效果&r：急迫"
 		""
-		"&bImmunity Effect&r: Poison"
+		"&b免疫效果&r：中毒"
 		""
-		"&bAction Effect&r: None"
+		"&b行为触发效果&r：无"
 	]
-	quest.3389EB27CF459DB3.title: "&fPeridot"
+	quest.3389EB27CF459DB3.title: "&f橄榄石"
 	quest.33A9FF901E2D7725.quest_desc: ["你需要&2钢质机壳&r才能合成该模组的机器！"]
 	quest.33A9FF901E2D7725.title: "&a机壳"
 	quest.33AC3264C0AE8FF1.quest_desc: [
@@ -5300,11 +5300,11 @@
 	]
 	quest.34CB13A91DB2E871.title: "&d悖论机器"
 	quest.34CD1486F2DC60EB.quest_desc: [
-		"&bQuality Multiplier&r: x1.5"
+		"&b品质倍率加成&r：x1.5"
 		""
-		"&bBase Effect&r: Lightning Spell Power"
+		"&b属性提升&r：雷霆法术强度"
 	]
-	quest.34CD1486F2DC60EB.title: "&fLightning Rune"
+	quest.34CD1486F2DC60EB.title: "&f雷霆符文"
 	quest.34D191F76AA69707.quest_desc: [
 		"&e通量网络&r是无线能源方面的最强模组！"
 		""
@@ -5340,17 +5340,17 @@
 	quest.34F6FE4467BB71E0.quest_desc: ["这条龙可不是友善的或能被驯服的。更凶猛的末影龙比一般的末影龙要难对付得多，你得好好准备装备和补给。祝你好运！"]
 	quest.34F6FE4467BB71E0.title: "&f击杀&d更凶猛的末影龙"
 	quest.34FA9DF0A6D2163D.quest_desc: [
-		"&bQuality Multiplier&r: x2.0"
+		"&b品质倍率加成&r：x2.0"
 		""
-		"&bBase Effect&r: Dodge Chance"
+		"&b属性提升&r：闪避率"
 		""
-		"&bPositive Effect&r: None"
+		"&b正面效果&r：无"
 		""
-		"&bImmunity Effect&r: Slowness"
+		"&b免疫效果&r：缓慢"
 		""
-		"&bAction Effect&r: Applies Freeze"
+		"&b行为触发效果&r：施加冻结"
 	]
-	quest.34FA9DF0A6D2163D.title: "&fSapphire"
+	quest.34FA9DF0A6D2163D.title: "&f蓝宝石"
 	quest.3506242698EDF435.quest_desc: [
 		"&a堆叠升级&r能使单个槽位的物品堆叠数量翻倍。存储大量同类物品时非常有用！"
 		""
@@ -5413,7 +5413,7 @@
 		"如果用物品和流体模式的话，则会设定管道的抽取和存入模式。"
 	]
 	quest.35B5935902738DCC.title: "&b配置器"
-	quest.35C3D3804B3E3B9B.quest_desc: ["Upgraded from &6Blazegold&r using a &3Celestigem Template&r"]
+	quest.35C3D3804B3E3B9B.quest_desc: ["由&6烈焰金&r使用&3苍穹晶模板&r升级而来"]
 	quest.35C3D3804B3E3B9B.title: "&d苍穹晶靴子"
 	quest.35CCB0359596DE32.quest_desc: ["重置近战技能树中已使用的技能点。"]
 	quest.35CCB0359596DE32.title: "&f重置近战技能树"
@@ -5544,11 +5544,11 @@
 	]
 	quest.3684E99D50168389.title: "&d德格米&b刷怪场"
 	quest.368CF829E37E0945.quest_desc: [
-		"The &aBarbed Band&r significantly amplifies a banding material's &bBase Effect&r but deals damage to the player whenever the player attacks."
+		"&a倒刺指环&r极大地强化了指环材料的属性加成效果，但相应的是，每次玩家攻击时都将承受一定量的伤害。"
 		""
-		"Some &aGems&r will amplify this effect based on their &bQuality Multiplier&r."
+		"部分&a宝石&r还会根据&b品质倍率加成&r增幅此效果。"
 	]
-	quest.368CF829E37E0945.title: "&fBarbed Band"
+	quest.368CF829E37E0945.title: "&f倒刺指环"
 	quest.3695B30822BC674E.quest_desc: [
 		"&7潜影贝护身符&r使玩家免疫飘浮效果。"
 		""
@@ -5566,7 +5566,7 @@
 	]
 	quest.36DD75256D280C4A.title: "&b范围升级"
 	quest.36E0D875AA8E2F66.quest_desc: [
-		"After challenging the Deep Dark's denizen, you can make the final tier of goo: &5Shadowpulse Goo&r."
+		"在深暗之域挑战了圈居民后，你手头的材料足够你做出最高级的凝胶：&5暗影脉凝胶&r。"
 		""
 		"这种凝胶可以将&6下界合金块&r转化为&5蚀空合金矿石&r。"
 		""
@@ -5608,7 +5608,7 @@
 	quest.374BD99B92E454B7.title: "&a悦灵事件"
 	quest.37588DD1D7FA6795.title: "&f巧克力派"
 	quest.37930E206E34084C.quest_desc: [
-		"[ \"喜欢打怪？查看\", { \"text\": \"狂猎\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37930E206E34084C\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往狂猎章节\"]} }, \"任务章节，领取属于你的悬赏！\" ]"
+		"[ \"喜欢打怪？查看\", { \"text\": \"狂猎\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37930E206E34084C\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往狂猎章节\"]} }, \"任务章节，领取属于你的悬赏！\" ]"
 		""
 		"如果你想要挑战自我，那就是你所要找的章节。"
 	]
@@ -5800,7 +5800,7 @@
 		""
 		"To learn a &bJewel&r blueprint simply right-click with an &aArtisan Scroll&r in hand."
 	]
-	quest.3900E67C8B833980.title: "&aArtisan Scrolls"
+	quest.3900E67C8B833980.title: "&a工匠卷轴"
 	quest.39214B204D3BEB2A.quest_desc: [
 		"人人都希望蜜蜂能产出更多蜜脾，光是升级：速度已经难填欲壑了。"
 		""
@@ -6047,7 +6047,7 @@
 	]
 	quest.3B2B26B1AD947CC5.title: "&f大型能量存储"
 	quest.3B32575C5E266B55.quest_desc: [
-		"&bQuality Multiplier&r: x1.5"
+		"&b品质倍率加成&r：x1.5"
 		""
 		"&bBase Effect&r: Max Mana"
 	]
@@ -6077,7 +6077,7 @@
 	quest.3B6BEB5B9B49DC06.quest_desc: [
 		"有了&b铁&r，你就可以通过制作你的第一本法术书进入&d新生魔艺&r的魔法世界！"
 		""
-		"[ \"要了解更多关于该模组的功能，请查看\", { \"text\": \"新生魔艺\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1114D1FD164E514B\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往新生魔艺章节\"]} }, \"任务章节。\" ]"
+		"[ \"要了解更多关于该模组的功能，请查看\", { \"text\": \"新生魔艺\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1114D1FD164E514B\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往新生魔艺章节\"]} }, \"任务章节。\" ]"
 	]
 	quest.3B6BEB5B9B49DC06.title: "&f创造&d魔法&f！"
 	quest.3B6CDE92B84CBFE5.quest_desc: [
@@ -6168,8 +6168,8 @@
 		"通过&a工程师手册&r或JEI查询方块的温度。"
 	]
 	quest.3CADD463CFC2FE32.title: "&f热传导发电机"
-	quest.3CC776328188FE33.quest_desc: ["[ \"拥有了\", {\"text\": \"钷\", \"color\": \"#FCD205\"}, \"你便可以制作最终等级的机器核心：\", {\"text\": \"终极机器核心\", \"color\": \"#FF55FF\"}, \"！\"]"]
-	quest.3CC776328188FE33.title: "[{\"text\": \"The \", \"color\": \"#FFFFFF\"}, {\"text\": \"Ultimate Machine Core\", \"color\":\"#FCD205\"}, {\"text\": \"!\", \"color\": \"#FFFFFF\"}]"
+	quest.3CC776328188FE33.quest_desc: ["[ \"拥有了\", {\"text\": \"钷\", \"color\": \"#FCD205\"}, \"你便可以制作最终等级的机器核心：\", {\"text\": \"终极机器核心\", \"color\": \"#FF55FF\"}, \"！\"]"]
+	quest.3CC776328188FE33.title: "[{\"text\": \"The \", \"color\": \"#FFFFFF\"}, {\"text\": \"Ultimate Machine Core\", \"color\":\"#FCD205\"}, {\"text\": \"!\", \"color\": \"#FFFFFF\"}]"
 	quest.3CC88B6ACDC68D5F.quest_desc: [
 		"&a娃娃&r是一种保护，通过&b转移厄运&r来帮助或是加害某人。"
 		""
@@ -6437,7 +6437,7 @@
 	quest.3FC961B8C0657214.title: "&3碳纤维&r"
 	quest.3FE99AE10B0737BB.title: "&f大量存储单一物品"
 	quest.3FECA0A4B5962630.quest_desc: [
-		"&bQuality Multiplier&r: x1.5"
+		"&b品质倍率加成&r：x1.5"
 		""
 		"&bBase Effect&r: Ender Spell Power"
 	]
@@ -6774,7 +6774,7 @@
 	]
 	quest.42FE1FD899C2EABB.title: "&a风车"
 	quest.432185176A39B3B2.quest_desc: [
-		"&bQuality Multiplier&r: x2.0"
+		"&b品质倍率加成&r：x2.0"
 		""
 		"&bBase Effect&r: Arrow Damage"
 		""
@@ -6869,7 +6869,7 @@
 		"[\"使用\", {\"text\": \"泽奥夫伦斯召唤术\", \"color\": \"#FFAA00\"}, \"，获取\", {\"text\": \"残暴精华\", \"color\": \"#FF5555\"}, \" 可以被用于制作\", {\"text\": \"棕色粉笔\", \"color\": \"#AA7B5A\"}, \".\"]"
 	]
 	quest.43BF1E0CE33F8BB7.quest_subtitle: "邪恶粉笔"
-	quest.43BF1E0CE33F8BB7.title: "{\"text\": \"棕色粉笔\", \"color\": \"#AA7B5A\"}"
+	quest.43BF1E0CE33F8BB7.title: "{\"text\": \"棕色粉笔\", \"color\": \"#AA7B5A\"}"
 	quest.43C671A31442BD48.title: "&a铁熔炉"
 	quest.43CA621F23D0298A.quest_desc: ["放置方块。可朝任意方向放置。放置原木来自动化&7胶乳&r生产是非常实用的做法。"]
 	quest.43CA621F23D0298A.title: "&f方块放置器"
@@ -6886,7 +6886,7 @@
 		""
 		"在GUI左上方找到“导入按钮”，然后点击底部的“从剪贴板粘贴”选项即可。"
 		""
-		"{\"text\": \"点此查看代码\", \"underlined\": true, \"color\": \"#FFFFFF\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://gist.github.com/ArtpokeBr/e8c83e912c92e28b9d428a07b5fe7fbc\"}}"
+		"{\"text\": \"点此查看代码\", \"underlined\": true, \"color\": \"#FFFFFF\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://gist.github.com/ArtpokeBr/e8c83e912c92e28b9d428a07b5fe7fbc\"}}"
 		"{@pagebreak}"
 		"有了它，你就可以注意到，&b“无人机代码”&r是通过&3“代码块/步骤”&r来完成的，你可以从放置&a“开始代码块”&r开始，然后为每个步骤添加一个代码块。 "
 		""
@@ -7050,7 +7050,7 @@
 	quest.45C187DEF7B60C05.title: "&f找到&c火山"
 	quest.45C2A0B3F277C09B.quest_desc: ["&e进阶提示&r：你可以直接对着通用机械的任意管道使用&c合金&r就直接将它们升至下一级！"]
 	quest.45C2A0B3F277C09B.quest_subtitle: "能量管道"
-	quest.45C2A0B3F277C09B.title: "{\"text\": \"基础通用线缆\", \"color\": \"#5EFCB6\"}"
+	quest.45C2A0B3F277C09B.title: "{\"text\": \"基础通用线缆\", \"color\": \"#5EFCB6\"}"
 	quest.45CB3F325010A5AD.quest_desc: [
 		"&6经验存储器&r是你能做出的最先进的经验收集器。"
 		""
@@ -8064,7 +8064,7 @@
 		"也许祂们是色盲，就像阿尔弗雷德"
 	]
 	quest.504EEAA75990C78C.quest_subtitle: "古代粉笔"
-	quest.504EEAA75990C78C.title: "{\"text\": \"青色粉笔\", \"color\": \"#3DADAD\"}"
+	quest.504EEAA75990C78C.title: "{\"text\": \"青色粉笔\", \"color\": \"#3DADAD\"}"
 	quest.5063CB99AD11CEB6.quest_desc: [
 		"&a红石护身符&r每5-7.5秒修复&l穿戴护甲&r1点耐久。"
 		""
@@ -8123,7 +8123,7 @@
 		"烧制&a异界石&r可以得到&a煅烧异界石&r，它是制作&a白色粉笔&r的关键材料。"
 	]
 	quest.50F2EDF92D289869.title: "&f异界石"
-	quest.5119EFBB9FB39CDE.quest_desc: ["[ \"敌对掠夺者部队的首领，驻守在\", {\"text\": \"神秘魔法地牢\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4BB5ADD98F958712\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往神秘魔法地牢任务\"]}}, \"的顶端。\"]"]
+	quest.5119EFBB9FB39CDE.quest_desc: ["[ \"敌对掠夺者部队的首领，驻守在\", {\"text\": \"神秘魔法地牢\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4BB5ADD98F958712\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往神秘魔法地牢任务\"]}}, \"的顶端。\"]"]
 	quest.5119EFBB9FB39CDE.title: "&f击杀&d高位唤魔者"
 	quest.51373D5476F2FD7F.quest_desc: [
 		"对于志存高远的精魂法师来说，收集精魂是个非常重要的工作。但花费一整晚的时间来杀敌可能会是件麻烦事，因为你还需要分类和管理资源，尤其是战利品里还多出了&e精魂&r。"
@@ -8943,7 +8943,7 @@
 	]
 	quest.59CA9831FDCAFA10.title: "经验晶"
 	quest.59CBFA5583139A3B.quest_desc: ["[\"此\", {\"text\": \"重铸台\", \"color\": \"#B900B9\"}, \"是\", {\"text\": \"简易重铸台\", \"color\":\"#55FF55\"}, \"的升级版，允许你重铸所有稀有度的物品，包括\", {\"text\": \"神话\", \"color\":\"#EA6F14\"}, \"等级的物品。\"]"]
-	quest.59CBFA5583139A3B.title: "{\"text\": \"重铸台\", \"color\": \"#B900B9\"}"
+	quest.59CBFA5583139A3B.title: "{\"text\": \"重铸台\", \"color\": \"#B900B9\"}"
 	quest.5A0865A75DD91A0E.quest_desc: ["虽然主要用于装饰，但&d奇异钟&r可以放置在灵魂火上方，将其转化为&d缠魂钟&r，敲响时会显示附近可能生成怪物的黑暗区域。"]
 	quest.5A0865A75DD91A0E.title: "&d奇异钟"
 	quest.5A23D4BE3D221C70.quest_desc: [
@@ -9017,7 +9017,7 @@
 	quest.5B512AED08EC1899.title: "&f热力发电机"
 	quest.5B5447A65D9C82B9.title: "&d16384B流体存储组件"
 	quest.5B62E0C65AAF1984.title: "&b通用机械升级包"
-	quest.5B6B40D5C7DBAA0D.quest_desc: ["Upgraded from &3Celestigem&r using an &5Eclipse Alloy Template&r"]
+	quest.5B6B40D5C7DBAA0D.quest_desc: ["由&3苍穹晶&r使用&5蚀空合金模板&r升级而来"]
 	quest.5B6B40D5C7DBAA0D.title: "&5蚀空合金护腿"
 	quest.5B7CC380E28893C1.quest_desc: [
 		"如果你需要做&2橡胶&r的话，首先要获取某种特殊的&a油&r。"
@@ -9182,7 +9182,7 @@
 	quest.5D4E2FAD79F5AC0A.title: "&3垂直挖矿机"
 	quest.5D590103CDA46CC5.title: "&b基础->钻石升级"
 	quest.5D5D0878275558BC.quest_subtitle: "冰霜粉笔"
-	quest.5D5D0878275558BC.title: "{\"text\": \"淡蓝色粉笔\", \"color\": \"#A6CAFC\"}"
+	quest.5D5D0878275558BC.title: "{\"text\": \"淡蓝色粉笔\", \"color\": \"#A6CAFC\"}"
 	quest.5D622DB7CB6889EA.quest_desc: ["&a物品舱口&r可以让你将手持物或玩家物品栏中的物品瞬间存入相连的容器"]
 	quest.5D622DB7CB6889EA.quest_subtitle: "稍后再处理"
 	quest.5D622DB7CB6889EA.title: "&a物品舱口"
@@ -9351,7 +9351,7 @@
 	]
 	quest.5EF11F96A97C2A23.title: "&2低压蒸汽涡轮机"
 	quest.5F0AAD028931A220.quest_desc: [
-		"[ \"有了\", {\"text\": \"黄绿色粉笔\", \"color\": \"#E2FC97\"}, \"和\", {\"text\": \"淡灰色粉笔\", \"color\": \"#C2C2C2\"}, \"，你现在就能把\", {\"text\": \"阿维亚之环\", \"color\": \"#55FFFF\"}, \"升级为\", {\"text\": \"欧菲克斯的呼唤\", \"color\": \"#FF5555\"}, \"了，它可以驱散乌云、跳过夜晚、或者召唤一系列\", {\"text\": \"巨灵\", \"color\": \"#FF5555\"}, \"。\"]"
+		"[ \"有了\", {\"text\": \"黄绿色粉笔\", \"color\": \"#E2FC97\"}, \"和\", {\"text\": \"淡灰色粉笔\", \"color\": \"#C2C2C2\"}, \"，你现在就能把\", {\"text\": \"阿维亚之环\", \"color\": \"#55FFFF\"}, \"升级为\", {\"text\": \"欧菲克斯的呼唤\", \"color\": \"#FF5555\"}, \"了，它可以驱散乌云、跳过夜晚、或者召唤一系列\", {\"text\": \"巨灵\", \"color\": \"#FF5555\"}, \"。\"]"
 		""
 		"大多数使用&b五芒星&r的&b仪式&r都是可选择进行的。"
 	]
@@ -9518,7 +9518,7 @@
 	]
 	quest.60B37EEA5AD64C3D.quest_subtitle: "A Basic Storage Solution"
 	quest.60B37EEA5AD64C3D.title: "&fStorage Terminal"
-	quest.60B5EDBD6218FACC.quest_desc: ["Upgraded from &3Celestigem&r using an &5Eclipse Alloy Template&r"]
+	quest.60B5EDBD6218FACC.quest_desc: ["由&3苍穹晶&r使用&5蚀空合金模板&r升级而来"]
 	quest.60B5EDBD6218FACC.title: "&5蚀空合金靴子"
 	quest.60C650264AA5525D.quest_desc: [
 		"&a控制器&r是为你的&eRS2&r网络提供能源的主要设备。"
@@ -9948,7 +9948,7 @@
 		"不过，要想真正发挥它的用处，你得把它注射进你的血管中。"
 	]
 	quest.64AF17DD741E9301.title: "&3质粒"
-	quest.64B237B611F88036.quest_desc: ["Upgraded from &3Celestigem&r using an &5Eclipse Alloy Template&r"]
+	quest.64B237B611F88036.quest_desc: ["由&3苍穹晶&r使用&5蚀空合金模板&r升级而来"]
 	quest.64B237B611F88036.title: "&5蚀空合金胸甲"
 	quest.64BAFDA004F32960.quest_desc: [
 		"充能时，&2DNA解码器&r可将未知的&bDNA螺旋&r解码为该DNA所属生物的某个性状的基因。"
@@ -9974,7 +9974,7 @@
 	quest.64E245516C2A857A.title: "&f燃料罐"
 	quest.64E34B2DA32D3586.quest_desc: ["本&b章节&r将会主要介绍如何传输物品、能量、流体和其他东西！"]
 	quest.64E34B2DA32D3586.title: "&f通用物流"
-	quest.64FE17214A14F903.quest_desc: ["Upgraded from &6Blazegold&r using a &3Celestigem Template&r"]
+	quest.64FE17214A14F903.quest_desc: ["由&6烈焰金&r使用&3苍穹晶模板&r升级而来"]
 	quest.64FE17214A14F903.title: "&d苍穹晶头盔"
 	quest.6507BA74DED764C1.quest_desc: ["&5氘（重氢）&r是&6反应堆&r中&9水&r被&6快中子&r轰击时的副产物，可以用来生产&9重水&r。"]
 	quest.6507BA74DED764C1.title: "&5氘"
@@ -10684,7 +10684,7 @@
 		"使用转生粉的一个目的是创造出&b本模组独特的植物和树苗&r，但也可以创造出其他模组的各种植物。"
 	]
 	quest.6E07405D08CCC2D4.quest_desc: ["[\"为了把现有的\", {\"text\": \"五芒星\", \"color\": \"#55FFFF\"}, \"升至下一级别，你将需要\", {\"text\": \"黄绿色粉笔\", \"color\": \"#E2FC97\"}, \"、\", {\"text\": \"淡灰色粉笔\", \"color\": \"#C2C2C2\"}, \"以及一些骷髅头颅。\"]"]
-	quest.6E07405D08CCC2D4.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"黄绿色\", \"color\": \"#E2FC97\"}, \" & \", {\"text\": \"淡灰色\", \"color\": \"#C2C2C2\"}, \" 粉笔\"]"
+	quest.6E07405D08CCC2D4.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"黄绿色\", \"color\": \"#E2FC97\"}, \" & \", {\"text\": \"淡灰色\", \"color\": \"#C2C2C2\"}, \" 粉笔\"]"
 	quest.6E62CF3784A15E0F.title: "&f化学品卡"
 	quest.6E66D752E153E00F.title: "&f实用的&a一阶&r魔符"
 	quest.6E7E4899C5468DED.quest_desc: [
@@ -12178,10 +12178,10 @@
 	quest.7E685EAD7FB60B45.quest_desc: [
 		"&a回收台&r能将词缀物品分解为相应的稀有材料："
 		""
-		"{\"text\": \"普通：神秘废金属\", \"color\": \"#7E7E7E\"}"
-		"{\"text\": \"罕见：陈旧布匹\", \"color\": \"#55FF55\"}"
-		"{\"text\": \"稀有：发光水晶碎片\", \"color\": \"#5454FC\"}"
-		"{\"text\": \"史诗：玄奥沙\", \"color\": \"#B900B9\"}"
+		"{\"text\": \"普通：神秘废金属\", \"color\": \"#7E7E7E\"}"
+		"{\"text\": \"罕见：陈旧布匹\", \"color\": \"#55FF55\"}"
+		"{\"text\": \"稀有：发光水晶碎片\", \"color\": \"#5454FC\"}"
+		"{\"text\": \"史诗：玄奥沙\", \"color\": \"#B900B9\"}"
 		"{\"text\": \"神化：神铸珍珠\", \"color\":\"#EA6F14\"}"
 		""
 		"&a回收台&r可以从顶部和侧面自动输入物品并拆解，从底部输出，效率100%！"
@@ -12194,7 +12194,7 @@
 	]
 	quest.7E7C206547156447.title: "&6高级升级"
 	quest.7E884375320D7823.quest_desc: [
-		"[ \"\", { \"text\": \"寂静装备\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"78337B57A6D6AC08\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往寂静装备任务\"]}}, \"模组在制作工具和武器时给你提供定制化的体验！\"]"
+		"[ \"\", { \"text\": \"寂静装备\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"78337B57A6D6AC08\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往寂静装备任务\"]}}, \"模组在制作工具和武器时给你提供定制化的体验！\"]"
 		""
 		"它还添加了几种新的工具和武器类型，以及混合不同材料类型以让你的工具更好的能力。它们甚至不会损坏，你可以使用修复套件来修复它们！"
 	]
@@ -12684,7 +12684,7 @@
 	task.1E44E4A78D48D820.title: "有用的升级"
 	task.1E4BBCF77E4AE460.title: "扩容盒"
 	task.1E8A40FC83FDC270.title: "&e找到建筑&f：&c炽焰术师塔"
-	task.1E99CDD9919D994A.title: "&aArtisan Scrolls"
+	task.1E99CDD9919D994A.title: "&a工匠卷轴"
 	task.1F380E6DD3CF799C.title: "通用物流"
 	task.1F637306293D20C8.title: "&e找到建筑&f：&3寒霜法师塔"
 	task.1F8F03F2ACAC08C8.title: "塑料片"
@@ -12846,7 +12846,7 @@
 	task.4A84D885C313D512.title: "&f堆叠升级"
 	task.4B48F3912AE46B3C.title: "&f召唤一个&e被附身的幻翼"
 	task.4B65088186551D3C.title: "&f虚空升级"
-	task.4B67D8495CB6403D.title: "&aGems"
+	task.4B67D8495CB6403D.title: "&a宝石&r"
 	task.4BB1855917140E38.title: "&b施放法术"
 	task.4BEC99EFB3F7A310.title: "&b适者生存"
 	task.4C0C6BE0D30DB185.title: "&e观察&f：&a铁矿晶母岩"
