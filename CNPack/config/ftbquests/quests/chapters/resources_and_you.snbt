@@ -29,7 +29,7 @@
 				}
 				{
 					height: 1.0d
-					hover: ["Item Interactions"]
+					hover: ["物品交互"]
 					image: "ars_nouveau:textures/gui/doc_spellstyle_rainbow.png"
 					rotation: 0.0d
 					width: 1.0d
@@ -38,7 +38,7 @@
 				}
 				{
 					height: 1.2d
-					hover: ["Foundry Work"]
+					hover: ["铸造工作"]
 					image: "productivemetalworks:block/foundry_controller_front_on"
 					rotation: 0.0d
 					width: 1.2d
@@ -47,7 +47,7 @@
 				}
 				{
 					height: 0.8d
-					hover: ["Special Crafts"]
+					hover: ["特殊合成"]
 					image: "minecraft:block/tnt_top"
 					order: 10
 					rotation: 0.0d

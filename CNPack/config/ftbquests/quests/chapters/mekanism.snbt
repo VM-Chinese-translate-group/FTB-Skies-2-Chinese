@@ -93,7 +93,7 @@
 				}
 				{
 					height: 3.0d
-					hover: ["Fission Reactor & Industrial Turbine"]
+					hover: ["裂变反应堆与工业涡轮"]
 					image: "ftb:textures/quests/mekanism/fission_bros.png"
 					rotation: 0.0d
 					width: 4.5d
@@ -102,7 +102,7 @@
 				}
 				{
 					height: 4.0d
-					hover: ["SPS & Fusion Reactor"]
+					hover: ["SPS与聚变反应堆"]
 					image: "ftb:textures/quests/mekanism/polonium_snowman.png"
 					rotation: 0.0d
 					width: 3.0d
@@ -111,7 +111,7 @@
 				}
 				{
 					height: 3.5d
-					hover: ["Induction Matrix"]
+					hover: ["能量感应矩阵"]
 					image: "ftb:textures/quests/mekanism/induction.png"
 					rotation: 0.0d
 					width: 3.3373173970783534d
@@ -714,7 +714,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "商店中出现了新的物品！"
 							id: "0693B13017DDF79D"
 							permission_level: 3
 							silent: true
@@ -1650,7 +1650,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "商店中出现了新的物品！"
 							id: "296709A8D97130CE"
 							permission_level: 3
 							silent: true

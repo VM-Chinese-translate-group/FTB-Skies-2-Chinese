@@ -675,7 +675,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New loot bag available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New loot bag available in the Shop!"
+							feedback_message: "商店上架了全新的战利品包！"
 							id: "27FF908D1F661D17"
 							permission_level: 3
 							silent: true

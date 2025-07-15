@@ -20,7 +20,7 @@
 				}
 				{
 					height: 5.0d
-					hover: ["A Drygmy and their Henge"]
+					hover: ["一位德格米与它们的石阵"]
 					image: "ftb:textures/quests/ars/drygmyperch.png"
 					rotation: 0.0d
 					width: 4.016018306636155d

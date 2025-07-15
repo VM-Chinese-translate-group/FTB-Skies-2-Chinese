@@ -476,7 +476,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "商店中出现了新的物品！"
 							id: "44706DBA41D4E877"
 							permission_level: 3
 							silent: true
@@ -568,7 +568,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "商店中出现了新的物品！"
 							id: "539B4274D309CEB7"
 							permission_level: 3
 							silent: true
@@ -1141,7 +1141,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "商店中出现了新的物品！"
 							id: "24D8805AC36D702C"
 							permission_level: 3
 							silent: true
@@ -1471,7 +1471,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "商店中出现了新的物品！"
 							id: "726A08E7969D97D7"
 							permission_level: 3
 							silent: true
@@ -1864,7 +1864,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "商店中出现了新的物品！"
 							id: "7BBCE2BBB73B716D"
 							permission_level: 3
 							silent: true
@@ -2057,7 +2057,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "商店中出现了新的物品！"
 							id: "397A9E858C60465A"
 							permission_level: 3
 							silent: true
@@ -2151,7 +2151,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "商店中出现了新的物品！"
 							id: "62B442F5BA5EA7AD"
 							permission_level: 3
 							silent: true

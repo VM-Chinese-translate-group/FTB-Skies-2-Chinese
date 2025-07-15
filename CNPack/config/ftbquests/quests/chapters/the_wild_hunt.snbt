@@ -1557,7 +1557,7 @@
 					rewards: [
 						{
 							command: "/puffish_skills skills reset @s puffish_skills:melee"
-							feedback_message: "Melee Skills Have Been Reset"
+							feedback_message: "近战技能树已被重置"
 							icon: {
 								components: {
 									"ftbquests:icon": "ftb:item/skill_reset_melee"
@@ -1593,7 +1593,7 @@
 					rewards: [
 						{
 							command: "/puffish_skills skills reset @s puffish_skills:ranged"
-							feedback_message: "Ranged Skills Have Been Reset"
+							feedback_message: "远程技能树已被重置"
 							icon: {
 								components: {
 									"ftbquests:icon": "ftb:item/skill_reset_ranged"
@@ -1629,7 +1629,7 @@
 					rewards: [
 						{
 							command: "/puffish_skills skills reset @s puffish_skills:mining"
-							feedback_message: "Mining Skills Have Been Reset"
+							feedback_message: "挖掘技能树已被重置"
 							icon: {
 								components: {
 									"ftbquests:icon": "ftb:item/skill_reset_mining"
@@ -1665,7 +1665,7 @@
 					rewards: [
 						{
 							command: "/puffish_skills skills reset @s puffish_skills:athletics"
-							feedback_message: "Athletic Skills Have Been Reset"
+							feedback_message: "运动技能树已被重置"
 							icon: {
 								components: {
 									"ftbquests:icon": "ftb:item/skill_reset_athletics"
@@ -1701,7 +1701,7 @@
 					rewards: [
 						{
 							command: "/puffish_skills skills reset @s puffish_skills:magic"
-							feedback_message: "Magic Skills Have Been Reset"
+							feedback_message: "魔法技能树已被重置"
 							icon: {
 								components: {
 									"ftbquests:icon": "ftb:item/skill_reset_magic"
@@ -1737,7 +1737,7 @@
 					rewards: [
 						{
 							command: "/puffish_skills skills reset @p puffish_skills:defense"
-							feedback_message: "Defense Skills Have Been Reset"
+							feedback_message: "防御技能树已被重置"
 							icon: {
 								components: {
 									"ftbquests:icon": "ftb:item/skill_reset_defense"
@@ -1788,7 +1788,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:magic 1"
-							feedback_message: "Magic Skills Levelled Up"
+							feedback_message: "魔法技能已升级"
 							icon: {
 								components: {
 									"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/charge.png"
@@ -1833,7 +1833,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:magic 1"
-							feedback_message: "Magic Skills Levelled Up"
+							feedback_message: "魔法技能已升级"
 							icon: {
 								components: {
 									"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/charge.png"
@@ -1890,7 +1890,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:magic 1"
-							feedback_message: "Magic Skills Levelled Up"
+							feedback_message: "魔法技能已升级"
 							icon: {
 								components: {
 									"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1935,7 +1935,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:magic 1"
-							feedback_message: "Magic Skills Levelled Up"
+							feedback_message: "魔法技能已升级"
 							icon: {
 								components: {
 									"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1992,7 +1992,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:magic 1"
-							feedback_message: "Magic Skills Levelled Up"
+							feedback_message: "魔法技能已升级"
 							icon: {
 								components: {
 									"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -2059,7 +2059,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:magic 1"
-							feedback_message: "Magic Skills Levelled Up"
+							feedback_message: "魔法技能已升级"
 							icon: {
 								components: {
 									"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -2123,7 +2123,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:magic 5"
-							feedback_message: "Magic Skills Levelled Up"
+							feedback_message: "魔法技能已升级"
 							icon: {
 								components: {
 									"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/charge.png"
@@ -4231,7 +4231,7 @@
 							command: "/effect give @p minecraft:bad_omen 1800"
 							disable_reward_screen_blur: true
 							exclude_from_claim_all: true
-							feedback_message: "You shouldn't have done this..."
+							feedback_message: "你不该这么做的……"
 							icon: {
 								components: {
 									"ftbquests:icon": "minecraft:textures/mob_effect/unluck.png"
@@ -4298,7 +4298,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:magic 1"
-							feedback_message: "Magic Skills Levelled Up"
+							feedback_message: "魔法技能已升级"
 							icon: {
 								components: {
 									"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/charge.png"

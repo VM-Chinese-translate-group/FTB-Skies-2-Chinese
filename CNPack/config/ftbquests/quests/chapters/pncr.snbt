@@ -21,7 +21,7 @@
 				}
 				{
 					height: 8.0d
-					hover: ["Pneumatic Pressure Chamber"]
+					hover: ["气动压力室"]
 					image: "ftb:textures/quests/pneumaticcraft/pressurechamber.png"
 					rotation: 0.0d
 					width: 7.796437659033079d

@@ -173,7 +173,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New loot bag available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New loot bag available in the Shop!"
+							feedback_message: "商店上架了全新的战利品包！"
 							id: "7CF737CCB81345A8"
 							permission_level: 3
 							silent: true
@@ -219,7 +219,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:magic 1"
-							feedback_message: "Magic Skills Levelled Up"
+							feedback_message: "魔法技能已升级"
 							icon: {
 								components: {
 									"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -376,7 +376,7 @@
 						{
 							auto: "invisible"
 							command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-							feedback_message: "New items available in the Shop!"
+							feedback_message: "商店中出现了新的物品！"
 							id: "4E1ECF3EB642CE35"
 							permission_level: 3
 							silent: true
@@ -633,7 +633,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:athletics 1"
-							feedback_message: "Athletic Skills Levelled Up"
+							feedback_message: "运动技能已升级"
 							icon: {
 								components: {
 									"ftbquests:icon": "minecraft:textures/mob_effect/speed.png"
@@ -728,7 +728,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:melee 1"
-							feedback_message: "Melee Skills Levelled Up"
+							feedback_message: "近战技能已升级"
 							icon: {
 								components: {
 									"ftbquests:icon": "minecraft:textures/mob_effect/strength.png"
@@ -743,7 +743,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:ranged 1"
-							feedback_message: "Ranged Skills Levelled Up"
+							feedback_message: "远程技能已升级"
 							icon: {
 								components: {
 									"ftbquests:icon": "relics:textures/gui/description/icons/arrow_quiver/arrow.png"
@@ -1871,7 +1871,7 @@
 						}
 						{
 							command: "/puffish_skills points add @s puffish_skills:mining 1"
-							feedback_message: "Mining Skills Levelled Up"
+							feedback_message: "挖掘技能已升级"
 							icon: {
 								components: {
 									"ftbquests:icon": "minecraft:textures/mob_effect/haste.png"
