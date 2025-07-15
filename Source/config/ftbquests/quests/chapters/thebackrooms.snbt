@@ -167,5 +167,124 @@
 			x: 2.5d
 			y: 0.0d
 		}
+		{
+			can_repeat: true
+			icon: {
+				id: "mekanism:advanced_tier_installer"
+			}
+			id: "280FB7490C3D2790"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "0B774A7835764689"
+					item: {
+						count: 1
+						id: "mekanism:basic_tier_installer"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "51010E48564A9C0A"
+					item: {
+						count: 1
+						id: "mekanism:advanced_tier_installer"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30E3977563D7722E"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "mekanism:elite_tier_installer"
+			}
+			id: "71C615C9AE8200E7"
+			rewards: [
+				{
+					id: "045AEEB16CF99C0C"
+					item: {
+						count: 1
+						id: "mekanism:basic_tier_installer"
+					}
+					type: "item"
+				}
+				{
+					id: "124AB5B7B49F869C"
+					item: {
+						count: 1
+						id: "mekanism:advanced_tier_installer"
+					}
+					type: "item"
+				}
+				{
+					id: "7F72D75180DEF559"
+					item: {
+						count: 1
+						id: "mekanism:elite_tier_installer"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43467AECBE710424"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "mekanism:ultimate_tier_installer"
+			}
+			id: "635CC74ABE28435D"
+			rewards: [
+				{
+					id: "2D7F62D03B1C4560"
+					item: {
+						count: 1
+						id: "mekanism:basic_tier_installer"
+					}
+					type: "item"
+				}
+				{
+					id: "5A2CA8571F8427F4"
+					item: {
+						count: 1
+						id: "mekanism:advanced_tier_installer"
+					}
+					type: "item"
+				}
+				{
+					id: "6BF057A7CBBCC957"
+					item: {
+						count: 1
+						id: "mekanism:elite_tier_installer"
+					}
+					type: "item"
+				}
+				{
+					id: "6A7315AD0E713A14"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_tier_installer"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12176C8DACC5E2E4"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
 	]
 }

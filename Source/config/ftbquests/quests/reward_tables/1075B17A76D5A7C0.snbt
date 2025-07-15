@@ -12,31 +12,39 @@
 				count: 1
 				id: "mekanism:basic_tier_installer"
 			}
-			weight: 100.0f
+			weight: 4.0f
 		}
 		{
-			id: "0AB1841E9DCD1784"
-			item: {
-				count: 1
+			command: "/ftbquests change_progress @s complete 30E3977563D7722E"
+			feedback_message: "Advanced Tier Upgrade Bundle"
+			icon: {
 				id: "mekanism:advanced_tier_installer"
 			}
-			weight: 75.0f
+			id: "32548AF6E863C8EA"
+			permission_level: 3
+			type: "command"
+			weight: 3.0f
 		}
 		{
-			id: "4AB3BFFFA0085A4B"
-			item: {
-				count: 1
+			command: "/ftbquests change_progress @s complete 43467AECBE710424"
+			feedback_message: "Elite Tier Upgrade Bundle"
+			icon: {
 				id: "mekanism:elite_tier_installer"
 			}
-			weight: 50.0f
+			id: "6603A00422D813B5"
+			permission_level: 3
+			type: "command"
+			weight: 2.0f
 		}
 		{
-			id: "10D05E086F7E841F"
-			item: {
-				count: 1
+			command: "/ftbquests change_progress @p complete 12176C8DACC5E2E4"
+			feedback_message: "Ultimate Tier Upgrade Bundle"
+			icon: {
 				id: "mekanism:ultimate_tier_installer"
 			}
-			weight: 10.0f
+			id: "5FB1B68C034FCC05"
+			permission_level: 3
+			type: "command"
 		}
 	]
 	use_title: true

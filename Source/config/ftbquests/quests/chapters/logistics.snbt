@@ -32,7 +32,13 @@
 		}
 	]
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "72F811D111DECD94"
+		linked_quest: "3F26B10626145BBC"
+		shape: "hexagon"
+		x: 0.0d
+		y: 0.5d
+	}]
 	quests: [
 		{
 			id: "64E34B2DA32D3586"
@@ -921,36 +927,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["0E107AC18FCFDB57"]
-			hide_dependency_lines: true
-			id: "7EDCDC0CA1A03FA0"
-			min_width: 300
-			rewards: [
-				{
-					id: "3E7F013A8540FBC4"
-					type: "xp"
-					xp: 5
-				}
-				{
-					count: 2
-					id: "2ACEB23A1D6B3EB1"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "51BA730351E25D93"
-				item: { count: 1, id: "justdirethings:itemcollector" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.5d
-		}
-		{
 			id: "4C30F4091C2424E7"
 			rewards: [
 				{
@@ -1018,22 +994,15 @@
 			id: "12662BF53A31F0B4"
 			min_width: 250
 			optional: true
-			rewards: [
-				{
-					id: "20FD055B27BE435D"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				count: 3
+				id: "185212F64219CAFE"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 3
-					id: "185212F64219CAFE"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [
@@ -1058,22 +1027,15 @@
 			id: "354171E4089DFA96"
 			min_width: 300
 			optional: true
-			rewards: [
-				{
-					id: "5379B4A786C272DB"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				count: 3
+				id: "751A33738B4BF775"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 3
-					id: "751A33738B4BF775"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [
@@ -1130,22 +1092,15 @@
 			id: "718AF92800C06825"
 			min_width: 300
 			optional: true
-			rewards: [
-				{
-					id: "2F1791A0758C70EF"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				count: 3
+				id: "160A610743E71C75"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 3
-					id: "160A610743E71C75"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [
@@ -1338,21 +1293,14 @@
 			dependencies: ["38869642A2E6F8B6"]
 			id: "745140E3D92CB0D6"
 			optional: true
-			rewards: [
-				{
-					id: "0607372B19A00284"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "3DF3C1C356D4D999"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "3DF3C1C356D4D999"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5D733131C1727C37"
@@ -1389,21 +1337,14 @@
 			dependencies: ["38869642A2E6F8B6"]
 			id: "314E9901D4E89E6F"
 			optional: true
-			rewards: [
-				{
-					id: "1D58B4D618053B1F"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "206DC05AEC2C27BA"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "206DC05AEC2C27BA"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "246733EA4BF9D11F"
@@ -1472,21 +1413,14 @@
 			}
 			id: "0ED940DF43A934ED"
 			optional: true
-			rewards: [
-				{
-					id: "08CB0527875C222E"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "4D9D995EB7B9C453"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "4D9D995EB7B9C453"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{

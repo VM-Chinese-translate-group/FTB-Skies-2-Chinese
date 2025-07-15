@@ -36,10 +36,10 @@
 		{ id: "1CD4264F1BB132A2", item: { components: { "apotheosis:gem": "apotheosis:core/warlord", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
 		{ id: "07AE5FA61B033F67", item: { components: { "apotheosis:gem": "apotheosis:overworld/earth", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
 		{ id: "0A53A7B5F420EE51", item: { components: { "apotheosis:gem": "apotheosis:overworld/royalty", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
-		{ id: "0CFAD8F0B1DCF71F", item: { components: { "apotheosis:gem": "apotheosis:the_end/endersurge", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
-		{ id: "2153C0C28C5D8A43", item: { components: { "apotheosis:gem": "apotheosis:the_end/mageslayer", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
 		{ id: "4E0F4A816BAD01C6", item: { components: { "apotheosis:gem": "apotheosis:the_nether/blood_lord", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
 		{ id: "6899E00C5AC08FF1", item: { components: { "apotheosis:gem": "apotheosis:the_nether/inferno", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "2153C0C28C5D8A43", item: { components: { "apotheosis:gem": "apotheosis:the_end/mageslayer", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
+		{ id: "0CFAD8F0B1DCF71F", item: { components: { "apotheosis:gem": "apotheosis:the_end/endersurge", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" } }
 	]
 	use_title: true
 }

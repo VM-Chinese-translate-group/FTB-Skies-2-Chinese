@@ -403,6 +403,27 @@
 			x: 1.5d
 			y: 2.5d
 		}
+		{
+			id: "1BFDAE9FCBA7E00F"
+			linked_quest: "39A6CE8A1D5B2D8F"
+			shape: "diamond"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "24496B3E39D2C894"
+			linked_quest: "1C866721E1F2FF50"
+			shape: "diamond"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "519510236669B54D"
+			linked_quest: "001F0C36B4AB9F5F"
+			shape: "diamond"
+			x: 0.5d
+			y: 2.5d
+		}
 	]
 	quests: [
 		{
@@ -1084,139 +1105,6 @@
 			}]
 			x: -0.5d
 			y: 2.5d
-		}
-		{
-			icon: {
-				id: "justdirethings:generatort1"
-			}
-			id: "675DB26958651818"
-			min_width: 250
-			rewards: [
-				{
-					id: "664DD4ABB5282DC1"
-					type: "xp"
-					xp: 5
-				}
-				{
-					count: 2
-					id: "540B0B4CBCD676E8"
-					item: {
-						count: 1
-						id: "minecraft:coal"
-					}
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 2
-					id: "0AA51092D606D0CC"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "7EDA27472385D2E7"
-					item: { count: 1, id: "justdirethings:generatort1" }
-					type: "item"
-				}
-				{
-					id: "4668931B20B14CA6"
-					item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:coal_t1)item(justdirethings:coal_t2)item(justdirethings:coal_t3)item(justdirethings:coal_t4))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			icon: {
-				id: "justdirethings:generatorfluidt1"
-			}
-			id: "63C6CCD277C86EF4"
-			rewards: [
-				{
-					id: "691FB6AA47179AF1"
-					type: "xp"
-					xp: 5
-				}
-				{
-					id: "578DF1E2F1497110"
-					item: {
-						count: 1
-						id: "justdirethings:unrefined_t2_fluid_bucket"
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "6586CF59F7B242FA"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "66A2DBBF810EFD69"
-					item: { count: 1, id: "justdirethings:generatorfluidt1" }
-					type: "item"
-				}
-				{
-					id: "41F84CFCEEB9726B"
-					item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:refined_t2_fluid_bucket)item(justdirethings:refined_t3_fluid_bucket)item(justdirethings:refined_t4_fluid_bucket))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["0E107AC18FCFDB57"]
-			hide_dependency_lines: true
-			id: "1C866721E1F2FF50"
-			rewards: [
-				{
-					id: "564ED570A6C15B5B"
-					type: "xp"
-					xp: 5
-				}
-				{
-					count: 2
-					id: "17391D8B68D64876"
-					item: {
-						count: 1
-						id: "justdirethings:coal_t1"
-					}
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 2
-					id: "3C27694151892C64"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "393A0B57EF8B5203"
-				item: { count: 1, id: "justdirethings:pocket_generator" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
 		}
 		{
 			id: "754048401D3A6A7B"

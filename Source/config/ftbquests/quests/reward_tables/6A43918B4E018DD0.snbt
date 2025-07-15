@@ -1,0 +1,83 @@
+{
+	icon: {
+		id: "productivelib:upgrade_child"
+	}
+	id: "6A43918B4E018DD0"
+	loot_size: 1
+	order_index: 72
+	rewards: [
+		{
+			id: "3D727C60023CE422"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_productivity"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "0DF8D6B68AA314E2"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_productivity_2"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "3DC3FFFA753A1A80"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_productivity_3"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "08D5695A64211839"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_productivity_4"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "233376C051EE8347"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_time"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "4E9BB971893946AA"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_time_2"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "195B266904A61BB5"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_simulator"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "3F1A10DEDBACEED9"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_block"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "589A754A67ED17BC"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_anti_teleport"
+			}
+			weight: 50.0f
+		}
+	]
+	use_title: true
+}

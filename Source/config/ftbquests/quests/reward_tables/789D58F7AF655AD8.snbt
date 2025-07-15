@@ -1,0 +1,203 @@
+{
+	icon: {
+		components: {
+			"productivebees:gene_group": {
+				attribute: "type"
+				purity: 100
+				value: "productivebees:monazite"
+			}
+		}
+		id: "productivebees:gene"
+	}
+	id: "789D58F7AF655AD8"
+	loot_size: 1
+	order_index: 71
+	rewards: [
+		{
+			id: "12A16F8A50A1AE1B"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "productivity"
+						purity: 100
+						value: "productivity.normal"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "07A028DA833592A0"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "productivity"
+						purity: 100
+						value: "productivity.medium"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "63459C14DCD35DB8"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "productivity"
+						purity: 100
+						value: "productivity.high"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 5.0f
+		}
+		{ id: "68C6F3D444D3180C", item: { components: { "productivebees:gene_group": { attribute: "productivity", purity: 100, value: "productivity.very_high" } }, count: 1, id: "productivebees:gene" } }
+		{
+			id: "3D294A2FFFF1FB57"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "weather_tolerance"
+						purity: 100
+						value: "weather_tolerance.rain"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 5.0f
+		}
+		{ id: "54F6251CB89C0328", item: { components: { "productivebees:gene_group": { attribute: "weather_tolerance", purity: 100, value: "weather_tolerance.any" } }, count: 1, id: "productivebees:gene" } }
+		{
+			id: "7932D9CF0C07DB35"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "behavior"
+						purity: 100
+						value: "behavior.diurnal"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "7A88B8503FA188DC"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "behavior"
+						purity: 100
+						value: "behavior.nocturnal"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 5.0f
+		}
+		{ id: "23683E734E00C19D", item: { components: { "productivebees:gene_group": { attribute: "behavior", purity: 100, value: "behavior.metaturnal" } }, count: 1, id: "productivebees:gene" } }
+		{
+			id: "21B7676AF3477D15"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "endurance"
+						purity: 100
+						value: "endurance.weak"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "297DB6CB2A439CF6"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "endurance"
+						purity: 100
+						value: "endurance.normal"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "516BE94A17309CC6"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "endurance"
+						purity: 100
+						value: "endurance.medium"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 5.0f
+		}
+		{ id: "6E663FD1C40ACE4B", item: { components: { "productivebees:gene_group": { attribute: "endurance", purity: 100, value: "endurance.strong" } }, count: 1, id: "productivebees:gene" } }
+		{
+			id: "7EB575F8C799BBDE"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "temper"
+						purity: 100
+						value: "temper.aggressive"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "5A7BF7E771B20F92"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "temper"
+						purity: 100
+						value: "temper.hostile"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "4D6FD1554B75125F"
+			item: {
+				components: {
+					"productivebees:gene_group": {
+						attribute: "temper"
+						purity: 100
+						value: "temper.normal"
+					}
+				}
+				count: 1
+				id: "productivebees:gene"
+			}
+			weight: 5.0f
+		}
+		{ id: "3F1E4436CE251EAF", item: { components: { "productivebees:gene_group": { attribute: "temper", purity: 100, value: "temper.passive" } }, count: 1, id: "productivebees:gene" } }
+	]
+	use_title: true
+}

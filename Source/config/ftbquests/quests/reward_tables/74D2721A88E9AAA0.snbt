@@ -70,7 +70,6 @@
 				count: 1
 				id: "mysticalagriculture:awakened_supremium_essence"
 			}
-			random_bonus: 3
 			weight: 50.0f
 		}
 	]

@@ -19,6 +19,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "5E05D7FD0861A13B"
+			permission_level: 3
 			type: "command"
 		}
 		{
@@ -31,7 +32,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "67E5000402E634D7"
-			permission_level: 2
+			permission_level: 3
 			type: "command"
 		}
 		{
@@ -44,7 +45,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "11D5E72A2A8AD707"
-			permission_level: 2
+			permission_level: 3
 			type: "command"
 		}
 		{
@@ -57,7 +58,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "366EEEAE0290B879"
-			permission_level: 2
+			permission_level: 3
 			type: "command"
 		}
 		{
@@ -70,7 +71,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "5CF1FF581D9CE7C1"
-			permission_level: 2
+			permission_level: 3
 			type: "command"
 		}
 		{
@@ -83,7 +84,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "36978A333E01A6DA"
-			permission_level: 2
+			permission_level: 3
 			type: "command"
 		}
 	]

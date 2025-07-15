@@ -6,9 +6,19 @@
 	loot_size: 1
 	order_index: 46
 	rewards: [
+		{
+			count: 2
+			id: "119A06A2DDBF2498"
+			item: {
+				count: 1
+				id: "create:factory_gauge"
+			}
+		}
 		{ id: "6D3EA1DDE930DF9A", item: { count: 1, id: "create:rotation_speed_controller" } }
 		{ id: "24A58EDF198A2E5D", item: { count: 1, id: "create:mechanical_arm" } }
 		{ id: "5A64A5FB819E1623", item: { count: 1, id: "create:deployer" } }
+		{ id: "37E12692DE05770F", item: { count: 1, id: "create:wand_of_symmetry" } }
+		{ id: "55BB9A69B6ABD434", item: { count: 1, id: "create:extendo_grip" } }
 	]
 	use_title: true
 }

@@ -15,8 +15,8 @@
 			image: "ftb:textures/quests/create/train.png"
 			rotation: 0.0d
 			width: 7.0d
-			x: 30.0d
-			y: 1.5d
+			x: 16.97d
+			y: 9.6d
 		}
 		{
 			height: 5.0d
@@ -25,30 +25,6 @@
 			width: 6.5d
 			x: 13.4d
 			y: 4.0d
-		}
-		{
-			height: 1.0d
-			image: "create:block/depot_side"
-			rotation: 0.0d
-			width: 1.0d
-			x: 7.0d
-			y: 5.0d
-		}
-		{
-			height: 1.0d
-			image: "create:block/depot_side"
-			rotation: 0.0d
-			width: 1.0d
-			x: 8.0d
-			y: 5.0d
-		}
-		{
-			height: 1.0d
-			image: "create:block/depot_side"
-			rotation: 0.0d
-			width: 1.0d
-			x: 9.0d
-			y: 5.0d
 		}
 		{
 			height: 1.25d
@@ -103,7 +79,7 @@
 			image: "create:block/depot_side"
 			rotation: 0.0d
 			width: 1.0d
-			x: 24.0d
+			x: 23.5d
 			y: 6.5d
 		}
 		{
@@ -111,7 +87,7 @@
 			image: "create:block/depot_side"
 			rotation: 0.0d
 			width: 1.0d
-			x: 25.0d
+			x: 24.5d
 			y: 6.5d
 		}
 		{
@@ -119,7 +95,7 @@
 			image: "create:block/depot_side"
 			rotation: 0.0d
 			width: 1.0d
-			x: 26.0d
+			x: 25.5d
 			y: 6.5d
 		}
 		{
@@ -145,14 +121,6 @@
 			width: 6.0d
 			x: 13.5d
 			y: -4.25d
-		}
-		{
-			height: 1.25d
-			image: "ftb:textures/quests/create/placard.png"
-			rotation: 0.0d
-			width: 1.25d
-			x: 0.0d
-			y: 3.0d
 		}
 		{
 			height: 2.45d
@@ -185,6 +153,14 @@
 			width: 1.25d
 			x: 16.007823129251726d
 			y: 1.0278911564625872d
+		}
+		{
+			height: 1.25d
+			image: "ftb:textures/quests/create/placard.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 8.0d
+			y: 4.53d
 		}
 	]
 	order_index: 1
@@ -221,24 +197,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5D96F0CE1154B9B8"]
-			id: "1CA4AF485A77607F"
-			rewards: [{
-				id: "488DBEED8EE58488"
-				team_reward: false
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "3BAF007841918186"
-				item: { count: 1, id: "create:wrench" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.5d
-		}
-		{
 			dependencies: [
 				"75D3AC9CCA5A82E4"
 				"3557FBCEFEF444CC"
@@ -246,7 +204,6 @@
 			id: "4BFEF3BDD452DEF4"
 			optional: true
 			rewards: [{
-				count: 2
 				id: "2521EBBB9F3DF259"
 				item: {
 					count: 1
@@ -260,7 +217,7 @@
 				item: { count: 1, id: "create:potato_cannon" }
 				type: "item"
 			}]
-			x: 26.0d
+			x: 25.5d
 			y: 2.0d
 		}
 		{
@@ -271,7 +228,7 @@
 			id: "63A3D154A4307BCC"
 			optional: true
 			rewards: [{
-				count: 2
+				count: 3
 				id: "646C3CDA51282212"
 				item: {
 					count: 1
@@ -285,7 +242,7 @@
 				item: { count: 1, id: "create:extendo_grip" }
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: 2.0d
 		}
 		{
@@ -310,12 +267,12 @@
 				item: { count: 1, id: "create:wand_of_symmetry" }
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5D96F0CE1154B9B8"]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			icon: {
 				id: "create:schematicannon"
 			}
@@ -339,7 +296,7 @@
 					type: "item"
 				}
 			]
-			shape: "none"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "55A613D065426AA4"
@@ -353,7 +310,7 @@
 				}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5CF5D75A76348C9D"]
@@ -383,8 +340,8 @@
 				item: { count: 1, id: "create:stockpile_switch" }
 				type: "item"
 			}]
-			x: 22.5d
-			y: -3.0d
+			x: 22.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5CF5D75A76348C9D"]
@@ -414,8 +371,8 @@
 				item: { count: 1, id: "create:content_observer" }
 				type: "item"
 			}]
-			x: 20.5d
-			y: -3.0d
+			x: 21.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6A45F51C228012B1"]
@@ -807,6 +764,9 @@
 		}
 		{
 			dependencies: ["0B92679772DB0C68"]
+			icon: {
+				id: "create:water_wheel"
+			}
 			id: "4E2F296E04F1DA38"
 			rewards: [
 				{
@@ -826,30 +786,8 @@
 					random_bonus: 1
 					type: "item"
 				}
-			]
-			shape: "circle"
-			tasks: [{
-				id: "4EC17951C0DAF745"
-				item: { count: 1, id: "create:water_wheel" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["4E2F296E04F1DA38"]
-			id: "33E90998B6E11500"
-			rewards: [
 				{
-					id: "2AF5836731770201"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "35A5254A0FFB127F"
+					id: "645346FB6FD79AC1"
 					item: {
 						count: 1
 						id: "create:large_water_wheel"
@@ -857,14 +795,21 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
-			tasks: [{
-				id: "33D233945C970C23"
-				item: { count: 1, id: "create:large_water_wheel" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -3.5d
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4EC17951C0DAF745"
+					item: { count: 1, id: "create:water_wheel" }
+					type: "item"
+				}
+				{
+					id: "1BF5400410E51B71"
+					item: { count: 1, id: "create:large_water_wheel" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0B92679772DB0C68"]
@@ -875,44 +820,14 @@
 				type: "xp"
 				xp: 10
 			}]
-			shape: "gear"
+			shape: "diamond"
 			tasks: [{
 				id: "74A4B452E5983079"
 				item: { count: 1, id: "create:hand_crank" }
 				type: "item"
 			}]
 			x: 4.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["67DE9E103F50E3F1"]
-			hide_dependency_lines: true
-			id: "573607053A3A6A53"
-			optional: true
-			rewards: [
-				{
-					id: "0547BEF0CE3A44B3"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "488602491F39ADBC"
-					table_id: 4347873320268284009L
-					type: "choice"
-				}
-			]
-			shape: "gear"
-			tasks: [{
-				id: "617828C17B8AC573"
-				item: { count: 1, id: "create:cuckoo_clock" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["67DE9E103F50E3F1"]
@@ -1046,14 +961,14 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
+			shape: "none"
 			tasks: [{
 				id: "3777BE237754437C"
 				item: { count: 1, id: "create:speedometer" }
 				optional_task: true
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: 4.5d
 		}
 		{
@@ -1152,14 +1067,14 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "square"
 			tasks: [{
 				id: "393128940D87CE75"
 				item: { count: 1, id: "create:smart_fluid_pipe" }
 				type: "item"
 			}]
 			x: 20.5d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["79FDF1B5B7E09EAF"]
@@ -1476,6 +1391,9 @@
 		}
 		{
 			dependencies: ["0B92679772DB0C68"]
+			icon: {
+				id: "create:windmill_bearing"
+			}
 			id: "42FE1FD899C2EABB"
 			rewards: [
 				{
@@ -1487,23 +1405,31 @@
 					type: "item"
 				}
 				{
-					count: 2
+					count: 8
 					id: "19BBBC82CE8B6B78"
 					item: {
 						count: 1
-						id: "create:shaft"
+						id: "create:white_sail"
 					}
-					random_bonus: 4
+					random_bonus: 8
 					type: "item"
 				}
 			]
-			shape: "circle"
-			tasks: [{
-				id: "4827AD013233573E"
-				item: { count: 1, id: "create:windmill_bearing" }
-				type: "item"
-			}]
-			x: 5.0d
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4827AD013233573E"
+					item: { count: 1, id: "create:windmill_bearing" }
+					type: "item"
+				}
+				{
+					id: "5F2712BFA5784314"
+					item: { count: 1, id: "create:white_sail" }
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -1534,37 +1460,6 @@
 			}]
 			x: 6.97d
 			y: -1.97d
-		}
-		{
-			dependencies: ["5CF5D75A76348C9D"]
-			id: "2B2C42F215FD0385"
-			optional: true
-			rewards: [
-				{
-					id: "6AD845343807A5D0"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "658F6CE6881372E3"
-					item: {
-						count: 1
-						id: "minecraft:clock"
-					}
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "4297F10D12D93114"
-				item: { count: 1, id: "create:clockwork_bearing" }
-				type: "item"
-			}]
-			x: 21.0d
-			y: -3.5d
 		}
 		{
 			dependencies: ["0BF770CB2B6312CF"]
@@ -1980,13 +1875,12 @@
 			y: 1.96d
 		}
 		{
-			dependencies: ["542AF3802E9CFBE2"]
 			hide_dependency_lines: true
 			hide_lock_icon: true
 			id: "47D17EE805F7D88D"
 			optional: true
 			rewards: [{
-				count: 3
+				count: 2
 				id: "421F120B4487A6F0"
 				item: {
 					count: 1
@@ -2000,40 +1894,8 @@
 				item: { count: 1, id: "create:mechanical_roller" }
 				type: "item"
 			}]
-			x: 29.54d
-			y: 1.89d
-		}
-		{
-			dependencies: ["42FE1FD899C2EABB"]
-			id: "7AB20F8AB1A2F32C"
-			rewards: [
-				{
-					id: "77376FD17010860A"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "5BA5CE72CA6C7D2C"
-					item: {
-						count: 1
-						id: "create:white_sail"
-					}
-					random_bonus: 8
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				id: "4458A28811FAAD18"
-				item: { count: 1, id: "create:white_sail" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: -3.5d
+			x: 16.509999999999998d
+			y: 9.99d
 		}
 		{
 			dependencies: ["4B7FE5A718A97706"]
@@ -2144,40 +2006,8 @@
 				item: { count: 1, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["5CF5D75A76348C9D"]
-			id: "7DA49FF69A6E53E3"
-			optional: true
-			rewards: [
-				{
-					id: "57FCB6B6130B3E0A"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "386D6397F2896B8B"
-					item: {
-						count: 1
-						id: "create:sequenced_gearshift"
-					}
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "0B3F466302075A98"
-				item: { count: 1, id: "create:sequenced_gearshift" }
-				type: "item"
-			}]
-			x: 22.0d
-			y: -3.5d
 		}
 		{
 			dependencies: ["3557FBCEFEF444CC"]
@@ -2207,7 +2037,7 @@
 				item: { count: 1, id: "create:rotation_speed_controller" }
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: 6.0d
 		}
 		{
@@ -2215,6 +2045,7 @@
 			id: "75A5A110FC155C5C"
 			rewards: [
 				{
+					count: 2
 					id: "427660FC1E59B8DA"
 					item: {
 						count: 1
@@ -2238,7 +2069,7 @@
 				item: { count: 1, id: "create:mechanical_arm" }
 				type: "item"
 			}]
-			x: 26.0d
+			x: 25.5d
 			y: 6.0d
 		}
 		{
@@ -2246,6 +2077,7 @@
 			hide_dependency_lines: true
 			hide_lock_icon: true
 			id: "25FD6AE037D65903"
+			optional: true
 			rewards: [{
 				id: "0BA49CB3FE2E1F21"
 				item: {
@@ -2260,12 +2092,13 @@
 				item: { count: 1, id: "create:track" }
 				type: "item"
 			}]
-			x: 28.53d
-			y: 1.9d
+			x: 15.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4E627F4AC4829EB5"]
 			id: "24E7F983A5ED730F"
+			optional: true
 			rewards: [{
 				count: 2
 				id: "052745A034E2EC03"
@@ -2282,8 +2115,8 @@
 				item: { count: 1, id: "create:railway_casing" }
 				type: "item"
 			}]
-			x: 29.0d
-			y: -2.0d
+			x: 13.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4E627F4AC4829EB5"]
@@ -2291,7 +2124,6 @@
 			id: "49CBB0619F943B81"
 			optional: true
 			rewards: [{
-				count: 4
 				id: "2F659E1D06C029C9"
 				item: {
 					count: 1
@@ -2305,16 +2137,17 @@
 				item: { count: 1, id: "create:schedule" }
 				type: "item"
 			}]
-			x: 29.5d
-			y: 0.9d
+			x: 16.47d
+			y: 9.0d
 		}
 		{
 			dependencies: ["24E7F983A5ED730F"]
 			hide_dependency_lines: true
 			id: "7454899FCDA2349B"
+			optional: true
 			rewards: [
 				{
-					count: 5
+					count: 2
 					id: "39E1DFAA22D51345"
 					item: {
 						count: 1
@@ -2338,16 +2171,17 @@
 				item: { count: 1, id: "create:track_station" }
 				type: "item"
 			}]
-			x: 30.5d
-			y: 1.86d
+			x: 17.47d
+			y: 9.96d
 		}
 		{
 			dependencies: ["24E7F983A5ED730F"]
 			hide_dependency_lines: true
 			id: "41D671271FD97193"
+			optional: true
 			rewards: [
 				{
-					count: 5
+					count: 2
 					id: "02ED2FE6D3407305"
 					item: {
 						count: 1
@@ -2371,16 +2205,16 @@
 				item: { count: 1, id: "create:track_signal" }
 				type: "item"
 			}]
-			x: 31.46d
-			y: 1.89d
+			x: 18.43d
+			y: 9.99d
 		}
 		{
 			dependencies: ["24E7F983A5ED730F"]
 			hide_dependency_lines: true
 			id: "4791C73D1403AB25"
+			optional: true
 			rewards: [
 				{
-					count: 5
 					id: "7BE9FD8BAC3A27C8"
 					item: {
 						count: 1
@@ -2404,15 +2238,16 @@
 				item: { count: 1, id: "create:track_observer" }
 				type: "item"
 			}]
-			x: 31.46d
-			y: 0.9d
+			x: 18.43d
+			y: 9.0d
 		}
 		{
 			dependencies: ["24E7F983A5ED730F"]
 			hide_dependency_lines: true
 			id: "5C7494C886570E80"
+			optional: true
 			rewards: [{
-				count: 5
+				count: 2
 				id: "7A1199E46CE5AB58"
 				item: {
 					count: 1
@@ -2426,8 +2261,8 @@
 				item: { count: 1, id: "create:controls" }
 				type: "item"
 			}]
-			x: 30.5d
-			y: 0.92d
+			x: 17.47d
+			y: 9.02d
 		}
 		{
 			dependencies: ["67DE9E103F50E3F1"]
@@ -2689,8 +2524,8 @@
 				item: { count: 1, id: "create:white_postbox" }
 				type: "item"
 			}]
-			x: 28.53d
-			y: 0.9d
+			x: 15.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -2800,6 +2635,7 @@
 			id: "082DD19BC652E4FF"
 			rewards: [
 				{
+					count: 2
 					id: "4A854BE45B1F830F"
 					item: {
 						count: 1
@@ -2824,7 +2660,7 @@
 				item: { count: 1, id: "create:factory_gauge" }
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: 6.0d
 		}
 		{
@@ -2903,68 +2739,6 @@
 			]
 			x: 12.0d
 			y: -5.5d
-		}
-		{
-			dependencies: ["67DE9E103F50E3F1"]
-			hide_dependency_lines: true
-			id: "6072C6281FBC7DCB"
-			rewards: [
-				{
-					id: "70E1BB24533DBD33"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7B057768CA941445"
-					table_id: 4347873320268284009L
-					type: "choice"
-				}
-			]
-			tasks: [{
-				id: "796CC701DACCC68B"
-				item: { count: 1, id: "create:analog_lever" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["282692A786304653"]
-			icon: {
-				id: "create:peculiar_bell"
-			}
-			id: "5A0865A75DD91A0E"
-			optional: true
-			rewards: [
-				{
-					id: "596FD6680346B8DA"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "5B8FF33E6B6C28F6"
-					item: {
-						count: 1
-						id: "create:haunted_bell"
-					}
-					type: "item"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "45EE1080DA352040"
-				item: { count: 1, id: "create:peculiar_bell" }
-				type: "item"
-			}]
-			x: 20.5d
-			y: 4.0d
 		}
 		{
 			dependencies: ["0BF770CB2B6312CF"]
@@ -3210,11 +2984,13 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["542AF3802E9CFBE2"]
+			dependencies: ["0235143D388D81A2"]
+			hide_dependency_lines: true
 			icon: {
 				id: "ftbmaterials:obsidian_plate"
 			}
 			id: "4E627F4AC4829EB5"
+			optional: true
 			rewards: [{
 				id: "6813A912D287CECB"
 				item: {
@@ -3228,8 +3004,8 @@
 				item: { count: 1, id: "ftbmaterials:obsidian_plate" }
 				type: "item"
 			}]
-			x: 27.0d
-			y: -2.0d
+			x: 13.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0B92679772DB0C68"]
@@ -3480,7 +3256,7 @@
 				item: { count: 1, id: "create:precision_mechanism" }
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: 4.0d
 		}
 		{
@@ -3558,38 +3334,6 @@
 			}]
 			x: 21.5d
 			y: 2.0d
-		}
-		{
-			dependencies: ["75D3AC9CCA5A82E4"]
-			hide_dependency_lines: true
-			icon: {
-				id: "ftbmaterials:obsidian_dust"
-			}
-			id: "542AF3802E9CFBE2"
-			rewards: [{
-				count: 3
-				id: "0EDF85DB307AAC69"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "5EDE8E6E21402D13"
-					item: { count: 1, id: "ftbmaterials:obsidian_dust" }
-					type: "item"
-				}
-				{
-					id: "15E0DE1F620D2DC1"
-					item: { count: 1, id: "create:crushing_wheel" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 25.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["67DE9E103F50E3F1"]

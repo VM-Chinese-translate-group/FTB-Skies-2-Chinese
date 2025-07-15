@@ -777,6 +777,7 @@
 				id: "enchanted:poppet"
 			}
 			id: "3CC88B6ACDC68D5F"
+			min_width: 350
 			optional: true
 			rewards: [
 				{
@@ -1044,6 +1045,7 @@
 				id: "enchanted:attuned_stone_charged"
 			}
 			id: "29A3A67ACFBCD72E"
+			min_width: 300
 			rewards: [
 				{
 					id: "378839E999551288"

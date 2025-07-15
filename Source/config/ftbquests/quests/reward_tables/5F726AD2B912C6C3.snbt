@@ -33,14 +33,14 @@
 		{ id: "11DDE2994D4819A8", item: { count: 1, id: "mekanism:mekasuit_bodyarmor" } }
 		{ id: "68E6908B9EDDD625", item: { count: 1, id: "mekanism:mekasuit_helmet" } }
 		{ id: "0A542CD25ED642C0", item: { count: 1, id: "advanced_ae:quantum_core" } }
-		{ id: "5DE08B07B87CEA59", item: { count: 1, id: "apothic_enchanting:library" } }
+		{ id: "5DE08B07B87CEA59", item: { count: 1, id: "apothic_enchanting:ender_library" } }
 		{ id: "0DAAB03D95DA0081", item: { components: { "apothic_attributes:bonus_attribute_modifiers": { modifiers: [ { amount: 25.0d, id: "apothic_attributes:command_generated_658377850", operation: "add_value", slot: "mainhand", type: "minecraft:generic.attack_damage" }, { amount: 0.10000000149011612d, id: "apothic_attributes:command_generated_1675147067", operation: "add_value", slot: "mainhand", type: "apothic_attributes:current_hp_damage" } ] }, "minecraft:custom_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Extremely Sharp Cactus\"}],\"text\":\"\"}", "minecraft:enchantment_glint_override": 1b }, count: 1, id: "minecraft:cactus" } }
 		{
 			count: 3
 			id: "4AA4B387D04CD4C5"
 			item: {
 				components: {
-					"ftbquests:loot_crate": "bag_of_relics"
+					"ftbquests:loot_crate": "relic_bag"
 				}
 				count: 1
 				id: "ftbquests:lootcrate"
@@ -51,7 +51,7 @@
 			id: "2094A8A757FA6E86"
 			item: {
 				components: {
-					"ftbquests:loot_crate": "lost_bag_of_talismans"
+					"ftbquests:loot_crate": "perfect_gems_bag"
 				}
 				count: 1
 				id: "ftbquests:lootcrate"
@@ -65,17 +65,6 @@
 				id: "mekanism:pellet_antimatter"
 			}
 			random_bonus: 2
-		}
-		{
-			count: 3
-			id: "422C2689691CCCE8"
-			item: {
-				components: {
-					"ftbquests:loot_crate": "bag_of_perfect_gems"
-				}
-				count: 1
-				id: "ftbquests:lootcrate"
-			}
 		}
 	]
 	use_title: true
