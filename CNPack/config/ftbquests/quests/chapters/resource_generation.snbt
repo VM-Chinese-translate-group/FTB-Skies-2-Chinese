@@ -854,6 +854,24 @@
 					table_id: 8417916111800609440L
 					type: "random"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "商店中出现了新的物品！"
+					id: "10C2457FC6F95DC2"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "3F4AEEE7172A620D"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "none"
 			size: 1.5d
@@ -2466,24 +2484,6 @@
 					table_id: 8417916111800609440L
 					type: "random"
 				}
-				{
-					auto: "invisible"
-					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-					feedback_message: "商店中出现了新的物品！"
-					id: "1DE637E48DACD120"
-					permission_level: 3
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
-					exclude_from_claim_all: true
-					id: "5D4F7757AB821B23"
-					permission_level: 3
-					silent: true
-					type: "command"
-				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -2712,7 +2712,7 @@
 					id: "089AF2CAA7FC5B4B"
 					item: {
 						components: {
-							"minecraft:custom_name": "“非必须工具”"
+							"minecraft:custom_name": "\"An Unnecessary Tool\""
 						}
 						count: 1
 						id: "ae2:fluix_pickaxe"
@@ -2837,6 +2837,24 @@
 					table_id: 1862978040036675512L
 					type: "random"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New loot bag available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "商店上架了全新的战利品包！"
+					id: "62CE42322A836731"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "1AFC417800E20180"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "rsquare"
 			tasks: [
@@ -2880,6 +2898,24 @@
 					id: "41BBFD7AB5DE1335"
 					table_id: 1862978040036675512L
 					type: "random"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New loot bag available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "商店上架了全新的战利品包！"
+					id: "246E76A0C7917871"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "011FF69CB7ACB5FA"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -3004,6 +3040,24 @@
 					id: "544B5C735797F4F9"
 					table_id: 1862978040036675512L
 					type: "random"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "商店中出现了新的物品！"
+					id: "7AE352F71C9AECAB"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "7A35CEA8389846DB"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "square"
@@ -3600,38 +3654,6 @@
 		}
 		{
 			dependencies: ["77914AB759F51A62"]
-			id: "4E858EA44C329668"
-			optional: true
-			rewards: [
-				{
-					count: 2
-					id: "022966B78D492132"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "42CD28F78C77EF14"
-					table_id: 1862978040036675512L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "00660335A863EE6B"
-				item: {
-					count: 1
-					id: "productivebees:honey_generator"
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["77914AB759F51A62"]
 			id: "7FC24DE55428724A"
 			rewards: [
 				{
@@ -3659,7 +3681,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["77914AB759F51A62"]
@@ -3690,7 +3712,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["39214B204D3BEB2A"]
@@ -3779,6 +3801,24 @@
 					table_id: 1862978040036675512L
 					type: "random"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "商店中出现了新的物品！"
+					id: "2A89788DA5D726B3"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "4E72FEFD8797C2F1"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -3818,6 +3858,24 @@
 					}
 					random_bonus: 2
 					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "商店中出现了新的物品！"
+					id: "22AECC707BBDFBAA"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "54814FC961141A7A"
+					permission_level: 3
+					silent: true
+					type: "command"
 				}
 			]
 			shape: "square"
@@ -4604,7 +4662,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(hostilenetworks:overworld_prediction)item(hostilenetworks:nether_prediction)item(hostilenetworks:end_prediction))"
-							"minecraft:custom_name": "“预测产物”"
+							"minecraft:custom_name": "\"Predictions\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4852,7 +4910,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(geore:iron_shard)item(geore:gold_shard)item(geore:copper_shard)item(geore:coal_shard)item(geore:redstone_shard)item(geore:lapis_shard)item(geore:nickel_shard)item(geore:tin_shard)item(geore:lead_shard))"
-						"minecraft:custom_name": "“基础矿晶”"
+						"minecraft:custom_name": "\"Basic Geores\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -4888,7 +4946,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(geore:diamond_shard)item(geore:emerald_shard)item(geore:quartz_shard)item(geore:ancient_debris_shard)item(geore:uranium_shard)item(geore:silver_shard)item(geore:aluminum_shard)item(geore:osmium_shard)item(geore:zinc_shard)item(geore:platinum_shard))"
-							"minecraft:custom_name": "“熔铸炉矿晶”"
+							"minecraft:custom_name": "\"Foundry Geores\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4901,7 +4959,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(geore:budding_diamond)item(geore:budding_emerald)item(geore:budding_quartz)item(geore:budding_ancient_debris)item(geore:budding_uranium)item(geore:budding_silver)item(geore:budding_aluminum)item(geore:budding_osmium)item(geore:budding_zinc)item(geore:budding_platinum))"
-							"minecraft:custom_name": "“熔铸炉矿晶母岩”"
+							"minecraft:custom_name": "\"Foundry Geore Buds\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4936,7 +4994,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(geore:black_quartz_shard)item(geore:tungsten_shard)item(geore:monazite_shard))"
-							"minecraft:custom_name": "“小众矿晶”"
+							"minecraft:custom_name": "\"Niche Geores\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4948,7 +5006,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(geore:budding_black_quartz)item(geore:budding_tungsten)item(geore:budding_monazite))"
-							"minecraft:custom_name": "“小众矿晶母岩”"
+							"minecraft:custom_name": "\"Niche Budding Geores\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"

@@ -2191,16 +2191,36 @@
 				id: "487B8A93531533EA"
 				item: {
 					components: {
+						"minecraft:attribute_modifiers": {
+							modifiers: [
+								{
+									amount: 2.0d
+									id: "minecraft:base_attack_damage"
+									operation: "add_value"
+									slot: "mainhand"
+									type: "minecraft:generic.attack_damage"
+								}
+								{
+									amount: -2.799999952316284d
+									id: "minecraft:base_attack_speed"
+									operation: "add_value"
+									slot: "mainhand"
+									type: "minecraft:generic.attack_speed"
+								}
+							]
+						}
+						"minecraft:item_name": "{\"translate\":\"item.silentgear.pickaxe.nameProper\",\"with\":[{\"translate\":\"material.silentgear.stone\"}]}"
+						"minecraft:max_damage": 131
 						"minecraft:tool": {
 							rules: [
 								{
-									blocks: "#silentgear:incorrect_for_iron_tools"
+									blocks: "#minecraft:incorrect_for_stone_tool"
 									correct_for_drops: 0b
 								}
 								{
 									blocks: "#minecraft:mineable/pickaxe"
 									correct_for_drops: 1b
-									speed: 6.0f
+									speed: 4.0f
 								}
 							]
 						}
@@ -2211,13 +2231,17 @@
 								{
 									item: {
 										components: {
-											"silentgear:material_list": [{
-												item: {
-													count: 1
-													id: "minecraft:iron_ingot"
+											"silentgear:material_list": [
+												{
+													material: "silentgear:stone"
 												}
-												material: "silentgear:iron"
-											}]
+												{
+													material: "silentgear:stone"
+												}
+												{
+													material: "silentgear:stone"
+												}
+											]
 										}
 										count: 1
 										id: "silentgear:pickaxe_head"
@@ -2239,40 +2263,43 @@
 							]
 							repairedCount: 0
 						}
-						"silentgear:model_index": 3
-						"silentgear:model_key": "pickaxe:pickaxe_head{iron},rod{wood},"
+						"silentgear:model_index": 2
+						"silentgear:model_key": "pickaxe:pickaxe_head{stone},rod{wood},"
 						"silentgear:properties": {
-							"silentgear:armor": 15.0f
-							"silentgear:armor_durability": 15.0f
+							"silentgear:armor": 4.9999995f
+							"silentgear:armor_durability": 4.9999995f
 							"silentgear:armor_toughness": 0.0f
-							"silentgear:attack_damage": 3.0f
+							"silentgear:attack_damage": 2.0f
 							"silentgear:attack_reach": 6.0f
 							"silentgear:attack_speed": 1.2f
 							"silentgear:block_reach": 0.0f
-							"silentgear:charging_value": 0.7f
-							"silentgear:draw_speed": 0.1f
-							"silentgear:durability": 250.0f
-							"silentgear:enchantment_value": 14.0f
-							"silentgear:harvest_speed": 6.0f
+							"silentgear:charging_value": 0.5f
+							"silentgear:draw_speed": -0.2f
+							"silentgear:durability": 130.99998f
+							"silentgear:enchantment_value": 4.9999995f
+							"silentgear:harvest_speed": 4.0f
 							"silentgear:harvest_tier": {
-								incorrect_blocks_for_tool: "silentgear:incorrect_for_iron_tools"
-								level_hint: "2"
-								name: "iron"
+								incorrect_blocks_for_tool: "silentgear:incorrect_for_stone_tools"
+								level_hint: "1"
+								name: "stone"
 							}
 							"silentgear:knockback_resistance": 0.0f
-							"silentgear:magic_armor": 6.0f
-							"silentgear:magic_damage": 1.0f
-							"silentgear:projectile_accuracy": 1.1f
+							"silentgear:magic_armor": 0.0f
+							"silentgear:magic_damage": 0.0f
+							"silentgear:projectile_accuracy": 0.8000001f
 							"silentgear:projectile_speed": 1.0f
-							"silentgear:ranged_damage": 1.0f
-							"silentgear:rarity": 20.0f
+							"silentgear:ranged_damage": 0.0f
+							"silentgear:rarity": 4.0f
 							"silentgear:repair_efficiency": 1.0f
 							"silentgear:repair_value": 0.0f
 							"silentgear:traits": [
 								{
-									conditions: [ ]
-									level: 3
-									trait: "silentgear:malleable"
+									conditions: [{
+										gear_type: "silentgear:tool"
+										type: "silentgear:gear_type"
+									}]
+									level: 2
+									trait: "silentgear:ancient"
 								}
 								{
 									conditions: [ ]
@@ -3655,6 +3682,24 @@
 					random_bonus: 1
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "商店中出现了新的物品！"
+					id: "56737C4FCB8D730C"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "798838C3E541B6E3"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -3753,14 +3798,34 @@
 			}
 			id: "7E88C7654F281E43"
 			min_width: 300
-			rewards: [{
-				id: "33EA39215D9D888F"
-				item: {
-					count: 1
-					id: "magic_coins:crystal_coin"
+			rewards: [
+				{
+					id: "33EA39215D9D888F"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "商店中出现了新的物品！"
+					id: "63C6F79AB303F99E"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "5D5F2456DAC028CA"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -4440,7 +4505,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(cognition:cognitive_helmet)item(cognition:cognitive_chestplate)item(cognition:cognitive_leggings)item(cognition:cognitive_boots))"
-							"minecraft:custom_name": "“认知装备”"
+							"minecraft:custom_name": "\"Cognitive Armor\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4456,7 +4521,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(cognition:cognitive_sword)item(cognition:cognitive_shovel)item(cognition:cognitive_pickaxe)item(cognition:cognitive_axe)item(cognition:cognitive_hoe))"
-							"minecraft:custom_name": "“认知三件套”"
+							"minecraft:custom_name": "\"Standard Cognitive Tools\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4472,7 +4537,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(cognition:cognitive_bow)item(cognition:flint_and_cognitive_alloy)item(cognition:cognitive_shears)item(cognition:cognitive_rod))"
-							"minecraft:custom_name": "“小众认知工具”"
+							"minecraft:custom_name": "\"NicheCognitiveTools\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"

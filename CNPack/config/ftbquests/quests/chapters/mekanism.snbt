@@ -2685,11 +2685,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "40CAF09EBC8C08FD"
-					type: "xp"
-					xp: 50
-				}
 			]
 			shape: "diamond"
 			tasks: [
@@ -3257,7 +3252,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(mekanism:mekasuit_helmet)item(mekanism:mekasuit_bodyarmor)item(mekanism:mekasuit_pants)item(mekanism:mekasuit_boots))"
-							"minecraft:custom_name": "“Meka装甲”"
+							"minecraft:custom_name": "\"Meka Armor\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"

@@ -12,6 +12,14 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "4142E847135C4F5E"
+	images: [{
+		height: 3.0d
+		image: "ftb:textures/quests/titles_and_logos/geneticsresequenced.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 2.1d
+		y: -0.1d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

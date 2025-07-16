@@ -2724,7 +2724,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(oritech:reactor_rod)item(oritech:reactor_double_rod)item(oritech:reactor_quad_rod))"
-							"minecraft:custom_name": "\"Reactor Rods\""
+							"minecraft:custom_name": "\"Reactor Rods\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -2752,7 +2752,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(oritech:uranium_pellet)item(oritech:plutonium_pellet))"
-							"minecraft:custom_name": "\"Reactor Fuel\""
+							"minecraft:custom_name": "\"Reactor Fuel\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"

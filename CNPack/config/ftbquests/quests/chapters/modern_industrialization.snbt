@@ -252,14 +252,6 @@
 		}
 		{
 			height: 1.0d
-			image: "modern_industrialization:fluid/diesel_still"
-			rotation: 0.0d
-			width: 1.0d
-			x: 8.5d
-			y: -17.5d
-		}
-		{
-			height: 1.0d
 			image: "modern_industrialization:fluid/oxygen_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -556,11 +548,20 @@
 		}
 		{
 			height: 5.0d
+			hover: ["Modern Industrialization"]
 			image: "ftb:textures/quests/titles_and_logos/milogo.png"
 			rotation: 0.0d
 			width: 5.0d
 			x: -10.5d
 			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "modern_industrialization:fluid/boosted_diesel_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -17.5d
 		}
 	]
 	order_index: 9
@@ -738,21 +739,14 @@
 			}
 			id: "1AE287B38F6BA1D4"
 			optional: true
-			rewards: [
-				{
-					id: "563F1826ED31BFFC"
-					item: {
-						count: 1
-						id: "modern_industrialization:guidebook"
-					}
-					type: "item"
+			rewards: [{
+				id: "563F1826ED31BFFC"
+				item: {
+					count: 1
+					id: "modern_industrialization:guidebook"
 				}
-				{
-					id: "6E95FE78CFC489D6"
-					type: "xp"
-					xp: 5
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "607C59BF2D47F072"
@@ -762,7 +756,11 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["51F2FC13FA7C3A89"]
+			dependencies: [
+				"51F2FC13FA7C3A89"
+				"7FA34CEB41A4D9F5"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			icon: {
 				id: "ftbmaterials:steel_ingot"
@@ -789,7 +787,7 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "10A9EAAF9B06ABE0"
@@ -1123,6 +1121,7 @@
 						count: 1
 						id: "modern_industrialization:bronze_furnace"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1213,8 +1212,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["35F2D26D7089C231"]
@@ -1250,7 +1249,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -1.5d
 		}
 		{
@@ -2423,7 +2422,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(modern_industrialization:electronic_circuit)item(mekanism:ultimate_control_circuit))"
-						"minecraft:custom_name": "“终极控制电路或电子电路”"
+						"minecraft:custom_name": "\"Ultimate or Electronic Circuit\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -5014,10 +5013,10 @@
 				}
 			]
 			tasks: [{
-				id: "3EEA09FAE236B0DE"
+				id: "1484C3DBD86E259A"
 				item: {
 					count: 1
-					id: "modern_industrialization:iridium_tiny_dust"
+					id: "ftbmaterials:iridium_tiny_dust"
 				}
 				type: "item"
 			}]
@@ -5100,7 +5099,7 @@
 		{
 			dependencies: ["72C893FBEDFEF87C"]
 			icon: {
-				id: "modern_industrialization:helium_bucket"
+				id: "modern_industrialization:cryofluid_bucket"
 			}
 			id: "78132E2600FC11CF"
 			rewards: [
@@ -5288,49 +5287,24 @@
 		{
 			dependencies: ["3B09E14800C7276A"]
 			icon: {
-				id: "modern_industrialization:diesel_bucket"
+				id: "pneumaticcraft:diesel_bucket"
 			}
 			id: "2D31E8D06F40EAA9"
 			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "24D0E81BB76CC504"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "24D0E81BB76CC504"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "69E715B7D12FBDF0"
-					item: {
-						components: {
-							"mekanism:fluids": {
-								fluid_tanks: [{
-									amount: 16000
-									id: "modern_industrialization:diesel"
-								}]
-							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
-						}
-						count: 1
-						id: "mekanism:basic_fluid_tank"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
 					fluid: {
 						amount: 1000
-						id: "modern_industrialization:diesel"
+						id: "pneumaticcraft:diesel"
 					}
 					id: "7A7864A171CE7761"
 					optional_task: true
@@ -5340,7 +5314,7 @@
 					id: "3BD2AEE4D62FDE79"
 					item: {
 						count: 1
-						id: "modern_industrialization:diesel_bucket"
+						id: "pneumaticcraft:diesel_bucket"
 					}
 					optional_task: true
 					type: "item"
@@ -5354,6 +5328,7 @@
 				"2D31E8D06F40EAA9"
 				"7C71C66C357C3623"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "modern_industrialization:boosted_diesel_bucket"
 			}
@@ -5487,7 +5462,7 @@
 			dependencies: ["6126333E1B6B6925"]
 			hide_dependency_lines: true
 			icon: {
-				id: "modern_industrialization:ethanol_bucket"
+				id: "pneumaticcraft:ethanol_bucket"
 			}
 			id: "3424F0E39EB5DFC6"
 			optional: true
@@ -5517,7 +5492,7 @@
 				{
 					fluid: {
 						amount: 1000
-						id: "modern_industrialization:ethanol"
+						id: "pneumaticcraft:ethanol"
 					}
 					id: "3180883B15E9DF42"
 					optional_task: true
@@ -5527,7 +5502,7 @@
 					id: "5F5B6BB1A65A52B4"
 					item: {
 						count: 1
-						id: "modern_industrialization:ethanol_bucket"
+						id: "pneumaticcraft:ethanol_bucket"
 					}
 					optional_task: true
 					type: "item"

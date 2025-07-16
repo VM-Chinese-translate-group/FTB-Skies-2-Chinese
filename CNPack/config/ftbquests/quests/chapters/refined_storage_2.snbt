@@ -943,6 +943,7 @@
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1504,7 +1505,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(refinedstorage:fortune_1_upgrade)item(refinedstorage:fortune_2_upgrade)item(refinedstorage:fortune_3_upgrade))"
-							"minecraft:custom_name": "\"Fortune Upgrades\""
+							"minecraft:custom_name": "\"Fortune Upgrades\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"

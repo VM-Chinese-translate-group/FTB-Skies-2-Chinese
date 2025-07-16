@@ -2328,10 +2328,10 @@
 			}]
 			shape: "pentagon"
 			tasks: [{
-				id: "7396A21E72106A24"
+				id: "3D326694D91E3A13"
 				item: {
 					components: {
-						"ftbfiltersystem:filter": "or(item(georenouveau:coal_geore_golem_charm)item(georenouveau:copper_geore_golem_charm)item(georenouveau:diamond_geore_golem_charm)item(georenouveau:emerald_geore_golem_charm)item(georenouveau:gold_geore_golem_charm)item(georenouveau:iron_geore_golem_charm)item(georenouveau:lapis_geore_golem_charm)item(georenouveau:quartz_geore_golem_charm)item(georenouveau:redstone_geore_golem_charm)item(georenouveau:ruby_geore_golem_charm)item(georenouveau:sapphire_geore_golem_charm)item(georenouveau:topaz_geore_golem_charm)item(georenouveau:zinc_geore_golem_charm))"
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:georegolems)"
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
