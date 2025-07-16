@@ -64,7 +64,7 @@
 	]
 	quest.001F0C36B4AB9F5F.title: "&a\"Simple\" &fFuel Generator"
 	quest.0056517EDF3DAB08.quest_desc: [
-		"The &aSpeedometer&r shows how fast a certain part of your system is moving."
+		"&a速度表&r可以显示你的动力网络中某个特定组件的运行速度"
 		""
 		"&a应力表&r可以显示你整个动力网络中正在使用的总&b应力量&r。"
 	]
@@ -383,11 +383,11 @@
 	quest.03597EC99930955D.quest_subtitle: "将熔融铂倒在催化剂上"
 	quest.03597EC99930955D.title: "&f铂矿晶母岩"
 	quest.0361236BF20549B5.quest_desc: [
-		"骷髅头颅给予+1x基本魔力和充能速度"
+		"骷髅头颅给予+1x能量容量和充能速度"
 		""
-		"凋灵骷髅头颅给予+2x基本魔力和充能速度"
+		"凋灵骷髅头颅给予+2x能量容量和充能速度"
 		""
-		"玩家的头给予+2.5x基本魔力和3倍充能速度"
+		"玩家的头给予+2.5x能量容量和3倍充能速度"
 	]
 	quest.0361236BF20549B5.title: "头颅"
 	quest.03629D4D6106A625.quest_desc: [
@@ -1088,9 +1088,9 @@
 	quest.098F5497E0ABED3E.quest_desc: [
 		"用两根木棍生火是经典技巧。"
 		""
-		"Simply use the &aFirestick&r on the top of a block and they form fire!"
+		"仅仅对着方块上方使用&a打火棍&r，就能将其点着火！"
 		""
-		"If any wood-based blocks burn away, they can become &aAsh&r that can be dug up with a shovel."
+		"如果任意木质方块被烧毁，它们将会变成&a灰烬&r，可以通过铲子挖掘获得。"
 		""
 		"这些灰烬有多种用途，例如合成火把或压缩成粗制的&a木炭&r。"
 		""
@@ -2093,8 +2093,8 @@
 		"这些工具还可以在工具装配台上用&d升级&r进行升级。"
 	]
 	quest.1385135551DA36AB.quest_desc: [
-		"使用&a金黄粉笔&r放置一个中央符文作为圆环的“心脏”，再使用&a仪式粉笔&r画出周围的圆环，以完成&b圆环魔法&r。"
-		"将所有相关物品扔在中央符文上，右击激活符文以举行仪式。一些仪式需要&6祭坛魔力&r，也可以使用充能的协调之石来忽略魔力要求。"
+		"使用&a金黄粉笔&r放置一个核心符形作为圆环的“心脏”，再使用&a仪式粉笔&r画出周围的圆环，以完成&b圆环魔法&r。"
+		"将所有相关物品扔在核心符形上，右击激活符形以举行仪式。一些仪式需要&6祭坛能量&r，也可以使用充能的协调之石来忽略魔力要求。"
 		""
 		"详见“&5协调之石（充能）”任务。"
 		"{@pagebreak}"
@@ -2114,9 +2114,9 @@
 		"    XXX"
 		""
 		"{@pagebreak}"
-		"如果你想将圆环取出，转移到另一个地方，仪式可以胜任这项工作。"
+		"如果你想将圆环转移到另一个地方，仪式可以胜任这项工作。"
 		""
-		"使用&a环形护身符&r、红石粉和一些&6祭坛魔力&r可以将圆环压缩进护身符里。在没有祭坛的情况下，使用护身符，萤石粉和协调之石（充能）也可以完成该过程。"
+		"使用&a环形护身符&r、红石粉和一些&6祭坛能量&r可以将圆环压缩进护身符里。在没有祭坛的情况下，使用护身符，萤石粉和协调之石（充能）也可以完成该过程。"
 		""
 		"To put this circle back down, simply right click the inscribed Talisman on the ground in a properly cleared area."
 		""
@@ -2307,7 +2307,7 @@
 		""
 		"这条路径使用&e机械动力&r的筛子，有可能实现从这片富含精华的虚空中自动化生产资源。"
 		""
-		"To start, drip a bucket's worth of water over &7Andesite&r obtained from the &aStrainer&r. This will form deposits of &2Andesite Amalgam&r that can be mined for early &7Andesite Alloy&r."
+		"首先，将从&a滤水器&r中获得的&7安山岩&r上滴相当于一桶的水。这将形成&2安山岩混合物矿床&r，开采后可获得早期的&7安山合金&r。"
 	]
 	quest.1553CDD5ED42DF02.quest_subtitle: "创造点滴"
 	quest.1553CDD5ED42DF02.title: "&f勘探之路"
@@ -2316,7 +2316,7 @@
 		""
 		"&a巫师烤箱&r是该模组的标志性方块，真正开始这个模组需要先深入学习一下旁边的&e草药学&r。"
 		""
-		"You can rarely get these seeds to drop from grass, but here's a few boxes with magical seeds to help get your green thumb going."
+		"这些种子难以通过打草掉落，不过这里有几个装着魔法种子的箱子帮助你开启园艺之路。"
 	]
 	quest.15956817DCDAD8C3.quest_subtitle: "巫术之路"
 	quest.15956817DCDAD8C3.title: "步入Enchanted"
@@ -2792,7 +2792,7 @@
 	quest.1ADE323F448DCF12.title: "&2卡包"
 	quest.1AE02F64F4AD81DC.title: "&3雷霆&f升级法球"
 	quest.1AE287B38F6BA1D4.quest_desc: [
-		"给&e《现代化工业》——MI&r的机器供电方式有很多！"
+		"给&e《现代工业化》——MI&r的机器供电方式有很多！"
 		""
 		"重要的是在&6FTB Skies 2&r中，电力系统是统一的，允许使用和生产FE或MI能源。"
 		""
@@ -3326,8 +3326,8 @@
 	quest.1FBEA2EB39456FD5.title: "{\"text\": \"基础化学品储罐\", \"color\": \"#5EFCB6\"}"
 	quest.1FCE7E6527304CC5.quest_desc: ["&a储能单元&r可以将EU存起来以供之后使用，其传输速率与同等级的发电机一致。"]
 	quest.1FCE7E6527304CC5.title: "&2LV存储单元"
-	quest.1FDD26042785FB0C.quest_desc: ["&a信箱&r用于在列车站点之间运输包裹。"]
-	quest.1FDD26042785FB0C.title: "&aPostbox"
+	quest.1FDD26042785FB0C.quest_desc: ["&a邮箱&r用于在列车站点之间运输包裹。"]
+	quest.1FDD26042785FB0C.title: "&a邮箱"
 	quest.1FE2B36C234A35C9.quest_desc: ["[\"\", {\"text\": \"药剂师\", \"color\": \"light_purple\", \"italic\":false}, \"可不乐意看到自己的\", {\"text\": \"红树林小屋\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21A521011401074F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往药剂师小屋任务\"]} }, \"被洗劫一空，他们更愿意用交易来换取他们独特的药剂、法术和其他好货。\"]"]
 	quest.1FE2B36C234A35C9.title: "&d药剂师"
 	quest.1FE952E6D58451EA.quest_desc: [
@@ -3569,13 +3569,13 @@
 		""
 		"&eMI&r就有精准采集工具！&2蒸汽采矿钻头&r可以一次挖掘3x3的区域，而且有&d精准采集&r模式。"
 		""
-		"&7For the recipe, try mixing together some invar in a jar..."
+		"&7对于本配方，试试在容器中混合一些殷钢..."
 		"{@pagebreak}"
-		"To use it, you'll need to provide it &9Water&r by just having a bucket in your inventory or by right clicking a water source block."
+		"要使用它，你需要提供&9水&r。只需在物品栏中放一桶水，或者对着水源方块右键点击即可。"
 		""
-		"To power the drill, open your inventory and drag a fuel source like coal over top of the &2Steam Mining Drill&r and then Right-click it to deposit the fuel. You can change the &2Drill&r mode by Shift + Right-clicking it."
+		"要为钻头供能，打开物品栏，将煤等燃料拖拽到 &2蒸汽采矿钻头&r的上方，然后右击点击放入燃料。你可以按住Shift然后右击&2钻头&r来改变其模式。"
 		""
-		"Yes, it does work with &eUltimine&r!"
+		"是的，它能使用&e连锁挖矿&r！"
 	]
 	quest.22F07FB51C5DE600.title: "&a超棒的挖矿工具"
 	quest.230A9E24A34690DE.title: "&6时间棱镜"
@@ -3762,9 +3762,9 @@
 	]
 	quest.2464B384CC26F2EC.title: "&f物质储罐"
 	quest.2465C83C97A189EA.quest_desc: [
-		"By combining Grains of Infinity with some Cobblestone, a &aVoid Crystal Catalyst&r is made. This block can then be dyed in-world to form a Budding Crystal for generating basic resources, depending on the dye."
+		"将无限粉与圆石合成&a虚无晶体催化剂&r。该方块可在游戏世界中染色，根据染料颜色转化为水晶母岩，用于生成基础资源。"
 		""
-		"&7&oFor iron, white dye from bone meal is used."
+		"&7&o要获得铁，用骨粉制成的白色染料进行转化。"
 	]
 	quest.2465C83C97A189EA.quest_subtitle: "最好的伙伴"
 	quest.2465C83C97A189EA.title: "&f水晶魔法之道"
@@ -3820,7 +3820,7 @@
 	quest.24CE908ED60FD514.title: "&f粉碎时间到！"
 	quest.24E11CBBB6EC58D5.quest_subtitle: "酿造台的燃料。"
 	quest.24E11CBBB6EC58D5.title: "&f烈焰粉"
-	quest.24E7F983A5ED730F.quest_desc: ["&6列车机壳&r用于制作列车部件和装饰方块。"]
+	quest.24E7F983A5ED730F.quest_desc: ["&6列车机壳&r用于制作列车组件和装饰方块。"]
 	quest.24E7F983A5ED730F.title: "&6列车机壳"
 	quest.24E7FEB8D24FAB4A.quest_desc: [
 		"&a化学压射室&r可以将气体和方块相结合，产出新的物品。这个机器不仅可以拿来快速氧化铜块或复活死珊瑚块，还可以用于&a三阶矿物处理线&r的起点。"
@@ -3857,13 +3857,13 @@
 	quest.250EAE6FF7C67284.quest_subtitle: "将熔融铀倒在催化剂上"
 	quest.250EAE6FF7C67284.title: "&f铀矿晶母岩"
 	quest.253FA29ADE459464.quest_desc: [
-		"With a campfire set up, it's possible to treat glass and iron to withstand hotter temperatures."
+		"搭建好营火后，便可对玻璃与铁材进行加工，使其能够承受更高的温度。"
 		""
 		"通过合成一个&a强化玻璃罐&r，圆石可以被稳定且完全地加热，直到融化成熔岩！"
 		""
-		"Without a tank beside it, these jars will clumsily expel the fluids they create into the world as a fluid capsule."
+		"如果旁边没有储罐，这些罐子会笨拙地将它们产生的流体排到世界中，以流体胶囊的形式。"
 	]
-	quest.253FA29ADE459464.title: "&fMelting Rocks and More"
+	quest.253FA29ADE459464.title: "&f熔炼岩石等"
 	quest.2568C81FA7914FE2.quest_desc: [
 		"The &6Quantum Entangler&r will effectively multiply all &bQuantum Storage&r by 4."
 		""
@@ -3877,11 +3877,11 @@
 	]
 	quest.257B0B828021A1E3.title: "&d苍穹晶弓"
 	quest.2582831347BB970D.quest_desc: [
-		"&a祭坛&r是一个2x3的结构，由橡树树苗和白桦树苗的熏气以及&e山梨树&r原木制作而成，在祭坛上放置物品可以对其&b增幅&r，祭坛还会被周围&716格&r的自然环境增益。"
+		"&a祭坛&r是一个2x3的结构，由橡树树苗和白桦树苗的熏气以及&e山梨树&r原木制作而成，在祭坛上放置物品可以对其&b升级&r，祭坛还会被周围&716格&r的自然环境增益。"
 		""
-		"一共有三类增幅物品，每一类都分为不同的等级。每一类中，只有最高等级的物品才能决定祭坛的&6魔力&r。"
+		"一共有三类升级，每一类都分为不同的等级。只有各类型中最高等级的物品才能决定祭坛的&6能量&r。"
 		""
-		"这些&6魔力&r会被祭坛区域内的其他巫术设备使用，如&e蒸馏塔&r和&e水壶&r，他们可能需要对应的魔力等级才能驱动。"
+		"这些&6能量&r会被祭坛区域内的其他巫术设备使用，如&e蒸馏塔&r和&e水壶&r，他们可能需要对应的魔力等级才能驱动。"
 	]
 	quest.2582831347BB970D.title: "祭坛"
 	quest.2588279A071E5A6B.quest_desc: [
@@ -4232,7 +4232,7 @@
 	]
 	quest.28F3F31EA5BA9197.title: "&d防爆混合锭"
 	quest.28FADB9F1CCA067B.quest_desc: [
-		"木质工具没有很高的耐久度或力量，但它仍然比徒手有效得多，还有一些额外作用。"
+		"木制工具的耐久和挖掘等级都不高，但与徒手相比，它们会有效得多，还能提供一些额外的作用。"
 		""
 		"更何况你一开始也没有其他选择。"
 		""
@@ -4290,7 +4290,7 @@
 		"&5协调之石（充能）是&b圆环魔法&r取得进展的关键节点，其允许巫师不在圆环的位置建立新的&e祭坛&r也可以举行对应的献祭和仪式。这种远程仪式将会消耗&d协调之石&r的充能，而非消耗整个物品。某种程度上算是可以重复使用的“电池”。"
 		"然而充能仪式本身会消耗其他仪式物品，所以存储能量并不是完全免费的。"
 		""
-		"为&d协调之石&r充能需要进阶仪式（两个圆环）和处在仪式附近的最少2000&6魔力&r的祭坛，在祭坛上放置升级的&b增幅物品&r并在周围区域种一些漂亮的树就可以轻易达成2000魔力。"
+		"为&d协调之石&r充能需要进阶仪式（两个圆环）和处在仪式附近的最少2000&6能量&r的祭坛，在祭坛上放置高级&b升级物品&r并在周围区域种一些漂亮的树就可以轻易达成2000能量。"
 	]
 	quest.29A3A67ACFBCD72E.title: "&5协调之石（充能）"
 	quest.29A42AFE639AA7DB.quest_desc: ["&4氚&r是&9重水&r在&6核反应堆&r中被&6快中子&r撞击的副产品。"]
@@ -4623,7 +4623,7 @@
 	]
 	quest.2D2EC0BCFF1DA68C.title: "&f蜜蜂属性"
 	quest.2D31E8D06F40EAA9.quest_desc: ["&e柴油&r可以直接当成燃料，也可以用&2乙醚&r将其富集为&6增压柴油&r。"]
-	quest.2D31E8D06F40EAA9.title: "&eDiesel, Again"
+	quest.2D31E8D06F40EAA9.title: "&e柴油，再来"
 	quest.2D4682CC6A524A50.title: "&f富生水晶"
 	quest.2D4CECA1F01E2E3B.title: "&b高级&f机器升级"
 	quest.2D5EE42EABBB295F.quest_desc: [
@@ -5260,7 +5260,7 @@
 	]
 	quest.32E0A399AFBE3099.quest_subtitle: "绑定五芒星：级别1"
 	quest.32E0A399AFBE3099.title: "&a粉笔需求增大"
-	quest.32E926D3AC96233A.quest_subtitle: "砸碎砾石！"
+	quest.32E926D3AC96233A.quest_subtitle: "砸碎砂砾！"
 	quest.32E926D3AC96233A.title: "&f泥土"
 	quest.330F69D2F2626B50.quest_desc: ["&a斑斓透镜&r射出的激光会穿透物品，然后改变它们本身的颜色，比如染色玻璃或玻璃板、地毯、染料、羊毛以及带釉陶瓦。"]
 	quest.330F69D2F2626B50.title: "&a斑斓透镜"
@@ -5427,9 +5427,9 @@
 	quest.3435641A78B90D97.quest_subtitle: "&o破坏（和放置）方块"
 	quest.3435641A78B90D97.title: "&f影响区域"
 	quest.343ACE0C81548119.quest_desc: [
-		"The &aCutting Machine&r can make some items more efficiently or automatically. It will also give you 6 planks per log when cutting wood."
+		"&a切割机&r可以更高效或自动地制作某些物品。在切割木头时，它还能让你每根原木获得6 块木板。"
 		""
-		"It's important to note that all operations with the cutting saw take a small amount of &bLubricant&r, so automating it is advised. "
+		"值得注意的是，切割机的所有操作都需要少量&b润滑油&r，因此建议将润滑油实现自动化。"
 	]
 	quest.343ACE0C81548119.title: "&a青铜切割机"
 	quest.344A14365BC03575.quest_subtitle: "传输物品"
@@ -6180,7 +6180,7 @@
 	quest.3A7489C33ED56F3B.title: "&f初学者法术书"
 	quest.3A7774F5F0FD174E.quest_desc: ["这条深暗书架合成路线，以提升&c量子化&r为最终目的。"]
 	quest.3A7774F5F0FD174E.title: "&c烈焰&r&f之路"
-	quest.3A7ADD7CC06913D7.quest_desc: ["&3可调节链式传动箱&r允许您通过红石信号直接增加/减少网络中特定部分的&bRPM&r。"]
+	quest.3A7ADD7CC06913D7.quest_desc: ["&3可调节链式传动箱&r允许您通过红石信号直接增加/减少网络中特定组件的&bRPM&r。"]
 	quest.3A7ADD7CC06913D7.title: "&3可调节链式传动箱"
 	quest.3A91BB6A673C0D83.quest_desc: [
 		"&e现代工业化&r虽然看上去让人望而却步，但它提供了很多矿石产出方面极其好用的机器！"
@@ -7013,11 +7013,11 @@
 		""
 		"它可以连接各种方块，但最好与&a风帆&r一起使用。"
 		"{@pagebreak}"
-		"&aWindmill Sails&r are useful early-game &bRPM&r generators as they attach automatically to surfaces and eachother without need a &aChassis&r or &aSuper Glue&r."
+		"&a白色风帆&r是早期游戏很实用的产生&bRPM&r的装置，它们能自动附着在表面和彼此之间，无需&a底盘&r或&a强力胶&r。"
 		""
-		"You will need 128 &aSails&r to max out the &bStress Capacity&r of the &aWindmill Bearing&r."
+		"你需要128个&a风帆&r来将&b风车轴承&r的&a应力量&r提升至最高。"
 		""
-		"Any &aSails&r above 128 do not count towards increasing your &bStress Capacity&r and are purely decorative."
+		"任何超过128个的&a风帆&r都不会增加你的&b压力量&r，仅用作装饰。"
 	]
 	quest.42FE1FD899C2EABB.title: "&a风车"
 	quest.432185176A39B3B2.quest_desc: [
@@ -7173,7 +7173,7 @@
 	quest.447242EAC91413A9.quest_desc: [
 		"搭建&6末地传送门框架&r可不简单！你需要深入科技或魔法领域才能集齐全部12个……"
 		""
-		"The &dEnd Portal&r structure is made by placing a cornerless 5x5 square of &6End Portal Frames&r from the center, it will not work by just building it from one angle. To complete this, you'll need to make sure each &6End Portal Frame&r has an &6Eye of Ender&r inside."
+		"要构建&d末地传送门&r，需要以中心为起点，用&6末地传送门框架&r放置出一个没有四角的5x5方框，仅从一个方向搭建是无法激活的。要成功激活，你需要确保每个&6末地传送门框架&r里都有&6末影之眼&r。"
 		""
 		"这样传送门结构就会成型，你可以跳入其中到达&6末地&r，&d末影龙&r的家乡。"
 	]
@@ -7529,7 +7529,7 @@
 	quest.48935669BAAC9142.quest_desc: ["&a末影透镜&r是用于制作&b插件&r和机器的组件。"]
 	quest.48935669BAAC9142.title: "&f末影透镜"
 	quest.48E284F256F6453E.quest_desc: [
-		"&eFargo的护身符&r模组允许你制作强力的护身符，他们具有各种各样的效果，比如吧泥土变成草方块，获得创造飞行和超音速移动速度，甚至免疫所有种类的负面效果！"
+		"&eFargo的护身符&r模组允许你制作强力的护身符，他们具有各种各样的效果，比如把泥土变成草方块，获得创造飞行和超音速移动速度，甚至免疫所有种类的负面效果！"
 		""
 		"如果你不确定要做什么，&aFargo的护符指南&r可以帮助你。译者注：这个模组的翻译不准确，不准确的部分会用注释标出。"
 	]
@@ -7732,7 +7732,7 @@
 	quest.4A7A15ECB8ABDF88.quest_desc: [
 		"&7锌&r是发展&e机械动力&r的关键部分。所以你改怎么获得呢？"
 		""
-		"You can hammer tuff on a cutting board, sure, but after that you can use &eCreate's&r crushing wheels to crush tuff automatically, &2GeOres&r, make Zinc seeds, breed &eZinc Bees&r, or go into &dMalum&r. You may even use other ways such as ore generators and the Lens of the Miner!"
+		"你当然可以在砧板上用锤子敲打凝灰岩来获取。在此之后你也可以使用&e机械动力&r的粉碎轮来自动粉碎凝灰岩、使用&2GeOres&r模组、培育&e锌蜜蜂&r、或者投身于&dMalum&r模组中。说不定你还能使用其他方法，例如矿石生成器和矿工透镜！"
 	]
 	quest.4A7A15ECB8ABDF88.title: "&f锌从哪来？"
 	quest.4AAEFDA74FBE5637.quest_desc: ["&7&oChoose one Perfect Apotheosis gem."]
@@ -7752,9 +7752,9 @@
 	]
 	quest.4AB10BE58B13DBDD.title: "&eAE2 1k Disks"
 	quest.4AB3FD2B686C1F10.quest_desc: [
-		"圣餐杯给予+1x基本魔力"
+		"圣餐杯给予+1x能量容量"
 		""
-		"满载的圣餐杯给予+2x基本魔力，对圣餐杯使用&e红石汤&r以获取。"
+		"满载的圣餐杯给予+2x能量容量，对圣餐杯使用&e红石汤&r以获取。"
 	]
 	quest.4AB3FD2B686C1F10.title: "圣餐杯"
 	quest.4AC0B8A467BB5FA8.quest_desc: [
@@ -8124,11 +8124,11 @@
 	quest.4E0DB5D4574FD4E2.quest_desc: ["&c烧炼&r升级可以给工具增加&c自动熔炼&r功能。"]
 	quest.4E0DB5D4574FD4E2.title: "&f升级：烧炼"
 	quest.4E2F296E04F1DA38.quest_desc: [
-		"&aWater Wheels&r allow you to generate passive &bRotational Force&r using nothing but water."
+		"&a水车&r仅需水流即可被动产生&b旋转力&r。"
 		""
-		"The &aLarge Water Wheel&r provides half the &bRPM&r of a regular &aWater Wheel&r, but has a much higher &bStress Capacity&r."
+		"&a大型水车&r的RPM仅为&a水车&r的一半，但其&b应力量&r则显著更高。"
 		""
-		"Multiple &aWheels&r can be stacked next to each other to increases your system's &bStress Capacity&r."
+		"多个&a水车&r可以并排放置，以增加系统的&b应力值&r。"
 	]
 	quest.4E2F296E04F1DA38.title: "&a水车"
 	quest.4E3A4B79573FC1F2.title: "&d提尔锋"
@@ -8155,7 +8155,7 @@
 		"手持旅行权杖时，你就能透过墙看到&a旅行锚&r。你可以用它在你的基地做一个快速传送系统！"
 	]
 	quest.4E623BAFD92591EE.title: "&f旅行权杖"
-	quest.4E627F4AC4829EB5.quest_desc: ["&d黑曜石板&r用于制造列车部件。"]
+	quest.4E627F4AC4829EB5.quest_desc: ["&d黑曜石板&r用于制造列车组件。"]
 	quest.4E627F4AC4829EB5.title: "&d黑曜石板"
 	quest.4E6B0E9C678618A3.quest_desc: [
 		"&a物品筛选器&r可以轻松设定什么物品可以穿过某个管道。"
@@ -8525,9 +8525,9 @@
 	]
 	quest.51F2FC13FA7C3A89.title: "&e现代工业化&f的开端"
 	quest.51F533A916576279.quest_desc: [
-		"&bQuality Multiplier&r: x1.5"
+		"&b品质倍率加成&r：x1.5"
 		""
-		"&bBase Effect&r: Blood Spell Power"
+		"&b属性提升&r：猩红法术强度"
 	]
 	quest.51F533A916576279.title: "&f猩红符文"
 	quest.52087840AA16E7B4.quest_desc: [
@@ -9422,11 +9422,11 @@
 	quest.5BFA3D0271320E07.title: "&3温室玻璃"
 	quest.5C1347CF318CF239.title: "&dUpgrade: Productivity Omega"
 	quest.5C28750958603F6C.quest_desc: [
-		"&bQuality Multiplier&r: x1.5"
+		"&b品质倍率加成&r：x1.5"
 		""
-		"&bBase Effect&r: Nature Spell Power"
+		"&b属性提升&r：自然法术强度"
 	]
-	quest.5C28750958603F6C.title: "&fNature Rune"
+	quest.5C28750958603F6C.title: "&f自然符文"
 	quest.5C291965A6AEE07E.quest_desc: [
 		"&7恶魂护身符&r对玩家半径三格范围内的敌对生物施加2秒虚弱效果。"
 		""
@@ -9505,7 +9505,7 @@
 	quest.5D0742E56290E42B.quest_desc: [
 		"下一阶科技要用&3电子电路&r了"
 		""
-		"[\"You can substitute a \", {\"text\": \"Mekansim \", \"color\": \"yellow\"}, {\"text\": \"Ultimate Control Circuit\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19874DF48B8B2A75\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Ultimate Control Circuit Quest\"}}, \" in these recipes as well but beyond this tier you'll need to automate the remaining processors with \", {\"text\": \"MI\", \"color\": \"yellow\"}, \".\"]"
+		"[\"你现在还能用\", {\"text\": \"通用机械\", \"color\": \"yellow\"}, {\"text\": \"终极控制电路\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19874DF48B8B2A75\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往终极控制电路任务\"}}, \"凑数，但超出这级，你就需要使用 \", {\"text\": \"MI\", \"color\": \"yellow\"}, \"的东西了。\"]"
 	]
 	quest.5D0742E56290E42B.title: "&3我们正在抵制这一点"
 	quest.5D2D114B66DE61EE.quest_desc: [
@@ -9575,9 +9575,9 @@
 		""
 		"首先，制作一下&a安山合金&r。你需要很多这个"
 		"{@pagebreak}"
-		"The &aWrench&r is a multipurpose tool for working with &eCreate&r contraptions."
+		"&a扳手&r是一种多功能工具，用于操作&e机械动力&r的结构。"
 		""
-		"It can rotate, configure, and dismantle blocks, contraptions, and more!"
+		"它可以旋转、配置和拆卸方块、结构等等！"
 	]
 	quest.5D96F0CE1154B9B8.title: "&f欢迎游玩&e机械动力&f！"
 	quest.5D9EAE2A6D2B6646.quest_desc: [
@@ -9802,23 +9802,23 @@
 	]
 	quest.603BAFEF92DA275E.title: "&a下级精华&f护甲"
 	quest.603CFBD9C1244AEB.quest_desc: [
-		"&bQuality Multiplier&r: x1.5"
+		"&b品质倍率加成&r：x1.5"
 		""
-		"&bBase Effect&r: Ice Spell Power"
+		"&b属性提升&r：冰霜法术强度"
 	]
-	quest.603CFBD9C1244AEB.title: "&fIce Rune"
+	quest.603CFBD9C1244AEB.title: "&f冰霜符文"
 	quest.6045E57AA8E56711.quest_desc: [
 		"&b品质倍率加成&r：x2.0"
 		""
-		"&bBase Effect&r: Max Health"
+		"&b属性提升&r：最大生命值"
 		""
 		"&b正面效果&r：无"
 		""
-		"&bImmunity Effect&r: Hunger"
+		"&b免疫效果&r：饥饿"
 		""
-		"&bAction Effect&r: Ignites"
+		"&b行为触发效果&r：点燃"
 	]
-	quest.6045E57AA8E56711.title: "&fRuby"
+	quest.6045E57AA8E56711.title: "&f红宝石"
 	quest.60672830F57C0EE7.quest_desc: [
 		"&7&n&oChoose one of the following:"
 		""
@@ -10028,19 +10028,19 @@
 	quest.61DAB09A4B9C9964.quest_subtitle: "13x13的灌溉范围！"
 	quest.61DAB09A4B9C9964.title: "&6觉醒精华&f洒水壶"
 	quest.61FBB8F1E0BB7189.quest_desc: [
-		"&bQuality Multiplier&r: x1.5"
+		"&b品质倍率加成&r：x1.5"
 		""
-		"&bBase Effect&r: Speed"
+		"&b属性提升&r：速度"
 		""
-		"&bPositive Effect&r: Speed"
+		"&b正面效果&r：迅捷"
 		""
-		"&bImmunity Effect&r: Infested"
+		"&b免疫效果&r：寄生"
 		""
-		"&bAction Effect&r: Chance to Create Emeralds"
+		"&b行为触发效果&r：有概率掉落绿宝石"
 	]
-	quest.61FBB8F1E0BB7189.title: "&fEmerald"
-	quest.620F29613800DC94.quest_desc: ["The &aRune Inscribed Ring"]
-	quest.620F29613800DC94.title: "&fRune Inscribed Ring"
+	quest.61FBB8F1E0BB7189.title: "&f绿宝石"
+	quest.620F29613800DC94.quest_desc: ["&a铭刻符文之戒"]
+	quest.620F29613800DC94.title: "&f铭刻符文之戒"
 	quest.6252AF176FC134E9.quest_desc: ["&a速度升级&r能安装在大部分的&6气动工艺&r机器上，但更快的处理速度意味着更快的压力消耗速度。"]
 	quest.6252AF176FC134E9.title: "&f速度升级"
 	quest.626AFCC6B90F61D5.quest_desc: [
@@ -10356,8 +10356,8 @@
 		"你需要把种子放进&a植物播种机&r才能复种！"
 	]
 	quest.6541D2082B84F2BB.title: "&a植物收割机"
-	quest.65523A9928B0AF3E.quest_desc: ["The &aTearstone Ring&r provides applied a &2Gem's &bImmunity Effect&r."]
-	quest.65523A9928B0AF3E.title: "&fTearstone Ring"
+	quest.65523A9928B0AF3E.quest_desc: ["&a泪石戒指&r能激活&2宝石的&b免疫效果&r能力。"]
+	quest.65523A9928B0AF3E.title: "&f泪石戒指"
 	quest.6587B145151746EC.quest_desc: ["&e蒸馏塔&r解锁了许多新产物，&a石膏&r和&a女神之泪&r是推动进度的关键材料，在&b圆环魔法&r中会用到。"]
 	quest.6587B145151746EC.title: "蒸馏塔产物"
 	quest.65A18B0DA64B7A42.quest_desc: [
@@ -10419,17 +10419,17 @@
 	]
 	quest.663460DE8AF7E464.title: "&a压印处理器"
 	quest.6634CE80E1C7C18D.quest_desc: [
-		"&bQuality Multiplier&r: x1.5"
+		"&b品质倍率加成&r：x1.5"
 		""
-		"&bBase Effect&r: Max Mana"
+		"&b属性提升&r：最大法力值"
 		""
-		"&bPositive Effect&r: None"
+		"&b正面效果&r：无"
 		""
-		"&bImmunity Effect&r: None"
+		"&b免疫效果&r：无"
 		""
-		"&bAction Effect&r: Chance to create Arcane Essence"
+		"&b行为触发效果&r：有概率掉落奥术源质"
 	]
-	quest.6634CE80E1C7C18D.title: "&fArcane Banding"
+	quest.6634CE80E1C7C18D.title: "&f奥术"
 	quest.664551F5E62A9D00.title: "&3中压柴油发电机"
 	quest.664924519F78893C.quest_desc: [
 		"&d长者手杖&r是一种前期武器，很容易就能打造出来。手持魔杖时，你只需要右击就能施放已选中的法术，不必再按快捷键。"
@@ -10571,17 +10571,17 @@
 	quest.678D5A29CA06C587.quest_desc: ["给&d蚀空合金剑&r安装该升级后，拿着它就可以隔着墙看到怪物了。"]
 	quest.678D5A29CA06C587.title: "&f升级：生物透视"
 	quest.67B7F00BBE11FAC4.quest_desc: [
-		"&bQuality Multiplier&r: x0.75"
+		"&b品质倍率加成&r：x0.75"
 		""
-		"&bBase Effect&r: Armor"
+		"&b属性提升&r：护甲值"
 		""
-		"&bPositive Effect&r: Resistance"
+		"&b正面效果&r：抗性提升"
 		""
-		"&bImmunity Effect&r: Slowness"
+		"&b免疫效果&r：缓慢"
 		""
-		"&bAction Effect&r: Lighting Damage"
+		"&b行为触发效果&r：闪电伤害"
 	]
-	quest.67B7F00BBE11FAC4.title: "&aIron Banding"
+	quest.67B7F00BBE11FAC4.title: "&a铁"
 	quest.67BDF0122CA3FAC1.quest_desc: [
 		"&d中级机器框架&r是&dHV级别&r机器的基础构建方块。"
 		""
@@ -10765,9 +10765,9 @@
 	quest.69FD7F8DD28A1C75.title: "&d存量转信器"
 	quest.6A02985C3F8D48F3.title: "&f绿宝石矿块"
 	quest.6A18A087EA934C46.quest_desc: [
-		"Your first alloy you'll want to make is &aBronze&r. There are several ways to do this, including just mixing dusts in a &eTempered Jar&r."
+		"你要制作的第一个合金是&a青铜&r。有几种方法可以做到这一点，包括在&e钢化玻璃罐&r中混合粉末。"
 		""
-		"It's a very important alloy for progression, and will open your path to &bMI's Bronze Age&r!"
+		"这个合金非常非常重要，你有了它就可以开启&bMI的青铜时代&r了！"
 	]
 	quest.6A18A087EA934C46.title: "&f青铜锭"
 	quest.6A1CD115285158D3.quest_desc: ["&a哞菇护身符&r站在菌丝体上时，增加玩家的生命再生速度。"]
@@ -10859,17 +10859,17 @@
 	quest.6B04DF90E7F33C9D.quest_desc: ["&a焦煤粉&r通过粉碎&3焦煤&r获取，能在&a工业挤压机&r中处理成&3高定向热解石墨粉&r。"]
 	quest.6B04DF90E7F33C9D.title: "&f焦煤粉"
 	quest.6B0731EE1A55A7F0.quest_desc: [
-		"&bQuality Multiplier&r: x1.0"
+		"&b品质倍率加成&r：x1.0"
 		""
-		"&bBase Effect&r: Armor Pierce"
+		"&b属性提升&r：盔甲穿透"
 		""
-		"&bPositive Effect&r: Regeneration"
+		"&b正面效果&r：生命恢复"
 		""
-		"&bImmunity Effect&r: Poison"
+		"&b免疫效果&r：中毒"
 		""
-		"&bAction Effect&r: Thorns Damage"
+		"&b行为触发效果&r：荆棘伤害"
 	]
-	quest.6B0731EE1A55A7F0.title: "&fAmethyst Shard"
+	quest.6B0731EE1A55A7F0.title: "&f紫水晶碎片"
 	quest.6B23438D6F622F5D.quest_desc: ["&4&l小心！&r&c爆破透镜&r会在激光命中点处触发一场大爆炸。"]
 	quest.6B23438D6F622F5D.title: "&c爆破透镜"
 	quest.6B2F4AA722DAC535.quest_desc: ["消耗下界之星发电。"]
@@ -11053,13 +11053,13 @@
 	quest.6DEB5453D8E3BD76.quest_desc: ["这种极为珍稀的材料可以在下界要塞、堡垒等&c下界建筑&r中以战利品形式获取，或直接散落于各处。传闻某个地牢深处甚至藏有一个&6完整的下界合金块&r……"]
 	quest.6DEB5453D8E3BD76.title: "&f远古残骸与下界合金"
 	quest.6DF10711C481B850.quest_desc: [
-		"&bQuality Multiplier&r: x1.5"
+		"&b品质倍率加成&r：x1.5"
 		""
-		"&bBase Effect&r: Fire Spell Power"
+		"&b属性提升&r：炽焰法术强度"
 	]
-	quest.6DF10711C481B850.title: "&fFire Rune"
+	quest.6DF10711C481B850.title: "&f炽焰符文"
 	quest.6E009D4747E3E485.quest_desc: [
-		"The next step in Enchanted's progression is obtaining &aMutandis&r. Remember the &eWitch's Oven&r? You'll need it for one of the ingredients! Be sure to extract all six to clear out the cauldron, or there will be mixed ingredients next time."
+		"推动Enchanted进度的下一步是获得&a转生粉&r。还记得&e巫师坩埚吗&r？它就是你需要的材料之一！确保将六个转生粉全部取出，否则下次炼药时他们会与其他材料混合。"
 		""
 		"Mutandis is used on various small plants like saplings to &bmutate&r them into different forms. The process is &2based on surrounding plants&r, so you may need to set up a proper space to mutate them. Check the 'Mutated Plants' section of the Herbology chapter in your &eguidebook&r for more details."
 	]
@@ -11071,17 +11071,17 @@
 	quest.6E62CF3784A15E0F.title: "&f化学品卡"
 	quest.6E66D752E153E00F.title: "&f实用的&a一阶&r魔符"
 	quest.6E7E4899C5468DED.quest_desc: [
-		"&bQuality Multiplier&r: x3.0"
+		"&b品质倍率加成&r：x3.0"
 		""
-		"&bBase Effect&r: Spell Power"
+		"&b属性提升&r：法术强度"
 		""
-		"&bPositive Effect&r: Charged"
+		"&b正面效果&r：超负荷"
 		""
-		"&bImmunity Effect&r: Rend"
+		"&b免疫效果&r：破甲"
 		""
-		"&bAction Effect&r: None"
+		"&b行为触发效果&r：无"
 	]
-	quest.6E7E4899C5468DED.title: "&6Mithril Banding"
+	quest.6E7E4899C5468DED.title: "&6秘银锭"
 	quest.6E9BCC46F9963413.quest_subtitle: "11x11的灌溉范围！"
 	quest.6E9BCC46F9963413.title: "&d终极精华&f洒水壶"
 	quest.6EA5652195DB5FE3.quest_desc: [
@@ -11121,7 +11121,7 @@
 	]
 	quest.6F37482EE0AB4ABD.title: "&d艾瑟金属镐"
 	quest.6F3FDE3AF1678CE5.quest_desc: [
-		"Fertile grass is plentiful in many places, but not this one. Most islands in the void have a breed of grass that only spreads more of itself."
+		"肥沃的草地在许多地方都很常见，但这里不是。虚空中的大多数岛屿都只有一种传播自身的草。"
 		""
 		"如果你初始位置没有草，获取一些无限粉，将它们与一些泥土一起扔进水里，富含精华的液体会将两者转化为&a草种子&r。"
 		""
@@ -11184,17 +11184,17 @@
 	]
 	quest.6FC43A837B01E067.title: "&eEnderIO Conduits"
 	quest.6FD2FB59D54B3158.quest_desc: [
-		"&bQuality Multiplier&r: x2.5"
+		"&b品质倍率加成&r：x2.5"
 		""
-		"&bBase Effect&r: Attack Damage"
+		"&b属性提升&r：攻击伤害"
 		""
-		"&bPositive Effect&r: Strength"
+		"&b正面效果&r：力量"
 		""
-		"&bImmunity Effect&r: Wither"
+		"&b免疫效果&r：凋零"
 		""
-		"&bAction Effect&r: Strength"
+		"&b行为触发效果&r：力量"
 	]
-	quest.6FD2FB59D54B3158.title: "&6Netherite Banding"
+	quest.6FD2FB59D54B3158.title: "&6下界合金"
 	quest.6FEA088D2D5A3AEF.quest_desc: [
 		"假如你想搭建以魔法生物为基础的数字化存储系统，那就先做一个&d书龙护符&r吧。"
 		""
@@ -12048,7 +12048,7 @@
 	]
 	quest.77C53FD36F7747EA.title: "&dTachyons"
 	quest.77E29BF73DB402C5.quest_desc: [
-		"&3流体阀门&r接收到旋转可以阻断流体网络中特定部分的流体发送/接收功能。"
+		"&3流体阀门&r接收到旋转可以阻断流体网络中特定组件的流体发送/接收功能。"
 		""
 		"&3阀门手轮&r用于精确旋转装置，并可染色装饰。"
 	]
@@ -12100,11 +12100,11 @@
 	]
 	quest.781D7DA09E444B95.title: "&f哭泣之井"
 	quest.7821A29F0768AC0D.quest_desc: [
-		"&bQuality Multiplier&r: x1.5"
+		"&b品质倍率加成&r：x1.5"
 		""
-		"&bBase Effect&r: Holy Spell Power"
+		"&b属性提升&r：神圣法术强度"
 	]
-	quest.7821A29F0768AC0D.title: "&fHoly Rune"
+	quest.7821A29F0768AC0D.title: "&f神圣符文"
 	quest.782A8F5006E367E0.quest_desc: [
 		"一些&b仪式&r需要使用特定物品才能进行。"
 		""
@@ -12238,8 +12238,8 @@
 		"对某些自动化很有用，比如用&2镰刀&r自动收割范围内的作物。"
 	]
 	quest.799515068A0B6D57.title: "&f自动点击"
-	quest.79A7540F94A2183E.quest_desc: ["The &aAmulet of Protection&r applies a &2Gem's &bAction Effects&r whenever the player is struck by an enemy."]
-	quest.79A7540F94A2183E.title: "&fAmulet of Protection"
+	quest.79A7540F94A2183E.quest_desc: ["当受到敌人的攻击时，&a保护符&r会对攻击者施加&2宝石的&b行为触发效果&r。"]
+	quest.79A7540F94A2183E.title: "&f保护符"
 	quest.79C048F1AC234068.quest_desc: ["Generates at a base rate of 512 FE/tick, 4x the previous tier!"]
 	quest.79C048F1AC234068.quest_subtitle: "Makes energy from sunlight, T2"
 	quest.79C048F1AC234068.title: "&cBlazegold Solar Panel"
@@ -12369,17 +12369,17 @@
 	]
 	quest.7B77544B48E690CB.title: "&a搭建存储网络"
 	quest.7B7A7CEC2F56275C.quest_desc: [
-		"&bQuality Multiplier&r: x2.0"
+		"&b品质倍率加成&r：x2.0"
 		""
-		"&bBase Effect&r: Critical Damage"
+		"&b属性提升&r：暴击伤害"
 		""
-		"&bPositive Effect&r: None"
+		"&b正面效果&r：无"
 		""
-		"&bImmunity Effect&r: Blindness"
+		"&b免疫效果&r：失明"
 		""
-		"&bAction Effect&r: Heal"
+		"&b行为触发效果&r：治疗"
 	]
-	quest.7B7A7CEC2F56275C.title: "&fOnyx"
+	quest.7B7A7CEC2F56275C.title: "&f缟玛瑙"
 	quest.7B8076959957E3FA.quest_desc: ["提升该机器的并行处理数。"]
 	quest.7B8076959957E3FA.title: "&b处理升级"
 	quest.7B954D1F7620FA41.quest_desc: [
@@ -13159,7 +13159,7 @@
 	task.21E4AB2DCB81A632.title: "&e观察&f：粗制高炉"
 	task.220243C996A84559.title: "麻袋"
 	task.221C0FFE873F2F5E.title: "&d导管"
-	task.222C5F62B4D4F38D.title: "Crystal Boosting"
+	task.222C5F62B4D4F38D.title: "水晶催生"
 	task.223BF1DD305A9FC5.title: "&e工厂安装器&r"
 	task.226AB3512612624B.title: "&e找到建筑&f：&4下界城堡"
 	task.228E18B91C6F4249.title: "&d终极精华&f护甲"
@@ -13352,7 +13352,7 @@
 	task.5483D23444F3E019.title: "&f召唤一个&a龙使魔"
 	task.553BD544A0125D67.title: "&b五芒星&r已完成"
 	task.554CEA60D1280A89.title: "&e找到建筑&f：&c下界要塞"
-	task.555E91E3488C8559.title: "认知三件套"
+	task.555E91E3488C8559.title: "Standard Cognitive tools"
 	task.55B1C70507F60EDF.title: "&bAE2内置指南书&r"
 	task.55CC22F0E7476029.title: "&f召唤一尊&6艾瑟金属傀儡"
 	task.55E36C96A2424F59.title: "&e击杀&f：&6远古遗魂"
