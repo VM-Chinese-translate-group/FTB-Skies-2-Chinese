@@ -6338,7 +6338,7 @@
 		"幸好奶奶给你寄来了一些好东西，帮你渡过难关！"
 	]
 	quest.3BF066E5C333F217.quest_subtitle: "原木在上"
-	quest.3BF066E5C333F217.title: "&f欢迎游玩&6我的世界"
+	quest.3BF066E5C333F217.title: "&f欢迎游玩&6Minecraft"
 	quest.3BFF8EFB5E7186A4.quest_desc: [
 		"The inside of the &6Quantum Computer&r multiblock can be customized using a mix of different blocks, including extra &bQuantum Storage&r."
 		""
@@ -6639,7 +6639,7 @@
 		""
 		"By clicking a bowl on a water source, it turns into a bowl of water, which can be placed in the &aDripper&r to break down leaves into more water and convert other materials!"
 		""
-		"另一种更巧妙的方法制作更多水是在流动的水下方使用骨粉。如果有足够的空间，海草会长出并将水流变成水源方块！"
+		"还有一种更巧妙的方法，在流动的水下方使用骨粉，如果有足够的空间，海草便会长出来，并将水流变成水源方块，这就能获得更多的水！"
 	]
 	quest.3F80D4097EA8C49B.title: "&f滴水器和更多水"
 	quest.3F81397C7818B7C5.quest_desc: [
@@ -9753,7 +9753,7 @@
 	]
 	quest.5FCB70FA68E708BB.title: "&eRS2 Processors"
 	quest.5FCEA8229BB6955C.quest_desc: [
-		"就简简单单地离开你那点稳定的地面进入虚空，在你落回到地面之前，你就可以获得&a无限粉&r。这比预期的要宽容得多，除了你落回实心地面上发出的轻微撞击声。"
+		"离开方块边缘踏空一步掉入虚空，在你落回到地面之前，你就可以获得&a无限粉&r。这没有预期的那么糟，除了你掉回地面时的一个踉跄。"
 		""
 		"这取决于你离虚空深处有多近，在&e足够低&r的位置停留能让你被动地收集&a无限粉&r。"
 	]
@@ -13352,7 +13352,7 @@
 	task.5483D23444F3E019.title: "&f召唤一个&a龙使魔"
 	task.553BD544A0125D67.title: "&b五芒星&r已完成"
 	task.554CEA60D1280A89.title: "&e找到建筑&f：&c下界要塞"
-	task.555E91E3488C8559.title: "Standard Cognitive tools"
+	task.555E91E3488C8559.title: "认知五件套"
 	task.55B1C70507F60EDF.title: "&bAE2内置指南书&r"
 	task.55CC22F0E7476029.title: "&f召唤一尊&6艾瑟金属傀儡"
 	task.55E36C96A2424F59.title: "&e击杀&f：&6远古遗魂"
