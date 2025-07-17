@@ -285,8 +285,8 @@ def process_item_list_for_components(item_list, list_key_name, output_dict):
                 components = data['components']
 
                 # 提取 custom_name
-                if '"minecraft:custom_name"' in components:
-                    name_val = components['"minecraft:custom_name"']
+                if 'minecraft:custom_name' in components:
+                    name_val = components['minecraft:custom_name']
                     try:
                         name_val = name_val.replace(r'\\', '\\')
                         name_val = name_val.replace(r'\"', '"')
@@ -296,8 +296,8 @@ def process_item_list_for_components(item_list, list_key_name, output_dict):
                     output_dict[lang_key] = name_val
 
                 # 提取 lore
-                if '"minecraft:lore"' in components:
-                    lore_list = components['"minecraft:lore"']
+                if 'minecraft:lore' in components:
+                    lore_list = components['minecraft:lore']
                     if isinstance(lore_list, list):
                         for i, lore_line in enumerate(lore_list, 1):
                             try:
@@ -553,11 +553,11 @@ def update_chapter_files_with_components(component_data, input_chapters_dir, out
                     if 'components' in data:
                         if 'name' in modifications:
                             # 将 str 转换为 String，无需手动转义
-                            data['components'][String("minecraft:custom_name")] = String(modifications['name'])
+                            data['components'][String('minecraft:custom_name')] = String(modifications['name'])
                             file_was_modified[0] = True
                         if 'lore' in modifications:
                             # 将 list[str] 转换为 List[String]，无需手动转义
-                            data['components'][String("minecraft:lore")] = List(
+                            data['components'][String('minecraft:lore')] = List(
                                 [String(line) for line in modifications['lore']])
                             file_was_modified[0] = True
                         updated_ids.add(item_id)
