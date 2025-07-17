@@ -2422,7 +2422,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(modern_industrialization:electronic_circuit)item(mekanism:ultimate_control_circuit))"
-						"minecraft:custom_name": "\"Ultimate or Electronic Circuit\""
+						"minecraft:custom_name": "\"Ultimate or Electronic Circuit\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"

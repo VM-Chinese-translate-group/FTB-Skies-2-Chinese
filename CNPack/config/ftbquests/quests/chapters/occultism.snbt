@@ -462,6 +462,7 @@
 				id: "occultism:datura_seeds"
 			}
 			id: "10F792474C01A594"
+			min_width: 350
 			rewards: [
 				{
 					id: "58D5D69295E70FA8"
@@ -4439,7 +4440,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/wild_creeper)item(occultism:ritual_dummy/wild_drowned)item(occultism:ritual_dummy/wild_husk)item(occultism:ritual_dummy/wild_silverfish))"
-							"minecraft:custom_name": "“群聚召唤”"
+							"minecraft:custom_name": "\"Horde Summons\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4452,7 +4453,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/wild_random_animal_common)item(occultism:ritual_dummy/wild_random_animal_rideable)item(occultism:ritual_dummy/wild_random_animal_small)item(occultism:ritual_dummy/wild_random_animal_special)item(occultism:ritual_dummy/wild_random_animal_water)item(occultism:ritual_dummy/wild_villager))"
-							"minecraft:custom_name": "“族群召唤”"
+							"minecraft:custom_name": "\"Group Summons\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"

@@ -664,7 +664,7 @@
 	quest.06666C9D93C1A3EE.quest_desc: [
 		"&a探索者指南针&r可以定位整合包中的任何结构！"
 		""
-		"在指南针界面顶部输入您要查找的结构，然后选择它并点击搜索。"
+		"在指南针界面顶部输入你要查找的结构，然后选择它并点击搜索。"
 		""
 		"然后指南针会指向距离你最近结构的方向，并在屏幕左上角显示距离。"
 	]
@@ -1147,7 +1147,7 @@
 	quest.09DE55D4265E6E9D.quest_desc: [
 		"&7&o厌倦了丑陋的电缆在基地周围晃来晃去？厌倦了每个模组都有自己一套隐藏电缆的方法？厌倦了那些甚至无法隐藏电缆的模组？现在再也不用烦恼了！"
 		""
-		"&eCable Facades&r模组提供了一种万能解决方案，可以隐藏您所有的电缆。"
+		"&eCable Facades&r模组提供了一种万能解决方案，可以隐藏你所有的电缆。"
 		"{@pagebreak}"
 		"要设置一个空的&b伪装方块&r，只需将其与目标方块一起放入工作台的合成栏中。虽然会“消耗”该方块，但此过程可以通过将&b伪装方块&r放回合成栏并合成方块来逆转。"
 		""
@@ -1362,7 +1362,7 @@
 	]
 	quest.0B8D5E01DAE9AD6C.title: "&d雪天护符（雪天护身符）&r"
 	quest.0B92679772DB0C68.quest_desc: [
-		"&a传动轴&r和&a齿轮&r是将旋转力传递到您的机器和结构的主要方式。"
+		"&a传动轴&r和&a齿轮&r是将旋转力传递到你的机器和结构的主要方式。"
 		""
 		"查看&a齿轮&r的&b思索&r，了解它们如何应用于增加或减少动力网络中的&b每分钟转速&r（&bRPM&r）。"
 	]
@@ -1957,7 +1957,7 @@
 		""
 		"务必向其提供火药以及向与其连接容器提供所需要的物品。"
 		""
-		"您还可将结构保存至本地文件，既能在自己的世界中复用，也能使用其他玩家分享的&b蓝图&r！"
+		"你还可将结构保存至本地文件，既能在自己的世界中复用，也能使用其他玩家分享的&b蓝图&r！"
 	]
 	quest.1190DD56F5C5AB46.title: "&a蓝图加农炮"
 	quest.11C58E38DE9488BE.quest_desc: [
@@ -2057,7 +2057,7 @@
 		"它可以用于制作一些重要物品，包括&b塑料片&r和&6有机钢&r。"
 	]
 	quest.1277CECF9C633D8B.title: "&6有机聚合物"
-	quest.12843F69BB8EEFCE.quest_desc: ["&3显示链接器&r可用于可视化显示有关您的网络或方块的动态信息。"]
+	quest.12843F69BB8EEFCE.quest_desc: ["&3显示链接器&r可用于可视化显示有关你的网络或方块的动态信息。"]
 	quest.12843F69BB8EEFCE.title: "&3显示链接器"
 	quest.12B8D538B54497E2.quest_desc: [
 		"你肯定想用你的&a锻造锤砸&r一点&b铁板&r出来，或者做点很多合成配方都需要的&b铜质组件&r。"
@@ -3352,7 +3352,7 @@
 	quest.1FEEBCA6D633B479.title: "&e末影存储"
 	quest.1FFA8533BE4252F4.quest_desc: ["There are various budding blocks that take time and sometimes use odd mechanics to grow their crystals. By converting them to Echoing Budding blocks, you can bypass these restrictions using energy and Time Fluid to quickly grow crystals."]
 	quest.2006F24858B4B4BB.quest_desc: [
-		"我的世界中有大量基础资源，而模组在此基础上增添了更多！"
+		"Minecraft中有大量的基础资源，而模组在此基础上为其添加了更多！"
 		""
 		"[\"如果你不清楚特定材料的获取方式，可查阅\", {\"text\": \"初始材料章节\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6AA8A1FF1C8089F7\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往初始材料章节\"]} }, \"获得指引，无需独自翻阅十几页JEI。\"]"
 	]
@@ -6180,7 +6180,7 @@
 	quest.3A7489C33ED56F3B.title: "&f初学者法术书"
 	quest.3A7774F5F0FD174E.quest_desc: ["这条深暗书架合成路线，以提升&c量子化&r为最终目的。"]
 	quest.3A7774F5F0FD174E.title: "&c烈焰&r&f之路"
-	quest.3A7ADD7CC06913D7.quest_desc: ["&3可调节链式传动箱&r允许您通过红石信号直接增加/减少网络中特定组件的&bRPM&r。"]
+	quest.3A7ADD7CC06913D7.quest_desc: ["&3可调节链式传动箱&r允许你通过红石信号直接增加/减少网络中特定组件的&bRPM&r。"]
 	quest.3A7ADD7CC06913D7.title: "&3可调节链式传动箱"
 	quest.3A91BB6A673C0D83.quest_desc: [
 		"&e现代工业化&r虽然看上去让人望而却步，但它提供了很多矿石产出方面极其好用的机器！"
@@ -6218,7 +6218,7 @@
 		"如果你已经把存储方块放了下来，你可以做一个&a基础升级&r然后对着它使用就行。"
 	]
 	quest.3ACF3359B3B59A05.title: "&e精妙存储"
-	quest.3AE87DA3A5C23D67.quest_desc: ["&3货物蛙港&r允许您使用&a锁链传动轮&r在物流网络中传输包裹。"]
+	quest.3AE87DA3A5C23D67.quest_desc: ["&3货物蛙港&r允许你使用&a锁链传动轮&r在物流网络中传输包裹。"]
 	quest.3AE87DA3A5C23D67.title: "&3货物蛙港"
 	quest.3AEBDB8CAA13C522.quest_desc: ["&a磁力指环&r在有能量的时候，会自动拾取玩家周围6格内的掉落物。"]
 	quest.3AEBDB8CAA13C522.title: "&a磁力指环"
@@ -6637,7 +6637,7 @@
 	quest.3F80D4097EA8C49B.quest_desc: [
 		"将流体缓慢而稳定地滴在不同材料上是非常有用的策略。"
 		""
-		"By clicking a bowl on a water source, it turns into a bowl of water, which can be placed in the &aDripper&r to break down leaves into more water and convert other materials!"
+		"用碗右击水源就可以舀出一碗水，将水倒入&a滴水器&r中，滴水器会将其下方的树叶分解成水，还能转化其他材料！"
 		""
 		"还有一种更巧妙的方法，在流动的水下方使用骨粉，如果有足够的空间，海草便会长出来，并将水流变成水源方块，这就能获得更多的水！"
 	]
@@ -6895,7 +6895,7 @@
 	]
 	quest.41C7ED53AA36D647.title: "&c巨灵时间法师"
 	quest.41C964C013338741.quest_desc: [
-		"&6远古法典&r是&6传奇法术书&r之一，你可以修复&b颓残之书&r来获得它。"
+		"&b颓残之书&r可以合成一系列&6传奇法术书&r，&6远古典籍&r是其中之一。"
 		""
 		"这本典籍很适合日常使用，它可以减少法术冷却时间和提升最大法力值。"
 	]
@@ -9449,7 +9449,7 @@
 		"&7元素土在未来可能会有独特的功能……"
 	]
 	quest.5C7494C886570E80.quest_desc: [
-		"&6列车驾驶台&r允许您使用常规的移动控制来操纵列车。"
+		"&6列车驾驶台&r允许你使用常规的移动控制来操纵列车。"
 		""
 		"所有列车都需要至少一个这样的部件才能运行。"
 	]
@@ -10233,11 +10233,11 @@
 	quest.63E9BE547681EB33.quest_subtitle: "赶紧紧急停机"
 	quest.63E9BE547681EB33.title: "&a裂变反应堆逻辑适配器"
 	quest.63F1648925C79179.quest_desc: [
-		"你可以通过让&c熔岩&r和&3水&r彼此接触来生成圆石，但记住放置方式有时不容易，而且坐在那里挖每一块你需要的石头也很麻烦。"
+		"你可以让&c熔岩&r和&3水&r彼此接触来生成圆石，但记得别放错位置，而且在那一块一块的挖你要的圆石也很麻烦。"
 		""
-		"这就是&a石造石机&r存在的原因！只需放下该方块，它就会稳定地向相邻的容器输出圆石。"
+		"这就是&a石造石机&r存在的原因！只需将其放下，它就会持续向相邻的容器输出圆石。"
 		""
-		"&7还有类似的一个方块用于生成玄武岩，熔岩与流动的&e蜂蜜&r&7和&8巧克力&r&7也有特殊的反应……"
+		"&7还有类似的一个方块，可以用于生成玄武岩，熔岩与流动的&e蜂蜜&r&7和&8巧克力&r&7接触也会有特殊的反应哦……"
 	]
 	quest.63F1648925C79179.title: "&f紧凑的造石机"
 	quest.63FEA36CF7C088F3.quest_desc: ["想开始玩&d末影接口&r模组了？这个基础发电机可以给你的机器产点能量。"]
@@ -10552,7 +10552,7 @@
 	]
 	quest.67396087E1916115.title: "&f分子重组仪"
 	quest.67452E837BE2A6B8.quest_desc: [
-		"这是原版我的世界中的最终之战，但在Skies 2中，由于&6更凶猛的末影龙&r模组，这变得困难得多。"
+		"这是原版Minecraft中的最终之战，但在Skies 2整合包中，因为有&6更凶猛的末影龙&r模组，这一场战役将会变得格外困难。"
 		""
 		"有什么新变化呢？水晶不仅可以重生，而在被破坏时也会生成生物，末影龙会随机用闪电攻击你，飞行时你可能会被击落，并且你也不能用床炸死她。"
 		""
@@ -10765,7 +10765,7 @@
 	quest.69FD7F8DD28A1C75.title: "&d存量转信器"
 	quest.6A02985C3F8D48F3.title: "&f绿宝石矿块"
 	quest.6A18A087EA934C46.quest_desc: [
-		"你要制作的第一个合金是&a青铜&r。有几种方法可以做到这一点，包括在&e钢化玻璃罐&r中混合粉末。"
+		"你要制作的第一个合金是&a青铜&r。有几种方法可以做到这一点，包括在&e强化玻璃罐&r中混合粉末。"
 		""
 		"这个合金非常非常重要，你有了它就可以开启&bMI的青铜时代&r了！"
 	]
@@ -11725,9 +11725,9 @@
 	]
 	quest.745140E3D92CB0D6.title: "&f自动破坏方块"
 	quest.7454899FCDA2349B.quest_desc: [
-		"&6火车站点&r是您铁路网络的中转站。"
+		"&6火车站点&r是你铁路网络的中转站。"
 		""
-		"它也可以在您组装火车时设置为组装模式。"
+		"它也可以在你组装火车时设置为组装模式。"
 	]
 	quest.7454899FCDA2349B.title: "&d列车站点"
 	quest.74586CD5CF7512DD.quest_desc: [
@@ -11850,7 +11850,7 @@
 		""
 		"&a合成槽盖板&r可用于覆盖自动合成中未使用的槽位。当然，你也可以使用红石信号来强制启动合成配方。"
 		""
-		"&e注&r：由于对加载时间的影响，目前普通的合成功能已禁用。对于给您带来的不便，我们深表歉意。"
+		"&e注&r：由于对加载时间的影响，目前普通的合成功能已禁用。对于给你带来的不便，我们深表歉意。"
 	]
 	quest.75D3AC9CCA5A82E4.title: "&d动力合成器"
 	quest.75D7595FD90E77E5.quest_desc: ["Each &dAssembler Matrix Pattern Core&r provides 36 pattern slots to the &6Assembler Matrix&r."]
@@ -12404,7 +12404,7 @@
 		"要制作高级电子元件，你需要用&a灌装机&r制作&c工程塑胶板&r。"
 	]
 	quest.7BBE12078C2FC82E.title: "&c高级电子元件"
-	quest.7BEB2CB9C3BF6318.quest_desc: ["&3仓储链接站&r允许您设置和管理物品的库存网络，使这些物品可以在同一网络中的其他系统请求时可用。"]
+	quest.7BEB2CB9C3BF6318.quest_desc: ["&3仓储链接站&r允许你设置和管理物品的库存网络，使这些物品可以在同一网络中的其他系统请求时可用。"]
 	quest.7BEB2CB9C3BF6318.title: "&3仓储链接站"
 	quest.7C03724DFA7CC612.quest_desc: [
 		"&a火护身符&r使玩家免疫火焰和熔岩伤害。"
@@ -12691,7 +12691,7 @@
 		"你不能用桶从这些储罐中输入/提取流体。"
 	]
 	quest.7EA8C2CD09DD85A3.title: "&a流体储罐"
-	quest.7EB4DDE8F6722C6A.quest_desc: ["&a便携式流体接口&r允许您从结构中输入/提取流体。"]
+	quest.7EB4DDE8F6722C6A.quest_desc: ["&a便携式流体接口&r允许你从结构中输入/提取流体。"]
 	quest.7EB4DDE8F6722C6A.title: "&a移动式流体接口"
 	quest.7EDADB7DB5EA981A.quest_desc: [
 		"当你完成任务时，你将获得&e银币&r、&b金币&r或&d水晶币&r，分别价值1、10和50货币单位。"
