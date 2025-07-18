@@ -379,8 +379,8 @@
 		"&e注意&r：你也可以直接将基础等级升级到更高等级！"
 	]
 	quest.03569C25419223DC.title: "&f升级等级"
-	quest.03597EC99930955D.quest_desc: ["矿石生成这种资源来形成母岩。"]
-	quest.03597EC99930955D.quest_subtitle: "将熔融铂倒在催化剂上"
+	quest.03597EC99930955D.quest_desc: ["通过矿石可以获取这种资源，从而进一步制作其母岩。"]
+	quest.03597EC99930955D.quest_subtitle: "将熔融铂浇筑在虚无晶体催化剂上"
 	quest.03597EC99930955D.title: "&f铂矿晶母岩"
 	quest.0361236BF20549B5.quest_desc: [
 		"骷髅头颅给予+1x能量容量和充能速度"
@@ -504,7 +504,7 @@
 	quest.049DE43A1B31C38F.quest_desc: ["这个章节会着重介绍大多数存储物品的办法！"]
 	quest.049DE43A1B31C38F.title: "&a通用存储选项"
 	quest.04ABB8DD43099429.quest_desc: [
-		"The &aMagmator&r burns &cLava&r and other hot fluids to generate power over time."
+		"&a岩浆发电机&r消耗&c熔岩&r和其它炙热流体以产生能量。"
 		""
 		"This is a great early generator if you have a good way of generating lava, but gets even better once you can automate &emore advanced fuels&r!"
 	]
@@ -3853,8 +3853,8 @@
 	quest.25023C87AA259688.quest_desc: ["虽然这可能不是最坚固的盔甲，但当你穿上全套&3纸板&r套装时，&3纸板盔甲&r会为你提供酷炫的潜行效果。"]
 	quest.25023C87AA259688.quest_subtitle: "偷偷摸摸"
 	quest.25023C87AA259688.title: "&3纸板盔甲"
-	quest.250EAE6FF7C67284.quest_desc: ["矿石生成这种资源来形成母岩。"]
-	quest.250EAE6FF7C67284.quest_subtitle: "将熔融铀倒在催化剂上"
+	quest.250EAE6FF7C67284.quest_desc: ["通过矿石可以获取这种资源，从而进一步制作其母岩。"]
+	quest.250EAE6FF7C67284.quest_subtitle: "将熔融铀浇筑在虚无晶体催化剂上"
 	quest.250EAE6FF7C67284.title: "&f铀矿晶母岩"
 	quest.253FA29ADE459464.quest_desc: [
 		"搭建好营火后，便可对玻璃与铁材进行加工，使其能够承受更高的温度。"
@@ -3997,7 +3997,7 @@
 		""
 		"输入你想找的生物群系，然后在列表里找到它，点一下，然后再点搜索。"
 		""
-		"The compass will point you in the direction, and the distance from the biome will be shown in the top left of your screen."
+		"这样指南针就会指向你要找的群系，同时屏幕左上方会显示你距离该群系还有多远。"
 	]
 	quest.2697DE3ABB47669F.title: "&f群系定位"
 	quest.269EE6FF35CA9857.quest_desc: [
@@ -4081,7 +4081,7 @@
 	quest.26EDB26B9D3431D8.quest_desc: ["把&c发酵矿石肉汤&r和沙子组合，就可以获得可处理的矿粉。"]
 	quest.26EDB26B9D3431D8.title: "&d流体筛分机"
 	quest.26F18323EB6EFCA0.quest_desc: ["&bSnad&r blocks allow you to create farms of Cactus or Sugarcane easily. These can also be given a redstone signal to increase the growth rate of the crop."]
-	quest.26F18323EB6EFCA0.title: "&fSNAD"
+	quest.26F18323EB6EFCA0.title: "&f子 沙"
 	quest.270A67B9066C195D.quest_desc: ["&7&oChoose one Matter tank filled with 64k Matter of a specific type."]
 	quest.270A67B9066C195D.title: "&b物质罐（64k物质）"
 	quest.2722C0E2E8993658.quest_desc: [
@@ -4999,11 +4999,11 @@
 		"仪祭匕首除了提供蝙蝠、苦力怕和狼的&a特殊掉落物&r的&o掉落几率&r，还额外增加了骷髅和凋灵骷髅掉落完整头颅的几率。"
 	]
 	quest.30CE0A1635346670.quest_desc: [
-		"&6Mek工具&r与&6Mek套装&r的合成需使用钋元素及&e通用机械&r模组中的其他高端材料。这些动力装备本身性能强悍，还能通过安装各类&b模块&r大幅强化，从幸运到飞行功能，性能还能得到极大提升！"
+		"&6Meka工具&r与&6Meka套装&r的合成需使用钋元素及&e通用机械&r模组中的其他高端材料。这些动力装备本身性能强悍，还能通过安装各类&b模块&r大幅强化，从幸运到飞行功能，性能还能得到极大提升！"
 		""
 		"只需将制作好的&b模块&r放入&a改造站&r中匹配的插槽内，并把要改装的装备放入箭头所指的插槽中即可。"
 	]
-	quest.30CE0A1635346670.title: "&6Mek装备"
+	quest.30CE0A1635346670.title: "&6Meka装备"
 	quest.30D00AC248214D58.quest_desc: ["&3充能合金&r可用于许多合成配方，但主要还是用来合成&a双层电容&r和&d振动合金&r。"]
 	quest.30D00AC248214D58.title: "&3充能合金"
 	quest.3108A2703AD6FA4F.quest_desc: ["d&7&oChoose any item dropped from mobs in Fargo's Dungeons."]
@@ -9337,7 +9337,7 @@
 	quest.5B499DF961D9308B.quest_subtitle: "What's a cooldown?"
 	quest.5B499DF961D9308B.title: "&aSimple Clicker"
 	quest.5B512AED08EC1899.quest_desc: [
-		"While water is not a cool enough fluid for them, &aThermo Generators&r can provide a lot of power if supplied with proper &badvanced coolant&r."
+		"如果供给合适的&b强化冷却剂&r，&a热力发电机&r能提供不少的能量，水不能作为冷却剂。"
 		""
 		"热力发电机需要放置在&c足够热&r的方块或流体上才能工作，工作时缓慢消耗冷却剂。"
 	]
