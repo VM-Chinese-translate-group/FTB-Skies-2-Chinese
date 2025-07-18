@@ -264,15 +264,15 @@
 	quest.021C3C2A48069C7F.quest_subtitle: "将熔融绿宝石倾倒在催化剂上"
 	quest.021C3C2A48069C7F.title: "&f绿宝石矿晶母岩"
 	quest.0224277CBEC1375E.quest_desc: [
-		"&eAE2&r has its own power unit called &bAE&r. By default, it does not accept power directly from other sources."
+		"&eAE2&r有自己的能量单位，叫做&bAE&r。AE2的设备通常不支持其他模组的能量。"
 		""
-		"However, you can use an &aEnergy Acceptor&r to convert FE power into AE power for your network, which can be distributed out using &2Glass Cables&r."
+		"不过你也可以用&a能源接收器&r将FE变为AE能量，使用&2玻璃线缆&r可以仅传输能量。"
 		""
-		"If you start running out of power as you add more machines to your network, it might help to create an energy buffer using &bEnergy Cells&r, which store power for future use."
+		"假如你的网络里头机器太多了，把能量都吸干了的话，加装一个缓存AE能量的&b能源元件&r也许是个不错的选择。"
 		"{@pagebreak}"
 		"&d水晶共振生成器&r可以为你免费产生AE能量。"
 		""
-		"This generator extracts free energy from the vibrations of the crystals within it to generate around 20 AE/t. These vibrations limit your system to only have one of these per AE network."
+		"这个共振发生器会吸收水晶的震动能量，功率约为20AE/t。不过由于共振的原因，每个AE网络只允许安装一个。"
 	]
 	quest.0224277CBEC1375E.title: "&b组网&f供电"
 	quest.0224D5E40F659D36.quest_desc: [
@@ -319,15 +319,15 @@
 	]
 	quest.02F52598328E84A0.title: "&b精英控制电路"
 	quest.02F6AC9E53029E0A.quest_desc: [
-		"In another &2Inscriber&r, you can combine a &bPrinted Circuit&r with &aPrinted Silicon&r and a piece of &cRedstone&r to craft a complete &dProcessor&r."
+		"将&b电路板&r、&a硅板&r、&c红石&r放在另一个&2压印器&r中，以此完成&d处理器&r的制造。"
 		""
-		"These &dProcessors&r are the main crafting components needed for most of the electronics you'll use, like &aTerminals&r, &eDisk Drives&r, and lots more."
+		"这些&d处理器&r就是制造AE2主要设备的重要元件，比如&a终端&r和&e驱动器&r之类的东西。"
 		""
 		"这三样物品的自动化非常重要，越早越好！"
 		"{@pagebreak}"
-		"As a tip for automation, you can use a 5th Inscriber to complete Processors in the chain."
+		"给你个小建议，你可以在处理线中加第5个压印器来完成整个压印流水线。"
 		""
-		"You can set filters to pipe &cRedstone&r into the back, &bPrinted Silicon&r into the top, and any &aPrinted Processor&r into the bottom. The finished Processors can then be piped out of the front."
+		"你可以给压印器的输入管道设定过滤器，从背部输入&c红石&r，从上方输入&b硅板&r，然后从底部输入&a三种电路板&r。压印成品可以从中间输出。"
 		""
 		"[\"A simple way to achieve this is using locked \", { \"text\": \"Functional Drawers\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A707D443EC2DE33\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Functional Drawers Quest\"}}, \".\"]"
 	]
@@ -2358,8 +2358,8 @@
 	quest.15F655AA668D6541.title: "&f流体混合器"
 	quest.15F9D5C1BDCF2D80.title: "&316k存储元件"
 	quest.16180601C60DA378.title: "&f升级：夜视"
-	quest.1619084AFCD0B0DD.quest_desc: ["&aSleeping Bags&r can be used to sleep at night without resetting your spawn point!"]
-	quest.1619084AFCD0B0DD.title: "&bSleeping On The Go"
+	quest.1619084AFCD0B0DD.quest_desc: ["你可以在&a睡袋&r里睡过夜晚，而不重设你的重生点！"]
+	quest.1619084AFCD0B0DD.title: "&b随地大小睡"
 	quest.16206DA366CABDBE.quest_desc: ["用&a研钵&r和&a研钵&r粉碎可以制作一些物品或扩展其它用途，它也是创建&b法术&r的关键工具。"]
 	quest.16206DA366CABDBE.quest_subtitle: "研钵及研杵？"
 	quest.16206DA366CABDBE.title: "杵和臼"
@@ -2552,11 +2552,11 @@
 	]
 	quest.186BE7F6DFA8C41E.title: "&7火药"
 	quest.18913114C6D06E74.quest_desc: [
-		"With &aEasy Villagers&r, you can literally pick up villagers by sneak-right clicking on them. This makes for super easy villager halls!"
+		"整合包里有&a简单村民&r模组，你潜行右击就可以字面意义上的把村民捡起来，这样搭建超大交易所就方便太多了！"
 		""
 		"You can also create &aTrader Blocks&r to place them in with their trading table to create a one block trading solution."
 	]
-	quest.18913114C6D06E74.title: "&aEasy Villagers"
+	quest.18913114C6D06E74.title: "&a简单村民"
 	quest.189DE52ADD270985.quest_desc: [
 		"将透镜放在&e原子再构机&r上以更改其功能。"
 		""
@@ -2859,11 +2859,11 @@
 	quest.1B3B2B9697D7AEA6.quest_desc: ["把你目前能做出的最佳工具组合起来！"]
 	quest.1B3B2B9697D7AEA6.title: "&5蚀空合金镐尖斧"
 	quest.1B8BB733ADF897FE.quest_desc: [
-		"&e熔铸炉&r能将冶炼合金并锻造成各种不同的零件，可用于制造工具、盔甲等。"
+		"你可以利用&eProductive Metalworks&r模组冶炼合金并将其锻造成各种不同的零件，它们可用于制造工具、盔甲等。"
 		""
-		"首先制作一些&c耐火粘土&r，然后将其冶炼成&4耐火砖块&r用于搭建&6熔铸炉&r结构。"
+		"首先制作一些&c耐火粘土&r，然后将其冶炼成&4耐火砖块&r来搭建&6熔铸炉&r结构。"
 		""
-		"阅读这本&e冶金学百科全书&r，我可以大概知晓如何建造一个合格的&6熔铸炉&r。"
+		"阅读这本&e冶金学百科全书&r，你可以大概知晓如何建造一个合格的&6熔铸炉&r。"
 	]
 	quest.1B8BB733ADF897FE.title: "&eProductive Metalworks&r&6熔铸炉"
 	quest.1B8F8FB85E523670.quest_desc: ["这座岛屿上有一座简朴的&c炽焰术士塔&r。由于无法向地下拓展空间，他们只能在地表与你正面交锋。"]
@@ -2920,11 +2920,11 @@
 	quest.1BF77D602FFDF292.quest_desc: ["The &dInfinity Range Booster&r grants you access to your network anywhere within the same dimension."]
 	quest.1BF77D602FFDF292.title: "&dInfinity Range Booster"
 	quest.1BFDE3507411C116.quest_desc: [
-		"你的&6熔铸炉需要一个&a控制器&r和一个&2储罐&r来控制熔铸炉和储存熔融的金属"
+		"你的&6熔铸炉需要一个&a控制器&r和一个&2储罐&r来控制熔铸炉和储存熔融的金属。"
 		""
-		"当然，我还需要一个&6控制熔铸炉&r的方块，还有一个足够耐热的储罐，里面存放熔化金属的高温液体。"
+		"当然，你还需要一个足够耐热的储罐来存放能够熔化金属的高温液体。"
 		""
-		"&7&o你可以根据你的审美进行染色。"
+		"&7&o你可以根据你的喜好进行染色。"
 	]
 	quest.1BFDE3507411C116.title: "&6熔铸炉&f主组件"
 	quest.1C0024A48898FB90.quest_desc: [
@@ -2970,7 +2970,7 @@
 		"It burns fuel sources to generate energy to power the items in your inventory!"
 	]
 	quest.1C866721E1F2FF50.title: "&fPocket Generator"
-	quest.1C88E4B44A1C55A9.quest_desc: ["&a武士刀&r比普通剑挥舞速度慢一点，但是可以造成更多伤害！"]
+	quest.1C88E4B44A1C55A9.quest_desc: ["&a武士刀&r的挥舞速度比普通剑慢一点，但是可以造成更高的伤害！"]
 	quest.1C88E4B44A1C55A9.title: "&f武士刀蓝图"
 	quest.1C8A5F2BD1C17A3E.quest_desc: [
 		"一整套&a认知装备&r与铁套相比，它有更多优点。"
@@ -3086,11 +3086,11 @@
 	quest.1D2DF91FC1559504.quest_desc: [
 		"制作你的自定义&a箭矢&r！"
 		""
-		"&a箭蓝图&r可以合成&b箭头部件&r，把它与工具杆和&e尾羽&r一起组装就可以制作出箭矢了。"
+		"&a箭蓝图&r可以合成&b箭头部件&r。把它与工具杆和&e尾羽&r一起组装就可以制作出箭矢了。"
 		""
 		"这样就会制造出单个物品形态的“一捆”箭矢。"
 		""
-		"注意：别把这东西放原版弩里！"
+		"注意：别把这种箭放到原版弩里！"
 	]
 	quest.1D2DF91FC1559504.title: "&f自定义箭矢"
 	quest.1D401E12D1F46227.quest_desc: ["下一步，我们需要在&3化学反应釜&r中把等量的&a氢&r和&e氯&r混合，制成&c盐酸&r（HCl）。"]
@@ -3432,16 +3432,16 @@
 	]
 	quest.214D210F200CD11F.title: "&d时间扭曲装置"
 	quest.215E7EB95A7C64A3.quest_desc: [
-		"Every second matters, and that's why you should shove them in the &6Temporal Pouch&r."
+		"一寸光阴一寸金，你的时间非常值钱，所以我建议你把它塞进&6时间之袋&r里。"
 		""
-		"This pouch stores time, as long as it is in your inventory. This time can be used to increase the ticks of pretty much anything by sneak-using the pouch on it."
+		"放在物品栏中时，这个袋子可以储存时间。你存在袋子里的时间可以用来给各种东西加速，手持袋子潜行右击要加速的方块即可。"
 		""
-		"If something is too slow, use some of your stored time to make it faster!"
+		"有些东西实在是慢得抠脚，这时候你就可以用你储存的时间来给它加速！"
 		""
 		"&7&oWho says you can't buy time?"
 	]
-	quest.215E7EB95A7C64A3.quest_subtitle: "Time in a POUCH!"
-	quest.215E7EB95A7C64A3.title: "&dTemporal Pouch"
+	quest.215E7EB95A7C64A3.quest_subtitle: "时不我“袋”！"
+	quest.215E7EB95A7C64A3.title: "&d时间之袋"
 	quest.2160C6D61B76C8FE.quest_desc: [
 		"&e神秘学的&r可升级的存储系统能让你在单独的&9异界&r维度储存物品。"
 		""
@@ -3542,7 +3542,7 @@
 		"&7&o与大多数其他核反应堆不同，这个反应堆不会爆炸或发出辐射。"
 	]
 	quest.22794ACEC855690B.title: "&6核反应堆&r"
-	quest.227BF4C2E9500AE2.quest_desc: ["&a长矛&r比普通剑的伤害低一些，但是攻击距离更远！"]
+	quest.227BF4C2E9500AE2.quest_desc: ["&a长矛&r的伤害比普通剑的低一些，但是攻击距离更远！"]
 	quest.227BF4C2E9500AE2.title: "&f长矛蓝图"
 	quest.22878CFA5B7B90AD.quest_desc: [
 		"&6化学结晶器&r可以把气体变为固态结晶。它的用处很多，比如制造&a锂粉&r和&d反物质靶丸&r。"
@@ -3960,15 +3960,15 @@
 	]
 	quest.2680E1E74C44F336.title: "&a部件属性&r"
 	quest.2682A911828C2D88.quest_desc: [
-		"&7&oHave you ever wished you had stairs of a certain block type? Maybe a slab of a block that you don't normally have?"
+		"&7&o也许你曾经想过，要是有某种方块纹理的楼梯就好了，要是这个方块有台阶就好了？"
 		""
-		"&eFramed Blocks&r allow you to create custom blocks and shapes that uses the texture of almost any other block in the pack!"
+		"&e框架方块&r就是用来干这个的！有了它，你就可以搞出形状纹理五花八门的方块了！"
 		""
-		"To do this, place down a framed block, and then use the block with the desired texture on the framed block to copy the texture over."
+		"先把框架方块放下来，然后手持某方块右击，这样它就会变成手中方块的纹理了。"
 		""
 		"There are also some cool features for these blocks, like using &6Glowstone Dust&r on a framed block to make it glow!"
 	]
-	quest.2682A911828C2D88.title: "&2Framed Blocks"
+	quest.2682A911828C2D88.title: "&2框架方块"
 	quest.268CC540E5B605A9.quest_desc: [
 		"只有得到&d龙息&r后，才能进行最高级书架的灌注。"
 		""
@@ -3993,13 +3993,13 @@
 	]
 	quest.26967FC6CE3428BC.title: "德鲁伊施法"
 	quest.2697DE3ABB47669F.quest_desc: [
-		"The &2Nature's Compass&r allows you to locate any biome!"
+		"&2自然罗盘&r可以帮你寻找生物群系！"
 		""
-		"Type in the biome you are looking for, then click it in the list and click Search."
+		"输入你想找的生物群系，然后在列表里找到它，点一下，然后再点搜索。"
 		""
 		"The compass will point you in the direction, and the distance from the biome will be shown in the top left of your screen."
 	]
-	quest.2697DE3ABB47669F.title: "&fLocating Biomes"
+	quest.2697DE3ABB47669F.title: "&f群系定位"
 	quest.269EE6FF35CA9857.quest_desc: [
 		"&a蒸汽引擎&r消耗蒸汽产出RF，如果别的发电机使用了&a蒸汽锅炉插件&r的话，那么它们的发电能力在折算为蒸汽的同时，还会上升一些。"
 		""
@@ -4362,14 +4362,14 @@
 	quest.2AD996C548EBF4A4.quest_desc: [
 		"你的&6熔铸炉&r也可以用来&m&4熔化可怜无助的灵魂&r从以下生物中提取物质："
 		""
-		"- 玩家：&c熔肉"
-		"- 末影人：&3熔融末影"
+		"- 玩家：&c肉"
+		"- 末影人：&3熔融谐振末影"
 		"- 村民/小市场商人：&2熔融绿宝石"
 		"- 女巫：&d熔融紫水晶"
 		"- 蜜蜂：&6蜂蜜"
 		"- 烈焰人：&c熔融烈焰"
 	]
-	quest.2AD996C548EBF4A4.quest_subtitle: "不，就像……看看它……它实际上是熔岩"
+	quest.2AD996C548EBF4A4.quest_subtitle: "不，我是说……看看它……它真的是熔岩做的"
 	quest.2AD996C548EBF4A4.title: "&a地板是熔岩！"
 	quest.2AE9ADF578ABEA11.quest_desc: ["1个终级精华=256个下级精华"]
 	quest.2AE9ADF578ABEA11.quest_subtitle: "等级五"
@@ -6581,11 +6581,11 @@
 	]
 	quest.3E92AE1CCA722AA3.title: "&d魔法&f松鼠"
 	quest.3EB56937CCDFCB2A.quest_desc: [
-		"&b浇铸台/盆&r用于塑造你的工具、武器和盔甲或锭和其他形式的金属。"
+		"&b浇铸台/盆&r可以用来给金属塑形，从而适配你的工具、武器、盔甲或锭等。"
 		""
-		"在&a控制器&r内选择熔融金属，然后右击放置在铸件台或铸造盆上的&2熔铸炉浇注口&r即可使其流出。"
+		"在&a控制器&r内选择你想用的熔融金属，然后右击放置在铸件台或铸造盆上方的&2熔铸炉浇注口&r即可使其流出。"
 		""
-		"&7&o这个过程可以用红石自动化。"
+		"&7&o这个过程可以用红石实现自动化。"
 	]
 	quest.3EB56937CCDFCB2A.title: "&f锭铸模"
 	quest.3ECB4CCC61F2F3A2.quest_subtitle: "冰霜套装"
@@ -8563,11 +8563,11 @@
 	]
 	quest.5211DFF30B136433.title: "&f早期&b门瑞欧结晶碎片&f自动化"
 	quest.522B9BAA4849605C.quest_desc: [
-		"&a弹弓&r是个不错的前期远程武器，它的弹药是&3石子&r。"
+		"&a弹弓&r能够发射&3石子&r，是一种不错的前期远程武器。"
 		""
 		"它的装填速度很快，但伤害比较低。"
 		""
-		"&3石子&r可以用&b石砧&r和&a锤子&r制作！"
+		"&3石子&r可以在&b石砧&r上用&a锤子&r制作！"
 	]
 	quest.522B9BAA4849605C.title: "&f“扔”石子"
 	quest.523912C19E6F8B64.quest_desc: ["&3接触式红石信号发生器&r在接触时会发出红石信号，即使它们位于结构内部。"]
@@ -8643,9 +8643,9 @@
 	quest.53E72F025E4CB895.quest_desc: ["&3动力锯&r可以一次性砍伐整棵树或处理物品配方。"]
 	quest.53E72F025E4CB895.title: "&3动力锯"
 	quest.53E949B1A0D04290.quest_desc: [
-		"你需要至少21个&c耐火粘土砖块&r搭建最小尺寸的&6镕铸炉&r的外墙。"
+		"你需要至少21个&c耐火砖块&r才能搭建最小尺寸的&6镕铸炉&r外墙。"
 		""
-		"&7&o你可以根据你的审美进行染色。"
+		"&7&o你可以根据你的喜好进行染色。"
 	]
 	quest.53E949B1A0D04290.title: "&6镕铸炉&f外部结构"
 	quest.53EEF2EC6314E8F2.quest_desc: [
@@ -10666,13 +10666,13 @@
 	]
 	quest.68583162106594A8.title: "&f移动箱子"
 	quest.68668718B414B6E4.quest_desc: [
-		"&6镕铸炉&a排液孔&r可将金属排出到&2铸件台&r上。"
+		"&6镕铸炉&a排液孔&r可将你想要加工的金属排出到&2铸件台&r上。"
 		""
-		"先不要做别的事情，你需要先制作&b铸件台/盆&r。"
+		"先不要做别的事，你需要先制作&b铸件台/铸造盆&r。"
 		""
-		"虽然&2铸造盆&r是可选的设备，但它可以直接冷却一整个金属块。"
+		"&2铸造盆&r可以直接冷却和存储一整个金属块。"
 		""
-		"&7&o你可以根据你的审美进行染色。"
+		"&7&o你可以根据你的喜好进行染色。"
 	]
 	quest.68668718B414B6E4.title: "&6镕铸炉&f排液孔"
 	quest.68778308CBAB4AE3.quest_desc: ["&a外部存储总线&r可直接访问网络外部的存储容器，如箱子、抽屉、储罐等。"]
@@ -12579,9 +12579,9 @@
 	quest.7D7CA7502495EA2D.quest_desc: ["&7&oRandomly gain a Bene Gene."]
 	quest.7D7CA7502495EA2D.title: "&bBee Gene Bag"
 	quest.7D7E98A886175D22.quest_desc: [
-		"&a砍刀&r比普通剑速度快一点，但是伤害少一点。"
+		"&a砍刀&r比普通剑挥舞速度快一点，但是伤害少一点。"
 		""
-		"主要是这玩意可以砍树（速度慢了点），而且可以在清理草之类的东西时充当镰刀。"
+		"此外，它可以像斧头一样砍树（速度慢了点），还可以像镰刀一样清理杂草和收割作物。"
 	]
 	quest.7D7E98A886175D22.title: "&f砍刀蓝图"
 	quest.7D84ECD5BBB7964A.quest_desc: ["&d魔咒提取机&r可以将附魔的物品提取为附魔书，能够有效地将附魔从你不用的装备上回收。"]
@@ -13137,10 +13137,10 @@
 	task.1C0BB83393437BDF.title: "&f组件界面"
 	task.1C1B6CA8991CBB5D.title: "&f岩浆发电机"
 	task.1C350F6D6B6C0656.title: "&b升级插件"
-	task.1C70AB93B6A0F1A6.title: "&aVillager Blocks&r"
+	task.1C70AB93B6A0F1A6.title: "&a村民方块&r"
 	task.1C79E9AB6C1C38DB.title: "小众矿晶母岩"
 	task.1D13D516425A8FDE.title: "&a绿色粉笔"
-	task.1DBB6B2E600D2533.title: "Any Hoe"
+	task.1DBB6B2E600D2533.title: "任意锄头"
 	task.1E077548E9C8149C.title: "锂粉"
 	task.1E1BD8B23B99DBBE.title: "&f召唤一个&e被附身的骷髅"
 	task.1E25F96E4ECA6380.title: "重置魔法技能树"
