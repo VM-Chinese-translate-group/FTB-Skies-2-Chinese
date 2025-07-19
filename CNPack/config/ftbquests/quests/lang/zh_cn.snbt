@@ -329,7 +329,7 @@
 		""
 		"你可以给压印器的输入管道设定过滤器，从背部输入&c红石&r，从上方输入&b硅板&r，然后从底部输入&a三种电路板&r。压印成品可以从中间输出。"
 		""
-		"[\"A simple way to achieve this is using locked \", { \"text\": \"Functional Drawers\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A707D443EC2DE33\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Functional Drawers Quest\"}}, \".\"]"
+		"[\"有个简单的办法能把这事办妥了，那就是用内容物锁定的\", { \"text\": \"功能性存储的抽屉\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A707D443EC2DE33\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Functional Drawers Quest\"}}, \"来输入物品。\"]"
 	]
 	quest.02F6AC9E53029E0A.title: "&a制造处理器&r"
 	quest.030DA26E4A03A96B.title: "&c中级精华&f护甲"
@@ -676,11 +676,11 @@
 	]
 	quest.06765AD5169D189D.title: "&a基地防御&r！"
 	quest.06918197435AF24E.quest_desc: [
-		"You can upgrade your &aProviders&r to the &eAdvancedAE&r version using &3Advanced Pattern Provider Upgrades&r."
+		"你可以用&3进阶样板供应器升级&r将&aAE2供应器&2升级到&eAdvancedAE版&r。"
 		""
-		"This advanced version allows you to upgrade how many pattern slots are available by using &dPattern Provider Capacity Upgrades&r."
+		"升级版可以安装&d样板供应容量升级&r，这样它就可以储存更多样板。"
 	]
-	quest.06918197435AF24E.title: "&3Advanced Pattern Provider Upgrade"
+	quest.06918197435AF24E.title: "&3高级样板提供器升级"
 	quest.069C6BE96C1A7D73.quest_desc: [
 		"The Eclipse Alloy Anvil can repair items using energy just like the previous tier. If fueled with Time Fluid however, it gets an absurd boost to its repair rate and energy efficiency!"
 		""
@@ -705,11 +705,11 @@
 	quest.06EB93CCDBA3C0D4.quest_desc: ["你可以用&a粉红粘液&r制作&d高级机器框架&r，这是&6工业先锋&r发展的关键部分。"]
 	quest.06EB93CCDBA3C0D4.title: "&f粉红粘液"
 	quest.06EC32E6140E68C1.quest_desc: [
-		"Using the power of &2Entro Crystals&r, you can create the fastest autocrafting setups using &dQuantum Autocrafting&r."
+		"在汲取&2恩特罗水晶&r之力后，搓出最快的自动合成方式：&d量子自动合成&r不再是梦。"
 		""
-		"The base crafting block is the &dQuantum Crafting Unit&r, which is needed for both the &6Quantum Crafter&r and the &6Quantum Computer Multiblock&r."
+		"量子计算机的基础方块是&d量子合成单元&r，&6量子合成器&r和&6多方块量子计算机&r都需要它。"
 	]
-	quest.06EC32E6140E68C1.title: "&dQuantum Autocrafting"
+	quest.06EC32E6140E68C1.title: "&d量子自动合成"
 	quest.06F4EAE4810BC03A.quest_desc: [
 		"&7建筑师护身符&r将玩家的放置范围增加59格，玩家将拥有64格的放置范围。"
 		""
@@ -866,7 +866,7 @@
 	quest.082F7B17CA57C1F7.quest_subtitle: "在催化剂上使用红宝石"
 	quest.082F7B17CA57C1F7.title: "&f红宝石矿晶母岩"
 	quest.083990CE5CA6E313.quest_desc: [
-		"The &aCell Workbench&r allows you to configure what types of items you want to allow onto an &2AE Storage Cell&r."
+		"你可以用&a元件工作台&r给&2AE存储元件&r进行设定，例如你想让它可以存储什么物品。"
 		""
 		"你也可以选择用&a均分卡&r给你的元件进行升级。插入这张卡后，元件内存储的物品会按照物品种类均分，不会出现A把元件都挤满B没处放的情况。"
 		"{@pagebreak}"
@@ -999,14 +999,14 @@
 	]
 	quest.091B8E814908DEDF.title: "&d原子融合厂"
 	quest.091C04F5A6163717.quest_desc: [
-		"The &eTempered Jar&r has a lot of versatility, but needing to manually start the mixing process every time gets old fast. This is where the &aJar Automater&r helps!"
+		"虽然&e强化玻璃罐&r功能多样，但每次都需要手动混合，令人厌倦。而这就是&a罐自动化器&r存在的原因！"
 		""
-		"By simply placing one above a tempered jar, any valid recipe inside said jar will automatically start!"
+		"将其放在强化玻璃罐的上方，罐内有任何有效配方，便会自动启动！"
 		""
-		"&7&oPractically overpowered when it comes to lava generation..."
+		"&7&o熔岩的生成效率堪称超模……"
 	]
-	quest.091C04F5A6163717.quest_subtitle: "Mixing all the hits"
-	quest.091C04F5A6163717.title: "&aJar Automater"
+	quest.091C04F5A6163717.quest_subtitle: "混合搅拌"
+	quest.091C04F5A6163717.title: "&a罐自动化器"
 	quest.093330A5C170F843.quest_desc: [
 		"&b环境力量&r提供用于制作它的所有护身符的效果："
 		""
@@ -5140,7 +5140,7 @@
 	]
 	quest.31FD89FA8B730048.title: "&a速度\\&\\堆叠升级"
 	quest.3208AF90091D1B6B.quest_desc: [
-		"使用&a简易重铸台&r，你就可以使用全新对应材料重铸物品。"
+		"使用&a简易重铸台&r，你就可以为物品附上全新的词缀。"
 		""
 		"重铸不仅限于已经具有&b词缀&r的物品，可以对任何有效物品进行无限次数的重铸。"
 		""
@@ -7180,21 +7180,21 @@
 	quest.447242EAC91413A9.title: "&a通往&d末地&a的传送门"
 	quest.44882A0B7C12B3F6.title: "&c烈焰金弓"
 	quest.4498E3F4B2DC24FC.quest_desc: [
-		"如果你想制作出终极的&e神化&r模组护甲，那就准备好周游世界大战怪物寻找&b宝石&r吧！"
+		"如果你想制作出终极的&e神化&r装备，那就准备好周游世界大战怪物寻找&b宝石&r吧！"
 		""
-		"&b宝石&r是可以带给有&b词缀&r物品强大加成的水晶。"
+		"&b宝石&r是一种水晶，只要镶嵌在有&b词缀&r的物品上，就能为其带来强大加成。"
 		"{@pagebreak}"
 		"你需要把宝石和物品一起放在&a锻造台&r上，这样才能把&b宝石&r装到物品上。注意，加装宝石的物品必须要有&a镶孔&r才能安装宝石。"
 		""
-		"装宝石的物品种类不同，宝石带来的加成也不同，在&a宝石切割台&r上可以升级宝石。"
+		"装宝石的物品种类不同，宝石带来的加成也不同。在&a宝石切割台&r上可以升级宝石。"
 		""
-		"一件物品只能镶嵌一颗&c特殊宝石&r，别的宝石安装多个可以叠加效果。"
+		"一件物品只能镶嵌一颗&c唯一宝石&r，别的宝石安装多个可以叠加效果。"
 		""
 		"&e神化模组&r的&b宝石&r种类繁多，杀怪或杀boss就能掉。"
 		"{@pagebreak}"
-		"&b宝石&r在铁砧上可以打碎，变为&a宝石粉&r。"
+		"&b宝石&r可以被下落的铁砧砸碎，变为&a宝石粉&r。"
 		""
-		"你可以用&a宝石粉&r做很多东西，不过我估计你现在最想做的应该是&a回收台&r吧！"
+		"你可以用&a宝石粉&r做很多东西，不过你首先要做的是&a回收台&r！"
 	]
 	quest.4498E3F4B2DC24FC.title: "&a宝石&r"
 	quest.449E702C9B877CD3.quest_desc: [
@@ -7331,13 +7331,13 @@
 	quest.4638D7D057A96571.quest_desc: ["&7&oRandomly gain an item to upgrade your basic chests or barrels."]
 	quest.4638D7D057A96571.title: "&a存储升级包"
 	quest.464AED8311A32476.quest_desc: [
-		"在你畅爽游玩&e神化&r模组前，我觉得我应该和你解释一下&b词缀&r是干什么的！"
+		"在深入游玩&e神化&r模组前，我们应当先理解&b词缀&r究竟是什么！"
 		""
-		"&b词缀&r就是&e神化模组&r的最重要属性，&b词缀&r的作用相当于附魔，可以给附有该词缀的物品提供增幅。"
+		"&b词缀&r是&e神化模组&r最重要的部分。每个&b词缀&r的作用都和附魔非常相似，可以给附有该词缀的物品提供增幅。"
 		"{@pagebreak}"
-		"你可以在探索世界的时候找到带有&b词缀&r的物品，词缀的效果由物品的稀有度决定。一般情况下&e神化&rboss会掉这类物品，如果你要找它的话可以去地下洞穴找，有时晚上也可能会随机刷新。"
+		"你可以在探索世界的时候找到带有&b词缀&r的物品，而它们的效果主要由稀有度决定。一般情况下&e神化&rboss会掉这类物品，它们会出现在地底的洞穴，有时也会在晚上随机刷新。"
 		""
-		"&b词条&r的种类不同，不同种类给物品的增幅也不同。词条分类以下：属性、药水效果、耐久和&b 宝石镶嵌槽&r，&b宝石&r章节会对最后一个属性进行介绍。"
+		"&b词缀&r有着不同的种类，一个种类只会影响物品的一个特定部分，比如：属性、药水效果、耐久和&b宝石镶嵌槽数量&r。&b宝石&r章节会对&b宝石镶嵌槽&r进行介绍。"
 	]
 	quest.464AED8311A32476.title: "&f理解&a词缀&f物品"
 	quest.464D4E5932299825.quest_desc: [
@@ -9224,16 +9224,16 @@
 	quest.595F8AC6DB5DACD8.title: "&a你的第一颗&b钻石"
 	quest.597ED5B26C78539D.title: "&dAE2量子环套件"
 	quest.598652FE2E4839AC.quest_desc: [
-		"Is waiting for farm animals to spawn on patches of non-fake grass just too slow for you?"
+		"嫌弃真正的草地自然生成动物太慢？"
 		""
-		"Once you've gotten an eye of ender and a handful of flowers, you can make the &2Gateway of the Emerald Grove&r! Simply use this item on a block with enough walkable space around you to challenge the gateway."
+		"获得末影之眼与花后，便可以制作&2传送门珍珠-绿宝石林之门&r！在拥有充足行走空间的区块使用该物品，即可挑战传送门。"
 		""
-		"You'll need to fight a few waves of &3zombies&r and &aspiders&r, but plenty of basic farm animals will spawn in the area to join your little base afterwards!"
+		"你需要抵御数波&3僵尸&r与&a蜘蛛&r，成功后将有大量农场动物在区域内生成！"
 		""
-		"&7Certain crop materials will also be rewarded for beating each wave."
+		"&7每波胜利还会奖励特定作物材料。"
 	]
-	quest.598652FE2E4839AC.quest_subtitle: "E I E I O"
-	quest.598652FE2E4839AC.title: "&aMore Animals More Now!"
+	quest.598652FE2E4839AC.quest_subtitle: "咿呀咿呀唷~"
+	quest.598652FE2E4839AC.title: "&a现在需要更多的动物！"
 	quest.5994E561F25FAEEC.quest_desc: ["这么多附魔！这还怎么让人附到想要的属性？答案就是&d宝典&r，它可以仅提供某个系列的附魔。"]
 	quest.5994E561F25FAEEC.title: "&f随心调整附魔属性"
 	quest.59968CB3EFFC440D.quest_desc: ["当被激活时，&a位置广播器&r将会把你目前的位置作为标记点广播到其他玩家的&6任意门&r中（需安装玩家传送升级）。"]
@@ -9889,13 +9889,13 @@
 	quest.60C650264AA5525D.title: "&a控制器"
 	quest.60EBD67EDCE669DD.title: "&d五级&f种子"
 	quest.60FDF616DEDE5E73.quest_desc: [
-		"&e神化&r模组将原版的探索与格斗进行了大改，现在它有一种RPG游戏的韵味。"
+		"&e神化&r通过打造类似于RPG游戏的体验，将原版的探索与战斗进行了大改。"
 		""
 		"无论是你在世界中探索得到的物品，还是偶然遭遇的怪物，都有可能带有一个特殊的&b词缀&r。词缀会让带有它的物品/生物更为强大，有时甚至还能带来特殊的能力，让你的探索充满乐趣！"
 		""
-		"如果你拿不定接下来该干什么的话，多翻翻&a阴影编年史&r，那是这个模组的教程。"
+		"如果你不确定接下来该干什么的话，多翻翻&a阴影编年史&r，那是这个模组的教程。"
 	]
-	quest.60FDF616DEDE5E73.title: "&e神话宝石&f！"
+	quest.60FDF616DEDE5E73.title: "&e神化宝石&f！"
 	quest.610400303BEAC642.quest_desc: ["&d智能溜槽&r的功能与其大致基本版本相同，但支持配置物品数量和过滤物品。"]
 	quest.610400303BEAC642.title: "&d智能溜槽"
 	quest.6114934F707E3666.quest_desc: [
@@ -12637,7 +12637,7 @@
 		"{\"text\": \"史诗：玄奥沙\", \"color\": \"#B900B9\"}"
 		"{\"text\": \"神化：神铸珍珠\", \"color\":\"#EA6F14\"}"
 		""
-		"&a回收台&r可以从顶部和侧面自动输入物品并拆解，从底部输出，效率100%！"
+		"&a回收台&r可以从顶部和侧面自动输入物品并拆解，从底部输出。任何材料都不会被遗漏！"
 	]
 	quest.7E685EAD7FB60B45.title: "&a回收台"
 	quest.7E7C206547156447.quest_desc: [
@@ -12657,11 +12657,11 @@
 		""
 		"它有两个用途："
 		""
-		"[\"首先，它可以升级现有的\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"，花费两个\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"升级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的25%。提供的提升程度因\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"而论。\"]"
+		"[\"首先，它可以升级现有的\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"，花费两个\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"使\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"增强25%。提供的提升程度因\", {\"text\": \"词缀种类\", \"color\": \"#55FFFF\"}, \"而异。\"]"
 		"{@pagebreak}"
-		"[\"其次，它可以切换\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"花费一个\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"切换选定的\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"，另一个同类型的替代选项将显示在左侧。\"]"
+		"[\"其次，它可以切换\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"。你可以花费一个\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"切换选定的\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"，另一个同类型的替代选项将显示在左侧。\"]"
 		""
-		"[\"你的\", {\"text\": \"强化台\", \"color\": \"#EA6F14\"}, \"有两个输入槽，上方放你想\", {\"text\": \"强化\", \"color\": \"#FF55FF\"}, \"的物品，它必须是一个\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"物品。下方放\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"用来\", {\"text\": \"强化\", \"color\": \"#FF55FF\"}, \"。\"]"
+		"[\"你的\", {\"text\": \"强化台\", \"color\": \"#EA6F14\"}, \"有两个输入槽，上方放你想\", {\"text\": \"强化\", \"color\": \"#FF55FF\"}, \"的物品——它必须是一个有\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的物品。下方放\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"用来\", {\"text\": \"强化\", \"color\": \"#FF55FF\"}, \"。\"]"
 	]
 	quest.7E88C7654F281E43.title: "{\"text\":\"调整物品\", \"color\":\"#EA6F14\"}"
 	quest.7E909792A1E7CFD1.quest_desc: [
