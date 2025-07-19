@@ -4505,7 +4505,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(cognition:cognitive_helmet)item(cognition:cognitive_chestplate)item(cognition:cognitive_leggings)item(cognition:cognitive_boots))"
-							"minecraft:custom_name": "“认知装备”"
+							"minecraft:custom_name": "“认知盔甲”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
