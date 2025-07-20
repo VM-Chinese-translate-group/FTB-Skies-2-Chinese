@@ -105,15 +105,15 @@
 	quest.0089BFB911BD5E5B.quest_subtitle: "&o“阻止或禁止某些东西的行为”"
 	quest.0089BFB911BD5E5B.title: "&e结界矩阵"
 	quest.00A7C1FE54F86429.quest_desc: [
-		"&e神化模组&r给原版附魔系统做了个大改，现在它有了三个全新的数值，可以进行更高阶的附魔，而且书架也可以升级了。在附魔台面前乱点之前先来看看这三个数值是干啥的吧。"
+		"&e神化模组&r利用三种新属性大改了原版附魔系统，使玩家可以在升级的过程中进行更高阶的附魔。在升级附魔设备的过程中，你需要合理安排这三个属性的数值："
 		""
-		"&a位阶&r：附魔台的力量，它的最大值取决于你的书架等级，可决定附魔的最大等级。"
+		"&a位阶&r：这是附魔台的力量，其最大值取决于你的书架等级。这个属性决定了附魔的最高等级。"
 		""
-		"&c量子化&r：在用强大力量附魔的时候总会被混沌干扰一下，这个数值就显示了你的附魔随机性。"
+		"&c量子化&r：这是进行高阶附魔时自然产生的混沌。这个属性决定了你附魔等级的随机性。"
 		""
-		"&d阿卡纳&r：魔咒的整体质量和数量。稀有魔咒的出现概率就基于该数值，同时数值越高魔咒越多。"
+		"&d阿卡纳&r：这代表着魔咒的整体质量和数量。这个属性决定了魔咒的稀有度，以及单次附魔能够获得的魔咒数量。"
 	]
-	quest.00A7C1FE54F86429.title: "&6附魔，以及附魔背后的秘密"
+	quest.00A7C1FE54F86429.title: "&6附魔的奥秘"
 	quest.00AE6584ACB79B5D.quest_desc: [
 		"&a野根&r是&a野木&r的最后遗物。你可以使用柴堆的&b野根生长&r仪式，恢复它昔日的辉煌。"
 		""
@@ -483,7 +483,7 @@
 		"你可以使用它制作三级护身符——&b力量护身符&r，也可以将其升级为&b传奇护符底座&r。"
 	]
 	quest.04561BBA227DE4D6.title: "&d史诗护符底座（史诗护符基板）"
-	quest.04563030DE224F18.quest_desc: ["&e神化&r模组中，铁砧如果附上了&b耐久&r的话，其耐久就会大幅提升！"]
+	quest.04563030DE224F18.quest_desc: ["&e神化&r模组中，你可以给铁砧附上&b耐久&r，使其使用寿命大幅提升！"]
 	quest.04563030DE224F18.title: "&f给铁砧附魔！"
 	quest.0457FBD64D57E07B.quest_desc: ["你需要&3充能绿宝石水晶块&r来制作&6FTB金字塔所需物品：&d溶解潜能&r。"]
 	quest.0457FBD64D57E07B.title: "&3充能绿宝石水晶"
@@ -662,13 +662,13 @@
 	quest.0603F40C8DB12868.title: "&2低压柴油发电机"
 	quest.060A25320CCAF480.title: "&b电子电路"
 	quest.06666C9D93C1A3EE.quest_desc: [
-		"&a探索者指南针&r可以定位整合包中的任何结构！"
+		"&a结构罗盘&r可以定位整合包中的任何结构！"
 		""
-		"在指南针界面顶部输入你要查找的结构，然后选择它并点击搜索。"
+		"在它的界面顶部输入你要找的结构，然后选择它，点击搜索。"
 		""
-		"然后指南针会指向距离你最近结构的方向，并在屏幕左上角显示距离。"
+		"这样，它就会指向离你最近的该结构，同时屏幕左上方会显示你离它还有多远。"
 	]
-	quest.06666C9D93C1A3EE.title: "&f探险家指南针"
+	quest.06666C9D93C1A3EE.title: "&f结构罗盘"
 	quest.06765AD5169D189D.quest_desc: [
 		"你想过用激光来保护你的基地？如果没有，你还好吗？"
 		""
@@ -1528,7 +1528,7 @@
 		""
 		"将视角悬停在传送门上，按住Shift键并滚动鼠标滚轮，就能预览每一波会来袭的敌人类型。"
 	]
-	quest.0D35D0D33922A201.title: "&f摧毁10座&d永恒之门"
+	quest.0D35D0D33922A201.title: "&f打败十波&d永恒之门"
 	quest.0D4FAFE90506EC1D.quest_desc: ["&d升降机滑轮&r的功能类似于&3绳索滑轮&r，但可以使用&3接触式红石信号发生器&r和&a动态结构控制器&r来分配不同的楼层。"]
 	quest.0D4FAFE90506EC1D.title: "&d升降机滑轮"
 	quest.0D63039E72A4F69A.title: "&b冰霜魔杖"
@@ -1590,15 +1590,15 @@
 	]
 	quest.0DF5D2B35FDEE536.title: "&eXnet&f管理系统"
 	quest.0E06BDC6265EB7F7.quest_desc: [
-		"&3Controllers&r are used to increase the amount of channels a network has. These aren't necessary to use in the early game, especially since you have 32 channels to work with by default. Networks without a &3Controller&r are considered &bAd-Hocs&r."
+		"&3ME控制器&r可以用来增加一个网络中的频道数量，这个东西在游戏初期并不是特别重要的东西，因为你初始网络自带36个频道。但是一个没有&3控制器&r的网络只能&b暂时拿来用用&r。"
 		""
-		"The &3Controller&r is considered the routing hub of your ME network. You cannot have 2 separate &3ME Controllers&r in the same network, but you can build a massive multiblock setup if you need the extra channels."
+		"&3ME控制器&r是你的ME网络路由中心，一个网络内不允许存在两个互相独立的&3ME控制器&r。如果实在需要大量频道的话，你可以选择建造一个巨大的&3ME控制器&r多方块结构。"
 		"{@pagebreak}"
-		"A single &6Controller&r will provide &b128 Channels&r per face with the pack's settings. This makes it where if you add a controller, you will most likely never have to worry about channels."
+		"这个整合包开启了4倍频道设置，所以&6ME控制器&r一个面可以提供&b128个频道&r。只要你愿意堆叠控制器，根本不用担心频道问题。"
 		""
-		"You can find more info and rules for building multiblock controllers in the &eAE2 Guide&r."
+		"你可以在&eAE2&r教程中了解更多多方块控制器的介绍与搭建规则。"
 	]
-	quest.0E06BDC6265EB7F7.title: "&fAdding More &3Channels"
+	quest.0E06BDC6265EB7F7.title: "&f还需要更多&3频道！"
 	quest.0E0B4F549B42AF63.quest_desc: [
 		"&a反应堆燃料棒&r是内部组件，需要从&a反应堆燃料口&r供应&6铀&r或&6钚&r&6丸&r来产生热量。"
 		""
@@ -1783,9 +1783,9 @@
 	quest.0FFC6CBB213B30AD.quest_desc: ["消耗奶与黏液球发电。"]
 	quest.0FFC6CBB213B30AD.title: "&f菌丝网络史莱姆发电机"
 	quest.10143533A2437ABE.quest_desc: [
-		"&aSilicon&r is needed for crafting most of the electronic parts in &eAE2&r, including creating completed &aProcessors&r."
+		"&eAE2&r中大部分的设备材料都要用到&a硅&r，就连做&a处理器&r都要用硅。"
 		""
-		"You'll want to have a dedicated &2Inscriber&r that is automated and pumps out &aPrinted Silicon&r as soon as possible!"
+		"你应该尽快搭建一套自动化&2压印器&r，用它自动化生产&a硅板&r！"
 	]
 	quest.10143533A2437ABE.title: "&a硅"
 	quest.101457F50427E14E.quest_desc: [
@@ -2384,15 +2384,15 @@
 	]
 	quest.169FF5F7AE73CF51.title: "&a铜潜水套装"
 	quest.16B60BCB8240F808.quest_desc: [
-		"Once you've encoded some patterns using the &dPattern Encoding Terminal&r, you can place them into a &aPattern Provider&r. The &aProviders&r will try to complete the craft using whatever block it is attached to."
+		"你可以选择把&dME样板终端&r上编码的样板，都塞进&a样板供应器&r。&a样板供应器&r会试图用周边方块完成样板的合成配方。"
 		""
-		"For doing shaped and shapeless craft recipes that don't require machines, you can place the &aProvider&r next to a &3Molecular Assembler&r, which are just fancy autocrafters!"
+		"如果配方不需要特定机器，则无论有序无序都可以放进&d分子装配室&r，&d分子装配室&r其实就是花哨点的自动合成器！"
 		"{@pagebreak}"
-		"For other autocrafting tasks that require some type of processing, you'd place the &aProvider&r facing the machine you want to craft in."
+		"但假如配方有额外处理需求的话，你可以把&a样板供应器&r直接放在机器边上。"
 		""
-		"For example, you can set up autosmelting for recipes by placing a &2Furnace&r in front of the &aProvider&r, and then encoding the appropriate smelting recipes onto patterns to be placed into the &aProviders&r."
+		"比如：把&2熔炉&r放在&a供应器&r边上，之后只需要把写好的熔炼样板放入&a样板供应器&r即可自动进行熔炼配方。"
 		""
-		"For more information about how to make the &aPattern Providers&r and &3Assemblers&r work faster, check out the AE2 Guide!"
+		"如果想知道怎么让&a样板&r供应器和&3分子装配室&r工作变快，请查阅AE2教程！"
 	]
 	quest.16B60BCB8240F808.quest_subtitle: "它负责告诉自动合成“该干什么”和“把东西放在哪”"
 	quest.16B60BCB8240F808.title: "储存你的样板"
@@ -2428,11 +2428,11 @@
 	quest.16D89D5036F39756.quest_subtitle: "灵灾之始"
 	quest.16D89D5036F39756.title: "&d灵魂石"
 	quest.16E0A9FD1B08D34E.quest_desc: [
-		"&3Concurrent Processors&r are high end processors used to calculate data on a &dquantum&r level."
+		"&3并发处理器&r是一种潜力极高的处理器，它可以以&d量子&r级别的速度处理数据。"
 		""
-		"You'll need &2Entro Crystals&r, lots of power, and &dSingularities&r to begin crafting with these."
+		"你需要&2恩特罗水晶&r、一大堆能量和一个&d奇点&r来合成它。"
 	]
-	quest.16E0A9FD1B08D34E.title: "&fInscriber &3Concurrent Press"
+	quest.16E0A9FD1B08D34E.title: "&f并发&3压印模板"
 	quest.16EAA225AFBF41E6.quest_desc: [
 		"&d蚀空烬质&r可以制备能量密度最高的燃料！"
 		""
@@ -2474,7 +2474,7 @@
 	quest.1739969280BB4E82.quest_subtitle: "传输红石信号"
 	quest.1739969280BB4E82.title: "&f红石导管"
 	quest.17612A3DF8930377.quest_subtitle: "这条项链有点爆炸力。"
-	quest.17612A3DF8930377.title: "&b反弹项链"
+	quest.17612A3DF8930377.title: "&b反射项链"
 	quest.176610923FDE130F.quest_desc: ["你可以通过使用&b掺杂硅板&r来大大提高各种配方的产量！"]
 	quest.176610923FDE130F.title: "&f掺杂硅板"
 	quest.176D9BAC77298ABB.quest_desc: [
@@ -2490,7 +2490,7 @@
 	]
 	quest.1770A460E1FD7CC8.title: "&f设计粒子加速器"
 	quest.1771DF7C6EBF1B89.quest_subtitle: "现在吃紫颂果有了新的意义"
-	quest.1771DF7C6EBF1B89.title: "&d紫颂抑制器"
+	quest.1771DF7C6EBF1B89.title: "&d紫颂果抑制器"
 	quest.17729D2D1F20BF44.quest_desc: [
 		"&a核源铁镐&r比原版铁镐好用多了。"
 		""
@@ -2823,7 +2823,7 @@
 		""
 		"&aME接口&r分为两种形态（标准型和面板型），不同形态的接口，其物品栏的交互面和可提供网络连接的面也各不相同。"
 		"{@pagebreak}"
-		"&aIntefaces&r also have a few special functionalities with other &eAE2&r devices:"
+		"当&aME接口&r与其他&eAE2&r设备联动时，还能实现一些特殊的高级功能："
 		""
 		"将一个&bME存储总线&r贴在&aME接口&r上，整个&aME接口&r所连接的外部存储网络就会被视作一个超大箱子，可以直接被&bME存储总线&r所在的网络访问。"
 		""
@@ -2963,7 +2963,7 @@
 	quest.1C65FB6D312F1287.quest_subtitle: "物品管道"
 	quest.1C65FB6D312F1287.title: "{\"text\": \"基础物流管道\", \"color\": \"#5EFCB6\"}"
 	quest.1C696E4A9A6F90BE.quest_subtitle: "你尚未准备就绪"
-	quest.1C696E4A9A6F90BE.title: "&d暗影之刃"
+	quest.1C696E4A9A6F90BE.title: "&d影子长矛"
 	quest.1C866721E1F2FF50.quest_desc: [
 		"It's like a &aCoal Generator&r that fits into your pocket!"
 		""
@@ -3141,7 +3141,7 @@
 	]
 	quest.1DC3B817C185BBF4.title: "&bImproved EnderIO Conduits"
 	quest.1DC46E0EA2BC83C3.quest_desc: [
-		"和&d拆解宝典&r差不多，但是更好用！"
+		"和&d拆解宝典&r差不多，但是经过灌注后更好用！"
 		""
 		"买一发四哦！"
 	]
@@ -3219,7 +3219,7 @@
 	]
 	quest.1E45E1137B022BA3.title: "&a出击&f时间到！"
 	quest.1E7B5442F153ED3B.quest_subtitle: "猪灵是好朋友"
-	quest.1E7B5442F153ED3B.title: "&e堡垒之戒"
+	quest.1E7B5442F153ED3B.title: "&e堡垒戒指"
 	quest.1E9349AC359E058E.quest_desc: ["&a动力轴承&r可以旋转连接的结构"]
 	quest.1E9349AC359E058E.title: "&a动力轴承"
 	quest.1E95AD23243FEF87.quest_desc: ["现在你就可以制造&e实用拓展&r模组中的最强燃料了。只需简单地把&a充能油菜种子&r丢进&3晶化油&r里，然后你就有&d充能油&r了！"]
@@ -3300,7 +3300,7 @@
 	]
 	quest.1F6FE0AAF690665D.title: "&f通用路由器升级"
 	quest.1F804789D4AD363F.quest_subtitle: "沉船"
-	quest.1F804789D4AD363F.title: "&b溺尸腰带"
+	quest.1F804789D4AD363F.title: "&b溺水腰带"
 	quest.1F88FD3D0365F788.title: "&f核源铁锹"
 	quest.1F8EC3339B8873B9.quest_desc: [
 		"&a经验方尖碑&r是存储经验的最好方式之一，如果与&a真空经验箱&r配合使用，体验更佳。"
@@ -3865,11 +3865,11 @@
 	]
 	quest.253FA29ADE459464.title: "&f熔炼岩石等"
 	quest.2568C81FA7914FE2.quest_desc: [
-		"The &6Quantum Entangler&r will effectively multiply all &bQuantum Storage&r by 4."
+		"&6量子数据纠缠器&r可以将所有&b量子合成存储&r的内存翻四倍。"
 		""
-		"You can only use 1 per multiblock structure."
+		"每个多方块合成器只允许放一个量子计算机。"
 	]
-	quest.2568C81FA7914FE2.title: "&6Quantum Data Entangler"
+	quest.2568C81FA7914FE2.title: "&6量子数据纠缠器"
 	quest.257B0B828021A1E3.quest_desc: [
 		"&b苍穹晶弓&r是一把很好用的远程武器。"
 		""
@@ -3895,7 +3895,7 @@
 		""
 		"你可以用它改进你的赛特斯石英水晶和恩特罗水晶产线，尤其是防止你的无瑕母岩降级。"
 	]
-	quest.25A18CFB6B3E038B.title: "&aCrystal Fixer"
+	quest.25A18CFB6B3E038B.title: "&a水晶修复器"
 	quest.25CDD6087C675F1A.quest_desc: [
 		"&e多级线缆&r模组提供了许多升级版本的面板，越高级的工作速度越快，过滤槽位越多。"
 		""
@@ -4216,7 +4216,7 @@
 	quest.2889A850949BA4A3.title: "&d置物台"
 	quest.28C59127725B1F84.quest_subtitle: "让你免疫冰冻"
 	quest.28C59127725B1F84.title: "&b冰护之戒"
-	quest.28EA66B1EBB05B93.quest_desc: ["这条深暗书架合成路线，以提升&c阿卡那&r为最终目的。"]
+	quest.28EA66B1EBB05B93.quest_desc: ["深暗书架合成路线之一，以提升&c阿卡那&r为最终目的。"]
 	quest.28EA66B1EBB05B93.title: "&b水源&r&f之路"
 	quest.28F2A3355DC53049.quest_desc: [
 		"你可以用&d末影龙&r掉的&b龙鳞&r来制作这本传奇法术书。"
@@ -4764,7 +4764,7 @@
 	quest.2E7EBD2A61897192.quest_desc: [
 		"&d提取宝典&r也会移除所有附魔，但是物品并不会被摧毁。你可以用它随意移除或替换物品的附魔。"
 		""
-		"搭配上&5附魔储备台&r，将工具上的附魔玩弄于股掌之中！"
+		"搭配上&5魔咒图书馆&r，将工具上的附魔玩弄于股掌之中！"
 	]
 	quest.2E7EBD2A61897192.title: "&f热插拔式附魔"
 	quest.2E9C2F524BE5FC10.quest_desc: [
@@ -5186,13 +5186,13 @@
 	quest.325567B88BAFAD0D.quest_subtitle: "来财易物"
 	quest.325567B88BAFAD0D.title: "&f欢迎来到&6FTB商店&f！"
 	quest.325D35004FF683C2.quest_desc: [
-		"The &6Quantum Computer&r will be your ultimate autocrafting multiblock, capable of crafting an unlimited amount of crafting tasks at the same time, as long as it has the crafting storage for it."
+		"&6量子计算机&r是最强大的多方块自动合成器，如果存储条件允许的话，它一次可以执行巨量任务！"
 		""
-		"The &6Quantum Computer Core&r is the core of this multiblock, and acts as &b8 Co-Processors&r and &b256M of storage&r all on its own."
+		"&6量子计算机核心&r是这个多方块的重要组件，它相当于&b八核并行处理器&r，并且内置&b256M&r存储缓存。"
 		""
 		"It can be used for autocrafting by itself, but using it within the &6Quantum Computer&r multiblock will extend its processing power even further."
 	]
-	quest.325D35004FF683C2.title: "&fThe &6Quantum Computer &fCore"
+	quest.325D35004FF683C2.title: "&6量子计算机&d的核心&f部件"
 	quest.3272827DE96C5F64.quest_desc: [
 		"&7末影人护身符&r可以消除末影人被注视时产生的敌意。"
 		""
@@ -6128,7 +6128,7 @@
 		"它有更多的选项和配置，例如可以延长任意门的保持时间，还可以在任意门上安装可选的升级。"
 	]
 	quest.3A43CCB33A024711.title: "&6工作站"
-	quest.3A53BB7A6B708966.quest_desc: ["随着书架中魔法能量越加强大，附魔出的物品也将拥有更多可能性。"]
+	quest.3A53BB7A6B708966.quest_desc: ["灌注魔法能量后，你的书架将带来更多可能性。"]
 	quest.3A53BB7A6B708966.title: "&c灌注下界书架"
 	quest.3A55DAA85874864A.quest_desc: [
 		"&a真空箱子&r能将附近的物品吸进它的内部库存中。"
@@ -6178,7 +6178,7 @@
 	quest.3A6FEA4C08B27D0C.title: "飞行扫帚！"
 	quest.3A7489C33ED56F3B.quest_subtitle: "可合成"
 	quest.3A7489C33ED56F3B.title: "&f初学者法术书"
-	quest.3A7774F5F0FD174E.quest_desc: ["这条深暗书架合成路线，以提升&c量子化&r为最终目的。"]
+	quest.3A7774F5F0FD174E.quest_desc: ["深暗书架合成路线之一，以提升&c量子化&r为最终目的。"]
 	quest.3A7774F5F0FD174E.title: "&c烈焰&r&f之路"
 	quest.3A7ADD7CC06913D7.quest_desc: ["&3可调节链式传动箱&r允许你通过红石信号直接增加/减少网络中特定组件的&bRPM&r。"]
 	quest.3A7ADD7CC06913D7.title: "&3可调节链式传动箱"
@@ -6431,7 +6431,7 @@
 	]
 	quest.3CF48BB941321C47.title: "&f灌装机"
 	quest.3CF6C19B0626B465.quest_subtitle: "传送门。到处都是传送门。"
-	quest.3CF6C19B0626B465.title: "&5空间切割器"
+	quest.3CF6C19B0626B465.title: "&5空间"
 	quest.3D0DC34C36A173F5.quest_desc: [
 		"你现在有了制造&c外骨骼盔甲&r的全部资源！它是一套专门设计用来辅助你冒险的装备，每个都能给你带来独特增益："
 		""
@@ -6941,7 +6941,7 @@
 	]
 	quest.423950ED16C2422B.title: "&b战士力量（战士之力）"
 	quest.423C04D5968C6A2B.quest_subtitle: "更多栏位！"
-	quest.423C04D5968C6A2B.title: "&a皮革腰带"
+	quest.423C04D5968C6A2B.title: "&a皮带"
 	quest.424BFFB9EFAB9565.quest_desc: ["&3电子管&r是一种合成部件，用于在&e机械动力&r中制作一些电子或可以控制的机械装置。"]
 	quest.424BFFB9EFAB9565.title: "&3电子管"
 	quest.42535B4BBB87AC3D.title: "&f钻石精华"
@@ -6954,9 +6954,9 @@
 	]
 	quest.425CB9CE53FBC0FF.title: "&f巫师之镜"
 	quest.427682661459BB4F.quest_desc: [
-		"&c量子化&r给你的附魔等级增添了不确定性。量子化满的时候附魔等级会在+100%和-100%之间随机。"
+		"&c量子化&r给你的附魔等级增添了不确定性。量子化满的时候附魔等级会在+100%和-100%之间随机抽取。"
 		""
-		"&e稳定&r会剔除掉所有负面效果，这样你就只会得到正面效果了。"
+		"&e量子稳定&r会剔除掉所有负面效果，这样你就只会得到正面效果了。"
 	]
 	quest.427682661459BB4F.title: "&e稳定化附魔"
 	quest.427CA606E5B5E7DA.title: "&a256B流体存储元件"
@@ -8104,11 +8104,11 @@
 	]
 	quest.4DE5B826AB6CB2B5.title: "&fJetpacks"
 	quest.4DE5CB7A5A1D717B.quest_desc: [
-		"随着书架中魔法能量越加强大，附魔出的物品也将拥有更多可能性。"
+		"灌注魔法能量后，你的书架将带来更多可能性。"
 		""
 		"注意：如果你主要使用&b海洋书架&r的话，就需要额外的&c量子化&r来源，因为海洋书架不提供量子化属性。"
 		""
-		"提供&c量子化&r的东西包括：僵尸和骷髅头颅，以及凋灵骷髅头。"
+		"提供&c量子化&r的东西包括：僵尸的头和骷髅头颅，以及凋灵骷髅头颅。"
 	]
 	quest.4DE5CB7A5A1D717B.title: "&b灌注海洋书架"
 	quest.4DE6BB4B5C894AF6.quest_desc: [
@@ -9707,7 +9707,7 @@
 	]
 	quest.5F0AAD028931A220.quest_subtitle: "召唤五芒星：级别2"
 	quest.5F0AAD028931A220.title: "&c欧菲克斯的呼唤"
-	quest.5F2E83D75D192FA8.quest_desc: ["&3魔咒线索&r比附魔台里头的银河文字能提供更多信息，它可以让你看见将要附到书/物品上的是什么魔咒。"]
+	quest.5F2E83D75D192FA8.quest_desc: ["&3魔咒线索&r为你的附魔台带来了更多描述，从而让你在附魔前更清楚地知道将要附到书/物品上的是什么魔咒。"]
 	quest.5F2E83D75D192FA8.title: "&c能让你知道自己在附什么魔！"
 	quest.5F5A8762D664CBF0.quest_desc: [
 		"灌注室可以制作一些魔法&b精华&r。"
@@ -10650,7 +10650,7 @@
 	]
 	quest.68262E10A7ECE329.title: "&f吸干流体！"
 	quest.682D4887ED36D3B7.quest_subtitle: "末影人很讨厌这个小把戏"
-	quest.682D4887ED36D3B7.title: "&a末影护手"
+	quest.682D4887ED36D3B7.title: "&a末影之手"
 	quest.684AAE454101D8B7.quest_subtitle: "神圣套装"
 	quest.684AAE454101D8B7.title: "&6牧师套装"
 	quest.6856355966CA2B7F.quest_subtitle: "在催化剂上使用橙色染料"
@@ -11208,7 +11208,7 @@
 	]
 	quest.6FEA088D2D5A3AEF.title: "&d书龙&f，以及魔法存储！"
 	quest.6FEF508F7DDDB261.quest_subtitle: "困难的行走模式"
-	quest.6FEF508F7DDDB261.title: "&c旱冰鞋"
+	quest.6FEF508F7DDDB261.title: "&c滑轮鞋"
 	quest.6FF28198DEFB8014.quest_desc: ["&7&oRandomly gain an Actually Additions Drill Augment."]
 	quest.6FF28198DEFB8014.title: "&a钻头升级奖励包"
 	quest.6FF752712E99A936.quest_desc: ["如果想要合成升级，你得先做&a升级基板&r。"]
@@ -11265,7 +11265,7 @@
 		"如果对末影人使用&a绑定卡&r的话，就会把绑定卡变成&d跨维度绑定卡&r，这样玩家供电仪就可以跨维度工作。"
 	]
 	quest.70C60D8F7C05BDA9.title: "&f泥土精华"
-	quest.70D5BEA5CC437AB6.quest_desc: ["一大堆带附魔的护甲？用&d拆解宝典&r把想要的附魔祛下来！"]
+	quest.70D5BEA5CC437AB6.quest_desc: ["一大堆带附魔的护甲？用&d拆解宝典&r，你就可以将装备拆解并把想要的附魔提取出来。"]
 	quest.70D5BEA5CC437AB6.title: "&f保存附魔"
 	quest.71024D8DC19834AC.quest_desc: [
 		"If you're looking to store your items &bDigitally&r, you'll want to make the &aME Drive&r and some &2Storage Cells&r."
@@ -11373,11 +11373,11 @@
 	]
 	quest.71F17C85D540C559.title: "&a线缆"
 	quest.7206EEA9D5C8393C.quest_desc: [
-		"&a灌注海洋书架&r后有两条分支升级路线。"
+		"获得&a灌注海洋书架&r后，你有两条分支升级路线。"
 		""
-		"最便宜的选择就是&b澄澈的海洋书架&r，不过它的副作用是整体提升&c量子化&r。"
+		"比较廉价的选择是&b澄澈海洋书架&r，不过它的副作用是整体提升&c量子化&r。"
 		""
-		"&d锻心的海洋书架&r比上面那个难做，但是提供更多&a位阶&r和&9阿卡纳&r。"
+		"&d锻心海洋书架&r制作起来相对昂贵，但是会带来更高的&a位阶&r和大量的&9阿卡纳&r。"
 	]
 	quest.7206EEA9D5C8393C.title: "&b升级过的海洋书架"
 	quest.720D8E574EB9D689.quest_desc: [
@@ -11412,7 +11412,7 @@
 	]
 	quest.720D8E574EB9D689.title: "&c伊哈根奴役术使魔"
 	quest.722901B4259D8AEC.quest_desc: [
-		"&c下界书架&r有两条升级路线可选！"
+		"要想升级&c下界书架&r，你有两条路线可选！"
 		""
 		"最便宜的选择就是&e耀光下界书架&r，但它的&a位阶&r属性和&9阿卡纳&r增幅都比较少，而且会提高你的&c量子化&r属性。"
 		""
@@ -11432,7 +11432,7 @@
 		""
 		"也适用于&c诅咒附魔&r！"
 	]
-	quest.7244D5DADCF0D7A2.title: "&b删除附魔！"
+	quest.7244D5DADCF0D7A2.title: "&b滤除附魔！"
 	quest.726891EAC51F5F70.quest_desc: [
 		"你需要从&d凋灵&r身上提取出来的&b以太气体&r，这样才能做出最高级的机器框架。"
 		""
@@ -11787,7 +11787,7 @@
 	quest.74FFB51806FBD287.title: "&b园艺玻璃罩"
 	quest.754048401D3A6A7B.quest_desc: ["该章节涵盖了大部分发电方法。"]
 	quest.754048401D3A6A7B.title: "&f能量与你"
-	quest.7552BF792403EF44.quest_desc: ["每一个&6精湛视界下界书架&r会为你提供2个&3附魔线索&r。"]
+	quest.7552BF792403EF44.quest_desc: ["比起视界下界书架的一个魔咒线索，每一个&6精湛视界下界书架&r会为你提供2个&3魔咒线索&r。"]
 	quest.7552BF792403EF44.title: "&6精湛视界下界书架"
 	quest.755E80CFF2053CF8.quest_desc: [
 		"&6FTB金字塔&r已经接近竣工了，现在就差最后的一个组件：FTB信标。"
@@ -13177,7 +13177,7 @@
 	task.2657647D4CF31BBA.title: "蜡烛"
 	task.268F689AFA620C03.title: "&e击杀&f：&c骷髅"
 	task.27B5B3E2F6360E5F.title: "&e找到建筑&f：&6堡垒"
-	task.27F8AF789DE14145.title: "Any &eAE2 &fProcessor"
+	task.27F8AF789DE14145.title: "任意&eAE2&f处理器"
 	task.27FFF0492348277F.title: "&d生长加速器"
 	task.2863432ECAE88DDF.title: "每个&d三阶维度存储稳定器&r能增加2048000个物品和256个物品种类，最多支持四个&a稳定器&r。"
 	task.28D1CB9AB56D79F2.title: "任意通用机械激光"
@@ -13288,7 +13288,7 @@
 	task.4309B43CD4447705.title: "&bConstruction Sticks&r"
 	task.43333831CA15EA20.title: "&f召唤一个&e被附身的监守者"
 	task.43335047972E4FA8.title: "&e找到建筑&f：&d末地城"
-	task.4335140E412572D8.title: "&f摧毁10座&d永恒之门"
+	task.4335140E412572D8.title: "&f打败十波&d永恒之门"
 	task.43467AECBE710424.title: "Elite Meka Bundle"
 	task.43F12298AA3644E9.title: "升级到铁器"
 	task.4415E9DB78B55B97.title: "&e击杀&f：&a咒翼灵骸"
