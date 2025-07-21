@@ -152,22 +152,22 @@
 		""
 		"更高的等级中，所有维度的难度和奖励将会增加。这些奖励可以在“等级”菜单（“CTRL+T”）中查看。"
 		""
-		"要提升你的&b世界等级&r，你可以默认按“L”来查看&6神化&r的进度。转到带有头颅的选项卡，它可以指导你推动模组进度。"
+		"要提升你的&b世界等级&r，你可以按“L”（默认按键）来查看&6神化&r的进度，然后转到带有头颅的选项卡，它可以指导你推动模组进度。"
 		""
 		"你也可以查看此任务的下一页以查看所有需求的条件。"
 		"{@pagebreak}"
 		"&b世界难度等级&r"
 		""
-		"[\"\", {\"text\": \"保护区\", \"color\": \"#7E7E7E\"}, \" - 获得第一个\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"装备。\"]"
+		"[\"\", {\"text\": \"居所\", \"color\": \"#7E7E7E\"}, \" - 获得第一个\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"装备。\"]"
 		""
-		"[\"\", {\"text\": \"边境\", \"color\": \"#55FF55\"}, \" - 穿上一整套\", {\"text\": \"普通\", \"color\": \"#7E7E7E\"}, \"或更高\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备。\"]"
+		"[\"\", {\"text\": \"边境\", \"color\": \"#55FF55\"}, \" - 穿上一整套\", {\"text\": \"普通\", \"color\": \"#7E7E7E\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备。\"]"
 		""
-		"[\"\", {\"text\": \"半阶\", \"color\": \"#5454FC\"}, \" - 穿上一整套\", {\"text\": \"罕见\", \"color\": \"#55FF55\"}, \"或更高\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀一名\", {\"text\": \"神化\", \"color\": \"#FFAA00\"}, \"Boss怪物。\"]"
+		"[\"\", {\"text\": \"攀升\", \"color\": \"#5454FC\"}, \" - 穿上一整套\", {\"text\": \"罕见\", \"color\": \"#55FF55\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀一名\", {\"text\": \"神化\", \"color\": \"#FFAA00\"}, \"Boss怪物。\"]"
 		"它们可以在小型地下地牢中找到，也可以在夜晚的世界各处发现。"
 		""
-		"[\"\", {\"text\": \"顶峰\", \"color\": \"#B900B9\"}, \" - 穿上一整套\", {\"text\": \"稀有\", \"color\": \"#5454FC\"}, \"或更高\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀凋灵\"]"
+		"[\"\", {\"text\": \"高峰\", \"color\": \"#B900B9\"}, \" - 穿上一整套\", {\"text\": \"稀有\", \"color\": \"#5454FC\"}, \"或更高\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀凋灵\"]"
 		""
-		"[\"\", {\"text\": \"极巅\", \"color\": \"#EA6F14\"}, \" - 穿上一整套\", {\"text\": \"史诗\", \"color\": \"#B900B9\"}, \"或更高\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀末影龙\"]"
+		"[\"\", {\"text\": \"顶点\", \"color\": \"#EA6F14\"}, \" - 穿上一整套\", {\"text\": \"史诗\", \"color\": \"#B900B9\"}, \"或更高\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀末影龙\"]"
 		""
 		"可以在&b世界等级&r菜单（默认为“CTRL+T”）中查看每个等级的变化。"
 	]
@@ -198,7 +198,7 @@
 	quest.0174ACD260158165.quest_subtitle: "传输气体和化学品"
 	quest.0174ACD260158165.title: "&f气体管道"
 	quest.018027C0128159CB.title: "&f盾牌蓝图"
-	quest.018258B166F270D8.title: "&a具现超脱"
+	quest.018258B166F270D8.title: "&a证悟超脱"
 	quest.018B19721F4404FF.quest_desc: ["消耗末影珍珠或末影之眼发电。"]
 	quest.018B19721F4404FF.title: "&f菌丝网络末影发电机"
 	quest.019C7CBC9B62C803.quest_desc: [
@@ -1698,7 +1698,7 @@
 		"你也可以把写入法术书的法术再取回来。只要先选择一个法术，随后在右侧的槽位单击其法术卷轴即可将其取出。"
 	]
 	quest.0EE0A8941A69703E.title: "&a抄写法术"
-	quest.0EE35D6E57FAD973.quest_desc: ["这是搭建附魔台的最佳物品，它可以储存附魔书，还能选择附魔书！"]
+	quest.0EE35D6E57FAD973.quest_desc: ["这是搭建附魔设备的最佳物品，它可以储存附魔书，还使你能自主取出附魔书！"]
 	quest.0EE35D6E57FAD973.quest_subtitle: "储存魔法！"
 	quest.0EE35D6E57FAD973.title: "&d魔咒图书馆"
 	quest.0EFA11536D00E653.quest_desc: [
@@ -2121,7 +2121,7 @@
 		"To put this circle back down, simply right click the inscribed Talisman on the ground in a properly cleared area."
 		""
 		""
-		"……&a扫帚&r是用来做什么的？用来利索地扫掉画错地方的符文的，显然如此，没别的用处了……"
+		"……&a扫帚&r是用来做什么的？用来利索地扫掉画错地方的符形的，显然如此，没别的用处了……"
 	]
 	quest.1385135551DA36AB.title: "圆环魔法"
 	quest.138CB008CE4C838B.quest_desc: [
@@ -2975,9 +2975,9 @@
 	quest.1C8A5F2BD1C17A3E.quest_desc: [
 		"&a认知装备&r比起它的原材料——铁套，有着更多的优点。"
 		""
-		"除了增加触及距离外，&a认知工具&r还提供与&3钻石&r相同的攻击值和挖掘速度，但是没有那么多的耐久度或挖掘等级。"
+		"除了增加触及距离外，&a认知工具&r还提供与&3钻石&r相同的攻击值和挖掘速度，但是没有那么高的耐久度及挖掘等级。"
 		""
-		"一套&e认知护甲&r只比铁套多提供3点护甲值，但每一件都附带一点盔甲韧性，每件增加半格的触及距离。"
+		"一套&e认知护甲&r只比铁套多提供3点护甲值，但每一件都附带一点盔甲韧性，每件还会增加半格的触及距离。"
 	]
 	quest.1C8A5F2BD1C17A3E.title: "&f认知装备"
 	quest.1C9A469C85F3425F.quest_desc: [
@@ -4073,14 +4073,14 @@
 	]
 	quest.26EA309139C7C27E.title: "&a熔炉"
 	quest.26ECC091E6B3FA57.quest_desc: [
-		"&d蔚蓝银矿&r可以在末地获得。"
+		"&d蔚蓝银矿&r可以通过蜜蜂获得。"
 		""
-		"这种矿物的挖掘等级为下界合金，一般作用是&d制造蔚蓝琥珀金锭&r。"
+		"这种矿物的挖掘等级为下界合金，一般是用来制造&d蔚蓝琥珀金锭&r。"
 	]
 	quest.26ECC091E6B3FA57.title: "&d末地&r&f金属"
 	quest.26EDB26B9D3431D8.quest_desc: ["把&c发酵矿石肉汤&r和沙子组合，就可以获得可处理的矿粉。"]
 	quest.26EDB26B9D3431D8.title: "&d流体筛分机"
-	quest.26F18323EB6EFCA0.quest_desc: ["&bSnad&r blocks allow you to create farms of Cactus or Sugarcane easily. These can also be given a redstone signal to increase the growth rate of the crop."]
+	quest.26F18323EB6EFCA0.quest_desc: ["&b子沙&r方块很适合用来造仙人掌或者甘蔗农场。给它输入红石信号还可以提高作物的生长速率。"]
 	quest.26F18323EB6EFCA0.title: "&f子 沙"
 	quest.270A67B9066C195D.quest_desc: ["&7&oChoose one Matter tank filled with 64k Matter of a specific type."]
 	quest.270A67B9066C195D.title: "&b物质罐（64k物质）"
@@ -4168,7 +4168,7 @@
 	quest.282953A521BACF41.quest_desc: [
 		"&a银&r是一种难以寻觅的珍贵资源，你可能需要借助通用矿石生成器来获取一些。"
 		""
-		"坊间流传着有些奇特的方法，比如通过某种&d灵力（spiritual power）&r转化黄金，或者用&6粘液（goo）&r转化铝……"
+		"坊间流传着有些奇特的方法，比如通过某种&d灵力（spiritual power）&r转化黄金，或者用&6凝胶（goo）&r转化铝……"
 	]
 	quest.282953A521BACF41.quest_subtitle: "将熔融银倒在催化剂上，或者……"
 	quest.282953A521BACF41.title: "&f银矿晶母岩"
@@ -4429,7 +4429,7 @@
 	]
 	quest.2B02D9425E19F560.title: "&f发现了Bug？"
 	quest.2B0CFC423CE66AAE.quest_desc: [
-		"If you hold a &aHoe&r in either hand and spam crouch, you can speed up the growth of nearby crops!"
+		"手持&a锄头&r不停蹲起可以加速周围作物的生长！"
 		""
 		"While this doesn't work on crops from &eMystical Agriculture&r, it does work on &bBudding Certus Quartz&r!"
 	]
@@ -4521,14 +4521,14 @@
 	]
 	quest.2C0C63951FDED180.title: "&d粒子加速器"
 	quest.2C1649AE3DADD71D.quest_desc: [
-		"&eConstruction Sticks&r is a mod all about making the building process much faster."
+		"&e建筑棒&r是一个旨在加快建筑过程的模组。"
 		""
 		"While holding a &eConstruction Stick&r in your hand, you can extend blocks in any direction with just one click!"
 		""
 		"There are also some cool upgrades that you can add to the &eSticks&r, like making it use power instead of durability."
 	]
-	quest.2C1649AE3DADD71D.quest_subtitle: "Construction Sticks"
-	quest.2C1649AE3DADD71D.title: "&bFaster Building"
+	quest.2C1649AE3DADD71D.quest_subtitle: "建筑棒"
+	quest.2C1649AE3DADD71D.title: "&b更快地建造"
 	quest.2C32209F81B64294.quest_desc: [
 		"Why mine with a pickaxe when you can mine with a LASER!"
 		""
@@ -6191,7 +6191,7 @@
 	]
 	quest.3A91BB6A673C0D83.title: "&a多方块采石场&r"
 	quest.3AB6083CCDD1B74A.quest_desc: [
-		"对原版坩埚使用受魔之膏以获得&a巫师坩埚&r，坩埚下方需要热源才适合炼药，确保其下有&e营火&r或类似的热源。"
+		"对原版坩埚使用受魔之膏以获得&a巫师坩埚&r，坩埚下方需要热源才能炼药，确保其下有&e营火&r或类似的热源。"
 		"用水桶将水倒入其中，水会被烧开。"
 		""
 		"材料需要按照配方&e指定的顺序&r扔进坩埚，粒子停止旋转后，右击以取出炼药成品。"
@@ -7376,7 +7376,7 @@
 		""
 		"你将需要非常多的电路板！"
 	]
-	quest.4699D9C4E03C844B.title: "&a我们无法拒绝这个"
+	quest.4699D9C4E03C844B.title: "&a我们无法反抗这个"
 	quest.469C88B6CEC1F9E7.quest_desc: [
 		"&2认知&r模组扩展了&2经验&r的用途、存储手段和生产方式。"
 		""
@@ -8412,9 +8412,9 @@
 	quest.50CDEB1051A8B5E1.title: "&d虚炎燃料"
 	quest.50DDF29161948476.title: "&f三叉戟蓝图"
 	quest.50DF3CDEE3B111CE.quest_desc: [
-		"在&eMI&r这个模组中，&3化学反应釜&r将会是极其重要的机器！"
+		"在&e现代工业化&r这个模组中，&3化学反应釜&r将会是极其重要的机器！"
 		""
-		"这台机器用于利用&b化学反应&r将某些化学物质或物品融合在一起，可用于制造许多新物品和化学物质。"
+		"这台机器通过&b化学反应&r将某些化学物质或物品融合在一起，可用于制造许多新物品和化学物质。"
 	]
 	quest.50DF3CDEE3B111CE.title: "&3化学反应釜"
 	quest.50E0C5ECFB5B02E1.quest_desc: [
@@ -8491,7 +8491,7 @@
 	quest.51C1EC5807B5D672.quest_desc: [
 		"现在，你已经有了&7锰粉&r和&c铬粉&r，接下来你可以在搅拌机中将这两种粉与一些铁粉和镍粉混合，制造出&d不锈钢粉&r。"
 		""
-		"我们需要它来制造更高级的电路板，以及制造更坚固的金属来升级我们的&3高炉&r！"
+		"我们需要它来制造更高级的电路板，以及制造更坚固的金属来升级我们的&3高炉&r。"
 	]
 	quest.51C1EC5807B5D672.title: "&d不锈钢锭粉"
 	quest.51D07B8762C46982.quest_desc: [
@@ -8505,7 +8505,7 @@
 	quest.51D242BB3BA2BE40.title: "&d高压蒸汽涡轮机"
 	quest.51DE4859912D1EB6.title: "&e第三层"
 	quest.51DFB5D58190EEEF.quest_desc: [
-		"&c铀-235&r是&6铀&r的罕见同位素，至于&2铀-238&r只是随地可见的东西而已。"
+		"&c铀-235&r是&6铀&r的罕见同位素，至于&2铀-238&r，它是更常见的同位素。"
 		""
 		"当处理配方中使用了&6铀-235的燃料棒&r时，你能取回用于制造它的2/3原料，这意味着你需要不断离心&6铀&r才能得到更多铀-235。"
 		""
@@ -8515,13 +8515,13 @@
 	quest.51F16AF1F497F05E.quest_desc: ["&a石磨&r是一种游戏早期的研磨机，可将某些物品/方块研磨成粉尘或其他粉碎后的副产品。"]
 	quest.51F16AF1F497F05E.title: "&a石磨"
 	quest.51F2FC13FA7C3A89.quest_desc: [
-		"在你有制造铁锭的能力后，是时候做一个&e锻压台&r了！它可以让你粉碎任何矿石，甚至可以将锭加工成板，环，杆等形状。"
+		"在你有制造铁锭的能力后，是时候做一个&e锻压锤&r了！它可以让你粉碎任何矿石，甚至可以将锭加工成板，环，杆等形状。"
 		""
 		"虽然这做起来很简单，但如果考虑到锤子的制造成本的话，这种材料处理方式效率会很低。"
 		""
 		"你应该尽快发展到能使用&2蒸汽研磨机&r，这样处理材料这一方面你就可以解放双手了。"
 		""
-		"&e注意&r：前期你可以选择把原木做成锯末，用锯末制作纸箱……前期纸箱用处多多！"
+		"&e注意&r：前期你可以选择把原木做成锯末，用锯末制作纸箱……前期纸箱用处很多！"
 	]
 	quest.51F2FC13FA7C3A89.title: "&e现代工业化&f的开端"
 	quest.51F533A916576279.quest_desc: [
@@ -8656,7 +8656,7 @@
 	quest.53EEF2EC6314E8F2.title: "&b强化合金"
 	quest.53FBBFC675F1FE7F.quest_desc: ["与普通的&a时间量子单元&r相比，&d时间量子电池&r可以存储更多的&b时间量子&r，而且它还是参与更高级合成的原材料。"]
 	quest.53FBBFC675F1FE7F.title: "&d时间量子电池"
-	quest.54016A2A0FAB6B4B.quest_desc: ["大型电动机既是一种制作原料，也是一种加快物品管道速度的方法。与&eMI&r中的大多数子组件一样，你需要一个生产线。"]
+	quest.54016A2A0FAB6B4B.quest_desc: ["大型电动机既是一种制作原料，也是一种加快物品管道速度的方法。与&e现代工业化&r中的大多数部件一样，需要一个生产线。"]
 	quest.54016A2A0FAB6B4B.title: "&f大型电动机"
 	quest.5406259BD0946709.title: "&a犰狳召唤"
 	quest.5407B3A9D7544F43.quest_desc: [
@@ -9001,9 +9001,9 @@
 	quest.5777FBF5D06D2F8E.quest_desc: [
 		"自定义戒指需要用&a戒指蓝图&r制造。"
 		""
-		"合成一个戒指部件需要&b2种主材料&r。"
+		"合成一个戒指部件需要&b2个主要材料&r。"
 		""
-		"完成戒指的制作，需要用&a宝石匠具&r把你要添加&6宝石&r制作成部件然后合在一起！"
+		"要想完成戒指的制作，你需要把&a宝石匠具&r、戒指部件和你想添加的&6宝石&r合成在一起！"
 	]
 	quest.5777FBF5D06D2F8E.title: "&f戒指蓝图"
 	quest.5778BAEC8F095B3D.quest_desc: [
@@ -9175,7 +9175,7 @@
 	quest.58F29A199D553D29.quest_desc: [
 		"&3柴油发电机&r可通过燃烧&e柴油&r等燃料产生能量。"
 		""
-		"与&2锅炉&r不同的是，它们只在产能时消耗燃料。所以如果你不需要一直使用最大效率产能的话，它用起来会很方便。"
+		"与&2锅炉&r不同的是，它们只在产能时消耗燃料。所以如果你不需要一直保持最大效率产能的话，它用起来会很方便。"
 		""
 		"记住，如果你想的话，&e柴油&r也可以作为&2锅炉&r燃料！"
 	]
@@ -9234,7 +9234,7 @@
 	]
 	quest.598652FE2E4839AC.quest_subtitle: "咿呀咿呀唷~"
 	quest.598652FE2E4839AC.title: "&a现在需要更多的动物！"
-	quest.5994E561F25FAEEC.quest_desc: ["有这么多附魔，很难得到你想要的。所以，你可以用&d宝典&r来代替书，它只支持某一类的附魔。"]
+	quest.5994E561F25FAEEC.quest_desc: ["有这么多附魔，你很难得到你想要的。所以，你可以通过制作&d宝典&r来代替书，它只支持某一类的附魔。"]
 	quest.5994E561F25FAEEC.title: "&f随心调整附魔属性"
 	quest.59968CB3EFFC440D.quest_desc: ["当被激活时，&a位置广播器&r将会把你目前的位置作为标记点广播到其他玩家的&6任意门&r中（需安装玩家传送升级）。"]
 	quest.59968CB3EFFC440D.title: "&a位置广播器"
@@ -9276,11 +9276,11 @@
 	]
 	quest.5A57DB728220261F.title: "&2农艺魔源通道"
 	quest.5A5D6A90C0999828.quest_desc: [
-		"&3进阶机器外壳&r用于制造各种&3中压机器&r，标志着我们进入了&3中压阶段&r。"
+		"&3进阶机器外壳&r用于制造各种&3中压机器&r，标志着我们进入了&3中压阶段&r，它也可以用于制作&3中压&r机器。"
 		""
 		"你可以给现有的&2低压&r机器的升级槽插入进阶机器外壳来使其可以接受中压电并处理&3中压&r配方。"
 		""
-		"哦，你就没想过你得把每个等级的所有新机器全部都做出来？"
+		"你不认为你必须在每一层都建造所有新机器，是吗？"
 	]
 	quest.5A5D6A90C0999828.title: "&3进阶机器框架"
 	quest.5A7D39C555A4D031.title: "&bSturdy Bee Cage"
@@ -9373,13 +9373,13 @@
 	]
 	quest.5B9E15BA5FDF0F24.title: "&f生物反应器"
 	quest.5BA74A759CC43BBB.quest_desc: [
-		"&eMI&r每级都有几种不同的电缆。"
+		"&e现代工业化&r每级都有几种不同的电缆。"
 		""
-		"例如，对于 &2LV&r，有&a铜&r、&7银&r和&2锡&r电缆，它们可以传输相同数量的电力而不会造成电力损失。"
+		"例如，对于&2低压&r阶段，有&a铜&r、&7银&r和&2锡&r电缆，它们可以传输相同数量的电力而不会造成电力损失。"
 		""
 		"使用不同类别的线缆的原因是线缆不会和其他类别相连，你可以在一格空间内放置多种线缆（最大为3）以便于接线。"
 	]
-	quest.5BA74A759CC43BBB.title: "&eMI&a电缆"
+	quest.5BA74A759CC43BBB.title: "&e现代工业化&a电缆"
 	quest.5BAC67D69E4CEBFD.quest_desc: ["这是该模组的初始能源线缆，可以提供&a低压电&r下的256EU/t传输速率。"]
 	quest.5BAC67D69E4CEBFD.quest_subtitle: "传输基础能量"
 	quest.5BAC67D69E4CEBFD.title: "&fMI基础电缆"
@@ -9454,7 +9454,7 @@
 		"所有列车都需要至少一个这样的部件才能运行。"
 	]
 	quest.5C7494C886570E80.title: "&6列车驾驶台"
-	quest.5C825FB7E9A2F962.title: "&a空灵精华"
+	quest.5C825FB7E9A2F962.title: "&a灵蕴精华"
 	quest.5CA5F9BE51C24FC8.title: "&f红石卡"
 	quest.5CAC010680313D6B.quest_desc: [
 		"&a核源铁锄&r可以耕出&a原初浆壤&r！"
@@ -9507,7 +9507,7 @@
 		""
 		"[\"你现在还能用\", {\"text\": \"通用机械\", \"color\": \"yellow\"}, {\"text\": \"终极控制电路\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19874DF48B8B2A75\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往终极控制电路任务\"}}, \"凑数，但超出这级，你就需要使用 \", {\"text\": \"MI\", \"color\": \"yellow\"}, \"的东西了。\"]"
 	]
-	quest.5D0742E56290E42B.title: "&3我们正在抵制这一点"
+	quest.5D0742E56290E42B.title: "&3我们正在反抗这个"
 	quest.5D2D114B66DE61EE.quest_desc: [
 		"无论是洗碗还是搞核电，&a厨房水槽&r都能提供便捷的无限水来源。"
 		""
@@ -9589,7 +9589,7 @@
 	]
 	quest.5D9EAE2A6D2B6646.title: "&6粉碎工厂"
 	quest.5DA25070A4A1CF4E.title: "&a溶解潜能"
-	quest.5DB30D6FE7046A35.title: "&f附魔宝典"
+	quest.5DB30D6FE7046A35.title: "&f射手宝典"
 	quest.5DD4E634673638F8.quest_desc: [
 		"当你手持&a吹叶器&r长按鼠标右键时，它就会自动把周围的高草丛或花吹走。"
 		""
@@ -10280,9 +10280,9 @@
 	quest.6457ADA81A371B20.quest_desc: [
 		"&d增压器&r是一种特殊的多方块机器，可以将水或蒸汽加压成&b高压&r状态，供&d高压大型蒸汽锅炉&r使用。"
 		""
-		"在&d增压器&r上的可选物品输入仓中放置一个&2进气口&r后，&d增压器&r就可以生产出&7液态空气&r！"
+		"在&d增压器&r上的可选物品输入仓中放置一个&2进气口&r后，&d增压器&r就可以生产出&7液态空气&r。"
 		"{@pagebreak}"
-		"与大多数其他多方块机器不同的是：这台机器的结构是十字形，如下图所示。"
+		"与大多数其他多方块机器不同的是，这台机器的结构是十字形，如下图所示。"
 		""
 		"{image:ftb:textures/quests/modern_industrialization/pressurizer.png width:100 height:150 align:center}"
 	]
@@ -10332,9 +10332,9 @@
 	]
 	quest.64BAFDA004F32960.title: "&2DNA解码器"
 	quest.64D40EF526B53632.quest_desc: [
-		"把&6铀-235&r 和&6铀-238&r混合起来，你就得到了&2高能铀粉&r。"
+		"把&6铀-235&r和&6铀-238&r混合起来，你就得到了&2高能铀粉&r。"
 		""
-		"这些粉末可以进一步制造为&2高能铀燃料棒&r，效率加强！"
+		"这些粉末可以进一步制造为&2高能铀燃料棒&r，效率更强！"
 	]
 	quest.64D40EF526B53632.title: "&6高能铀燃料棒"
 	quest.64E245516C2A857A.quest_desc: [
@@ -10347,7 +10347,7 @@
 	quest.64E245516C2A857A.title: "&f燃料罐"
 	quest.64E34B2DA32D3586.quest_desc: ["本&b章节&r将会主要介绍如何传输物品、能量、流体和其他东西！"]
 	quest.64E34B2DA32D3586.title: "&f通用物流"
-	quest.6507BA74DED764C1.quest_desc: ["&5氘（重氢）&r是&6反应堆&r中&9水&r被&6快中子&r轰击时的副产物，可以用来生产&9重水&r。"]
+	quest.6507BA74DED764C1.quest_desc: ["&5氘&r是&6反应堆&r中&9水&r被&6快中子&r轰击时的副产物，可以用来生产&9重水&r。"]
 	quest.6507BA74DED764C1.title: "&5氘"
 	quest.652650C157E16712.quest_desc: ["&b精魂&r的作用之一是制作装备。将精魂注入布料，你就能得到包含精魂力量的优秀装备材料。"]
 	quest.6541D2082B84F2BB.quest_desc: [
@@ -10358,7 +10358,7 @@
 	quest.6541D2082B84F2BB.title: "&a植物收割机"
 	quest.65523A9928B0AF3E.quest_desc: ["&a泪石戒指&r能激活&2宝石的&b免疫效果&r能力。"]
 	quest.65523A9928B0AF3E.title: "&f泪石戒指"
-	quest.6587B145151746EC.quest_desc: ["&e蒸馏塔&r解锁了许多新产物，&a石膏&r和&a女神之泪&r是推动进度的关键材料，在&b圆环魔法&r中会用到。"]
+	quest.6587B145151746EC.quest_desc: ["&e蒸馏塔&r解锁了许多新产物的配方，&a石膏&r和&a女神之泪&r是推动进度的关键材料，在&b圆环魔法&r中会用到。"]
 	quest.6587B145151746EC.title: "蒸馏塔产物"
 	quest.65A18B0DA64B7A42.quest_desc: [
 		"&6沉浸工程&r中，物品通过不同种类的&a传送带&r进行运输。"
@@ -10706,9 +10706,9 @@
 	]
 	quest.68C3F238B65BD483.title: "&d风暴护符（雷暴护身符）"
 	quest.68F600EFC7166908.quest_desc: [
-		"&6超导体锭&r用来制造最高等级的电缆，这些高级线缆的能源传输能力大的吓人！（&d1.024G EU/t&r）同时，后期科技配方也会需要这种锭。【注：1.024吉瓦=10.24亿瓦】"
+		"&6超导体锭&r用来制造最高等级的电缆，这些高级线缆的能源传输能力十分强大（&d1.024GEU/t&r）。同时，后期科技的配方也会需要它。"
 		""
-		"想要制作这种锭，你需要先把：&7铱粉&r，&a退火铜粉&r，&3钇粉&r以及&2钕粉&r放进&3搅拌机&r，这样就可以制造出&6超导体粉&r，之后把它放在&3电力高炉&r里烧就是&c热锭&r形态了。"
+		"想要制作这种锭，你需要先把：&7铱粉&r，&a退火铜粉&r，&3钇粉&r以及&2钕粉&r放进&3搅拌机&r，这样就可以制造出&6超导体粉&r，之后把它放入&3电力高炉&r里烧就是&c热锭&r形态了。"
 		""
 		"用&3真空冷冻机&r或&3热交换器&r将热锭冷却，就能得到&6超导体锭&r！"
 	]
@@ -10767,7 +10767,7 @@
 	quest.6A18A087EA934C46.quest_desc: [
 		"你要制作的第一个合金是&a青铜&r。有几种方法可以做到这一点，包括在&e强化玻璃罐&r中混合粉末。"
 		""
-		"这个合金非常非常重要，你有了它就可以开启&bMI的青铜时代&r了！"
+		"这个合金非常非常重要，你有了它就可以开启&b现代工业化青铜时代&r了！"
 	]
 	quest.6A18A087EA934C46.title: "&f青铜锭"
 	quest.6A1CD115285158D3.quest_desc: ["&a哞菇护身符&r站在菌丝体上时，增加玩家的生命再生速度。"]
@@ -10781,7 +10781,7 @@
 		""
 		"[\"如果你希望涉足\", {\"text\": \"石油化工产品\", \"color\": \"dark_green\"}, \" 和可持续的\", {\"text\": \"柴油燃料\", \"color\": \"dark_green\"}, \"，尽快着手建造一个\", {\"text\": \"石油钻机\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71D274A5F226DAEC\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往石油钻机任务\"}}, \"是很值得，这样就可以使用铝钻头来钻取有毒的混合物。\"]"
 		""
-		"&7&o请记住，此包中不会消耗钻头。"
+		"&7&o请记住，本包中不会消耗钻头。"
 	]
 	quest.6A22BBE9C146E910.title: "&3电动采石场"
 	quest.6A346516646A3890.quest_desc: [
@@ -10818,7 +10818,7 @@
 		""
 		"&e中子散射&r：轰击目标的&6中子&r有概率被反射进别的格子，反射路径是随机的。而该&6中子&r将会随机成为&d快中子&r或&d热中子&r，具体概率可以查阅JEI。"
 		"{@pagebreak}"
-		"&e中子穿透&r：如一个向外发射的&6中子&r既未被散射也未轰击目标，则它会保留发射路线并“穿过”该组件。而如果&6中子&r发射进了一个未被占用的地方（比如任何非组件的地方），它就会消失。"
+		"&e中子穿透&r：如一个向外发射的&6中子&r既未被散射也未轰击目标，则它会保留发射路线并穿过该组件。而如果&6中子&r发射进了一个未被占用的地方（任何非组件的地方），它就会消失。"
 		""
 		"&e温度&r：当&d热中子&r被吸收后，组件就会升温。"
 		""
@@ -10927,7 +10927,7 @@
 		""
 		"你需要离心&a绿宝石&r才能得到&2铍&r，而先前处理&3莫桑石&r时你应该已经搞到一些&e镉&r了。"
 		""
-		"做出&6混合核合金板&r后，要把它们放进&3内爆压缩机&r炸一下才能变为&6核合金板&r，一座反应堆将会需要成吨的核合金板，你最好建一条生产线。"
+		"做出&6混合核合金板&r后，要把它们放进&3内爆压缩机&r炸一下才能变为&6核合金板&r，一座反应堆将会需要大量的核合金板，你最好建一条生产线。"
 	]
 	quest.6BD4E9B7B2C99C27.title: "&6核合金板"
 	quest.6BD6FF86A05A7314.quest_desc: [
@@ -11097,9 +11097,9 @@
 	quest.6EF660B54A169591.quest_subtitle: "引爆钨粉与催化剂"
 	quest.6EF660B54A169591.title: "&f钨矿晶母岩"
 	quest.6F06B178DDBCAC38.quest_desc: [
-		"我们的下一步涉及到一些化学知识！"
+		"我们的下一步涉及一些化学知识！"
 		""
-		"你可以通过电解盐提取&e氯&r。这是一种十分基础的化学物质，你需要它来发展科技！"
+		"你可以通过电解盐提取&e氯&r。这是一种十分基础的化学物质，你需要它来发展科技。"
 	]
 	quest.6F06B178DDBCAC38.title: "&e氯"
 	quest.6F0C07BA71E2325D.quest_desc: ["&c巨灵碎矿者&r的功能与其他所有的&b碎矿者&r相同，但它的产出量是三倍。"]
@@ -11483,11 +11483,11 @@
 	]
 	quest.729119C5F9501F72.title: "&f手镯蓝图"
 	quest.7297DFC4797D2FB9.quest_desc: [
-		"&6聚变反应堆&r是一座&l硕大无比&r的多方块结构，它可以将输入的两种流体变为&5等离子体&r，等离子对于发电来说十分适合。"
+		"&6聚变反应堆&r是一座&l硕大无比&r的多方块结构，它可以将输入的两种流体变为&5等离子体&r，等离子体十分适合用来发电。"
 		""
-		"你需要这些来制备&5氦等离子体&r。"
+		"我们需要这些来制备&5氦等离子体&r。"
 	]
-	quest.7297DFC4797D2FB9.title: "&fMI&5聚变反应堆"
+	quest.7297DFC4797D2FB9.title: "&5聚变反应堆"
 	quest.729DF05C1D2AE6E7.quest_desc: [
 		"&aReaders&r access a block's information by reading its data, and &aWriters&r output information to a block based on a variable."
 		""
@@ -11497,9 +11497,9 @@
 	]
 	quest.729DF05C1D2AE6E7.title: "&fReaders \\&\\ Writers"
 	quest.72A00FD887707E9D.quest_desc: [
-		"现在你可以制作电路板了，将你的&2大型青铜锅炉&r升级会是非常值得的。它们产生的蒸汽量是原来的四倍！"
+		"将你的&2大型青铜锅炉&r升级是非常值得的，现在你可以制作电路板了。"
 		""
-		"你的&7Steam&r生产提升为&b4倍&r。"
+		"你的&7蒸汽&r生产提升到原来的&b4倍&r。"
 	]
 	quest.72A00FD887707E9D.title: "&3进阶大型蒸汽锅炉"
 	quest.72AB47828922F73A.quest_desc: [
@@ -11637,7 +11637,7 @@
 	quest.7380416E70BEAD65.title: "&a亚麻种子"
 	quest.73846333D68F6339.title: "&f马铃薯农场"
 	quest.738BF8D6430694F4.quest_desc: [
-		"在&2电力高炉&r中将&d粗钛矿&r与&e硫酸锰溶液&r一起高温焙烧，以得到&c钛热锭&r。"
+		"在&2电力高炉&r中将&d粗钛矿&r与&e硫酸锰溶液&r一起高温烧炼，以得到&c钛热锭&r。"
 		""
 		"用&3真空冷冻机将&r热锭冷却，就能得到&d钛锭&r！"
 	]
@@ -11657,7 +11657,7 @@
 	quest.73B45ED40DC41735.quest_desc: ["&3金自动合成仓&r有45个&a样板&r槽位，基础工作速度相当于满速度升级的&2铁自动合成仓&r。"]
 	quest.73B45ED40DC41735.title: "&3金自动合成仓"
 	quest.73C915668B467F71.quest_desc: [
-		"到目前为止，&3莫桑石&r除了提取&2钕&r以外基本没用。"
+		"到目前为止，&3莫桑石&r除了提取&2钕&r以外用处不大。"
 		""
 		"为了制造最先进最高级的超导合金，你需要从中提取所需的&9钇&r和&e镉&r。"
 	]
@@ -11706,7 +11706,7 @@
 		"与之前的产量升级不同，你现在不需要再安装升级：模拟了，安装另一个升级吧！"
 	]
 	quest.73F82078E2BC4DA5.title: "&e升级：&f产量γ"
-	quest.740A857076EAC1BC.quest_desc: ["现在你可以使用&d不锈钢&r和&e聚乙烯&r作为材料，用它们制造的&d数字电路板&r会让你的电路板工艺更上一层楼！"]
+	quest.740A857076EAC1BC.quest_desc: ["现在你可以使用&d不锈钢&r和&e聚乙烯&r作为材料，用它们制造的&d数字电路板&r会让你的电路板工艺更进一步！"]
 	quest.740A857076EAC1BC.title: "&d数字电路板"
 	quest.740DA65D6FB1F0EC.quest_desc: ["&a魂金&r是一种被注入灵魂的特殊合金，能用来做一些游戏后期的机器，比如&d灵魂绑定器&r和&a头颅装配机&r。"]
 	quest.740DA65D6FB1F0EC.title: "&f魂金锭"
@@ -11825,14 +11825,14 @@
 	quest.75C7413F93325A3B.quest_desc: [
 		"&a银&r是一种难以寻觅的珍贵资源，你可能需要借助通用矿石生成器来获取一些。"
 		""
-		"坊间流传着有些奇特的方法，比如通过某种&d灵力（spiritual power）&r转化黄金，或者用&6粘液（goo）&r转化铝……"
+		"坊间流传着有些奇特的方法，比如通过某种&d灵力（spiritual power）&r转化黄金，或者用&6凝胶（goo）&r转化铝……"
 	]
 	quest.75C7413F93325A3B.quest_subtitle: "矿石会生成这个，或者…"
 	quest.75C7413F93325A3B.title: "&f银精华"
 	quest.75CE1ACD81A3CAC5.quest_desc: [
 		"粉碎的&7锰&r必须在&3化学反应釜&r与强酸（如&e硫酸&r）混合，这项工序与提炼&c铬&r的过程类似。"
 		""
-		"这将产出&7硫酸锰溶液&r，然后将其送入&3电解机&r就可以获得&7小堆锰粉&r。"
+		"这将产出&7硫酸锰溶液&r，然后将其输入&3电解机&r就可以获得&7小堆锰粉&r。"
 		""
 		"这一处理工序会返还一些&e硫酸&r。 "
 	]
@@ -11904,9 +11904,9 @@
 	quest.76E921EC64F80D6C.quest_desc: [
 		"&a线材轧机&r是制造线材和细线所必需的。"
 		""
-		"你将会为了制造那些电路和更加精密的机器，物品，齿轮而经常用到它。"
+		"为了制造那些电路和更加精密的机器、物品、齿轮，你会经常用到它。"
 		""
-		"这台机器非常值得升级，一般推荐你将它升级为你目前最高能使用的机器外壳。"
+		"这台机器通常值得升级到你当前技术所允许的最高级别。"
 	]
 	quest.76E921EC64F80D6C.title: "&f钢线材轧机"
 	quest.76F225C6B9A79620.quest_desc: [
@@ -11957,7 +11957,7 @@
 		"使用&a以太扳手&r可轻松完成导管配置。如果导管被导管伪装方块覆盖，只需手持扳手即可使其显现，便于进行配置调整。"
 	]
 	quest.77372AD6C4049263.title: "&6末影接口&d导管"
-	quest.773C44B85A2A1042.title: "&e超临界量"
+	quest.773C44B85A2A1042.title: "&e超临界物质"
 	quest.773F797227054C32.quest_desc: [
 		"你是否曾经看着一只怪物，想着“啊，我要是也能这样就好了”？现在这已经可以实现了！"
 		""
@@ -11986,9 +11986,9 @@
 	]
 	quest.776E4614E4DACC9D.title: "&f生长的绿色"
 	quest.7771675453230C65.quest_desc: [
-		"&a压缩机&r可以把材料压制成板之类的有用物品，日后要用。"
+		"&a压缩机&r可以把材料压制成板之类的有用物品，在之后可能会需要。"
 		""
-		"&a锻造锤&r再往后就没多大用了！"
+		"&a锻造锤&r只能带你走这么远！"
 	]
 	quest.7771675453230C65.title: "&a青铜压缩机"
 	quest.77724B4D52091CD3.title: "&c炽焰&f升级法球"
@@ -12196,7 +12196,7 @@
 		""
 		"&e提示&r：建造多方块结构时将其放在副手位置。"
 	]
-	quest.79408CC2B3EF8DA6.title: "&fMI&2扳手&r&f与你！"
+	quest.79408CC2B3EF8DA6.title: "&2扳手&r&f与你！"
 	quest.794C1EAA6252BC44.quest_desc: ["重置远程技能树中已使用的技能点。"]
 	quest.794C1EAA6252BC44.title: "&f重置远程技能树"
 	quest.795A3ABA29AC0E4F.quest_desc: ["消耗冰雪发电。"]
@@ -12210,8 +12210,8 @@
 		""
 		"The first &bGoo&r that you'll make is called &aPrimogel Goo&r, which takes only a few basic materials."
 	]
-	quest.7983727D0EE456FD.quest_subtitle: "我在东北玩泥巴……玩黏液。"
-	quest.7983727D0EE456FD.title: "&fIt All Starts With &aGoo"
+	quest.7983727D0EE456FD.quest_subtitle: "黏稠美味"
+	quest.7983727D0EE456FD.title: "&f万物始于&a凝胶"
 	quest.79873815DEB7A086.quest_desc: [
 		"&a输入端口&r和&a输出端口&r能从你的&dQIO网络&r输入和输出资源。"
 		""
@@ -12556,9 +12556,9 @@
 	quest.7D3A5740B5857874.quest_subtitle: "适合服务器"
 	quest.7D3A5740B5857874.title: "&d系统安全"
 	quest.7D49D69623266062.quest_desc: [
-		"你需要用到你目前为止的所有尖端科技——向着终极&5量子电路&r进发吧！"
+		"你需要带着学习到的一切来制作出终极电路：&5量子电路&r。"
 		""
-		"只要你一直看着这个电路板，它就不会坍缩成别的东西≡ω≡"
+		"只要你一直看着这个电路板，它就不会坍缩成别的东西。：）"
 	]
 	quest.7D49D69623266062.title: "&5量子电路"
 	quest.7D4C8B02C09CF5AD.title: "&f下界水晶"
@@ -12586,8 +12586,8 @@
 	quest.7D7E98A886175D22.title: "&f砍刀蓝图"
 	quest.7D84ECD5BBB7964A.quest_desc: ["&d魔咒提取机&r可以将附魔的物品提取为附魔书，能够有效地将附魔从你不用的装备上回收。"]
 	quest.7D84ECD5BBB7964A.title: "&d魔咒提取机"
-	quest.7D98D9AB89357FA6.quest_desc: ["你现在已经准备好前往新时代了——&2低压时代&r！低压时期的机器全部都需要&a基础机器外壳&r，你得准备&c一大堆&r了。"]
-	quest.7D98D9AB89357FA6.title: "&2低压（LV）时代&r"
+	quest.7D98D9AB89357FA6.quest_desc: ["你现在已经准备好前往新时代了——&2低压时代&r。低压时期的机器全部都需要&a基础机器外壳&r，你得准备&c大量的&r物品了。"]
+	quest.7D98D9AB89357FA6.title: "&2低压时代&r"
 	quest.7DC700AAF1680424.title: "&a纸板"
 	quest.7DE9A4C7979AC1FA.quest_desc: [
 		"&6任意门&r可以开启一扇通往任意标记点的传送门。"
@@ -12816,7 +12816,7 @@
 	quest.7FDC0BD1CCD75B31.quest_desc: [
 		"&b甲苯&r可以用于制造&c工业TNT&r，它是&d内爆压缩机&r的必要原料！"
 		""
-		"你大概会搭建一条自动化制造工业TNT的产线。"
+		"你可以搭建一条自动化制造工业TNT的产线。"
 	]
 	quest.7FDC0BD1CCD75B31.title: "&b甲苯"
 	quest.7FDD118A1E3901C6.quest_desc: [
@@ -13110,7 +13110,7 @@
 	task.16E099D5EA18961B.title: "震彻大地"
 	task.16F2199AE6D61307.title: "&6Soulplied Energistics"
 	task.176957689D9994FC.title: "&e找到建筑&f：&3诡异天空村庄"
-	task.17766119BC2ED7A3.title: "部件的属性"
+	task.17766119BC2ED7A3.title: "部件属性"
 	task.179DE9F43A4001F3.title: "&e击杀&f：&a冥行武弁"
 	task.17E5AF15A0633680.title: "&d节魔之戒&r"
 	task.17F5C28F412FABC5.title: "&f召唤一个&e被附身的女巫"
@@ -13456,7 +13456,7 @@
 	task.6B8157688CD23283.title: "召唤一个&d铁匠使魔"
 	task.6B9EDB6F4966725F.title: "&6Building Gadgets"
 	task.6BF1B3F7E85C5E17.title: "&b升级插件"
-	task.6C0240B676A69E94.title: "精英电路板或者模拟电路，二选一"
+	task.6C0240B676A69E94.title: "精英电路板或者模拟电路"
 	task.6C1AB8986784E504.title: "&e观察&f：搅拌机"
 	task.6C730129357A78D0.title: "&e击杀&f：&c僵尸猪人"
 	task.6CDF504643794087.title: "&e观察&f：灌装机"
