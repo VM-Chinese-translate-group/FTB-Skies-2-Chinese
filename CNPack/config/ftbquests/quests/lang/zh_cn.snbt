@@ -435,7 +435,7 @@
 	quest.038C26F86776F520.quest_subtitle: "绿宝石与紫水晶"
 	quest.038C26F86776F520.title: "&f天空村庄材料"
 	quest.03BEFC2150D09E7A.quest_desc: [
-		"&d无线终端&r可在&3无线访问点&r的信号范围内远程访问你的存储网络。"
+		"&d无线终端&r可在&3无线发送器&r的信号范围内远程访问你的存储网络。"
 		""
 		"每种&d无线终端&r都和相应的&a终端&r具有一样的功能。"
 	]
@@ -469,7 +469,7 @@
 		"末影傀儡在各处游荡，但最难缠的敌人是驻守在最底层的&5末影守卫&r。"
 	]
 	quest.040795388568AB69.title: "&f找到&5废弃城堡"
-	quest.0443A2BAF6025343.quest_desc: ["你可以把&c污水&r存着，日后用&c污水堆肥机&r将其转化为肥料，加速作物生长。"]
+	quest.0443A2BAF6025343.quest_desc: ["收集&c污水&r，用&c污水堆肥机&r将其转化为肥料，加速作物生长。"]
 	quest.0443A2BAF6025343.title: "&c动物排污器"
 	quest.0444EF9A04406894.quest_desc: [
 		"&a细胞&r用于合成&bDNA螺旋&r。"
@@ -629,8 +629,8 @@
 	quest.05A727E11657DA51.title: "&f粉碎下界岩"
 	quest.05ACCA23B0F13E0A.quest_desc: ["&a油菜压榨机&r可以将&a油菜&r压榨成&a菜籽油&r，菜籽油处理后就是&a精制菜籽油&r。"]
 	quest.05ACCA23B0F13E0A.title: "&a油菜压榨机"
-	quest.05BB2A6101B519A0.quest_desc: ["The &6Dimension Card&r grants you access to your network across dimensions at a hefty energy cost."]
-	quest.05BB2A6101B519A0.title: "&6Dimension Card"
+	quest.05BB2A6101B519A0.quest_desc: ["&6维度卡&r可以让你跨维度访问你的网络，但是需要消耗大量能量。"]
+	quest.05BB2A6101B519A0.title: "&6维度卡"
 	quest.05C37B2A26DF8F2C.quest_subtitle: "可合成"
 	quest.05C37B2A26DF8F2C.title: "&f附魔法术书"
 	quest.05CEF45909A11F60.quest_desc: [
@@ -1127,9 +1127,9 @@
 	]
 	quest.09B3528CF3C615C6.title: "&b某种石英"
 	quest.09B6F6758B0EEEC5.quest_desc: [
-		"对&7橡树树苗、白桦树苗或金合欢树苗&r使用一些（可能很多）&e转生粉&r，运气够好的话，你能够得到本模组的&a独特树苗&r。&a山梨树&r主要用来制作&e魔力之息&r，其他两种树也有各自的作用。"
+		"对&7橡树树苗、白桦树苗或金合欢树苗&r使用一些（可能很多）&e转生粉&r，运气够好的话，你能够得到本模组的&a独特树苗&r。&a山梨树苗&r主要用来制作&e魔力之息&r，其他两种树也有各自的作用。（提示：给其使用转生粉之后，需静待其变异完成。变异失败的树苗会正常成长为一颗树，不会变为模组特有树苗）"
 		""
-		"在得到树苗之后，切记要将其种下，待其成材以收获大量资源，因为下次再得到他们可能就需要更多的转生粉了。"
+		"在得到树苗之后，切记要将其种下，待其成材以收获大量资源，因为下次再得到它们可能就需要更多的转生粉了。"
 	]
 	quest.09B6F6758B0EEEC5.title: "巫师之树"
 	quest.09BC75B655BDC624.quest_desc: [
@@ -1430,11 +1430,11 @@
 		"这把剪刀可以收集&e野麦&r、&2灵魂草&r和&3繁森皮革&r。"
 	]
 	quest.0C0B04B6FEFD2928.quest_desc: [
-		"&e多级线缆&r模组提供了许多升级版本的总线，越高级的工作速度越快，过滤槽位越多。"
+		"&e多级线缆&r模组提供了许多升级版本的输入器，越高级的工作速度越快，过滤槽位越多。"
 		""
 		"&7&o物品的提示文本中有具体的工作速度。"
 	]
-	quest.0C0B04B6FEFD2928.title: "&e多级线缆&f输入总线"
+	quest.0C0B04B6FEFD2928.title: "&e多级线缆&f输入器"
 	quest.0C0E16939C8567C6.quest_desc: ["你也可以通过&d火灵&r的力量修复盔甲和工具"]
 	quest.0C0E16939C8567C6.title: "&d其余修理仪式"
 	quest.0C24D8CD961D86B2.quest_desc: [
@@ -1463,13 +1463,13 @@
 	]
 	quest.0C4490929532BC5F.title: "&f大型水泵"
 	quest.0C59F30673774398.quest_desc: [
-		"&a调节器升级&r可控制进出你系统的物品数量。"
+		"&a调节升级&r可控制进出你系统的物品数量。"
 		""
 		"右击升级，将你想调控的物品放入GUI右侧的槽位，然后设定目标容器中期望保持的物品数量即可。"
 		""
-		"安装在&a输出总线&r上时，它会持续输出物品，直到容器中物品数量达到设定值；安装在&a输入总线&r上时，它会在容器中保留设定数量的物品，并将超出的部分输入存储网络。"
+		"安装在&a输出器&r上时，它会持续输出物品，直到容器中物品数量达到设定值；安装在&a输入器&r上时，它会在容器中保留设定数量的物品，并将超出的部分输入存储网络。"
 	]
-	quest.0C59F30673774398.title: "&a调节器升级"
+	quest.0C59F30673774398.title: "&a调节升级"
 	quest.0C5C685D33EF723A.quest_desc: [
 		"把&c原矿石肉汤&r发酵为发酵矿石肉汤，发酵过程中产物会翻倍。"
 		""
@@ -1558,7 +1558,7 @@
 	]
 	quest.0D7F5F7A7E41FDF3.title: "&f批量更改机器配置"
 	quest.0D864FD6A668D8C6.quest_desc: [
-		"&a输入总线&r/&a输出总线&r可向/从你的网络输入/输出资源。"
+		"&a输入器&r/&a输出器&r可向/从你的网络输入/输出资源。"
 		""
 		"&a接口&r是集成了输入和输出功能的方块。"
 	]
@@ -1823,7 +1823,7 @@
 	quest.1069575C4B5BCE39.quest_desc: [
 		"&e精致存储2&r（简称&eRS2&r）是一个大型物品存储模组。它提供了一个基于网络的存储系统，让你可以在一个可扩展的设备网络中集中存储物品、流体和气体。"
 		""
-		"Before crafting your first &aMachine Core&r, which is used for many network components, you'll need to obtain Sky Steel Ingots. Check the attached quest to see how that can be done."
+		"合成一些&a机械外壳&r，以后有很多网络组件都需要用到它。在此之前，你需要先获取陨钢锭，在这个任务左边那个任务中有获取它的方法。"
 	]
 	quest.1069575C4B5BCE39.title: "&f欢迎来到&e精致存储2"
 	quest.107C26E8BF309BC1.quest_desc: [
@@ -2154,7 +2154,7 @@
 		""
 		"听起来真是太&o魔法&r辣！"
 		""
-		"要制作工作站，你需要先砍一棵&2至高木树&r。这种树可能少量的在魔力充盈的虚空岛上生成，也可用&e转生粉&r使普通树突变而成，或者直接从&e市场&r里买。"
+		"要制作工作站，你需要先砍一棵&2至高木树&r。这种树可能少量的在魔力充盈的虚空岛上生成，也可用&e转生粉&r使普通树苗突变而成，或者直接从&e市场&r里买。"
 	]
 	quest.13D6C551C8DBC124.title: "&a各种魔法树……"
 	quest.13DFA7B0975971B7.quest_desc: [
@@ -2356,7 +2356,7 @@
 		"由于&0原油&r不是可再生资源，所以用植物油来制作&a生物柴油&r是实现塑料自动化的更好办法！"
 	]
 	quest.15F655AA668D6541.title: "&f流体混合器"
-	quest.15F9D5C1BDCF2D80.title: "&316k存储元件"
+	quest.15F9D5C1BDCF2D80.title: "&316k存储组件"
 	quest.16180601C60DA378.title: "&f升级：夜视"
 	quest.1619084AFCD0B0DD.quest_desc: ["你可以在&a睡袋&r里睡过夜晚，而不重设你的重生点！"]
 	quest.1619084AFCD0B0DD.title: "&b随地大小睡"
@@ -2554,7 +2554,7 @@
 	quest.18913114C6D06E74.quest_desc: [
 		"整合包里有&a简单村民&r模组，你潜行右击就可以字面意义上的把村民捡起来，这样搭建超大交易所就方便太多了！"
 		""
-		"You can also create &aTrader Blocks&r to place them in with their trading table to create a one block trading solution."
+		"你还可以造一个&a交易器方块&r，然后把物品村民和任意的工作站点方块放进去，就可以实现单方块村民交易了。"
 	]
 	quest.18913114C6D06E74.title: "&a简单村民"
 	quest.189DE52ADD270985.quest_desc: [
@@ -2917,8 +2917,8 @@
 		"&o&7举个例子，用了指挥官织物后，灵魂猎手长袍会和魂染钢胸甲长得一模一样。&r"
 	]
 	quest.1BDE743ABCC3E78A.title: "&a第一层"
-	quest.1BF77D602FFDF292.quest_desc: ["The &dInfinity Range Booster&r grants you access to your network anywhere within the same dimension."]
-	quest.1BF77D602FFDF292.title: "&dInfinity Range Booster"
+	quest.1BF77D602FFDF292.quest_desc: ["&d无限范围增幅器&r可以让你在同维度的任何地方访问你的网络。"]
+	quest.1BF77D602FFDF292.title: "&d无限范围增幅器"
 	quest.1BFDE3507411C116.quest_desc: [
 		"你的&6熔铸炉需要一个&a控制器&r和一个&2储罐&r来控制熔铸炉和储存熔融的金属。"
 		""
@@ -3897,11 +3897,11 @@
 	]
 	quest.25A18CFB6B3E038B.title: "&a水晶修复器"
 	quest.25CDD6087C675F1A.quest_desc: [
-		"&e多级线缆&r模组提供了许多升级版本的面板，越高级的工作速度越快，过滤槽位越多。"
+		"&e多级线缆&r模组提供了许多升级版本的成型器，越高级的工作速度越快，过滤槽位越多。"
 		""
 		"&7&o物品的提示文本中有具体的工作速度。"
 	]
-	quest.25CDD6087C675F1A.title: "&e多级线缆&a成型面板"
+	quest.25CDD6087C675F1A.title: "&e多级线缆&a成型器"
 	quest.25DF30E5EACB9B5F.quest_desc: ["使用&3化学反应釜&r，将&a乙醇&r和&2硫粉&r做成&3乙烯&r。"]
 	quest.25DF30E5EACB9B5F.title: "&3乙烯"
 	quest.25EB6E3274347822.quest_desc: [
@@ -4146,7 +4146,7 @@
 	quest.27C9C8CEBC1464D1.quest_desc: ["The &6Revitalizer&r can be placed under your existing &aGoos&r to revive them using FE instead of feeding them items every now and then."]
 	quest.27C9C8CEBC1464D1.title: "&6Revitalizer"
 	quest.27D28CC22BB5C665.quest_subtitle: "用于合成其他升级"
-	quest.27D28CC22BB5C665.title: "&f基础升级"
+	quest.27D28CC22BB5C665.title: "&f升级"
 	quest.27E0738B56C6ED8C.quest_desc: ["将&7魔精&r绑定到背包上可以显著增加其存储容量，使其成为旅行的好伙伴。"]
 	quest.27E0738B56C6ED8C.title: "&a意外结实的挎包"
 	quest.27E867855AC60BF0.quest_desc: [
@@ -4504,8 +4504,8 @@
 	quest.2BD29E8328B23166.title: "始终隐藏"
 	quest.2BD672ED1CC617EA.quest_desc: ["&7&o什么？我怎么会卖觉醒粉这种东西，我是个商人，并不是战士！"]
 	quest.2BD672ED1CC617EA.title: "&b神秘启示 IV"
-	quest.2BFD68083AD1B894.quest_desc: ["&a成型面板&r可以将网络中的东西放置到世界中。"]
-	quest.2BFD68083AD1B894.title: "&a成型面板"
+	quest.2BFD68083AD1B894.quest_desc: ["&a成型器&r可以将网络中的东西放置到世界中。"]
+	quest.2BFD68083AD1B894.title: "&a成型器"
 	quest.2C0332B3354D8A9C.quest_desc: [
 		"玩家模拟器能够模拟玩家的行为，是一件非常有用的工具。"
 		""
@@ -4777,7 +4777,7 @@
 	quest.2EA531C50FE17444.title: "&f找到&6奥术图书馆"
 	quest.2EA7CCDB687AC468.quest_desc: ["&a保鲜升级&r后，容器中每组物品都会在使用过程中至少留存一个，而非直接用完。"]
 	quest.2EA7CCDB687AC468.title: "&f保鲜室"
-	quest.2EAA02B80B0E4D5A.title: "&34096B流体存储元件"
+	quest.2EAA02B80B0E4D5A.title: "&34096B流体存储组件"
 	quest.2EBDE5767588B43C.quest_desc: [
 		"想要制作&6觉醒精华&r，你需要一种击杀&5末影龙&r或&5凋灵&r才会掉落的粉尘。"
 		""
@@ -5224,7 +5224,7 @@
 	quest.329B237B5F46FC3B.quest_subtitle: "怪物掉落物"
 	quest.329B237B5F46FC3B.title: "&f亡灵律典"
 	quest.32A9DED264608999.title: "&616384k存储组件"
-	quest.32B4188E9438E43F.title: "&a64B流体存储元件"
+	quest.32B4188E9438E43F.title: "&a64B流体存储组件"
 	quest.32C6E1FD67863F50.quest_desc: [
 		"&d炼金锅&r比你那过时老旧的酿造台好用多了。"
 		""
@@ -5374,8 +5374,8 @@
 		"它还用于制作&b神秘力量&r。"
 	]
 	quest.33E96DCB466BC28C.title: "&d图书管理员护身符"
-	quest.33EDFB2DC1BEA7F0.quest_desc: ["&3合成监视器&r可查看所有正在进行的自动合成任务的状态。"]
-	quest.33EDFB2DC1BEA7F0.title: "&3合成监视器"
+	quest.33EDFB2DC1BEA7F0.quest_desc: ["&3自动合成监控器&r可查看所有正在进行的自动合成任务的状态。"]
+	quest.33EDFB2DC1BEA7F0.title: "&3自动合成监控器"
 	quest.33F236BD2DA075C3.quest_desc: [
 		"虽然&a咒灰&r只是一种非常入门级的魔法道具，但它在&e灵灾&r中确实有着不少用途。"
 		"建议手头常备这种材料，以便于合成。"
@@ -6361,7 +6361,7 @@
 	quest.3C25B0FAC773D70A.title: "&f巫师之杖"
 	quest.3C2916E5CA485AEA.quest_desc: ["现在你就可以用你的新机器做出&d精良&r和&d极致&r的机器核心了！"]
 	quest.3C2916E5CA485AEA.title: "&f机器核心升级！"
-	quest.3C2A1A2A6D357657.title: "&31024B流体存储元件"
+	quest.3C2A1A2A6D357657.title: "&31024B流体存储组件"
 	quest.3C60FA46EA54C899.quest_desc: [
 		"供电后，&d战利品制造器&r可以从&b预测产物&r中生成战利品。"
 		""
@@ -6785,7 +6785,7 @@
 		""
 		"&a存储监控器&r可显示存储网络中某种资源的实时储量。"
 		""
-		"&a网络物品检测器&r可检测网络中某种资源的数量，并依此发出不同强度的红石信号。"
+		"&a检测器&r可检测网络中某种资源的数量，并依此发出不同强度的红石信号。"
 	]
 	quest.40DCA09032568A0F.title: "&f实用方块"
 	quest.4101E75F69C9909F.quest_desc: [
@@ -6959,7 +6959,7 @@
 		"&e量子稳定&r会剔除掉所有负面效果，这样你就只会得到正面效果了。"
 	]
 	quest.427682661459BB4F.title: "&e稳定化附魔"
-	quest.427CA606E5B5E7DA.title: "&a256B流体存储元件"
+	quest.427CA606E5B5E7DA.title: "&a256B流体存储组件"
 	quest.428A1ABBA6791E75.quest_subtitle: "永恒的食物"
 	quest.428A1ABBA6791E75.title: "&a无限火腿"
 	quest.4291D83FD8A79A24.title: "&f甜浆果芝士派"
@@ -7324,8 +7324,8 @@
 	quest.45E7D62C229F898C.title: "&aME Crafting Terminal"
 	quest.45F8CB4497591B10.title: "&c三级&f生物种子"
 	quest.4619BC2AB4CB9BD9.title: "&a元素奥石"
-	quest.461A01BDC4D4B1BD.quest_desc: ["&a破坏面板&r可将世界中的资源收集到你的存储网络中。"]
-	quest.461A01BDC4D4B1BD.title: "&a破坏面板"
+	quest.461A01BDC4D4B1BD.quest_desc: ["&a破坏器&r可将世界中的资源收集到你的存储网络中。"]
+	quest.461A01BDC4D4B1BD.title: "&a破坏器"
 	quest.462A47B2E1360AB5.quest_desc: ["除了提供额外的护甲外，&d下界合金潜水服&r在完整穿戴时还能免疫熔岩和火焰伤害。"]
 	quest.462A47B2E1360AB5.title: "&d下界合金潜水套装"
 	quest.4638D7D057A96571.quest_desc: ["&7&oRandomly gain an item to upgrade your basic chests or barrels."]
@@ -7879,7 +7879,7 @@
 	quest.4BA8E435EDA995AC.title: "&f虚空升级"
 	quest.4BB5ADD98F958712.quest_desc: ["虚空深处隐藏着一座地牢，里面堆满了各种来路不明的魔法宝物，由各类诡异的生物守卫着。&6高位唤魔者&r站在最高层，掌控着这片禁地。"]
 	quest.4BB5ADD98F958712.title: "&f发现&6神秘魔法地牢"
-	quest.4BB6832FE4685131.quest_desc: ["要使用&3灵魂&r，请将&a灵魂涌动&r指向你想要加速的方块，并使用&a灵魂管道&r将其连接到&d灵魂镭射钻&r。"]
+	quest.4BB6832FE4685131.quest_desc: ["要使用&3灵魂&r，请将&a灵魂促速器&r指向你想要加速的方块，并使用&a灵魂管道&r将其连接到&d灵魂镭射钻&r。"]
 	quest.4BB6832FE4685131.title: "&3传输灵魂"
 	quest.4BBEE37F0D847BA9.quest_subtitle: "传输流体"
 	quest.4BBEE37F0D847BA9.title: "&f流体管道"
@@ -8423,7 +8423,7 @@
 		"如果你想把异界石作为建筑材料的话，那么这个方法会非常高效。"
 	]
 	quest.50E0C5ECFB5B02E1.title: "&7魔精 &f异界石交易者"
-	quest.50EFBD8BDE0C88AF.quest_desc: ["&a范围升级&r可增加&3无线访问点&r的信号覆盖范围，从基础的16格最多扩展到48格。"]
+	quest.50EFBD8BDE0C88AF.quest_desc: ["&a范围升级&r可增加&3无线发送器&r的信号覆盖范围，从基础的16格最多扩展到48格。"]
 	quest.50EFBD8BDE0C88AF.title: "&a范围升级"
 	quest.50F2EDF92D289869.quest_desc: [
 		"把安山岩丢入&a灵火&r即可得到&a异界石&r。"
@@ -8589,11 +8589,11 @@
 	]
 	quest.52A48E0F92AD4399.title: "&d批量存放魔源"
 	quest.52B558821ECBFE07.quest_desc: [
-		"&e多级线缆&r模组提供了许多升级版本的面板，越高级的工作速度越快，过滤槽位越多。"
+		"&e多级线缆&r模组提供了许多升级版本的破坏器，越高级的工作速度越快，过滤槽位越多。"
 		""
 		"&7&o物品的提示文本中有具体的工作速度。"
 	]
-	quest.52B558821ECBFE07.title: "&e多级线缆&a破坏面板"
+	quest.52B558821ECBFE07.title: "&e多级线缆&a破坏器"
 	quest.52BF64BFF5FC3DD4.quest_desc: [
 		"有了&a原始合金炉&r，你就可以煅烧出第一批合金，用来制作电器。"
 		""
@@ -9195,11 +9195,11 @@
 	]
 	quest.59376277A06E251A.title: "&a有用的升级"
 	quest.594911C1304689E9.quest_desc: [
-		"&e多级线缆&r模组提供了许多升级版本的总线，越高级的工作速度越快，过滤槽位越多。"
+		"&e多级线缆&r模组提供了许多升级版本的输出器，越高级的工作速度越快，过滤槽位越多。"
 		""
 		"&7&o物品的提示文本中有具体的工作速度。"
 	]
-	quest.594911C1304689E9.title: "&e多级线缆&f输出总线"
+	quest.594911C1304689E9.title: "&e多级线缆&f输出器"
 	quest.59497745146C1EFD.quest_desc: [
 		"&a魂染工具&r包含了一系列可以用来收集&b精魂&r的武器，就和&e粗制镰刀&r一样，但同时也保留了它们对应工具的用途。不过你既可以把粗制镰刀升级成魂染钢镰刀，也可以使用由魂染剑改进而来的&d提尔锋&r。"
 		""
@@ -9475,7 +9475,7 @@
 		"潜行右击&7魔精清洁工&r来设置其黑白名单，以指定它能够拾取，或忽略的物品。默认为白名单模式，因此它将拾取你选定的物品，你可以使用标签功能来一次性选定所有拥有该标签的物品"
 	]
 	quest.5CC11DF487EA2867.title: "&7魔精&f清洁工"
-	quest.5CC2FE30CF016754.title: "&a1k存储元件"
+	quest.5CC2FE30CF016754.title: "&a1k存储组件"
 	quest.5CC65B3FE402E58B.quest_desc: [
 		"&d夜晚护符&r在夜晚时增加10%护甲。"
 		""
@@ -9647,7 +9647,7 @@
 	]
 	quest.5E18F5B83FC4EC2D.title: "&3祛魔透镜"
 	quest.5E1FD04538F89292.quest_desc: [
-		"将&a网络卡&r绑定到&d网络接收器&r，然后将该&a网络卡&r放入连接到主网络的&d网络变送器&r中，即可在任何地方使用该网络，甚至跨维度也可以。"
+		"将&a网络卡&r绑定到&d网络接收器&r，然后将该&a网络卡&r放入连接到主网络的&d网络发送器&r中，即可在任何地方使用该网络，甚至跨维度也可以。"
 		""
 		"&7&o务必确保你的主网络系统所在的区块处于加载状态。"
 	]
@@ -9907,15 +9907,15 @@
 	]
 	quest.6114934F707E3666.title: "&f熔炉&a强化"
 	quest.612340743D7C7536.quest_desc: [
-		"&3无线访问点&r可提供覆盖一定范围的信号，使&d无线终端&r能够连接到你的网络。可安装至多4个&a范围升级&r来扩大信号的覆盖范围。"
+		"&3无线发送器&r可提供覆盖一定范围的信号，使&d无线终端&r能够连接到你的网络。可安装至多4个&a范围升级&r来扩大信号的覆盖范围。"
 		""
 		"&7&o默认范围为16格，最多可扩展至48格。"
 	]
-	quest.612340743D7C7536.title: "&3无线访问点"
+	quest.612340743D7C7536.title: "&3无线发送器"
 	quest.6126333E1B6B6925.quest_desc: ["为了得到制作&b乙烯&r的&3乙醇&r，你需要蒸馏&2糖溶液&r。"]
 	quest.6126333E1B6B6925.title: "&3乙醇"
 	quest.612A181814F656B1.quest_desc: [
-		"使用&e转生粉&r有可能创造出Enchanted模组的非树苗植物。"
+		"另一个可能性是利用&e转生粉&r变异出Enchanted模组的非树苗植物。"
 		""
 		"这些植物本身可以用作草药，也可以让他们像蘑菇一样随时间蔓延，以大量获取这些植物。"
 		""
@@ -10675,7 +10675,7 @@
 		"&7&o你可以根据你的喜好进行染色。"
 	]
 	quest.68668718B414B6E4.title: "&6镕铸炉&f排液孔"
-	quest.68778308CBAB4AE3.quest_desc: ["&a外部存储总线&r可直接访问网络外部的存储容器，如箱子、抽屉、储罐等。"]
+	quest.68778308CBAB4AE3.quest_desc: ["&a外部存储&r可直接访问网络外部的存储容器，如箱子、抽屉、储罐等。"]
 	quest.68778308CBAB4AE3.title: "&a外部存储"
 	quest.6890BFFFE9D4A223.quest_desc: ["&7&oChoose any one Puffish Skill to level up."]
 	quest.6890BFFFE9D4A223.title: "&dPuffish Skills Level"
@@ -10835,13 +10835,13 @@
 	]
 	quest.6A84F3464CD7F0D5.title: "&c有点懒吗？"
 	quest.6AA51581B0CA5271.quest_desc: [
-		"&a磁盘驱动器&r是装载&b存储磁盘&r的设备，这些磁盘可以存储物品或流体。驱动器本身有多种配置选项，如存储优先级、输入/输出模式、销毁过量模式等等。"
+		"&a磁盘驱动器&r是装载&b存储磁盘&r的设备，这些磁盘可以存储物品或流体。驱动器本身有多种配置选项，如存储优先级、传输模式、销毁过量模式等等。"
 		""
 		"最上方的9个槽位是过滤槽位，将物品放入其中即可限定&a磁盘驱动器&r只存储这些物品。"
 		""
 		"将&b存储磁盘&r与更高级的组件合成可以直接升级它，此过程会返还旧的存储组件，里面存储的物品也都会保留下来。"
 		""
-		"当&b存储磁盘&r内没有存储物品时，Shift右击可将存储组件与磁盘外壳分离。"
+		"当&b存储磁盘&r内没有存储物品时，Shift右击可将存储组件与存储外壳分离。"
 	]
 	quest.6AA51581B0CA5271.title: "&a磁盘驱动器"
 	quest.6AA8A1FF1C8089F7.quest_subtitle: "在催化剂上使用黑色染料"
@@ -11059,9 +11059,9 @@
 	]
 	quest.6DF10711C481B850.title: "&f炽焰符文"
 	quest.6E009D4747E3E485.quest_desc: [
-		"推动Enchanted进度的下一步是获得&a转生粉&r。还记得&e巫师坩埚吗&r？它就是你需要的材料之一！确保将六个转生粉全部取出，否则下次炼药时他们会与其他材料混合。"
+		"推动Enchanted进度的下一步是获得&a转生粉&r。还记得&e巫师炼药锅&r吗？它就是你需要的材料之一！确保将六个转生粉全部取出，否则下次炼药时它们会与其他材料混合。"
 		""
-		"Mutandis is used on various small plants like saplings to &bmutate&r them into different forms. The process is &2based on surrounding plants&r, so you may need to set up a proper space to mutate them. Check the 'Mutated Plants' section of the Herbology chapter in your &eguidebook&r for more details."
+		"转生粉可以用在树苗等各种小型植物上，将其&b变异&r为不同形态。这个过程&2受周围植物影响&r，因此需搭建合适的环境来更好的变异。详情可以查阅&e指南手册（巫术之艺）&r中草药学章节的\"变异植物\"部分。（提示：确保在其两格范围内种有水洋蓟、颠茄、曼德拉草或狼毒草来增大变异成功的概率）"
 	]
 	quest.6E07405D08CCC2D4.quest_desc: ["[\"为了把现有的\", {\"text\": \"五芒星\", \"color\": \"#55FFFF\"}, \"升至下一级别，你将需要\", {\"text\": \"黄绿色粉笔\", \"color\": \"#E2FC97\"}, \"、\", {\"text\": \"淡灰色粉笔\", \"color\": \"#C2C2C2\"}, \"以及一些骷髅头颅。\"]"]
 	quest.6E07405D08CCC2D4.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"黄绿色\", \"color\": \"#E2FC97\"}, \" & \", {\"text\": \"淡灰色\", \"color\": \"#C2C2C2\"}, \" 粉笔\"]"
@@ -12308,7 +12308,7 @@
 		"[\"这些生物可以通过制作的\", {\"text\": \"传送门珍珠\", \"color\": \"yellow\", \"italic\":false}, {\"text\": \" - 窥探深渊\", \"color\": \"dark_aqua\", \"italic\":false}, \"来召唤，或者在某个\", {\"text\": \"下界特殊结构\", \"color\": \"red\", \"underlined\":true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"2B4392602E94D3D8\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往Fargo的地牢任务\"]} }, \"中找到……\"]"
 	]
 	quest.7A8669713BE28E8F.title: "&f击杀&d监守者"
-	quest.7AAE6DAFE0092A95.title: "&364k存储元件"
+	quest.7AAE6DAFE0092A95.title: "&364k存储组件"
 	quest.7AC5EE9AF176EB85.quest_desc: [
 		"Applicable to &aDestroyer Block&r and &aEnderic Laser&r."
 		""
@@ -12549,9 +12549,9 @@
 	quest.7D2375372CF328C3.title: "&f空中冲刺"
 	quest.7D23D1C9DE75721F.title: "&f击杀20只&c骷髅"
 	quest.7D3A5740B5857874.quest_desc: [
-		"&d权限管理器&r可设置不同用户对各种网络功能的权限。"
+		"&d安全管理器&r可设置不同用户对各种网络功能的权限。"
 		""
-		"手持&a权限卡&r右击即可绑定玩家并进行配置。潜行右击可清空配置。"
+		"手持&a安全卡&r右击即可绑定玩家并进行配置。潜行右击可清空配置。"
 	]
 	quest.7D3A5740B5857874.quest_subtitle: "适合服务器"
 	quest.7D3A5740B5857874.title: "&d系统安全"
@@ -12729,7 +12729,7 @@
 	quest.7F1D6971036A31DA.title: "&a自定义护甲&r&f！"
 	quest.7F24FA574B370F08.quest_subtitle: "召唤套装"
 	quest.7F24FA574B370F08.title: "&a高位唤魔者套装"
-	quest.7F27B48C280FA27F.title: "&a4k存储元件"
+	quest.7F27B48C280FA27F.title: "&a4k存储组件"
 	quest.7F2A004DF03F6BEC.quest_desc: ["&d玩家传送升级&r能够让你的&6任意门&r探测到带有激活的&a位置广播器&r或&d广播掩护装置&r的玩家。"]
 	quest.7F2A004DF03F6BEC.title: "&d玩家传送升级"
 	quest.7F4E7C687E7D8707.quest_desc: [

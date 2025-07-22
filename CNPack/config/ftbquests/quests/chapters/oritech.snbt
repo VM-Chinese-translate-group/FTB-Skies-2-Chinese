@@ -1521,7 +1521,7 @@
 				{
 					auto: "invisible"
 					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
-					feedback_message: "New items available in the Shop!"
+					feedback_message: "商店中出现了新的物品！"
 					id: "6C6DE2E89E7475A7"
 					permission_level: 3
 					silent: true
