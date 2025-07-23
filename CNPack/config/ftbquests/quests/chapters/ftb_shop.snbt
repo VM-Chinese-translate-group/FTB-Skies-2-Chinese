@@ -296,10 +296,9 @@
 	quests: [
 		{
 			can_repeat: false
-			dependencies: ["219B014D60EF0DDD"]
 			hide_dependent_lines: true
 			hide_text_until_complete: false
-			hide_until_deps_complete: true
+			hide_until_deps_complete: false
 			hide_until_deps_visible: false
 			id: "325567B88BAFAD0D"
 			min_width: 350
@@ -603,7 +602,7 @@
 					count: 2L
 					id: "243D54D036670EDA"
 					item: {
-						count: 5
+						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
@@ -651,7 +650,7 @@
 					count: 5L
 					id: "7237C54FD2C67785"
 					item: {
-						count: 5
+						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
@@ -723,7 +722,7 @@
 					count: 5L
 					id: "42BB206DD3569A99"
 					item: {
-						count: 5
+						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
@@ -906,7 +905,7 @@
 					count: 5L
 					id: "55C8089A66E3846F"
 					item: {
-						count: 5
+						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
@@ -945,7 +944,7 @@
 					count: 3L
 					id: "014C534DE5FD8ACE"
 					item: {
-						count: 3
+						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
@@ -1014,7 +1013,7 @@
 					count: 7L
 					id: "2969C1A6565554A9"
 					item: {
-						count: 7
+						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
@@ -1108,7 +1107,7 @@
 					count: 7L
 					id: "1E7A89E797BBA92D"
 					item: {
-						count: 7
+						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
@@ -1204,7 +1203,7 @@
 					count: 7L
 					id: "62730CF0290D856A"
 					item: {
-						count: 7
+						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
@@ -1330,7 +1329,7 @@
 					count: 5L
 					id: "02950A64DEC86D0D"
 					item: {
-						count: 5
+						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
@@ -1437,7 +1436,7 @@
 					count: 5L
 					id: "7349FCDAF2016201"
 					item: {
-						count: 5
+						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
@@ -1671,7 +1670,7 @@
 					count: 2L
 					id: "7FC497296071F244"
 					item: {
-						count: 2
+						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
@@ -1744,7 +1743,7 @@
 					count: 5L
 					id: "1BAF58E7940EB25D"
 					item: {
-						count: 4
+						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
@@ -2163,7 +2162,7 @@
 		}
 		{
 			dependencies: [
-				"13A336971A4AD188"
+				"4FA9FABD84B4751A"
 				"325567B88BAFAD0D"
 			]
 			icon: {
@@ -2191,7 +2190,7 @@
 		}
 		{
 			dependencies: [
-				"11129E29B22F9898"
+				"4FA9FABD84B4751A"
 				"325567B88BAFAD0D"
 			]
 			icon: {
@@ -2237,7 +2236,7 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				count: 15L
+				count: 25L
 				id: "6597A645044632A7"
 				item: {
 					count: 1
@@ -2268,7 +2267,7 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				count: 50L
+				count: 75L
 				id: "352706E15635D1A6"
 				item: {
 					count: 1
@@ -2779,7 +2778,7 @@
 					count: 2L
 					id: "18DD6AEE739C74AF"
 					item: {
-						count: 5
+						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
@@ -2820,7 +2819,7 @@
 					count: 5L
 					id: "0142CA8D3521AA4C"
 					item: {
-						count: 5
+						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
@@ -2900,7 +2899,7 @@
 			id: "1E2E7BE146EC3D58"
 			rewards: [{
 				auto: "no_toast"
-				command: "/gag give_time @s 7200"
+				command: "/gag give_time @s 12000"
 				icon: {
 					id: "gag:time_sand_pouch"
 				}
@@ -2913,7 +2912,7 @@
 				count: 5L
 				id: "73C833578CD56FCD"
 				item: {
-					count: 4
+					count: 1
 					id: "magic_coins:silver_coin"
 				}
 				type: "item"
@@ -3172,7 +3171,7 @@
 				count: 3L
 				id: "22AB83B84E5E90A8"
 				item: {
-					count: 3
+					count: 1
 					id: "magic_coins:silver_coin"
 				}
 				type: "item"
@@ -3334,12 +3333,12 @@
 				count: 4L
 				id: "3DFE8CFAF5A842F2"
 				item: {
-					count: 4
+					count: 1
 					id: "magic_coins:silver_coin"
 				}
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: -2.5d
 		}
 		{
@@ -3400,7 +3399,7 @@
 				count: 10L
 				id: "007F866C1ADC45AF"
 				item: {
-					count: 10
+					count: 1
 					id: "magic_coins:crystal_coin"
 				}
 				type: "item"
@@ -3456,7 +3455,7 @@
 				count: 2L
 				id: "39640641775B8297"
 				item: {
-					count: 2
+					count: 1
 					id: "magic_coins:gold_coin"
 				}
 				type: "item"
@@ -3597,7 +3596,7 @@
 				count: 4L
 				id: "6F68A16F8E6266DF"
 				item: {
-					count: 4
+					count: 1
 					id: "magic_coins:silver_coin"
 				}
 				type: "item"
@@ -3657,7 +3656,7 @@
 				count: 4L
 				id: "479D88A4D6EB22EF"
 				item: {
-					count: 4
+					count: 1
 					id: "magic_coins:silver_coin"
 				}
 				type: "item"
@@ -3716,7 +3715,7 @@
 				count: 8L
 				id: "121E32356A0BE6F3"
 				item: {
-					count: 8
+					count: 1
 					id: "magic_coins:silver_coin"
 				}
 				type: "item"
@@ -3984,7 +3983,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 25L
+				count: 20L
 				id: "1F978DCAA72BDF94"
 				item: {
 					count: 1

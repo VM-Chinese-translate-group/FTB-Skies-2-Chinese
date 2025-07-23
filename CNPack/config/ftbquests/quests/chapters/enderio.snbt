@@ -1155,6 +1155,7 @@
 				id: "enderio:conduit_facade"
 			}
 			id: "0F4ABB66EC22C066"
+			optional: true
 			rewards: [
 				{
 					id: "15C716822BD139A9"

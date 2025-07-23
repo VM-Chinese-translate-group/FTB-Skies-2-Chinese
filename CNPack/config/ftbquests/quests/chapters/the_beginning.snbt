@@ -997,23 +997,15 @@
 			}
 			id: "447242EAC91413A9"
 			min_required_dependencies: 4
-			rewards: [
-				{
-					count: 5
-					id: "00A71DC8D597A3E0"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "00A71DC8D597A3E0"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					id: "15604358C10B3D4D"
-					team_reward: false
-					type: "xp"
-					xp: 100
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
@@ -1633,20 +1625,21 @@
 			]
 			tasks: [
 				{
+					id: "545FF56A8374DDFF"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
 					id: "7F43C3D328209A00"
 					item: {
 						count: 1
 						id: "immersiveengineering:hemp_fiber"
 					}
 					optional_task: true
-					type: "item"
-				}
-				{
-					id: "545FF56A8374DDFF"
-					item: {
-						count: 1
-						id: "minecraft:string"
-					}
 					type: "item"
 				}
 			]
@@ -2965,7 +2958,7 @@
 				type: "item"
 			}]
 			x: 0.4d
-			y: 1.6d
+			y: 2.0d
 		}
 	]
 }

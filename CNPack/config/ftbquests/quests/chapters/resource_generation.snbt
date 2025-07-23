@@ -2867,10 +2867,13 @@
 					type: "item"
 				}
 				{
-					id: "073F235A0919D151"
+					id: "0657D2B7110B89A9"
 					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(productivebees:bee_cage)item(productivebees:sturdy_bee_cage))"
+						}
 						count: 1
-						id: "productivebees:bee_cage"
+						id: "ftbfiltersystem:smart_filter"
 					}
 					type: "item"
 				}
@@ -2938,6 +2941,7 @@
 			}
 			id: "77914AB759F51A62"
 			min_width: 300
+			optional: true
 			rewards: [
 				{
 					id: "4CB97E2D8F4887BE"
@@ -3098,9 +3102,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "56F380E9644C51E7"
+					id: "3581805CD27064D3"
 					table_id: 1862978040036675512L
-					type: "random"
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -3230,7 +3234,7 @@
 					type: "random"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [{
 				id: "606A9B3076DF2C9F"
 				item: {
@@ -3261,7 +3265,7 @@
 					type: "random"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [{
 				id: "59A67DDE3A3F4820"
 				item: {
@@ -3295,12 +3299,12 @@
 					type: "random"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [{
-				id: "70A33763E18B8F83"
+				id: "0FB6B81D9E1E258E"
 				item: {
 					components: {
-						"ftbfiltersystem:filter": "or(item(productivebees:acacia_wood_nest)item(productivebees:cherry_wood_nest))"
+						"ftbfiltersystem:filter": "or(item(productivebees:acacia_wood_nest)item(productivebees:cherry_wood_nest)item(productivebees:dark_oak_wood_nest))"
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -3332,7 +3336,7 @@
 					type: "random"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "38A7AEC6190D5FAD"
@@ -3376,7 +3380,7 @@
 					type: "random"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "07B10440B53D6EF9"
@@ -3417,7 +3421,7 @@
 					type: "random"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [{
 				id: "7328E97289424C1C"
 				item: {
@@ -3448,7 +3452,7 @@
 					type: "random"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [{
 				id: "4A3A23C248D6ABDC"
 				item: {
@@ -3479,7 +3483,7 @@
 					type: "random"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [{
 				id: "1A3ECC65179E6C25"
 				item: {
@@ -3569,7 +3573,7 @@
 					type: "random"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [{
 				id: "3B199396B2DF554D"
 				item: {
@@ -3606,7 +3610,7 @@
 					type: "random"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			tasks: [{
 				id: "5A7D16167EA18581"
 				item: {
@@ -3655,6 +3659,7 @@
 		{
 			dependencies: ["77914AB759F51A62"]
 			id: "7FC24DE55428724A"
+			optional: true
 			rewards: [
 				{
 					count: 2
@@ -3680,13 +3685,14 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["77914AB759F51A62"]
 			id: "147C1793BE9C2766"
 			min_width: 250
+			optional: true
 			rewards: [
 				{
 					id: "1537F7A900F2057F"
@@ -3711,7 +3717,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.5d
 			y: 2.5d
 		}
 		{
@@ -4191,6 +4197,7 @@
 				id: "minecraft:torch"
 			}
 			id: "3738420663297397"
+			optional: true
 			rewards: [
 				{
 					id: "1B61CA93BF40A74A"
