@@ -36,7 +36,7 @@
 		id: "72F811D111DECD94"
 		linked_quest: "3F26B10626145BBC"
 		shape: "hexagon"
-		x: 0.0d
+		x: -0.5d
 		y: 0.5d
 	}]
 	quests: [
@@ -55,7 +55,7 @@
 					id: "4B14534EE4774001"
 					team_reward: false
 					type: "xp"
-					xp: 5
+					xp: 25
 				}
 			]
 			shape: "square"
@@ -260,11 +260,6 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "359D4BA9182CEFDF"
-					type: "xp"
-					xp: 5
-				}
-				{
 					count: 3
 					id: "67E0D8F57D8ECCEC"
 					item: {
@@ -272,6 +267,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D8A332457734DDA"
+					table_id: 6449217915222121663L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -287,21 +288,14 @@
 		{
 			dependencies: ["1DA78BAB2A6E2C82"]
 			id: "2FCED22162B00429"
-			rewards: [
-				{
-					id: "48725B14576F8F35"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "36ACB383F8CFCFC1"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "36ACB383F8CFCFC1"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0DBD5E7EFC265BCC"
@@ -316,21 +310,14 @@
 			dependencies: ["1DA78BAB2A6E2C82"]
 			id: "3C0D9DFFEC915E2C"
 			optional: true
-			rewards: [
-				{
-					id: "1DCCDEC5834F3046"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "6A2DA9D0E43E117E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "6A2DA9D0E43E117E"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "07CEFA47255C447E"
@@ -344,21 +331,14 @@
 		{
 			dependencies: ["1DA78BAB2A6E2C82"]
 			id: "366F506F69C65F28"
-			rewards: [
-				{
-					id: "5F15C4CDA656939A"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "1C3E6E63629821D9"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "1C3E6E63629821D9"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "28A68759FAFC4945"
@@ -373,21 +353,14 @@
 			dependencies: ["1DA78BAB2A6E2C82"]
 			id: "408165388CBC4556"
 			optional: true
-			rewards: [
-				{
-					id: "44FFD01678584B7D"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "1F1B438F66F8173C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "1F1B438F66F8173C"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "75294CDC597324CD"
@@ -401,15 +374,23 @@
 		{
 			id: "1ABA5F2ECAA6D9D2"
 			min_width: 300
-			rewards: [{
-				count: 3
-				id: "0AF06E3ADBE3BF55"
-				item: {
-					count: 1
-					id: "magic_coins:silver_coin"
+			rewards: [
+				{
+					count: 3
+					id: "0AF06E3ADBE3BF55"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "6036A3405E97C444"
+					table_id: 6449217915222121663L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -585,15 +566,23 @@
 		{
 			id: "4EE97D251DD2E9B7"
 			min_width: 300
-			rewards: [{
-				count: 3
-				id: "3B7045084D12AF39"
-				item: {
-					count: 1
-					id: "magic_coins:silver_coin"
+			rewards: [
+				{
+					count: 3
+					id: "3B7045084D12AF39"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "24493199ECC20078"
+					table_id: 6449217915222121663L
+					type: "random"
+				}
+			]
 			shape: "square"
 			size: 1.5d
 			tasks: [{
@@ -927,30 +916,6 @@
 			y: 4.5d
 		}
 		{
-			id: "4C30F4091C2424E7"
-			rewards: [
-				{
-					id: "3EF7F70950A6AE58"
-					type: "xp"
-					xp: 5
-				}
-				{
-					exclude_from_claim_all: true
-					id: "30DAD3DCCE5048FF"
-					table_id: 6449217915222121663L
-					type: "loot"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "112FB68B181E3155"
-				item: { count: 1, id: "xycraft_machines:collector" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 0.5d
-		}
-		{
 			id: "7F4E7C687E7D8707"
 			min_width: 300
 			rewards: [
@@ -984,7 +949,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -1141,12 +1106,6 @@
 						id: "patchouli:guide_book"
 					}
 					type: "item"
-				}
-				{
-					id: "2299AFB542CF5376"
-					team_reward: false
-					type: "xp"
-					xp: 5
 				}
 				{
 					auto: "invisible"
@@ -1443,21 +1402,14 @@
 			dependencies: ["1DA78BAB2A6E2C82"]
 			id: "1739969280BB4E82"
 			optional: true
-			rewards: [
-				{
-					id: "6DFC622CD519C8B7"
-					type: "xp"
-					xp: 5
+			rewards: [{
+				id: "1ECB6E88EC4376F5"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "1ECB6E88EC4376F5"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "64FED31153CFA9BE"
@@ -1685,27 +1637,32 @@
 				id: "xnet:controller"
 			}
 			id: "0DF5D2B35FDEE536"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "066CE27F41ACECC6"
-				table_id: 6449217915222121663L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [
+			rewards: [
 				{
-					id: "7813EDA280801A49"
-					item: { count: 1, id: "xnet:controller" }
+					count: 3
+					id: "22B6E57677E09757"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
 					type: "item"
 				}
 				{
-					id: "424D2FF1B50FC11E"
-					item: { components: { "ftbfiltersystem:filter": "or(item(xnet:connector_red)item(xnet:connector_blue)item(xnet:connector_green)item(xnet:connector_yellow))", "minecraft:custom_name": "\"Connectors\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
+					exclude_from_claim_all: true
+					id: "066CE27F41ACECC6"
+					table_id: 6449217915222121663L
+					type: "random"
 				}
 			]
-			x: -0.5d
-			y: -0.5d
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7813EDA280801A49"
+				item: { count: 1, id: "xnet:controller" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -1714,9 +1671,12 @@
 			id: "606A9E518DA6CAE5"
 			rewards: [
 				{
-					id: "5064BE92FF283052"
-					type: "xp"
-					xp: 25
+					id: "2E1F5BD055805C52"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -1738,8 +1698,48 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["0DF5D2B35FDEE536"]
+			icon: {
+				id: "xnet:connector_green"
+			}
+			id: "24C1949D4690AFD3"
+			rewards: [{
+				count: 3
+				id: "11471AB4120D7C98"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "2011385F3A3117BB"
+					item: { components: { "ftbfiltersystem:filter": "or(item(xnet:connector_red)item(xnet:connector_green)item(xnet:connector_blue)item(xnet:connector_yellow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1BBD0785EF912331"
+					item: { components: { "ftbfiltersystem:filter": "or(item(xnet:advanced_connector_red)item(xnet:advanced_connector_green)item(xnet:advanced_connector_blue)item(xnet:advanced_connector_yellow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0CC17D1EE941DA97"
+					item: { count: 1, id: "xnet:facade" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.0d
 		}
 	]
 }

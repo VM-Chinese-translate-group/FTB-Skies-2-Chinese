@@ -2848,7 +2848,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["417573A657CAED05"]
+			dependencies: ["3B09C6E08E35AA20"]
 			hide_dependency_lines: true
 			id: "79C048F1AC234068"
 			rewards: [{
@@ -2870,7 +2870,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["340D7F25B5EB0D33"]
+			dependencies: ["5D915DB5A05D0CC1"]
 			hide_dependency_lines: true
 			id: "0ED8814CDDB8654F"
 			rewards: [{
@@ -2891,7 +2891,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["36E0D875AA8E2F66"]
+			dependencies: ["3F81397C7818B7C5"]
 			hide_dependency_lines: true
 			id: "05D774264FE9042A"
 			rewards: [{
@@ -3106,7 +3106,7 @@
 			id: "3F26B10626145BBC"
 			min_width: 300
 			rewards: [{
-				count: 2
+				count: 3
 				id: "088DB67A44396B75"
 				item: {
 					count: 1

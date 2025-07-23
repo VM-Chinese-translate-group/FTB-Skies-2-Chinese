@@ -785,6 +785,7 @@
 				}
 				{
 					id: "26E16B63A126978E"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 2
 				}

@@ -179,14 +179,24 @@
 				id: "elevatorid:elevator_white"
 			}
 			id: "59A6D7B544F1AE06"
-			rewards: [{
-				id: "365BB38FB61C15FB"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "365BB38FB61C15FB"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "663BD3BC6DD721FA"
+					item: {
+						count: 1
+						id: "elevatorid:elevator_white"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "78869974512F8AD0"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(elevatorid:elevators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }

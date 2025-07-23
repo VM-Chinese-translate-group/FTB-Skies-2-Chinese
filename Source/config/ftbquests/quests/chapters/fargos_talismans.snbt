@@ -255,10 +255,11 @@
 			id: "5E3CC82782A93C54"
 			rewards: [
 				{
+					count: 3
 					id: "17C54F92B4937452"
 					item: {
 						count: 1
-						id: "magic_coins:crystal_coin"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -314,6 +315,7 @@
 				}
 				{
 					id: "687CA5FB1EB6699B"
+					team_reward: false
 					type: "xp"
 					xp: 500
 				}

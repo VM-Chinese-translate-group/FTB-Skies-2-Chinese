@@ -317,13 +317,19 @@
 		}
 	]
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "0239E2112251EE91"
+		linked_quest: "51FCC60BA75382BA"
+		shape: "heart"
+		x: -6.0d
+		y: 3.0d
+	}]
 	quests: [
 		{
 			dependencies: ["7D090A60681CC97D"]
 			id: "23FFD172C3555282"
 			rewards: [{
-				count: 2
+				count: 3
 				id: "79AC8F4B98677F03"
 				item: {
 					count: 1
@@ -365,21 +371,14 @@
 		{
 			dependencies: ["7D090A60681CC97D"]
 			id: "31BD9A98AE5893B9"
-			rewards: [
-				{
-					id: "485DA21065A9E625"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				id: "3EF921A38A9D0FD1"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "3EF921A38A9D0FD1"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "5360F28BB5763607"
@@ -392,21 +391,14 @@
 		{
 			dependencies: ["7D090A60681CC97D"]
 			id: "287E6819DB849CD4"
-			rewards: [
-				{
-					id: "23C4EA88C1942CB8"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				id: "6B215313E5585BA8"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "6B215313E5585BA8"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "4A085AA8549D8A56"
@@ -586,7 +578,7 @@
 				item: { count: 1, id: "farmersdelight:tomato" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 1.0d
 		}
 		{
@@ -605,7 +597,7 @@
 				item: { count: 1, id: "farmersdelight:cabbage" }
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.5d
 			y: 1.0d
 		}
 		{
@@ -624,26 +616,7 @@
 				item: { count: 1, id: "farmersdelight:onion" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.0d
-		}
-		{
-			id: "1B18D4F1BDD51268"
-			rewards: [{
-				id: "78331F90B0788183"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 64L
-				id: "2430A046CB2B77B5"
-				item: { count: 1, id: "farmersdelight:rice" }
-				type: "item"
-			}]
-			x: -5.0d
+			x: -4.5d
 			y: 1.0d
 		}
 		{
@@ -670,11 +643,10 @@
 			dependencies: ["0CD3050976F79358"]
 			id: "3F1804C1F7413280"
 			rewards: [{
-				count: 3
 				id: "22D3A9898C2C6A67"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -690,11 +662,11 @@
 			dependencies: ["532DA0BDBF2F215A"]
 			id: "111F60263C10C60B"
 			rewards: [{
-				count: 3
+				count: 2
 				id: "771F23E67541B978"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -710,6 +682,7 @@
 			dependencies: ["0224D5E40F659D36"]
 			id: "0CD3050976F79358"
 			rewards: [{
+				count: 5
 				id: "7AFF5C8C83CFD0B0"
 				item: {
 					count: 1
@@ -729,6 +702,7 @@
 			dependencies: ["0224D5E40F659D36"]
 			id: "532DA0BDBF2F215A"
 			rewards: [{
+				count: 5
 				id: "20A35A8DD7ACE94D"
 				item: {
 					count: 1
@@ -1026,11 +1000,10 @@
 			dependencies: ["420F14616E3F8EEF"]
 			id: "7A208CB40BAFC4A9"
 			rewards: [{
-				count: 3
-				id: "0D03F65F11C94321"
+				id: "2FAE9296F07C83AD"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -1046,11 +1019,10 @@
 			dependencies: ["420F14616E3F8EEF"]
 			id: "6303F008757BA13F"
 			rewards: [{
-				count: 3
-				id: "767B36FC90E4B1A9"
+				id: "66CB31CFEA96144F"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -1066,11 +1038,10 @@
 			dependencies: ["420F14616E3F8EEF"]
 			id: "04D6FAAF40A941EF"
 			rewards: [{
-				count: 3
 				id: "552A42E93C157C88"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -1181,10 +1152,10 @@
 			min_width: 300
 			rewards: [{
 				count: 2
-				id: "78162705AD8BB140"
+				id: "728BE458B6CCFD10"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
@@ -1251,7 +1222,7 @@
 			dependencies: ["23FFD172C3555282"]
 			id: "67647369B6065EEC"
 			rewards: [{
-				count: 2
+				count: 3
 				id: "1678FFDF253345E7"
 				item: {
 					count: 1
@@ -1275,7 +1246,7 @@
 					id: "235DEFAA36039F76"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1396,6 +1367,40 @@
 			}]
 			x: -1.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["5D96F0CE1154B9B8"]
+			icon: {
+				id: "starbunclemania:chef_hat"
+			}
+			icon_scale: 2.0d
+			id: "1AF7088248493BC4"
+			rewards: [
+				{
+					id: "5398A1B46C586F33"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "24A017CE6BA57011"
+					item: {
+						count: 1
+						id: "farmersdelight:straw"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "7FEC9CD030E4D844"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.5d
 		}
 	]
 }

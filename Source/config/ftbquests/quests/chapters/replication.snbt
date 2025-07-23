@@ -79,7 +79,7 @@
 				item: { count: 1, id: "replication:replicator" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -137,7 +137,7 @@
 				item: { count: 1, id: "replication:disintegrator" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -156,7 +156,7 @@
 				item: { count: 1, id: "replication:replication_terminal" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -235,7 +235,7 @@
 				item: { count: 1, id: "replication:matter_tank" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -281,6 +281,25 @@
 			]
 			x: 0.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["5624865A6F796087"]
+			id: "46437EE07259E498"
+			rewards: [{
+				id: "7AFAE134A68DFF67"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F64CA2E4005545F"
+				item: { count: 1, id: "replication:replicator_enclosure" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
 		}
 	]
 }

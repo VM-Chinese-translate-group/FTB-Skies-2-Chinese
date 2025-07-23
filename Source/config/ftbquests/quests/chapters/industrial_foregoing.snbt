@@ -1492,7 +1492,7 @@
 				item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.0d
 			y: -1.0d
 		}
 		{
@@ -2085,92 +2085,6 @@
 			}]
 			x: 32.503571428571455d
 			y: 1.0d
-		}
-		{
-			dependencies: ["38AE15CA25C50869"]
-			id: "0C5C685D33EF723A"
-			optional: true
-			rewards: [
-				{
-					id: "3FDC36933E6D1F82"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "17E7257E7B1A7CF5"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "678934FA20A9F9FE"
-				item: { count: 1, id: "industrialforegoing:fermentation_station" }
-				type: "item"
-			}]
-			x: 22.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["2C9DEB9B0DF58090"]
-			dependency_requirement: "one_started"
-			id: "38AE15CA25C50869"
-			optional: true
-			rewards: [
-				{
-					id: "00112E96FCBFB922"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 3
-					id: "5885B7B86DE5680B"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "67E9DA3FB9D992CC"
-				item: { count: 1, id: "industrialforegoing:washing_factory" }
-				type: "item"
-			}]
-			x: 21.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0C5C685D33EF723A"]
-			id: "26EDB26B9D3431D8"
-			optional: true
-			rewards: [
-				{
-					id: "09980ED4E9A162A3"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "577B9B7F26D2B354"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2CA277D6839A72F9"
-				item: { count: 1, id: "industrialforegoing:fluid_sieving_machine" }
-				type: "item"
-			}]
-			x: 23.0d
-			y: -1.0d
 		}
 		{
 			dependencies: ["637CDD290456F2B2"]

@@ -1160,8 +1160,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "6E7B01699C329562"
-				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:coal_generator)item(actuallyadditions:heat_collector)item(actuallyadditions:oil_generator))", "minecraft:custom_name": "\"Power Generators\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "307989B0736360E7"
+				item: { count: 1, id: "actuallyadditions:heat_collector" }
 				type: "item"
 			}]
 			x: 6.0d
