@@ -2362,8 +2362,8 @@
 				}
 			]
 			tasks: [{
-				id: "3D6910ECED041940"
-				item: { count: 1, id: "ghasts_update:dried_ghast" }
+				id: "7344481BEC662CFC"
+				item: { count: 1, id: "vanillabackport:dried_ghast" }
 				type: "item"
 			}]
 			x: -2.0d
