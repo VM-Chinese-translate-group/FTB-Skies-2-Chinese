@@ -23,7 +23,7 @@
 		}
 		{
 			height: 2.0d
-			image: "irons_spellbooks:textures/mob_effect/vex_timer.png"
+			image: "irons_spellbooks:textures/mob_effect/oakskin.png"
 			rotation: 0.0d
 			width: 2.0d
 			x: -2.5d
@@ -115,7 +115,7 @@
 		}
 		{
 			height: 2.0d
-			image: "irons_spellbooks:textures/mob_effect/raise_dead_timer.png"
+			image: "irons_spellbooks:textures/mob_effect/frostbite.png"
 			rotation: 0.0d
 			width: 2.0d
 			x: 2.5d

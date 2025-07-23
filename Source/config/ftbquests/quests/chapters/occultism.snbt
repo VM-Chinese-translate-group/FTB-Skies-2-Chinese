@@ -455,7 +455,14 @@
 		}
 	]
 	order_index: 4
-	quest_links: [ ]
+	quest_links: [{
+		id: "2C2FD27D3FE7E413"
+		linked_quest: "6805CAD68E2C1515"
+		shape: "pentagon"
+		size: 1.2d
+		x: 2.0d
+		y: 2.0d
+	}]
 	quests: [
 		{
 			icon: {

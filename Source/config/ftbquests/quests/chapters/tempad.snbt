@@ -75,15 +75,6 @@
 			optional: true
 			rewards: [
 				{
-					count: 8
-					id: "7B6F75ABE8279E5F"
-					item: {
-						count: 1
-						id: "tempad:location_card"
-					}
-					type: "item"
-				}
-				{
 					count: 2
 					id: "15B3EE029C83D29C"
 					item: {
@@ -93,9 +84,13 @@
 					type: "item"
 				}
 				{
-					id: "6EE2487F56C71D4D"
-					type: "xp"
-					xp: 20
+					count: 8
+					id: "7B6F75ABE8279E5F"
+					item: {
+						count: 1
+						id: "tempad:location_card"
+					}
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -116,14 +111,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "5CA2571FFF674963"
-					item: {
-						count: 1
-						id: "tempad:location_broadcaster"
-					}
-					type: "item"
-				}
-				{
 					id: "5826F9948162E9F9"
 					item: {
 						count: 1
@@ -132,9 +119,12 @@
 					type: "item"
 				}
 				{
-					id: "642FADD7B3286A96"
-					type: "xp"
-					xp: 30
+					id: "5CA2571FFF674963"
+					item: {
+						count: 1
+						id: "tempad:location_broadcaster"
+					}
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -151,14 +141,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "07683D451F18ACDB"
-					item: {
-						count: 1
-						id: "minecraft:bookshelf"
-					}
-					type: "item"
-				}
-				{
 					count: 3
 					id: "452ECF2034A20F64"
 					item: {
@@ -168,9 +150,12 @@
 					type: "item"
 				}
 				{
-					id: "40D22C6906C073D7"
-					type: "xp"
-					xp: 30
+					id: "07683D451F18ACDB"
+					item: {
+						count: 1
+						id: "minecraft:bookshelf"
+					}
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -189,17 +174,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "676722973021E26F"
-					item: {
-						components: {
-							"tempad:chronon_content": 2000
-						}
-						count: 1
-						id: "tempad:chronon_cell"
-					}
-					type: "item"
-				}
-				{
 					count: 3
 					id: "61AC1E72AE02141F"
 					item: {
@@ -209,9 +183,15 @@
 					type: "item"
 				}
 				{
-					id: "091CAFE1080CDD3E"
-					type: "xp"
-					xp: 30
+					id: "676722973021E26F"
+					item: {
+						components: {
+							"tempad:chronon_content": 2000
+						}
+						count: 1
+						id: "tempad:chronon_cell"
+					}
+					type: "item"
 				}
 			]
 			shape: "octagon"
@@ -232,14 +212,6 @@
 			id: "408AB6B9AEFBC23D"
 			rewards: [
 				{
-					id: "6815B04C3C4E9F7C"
-					item: {
-						count: 1
-						id: "tempad:timedoor_marker"
-					}
-					type: "item"
-				}
-				{
 					count: 2
 					id: "17D3375DD2CFE445"
 					item: {
@@ -249,9 +221,12 @@
 					type: "item"
 				}
 				{
-					id: "21C461F347E626D5"
-					type: "xp"
-					xp: 20
+					id: "6815B04C3C4E9F7C"
+					item: {
+						count: 1
+						id: "tempad:timedoor_marker"
+					}
+					type: "item"
 				}
 			]
 			tasks: [
@@ -276,14 +251,6 @@
 			id: "0566053CCA772771"
 			rewards: [
 				{
-					id: "3C2AD7D46A39DEB8"
-					item: {
-						count: 1
-						id: "tempad:knowledge_projector"
-					}
-					type: "item"
-				}
-				{
 					id: "61D597B9B945C369"
 					item: {
 						count: 1
@@ -292,9 +259,12 @@
 					type: "item"
 				}
 				{
-					id: "531B9F132FEC0A1E"
-					type: "xp"
-					xp: 10
+					id: "3C2AD7D46A39DEB8"
+					item: {
+						count: 1
+						id: "tempad:knowledge_projector"
+					}
+					type: "item"
 				}
 			]
 			shape: "octagon"
@@ -312,14 +282,6 @@
 			id: "0F7F7C7ABF851D84"
 			rewards: [
 				{
-					id: "7BB2C6969C5EA6E1"
-					item: {
-						count: 1
-						id: "minecraft:clock"
-					}
-					type: "item"
-				}
-				{
 					count: 2
 					id: "0EB8DC30739AF3C2"
 					item: {
@@ -329,9 +291,12 @@
 					type: "item"
 				}
 				{
-					id: "765D683A4C70D8D6"
-					type: "xp"
-					xp: 20
+					id: "7BB2C6969C5EA6E1"
+					item: {
+						count: 1
+						id: "minecraft:clock"
+					}
+					type: "item"
 				}
 			]
 			shape: "octagon"
@@ -351,14 +316,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "1E8DD31790A9BF92"
-					item: {
-						count: 1
-						id: "minecraft:compass"
-					}
-					type: "item"
-				}
-				{
 					id: "1E6B3C3610171F00"
 					item: {
 						count: 1
@@ -367,9 +324,12 @@
 					type: "item"
 				}
 				{
-					id: "6B80137F121D00B1"
-					type: "xp"
-					xp: 50
+					id: "1E8DD31790A9BF92"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -385,14 +345,6 @@
 			id: "7DE9A4C7979AC1FA"
 			rewards: [
 				{
-					id: "0432010453988287"
-					item: {
-						count: 1
-						id: "tempad:chronon_battery"
-					}
-					type: "item"
-				}
-				{
 					id: "4D637521E280E83C"
 					item: {
 						count: 1
@@ -401,9 +353,15 @@
 					type: "item"
 				}
 				{
-					id: "5EE1281AFE8FD194"
-					type: "xp"
-					xp: 50
+					id: "0432010453988287"
+					item: {
+						components: {
+							"tempad:chronon_content": 2000
+						}
+						count: 1
+						id: "tempad:chronon_battery"
+					}
+					type: "item"
 				}
 			]
 			shape: "octagon"
@@ -422,19 +380,19 @@
 			optional: true
 			rewards: [
 				{
-					id: "61EAC69FF7B8A144"
-					item: {
-						count: 1
-						id: "tempad:chronomark"
-					}
-					type: "item"
-				}
-				{
 					count: 3
 					id: "0CF4760A6C40DFD8"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "61EAC69FF7B8A144"
+					item: {
+						count: 1
+						id: "tempad:chronomark"
 					}
 					type: "item"
 				}
@@ -450,22 +408,15 @@
 		{
 			dependencies: ["6D28E1AFBB33C43E"]
 			id: "53FBBFC675F1FE7F"
-			rewards: [
-				{
-					count: 4
-					id: "35D95F087E92B598"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "35D95F087E92B598"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "32633CA507E4F65A"
-					type: "xp"
-					xp: 40
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6BDF16773361ABBB"
 				item: { count: 1, id: "tempad:chronon_battery" }
@@ -478,21 +429,14 @@
 			dependencies: ["53FBBFC675F1FE7F"]
 			id: "214D210F200CD11F"
 			optional: true
-			rewards: [
-				{
-					id: "580D4B389D5C2F7F"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "580D4B389D5C2F7F"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					id: "545AE7011D2B6AAF"
-					type: "xp"
-					xp: 50
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F40388CBA960719"
 				item: { count: 1, id: "tempad:time_twister" }
@@ -508,22 +452,15 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "54B7D149B45635F4"
-			rewards: [
-				{
-					count: 3
-					id: "005FAA3F386BF75E"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "005FAA3F386BF75E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "32A14260925CE652"
-					type: "xp"
-					xp: 30
-				}
-			]
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "55C720CD3637149B"
@@ -536,21 +473,14 @@
 		{
 			dependencies: ["7DE9A4C7979AC1FA"]
 			id: "3A43CCB33A024711"
-			rewards: [
-				{
-					id: "2D39EE756037A114"
-					item: {
-						count: 1
-						id: "magic_coins:crystal_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "2D39EE756037A114"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
 				}
-				{
-					id: "0D0F31F4D4448E01"
-					type: "xp"
-					xp: 50
-				}
-			]
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -566,15 +496,6 @@
 			id: "575A111D4418BFB6"
 			rewards: [
 				{
-					count: 6
-					id: "4431EDA9F717BA78"
-					item: {
-						count: 1
-						id: "tempad:time_steel"
-					}
-					type: "item"
-				}
-				{
 					id: "56DC22833A5266EF"
 					item: {
 						count: 1
@@ -583,9 +504,13 @@
 					type: "item"
 				}
 				{
-					id: "77C3407B0E74AAEF"
-					type: "xp"
-					xp: 50
+					count: 6
+					id: "4431EDA9F717BA78"
+					item: {
+						count: 1
+						id: "tempad:time_steel"
+					}
+					type: "item"
 				}
 			]
 			shape: "octagon"
@@ -602,22 +527,15 @@
 			dependencies: ["59968CB3EFFC440D"]
 			id: "31FBB4478F32B054"
 			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "2CB859EBF633C44D"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "2CB859EBF633C44D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "3BFA2E10F8132EF3"
-					type: "xp"
-					xp: 30
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E59EAE103B456D2"
 				item: { count: 1, id: "tempad:screening_device" }
@@ -631,15 +549,6 @@
 			id: "6D28E1AFBB33C43E"
 			rewards: [
 				{
-					count: 4
-					id: "7B804FEC14D74103"
-					item: {
-						count: 1
-						id: "tempad:time_steel"
-					}
-					type: "item"
-				}
-				{
 					count: 3
 					id: "021FFB6829EE0351"
 					item: {
@@ -649,9 +558,13 @@
 					type: "item"
 				}
 				{
-					id: "420EB97B3025EACF"
-					type: "xp"
-					xp: 30
+					count: 4
+					id: "7B804FEC14D74103"
+					item: {
+						count: 1
+						id: "tempad:time_steel"
+					}
+					type: "item"
 				}
 			]
 			tasks: [{

@@ -447,12 +447,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "756344C4B4441166"
-					team_reward: false
-					type: "xp"
-					xp: 10
-				}
 			]
 			shape: "square"
 			tasks: [{
@@ -468,23 +462,18 @@
 			id: "23671BD388852F62"
 			rewards: [
 				{
-					id: "00BDD41D4397DBAA"
-					type: "xp"
-					xp: 10
+					id: "4E583C6C5863C34A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "00B13051194ABCB6"
 					item: {
 						count: 1
 						id: "industrialforegoing:biofuel_bucket"
-					}
-					type: "item"
-				}
-				{
-					id: "4E583C6C5863C34A"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -501,11 +490,6 @@
 		{
 			id: "6F4A4B4C261FF84B"
 			rewards: [
-				{
-					id: "225B4A248040ADE3"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 3
 					id: "4C6F18F403C6A32A"
@@ -537,11 +521,6 @@
 			id: "0FFC6CBB213B30AD"
 			rewards: [
 				{
-					id: "6E2D3C05459E708F"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 3
 					id: "76A9D26C17AF8F1A"
 					item: {
@@ -572,11 +551,6 @@
 			id: "76D5941D76026588"
 			rewards: [
 				{
-					id: "0D0796387C4AC0CE"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 3
 					id: "5267A220AB16A344"
 					item: {
@@ -606,11 +580,6 @@
 		{
 			id: "4A68D2CD7437589E"
 			rewards: [
-				{
-					id: "1FBB01290441687E"
-					type: "xp"
-					xp: 10
-				}
 				{
 					id: "3E411C455A5C8CA5"
 					item: {
@@ -645,11 +614,6 @@
 		{
 			id: "789A4FE79256A4C6"
 			rewards: [
-				{
-					id: "23E24069621F9CC7"
-					type: "xp"
-					xp: 10
-				}
 				{
 					id: "70D61DEB79FA57AD"
 					item: {
@@ -687,11 +651,6 @@
 			id: "2CEF038B5DA1FF25"
 			rewards: [
 				{
-					id: "09C452DBCE32CAFF"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 3
 					id: "0EFEA5871AD8E394"
 					item: {
@@ -721,11 +680,6 @@
 		{
 			id: "018B19721F4404FF"
 			rewards: [
-				{
-					id: "074E4C30A1B5A4CD"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 3
 					id: "68AEC0633397DEAA"
@@ -757,11 +711,6 @@
 			id: "4E9EBB1268DEF8A6"
 			rewards: [
 				{
-					id: "3B5425CE2044D689"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 3
 					id: "67818954A1FFA029"
 					item: {
@@ -791,11 +740,6 @@
 		{
 			id: "795A3ABA29AC0E4F"
 			rewards: [
-				{
-					id: "51A17CEFA26D986A"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 3
 					id: "7CB49F78BF2A5059"
@@ -827,11 +771,6 @@
 			id: "12CB62610FEAADA0"
 			rewards: [
 				{
-					id: "1A6B3193A2F3593C"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "77F884CF89C7A86A"
 					item: {
 						count: 1
@@ -861,11 +800,6 @@
 			id: "2B2BB685DE246BCC"
 			rewards: [
 				{
-					id: "2942ADB77EF1E146"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "6A9C1A7530AC51D6"
 					item: {
 						count: 1
@@ -894,11 +828,6 @@
 		{
 			id: "0826EF3E7B15B219"
 			rewards: [
-				{
-					id: "73B90262DBDBF9F5"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 3
 					id: "705013A7E7CEA2BC"
@@ -930,11 +859,6 @@
 			id: "6B2F4AA722DAC535"
 			rewards: [
 				{
-					id: "4EFA48D935FD3D42"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "3532460F0A708DE0"
 					item: {
 						count: 1
@@ -963,11 +887,6 @@
 		{
 			id: "0E610A03BB4007B6"
 			rewards: [
-				{
-					id: "53FBDC62FC953367"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 3
 					id: "49BAC2532C9A0E5C"
@@ -998,11 +917,6 @@
 		{
 			id: "711943CB0063626C"
 			rewards: [
-				{
-					id: "5A627AECE3C5E897"
-					type: "xp"
-					xp: 5
-				}
 				{
 					count: 16
 					id: "699C0267E4FE00D2"
@@ -1037,11 +951,6 @@
 			}
 			id: "5901B0375947AAE4"
 			rewards: [
-				{
-					id: "367BA83E99B154BD"
-					type: "xp"
-					xp: 5
-				}
 				{
 					count: 3
 					id: "5C35450D603A7A40"
@@ -1162,22 +1071,15 @@
 				id: "powah:energy_cell_nitro"
 			}
 			id: "6A4A2A2EFD552316"
-			rewards: [
-				{
-					id: "6FF81A5E66C5AC65"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				count: 5
+				id: "6FCA8C4C7456BE8E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "6FCA8C4C7456BE8E"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1188,6 +1090,7 @@
 				{
 					id: "60AE0E54D1CAE9EE"
 					item: { components: { "ftbfiltersystem:filter": "or(item(powah:battery_starter)item(powah:battery_basic)item(powah:battery_hardened)item(powah:battery_blazing)item(powah:battery_niotic)item(powah:battery_spirited)item(powah:battery_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1201,22 +1104,15 @@
 				id: "powah:ender_cell_nitro"
 			}
 			id: "1CFBFD1CE648772F"
-			rewards: [
-				{
-					id: "3E00976CB4538CE0"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				count: 5
+				id: "5FA7EA57CAB5E2DD"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "5FA7EA57CAB5E2DD"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6ADC311A6F201C21"
@@ -1234,22 +1130,15 @@
 				id: "powah:energy_cable_nitro"
 			}
 			id: "1706D0B9391ED8E1"
-			rewards: [
-				{
-					id: "7EF5F19D77CB0011"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				count: 5
+				id: "16D14DD28FB62442"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "16D14DD28FB62442"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "56AEAE6BD791EA6C"
@@ -1266,22 +1155,15 @@
 				id: "powah:ender_gate_nitro"
 			}
 			id: "4E6EC6E1A507A52B"
-			rewards: [
-				{
-					id: "10828358595E6EAC"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				count: 5
+				id: "6670EC83CA17018A"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "6670EC83CA17018A"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "51876BE373B08431"
@@ -1298,22 +1180,15 @@
 				id: "powah:magmator_nitro"
 			}
 			id: "04ABB8DD43099429"
-			rewards: [
-				{
-					id: "01F0E6B7DECF7828"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				count: 5
+				id: "6DE4CBFAB93B7A69"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "6DE4CBFAB93B7A69"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1C1B6CA8991CBB5D"
@@ -1357,22 +1232,15 @@
 			}
 			id: "70A9E1AC900A77B4"
 			min_width: 250
-			rewards: [
-				{
-					id: "486CC8E27C679BE6"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				count: 5
+				id: "26DC9E89D7F46B8A"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "26DC9E89D7F46B8A"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1396,21 +1264,20 @@
 			}
 			icon_scale: 2.0d
 			id: "4F092D86017F37E9"
-			min_width: 250
 			rewards: [
-				{
-					id: "5CE6F8F0E9D61D66"
-					item: {
-						count: 1
-						id: "powah:energizing_rod_starter"
-					}
-					type: "item"
-				}
 				{
 					id: "6349A7777447942C"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5CE6F8F0E9D61D66"
+					item: {
+						count: 1
+						id: "powah:energizing_rod_starter"
 					}
 					type: "item"
 				}
@@ -1437,9 +1304,13 @@
 			id: "3DD19431C3355798"
 			rewards: [
 				{
-					id: "491AB34C6F2F0806"
-					type: "xp"
-					xp: 10
+					count: 3
+					id: "501ACF0E576FD694"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					count: 4
@@ -1447,15 +1318,6 @@
 					item: {
 						count: 1
 						id: "minecraft:gold_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "501ACF0E576FD694"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1474,9 +1336,13 @@
 			id: "6A6F2269F487A5D4"
 			rewards: [
 				{
-					id: "524282A7B71F6C65"
-					type: "xp"
-					xp: 25
+					count: 5
+					id: "328E7F90766D6D19"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					count: 4
@@ -1484,15 +1350,6 @@
 					item: {
 						count: 1
 						id: "minecraft:blaze_rod"
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "328E7F90766D6D19"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1511,23 +1368,18 @@
 			id: "2A6D6091E1A8F979"
 			rewards: [
 				{
-					id: "0647F09E48140ED3"
-					type: "xp"
-					xp: 50
+					id: "3C3026EE8CB68B7A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "08233676447334E3"
 					item: {
 						count: 1
 						id: "minecraft:diamond_ore"
-					}
-					type: "item"
-				}
-				{
-					id: "3C3026EE8CB68B7A"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1546,23 +1398,18 @@
 			id: "2D4682CC6A524A50"
 			rewards: [
 				{
-					id: "035C8F2701475DD0"
-					type: "xp"
-					xp: 100
+					id: "556203D4313D51AA"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "2C7E7FAF419F7DC2"
 					item: {
 						count: 1
 						id: "minecraft:emerald_ore"
-					}
-					type: "item"
-				}
-				{
-					id: "556203D4313D51AA"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1581,9 +1428,13 @@
 			id: "7D4C8B02C09CF5AD"
 			rewards: [
 				{
-					id: "5A6892454921346A"
-					type: "xp"
-					xp: 250
+					count: 2
+					id: "1A3FE57261149478"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
 				{
 					count: 64
@@ -1591,15 +1442,6 @@
 					item: {
 						count: 1
 						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "1A3FE57261149478"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1621,23 +1463,18 @@
 			id: "7C0EFB4A52F2EC61"
 			rewards: [
 				{
-					id: "63008E76CED256C6"
-					type: "xp"
-					xp: 5
+					id: "6C285A37B89B4DE2"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "5CFAB08FD5EA0FF9"
 					item: {
 						count: 1
 						id: "powah:book"
-					}
-					type: "item"
-				}
-				{
-					id: "6C285A37B89B4DE2"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1741,22 +1578,15 @@
 				id: "powah:thermo_generator_nitro"
 			}
 			id: "5B512AED08EC1899"
-			rewards: [
-				{
-					id: "3BDE89EE45E871FA"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				count: 5
+				id: "52AA5C79556299CC"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "52AA5C79556299CC"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "13C95D3933BD269D"
