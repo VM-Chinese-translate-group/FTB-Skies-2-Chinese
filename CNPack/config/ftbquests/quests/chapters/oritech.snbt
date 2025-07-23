@@ -13,7 +13,7 @@
 		{
 			click: "https://moddedmc.org/en/project/oritech/docs/interaction/particle_accelerator"
 			height: 1.0d
-			hover: ["Particle Accelerator Wiki"]
+			hover: ["粒子加速器Wiki"]
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -76,7 +76,7 @@
 		{
 			click: "https://moddedmc.wiki/en/project/oritech/docs/processing/reactor/introduction"
 			height: 1.0d
-			hover: ["Nuclear Reactor Wiki"]
+			hover: ["核反应堆Wiki"]
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -2724,7 +2724,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(oritech:reactor_rod)item(oritech:reactor_double_rod)item(oritech:reactor_quad_rod))"
-							"minecraft:custom_name": "\"Reactor Rods\""
+							"minecraft:custom_name": "”反应堆棒“"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -2752,7 +2752,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(oritech:uranium_pellet)item(oritech:plutonium_pellet))"
-							"minecraft:custom_name": "\"Reactor Fuel\""
+							"minecraft:custom_name": "\"反应堆燃料\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
