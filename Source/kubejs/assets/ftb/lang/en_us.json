@@ -212,5 +212,17 @@
     "item.ftb.molten_kivi_bucket": "Molten Kivi Bucket",
     "item.ftb.industrial_coolant_bucket": "Industrial Coolant Bucket",
     "block.ftb.molten_kivi": "Molten Kivi",
-    "block.ftb.industrial_coolant": "Industrial Coolant"
+    "block.ftb.industrial_coolant": "Industrial Coolant",
+    "block.modern_industrialization.advanced_coke_oven": "Advanced Coke Oven",
+    "rei_categories.modern_industrialization.advanced_coke_oven": "Advanced Coke Oven",
+    "block.modern_industrialization.deep_mob_binder": "Deep Mob Binder",
+    "rei_categories.modern_industrialization.deep_mob_binder": "Deep Mob Binder",
+    "block.modern_industrialization.bricked_fluid_input_hatch": "Bricked Fluid Input Hatch",
+    "block.modern_industrialization.bricked_fluid_output_hatch": "Bricked Fluid Output Hatch",
+    "block.modern_industrialization.bricked_item_input_hatch": "Bricked Item Input Hatch",
+    "block.modern_industrialization.bricked_item_output_hatch": "Bricked Item Output Hatch",
+    "block.modern_industrialization.soul_bricked_fluid_input_hatch": "Soul Bricked Fluid Input Hatch",
+    "block.modern_industrialization.soul_bricked_fluid_output_hatch": "Soul Bricked Fluid Output Hatch",
+    "block.modern_industrialization.soul_bricked_item_input_hatch": "Soul Bricked Item Input Hatch",
+    "block.modern_industrialization.soul_bricked_item_output_hatch": "Soul Bricked Item Output Hatch"
 }
