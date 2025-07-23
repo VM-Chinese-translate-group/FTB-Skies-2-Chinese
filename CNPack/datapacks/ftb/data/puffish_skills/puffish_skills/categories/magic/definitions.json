@@ -972,12 +972,12 @@
         "title": {
             "translate": "puffish_skills.categories.iron_summon_damage+5%.title"
         },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "irons_spellbooks:raise_dead_timer"
-            }
-        },
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:archevoker_logbook_translated"
+			}
+		},
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -993,12 +993,12 @@
         "title": {
             "translate": "puffish_skills.categories.iron_summon_damage+10%.title"
         },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "irons_spellbooks:raise_dead_timer"
-            }
-        },
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:archevoker_logbook_translated"
+			}
+		},
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -1014,12 +1014,12 @@
         "title": {
             "translate": "puffish_skills.categories.iron_summon_damage+25%.title"
         },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "irons_spellbooks:raise_dead_timer"
-            }
-        },
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:archevoker_logbook_translated"
+			}
+		},
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -1035,12 +1035,12 @@
         "title": {
             "translate": "puffish_skills.categories.iron_summon_damage+50%.title"
         },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "irons_spellbooks:raise_dead_timer"
-            }
-        },
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:archevoker_logbook_translated"
+			}
+		},
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -1062,12 +1062,12 @@
                 "frame": "goal"
             }
         },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "irons_spellbooks:raise_dead_timer"
-            }
-        },
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:archevoker_logbook_translated"
+			}
+		},
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
