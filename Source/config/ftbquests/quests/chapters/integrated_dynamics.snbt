@@ -301,10 +301,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"5691235133373883"
-				"7F8E338B8B2C9EDC"
-			]
+			dependencies: ["5691235133373883"]
 			dependency_requirement: "one_completed"
 			icon: {
 				id: "integrateddynamics:mechanical_squeezer"
@@ -348,45 +345,6 @@
 			]
 			x: 4.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["5691235133373883"]
-			id: "7F8E338B8B2C9EDC"
-			optional: true
-			rewards: [
-				{
-					count: 8
-					id: "3661E5A7B8016F2E"
-					item: {
-						count: 1
-						id: "minecraft:coal"
-					}
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "1F59A30131D4D6A8"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 2
-					id: "100D2631E42B7780"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
-			shape: "gear"
-			tasks: [{
-				id: "69D1D6AA0B135DCB"
-				item: { count: 1, id: "integrateddynamics:coal_generator" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.0d
 		}
 		{
 			dependencies: ["63A3450169DD4B17"]

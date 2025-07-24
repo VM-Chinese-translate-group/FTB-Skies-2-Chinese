@@ -2470,10 +2470,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"0467ED23E790F1C4"
-				"294AB45D52BE342B"
-			]
+			dependencies: ["0467ED23E790F1C4"]
 			id: "3AE87DA3A5C23D67"
 			rewards: [
 				{

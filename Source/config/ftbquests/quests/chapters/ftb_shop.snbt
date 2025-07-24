@@ -680,7 +680,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: -7.5d
 		}
 		{
@@ -1394,7 +1394,7 @@
 				item: { count: 1, id: "magic_coins:gold_coin" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: -7.5d
 		}
 		{
@@ -1541,7 +1541,7 @@
 				item: { count: 1, id: "magic_coins:gold_coin" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -7.5d
 		}
 		{
@@ -3402,7 +3402,7 @@
 				item: { count: 1, id: "magic_coins:gold_coin" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -7.5d
 		}
 		{
@@ -3649,6 +3649,57 @@
 			}]
 			x: -6.0d
 			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0A81E251CAB36215"
+				"325567B88BAFAD0D"
+			]
+			icon: {
+				id: "geneticsresequenced:overclocker"
+			}
+			id: "6BEFA6550FF5EC1F"
+			rewards: [{
+				count: 2
+				id: "0FA26E4AD9D1E2DE"
+				item: {
+					count: 1
+					id: "geneticsresequenced:overclocker"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "063C7AFD4B873637"
+				item: { count: 1, id: "magic_coins:gold_coin" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"4F6FD394B6217AF6"
+				"325567B88BAFAD0D"
+			]
+			icon: {
+				id: "industrialforegoing:hydroponic_bed"
+			}
+			id: "6C7DF3FF24AB2C86"
+			rewards: [{
+				id: "0EA60CB325C8BDC2"
+				item: {
+					count: 1
+					id: "industrialforegoing:hydroponic_bed"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BC233F3E0080189"
+				item: { count: 1, id: "magic_coins:gold_coin" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
 		}
 	]
 }

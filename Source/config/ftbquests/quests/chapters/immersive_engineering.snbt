@@ -797,6 +797,14 @@
 			id: "1EFED5AC265CDB0C"
 			rewards: [
 				{
+					id: "68F145558C57BB9B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 4
 					id: "0994B808224C971E"
 					item: {
@@ -810,14 +818,6 @@
 					id: "42D6F6B1FC8A5348"
 					type: "xp"
 					xp: 10
-				}
-				{
-					id: "68F145558C57BB9B"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
 				}
 			]
 			tasks: [

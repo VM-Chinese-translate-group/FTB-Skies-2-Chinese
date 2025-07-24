@@ -362,10 +362,11 @@
 			id: "0BAA7E5F5FF7B93C"
 			rewards: [
 				{
+					count: 5
 					id: "21ECF3083EA4459E"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -536,10 +537,11 @@
 			id: "30D00AC248214D58"
 			rewards: [
 				{
+					count: 5
 					id: "410094D97A9CB7E2"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -632,10 +634,11 @@
 			id: "740DA65D6FB1F0EC"
 			rewards: [
 				{
+					count: 5
 					id: "1B23CA77B7F10ACE"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -796,10 +799,11 @@
 			optional: true
 			rewards: [
 				{
+					count: 5
 					id: "04DA9D7E28691825"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -916,10 +920,11 @@
 			id: "7D0175F16F9A2D0D"
 			optional: true
 			rewards: [{
+				count: 5
 				id: "002F8FDE785E2ED2"
 				item: {
 					count: 1
-					id: "magic_coins:gold_coin"
+					id: "magic_coins:silver_coin"
 				}
 				type: "item"
 			}]
@@ -972,7 +977,7 @@
 				id: "58DD4F15DD74D309"
 				item: {
 					count: 1
-					id: "magic_coins:gold_coin"
+					id: "magic_coins:silver_coin"
 				}
 				type: "item"
 			}]
@@ -1268,6 +1273,7 @@
 				}
 				{
 					id: "07642B9E3F320C6B"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 15
 				}

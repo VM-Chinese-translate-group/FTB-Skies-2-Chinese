@@ -24,39 +24,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0A81E251CAB36215"]
-			id: "560BC956F5EB0000"
-			optional: true
-			rewards: [
-				{
-					id: "2484BA89BE93F778"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "745D1513CA64FC83"
-					item: {
-						count: 1
-						id: "minecraft:coal"
-					}
-					random_bonus: 4
-					type: "item"
-				}
-			]
-			shape: "gear"
-			tasks: [{
-				id: "2FE4521DD9DF39B3"
-				item: { count: 1, id: "geneticsresequenced:coal_generator" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["126B2AC119617AD0"]
 			icon: {
 				id: "geneticsresequenced:cell_analyzer"
@@ -198,7 +165,7 @@
 					id: "1D966D491C2E1D8C"
 					item: {
 						count: 1
-						id: "magic_coins:crystal_coin"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -355,6 +322,14 @@
 			id: "773F797227054C32"
 			rewards: [
 				{
+					id: "5816FFF538D4D6D0"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "156AB1E878A4F306"
 					item: {
 						components: {
@@ -362,14 +337,6 @@
 						}
 						count: 1
 						id: "patchouli:guide_book"
-					}
-					type: "item"
-				}
-				{
-					id: "5816FFF538D4D6D0"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
