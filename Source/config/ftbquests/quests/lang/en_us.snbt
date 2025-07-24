@@ -71,9 +71,9 @@
 	]
 	quest.0056517EDF3DAB08.title: "&fMeasuring &bRPM &f\\&\\ &bStress"
 	quest.0058025036FE7E45.quest_desc: [
-		"The Celestigem Anvil can repair items using energy. Yes, just typical Forge Energy(FE)!"
+		"The &dCelestigem Anvil&r can repair items using energy. Yes, just typical Forge Energy(FE)!"
 		""
-		"&7Tip: Upgrade from the previous tier using a template."
+		"&7&oTip: Upgrade from the previous tier using a template."
 	]
 	quest.0058025036FE7E45.title: "&dCelestigem Anvil"
 	quest.006014B382FCF6E6.quest_desc: [
@@ -496,8 +496,6 @@
 		"It allows you to craft tier 3 talismans, &bForce Talismans&r, and can be upgraded into the &bLegendary Talisman Base&r."
 	]
 	quest.04561BBA227DE4D6.title: "&dEpic Talisman Base"
-	quest.04563030DE224F18.quest_desc: ["Anvils in &eApotheosis&r can be enchanted with &bUnbreaking&r to extend their lifetime!"]
-	quest.04563030DE224F18.title: "&fEnchant Your Anvils!"
 	quest.0457FBD64D57E07B.quest_desc: ["&3Empowered Emeradic Crystal Blocks&r are used to make &6FTB Pyramid's &dDissolved Potential&r."]
 	quest.0457FBD64D57E07B.title: "&3Empowered Emeradic Crystal"
 	quest.0467ED23E790F1C4.quest_desc: ["&3Item Vaults&r are an interfaceless storage that can be expanded by adding more &3Item Vaults&r together."]
@@ -531,13 +529,13 @@
 	quest.04D4223CC7A21FA4.quest_desc: [
 		"The &dAdvanced Portal Gun&r is perfect for teleporting around."
 		""
-		"This version allows you to save locations to teleport to, provided it has power and &dPortal Fluid&r."
+		"This version allows you to save locations to teleport to, provided it has power and &2Portal Fluid&r."
 		""
 		"To save a location, open up the menu using &bV&r by default. You might need to change this in your keybinds!"
 		""
 		"Once saved, using the portal gun will create a portal for the selected favorite location."
 	]
-	quest.04D4223CC7A21FA4.title: "&fAdvanced Portal Gun"
+	quest.04D4223CC7A21FA4.title: "&dAdvanced Portal Gun"
 	quest.04D6FAAF40A941EF.title: "&fStuffed Pumpkin"
 	quest.04DFBDE537F968F5.quest_desc: ["The &cHeatproof Machine Casing&r will be used in a variety of multiblock structures from &eMI&r, so make sure to make a lot!"]
 	quest.04DFBDE537F968F5.title: "&cHeatproof Machine Casing"
@@ -705,9 +703,11 @@
 	]
 	quest.06918197435AF24E.title: "&3Advanced Pattern Provider Upgrade"
 	quest.069C6BE96C1A7D73.quest_desc: [
-		"The Eclipse Alloy Anvil can repair items using energy just like the previous tier. If fueled with Time Fluid however, it gets an absurd boost to its repair rate and energy efficiency!"
+		"The &5Eclipse Alloy Anvil&r can repair items using energy just like the previous tier."
 		""
-		"&7Tip: Upgrade from the previous tier using a template."
+		"If fueled with &aTime Fluid&r however, it gets an absurd boost to its repair rate and energy efficiency!"
+		""
+		"&7&oTip: Upgrade from the previous tier using a template."
 	]
 	quest.069C6BE96C1A7D73.title: "&5Eclipse Alloy Anvil"
 	quest.069E5F18F03C1A78.quest_desc: [
@@ -1352,12 +1352,11 @@
 	quest.0AF5AB8F0D7DB4B7.quest_subtitle: "Hammer Kivi!"
 	quest.0AF5AB8F0D7DB4B7.title: "&fCrushed Kivi"
 	quest.0AFF8E28FC51B123.quest_desc: [
-		"Need to swap two simple blocks with as little hassle as possible?"
-		"Try the Swapper Wand! Any two simple blocks can be swapped by using it on the two blocks you want to swap."
+		"Need to swap two simple blocks with as little hassle as possible? Try the &cSwapper Wand&r!"
 		""
-		"&7Hint: if it's for processing or has an interface, it's probably too complex to swap."
+		"Any two simple blocks can be swapped by using it on the two blocks you want to swap."
 		""
-		"&7&oWarranty void if used to swap between dimensions."
+		"&eNote&f: If it's for processing or has an interface, it's probably too complex to swap."
 	]
 	quest.0AFF8E28FC51B123.title: "&cSwapper Wand"
 	quest.0B1BDF71E95BC9D3.quest_desc: [
@@ -2751,9 +2750,11 @@
 	]
 	quest.190616DB4087BDE9.title: "&2DNA Extractor"
 	quest.191A3E81D26677F5.quest_desc: [
-		"A redstone-controllable trashcan! This block will void any liquid, item, or energy inside of it when active."
+		"A redstone-controllable trashcan!"
 		""
-		"&7It can also be used as a sneaky high-capacity fluid tank or energy buffer while disabled."
+		"This block will void any liquid, item, or energy inside of it when active."
+		""
+		"&7&oIt can also be used as a sneaky high-capacity fluid tank or energy buffer while disabled."
 	]
 	quest.191A3E81D26677F5.title: "&dBlackhole"
 	quest.19512B784164186D.title: "&fLead Chunk"
@@ -3266,6 +3267,20 @@
 	quest.1D401E12D1F46227.title: "&eHydrochloric Acid"
 	quest.1D410DFB7EFEE4CE.quest_desc: ["&aCoffee Beans&r can be found in the wild, and can be harvested to make &aCoffee&r."]
 	quest.1D410DFB7EFEE4CE.title: "&aCoffee Beans"
+	quest.1D4B75C5103D3723.quest_desc: [
+		"&cLogic&r channels are the most functionally complex ones, and can be extremely useful depending on your knowledge of redstone concepts."
+		""
+		"{image:ftb:textures/quests/xnet/logic_channel.png width:260 height:80 align:center}"
+		""
+		"&7&oMore information on each mode in the next quest pages ->"
+		"{@pagebreak}"
+		"Sensor mode can have up to 4 detections per connection. It can detect Items, Fluids, Energy, or Redstone Signals."
+		""
+		"These can also be configured to detect an amount of that type based off of mathematical operations (=, !=, <, >, <=, >=). It will then output that result to a color code which can be used to toggle another connection or an “Output Mode” logic channel."
+		""
+		""
+		"Output mode has several configuration methods: Direct, Inverted, Or, And, Nor, Nand, Xor, Xnor, Latch, Counter, Timer, and Static. Most of these are used in programming, so don’t worry too much if you’re not familiar with them since you likely won’t be using most of those anyway."
+	]
 	quest.1D572D53A6EE3205.quest_desc: ["Once your &2Quarry&r digs up some &aPlatinum Ore&r, we can macerate it down into &bRaw Platinum Ore&r."]
 	quest.1D572D53A6EE3205.title: "&dRaw Platinum"
 	quest.1D6D9CCF4E0072E1.title: "&fGold Chunk"
@@ -3551,7 +3566,11 @@
 		"Using a &bDiamond&r on the latch of an &aEnder Chest&r will move it to a separate private network for the player that used the diamond. This is especially good for server use."
 	]
 	quest.1FEEBCA6D633B479.title: "&eEnder Storage"
-	quest.1FFA8533BE4252F4.quest_desc: ["There are various budding blocks that take time and sometimes use odd mechanics to grow their crystals. By converting them to Echoing Budding blocks, you can bypass these restrictions using energy and Time Fluid to quickly grow crystals."]
+	quest.1FFA8533BE4252F4.quest_desc: [
+		"There are various budding blocks that take time and sometimes use odd mechanics to grow their crystals."
+		""
+		"By converting them to Echoing Budding blocks, you can bypass these restrictions using energy and Time Fluid to quickly grow crystals."
+	]
 	quest.2006F24858B4B4BB.quest_desc: [
 		"There's a lot of basic resources in Minecraft, and mods add way more on top of that!"
 		""
@@ -3850,7 +3869,7 @@
 	quest.234945ED1315945B.title: "&fProjectiles &bBlueprints"
 	quest.234A09F196E91BDD.quest_desc: ["There are many ways to generate resources, and this chapter aims to help cover most of the mods that help you farm millions of items!"]
 	quest.234A09F196E91BDD.title: "&6Resource Generation"
-	quest.234CF40C8251555D.quest_desc: ["The Ferricore Anvil can repair items using either iron ingots or ferricore ingots, with ferricore repairing twice as much durability!"]
+	quest.234CF40C8251555D.quest_desc: ["The &aFerricore Anvil&r can repair items using either iron ingots or ferricore ingots, with ferricore repairing twice as much durability!"]
 	quest.234CF40C8251555D.title: "&aFerricore Anvil"
 	quest.23671BD388852F62.quest_desc: ["Generates power by consuming &bBiofuel&r."]
 	quest.23671BD388852F62.title: "&fBiofuel Generator"
@@ -4046,9 +4065,9 @@
 	]
 	quest.24A60877D5FAD4A5.title: "&dForce of Explorer"
 	quest.24C1949D4690AFD3.quest_desc: [
-		"&eXNet &aConnectors allows your network to read information from attached machines and storages."
+		"&eXNet &aConnectors&r allows your network to read information from attached machines and storages."
 		""
-		"Advanced Connectors can transfer more information at a faster rate, at the cost of more energy."
+		"&dAdvanced Connectors&r can transfer more information at a faster rate, at the cost of more energy. They also allow you to select which side of the block to work from regardless of where the connector is placed."
 	]
 	quest.24C1949D4690AFD3.title: "&eXNet &fConnectors"
 	quest.24CE908ED60FD514.quest_desc: [
@@ -5325,7 +5344,7 @@
 	quest.30CE0A1635346670.title: "&6Meka-Gear"
 	quest.30D00AC248214D58.quest_desc: ["The &3Energetic Alloy&r is used in some crafting recipes, but is most commonly used to craft &aDouble Layer Capacitors&r and &dVibrant Alloy&r"]
 	quest.30D00AC248214D58.title: "&3Energetic Alloy"
-	quest.3108A2703AD6FA4F.quest_desc: ["d&7&oChoose any item dropped from mobs in Fargo's Dungeons."]
+	quest.3108A2703AD6FA4F.quest_desc: ["&7&oChoose any item dropped from mobs in Fargo's Dungeons."]
 	quest.3108A2703AD6FA4F.title: "&bFargo's Mob Loot"
 	quest.3142B7C67CB8EEB3.title: "&aOmega Dragon Egg"
 	quest.3148FCED5BF543B5.quest_desc: [
@@ -6678,9 +6697,11 @@
 	]
 	quest.3B32575C5E266B55.title: "&fArcane Rune"
 	quest.3B328F7BA1089E9A.quest_desc: [
-		"The Blazegold Anvil can repair items using hot fluids such as lava or JDT fluid fuels. Fuels are more efficient per bucket than lava, getting stronger per fuel tier."
+		"The &cBlazegold Anvil&r can repair items using hot fluids such as lava or &eJDT&r fluid fuels."
 		""
-		"&7Tip: Upgrade from the previous tier using a template."
+		"Fuels are more efficient per bucket than lava, getting stronger per fuel tier."
+		""
+		"&7&oTip: Upgrade from the previous tier using a template."
 	]
 	quest.3B328F7BA1089E9A.title: "&cBlazegold Anvil"
 	quest.3B33C4D5A2D400D4.quest_desc: [
@@ -7308,10 +7329,11 @@
 	quest.415BB9A778991D01.title: "&eMemory Chip"
 	quest.415E659B7EB0125D.title: "&bDouble Layer Capacitor"
 	quest.4162EC6BA9824805.quest_desc: [
-		"Need to grab a block and place it somewhere else with as little hassle as possible?"
-		"Try the Picker Wand! Any simple block can be picked up and placed back down by using it."
+		"Need to grab a block and place it somewhere else with as little hassle as possible? Try the Picker Wand!"
 		""
-		"&7Hint: if it's for processing or has an interface, it's probably too complex to pick n place."
+		"Any simple block can be picked up and placed back down by using it."
+		""
+		"&eNote&f: If it's used for processing things, or has an interface, it's probably too complex to pick'n'place."
 	]
 	quest.4162EC6BA9824805.title: "&cPicker Wand"
 	quest.417573A657CAED05.quest_desc: [
@@ -8079,6 +8101,30 @@
 		"You'll also need a new type of &2Inscription Press&r, which can be crafted using a &dSingularity&r."
 	]
 	quest.4978D64CC0840556.title: "&eMEGA &fStorage"
+	quest.497C4A3783B5BE9E.quest_desc: [
+		"Skies 2 has 5 main types of &eXNet &aChannels&r:"
+		""
+		"&eEnergy (FE)&r, &aItems&r, &9Fluids&r, &cLogic (Redstone)&r, and &bChemicals&r."
+		""
+		"Hovering over a channel frequency will tell you its type."
+		""
+		"The next pages contain more information on the channels UI (top-right of the &aController&r)"
+		""
+		"{image:ftb:textures/quests/xnet/channels_ui.png width:276 height:36 align:center}"
+		"{@pagebreak}"
+		"The &aGreen Tick Box&r allows you to toggle a channel on or off. This is useful when setting up new channels on a running network. "
+		""
+		"The &eYellow Box&r allows you to name a channel."
+		""
+		"The &bAqua&r left “C-button” allows you to copy a Connector’s settings while the right “C-button” allows you to copy an entire channel’s configuration (useful when setting up multiple inputs/outputs)."
+		"{@pagebreak}"
+		"The &cRed Box&r allows you to select a default for that channel to function on &2Priority&r or &4Round Robin&r:"
+		""
+		"- &2Priority&r makes it so that the channel type will be transferred based off of a connector’s configured priority (covered in the &6Connector Interface&r quest)"
+		""
+		"- &5Round Robin&r will ignore the priority config and transfer its channel type to each connection one at a time."
+	]
+	quest.497C4A3783B5BE9E.title: "&eXNet &2Channel Interface"
 	quest.49835EC10C5AE8D8.quest_desc: [
 		"The &6Quantum Crafter&r acts like a &3Molecular Assembler&r, &aPattern Provider&r, AND an &2ME Requester&r all in one."
 		""
@@ -8286,6 +8332,28 @@
 		"To get started, cut down some &aBlack Thorn Trees&r."
 	]
 	quest.4ACC2E0A6E8E38C5.title: "&fWelcome to &6Pagan's Blessing&f!"
+	quest.4AEC464751F85A2B.quest_desc: [
+		"This is the main &aController&r interface. We’ll be breaking down what all these individual colored zones do in the next quest pages."
+		""
+		"{image:ftb:textures/quests/xnet/main_ui.png width:200 height:134 align:center}"
+		"{@pagebreak}"
+		"The &aGreen zone (top left)&r has general information about your network."
+		""
+		"It has a search bar that allows you to search for a specific block connected to your network and 4 filter slots next to it which work with regular &eRFTools&r filters."
+		""
+		"It also displays its energy buffer and your channels (up to 8). These will be covered in more detail in a different quest."
+		""
+		"The &2Dark Green Zone (bottom-right)&r shows the player inventory."
+		"{@pagebreak}"
+		"All the other zones will be covered in more detail in other quests, but here is a brief mention on what they are for:"
+		""
+		"The &dPurple Zone (top-right)&r contains information about your selected channel."
+		""
+		"The &cRed Zone (bottom-left)&r contains the connections on your network and their relevant channels."
+		""
+		"The &bAqua Zone (middle-right)&r contains configuration options for your connections."
+	]
+	quest.4AEC464751F85A2B.title: "&eXNet &aMain Interface"
 	quest.4AFA3F0208AA8ABB.quest_desc: [
 		"The &eWitch's Oven&r is capable of collecting fumes from its processing, but this chance is not ideal. Using &aFume Funnels&r on either side of the oven will drastically raise this chance. A third one can be added on top, but this is just decorative."
 		""
@@ -8449,6 +8517,16 @@
 		"By using these drills in the &3Oil Drilling Rig&r, you can get your hands on Shale Oil, which can be further &aDistilled&r into most of your &2Petrochemical&r needs."
 	]
 	quest.4C6838BED2262721.title: "&dStainless Steel Drill"
+	quest.4C6F46D9E6095A3F.quest_desc: [
+		"Every channel type will generally have two modes: Insert and Extract, while the &cLogic&r type has Sensor and Output."
+		""
+		"{image:ftb:textures/quests/xnet/channel_types.png width:188 height:60 align:center}"
+		""
+		"All connectors can be configured to work on a color frequency and redstone mode (useful for redstone controls with &cLogic Channels&r), and can have their priority configured when set to Insert mode."
+		""
+		"They can also limit Minimum or Maximum values to keep inside their internal buffer depending on their mode."
+	]
+	quest.4C6F46D9E6095A3F.title: "&eXNet &2Channel Types \\&\\ Configs"
 	quest.4C78823B3EFA3105.quest_desc: [
 		"The &dEnchanting Apparatus&r is basically the ritual table of Ars. It uses nearby items placed on &aArcane Pedestals&r to create new items, make enchantments, or upgrade Mage Armor later on."
 		""
@@ -9140,6 +9218,20 @@
 	quest.523912C19E6F8B64.title: "&3Redstone Contact"
 	quest.5283000032BDFE0B.quest_subtitle: "Transfers Fluids"
 	quest.5283000032BDFE0B.title: "&fMI Fluid Pipes"
+	quest.52959FE53EA75840.quest_desc: [
+		"&bChemical&r channels have one filter slot and can be set to require a certain insertion rate when in Insert mode."
+		""
+		"{image:ftb:textures/quests/xnet/chem_channel.png width:260 height:80 align:center}"
+		"{@pagebreak}"
+		"&9Fluid&r channels are even simpler and only have a filter slot, aside from the usual functionality shared with all channel types."
+		""
+		"{image:ftb:textures/quests/xnet/fluid_channel.png width:260 height:80 align:center}"
+		"{@pagebreak}"
+		"&eEnergy&r channels are even simpler and only need the most basic functionality shared with all channel types."
+		""
+		"{image:ftb:textures/quests/xnet/energy_channel.png width:260 height:80 align:center}"
+	]
+	quest.52959FE53EA75840.title: "&eXNet &bChemical&f, &9Fluid&f, \\&\\ &eEnergy &fConfigurations"
 	quest.529BB6E3B5A93A91.quest_desc: [
 		"The &7Vindicator Talisman&r increases damage by 50% for 1 hit after switching tools once every 30 seconds."
 		""
@@ -9468,6 +9560,16 @@
 	]
 	quest.56519A6A39FA9430.quest_subtitle: "&oMore than just a pretty block"
 	quest.56519A6A39FA9430.title: "&fFunctional Forcefields"
+	quest.565881B956911B9C.quest_desc: [
+		"&2Item&r channels have several individual filter slots which can be highly configured to whitelist/blacklist items and ignore tags, metagdata, or NBT. Setting a filter index will use the items inserted into the Filter Cards within your &dController&r."
+		""
+		"On advanced connectors, you can also choose between moving items individually or as a stack, with a preset amount of items/stacks to be able to be moved at once."
+		""
+		"While in Extract mode, it can have its priority configured to extract from the first available slot, extract using roundrobin mode (1 pull from each inventory at a time), or extract items in a specific order (very useful for certain automation tasks)"
+		""
+		"{image:ftb:textures/quests/xnet/item_channel.png width:260 height:80 align:center}"
+	]
+	quest.565881B956911B9C.title: "&eXNet &2Item Configurations"
 	quest.565AF0E2D4AB41BE.quest_desc: [
 		"&eJust Dire Things&r (&eJDT&r) is a cool tech mod that despite the name, actually adds some &oimpressive&r and slightly overpowered &2Gadgets&r, &aTools&r and &9Armors&r!"
 		""
@@ -10019,14 +10121,13 @@
 	quest.5BAC67D69E4CEBFD.title: "&fMI Basic Energy Cables"
 	quest.5BB991FE31FE9E61.title: "&eBasic Capacitor"
 	quest.5BBA51F8FE4D6C3B.quest_desc: [
-		"A solid block that you can choose whether you want to walk through it or not!"
-		"Just right click it to toggle its current state"
+		"A solid block that you can choose whether you want to walk through it or not! Right-click it to toggle its current state"
 		""
 		"While mobs don't know how to walk though this in its non-solid state, they can still be pushed or fall through."
 	]
 	quest.5BBA51F8FE4D6C3B.title: "&dPhasebox"
 	quest.5BD655FBD85F1831.quest_desc: [
-		"The Ferricore Clock is a redstone device that turns on and off on all active sides on a timer."
+		"The &aFerricore Clock&r is a redstone device that turns on and off on all active sides on a timer."
 		""
 		"Interact with a side to toggle its state, and sneak-interact to adjust the timer."
 	]
@@ -10223,6 +10324,12 @@
 	]
 	quest.5D9EAE2A6D2B6646.title: "&fThe &6Fragment Forge"
 	quest.5DA25070A4A1CF4E.title: "&aDissolved Potential"
+	quest.5DB13DA68BE9C29D.quest_desc: [
+		"&2Portal Fluid&r can only be made in &5The End&r by Goo Transmuting &dUnstabel Portal Fluid&r."
+		""
+		"This is used in the &dAdvanced Portal Gun&r and is needed for the &6FTB Pyramid&r."
+	]
+	quest.5DB13DA68BE9C29D.title: "&2Portal Fluid"
 	quest.5DB30D6FE7046A35.title: "&fTome of the Archers"
 	quest.5DD4E634673638F8.quest_desc: [
 		"The &aLeaf Blower&r can blow away tall grass and flowers around you when you hold right-click."
@@ -10321,6 +10428,12 @@
 		"When you place a &bBlueprint&r on the top-left slot, it will show what recipes are available to craft on the right side of the workbench. You can then place in the items for the recipe, then pull the crafted item out."
 	]
 	quest.5E5BDCBF185E48E3.title: "&fEngineer's Workbench"
+	quest.5E66CDE4370938D5.quest_desc: [
+		"Right-clicking a connector allows you to choose which surrounding blocks it can connect to, and allows you to rename that connection."
+		""
+		"{image:ftb:textures/quests/xnet/connector_ui.png width:222 height:51 align:center}"
+	]
+	quest.5E66CDE4370938D5.title: "&eXNet &aConnector Interfaces"
 	quest.5E8B72B0CA428F12.title: "Here's the invis dev chapter"
 	quest.5E9000948A06C94A.title: "&4Blood &fUpgrade Orb"
 	quest.5EACD1D6B9B970EC.title: "&dCelestigem Shovel"
@@ -10349,6 +10462,12 @@
 		"These recipes require more items and Source to craft, which utilizes &aArcane Pedestals&r."
 	]
 	quest.5F5A8762D664CBF0.title: "&bImbued Essences"
+	quest.5F67D5D71E27608A.quest_desc: [
+		"&dUnstable Portal Fluid&r is used to craft &2Portal Fluid&r, which is used in the Advanced Portal Gun and the &6FTB Pyramid&r."
+		""
+		"Due to its unstable nature, this fluid will instantly evaporate when placed anywhere outside of the &5The End&r."
+	]
+	quest.5F67D5D71E27608A.title: "&dUnstable Portal Fluid"
 	quest.5F6C674205F3D666.quest_desc: [
 		"These Nests will only lure bees when placed in the End."
 		""
@@ -10761,7 +10880,7 @@
 	quest.630661119379FA37.quest_desc: [
 		"&bJust Dyna Things&r is an addon mod for &eJDT&r which adds several new blocks and quality of life things to enchance your playthrough."
 		""
-		"&7Note that the [G] guide does not yet reflect the values custom configured for this pack."
+		"&7Note that the [G] guide does not fully reflect the values configured for this pack."
 	]
 	quest.630661119379FA37.title: "&bJust Dyna Things"
 	quest.631BA261529E71CC.quest_desc: ["Ore generate this resource first to make a seed"]
@@ -14114,7 +14233,7 @@
 	task.1B7ED750DCA724D1.title: "&fSummon a &ePossessed Elder Guardian"
 	task.1B8D2EA3B6BC97C1.title: "&eFind Structure&f: &dApothecary Hut"
 	task.1BB51471E9C7949F.title: "&bPentacle &fComplete"
-	task.1BBD0785EF912331.title: "Advanced Connectors"
+	task.1BBD0785EF912331.title: "&dAdvanced Connectors"
 	task.1C0BB83393437BDF.title: "&fComponent Interfaces"
 	task.1C14FC50B6CB050F.title: "&eXNet &aChannels"
 	task.1C1B6CA8991CBB5D.title: "&fMagmators"
@@ -14139,7 +14258,7 @@
 	task.1FD9733065CA8D15.title: "&fUseful &9Tier 2&f Glyphs"
 	task.1FFF08C10BA75B7D.title: "Terra"
 	task.200DC63D1223B179.title: "&aReactor Rods"
-	task.2011385F3A3117BB.title: "Base Connectors"
+	task.2011385F3A3117BB.title: "&aBase Connectors"
 	task.2127DBDE1A06A297.title: "Any &eFTB Stuff &fHammer"
 	task.21A64CEF852D23B0.title: "&fKill: 1x &dStarlight Golem"
 	task.21E4AB2DCB81A632.title: "&eObserve&f: Crude Blast Furnace"
@@ -14191,6 +14310,7 @@
 	task.2BB5021FC9A3E6EB.title: "&fSummon an &aUnbound Parrot"
 	task.2BEC091EB1FDA06D.title: "Xnet Interface"
 	task.2C1245371800E1E7.title: "Bee Types"
+	task.2C6C600BA23CDEDC.title: "&dConnector Interfaces"
 	task.2C8687501A9C54A8.title: "&2Prudentium &fGear"
 	task.2CA99A333EDFB6FC.title: "&aEssence Farmlands"
 	task.2CC8184A4A0C3AED.title: "In World Upgrading"
@@ -14257,6 +14377,7 @@
 	task.386D9AA214E6D415.title: "Useful Upgrades"
 	task.3895241AD9047B61.title: "Hidden"
 	task.38BED843EAAB96EF.title: "0"
+	task.38C8C140A69103D9.title: "&cLogic &aChannels"
 	task.38E423A13C37E437.title: "&dEchoing Budding Blocks"
 	task.390BE5325E1DE990.title: "&dTemporal Pouch&r"
 	task.3976B625344DFBB1.title: "&cIhagan's Animals"
@@ -14378,6 +14499,7 @@
 	task.4F8D5299AD027540.title: "Channels"
 	task.4FAE5B3549E023A9.title: "The &6FTB Pyramid"
 	task.4FC3BC8A7A312F41.title: "&eFind Structure&f: &bSky Village"
+	task.4FF56943034CA822.title: "&2Item Configurations"
 	task.5021B204BDFD9928.title: "&eObserve&f: &aBudding Topaz Geore"
 	task.50518A2356316BEF.title: "&bPentacle &fComplete "
 	task.506C293E06A5C513.title: "&fThermo Gens"
@@ -14395,6 +14517,7 @@
 	task.530053F67ED5E6F3.title: "Limited Barrels"
 	task.530B680860B7C5E7.title: "Find an &dApothecarist"
 	task.5312722528B8561B.title: "&fPlay For &6100 Hours"
+	task.5318C2422681D6E1.title: "&2Channels Interface"
 	task.5336018EE8A0D660.title: "&fSummon a &aDrikwing"
 	task.5355E58AAC34F75A.title: "&bArcanist Set"
 	task.537FA51306721E10.title: "cannot"
@@ -14432,6 +14555,7 @@
 	task.58BEE5F1435F017A.title: "&eObserve&f: &5Weeping Well's &fcontents"
 	task.58C446166902A90E.title: "&fSummon a &aHusband"
 	task.58DC7CD2A4F595DD.title: "&eKill&f: &dArchevoker"
+	task.58E5CA49E8F143AA.title: "&aMain Interface"
 	task.590BA3A3FF454C9F.title: "&eKill&f: &cIgnited Berserker"
 	task.591E2F53EFC69C37.title: "&9Tier 2"
 	task.5977FB853BD8B199.title: "&bIron Furnaces&r"
@@ -14474,6 +14598,7 @@
 	task.5E3DB978C813B92A.title: "&fController Access Points"
 	task.5E824F724F133342.title: "&eObserve&f: Fermenter"
 	task.5F37B6A58234D49E.title: "Grading Catalysts"
+	task.5F4A8935A8075E15.title: "&2Channel Types \\&\\ Configs"
 	task.5F6FF27A6B03405E.title: "create cobblegen"
 	task.5F91F645D55E49BB.title: "Any &2Tier 2 &fSeeds"
 	task.5FD1AC346811740C.title: "&eKill&f: &6Dead King"
@@ -14530,6 +14655,7 @@
 	task.6925E00B803A9170.title: "Waystones"
 	task.69A9B5B0B534F7D4.title: "Frickin' Laser Beams"
 	task.69DB26B69DC04127.title: "&eFind Structure&f: &6Blazing Desert"
+	task.69E91925C2DE7BF2.title: "&aChemical, Fluid, \\&\\ Energy Configs"
 	task.6A2D276566E902AD.title: "&bPentacle&r Complete"
 	task.6A495CBF42B6447E.title: "Find a &cPyromancer"
 	task.6A8905866514F79D.title: "&fRessurect &eFamiliar"
