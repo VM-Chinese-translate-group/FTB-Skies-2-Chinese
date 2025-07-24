@@ -2964,15 +2964,14 @@
 		{
 			dependencies: ["325567B88BAFAD0D"]
 			icon: {
-				id: "ghasts_update:dried_ghast"
+				id: "vanillabackport:dried_ghast"
 			}
 			id: "20C91F9D612B52D1"
 			rewards: [{
-				auto: "no_toast"
-				id: "37F2AD79D6A1B31B"
+				id: "54EBC221004B7563"
 				item: {
 					count: 1
-					id: "ghasts_update:dried_ghast"
+					id: "vanillabackport:dried_ghast"
 				}
 				type: "item"
 			}]

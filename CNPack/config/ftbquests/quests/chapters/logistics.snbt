@@ -1921,7 +1921,7 @@
 					type: "random"
 				}
 			]
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "7813EDA280801A49"
@@ -1931,7 +1931,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 6.0d
 		}
 		{
@@ -1992,8 +1992,8 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
-			size: 1.0d
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "2011385F3A3117BB"
@@ -2029,8 +2029,194 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 5.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["0DF5D2B35FDEE536"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4AEC464751F85A2B"
+			min_width: 300
+			rewards: [{
+				id: "696EA946CF2E5728"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58E5CA49E8F143AA"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0DF5D2B35FDEE536"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "497C4A3783B5BE9E"
+			min_width: 300
+			rewards: [{
+				id: "745714B81A70202B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5318C2422681D6E1"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["24C1949D4690AFD3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5E66CDE4370938D5"
+			min_width: 300
+			rewards: [{
+				id: "111B42AD31C2D464"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C6C600BA23CDEDC"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"497C4A3783B5BE9E"
+				"5E66CDE4370938D5"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4C6F46D9E6095A3F"
+			min_width: 300
+			rewards: [{
+				id: "5207D0F5BB4FF5D2"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F4A8935A8075E15"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4C6F46D9E6095A3F"]
+			hide_until_deps_complete: false
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "52959FE53EA75840"
+			min_width: 300
+			rewards: [{
+				id: "1E3D1E9828D06E5A"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "69E91925C2DE7BF2"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4C6F46D9E6095A3F"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "565881B956911B9C"
+			min_width: 300
+			rewards: [{
+				id: "0DA833F345E9EE24"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4FF56943034CA822"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4C6F46D9E6095A3F"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1D4B75C5103D3723"
+			min_width: 300
+			rewards: [{
+				id: "640004ABD43820D9"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "38C8C140A69103D9"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 9.0d
 		}
 	]
 }

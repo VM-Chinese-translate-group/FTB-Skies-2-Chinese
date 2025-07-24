@@ -1561,11 +1561,11 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -7.0d
 		}
 		{
-			dependencies: ["04563030DE224F18"]
+			dependencies: ["00A7C1FE54F86429"]
 			id: "70D5BEA5CC437AB6"
 			optional: true
 			rewards: [
@@ -1604,8 +1604,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.0d
+			x: 0.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["70D5BEA5CC437AB6"]
@@ -1648,43 +1648,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: -6.0d
-		}
-		{
-			dependencies: ["00A7C1FE54F86429"]
-			hide_dependency_lines: true
-			icon_scale: 1.25d
-			id: "04563030DE224F18"
-			rewards: [
-				{
-					count: 3
-					id: "1D00C8CFE1C7935F"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "2DBEA501C6B0921A"
-					team_reward: false
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "23A58CDD62ECB351"
-				item: {
-					count: 1
-					id: "minecraft:anvil"
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: -5.5d
 		}
 		{
 			dependencies: ["5994E561F25FAEEC"]

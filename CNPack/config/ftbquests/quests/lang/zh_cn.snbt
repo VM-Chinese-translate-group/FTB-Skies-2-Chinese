@@ -24,7 +24,7 @@
 	chapter.3C9226E63258D73B.title: "任意门"
 	chapter.3CE58B5907FB2A58.title: "实用拓展"
 	chapter.4142E847135C4F5E.title: "基因工程"
-	chapter.485ABBDAA9A6C0CD.title: "Fargo的护身符"
+	chapter.485ABBDAA9A6C0CD.title: "Fargo符石"
 	chapter.4A4EF884469A95F5.title: "狂猎"
 	chapter.537FA747043E1769.chapter_subtitle: ["可选指南章节"]
 	chapter.537FA747043E1769.title: "&a初始材料"
@@ -282,9 +282,9 @@
 	quest.0235143D388D81A2.quest_desc: ["&a注液器&r用于将流体装入桶或玻璃瓶等物品中。"]
 	quest.0235143D388D81A2.title: "&a注液器"
 	quest.0241EAE68EA53595.quest_desc: [
-		"Lots of Bees can be found by crafting &2Nests&r!"
+		"你可以通过制作&2蜂巢&r来获取大量蜜蜂！"
 		""
-		"Most &2Nests&r require an item to be used on them to lure bees, with the basic nests requiring &eHoney Treats&r. Using one will start the timer for a bee to come move in, and using more will cut the time needed for them to spawn in."
+		"大多数&2蜂巢&r需要放入物品来吸引蜜蜂，基础蜂巢需要的是&e蜜蜂小食&r，对蜂巢使用此物品将会启动蜜蜂入住计时器，此时再次使用蜜蜂小食会缩短入住时间。"
 	]
 	quest.0241EAE68EA53595.title: "&f用蜂巢获取蜜蜂"
 	quest.026A64F01C301119.quest_desc: [
@@ -359,14 +359,14 @@
 	quest.0337CA08F644568B.title: "&f一个恶魂般的伙伴"
 	quest.033F3D2427ED6F40.quest_desc: ["可以用它更精密的控制红石和红石比较器。"]
 	quest.033F3D2427ED6F40.title: "&f红石控制单元插件"
-	quest.034B66770C749332.quest_desc: ["The &dNether Star Talisman&r increases critical damage by 50%, and changes the critical chance by only requiring the player to be falling and not in water."]
-	quest.034B66770C749332.title: "&d下界之星护身符"
+	quest.034B66770C749332.quest_desc: ["&d下界之星符石&r增加50%暴击伤害，玩家下落且不在水中时必定暴击。"]
+	quest.034B66770C749332.title: "&d下界之星符石"
 	quest.0350C018A0E693ED.quest_desc: [
-		"&a空气护身符&r可以免疫摔落伤害。"
+		"&a气符石&r可以免疫摔落伤害。"
 		""
-		"它还用于制作&d自然力量&r。"
+		"它还用于制作&d自然之力&r。"
 	]
-	quest.0350C018A0E693ED.title: "&a空气护身符（风护身符）"
+	quest.0350C018A0E693ED.title: "&a气符石"
 	quest.03569C25419223DC.quest_desc: [
 		"你可以把你的存储方块升级到不同的金属等级，和&e精妙背包&r一样。"
 		""
@@ -474,11 +474,11 @@
 	]
 	quest.0444EF9A04406894.title: "&a细胞"
 	quest.04561BBA227DE4D6.quest_desc: [
-		"&d史诗护符底座&r是&a高级护符底座&r的升级。"
+		"&d史诗符石基底&r是&a高级符石基底&r的升级。"
 		""
-		"你可以使用它制作三级护身符——&b力量护身符&r，也可以将其升级为&b传奇护符底座&r。"
+		"你可以使用它制作三级符石——&b力量符石&r，也可以将其升级为&b传说符石基底&r。"
 	]
-	quest.04561BBA227DE4D6.title: "&d史诗护符底座（史诗护符基板）"
+	quest.04561BBA227DE4D6.title: "&d史诗符石基底"
 	quest.04563030DE224F18.quest_desc: ["&e神化&r模组中，你可以给铁砧附上&b耐久&r，使其使用寿命大幅提升！"]
 	quest.04563030DE224F18.title: "&f给铁砧附魔！"
 	quest.0457FBD64D57E07B.quest_desc: ["你需要&3充能绿宝石水晶块&r来制作&6FTB金字塔所需物品：&d溶解潜能&r。"]
@@ -711,19 +711,19 @@
 	]
 	quest.06EC32E6140E68C1.title: "&d量子自动合成"
 	quest.06F4EAE4810BC03A.quest_desc: [
-		"&7建筑师护身符&r将玩家的放置范围增加59格，玩家将拥有64格的放置范围。"
+		"&7建筑师符石&r将玩家的放置范围增加59格，玩家将拥有64格的放置范围。"
 		""
-		"它还用于制作&d探险者力量&r。"
+		"它还用于制作&d探险家之力&r。"
 	]
-	quest.06F4EAE4810BC03A.title: "&7建筑师护身符"
+	quest.06F4EAE4810BC03A.title: "&7建筑师符石"
 	quest.06FD385E707F4E12.quest_desc: [
 		"&eMI&r的&a焦炉&r比&e沉浸工程&r的焦炉快得多，但是它需要&7蒸汽&r驱动才能运行。"
 		""
-		"这是另一个多方块机器，就像普通的&7焦炉&r一样，不过它需要&b物品IO&r和&b流体IO&r才能正常工作。"
+		"这也是一个多方块机器，就像普通的&7焦炉&r一样，不过它需要&b物品输入仓/输出仓&r和&b流体输入仓/输出仓&r才能正常工作。"
 		""
 		"&7焦炉&r是个3x3x3的多方块机器，主要由砖块制成。虽然看起来很麻烦，但绝对值得制作！"
 		""
-		"&7焦炉&r需要一个用于&7蒸汽&r输入和一个用于煤炭输入的输入仓。这将输出&b杂酚油&r和&b煤焦&r。"
+		"&7焦炉&r需要一个用于&7蒸汽&r输入和一个用于煤炭输入的输入仓。这样就能生产出&b杂酚油&r和&b煤焦&r。"
 	]
 	quest.06FD385E707F4E12.title: "&a焦炉"
 	quest.0730F5C57F80CC0B.quest_desc: [
@@ -797,11 +797,11 @@
 	]
 	quest.07BCE0B7BDB4E155.title: "&a传送带"
 	quest.07C181C204CF1240.quest_desc: [
-		"&a青金石护身符&r可以将半径12格范围内的经验球吸引至玩家。"
+		"&a青金石符石&r可以将半径12格范围内的经验球吸引至玩家。"
 		""
-		"它还用于制作&d世界力量&r。"
+		"它还用于制作&d主世界之力&r。"
 	]
-	quest.07C181C204CF1240.title: "&a青金石护身符"
+	quest.07C181C204CF1240.title: "&a青金石符石"
 	quest.07E089F01484D9C7.quest_desc: [
 		"你可以用&6材料分级器&r提升材料的属性。"
 		""
@@ -815,9 +815,9 @@
 	quest.07FFA633237BB905.quest_desc: [
 		"&d白天护符&r在白天时增加5%伤害。"
 		""
-		"它还用于制作&b环境力量&r。"
+		"它还用于制作&b环境之力&r。"
 	]
-	quest.07FFA633237BB905.title: "&d白天护符（白天护身符）"
+	quest.07FFA633237BB905.title: "&d白天护符"
 	quest.0800E48C01F45F46.title: "&f甜浆果农场"
 	quest.08039CA197351775.title: "&e模拟电路"
 	quest.0806978F98A7A3E8.quest_desc: [
@@ -1008,13 +1008,13 @@
 	quest.091C04F5A6163717.quest_subtitle: "混合搅拌"
 	quest.091C04F5A6163717.title: "&a罐自动化器"
 	quest.093330A5C170F843.quest_desc: [
-		"&b环境力量&r提供用于制作它的所有护身符的效果："
+		"&b环境之力&r提供用于制作它的所有符石的效果："
 		""
 		"在晴天、雪暴、满月、雷暴天气增加伤害，在夜晚增加10%护甲，在雨天增加50%游泳速度。"
 		""
 		"它还用于制作&dMinecraft之魂&r。"
 	]
-	quest.093330A5C170F843.title: "&b环境力量（环境之力）"
+	quest.093330A5C170F843.title: "&b环境之力"
 	quest.0934AB6290F7BCF6.quest_desc: [
 		"这台机器可以自动化&a酿药&r！"
 		""
@@ -1137,13 +1137,13 @@
 	quest.09BC75B655BDC624.quest_desc: [
 		"获得多只相同类型的蜜蜂很困难，尤其是&d末影龙蜜蜂&r这种需要特殊繁殖花的蜜蜂。"
 		""
-		"That's where the &aBaBee Upgrade&r comes in!"
+		"&a升级：幼年蜂&r就是来解决这种问题的！"
 		""
-		"Installing one of these into an advanced hive gives a small chance for a baby bee to pop out whenever the bees inside of the hive leave to find a flower. The type of baby bee that spawns is based on the bees inside of the hive."
+		"将其安装到高级蜂箱后，每当蜂箱内的蜜蜂出去采蜜时，蜂箱中都有小几率生成幼年蜜蜂。生成蜜蜂的类型取决于当前蜂箱内的蜜蜂。"
 		"{@pagebreak}"
-		"If the bee cannot breed with bees of the same type, this upgrade will not work. These are usually bees that can only be made either by breeding or crafting, like Withered Bees."
+		"如果蜂箱内的蜜蜂无法进行种内繁殖，则该升级不生效。一般只有那些不能合成/繁殖的蜜蜂才会触发，比如凋灵蜜蜂。"
 		""
-		"This can also be used as a filter in the &aCatcher&r to allow it to only capture baby bees!"
+		"该升级也可以作为过滤器安装到&a捕捉器&r中，使其只捕捉幼蜂。"
 	]
 	quest.09BC75B655BDC624.title: "&e升级：&f幼年蜂"
 	quest.09CAF99BCBEB8276.quest_desc: ["做出&a铁镐&r后，你就可以挖掘更多坚硬的方块了，比如&b钻石&r和&c红石&r等！"]
@@ -1363,9 +1363,9 @@
 	quest.0B8D5E01DAE9AD6C.quest_desc: [
 		"&d雪天护符&r在雪暴时增加20%伤害。"
 		""
-		"它还用于制作&b环境力量&r。"
+		"它还用于制作&b环境之力&r。"
 	]
-	quest.0B8D5E01DAE9AD6C.title: "&d雪天护符（雪天护身符）&r"
+	quest.0B8D5E01DAE9AD6C.title: "&d雪天护符&r"
 	quest.0B92679772DB0C68.quest_desc: [
 		"&a传动轴&r和&a齿轮&r是将旋转力传递到你的机器和结构的主要方式。"
 		""
@@ -1755,9 +1755,9 @@
 	quest.0FA7ECE8C07ADAB1.quest_desc: [
 		"&d枯萎的护符&r在玩家受到凋零效果影响时增加25%伤害"
 		""
-		"它还用于制作&b负面力量&r。"
+		"它还用于制作&b负性之力&r。"
 	]
-	quest.0FA7ECE8C07ADAB1.title: "&d枯萎的护符（凋零护身符）"
+	quest.0FA7ECE8C07ADAB1.title: "&d枯萎的护符"
 	quest.0FA81BDE4918C7F7.quest_desc: [
 		"&6增压柴油&r是最好的流体燃料"
 		""
@@ -1923,13 +1923,13 @@
 	]
 	quest.11078789ACAB91CE.title: "&6末影之眼"
 	quest.11129E29B22F9898.quest_desc: [
-		"&3巨人之魂&r使生命值提高五倍，并免疫所有负面效果，该效果与&b负面力量&r冲突。"
+		"&3巨像之魂&r使生命值提高五倍，并免疫所有负面效果，该效果与&b负性之力&r冲突。"
 		""
-		"合成&3巨人之魂&r需要的物品可以在&bFargo的地牢&r找到。"
+		"合成&3巨像之魂&r需要的物品可以在&bFargo的地牢&r找到。"
 		""
-		"&3巨人之魂&r可以用来制作&9维度之魂&r。"
+		"&3巨像之魂&r可以用来制作&9维度之魂&r。"
 	]
-	quest.11129E29B22F9898.title: "&3巨人之魂（巨像之魂）"
+	quest.11129E29B22F9898.title: "&3巨像之魂"
 	quest.1114D1FD164E514B.quest_desc: [
 		"&e新生魔艺&r是一款致力于展现世界中魔法力量的模组！当然，提到魔法，自然就少不了施放&d法术&r！"
 		""
@@ -1972,11 +1972,11 @@
 	]
 	quest.11C58E38DE9488BE.title: "&f怪物&a磨床"
 	quest.11D49C5B6C2D4CF0.quest_desc: [
-		"&7骷髅护身符&r在射箭时增加50%伤害。"
+		"&7骷髅符石&r在射箭时增加50%伤害。"
 		""
-		"它还用于制作&b排斥者力量&r。"
+		"它还用于制作&b敌手之力&r。"
 	]
-	quest.11D49C5B6C2D4CF0.title: "&7骷髅护身符"
+	quest.11D49C5B6C2D4CF0.title: "&7骷髅符石"
 	quest.11E086D8E2C6B642.quest_desc: [
 		"&a精镍&r是&6Oritech&r模组的重要合金，许多配方和机器都要用到它。"
 		""
@@ -2063,7 +2063,7 @@
 	quest.12843F69BB8EEFCE.quest_desc: ["&3显示链接器&r可用于可视化显示有关你的网络或方块的动态信息。"]
 	quest.12843F69BB8EEFCE.title: "&3显示链接器"
 	quest.12B8D538B54497E2.quest_desc: [
-		"有了&a锻造锤&r后，你会需要制作一些&b铁板&r和&b铜质组件&r的，它们将用于各种合成配方。"
+		"有了&a锻压锤&r后，你会需要制作一些&b铁板&r和&b铜质组件&r的，它们将用于各种合成配方。"
 		""
 		"此外，你可以用它做出前期最棒的挖矿工具！"
 	]
@@ -2501,11 +2501,11 @@
 	]
 	quest.17729D2D1F20BF44.title: "&f核源铁镐"
 	quest.17A73A05FAE4D6F5.quest_desc: [
-		"&b传奇护符底座&r是&d史诗护符底座&r的升级。"
+		"&b传说符石基底&r是&d史诗符石基底&r的升级。"
 		""
-		"你可以使用它制作&b力量护身符&r，也可以将其升级为&c终极护符底座&r。"
+		"你可以使用它制作&b力量符石&r，也可以将其升级为&c终极符石基底&r。"
 	]
-	quest.17A73A05FAE4D6F5.title: "&b传奇护符底座（传奇护符基板）"
+	quest.17A73A05FAE4D6F5.title: "&b传说符石基底"
 	quest.17B4FE9A8136B16A.quest_desc: [
 		"&a孵化器&r类似于一个高效的酿造台。"
 		""
@@ -2529,9 +2529,9 @@
 	quest.1811EC8E48EAD1BD.quest_desc: [
 		"The &7Creeper Talisman&r grants the player a non-block damaging explosive jump (this effect can critically strike mobs)."
 		""
-		"它还用于制作&b排斥者力量&r。"
+		"它还用于制作&b敌手之力&r。"
 	]
-	quest.1811EC8E48EAD1BD.title: "&7苦力怕护身符"
+	quest.1811EC8E48EAD1BD.title: "&7苦力怕符石"
 	quest.1820069FEA2237E6.quest_desc: [
 		"往激光上丢&a石英块&r，你就会得到&2装饰用石英&r，如果丢&b雕纹石英块&r则会得到装饰用绿色石英方块。"
 		""
@@ -2631,7 +2631,7 @@
 	]
 	quest.1962F37154380EBF.title: "&f发酵机"
 	quest.197CF94F783E59DF.quest_desc: [
-		"The &aSpeed Upgrade&r provides a 20% increase to the speed of the hive or machine it is placed in. You can also place in multiple in one machine!"
+		"&a升级：速度&r为蜂箱或机器增加20%的运行速度，你也可以在一个机器中放入多个升级：速度！"
 		""
 		"其同样可以加装在蜂箱以外的地方，试试用在离心机、繁殖箱等方块上吧！"
 	]
@@ -2669,17 +2669,17 @@
 	quest.19EC021D1722EFC1.quest_desc: [
 		"&d燃烧的护符&r在玩家着火时增加25%伤害。"
 		""
-		"它还用于制作&b负面力量&r。"
+		"它还用于制作&b负性之力&r。"
 	]
-	quest.19EC021D1722EFC1.title: "&d燃烧的护符（着火护身符）"
-	quest.19EE1C45669E7132.quest_desc: ["&7镐护身符&r可以将挖掘速度翻倍。"]
-	quest.19EE1C45669E7132.title: "&7镐护身符"
+	quest.19EC021D1722EFC1.title: "&d燃烧的护符（"
+	quest.19EE1C45669E7132.quest_desc: ["&7镐符石&r可以将挖掘速度翻倍。"]
+	quest.19EE1C45669E7132.title: "&7镐符石"
 	quest.19FB0270DFB28E04.quest_desc: [
-		"&d女巫护身符&r可以使女巫向玩家投掷具有增益效果的药水。"
+		"&d女巫符石&r可以使女巫向玩家投掷具有增益效果的药水。"
 		""
-		"它还用于制作&b神秘力量&r。"
+		"它还用于制作&b神秘之力&r。"
 	]
-	quest.19FB0270DFB28E04.title: "&d女巫护身符"
+	quest.19FB0270DFB28E04.title: "&d女巫符石"
 	quest.1A1161EF6276767F.quest_desc: [
 		"&e模块化力场系统（Modular Force Field System, MFFS）&r是一个科技模组，添加了力场及其他防御手段来保护你的基地。"
 		""
@@ -2951,9 +2951,9 @@
 	quest.1C3D395850C1C4A4.quest_desc: [
 		"&d虚弱的护符&r在玩家受到虚弱效果影响时增加25%伤害。"
 		""
-		"它还用于制作&b负面力量&r。"
+		"它还用于制作&b负性之力&r。"
 	]
-	quest.1C3D395850C1C4A4.title: "&d虚弱的护符（虚弱护身符）"
+	quest.1C3D395850C1C4A4.title: "&d虚弱的护符（"
 	quest.1C3DFCB335276952.quest_desc: [
 		"&e通用机械&r在MC整合包中通常拥有一些最强大的发电机，而核裂变也为后期材料提供了途径。"
 		""
@@ -3412,13 +3412,13 @@
 	quest.20AC15DC1E6E47D7.quest_desc: ["这个升级和烧炼升级一样，可以自动熔炼怪物掉落物。"]
 	quest.20AC15DC1E6E47D7.title: "&f升级：烟熏"
 	quest.20B98E676C8CC943.quest_desc: [
-		"要制作更高级的护身符，你需要一些&d可憎的能量&r！"
+		"要制作更高级的符石，你需要一些&d可憎的能量&r！"
 		""
-		"你可以在&bFargo的地牢中找到&r、&c击杀Boss掉落&f或是&a通过粒子碰撞制作&f可憎的能量，它通常用来制作护符底座（护符基板）和大多数后期物品。"
+		"你可以在&bFargo的地牢中找到&r、&c击杀Boss掉落&f或是&a通过粒子碰撞制作&f憎恶能量，它通常用来制作符石基底和大多数后期物品。"
 		""
 		"&bFargo的地牢&r可以在&c下界&r的y:25到y:50之间找到。"
 	]
-	quest.20B98E676C8CC943.title: "&d可憎的能量（憎恶能量）"
+	quest.20B98E676C8CC943.title: "&d憎恶能量"
 	quest.20C91F9D612B52D1.quest_desc: ["一只急需补水干枯恶魂。把它放在水里20分钟，你即可获得一位新朋友！"]
 	quest.20C91F9D612B52D1.quest_subtitle: "A dried ghast awaits rehydration"
 	quest.20C91F9D612B52D1.title: "&e失水恶魂"
@@ -3463,11 +3463,11 @@
 	]
 	quest.2160C6D61B76C8FE.title: "&e魔法存储"
 	quest.21672A342A11A0DE.quest_desc: [
-		"&7僵尸护身符&r在至少5秒未攻击后，提高接下来3次攻击的攻击速度。"
+		"&7僵尸符石&r在至少5秒未攻击后，提高接下来3次攻击的攻击速度。"
 		""
-		"它还用于制作&b排斥者力量&r。"
+		"它还用于制作&b敌手之力&r。"
 	]
-	quest.21672A342A11A0DE.title: "&7僵尸护身符"
+	quest.21672A342A11A0DE.title: "&7僵尸符石"
 	quest.216FBD5E15FE2E7D.quest_desc: [
 		"你需要&5量子升级&r才能让机器处理量子级能量。"
 		""
@@ -3491,9 +3491,9 @@
 	quest.2173412A2D676009.quest_desc: [
 		"&d满月护符&r在满月时增加15%伤害。"
 		""
-		"它还用于制作&b环境力量&r。"
+		"它还用于制作&b环境之力&r。"
 	]
-	quest.2173412A2D676009.title: "&d满月护符（满月护身符）"
+	quest.2173412A2D676009.title: "&d满月护符（"
 	quest.217D720A52277579.title: "&f铝土矿粉"
 	quest.219B014D60EF0DDD.quest_desc: [
 		"&7&o你听到了沙沙声，一阵叮当声，还有……人声？"
@@ -3594,13 +3594,13 @@
 	quest.22F07FB51C5DE600.title: "&a一件更好的工具"
 	quest.230A9E24A34690DE.title: "&6时间棱镜"
 	quest.230E34A0E4A4C014.quest_desc: [
-		"Harvesting &eHoneycombs&r and &eHoney Bottles&r by hand is exhausting. And who actually uses the campfire trick? Just get the sting over with, you know?"
+		"手动收获&e蜜脾&r和&e蜂蜜瓶&r相当累人，而且真有人用营火驱蜜蜂吗？被蛰了接着干就是了，懂吗家人们？"
 		""
 		"制作一个&a高级蜂箱&r，你将再也不需要手动收获资源，蜜蜂们会把产物留在他们的新家里，收集起来很方便！"
 		""
 		"将&2扩容盒&r放置在蜂箱上面或侧面，可以让蜂箱容纳至多五只蜜蜂，绝对值得升级！"
 		"{@pagebreak}"
-		"&aAdvanced Beehives&r will still require the bee's preferred flower nearby for them to create any type of resource. These can be seen in &eJEI&r!"
+		"&a高级蜂箱&r周围仍需种植对应花朵以生产资源，具体可以在&eJEI&r查阅！"
 		""
 		"如果你在一个蜂箱里放了不止一种蜜蜂，最好使用&a饲养板&r来保持区域整洁！饲养板使你可以在一个方块的空间内放置多种花朵或方块。"
 	]
@@ -3658,21 +3658,21 @@
 	quest.23671BD388852F62.quest_desc: ["消耗&b生物燃油&r发电。"]
 	quest.23671BD388852F62.title: "&f生物燃油发电机"
 	quest.2369D81BC32A5982.quest_desc: [
-		"&a吸血鬼护身符&r治愈玩家相当于造成伤害20%的生命值。"
+		"&a吸血鬼符石&r治愈玩家相当于造成伤害20%的生命值。"
 		""
-		"它还用于制作&b神秘力量&r。"
+		"它还用于制作&b神秘之力&r。"
 	]
-	quest.2369D81BC32A5982.title: "&a吸血鬼护身符"
+	quest.2369D81BC32A5982.title: "&a吸血鬼符石"
 	quest.237E58A9DE4CA9F8.quest_desc: [
-		"现在你有了&a粗制合成油&r和&a原油&r，你可以把它们烧成&2合成油&r。"
+		"有了&a粗制合成油&r或&a原油&r，你就可以把它们烧成&2合成油&r。"
 		""
-		"这是我们做&7橡胶&r的方式！"
+		"这也是我们做&7橡胶&r的方式！"
 		""
 		"虽然使用&a原油&r在前期似乎是一条更容易的路线，但在虚空中寻找原油可能是一项困难的任务。"
 		""
-		"&e注意&r：所有流体任务都可以通过舀起一桶液体或将一桶液体泵入&a目标显示器&r来完成。"
+		"&e注意&r：所有流体任务都可以通过获得液体桶或将一桶液体输入&a目标显示器&r的方式来完成。"
 	]
-	quest.237E58A9DE4CA9F8.title: "&a合成油&f或&a合成橡胶"
+	quest.237E58A9DE4CA9F8.title: "&a合成油桶&f或&a合成橡胶桶"
 	quest.23804302767A5907.title: "&68192B化学品存储组件"
 	quest.2382B2FED36766E4.quest_desc: [
 		"铜在经过高温热处理后就变为了&d退火铜&r，这种铜的加工性能更佳。高阶的电路元件必须要使用这种铜。"
@@ -3690,11 +3690,11 @@
 	quest.23B06AB674CC7193.quest_subtitle: "绑定五芒星：级别3"
 	quest.23B06AB674CC7193.title: "&d赛维拉永囚咒"
 	quest.23B63CC05AA3EAAB.quest_desc: [
-		"&a龙护身符&r使玩家免疫直接和非直接魔法伤害。"
+		"&a龙符石&r使玩家免疫直接和非直接魔法伤害。"
 		""
-		"它还用于制作&b排斥者力量&r。"
+		"它还用于制作&b敌手之力&r。"
 	]
-	quest.23B63CC05AA3EAAB.title: "&a龙护身符"
+	quest.23B63CC05AA3EAAB.title: "&a龙符石"
 	quest.23B6C73FDF8C322A.quest_subtitle: "&c量子化&r的力量"
 	quest.23B6C73FDF8C322A.title: "&3灵魂触摸深暗书架"
 	quest.23C9C45D06917EA9.title: "&a自然&f升级法球"
@@ -3819,13 +3819,13 @@
 	quest.24952389F0C8B0B1.quest_desc: ["召唤能带来闪电的风暴召唤师！在你需要利用闪电来合成物品的时候非常有用！"]
 	quest.24952389F0C8B0B1.title: "&d风暴召唤师"
 	quest.24A60877D5FAD4A5.quest_desc: [
-		"&d探险者力量&r提供用于制作它的所有护身符的效果："
+		"&d探险家之力&r提供用于制作它的所有符石的效果："
 		""
 		"增加59格放置距离，消除幻翼和末影人的敌意，免疫寒冷伤害，对半径12格范围内的生物施加发光效果。"
 		""
 		"它还用于制作&3Minecraft之魂&r。"
 	]
-	quest.24A60877D5FAD4A5.title: "&d探险者力量（探险家之力）"
+	quest.24A60877D5FAD4A5.title: "&d探险家之力"
 	quest.24C1949D4690AFD3.quest_desc: [
 		"&eXNet&a连接器允许你的网络从连接的机器和容器中读取信息。"
 		""
@@ -4168,11 +4168,11 @@
 	quest.27E0738B56C6ED8C.quest_desc: ["将&7魔精&r绑定到背包上可以显著增加其存储容量，使其成为旅行的好伙伴。"]
 	quest.27E0738B56C6ED8C.title: "&a意外结实的挎包"
 	quest.27E867855AC60BF0.quest_desc: [
-		"&a高级护符底座&r是&7普通护符底座&r的升级。"
+		"&a高级符石基底&r是&7普通符石基底&r的升级。"
 		""
-		"你可以使用它制作二级护身符，也可以将其升级为&d史诗护符底座&r。"
+		"你可以使用它制作二级符石，也可以将其升级为&d史诗符石基底&r。"
 	]
-	quest.27E867855AC60BF0.title: "&a高级护符底座（高级护符基板）"
+	quest.27E867855AC60BF0.title: "&a高级符石基底"
 	quest.27EA4B653A952968.quest_desc: [
 		"&a锇&r是一种难以寻觅的珍贵资源，你可能需要借助通用矿石生成器来获取一些。"
 		""
@@ -4282,7 +4282,7 @@
 		""
 		"还有一种选择，如果你有想要启用/禁用的具体护符，你可以输入&a/fargostalisman talisman toggle&r后面加上你想要启用/禁用的护符名字（英文），例如&aearth_talisman&r。"
 	]
-	quest.294FEC9B0B58EFDC.title: "&f切换护身符效果"
+	quest.294FEC9B0B58EFDC.title: "&f切换符石效果"
 	quest.296C424C7D2C7589.quest_subtitle: "气体/化学品管道"
 	quest.296C424C7D2C7589.title: "{\"text\": \"基础加压管道\", \"color\": \"#5EFCB6\"}"
 	quest.297EAB81A2EC051F.title: "&f活化水晶碎片"
@@ -4339,11 +4339,11 @@
 	quest.29E6EF882A568585.quest_desc: ["这些&a经验晶方尖碑&r把知识浓缩成了微型图腾，只需要3个这样的方尖碑就能为&e附魔台&r提供15个书架的等级提升效果！"]
 	quest.29E78B39C74FBC4E.title: "&f击杀每种敌对生物各一只"
 	quest.2A19E0AF462C1FD2.quest_desc: [
-		"&a钻石护身符&r提供20%伤害减免。"
+		"&a钻石符石&r提供20%伤害减免。"
 		""
-		"它还用于制作&d世界力量&r。"
+		"它还用于制作&d主世界之力&r。"
 	]
-	quest.2A19E0AF462C1FD2.title: "&a钻石护身符"
+	quest.2A19E0AF462C1FD2.title: "&a钻石符石"
 	quest.2A1AE478A678C1A9.title: "&f能量接口"
 	quest.2A5C2E704DE70301.quest_desc: [
 		"&c烈焰金&r是下一阶的剑。"
@@ -4465,11 +4465,11 @@
 	]
 	quest.2B4392602E94D3D8.title: "&f找到&cFargo的地牢"
 	quest.2B5ED424CC73B3EB.quest_desc: [
-		"&7绿宝石护身符&r可以翻倍对掠夺者/灾厄村民造成的伤害，且每15秒对玩家半径两格范围内的作物施加催熟效果。"
+		"&7绿宝石符石&r可以翻倍对掠夺者/灾厄村民造成的伤害，且每15秒对玩家半径两格范围内的作物施加催熟效果。"
 		""
-		"它还用于制作&d世界力量&r。"
+		"它还用于制作&d主世界之力&r。"
 	]
-	quest.2B5ED424CC73B3EB.title: "&7绿宝石护身符"
+	quest.2B5ED424CC73B3EB.title: "&7绿宝石符石"
 	quest.2B6A88AA896C54A6.quest_desc: ["加装该升级的工具在使用后就会穿墙自动显示周边的矿石。"]
 	quest.2B6A88AA896C54A6.title: "&f升级：矿石透视"
 	quest.2B6EC298B50C0D03.quest_desc: [
@@ -4481,11 +4481,11 @@
 	]
 	quest.2B6EC298B50C0D03.title: "&f全自动伐木"
 	quest.2B6FC4E870E364E0.quest_desc: [
-		"&7虚空护身符&r使玩家免疫虚空伤害，在坠入虚空时将玩家传送到世界顶端。"
+		"&7虚空符石&r使玩家免疫虚空伤害，在坠入虚空时将玩家传送到世界顶端。"
 		""
-		"它还用于制作&b战士力量&r。"
+		"它还用于制作&b勇士之力&r。"
 	]
-	quest.2B6FC4E870E364E0.title: "&7虚空护身符"
+	quest.2B6FC4E870E364E0.title: "&7虚空符石"
 	quest.2B7E7CFF01172556.quest_desc: [
 		"&3翻牌显示器&r是一个可拓展的标志装置，能够根据网络文本或信息的展示需求进行高度定制化配置。"
 		""
@@ -4863,7 +4863,7 @@
 	quest.2F521CA6B9E1A4B3.title: "&d八位电容"
 	quest.2F6F52B669C50A01.quest_desc: ["在&b戒指&r槽位装备&a神枪手指环&r后，当玩家使用弓箭命中敌人时，会对敌人施加&2宝石的&b行为触发效果&r。"]
 	quest.2F6F52B669C50A01.title: "&f神枪手之环"
-	quest.2F74CE4932170B99.quest_desc: ["When given &aHoney Treats&r, these will lure in either Yellow Carpenter Bees or Resin Bees."]
+	quest.2F74CE4932170B99.quest_desc: ["放入蜜蜂小食后，蜂巢将吸引黄色木匠蜜蜂或树脂蜜蜂。"]
 	quest.2F74CE4932170B99.title: "&f云杉木蜂巢"
 	quest.2F79C42347326195.quest_desc: [
 		"&d蒸汽引擎&r通过烧水来产生比&b风车&r或&a水车&r多得多的&b旋转力&r，同时还拥有更高的&b应力量&r。"
@@ -4942,11 +4942,11 @@
 	]
 	quest.30053CAD8FABA638.title: "&f石头和泥土蜂巢"
 	quest.302A4F4F2971CF8E.quest_desc: [
-		"&7大地护身符&r允许你通过空手右击泥土将其转化为草方块。"
+		"&7大地符石&r允许你通过空手右击泥土将其转化为草方块。"
 		""
-		"它还用于制作&d自然力量&r。"
+		"它还用于制作&d自然之力&r。"
 	]
-	quest.302A4F4F2971CF8E.title: "&7大地护身符（土护身符）"
+	quest.302A4F4F2971CF8E.title: "&7大地符石"
 	quest.302C29E7007A61D9.quest_desc: [
 		"这些组件可以从掉落物形式的物品中汲取能量，或将能量输出到掉落物形式的物品中。"
 		""
@@ -5205,11 +5205,11 @@
 	]
 	quest.325D35004FF683C2.title: "&6量子计算机&d的核心&f部件"
 	quest.3272827DE96C5F64.quest_desc: [
-		"&7末影人护身符&r可以消除末影人被注视时产生的敌意。"
+		"&7末影人符石&r可以消除末影人被注视时产生的敌意。"
 		""
-		"它还用于制作&d世界力量&r。"
+		"它还用于制作&d主世界之力&r。"
 	]
-	quest.3272827DE96C5F64.title: "&7末影人护身符"
+	quest.3272827DE96C5F64.title: "&7末影人符石"
 	quest.327E27800EB44FCA.quest_desc: [
 		"&d紫颂果结晶碎片&r是制作高级网络组件的关键原料，你需要将紫颂果烧制成&a爆裂紫颂果&r再将其挤压的方式获得。"
 		""
@@ -5380,11 +5380,11 @@
 	]
 	quest.33E4C81B762892B2.title: "&f欢迎游玩&eOritech&f！"
 	quest.33E96DCB466BC28C.quest_desc: [
-		"&d图书管理员护身符&r增加50%经验获取。"
+		"&d图书管理员符石&r增加50%经验获取。"
 		""
-		"它还用于制作&b神秘力量&r。"
+		"它还用于制作&b神秘之力&r。"
 	]
-	quest.33E96DCB466BC28C.title: "&d图书管理员护身符"
+	quest.33E96DCB466BC28C.title: "&d图书管理员符石"
 	quest.33EDFB2DC1BEA7F0.quest_desc: ["&3自动合成监控器&r可查看所有正在进行的自动合成任务的状态。"]
 	quest.33EDFB2DC1BEA7F0.title: "&3自动合成监控器"
 	quest.33F236BD2DA075C3.quest_desc: [
@@ -5440,7 +5440,7 @@
 	quest.343ACE0C81548119.quest_desc: [
 		"&a切割机&r可以更高效或自动地制作某些物品。在切割木头时，它还能让你每根原木获得6 块木板。"
 		""
-		"值得注意的是，切割机的所有操作都需要少量&b润滑油&r，因此建议将润滑油实现自动化。"
+		"值得注意的是，切割机的所有操作都需要少量&b润滑油&r，因此建议实现润滑油生产自动化。"
 	]
 	quest.343ACE0C81548119.title: "&a青铜切割机"
 	quest.344A14365BC03575.quest_subtitle: "传输物品"
@@ -5451,8 +5451,8 @@
 		"你需要不少的&2铀&r才能产出可用的&6核能&r，以及为了升级组件你还需要大量的&7铱&r。"
 	]
 	quest.346290B1274A92FF.title: "&6钛钻"
-	quest.348ED4326CAB9A0E.quest_desc: ["&a苹果护身符&r提高25%治疗效果。"]
-	quest.348ED4326CAB9A0E.title: "&a苹果护身符"
+	quest.348ED4326CAB9A0E.quest_desc: ["&a苹果符石&r提高25%治疗效果。"]
+	quest.348ED4326CAB9A0E.title: "&a苹果符石"
 	quest.3490E1E29396D066.quest_desc: [
 		"这些种子只需要&a下级精华&r就可以制作，用来合成整合包中大多数的基础物品。"
 		""
@@ -5466,7 +5466,7 @@
 	quest.34A49E11025231DA.quest_subtitle: "+15% 法术吟唱缩减"
 	quest.34A49E11025231DA.title: "&f速吟之戒"
 	quest.34AB2B41BE99B9F9.quest_desc: [
-		"你现在应该已经发展到&a青铜时代&r了，估计正在按部就班地烧&7焦炭&r产&7蒸汽&r产能源。"
+		"你现在应该已经发展到&a青铜时代&r，正在生产&7焦炭&r和&7蒸汽&r来作为早期能源了。"
 		""
 		"虽然这只是MI指南中概述的有效发展路径，但你也可以使用包中提供的任何钢铁生产方式直接跳到钢铁时代。"
 		""
@@ -5765,11 +5765,11 @@
 	]
 	quest.368CF829E37E0945.title: "&f倒刺指环"
 	quest.3695B30822BC674E.quest_desc: [
-		"&7潜影贝护身符&r使玩家免疫飘浮效果。"
+		"&7潜影贝符石&r使玩家免疫飘浮效果。"
 		""
-		"它还用于制作&b神秘力量&r。"
+		"它还用于制作&b神秘之力&r。"
 	]
-	quest.3695B30822BC674E.title: "&7潜影贝护身符"
+	quest.3695B30822BC674E.title: "&7潜影贝符石"
 	quest.369FFEE79A6478A0.quest_desc: ["在本章节中，你将发现整合包内诸多&6挑战&r，无论是击败Boss、探索生物群落，还是收集稀有物品！"]
 	quest.369FFEE79A6478A0.title: "欢迎来到&d狂猎&r章节！"
 	quest.36AA71D456F0A3C1.title: "&f工业铝粉"
@@ -5962,7 +5962,7 @@
 		"你可以升级&d路由器&r，加装特定升级和模块后，它就可以存储&9流体&r和&c能量&r。"
 	]
 	quest.38869642A2E6F8B6.title: "&e模块化路由器"
-	quest.388EAAF7CFA6535F.quest_desc: ["You can catch yourself a &aGold Bee&r by using a &eNether Gold Nest&r in the Nether, or by breeding a &aMason Bee&r and a &2Crystalline Bee&r."]
+	quest.388EAAF7CFA6535F.quest_desc: ["你可以用&e下界金蜂巢&r在下界捕捉到&a金蜜蜂&r，也可以通过繁殖&a石匠蜜蜂&r和&2石英蜜蜂&r来获得。"]
 	quest.388EAAF7CFA6535F.title: "&e金蜜蜂"
 	quest.389A8206E7B3A22C.quest_desc: [
 		"The &aSimple Block Placer&r places blocks. Simple!"
@@ -6082,8 +6082,8 @@
 	quest.39A6CE8A1D5B2D8F.title: "&a\"Simple\" &fCoal Generator"
 	quest.39BC89942A5CA7E1.quest_desc: ["提升能源效率。"]
 	quest.39BC89942A5CA7E1.title: "&f效率升级插件"
-	quest.39CA68E8B84CF962.quest_desc: ["&7铜护身符&r将玩家半径十格范围内的掉落物吸引至玩家。"]
-	quest.39CA68E8B84CF962.title: "&7铜护身符"
+	quest.39CA68E8B84CF962.quest_desc: ["&7铜符石&r将玩家半径十格范围内的掉落物吸引至玩家。"]
+	quest.39CA68E8B84CF962.title: "&7铜符石"
 	quest.39ED88D2EF2F617B.quest_desc: [
 		"往自己身上装各种各样的&b饰品和其他小玩意&r是非常常见的做法，然而你不得不对一部分选择进行取舍。&a胸针&r能够改变这种情况，它们使玩家能够牺牲一部分饰品栏从而换来其他种类的饰品栏，这其中就包括&b符文栏&r。"
 		""
@@ -6096,11 +6096,11 @@
 	quest.39FB54DD235A1E10.quest_desc: ["将&a粘液蜂巢&r放置在沼泽生物群系后，放入蜜蜂小食即可吸引粘液蜜蜂。"]
 	quest.39FB54DD235A1E10.title: "&f粘液蜂巢"
 	quest.39FD7B49554CE935.quest_desc: [
-		"&a水护身符&r提供永久的水下呼吸效果。"
+		"&a水符石&r提供永久的水下呼吸效果。"
 		""
-		"它还用于制作&d自然力量&r。"
+		"它还用于制作&d自然之力&r。"
 	]
-	quest.39FD7B49554CE935.title: "&a水护身符"
+	quest.39FD7B49554CE935.title: "&a水符石"
 	quest.3A084B83B8CFAACD.quest_desc: [
 		"一座悬浮于下界虚空中的竞技场，击败&c炽燃遗魂&r，收集它们的余烬，点燃顶层的祭坛即可挑战其真正的&c主人&r。"
 		""
@@ -6260,11 +6260,11 @@
 	]
 	quest.3B09E14800C7276A.title: "&7含硫原油"
 	quest.3B1C807CEEC4E2ED.quest_desc: [
-		"&d附魔护身符&r可以移除手持物品的诅咒。"
+		"&d附魔符石&r可以移除手持物品的诅咒。"
 		""
-		"它还用于制作&b神秘力量&r。"
+		"它还用于制作&b神秘之力&r。"
 	]
-	quest.3B1C807CEEC4E2ED.title: "&d附魔护身符"
+	quest.3B1C807CEEC4E2ED.title: "&d附魔符石"
 	quest.3B2115D3C8C3A486.quest_subtitle: "二阶能量存储"
 	quest.3B2115D3C8C3A486.title: "&3高级电容库"
 	quest.3B2B26B1AD947CC5.quest_desc: [
@@ -6695,11 +6695,11 @@
 	]
 	quest.3FECA0A4B5962630.title: "&f末影符文"
 	quest.3FF612F915DF4BF5.quest_desc: [
-		"&a仙人掌护身符&r反射受到伤害的25%给攻击者。"
+		"&a仙人掌符石&r反射受到伤害的25%给攻击者。"
 		""
-		"它还用于制作&b战士力量&r。"
+		"它还用于制作&b勇士之力&r。"
 	]
-	quest.3FF612F915DF4BF5.title: "&a仙人掌护身符"
+	quest.3FF612F915DF4BF5.title: "&a仙人掌符石"
 	quest.4004CA1BEBA2914C.quest_desc: ["&d振动合金&r是一种更高级的合金，可用于许多合成配方，包括&a电磁铁&r和&d八位电容&r。"]
 	quest.4004CA1BEBA2914C.title: "&d振动合金"
 	quest.40066A9E17ADB45F.quest_desc: [
@@ -6928,7 +6928,7 @@
 	quest.41DC64EC52AB0494.quest_desc: ["你可以一次性将一整个方块晶体化，只需要把它们扔在或放置在&a原子再构机&r激光的前方或侧面。"]
 	quest.41DC64EC52AB0494.quest_subtitle: "900%的价值！"
 	quest.41DC64EC52AB0494.title: "&a水晶块"
-	quest.41DDA21E654823EB.quest_desc: ["然后把你的&a合成油&r丢进&2搅拌机&r，将其转化为&7橡胶片&r。"]
+	quest.41DDA21E654823EB.quest_desc: ["接下来，把你的&a合成油&r丢进&2搅拌机&r，将其转化为&7橡胶布&r。"]
 	quest.41DDA21E654823EB.title: "&7橡胶布"
 	quest.41E945A91F63D888.quest_desc: [
 		"你可以制作两种魔法腰带，这两种腰带都挺不错。"
@@ -6947,17 +6947,17 @@
 	quest.4235989DE2A9CAF2.quest_desc: [
 		"&d中毒的护符&r在玩家受到中毒效果影响时增加25%伤害。"
 		""
-		"它还用于制作&b负面力量&r。"
+		"它还用于制作&b负性之力&r。"
 	]
-	quest.4235989DE2A9CAF2.title: "&d中毒的护符（中毒护身符）"
+	quest.4235989DE2A9CAF2.title: "&d中毒的护符（"
 	quest.423950ED16C2422B.quest_desc: [
-		"&b战士力量&r提供用于制作它的所有护身符的效果："
+		"&b勇士之力&r提供用于制作它的所有符石的效果："
 		""
 		"受伤提供暂时的防护，免疫甜浆果丛和虚空伤害，反射25%受到的伤害，将当前生命值翻倍。"
 		""
 		"它还用于制作&3Minecraft之魂&r。"
 	]
-	quest.423950ED16C2422B.title: "&b战士力量（战士之力）"
+	quest.423950ED16C2422B.title: "&b勇士之力"
 	quest.423C04D5968C6A2B.quest_subtitle: "更多栏位！"
 	quest.423C04D5968C6A2B.title: "&a皮带"
 	quest.424BFFB9EFAB9565.quest_desc: ["&3电子管&r是一种合成部件，用于在&e机械动力&r中制作一些电子或可以控制的机械装置。"]
@@ -7240,11 +7240,11 @@
 	quest.44CE0F10E7E24F23.quest_subtitle: "通用矿石生成"
 	quest.44CE0F10E7E24F23.title: "&f镭射钻基座"
 	quest.44DFEE9CA0A7070B.quest_desc: [
-		"&a凋灵护身符&r使玩家免疫凋零效果。"
+		"&a凋灵符石&r使玩家免疫凋零效果。"
 		""
-		"它还用于制作&b排斥者力量&r。"
+		"它还用于制作&b敌手之力&r。"
 	]
-	quest.44DFEE9CA0A7070B.title: "&a凋零护身符（凋灵护身符）"
+	quest.44DFEE9CA0A7070B.title: "&a凋零符石（"
 	quest.44E044BA9C152631.quest_desc: [
 		"你可能会注意到，有些任务附带有&aoptional&r的词条。"
 		""
@@ -7502,13 +7502,13 @@
 	quest.48162C60D5F25178.title: "&6处理单元"
 	quest.481D6E00305764E4.title: "&e存储控制器"
 	quest.4835F10B1C5BCAAE.quest_desc: [
-		"&b负面力量&r提供用于制作它的所有护身符的效果："
+		"&b负性之力&r提供用于制作它的所有符石的效果："
 		""
 		"每受失明、反胃、挖掘疲劳、中毒、虚弱、缓慢、凋零效果影响，和着火时，增加25%伤害。"
 		""
 		"它还用于制作&3Minecraft之魂&r。"
 	]
-	quest.4835F10B1C5BCAAE.title: "&b负面力量（负面效果之力）"
+	quest.4835F10B1C5BCAAE.title: "&b负性之力"
 	quest.4843F5564CA5810C.quest_desc: [
 		"&a柴油发电机&r可以燃烧&2柴油&r等燃料产生&d高压&r电。"
 		""
@@ -7521,9 +7521,9 @@
 	quest.4843F5564CA5810C.title: "&f柴油发电机"
 	quest.48567556D94D1ADC.title: "&c烈焰金斧"
 	quest.4879B6C32F7B1749.quest_desc: [
-		"&a搅拌机&r用来将多种物品或液体混合产生新的物质。使用时请注意配方需求的搅拌机材质等级！"
+		"&a搅拌机&r用来将多种物品或液体混合产生新的物质。使用时请注意配方需求的搅拌机等级！"
 		""
-		"&7蒸汽搅拌器&r消耗为2EU/t。&a钢制搅拌器&r消耗为4EU/t，再更高等级就是&2电动搅拌器&r。"
+		"&7蒸汽搅拌器&r消耗为2EU/t。&a钢制搅拌器&r消耗为4EU/t，再更高等级就是&2电动搅拌器&r等。"
 	]
 	quest.4879B6C32F7B1749.title: "&a青铜搅拌机"
 	quest.487A0367385B68BC.quest_desc: [
@@ -7549,11 +7549,11 @@
 	quest.48935669BAAC9142.quest_desc: ["&a末影透镜&r是用于制作&b插件&r和机器的组件。"]
 	quest.48935669BAAC9142.title: "&f末影透镜"
 	quest.48E284F256F6453E.quest_desc: [
-		"&eFargo的护身符&r模组允许你制作强力的护身符，他们具有各种各样的效果，比如把泥土变成草方块，获得创造飞行和超音速移动速度，甚至免疫所有种类的负面效果！"
+		"&eFargo的符石&r模组允许你制作强力的符石，他们具有各种各样的效果，比如把泥土变成草方块，获得创造飞行和超音速移动速度，甚至免疫所有种类的负面效果！"
 		""
 		"如果你不确定要做什么，&aFargo的护符指南&r可以帮助你。译者注：这个模组的翻译不准确，不准确的部分会用注释标出。"
 	]
-	quest.48E284F256F6453E.title: "&f欢迎游玩&eFargo的护身符&f！"
+	quest.48E284F256F6453E.title: "&f欢迎游玩&eFargo的符石&f！"
 	quest.4929927157D97BFC.quest_desc: ["&a改进宝石戒指&r会使所镶宝石的数值/效果等级倍率提高至原本的1.5倍，可与指环材料的&b品质倍率加成&r叠加。"]
 	quest.4929927157D97BFC.title: "&f改进宝石戒指"
 	quest.493E152B4A7BB767.quest_desc: ["&3红石请求器&r在接收到红石信号时，从连接的库存网络中请求特定物品。"]
@@ -7671,11 +7671,11 @@
 	quest.4A07DF8EB4A0C40A.quest_subtitle: "垂钓与收获"
 	quest.4A07DF8EB4A0C40A.title: "&f耕作之道"
 	quest.4A1E69C9C543011E.quest_desc: [
-		"&7荆棘护身符&r使玩家免疫来自甜浆果丛的伤害。"
+		"&7荆棘符石&r使玩家免疫来自甜浆果丛的伤害。"
 		""
-		"它还用于制作&b战士力量&r。"
+		"它还用于制作&b勇士之力&r。"
 	]
-	quest.4A1E69C9C543011E.title: "&7荆棘护身符"
+	quest.4A1E69C9C543011E.title: "&7荆棘符石"
 	quest.4A207BA624849BB8.quest_desc: [
 		"&d末影抽屉&r和末影箱一样，可以跨维度存取物品。"
 		""
@@ -7707,14 +7707,14 @@
 	]
 	quest.4A48519877EA5FF4.title: "&6炽金锭"
 	quest.4A5402081BC88910.quest_desc: [
-		"&a不死护身符&r可以在玩家死亡时复活玩家一次。"
+		"&a不死符石&r可以在玩家死亡时复活玩家一次。"
 		""
-		"它还用于制作&b神秘力量&r。"
+		"它还用于制作&b神秘之力&r。"
 		""
 		""
 		"&e&l注意&r：此物品的复活效果目前不生效。&r"
 	]
-	quest.4A5402081BC88910.title: "&a不死护身符"
+	quest.4A5402081BC88910.title: "&a不死符石"
 	quest.4A5FD3641E0A566E.quest_desc: [
 		"&2反应堆能量端口&r用于输出&d反应堆&r生成的能量，且必须放置在反应堆的外墙。"
 		""
@@ -7803,9 +7803,9 @@
 	quest.4B02EB096A1670AB.quest_desc: [
 		"&d真正的太阳护符&r在晴天且玩家头顶不被遮挡时增加5%伤害。"
 		""
-		"它还用于制作&b环境力量&r。"
+		"它还用于制作&b环境之力&r。"
 	]
-	quest.4B02EB096A1670AB.title: "&d真正的太阳护符（真正的太阳护身符）"
+	quest.4B02EB096A1670AB.title: "&d真正的太阳护符（真正的"
 	quest.4B0B08ED9D193AEA.quest_desc: [
 		"[\"查看其\", {\"text\": \"任务\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"2AAD4463A90C639B\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往维度矿井任务\"]} }, \"以获取更多详情。\"]"
 		""
@@ -7852,9 +7852,9 @@
 	quest.4B5BFD1142133E93.quest_desc: [
 		"&d失明的护符&r在玩家受到失明效果影响时增加25%伤害。"
 		""
-		"它还用于制作&b负面力量&r。"
+		"它还用于制作&b负性之力&r。"
 	]
-	quest.4B5BFD1142133E93.title: "&d失明的护符（失明护身符）"
+	quest.4B5BFD1142133E93.title: "&d失明的护符（"
 	quest.4B5C8935A7D7D253.quest_subtitle: "受到攻击时，迸发气流击退攻击者"
 	quest.4B5C8935A7D7D253.title: "&f驱逐之戒"
 	quest.4B6154D6F9B7C7BF.quest_desc: [
@@ -7927,7 +7927,7 @@
 		"但它不会把你的普通/高压水原样返回来，要重新回收高压水你需要用&d热交换机&r。"
 	]
 	quest.4C3F295D0F44A730.title: "&d大型蒸汽涡轮机"
-	quest.4C466A8B9C76C637.quest_desc: ["When given Honey Treats, these can be used to lure in Blue Banded Bees."]
+	quest.4C466A8B9C76C637.quest_desc: ["放入蜜蜂小食后，蜂巢将吸引蓝色条纹蜜蜂。"]
 	quest.4C466A8B9C76C637.title: "&f蓝色条纹蜜蜂巢"
 	quest.4C48B5662C396543.quest_desc: [
 		"&a粗制镰刀&r里镶嵌了符文石，这使它能在杀死生物的同时撕碎它们的身体和灵魂，并给玩家带来精魂。"
@@ -7985,13 +7985,13 @@
 	]
 	quest.4CDCFE544B72E6C4.title: "&5古老邪灵矿工"
 	quest.4D05E74FE351708F.quest_desc: [
-		"&b神秘力量&r提供用于制作它的所有护身符的效果："
+		"&b神秘之力&r提供用于制作它的所有符石的效果："
 		""
 		"移除手持物品的诅咒，使女巫投掷增益效果药水，增加50%经验获取，20%造成的伤害恢复为生命，免疫漂浮效果，复活一次。"
 		""
 		"它还用于制作&3Minecraft之魂&r。"
 	]
-	quest.4D05E74FE351708F.title: "&b神秘力量（神秘之力）"
+	quest.4D05E74FE351708F.title: "&b神秘之力"
 	quest.4D1EBD92C674531E.quest_desc: [
 		"用5个奥术精魂做一个图腾柱并激活它，它会展开&b释缚仪式&r。"
 		""
@@ -8321,11 +8321,11 @@
 	quest.4FA766AD24D00325.quest_desc: ["&b苍穹晶&r可以合成该模组的高级机器！"]
 	quest.4FA766AD24D00325.title: "&f高级机器"
 	quest.4FA9FABD84B4751A.quest_desc: [
-		"&c终极护符底座&r是&b传奇护符底座&r的升级。"
+		"&c终极符石基底&r是&b传说符石基底&r的升级。"
 		""
 		"It allows you to craft &6Soul Parts&r, and can be upgraded into the &6Godly Talisman Base&r."
 	]
-	quest.4FA9FABD84B4751A.title: "&c终极护符底座（终极护符基板）"
+	quest.4FA9FABD84B4751A.title: "&c终极符石基底（终极护符基板）"
 	quest.4FB0FFF42551378E.title: "&a嗅探兽召唤"
 	quest.4FB98E93DE3BE477.quest_desc: [
 		"&b品质倍率加成&r：x2.0"
@@ -8387,11 +8387,11 @@
 	quest.504EEAA75990C78C.quest_subtitle: "古代粉笔"
 	quest.504EEAA75990C78C.title: "{\"text\": \"青色粉笔\", \"color\": \"#3DADAD\"}"
 	quest.5063CB99AD11CEB6.quest_desc: [
-		"&a红石护身符&r每5-7.5秒修复&l穿戴护甲&r1点耐久。"
+		"&a红石符石&r每5-7.5秒修复&l穿戴护甲&r1点耐久。"
 		""
-		"它还用于制作&d世界力量&r。"
+		"它还用于制作&d主世界之力&r。"
 	]
-	quest.5063CB99AD11CEB6.title: "&a红石护身符"
+	quest.5063CB99AD11CEB6.title: "&a红石符石"
 	quest.5075DB5162A800C4.quest_desc: [
 		"熔岩+蜂蜜=石灰岩"
 		""
@@ -8559,11 +8559,11 @@
 	]
 	quest.52087840AA16E7B4.title: "&d火灵天气法师"
 	quest.520C1874B05F2DB9.quest_desc: [
-		"&a烈焰人护身符&r引燃玩家半径四格范围内的敌对生物。"
+		"&a烈焰人符石&r引燃玩家半径四格范围内的敌对生物。"
 		""
-		"它还用于制作&b排斥者力量&r。"
+		"它还用于制作&b敌手之力&r。"
 	]
-	quest.520C1874B05F2DB9.title: "&a烈焰人护身符"
+	quest.520C1874B05F2DB9.title: "&a烈焰人符石"
 	quest.5211DFF30B136433.quest_desc: [
 		"不需要使用电力和其他&b门瑞欧结晶碎片&r，你也可以轻松自动化在挤压机上蹦来蹦去的过程，解放你的膝盖。"
 		""
@@ -8597,11 +8597,11 @@
 	quest.5283000032BDFE0B.quest_subtitle: "传输流体"
 	quest.5283000032BDFE0B.title: "&fMI流体管道"
 	quest.529BB6E3B5A93A91.quest_desc: [
-		"&7卫道士护身符&r每30秒，你切换工具后的第一下攻击增加50%伤害。"
+		"&7卫道士符石&r每30秒，你切换工具后的第一下攻击增加50%伤害。"
 		""
-		"它还用于制作&b排斥者力量&r。"
+		"它还用于制作&b敌手之力&r。"
 	]
-	quest.529BB6E3B5A93A91.title: "&7卫道士护身符"
+	quest.529BB6E3B5A93A91.title: "&7卫道士符石"
 	quest.52A1154376134EDD.quest_desc: ["这些&a受到精魂灌注的岩石&r本身只是装饰性方块，然而只要善用它们蕴含的魔法能量，你就能打造出全新的仪器和设备。"]
 	quest.52A1154376134EDD.title: "扭曲而污秽的岩石"
 	quest.52A48E0F92AD4399.quest_desc: [
@@ -8649,9 +8649,9 @@
 	quest.535C11E589E11056.quest_desc: [
 		"&d疲惫的护符&r在玩家受到挖掘疲劳效果影响时增加25%伤害。"
 		""
-		"它还用于制作&b负面力量&r。"
+		"它还用于制作&b负性之力&r。"
 	]
-	quest.535C11E589E11056.title: "&d疲惫的护符（挖掘疲劳护身符）"
+	quest.535C11E589E11056.title: "&d疲惫的护符（挖掘"
 	quest.536FE5C4A9D37909.quest_desc: ["烈焰筛网是最高等级的网。其效能卓绝，常常能产出金属锭，而低阶筛网只能得到金属粒。"]
 	quest.536FE5C4A9D37909.quest_subtitle: "Is the String Still There, Under all the Layers?"
 	quest.536FE5C4A9D37909.title: "&f机械烈焰筛网"
@@ -8727,7 +8727,7 @@
 		""
 		"放置&b信标&r可以将半径提升至十五格。"
 		""
-		"放置&d合唱花（紫颂花）&r可以将半径提升至二十格。"
+		"放置&d紫颂花&r可以将半径提升至二十格。"
 	]
 	quest.544DCCAF97078924.title: "&f护符底座"
 	quest.5455CF5D3C37ECA9.quest_desc: ["这座矗立于下界虚空中的宏伟建筑，其内部藏有珍贵宝藏和敌人猪灵，还有一尊强大的守卫傀儡，会攻击任何靠近的人。"]
@@ -8781,19 +8781,19 @@
 	]
 	quest.54D361B81A53A872.title: "&a基础电容"
 	quest.54D3D470531CEAB8.quest_desc: [
-		"&7金护身符&r可以消除猪灵对玩家的敌意，攻击猪灵也不会使其敌对。"
+		"&7金符石&r可以消除猪灵对玩家的敌意，攻击猪灵也不会使其敌对。"
 		""
-		"它还用于制作&d世界力量&r。"
+		"它还用于制作&d主世界之力&r。"
 	]
-	quest.54D3D470531CEAB8.title: "&7金护身符"
+	quest.54D3D470531CEAB8.title: "&7金符石"
 	quest.54DBA22A5D1CD75D.quest_desc: ["&a黑曜石护符&r使玩家免疫爆炸伤害。"]
-	quest.54DBA22A5D1CD75D.title: "&a黑曜石护身符"
+	quest.54DBA22A5D1CD75D.title: "&a黑曜石符石"
 	quest.54EA7CEFB131A995.quest_desc: [
-		"&7普通护符底座&r是用于制作护身符的最初级的基板。"
+		"&7普通符石基底&r是用于制作符石的最初级的基板。"
 		""
-		"你可以使用它制作一级护身符，也可以将其升级为&a高级护符底座&r。"
+		"你可以使用它制作一级符石，也可以将其升级为&a高级符石基底&r。"
 	]
-	quest.54EA7CEFB131A995.title: "&7普通护符底座（普通护符基板）"
+	quest.54EA7CEFB131A995.title: "&7普通符石基底（普通护符基板）"
 	quest.55001F51828284B5.quest_desc: [
 		"&a匕首&r伤害极低，但是挥舞速度非常快。"
 		""
@@ -8981,11 +8981,11 @@
 	quest.56EC29FFC567ECC2.quest_subtitle: "在催化剂上使用红色染料"
 	quest.56EC29FFC567ECC2.title: "&f红石矿晶母岩"
 	quest.56F225D27E646F33.quest_desc: [
-		"&a战斗护身符&r在玩家受击后提供额外0.25秒的无敌效果。"
+		"&a战斗符石&r在玩家受击后提供额外0.25秒的无敌效果。"
 		""
-		"它还用于制作&b战士力量&r。"
+		"它还用于制作&b勇士之力&r。"
 	]
-	quest.56F225D27E646F33.title: "&a战斗护身符"
+	quest.56F225D27E646F33.title: "&a战斗符石"
 	quest.570CA0A0CA64C09E.quest_desc: [
 		"&b萨斯杰斯简易圆环&r是一个基础的&b五芒星&r，有两个用途："
 		""
@@ -9161,7 +9161,7 @@
 		""
 		"至于他们的第一个家，用&eJust Dire Things模组的原初浆凝胶&r将竹块转化成蜂巢吧！"
 		""
-		"You'll want to have this in a good spot if you don't have Silk Touch, since a campfire below is needed to safely harvest combs and honey bottles."
+		"如果你没有精准采集，最好提前给蜂箱找个好地方，蜂箱下面需要放置营火以安全地收获蜜脾和蜂蜜瓶。"
 	]
 	quest.586E18023A595A6C.title: "&2资源蜜蜂&r"
 	quest.5878F6DB12C22339.quest_desc: [
@@ -9335,9 +9335,9 @@
 	quest.5B28036A3960FCAC.quest_desc: [
 		"&d雨天护符&r在雨天时增加50%游泳速度。"
 		""
-		"它还用于制作&b环境力量&r。"
+		"它还用于制作&b环境之力&r。"
 	]
-	quest.5B28036A3960FCAC.title: "&d雨天护符（雨天护身符）"
+	quest.5B28036A3960FCAC.title: "&d雨天护符（"
 	quest.5B2920835630AF78.quest_desc: ["&7&oSo you're really just going to skip the whole mod?"]
 	quest.5B2920835630AF78.title: "&6维度之魂"
 	quest.5B2EF619290CBCDA.quest_subtitle: "让你获得抗火效果"
@@ -9375,13 +9375,13 @@
 	]
 	quest.5B62E0C65AAF1984.title: "&b通用机械升级包"
 	quest.5B7CC380E28893C1.quest_desc: [
-		"如果你需要做&2橡胶&r的话，首先要获取某种特殊的&a油&r。"
+		"如果要做&2橡胶&r，我们首先需要获取任意形态的&a油&r。"
 		""
 		"你需要把水和&a碳粉&r或&a焦煤粉&r放入搅拌机，制作&3粗制合成油&r。"
 		""
-		"[\"制作焦煤，你需要使用\", { \"text\": \"MI焦炉\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"06FD385E707F4E12\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往MI焦炉任务\"}}, \"或\", { \"text\": \"沉浸工程焦炉\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0A2DB5AFC89E852F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往沉浸工程焦炉任务\"}}, \".\"]"
+		"[\"要制作焦煤，你需要使用\", { \"text\": \"MI焦炉\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"06FD385E707F4E12\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往MI焦炉任务\"}}, \"或\", { \"text\": \"沉浸工程焦炉\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0A2DB5AFC89E852F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往沉浸工程焦炉任务\"}}, \".\"]"
 	]
-	quest.5B7CC380E28893C1.title: "&a粉末榨油"
+	quest.5B7CC380E28893C1.title: "&a煤粉榨油"
 	quest.5B85AB4B095F240B.quest_desc: [
 		"站上&a充电台&r，它会自动为你物品栏中有需要电能的物品充能。"
 		""
@@ -9396,11 +9396,11 @@
 	]
 	quest.5B9E15BA5FDF0F24.title: "&f生物反应器"
 	quest.5BA74A759CC43BBB.quest_desc: [
-		"&e现代工业化&r每级都有几种不同的电缆。"
+		"&e现代工业化&r每个阶段都有几种不同的电缆。"
 		""
 		"例如，对于&2低压&r阶段，有&a铜&r、&7银&r和&2锡&r电缆，它们可以传输相同数量的电力而不会造成电力损失。"
 		""
-		"使用不同类别的线缆的原因是线缆不会和其他类别相连，你可以在一格空间内放置多种线缆（最大为3）以便于接线。"
+		"使用不同类别线缆的原因是它们只会和同类线缆相连，你可以在一格空间内放置多种线缆（最大为3）。"
 	]
 	quest.5BA74A759CC43BBB.title: "&e现代工业化&a电缆"
 	quest.5BAC67D69E4CEBFD.quest_desc: ["这是该模组的初始能源线缆，可以提供&a低压电&r下的256EU/t传输速率。"]
@@ -9451,11 +9451,11 @@
 	]
 	quest.5C28750958603F6C.title: "&f自然符文"
 	quest.5C291965A6AEE07E.quest_desc: [
-		"&7恶魂护身符&r对玩家半径三格范围内的敌对生物施加2秒虚弱效果。"
+		"&7恶魂符石&r对玩家半径三格范围内的敌对生物施加2秒虚弱效果。"
 		""
-		"它还用于制作&b排斥者力量&r。"
+		"它还用于制作&b敌手之力&r。"
 	]
-	quest.5C291965A6AEE07E.title: "&7恶魂护身符"
+	quest.5C291965A6AEE07E.title: "&7恶魂符石"
 	quest.5C2C0986D6014ADD.quest_desc: [
 		"每天，所有的&a流浪商人&r都会聚在一起开会。他们商讨哪些玩家可能需要服务，以及何时提供帮助。他们的交易内容包括各种实用的物品，比如能快速生成生物的&e特殊草方块&r，或者能用于快速搭建高级存储系统的&e外借科技&r。"
 		""
@@ -9502,7 +9502,7 @@
 	quest.5CC65B3FE402E58B.quest_desc: [
 		"&d夜晚护符&r在夜晚时增加10%护甲。"
 		""
-		"它还用于制作&b环境力量&r。"
+		"它还用于制作&b环境之力&r。"
 	]
 	quest.5CDC5A9146549977.title: "&f唤魔升级法球"
 	quest.5CDE33FC6A041416.quest_desc: ["&3自动合成仓管理器&r可配置网络中所有的&3自动合成仓&r。"]
@@ -9694,8 +9694,8 @@
 		"喜欢用某个法术，但是这个法术有点太弱了？在&a奥术铁砧&r上用高阶墨水升级它！"
 	]
 	quest.5E3A4A3F00FDDEC0.title: "&f升级你的&b法术&r和&a装备"
-	quest.5E3CC82782A93C54.quest_desc: ["&6神圣护符底座&r是最高级的基板，用来制作&d维度之魂&r。"]
-	quest.5E3CC82782A93C54.title: "&6神圣护符底座（神级护符基板）"
+	quest.5E3CC82782A93C54.quest_desc: ["&6神圣符石基底&r是最高级的基板，用来制作&d维度之魂&r。"]
+	quest.5E3CC82782A93C54.title: "&6神圣符石基底（神级护符基板）"
 	quest.5E48B3223335F4F6.quest_desc: [
 		"在&d采石场&r中使用你的&6钛钻&r，以此挖掘&7铱矿&r。"
 		""
@@ -10079,11 +10079,11 @@
 	]
 	quest.627CC178ACA711E6.title: "&6艾瑟傀儡"
 	quest.629308DC692DB140.quest_desc: [
-		"&7荧石护身符&r对玩家半径12格范围内的不可见敌对生物施加发光效果，让它们在世界中高亮显示。"
+		"&7荧石符石&r对玩家半径12格范围内的不可见敌对生物施加发光效果，让它们在世界中高亮显示。"
 		""
-		"它还用于制作&d世界力量&r。"
+		"它还用于制作&d主世界之力&r。"
 	]
-	quest.629308DC692DB140.title: "&7荧石护身符"
+	quest.629308DC692DB140.title: "&7荧石符石"
 	quest.629C6374800613C4.quest_desc: [
 		"To attach &aLogic Cables&r to blocks in the world and add them to your network, you'll need some type of &aInterface&r."
 		""
@@ -10146,9 +10146,9 @@
 	quest.6324941CAA013A6D.quest_desc: [
 		"&d太阳护符&r在晴天时增加5%伤害。"
 		""
-		"它还用于制作&b环境力量&r。"
+		"它还用于制作&b环境之力&r。"
 	]
-	quest.6324941CAA013A6D.title: "&d太阳护符（太阳护身符）"
+	quest.6324941CAA013A6D.title: "&d太阳护符（"
 	quest.633843210DE84A0D.quest_desc: [
 		"&b白色粉笔&r是一种&e基础粉笔&r。"
 		""
@@ -10713,11 +10713,11 @@
 	quest.6890BFFFE9D4A223.title: "&dPuffish Skills 奖励包"
 	quest.6896CCBC73B09381.title: "&f头盔宝典"
 	quest.68A718B129075CDF.quest_desc: [
-		"&7铁护身符&r提供5%伤害减免。"
+		"&7铁符石&r提供5%伤害减免。"
 		""
-		"它还用于制作&a钻石护身符&r。"
+		"它还用于制作&a钻石符石&r。"
 	]
-	quest.68A718B129075CDF.title: "&7铁护身符"
+	quest.68A718B129075CDF.title: "&7铁符石"
 	quest.68A9006D2FE4A38D.quest_desc: [
 		"&a存储稳定器&r会增加&a存储促动器&r的存储空间"
 		""
@@ -10734,9 +10734,9 @@
 	quest.68C3F238B65BD483.quest_desc: [
 		"&d风暴护符&r在雷暴时增加15%伤害。"
 		""
-		"它还用于制作&b环境力量&r。"
+		"它还用于制作&b环境之力&r。"
 	]
-	quest.68C3F238B65BD483.title: "&d风暴护符（雷暴护身符）"
+	quest.68C3F238B65BD483.title: "&d风暴护符（"
 	quest.68F600EFC7166908.quest_desc: [
 		"&6超导体锭&r用来制造最高等级的电缆，这些高级线缆的能源传输能力十分强大（&d1.024GEU/t&r）。同时，后期科技的配方也会需要它。"
 		""
@@ -10756,7 +10756,7 @@
 	quest.69159D10C2791C2E.quest_desc: [
 		"&a青铜熔炉&r和&2研磨机&r是你应该最先制造的基础机器。"
 		""
-		"&a青铜熔炉&r由&7蒸汽&r作为热源来熔炼物品，它的速度比原版的熔炉稍快。"
+		"&a青铜熔炉&r由&7蒸汽&r驱动，用于熔炼物品，它的速度比原版的熔炉稍快。"
 		""
 		"&2研磨机&r可以使矿石增产并可以从一些物品中获得副产物。"
 	]
@@ -10796,8 +10796,8 @@
 		"这个合金非常非常重要，有了它你就可以开启&b现代工业化青铜时代&r了！"
 	]
 	quest.6A18A087EA934C46.title: "&f青铜锭"
-	quest.6A1CD115285158D3.quest_desc: ["&a哞菇护身符&r站在菌丝体上时，增加玩家的生命再生速度。"]
-	quest.6A1CD115285158D3.title: "&a哞菇护身符"
+	quest.6A1CD115285158D3.quest_desc: ["&a哞菇符石&r站在菌丝体上时，增加玩家的生命再生速度。"]
+	quest.6A1CD115285158D3.title: "&a哞菇符石"
 	quest.6A22434958A72911.quest_desc: ["重置挖掘技能树中已使用的技能点。"]
 	quest.6A22434958A72911.title: "&f重置挖掘技能树"
 	quest.6A22BBE9C146E910.quest_desc: [
@@ -10877,11 +10877,11 @@
 	quest.6AC94BF73641EC4A.quest_subtitle: "真正的迅捷"
 	quest.6AC94BF73641EC4A.title: "&a迅捷之靴"
 	quest.6AF5FF1455F7C977.quest_desc: [
-		"&a紫水晶护身符&r使玩家免疫投射物伤害。"
+		"&a紫水晶符石&r使玩家免疫投射物伤害。"
 		""
-		"它还用于制作&d世界力量&r。"
+		"它还用于制作&d主世界之力&r。"
 	]
-	quest.6AF5FF1455F7C977.title: "&a紫水晶护身符"
+	quest.6AF5FF1455F7C977.title: "&a紫水晶符石"
 	quest.6B04DF90E7F33C9D.quest_desc: ["&a焦煤粉&r通过粉碎&3焦煤&r获取，能在&a工业挤压机&r中处理成&3高定向热解石墨粉&r。"]
 	quest.6B04DF90E7F33C9D.title: "&f焦煤粉"
 	quest.6B0731EE1A55A7F0.quest_desc: [
@@ -11164,9 +11164,9 @@
 	quest.6F49DC432E5968AC.quest_desc: [
 		"&d减速的护符&r在玩家受到缓慢效果影响时增加25%伤害。"
 		""
-		"它还用于制作&b负面力量&r。"
+		"它还用于制作&b负性之力&r。"
 	]
-	quest.6F49DC432E5968AC.title: "&d减速的护符（缓慢护身符）"
+	quest.6F49DC432E5968AC.title: "&d减速的护符（"
 	quest.6F4A4B4C261FF84B.quest_desc: ["消耗可燃物发电。"]
 	quest.6F4A4B4C261FF84B.title: "%f菌丝网络熔炉发电机"
 	quest.6F63C69CE07E0F0A.quest_desc: [
@@ -11381,11 +11381,11 @@
 	]
 	quest.718AF92800C06825.title: "&f封禁塔"
 	quest.719BCB8D5D1AF974.quest_desc: [
-		"&a北极护身符&r使玩家免疫寒冷伤害。"
+		"&a北极符石&r使玩家免疫寒冷伤害。"
 		""
-		"它还用于制作&d探险者力量&r。"
+		"它还用于制作&d探险家之力&r。"
 	]
-	quest.719BCB8D5D1AF974.title: "&a北极护身符"
+	quest.719BCB8D5D1AF974.title: "&a北极符石"
 	quest.71C6807139E44B6A.quest_subtitle: "+15% 法术抗性"
 	quest.71C6807139E44B6A.title: "&f沉重环链"
 	quest.71D274A5F226DAEC.quest_desc: [
@@ -11452,13 +11452,13 @@
 	]
 	quest.722901B4259D8AEC.title: "&c升级过的下界书架"
 	quest.723303AA9DCD6588.quest_desc: [
-		"&d世界力量&r提供用于制作它的所有护身符的效果："
+		"&d主世界之力&r提供用于制作它的所有符石的效果："
 		""
 		"修复护甲耐久，吸引经验球，消除猪灵敌意，免疫投射物伤害，20%伤害减免，对掠夺者及灾厄村民伤害翻倍，催熟周围的作物。"
 		""
 		"它还用于制作&3Minecraft之魂&r。"
 	]
-	quest.723303AA9DCD6588.title: "&d世界力量（主世界之力）"
+	quest.723303AA9DCD6588.title: "&d主世界之力"
 	quest.7244D5DADCF0D7A2.quest_desc: [
 		"&b水之过滤海洋书架&r最多可以放六本附魔书，放到其中的附魔不会再在附魔台中出现。"
 		""
@@ -11567,9 +11567,9 @@
 	quest.72E5DE96165E5DE2.quest_desc: [
 		"&d恶心的护符&r在玩家受到反胃效果影响时增加25%伤害。"
 		""
-		"它还用于制作&b负面力量&r。"
+		"它还用于制作&b负性之力&r。"
 	]
-	quest.72E5DE96165E5DE2.title: "&d恶心的护符（反胃护身符）"
+	quest.72E5DE96165E5DE2.title: "&d恶心的护符（"
 	quest.73090FDB6ABAF9C3.quest_desc: [
 		"&d守护者使魔&r可以通过舍弃自身的一条肢体来避免其主人死亡"
 		""
@@ -11805,11 +11805,11 @@
 	]
 	quest.74CC5FF2097C0839.title: "&e敌对神经网络&f！"
 	quest.74E9A69F9F8CDA3D.quest_desc: [
-		"&a铁傀儡护身符&r将当前生命值翻倍。"
+		"&a铁傀儡符石&r将当前生命值翻倍。"
 		""
-		"它还用于制作&b战士力量&r。"
+		"它还用于制作&b勇士之力&r。"
 	]
-	quest.74E9A69F9F8CDA3D.title: "&a铁傀儡护身符"
+	quest.74E9A69F9F8CDA3D.title: "&a铁傀儡符石"
 	quest.74EA351011AA309F.quest_desc: [
 		"这种神秘的&r珍贵物质&r无法用任何原始手段创造出来，只有游历在虚空中的各个岛屿和结构之间才能找到它，除非你深入地研究了依赖于科技或奥术的资源再生手段。"
 		""
@@ -11937,11 +11937,11 @@
 	quest.76E1D4957D0633B5.quest_desc: ["&3强力胶&r能让你通过……嗯……把方块粘在一起来组装结构。"]
 	quest.76E1D4957D0633B5.title: "&f风车结构"
 	quest.76E921EC64F80D6C.quest_desc: [
-		"&a线材轧机&r是制造线材和细线所必需的。"
+		"多数线材和细线都需要用到&a线材轧机&r。"
 		""
-		"为了制造那些电路和更加精密的机器、物品、齿轮，你会经常用到它。"
+		"在制造电路以及更加精密的机器、物品、齿轮时，你会经常用到它。"
 		""
-		"这台机器通常值得升级到你当前技术所允许的最高级别。"
+		"这台机器通常很值得升级，每个技术阶段你都可以将它升级到阶段对应的最高级别。"
 	]
 	quest.76E921EC64F80D6C.title: "&f钢线材轧机"
 	quest.76F225C6B9A79620.quest_desc: [
@@ -12008,7 +12008,7 @@
 	]
 	quest.7768A4D80488E53D.title: "&c下界&b之旅"
 	quest.776A013F2CDD8ACD.quest_desc: [
-		"&9维度之魂&r是&6Fargo的护身符&r模组最终极的&3灵魂&r……暂时如此。"
+		"&9维度之魂&r是&6Fargo的符石&r模组最终极的&3灵魂&r……暂时如此。"
 		""
 		"它将所有增益归于一体。"
 	]
@@ -12023,7 +12023,7 @@
 	quest.7771675453230C65.quest_desc: [
 		"&a压缩机&r可以把材料压制成板之类的有用物品，在之后可能会需要。"
 		""
-		"&a锻造锤&r只能带你走这么远！"
+		"&a锻压锤&r只能带你到这了！"
 	]
 	quest.7771675453230C65.title: "&a青铜压缩机"
 	quest.77724B4D52091CD3.title: "&c炽焰&f升级法球"
@@ -12203,11 +12203,11 @@
 	quest.7913B52AD9D28D2B.quest_desc: ["一座巨型要塞坐落于下界之中。这座城堡的核心隐藏着一个具有毁灭性的&4先驱者&r，由观测者和徘徊者严密守护。（提示：存在远古骑士刷怪笼）"]
 	quest.7913B52AD9D28D2B.title: "&f发现&4下界城堡"
 	quest.792AD85AE9FB81E0.quest_desc: [
-		"&7幽灵护身符&r可以消除自然生成的幻翼的敌意，但不会阻止幻翼生成。"
+		"&7幽灵符石&r可以消除自然生成的幻翼的敌意，但不会阻止幻翼生成。"
 		""
-		"它还用于制作&d世界力量&r。"
+		"它还用于制作&d主世界之力&r。"
 	]
-	quest.792AD85AE9FB81E0.title: "&7幽灵护身符（幻灵护身符）"
+	quest.792AD85AE9FB81E0.title: "&7幽灵符石（"
 	quest.792BD1143635482C.quest_desc: [
 		"这些蜂巢只能放在特定的生物群系才能吸引蜜蜂！"
 		""
@@ -12442,11 +12442,11 @@
 	quest.7BEB2CB9C3BF6318.quest_desc: ["&3仓储链接站&r允许你设置和管理物品的库存网络，使这些物品可以在同一网络中的其他系统请求时可用。"]
 	quest.7BEB2CB9C3BF6318.title: "&3仓储链接站"
 	quest.7C03724DFA7CC612.quest_desc: [
-		"&a火护身符&r使玩家免疫火焰和熔岩伤害。"
+		"&a火符石&r使玩家免疫火焰和熔岩伤害。"
 		""
-		"它还用于制作&d自然力量&r。"
+		"它还用于制作&d自然之力&r。"
 	]
-	quest.7C03724DFA7CC612.title: "&a火护身符"
+	quest.7C03724DFA7CC612.title: "&a火符石"
 	quest.7C0EFB4A52F2EC61.quest_desc: [
 		"If you wanted to, you could use the &ePowah&r mod for all of your power needs."
 		""
@@ -12529,7 +12529,7 @@
 	]
 	quest.7CA250EE0C5FBEFA.title: "&f全自动农场！"
 	quest.7CD3D31BAA53F592.quest_desc: [
-		"&b排斥者力量&r提供用于制作它的所有护身符的效果："
+		"&b敌手之力&r提供用于制作它的所有符石的效果："
 		""
 		"提升箭矢伤害，引燃周围的敌对生物并对其施加虚弱，暂时性增加伤害和攻击速度，免疫凋零和魔法伤害，还有爆炸跳。"
 		""
@@ -12772,13 +12772,13 @@
 	]
 	quest.7F4E7C687E7D8707.title: "&e物品收集器&r"
 	quest.7F630367E12209A4.quest_desc: [
-		"&d自然力量&r提供用于制作它的所有护身符的效果："
+		"&d自然之力&r提供用于制作它的所有符石的效果："
 		""
 		"免疫摔落伤害，提供无限水下呼吸，免疫火焰和熔岩伤害，将泥土转化为草方块。"
 		""
 		"它还用于制作&3Minecraft之魂&r。"
 	]
-	quest.7F630367E12209A4.title: "&d自然力量（自然之力）"
+	quest.7F630367E12209A4.title: "&d自然之力"
 	quest.7F6363864003FFC0.quest_desc: [
 		"&a金属冲压机&r是一种&b重型机器&r，依据模具将材料冲压成不同物品。"
 		""
@@ -12806,11 +12806,11 @@
 	quest.7F8E338B8B2C9EDC.quest_desc: ["The &aGenerator&r is the only way to generate power within &eI.D&r, so it is recommended to have another mod that can generate a good mount of RF to keep up with your machines."]
 	quest.7F8E338B8B2C9EDC.title: "&fGenerating Power"
 	quest.7FA34CEB41A4D9F5.quest_desc: [
-		"&a蒸汽高炉&r是你的第一个&e现代工业化&r的多方块结构。你需要向它提供&7蒸汽&r和生钢粉，这样才能用它制造&a钢锭&r。"
+		"&a蒸汽高炉&r是你在&e现代工业化&r里要做的第一个重点多方块结构。你需要为它装填&7蒸汽&r和生钢粉，这样才能用它制造&a钢锭&r。"
 		""
-		"除了控制器方块，你还需要任务中展示的流体和物品&a输入仓&r和物品&c输出仓&r。剩下的方块需要使用耐火砖块。"
+		"除了控制器方块，你还需要任务中展示的流体&a输入仓&r和物品&c输出仓&r。剩下的方块需要使用耐火砖块。"
 		""
-		"你可以将输入仓和输出仓放在结构中的不同位置，手持一个扳手或&a输入仓&r/&c输出仓&r来查看可用位置。"
+		"你可以将输入仓和输出仓放在结构中的不同位置，手持一个扳手或&a输入仓&r/&c输出仓&r，你就可以查看它们的可用位置。"
 	]
 	quest.7FA34CEB41A4D9F5.title: "&a蒸汽高炉"
 	quest.7FBA170218539BE8.quest_desc: [
@@ -12855,7 +12855,7 @@
 		""
 		"前往下一页以获取完整的效果列表。"
 		"{@pagebreak}"
-		"Increases XP gain, current health, block reach, armor, arrow damage, all damage when affected by negative effects, and during different weather and time of day, and swimming speed during rain."
+		"增加经验获取，增加生命值、放置距离、护甲、箭矢伤害，受负面效果影响时增伤，在不同的天气和时段增伤，在雨天增加游泳速度。"
 		""
 		"对掠夺者/灾厄村民的伤害翻倍，"
 		""
@@ -13084,7 +13084,7 @@
 	task.056DCB4713EB0918.title: "任意魔法作物"
 	task.05B209B3FC005914.title: "击杀每种敌对生物各一只"
 	task.05BA59C2F9E1F43B.title: "&f击杀10只&c烈焰人"
-	task.0657D2B7110B89A9.title: "Any Bee Cage"
+	task.0657D2B7110B89A9.title: "任意蜜蜂笼"
 	task.06F0C110F6DF4933.title: "我来这就图个颜色"
 	task.0707B05028ADBA69.title: "&e击杀&f：&4先驱者"
 	task.07417ECE0AFC0BDA.title: "太阳能板"
@@ -13118,7 +13118,7 @@
 	task.0ECBFE9262249011.title: "任意魂染工具"
 	task.0ED7E5C08F734CB3.title: "Refuse to Slay a Golem"
 	task.0F323A1897237ED1.title: "召唤一个&c晴天魔灵"
-	task.0FB6B81D9E1E258E.title: "Blue Banded Bee Nests"
+	task.0FB6B81D9E1E258E.title: "蓝色条纹蜜蜂巢"
 	task.101BA566216C32AD.title: "AE线缆"
 	task.10328EE3113F66B2.title: "&c伊哈根使魔"
 	task.1053A406B1F9DAAD.title: "&e观察&f：&c火焰"
@@ -13222,7 +13222,7 @@
 	task.2ADC1FF0AC128794.title: "风中低语"
 	task.2B2473620B056467.title: "游玩 &d50 小时"
 	task.2B2AC5A9A28F14A9.title: "蓄电池"
-	task.2B97A2DFF700B056.title: "&6Fargo的护身符"
+	task.2B97A2DFF700B056.title: "&6Fargo的符石"
 	task.2BB5021FC9A3E6EB.title: "&f召唤一个&a鹦鹉"
 	task.2C1245371800E1E7.title: "蜜蜂种类"
 	task.2C8687501A9C54A8.title: "&2初级精华&f工具"
@@ -13300,7 +13300,7 @@
 	task.3D326694D91E3A13.title: "矿晶傀儡"
 	task.3D6DD528D310D8B9.title: "任意&b四级&f生物种子"
 	task.3D77BC2D58CE8E37.title: "&f实用的&a三阶&r魔符"
-	task.3D8249AFA2C607A0.title: "&d夜晚护符（夜晚护身符）&r"
+	task.3D8249AFA2C607A0.title: "&d夜晚护符（&r"
 	task.3E8EE10AD935D436.title: "&f熔炉&a强化"
 	task.3EF3D33D52CB41A5.title: "虚空升级"
 	task.3F405FB146055F6D.title: "献祭"
@@ -13309,7 +13309,7 @@
 	task.3F7FE89F1DBD4A48.title: "&e观察&f：工业挤压机"
 	task.3FB6FB9AEEAE5739.title: "150x 装配矩墙壁/玻璃"
 	task.4087591E474FC477.title: "&f击杀10只&d末影人"
-	task.4096CA7300D6F0EB.title: "切换护身符效果"
+	task.4096CA7300D6F0EB.title: "切换符石效果"
 	task.40BB388E2251B800.title: "&e发现&f：&6流浪商人"
 	task.40E0C4BFAB2B3608.title: "&d阿巴拉斯魔灵附身"
 	task.40EF108176203527.title: "任意基础木质工具"
@@ -13435,7 +13435,7 @@
 	task.5CF6E53B06825D6C.title: "基础矿晶"
 	task.5D00E27FDC3A9CEE.title: "&6觉醒精华&f工具"
 	task.5D925435E36DF8E3.title: "&fUnderstanding IO Interfaces"
-	task.5DAFCA855CC9B4D4.title: "&eObserve&f: &aAndesite Amalgam Block"
+	task.5DAFCA855CC9B4D4.title: "&e观察&f：&a安山岩合金方块"
 	task.5DE59DFE8D72E6F4.title: "召唤一个&d火灵碎矿者"
 	task.5E063386FFA425A1.title: "升级"
 	task.5E0907252C228A2D.title: "反应堆燃料"
