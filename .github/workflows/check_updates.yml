@@ -2,8 +2,8 @@ name: Check for Modpack Updates
 
 on:
   schedule:
-    # 每天北京时间8点运行 (UTC 0:00)
-    - cron: '0 0 * * *'
+    # 每天北京时间6点运行 (UTC 22:00)
+    - cron: '0 22 * * *'
   # 允许在 Actions 页面手动触发
   workflow_dispatch:
 
