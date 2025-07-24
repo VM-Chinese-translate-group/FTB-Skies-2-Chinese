@@ -2638,6 +2638,7 @@
 			tasks: [{
 				id: "02A3DBF0B7B58E20"
 				item: { components: { "gateways:gateway": "gateways:emerald_grove" }, count: 1, id: "gateways:gate_pearl" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 7.5d

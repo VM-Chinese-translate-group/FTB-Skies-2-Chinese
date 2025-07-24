@@ -13,6 +13,7 @@
 		{ id: "695DE52FC7EEFD40", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:pig" }, count: 1, id: "hostilenetworks:data_model" } }
 		{ id: "440A968CDD86E4AD", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:cow" }, count: 1, id: "hostilenetworks:data_model" } }
 		{ id: "7B96E0AF7B53A334", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:chicken" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "4F70077ECF568D53", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:sheep" }, count: 1, id: "hostilenetworks:data_model" } }
 		{ id: "3EE8DD60EB22A9C1", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:zombie" }, count: 1, id: "hostilenetworks:data_model" } }
 		{ id: "70F43B9C300753C7", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:skeleton" }, count: 1, id: "hostilenetworks:data_model" } }
 		{ id: "0EEA7EA0B2E08BB7", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:spider" }, count: 1, id: "hostilenetworks:data_model" } }
