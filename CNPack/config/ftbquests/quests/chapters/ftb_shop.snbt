@@ -412,7 +412,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/execute as @s run events force ftb:allay"
-				feedback_message: "Summoned an Allay"
+				feedback_message: "召唤了一只悦灵"
 				icon: {
 					components: {
 						"ftbquests:icon": "occultism:textures/gui/book/allay.png"
@@ -2100,7 +2100,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/execute as @s run events force ftb:wandering_trader"
-				feedback_message: "Summoned a Wandering Trader"
+				feedback_message: "召唤了一个流浪商人"
 				icon: {
 					components: {
 						"ftbquests:icon": "immersiveengineering:block/metal_decoration/sign/icon_villager"
@@ -2590,7 +2590,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/execute as @s run summon minecraft:turtle ~ ~ ~"
-				feedback_message: "Summoned a Turtle"
+				feedback_message: "召唤了一只海龟"
 				icon: {
 					id: "minecraft:turtle_egg"
 				}
@@ -3001,7 +3001,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/execute as @s run events force ftb:fairy"
-				feedback_message: "Summoned a Fairy"
+				feedback_message: "召唤了一个精灵"
 				icon: {
 					components: {
 						"ftbquests:icon": "occultism:textures/gui/book/familiar_fairy.png"
@@ -3034,7 +3034,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/execute as @s run summon minecraft:armadillo ~ ~ ~"
-				feedback_message: "Summoned an Armadillo"
+				feedback_message: "召唤了一只犰狳"
 				icon: {
 					id: "minecraft:armadillo_scute"
 				}
@@ -3064,7 +3064,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/execute as @s run summon minecraft:sniffer ~ ~ ~"
-				feedback_message: "Summoned a Sniffer"
+				feedback_message: "召唤了一只嗅探兽"
 				icon: {
 					id: "minecraft:sniffer_egg"
 				}
@@ -3127,7 +3127,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/execute as @s run events force ftb:pyromancer"
-				feedback_message: "Summoned a Pyromancer"
+				feedback_message: "召唤了一个炽焰术师"
 				icon: {
 					components: {
 						"ftbquests:icon": "ars_arsenal:item/sigil_of_pyromancy"
@@ -3192,7 +3192,7 @@
 				{
 					auto: "enabled"
 					command: "/execute as @s run events force ftb:allay @s {buy:\"minecraft:lapis_lazuli\", action: \"weather thunder\", name: \"Thunder Allay\", spawn_message: \"Trade me a Lapis Lazuli to make it Thunder!\", success_message: \"Let it Storm!\"}"
-					feedback_message: "Summoned the Master of Storms"
+					feedback_message: "召唤了一个风暴召唤师"
 					icon: {
 						components: {
 							"ftbquests:icon": "occultism:textures/gui/book/allay.png"
