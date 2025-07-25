@@ -2920,6 +2920,7 @@
 					count: 1
 					id: "gateways:gate_pearl"
 				}
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 7.5d

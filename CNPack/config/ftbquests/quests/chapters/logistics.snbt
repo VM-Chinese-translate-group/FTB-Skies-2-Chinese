@@ -2042,6 +2042,7 @@
 			}
 			id: "4AEC464751F85A2B"
 			min_width: 300
+			optional: true
 			rewards: [{
 				id: "696EA946CF2E5728"
 				item: {
@@ -2068,6 +2069,7 @@
 			}
 			id: "497C4A3783B5BE9E"
 			min_width: 300
+			optional: true
 			rewards: [{
 				id: "745714B81A70202B"
 				item: {
@@ -2094,6 +2096,7 @@
 			}
 			id: "5E66CDE4370938D5"
 			min_width: 300
+			optional: true
 			rewards: [{
 				id: "111B42AD31C2D464"
 				item: {
@@ -2123,6 +2126,7 @@
 			}
 			id: "4C6F46D9E6095A3F"
 			min_width: 300
+			optional: true
 			rewards: [{
 				id: "5207D0F5BB4FF5D2"
 				item: {
@@ -2150,6 +2154,7 @@
 			}
 			id: "52959FE53EA75840"
 			min_width: 300
+			optional: true
 			rewards: [{
 				id: "1E3D1E9828D06E5A"
 				item: {
@@ -2176,6 +2181,7 @@
 			}
 			id: "565881B956911B9C"
 			min_width: 300
+			optional: true
 			rewards: [{
 				id: "0DA833F345E9EE24"
 				item: {
@@ -2202,6 +2208,7 @@
 			}
 			id: "1D4B75C5103D3723"
 			min_width: 300
+			optional: true
 			rewards: [{
 				id: "640004ABD43820D9"
 				item: {
