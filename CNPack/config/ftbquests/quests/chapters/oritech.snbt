@@ -2724,7 +2724,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(oritech:reactor_rod)item(oritech:reactor_double_rod)item(oritech:reactor_quad_rod))"
-							"minecraft:custom_name": "”反应堆棒“"
+							"minecraft:custom_name": "”反应堆棒”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"

@@ -4777,7 +4777,7 @@
 	quest.2E30AE23A0602A0A.quest_desc: [
 		"想要快速传送到基地的不同区域？或者另一个基地？制作一个&d传送石碑&r！"
 		""
-		"在野外想迅速传送到某个传送石碑？做个&d传送石&r，轻松造访所有传送石碑！"
+		"想要野外传送回某个传送石碑？做个&d传送石&r，轻松造访所有传送石碑！"
 	]
 	quest.2E30AE23A0602A0A.title: "&b快速传送"
 	quest.2E3D56F5BC1075DB.quest_desc: ["这个升级可以让你拥有创造飞行的能力，把它加装到你的&d蚀空合金胸甲&r上就行。"]
@@ -4916,7 +4916,7 @@
 	quest.2FCED22162B00429.quest_subtitle: "传输能量"
 	quest.2FCED22162B00429.title: "&f能量导管"
 	quest.2FD12A67DBC2D15D.quest_desc: [
-		"有了基础材料，制作&a营火&r就变得容易很多。它可以用来烹饪各种物品，或者更轻松得制作木炭。"
+		"有了基础材料，制作&a营火&r就变得容易很多。它可以用来烹饪各种物品，或者更轻松地制作木炭。"
 		""
 		"不过还是很烫，当心脚下哦！"
 		""
@@ -5053,7 +5053,7 @@
 	quest.319F49C16CFE900C.quest_desc: [
 		"虽然睡觉是设置重生点的经典方法，但你也可以选择使用&a/sethome&r命令来设定家，输入&a/home&r回家。"
 		""
-		"这里还有些传送命令你或许会用得上！"
+		"这里还有些传送命令可供使用！"
 		""
 		"&a/sethome（名称）&r | 可以设定一个家的位置，用/home（名称）就可以快速传送回来。"
 		""
@@ -5089,7 +5089,7 @@
 	quest.31B2CB47C8867F0A.quest_desc: [
 		"将方块分解成更小的碎块非常实用，但手动完成却十分繁琐。"
 		""
-		"自动锤从一侧（蓝色面）的容器中抽取物品，粉碎方块，然后将其输入到另一侧（红色面）的容器中，整个过程无需额外操作！"
+		"自动锤从一侧（蓝色面）的容器中抽取物品，进行粉碎，然后将其输出到另一侧（红色面）的容器中，整个过程无需额外操作！"
 	]
 	quest.31B2CB47C8867F0A.title: "&f自动锤"
 	quest.31BD9A98AE5893B9.quest_desc: [
@@ -6125,9 +6125,9 @@
 	quest.3A180E0119D95D05.quest_desc: [
 		"你的物品栏很快就会满了，毕竟这是个&o整合包&r。"
 		""
-		"解决方案是制作一个&2精妙背包&r。这些背包能轻松解决你的物品栏问题！它们可以升级，以便容纳更多物品，并且还有许多很酷炫的升级，可以帮到你的探险，比如可以随时随地使用工作台的&a合成升级&r。"
+		"解决方案是制作一个&2精妙背包&r。这些背包能轻松解决你的物品栏问题！它们可以升级，以便容纳更多物品，并且还有许多很酷炫的升级，可以在探险中提供帮助，比如可以随时随地使用工作台的&a合成升级&r。"
 		"{@pagebreak}"
-		"你可以把它放到饰品栏，然后按快捷键就能打开。如果背包在主手的话直接潜行右键就能放下。"
+		"你可以把它放到饰品栏，然后按快捷键就能打开。主手持背包潜行右击就能将背包放下。"
 		""
 		"[\"要了解更多，请查看\", {\"text\": \"通用存储\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"049DE43A1B31C38F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往通用存储章节\"]} }, \"章节。\"]"
 	]
@@ -6320,11 +6320,11 @@
 	quest.3B6540C11FAF6C3D.title: "&a输入和输出接口"
 	quest.3B68EF55AB8E61C3.title: "&c雷霆之杖"
 	quest.3B6BEB5B9B49DC06.quest_desc: [
-		"有了&b铁&r，你就可以通过制作你的第一本法术书进入&d新生魔艺&r的魔法世界！"
+		"有了&b铁&r，你就可以制作你的第一本法术书，进入&d新生魔艺&r的魔法世界！"
 		""
 		"[ \"要了解更多关于该模组的功能，请查看\", { \"text\": \"新生魔艺\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1114D1FD164E514B\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往新生魔艺章节\"]} }, \"任务章节。\" ]"
 	]
-	quest.3B6BEB5B9B49DC06.title: "&f创造&d魔法&f！"
+	quest.3B6BEB5B9B49DC06.title: "&f施展&d魔法&f！"
 	quest.3B6CDE92B84CBFE5.quest_desc: [
 		"&a手钻&r在充能后可以当作铲或镐使用，手持手钻潜行右击可以给它加装升级。"
 		""
@@ -6360,7 +6360,7 @@
 		""
 		"幸好奶奶给你寄来了一些好东西，帮你渡过难关！"
 	]
-	quest.3BF066E5C333F217.quest_subtitle: "原木在上"
+	quest.3BF066E5C333F217.quest_subtitle: "上号先撸树"
 	quest.3BF066E5C333F217.title: "&f欢迎游玩&6Minecraft"
 	quest.3BFF8EFB5E7186A4.quest_desc: [
 		"The inside of the &6Quantum Computer&r multiblock can be customized using a mix of different blocks, including extra &bQuantum Storage&r."
@@ -6568,7 +6568,7 @@
 	quest.3E25D043676C1CE9.quest_desc: [
 		"将水滴在泥土上，可以将其加工成更加柔软易塑的形态：&7黏土&r！"
 		""
-		"这种物质因其多功能性而常受重视，但实际获取难度却远低于预期……多么平衡啊！"
+		"这种物质可塑性强，用途广泛，因而倍受推崇，同时获取难度又远低于预期……多么平衡啊！"
 	]
 	quest.3E25D043676C1CE9.title: "&f黏土"
 	quest.3E2E68B54A985CBF.quest_desc: ["&7&oChoose any item found within chests in Fargo's Dungeons."]
@@ -7204,7 +7204,7 @@
 	quest.447242EAC91413A9.quest_desc: [
 		"搭建&6末地传送门框架&r可不简单！你需要深入科技或魔法领域才能集齐全部12个……"
 		""
-		"要构建&d末地传送门&r，需要以中心为起点，用&6末地传送门框架&r放置出一个没有四角的5x5方框，仅从一个方向搭建是无法激活的。要成功激活，你需要确保每个&6末地传送门框架&r里都有&6末影之眼&r。"
+		"用&6末地传送门框架&r搭建一个没有四角的5x5方框即可完成&d末地传送门&r，末地传送门框架的朝向必须正确，否则无法激活。将&6末影之眼&r放入所有&6末地传送门框架&r以激活传送门。"
 		""
 		"这样传送门结构就会成型，你可以跳入其中到达&6末地&r，&d末影龙&r的家乡。"
 	]
@@ -7446,7 +7446,7 @@
 		"右击时，矿机会显示其下方的目标&a资源节点&r。其将会标记下方三格3x3范围内第一个可见的资源节点"
 	]
 	quest.46AF8085E4151D9E.title: "&c基岩层钻机"
-	quest.46BB702F2847F818.quest_desc: ["把红石丢到激光上，你就可以得到&a红石水晶&r，&e实用拓展&r里的很多合成配方都需要它。"]
+	quest.46BB702F2847F818.quest_desc: ["把红石丢到激光上，就可以得到&a红石水晶&r，&e实用拓展&r里的很多合成配方都需要它。"]
 	quest.46BB702F2847F818.title: "&a红石水晶"
 	quest.46C2C45AE017AE81.quest_desc: ["这个升级装入&aJust Dire模组的镐&r后，右击就会让周边的矿石透过墙壁发光。"]
 	quest.46C2C45AE017AE81.title: "&f升级：矿石扫描"
@@ -7697,15 +7697,15 @@
 	]
 	quest.49E9EBFC7B717D8E.title: "&f精制油"
 	quest.4A07DF8EB4A0C40A.quest_desc: [
-		"虚空之水中蕴含大量精华，或许你可以用合适的工具就能轻松提取？"
+		"虚空之水中蕴含大量精华，或许你可以用合适的工具将其钓出？"
 		""
-		"当有东西咬钩时，在正确的时间提竿应该能让你钓到钩住的东西！"
+		"当有东西咬钩时，在正确的时间提竿就能成功钓上渔获！"
 		""
-		"当钓钩附近有足够的水时，你就可能钓到特别稀有的东西……"
+		"钓点周围的水足够多的话，你还有可能钓到特别稀有的东西……"
 		"{@pagebreak}"
-		"如果钓钩周围五格宽的水域开阔无阻，且至少两格深，上方无遮挡，则有几率钓到一种“珍贵”的精华。"
+		"如果钓点周围五格宽的水域开阔无阻，且至少两格深，上方无遮挡，则有几率钓到“珍贵”的精华。"
 	]
-	quest.4A07DF8EB4A0C40A.quest_subtitle: "垂钓与收获"
+	quest.4A07DF8EB4A0C40A.quest_subtitle: "提竿收鱼"
 	quest.4A07DF8EB4A0C40A.title: "&f耕作之道"
 	quest.4A1E69C9C543011E.quest_desc: [
 		"&7多刺符石&r使玩家免疫来自甜浆果丛的伤害。"
@@ -8031,7 +8031,7 @@
 	quest.4C8EB2205707AE45.quest_desc: [
 		"在肥沃的草方块上使用&a骨粉&r会让草迅速生长。然后就可以打草获得小麦和工业大麻种子。"
 		""
-		"后者现在更重要，因为长成的工业大麻堆肥效率很高，并且可以转化为线！"
+		"后者现在更重要，因为长成的工业大麻堆肥效率很高，并且可以合成线！"
 	]
 	quest.4C8EB2205707AE45.title: "&f线是关键"
 	quest.4C8EDEEFBC40E44B.quest_desc: [
@@ -9325,9 +9325,9 @@
 	quest.595F8AC6DB5DACD8.quest_desc: [
 		"在原版获得第一颗&b钻石&r是件大事，在这也不简单！"
 		""
-		"要获得钻石，你需要将&6闪电&r引导到绿宝石上（当物品在地上时），将&e多态流体&r滴在绿宝石块上，或者在&b探索虚空岛屿&r时获取一些。一旦有了一点，你就能够生产更多。"
+		"要获得钻石，你需要将&6闪电&r引导到绿宝石上（将物品扔在地上），或者将&e多态流体&r滴在绿宝石块上，或者在&b探索虚空岛屿&r时获取一些。一旦有了几个，你就能够生产更多。"
 		""
-		"&6流浪商人&r也&o可能&r帮你完成这个转化……"
+		"&d流浪商人&r也&o可能&r帮你完成这个转化……"
 		""
 		"&7&o也有机会钓到一些钻石精华，并且存在其他更有技术性的方法来生成钻石，例如&a煤炭压缩&r&7&o，&a矿工透镜&r&7&o和更多方法……"
 	]
@@ -9880,9 +9880,9 @@
 	]
 	quest.5FCB70FA68E708BB.title: "&eRS2处理器奖励包"
 	quest.5FCEA8229BB6955C.quest_desc: [
-		"离开方块边缘踏空一步掉入虚空，在你落回到地面之前，你就可以获得&a无限粉&r。这没有预期的那么糟，除了你掉回地面时的一个踉跄。"
+		"A simple walk off your bit of stable ground into the void can get you &aGrains of Infinity&r right before you loop back above the void. It's much more forgiving than one would expect, aside from the slight crunch when you land back on solid ground."
 		""
-		"这取决于你离虚空深处有多近，在&e足够低&r的位置停留能让你被动地收集&a无限粉&r。"
+		"This is based on how close you are to the depths of the void, and hanging out &elow enough&r will allow you to passively collect &aGrains&r."
 	]
 	quest.5FCEA8229BB6955C.title: "&a无限粉"
 	quest.5FD42392FCECCB47.quest_desc: [
