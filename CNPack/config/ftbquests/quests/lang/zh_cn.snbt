@@ -172,7 +172,7 @@
 		"可以在&b世界等级&r菜单（默认为“CTRL+T”）中查看每个等级的变化。"
 	]
 	quest.011DBD2652E49B97.title: "&f神化模组的世界难度等级介绍"
-	quest.012AEBFDB1F1512E.title: "&fFerricore Armor"
+	quest.012AEBFDB1F1512E.title: "&f核源铁盔甲"
 	quest.012DA013C192D30E.quest_subtitle: "流体管道"
 	quest.013375F170CE6A2F.quest_desc: [
 		"[ \"有了\", {\"text\": \"黄绿色\", \"color\": \"#E2FC97\"}, \"和\", {\"text\": \"淡灰色\", \"color\": \"#C2C2C2\"}, \"粉笔， 你现在可以引诱\", {\"text\": \"巨灵\", \"color\": \"#FF5555\"}, \"，以召唤被附身的强大生物\"]"
@@ -311,7 +311,7 @@
 	quest.02F52598328E84A0.quest_desc: [
 		"通过将我们全新的&b强化合金&r和&c高级控制电路&r相结合，就能做出&9精英控制电路&r。"
 		""
-		"你需要用这些材料升级机器至&9精英&r工厂所必需的，以备高阶合成使用。"
+		"These are needed to upgrade machines to the &9Elite&r tier of factories, as well as being used in higher tier crafts."
 	]
 	quest.02F52598328E84A0.title: "&b精英控制电路"
 	quest.02F6AC9E53029E0A.quest_desc: [
@@ -506,13 +506,13 @@
 	quest.04D4223CC7A21FA4.quest_desc: [
 		"&d高级传送枪&r很适合小范围传送。"
 		""
-		"This version allows you to save locations to teleport to, provided it has power and &2Portal Fluid&r."
+		"这把传送枪可以让你保存传送点，前提是需要有能量和&2传送流体&r。"
 		""
 		"如果要保存目的地的话，只需打开菜单后默认按&bV&r键。如果有按键冲突的话你就得改快捷键了。"
 		""
 		"保存地点后，使用传送枪就会直接打开一条前往目的地的传送门。"
 	]
-	quest.04D4223CC7A21FA4.title: "&dAdvanced Portal Gun"
+	quest.04D4223CC7A21FA4.title: "&d高级传送枪"
 	quest.04D6FAAF40A941EF.title: "&f填馅南瓜"
 	quest.04DFBDE537F968F5.quest_desc: ["&eMI&r的很多多方块结构都需要用到&c耐热机器外壳&r，所以一定要多做一点！"]
 	quest.04DFBDE537F968F5.title: "&c耐热机器外壳"
@@ -668,7 +668,7 @@
 	]
 	quest.06666C9D93C1A3EE.title: "&f结构罗盘"
 	quest.06765AD5169D189D.quest_desc: [
-		"你想过用激光来保护你的基地？如果没有，你还好吗？"
+		"想没想过用激光来保护你的基地？没有？那你准备好了吗？"
 		""
 		"&a激光炮塔&r是基地防御设施，消耗能量攻击敌人。可设置为攻击玩家模式，防止他人闯入你的基地。"
 	]
@@ -1614,13 +1614,13 @@
 	quest.0E0BB49B16E88A66.quest_desc: ["&6宝藏魔咒&r只会出现在战利品箱内，或者和村民交易的时候才会出现。但是，假如你有&3奥术宝藏深暗书架&r的话……"]
 	quest.0E0BB49B16E88A66.title: "&6经验修补！"
 	quest.0E107AC18FCFDB57.quest_desc: [
-		"Now that we have some &aPrimogel Goo&r, we can use it to see how this mechanic works."
+		"现在你有了&a原初浆凝胶&r，是时候学学这个机制的原理了。"
 		""
 		"Start by placing down the &aPrimogel Goo&r somewhere in an open space, then activate it by giving it either &bSugar&r or &bRotten Flesh&r. You can now place &2Iron Blocks&r on any of its faces to start the conversion."
 		""
 		"{image:ftb:textures/quests/direthings/impure_daisy.png width:200 height:100 align:center}"
 		"{@pagebreak}"
-		"You'll notice the &bGoo&r slowly starting to spread over, taking it completely over. Once the process is complete, you'll be left with &aRaw Ferricore Ore&r."
+		"然后你可能会注意到&b凝胶&r开始蔓延，直到把它完全转化。转化完毕后把铁块挖掉就是&a粗核源铁&r了。"
 		""
 		"&7&oSome Shaders will not properly display this effect, so you might want to disable them if you want to see the changes."
 		""
@@ -3735,7 +3735,7 @@
 	]
 	quest.2436337445AD0E07.title: "&e升级：&f蜜脾块"
 	quest.24401E59D87AC23A.quest_desc: [
-		"&6聚变反应堆&r是&e通用机械的&r终极发电系统。它以&a氘&r和&2氚&r或两者的混合物作为燃料，能够以相对较低的维护成本生产大量的电力或热能。这两种燃料成分都只需水和能量即可生产！"
+		"&6聚变反应堆&r是&e通用机械的&r终极发电系统。它以&a氘&r和&2氚&r或两者的混合物作为燃料，能够以相对较低的维护成本生产大量的电力或热能。这两种燃料成分只需水和能量即可生产！"
 		""
 		"&6聚变反应堆&r本身需要大量的&b裂变产物&r来制造，这既是为了支撑这种级别的能量输出，也是为了确保其安全稳定。"
 		"{image:ftb:textures/quests/mekanism/fusion_reactor.png width:100 height:100 align:center}"
@@ -3898,7 +3898,7 @@
 	]
 	quest.253FA29ADE459464.title: "&f熔炼岩石等"
 	quest.2568C81FA7914FE2.quest_desc: [
-		"&6量子数据纠缠器&r可以将所有&b量子合成存储&r的内存翻四倍。"
+		"&6量子数据纠缠器&r可以将所有&b量子合成存储器&r的内存翻四倍。"
 		""
 		"每个多方块合成器只允许放一个量子计算机。"
 	]
@@ -4576,7 +4576,7 @@
 	quest.2C4584B4B17872BF.title: "&f铜精华"
 	quest.2C55C6EBABA86BA8.quest_desc: ["This &aSimple Block Breaker&r is bound and determined to use its tool to break the block in front of it. Even if the tool is a stick and the block is obsidian. It'll get there."]
 	quest.2C55C6EBABA86BA8.quest_subtitle: "There's a block here and I don't like it"
-	quest.2C55C6EBABA86BA8.title: "&aSimple Block Breaker"
+	quest.2C55C6EBABA86BA8.title: "&a初级方块破坏器"
 	quest.2C7CFA7BB32C25BA.title: "&d末影&f升级法球"
 	quest.2C82E0C4537DEF65.quest_desc: [
 		"当&a滤水器&r被放置在水中时，会从水中吸收虚空之精华，并凝炼为我们熟悉的物质和有机资源。"
@@ -4835,7 +4835,7 @@
 	quest.2EEE782146096F9C.title: "&e建筑小帮手"
 	quest.2F057F981B68EB95.quest_desc: ["The &aSimple Fluid Placer&r takes a fluid input and puts it in the world for all to see."]
 	quest.2F057F981B68EB95.quest_subtitle: "放置器"
-	quest.2F057F981B68EB95.title: "&aSimple Fluid Placer"
+	quest.2F057F981B68EB95.title: "&a初级流体放置器"
 	quest.2F0C6EA5380AA661.quest_desc: ["有了&c火灵灵髓&r，你就可以制作更高级别的&c红色粉笔&r了。"]
 	quest.2F0C6EA5380AA661.quest_subtitle: "控制粉笔"
 	quest.2F0C6EA5380AA661.title: "&c红色粉笔"
@@ -5179,7 +5179,7 @@
 	quest.323A230EB571C4CA.quest_desc: [
 		"&a反应堆&r才是真正的发电大户！"
 		""
-		"反应堆使用&6晶质铀&r作为燃料，同时消耗&b煤炭&r与&c红石&r产生大量能量。"
+		"反应堆使用&6晶质铀矿&r作为燃料，同时消耗&b煤炭&r与&c红石&r产生大量能量。"
 		""
 		"[\"反应堆需要固体与液体冷却剂来降温，加入一些基础的冷却剂如\", {\"text\": \"门欧瑞树脂\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1403ABF77D987200\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往挤压机任务\"} }, \".\"]"
 		""
@@ -5211,7 +5211,7 @@
 		""
 		"&6量子计算机核心&r是这个多方块的重要组件，它相当于&b八核并行处理器&r，并且内置&b256M&r存储缓存。"
 		""
-		"It can be used for autocrafting by itself, but using it within the &6Quantum Computer&r multiblock will extend its processing power even further."
+		"它本身就可以直接拿来自动合成，但如果搭建成多方块的话处理能力会更强。"
 	]
 	quest.325D35004FF683C2.title: "&6量子计算机&d的核心&f部件"
 	quest.3272827DE96C5F64.quest_desc: [
@@ -5289,11 +5289,11 @@
 	quest.3329922774973A7D.quest_subtitle: "通用矿石生成"
 	quest.3329922774973A7D.title: "&f矿石生成器，配备有激光！"
 	quest.3334E05101A7297F.quest_desc: [
-		"The &aReaction Chamber&r is a very fast machine that can produce many of the common &eAE2&r materials at the cost of large amounts of power. "
+		"&a反应仓&r是个处理速度非常快的机器，可以产生大部分&eAE2&r的材料，只不过耗能可能大了一点。"
 		""
 		"你需要足够的电力储量，因为合成如果没有足够能量就不会开始。如果配方需要熔岩或水，直接泵入即可。"
 		""
-		"This machine is also required for crafting some of the more advanced materials such as &dSky Steel&r and &dSky Bronze&r."
+		"这台机器可以制造一些高阶材料，比如&d陨铁锭&r或&d陨青铜锭&r。"
 	]
 	quest.3334E05101A7297F.title: "&f反应仓&a"
 	quest.333E8FBE15AE980D.quest_desc: [
@@ -5308,11 +5308,11 @@
 	quest.333E8FBE15AE980D.quest_subtitle: "它们有何不同呢？"
 	quest.333E8FBE15AE980D.title: "&f你说是钋，我说是钚"
 	quest.333F134987890582.quest_desc: [
-		"The &3Crystal Assembler&r is used to craft many of the complex items from &bExtendedAE&r."
+		"&3水晶装配室&r可以制作&bExtendedAE&r模组中的高阶物品。"
 		""
-		"It can also be used to craft 4 &2Processors&r at once!"
+		"它可以一次制造四个&2处理器&r！"
 	]
-	quest.333F134987890582.title: "&3Crystal Assembler"
+	quest.333F134987890582.title: "&3水晶装配器"
 	quest.3356E0CCB928EC2C.quest_desc: ["&a链式传动箱&r可将&b旋转力&r传输到相连的&a链式传动箱&r，可驱动多台机器并排运行，或者轻松改变旋转轴。"]
 	quest.3356E0CCB928EC2C.title: "&a链式传动箱"
 	quest.335783B21CB10145.quest_desc: ["The &aAnimal Baby Separator&r can be used to keep adult breeding passive mobs in a separate pen so that you can automate a meat farm using only freshly spawned animals."]
@@ -5402,7 +5402,7 @@
 		"建议手头常备这种材料，以便于合成。"
 	]
 	quest.3404B0A29BF5A055.quest_desc: ["The &2Simple Fluid Collector&r collects in world fluids, without needing a bucket or such. Great for infinite water sources!"]
-	quest.3404B0A29BF5A055.title: "&aSimple Fluid Collector"
+	quest.3404B0A29BF5A055.title: "&a初级流体收集器"
 	quest.340542E5E1413650.title: "&f钻石矿块"
 	quest.340D7F25B5EB0D33.quest_desc: [
 		"下一阶的凝胶叫&d虚空辉凝胶&r，它可以将&b钻石块&r转化为&d苍穹晶块&r。"
@@ -5604,11 +5604,11 @@
 	]
 	quest.3557FBCEFEF444CC.title: "&d精密构件"
 	quest.355C3ACB16CC2DE9.quest_desc: [
-		"&6Quantum Computer Accelerators&r add &b8 Co-Processors&r each to the multiblock."
+		"每个&6量子计算机加速器&r在多方块结构内相当于一个&b八核并行处理器&r。"
 		""
-		"These are nice to have many of inside of the multiblock structure."
+		"多装一些会是一个不错的选择。"
 	]
-	quest.355C3ACB16CC2DE9.title: "&6Quantum &dAcceleration"
+	quest.355C3ACB16CC2DE9.title: "&6量子加速&d"
 	quest.357591103765D4EF.quest_desc: [
 		"&c巨灵机器操作员"
 		""
@@ -5980,7 +5980,7 @@
 		"This is crucial for many automations. It's important to be creative!"
 	]
 	quest.389A8206E7B3A22C.quest_subtitle: "There's no block here and I don't like it"
-	quest.389A8206E7B3A22C.title: "&aSimple Block Placer"
+	quest.389A8206E7B3A22C.title: "&a初级方块放置器"
 	quest.38BD69DD1995E971.quest_desc: [
 		"当你拥有提纯仓，粉碎机以及富集仓后，就可以准备搭建&9二阶矿物处理产线&r了。搭建好后一个粗矿就可以生产出三个锭。"
 		""
@@ -6162,11 +6162,11 @@
 		""
 		"你必须搭建两个重要多方块结构才能构建量子桥：一个连通主网，另一个链接到想延伸网络的地方。"
 		""
-		"Each multiblock will consist of &b8 Quantum Rings&r with an &6ME Quantum Link Chamber&r in the center. To connect the two, you'll need to craft and use a &dQuantum Entangled Singularity&r on each of the Link Chambers to connect them."
+		"每个多方块结构都必须有&b八个量子环&r，中间需要摆放&6ME量子链接仓&r。你需要制造出&d量子纠缠奇点&r并安装在链接仓，这样才能把两个环链接起来。"
 		"{@pagebreak}"
 		"无论你把线缆怼在哪，这个量子环都只能承受128条频道。而且只有紧靠链接仓的量子环方块才能链接，边角是不作数的。"
 		""
-		"&eNote&r: Both sides will need to be chunk loaded to work."
+		"&e注意&r：两边区块必须都加载才能正常工作。"
 	]
 	quest.3A59D1773EBD3B8A.quest_subtitle: "拓展网络"
 	quest.3A59D1773EBD3B8A.title: "&6量子桥"
@@ -6363,11 +6363,11 @@
 	quest.3BF066E5C333F217.quest_subtitle: "上号先撸树"
 	quest.3BF066E5C333F217.title: "&f欢迎游玩&6Minecraft"
 	quest.3BFF8EFB5E7186A4.quest_desc: [
-		"The inside of the &6Quantum Computer&r multiblock can be customized using a mix of different blocks, including extra &bQuantum Storage&r."
+		"多方块&6量子计算机&r内部可以用不同方块填充，包括更多的&b量子计算机合成存储器&r。"
 		""
-		"&6Quantum Computer Storage&r blocks effectively increase the amount of concurrent tasks the multiblock can handle at once."
+		"&6量子计算机储存方块&r可以高效提升一次可执行的线程。"
 	]
-	quest.3BFF8EFB5E7186A4.title: "&d量子存储"
+	quest.3BFF8EFB5E7186A4.title: "&d量子计算机合成存储器"
 	quest.3C03D41F5B1A8BDC.quest_desc: [
 		"&b奥术师套装&r是由铁盔甲制成的套装，它比较适合那些想要防御又不想没纤维槽可用的人。"
 		""
@@ -6509,13 +6509,13 @@
 	quest.3D687BF735E54AE8.quest_desc: ["下界要塞的烈焰守卫"]
 	quest.3D687BF735E54AE8.title: "&f击杀10只&c烈焰人"
 	quest.3D767C3E2F0DE320.quest_desc: [
-		"The structure of the &6Quantum Computer&r multiblock can range from a 3x3x3 to a 7x7x7 square."
+		"多方块&6量子计算机&r的结构是大小在3×3×3和7×7×7之间的正方体。"
 		""
-		"The minimum must contain at least a &6Quantum Computer Core&r, and all edges and sides of the cube must be &dQuantum Structure Blocks&r."
+		"最小的量子计算机必须有至少一个&6量子计算机核心&r，框架和六个面必须全都是&d量子结构方块&r。"
 		""
 		"多方块内部空格可以用&d量子合成单元&r填充，除此之外没别的用处。"
 	]
-	quest.3D767C3E2F0DE320.title: "&fThe &6Quantum Computer &fStructure"
+	quest.3D767C3E2F0DE320.title: "&6量子计算机&f结构"
 	quest.3D9FFFF325533514.quest_desc: ["在&a粉碎工厂&r中，使副产物产量加倍。增加&a方块破坏器&r和&a末影激光器&r挖掘的产出。"]
 	quest.3D9FFFF325533514.title: "&f产量升级插件"
 	quest.3DA1FF3D18606AD6.quest_desc: [
@@ -7105,7 +7105,7 @@
 	]
 	quest.437F2C378CD6FE51.title: "&c碳&a灌注"
 	quest.43949500F6A0B46A.quest_desc: [
-		"The &dCrafting CPU Multiblock&r is the heart of autocrafting within &eAE2&r."
+		"&d多方块合成CPU&r是&eAE2&r的自动合成核心。"
 		""
 		"这个多方块必须按照六边形的规模搭建，不允许有任何空缺方块，其中至少要有一个&a合成存储器&r。&a并行处理单元&r也推荐放几个进去。"
 		"{@pagebreak}"
@@ -7323,7 +7323,7 @@
 	quest.45C187DEF7B60C05.quest_desc: [
 		"虚空之中遍布着火焰小山和各种各样的石头。如果你想采集大量的陨石用于建筑或是数字存储，这里绝对是不二之选。"
 		""
-		"如果你仔细搜索，或许能发现一个&2铀矿晶&r……"
+		"如果你仔细搜索，或许能发现一个&2晶质铀矿矿晶&r……"
 	]
 	quest.45C187DEF7B60C05.title: "&f找到&c火山"
 	quest.45C2A0B3F277C09B.quest_desc: ["&e进阶提示&r：你可以直接对着通用机械的任意管道使用&c合金&r就直接将它们升至下一级！"]
@@ -7352,7 +7352,7 @@
 		""
 		"&b存储总线&r可以把连接的所有的存储方块并入AE网络。"
 	]
-	quest.45E7D62C229F898C.title: "&aME Crafting Terminal"
+	quest.45E7D62C229F898C.title: "&aME合成终端"
 	quest.45F8CB4497591B10.title: "&c三级&f生物种子"
 	quest.4619BC2AB4CB9BD9.title: "&a元素奥石"
 	quest.461A01BDC4D4B1BD.quest_desc: ["&a破坏器&r可将世界中的资源收集到你的存储网络中。"]
@@ -7418,9 +7418,9 @@
 	quest.469C88B6CEC1F9E7.quest_subtitle: "认知模组"
 	quest.469C88B6CEC1F9E7.title: "&2认知&f：使用你的知识"
 	quest.46A1341E5E97ABDC.quest_desc: [
-		"Before you start building out your &bAE Network&r, it's time to talk about &2Channels&r. Don't worry, the pack's default is set to &b4x by default&r with the intention of having an easier time for players who might be new to &eAE2&r."
+		"搭建属于你的&bAE网络&r前，首先了解一下有关&2频道&r的知识吧。也不必过分担心，这个包的AE频道数量&b翻了四倍&r，对&eAE2&r新手极其友好。"
 		""
-		"&2Channels&r are essentially the limit of the total number of devices that your Network can interact with at one time. This can be increased with some clever mechanics and the use of multiblock &3Controllers&r, which will be discussed in a different quest."
+		"&2频道&r是你网络能同时处理的设备最大值，如果巧妙利用一些机制，或者加装多方块&3ME控制器&r的话，就可以提升频道。后面的任务会介绍多方块控制器。"
 		""
 		"这个包因为频道数翻了两倍，所以你的初始网络应该有&232个频道&r。"
 		"{@pagebreak}"
@@ -7428,11 +7428,11 @@
 		""
 		"每个线缆所传递&2频道&r数都不同，意味着如果你线缆全都用&b玻璃线缆&r的话，大后期必然会出问题。"
 		"{@pagebreak}"
-		"&bGlass Cables&r transfer power, but can also transfer up to &232 Channels&r with the pack's settings."
+		"&b玻璃线缆&r可以传输能量，在该整合包设定下可以传递&232个频道&r。"
 		""
-		"&dSmart Cables&r don't add more channels, but give you a visual of how many channels are being used with lines on the cable itself."
+		"&d智能线缆&r传递频道数和玻璃线缆一样，但是它可视化了线缆的频道负载。"
 		""
-		"&3Dense Cables&r can transfer up to &2128 Channels&r, but does not support connecting to Buses or Panels. You can also make &dDense Smart Cables&r!"
+		"&3致密线缆&r可以传递&2128个频道&r，但不能连接总线和面板。如果你想的话可以制作&d智能致密线缆&r！"
 	]
 	quest.46A1341E5E97ABDC.quest_subtitle: "帮你了解AE的频道机制"
 	quest.46A1341E5E97ABDC.title: "&b线缆&f和&2频道"
@@ -7608,13 +7608,13 @@
 	]
 	quest.496903AB7E8A0A92.title: "&f欢迎游玩&eIron's Gems 'n Jewelry&f！"
 	quest.4978D64CC0840556.quest_desc: [
-		"Sometimes, you gotta go big. The &eMEGA&r mod gives you that option."
+		"有时你可能存储需求 极 其 巨 大 ，&eMEGA&r模组这时就派上用场了。"
 		""
-		"To create the storage components for the mod, you'll need to make some &3Sky Steel&r."
+		"你需要制造一些&3陨铁&r，才能合成该模组的存储元件。"
 		""
-		"You'll also need a new type of &2Inscription Press&r, which can be crafted using a &dSingularity&r."
+		"哦，你还需要一种新的&2压印模板&r，用&d奇点&r就能制造。"
 	]
-	quest.4978D64CC0840556.title: "&eMEGA &fStorage"
+	quest.4978D64CC0840556.title: "&eMEGA&r存储元件"
 	quest.497C4A3783B5BE9E.quest_desc: [
 		"本包的&eXNet&a频道&r有5个主要类型："
 		""
@@ -7640,13 +7640,13 @@
 	]
 	quest.497C4A3783B5BE9E.title: "&eXNet&2频道界面"
 	quest.49835EC10C5AE8D8.quest_desc: [
-		"The &6Quantum Crafter&r acts like a &3Molecular Assembler&r, &aPattern Provider&r, AND an &2ME Requester&r all in one."
+		"&6量子合成器&r是&3分子装配室&r、&a样板供应器&r和&2ME请求器&r的三合一设备。"
 		""
-		"It also crafts blazingly fast, can be configured to keep stock on multiple items at once, and can even be upgraded with &bAcceleration Cards&r."
+		"而且这玩意制造速度超级快，设置好了的话可以用来维持多个物品的库存，如果嫌慢可以用&b加速卡&r升级。"
 		""
-		"The only limit it has is that it can only store 9 &2Patterns&r total."
+		"唯一问题就是它里面只能放9个&2编码样板&r。"
 	]
-	quest.49835EC10C5AE8D8.title: "&6Quantum Crafter"
+	quest.49835EC10C5AE8D8.title: "&6量子合成器"
 	quest.498A5C0A00F19E2E.quest_desc: ["最基础也是最便利的反应堆燃料就是&6铀燃料棒&r。无需多余处理步骤的代价是输出能量也较少，但作为起步的燃料棒还是很适合的。"]
 	quest.498A5C0A00F19E2E.quest_subtitle: "谁的镭？"
 	quest.498A5C0A00F19E2E.title: "&6铀燃料棒"
@@ -7879,7 +7879,7 @@
 	quest.4B463FDAEAC42511.quest_desc: [
 		"&3物质聚合器&r会把输入的物品像垃圾一样销毁，但如果你给它插入一个1-16k的存储元件的话，则它会把输入物品转化为&a物质球&r。你也可以给它插入一个64k或以上的存储元件，此时它能够把输入的物品转化为&d奇点&r。"
 		""
-		"These &dSingularities&r are critical for creating massive storages and inter-dimensional links. "
+		"&d奇点&r要用来制作大规模存储设备，以及跨维度链接装置。"
 	]
 	quest.4B463FDAEAC42511.title: "&3物质聚合器&6"
 	quest.4B4DFB318CE36DAE.quest_desc: [
@@ -8346,11 +8346,11 @@
 	quest.4F3787D3DCAFBB6F.quest_desc: ["能瞬间破坏东西的话，谁还需要效率附魔啊？"]
 	quest.4F3787D3DCAFBB6F.title: "&f升级：瞬间破坏"
 	quest.4F3CA2DCE719D18A.quest_desc: [
-		"The &6Quantum Multithreader&r will effectively multiply all &bCo-Processors&r in the multiblock by 4."
+		"安装&6量子多线程模块&r后，多方块结构内的所有&b并行处理单元&r计入数量乘四。"
 		""
-		"You can only use 1 per multiblock structure."
+		"每个多方块合成器只允许放一个量子计算机。"
 	]
-	quest.4F3CA2DCE719D18A.title: "&6Multi-Threading"
+	quest.4F3CA2DCE719D18A.title: "&6线程撕裂者！"
 	quest.4F5A267B3042E308.title: "&d256k存储组件"
 	quest.4F63F8D79802D6ED.quest_desc: [
 		"&d高压大型蒸汽锅炉&r生产高达2048mB/t的&7蒸汽&r。"
@@ -8784,7 +8784,7 @@
 	quest.5407B3A9D7544F43.title: "&f宝贵的气压"
 	quest.5408C57600A556AE.quest_desc: ["Tired of vanilla droppers needing redstone and throwing items everywhere? Try the &aSimple Dropper&r! You can precisely control quantity and throughput with these."]
 	quest.5408C57600A556AE.quest_subtitle: "The fanciest trash bin in FTB Skies 2"
-	quest.5408C57600A556AE.title: "&aSimple Dropper"
+	quest.5408C57600A556AE.title: "&a初级投物器"
 	quest.5425A6F613CA7304.quest_desc: [
 		"自定义项链需要用&a项链蓝图&r制造。"
 		""
@@ -8984,11 +8984,11 @@
 	]
 	quest.565881B956911B9C.title: "&eXNet&2物品配置"
 	quest.565AF0E2D4AB41BE.quest_desc: [
-		"&eJust Dire Things&r (&eJDT&r) is a cool tech mod that despite the name, actually adds some &oimpressive&r and slightly overpowered &2Gadgets&r, &aTools&r and &9Armors&r!"
+		"虽然它叫这个名字，但&eJust Dire Things&r其实是一个很酷的科技模组，它加入了一些&o令人眼前一亮&r而且有些小超模的&2小帮手&r、&a工具&r，以及&9盔甲&r！"
 		""
 		"To get started with this mod, you'll need to craft the &aPrimogel Goo&r."
 	]
-	quest.565AF0E2D4AB41BE.title: "&fWelcome to &eJust Dire Things&f!"
+	quest.565AF0E2D4AB41BE.title: "&f欢迎游玩&eJust Dire Things&f！"
 	quest.565B21FA569CF3CC.quest_desc: [
 		"With access to power and &bMenril&r, you can now create the powered versions of the &aSqueezer&r and the &aDrying Basin&r."
 		""
@@ -9445,7 +9445,7 @@
 		"They're all straightforward though, try them on this noteblock here!"
 	]
 	quest.5B499DF961D9308B.quest_subtitle: "What's a cooldown?"
-	quest.5B499DF961D9308B.title: "&aSimple Clicker"
+	quest.5B499DF961D9308B.title: "&a初级点击器"
 	quest.5B512AED08EC1899.quest_desc: [
 		"如果供给合适的&b强化冷却剂&r，&a热力发电机&r能提供不少的能量，水不能作为冷却剂。"
 		""
@@ -9971,7 +9971,7 @@
 	]
 	quest.606BDEB81F65A79F.title: "&a拾取升级"
 	quest.60871670B71C711F.quest_desc: [
-		"&2Budding Crystals&r can take some time to grow and when you're trying to get your system up and running, no one wants to do a bunch of waiting around."
+		"&2水晶母岩&r的生长速度很缓慢，尤其是急着搭建AE系统的时候，绝对没人想等那么久的。"
 		""
 		"做个&b催生器&r，把它放在母岩下方就可以加快生长速度，不过要消耗能量。"
 	]
@@ -9983,9 +9983,9 @@
 	]
 	quest.60984D2D55BF2E24.title: "&d淘金者火灵"
 	quest.609DF15D870AE2C0.quest_desc: [
-		"&eSoulplied Energistics&r is an addon mod for &eIF Souls&r that allows the transferring of souls using &eAE2&r."
+		"&eSoulplied Energistics&r是&eIndustrial Foregoing: Souls&r和&6Applied Energistics 2&r的附属模组。它实现了通过&eAE2&r网络自动化传输灵魂的功能。"
 		""
-		"Attaching a &aStorage Bus&r to the &dSoul Laser Base&r will allow your network to access the &3Warden Souls&r inside it. Then, use any &eIF Souls&r item on an &aInterface Filter&r to request &3Souls&r."
+		"将&aME存储总线&r连接到&d灵魂镭射钻基座&r上方，你的ME网络便能访问其中的&3监守者灵魂&r。在&aME接口的过滤槽&r中放入任意&eIF Souls&r的物品，即可通过网络请求&3灵魂&r。"
 		""
 		"最后，将&b灵魂管道&r连接到该&a接口&r，接口便会消耗其中的&3监守者灵魂&r来驱动&b灵魂促速器&r。"
 	]
@@ -10299,7 +10299,7 @@
 		""
 		"你还可以给面板加装发信器和红石卡，这样也能实现差不多的效果。"
 	]
-	quest.63A28DBF66DBB1D2.title: "&2Requesters"
+	quest.63A28DBF66DBB1D2.title: "&2请求器"
 	quest.63A3450169DD4B17.quest_desc: [
 		"To connect anything in &eI.D&r, you'll need to use &aLogic Cables&r. These are the pipes of the mod!"
 		""
@@ -12345,7 +12345,7 @@
 	quest.79758946937D2AE9.quest_desc: ["你的第一个筛网！非常适合收集一些简单的资源，或者采集更多植物来使用。"]
 	quest.79758946937D2AE9.title: "&f机械布筛网"
 	quest.7983727D0EE456FD.quest_desc: [
-		"&eJDT&r has a very unique mechanic for acquiring its materials."
+		"&aJust Dire Things&r的资源获取有自己的一套机理。"
 		""
 		"It starts by making &bGoo&r which will spread onto other blocks to convert them over time."
 		""
