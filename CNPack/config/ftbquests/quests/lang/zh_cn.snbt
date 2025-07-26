@@ -58,11 +58,11 @@
 	quest.0017F48E23512C75.quest_desc: ["[\"你现在可以使用\", {\"text\": \"橙色粉笔\", \"color\": \"#FCA645\"}, \"、\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"和\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"来再次升级现有的\", {\"text\": \"五芒星\", \"color\": \"#55FFFF\"}, \"了。\"]"]
 	quest.0017F48E23512C75.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \" & \", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"粉笔\"]"
 	quest.001F0C36B4AB9F5F.quest_desc: [
-		"If you think the Simple Coal Generator is good, you should try out the &aSimple Fuel Generator&r."
+		"如果你觉得初级煤炭发电机挺好用的话，为何不试试&a初级燃液发电机&r呢？"
 		""
-		"Instead of burning coal, this uses the special &6Fuels&r from the mod, with the highest tier producing 4k RF/t."
+		"它不会燃烧煤炭发电，取而代之的是本模组的特殊&6燃料&r。最高发电量为4000RF/t。"
 	]
-	quest.001F0C36B4AB9F5F.title: "&a\"Simple\" &fFuel Generator"
+	quest.001F0C36B4AB9F5F.title: "&a“初级”&r燃液发电机"
 	quest.0056517EDF3DAB08.quest_desc: [
 		"&a速度表&r可以显示你的动力网络中某个特定组件的运行速度"
 		""
@@ -70,11 +70,11 @@
 	]
 	quest.0056517EDF3DAB08.title: "&f测量&bRPM&f和&b应力"
 	quest.0058025036FE7E45.quest_desc: [
-		"The &dCelestigem Anvil&r can repair items using energy. Yes, just typical Forge Energy(FE)!"
+		"&d苍穹晶砧&r能消耗能量修复物品。没错，就是消耗Forge能量（FE）！"
 		""
-		"&7&oTip: Upgrade from the previous tier using a template."
+		"&7&o提升：需要使用模板进行升级。"
 	]
-	quest.0058025036FE7E45.title: "&dCelestigem Anvil"
+	quest.0058025036FE7E45.title: "&d苍穹晶砧"
 	quest.006014B382FCF6E6.quest_desc: [
 		"尽管前面的任务中已经写满了大量信息，这里也还有一个例子来教你如何使用它。"
 		""
@@ -350,13 +350,13 @@
 	quest.0337CA08F644568B.quest_desc: [
 		"并非所有恶魂都那么可怕。有些只需要一点关爱……和许多雪球。前往商店购买一个失水恶魂。只要一点耐心和一些雪球点心，你很快就能拥有属于你自己的快乐恶魂伙伴！"
 		""
-		"从商店购买一个&3失水恶魂&r。将它放在安全区域并用水浸泡使其孵化成长。完全孵化大约需要20分钟。给孵化出来的小恶魂喂食&3雪球&r以帮助它更快成长。"
+		"从商店购买一个&3失水恶魂&r。将它放在安全区域并用水浸泡使其孵化成长。完全孵化大约需要20分钟。给孵化出来的小恶魂喂食&3雪球&r以帮助它更快长大。"
 		""
-		"等待或喂食它直到它成长为一只快乐恶魂，然后你就可以装上挽具骑上它飞向天空！"
+		"等待或一直喂食直到它成长为一只快乐恶魂，然后你就可以装上挽具骑上它飞向天空！"
 		""
-		"你可以从&e雪铃花种子&r种出&3雪球&r，这些种子可以通过破坏草获得。"
+		"你可以用&e雪铃花种子&r种出&3雪球&r，这些种子可以通过破坏草获得。"
 	]
-	quest.0337CA08F644568B.title: "&f一个恶魂般的伙伴"
+	quest.0337CA08F644568B.title: "&f恶魂伙伴"
 	quest.033F3D2427ED6F40.quest_desc: ["可以用它更精密的控制红石和红石比较器。"]
 	quest.033F3D2427ED6F40.title: "&f红石控制单元插件"
 	quest.034B66770C749332.quest_desc: ["&d下界之星符石&r增加50%暴击伤害，玩家下落且不在水中时必定暴击。"]
@@ -1001,9 +1001,9 @@
 	quest.091C04F5A6163717.quest_desc: [
 		"虽然&e强化玻璃罐&r功能多样，但每次都需要手动混合，令人厌倦。而这就是&a罐自动化器&r存在的原因！"
 		""
-		"将其放在强化玻璃罐的上方，罐内有任何有效配方，便会自动启动！"
+		"将其放在强化玻璃罐的上方，只要罐内有任何有效配方，便会自动启动！"
 		""
-		"&7&o熔岩的生成效率堪称超模……"
+		"&7&o用来生成熔岩时堪称超模……"
 	]
 	quest.091C04F5A6163717.quest_subtitle: "混合搅拌"
 	quest.091C04F5A6163717.title: "&a罐自动化器"
@@ -1296,7 +1296,7 @@
 		""
 		"另一个选择是找到一些勤劳且&e高产&r的生物，让它们来为你生产资源。"
 		""
-		"也许再来几杆就好了……"
+		"也许再来几竿就好了……"
 	]
 	quest.0B1C26C45144306A.title: "&f富含精华的&m油&r&f水"
 	quest.0B1E459D12D11A0D.quest_desc: [
@@ -1616,15 +1616,15 @@
 	quest.0E107AC18FCFDB57.quest_desc: [
 		"现在你有了&a原初浆凝胶&r，是时候学学这个机制的原理了。"
 		""
-		"Start by placing down the &aPrimogel Goo&r somewhere in an open space, then activate it by giving it either &bSugar&r or &bRotten Flesh&r. You can now place &2Iron Blocks&r on any of its faces to start the conversion."
+		"首先把你的&a原初浆凝胶&r放在开阔的地方，之后使用&b糖&r或&b腐肉&r来激活它。然后把&2铁块&r放在凝胶的任意面上即可进行转换。"
 		""
 		"{image:ftb:textures/quests/direthings/impure_daisy.png width:200 height:100 align:center}"
 		"{@pagebreak}"
 		"然后你可能会注意到&b凝胶&r开始蔓延，直到把它完全转化。转化完毕后把铁块挖掉就是&a粗核源铁&r了。"
 		""
-		"&7&oSome Shaders will not properly display this effect, so you might want to disable them if you want to see the changes."
+		"&7&o某些光影不会正确显示该效果，如果你想看到变化过程请禁用光影。"
 		""
-		"Mining this ore will give you &aRaw Ferricore&r, which you can smelt down into &aFerricore Ingots&r."
+		"挖掘这种矿石后掉落的&a粗核源铁&r能够烧制成&a核源铁锭&r！"
 		""
 		"&eNote&r: Fortune does not work on these ores. You will typically get between 3 or 4 raw ores."
 	]
@@ -2303,7 +2303,7 @@
 		""
 		"这条路径使用&e机械动力&r的动力筛子，蕴含从这片富含精华的虚空中自动化生产资源的方法。"
 		""
-		"首先，将从&a滤水器&r中获得的&7安山岩&r上滴相当于一桶的水。这将形成&2安山岩混合物矿床&r，开采后可获得早期的&7安山合金&r。"
+		"首先，将从&a滤水器&r中获得的&7安山岩&r上滴一桶水。待其形成&2安山岩合金方块&r，开采后便可在早期获得&7安山合金&r。"
 	]
 	quest.1553CDD5ED42DF02.quest_subtitle: "创造点滴"
 	quest.1553CDD5ED42DF02.title: "&f勘矿之道"
@@ -2329,7 +2329,7 @@
 		""
 		"你需要用&c替换器&r才能生长并收获&6时间水晶&r。"
 		""
-		"To start, place the Budding Time Crystal block in the overworld (also works for other overworld-like dimensions)."
+		"先把时间水晶母岩放在主世界（或与主世界相似的维度）"
 		""
 		"耐心等一会后它就会放出声音，同时颜色也会变化，这样你就可以进行下一步了。"
 		"{@pagebreak}"
@@ -3288,9 +3288,9 @@
 	quest.1F09A28387DA18A6.title: "&fNBT标签与存储物流"
 	quest.1F0ADF87B63B50AC.quest_subtitle: "雷霆套装"
 	quest.1F0ADF87B63B50AC.title: "&3雷霆术士套装"
-	quest.1F0C3CD47947DA8D.quest_desc: ["万一遭遇不测，你可能会丢失你的&e个人缩放设备&r。在以压缩空间开局的整合包中，这会非常麻烦……所以我们送你一个备用。"]
+	quest.1F0C3CD47947DA8D.quest_desc: ["你可能会遭遇不测，因此丢失你的&e个人缩放设备&r。在以压缩空间开局的整合包中，这很不幸……所以我们送你一个备用。"]
 	quest.1F0C3CD47947DA8D.quest_subtitle: "哦不！"
-	quest.1F0C3CD47947DA8D.title: "&f个人缩放设备丢失焦虑"
+	quest.1F0C3CD47947DA8D.title: "&f个人缩放设备丢失创伤后应激障碍"
 	quest.1F2E5FBD59466D57.quest_desc: [
 		"&a流体模块&r让&d路由器&r可以处理流体，前提是其中必须有流体储存容器，比如&a桶&r，或者&a储罐&r。"
 		""
@@ -3379,11 +3379,11 @@
 		"By converting them to Echoing Budding blocks, you can bypass these restrictions using energy and Time Fluid to quickly grow crystals."
 	]
 	quest.2006F24858B4B4BB.quest_desc: [
-		"Minecraft中有大量的基础资源，而模组在此基础上为其添加了更多！"
+		"Minecraft中有大量的基础资源，而模组在此基础上添加了更多！"
 		""
-		"[\"如果你不清楚特定材料的获取方式，可查阅\", {\"text\": \"初始材料章节\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6AA8A1FF1C8089F7\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往初始材料章节\"]} }, \"获得指引，无需独自翻阅十几页JEI。\"]"
+		"[\"如果你不清楚特定材料的获取方式，可以查阅\", {\"text\": \"初始材料章节\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6AA8A1FF1C8089F7\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往初始材料章节\"]} }, \"获得指引，无需亲自翻阅十几页JEI。\"]"
 	]
-	quest.2006F24858B4B4BB.quest_subtitle: "这东西还能怎么获得来着？"
+	quest.2006F24858B4B4BB.quest_subtitle: "这东西怎么获得来着？"
 	quest.2006F24858B4B4BB.title: "&6初始材料指南"
 	quest.201BB935C9972574.quest_desc: [
 		"小型法术槽升级可以使用大量&c疣猪皮&r及少量&b奥术布匹&r来合成。"
@@ -3820,11 +3820,11 @@
 		"&3Frogs：&r如果附近有水，则会生成一只青蛙或鱿鱼。"
 		""
 		"{@pagebreak}"
-		"&3Llama：&r一种特殊的羊驼会生成，向玩家吐出有用的物品。如果拴在绳子上，它们可以被留下并喂养以吐出资源。"
+		"&3Llama：&r一种特殊的羊驼会生成，向玩家吐出有用的物品。如果用栓绳拴住它们，它们就会被留下，喂养它们以吐出资源。"
 		""
 		"&3Phantom：&r一只恶意的幻翼俯冲下来，将铁砧砸在某人头上！免费的铁砧……"
 		""
-		"&3Pyromancer：&r一个初级火术士会顺道拜访，如果你愿意交易一些魔法物品的话。"
+		"&3Pyromancer：&r一个新手炽焰术士会顺道拜访，如果你愿意交易一些魔法物品的话。"
 		""
 		"&3Wandering Trader：&r来自流浪商人公会的众多商人之一会来拜访你，提供各种物品来帮助你的冒险。"
 	]
@@ -4574,16 +4574,16 @@
 	]
 	quest.2C4584B4B17872BF.quest_subtitle: "矿石会生成这个，或者…"
 	quest.2C4584B4B17872BF.title: "&f铜精华"
-	quest.2C55C6EBABA86BA8.quest_desc: ["This &aSimple Block Breaker&r is bound and determined to use its tool to break the block in front of it. Even if the tool is a stick and the block is obsidian. It'll get there."]
-	quest.2C55C6EBABA86BA8.quest_subtitle: "There's a block here and I don't like it"
+	quest.2C55C6EBABA86BA8.quest_desc: ["&a初级方块破坏器&r会使用内部的工具破坏前方的方块；就算你给他的工具是一根木棍或一块黑曜石，它也会完成任务的。"]
+	quest.2C55C6EBABA86BA8.quest_subtitle: "前面的方块看着太碍事了"
 	quest.2C55C6EBABA86BA8.title: "&a初级方块破坏器"
 	quest.2C7CFA7BB32C25BA.title: "&d末影&f升级法球"
 	quest.2C82E0C4537DEF65.quest_desc: [
 		"当&a滤水器&r被放置在水中时，会从水中吸收虚空之精华，并凝炼为我们熟悉的物质和有机资源。"
 		""
-		"滤水器收集的&2自然精华&r可用于合成多种植物制品！"
+		"滤水器收集的&2自然精华&r可用于合成多种植物物品！"
 	]
-	quest.2C82E0C4537DEF65.title: "&fDon't Strain Yourself"
+	quest.2C82E0C4537DEF65.title: "&f别太多滤"
 	quest.2CA2995C290D13F5.quest_desc: [
 		"[{\"text\": \"AE2-Replication桥接器\", \"color\": \"green\"}, \"可以将你的\", {\"text\": \"ME网络\", \"color\": \"aqua\"}, \"与\", { \"text\": \"物质复制网络\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"158D033F7F934345\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往Replication章节r\"}}, \"连接起来，实现两个系统的无缝集成。\"]"
 		""
@@ -4833,7 +4833,7 @@
 	quest.2EE5352D8E5F715F.title: "&f击杀20只&c蜘蛛"
 	quest.2EEE782146096F9C.quest_desc: ["&e建筑小帮手&r大概是最适合建筑师的模组了。这些小帮手能大大提升你的建筑体验！"]
 	quest.2EEE782146096F9C.title: "&e建筑小帮手"
-	quest.2F057F981B68EB95.quest_desc: ["The &aSimple Fluid Placer&r takes a fluid input and puts it in the world for all to see."]
+	quest.2F057F981B68EB95.quest_desc: ["向&a初级流体放置器&r输入流体后，它会将流体倒在世界中。"]
 	quest.2F057F981B68EB95.quest_subtitle: "放置器"
 	quest.2F057F981B68EB95.title: "&a初级流体放置器"
 	quest.2F0C6EA5380AA661.quest_desc: ["有了&c火灵灵髓&r，你就可以制作更高级别的&c红色粉笔&r了。"]
@@ -5401,7 +5401,7 @@
 		"虽然&a咒灰&r只是一种非常入门级的魔法道具，但它在&e灵灾&r中确实有着不少用途。"
 		"建议手头常备这种材料，以便于合成。"
 	]
-	quest.3404B0A29BF5A055.quest_desc: ["The &2Simple Fluid Collector&r collects in world fluids, without needing a bucket or such. Great for infinite water sources!"]
+	quest.3404B0A29BF5A055.quest_desc: ["&2初级流体收集器&r无需桶或其他容器便能收集流体。很适合当做无限水源呢！"]
 	quest.3404B0A29BF5A055.title: "&a初级流体收集器"
 	quest.340542E5E1413650.title: "&f钻石矿块"
 	quest.340D7F25B5EB0D33.quest_desc: [
@@ -5975,11 +5975,11 @@
 	quest.388EAAF7CFA6535F.quest_desc: ["你可以用&e下界金蜂巢&r在下界捕捉到&a金蜜蜂&r，也可以通过繁殖&a石匠蜜蜂&r和&2石英蜜蜂&r来获得。"]
 	quest.388EAAF7CFA6535F.title: "&e金蜜蜂"
 	quest.389A8206E7B3A22C.quest_desc: [
-		"The &aSimple Block Placer&r places blocks. Simple!"
+		"&a初级方块放置器&r能够放置方块。就这么简单！"
 		""
-		"This is crucial for many automations. It's important to be creative!"
+		"这可是很多自动化的关键。有创造力可是很重要的！"
 	]
-	quest.389A8206E7B3A22C.quest_subtitle: "There's no block here and I don't like it"
+	quest.389A8206E7B3A22C.quest_subtitle: "前面没方块看着太空旷了"
 	quest.389A8206E7B3A22C.title: "&a初级方块放置器"
 	quest.38BD69DD1995E971.quest_desc: [
 		"当你拥有提纯仓，粉碎机以及富集仓后，就可以准备搭建&9二阶矿物处理产线&r了。搭建好后一个粗矿就可以生产出三个锭。"
@@ -6667,7 +6667,7 @@
 	quest.3F80D4097EA8C49B.quest_desc: [
 		"将流体缓慢而稳定地滴在不同材料上是非常有用的策略。"
 		""
-		"用碗右击水源就可以舀出一碗水，将水倒入&a滴水器&r中，滴水器会将其下方的树叶分解成水，还能转化其他材料！"
+		"用碗右击水源就可以舀出一碗水，将水倒入&a滴水器&r中，滴水器会将其下方的树叶分解成水，还能用来转化其他材料！"
 		""
 		"还有一种更巧妙的方法，在流动的水下方使用骨粉，如果有足够的空间，海草便会长出来，并将水流变成水源方块，这就能获得更多的水！"
 	]
@@ -7206,7 +7206,7 @@
 		""
 		"用&6末地传送门框架&r搭建一个没有四角的5x5方框即可完成&d末地传送门&r，末地传送门框架的朝向必须正确，否则无法激活。将&6末影之眼&r放入所有&6末地传送门框架&r以激活传送门。"
 		""
-		"这样传送门结构就会成型，你可以跳入其中到达&6末地&r，&d末影龙&r的家乡。"
+		"这样传送门结构就会成型，你可以跳入其中到达&6末地&r——&d末影龙&r的家乡。"
 	]
 	quest.447242EAC91413A9.title: "&a通往&d末地&a的传送门"
 	quest.44882A0B7C12B3F6.title: "&c烈焰金弓"
@@ -7787,9 +7787,9 @@
 	quest.4A7198127F58DA94.quest_desc: ["&a逻辑导向零件&r用于制作高级网络组件。"]
 	quest.4A7198127F58DA94.title: "&f逻辑导向零件"
 	quest.4A7A15ECB8ABDF88.quest_desc: [
-		"&7锌&r是发展&e机械动力&r的关键部分。所以你改怎么获得呢？"
+		"&7锌&r是发展&e机械动力&r的关键部分。所以你该怎么获得呢？"
 		""
-		"你当然可以在砧板上用锤子敲打凝灰岩来获取。在此之后你也可以使用&e机械动力&r的粉碎轮来自动粉碎凝灰岩、使用&2GeOres&r模组、培育&e锌蜜蜂&r、或者投身于&dMalum&r模组中。说不定你还能使用其他方法，例如矿石生成器和矿工透镜！"
+		"你当然可以在砧板上用锤子敲打凝灰岩来获取。在此之后你也可以使用&e机械动力&r的粉碎轮来自动粉碎凝灰岩、使用&2GeOres&r模组、制作锌种子、培育&e锌蜜蜂&r、或者投身于&d灵灾&r模组中。说不定你还能使用其他方法，例如矿石生成器和矿工透镜！"
 	]
 	quest.4A7A15ECB8ABDF88.title: "&f锌从哪来？"
 	quest.4AAEFDA74FBE5637.quest_desc: ["&7&oChoose one Perfect Apotheosis gem."]
@@ -8192,7 +8192,7 @@
 	]
 	quest.4DE5CB7A5A1D717B.title: "&b灌注海洋书架"
 	quest.4DE6BB4B5C894AF6.quest_desc: [
-		"现在催化剂已被转化，小型铁矿晶芽将从方块上长出。"
+		"现在催化剂已经转化完成，小型铁矿晶芽将从方块上长出。"
 		""
 		"一旦完全长成合适的水晶簇，它们便可以被破坏或右击，以获得用于加工的水晶碎片。"
 		""
@@ -8782,8 +8782,8 @@
 	]
 	quest.5407B3A9D7544F43.quest_subtitle: "V社？半条命3定档了"
 	quest.5407B3A9D7544F43.title: "&f宝贵的气压"
-	quest.5408C57600A556AE.quest_desc: ["Tired of vanilla droppers needing redstone and throwing items everywhere? Try the &aSimple Dropper&r! You can precisely control quantity and throughput with these."]
-	quest.5408C57600A556AE.quest_subtitle: "The fanciest trash bin in FTB Skies 2"
+	quest.5408C57600A556AE.quest_desc: ["厌倦了原版投掷器需要红石，还把物品扔得到处都是吗？不如试试&a初级投物器&r！既能精准调节数量，又能调节投掷频率。"]
+	quest.5408C57600A556AE.quest_subtitle: "FTB Skies 2中最精致的垃圾桶"
 	quest.5408C57600A556AE.title: "&a初级投物器"
 	quest.5425A6F613CA7304.quest_desc: [
 		"自定义项链需要用&a项链蓝图&r制造。"
@@ -8986,7 +8986,7 @@
 	quest.565AF0E2D4AB41BE.quest_desc: [
 		"虽然它叫这个名字，但&eJust Dire Things&r其实是一个很酷的科技模组，它加入了一些&o令人眼前一亮&r而且有些小超模的&2小帮手&r、&a工具&r，以及&9盔甲&r！"
 		""
-		"To get started with this mod, you'll need to craft the &aPrimogel Goo&r."
+		"想要深入了解这个模组，你需要制作&a原初浆凝胶&r。"
 	]
 	quest.565AF0E2D4AB41BE.title: "&f欢迎游玩&eJust Dire Things&f！"
 	quest.565B21FA569CF3CC.quest_desc: [
@@ -9132,7 +9132,7 @@
 	]
 	quest.5778BAEC8F095B3D.title: "&eLaserIO"
 	quest.5784C27AA29E7344.quest_desc: [
-		"&7&o你搞砸了吗？还是不小心用了最后一粒&a无限粉&7？"
+		"&7&o搞砸了吗？还是不小心用掉了最后一个&a无限粉&7？"
 		""
 		"&7&o你知道你可以自动化生产那些……对吗？"
 	]
@@ -9329,14 +9329,14 @@
 		""
 		"&d流浪商人&r也&o可能&r帮你完成这个转化……"
 		""
-		"&7&o也有机会钓到一些钻石精华，并且存在其他更有技术性的方法来生成钻石，例如&a煤炭压缩&r&7&o，&a矿工透镜&r&7&o和更多方法……"
+		"&7&o你也有机会钓到一些钻石精华，并且存在其他更有技术性的方法来生成钻石，例如&a煤炭压缩&r&7&o，&a矿工透镜&r&7&o等等……"
 	]
 	quest.595F8AC6DB5DACD8.title: "&a你的第一颗&b钻石"
 	quest.597ED5B26C78539D.title: "&dAE2量子环套件"
 	quest.598652FE2E4839AC.quest_desc: [
-		"嫌弃真正的草地自然生成动物太慢？"
+		"嫌弃真正的草地自然生成动物的速度太慢？"
 		""
-		"获得末影之眼与花后，便可以制作&2传送门珍珠-绿宝石林之门&r！在拥有充足行走空间的区块使用该物品，即可挑战传送门。"
+		"获得末影之眼与花后，便可以制作&2传送门珍珠-绿宝石林之门&r！在拥有充足空间的区块使用该物品，即可挑战传送门。"
 		""
 		"你需要抵御数波&3僵尸&r与&a蜘蛛&r，成功后将有大量农场动物在区域内生成！"
 		""
@@ -9440,11 +9440,11 @@
 	]
 	quest.5B34FEF756C93961.title: "&fWelcome to &eIntegrated Dynamics&f!"
 	quest.5B499DF961D9308B.quest_desc: [
-		"A &2Simple Clicker&r block is a quite powerful little device. Despite being called simple, it has a few more options than the other simple machines."
+		"&a初级点击器&r这台机器小巧但有用。尽管名字里带个初级，但是其功能配置却比同类简易机器丰富不少。"
 		""
 		"They're all straightforward though, try them on this noteblock here!"
 	]
-	quest.5B499DF961D9308B.quest_subtitle: "What's a cooldown?"
+	quest.5B499DF961D9308B.quest_subtitle: "不知冷却时间为何物"
 	quest.5B499DF961D9308B.title: "&a初级点击器"
 	quest.5B512AED08EC1899.quest_desc: [
 		"如果供给合适的&b强化冷却剂&r，&a热力发电机&r能提供不少的能量，水不能作为冷却剂。"
@@ -10026,7 +10026,7 @@
 	quest.610400303BEAC642.quest_desc: ["&d智能溜槽&r的功能与其大致基本版本相同，但支持配置物品数量和过滤物品。"]
 	quest.610400303BEAC642.title: "&d智能溜槽"
 	quest.6114934F707E3666.quest_desc: [
-		"&a熔炉强化&r的本质就是对你的&b铁熔炉&r进行升级。它们也可以完全改变熔炉的功能！下面是一些比较突出的："
+		"&a熔炉强化&r的本质就是对你的&b铁熔炉&r进行升级。它们也可以完全改变熔炉的功能！下面是一些比较值得注意的："
 		""
 		"&b强化组件：工厂&r可以让熔炉消耗能量而不是燃料，并且一次熔炼更多物品。"
 		""
@@ -10295,7 +10295,7 @@
 	quest.63A28DBF66DBB1D2.quest_desc: [
 		"你可以用&aME请求器&r设定特定物品，然后保持这个物品一直都有存货。"
 		""
-		"As an example, if you tell the &aRequester&r you want to keep 20 crafting tables in stock at all times in the network, and your inventory drops below 20, it will automatically trigger crafting operations provided you've taught your system the recipe."
+		"举个例子：假如你告诉&a请求器&r在网络中一直保有20个工作台，且网络中工作台不足20个，则请求器会自动按照你给定的配方发起自动合成请求。"
 		""
 		"你还可以给面板加装发信器和红石卡，这样也能实现差不多的效果。"
 	]
@@ -10360,7 +10360,7 @@
 	quest.63E9BE547681EB33.quest_subtitle: "赶紧紧急停机"
 	quest.63E9BE547681EB33.title: "&a裂变反应堆逻辑适配器"
 	quest.63F1648925C79179.quest_desc: [
-		"你可以让&c熔岩&r和&3水&r彼此接触来生成圆石，但记得别放错位置，而且在那一块一块的挖你要的圆石也很麻烦。"
+		"你可以让&c熔岩&r和&3水&r彼此接触来生成圆石，但记得别放错位置，而且在那一块一块地挖圆石也很麻烦。"
 		""
 		"这就是&a石造石机&r存在的原因！只需将其放下，它就会持续向相邻的容器输出圆石。"
 		""
@@ -10384,9 +10384,9 @@
 	]
 	quest.6428F17B7E4873A6.title: "&f热力学"
 	quest.642E67C7C2D1CF10.quest_desc: [
-		"将大块粉碎成小块的做法在实践中总是比口头描述更有用。"
+		"The practice of breaking big chunks into smaller chunks has always proven more useful in practice than said out loud."
 		""
-		"作为合适的粉碎工具，锤子可以将圆石粉碎成沙砾，沙砾粉碎成泥土，以及其他类似的过程。试试用这些方块的压缩版本！"
+		"As proper smashing tools, Hammers can break down Cobblestone into Gravel, Gravel into Dirt, and other similar processes. Try it with compressed versions of these blocks!"
 	]
 	quest.642E67C7C2D1CF10.title: "&f粉碎"
 	quest.6432ABF56BFF2F8F.quest_desc: [
@@ -10538,11 +10538,11 @@
 	quest.660443512BB2E867.quest_desc: ["&d石墨电极&r主要作为&d电弧炉&r的燃料源使用，不过它也能成为&d磁轨炮&r的致命弹药。"]
 	quest.660443512BB2E867.title: "&d石墨电极"
 	quest.663460DE8AF7E464.quest_desc: [
-		"The &aInscriber&r is one of the most important machines in &eAE2&r."
+		"&a压印器&r是&eAE2&r中最重要的机器。"
 		""
-		"These machines create processors for all of your network parts and technology. These do require power but can accept regular FE power from other modded sources."
+		"这个机器可以产出AE网络设备所需的所有处理器。机器运作需要消耗能源，但可以接受其他模组的FE能量。"
 		""
-		"You'll want one for each of &2Inscriber Press&r you have, and should look to automate this as soon as possible. Each &aInscriber&r can take up to &b4 Acceleration Cards&r to greatly increase their working speed."
+		"你肯定会想给所有处理器都安排一个&2压印器&r，而且最好赶快把自动化完成。每个&2压印器&r都可以安装&b四张加速卡&r，大大加快它的工作速度。"
 	]
 	quest.663460DE8AF7E464.title: "&a压印处理器"
 	quest.6634CE80E1C7C18D.quest_desc: [
@@ -10621,7 +10621,7 @@
 	]
 	quest.66BC4434409F959B.title: "&d再处理裂变碎片"
 	quest.66BCBE932B1CCA45.quest_desc: [
-		"拿一些&b铁矿石&r，准备将其冶炼成金属。&a熔炉&r是我们将任何&b原矿&r熔炼成&b锭&r的方式！"
+		"Grab some &braw Iron&r, and get ready to make some metal. The &aFurnace&r is how we're going to smelt down any &braw ores&r into &bIngots&r!"
 		""
 		"如果你没有足够的煤炭，你也可以将&2原木&r烧制成&b木炭&r来使用。"
 	]
@@ -10886,9 +10886,9 @@
 	quest.69F87073390131D5.quest_desc: [
 		"你需要给你的网络塞&a合成样板&r，才能教会它怎么合成某样东西。请在&dME样板终端&r中编写样板。"
 		""
-		"By providing the terminal with &aBlank Patterns&r, you can use &eJEI&r to search for an item you want to make a pattern for, then clicking the &b+&r to add the recipe onto the terminal."
+		"给终端里放上&a空白样板&r后，在&eJEI&r中搜索某样你想写样板的东西，之后按&b+&r按钮将合成表移动到终端里。"
 		""
-		"Once the pattern is on the table, you can click the button below the &aBlank Pattern&r to encode the recipe onto the pattern to be used in autocrafting!"
+		"样板放入正确槽位后，点击&a空白样板&r下方的按钮就能编写样板，日后自动合成就能用了！"
 	]
 	quest.69F87073390131D5.title: "&a编写样板"
 	quest.69FD7F8DD28A1C75.quest_desc: ["可以配置&d存量转信器&r根据容器的存量来发出红石脉冲。"]
@@ -10915,9 +10915,9 @@
 	]
 	quest.6A22BBE9C146E910.title: "&3电动采石场"
 	quest.6A346516646A3890.quest_desc: [
-		"&c下界&r是个相当危险的地方，但如果你想打败&d末影龙&r的话，你需要找到&c烈焰人&r！"
+		"&c下界&r是个相当危险的地方，但如果你想打败&d末影龙&r的话，就需要找到&c烈焰人&r！"
 		""
-		"烈焰人刷怪笼可以在&a下界要塞&r中找到，但它们也可能在下界的其他地方生成。当被杀死时，它们会掉落我们所需要的&c烈焰棒&r。它们可以分解成&a烈焰粉&r，用于制作&6末影之眼&r和酿造药水。"
+		"烈焰人刷怪笼可以在&a下界要塞&r中找到，但它们也可能在下界的其他地方生成。烈焰人被杀死时，会掉落我们所需要的&c烈焰棒&r。它们可以分解成&a烈焰粉&r，用于制作&6末影之眼&r和酿造药水。"
 	]
 	quest.6A346516646A3890.title: "&c烈焰人有什么"
 	quest.6A3BFD63419A15CE.quest_desc: [
@@ -11024,7 +11024,7 @@
 	quest.6B6C60BFE1D378D0.quest_desc: [
 		"如果你想搭建一个兼顾样板容量、合成速度和并发处理能力的顶配&d装配矩阵&r，这里列出的就是你所需要的全部方块。"
 		""
-		"&7&oThis will be a 7x7x7 structure."
+		"&7&o成品为7x7x7的多方块结构"
 	]
 	quest.6B6C60BFE1D378D0.title: "&6满配装配矩阵"
 	quest.6B779BFEDE0CB57A.quest_subtitle: "在催化剂上使用棕色染料"
@@ -11131,7 +11131,7 @@
 	quest.6CA3339B472F4464.title: "&d处理器"
 	quest.6CA9ED28F944DECC.quest_desc: ["&a魂染盔甲&r不仅有着强大的物理防御能力，还有着第二种能力——&b吸收&r大量的魔法伤害。这种能力需要花费时间才能恢复，除此之外不会有任何消耗。"]
 	quest.6CA9ED28F944DECC.title: "魂染盔甲"
-	quest.6CADA41796D0F7F9.quest_desc: ["在发展了你选择的路径后，铁应该变得容易获得，从而推动原版和更重要的各种模组的进一步发展。"]
+	quest.6CADA41796D0F7F9.quest_desc: ["After progressing through whichever path you pick, iron should come easily enough, allowing for further progression through vanilla and, more notably, all manner of mods."]
 	quest.6CADA41796D0F7F9.title: "&f合适的材料"
 	quest.6CD6367FB419EA35.quest_desc: [
 		"你需要&a热气动加工机&r才能处理&a精炼厂&r产出的液体。"
@@ -11259,13 +11259,13 @@
 	]
 	quest.6F37482EE0AB4ABD.title: "&d艾瑟金属镐"
 	quest.6F3FDE3AF1678CE5.quest_desc: [
-		"肥沃的草地在许多地方都很常见，但这里不是。虚空中的大多数岛屿都只有一种传播自身的草。"
+		"肥沃的草地在许多地方都很常见，但这里不是。虚空中的大多数岛屿都只有一种会自我传播的假草。"
 		""
-		"如果你初始位置没有草，获取一些无限粉，将它们与一些泥土一起扔进水里，富含精华的液体会将两者转化为&a草种子&r。"
+		"如果你的开局地图没有草，获取一些无限粉，将它们与一些泥土一起扔进水里，富含精华的液体会将两者转化为&a草种&r。"
 		""
 		"对泥土右键使用草种子会将其转化为草方块，并&b蔓延至附近的泥土上&r。当心别让伪装草方块先占据你的泥土！铺设道路或石质隔断可阻止蔓延。"
 	]
-	quest.6F3FDE3AF1678CE5.quest_subtitle: "触碰是可选项"
+	quest.6F3FDE3AF1678CE5.quest_subtitle: "可以触碰"
 	quest.6F3FDE3AF1678CE5.title: "&f获取草"
 	quest.6F49DC432E5968AC.quest_desc: [
 		"&d滞缓符石&r在玩家受到缓慢效果影响时增加25%伤害。"
@@ -11406,11 +11406,11 @@
 	quest.70D5BEA5CC437AB6.quest_desc: ["一大堆带附魔的护甲？用&d拆解宝典&r，你就可以将装备拆解并把想要的附魔提取出来。"]
 	quest.70D5BEA5CC437AB6.title: "&f保存附魔"
 	quest.71024D8DC19834AC.quest_desc: [
-		"If you're looking to store your items &bDigitally&r, you'll want to make the &aME Drive&r and some &2Storage Cells&r."
+		"如果你想&b数字化&r地存储物品，那就做个&aME驱动器&r和&2存储元件&r吧。"
 		""
-		"The &aME Drive&r can house up to &b10 AE Disks&r. When connected to your network, items can automatically be stored as digital media and accessed via interfaces, I/O Buses and Terminals."
+		"&aME驱动器&r可以最多插入&b10个AE存储元件&r，装进AE网络后就可以以数字媒介存储物品，还可以和各种接口、输入/输出总线和终端交互。"
 		""
-		"Each regular &aItem Storage Cell&r can store up to 63 different item types. The size of the Storage Cell will determine how many of each item type it can store, which is measured in &bBytes&r. There are, however, addons in this pack that change what gets1 stored and how it gets stored."
+		"每个常规&a物品存储元件&r最多可以存储63种物品，存储元件储存物品的能力以&b字节&r计。然而，整合包内有些附属模组会改变存储的内容以及存储方式。"
 		"{@pagebreak}"
 		"举个例子：一个&b1k物品存储元件&r可以存储8128个相同类型的物品，假如你把63个存储种类全占满了，那么它的存储空间只有4160个物品。"
 		""
@@ -11426,9 +11426,9 @@
 	]
 	quest.711943CB0063626C.title: "&f风力发电机"
 	quest.711D381A7974F88A.quest_desc: [
-		"The &dAssembler Matrix&r is a multiblock structure that combines the functionality of &aMolecular Assemblers&r and &2Pattern Providers&r, and it can run many crafting jobs simultaneously."
+		"&d装配矩阵&r是一种多方块结构，它集成了&a分子装配室&r和&2样板供应器&r的功能，能同时执行大量的合成任务。"
 		""
-		"The &aAssembler Matrix&r can be between 3x3x4 and 7x7x7, must contain at least 1 Matrix Pattern Core and 1 Matrix Craft Core, and it must also not contain any hollow spaces."
+		"&a装配矩阵&r的尺寸最小为3x3x4，最大为7x7x7。其内部必须填满，不能空心，并且至少要包含1个矩阵样板核心和1个矩阵合成核心。"
 		""
 		"- 结构的边框必须使用&b装配矩阵框架&r；"
 		"- 结构的“墙面”可以用&a装配矩阵墙壁&r或&2玻璃&r；"
@@ -11663,11 +11663,11 @@
 	]
 	quest.72D582D05DC9C7A2.title: "&f橡木蜂巢"
 	quest.72DEF57BE1372907.quest_desc: [
-		"有了基础资源的积累，是时候看看虚空中形成了哪些其他的陆地了！"
+		"有了基础资源的积累，是时候看看其他在虚空中形成的岛屿了！"
 		""
 		"在&6Skies 2&r中，你的小岛不是唯一可以定居的地方，你也不是第一个来到这里的生物。带着一些游历虚空的工具和一张追踪你位置的地图，出去探索吧！谁知道有什么朋友、敌人或宝藏在等着你……"
 		""
-		"[\"\", {\"text\": \"查看\", \"color\": \"gray\"}, {\"text\": \"旅行家的探索章节\", \"color\": \"blue\", \"italic\":true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"12468F8BF7B80737\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"看看前方会发生什么\"]} }, {\"text\": \"以获取更多信息。\", \"color\":\"gray\"}]"
+		"[\"\", {\"text\": \"查看\", \"color\": \"gray\"}, {\"text\": \"旅行家的探索章节\", \"color\": \"blue\", \"italic\":true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"12468F8BF7B80737\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"看看诗与远方\"]} }, {\"text\": \"以获取更多信息。\", \"color\":\"gray\"}]"
 	]
 	quest.72DEF57BE1372907.title: "&b探索时间到&f！"
 	quest.72E5DE96165E5DE2.quest_desc: [
@@ -11827,7 +11827,7 @@
 		""
 		"每当一个水晶生成，或该方块被破坏时，母岩方块都有几率退化为更低阶的版本，并且必须通过将其与&b充能赛特斯石英水晶&r一同丢入水中来修复。"
 		""
-		"&dFlawless Budding Certus Quartz&r do not suffer this drawback and can be grown indefinitely! These will decay into &7Flawed Budding Certus Quartz&r if mined, but can be moved safely using things like a &2Cardboard Box&r."
+		"&d无瑕的赛特斯石英母岩&r没有这个缺点，可以无限生长！如果被挖掘，它们会受伤变为&7有瑕的赛特斯石英母岩&r，但可以使用&2纸板箱&r之类的物品安全地移动。"
 		"{@pagebreak}"
 		"采集还未成熟的&2赛特斯石英水晶&r只会掉落赛特斯石英粉，成熟的则会掉落完整的&b赛特斯石英水晶&r。"
 		""
@@ -11887,9 +11887,9 @@
 	quest.74AB8112B4B1D4E0.quest_desc: ["与监守者的魔法力量结合后，&3回响幽匿书架&r能够提供更强的附魔能力，以及更深远的视界。"]
 	quest.74AB8112B4B1D4E0.title: "&3回响幽匿书架"
 	quest.74B2332D6BBC0721.quest_desc: [
-		"&a传说之眼&r是一件特殊道具，可以让漂泊者在虚空中找到通往天空村庄之路。只需使用该物品，便可召唤出一位引导者，它会短暂地朝某个村庄的方向飘去，随后消散。"
+		"&a传说之眼&r是一件特殊道具，可以让漫游者在虚空中找到通往天空村庄之路。只需使用该物品，便可召唤出一个指示物，它会短暂地朝某个村庄的方向飘去，随后消散。"
 		""
-		"&e提示&r：需要&3火药&r制作TNT？当然可以造刷怪塔，但我们推荐你在需要时直接合成&3主世界夜境传送门&r。每波袭击都会掉落火药，足够轻松推进进度！"
+		"&e提示&r：需要&3火药&r制作TNT？当然可以造刷怪塔，但我们推荐你在需要时直接合成&3主世界夜境之门&r。每个波次都会掉落火药，足够轻松推进进度！"
 	]
 	quest.74B2332D6BBC0721.title: "&a传说之眼"
 	quest.74BED9604BDE1EA5.quest_desc: [
@@ -11959,7 +11959,7 @@
 		""
 		"虽然理论上你可以往里面放更多的&6256M&r存储单元，但其实只要1个就完全足够应对这个整合包里所有的合成了。"
 		""
-		"&7&oThis will be a 7x7x7 structure."
+		"&7&o成品为7x7x7的多方块结构"
 	]
 	quest.75A7DDE0D617B5E6.title: "&f满配&6量子计算机"
 	quest.75C7413F93325A3B.quest_desc: [
@@ -12108,9 +12108,9 @@
 	]
 	quest.773F797227054C32.title: "&f欢迎来到&e基因重组&f！"
 	quest.7768A4D80488E53D.quest_desc: [
-		"黑曜石是制作&c下界&r传送门所必须的！你可以使用&b钻石镐&r来破坏由熔岩和水生成的黑曜石，尽管放置它不需要镐子。"
+		"黑曜石是制作&c下界&r传送门所必须的！用熔岩和水生成黑曜石，然后使用&b钻石镐&r来挖掘，放置黑曜石的时候就不需要用镐子了。"
 		""
-		"要搭建传送门，你需要用至少10块&d黑曜石&r来制作一个传送门框架，然后用&a打火石&r点燃传送门。"
+		"要开启传送门，你需要用至少10块&d黑曜石&r来搭建一个传送门框架，然后用&a打火石&r点燃传送门。"
 	]
 	quest.7768A4D80488E53D.title: "&c下界&b之旅"
 	quest.776A013F2CDD8ACD.quest_desc: [
@@ -12123,9 +12123,9 @@
 	quest.776E4614E4DACC9D.quest_desc: [
 		"有机物质紧密压实并放置一段时间后会分解成肥料。"
 		""
-		"最佳方案是使用&a堆肥桶&r，目前可用多余的树叶或树苗进行堆肥。但务必保留至少一个！"
+		"最佳方案之一是使用&a堆肥桶&r，目前可用多余的树叶或树苗进行堆肥。但务必留出至少一个树苗！"
 	]
-	quest.776E4614E4DACC9D.title: "&f生长的绿色"
+	quest.776E4614E4DACC9D.title: "&f绿色种植"
 	quest.7771675453230C65.quest_desc: [
 		"&a压缩机&r可以把材料压制成板之类的有用物品，在之后可能会需要。"
 		""
@@ -12347,9 +12347,9 @@
 	quest.7983727D0EE456FD.quest_desc: [
 		"&aJust Dire Things&r的资源获取有自己的一套机理。"
 		""
-		"It starts by making &bGoo&r which will spread onto other blocks to convert them over time."
+		"一般来说就是先制造&b凝胶&r，然后等凝胶转化别的方块即可。"
 		""
-		"The first &bGoo&r that you'll make is called &aPrimogel Goo&r, which takes only a few basic materials."
+		"第一种&b凝胶&r叫做&a原初浆凝胶&r，只需要消耗一点点基础材料就能做出来。"
 	]
 	quest.7983727D0EE456FD.quest_subtitle: "黏稠美味"
 	quest.7983727D0EE456FD.title: "&f万物始于&a凝胶"
@@ -12644,7 +12644,7 @@
 	quest.7CEB53DFAD26F485.quest_desc: [
 		"虽然木碗足够好用，但它不擅长携带流体。"
 		""
-		"一个合适的桶更适合这项任务，而烧制的黏土表现良好。"
+		"桶本身更适合这项任务，而烧制的黏土很适合作为材料。"
 		""
 		"&7&o它甚至能装热流体！……不过只能用一次……"
 	]
@@ -12676,9 +12676,9 @@
 		""
 		"将一张纸扔进&c火&r里即可制成&a烈焰冲锋法术卷轴&r。"
 		""
-		"制作你所需要的一切现在就可以自动化："
+		"现在，你可以自动化制作你所需要的一切："
 		"- &2发射器&r可以用&7打火石&r点&c火&r，用&b水&r破坏&a甘蔗&r，或者投掷物品。"
-		"- &2漏斗&r，位于&2泥巴&r下方，可以拾取物品。"
+		"- &2漏斗&r，在&2泥巴&r下方时仍可拾取物品。"
 		"- &2子沙&r，在接收到红石信号脉冲时，会使甘蔗生长得飞快。"
 		""
 		"&c&l警告&r：切记一次只扔一张纸！扔多张纸会浪费整组物品！"
@@ -12831,15 +12831,15 @@
 	quest.7EB4DDE8F6722C6A.quest_desc: ["&a便携式流体接口&r允许你从结构中输入/提取流体。"]
 	quest.7EB4DDE8F6722C6A.title: "&a移动式流体接口"
 	quest.7EDADB7DB5EA981A.quest_desc: [
-		"当你完成任务时，你将获得&e银币&r、&b金币&r或&d水晶币&r，分别价值1、10和50货币单位。"
+		"完成任务时，你将获得&e银币&r、&b金币&r或&d水晶币&r，分别价值1、10和50货币单位。"
 		""
-		"&a大多数商店物品都受任务限制，所以在存钱时请记住这一点。"
+		"&a大多数商店物品需要完成任务来解锁，所以在存钱时请记住这一点。"
 		""
-		"右键使用这些硬币将把它们添加到你的玩家余额中，余额在你的物品栏界面的上方左侧可见，紧挨着一个棕色的美元符号的袋子。"
+		"右键使用这些硬币将把它们添加到你的玩家余额中，余额在你的物品栏界面的上方左侧可见，在一个棕色的有美元符号的袋子旁边。"
 		"{@pagebreak}"
 		"在你的物品栏界面中，你还会注意到玩家模型旁边有三个硬币图标。点击这些图标可以从总余额中提取货币。你也可以在商店中兑换货币。"
 		""
-		"硬币可以提交给&6商店老板&r以交换物品、物品捆绑包或事件，这些会随着你在游戏中的进度而改进。"
+		"你可以将硬币提交给&6商店老板&r以交换物品、物品包或事件，商品的种类会随着你在游戏中的进度而增加。"
 	]
 	quest.7EDADB7DB5EA981A.title: "&f使用&6FTB商店&f！"
 	quest.7EE04D8B354DC5CB.title: "&6末影发讯芯片"
@@ -13256,7 +13256,7 @@
 	task.183FEFA2AEF46058.title: "观察&a灵火"
 	task.185302C49E85B5E3.title: "&f召唤一个&a小鹿使魔"
 	task.19039CC0F9AB1E54.title: "任意#minecraft:logs"
-	task.196A4B2F83C7B04E.title: "历经了一场麻烦的事故"
+	task.196A4B2F83C7B04E.title: "历经了一场不幸的事故"
 	task.19AAFC3C9FA8644D.title: "&e击杀&f：&c焰魔"
 	task.19FB3879C5AE09BA.title: "任意&d五级&f生物种子"
 	task.19FEB64A680EC482.title: "MI流体管道"
@@ -13457,7 +13457,7 @@
 	task.4A18F4F81AEA7421.title: "第一层：完成"
 	task.4A5574B73D5286B1.title: "任意可佩戴的符文"
 	task.4A84D885C313D512.title: "&f堆叠升级"
-	task.4B459E2BBB4D1543.title: "&eJustDire's &fFuel"
+	task.4B459E2BBB4D1543.title: "&6JustDire模组&r的燃料"
 	task.4B48F3912AE46B3C.title: "&f召唤一个&e被附身的幻翼"
 	task.4B65088186551D3C.title: "&f虚空升级"
 	task.4B67D8495CB6403D.title: "&a宝石&r"

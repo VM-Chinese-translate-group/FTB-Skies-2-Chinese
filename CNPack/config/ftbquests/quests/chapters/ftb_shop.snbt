@@ -2136,7 +2136,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/execute as @s run events force ftb:apoth_boss @s {\"bypassOmen\":true}"
-				feedback_message: "Summoned an Apothic Boss"
+				feedback_message: "召唤神化BOSS"
 				icon: {
 					components: {
 						"ftbquests:icon": "apotheosis:items/boss_summoner"
