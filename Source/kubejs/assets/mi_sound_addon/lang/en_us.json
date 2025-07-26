@@ -1,0 +1,8 @@
+{
+  "item.mi_sound_addon.mallet": "Steel Mallet",
+
+  "message.mi_sound_addon.creative_tab": "MI Sound Addon",
+  "message.mi_sound_addon.tooltip": "Right click your machines to silence or unsilence them",
+  "message.mi_sound_addon.machine_silenced": "Machine Silenced",
+  "message.mi_sound_addon.machine_unsilenced": "Machine Unsilenced"
+}
