@@ -72,7 +72,7 @@
 	quest.0058025036FE7E45.quest_desc: [
 		"&d苍穹晶砧&r能消耗能量修复物品。没错，就是消耗Forge能量（FE）！"
 		""
-		"&7&o提升：需要使用模板进行升级。"
+		"&7&o提示：需要使用模板进行升级。"
 	]
 	quest.0058025036FE7E45.title: "&d苍穹晶砧"
 	quest.006014B382FCF6E6.quest_desc: [
@@ -644,12 +644,12 @@
 	]
 	quest.05D58770A092F5E6.title: "&3质粒注入器"
 	quest.05D774264FE9042A.quest_desc: [
-		"This solar panel generates up to 2048 FE/tick when placed anywhere. &bHigher (y=319)&r or &3Lower (y=-64)&r y-levels will provide the most power."
+		"这种太阳能板在任何地方都能发电，最高可达2048FE/tick。将其放置在&b较高（y=319）&r或&3较低（y=-64）&r的高度时，发电效率最高。"
 		""
-		"Placing down more panels close together will increase its power generation."
+		"将多个太阳能板紧邻放置，可以进一步提升发电量。"
 	]
-	quest.05D774264FE9042A.quest_subtitle: "Makes energy from sunlight, T4"
-	quest.05D774264FE9042A.title: "&5Eclipse Alloy Solar Panel"
+	quest.05D774264FE9042A.quest_subtitle: "太阳能发电，T4"
+	quest.05D774264FE9042A.title: "&5蚀空合金太阳能板"
 	quest.0603F40C8DB12868.quest_desc: [
 		"&eModern Industrialization&r (&eMI&r) has a variety of tiered &aSteam Turbines&r which can be used to convert &7Steam&r into &cPower&r."
 		""
@@ -680,13 +680,13 @@
 	]
 	quest.06918197435AF24E.title: "&3高级样板提供器升级"
 	quest.069C6BE96C1A7D73.quest_desc: [
-		"The &5Eclipse Alloy Anvil&r can repair items using energy just like the previous tier."
+		"&5蚀空合金砧&r和前一级的设备一样，可以消耗能量来修复物品。"
 		""
-		"If fueled with &aTime Fluid&r however, it gets an absurd boost to its repair rate and energy efficiency!"
+		"不过，如果为其注入&a时间流体&r作为燃料，它的修复速度和能效都将获得极为夸张的提升！"
 		""
-		"&7&oTip: Upgrade from the previous tier using a template."
+		"&7&o提示：需要使用模板进行升级。"
 	]
-	quest.069C6BE96C1A7D73.title: "&5Eclipse Alloy Anvil"
+	quest.069C6BE96C1A7D73.title: "&5蚀空合金砧"
 	quest.069E5F18F03C1A78.quest_desc: [
 		"&3工具箱&r可以储存8种物品，挖掘后物品不掉落。"
 		""
@@ -1154,8 +1154,8 @@
 		"使用&a伪装板扳手&r时，按住潜行键并右击即可切换伪装方块的透明状态。"
 	]
 	quest.09DE55D4265E6E9D.title: "&e电缆伪装"
-	quest.0A01A04E60AEBAF3.quest_desc: ["&eJDT&r templates can be used like regular &aSmithing Templates&r to upgrade your gear to the next tier."]
-	quest.0A01A04E60AEBAF3.title: "&cTemplate: Blazegold"
+	quest.0A01A04E60AEBAF3.quest_desc: ["&eJust Dire Things&r模组的模板用法和常规的&a锻造模板&r一样，可以将你的装备升级到下一级。"]
+	quest.0A01A04E60AEBAF3.title: "&c模板：烈焰金"
 	quest.0A06A270AD88C9D8.quest_desc: [
 		"鱼竿一直以来都是一种很小众的普通工具，但现在它终于有了个高级用法！"
 		"&d巫师钓鱼竿&r的用法和普通鱼竿类似，但当鱼线钩住一个生物时，&b再次使用&r就会对被钩住的生物施放法术。"
@@ -1284,13 +1284,13 @@
 	quest.0AF5AB8F0D7DB4B7.quest_subtitle: "粉碎磊岩！"
 	quest.0AF5AB8F0D7DB4B7.title: "&f粉碎磊岩"
 	quest.0AFF8E28FC51B123.quest_desc: [
-		"Need to swap two simple blocks with as little hassle as possible? Try the &cSwapper Wand&r!"
+		"想要轻松省事地交换两个普通方块吗？快来试试&c替换手杖&r吧！"
 		""
-		"Any two simple blocks can be swapped by using it on the two blocks you want to swap."
+		"只需用它依次点击你想要交换的两个方块，即可互换它们的位置。"
 		""
-		"&eNote&f: If it's for processing or has an interface, it's probably too complex to swap."
+		"&e注意&f：如果方块带有处理功能或交互界面，那它可能过于复杂，无法进行交换。"
 	]
-	quest.0AFF8E28FC51B123.title: "&cSwapper Wand"
+	quest.0AFF8E28FC51B123.title: "&c替换手杖"
 	quest.0B1C26C45144306A.quest_desc: [
 		"钓鱼获取精华的收益远超预期！这些精华可以转化成推动进程所需的资源。将它们与下级精华和活化种子结合，就能培育出生长这些精华的作物！"
 		""
@@ -1457,7 +1457,7 @@
 	quest.0C4490929532BC5F.quest_desc: [
 		"这些较大的泵为可以为你的机器提供更大的动力，这样你就能制造出速度更快、压力更大的机器。"
 		""
-		"你的工厂会用到很多这样的设备，因此值得为它们建立一个自动化产线！"
+		"你的工厂会用到很多这种材料，所以为它们建立一个自动化产线是非常值得的！"
 	]
 	quest.0C4490929532BC5F.title: "&f大型水泵"
 	quest.0C59F30673774398.quest_desc: [
@@ -1626,7 +1626,7 @@
 		""
 		"挖掘这种矿石后掉落的&a粗核源铁&r能够烧制成&a核源铁锭&r！"
 		""
-		"&eNote&r: Fortune does not work on these ores. You will typically get between 3 or 4 raw ores."
+		"&e注意&r：时运不会作用于这些矿石上。你通常会得到3到4个粗矿石。"
 	]
 	quest.0E107AC18FCFDB57.title: "&a黏液转化大法！&r"
 	quest.0E11DBABFFAB0FFA.quest_desc: [
@@ -1672,12 +1672,12 @@
 	]
 	quest.0EC122E853F2083C.title: "&f高级压力管道"
 	quest.0ED8814CDDB8654F.quest_desc: [
-		"This solar panel generates 1024 FE/tick when placed in the overworld and when it has clear view of the sky."
+		"这种太阳能板在主世界且天空无遮挡时，发电量可达1024FE/tick。"
 		""
-		"Placing down more of these panels close together will increase its power generation."
+		"将多个太阳能板紧邻放置，可以进一步提升发电量。"
 	]
-	quest.0ED8814CDDB8654F.quest_subtitle: "Makes energy from sunlight, T3"
-	quest.0ED8814CDDB8654F.title: "&dCelestigem Solar Panel"
+	quest.0ED8814CDDB8654F.quest_subtitle: "太阳能发电，T3"
+	quest.0ED8814CDDB8654F.title: "&d苍穹晶太阳能板"
 	quest.0ED940DF43A934ED.quest_desc: [
 		"&a真空模块&r顾名思义，它允许&d路由器&r收集世界中掉落在一定范围内的任何物品，通过在模块内部放置&a范围升级拓展&r可以提升该范围。"
 		""
@@ -2474,11 +2474,11 @@
 	quest.176610923FDE130F.quest_desc: ["使用&b掺杂硅板&r而不是常规硅板，这样能提高其配方的产量。"]
 	quest.176610923FDE130F.title: "&f掺杂硅板"
 	quest.176D9BAC77298ABB.quest_desc: [
-		"By placing these expensive machines against a hot block like magma or Primal Coal, coolant can be pumped in to generate energy."
+		"将这些昂贵的机器紧邻热源方块（如岩浆块或原初煤炭块）放置，再向其泵入冷却液即可发电。译者注：需要把机器放在热源方块之上"
 		""
-		"While water is easy enough to source, polymorphic fluid is more than twice as good and Time Fluid is ten times better. Consider automating these coolants for large amounts of power!"
+		"虽然水很容易获取，但多态流体的效率是其两倍还多，而时间流体的效率更是高达十倍。若想获得大量电力，考虑下自动化生产这些冷却液吧！"
 	]
-	quest.176D9BAC77298ABB.title: "&5Thermo Generator"
+	quest.176D9BAC77298ABB.title: "&5热力发电器"
 	quest.1770A460E1FD7CC8.quest_desc: [
 		"[\"\", {\"text\": \"粒子加速器\", \"color\":\"#FF55FF\"}, \"可以根据目标以多种方式构建。\", {\"text\": \"直线型马达阵列\", \"color\":\"#55FF55\"}, \"可以将粒子射向某个目标，但更高效率的速度通常通过环形设计实现。非常大的环可能需要包含某些要素。慢速粒子需要\", {\"text\": \"导向环\", \"color\": \"#55FF55\"}, \"紧密排列，因此从小环开始\", {\"text\": \"使用红石\", \"color\":\"#55FFFF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"778A876616D4638E\" } }, \" 然后切换到更大的环通常是有意义的。\"]"
 		""
@@ -2605,13 +2605,13 @@
 	]
 	quest.190616DB4087BDE9.title: "&2DNA提取器"
 	quest.191A3E81D26677F5.quest_desc: [
-		"A redstone-controllable trashcan!"
+		"一个可用红石控制的垃圾桶！"
 		""
-		"This block will void any liquid, item, or energy inside of it when active."
+		"激活后，这个方块会销毁其内部存储的任何流体、物品或能量。"
 		""
-		"&7&oIt can also be used as a sneaky high-capacity fluid tank or energy buffer while disabled."
+		"&7&o在未激活时，你还能巧妙地将它用作一个大容量的流体储罐或能量缓存。"
 	]
-	quest.191A3E81D26677F5.title: "&dBlackhole"
+	quest.191A3E81D26677F5.title: "&d黑洞"
 	quest.19512B784164186D.title: "&f铅矿块"
 	quest.1953C2127633B6D7.quest_desc: [
 		"&d无线通用终端&r可以一个顶许多类别的终端用。"
@@ -2971,11 +2971,11 @@
 	quest.1C696E4A9A6F90BE.quest_subtitle: "你尚未准备就绪"
 	quest.1C696E4A9A6F90BE.title: "&d影子长矛"
 	quest.1C866721E1F2FF50.quest_desc: [
-		"It's like a &aCoal Generator&r that fits into your pocket!"
+		"它就像一个能塞进口袋的&a煤炭发电器&r！"
 		""
-		"It burns fuel sources to generate energy to power the items in your inventory!"
+		"它会燃烧燃料来产生能量，为你的物品栏中的物品充电！"
 	]
-	quest.1C866721E1F2FF50.title: "&fPocket Generator"
+	quest.1C866721E1F2FF50.title: "&f编写发电器"
 	quest.1C88E4B44A1C55A9.quest_desc: ["&a武士刀&r的挥舞速度比普通剑慢一点，但是可以造成更高的伤害！"]
 	quest.1C88E4B44A1C55A9.title: "&f武士刀蓝图"
 	quest.1C8A5F2BD1C17A3E.quest_desc: [
@@ -3149,11 +3149,11 @@
 	]
 	quest.1DBAC590575ABA64.title: "&f小众矿晶"
 	quest.1DBE1D496463B310.quest_desc: [
-		"&3MV蒸汽涡轮机&r最高消耗128mB/t&7蒸汽&r，以产生128EU/t的电力。"
+		"&3中压蒸汽涡轮机&r最高可以消耗128mB/t&7蒸汽&r以产生128EU/t的电力。"
 		""
-		"如果你还没有将&2大型青铜锅炉&r升级为高级版本，现在就赶紧去升级吧！"
+		"如果你还没有将&2大型蒸汽锅炉&r升级为高级版本，现在就赶紧去升级吧！"
 	]
-	quest.1DBE1D496463B310.title: "&3MV蒸汽涡轮机"
+	quest.1DBE1D496463B310.title: "&3中压蒸汽涡轮机"
 	quest.1DC3B817C185BBF4.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
@@ -3374,9 +3374,9 @@
 	]
 	quest.1FEEBCA6D633B479.title: "&e末影存储"
 	quest.1FFA8533BE4252F4.quest_desc: [
-		"There are various budding blocks that take time and sometimes use odd mechanics to grow their crystals."
+		"有多种不同的母岩，它们生长出水晶需要花费很长时间，有时甚至要遵循某些奇特的机制。"
 		""
-		"By converting them to Echoing Budding blocks, you can bypass these restrictions using energy and Time Fluid to quickly grow crystals."
+		"但只要将它们转化为回响母岩，你就可以绕过这些限制，通过消耗能量和时间流体来快速催生水晶。"
 	]
 	quest.2006F24858B4B4BB.quest_desc: [
 		"Minecraft中有大量的基础资源，而模组在此基础上添加了更多！"
@@ -3666,8 +3666,8 @@
 	quest.234945ED1315945B.title: "&f子弹&b工程师蓝图"
 	quest.234A09F196E91BDD.quest_desc: ["生成资源的方式很多，本章节旨在帮助你了解能够大量获取物品的模组！"]
 	quest.234A09F196E91BDD.title: "&6资源生成"
-	quest.234CF40C8251555D.quest_desc: ["The &aFerricore Anvil&r can repair items using either iron ingots or ferricore ingots, with ferricore repairing twice as much durability!"]
-	quest.234CF40C8251555D.title: "&aFerricore Anvil"
+	quest.234CF40C8251555D.quest_desc: ["&a核源铁砧&r可使用铁锭或核源铁锭修复物品，且后者的修复效率是前者的两倍！"]
+	quest.234CF40C8251555D.title: "&a核源铁砧"
 	quest.23671BD388852F62.quest_desc: ["消耗&b生物燃油&r发电。"]
 	quest.23671BD388852F62.title: "&f生物燃油发电机"
 	quest.2369D81BC32A5982.quest_desc: [
@@ -4174,8 +4174,8 @@
 		"&e注意&r：你不能把终级工厂安装器直接安装在基础工厂上，必须按照基础、高级、精英、终级的顺序升级。"
 	]
 	quest.27C5F8272212B35A.title: "&a建造&d工厂"
-	quest.27C9C8CEBC1464D1.quest_desc: ["The &6Revitalizer&r can be placed under your existing &aGoos&r to revive them using FE instead of feeding them items every now and then."]
-	quest.27C9C8CEBC1464D1.title: "&6Revitalizer"
+	quest.27C9C8CEBC1464D1.quest_desc: ["将&6复苏器&r放置在你的&a凝胶&r下方，就可以消耗FE来维持它们的活性，从而免去了时不时喂食物品的麻烦。"]
+	quest.27C9C8CEBC1464D1.title: "&6复苏器"
 	quest.27D28CC22BB5C665.quest_subtitle: "用于合成其他升级"
 	quest.27D28CC22BB5C665.title: "&f升级"
 	quest.27E0738B56C6ED8C.quest_desc: ["将&7魔精&r绑定到背包上可以显著增加其存储容量，使其成为旅行的好伙伴。"]
@@ -4906,11 +4906,11 @@
 	]
 	quest.2F933169CF164EC7.title: "&f乙醛"
 	quest.2FCAEA1A5CAB47DE.quest_desc: [
-		"在你可以做出&3蒸馏塔&r之前，你只有&3蒸馏室&r这一个选择。"
+		"在&3蒸馏塔&r变得可制作之前，做一个&3蒸馏室&r是非常关键的。"
 		""
-		"有了&b原油&r和&3蒸馏室&r，您现在可以开始精炼&2石化副产物&r。几乎所有产物都有用。"
+		"现在，有了&b原油&r和&3蒸馏室&r，你就可以开始精炼&2石化副产物&r了。这些副产物中大多数都非常有用。"
 		""
-		"原油化工有非常多的副产物，其中的大部分都非常有用。不过&3蒸馏室&r每次只能蒸馏出一种副产物，你需要准备大量&3蒸馏室&r才能把它们蒸馏好。"
+		"然而，&3蒸馏室&r每次只能蒸馏出一种副产物，所以你需要准备多个&3蒸馏室&r才能把工序安排好。"
 	]
 	quest.2FCAEA1A5CAB47DE.title: "&3蒸馏室"
 	quest.2FCED22162B00429.quest_subtitle: "传输能量"
@@ -6083,13 +6083,13 @@
 	]
 	quest.39751E377C0F22EE.title: "&f检阅你的网络！"
 	quest.39A6CE8A1D5B2D8F.quest_desc: [
-		"The &aSimple Coal Generator&r from &6Just Dire's Things&r takes burning coal to a new level."
+		"&6Just Dire's Things&r模组中的&a初级煤炭发电器&r将燃烧煤炭发电这件事提升到了一个新高度。"
 		""
-		"While this can burn regular burnable items like coal or wood, it can also burn the different tiers of coal from the mod itself, like &aPrimal Coal&r!"
+		"它不仅可以燃烧煤炭或木头等常规物品，还能燃烧该模组中不同等级的特殊煤炭（例如&a原初煤炭&r）！"
 		""
-		"Using these special coals will produce more power, with the higher tiers producing up to 960 RF/t."
+		"使用这些特殊煤炭会产生更多能量，其中最高等级的煤炭发电量可达960RF/t。"
 	]
-	quest.39A6CE8A1D5B2D8F.title: "&a\"Simple\" &fCoal Generator"
+	quest.39A6CE8A1D5B2D8F.title: "&a“初级”&f煤炭发电器"
 	quest.39BC89942A5CA7E1.quest_desc: ["提升能源效率。"]
 	quest.39BC89942A5CA7E1.title: "&f效率升级插件"
 	quest.39CA68E8B84CF962.quest_desc: ["&7铜符石&r将玩家半径十格范围内的掉落物吸引至玩家。"]
@@ -6294,7 +6294,7 @@
 		""
 		"Fuels are more efficient per bucket than lava, getting stronger per fuel tier."
 		""
-		"&7&oTip: Upgrade from the previous tier using a template."
+		"&7&o提示：需要使用模板进行升级。"
 	]
 	quest.3B328F7BA1089E9A.title: "&cBlazegold Anvil"
 	quest.3B33C4D5A2D400D4.quest_desc: [
@@ -8761,7 +8761,7 @@
 	quest.53EEF2EC6314E8F2.title: "&b强化合金"
 	quest.53FBBFC675F1FE7F.quest_desc: ["与普通的&a时间量子单元&r相比，&d时间量子电池&r可以存储更多的&b时间量子&r，而且它还是参与更高级合成的原材料。"]
 	quest.53FBBFC675F1FE7F.title: "&d时间量子电池"
-	quest.54016A2A0FAB6B4B.quest_desc: ["大型电动机既是一种制作原料，也是一种加快物品管道速度的方法。与&e现代工业化&r中的大多数部件一样，需要一个生产线。"]
+	quest.54016A2A0FAB6B4B.quest_desc: ["大型电动机既是一种制作原料，也是一种加快物品管道传输速度的方法。与&e现代工业化&r中的大多数部件一样，你需要一个生产线来稳定补给这种材料。"]
 	quest.54016A2A0FAB6B4B.title: "&f大型电动机"
 	quest.5406259BD0946709.title: "&a犰狳召唤"
 	quest.5407B3A9D7544F43.quest_desc: [
@@ -9042,9 +9042,9 @@
 	quest.56E1FAD44A6E8C11.quest_desc: [
 		"&e柴油&r有两种制备方式。"
 		""
-		"第一种制备方式：首先你需要用&3蒸馏室&r提取出&2轻燃油和重燃油&r，接下来用&2搅拌机&r把它们混合为&e柴油&r即可。"
+		"第一种制备方式：首先你需要用&3蒸馏室&r提取出&2轻燃油和重燃油&r，接下来用&2搅拌机&r把它们混合为&e柴油&r。"
 		""
-		"[\"你还可以优化\",{\"text\": \"原油\", \"color\": \"green\"}, \"生产线，使用\", {\"text\": \"气动工艺\", \"color\": \"yellow\"}, \"的\", {\"text\": \"热气动加工机\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6CD6367FB419EA35\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往热气动加工机任务\"}}, \"，其需要一些热量和压力。\"]"
+		"[\"You can also refine \",{\"text\": \"Crude Oil\", \"color\": \"green\"}, \" it using a \", {\"text\": \"Thermopneumatic Processing Plant\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6CD6367FB419EA35\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Processing Plant Quest\"}}, \" from \", {\"text\": \"PNCR\", \"color\": \"yellow\"}, \", which will require heat and pressure.\"]"
 	]
 	quest.56E1FAD44A6E8C11.title: "&e柴油"
 	quest.56E9C123DD727E46.quest_desc: [
@@ -9388,9 +9388,9 @@
 	quest.5A5D6A90C0999828.quest_desc: [
 		"&3进阶机器外壳&r用于制造各种&3中压机器&r，这标志着我们进入了&3中压时代&r。"
 		""
-		"你可以给现有的&2低压&r机器的升级槽插入进阶机器外壳来使其可以接受中压电并处理&3中压&r配方。"
+		"你也可以给现有的&2低压&r机器的升级槽插入进阶机器外壳，这样它们就可以接入中压电并处理&3中压&r配方。"
 		""
-		"你不认为你必须在每一层都建造所有新机器，是吗？"
+		"你没想到自己必须在每个时期都分别造一批新机器，对吧？"
 	]
 	quest.5A5D6A90C0999828.title: "&3进阶机器框架"
 	quest.5A7D39C555A4D031.title: "&bSturdy Bee Cage"
@@ -9880,9 +9880,9 @@
 	]
 	quest.5FCB70FA68E708BB.title: "&eRS2处理器奖励包"
 	quest.5FCEA8229BB6955C.quest_desc: [
-		"A simple walk off your bit of stable ground into the void can get you &aGrains of Infinity&r right before you loop back above the void. It's much more forgiving than one would expect, aside from the slight crunch when you land back on solid ground."
+		"只需从容地踏离那一小块立足之地，坠入虚空，在你重见天日之前，就可以获得&a无限粉&r。这远比你预想的要宽容，除了落地瞬间的咯吱作响。"
 		""
-		"This is based on how close you are to the depths of the void, and hanging out &elow enough&r will allow you to passively collect &aGrains&r."
+		"产出的多少取决于离虚空的远近，如果在&e足够低&r的位置停留，你便可以被动地收集这些&a无限粉&r。"
 	]
 	quest.5FCEA8229BB6955C.title: "&a无限粉"
 	quest.5FD42392FCECCB47.quest_desc: [
@@ -10384,9 +10384,9 @@
 	]
 	quest.6428F17B7E4873A6.title: "&f热力学"
 	quest.642E67C7C2D1CF10.quest_desc: [
-		"The practice of breaking big chunks into smaller chunks has always proven more useful in practice than said out loud."
+		"将庞然大物拆解为细微末节，这向来是行胜于言。"
 		""
-		"As proper smashing tools, Hammers can break down Cobblestone into Gravel, Gravel into Dirt, and other similar processes. Try it with compressed versions of these blocks!"
+		"锤子是适合粉碎的工具，可以将圆石粉碎成沙砾，沙砾粉碎成泥土，还能粉碎其他类似的方块。对这些方块的压缩版本同样有效！"
 	]
 	quest.642E67C7C2D1CF10.title: "&f粉碎"
 	quest.6432ABF56BFF2F8F.quest_desc: [
@@ -10621,7 +10621,7 @@
 	]
 	quest.66BC4434409F959B.title: "&d再处理裂变碎片"
 	quest.66BCBE932B1CCA45.quest_desc: [
-		"Grab some &braw Iron&r, and get ready to make some metal. The &aFurnace&r is how we're going to smelt down any &braw ores&r into &bIngots&r!"
+		"拿一些&b粗铁&r，准备将它烧成铁锭。&a熔炉&r是我们将任意&b粗矿&r熔炼成&b锭&r的方式！"
 		""
 		"如果你没有足够的煤炭，你也可以将&2原木&r烧制成&b木炭&r来使用。"
 	]
@@ -10905,13 +10905,13 @@
 	quest.6A22434958A72911.quest_desc: ["重置挖掘技能树中已使用的技能点。"]
 	quest.6A22434958A72911.title: "&f重置挖掘技能树"
 	quest.6A22BBE9C146E910.quest_desc: [
-		"你的&2蒸汽采石场&r可以通过使用相同的多方块结构直接升级为&3电动版&r！"
+		"你的&2蒸汽采石场&r可以通过使用同一个多方块结构直接升级为&3电动版&r！"
 		""
 		"经过改进的新采石场可以使用更好的&b钻头&r，如金钻、钢钻和不锈钢钻。"
 		""
-		"[\"如果你希望涉足\", {\"text\": \"石油化工产品\", \"color\": \"dark_green\"}, \" 和可持续的\", {\"text\": \"柴油燃料\", \"color\": \"dark_green\"}, \"，尽快着手建造一个\", {\"text\": \"石油钻机\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71D274A5F226DAEC\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往石油钻机任务\"}}, \"是很值得，这样就可以使用铝钻头来钻取有毒的混合物。\"]"
+		"[\"如果你希望涉足\", {\"text\": \"石油化工产品\", \"color\": \"dark_green\"}, \"和可持续的\", {\"text\": \"柴油燃料\", \"color\": \"dark_green\"}, \"领域，制作\", {\"text\": \"石油钻机\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71D274A5F226DAEC\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往石油钻机任务\"}}, \"和铝钻头是很值得的，这样你就可以钻取有毒的混合物了。\"]"
 		""
-		"&7&o请记住，本包中不会消耗钻头。"
+		"&7&o请记住，本包中的钻头不会被消耗。"
 	]
 	quest.6A22BBE9C146E910.title: "&3电动采石场"
 	quest.6A346516646A3890.quest_desc: [
@@ -11131,7 +11131,7 @@
 	quest.6CA3339B472F4464.title: "&d处理器"
 	quest.6CA9ED28F944DECC.quest_desc: ["&a魂染盔甲&r不仅有着强大的物理防御能力，还有着第二种能力——&b吸收&r大量的魔法伤害。这种能力需要花费时间才能恢复，除此之外不会有任何消耗。"]
 	quest.6CA9ED28F944DECC.title: "魂染盔甲"
-	quest.6CADA41796D0F7F9.quest_desc: ["After progressing through whichever path you pick, iron should come easily enough, allowing for further progression through vanilla and, more notably, all manner of mods."]
+	quest.6CADA41796D0F7F9.quest_desc: ["在发展了选择的路径后，你会发现，获得铁变得更轻松了，这将推动不仅是原版，更重要的还有各种模组的发展。"]
 	quest.6CADA41796D0F7F9.title: "&f合适的材料"
 	quest.6CD6367FB419EA35.quest_desc: [
 		"你需要&a热气动加工机&r才能处理&a精炼厂&r产出的液体。"
@@ -11497,9 +11497,9 @@
 	quest.71D274A5F226DAEC.quest_desc: [
 		"&3石油钻机&r使用钻头来开采流体。"
 		""
-		"你可以钻取原油或页岩油，这两种油的处理工序大体一样，但是在处理细节上不同，所以记得多看JEI来规划如何处理。"
+		"你可以钻取原油或页岩油。这两种油的处理工序大体一样，但是在处理细节上不同，所以记得多看JEI来规划如何处理。"
 		"{@pagebreak}"
-		"完全体&3钻机&r："
+		"&3钻机&r完全体："
 		""
 		"{image:ftb:textures/quests/modern_industrialization/oildrilling.png width:150 height:200 align:center}"
 	]
@@ -11635,9 +11635,9 @@
 	]
 	quest.729DF05C1D2AE6E7.title: "&fReaders \\&\\ Writers"
 	quest.72A00FD887707E9D.quest_desc: [
-		"将你的&2大型青铜锅炉&r升级是非常值得的，现在你可以制作电路板了。"
+		"既然你已经可以制作电子电路了，将你的&2大型蒸汽锅炉&r升级是非常值得的。"
 		""
-		"你的&7蒸汽&r生产提升到原来的&b4倍&r。"
+		"这将把你的&7蒸汽&r产能提升到原来的&b4倍&r。"
 	]
 	quest.72A00FD887707E9D.title: "&3进阶大型蒸汽锅炉"
 	quest.72AB47828922F73A.quest_desc: [
