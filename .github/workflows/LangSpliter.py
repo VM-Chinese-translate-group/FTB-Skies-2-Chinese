@@ -613,7 +613,6 @@ def update_reward_tables_with_components(component_data, input_reward_tables_dir
 
     # 定义解析模式（处理所有需要回填到SNBT的组件）
     patterns = {
-    patterns = {
         'components': re.compile(r'^reward_table\.([0-9A-F]+)\.([0-9A-F]+)\.(custom_name|lore\d+)$'),
         'fallback': re.compile(r'^reward_table\.([0-9A-F]+)\.fallback_message(\d*)$'),
         'item_name': re.compile(r'^reward_table\.([0-9A-F]+)\.([0-9A-F]+)\.item_name(\d*)$'),
