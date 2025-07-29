@@ -260,7 +260,7 @@
 	quest.021C3C2A48069C7F.quest_subtitle: "将熔融绿宝石倾倒在催化剂上"
 	quest.021C3C2A48069C7F.title: "&f绿宝石矿晶母岩"
 	quest.0224277CBEC1375E.quest_desc: [
-		"&eAE2&r有自己的能量单位，叫做&bAE&r。AE2的设备通常不支持其他模组的能量。"
+		"&eAE2&r有自己的能量单位，叫做&bAE&r。AE2的设备默认不支持其他模组的能量。"
 		""
 		"不过你也可以用&a能源接收器&r将FE变为AE能量，使用&2玻璃线缆&r可以仅传输能量。"
 		""
@@ -465,7 +465,7 @@
 		"末影傀儡在各处游荡，但最难缠的敌人是驻守在最底层的&5末影守卫&r。"
 	]
 	quest.040795388568AB69.title: "&f找到&5废弃城堡"
-	quest.0443A2BAF6025343.quest_desc: ["Collects &2Sewage&r when placed under your farm animals, which can be turned into fertilizer for crop farms with a &2Sewage Composter&r."]
+	quest.0443A2BAF6025343.quest_desc: ["当其放置在你的农场动物下面时即可收集&2污水&r，用&2污水堆肥机&r将其转化为肥料，加速作物生长。"]
 	quest.0443A2BAF6025343.title: "&2动物排污器"
 	quest.0444EF9A04406894.quest_desc: [
 		"&a细胞&r用于合成&bDNA螺旋&r。"
@@ -7586,13 +7586,13 @@
 	]
 	quest.4962BB8B57D6650E.title: "&f制造&c流体"
 	quest.496561148E384759.quest_desc: [
-		"对于把&2石化产品&r分解为副产物来说，&d蒸馏塔&r绝对是更好的选择。"
+		"要想把&2石化产品&r分解为副产物，&d蒸馏塔&r绝对是更好的选择。"
 		""
-		"由于它是多层结构，所以一个多方块结构可以拥有多个输出口，你可以按需摆放输出口以获取全部副产物！"
+		"由于是多层结构，所以这一个多方块结构就可以拥有多个输出仓。你可以按需摆放输出仓（至少一个，至多九个）以获取全部副产物！"
 		""
-		"&e注意&r：在控制器中需设置结构的高度，确保其结构正确！"
+		"&e注意&r：你需要在控制器中设置结构的高度，确保其结构正确！"
 		"{@pagebreak}"
-		"为了下个任务，你的目标是建造一座拥有三个输出口的蒸馏塔。"
+		"你的目标是建造一座至少拥有三个输出仓的蒸馏塔，从而为下个任务做准备。"
 		""
 		"{image:ftb:textures/quests/modern_industrialization/disttower.png width:125 height:150 align:center}"
 	]
@@ -12195,9 +12195,9 @@
 	]
 	quest.77E29BF73DB402C5.title: "&3流体阀门"
 	quest.77EFC3A24E922F93.quest_desc: [
-		"现在我们有&d退火铜&r，你就可以制作所需的&d进阶元件&r，以此升级我们的科技水平。"
+		"有了&d退火铜锭&r，我们就可以制作&d进阶元件&r，从而进一步升级设备了。"
 		""
-		"首先，你需要制作一些&a高级电动机&r，因为需要它们才能制作&2高级泵&r！"
+		"首先，你需要制作一些&a进阶电动机&r，你可以用它们来制作&2进阶泵&r！"
 	]
 	quest.77EFC3A24E922F93.title: "&d进阶元件"
 	quest.77F964631F38EA2E.title: "&f击杀20只&c苦力怕"
@@ -12721,7 +12721,7 @@
 		"此外，它可以像斧头一样砍树（速度慢了点），还可以像镰刀一样清理杂草和收割作物。"
 	]
 	quest.7D7E98A886175D22.title: "&f砍刀蓝图"
-	quest.7D84ECD5BBB7964A.quest_desc: ["The &dEnchantment Extractor&r will strip down enchanted books from enchanted items when provided with books, effectively harvesting enchants off unused gear."]
+	quest.7D84ECD5BBB7964A.quest_desc: ["&d魔咒提取机&r能将附魔物品的附魔提取到书中，从而提取无用装备中附魔。"]
 	quest.7D84ECD5BBB7964A.title: "&d魔咒提取机"
 	quest.7D98D9AB89357FA6.quest_desc: ["我们现在已经准备好前往新时代了——&2低压时代&r。低压时代的机器全部都需要&a基础机器外壳&r，你得&c多多&r准备了。"]
 	quest.7D98D9AB89357FA6.title: "&2低压时代&r"
