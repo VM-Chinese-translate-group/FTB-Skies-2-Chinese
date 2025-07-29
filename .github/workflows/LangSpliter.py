@@ -530,35 +530,30 @@ def parse_and_sort_multiline_data(component_data, patterns):
     """通用的多行数据解析和排序函数"""
     parsed_data = {}
     
-    def handle_components(data, match, value):
-        table_id, item_id, component_type = match.groups()
-        if component_type == 'custom_name':
-            data.setdefault('components', {}).setdefault(table_id, {}).setdefault(item_id, {})['name'] = value
-        elif component_type.startswith('lore'):
-            lore_index = int(component_type[4:]) if len(component_type) > 4 else 1
-            data.setdefault('components', {}).setdefault(table_id, {}).setdefault(item_id, {}).setdefault('lore', []).append((lore_index, value))
-    
-    def handle_fallback(data, match, value):
-        table_id, num = match.groups()
-        data.setdefault('fallback', {}).setdefault(table_id, []).append((int(num) if num else 0, value))
-    
-    def handle_item_name(data, match, value):
-        table_id, item_id, num = match.groups()
-        data.setdefault('item_name', {}).setdefault(table_id, {}).setdefault(item_id, []).append((int(num) if num else 0, value))
-    
-    # 重新定义处理器
-    handlers = {
-        'components': handle_components,
-        'fallback': handle_fallback,
-        'item_name': handle_item_name
-    }
-    
     for key, value in component_data.items():
-        for pattern_name, pattern in patterns.items():
-            match = pattern.match(key)
-            if match:
-                handlers[pattern_name](parsed_data, match, value)
-                break
+        # 处理 components (custom_name, lore)
+        components_match = patterns['components'].match(key)
+        if components_match:
+            table_id, item_id, component_type = components_match.groups()
+            if component_type == 'custom_name':
+                parsed_data.setdefault('components', {}).setdefault(table_id, {}).setdefault(item_id, {})['name'] = value
+            elif component_type.startswith('lore'):
+                lore_index = int(component_type[4:]) if len(component_type) > 4 else 1
+                parsed_data.setdefault('components', {}).setdefault(table_id, {}).setdefault(item_id, {}).setdefault('lore', []).append((lore_index, value))
+            continue
+        
+        # 处理 fallback_message
+        fallback_match = patterns['fallback'].match(key)
+        if fallback_match:
+            table_id, num = fallback_match.groups()
+            parsed_data.setdefault('fallback', {}).setdefault(table_id, []).append((int(num) if num else 0, value))
+            continue
+        
+        # 处理 item_name
+        item_name_match = patterns['item_name'].match(key)
+        if item_name_match:
+            table_id, item_id, num = item_name_match.groups()
+            parsed_data.setdefault('item_name', {}).setdefault(table_id, {}).setdefault(item_id, []).append((int(num) if num else 0, value))
     
     # 对所有多行文本进行排序
     def sort_multiline_values(data):
@@ -582,13 +577,18 @@ def update_text_field(data, field_name, lines, component_data, base_key):
 
 def update_reward_tables_with_components(component_data, input_reward_tables_dir, output_reward_tables_dir):
     """将翻译更新回奖励表SNBT文件，大量复用现有逻辑"""
-    if not component_data or not os.path.isdir(input_reward_tables_dir):
+    if not component_data:
+        print("警告：没有奖励表组件数据需要更新。")
+        return
+    if not os.path.isdir(input_reward_tables_dir):
+        print(f"警告：未提供有效的奖励表目录 '{input_reward_tables_dir}'。跳过奖励表 SNBT 文件内嵌文本的更新。")
         return
 
     print("\n--- 开始将内嵌文本更新到奖励表 SNBT 文件 ---")
+    print(f"  -> 待处理的组件数据条目数: {len(component_data)}")
     os.makedirs(output_reward_tables_dir, exist_ok=True)
 
-    # 定义解析模式（复用模式匹配逻辑）
+    # 定义解析模式（处理所有需要回填到SNBT的组件）
     patterns = {
         'components': re.compile(r'^reward_table\.([0-9A-F]+)\.([0-9A-F]+)\.(custom_name|lore\d+)$'),
         'fallback': re.compile(r'^reward_table\.([0-9A-F]+)\.fallback_message(\d*)$'),
@@ -596,6 +596,7 @@ def update_reward_tables_with_components(component_data, input_reward_tables_dir
     }
     
     parsed_data = parse_and_sort_multiline_data(component_data, patterns)
+    print(f"  -> 解析后的数据结构: components={len(parsed_data.get('components', {}))}, fallback={len(parsed_data.get('fallback', {}))}, item_name={len(parsed_data.get('item_name', {}))}")
     
     # 应用修改（复用文件处理逻辑）
     modified_files_count = 0
@@ -613,6 +614,7 @@ def update_reward_tables_with_components(component_data, input_reward_tables_dir
             
             # 更新 fallback_message（复用更新逻辑）
             if 'fallback' in parsed_data and table_id in parsed_data['fallback']:
+                print(f"  -> 正在更新表 {table_id} 的 fallback_message")
                 update_text_field(snbt_data, 'fallback_message', parsed_data['fallback'][table_id], component_data, f'reward_table.{table_id}.fallback_message')
                 file_was_modified[0] = True
             
@@ -625,14 +627,17 @@ def update_reward_tables_with_components(component_data, input_reward_tables_dir
                         mods = parsed_data['components'][table_id][item_id]
                         if 'components' in data:
                             if 'name' in mods:
+                                print(f"  -> 正在更新表 {table_id} 物品 {item_id} 的 custom_name")
                                 data['components'][String('minecraft:custom_name')] = String(mods['name'])
                                 file_was_modified[0] = True
                             if 'lore' in mods:
+                                print(f"  -> 正在更新表 {table_id} 物品 {item_id} 的 lore")
                                 data['components'][String('minecraft:lore')] = List([String(line) for line in mods['lore']])
                                 file_was_modified[0] = True
                     
                     # 更新 item_name
                     if 'item_name' in parsed_data and table_id in parsed_data['item_name'] and item_id in parsed_data['item_name'][table_id]:
+                        print(f"  -> 正在更新表 {table_id} 物品 {item_id} 的 item_name")
                         update_text_field(data, 'item_name', parsed_data['item_name'][table_id][item_id], component_data, f'reward_table.{table_id}.{item_id}.item_name')
                         file_was_modified[0] = True
                 
@@ -654,6 +659,8 @@ def update_reward_tables_with_components(component_data, input_reward_tables_dir
                 
         except Exception as e:
             print(f"  -> 更新奖励表文件 {filename} 时出错: {e}")
+            import traceback
+            traceback.print_exc()
     
     print(f"奖励表更新完成。共修改了 {modified_files_count} 个文件。")
 
@@ -867,10 +874,10 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
         r'reward\.[0-9A-F]+\.feedback_message\d*$'
     )
     
-    # 匹配奖励表相关的内嵌键
-    # 匹配奖励表相关的内嵌键
+    # 匹配奖励表相关的内嵌键（包含所有需要回填到SNBT文件的组件）
     reward_table_embedded_key_pattern = re.compile(
-        r'^reward_table\.[0-9A-F]+\.(?:[0-9A-F]+\.)?(custom_name|lore\d+|item_name\d*|fallback_message\d*)$'
+        r'^reward_table\.[0-9A-F]+\.[0-9A-F]+\.(custom_name|lore\d+|item_name\d*)$|'
+        r'^reward_table\.[0-9A-F]+\.fallback_message\d*$'
     )
     
     for key, value in combined_data.items():
