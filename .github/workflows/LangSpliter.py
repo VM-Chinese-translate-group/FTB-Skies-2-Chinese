@@ -748,7 +748,7 @@ def update_item_with_components_and_feedback(item_dict, item_id, comp_mods, feed
 def update_reward_table_files_with_components(component_data, input_reward_tables_dir, output_reward_tables_dir):
     """
     将来自JSON的翻译更新回奖励表SNBT文件。
-    使用通用函数减少代码重复。
+    处理 loot_crate.item_name, custom_name, lore, feedback_message。
     """
     if not component_data or not os.path.isdir(input_reward_tables_dir):
         return
@@ -756,11 +756,48 @@ def update_reward_table_files_with_components(component_data, input_reward_table
     print("\n--- 开始将内嵌文本更新到奖励表 SNBT 文件 ---")
     os.makedirs(output_reward_tables_dir, exist_ok=True)
 
-    # 使用通用函数解析数据
-    reward_table_pattern = re.compile(r'^reward_table_rewards\.([0-9A-F]+)\.(custom_name|lore(\d+)|feedback_message(\d*))$')
-    reward_table_mods_by_id, reward_table_feedback_mods_by_id = parse_component_data(
-        component_data, reward_table_pattern, {}
-    )
+    # 解析奖励表相关的翻译数据
+    reward_table_mods_by_id = {}
+    reward_table_feedback_mods_by_id = {}
+    loot_crate_names_by_table_id = {}
+
+    # 解析各种类型的键
+    for key, value in component_data.items():
+        # loot_crate.item_name
+        loot_crate_match = re.match(r'^reward_table\.([0-9A-F]+)\.loot_crate\.item_name$', key)
+        if loot_crate_match:
+            table_id = loot_crate_match.group(1)
+            loot_crate_names_by_table_id[table_id] = value
+            continue
+
+        # reward_table_rewards 相关
+        rewards_name_match = re.match(r'^reward_table_rewards\.([0-9A-F]+)\.custom_name$', key)
+        if rewards_name_match:
+            item_id = rewards_name_match.group(1)
+            reward_table_mods_by_id.setdefault(item_id, {})['name'] = value
+            continue
+
+        rewards_lore_match = re.match(r'^reward_table_rewards\.([0-9A-F]+)\.lore(\d+)$', key)
+        if rewards_lore_match:
+            item_id, lore_index = rewards_lore_match.groups()
+            reward_table_mods_by_id.setdefault(item_id, {}).setdefault('lore', []).append((int(lore_index), value))
+            continue
+
+        rewards_feedback_match = re.match(r'^reward_table_rewards\.([0-9A-F]+)\.feedback_message(\d*)$', key)
+        if rewards_feedback_match:
+            item_id, num = rewards_feedback_match.groups()
+            reward_table_feedback_mods_by_id.setdefault(item_id, []).append((int(num) if num else 0, value))
+            continue
+
+    # 排序多行文本
+    for item_id in reward_table_mods_by_id:
+        if 'lore' in reward_table_mods_by_id[item_id]:
+            reward_table_mods_by_id[item_id]['lore'].sort(key=lambda x: x[0])
+            reward_table_mods_by_id[item_id]['lore'] = [v for _, v in reward_table_mods_by_id[item_id]['lore']]
+
+    for item_id in reward_table_feedback_mods_by_id:
+        reward_table_feedback_mods_by_id[item_id].sort(key=lambda x: x[0])
+        reward_table_feedback_mods_by_id[item_id] = [v for _, v in reward_table_feedback_mods_by_id[item_id]]
 
     # 更新奖励表文件
     modified_files_count = 0
@@ -774,6 +811,13 @@ def update_reward_table_files_with_components(component_data, input_reward_table
                 snbt_data = snbtlib.loads(f.read())
 
             file_was_modified = [False]
+            table_id = snbt_data.get('id')
+
+            # 更新 loot_crate.item_name
+            if table_id in loot_crate_names_by_table_id:
+                if 'loot_crate' in snbt_data and isinstance(snbt_data['loot_crate'], dict):
+                    snbt_data['loot_crate']['item_name'] = String(loot_crate_names_by_table_id[table_id])
+                    file_was_modified[0] = True
 
             # 处理 rewards 列表
             rewards_list = snbt_data.get('rewards')
@@ -781,10 +825,26 @@ def update_reward_table_files_with_components(component_data, input_reward_table
                 for reward_item in rewards_list:
                     if isinstance(reward_item, dict) and 'id' in reward_item:
                         item_id = reward_item['id']
-                        update_item_with_components_and_feedback(
-                            reward_item, item_id, reward_table_mods_by_id, 
-                            reward_table_feedback_mods_by_id, file_was_modified
-                        )
+                        
+                        # 更新 components
+                        if item_id in reward_table_mods_by_id:
+                            modifications = reward_table_mods_by_id[item_id]
+                            if 'components' in reward_item:
+                                if 'name' in modifications:
+                                    reward_item['components'][String('minecraft:custom_name')] = String(modifications['name'])
+                                    file_was_modified[0] = True
+                                if 'lore' in modifications:
+                                    reward_item['components'][String('minecraft:lore')] = List([String(line) for line in modifications['lore']])
+                                    file_was_modified[0] = True
+
+                        # 更新 feedback_message
+                        if item_id in reward_table_feedback_mods_by_id:
+                            lines = reward_table_feedback_mods_by_id[item_id]
+                            if len(lines) > 1:
+                                reward_item['feedback_message'] = List([String(line) for line in lines])
+                            else:
+                                reward_item['feedback_message'] = String(lines[0])
+                            file_was_modified[0] = True
 
             if file_was_modified[0]:
                 snbt_output_string = snbtlib.dumps(snbt_data)
@@ -795,7 +855,7 @@ def update_reward_table_files_with_components(component_data, input_reward_table
                 modified_files_count += 1
 
         except Exception as e:
-            print(f"  -> 更新奖励表文件 {filename} 时发生错误: {e}")
+            print(f"  -> 更新奖励表文件 {filename} 时出错: {e}")
 
     print(f"奖励表更新完成。共修改了 {modified_files_count} 个文件。")
 
@@ -830,11 +890,12 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
     # 分离内嵌键和标准语言键
     embedded_data = OrderedDict()
     standard_data = OrderedDict()
-    # 这个正则表达式匹配所有需要被回填到章节文件而不是写入语言文件的键
+    # 这个正则表达式匹配所有需要被回填到SNBT文件而不是写入语言文件的键
     embedded_key_pattern = re.compile(
         r'^(tasks|rewards)\.[0-9A-F]+\.(custom_name|lore\d+)|'
         r'chapter\.[0-9A-F]+\.image\.\d+\.hover\d*|'
         r'reward\.[0-9A-F]+\.feedback_message\d*|'
+        r'reward_table\.[0-9A-F]+\.loot_crate\.item_name|'
         r'reward_table_rewards\.[0-9A-F]+\.(custom_name|lore\d+|feedback_message\d*)$'
     )
     for key, value in combined_data.items():
