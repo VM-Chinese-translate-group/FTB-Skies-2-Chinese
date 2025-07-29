@@ -224,5 +224,21 @@
     "block.modern_industrialization.soul_bricked_fluid_input_hatch": "灵魂砖流体输入仓",
     "block.modern_industrialization.soul_bricked_fluid_output_hatch": "灵魂砖流体输出仓",
     "block.modern_industrialization.soul_bricked_item_input_hatch": "灵魂砖物品输入仓",
-    "block.modern_industrialization.soul_bricked_item_output_hatch": "灵魂砖物品输出仓"
+    "block.modern_industrialization.soul_bricked_item_output_hatch": "灵魂砖物品输出仓",
+    "fluid_type.ftb.molten_kivi": "Molten Kivi",
+    "fluid_type.ftb.industrial_coolant": "Industrial Coolant",
+    "chemical.ftb.dirty_aluminum": "Dirty Aluminum",
+    "chemical.ftb.clean_aluminum": "Clean Aluminum",
+    "chemical.ftb.dirty_nickel": "Dirty Nickel",
+    "chemical.ftb.clean_nickel": "Clean Nickel",
+    "chemical.ftb.dirty_zinc": "Dirty Zinc",
+    "chemical.ftb.clean_zinc": "Clean Zinc",
+    "chemical.ftb.dirty_platinum": "Dirty Platinum",
+    "chemical.ftb.clean_platinum": "Clean Platinum",
+    "chemical.ftb.dirty_silver": "Dirty Silver",
+    "chemical.ftb.clean_silver": "Clean Silver",
+    "chemical.ftb.dirty_antimony": "Dirty Antimony",
+    "chemical.ftb.clean_antimony": "Clean Antimony",
+    "chemical.ftb.dirty_iridium": "Dirty Iridium",
+    "chemical.ftb.clean_iridium": "Clean Iridium"
 }

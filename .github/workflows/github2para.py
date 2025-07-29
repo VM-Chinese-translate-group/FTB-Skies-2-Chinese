@@ -64,12 +64,14 @@ def handle_ftb_quests_snbt():
 
         # 调用 LangSpliter 的拆分函数
         # flatten_single_lines=False 是为了让多行文本在Paratranz中成为多个独立的词条，便于翻译
+        reward_tables_dir = "Source/config/ftbquests/quests/reward_tables"
         split_and_process_all(
             source_lang_file=snbt_file,
             chapters_dir=chapters_dir,
             chapter_groups_file=chapter_groups_file,
             output_dir=output_json_dir,
-            flatten_single_lines=False
+            flatten_single_lines=False,
+            reward_tables_dir=reward_tables_dir
         )
         print("SNBT 文件已成功拆分为 JSON，准备上传。")
     else:
