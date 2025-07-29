@@ -165,6 +165,11 @@ def split_and_process_all(source_lang_file, chapters_dir, chapter_groups_file, o
 
     # 5. 处理章节文件，导出章节、任务、子任务和奖励的相关条目
     process_chapter_quests(chapters_dir, chapters_lang_data, quests_data, tasks_data, rewards_data, output_dir)
+    
+    # 6. 处理奖励表文件（如果存在）
+    reward_tables_dir = os.path.join(os.path.dirname(chapters_dir), "reward_tables")
+    if os.path.isdir(reward_tables_dir):
+        process_reward_tables(reward_tables_dir, output_dir)
 
     print("--- 拆分和处理完成 ---\n")
 
@@ -417,16 +422,8 @@ def process_chapter_quests(chapters_dir, chapters_lang_data, quests_data, tasks_
                     for key, value in rewards_data.items():
                         if key.startswith(reward_prefix):
                             chapter_output_content[key] = value
-                    # 提取 reward.feedback_message
-                    if 'feedback_message' in reward:
-                        feedback_value = reward['feedback_message']
-                        if isinstance(feedback_value, str):
-                            key = f"reward.{reward_id}.feedback_message"
-                            chapter_output_content[key] = unescape_string(feedback_value)
-                        elif isinstance(feedback_value, list):
-                            for j, line in enumerate(feedback_value, 1):
-                                key = f"reward.{reward_id}.feedback_message{j}"
-                                chapter_output_content[key] = unescape_string(str(line))
+                    # 复用通用函数提取 feedback_message
+                    extract_feedback_message(reward, reward_id, chapter_output_content)
 
             if not chapter_output_content: continue
 
@@ -447,6 +444,76 @@ def process_chapter_quests(chapters_dir, chapters_lang_data, quests_data, tasks_
 
         except Exception as e:
             print(f"  -> 处理文件 {filename} 时发生错误: {e}")
+
+
+def extract_feedback_message(item_dict, item_id, output_dict, prefix="reward"):
+    """
+    提取 feedback_message 的通用函数，复用现有逻辑。
+    """
+    if 'feedback_message' in item_dict:
+        feedback_value = item_dict['feedback_message']
+        if isinstance(feedback_value, str):
+            key = f"{prefix}.{item_id}.feedback_message"
+            output_dict[key] = unescape_string(feedback_value)
+        elif isinstance(feedback_value, list):
+            for j, line in enumerate(feedback_value, 1):
+                key = f"{prefix}.{item_id}.feedback_message{j}"
+                output_dict[key] = unescape_string(str(line))
+
+
+def process_reward_tables(reward_tables_dir, output_dir):
+    """
+    处理奖励表文件，提取其中的翻译文本。
+    复用现有函数以减少代码重复。
+    """
+    if not os.path.isdir(reward_tables_dir):
+        return
+
+    print("\n--- 开始处理奖励表文件以导出相关语言条目 ---")
+
+    for filename in os.listdir(reward_tables_dir):
+        if not filename.endswith('.snbt'): 
+            continue
+        
+        reward_table_path = os.path.join(reward_tables_dir, filename)
+        try:
+            with open(reward_table_path, 'r', encoding='utf-8') as f:
+                reward_table_data = snbtlib.loads(f.read())
+
+            reward_table_id = reward_table_data.get('id')
+            if not reward_table_id: 
+                continue
+
+            reward_table_output_content = OrderedDict()
+
+            # 提取 loot_crate.item_name
+            loot_crate = reward_table_data.get('loot_crate')
+            if isinstance(loot_crate, dict) and 'item_name' in loot_crate:
+                key = f"reward_table.{reward_table_id}.loot_crate.item_name"
+                reward_table_output_content[key] = unescape_string(str(loot_crate['item_name']))
+
+            # 处理 rewards 列表
+            rewards_list = reward_table_data.get('rewards')
+            if isinstance(rewards_list, list):
+                # 复用现有函数处理 components
+                process_item_list_for_components(rewards_list, 'reward_table_rewards', reward_table_output_content)
+                
+                # 复用新的通用函数处理 feedback_message
+                for reward in rewards_list:
+                    if isinstance(reward, dict) and 'id' in reward:
+                        extract_feedback_message(reward, reward['id'], reward_table_output_content, 'reward_table_rewards')
+
+            if reward_table_output_content:
+                cleaned_filename = filename.removesuffix(".snbt")
+                output_filename = f"en_us_reward_table_{cleaned_filename}.json"
+                output_path = os.path.join(output_dir, output_filename)
+                
+                with open(output_path, 'w', encoding='utf-8') as f:
+                    json.dump(reward_table_output_content, f, ensure_ascii=False, indent=4)
+                print(f"  -> 成功导出 {len(reward_table_output_content)} 条奖励表语言条目到: {output_path}")
+
+        except Exception as e:
+            print(f"  -> 处理奖励表文件 {filename} 时发生错误: {e}")
 
 
 def update_chapter_files_with_components(component_data, input_chapters_dir, output_chapters_dir):
@@ -617,6 +684,120 @@ def update_chapter_files_with_components(component_data, input_chapters_dir, out
     if remaining_ids:
         print(f"警告：在任何章节文件中都找不到以下 {len(remaining_ids)} 个物品ID：{', '.join(remaining_ids)}")
 
+def parse_component_data(component_data, pattern, prefix_map):
+    """
+    解析组件数据的通用函数，减少代码重复。
+    """
+    mods_by_id = {}
+    feedback_mods_by_id = {}
+    
+    for key, value in component_data.items():
+        match = pattern.match(key)
+        if match:
+            item_id = match.group(1)
+            field_type = match.group(2)
+            
+            if field_type == 'custom_name':
+                mods_by_id.setdefault(item_id, {})['name'] = value
+            elif field_type.startswith('lore'):
+                lore_index = int(match.group(3)) if match.group(3) else 1
+                mods_by_id.setdefault(item_id, {}).setdefault('lore', []).append((lore_index, value))
+            elif field_type.startswith('feedback_message'):
+                feedback_index = int(match.group(4)) if match.group(4) else 0
+                feedback_mods_by_id.setdefault(item_id, []).append((feedback_index, value))
+    
+    # 排序多行文本
+    for item_id in mods_by_id:
+        if 'lore' in mods_by_id[item_id]:
+            mods_by_id[item_id]['lore'].sort(key=lambda x: x[0])
+            mods_by_id[item_id]['lore'] = [v for _, v in mods_by_id[item_id]['lore']]
+    
+    for item_id in feedback_mods_by_id:
+        feedback_mods_by_id[item_id].sort(key=lambda x: x[0])
+        feedback_mods_by_id[item_id] = [v for _, v in feedback_mods_by_id[item_id]]
+    
+    return mods_by_id, feedback_mods_by_id
+
+
+def update_item_with_components_and_feedback(item_dict, item_id, comp_mods, feedback_mods, file_was_modified):
+    """
+    更新单个物品的 components 和 feedback_message 的通用函数。
+    """
+    # 更新 components
+    if item_id in comp_mods:
+        modifications = comp_mods[item_id]
+        if 'components' in item_dict:
+            if 'name' in modifications:
+                item_dict['components'][String('minecraft:custom_name')] = String(modifications['name'])
+                file_was_modified[0] = True
+            if 'lore' in modifications:
+                item_dict['components'][String('minecraft:lore')] = List([String(line) for line in modifications['lore']])
+                file_was_modified[0] = True
+    
+    # 更新 feedback_message
+    if item_id in feedback_mods:
+        lines = feedback_mods[item_id]
+        if len(lines) > 1:
+            item_dict['feedback_message'] = List([String(line) for line in lines])
+        else:
+            item_dict['feedback_message'] = String(lines[0])
+        file_was_modified[0] = True
+
+
+def update_reward_table_files_with_components(component_data, input_reward_tables_dir, output_reward_tables_dir):
+    """
+    将来自JSON的翻译更新回奖励表SNBT文件。
+    使用通用函数减少代码重复。
+    """
+    if not component_data or not os.path.isdir(input_reward_tables_dir):
+        return
+
+    print("\n--- 开始将内嵌文本更新到奖励表 SNBT 文件 ---")
+    os.makedirs(output_reward_tables_dir, exist_ok=True)
+
+    # 使用通用函数解析数据
+    reward_table_pattern = re.compile(r'^reward_table_rewards\.([0-9A-F]+)\.(custom_name|lore(\d+)|feedback_message(\d*))$')
+    reward_table_mods_by_id, reward_table_feedback_mods_by_id = parse_component_data(
+        component_data, reward_table_pattern, {}
+    )
+
+    # 更新奖励表文件
+    modified_files_count = 0
+    for filename in os.listdir(input_reward_tables_dir):
+        if not filename.endswith('.snbt'): 
+            continue
+
+        input_file_path = os.path.join(input_reward_tables_dir, filename)
+        try:
+            with open(input_file_path, 'r', encoding='utf-8') as f:
+                snbt_data = snbtlib.loads(f.read())
+
+            file_was_modified = [False]
+
+            # 处理 rewards 列表
+            rewards_list = snbt_data.get('rewards')
+            if isinstance(rewards_list, list):
+                for reward_item in rewards_list:
+                    if isinstance(reward_item, dict) and 'id' in reward_item:
+                        item_id = reward_item['id']
+                        update_item_with_components_and_feedback(
+                            reward_item, item_id, reward_table_mods_by_id, 
+                            reward_table_feedback_mods_by_id, file_was_modified
+                        )
+
+            if file_was_modified[0]:
+                snbt_output_string = snbtlib.dumps(snbt_data)
+                output_file_path = os.path.join(output_reward_tables_dir, filename)
+                with open(output_file_path, 'w', encoding='utf-8') as f:
+                    f.write(snbt_output_string)
+                print(f"  -> 已将更新后的 {filename} 写入到: {output_file_path}")
+                modified_files_count += 1
+
+        except Exception as e:
+            print(f"  -> 更新奖励表文件 {filename} 时出错: {e}")
+
+    print(f"奖励表更新完成。共修改了 {modified_files_count} 个文件。")
+
 
 def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, output_chapters_dir: str):
     """
@@ -652,7 +833,8 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
     embedded_key_pattern = re.compile(
         r'^(tasks|rewards)\.[0-9A-F]+\.(custom_name|lore\d+)|'
         r'chapter\.[0-9A-F]+\.image\.\d+\.hover\d*|'
-        r'reward\.[0-9A-F]+\.feedback_message\d*$'
+        r'reward\.[0-9A-F]+\.feedback_message\d*|'
+        r'reward_table_rewards\.[0-9A-F]+\.(custom_name|lore\d+|feedback_message\d*)$'
     )
     for key, value in combined_data.items():
         if chapters_dir and embedded_key_pattern.match(key):
@@ -663,6 +845,12 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
     # 更新章节 SNBT 文件（如果需要）
     if chapters_dir and embedded_data:
         update_chapter_files_with_components(embedded_data, chapters_dir, output_chapters_dir)
+    
+    # 更新奖励表 SNBT 文件（如果存在）
+    if chapters_dir:
+        reward_tables_dir = os.path.join(os.path.dirname(chapters_dir), "reward_tables")
+        if os.path.isdir(reward_tables_dir) and embedded_data:
+            update_reward_table_files_with_components(embedded_data, reward_tables_dir, "modified_reward_tables")
 
     print("\n开始重构多行文本条目...")
 
