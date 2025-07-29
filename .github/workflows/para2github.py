@@ -178,18 +178,35 @@ def main() -> None:
         output_snbt_file = 'CNPack/config/ftbquests/quests/lang/zh_cn.snbt'
 
         # 新增 chapters 目录的定义
+        # 新增 chapters 目录的定义
         source_chapters_dir = 'Source/config/ftbquests/quests/chapters'
         output_chapters_dir = 'CNPack/config/ftbquests/quests/chapters'
+        
+        # 新增 reward_tables 目录的定义
+        source_reward_tables_dir = 'Source/config/ftbquests/quests/reward_tables'
+        output_reward_tables_dir = 'CNPack/config/ftbquests/quests/reward_tables'
 
         # 直接调用从 LangSpliter 导入的函数，并传入所有必需的参数
-        if os.path.isdir(source_chapters_dir):
-            print(f"检测到章节目录，将启用 custom_name/lore 更新功能...")
-            merge_all_to_snbt(json_dir, output_snbt_file, source_chapters_dir, output_chapters_dir)
+        chapters_exists = os.path.isdir(source_chapters_dir)
+        reward_tables_exists = os.path.isdir(source_reward_tables_dir)
+        
+        if chapters_exists or reward_tables_exists:
+            if chapters_exists:
+                print(f"检测到章节目录，将启用 custom_name/lore 更新功能...")
+            if reward_tables_exists:
+                print(f"检测到奖励表目录，将启用奖励表 custom_name/lore 更新功能...")
+            
+            merge_all_to_snbt(
+                json_dir, 
+                output_snbt_file, 
+                source_chapters_dir if chapters_exists else "", 
+                output_chapters_dir if chapters_exists else "",
+                source_reward_tables_dir if reward_tables_exists else "",
+                output_reward_tables_dir if reward_tables_exists else ""
+            )
         else:
-            print(f"未检测到章节目录 {source_chapters_dir}，将禁用 custom_name/lore 更新功能...")
-
-            # 如果源目录不存在，传入空字符串或None来禁用功能
-            merge_all_to_snbt(json_dir, output_snbt_file, "", "")
+            print(f"未检测到章节目录或奖励表目录，将禁用 custom_name/lore 更新功能...")
+            merge_all_to_snbt(json_dir, output_snbt_file, "", "", "", "")
 
        # 合并完成后，清除已合并的临时JSON文件所在的父目录
         cleanup_dir = ftb_quests_lang_dir.parent
