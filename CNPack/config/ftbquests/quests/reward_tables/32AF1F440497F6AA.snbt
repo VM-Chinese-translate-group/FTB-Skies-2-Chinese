@@ -1,0 +1,327 @@
+{
+	icon: {
+		id: "minecraft:diamond_pickaxe"
+	}
+	id: "32AF1F440497F6AA"
+	loot_crate: {
+		color: 11184810
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Random Tool Chest"
+		string_id: "random_tool_chest"
+	}
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			id: "45C390B3DCB759CF"
+			item: {
+				count: 1
+				id: "mysticalagriculture:diamond_scythe"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "47705C6AE07BC640"
+			item: {
+				count: 1
+				id: "justdirethings:ferricore_pickaxe"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "11CC41563580A9F0"
+			item: {
+				count: 1
+				id: "justdirethings:ferricore_shovel"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "3AE5B239B896B269"
+			item: {
+				count: 1
+				id: "justdirethings:ferricore_axe"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "40DCCB6B96DC3902"
+			item: {
+				count: 1
+				id: "justdirethings:celestigem_hoe"
+			}
+		}
+		{
+			id: "69DDDE09E21675C3"
+			item: {
+				count: 1
+				id: "justdirethings:blazegold_hoe"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "0126A6FF848BAA28"
+			item: {
+				count: 1
+				id: "justdirethings:blazegold_axe"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "29167FAB2C07DC78"
+			item: {
+				count: 1
+				id: "justdirethings:blazegold_shovel"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "15BB5A93E6FAC5F7"
+			item: {
+				count: 1
+				id: "justdirethings:blazegold_pickaxe"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "3B0C41002BB90900"
+			item: {
+				count: 1
+				id: "justdirethings:ferricore_hoe"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "73337B77F08F392B"
+			item: {
+				count: 1
+				id: "apothic_enchanting:improved_scrap_tome"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "79C17145C7504786"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:efficiency": 3
+							"minecraft:fortune": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "08C79D7D2ABDF632"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:fortune": 1
+							"minecraft:unbreaking": 3
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "2F2F3CEFD323AE9B"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:efficiency": 4
+							"minecraft:silk_touch": 1
+							"minecraft:unbreaking": 3
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "107BCE015D8A003C"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"apothic_enchanting:boon_of_the_earth": 4
+							"apothic_enchanting:miners_fervor": 3
+							"minecraft:silk_touch": 1
+							"minecraft:unbreaking": 7
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "67802FB2782029E5"
+			item: {
+				count: 1
+				id: "minecraft:diamond_pickaxe"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "29CF90DD33296EAC"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"apothic_enchanting:life_mending": 1
+							"minecraft:lure": 4
+							"minecraft:unbreaking": 5
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "313CC307B22D604D"
+			item: {
+				count: 1
+				id: "fargostalismans:pickaxe_talisman"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "6EEE9FADADE162D5"
+			item: {
+				count: 1
+				id: "mekanismtools:diamond_paxel"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "31E786CB2D0D76A3"
+			item: {
+				count: 1
+				id: "mekanismtools:osmium_paxel"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "473A609E81C45B82"
+			item: {
+				count: 1
+				id: "mekanismtools:steel_paxel"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "7B0AC6A2645770AC"
+			item: {
+				count: 1
+				id: "ae2:fluix_pickaxe"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "1533120699C3D53B"
+			item: {
+				count: 1
+				id: "mekanism:atomic_disassembler"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "1B5402E64BDA7AED"
+			item: {
+				components: {
+					"mekanism:chemicals": {
+						chemical_tanks: [{
+							amount: 24000L
+							id: "mekanism:hydrogen"
+						}]
+					}
+				}
+				count: 1
+				id: "mekanism:flamethrower"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "1C20B9C42D53ADE7"
+			item: {
+				count: 1
+				id: "minecraft:netherite_upgrade_smithing_template"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "68CBA39F44840493"
+			item: {
+				count: 1
+				id: "justdirethings:portalgun"
+			}
+		}
+		{
+			id: "165124D5E9260BD4"
+			item: {
+				count: 1
+				id: "toolbelt:pouch"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "30363876FB06B008"
+			item: {
+				count: 1
+				id: "toolbelt:belt"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "3A4DC3B684FA02AF"
+			item: {
+				count: 1
+				id: "buildinggadgets2:gadget_building"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "40F315E4279EF4E8"
+			item: {
+				count: 1
+				id: "buildinggadgets2:gadget_copy_paste"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "43254692979FA3CC"
+			item: {
+				count: 1
+				id: "modern_industrialization:steam_mining_drill"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "03D7EC8CAD799984"
+			item: {
+				count: 1
+				id: "fargostalismans:architect_talisman"
+			}
+		}
+	]
+	use_title: true
+}

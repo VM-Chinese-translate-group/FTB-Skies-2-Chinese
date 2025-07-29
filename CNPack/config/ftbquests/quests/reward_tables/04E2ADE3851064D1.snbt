@@ -15,7 +15,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Box of Magical Goods"
+		item_name: "Box of Magical Goods"
 		string_id: "magic_bundle"
 	}
 	loot_size: 1
