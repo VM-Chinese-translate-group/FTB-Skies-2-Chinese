@@ -374,8 +374,14 @@ def process_reward_tables(reward_tables_dir, output_dir):
             if not table_id: continue
             
             # 提取 fallback_message（复用逻辑）
+            # 提取 fallback_message（复用逻辑）
             before_count = len(reward_tables_content)
             extract_text_field(reward_table_data, 'fallback_message', f"reward_table.{table_id}.fallback_message", reward_tables_content)
+            
+            # 提取 loot_crate.item_name
+            if 'loot_crate' in reward_table_data and isinstance(reward_table_data['loot_crate'], dict):
+                loot_crate = reward_table_data['loot_crate']
+                extract_text_field(loot_crate, 'item_name', f"reward_table.{table_id}.loot_crate.item_name", reward_tables_content)
             
             # 处理 rewards 列表
             rewards_list = reward_table_data.get('rewards', [])
@@ -383,11 +389,12 @@ def process_reward_tables(reward_tables_dir, output_dir):
                 # 处理 components（复用现有函数）
                 process_item_list_for_components(rewards_list, f'reward_table.{table_id}', reward_tables_content)
                 
-                # 处理 item_name（复用逻辑）
+                # 处理 item_name 和 feedback_message（复用逻辑）
                 for reward_item in rewards_list:
                     if isinstance(reward_item, dict) and 'id' in reward_item:
                         item_id = reward_item['id']
                         extract_text_field(reward_item, 'item_name', f"reward_table.{table_id}.{item_id}.item_name", reward_tables_content)
+                        extract_text_field(reward_item, 'feedback_message', f"reward_table.{table_id}.{item_id}.feedback_message", reward_tables_content)
             
             component_count += len(reward_tables_content) - before_count
             
@@ -550,10 +557,26 @@ def parse_and_sort_multiline_data(component_data, patterns):
             continue
         
         # 处理 item_name
+        # 处理 item_name
         item_name_match = patterns['item_name'].match(key)
         if item_name_match:
             table_id, item_id, num = item_name_match.groups()
             parsed_data.setdefault('item_name', {}).setdefault(table_id, {}).setdefault(item_id, []).append((int(num) if num else 0, value))
+            continue
+        
+        # 处理 feedback_message
+        # 处理 feedback_message
+        feedback_match = patterns['feedback'].match(key)
+        if feedback_match:
+            table_id, item_id, num = feedback_match.groups()
+            parsed_data.setdefault('feedback', {}).setdefault(table_id, {}).setdefault(item_id, []).append((int(num) if num else 0, value))
+            continue
+        
+        # 处理 loot_crate.item_name
+        loot_crate_match = patterns['loot_crate_item_name'].match(key)
+        if loot_crate_match:
+            table_id, num = loot_crate_match.groups()
+            parsed_data.setdefault('loot_crate_item_name', {}).setdefault(table_id, []).append((int(num) if num else 0, value))
     
     # 对所有多行文本进行排序
     def sort_multiline_values(data):
@@ -590,9 +613,12 @@ def update_reward_tables_with_components(component_data, input_reward_tables_dir
 
     # 定义解析模式（处理所有需要回填到SNBT的组件）
     patterns = {
+    patterns = {
         'components': re.compile(r'^reward_table\.([0-9A-F]+)\.([0-9A-F]+)\.(custom_name|lore\d+)$'),
         'fallback': re.compile(r'^reward_table\.([0-9A-F]+)\.fallback_message(\d*)$'),
-        'item_name': re.compile(r'^reward_table\.([0-9A-F]+)\.([0-9A-F]+)\.item_name(\d*)$')
+        'item_name': re.compile(r'^reward_table\.([0-9A-F]+)\.([0-9A-F]+)\.item_name(\d*)$'),
+        'feedback': re.compile(r'^reward_table\.([0-9A-F]+)\.([0-9A-F]+)\.feedback_message(\d*)$'),
+        'loot_crate_item_name': re.compile(r'^reward_table\.([0-9A-F]+)\.loot_crate\.item_name(\d*)$')
     }
     
     parsed_data = parse_and_sort_multiline_data(component_data, patterns)
@@ -613,9 +639,18 @@ def update_reward_tables_with_components(component_data, input_reward_tables_dir
             file_was_modified = [False]
             
             # 更新 fallback_message（复用更新逻辑）
+            # 更新 fallback_message（复用更新逻辑）
             if 'fallback' in parsed_data and table_id in parsed_data['fallback']:
                 print(f"  -> 正在更新表 {table_id} 的 fallback_message")
                 update_text_field(snbt_data, 'fallback_message', parsed_data['fallback'][table_id], component_data, f'reward_table.{table_id}.fallback_message')
+                file_was_modified[0] = True
+            
+            # 更新 loot_crate.item_name
+            if 'loot_crate_item_name' in parsed_data and table_id in parsed_data['loot_crate_item_name']:
+                print(f"  -> 正在更新表 {table_id} 的 loot_crate.item_name")
+                if 'loot_crate' not in snbt_data:
+                    snbt_data['loot_crate'] = {}
+                update_text_field(snbt_data['loot_crate'], 'item_name', parsed_data['loot_crate_item_name'][table_id], component_data, f'reward_table.{table_id}.loot_crate.item_name')
                 file_was_modified[0] = True
             
             # 更新 components 和 item_name（复用递归更新逻辑）
@@ -636,9 +671,16 @@ def update_reward_tables_with_components(component_data, input_reward_tables_dir
                                 file_was_modified[0] = True
                     
                     # 更新 item_name
+                    # 更新 item_name
                     if 'item_name' in parsed_data and table_id in parsed_data['item_name'] and item_id in parsed_data['item_name'][table_id]:
                         print(f"  -> 正在更新表 {table_id} 物品 {item_id} 的 item_name")
                         update_text_field(data, 'item_name', parsed_data['item_name'][table_id][item_id], component_data, f'reward_table.{table_id}.{item_id}.item_name')
+                        file_was_modified[0] = True
+                    
+                    # 更新 feedback_message
+                    if 'feedback' in parsed_data and table_id in parsed_data['feedback'] and item_id in parsed_data['feedback'][table_id]:
+                        print(f"  -> 正在更新表 {table_id} 物品 {item_id} 的 feedback_message")
+                        update_text_field(data, 'feedback_message', parsed_data['feedback'][table_id][item_id], component_data, f'reward_table.{table_id}.{item_id}.feedback_message')
                         file_was_modified[0] = True
                 
                 # 递归处理
@@ -875,9 +917,12 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
     )
     
     # 匹配奖励表相关的内嵌键（包含所有需要回填到SNBT文件的组件）
+    # 匹配奖励表相关的内嵌键（包含所有需要回填到SNBT文件的组件）
+    # 匹配奖励表相关的内嵌键（包含所有需要回填到SNBT文件的组件）
     reward_table_embedded_key_pattern = re.compile(
-        r'^reward_table\.[0-9A-F]+\.[0-9A-F]+\.(custom_name|lore\d+|item_name\d*)$|'
-        r'^reward_table\.[0-9A-F]+\.fallback_message\d*$'
+        r'^reward_table\.[0-9A-F]+\.[0-9A-F]+\.(custom_name|lore\d+|item_name\d*|feedback_message\d*)$|'
+        r'^reward_table\.[0-9A-F]+\.fallback_message\d*$|'
+        r'^reward_table\.[0-9A-F]+\.loot_crate\.item_name\d*$'
     )
     
     for key, value in combined_data.items():
