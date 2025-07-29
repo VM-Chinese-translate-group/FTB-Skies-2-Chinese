@@ -421,7 +421,7 @@
 	]
 	quest.03837E8A75948DE5.quest_subtitle: "“怎么又是这破事” - AlfredGG"
 	quest.03837E8A75948DE5.title: "&f老方法"
-	quest.0385764FC547BCC9.quest_desc: ["&7&oRandomly gain Mekanism installers up to a tier."]
+	quest.0385764FC547BCC9.quest_desc: ["&7&o随机获得一个通用机械的工厂安装器，用于升级机器"]
 	quest.0385764FC547BCC9.title: "&a通用机械工厂安装器奖励包"
 	quest.038C26F86776F520.quest_desc: [
 		"&b天空村庄&r的空岛上散布着许多前期极为稀有的资源，比如&2绿宝石&r、&d紫水晶&r，以及一些特殊的模组材料，如&5灵魂石&r。"
@@ -1373,7 +1373,7 @@
 		"&a装配IO单元&r控制配方的输入和输出。必须在面积为3x3的区域内拥有箱子和装配平台之类的空存储空间。"
 	]
 	quest.0B9781072E9E935C.title: "&f装配线"
-	quest.0BA2B0E5F57A6FC8.quest_desc: ["&7&oRandomly gain some genetic data."]
+	quest.0BA2B0E5F57A6FC8.quest_desc: ["&7&o随机获得一些基因数据"]
 	quest.0BA2B0E5F57A6FC8.title: "&b基因库奖励包"
 	quest.0BA61DBFC36F585E.quest_desc: ["&6魔王碎矿者&r的功能与其他所有的&b碎矿者&r相同，但它的产出量是六倍。"]
 	quest.0BA61DBFC36F585E.title: "&6魔王碎矿者"
@@ -1511,7 +1511,7 @@
 		"小提示：&d魔灵同调水晶&r在搭建附魔台时很有用！"
 	]
 	quest.0D0892AD0DB44795.title: "&f魔灵同调宝石"
-	quest.0D140D95D0537559.quest_desc: ["&7&oRandomly gain a Mystical Aggriculture Essence."]
+	quest.0D140D95D0537559.quest_desc: ["&7&o随机获得一个神秘农业精华"]
 	quest.0D140D95D0537559.title: "&b精华奖励包"
 	quest.0D35D0D33922A201.quest_desc: [
 		"传送门可通过JEI中的对应配方合成。制作完成后，右击方块即可激活传送门，同时做好战斗准备吧！敌人将蜂拥而出，等待你去消灭。"
@@ -1535,12 +1535,12 @@
 	quest.0D7A828100775AE9.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
-		"&7&o- 2x Factory Gauge"
-		"&7&o- Rotation Speed Controller"
-		"&7&o- Mechanical Arm"
-		"&7&o- Deployer"
-		"&7&o- Wand of Symmetry"
-		"&7&o- Extendo Grip"
+		"&7&o- 2x 工厂仪表"
+		"&7&o- 转速控制器"
+		"&7&o- 动力臂"
+		"&7&o- 机械手"
+		"&7&o- 对称之杖"
+		"&7&o- 伸缩机械手"
 	]
 	quest.0D7A828100775AE9.title: "&d机械动力高级奖励包"
 	quest.0D7F5F7A7E41FDF3.quest_desc: [
@@ -1632,12 +1632,12 @@
 	quest.0E11DBABFFAB0FFA.quest_desc: [
 		"现在你可以用&a采石场&r挖出&d钨矿石&r了！"
 		""
-		"先把这种矿粉碎成粉，之后再拆成小撮粉，最后把粉压缩成粒，你就可以合成出&d钨锭&r了！"
+		"先把这种矿粉碎成钨粉，之后再拆成钨粉末，最后把钨粉末压缩成粒，你就可以合成出&d钨锭&r了！"
 	]
 	quest.0E11DBABFFAB0FFA.title: "&d钨锭"
 	quest.0E19151FCABF4759.quest_desc: ["重置运动技能树中已使用的技能点。"]
 	quest.0E19151FCABF4759.title: "&f重置运动技能树"
-	quest.0E201000BADC9B61.quest_desc: ["&7&oRandomly gain a early or midgame tool."]
+	quest.0E201000BADC9B61.quest_desc: ["&7&o随机获得一个游戏前期或中期工具"]
 	quest.0E201000BADC9B61.title: "&b随机工具奖励包"
 	quest.0E610A03BB4007B6.quest_desc: ["消耗个别怪物的掉落物发电。"]
 	quest.0E610A03BB4007B6.title: "&f菌丝网络死灵发电机"
@@ -2018,9 +2018,9 @@
 	quest.125A4B95A5D21B04.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
-		"&7&o- Addon: Speed Tier 1"
-		"&7&o- Addon: Efficiency Tier 1"
-		"&7&o- Addon: Processing Tier 1"
+		"&7&o- 插件：速度 Tier 1"
+		"&7&o- 插件：效率 Tier 1"
+		"&7&o- 插件：加工 Tier 1"
 	]
 	quest.125A4B95A5D21B04.title: "&e工业先锋Tier1插件奖励包"
 	quest.12662BF53A31F0B4.quest_desc: [
@@ -2709,7 +2709,7 @@
 	quest.1A43F480970FEBBB.title: "&5蚀空合金锄"
 	quest.1A4F6C1AC9BD2F42.quest_desc: ["你可以通过让&a发光蜜蜂&r和&a巧克力穴居蜜蜂&r一起繁殖，以制作&c红石蜜蜂&r。"]
 	quest.1A4F6C1AC9BD2F42.title: "&c红石蜜蜂"
-	quest.1A4FFDB9FCD04537.quest_desc: ["&7&oRandomly gain a useful Mystical Aggriculture seed."]
+	quest.1A4FFDB9FCD04537.quest_desc: ["&7&o随机获得一个神秘农业精华种子"]
 	quest.1A4FFDB9FCD04537.title: "&b随机种子奖励包"
 	quest.1A648F49F72639CC.quest_desc: [
 		"&d星光充能仪&r可以使用&5黑夜&r和&d星光充能&r的力量给装备附魔。这种附魔会给材料带来巨大的属性加成。"
@@ -2899,9 +2899,9 @@
 	quest.1BBD09EC32030FEC.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
-		"&7&o- Addon: Speed Tier 2"
-		"&7&o- Addon: Efficiency Tier 2"
-		"&7&o- Addon: Processing Tier 2"
+		"&7&o- 插件：速度 Tier 2"
+		"&7&o- 插件：效率 Tier 2"
+		"&7&o- 插件：加工 Tier 2"
 	]
 	quest.1BBD09EC32030FEC.title: "&b工业先锋Tier2插件奖励包"
 	quest.1BC0E8258FBDBF56.quest_desc: [
@@ -2962,7 +2962,7 @@
 	]
 	quest.1C3DFCB335276952.quest_subtitle: "另一种绿色能源"
 	quest.1C3DFCB335276952.title: "&f想试试看&d核反应堆&f吗？"
-	quest.1C4D453BC0276A08.quest_desc: ["&7&oRandomly gain an assortment of foods."]
+	quest.1C4D453BC0276A08.quest_desc: ["&7&o随机获得各种食物"]
 	quest.1C4D453BC0276A08.title: "&a奶奶的味道"
 	quest.1C62ECB8EDF694BB.quest_subtitle: "砸碎沙子！"
 	quest.1C62ECB8EDF694BB.title: "&f尘土"
@@ -3126,10 +3126,10 @@
 	quest.1D846D3D48C87FC4.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
-		"&7&o- ME Import Bus"
-		"&7&o- ME Export Bus"
-		"&7&o- ME Interface"
-		"&7&o- ME Storage Bus"
+		"&7&o- ME输入总线"
+		"&7&o- ME输出总线"
+		"&7&o- ME接口"
+		"&7&o- ME存储总线"
 	]
 	quest.1D846D3D48C87FC4.title: "&bAE2总线奖励包"
 	quest.1DA78BAB2A6E2C82.quest_desc: [
@@ -3157,9 +3157,9 @@
 	quest.1DC3B817C185BBF4.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
-		"&7&o- 16x Enhanced Energy Conduit"
-		"&7&o- 16x Pressurized Fluid Conduit"
-		"&7&o- 16x Pressurized Chemical Conduit"
+		"&7&o- 16x 强化能量导管"
+		"&7&o- 16x 加压流体导管"
+		"&7&o- 16x 加压化学品导管"
 		"&7&o- 16x 致密ME导管"
 	]
 	quest.1DC3B817C185BBF4.title: "&b末影接口中级导管奖励包"
@@ -3433,7 +3433,7 @@
 	]
 	quest.20B98E676C8CC943.title: "&d憎恶能量"
 	quest.20C91F9D612B52D1.quest_desc: ["一只急需补水干枯恶魂。把它放在水里20分钟，你即可获得一位新朋友！"]
-	quest.20C91F9D612B52D1.quest_subtitle: "A dried ghast awaits rehydration"
+	quest.20C91F9D612B52D1.quest_subtitle: "一只渴望补水的失水恶魂"
 	quest.20C91F9D612B52D1.title: "&e失水恶魂"
 	quest.20DCC194EED4395B.quest_subtitle: "优秀的作战套装"
 	quest.20DCC194EED4395B.title: "&c惊悚南瓜套装"
@@ -3711,8 +3711,8 @@
 	quest.23B6C73FDF8C322A.quest_subtitle: "&c量子化&r的力量"
 	quest.23B6C73FDF8C322A.title: "&3灵魂触摸深暗书架"
 	quest.23C9C45D06917EA9.title: "&a自然&f升级法球"
-	quest.23EFC393FBDD46E6.quest_desc: ["&7&oChoose one Flawed Apotheosis gem."]
-	quest.23EFC393FBDD46E6.title: "&aFlawed Apotheosis Gem Bag"
+	quest.23EFC393FBDD46E6.quest_desc: ["&7&o选择一个有暇神化宝石"]
+	quest.23EFC393FBDD46E6.title: "&a神化有暇宝石奖励包"
 	quest.23FBC0A6DAD10BE1.title: "&b富饶莲叶"
 	quest.23FFD172C3555282.quest_desc: [
 		"&b多方块厨房&r接入&a烤箱&r后，就可使用烟熏炉的烧炼配方，不过烤箱中要有燃料才能运作。"
@@ -3868,11 +3868,11 @@
 	quest.24ED2EE2C33C6E29.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
-		"&7&o- 16x Universal Cable"
-		"&7&o- 16x Mechanical Pipe"
-		"&7&o- 16x Pressurized Tube"
-		"&7&o- 16x Logistical Transporter"
-		"&7&o- 16x Thermodynamic Conductor"
+		"&7&o- 16x 终极通用线缆"
+		"&7&o- 16x 终极机械管道"
+		"&7&o- 16x 终极加压管道"
+		"&7&o- 16x 终极物流管道"
+		"&7&o- 16x 终极热导线缆"
 	]
 	quest.24ED2EE2C33C6E29.title: "&b通用机械管道奖励包"
 	quest.24F17FA24ED466FA.quest_desc: [
@@ -4012,8 +4012,8 @@
 	quest.268CC540E5B605A9.title: "&e获得启迪"
 	quest.269085315AD48F88.quest_subtitle: "+100 最大法力值"
 	quest.269085315AD48F88.title: "&b奥术之戒"
-	quest.2690BA6D29410ECB.quest_desc: ["&7&oA truly divine gift."]
-	quest.2690BA6D29410ECB.title: "&6Queen Bee's Treat"
+	quest.2690BA6D29410ECB.quest_desc: ["&7&o一份神圣的礼物"]
+	quest.2690BA6D29410ECB.title: "&6蜂后的恩赐"
 	quest.26967FC6CE3428BC.quest_desc: [
 		"除了对自然以及自然呵护的了解外，德鲁伊还以其施展的魔法而闻名。"
 		""
@@ -4087,14 +4087,14 @@
 	quest.26E9A55633DF1D07.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
-		"&7&o- Framed Drawer (1x1)"
-		"&7&o- Framed Drawer (1x2)"
-		"&7&o- Framed Drawer (2x2)"
-		"&7&o- Framed Fluid Drawer (1x1)"
-		"&7&o- Framed Fluid Drawer (1x2)"
-		"&7&o- Framed Fluid Drawer (2x2)"
-		"&7&o- Framed Simple Compacting Drawer"
-		"&7&o- Framed Compacting Drawer"
+		"&7&o- 镶框抽屉（1x1）"
+		"&7&o- 镶框抽屉（1x2）"
+		"&7&o- 镶框抽屉（2x2）"
+		"&7&o- 镶框流体抽屉（1x1）"
+		"&7&o- 镶框流体抽屉（1x2）"
+		"&7&o- 镶框流体抽屉（2x2）"
+		"&7&o- 镶框简单压缩抽屉"
+		"&7&o- 镶框压缩抽屉"
 	]
 	quest.26E9A55633DF1D07.title: "&e抽屉奖励包"
 	quest.26EA309139C7C27E.quest_desc: [
@@ -4113,7 +4113,7 @@
 	quest.26ECC091E6B3FA57.title: "&d末地&r&f金属"
 	quest.26F18323EB6EFCA0.quest_desc: ["&b子沙&r方块很适合建造仙人掌或者甘蔗农场。给它输入红石信号还可以提高作物的生长速率。"]
 	quest.26F18323EB6EFCA0.title: "&f子沙"
-	quest.270A67B9066C195D.quest_desc: ["&7&oChoose one Matter tank filled with 64k Matter of a specific type."]
+	quest.270A67B9066C195D.quest_desc: ["&7&o选择一个装有特定物质的64k物质储罐"]
 	quest.270A67B9066C195D.title: "&b物质罐（64k物质）"
 	quest.2722C0E2E8993658.quest_desc: [
 		"这是完整附魔台的核心组件。"
@@ -4257,7 +4257,7 @@
 	quest.28F2A3355DC53049.quest_subtitle: "传奇法术书"
 	quest.28F2A3355DC53049.title: " &d龙鳞法术书&r"
 	quest.28F3F31EA5BA9197.quest_desc: [
-		"你可以将三块无比坚固的锭压缩制作&d防爆混合锭&r。"
+		"你可以将三块无比坚固的锭压缩制作成&d防爆混合锭&r。"
 		""
 		"它们是搭建&d内爆压缩机&r所必须的东西，然后可以更有效地利用资源。"
 	]
@@ -4653,9 +4653,9 @@
 	quest.2D5EE42EABBB295F.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
-		"&7&o- 4x Logic Processor"
-		"&7&o- 4x Caculating Processor"
-		"&7&o- 4x Engineering Processor"
+		"&7&o- 4x 逻辑处理器"
+		"&7&o- 4x 运算处理器"
+		"&7&o- 4x 工程处理器"
 	]
 	quest.2D5EE42EABBB295F.title: "&eAE2处理器奖励包"
 	quest.2D7445BDE865635C.quest_desc: [
@@ -4931,7 +4931,7 @@
 		"&e注意&r：不同的&a钻头&r和阶段会产出不同的矿石，所以最好确保使用正确的钻头来开采你想要的矿物。确保你的输出口容量足以容纳其产出的所有矿石，或者选择使用多个输出口来对矿石进行分类处理！"
 	]
 	quest.2FEC8EC3EB592A03.title: "&f你的第一个&d采石场&f！"
-	quest.2FEF07B495E0331D.quest_desc: ["&7&oRandomly gain items to help with your adventures."]
+	quest.2FEF07B495E0331D.quest_desc: ["&7&o随机获得一个能在冒险时帮上忙的好东西"]
 	quest.2FEF07B495E0331D.title: "&a冒险家奖励包"
 	quest.2FFA4CF8C062AD5E.quest_desc: [
 		"你可以用&a输入&r和&a输出&r总线，将AE网络内的物品输出至外部，或者将外部存储的物品输入AE网络。"
@@ -4941,7 +4941,7 @@
 		"上述的设备可以加装各种&a卡&r，比如能让它受红石控制的卡，只允许特定NBT物品输入（或者模糊）的卡，提升速度的&e加速卡&r，以及提升样板存储容量的&e容量卡&r。"
 	]
 	quest.2FFA4CF8C062AD5E.title: "&f输入/输出总线"
-	quest.2FFE7E2CD655C226.quest_desc: ["&7&oRandomly gain an Iron's Jewelry Artisan Scroll."]
+	quest.2FFE7E2CD655C226.quest_desc: ["&7&o随机获得一个Iron's Jewelry的工匠卷轴"]
 	quest.2FFE7E2CD655C226.title: "&a工匠卷轴奖励包"
 	quest.30053CAD8FABA638.quest_desc: [
 		"这些蜂巢没有生物群系要求。"
@@ -5026,7 +5026,7 @@
 	quest.30CE0A1635346670.title: "&6Meka装备"
 	quest.30D00AC248214D58.quest_desc: ["&3充能合金&r可用于许多合成配方，但主要还是用来合成&a双层电容&r和&d振动合金&r。"]
 	quest.30D00AC248214D58.title: "&3充能合金"
-	quest.3108A2703AD6FA4F.quest_desc: ["&7&oChoose any item dropped from mobs in Fargo's Dungeons."]
+	quest.3108A2703AD6FA4F.quest_desc: ["&7&o选择任意一个Fargo的地牢的怪物的掉落物"]
 	quest.3108A2703AD6FA4F.title: "&bFargo的生物战利品奖励包"
 	quest.3142B7C67CB8EEB3.title: "&aΩ龙蛋"
 	quest.3148FCED5BF543B5.quest_desc: [
@@ -5231,7 +5231,7 @@
 	quest.32920D5D0DD6AC46.quest_desc: [
 		"&d内爆压缩机&r给物品施加的压力比常规压缩机更为巨大，你可以用它将锭或粉转化为&b高爆炸抗性材料&r。"
 		""
-		"以下绝大部分的材料都是发展核科技树要用的。"
+		"其绝大部分产物都是发展核科技要用的。"
 	]
 	quest.32920D5D0DD6AC46.title: "&d内爆压缩机"
 	quest.3292CF62DE4A7A23.quest_desc: [
@@ -5371,14 +5371,14 @@
 	quest.33DCE0CBA0FD02FD.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
-		"&7&o- 8x Andesite Casing"
-		"&7&o- 8x Windmill Sail"
-		"&7&o- 4x Cogwheel"
-		"&7&o- 4x Large Cogwheel"
-		"&7&o- 2x Water Wheel"
-		"&7&o- 2x Large Water Wheel"
-		"&7&o- Depot"
-		"&7&o- Mechanical Belt"
+		"&7&o- 8x 安山机壳"
+		"&7&o- 8x 风帆"
+		"&7&o- 4x 齿轮"
+		"&7&o- 4x 大齿轮"
+		"&7&o- 2x 水车"
+		"&7&o- 2x 大型水车"
+		"&7&o- 置物台"
+		"&7&o- 传送带"
 	]
 	quest.33DCE0CBA0FD02FD.title: "&e机械动力入门奖励包"
 	quest.33E4C81B762892B2.quest_desc: [
@@ -5424,9 +5424,9 @@
 	quest.341C84EC38589562.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
-		"&7&o- 256k Item Disk"
-		"&7&o- 256k Fluid Disk"
-		"&7&o- 2x 128k Checmical Disk"
+		"&7&o- 256k存储磁盘"
+		"&7&o- 16384B流体存储磁盘"
+		"&7&o- 2x 8192B化学品存储磁盘"
 	]
 	quest.341C84EC38589562.title: "&dRS2 256k存储用品奖励包"
 	quest.3424F0E39EB5DFC6.quest_desc: ["在你用&3蒸馏机&r在&a糖溶液&r中获得&2乙醇&r的同时，也许你还可以利用多余的&e硫酸&r和&3乙烯&r制造更多的&2乙醇&r。"]
@@ -5471,8 +5471,8 @@
 	quest.3490E1E29396D066.title: "&a一级&f种子"
 	quest.349143B50076A759.quest_desc: ["每个&d四阶维度存储稳定器&r能增加4096000个物品和512个物品种类，最多支持四个&a稳定器&r。"]
 	quest.349143B50076A759.title: "&d四阶维度存储稳定器"
-	quest.349187B37F1ACE99.quest_desc: ["&7&oChoose one Apotheosis gem."]
-	quest.349187B37F1ACE99.title: "&bApotheosis Gem Bag"
+	quest.349187B37F1ACE99.quest_desc: ["&7&o选择一个神化宝石"]
+	quest.349187B37F1ACE99.title: "&6神化宝石奖励包"
 	quest.34A49E11025231DA.quest_subtitle: "+15% 法术吟唱缩减"
 	quest.34A49E11025231DA.title: "&f速吟之戒"
 	quest.34AB2B41BE99B9F9.quest_desc: [
@@ -5728,7 +5728,7 @@
 	quest.361957009F62D810.quest_subtitle: "哦豁"
 	quest.361957009F62D810.title: "&a移除机器中的气体"
 	quest.361D61EE15801A6E.title: "&d高压柴油发电机"
-	quest.362E2443BBAEDB95.quest_desc: ["&7&oRandomly gain a powerful Relic."]
+	quest.362E2443BBAEDB95.quest_desc: ["&7&o随机获得一个强力的符文"]
 	quest.362E2443BBAEDB95.title: "&b遗物奖励包"
 	quest.366F506F69C65F28.quest_subtitle: "传输物品"
 	quest.366F506F69C65F28.title: "&f物品导管"
@@ -5847,15 +5847,15 @@
 		""
 		"&d热交换机&r是一台可以将流体/物品冷却以制造新物品/流体的多方块机器。"
 		""
-		"你可以用这个回收你的高压水，但它还可以更高效的冷却你的&c热金属锭&r！"
+		"我们可以用它回收高压水，但除此之外，它还可以更高效的冷却你的&c热金属锭&r！"
 		"{@pagebreak}"
-		"把水压缩为高压水会消耗非常多能量，而且&d大型涡轮机&r不会把它们原样输出来，你得用&d热交换机&r才能把高压水变回来。"
+		"把水压缩为高压水会消耗非常多能量，而且&d大型涡轮机&r不会把它们原样输出来。你可以用&d热交换机&r把高压水回收起来，从而重复使用。"
 		""
-		"如果你选择用输入&7蒸汽&r和高压水的配方，它就会输出&7高压蒸汽&r和普通水，而你需要高压蒸汽来发电。"
+		"如果你选择用输入&7蒸汽&r和高压水的配方，它就会输出&7高压蒸汽&r和普通水，其中高压蒸汽可以用来发电。"
 		""
-		"&e注意&r：请谨慎使用配方数量，因为你可能需要更高级别的输入输出仓才能满足配方要求。"
+		"&e注意&r：谨慎设定配方的合成次数，因为你可能需要更高级别的输入仓和输出仓才能满足配方要求。如果合成没有开始，那说明你的仓室太小了。"
 		"{@pagebreak}"
-		"这个机器是3x3x5的多方块，中间部分由特定的外壳构成。一面墙由&c耐热机器外壳&r组成，另一面由&9防冻机器外壳&r组成。物品和流体仓只能放在某些位置，因此请务必使用&a扳手&r帮你放置它们。"
+		"这是一台3x3x5的多方块机器，其墙面的中间部分由特定的外壳构成。一面墙由&c耐热机器外壳&r组成，另一面由&9防冻机器外壳&r组成。物品和流体仓只能放在某些特定位置，因此务必使用&a扳手&r来辅助放置它们。"
 		""
 		"{image:ftb:textures/quests/modern_industrialization/heatexchanger.png width:200 height:150 align:center}"
 	]
@@ -5914,8 +5914,8 @@
 	]
 	quest.381B55C984A8BD33.quest_subtitle: "&o那到底是有多大呢？"
 	quest.381B55C984A8BD33.title: "&b大小&f问题"
-	quest.381E50C068AA6599.quest_desc: ["&7&oChoose one Flawless Apotheosis gem."]
-	quest.381E50C068AA6599.title: "&dFlawless Apotheosis Gem Bag"
+	quest.381E50C068AA6599.quest_desc: ["&7&o选择一个无暇神化宝石"]
+	quest.381E50C068AA6599.title: "&d神化无暇宝石奖励包"
 	quest.38248F3AE03BE9F7.quest_desc: ["&d火灵熔炼工&r的功能与其他所有的&b熔炼工&r相同，但它处理的速度比普通的快90%。"]
 	quest.38248F3AE03BE9F7.title: "&d火灵熔炼工"
 	quest.3830D82DFA731ABA.quest_desc: [
@@ -6571,7 +6571,7 @@
 		"这种物质可塑性强，用途广泛，因而倍受推崇，同时获取难度又远低于预期……多么平衡啊！"
 	]
 	quest.3E25D043676C1CE9.title: "&f黏土"
-	quest.3E2E68B54A985CBF.quest_desc: ["&7&oChoose any item found within chests in Fargo's Dungeons."]
+	quest.3E2E68B54A985CBF.quest_desc: ["&7&o&7&o选择任意一个能从Fargo的地牢的箱子发现的物品"]
 	quest.3E2E68B54A985CBF.title: "&bFargo的地牢战利品奖励包"
 	quest.3E328C7EB939180D.quest_subtitle: "在催化剂上使用黄色染料"
 	quest.3E328C7EB939180D.title: "&f金矿晶母岩"
@@ -7359,7 +7359,7 @@
 	quest.461A01BDC4D4B1BD.title: "&a破坏器"
 	quest.462A47B2E1360AB5.quest_desc: ["除了提供额外的护甲外，&d下界合金潜水服&r在完整穿戴时还能免疫熔岩和火焰伤害。"]
 	quest.462A47B2E1360AB5.title: "&d下界合金潜水套装"
-	quest.4638D7D057A96571.quest_desc: ["&7&oRandomly gain an item to upgrade your basic chests or barrels."]
+	quest.4638D7D057A96571.quest_desc: ["&7&o随机获得一个物品，用于升级你的箱子或木桶"]
 	quest.4638D7D057A96571.title: "&a存储升级包"
 	quest.46437EE07259E498.quest_desc: ["&a复制机外壳&r将&2复制机&r的速度提高了20%，同时增加了10%能耗。"]
 	quest.46437EE07259E498.title: "&f复制机外壳"
@@ -7376,14 +7376,14 @@
 	quest.464D4E5932299825.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
-		"&7&o- 2x Stock Link"
-		"&7&o- 2x Redstone Link"
-		"&7&o- Super Glue"
-		"&7&o- Steam Engine"
-		"&7&o- Mechanical Press"
-		"&7&o- Mechanical Drill"
-		"&7&o- Mechanical Saw"
-		"&7&o- Mechanical Harvester"
+		"&7&o- 2x 仓储链接站"
+		"&7&o- 2x 无线红石信号终端"
+		"&7&o- 强力胶"
+		"&7&o- 蒸汽引擎"
+		"&7&o- 动力冲压机"
+		"&7&o- 动力钻头"
+		"&7&o- 动力锯"
+		"&7&o- 动力收割机"
 		"&7&o- 打包机"
 		"&7&o- 理包机"
 		"&7&o- 货物蛙港"
@@ -7792,20 +7792,20 @@
 		"你当然可以在砧板上用锤子敲打凝灰岩来获取。在此之后你也可以使用&e机械动力&r的粉碎轮来自动粉碎凝灰岩、使用&2GeOres&r模组、制作锌种子、培育&e锌蜜蜂&r、或者投身于&d灵灾&r模组中。说不定你还能使用其他方法，例如矿石生成器和矿工透镜！"
 	]
 	quest.4A7A15ECB8ABDF88.title: "&f锌从哪来？"
-	quest.4AAEFDA74FBE5637.quest_desc: ["&7&oChoose one Perfect Apotheosis gem."]
-	quest.4AAEFDA74FBE5637.quest_subtitle: "Highest Purity Gems"
+	quest.4AAEFDA74FBE5637.quest_desc: ["&7&o选择一个最完美的神化宝石"]
+	quest.4AAEFDA74FBE5637.quest_subtitle: "最纯真的宝石"
 	quest.4AAEFDA74FBE5637.title: "&6神化完美宝石奖励包"
 	quest.4AB10BE58B13DBDD.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
-		"&7&o- 1k ME DISK Drive"
-		"&7&o- 1k ME Item Cell"
-		"&7&o- 1k Ender Item Cell"
-		"&7&o- 1k ME Fluid Cell"
-		"&7&o- 1k ME FE Cell"
-		"&7&o- 1k ME Checmical Cell"
-		"&7&o- 1k ME Source Cell"
-		"&7&o- 1k ME Crafting Storage"
+		"&7&o- 1k ME深度物品存储磁盘驱动器"
+		"&7&o- 1k ME物品存储元件"
+		"&7&o- 1k末影物品存储元件"
+		"&7&o- 1k ME流体存储元件"
+		"&7&o- 1k ME能源存储元件"
+		"&7&o- 1k ME 化学品存储元件"
+		"&7&o- 1k ME魔源存储元件"
+		"&7&o- 1k合成存储器"
 	]
 	quest.4AB10BE58B13DBDD.title: "&eAE2 1k磁盘奖励包"
 	quest.4AB3FD2B686C1F10.quest_desc: [
@@ -7923,18 +7923,18 @@
 	]
 	quest.4B6154D6F9B7C7BF.title: "&f合成站"
 	quest.4B721BE2E2B87A30.quest_desc: [
-		"&7&oChoose one of the following Curio Slots to add to your character:"
+		"&7&o从下面选择一个饰品槽位加入到你的物品栏："
 		""
-		"&7&o- Ars Focus Slot"
-		"&7&o- Head Slot"
-		"&7&o- Necklace Slot"
-		"&7&o- Back Slot"
-		"&7&o- Bracelet Slot"
-		"&7&o- Hands Slot"
-		"&7&o- Ring Slot"
-		"&7&o- Belt Slot"
-		"&7&o- Feet Slot"
-		"&7&o- Charm Slot"
+		"&7&o- 法术核心槽位"
+		"&7&o- 首饰槽位"
+		"&7&o- 项链槽位"
+		"&7&o- 背饰槽位"
+		"&7&o- 手镯槽位"
+		"&7&o- 手饰槽位"
+		"&7&o- 戒指槽位"
+		"&7&o- 腰带槽位"
+		"&7&o- 足部槽位"
+		"&7&o- 护符槽位"
 	]
 	quest.4B721BE2E2B87A30.title: "&6饰品栏奖励包"
 	quest.4B7545530D6055AE.title: "&f荧石粉"
@@ -7983,7 +7983,7 @@
 	quest.4C3F295D0F44A730.quest_desc: [
 		"&d大型蒸汽涡轮机&r会把&7普通蒸汽&r或者&7高压蒸汽&r转化为能量。它生产上限为16384EU/t。"
 		""
-		"但它不会把你的普通/高压水原样返回来，要重新回收高压水你需要用&d热交换机&r。"
+		"然而，它不会把你的普通/高压水原样返回来。要想重新回收高压水，你需要用&d热交换机&r。"
 	]
 	quest.4C3F295D0F44A730.title: "&d大型蒸汽涡轮机"
 	quest.4C466A8B9C76C637.quest_desc: ["放入蜜蜂小食后，蜂巢将吸引蓝色条纹蜜蜂。"]
@@ -8003,11 +8003,11 @@
 	]
 	quest.4C50A70027F208BE.title: "&d开宴时间到"
 	quest.4C6838BED2262721.quest_desc: [
-		"&d不锈钢钻&r可以让你挖出全新的重要矿物！"
+		"&d不锈钢钻&r使你可以挖出非常重要的新矿物！"
 		""
-		"把这些钻头安装到你的&a电动采石场&r，这样你就可以挖出钛、铂、钨之类的矿物。"
+		"只要把这些钻头安装到你的&a电动采石场&r里，你就可以挖出钛、铂、钨之类的矿物。"
 		""
-		"把这些钻头安装在&3石油钻机后&r，你便可以钻探出&6页岩油&r，它将成为你接下来&2石化工业&r中&a蒸馏产物&r的主力军。"
+		"只要把这些钻头安装到&3石油钻机&r里，你便可以钻探出&6页岩油&r。它可以被进一步&a蒸馏&r，从而填补你在&2石化工业&r方面的大部分需求。"
 	]
 	quest.4C6838BED2262721.title: "&d不锈钢钻"
 	quest.4C6F46D9E6095A3F.quest_desc: [
@@ -8101,10 +8101,10 @@
 	quest.4D63D311C8E7CA04.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
-		"&7&o- Importer"
-		"&7&o- Exporter"
-		"&7&o- Interface"
-		"&7&o- External Storage"
+		"&7&o- 输入总线"
+		"&7&o- 输出总线"
+		"&7&o- 物品传输接口"
+		"&7&o- 外部存储总线"
 	]
 	quest.4D63D311C8E7CA04.title: "&bRS2组件奖励包"
 	quest.4D6C3ED87414B7D1.quest_desc: [
@@ -8273,7 +8273,7 @@
 		"&a方块读取器&r能够读取其面前的方块的信息，比如所处维度、坐标、方块名称、&3NBT标签&r，所处生物群系等等。"
 	]
 	quest.4EAB855FDFCD1955.title: "&f读取世界中的信息"
-	quest.4EADC8E110D8C9BA.quest_desc: ["&7&oRandomly gain some starting vanilla resources."]
+	quest.4EADC8E110D8C9BA.quest_desc: ["&7&o随意获得一种原版的前期物资"]
 	quest.4EADC8E110D8C9BA.title: "&a基础资源奖励包"
 	quest.4EAE9F58776D84C8.quest_desc: [
 		"在化学灌注机内将&a三氧化硫&r和&b水蒸气&r组合，就可以产出&e硫酸&r。"
@@ -8353,9 +8353,9 @@
 	quest.4F3CA2DCE719D18A.title: "&6线程撕裂者！"
 	quest.4F5A267B3042E308.title: "&d256k存储组件"
 	quest.4F63F8D79802D6ED.quest_desc: [
-		"&d高压大型蒸汽锅炉&r生产高达2048mB/t的&7蒸汽&r。"
+		"&d高压大型蒸汽锅炉&r可生产高达2048mB/t的&7蒸汽&r。"
 		""
-		"&7高压蒸汽&r的价值是普通蒸汽的8倍，因此每mB将产生8EU/t，而不是1EU/t！"
+		"&7高压蒸汽&r的效能是普通蒸汽的8倍，因此每mb高压蒸汽将产生8EU/t，而不是1EU/t！"
 		""
 		"与别的锅炉一样，它需要连续运行才能达到最大效率。该锅炉只接受&b高压水&r以及&b高压重水&r作为流体输入。"
 	]
@@ -9035,7 +9035,7 @@
 	quest.56A327D4172F3DD6.quest_desc: ["铁筛网是布筛网的固实升级。在升级到金筛网之前，记得先处理掉里面的泥土！"]
 	quest.56A327D4172F3DD6.quest_subtitle: "获得升级"
 	quest.56A327D4172F3DD6.title: "&f机械铁筛网"
-	quest.56B533B5B84145D9.quest_desc: ["&7&oRandomly gain an upgraded furnace."]
+	quest.56B533B5B84145D9.quest_desc: ["&7&o随机获得一种升级版熔炉"]
 	quest.56B533B5B84145D9.title: "&a熔炉升级包"
 	quest.56C6C2E5CA811E21.quest_desc: ["Seems to happen when blight spreads onto stone, but only existing blighted earth gets transformed?"]
 	quest.56C6C2E5CA811E21.quest_subtitle: "stone blight?"
@@ -9393,7 +9393,7 @@
 		"你没想到自己必须在每个时期都分别造一批新机器，对吧？"
 	]
 	quest.5A5D6A90C0999828.title: "&3进阶机器框架"
-	quest.5A7D39C555A4D031.title: "&bSturdy Bee Cage"
+	quest.5A7D39C555A4D031.title: "&b坚固蜜蜂笼"
 	quest.5A818D2F39A6679B.quest_subtitle: "+15% 法术冷却缩减"
 	quest.5A818D2F39A6679B.title: "&a复效之戒"
 	quest.5A8828C63DC87282.quest_desc: [
@@ -9529,7 +9529,7 @@
 		"这个玻璃只在&e白天&r有效，而且上方不能覆盖任何方块。"
 	]
 	quest.5BFA3D0271320E07.title: "&3温室玻璃"
-	quest.5C1347CF318CF239.title: "&dUpgrade: Productivity Omega"
+	quest.5C1347CF318CF239.title: "&d升级：产量ω"
 	quest.5C28750958603F6C.quest_desc: [
 		"&b品质倍率加成&r：x1.5"
 		""
@@ -9920,7 +9920,7 @@
 	quest.6005C20FD96E6711.quest_subtitle: "Time To Get Into The Matrix"
 	quest.6005C20FD96E6711.title: "&fVariable Card"
 	quest.60105BDA4CA76BD6.title: "&c生物神经回路"
-	quest.6021C8B16AAC79A6.quest_desc: ["&7&oChoose one Matter tank filled with 128k Matter of a specific type."]
+	quest.6021C8B16AAC79A6.quest_desc: ["&7&o选择一个装有特定物质的128k物质储罐"]
 	quest.6021C8B16AAC79A6.title: "&d物质罐（128k物质）"
 	quest.603BAFEF92DA275E.quest_desc: [
 		"有了&b活化水晶锭&r和&b活化宝石&r，你可以把钻石盔甲升级成更好的。"
@@ -10407,7 +10407,7 @@
 	quest.6457ADA81A371B20.quest_desc: [
 		"&d增压器&r是一种特殊的多方块机器，可以将水或蒸汽加压成&b高压&r状态，供&d高压大型蒸汽锅炉&r使用。"
 		""
-		"在&d增压器&r上的可选物品输入仓中放置一个&2进气口&r后，&d增压器&r就可以生产出&7液态空气&r。"
+		"在&d增压器&r上的物品输入仓中放置一个&2进气口&r后，&d增压器&r就可以生产出&7液态空气&r。"
 		"{@pagebreak}"
 		"与大多数其他多方块机器不同的是，这台机器的结构是十字形，如下图所示。"
 		""
@@ -10813,7 +10813,7 @@
 	quest.68668718B414B6E4.title: "&6镕铸炉&f排液孔"
 	quest.68778308CBAB4AE3.quest_desc: ["&a外部存储&r可直接访问网络外部的存储容器，如箱子、抽屉、储罐等。"]
 	quest.68778308CBAB4AE3.title: "&a外部存储"
-	quest.6890BFFFE9D4A223.quest_desc: ["&7&oChoose any one Puffish Skill to level up."]
+	quest.6890BFFFE9D4A223.quest_desc: ["&7&o选择任意一个要升级的技能"]
 	quest.6890BFFFE9D4A223.title: "&dPuffish Skills 奖励包"
 	quest.6896CCBC73B09381.title: "&f头盔宝典"
 	quest.68A718B129075CDF.quest_desc: [
@@ -11072,7 +11072,7 @@
 		"&7&o- 16k 化学品存储磁盘"
 	]
 	quest.6BD6FF86A05A7314.title: "&aRS2 16k存储用品奖励包"
-	quest.6BEFA6550FF5EC1F.title: "&bGenetics Overclocker"
+	quest.6BEFA6550FF5EC1F.title: "&b超频器"
 	quest.6C0B018694B279E1.title: "&c金字塔顶层"
 	quest.6C25708068B5197C.quest_desc: [
 		"原版&e砂轮&r会祛下物品&l所有&r附魔并将其转化为经验，而且还无法移除&c诅咒&r。"
@@ -11115,7 +11115,7 @@
 		"你也可以使用&a末影激光器&r充能&d薛定谔的保险柜&r的侧面来指数级增长其储量，最高可达5000倍。"
 	]
 	quest.6C4783132CC50BF0.title: "&d薛定谔保险柜"
-	quest.6C7DF3FF24AB2C86.title: "&bHydroponic Bed"
+	quest.6C7DF3FF24AB2C86.title: "&b水培床"
 	quest.6C7F31673B12795D.quest_desc: [
 		"&d蚀空合金剑&r是这个模组中最强大的剑。"
 		""
@@ -11775,9 +11775,9 @@
 	quest.7380416E70BEAD65.title: "&a亚麻种子"
 	quest.73846333D68F6339.title: "&f马铃薯农场"
 	quest.738BF8D6430694F4.quest_desc: [
-		"在&2电力高炉&r中将&d粗钛矿&r与&e硫酸锰溶液&r一起高温烧炼，以得到&c钛热锭&r。"
+		"在&2电力高炉&r中将&d粗钛矿&r与&e硫酸锰溶液&r一起高温烧炼，你就能得到&c钛热锭&r。"
 		""
-		"用&3真空冷冻机将&r热锭冷却，就能得到&d钛锭&r！"
+		"在&3真空冷却机将&r里将这些热锭冷却就能得到&d钛锭&r！"
 	]
 	quest.738BF8D6430694F4.title: "&d钛锭"
 	quest.739F075AA8F4DA49.quest_desc: [
@@ -12080,10 +12080,10 @@
 	quest.771F1627EAD39DCA.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
-		"&7&o- 256k ME DISK Drive"
-		"&7&o- 256k ME Item Cell"
-		"&7&o- 256k Ender Item Cell"
-		"&7&o- 256k ME Fluid Cell"
+		"&7&o- 256k ME深度物品存储磁盘驱动器"
+		"&7&o- 256k ME物品存储元件"
+		"&7&o- 256k末影物品存储元件"
+		"&7&o- 256k ME流体存储元件"
 		"&7&o- 256k ME能量存储元件"
 		"&7&o- 256k ME化学品存储元件"
 		"&7&o- 256k ME魔源存储元件"
@@ -13082,7 +13082,7 @@
 	reward.6E39028F7E470FCF.title: "1点&b挖掘&r技能点"
 	reward.6E84C01F4D769E8F.title: "神化Boss事件"
 	reward.6ED22F189FEB27E2.title: "+1 魔法技能点"
-	reward.6EF3E2BC5962D2B6.title: "&6Queen Bee's Treat"
+	reward.6EF3E2BC5962D2B6.title: "&6蜂后的恩赐"
 	reward.70B20DBD76B83038.title: "重置防御技能树"
 	reward.72E83AADB4AC2FE1.title: "+1 魔法技能点"
 	reward.76EAB252DC10CAB9.title: "1点&6运动&r技能点"
