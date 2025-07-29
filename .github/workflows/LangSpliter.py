@@ -464,12 +464,15 @@ def extract_feedback_message(item_dict, item_id, output_dict, prefix="reward"):
 def process_reward_tables(reward_tables_dir, output_dir):
     """
     处理奖励表文件，提取其中的翻译文本。
-    复用现有函数以减少代码重复。
+    将所有奖励表文本统一到一个JSON文件中，便于在翻译平台查看。
     """
     if not os.path.isdir(reward_tables_dir):
         return
 
     print("\n--- 开始处理奖励表文件以导出相关语言条目 ---")
+    
+    # 统一收集所有奖励表的翻译文本
+    all_reward_table_content = OrderedDict()
 
     for filename in os.listdir(reward_tables_dir):
         if not filename.endswith('.snbt'): 
@@ -484,36 +487,34 @@ def process_reward_tables(reward_tables_dir, output_dir):
             if not reward_table_id: 
                 continue
 
-            reward_table_output_content = OrderedDict()
-
             # 提取 loot_crate.item_name
             loot_crate = reward_table_data.get('loot_crate')
             if isinstance(loot_crate, dict) and 'item_name' in loot_crate:
                 key = f"reward_table.{reward_table_id}.loot_crate.item_name"
-                reward_table_output_content[key] = unescape_string(str(loot_crate['item_name']))
+                all_reward_table_content[key] = unescape_string(str(loot_crate['item_name']))
 
             # 处理 rewards 列表
             rewards_list = reward_table_data.get('rewards')
             if isinstance(rewards_list, list):
                 # 复用现有函数处理 components
-                process_item_list_for_components(rewards_list, 'reward_table_rewards', reward_table_output_content)
+                process_item_list_for_components(rewards_list, 'reward_table_rewards', all_reward_table_content)
                 
                 # 复用新的通用函数处理 feedback_message
                 for reward in rewards_list:
                     if isinstance(reward, dict) and 'id' in reward:
-                        extract_feedback_message(reward, reward['id'], reward_table_output_content, 'reward_table_rewards')
-
-            if reward_table_output_content:
-                cleaned_filename = filename.removesuffix(".snbt")
-                output_filename = f"en_us_reward_table_{cleaned_filename}.json"
-                output_path = os.path.join(output_dir, output_filename)
-                
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    json.dump(reward_table_output_content, f, ensure_ascii=False, indent=4)
-                print(f"  -> 成功导出 {len(reward_table_output_content)} 条奖励表语言条目到: {output_path}")
+                        extract_feedback_message(reward, reward['id'], all_reward_table_content, 'reward_table_rewards')
 
         except Exception as e:
             print(f"  -> 处理奖励表文件 {filename} 时发生错误: {e}")
+
+    # 将所有奖励表文本写入统一的JSON文件
+    if all_reward_table_content:
+        output_filename = "en_us_reward_tables_all.json"
+        output_path = os.path.join(output_dir, output_filename)
+        
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(all_reward_table_content, f, ensure_ascii=False, indent=4)
+        print(f"  -> 成功导出 {len(all_reward_table_content)} 条奖励表语言条目到: {output_path}")
 
 
 def update_chapter_files_with_components(component_data, input_chapters_dir, output_chapters_dir):
@@ -794,7 +795,7 @@ def update_reward_table_files_with_components(component_data, input_reward_table
                 modified_files_count += 1
 
         except Exception as e:
-            print(f"  -> 更新奖励表文件 {filename} 时出错: {e}")
+            print(f"  -> 更新奖励表文件 {filename} 时发生错误: {e}")
 
     print(f"奖励表更新完成。共修改了 {modified_files_count} 个文件。")
 
@@ -850,7 +851,9 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
     if chapters_dir:
         reward_tables_dir = os.path.join(os.path.dirname(chapters_dir), "reward_tables")
         if os.path.isdir(reward_tables_dir) and embedded_data:
-            update_reward_table_files_with_components(embedded_data, reward_tables_dir, "modified_reward_tables")
+            # 使用与章节文件相同的输出目录结构
+            reward_tables_output_dir = os.path.join(os.path.dirname(output_chapters_dir), "reward_tables")
+            update_reward_table_files_with_components(embedded_data, reward_tables_dir, reward_tables_output_dir)
 
     print("\n开始重构多行文本条目...")
 
