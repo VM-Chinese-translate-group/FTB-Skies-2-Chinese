@@ -387,9 +387,9 @@
 	]
 	quest.0361236BF20549B5.title: "头颅"
 	quest.03629D4D6106A625.quest_desc: [
-		"下一步，你需要将&a氩气&r和一些&2硅粉&r结合起来，烧制成&d单晶硅&r。"
+		"下一步，我们需要将&a氩&r和一些&2硅粉&r结合起来，烧制成&d单晶硅&r。"
 		""
-		"它们可以被切割成&2硅晶圆&r，用于制造高级处理配方和&6RAM&r。"
+		"它们可以被切割成&2硅晶圆&r，你可以把这种材料用在更高级的处理配方里，还可以制作&6随机存取存储器&r。"
 	]
 	quest.03629D4D6106A625.title: "&d硅晶圆"
 	quest.036C11AC70835846.quest_desc: [
@@ -1162,7 +1162,7 @@
 		""
 		"&7想让鱼钩从生物身上脱落，收起鱼竿即可。"
 	]
-	quest.0A06A270AD88C9D8.title: "&fEnchanter's Fishing Rod"
+	quest.0A06A270AD88C9D8.title: "&f巫师钓鱼竿"
 	quest.0A1FDABEAAA0723B.quest_desc: [
 		"可能是对服务器最友好的升级，&a升级：模拟&r让蜜蜂不用离开蜂箱就能采蜜。"
 		""
@@ -1346,9 +1346,9 @@
 	quest.0B65E6E75D87ED60.quest_desc: ["&a动力活塞&r可以让连接的结构沿一个轴往复移动。"]
 	quest.0B65E6E75D87ED60.title: "&a动力活塞"
 	quest.0B711741F52B5D69.quest_desc: [
-		"&3电解&r纯溶液会析出&b小撮铂粉&r，收集到9撮粉后便可以合成&d铂粉&r。"
+		"现在我们可以&3电解&r纯净硫酸铂溶液，从而析出&b铂粉末&r！收集到9撮粉后，你就可以合成&d铂粉&r了。"
 		""
-		"然后，用&3电力高炉&r焙烧它产出&5铂热锭&r，最后用&3真空冷却机&r或&d热交换机&r冷却它！"
+		"然后，你可以用&3电力高炉&r焙烧它，从而产出&5铂热锭&r，最后用&3真空冷却机&r或&d热交换机&r冷却它！"
 	]
 	quest.0B711741F52B5D69.title: "&d铂锭"
 	quest.0B89C5C624AD9686.quest_desc: ["&2电磁偏振器&r可以将许多物品磁化。它最主要的用处就是制作&a磁化钢杆&r。"]
@@ -1366,11 +1366,11 @@
 	]
 	quest.0B92679772DB0C68.title: "&a前期游戏&b旋转力"
 	quest.0B9781072E9E935C.quest_desc: [
-		"&d装配线&r是一种多方块机器，用于进行需要精密操作的配方。装配台的各部分必须相连，并且需要向&a装配控制器&r通入气压。"
+		"&d装配线&r是一种多方块机器，用于进行需要精密操作的配方。装配线的各部分必须相连，并且需要向&a装配控制器&r通入气压。"
 		""
 		"&a装配控制器&r必须插入&b装配程序&r才能工作，大多数配方都需要&b激光程序&r才能进行。"
 		""
-		"&a装配IO单元&r控制配方的输入和输出。必须在面积为3x3的区域内拥有箱子和装配平台之类的空存储空间。"
+		"&a装配交互设备&r控制配方的输入和输出。必须在面积为3x3的区域内拥有箱子和装配平台之类的存储空间。"
 	]
 	quest.0B9781072E9E935C.title: "&f装配线"
 	quest.0BA2B0E5F57A6FC8.quest_desc: ["&7&o随机获得一些基因数据"]
@@ -1436,7 +1436,7 @@
 	quest.0C0E16939C8567C6.quest_desc: ["你也可以通过&d火灵&r的力量修复盔甲和工具"]
 	quest.0C0E16939C8567C6.title: "&d其余修理仪式"
 	quest.0C24D8CD961D86B2.quest_desc: [
-		"[\"With \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" and \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" chalks, you can now upgrade your \", {\"text\": \"Ophynx' Calling\", \"color\": \"#FF5555\"}, \" to \", {\"text\": \"Kandar's Opened Conjure\", \"color\": \"#FF55FF\"}, \".\"]"
+		"[\"有了\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"和\", {\"text\": \"橙色粉笔\", \"color\": \"#FCA645\"}, \"，你现在就能把\", {\"text\": \"欧菲克斯的呼唤\", \"color\": \"#FF5555\"}, \"升级为\", {\"text\": \"坎达尔开环召唤术\", \"color\": \"#FF55FF\"}, \"了。\"]"
 		""
 		"此仪式只能用于召唤&d未约束火灵&r。杀死它可以获得一些火灵灵髓，进而制作出&c红色粉笔&r。"
 		""
@@ -1445,7 +1445,7 @@
 		"火灵灵髓也是完成&5FTB金字塔&r的所需物品。"
 	]
 	quest.0C24D8CD961D86B2.quest_subtitle: "召唤五芒星：级别3"
-	quest.0C24D8CD961D86B2.title: "&cKandar's Opened Conjure"
+	quest.0C24D8CD961D86B2.title: "&c坎达尔开环召唤术"
 	quest.0C259021A652EFCE.quest_desc: [
 		"其他模组也有很多加速作物生长的方式，但这里要说的是神秘农业。神秘农业有两个办法加速作物生长，第一个叫生长加速器。"
 		""
@@ -1666,7 +1666,7 @@
 	]
 	quest.0EBEF0B2D2F13C3D.title: "&e附身仪式"
 	quest.0EC122E853F2083C.quest_desc: [
-		"&d高级压力管道&r可承受20&bBar&r的危险压力，同时瞬时传输容积是压力管道的四倍。当处于25&bBar&r气压时，管道会炸裂！"
+		"&d高级压力管道&r可承受最多20&bBar&r的危险压力，同时瞬时传输容积是压力管道的四倍。当处于25&bBar&r气压时，管道会炸裂！"
 		""
 		"在将管道连接到机器前，请确保机器可以承受增大的体积与压力，或者你可以选择用&b调节器&r替代管道进行连接。"
 	]
@@ -1758,14 +1758,14 @@
 	]
 	quest.0FA81BDE4918C7F7.title: "&6增压柴油"
 	quest.0FC3672189B0854D.quest_desc: [
-		"&cIesnium&r is a rare metal found on some floating islands. The &6Apothecarist&r has some ore on their island as a former denizen of the nether, but a bounty is rumored to lay deep in the &6Nether Castle&r. It can only be mined with the &aInfused Pickaxe&r, or the &cIesnium Pickaxe&r while wearing &aOtherworld Goggles&r."
-		"[\"\", {\"text\": \"Another method could be offering a large amount of silver to...\", \"color\": \"gray\", \"italic\":true}, {\"text\": \"that well\", \"color\": \"dark_purple\", \"italic\":true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"781D7DA09E444B95\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Follow the whispers\"]} }, {\"text\": \"...\", \"color\":\"gray\", \"italic\":true}]"
+		"&c艾瑟金属&r是一种发现于某些浮空岛的稀有金属。&6药剂师&r作为前下界居民来说，它们的岛屿上可能会有一些艾瑟金属，但据说&6下界城堡&r里的艾瑟金属储量最大。它只能被&a灌注镐&r，或是在佩戴&a异界眼镜&r时使用&c艾瑟金属镐&r所开采。"
+		"[\"\", {\"text\": \"另一个获得大量艾瑟金属的办法就是把大量的银投入……\", \"color\": \"gray\", \"italic\":true}, {\"text\": \"那座井中\", \"color\": \"dark_purple\", \"italic\":true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"781D7DA09E444B95\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Follow the whispers\"]} }, {\"text\": \"...\", \"color\":\"gray\", \"italic\":true}]"
 		""
-		"&cIesnium&r ore can be processed like most other ores. You can also place it down, which enables it to be mined with any other pickaxe, dropping &aRaw Iesnium&r."
+		"&c艾瑟金属矿石&r的处理方式和别的矿石一样。你也可以选择把它放下，这种情况下你用任何镐都能直接挖掘它，此时会掉落&a粗艾瑟金属&r。"
 		""
-		"&cIesnium Ingots&r can be used to craft the &cIesnium Pickaxe&r, &cSpirit Lamps&r, or other powerful items."
+		"&c艾瑟金属锭&r可以制造&c艾瑟金属镐&r和&c空神灯&r等有用的物品。"
 		""
-		"Don't forget that you can use a &aDivination Rod&r to highlight nearby ore blocks!"
+		"别忘了你可以用&a探测杖&r来高亮周围的矿石方块！"
 	]
 	quest.0FC3672189B0854D.title: "&c艾瑟金属"
 	quest.0FEE43187F69FA22.quest_desc: [
@@ -1841,7 +1841,7 @@
 		""
 		"&e仅熔炉&r：将合金炉作为熔炉使用。"
 		""
-		"&eAlloying and Smelting&r: This mode will do both alloying and smelting, which can be bad when automating as some items will be smelted before turning into alloys."
+		"&e全部烧炼&r：这个模式下熔炼和合金配方不分离，实现自动化的时候可能会出现一些不该熔炼的材料会被熔炼，不该被做成合金的反而会被做成合金的问题。"
 	]
 	quest.109CB437DFAECDC6.title: "&a合金炉"
 	quest.10AB0C0930A5D77D.title: "&5生命恢复"
@@ -1903,9 +1903,9 @@
 		""
 		"首先，你需要获得&a魔鬼之梦种子&r。比起自己寻找，更推荐直接从&e市场&r购买。"
 		""
-		"While the &6Dictionary of Spirits&r is normally the ultimate guidebook for &eOccultism&r, &6Skies 2&r has had several changes to many of its recipes, so some information may not be accurate."
+		"虽然&6魔灵全典&r在一般情况下都是&e神秘学&r的入门指南，但是&6本整合包&r修改了大量的配方，所以里面的信息可能会不准确。"
 		""
-		"The &6Dictionary of Spirits&r is, however, needed for certain recipes, and can be used to create &bholograms&r to help you build out &dRituals&r!"
+		"但是&6魔灵全典&r在某些配方上是必需品，而且它可以帮你查看&d仪式五芒星&r的&b全息示意图&r！"
 	]
 	quest.10F792474C01A594.title: "&f欢迎游玩&e神秘学&f！"
 	quest.1105D1809EB9ADEF.title: "&e无限压缩电路板"
@@ -2345,7 +2345,7 @@
 	]
 	quest.15D80251D92D6A3C.title: "&f扭曲&d时间"
 	quest.15F655AA668D6541.quest_desc: [
-		"你可以用&d压力室&r制作一些高阶机器所需的组件，比如接下来要做的&a流体混合器&r就需要它。"
+		"你可以用&d压力室&r制作一些高阶机器所需的组件，比如&a流体混合器&r需要的组件。"
 		""
 		"&b流体混合器&r可以混合两种流体来制造一种物品或制造另一种流体。其中一个重要的用途是生产&a生物柴油&r。"
 		""
@@ -2586,14 +2586,14 @@
 		""
 		"灯箱可以将&b空印刷电路板&r暴露在&b紫外线&r下，这是组装印刷电路板的重要工序。"
 		""
-		"你可以在&d压力室&r中制作空印刷电路板！。"
+		"你可以在&d压力室&r中制作空印刷电路板。"
 	]
 	quest.18C8FF073435FB10.quest_subtitle: "一个紫外线灯箱"
 	quest.18C8FF073435FB10.title: "&f制作电路板！"
 	quest.18CD33B0D1C0D3E6.quest_desc: [
 		"&a作物架&r可提升任何种植在上面的树木或作物的生长速度。"
 		""
-		"它们很便宜，而且不需要维护，种田真的很好用！"
+		"它们很便宜，而且不需要维护，真的很适合用来种田！"
 	]
 	quest.18CD33B0D1C0D3E6.title: "&f高速农业！"
 	quest.18E870A4E5F4CE4F.title: "&f钉锤蓝图"
@@ -2601,7 +2601,7 @@
 	quest.190616DB4087BDE9.quest_desc: [
 		"充能时，&2DNA提取器&r可将&a细胞&r加工成未知的&bDNA螺旋&r。"
 		""
-		"When using a &dGenetically Modified Cell&r instead of a regular &aCell&r, it will reveal a stronger &bDNA Helix&r genetic for that specific mob."
+		"当你没有使用普通&a细胞&r，而是使用&d转基因细胞&r时，它的&bDNA螺旋&r会更倾向于那个特定的怪物。"
 	]
 	quest.190616DB4087BDE9.title: "&2DNA提取器"
 	quest.191A3E81D26677F5.quest_desc: [
@@ -2858,7 +2858,7 @@
 		""
 		"它还可以获得一个独特的附魔，使其有几率反弹来自其他巫师的、被格挡的法术。"
 	]
-	quest.1B24A21E96C2C49F.title: "&fEnchanter's Shield"
+	quest.1B24A21E96C2C49F.title: "&f巫师之盾"
 	quest.1B2E6CA3642024B7.quest_desc: ["&a复制器&r可以用来创造已有&b变量&r的副本。"]
 	quest.1B2E6CA3642024B7.quest_subtitle: "复制和粘贴变量"
 	quest.1B2E6CA3642024B7.title: "&f复制器"
@@ -3011,7 +3011,7 @@
 		""
 		"在激活仪式前，往火盆中丢入一枚荒野之角、一片荒野翼膜和一根荒野尖刺，最后空手右击就可以召唤荒野奇美拉了！"
 		""
-		"Good luck!"
+		"祝你好运！"
 	]
 	quest.1CAC300C14A023BB.title: "&f荒野供物"
 	quest.1CB65FAEA9125163.quest_desc: [
@@ -3120,7 +3120,7 @@
 		""
 		"输出模式有多种配置方法：直接、反转、或、与、或非、与非、异或、异非、锁存器、计数器、定时器和静态。其中大部分用于编程，所以如果你不熟悉它们，也不要太担心，因为大概你都可能不会使用其中的大部分。"
 	]
-	quest.1D572D53A6EE3205.quest_desc: ["在&2采石场&r中挖出&a铂矿石&r后，把它粉碎变为&b粗铂&r。"]
+	quest.1D572D53A6EE3205.quest_desc: ["在&2采石场&r中挖出&a铂矿石&r后，我们就可以把它粉碎变为&b粗铂&r。"]
 	quest.1D572D53A6EE3205.title: "&d粗铂"
 	quest.1D6D9CCF4E0072E1.title: "&f金矿块"
 	quest.1D846D3D48C87FC4.quest_desc: [
@@ -3967,7 +3967,7 @@
 	quest.262F5FE957F52F5D.quest_desc: [
 		"&d生物灵魂&r有特殊的属性，你可以用&a空灵魂瓶&r捕捉生物来获得它。通过&d灵魂绑定器&r，灵魂可以被提取并用于制作各种游戏后期的物品。"
 		""
-		"The &dSoul Binder&r consumes liquid experience and a filled &aSoul Vial&r to convert &7Broken Spawners&r or create new empowered items."
+		"&d灵魂绑定器&r消耗经验汁和装满的&a灵魂瓶&r，来转化&7破损的刷怪笼&r的类型或制造注能物品。"
 		""
 		"&e注意&r：&a石英玻璃&r可以在&a合金炉&r中用4个下界石英熔炼出来。"
 	]
@@ -5820,7 +5820,7 @@
 		""
 		"产生的魔源数量由药水制造复杂程度决定，药水效果时间越长等级越高，魔源就产生得越多，而且拥有多个效果的药水会产生多倍魔源。"
 		""
-		"If you're looking to automate this, you should look into making friends with &dWixies&r!"
+		"如果你想自动化这个的话，何不试试和&d薇克精&r打打交道？"
 	]
 	quest.37313F95E939A6F5.title: "&d炼金魔源通道"
 	quest.37330FAD4C596F54.quest_subtitle: "手撕敌人套装"
@@ -6066,12 +6066,12 @@
 	quest.39621D430CCBF307.quest_desc: ["我们需要更强大的电动机来制造更好的机器。这些电动机还能加快管道中的物品传输速度！"]
 	quest.39621D430CCBF307.title: "&6大型进阶泵"
 	quest.3964E9A95D52B0FD.quest_desc: [
-		"The next tier of &bSummoning Pentacle&r is &dTibira's Attraction&r."
+		"下一级别的&b召唤五芒星&r就是&d提比拉引诱术&r"
 		""
 		"此仪式只能用于召唤&d未约束魔王&r。杀死它可以获得一些魔王灵髓，进而制作出&c蓝色粉笔&r。"
 	]
 	quest.3964E9A95D52B0FD.quest_subtitle: "召唤五芒星：级别5"
-	quest.3964E9A95D52B0FD.title: "&dTibira's Attraction"
+	quest.3964E9A95D52B0FD.title: "&d提比拉引诱术"
 	quest.39751E377C0F22EE.quest_desc: [
 		"&a复制终端&r可以显示你的物质网络里的全部&b物质&r和可复制物。"
 		""
@@ -6800,8 +6800,8 @@
 	]
 	quest.40C4ECF69211C872.quest_subtitle: "矿石会生成这个，或者…"
 	quest.40C4ECF69211C872.title: "&f锇精华"
-	quest.40CCB0B7868233CA.quest_desc: ["将你刚得到的&a硫酸铂溶液&r&3离心&r，便可以得到&2纯净硫酸铂溶液&r，处理完后有小概率得到副产物&d小堆铂粉&r。"]
-	quest.40CCB0B7868233CA.title: "&d小堆依粉"
+	quest.40CCB0B7868233CA.quest_desc: ["将你刚得到的&a硫酸铂溶液&r&3离心&r，便可以得到&2纯净硫酸铂溶液&r，还有小概率得到副产物&d铱粉末&r。"]
+	quest.40CCB0B7868233CA.title: "&d铱粉末"
 	quest.40D416328C50C9F4.quest_desc: ["大多数如铜或红石这样的基础矿晶可以通过对&3虚无晶体催化剂&r使用&e染料&r的方式将其转化为特定种类的矿晶母岩方块。"]
 	quest.40D416328C50C9F4.title: "&f基础矿晶"
 	quest.40D4E56DD0876A7D.quest_desc: [
@@ -7503,7 +7503,7 @@
 		""
 		"在傀儡对应的方块旁执行&a启蒙仪式&r，即可召唤并命令它。"
 		""
-		"Note that these golems can harvest all sorts of budding crystals, not just their corresponding type. These golems can either be slain or peacefully &bDispelled&r to drop as charms."
+		"注意，这些傀儡可以收获各种各样的水晶母岩，而不仅仅是它们自己对应的那种。你可以通过杀死它们或&b施放解除魔法法术&r来获得傀儡的护符。"
 	]
 	quest.47C817DA92CE31EA.title: "&e矿晶&d傀儡&f！"
 	quest.47D17EE805F7D88D.quest_desc: ["&6动力压路机&r安装在列车前方，用于清除或铺设路径上的方块。"]
@@ -9382,7 +9382,7 @@
 		""
 		"生产的&d魔源&r会自动输出到半径五格内的&a魔源罐&r。"
 		""
-		"&eNote&r: You cannot bonemeal crops to speed up making Source, but there may be some other ways to speed this up..."
+		"&e注意&r：用骨粉催熟是没法加速产出魔源的，但是也许有某种办法可以有效加速魔源生产……"
 	]
 	quest.5A57DB728220261F.title: "&2农艺魔源通道"
 	quest.5A5D6A90C0999828.quest_desc: [
@@ -10573,11 +10573,11 @@
 	quest.6650640D1CE866F1.quest_desc: [
 		"有没有想过，要是能回到用手挖方块、而不是什么事都用法术解决的时代就好了？"
 		""
-		"Me neither, but that’s an option with the &dEnchanter’s Gauntlet&r! It has the same harvesting level as diamond tools, and can be inscribed with a formless spell that will be cast as &eTouch&r with a mana discount."
+		"反正我没这么想过。&d巫师拳套&r的一个特性能帮你实现这个梦想！它的挖掘能力等同于钻石工具，而且如果在上面刻印一个无形态法术的话，它就会为法术自动加上一个&e触摸&r形态魔符，且施放时还有魔力折扣。"
 		""
-		"&7Perhaps it could be useful for general harvest around the tower, with an Extract spell for those blocks that are more fragile."
+		"&7它说不定很适合收集巫师塔周边的材料，如果是易碎材料的话用魔符：提取就可以了。"
 	]
-	quest.6650640D1CE866F1.title: "&fEnchanter's Gauntlet"
+	quest.6650640D1CE866F1.title: "&f巫师拳套"
 	quest.66545AFE0DEA820F.quest_desc: ["更加黑暗的物品，致更加黑暗的工艺。"]
 	quest.66545AFE0DEA820F.title: "井的回报"
 	quest.665C690EFB275701.quest_subtitle: "5x5的灌溉范围！"
@@ -10609,7 +10609,7 @@
 		"标记还可以设置访问权限：私人、团队或所有人。"
 	]
 	quest.669DCBD04E5C4D5E.title: "&d时间标记"
-	quest.66B66C0C33071D7B.quest_desc: ["在&3化学反应釜&r中将&a粗铂矿&r和&e硫酸&r反应以得到&d硫酸铂溶液&r。"]
+	quest.66B66C0C33071D7B.quest_desc: ["在&3化学反应釜&r中让&a粗铂矿&r和&e硫酸&r反应，我们就可以得到&d硫酸铂溶液&r。"]
 	quest.66B66C0C33071D7B.title: "&d硫酸铂溶液"
 	quest.66BC17A3725601D7.title: "&f番茄农场"
 	quest.66BC4434409F959B.quest_desc: [
@@ -13220,7 +13220,7 @@
 	task.0E8C4E7C9C329FA2.title: "&e观察&f：避雷针"
 	task.0E9F56ED131D460D.title: "充能催化剂"
 	task.0ECBFE9262249011.title: "任意魂染工具"
-	task.0ED7E5C08F734CB3.title: "Refuse to Slay a Golem"
+	task.0ED7E5C08F734CB3.title: "我拒绝把我的傀儡砍死"
 	task.0F323A1897237ED1.title: "召唤一个&c晴天魔灵"
 	task.0FB6B81D9E1E258E.title: "蓝色条纹蜜蜂巢"
 	task.101BA566216C32AD.title: "AE线缆"
@@ -13375,7 +13375,7 @@
 	task.36D4CF12BC70DBDD.title: "&f关于网络的一切！"
 	task.373810705E9367E4.title: "&b五芒星&r已完成"
 	task.3772CB9C1C8A3D66.title: "自动收获精魂？"
-	task.382B98E0543527AB.title: "Oh boy what flavor?"
+	task.382B98E0543527AB.title: "哎呦喂，是什么味的？"
 	task.3839665C66B55FA1.title: "对"
 	task.384B6BCA1FEDF650.title: "&f修理任意工具"
 	task.386D9AA214E6D415.title: "有用的升级"

@@ -1374,7 +1374,7 @@
 					id: "17576F9A34143944"
 					item: {
 						components: {
-							"minecraft:custom_name": "\"Unbreakable Book\""
+							"minecraft:custom_name": "“不毁的书”"
 							"minecraft:repair_cost": 1
 							"minecraft:stored_enchantments": {
 								levels: {
@@ -1639,7 +1639,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/familiar_beaver)item(occultism:ritual_dummy/familiar_deer)item(occultism:ritual_dummy/familiar_greedy)item(occultism:ritual_dummy/familiar_parrot))"
-							"minecraft:custom_name": "\"Hedyrin's Familiars\""
+							"minecraft:custom_name": "“海德林使魔”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1782,7 +1782,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/familiar_bat)item(occultism:ritual_dummy/familiar_beholder)item(occultism:ritual_dummy/familiar_cthulhu)item(occultism:ritual_dummy/familiar_devil)item(occultism:ritual_dummy/familiar_dragon)item(occultism:ritual_dummy/familiar_otherworld_bird)item(occultism:ritual_dummy/familiar_fairy)item(occultism:ritual_dummy/familiar_headless)item(occultism:ritual_dummy/familiar_mummy))"
-							"minecraft:custom_name": "\"Ihagan's Familiars\""
+							"minecraft:custom_name": "“伊哈根使魔”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -3981,7 +3981,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/possess_unbound_otherworld_bird)item(occultism:ritual_dummy/possess_villager)item(occultism:ritual_dummy/possess_random_animal_rideable)item(occultism:ritual_dummy/possess_random_animal_special))"
-							"minecraft:custom_name": "\"Ihagan's Animals\""
+							"minecraft:custom_name": "“伊哈根动物”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4114,7 +4114,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/possess_enderman)item(occultism:ritual_dummy/possess_ghast)item(occultism:ritual_dummy/possess_weak_shulker))"
-							"minecraft:custom_name": "\"Ihagan's Possessions\""
+							"minecraft:custom_name": "“伊哈根魔灵附身”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4203,7 +4203,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/possess_elder_guardian)item(occultism:ritual_dummy/possess_hoglin)item(occultism:ritual_dummy/possess_shulker)item(occultism:ritual_dummy/possess_warden))"
-							"minecraft:custom_name": "\"Abras' Possessions\""
+							"minecraft:custom_name": "“阿巴拉斯魔灵附身”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4291,7 +4291,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/possess_endermite)item(occultism:ritual_dummy/possess_phantom)item(occultism:ritual_dummy/possess_skeleton)item(occultism:ritual_dummy/possess_witch))"
-							"minecraft:custom_name": "\"Hedyrin's Possession Rituals\""
+							"minecraft:custom_name": "“海德林附身仪式”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4415,7 +4415,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/wild_weak_breeze)item(occultism:ritual_dummy/wild_breeze)item(occultism:ritual_dummy/wild_strong_breeze))"
-							"minecraft:custom_name": "\"Trial Summons\""
+							"minecraft:custom_name": "“试炼召唤”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4431,7 +4431,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/wild_hunt)item(occultism:ritual_dummy/wild_horde_illager))"
-							"minecraft:custom_name": "\"Wild Summons\""
+							"minecraft:custom_name": "“荒野召唤”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4447,7 +4447,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/wild_creeper)item(occultism:ritual_dummy/wild_drowned)item(occultism:ritual_dummy/wild_husk)item(occultism:ritual_dummy/wild_silverfish))"
-							"minecraft:custom_name": "\"Horde Summons\""
+							"minecraft:custom_name": "“群聚召唤”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4460,7 +4460,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/wild_random_animal_common)item(occultism:ritual_dummy/wild_random_animal_rideable)item(occultism:ritual_dummy/wild_random_animal_small)item(occultism:ritual_dummy/wild_random_animal_special)item(occultism:ritual_dummy/wild_random_animal_water)item(occultism:ritual_dummy/wild_villager))"
-							"minecraft:custom_name": "\"Group Summons\""
+							"minecraft:custom_name": "“族群召唤”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -4473,7 +4473,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/misc_bee_nest)item(occultism:ritual_dummy/misc_bell)item(occultism:ritual_dummy/misc_budding_amethyst)item(occultism:ritual_dummy/misc_reinforced_deepslate)item(occultism:ritual_dummy/misc_wild_trim))"
-							"minecraft:custom_name": "\"Item Summons\""
+							"minecraft:custom_name": "“物品召唤”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -5044,7 +5044,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/possess_unbound_parrot)item(occultism:ritual_dummy/possess_random_animal_common)item(occultism:ritual_dummy/possess_random_animal_small)item(occultism:ritual_dummy/possess_random_animal_water))"
-							"minecraft:custom_name": "\"Hyderin's Animals\""
+							"minecraft:custom_name": "“海德林动物”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -5396,7 +5396,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/summon_demonic_husband)item(occultism:ritual_dummy/summon_demonic_wife))"
-							"minecraft:custom_name": "\"Demonic Partners\""
+							"minecraft:custom_name": "“恶魔伴侣”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
