@@ -409,7 +409,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(integratedtunnels:part_interface_item)item(integratedtunnels:part_interface_fluid)item(integratedtunnels:part_interface_energy))"
-						"minecraft:custom_name": "\"Interfaces\""
+						"minecraft:custom_name": "“接口”"
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -1590,7 +1590,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(integratedtunnels:part_exporter_energy)item(integratedtunnels:part_exporter_item)item(integratedtunnels:part_exporter_fluid))"
-							"minecraft:custom_name": "\"Exporters\""
+							"minecraft:custom_name": "“输出口”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"

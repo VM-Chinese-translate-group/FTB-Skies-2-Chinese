@@ -3001,7 +3001,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/execute as @s run events force ftb:fairy"
-				feedback_message: "召唤了一个精灵"
+				feedback_message: "召唤了一只小精灵"
 				icon: {
 					components: {
 						"ftbquests:icon": "occultism:textures/gui/book/familiar_fairy.png"
