@@ -138,7 +138,7 @@
   "item.tempad.knowledge_repository_upgrade": "知识库升级",
   "item.tempad.location_broadcaster": "位置广播器",
   "item.tempad.location_card": "位置卡",
-  "item.tempad.location_card.add_location": "右键设置位置",
+  "item.tempad.location_card.add_location": "右击以设置位置",
   "item.tempad.location_card.added_location": "标记点已添加：%s",
   "item.tempad.location_card.created_by": "创建者：%s",
   "item.tempad.location_card.creator_toolip": "由%s创建",
