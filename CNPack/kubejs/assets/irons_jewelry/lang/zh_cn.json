@@ -51,7 +51,7 @@
   "pattern.irons_jewelry.haggler_ring.item": "%2$s议价戒指",
   "pattern.irons_jewelry.bane_ring": "杀戮戒指",
   "pattern.irons_jewelry.bane_ring.item": "%1$s杀戮戒指",
-  "pattern.irons_jewelry.rhinestone_amulet": "劣石护身符",
+  "pattern.irons_jewelry.rhinestone_amulet": "莱因石护身符",
   "pattern.irons_jewelry.rhinestone_amulet.item": "%1$s-%2$s-%3$s莱茵石护身符",
 
   "material.irons_jewelry.iron": "铁",
@@ -109,8 +109,8 @@
   "part.irons_jewelry.gem_rhinestone_c": "莱茵石",
 
   "bonus.irons_jewelry.attribute_bonus": "属性",
-  "bonus.irons_jewelry.effect_on_hit_bonus": "受击效果",
-  "bonus.irons_jewelry.effect_on_hit_bonus.description": "遭受攻击后，获得%s，持续%s秒。",
+  "bonus.irons_jewelry.effect_on_hit_bonus": "命中效果",
+  "bonus.irons_jewelry.effect_on_hit_bonus.description": "攻击命中时，获得%s，持续%s秒。",
   "bonus.irons_jewelry.effect_immunity_bonus": "效果免疫",
   "bonus.irons_jewelry.effect_immunity_bonus.description": "免疫%s状态效果。",
   "bonus.irons_jewelry.piglin_neutral_bonus": "猪灵中立化",
@@ -128,7 +128,7 @@
   "bonus.irons_jewelry.trade_discount_bonus.description.singular": "在与村民交易时，所需交易物品数-%s",
 
   "action.irons_jewelry.apply_effect.name": "施加效果",
-  "action.irons_jewelry.apply_effect.self": "施加%s%s",
+  "action.irons_jewelry.apply_effect.self": "获得%s%s",
   "action.irons_jewelry.apply_effect.entity": "对%s施加%s",
   "action.irons_jewelry.knockback.name": "施加击退",
   "action.irons_jewelry.knockback.push": "击退%s（%sx 强度）",
@@ -157,7 +157,7 @@
 
   "tooltip.irons_jewelry.hold_shift" : "[%s]+",
   "tooltip.irons_jewelry.part_to_material" : "%s：%s",
-  "tooltip.irons_jewelry.quality_multiplier" : "×%s 品质效果加成",
+  "tooltip.irons_jewelry.quality_multiplier" : "品质效果加成 ×%s",
   "tooltip.irons_jewelry.parts_header" : "部件:",
   "tooltip.irons_jewelry.bonus_header" : "效果：",
   "tooltip.irons_jewelry.bonus_header_plural" : "效果：",
@@ -196,7 +196,7 @@
   "damage_type.minecraft.wither": "凋零",
   "damage_type.minecraft.dragon_breath": "龙息",
   "damage_type.minecraft.dry_out": "脱水",
-  "damage_type.minecraft.sweet_berry_bush": "带刺植物",
+  "damage_type.minecraft.sweet_berry_bush": "甜浆果丛",
   "damage_type.minecraft.freeze": "冻伤",
   "damage_type.minecraft.stalagmite": "石笋",
   "damage_type.minecraft.falling_block": "下落的方块",
