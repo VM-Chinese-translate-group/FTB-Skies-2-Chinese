@@ -52,7 +52,7 @@
 		""
 		"在这座巨型建筑结构的顶端，矗立着一座&b船锚&r，其与一位强大的&b风暴之王&r维系着某种神秘联系。与之互动，即可发起挑战。"
 		""
-		"&7&o若击败Boss后，可以在出现的基座上使用&e风暴之眼&7&o来再次召唤她重新挑战。"
+		"&7&o若击败Boss后，可以在出现的基座上使用&e风暴之眼&7&o来再次召唤它重新挑战。"
 	]
 	quest.000F1E507ACDFAAE.title: "&f瞻仰这座&9卫城"
 	quest.0017F48E23512C75.quest_desc: ["[\"你现在可以使用\", {\"text\": \"橙色粉笔\", \"color\": \"#FCA645\"}, \"、\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"和\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"来再次升级现有的\", {\"text\": \"五芒星\", \"color\": \"#55FFFF\"}, \"了。\"]"]
@@ -1119,7 +1119,7 @@
 		""
 		"[\"如果你真的对压印模板感到“\", {\"text\": \"焦头烂额\", \"bold\": true, \"italic\": true}, \"”了，你总可以\", {\"text\": \"从商店召唤商人\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"717C94045F0ADA01\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往商人商店节点\"}}, \"。\"]"
 	]
-	quest.09B3528CF3C615C6.title: "&fA &bCertain Quartz"
+	quest.09B3528CF3C615C6.title: "&b某种&b天外石英"
 	quest.09B6F6758B0EEEC5.quest_desc: [
 		"对&7橡树树苗、白桦树苗或金合欢树苗&r使用一些（可能很多）&e转生粉&r，运气够好的话，你能够得到本模组的&a独特树苗&r。&a山梨树苗&r主要用来制作&e魔力之息&r，其他两种树也有各自的作用。"
 		""
@@ -1563,7 +1563,7 @@
 		""
 		"与一般种子不同，这类种子需要&2灵魂种子基底&r和装满对应怪物精华的&a灵魂瓶&r才能合成。"
 	]
-	quest.0D92EFDB73114B0C.title: "&2二级&f生物种子"
+	quest.0D92EFDB73114B0C.title: "&2Tier 2 &fMob Seeds"
 	quest.0DB5CBE2E76D2FD9.quest_desc: [
 		"如果你在找那种可将万物移入移出的管道的话，那我觉得&ePipez&r模组正合你意。"
 		""
@@ -1572,7 +1572,7 @@
 		"如果想设定一个管道的抽取端，首先你得潜行，朝着想要抽取物品的管道尾端使用&a管道扳手&r。设定完毕后，你还可以用&b管道升级&r来升级管道，比如加快传输速度和过滤物品之类的升级！"
 	]
 	quest.0DB5CBE2E76D2FD9.title: "&ePipez"
-	quest.0DF48D4589272952.title: "&f游玩 &a10 小时"
+	quest.0DF48D4589272952.title: "&f游玩&a10小时"
 	quest.0DF5D2B35FDEE536.quest_desc: [
 		"&eXNET&r是一个物流模组，能够在单个网络中设置最多8种传输频道（能量、物品、流体、气体、化学品等）。"
 		""
@@ -2114,7 +2114,7 @@
 		""
 		"使用&a环形护身符&r、红石粉和一些&6祭坛能量&r可以将圆环压缩进护身符里。在没有祭坛的情况下，使用护身符，萤石粉和协调之石（充能）也可以完成该过程。"
 		""
-		"To put this circle back down, simply right click the inscribed Talisman on the ground in a properly cleared area."
+		"要放下圆环，只需要在适当清理的区域用刻印圆环的护身符右击地面即可。"
 		""
 		""
 		"……&a扫帚&r是用来做什么的？用来利索地扫掉画错地方的符形的，显然如此，没别的用处了……"
@@ -3621,9 +3621,9 @@
 	quest.2315DBE189D330DA.quest_desc: [
 		"末影龙蜜蜂已经干了很多活儿了，但这一切都将得到回报。"
 		""
-		"&6升级：产量ω&r是蜂箱的终极升级，每个升级可以提高260%的产量，且同时具有升级：模拟和升级：蜜脾块的功能，这意味着加装此升级后，蜂箱将直接产出蜜脾块。"
+		"This is the ultimate upgrade for a hive: the &6Upgrade: Productivity Omega&r. This increases productivity by 260% each, and also acts as a Simulator Upgrade AND as a Block Upgrade. Instead of producing just regular combs, you'll get comb blocks instead."
 		""
-		"高玩提示：四个升级：产量比四个升级：速度更好！"
+		"Pro Tip: 4 Productivity Upgrades are better than using speed upgrades at all!"
 	]
 	quest.2315DBE189D330DA.quest_subtitle: "给末影龙蜜蜂放个假吧"
 	quest.2315DBE189D330DA.title: "&e升级：&f产量ω"
@@ -3751,7 +3751,7 @@
 	]
 	quest.24401E59D87AC23A.quest_subtitle: "日耀之力"
 	quest.24401E59D87AC23A.title: "&f你真的需要更多的能量吗？"
-	quest.24445EC4DA6492F1.quest_desc: ["要触发袭击，你得先有不祥之兆效果…传闻说，连人畜无害的流浪商人都会痛下杀手，这样的行径或许足以触怒神明…"]
+	quest.24445EC4DA6492F1.quest_desc: ["要触发袭击，你得先有不祥之兆效果…传闻说若对人畜无害的流浪商人痛下杀手，这样的行径便足以触怒神明…"]
 	quest.24445EC4DA6492F1.quest_subtitle: "为村庄击退一场袭击"
 	quest.24445EC4DA6492F1.title: "&d村庄英雄"
 	quest.2444739C768D6C1A.quest_desc: [
@@ -4516,18 +4516,18 @@
 	]
 	quest.2B8B225CF404A351.title: "&f附魔器"
 	quest.2BA10689E508FACC.quest_desc: [
-		"&d嗅探蛋&r可以在暖水海洋生物群系的废墟遗迹内，通过&6刷扫可疑的沙子&r概率获得。不过，在虚空中是无法这样操作的。"
+		"&d嗅探兽蛋&r可以在暖水海洋生物群系的废墟遗迹内，通过&6刷扫可疑的沙子&r概率获得。不过，在虚空中是无法这样操作的。"
 		""
 		"借助模组便可解决这一难题，比如在暖水海洋中使用&e可疑的蜜蜂&r可将普通沙砾转化为可疑的沙砾，或是通过&e神秘学仪式&r生成遗迹中的战利品，甚至可以直接召唤&a嗅探兽&r进行繁殖。"
 	]
 	quest.2BA10689E508FACC.title: "&f获取一枚&d嗅探兽蛋"
 	quest.2BCDA4C64936EBE2.quest_desc: [
-		"一些母岩需要将熔融金属倒在&e铸造盆&r中的&3虚无晶体催化剂&r以获取，只要找到些许资源，就可以用这种方式生产更多。"
+		"一些母岩需要将熔融金属浇注&e铸造盆&r中的&3虚无晶体催化剂&r以获取，只要找到些许资源，就可以用这种方式生产更多。"
 		""
-		"这些资源大多可以通过探索和刷怪获得，也可以通过矿石制造装置来获得，如&e矿工透镜&r，还可以通过在熔铸炉献祭生物的方式……"
-		"&7小小尝试一下其他的资源获取方式，也许会让母岩制作更容易。&r "
+		"这些资源大多可以通过探索和刷怪获得，也可以通过矿石制造装置来获得，如&e矿工透镜&r；还可以通过在熔铸炉献祭生物……"
+		"&7偶尔尝试一下其他的资源获取方式，也许会让母岩制作更容易。&r "
 		""
-		"有一个例外，锇矿晶母岩还有一个可选配方，将相应材料丢进&3熔融谐振末影&r，组合成锇矿晶母岩。"
+		"One exception to this is Osmium, which has an alternate recipe of tossing certain ingredients into a puddle of &3Molten Ender&r to bind them."
 	]
 	quest.2BCDA4C64936EBE2.title: "&f熔铸炉矿晶"
 	quest.2BD29E8328B23166.quest_desc: ["also make the quests invis until dependencies are complete"]
@@ -4643,7 +4643,7 @@
 		""
 		"&a性格&r：有些蜜蜂不喜欢其他蜜蜂，这个属性会告诉你它和其他蜜蜂如何互动……也许还有你:)。最佳属性为&6友好&r，因为他们真的很松弛。"
 		""
-		"提示栏中还会显示蜜蜂繁殖所需的物品！"
+		"提示框中还会显示蜜蜂繁殖所需的物品！"
 	]
 	quest.2D2EC0BCFF1DA68C.title: "&f蜜蜂属性"
 	quest.2D31E8D06F40EAA9.quest_desc: ["&e柴油&r可以直接当成燃料，也可以用&2乙醚&r将其富集为&6增压柴油&r。"]
@@ -4805,11 +4805,11 @@
 	quest.2EBDE5767588B43C.quest_desc: [
 		"想要制作&6觉醒精华&r，你需要一种击杀&5末影龙&r或&5凋灵&r才会掉落的粉尘。"
 		""
-		"这种粉尘被叫做&6醒觉粉&r，只在使用附魔&d神秘启示&r的神秘农业武器杀死末影龙/凋灵时掉落。"
+		"这种粉尘被叫做&6觉醒粉&r，只在使用附魔&d神秘启示&r的神秘农业武器杀死末影龙/凋灵时掉落。"
 		""
 		"[\"要获取\", {\"text\": \"神秘启示\", \"color\": \"light_purple\"}, \"附魔，你需要从\", {\"text\": \"FTB商店\", \"color\": \"gold\"}, { \"text\": \"购买\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2BD672ED1CC617EA\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"查看商店\"}}, \"。\"]"
 	]
-	quest.2EBDE5767588B43C.title: "&6醒觉粉&r"
+	quest.2EBDE5767588B43C.title: "&6觉醒粉&r"
 	quest.2EC52350485D4DC9.quest_desc: [
 		"&b品质倍率加成&r：x1.5"
 		""
@@ -5600,7 +5600,7 @@
 	quest.3557FBCEFEF444CC.quest_desc: [
 		"&d精密构件&r是&e机械动力&r模组中一些顶级工具和机器的重要合成部件。"
 		""
-		"&e注&r：本配方有20%的失败几率，因此请务必准备好过滤器以应对这种情况。"
+		"&e注&r：本配方有20%的失败概率，因此请务必准备好过滤器以应对这种情况。"
 	]
 	quest.3557FBCEFEF444CC.title: "&d精密构件"
 	quest.355C3ACB16CC2DE9.quest_desc: [
@@ -5780,7 +5780,7 @@
 		"它还用于制作&b神秘之力&r。"
 	]
 	quest.3695B30822BC674E.title: "&7潜影贝符石"
-	quest.369FFEE79A6478A0.quest_desc: ["在本章节中，你将发现整合包内诸多&6挑战&r，无论是击败Boss、探索生物群落，还是收集稀有物品！"]
+	quest.369FFEE79A6478A0.quest_desc: ["在本章节中，你将发现整合包内诸多&6挑战&r，无论是击败Boss、发现新怪物，还是收集稀有物品！"]
 	quest.369FFEE79A6478A0.title: "欢迎来到&d狂猎&r章节！"
 	quest.36AA71D456F0A3C1.title: "&f工业铝粉"
 	quest.36BFF140EA423C7B.title: "&dMEGA并行处理单元"
@@ -6305,7 +6305,7 @@
 	quest.3B33C4D5A2D400D4.title: "&f但是&b陨石&r在哪里呢&f？"
 	quest.3B37556B49098933.quest_desc: ["&a异界眼镜&r能为穿戴者提供&b第三只眼&r效果，从而使&9异界&r的方块可见。"]
 	quest.3B37556B49098933.title: "&a异界眼镜"
-	quest.3B3CE4B6B25CB8DB.quest_desc: ["The key point of progress. &dAttuned Stones&r are made using Whiffs of Magic and diamonds, and making this item allows progression into even more mod mechancs such as &bPoppets&r and &bCircle Magic&r."]
+	quest.3B3CE4B6B25CB8DB.quest_desc: ["推动进度的关键节点。&d协调之石&r由魔力之息和钻石制作而来，制作该物品允许你发展更多模组机制，如&b娃娃&r和&b圆环魔法&r。"]
 	quest.3B3CE4B6B25CB8DB.title: "&d协调之石"
 	quest.3B41D9132CD7728D.title: "&d65536B流体存储组件"
 	quest.3B6540C11FAF6C3D.quest_desc: [
@@ -6554,9 +6554,9 @@
 		"你可以通过用锄头锄地来获取&a蚯蚓&r，把它所在的方块打破就可以将其移除。"
 	]
 	quest.3E00AA33AC5304F9.title: "&a蚯蚓"
-	quest.3E0191A718C8CFF9.quest_subtitle: "24小时内没有死掉一次"
+	quest.3E0191A718C8CFF9.quest_subtitle: "存活24小时"
 	quest.3E0191A718C8CFF9.title: "&b适者生存"
-	quest.3E0D5504617365AD.title: "&f击杀10只&c僵尸猪人"
+	quest.3E0D5504617365AD.title: "&f击杀10只&c僵尸猪灵"
 	quest.3E1D73D9FEAF119F.quest_desc: [
 		"你需要&d强化黑曜石粉&r，才能制作最高级的合金和电路板。"
 		""
@@ -6971,7 +6971,7 @@
 		"它还用于制作&3Minecraft之魂&r。"
 	]
 	quest.423950ED16C2422B.title: "&b勇士之力"
-	quest.423C04D5968C6A2B.quest_subtitle: "更多栏位！"
+	quest.423C04D5968C6A2B.quest_subtitle: "更多槽位！"
 	quest.423C04D5968C6A2B.title: "&a皮带"
 	quest.424BFFB9EFAB9565.quest_desc: ["&3电子管&r是一种合成部件，用于在&e机械动力&r中制作一些电子或可以控制的机械装置。"]
 	quest.424BFFB9EFAB9565.title: "&3电子管"
@@ -7497,7 +7497,7 @@
 	quest.479955FA73CB4C7D.title: "&b传送核心"
 	quest.47AD944D7AEC4919.quest_desc: ["拥有了&a末影化合物&r，你现在可以制作&c高级机器核心&r了"]
 	quest.47AD944D7AEC4919.title: "&f高级机器核心"
-	quest.47C45A0552FBC1BD.title: "游玩 &d50 小时"
+	quest.47C45A0552FBC1BD.title: "游玩&d50小时"
 	quest.47C817DA92CE31EA.quest_desc: [
 		"有了&e矿晶傀儡&r，它们能收获的可就远不止紫水晶了！"
 		""
@@ -8156,7 +8156,7 @@
 		"只有玩家造成的击杀才会被视为&b献祭&r。"
 	]
 	quest.4DB0A34E6C46B0B8.title: "&b仪式献祭"
-	quest.4DBD57AF035CAA6B.title: "&f游玩 &6100 小时"
+	quest.4DBD57AF035CAA6B.title: "&f游玩&6100小时"
 	quest.4DD685A3F0F1329F.quest_desc: [
 		"无人机虽然有预编程的程序，不过如果你想要写个属于自己的程序的话，仔细跟着这个任务学吧。"
 		""
@@ -9374,7 +9374,7 @@
 		"其中一些提供了独特的资源，可用于制作有趣（但不是很实用）的盔甲。"
 	]
 	quest.5A23D4BE3D221C70.title: "根源生物"
-	quest.5A284AE3AC14D070.title: "&f游玩&b 1 小时"
+	quest.5A284AE3AC14D070.title: "&f游玩&b1小时"
 	quest.5A38A7792BCD6116.title: "&b机会二十面体"
 	quest.5A4BD762C1792546.title: "&5蚀空合金斧"
 	quest.5A57DB728220261F.quest_desc: [
@@ -11026,7 +11026,7 @@
 		""
 		"&7&o成品为7x7x7的多方块结构"
 	]
-	quest.6B6C60BFE1D378D0.title: "&6Max Size Assembler Matrix"
+	quest.6B6C60BFE1D378D0.title: "&6完全体装配矩阵"
 	quest.6B779BFEDE0CB57A.quest_subtitle: "在催化剂上使用棕色染料"
 	quest.6B779BFEDE0CB57A.title: "&f镍矿晶母岩"
 	quest.6B9371B721B992AD.quest_subtitle: "孢子会炸开"
@@ -11597,7 +11597,7 @@
 		"写入魔法装备的法术不能有任何&2形态&r魔符，因为每件装备都有自己的施法形态，刚好帮你节约一个魔符槽！"
 	]
 	quest.726B9A931D3E1242.title: "&d魔法装备"
-	quest.72766EEF59130E19.title: "游玩 &c25&r 小时"
+	quest.72766EEF59130E19.title: "游玩&c25&r小时"
 	quest.727F2932543CADDA.quest_desc: [
 		"与该模组内的物品和方块互动时，扳手是个好用的工具。"
 		""
@@ -11823,7 +11823,7 @@
 	]
 	quest.73E91712D4D9A762.title: "&f转轮机枪"
 	quest.73EC5E7F2300B99D.quest_desc: [
-		"&aBudding Certus Quartz&r works similarly to amethyst and will bud crystals over time."
+		"&a赛特斯石英母岩&r的机制与紫水晶类似，会随着时间的推移长出水晶。"
 		""
 		"每当一个水晶生成，或该方块被破坏时，母岩方块都有几率退化为更低阶的版本，并且必须通过将其与&b充能赛特斯石英水晶&r一同丢入水中来修复。"
 		""
@@ -13310,7 +13310,7 @@
 	task.251D75C6FA5F28AD.title: "&e造访维度&f：&c下界"
 	task.25225ED0412FB977.title: "&f召唤一个&6魔王熔炼工"
 	task.2566CE0AC0925C71.title: "任意&2二级&f生物种子"
-	task.257DB4A574FF1E69.title: "&f游玩&b 1 小时"
+	task.257DB4A574FF1E69.title: "&f游玩&b1小时"
 	task.25C2CD55816664D4.title: "&fl族群召唤"
 	task.2612B5ABA237D9EA.title: "速度升级"
 	task.264FDB7064AF2C7B.title: "重置防御技能树"
@@ -13324,7 +13324,7 @@
 	task.2951F1493E615F65.title: "&f召唤一个&a恶魔使魔"
 	task.2988CAF299690CDB.title: "实用命令！"
 	task.2ADC1FF0AC128794.title: "风中低语"
-	task.2B2473620B056467.title: "游玩 &d50 小时"
+	task.2B2473620B056467.title: "&f游玩&d50小时"
 	task.2B2AC5A9A28F14A9.title: "蓄电池"
 	task.2B97A2DFF700B056.title: "&6Fargo的符石"
 	task.2BB5021FC9A3E6EB.title: "&f召唤一个&a鹦鹉"
@@ -13416,7 +13416,7 @@
 	task.3FB6FB9AEEAE5739.title: "150x 装配矩墙壁/玻璃"
 	task.4087591E474FC477.title: "&f击杀10只&d末影人"
 	task.4096CA7300D6F0EB.title: "切换符石效果"
-	task.40BB388E2251B800.title: "&e发现&f：&6流浪商人"
+	task.40BB388E2251B800.title: "&eObserve&f: &6Wandering Trader"
 	task.40E0C4BFAB2B3608.title: "&d阿巴拉斯魔灵附身"
 	task.40EF108176203527.title: "任意基础木质工具"
 	task.40F05F6EC4A106F4.title: "&f召唤一个&a可骑乘动物"
@@ -13449,7 +13449,7 @@
 	task.4770154ADE2ED622.title: "&f构建第一个&d法术"
 	task.48693C868CF2C4D6.title: "召唤一个&7异界树苗交易者"
 	task.48BB22683A4C50AD.title: "&a下级精华&f工具"
-	task.491E250D69066BBC.title: "&f击杀：1x &d凋灵&r"
+	task.491E250D69066BBC.title: "&f击杀：1只&d凋灵&r"
 	task.497CF86F5BC5A7D0.title: "基础线缆"
 	task.49C5C16F4BA317E7.title: "&e观察&f：铁矿晶母岩"
 	task.49DF96867DE0BB9D.title: "任意派别的精魂"
@@ -13487,7 +13487,7 @@
 	task.52DC2C96BC93F381.title: "召唤一个&7魔精搬运工"
 	task.530053F67ED5E6F3.title: "限类木桶"
 	task.530B680860B7C5E7.title: "找到&d药剂师"
-	task.5312722528B8561B.title: "&f游玩 &6100 小时"
+	task.5312722528B8561B.title: "&f游玩&6100小时"
 	task.5318C2422681D6E1.title: "&2频道界面"
 	task.5336018EE8A0D660.title: "&f召唤一个&a具翼使魔"
 	task.5355E58AAC34F75A.title: "&b奥术师套装"
@@ -13567,7 +13567,7 @@
 	task.616ED86B19DC0FFB.title: "&e观察&f：焦炉"
 	task.619E259715D3DAFC.title: "任意&e应用通量&f存储元件"
 	task.61B136724B06E927.title: "瘟疫术士面具"
-	task.61C0F35123FBB85E.title: "&f击杀：1x &d监守者"
+	task.61C0F35123FBB85E.title: "&f击杀：1只&d监守者"
 	task.61EB975FAD009EF7.title: "&e找到建筑&f：&6神秘魔法地牢"
 	task.62444557DFD28C36.title: "&a海德林的动物"
 	task.628DC7385ADA8103.title: "任意蕴生工具"
@@ -13608,7 +13608,7 @@
 	task.6BF1B3F7E85C5E17.title: "&b升级插件"
 	task.6C0240B676A69E94.title: "精英控制电路或者模拟电路"
 	task.6C1AB8986784E504.title: "&e观察&f：搅拌机"
-	task.6C730129357A78D0.title: "&e击杀&f：&c僵尸猪人"
+	task.6C730129357A78D0.title: "&e击杀&f：&c僵尸猪灵"
 	task.6CDF504643794087.title: "&e观察&f：灌装机"
 	task.6CE262DF23E5DC46.title: "你击杀了交易者……"
 	task.6D2BF51317854A51.title: "&e击杀&f：&3珊瑚巨像"
@@ -13621,7 +13621,7 @@
 	task.6F72448CD3FD5163.title: "如何获取蜜蜂！"
 	task.6F8341C1F6365913.title: "法杖"
 	task.6FA17DE3B63BDA1A.title: "&f压缩抽屉"
-	task.6FA6CE6F848C29EC.title: "&f游玩 &a10 小时"
+	task.6FA6CE6F848C29EC.title: "&f游玩&a10小时"
 	task.6FBF3A3F71E35DF0.title: "高级机器"
 	task.700CAE784D0CDAAB.title: "&d三阶"
 	task.709D22141E914EBE.title: "&e击杀&f：&5末影傀儡"
@@ -13630,13 +13630,13 @@
 	task.7143B1EFAB0A1582.title: "&f群聚召唤"
 	task.71B63908FDE6CC61.title: "&b全能工具"
 	task.71E7DDA8A2BC8D5A.title: "&f通用机械物品管道"
-	task.7224F301AE8ED1E3.title: "游玩 &c25&r 小时"
+	task.7224F301AE8ED1E3.title: "游玩&c25&r小时"
 	task.72D916898EED9BF4.title: "&b五芒星&r已完成"
 	task.731217604FF8A844.title: "床"
 	task.734212F4FDFDAD92.title: "&f召唤一个&a贪婪使魔"
 	task.73E22145698B74EB.title: "&e击杀&f：&4徘徊者"
 	task.74534CC66FBC3BD3.title: "&e击杀&f：&62x 骷髅狗头人"
-	task.747DDA167BA0D47A.title: "&f击杀：1x &d更凶猛的末影龙"
+	task.747DDA167BA0D47A.title: "&f击杀：1只&d更凶猛的末影龙"
 	task.74FD82EA0E9371E3.title: "熔炼大量生物"
 	task.757810F183F6346C.title: "第二层：完成"
 	task.75950ADE1D19EBBB.title: "召唤一个&c黄昏魔灵"
