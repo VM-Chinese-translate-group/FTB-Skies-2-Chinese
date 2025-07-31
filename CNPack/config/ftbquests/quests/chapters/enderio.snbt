@@ -774,7 +774,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(enderio:pulsating_alloy_grinding_ball)item(enderio:energetic_alloy_grinding_ball)item(enderio:vibrant_alloy_grinding_ball)item(enderio:conductive_alloy_grinding_ball)item(enderio:redstone_alloy_grinding_ball)item(enderio:soularium_grinding_ball)item(enderio:copper_alloy_grinding_ball)item(enderio:dark_steel_grinding_ball)item(enderio:end_steel_grinding_ball))"
-							"minecraft:custom_name": "“磨球”"
+							"minecraft:custom_name": "“磨珠”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"

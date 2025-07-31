@@ -842,7 +842,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(ae2:import_bus)item(ae2:export_bus))"
-						"minecraft:custom_name": "“输入/输出接口”"
+						"minecraft:custom_name": "\"I/O Bus\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
