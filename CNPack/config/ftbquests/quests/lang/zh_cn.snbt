@@ -531,7 +531,7 @@
 	quest.05315396D48EE815.quest_desc: [
 		"将&9水&r，&b氢气&r和&2生物燃料&r一起加入&a加压反应室&r以制作&6基片&r，制作基片时会输出副产物&6乙烯&r。"
 		""
-		"实用技巧：在通用机械模组中，如果你无法判断通用机械的某个东西是液体还是气体，那这里有个小技巧：没标注“液体”的就是气体。"
+		"专业提示：在通用机械模组中，如果你无法判断通用机械的某个东西是液体还是气体，那这里有个小技巧：没标注“液体”的就是气体。"
 	]
 	quest.05315396D48EE815.title: "&6乙烯"
 	quest.053278F000CB8DB8.quest_desc: ["通过矿石可以获取这种资源，从而进一步制作其种子"]
@@ -1563,7 +1563,7 @@
 		""
 		"与一般种子不同，这类种子需要&2灵魂种子基底&r和装满对应怪物精华的&a灵魂瓶&r才能合成。"
 	]
-	quest.0D92EFDB73114B0C.title: "&2Tier 2 &fMob Seeds"
+	quest.0D92EFDB73114B0C.title: "&2二级&f生物种子"
 	quest.0DB5CBE2E76D2FD9.quest_desc: [
 		"如果你需要一个管道来传输几乎任何东西，那我觉得&ePipez&r模组正合你意。"
 		""
@@ -3070,7 +3070,7 @@
 		"{@pagebreak}"
 		"可合成法术的等级取决于&b墨水&r的等级，部分法术只能用高阶墨水撰写。"
 		""
-		"高玩提示：和猪灵交易可以很轻松地获得&d哭泣黑曜石&r。"
+		"专业提示：和猪灵交易可以很轻松地获得&d哭泣黑曜石&r。"
 	]
 	quest.1CFD4CE2704F2ADE.title: "&a创作&r&d法术&r"
 	quest.1CFEC4265CAAA0D8.quest_desc: [
@@ -3621,9 +3621,9 @@
 	quest.2315DBE189D330DA.quest_desc: [
 		"末影龙蜜蜂已经干了很多活儿了，但这一切都将得到回报。"
 		""
-		"This is the ultimate upgrade for a hive: the &6Upgrade: Productivity Omega&r. This increases productivity by 260% each, and also acts as a Simulator Upgrade AND as a Block Upgrade. Instead of producing just regular combs, you'll get comb blocks instead."
+		"&6升级：产量ω&r是蜂箱的终极升级，每个升级可以提高260%的产量，且同时具有升级：模拟和升级：蜜脾块的功能，这意味着加装此升级后，蜂箱将直接产出蜜脾块。"
 		""
-		"Pro Tip: 4 Productivity Upgrades are better than using speed upgrades at all!"
+		"专业提示：四个升级：产量比四个升级：速度更好！"
 	]
 	quest.2315DBE189D330DA.quest_subtitle: "给末影龙蜜蜂放个假吧"
 	quest.2315DBE189D330DA.title: "&e升级：&f产量ω"
@@ -4527,7 +4527,7 @@
 		"这些资源大多可以通过探索和刷怪获得，也可以通过矿石制造装置来获得，如&e矿工透镜&r；还可以通过在熔铸炉献祭生物……"
 		"&7偶尔尝试一下其他的资源获取方式，也许会让母岩制作更容易。&r "
 		""
-		"One exception to this is Osmium, which has an alternate recipe of tossing certain ingredients into a puddle of &3Molten Ender&r to bind them."
+		"有一个例外，锇矿晶母岩还有一个可选配方，将相应材料丢进&3熔融谐振末影&r，组合成锇矿晶母岩。"
 	]
 	quest.2BCDA4C64936EBE2.title: "&f熔铸炉矿晶"
 	quest.2BD29E8328B23166.quest_desc: ["also make the quests invis until dependencies are complete"]
@@ -7326,7 +7326,7 @@
 		"如果你仔细搜索，或许能发现一个&2晶质铀矿矿晶&r……"
 	]
 	quest.45C187DEF7B60C05.title: "&f找到&c火山"
-	quest.45C2A0B3F277C09B.quest_desc: ["&e进阶提示&r：你可以直接对着通用机械的任意管道使用&c合金&r就直接将它们升至下一级！"]
+	quest.45C2A0B3F277C09B.quest_desc: ["&e专业提示&r：你可以直接对着通用机械的任意管道使用&c合金&r就直接将它们升至下一级！"]
 	quest.45C2A0B3F277C09B.quest_subtitle: "能量管道"
 	quest.45C2A0B3F277C09B.title: "{\"text\": \"基础通用线缆\", \"color\": \"#5EFCB6\"}"
 	quest.45CB3F325010A5AD.quest_desc: [
@@ -11101,7 +11101,7 @@
 		""
 		"结构搭建完成时会发出红色闪光粒子！"
 		""
-		"进阶提示：你可以直接把加热器贴在阀门上，这样就无需管道了！"
+		"专业提示：你可以直接把加热器贴在阀门上，这样就无需管道了！"
 	]
 	quest.6C4441CC63BC7603.quest_subtitle: "来折腾化学吧！"
 	quest.6C4441CC63BC7603.title: "&c热力蒸馏塔"
