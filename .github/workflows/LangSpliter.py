@@ -59,6 +59,41 @@ SORT_ORDER_CONFIG = {
     ],
 }
 
+def recursively_replace_text_in_snbt(data, replacements: dict):
+    """
+    递归地遍历一个 SNBT 数据结构 (Compound, List, String)，
+    并对所有 String 标签的值执行文本替换。
+
+    :param data: 当前正在处理的 SNBT 数据部分。
+    :param replacements: 一个包含 {'要查找的文本': '新文本'} 的字典。
+    :return: 修改后的 SNBT 数据部分。
+    """
+    if not replacements:
+        return data
+
+    # 如果是 Compound (类似字典), 遍历其所有值
+    if isinstance(data, Compound):
+        for key in data:
+            data[key] = recursively_replace_text_in_snbt(data[key], replacements)
+        return data
+    
+    # 如果是 List, 遍历其所有元素
+    elif isinstance(data, List):
+        for i in range(len(data)):
+            data[i] = recursively_replace_text_in_snbt(data[i], replacements)
+        return data
+
+    # 如果是 String, 执行替换操作
+    elif isinstance(data, String):
+        new_value = data.value
+        for old_text, new_text in replacements.items():
+            new_value = new_value.replace(old_text, new_text)
+        # 返回一个新的 String 标签，确保值被更新
+        return String(new_value)
+
+    # 对于其他类型 (Int, Byte 等) 则原样返回
+    else:
+        return data
 
 def unescape_string(s: str) -> str:
     """对从 SNBT 加载的字符串进行反转义处理。"""
@@ -449,70 +484,76 @@ def process_chapter_quests(chapters_dir, chapters_lang_data, quests_data, tasks_
             print(f"  -> 处理文件 {filename} 时发生错误: {e}")
 
 
-def update_chapter_files_with_components(component_data, input_chapters_dir, output_chapters_dir):
+def update_chapter_files_with_components(component_data, input_chapters_dir, output_chapters_dir, text_replacements: dict = None):
     """
     将来自JSON的翻译（components, hover, feedback_message）更新回其原始的章节SNBT文件。
     从 input_chapters_dir 读取，并写入到 output_chapters_dir。
+    (新增) 在更新前，对整个文件进行全局文本替换。
     """
-    if not component_data:
-        return
     if not os.path.isdir(input_chapters_dir):
-        print(f"警告：未提供有效的章节目录 '{input_chapters_dir}'。跳过 SNBT 文件内嵌文本的更新。")
-        return
+        # 即使没有翻译组件要更新，如果提供了文本替换，也应该执行
+        if not text_replacements:
+            print(f"警告：未提供有效的章节目录 '{input_chapters_dir}' 且无文本替换任务。跳过 SNBT 文件处理。")
+            return
+        # 如果只有文本替换任务，也要确保输出目录存在
+        elif not os.path.exists(output_chapters_dir):
+             os.makedirs(output_chapters_dir, exist_ok=True)
 
-    print("\n--- 开始将内嵌文本更新到章节 SNBT 文件 ---")
-    os.makedirs(output_chapters_dir, exist_ok=True)
 
-    # 1. 解析所有需要回填的数据
+    print("\n--- 开始处理章节 SNBT 文件 ---")
+    if text_replacements:
+        print("  -> 已启用全局文本替换功能。")
+    if component_data:
+        print("  -> 已启用内嵌文本 (components/hover/feedback) 更新功能。")
+
+
+    # 1. (这部分代码保持不变) 解析所有需要回填的翻译组件数据
     mods_by_id = {}
     feedback_mods_by_id = {}
     hover_mods_by_chapter_id = {}
+    if component_data:
+        # ... (此处省略了大量解析 component_data 的代码，保持原样即可) ...
+        # 从 lore_pattern = re.compile(...) 开始
+        # 到 ...hover_mods_by_chapter_id[chapter_id][image_index]] 结束
+        # 这整段代码都保持原样，无需改动
+        lore_pattern = re.compile(r'^(?:tasks|rewards)\.([0-9A-F]+)\.lore(\d+)$')
+        name_pattern = re.compile(r'^(?:tasks|rewards)\.([0-9A-F]+)\.custom_name$')
+        feedback_pattern = re.compile(r'^reward\.([0-9A-F]+)\.feedback_message(\d*)$')
+        hover_pattern = re.compile(r'^chapter\.([0-9A-F]+)\.image\.(\d+)\.hover(\d*)$')
 
-    lore_pattern = re.compile(r'^(?:tasks|rewards)\.([0-9A-F]+)\.lore(\d+)$')
-    name_pattern = re.compile(r'^(?:tasks|rewards)\.([0-9A-F]+)\.custom_name$')
-    feedback_pattern = re.compile(r'^reward\.([0-9A-F]+)\.feedback_message(\d*)$')
-    hover_pattern = re.compile(r'^chapter\.([0-9A-F]+)\.image\.(\d+)\.hover(\d*)$')
-
-    for key, value in component_data.items():
-        # custom_name/lore
-        name_match = name_pattern.match(key)
-        if name_match:
-            item_id = name_match.group(1)
-            mods_by_id.setdefault(item_id, {})['name'] = value
-            continue
-        lore_match = lore_pattern.match(key)
-        if lore_match:
-            item_id, lore_index = lore_match.groups()
-            mods_by_id.setdefault(item_id, {}).setdefault('lore', []).append((int(lore_index), value))
-            continue
-
-        # feedback_message
-        feedback_match = feedback_pattern.match(key)
-        if feedback_match:
-            item_id, num = feedback_match.groups()
-            feedback_mods_by_id.setdefault(item_id, []).append((int(num) if num else 0, value))
-            continue
-
-        # hover
-        hover_match = hover_pattern.match(key)
-        if hover_match:
-            chapter_id, image_index, num = hover_match.groups()
-            hover_mods_by_chapter_id.setdefault(chapter_id, {}).setdefault(int(image_index), []).append(
-                (int(num) if num else 0, value))
-
-    # 对多行文本进行排序
-    for item_id in mods_by_id:
-        if 'lore' in mods_by_id[item_id]:
-            mods_by_id[item_id]['lore'].sort(key=lambda x: x[0])
-            mods_by_id[item_id]['lore'] = [v for _, v in mods_by_id[item_id]['lore']]
-    for item_id in feedback_mods_by_id:
-        feedback_mods_by_id[item_id].sort(key=lambda x: x[0])
-        feedback_mods_by_id[item_id] = [v for _, v in feedback_mods_by_id[item_id]]
-    for chapter_id in hover_mods_by_chapter_id:
-        for image_index in hover_mods_by_chapter_id[chapter_id]:
-            hover_mods_by_chapter_id[chapter_id][image_index].sort(key=lambda x: x[0])
-            hover_mods_by_chapter_id[chapter_id][image_index] = [v for _, v in
-                                                                 hover_mods_by_chapter_id[chapter_id][image_index]]
+        for key, value in component_data.items():
+            name_match = name_pattern.match(key)
+            if name_match:
+                item_id = name_match.group(1)
+                mods_by_id.setdefault(item_id, {})['name'] = value
+                continue
+            lore_match = lore_pattern.match(key)
+            if lore_match:
+                item_id, lore_index = lore_match.groups()
+                mods_by_id.setdefault(item_id, {}).setdefault('lore', []).append((int(lore_index), value))
+                continue
+            feedback_match = feedback_pattern.match(key)
+            if feedback_match:
+                item_id, num = feedback_match.groups()
+                feedback_mods_by_id.setdefault(item_id, []).append((int(num) if num else 0, value))
+                continue
+            hover_match = hover_pattern.match(key)
+            if hover_match:
+                chapter_id, image_index, num = hover_match.groups()
+                hover_mods_by_chapter_id.setdefault(chapter_id, {}).setdefault(int(image_index), []).append(
+                    (int(num) if num else 0, value))
+        for item_id in mods_by_id:
+            if 'lore' in mods_by_id[item_id]:
+                mods_by_id[item_id]['lore'].sort(key=lambda x: x[0])
+                mods_by_id[item_id]['lore'] = [v for _, v in mods_by_id[item_id]['lore']]
+        for item_id in feedback_mods_by_id:
+            feedback_mods_by_id[item_id].sort(key=lambda x: x[0])
+            feedback_mods_by_id[item_id] = [v for _, v in feedback_mods_by_id[item_id]]
+        for chapter_id in hover_mods_by_chapter_id:
+            for image_index in hover_mods_by_chapter_id[chapter_id]:
+                hover_mods_by_chapter_id[chapter_id][image_index].sort(key=lambda x: x[0])
+                hover_mods_by_chapter_id[chapter_id][image_index] = [v for _, v in
+                                                                     hover_mods_by_chapter_id[chapter_id][image_index]]
 
     # 2. 遍历章节文件，应用修改
     modified_files_count = 0
@@ -522,95 +563,95 @@ def update_chapter_files_with_components(component_data, input_chapters_dir, out
         if not filename.endswith('.snbt'): continue
 
         input_file_path = os.path.join(input_chapters_dir, filename)
+        output_file_path = os.path.join(output_chapters_dir, filename)
+        
         try:
             with open(input_file_path, 'r', encoding='utf-8') as f:
                 snbt_data = snbtlib.loads(f.read())
 
             file_was_modified = [False]
-            chapter_id = snbt_data.get('id')
 
-            # 更新 hover
-            if chapter_id in hover_mods_by_chapter_id:
-                images_list = snbt_data.get('images', List())
-                for img_idx, lines in hover_mods_by_chapter_id[chapter_id].items():
-                    if 0 <= img_idx < len(images_list):
-                        original_key = f'chapter.{chapter_id}.image.{img_idx}.hover'
-                        is_multiline = any(k.startswith(original_key + '1') for k in component_data.keys())
-
-                        if is_multiline or len(lines) > 1:
-                            # 将 list[str] 转换为 List[String]
-                            images_list[img_idx]['hover'] = List([String(line) for line in lines])
-                        else:
-                            # 将 str 转换为 String
-                            images_list[img_idx]['hover'] = String(lines[0])
-                        file_was_modified[0] = True
-
-            def find_and_update_components_recursively(data, item_id, comp_mods):
-                if item_id not in comp_mods: return
-                modifications = comp_mods[item_id]
-
-                if isinstance(data, dict):
-                    if 'components' in data:
-                        if 'name' in modifications:
-                            # 将 str 转换为 String，无需手动转义
-                            data['components'][String('minecraft:custom_name')] = String(modifications['name'])
-                            file_was_modified[0] = True
-                        if 'lore' in modifications:
-                            # 将 list[str] 转换为 List[String]，无需手动转义
-                            data['components'][String('minecraft:lore')] = List(
-                                [String(line) for line in modifications['lore']])
-                            file_was_modified[0] = True
-                        updated_ids.add(item_id)
-                        return
-
-                    for v in data.values():
-                        find_and_update_components_recursively(v, item_id, comp_mods)
-                elif isinstance(data, list):
-                    for elem in data:
-                        find_and_update_components_recursively(elem, item_id, comp_mods)
-
-            def traverse_and_apply(data, comp_mods, feed_mods):
-                if isinstance(data, dict):
-                    item_id = data.get('id')
-                    if item_id:
-                        # 更新 feedback_message
-                        if item_id in feed_mods:
-                            lines = feed_mods[item_id]
-                            original_key = f'reward.{item_id}.feedback_message'
+            # --- 新增代码开始：在所有操作之前，执行全局文本替换 ---
+            if text_replacements:
+                snbt_data = recursively_replace_text_in_snbt(snbt_data, text_replacements)
+                file_was_modified[0] = True # 假设替换总会发生，以确保文件被写回
+            # --- 新增代码结束 ---
+            
+            # (这部分代码保持不变) 执行原有的翻译组件更新
+            if component_data:
+                # ... (此处省略了大量更新 components/hover/feedback 的代码，保持原样即可) ...
+                # 从 chapter_id = snbt_data.get('id') 开始
+                # 到 traverse_and_apply(snbt_data, mods_by_id, feedback_mods_by_id) 结束
+                # 这整段代码都保持原样，无需改动
+                chapter_id = snbt_data.get('id')
+                if chapter_id in hover_mods_by_chapter_id:
+                    images_list = snbt_data.get('images', List())
+                    for img_idx, lines in hover_mods_by_chapter_id[chapter_id].items():
+                        if 0 <= img_idx < len(images_list):
+                            original_key = f'chapter.{chapter_id}.image.{img_idx}.hover'
                             is_multiline = any(k.startswith(original_key + '1') for k in component_data.keys())
                             if is_multiline or len(lines) > 1:
-                                data['feedback_message'] = List([String(line) for line in lines])
+                                images_list[img_idx]['hover'] = List([String(line) for line in lines])
                             else:
-                                data['feedback_message'] = String(lines[0])
+                                images_list[img_idx]['hover'] = String(lines[0])
                             file_was_modified[0] = True
+                def find_and_update_components_recursively(data, item_id, comp_mods):
+                    if item_id not in comp_mods: return
+                    modifications = comp_mods[item_id]
+                    if isinstance(data, dict):
+                        if 'components' in data:
+                            if 'name' in modifications:
+                                data['components'][String('minecraft:custom_name')] = String(modifications['name'])
+                                file_was_modified[0] = True
+                            if 'lore' in modifications:
+                                data['components'][String('minecraft:lore')] = List(
+                                    [String(line) for line in modifications['lore']])
+                                file_was_modified[0] = True
                             updated_ids.add(item_id)
+                            return
+                        for v in data.values():
+                            find_and_update_components_recursively(v, item_id, comp_mods)
+                    elif isinstance(data, list):
+                        for elem in data:
+                            find_and_update_components_recursively(elem, item_id, comp_mods)
+                def traverse_and_apply(data, comp_mods, feed_mods):
+                    if isinstance(data, dict):
+                        item_id = data.get('id')
+                        if item_id:
+                            if item_id in feed_mods:
+                                lines = feed_mods[item_id]
+                                original_key = f'reward.{item_id}.feedback_message'
+                                is_multiline = any(k.startswith(original_key + '1') for k in component_data.keys())
+                                if is_multiline or len(lines) > 1:
+                                    data['feedback_message'] = List([String(line) for line in lines])
+                                else:
+                                    data['feedback_message'] = String(lines[0])
+                                file_was_modified[0] = True
+                                updated_ids.add(item_id)
+                            if item_id in comp_mods:
+                                find_and_update_components_recursively(data, item_id, comp_mods)
+                        for value in data.values():
+                            traverse_and_apply(value, comp_mods, feed_mods)
+                    elif isinstance(data, list):
+                        for item in data:
+                            traverse_and_apply(item, comp_mods, feed_mods)
+                traverse_and_apply(snbt_data, mods_by_id, feedback_mods_by_id)
 
-                        # 更新 components (在子项中递归搜索)
-                        if item_id in comp_mods:
-                            find_and_update_components_recursively(data, item_id, comp_mods)
-
-                    # 无论如何，继续遍历整个结构
-                    for value in data.values():
-                        traverse_and_apply(value, comp_mods, feed_mods)
-                elif isinstance(data, list):
-                    for item in data:
-                        traverse_and_apply(item, comp_mods, feed_mods)
-
-            traverse_and_apply(snbt_data, mods_by_id, feedback_mods_by_id)
-
+            # 如果文件被修改过 (无论是文本替换还是组件更新)，则写回
             if file_was_modified[0]:
                 snbt_output_string = snbtlib.dumps(snbt_data)
-                output_file_path = os.path.join(output_chapters_dir, filename)
                 with open(output_file_path, 'w', encoding='utf-8') as f:
                     f.write(snbt_output_string)
-                print(f"  -> 已将更新后的 {filename} 写入到: {output_file_path}")
-                modified_files_count += 1
+                if not os.path.exists(os.path.join(output_chapters_dir, f'{filename}.bak')): # 避免重复打印
+                    print(f"  -> 已将更新后的 {filename} 写入到: {output_file_path}")
+                    modified_files_count += 1
+
         except Exception as e:
             import traceback
             print(f"  -> 更新文件 {filename} 时出错: {e}")
             traceback.print_exc()
 
-    print(f"更新完成。共修改了 {modified_files_count} 个文件。")
+    print(f"章节文件处理完成。共修改或创建了 {modified_files_count} 个文件。")
     all_updated_ids = updated_ids.union(set(feedback_mods_by_id.keys()))
     all_ids_to_update = set(mods_by_id.keys()).union(set(feedback_mods_by_id.keys()))
     remaining_ids = all_ids_to_update - all_updated_ids
@@ -618,11 +659,10 @@ def update_chapter_files_with_components(component_data, input_chapters_dir, out
         print(f"警告：在任何章节文件中都找不到以下 {len(remaining_ids)} 个物品ID：{', '.join(remaining_ids)}")
 
 
-def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, output_chapters_dir: str):
+def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, output_chapters_dir: str, chapter_text_replacements: dict = None):
     """
     合并所有JSON文件为单个SNBT文件。
-    如果提供了chapters_dir，则会将内嵌文本更新回原始章节文件，
-    并从最终的语言文件中排除这些条目。
+    (新增) 在此过程中，对章节文件执行全局文本替换。
     """
     print(f"--- 2. 开始从 {json_dir} 合并所有 JSON 文件到 SNBT ---")
     if not os.path.isdir(json_dir):
@@ -637,18 +677,12 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
             with open(filepath, 'r', encoding='utf-8-sig') as f:
                 data = json.load(f, object_pairs_hook=OrderedDict)
                 combined_data.update(data)
-                print(f"  -> 已加载 {len(data)} 条条目从: {filename}")
         except Exception as e:
             print(f"  -> 警告：读取或解析 {filepath} 失败: {e}")
-
-    if not combined_data:
-        print("错误：没有加载到任何数据，无法生成 SNBT 文件。")
-        return
-
+    
     # 分离内嵌键和标准语言键
     embedded_data = OrderedDict()
     standard_data = OrderedDict()
-    # 这个正则表达式匹配所有需要被回填到章节文件而不是写入语言文件的键
     embedded_key_pattern = re.compile(
         r'^(tasks|rewards)\.[0-9A-F]+\.(custom_name|lore\d+)|'
         r'chapter\.[0-9A-F]+\.image\.\d+\.hover\d*|'
@@ -661,8 +695,9 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
             standard_data[key] = value
 
     # 更新章节 SNBT 文件（如果需要）
-    if chapters_dir and embedded_data:
-        update_chapter_files_with_components(embedded_data, chapters_dir, output_chapters_dir)
+    if chapters_dir:
+        # 修改此处：传入 chapter_text_replacements
+        update_chapter_files_with_components(embedded_data, chapters_dir, output_chapters_dir, text_replacements=chapter_text_replacements)
 
     print("\n开始重构多行文本条目...")
 
@@ -709,6 +744,18 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
             snbt_ready_data[key] = String(value)
         else:
             snbt_ready_data[key] = String(str(value))
+            
+    # 新增代码开始：应用自定义字段替换
+    if replacements:
+        print("\n正在应用自定义字段替换...")
+        for key_to_replace, new_value in replacements.items():
+            if key_to_replace in snbt_ready_data:
+                # 无论新值是什么类型，都将其包装为 SNBT 的 String Tag
+                snbt_ready_data[key_to_replace] = String(str(new_value))
+                print(f"  -> 成功替换键 '{key_to_replace}'。")
+            else:
+                print(f"  -> 警告：在待处理数据中未找到要替换的键 '{key_to_replace}'。")
+    # 新增代码结束
 
     try:
         # 现在 snbt_ready_data 是一个 Compound 对象，dumps 可以正确处理

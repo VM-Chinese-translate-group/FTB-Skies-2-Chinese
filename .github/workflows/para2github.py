@@ -20,6 +20,11 @@ if not TOKEN or not PROJECT_ID:
 file_id_list: list[int] = []
 file_path_list: list[str] = []
 
+CHAPTER_TEXT_REPLACEMENTS  = {
+    "New items available in the Shop!": "商店中出现了新的物品！",
+    "New loot bag available in the Shop!": "商店上架了全新的战利品包！"
+}
+
 
 def fetch_json(url: str, headers: dict[str, str]) -> list[dict[str, str]]:
     response = requests.get(url, headers=headers)
@@ -184,12 +189,12 @@ def main() -> None:
         # 直接调用从 LangSpliter 导入的函数，并传入所有必需的参数
         if os.path.isdir(source_chapters_dir):
             print(f"检测到章节目录，将启用 custom_name/lore 更新功能...")
-            merge_all_to_snbt(json_dir, output_snbt_file, source_chapters_dir, output_chapters_dir)
+            # 修改此处：添加 chapter_text_replacements 参数
+            merge_all_to_snbt(json_dir, output_snbt_file, source_chapters_dir, output_chapters_dir, chapter_text_replacements=CHAPTER_TEXT_REPLACEMENTS)
         else:
             print(f"未检测到章节目录 {source_chapters_dir}，将禁用 custom_name/lore 更新功能...")
-
-            # 如果源目录不存在，传入空字符串或None来禁用功能
-            merge_all_to_snbt(json_dir, output_snbt_file, "", "")
+            # 修改此处：添加 chapter_text_replacements 参数
+            merge_all_to_snbt(json_dir, output_snbt_file, "", "", chapter_text_replacements=CHAPTER_TEXT_REPLACEMENTS)
 
        # 合并完成后，清除已合并的临时JSON文件所在的父目录
         cleanup_dir = ftb_quests_lang_dir.parent
