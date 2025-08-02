@@ -940,7 +940,7 @@
 	quest.087D1FBAE8A425C0.title: "&f搭建&d传送门&r！"
 	quest.08904FDA836C003B.quest_desc: ["钻石筛网可以堪称为一种万能的网具，我推荐用它筛出钻石，以便制作更多！"]
 	quest.08904FDA836C003B.quest_subtitle: "如何向地质学家求婚"
-	quest.08904FDA836C003B.title: "&f机械钻石筛网"
+	quest.08904FDA836C003B.title: "&f钻石机械筛网"
 	quest.08A966CE036BC9D1.quest_desc: ["[\"你也可利用\", { \"text\": \"远古残骸矿晶傀儡\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"47C817DA92CE31EA\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往矿晶傀儡任务\"]}}, \"将普通下界合金块转化为远古残骸矿晶母岩。\"]"]
 	quest.08A966CE036BC9D1.title: "&f远古残骸矿晶母岩"
 	quest.08BEE8CFBAF691DA.quest_desc: [
@@ -3107,7 +3107,7 @@
 	quest.1D410DFB7EFEE4CE.quest_desc: ["你可以在野外找到&a咖啡豆&r，收获它们拿来煮&a咖啡&r吧。"]
 	quest.1D410DFB7EFEE4CE.title: "&a咖啡豆"
 	quest.1D4B75C5103D3723.quest_desc: [
-		"&c逻辑线缆&r频道是功能最复杂的管道，根据你对红石概念的了解，它们可能非常有用。"
+		"&c逻辑&r频道是功能最复杂的管道，根据你对红石概念的了解，它们可能非常有用。"
 		""
 		"{image:ftb:textures/quests/xnet/logic_channel.png width:260 height:80 align:center}"
 		""
@@ -3296,7 +3296,7 @@
 		""
 		"装有&a流体模块 Mk1&r的路由器可以和临近方块交互，请在模块UI中进行配置。"
 		""
-		"&a流体模块 Mk2&r可以无线传输流体，同时拥有分配模块的功能。"
+		"&a流体模块&r可以无线传输流体，其工作原理和用于传输物品的分配模块如出一辙。"
 		""
 		"如果想要升级流体传输速率，你可以选择给&d路由器&r安装一个&a流体传输升级&r。&a速度升级&r可以提升流体输入输出的频率，也很值得安装。"
 	]
@@ -3842,7 +3842,7 @@
 	quest.24C1949D4690AFD3.quest_desc: [
 		"&eXNet&a连接器&r允许你的网络从连接的机器和容器中读取信息。"
 		""
-		"&d高级连接器&r可以以更快的速度传输更多信息，但代价是更多的能源。它们能选择从方块的哪一侧工作，无视连接器放置位置。"
+		"&d高级连接器&r能以更快的速度传输更多信息，但代价是能耗更高。无论你将连接器放置在何处，都可以选择方块的各个侧面进行工作。"
 	]
 	quest.24C1949D4690AFD3.title: "&eXNet&f连接器 "
 	quest.24CE908ED60FD514.quest_desc: [
@@ -3881,7 +3881,7 @@
 		"手持此物并潜行时，可切换模式至&a桶&r模式，这样就可以装起多桶流体（比如水或熔岩）。"
 	]
 	quest.24F17FA24ED466FA.title: "{\"text\": \"基础液体储罐\", \"color\": \"#5EFCB6\"}"
-	quest.24F275DFF6D07418.quest_subtitle: "在催化剂上使用淡灰色染料"
+	quest.24F275DFF6D07418.quest_subtitle: "对催化剂使用淡灰色染料"
 	quest.24F275DFF6D07418.title: "&f锡矿晶母岩"
 	quest.25023C87AA259688.quest_desc: ["虽然这可能不是最坚固的盔甲，但当你穿上全套&3纸板&r套装时，&3纸板盔甲&r会为你提供酷炫的潜行效果。"]
 	quest.25023C87AA259688.quest_subtitle: "偷偷摸摸"
@@ -4527,7 +4527,7 @@
 		"这些资源大多可以通过探索和刷怪获得，也可以通过矿石制造装置来获得，如&e矿工透镜&r；还可以通过在熔铸炉献祭生物……"
 		"&7偶尔尝试一下其他的资源获取方式，也许会让母岩制作更容易。&r "
 		""
-		"有一个例外，锇矿晶母岩还有一个可选配方，将相应材料丢进&3熔融谐振末影&r，组合成锇矿晶母岩。"
+		"有一个例外，锇矿晶母岩还有一个可选配方，将相应材料丢进&3熔融末影珍珠&r，组合成锇矿晶母岩。"
 	]
 	quest.2BCDA4C64936EBE2.title: "&f熔铸炉矿晶"
 	quest.2BD29E8328B23166.quest_desc: ["also make the quests invis until dependencies are complete"]
@@ -4573,7 +4573,7 @@
 		"&7这个过程稍微复杂一些，但即使没有矿石生成器也能完成。"
 	]
 	quest.2C4584B4B17872BF.quest_subtitle: "通过矿石获取这个，或者…"
-	quest.2C4584B4B17872BF.title: "&f铜精华"
+	quest.2C4584B4B17872BF.title: "&f铝精华"
 	quest.2C55C6EBABA86BA8.quest_desc: ["&a初级方块破坏器&r会使用内部的工具破坏前方的方块；就算你给他的工具是一根木棍或一块黑曜石，它也会完成任务的。"]
 	quest.2C55C6EBABA86BA8.quest_subtitle: "前面的方块看着太碍事了"
 	quest.2C55C6EBABA86BA8.title: "&a初级方块破坏器"
@@ -5036,9 +5036,9 @@
 	]
 	quest.3148FCED5BF543B5.title: "&f工具皮带"
 	quest.314E9901D4E89E6F.quest_desc: [
-		"&c检测模块&r在物品进入&d路由器&r内部缓存时，可以释放红石信号。"
+		"当&d路由器&r的缓存区有物品时，&c检测模块&r便会使其发出红石信号。"
 		""
-		"这对于自动化很有用，或者也能拿来控制其余模块开关！"
+		"这一功能非常实用，既可以用于搭建自动化系统，也可以用于告知其他模块何时应当激活！"
 	]
 	quest.314E9901D4E89E6F.title: "&f检测红石信号"
 	quest.316D3DA0DC2A4BF5.quest_desc: ["&d智能流体管道&r可以通过配置使其可以从管道网络提取特定流体或将特定流体注入管道网络中。"]
@@ -5534,9 +5534,9 @@
 	quest.34D191F76AA69707.quest_desc: [
 		"&e通量网络&r是无线能源方面的最强模组！"
 		""
-		"[\"开始本模组，你需要在\", {\"text\": \"反应仓\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"3334E05101A7297F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往反应仓任务\"}}, \"中制作\", {\"text\": \"通量粉尘\", \"color\": \"green\"}, \"，或在\", {\"text\": \"末地\", \"color\": \"light_purple\"}, \"使用\", {\"text\": \"铁砧\", \"color\": \"green\"}, \"砸在\", {\"text\": \"基岩\", \"color\": \"gray\"}, \"上粉碎\", {\"text\": \"红石粉\", \"color\": \"red\"}, \"获得。\"]"
+		"[\"要想入门，你需要制作出 \", {\"text\": \"通量粉尘\", \"color\": \"green\"}, \"，其制作方法之一是在\", {\"text\": \"反应仓\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"3334E05101A7297F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往反应仓任务\"}}, \"中合成；或是通过压碎\", {\"text\": \"红石\", \"color\": \"red\"}, \"来进行量产，具体做法是将其置于一座\", {\"text\": \"铁砧\", \"color\": \"green\"}, \" 和一块发现于\", {\"text\": \"末地\", \"color\": \"light_purple\"}, \"的 \", {\"text\": \"基岩\", \"color\": \"gray\"}, \"之间。\"]"
 		""
-		"&a通量粉尘&r是本模组中方块的主要合成材料。"
+		"&a通量粉尘&r是本模组中所有方块的主要合成材料。"
 		""
 		"用它制作&b能量网络控制器&r，它能够显示所有你能访问的通量网络并且能让你远程管理网络中的所有设备。"
 	]
@@ -5586,13 +5586,13 @@
 	quest.353F6C94B5D5FF0B.quest_subtitle: "&d阿卡纳&r之力"
 	quest.353F6C94B5D5FF0B.title: "&3回响深暗书架"
 	quest.354171E4089DFA96.quest_desc: [
-		"&d灌注塔&r是个挺强大的设备，可以给使用者&b无限时长的药水效果&r，不管在哪都能起效。"
+		"&d灌注塔&r是一台很超模的机械，它可以为使用者提供&b无限时长的药水效果&r，并且不受距离限制。"
 		""
-		"需要一个&a激活药水过滤卡&r才能设定&e灌注塔&r的药水效果。合成过滤卡后玩家再使用，就可以提取玩家身上的药水效果。"
+		"要让&e灌注塔&r赋予你某种效果，就需要一个有效的&a药水过滤卡&r。玩家可以合成这种过滤卡，然后对自己使用，以提取身上已有的同种药水效果。"
 		""
-		"它会提取出该药水在玩家身上的剩余时长，如果想要让过滤卡能装载到灌注塔上的话，至少需要&c一小时&r，也就是&c3600秒&r的剩余时长才行。"
+		"它会提取玩家身上该效果的全部剩余时长，并且需要累积吸取总计&c1小时&r（即&c3600秒&r）的效果时长，才能将过滤卡完全充满，并使其能够在灌注塔中生效。"
 		""
-		"请注意：过滤卡只会提取剩余时间大于等于1分钟的效果。"
+		"请注意：过滤卡只会提取剩余时长不小于1分钟的效果。"
 	]
 	quest.354171E4089DFA96.quest_subtitle: "无限时长的药水效果"
 	quest.354171E4089DFA96.title: "&f灌注塔"
@@ -5967,7 +5967,7 @@
 		""
 		"&d路由器&r本体也可以加装不同的&a升级&r，加装的升级决定了里面的模块如何运作。"
 		"{@pagebreak}"
-		"初始&d路由器&r只有一个物品缓存槽，可以装一组物品。"
+		"&d路由器&r默认只有一个物品缓存槽，可以装一组物品。"
 		""
 		"你可以升级&d路由器&r，加装特定升级和模块后，它就可以存储&9流体&r或&c能量&r。"
 	]
@@ -6054,7 +6054,7 @@
 	quest.392BCAC9B70F5948.title: "&f经验方尖碑"
 	quest.3934E11B476FC834.title: "&d1024B化学品存储组件"
 	quest.393850960DC22BB1.quest_desc: [
-		"如果想要从&d模块化路由器&r中输入输出物品，需要加装一些&a模块&r。"
+		"如果想要从&d路由器&r中输入输出物品，需要加装一些&a模块&r。"
 		""
 		"安装了&a发送&r和&a抽取模块 Mk1&r的&d路由器&r可以和相邻的存储方块交互。"
 		""
@@ -6573,7 +6573,7 @@
 	quest.3E25D043676C1CE9.title: "&f黏土"
 	quest.3E2E68B54A985CBF.quest_desc: ["&7&o&7&o选择任意一个能从Fargo的地牢的箱子发现的物品"]
 	quest.3E2E68B54A985CBF.title: "&bFargo的地牢战利品奖励包"
-	quest.3E328C7EB939180D.quest_subtitle: "在催化剂上使用黄色染料"
+	quest.3E328C7EB939180D.quest_subtitle: "对催化剂使用黄色染料"
 	quest.3E328C7EB939180D.title: "&f金矿晶母岩"
 	quest.3E37D6522BE4EB9B.title: "&b高级精华&f盔甲"
 	quest.3E63D54D05A3E300.quest_desc: [
@@ -6866,7 +6866,7 @@
 	quest.4126A470077923D2.title: "&f移动方块实体"
 	quest.412FD0DA6B746561.quest_subtitle: "通过交易获得"
 	quest.412FD0DA6B746561.title: "&f村民圣典"
-	quest.413A7D5169734560.quest_subtitle: "在催化剂上使用灰色染料"
+	quest.413A7D5169734560.quest_subtitle: "对催化剂使用灰色染料"
 	quest.413A7D5169734560.title: "&f铅矿晶母岩"
 	quest.4145FED51D1ACD76.quest_subtitle: "一切药水的基础。"
 	quest.4145FED51D1ACD76.title: "&f下界疣"
@@ -7079,15 +7079,15 @@
 	]
 	quest.4348C9D795E92FCE.title: "&a便携储能手段"
 	quest.4348D85E3DB176E2.quest_desc: [
-		"如果想要你的&d路由器&r能运输能量，你就需要加装一个&a能量升级&r。"
+		"如果想要你的&d路由器&r能传输能量，你就需要加装一个&a能量升级&r。"
 		""
-		"每次升级都会提升其&b总能量缓存&r，以及单次运输的&b能量传输量&r。这个升级最高叠加至64个。"
+		"每一个升级都会提升其&b总能量缓存&r，以及单次传输的&b总能量传输速率&r。这种升级最多可以叠加64个。"
 		"{@pagebreak}"
-		"如果想要把能量输出，那你需要安装一个&a能量输出模块&r。拿着这个模块并使用它，你就可以在&d路由器&r中设置从哪个面输出能量。"
+		"若要向外传输能量，你可以使用&a能量输出模块&r。手持该模块并右击，便可以配置&d路由器&r输出能量的朝向。"
 		""
-		"如果想要无线传输能源的话，请使用&6能量分配模块&r。对着方块潜行右击就可以把它加入传输能量的方块列表，无线传输范围在&d模块化路由器&r的周围一圈。"
+		"若要无线分配能量，请使用&6能量分配模块&r。对一个方块潜行右击该模块，便可将其添加至能量发送的目标列表，只要该目标位于&d路由器&r的一定范围之内即可。"
 		""
-		"你可以对着模块使用&a范围拓展&r来提升无线范围。"
+		"你可以在该模块内部安装&a范围升级扩展&r来扩大其作用范围。"
 	]
 	quest.4348D85E3DB176E2.title: "&f掌握能量"
 	quest.436BFB9B69B6D4A7.quest_desc: [
@@ -8737,13 +8737,13 @@
 	quest.535C11E589E11056.title: "&d疲乏符石"
 	quest.536FE5C4A9D37909.quest_desc: ["烈焰筛网是最高等级的网。其效能卓绝，常常能产出金属锭，而低阶筛网只能得到金属粒。"]
 	quest.536FE5C4A9D37909.quest_subtitle: "历经层层覆盖，那根线是否仍在？"
-	quest.536FE5C4A9D37909.title: "&f机械烈焰筛网"
+	quest.536FE5C4A9D37909.title: "&f烈焰机械筛网"
 	quest.53B7A49C8138D3B0.quest_desc: ["[\"使用\", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"和\", {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \"粉笔，和\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"，你现在就可以控制\", {\"text\": \"火灵\", \"color\": \"#FF55FF\"}, \" 附身僵尸猪灵了。它被杀死后会掉落\", {\"text\": \"恶魔之肉\", \"color\": \"#55FF55\"}, \" \"]"]
 	quest.53B7A49C8138D3B0.quest_subtitle: "附身五芒星：级别3"
 	quest.53B7A49C8138D3B0.title: "&c阿巴拉斯开环强令召唤术"
 	quest.53C0C268BF5CD09D.quest_desc: ["在&b戒指&r槽位装备&a杀戮戒指&r后，&2宝石&r和&a指环材料&r的&b行为触发效果&r可同时生效。（译注：实测只有宝石的行为触发效果有效）"]
 	quest.53C0C268BF5CD09D.title: "&f杀戮戒指"
-	quest.53D528FE7C905A39.quest_subtitle: "在催化剂上使用蓝色染料"
+	quest.53D528FE7C905A39.quest_subtitle: "对催化剂使用蓝色染料"
 	quest.53D528FE7C905A39.title: "&f青金石矿晶母岩"
 	quest.53E72F025E4CB895.quest_desc: ["&3动力锯&r可以一次性砍伐整棵树或处理物品配方。"]
 	quest.53E72F025E4CB895.title: "&3动力锯"
@@ -9034,7 +9034,7 @@
 	quest.5694360EC1FB87EB.title: "&d研究站"
 	quest.56A327D4172F3DD6.quest_desc: ["铁筛网是布筛网的固实升级。在升级到金筛网之前，记得先处理掉里面的泥土！"]
 	quest.56A327D4172F3DD6.quest_subtitle: "获得升级"
-	quest.56A327D4172F3DD6.title: "&f机械铁筛网"
+	quest.56A327D4172F3DD6.title: "&f铁机械筛网"
 	quest.56B533B5B84145D9.quest_desc: ["&7&o随机获得一种升级版熔炉"]
 	quest.56B533B5B84145D9.title: "&a熔炉升级包"
 	quest.56C6C2E5CA811E21.quest_desc: ["Seems to happen when blight spreads onto stone, but only existing blighted earth gets transformed?"]
@@ -9065,7 +9065,7 @@
 	]
 	quest.56E9C123DD727E46.quest_subtitle: "&o没有坏家伙"
 	quest.56E9C123DD727E46.title: "&a矩阵驱动器"
-	quest.56EC29FFC567ECC2.quest_subtitle: "在催化剂上使用红色染料"
+	quest.56EC29FFC567ECC2.quest_subtitle: "对催化剂使用红色染料"
 	quest.56EC29FFC567ECC2.title: "&f红石矿晶母岩"
 	quest.56F225D27E646F33.quest_desc: [
 		"&a战斗符石&r在玩家受击后提供额外0.25秒的无敌效果。"
@@ -10789,7 +10789,7 @@
 	quest.682D4887ED36D3B7.title: "&a末影之手"
 	quest.684AAE454101D8B7.quest_subtitle: "神圣套装"
 	quest.684AAE454101D8B7.title: "&6牧师套装"
-	quest.6856355966CA2B7F.quest_subtitle: "在催化剂上使用橙色染料"
+	quest.6856355966CA2B7F.quest_subtitle: "对催化剂使用橙色染料"
 	quest.6856355966CA2B7F.title: "&f铜矿晶母岩"
 	quest.68583162106594A8.quest_desc: [
 		"&7&o移动箱子一般都是个劳苦活儿，但现在不会了！"
@@ -10974,7 +10974,7 @@
 		"当&b存储磁盘&r内没有存储物品时，Shift右击可将存储组件与存储外壳分离。"
 	]
 	quest.6AA51581B0CA5271.title: "&a磁盘驱动器"
-	quest.6AA8A1FF1C8089F7.quest_subtitle: "在催化剂上使用黑色染料"
+	quest.6AA8A1FF1C8089F7.quest_subtitle: "对催化剂使用黑色染料"
 	quest.6AA8A1FF1C8089F7.title: "&f煤矿晶母岩"
 	quest.6ABA6F335165D860.quest_subtitle: "把这个钓上来！"
 	quest.6ABA6F335165D860.title: "&f锡精华"
@@ -11027,7 +11027,7 @@
 		"&7&o成品为7x7x7的多方块结构"
 	]
 	quest.6B6C60BFE1D378D0.title: "&6完全体装配矩阵"
-	quest.6B779BFEDE0CB57A.quest_subtitle: "在催化剂上使用棕色染料"
+	quest.6B779BFEDE0CB57A.quest_subtitle: "对催化剂使用棕色染料"
 	quest.6B779BFEDE0CB57A.title: "&f镍矿晶母岩"
 	quest.6B9371B721B992AD.quest_subtitle: "孢子会炸开"
 	quest.6B9371B721B992AD.title: "&a孢子囊"
@@ -11998,7 +11998,7 @@
 	quest.75D7595FD90E77E5.title: "&d装配矩阵样板核心"
 	quest.75F7DB301ADF3667.quest_desc: ["金筛网是制作钻石等级前的绝佳选择。事实上，你获得的绿宝石碎片会是你要用的……"]
 	quest.75F7DB301ADF3667.quest_subtitle: "由苹果公司赞助"
-	quest.75F7DB301ADF3667.title: "&f机械金筛网"
+	quest.75F7DB301ADF3667.title: "&f金机械筛网"
 	quest.76120A38BC49FB92.quest_desc: [
 		"&b塑料&r是高级合成配方的重要材料。"
 		""
@@ -12294,7 +12294,7 @@
 		"为了让事情更方便些，&7异界树苗交易者&r会用稳定型的树苗来交换这些天然的异世界树苗，这种稳定型树苗任何人都可以进行砍伐收获，而且在被砍伐收获时会掉落同样的稳定型树苗。"
 	]
 	quest.78C04CC1114AECF7.title: "&7魔精 &f异界树苗交易者"
-	quest.7900FC41FB06C932.quest_subtitle: "在催化剂上使用白色染料"
+	quest.7900FC41FB06C932.quest_subtitle: "对催化剂使用白色染料"
 	quest.7900FC41FB06C932.title: "&f铁矿晶母岩"
 	quest.790B688EBB673CBA.quest_desc: [
 		"你可以用附魔装置制造出&d法师之花种子&r，用它满足你的纤维需求。"
@@ -12343,7 +12343,7 @@
 	quest.795A3ABA29AC0E4F.quest_desc: ["消耗冰雪发电。"]
 	quest.795A3ABA29AC0E4F.title: "&f菌丝网络霜结发电机"
 	quest.79758946937D2AE9.quest_desc: ["你的第一个筛网！用来收集一些简单的资源，或获取更多植物材料再合适不过。"]
-	quest.79758946937D2AE9.title: "&f机械布筛网"
+	quest.79758946937D2AE9.title: "&f布机械筛网"
 	quest.7983727D0EE456FD.quest_desc: [
 		"&aJust Dire Things&r的资源获取有自己的一套机制。"
 		""
