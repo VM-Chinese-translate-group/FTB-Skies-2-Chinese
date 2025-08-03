@@ -464,7 +464,7 @@
 		""
 		"末影傀儡在各处游荡，但最难缠的敌人是驻守在最底层的&5末影守卫&r。"
 	]
-	quest.040795388568AB69.title: "&f找到&5废弃城堡"
+	quest.040795388568AB69.title: "&f找到&5废弃城堡（Ruined Citadel）"
 	quest.0443A2BAF6025343.quest_desc: ["放置在你的动物牧场下面时即可收集&2污水&r，用&2污水堆肥机&r将其转化为肥料，加速作物生长。"]
 	quest.0443A2BAF6025343.title: "&2动物排污器"
 	quest.0444EF9A04406894.quest_desc: [
@@ -2013,7 +2013,7 @@
 	]
 	quest.12468F8BF7B80737.title: "&2探索永无边界！"
 	quest.12498DE8D427D40E.quest_desc: ["下界要塞中会大量生成烈焰人和凋灵骷髅，既能产出关键资源，还能收获不少战利品。"]
-	quest.12498DE8D427D40E.title: "&f找到&c下界要塞"
+	quest.12498DE8D427D40E.title: "&f找到&c下界要塞（Nether Fortress）"
 	quest.12506117C5C46682.title: "&b焦黑石英"
 	quest.125A4B95A5D21B04.quest_desc: [
 		"&7&n&o从下面选择一个："
@@ -2873,7 +2873,7 @@
 	]
 	quest.1B8BB733ADF897FE.title: "&eProductive Metalworks&r&6熔铸炉"
 	quest.1B8F8FB85E523670.quest_desc: ["这座岛屿上有一座简朴的&c炽焰术士塔&r。由于无法向地下拓展空间，他们只能在地表与你正面交锋。"]
-	quest.1B8F8FB85E523670.title: "&f找到&c炽焰术士塔"
+	quest.1B8F8FB85E523670.title: "&f找到&c炽焰术士塔（Pyromancer）"
 	quest.1B9C122BAE5A64BC.quest_desc: [
 		"&6恶魔伴侣&r是个脱单的好法子"
 		""
@@ -3517,7 +3517,7 @@
 	]
 	quest.219B014D60EF0DDD.title: "&f风中低语"
 	quest.21A521011401074F.quest_desc: ["一座生活着&d药剂师&r的岛屿，同时也被一群不太友善的女巫所盘踞。"]
-	quest.21A521011401074F.title: "&f找到&d药剂师小屋"
+	quest.21A521011401074F.title: "&f找到&d药剂师小屋（Apothecary）"
 	quest.21AD51F1B13BD133.quest_desc: [
 		"&a更多熔炉&r模组添加了升级版的熔炉，比普通熔炉好得多！"
 		""
@@ -4798,7 +4798,7 @@
 	]
 	quest.2E9C2F524BE5FC10.title: "&f工程块"
 	quest.2EA531C50FE17444.quest_desc: ["&6奥术图书馆&r是一座独特的大型建筑，其中蕴藏着海量知识与工具，专为有志成为魔法法师的人准备，同时也布满了很多的陷阱。"]
-	quest.2EA531C50FE17444.title: "&f找到&6奥术图书馆"
+	quest.2EA531C50FE17444.title: "&f找到&6奥术图书馆（Arcane Library）"
 	quest.2EA7CCDB687AC468.quest_desc: ["&a保鲜升级&r后，容器中每组物品都会在使用过程中至少留存一个，而非直接用完。"]
 	quest.2EA7CCDB687AC468.title: "&f保鲜室"
 	quest.2EAA02B80B0E4D5A.title: "&34096B流体存储组件"
@@ -6116,7 +6116,7 @@
 		""
 		"熔岩遍布之地，封存着一位&6远古强敌&r的记忆，需用炽燃余烬将其唤醒。"
 	]
-	quest.3A084B83B8CFAACD.title: "&f发现&c烈焰竞技场"
+	quest.3A084B83B8CFAACD.title: "&f发现&c烈焰竞技场（Burning Arena）"
 	quest.3A17E4DF31D26856.quest_desc: [
 		"&a符文石&r是探索德鲁伊魔法的下一个重心。虽然它只是在石头上涂药草，但简陋并不意味着无用。"
 		""
@@ -6437,7 +6437,7 @@
 	]
 	quest.3CC88B6ACDC68D5F.title: "娃娃"
 	quest.3CCE39C0957034B3.quest_desc: ["一座漂浮在虚空中的&6沙漠孤岛&r，这片与世隔绝的沙丘栖息着一种叫骷髅狗头人的特殊亡灵生物。"]
-	quest.3CCE39C0957034B3.title: "&f漫步进入&6炽热沙漠"
+	quest.3CCE39C0957034B3.title: "&f漫步进入&6炽热沙漠（Blazing Desert）"
 	quest.3CD3CA5B619F5698.quest_desc: ["&a时运&r和&a精准采集&r升级可以安装在&a破坏面板&r中，这样它破坏方块时就会有这种魔咒的效果了。"]
 	quest.3CD3CA5B619F5698.title: "&a时运\\&\\精准采集升级"
 	quest.3CEB8BF2F48ECDBA.quest_subtitle: "将熔融石英浇注在催化剂上"
@@ -7325,7 +7325,7 @@
 		""
 		"如果你仔细搜索，或许能发现一个&2晶质铀矿矿晶&r……"
 	]
-	quest.45C187DEF7B60C05.title: "&f找到&c火山"
+	quest.45C187DEF7B60C05.title: "&f找到&c火山（Volcano）"
 	quest.45C2A0B3F277C09B.quest_desc: ["&e专业提示&r：你可以直接对着通用机械的任意管道使用&c合金&r就直接将它们升至下一级！"]
 	quest.45C2A0B3F277C09B.quest_subtitle: "能量管道"
 	quest.45C2A0B3F277C09B.title: "{\"text\": \"基础通用线缆\", \"color\": \"#5EFCB6\"}"
@@ -7957,7 +7957,7 @@
 	]
 	quest.4BA8E435EDA995AC.title: "&f虚空升级"
 	quest.4BB5ADD98F958712.quest_desc: ["虚空深处隐藏着一座地牢，里面堆满了各种来路不明的魔法宝物，由各类诡异的生物守卫着。&6高位唤魔者&r站在最高层，掌控着这片禁地。"]
-	quest.4BB5ADD98F958712.title: "&f发现&6神秘魔法地牢"
+	quest.4BB5ADD98F958712.title: "&f发现&6神秘魔法地牢（Magical Dungeon）"
 	quest.4BB6832FE4685131.quest_desc: ["要使用&3灵魂&r，请将&a灵魂促速器&r指向你想要加速的方块，并使用&a灵魂管道&r将其连接到&d灵魂镭射钻&r。"]
 	quest.4BB6832FE4685131.title: "&3传输灵魂"
 	quest.4BBEE37F0D847BA9.quest_subtitle: "传输流体"
@@ -8386,7 +8386,7 @@
 		""
 		"击败这些敌人中最为庞大的那个，就能进入那力量的源头之处，并做好全力一战的准备。"
 	]
-	quest.4F8C7DC594972DE4.title: "&f邂逅那座&b寒冰宫殿"
+	quest.4F8C7DC594972DE4.title: "&f邂逅那座&b寒冰宫殿（Ice Castle）"
 	quest.4FA766AD24D00325.quest_desc: ["&b苍穹晶&r可以合成该模组的高级机器！"]
 	quest.4FA766AD24D00325.title: "&f高级机器"
 	quest.4FA9FABD84B4751A.quest_desc: [
@@ -8433,7 +8433,7 @@
 	]
 	quest.4FF4DA1DA3551C1C.title: "&f初级替换器"
 	quest.5003396EDC1C994E.quest_desc: ["一座属于敌对&3冰霜术士&r的岛屿。找到他们隐秘的地下室入口，与它们正面交锋。"]
-	quest.5003396EDC1C994E.title: "&f找到&3冰霜术士塔"
+	quest.5003396EDC1C994E.title: "&f找到&3冰霜术士塔（Cryomancer )"
 	quest.50049BE2452AB7F5.quest_desc: [
 		"我们第一个目标是要将现有的&7蒸汽&r转化为电力来给机器供能！"
 		""
@@ -8814,7 +8814,7 @@
 	]
 	quest.544DCCAF97078924.title: "&f符石基座"
 	quest.5455CF5D3C37ECA9.quest_desc: ["这座矗立于下界虚空中的宏伟建筑，其内部藏有珍贵宝藏和敌人猪灵，还有一尊强大的守卫傀儡，会攻击任何靠近的人。"]
-	quest.5455CF5D3C37ECA9.title: "&f找到&6堡垒"
+	quest.5455CF5D3C37ECA9.title: "&f找到&6堡垒（Bastion）"
 	quest.5461C3C56F568B75.quest_desc: [
 		"&a金属冲压模具&b工程师蓝图&r提供了不同模具的制作配方，这些模具还能应用于&a金属冲压机&r以外的机器。"
 		""
@@ -13436,7 +13436,7 @@
 	task.43467AECBE710424.title: "Elite Meka Bundle"
 	task.43F12298AA3644E9.title: "升级到铁质"
 	task.4415E9DB78B55B97.title: "&e击杀&f：&a咒翼灵骸"
-	task.446DBFCB73EC10E7.title: "&e找到建筑&f：&9卫城"
+	task.446DBFCB73EC10E7.title: "&e找到建筑&f：&9卫城（Acropolis）"
 	task.45016D6A71CA38A9.title: "&c能量立方&r"
 	task.451E61A1ECC2650B.title: "FTB事件"
 	task.4544EA17F4CDD321.title: "了解词缀物品的特性"
