@@ -58,30 +58,32 @@ jobs:
       - name: Commit and Push changes
         id: commit
         run: |
-          # 如果错误报告存在，从 Git 追踪中移除，避免被提交
-          if [ -f "error_report.html" ]; then
-            git rm --cached error_report.html
-          fi
-          # 如果 __pycache__ 目录存在，也从 Git 追踪中移除
-          if [ -d ".github/workflows/__pycache__" ]; then
-            git rm -r --cached .github/workflows/__pycache__/
+          # 检查工作区，如果没有任何更改，则提前退出
+          if [[ -z $(git status --porcelain) ]]; then
+            echo "No changes detected from Paratranz. Nothing to commit."
+            echo "changed=false" >> $GITHUB_OUTPUT
+            exit 0
           fi
 
-          # 检查是否有任何文件更改需要提交
-          # -z 表示检查字符串是否为空
-          if [[ -z $(git status --porcelain) ]]; then
-            # 如果 git status 返回空，说明没有更改
-            echo "No changes detected from Paratranz. Working tree clean."
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            # 如果有更改，则执行提交和推送
-            echo "Changes detected. Committing and pushing..."
-            git add .
-            git commit -m '从Paratranz同步翻译'
-            git pull --rebase origin main
-            git push
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
+          # 如果有更改，则继续执行
+          echo "Changes detected. Preparing to commit..."
+
+          # 在暂存所有更改之前，从 Git 缓存中移除不需要的文件
+          # 这样可以避免 "changes not staged for commit" 的警告
+          git rm -r --cached --ignore-unmatch .github/workflows/__pycache__/
+          git rm --cached --ignore-unmatch error_report.html
+
+          # 添加所有更改并提交
+          git add .
+          git commit -m '从Paratranz同步翻译'
+
+          # 推送前先拉取远程更改，避免冲突
+          git pull --rebase origin main
+
+          # 推送到远程仓库
+          git push
+
+          echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Upload Error Report Artifact
         if: ${{ env.error_report_exists == 'true' }}
