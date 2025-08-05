@@ -437,9 +437,6 @@
 			}]
 			shape: "square"
 			tasks: [{
-				icon: {
-					id: "oritech:machine_core_6"
-				}
 				id: "23DB2322C9E7ACFA"
 				item: { components: { "ftbfiltersystem:filter": "or(item(oritech:machine_core_5)item(oritech:machine_core_6))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -792,6 +789,14 @@
 			optional: true
 			rewards: [
 				{
+					id: "050E05E601FB254A"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "1D3A5C9FBDA307C1"
 					item: {
 						count: 1
@@ -807,14 +812,6 @@
 						id: "industrialforegoing:plastic"
 					}
 					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "050E05E601FB254A"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -1014,6 +1011,14 @@
 			optional: true
 			rewards: [
 				{
+					id: "346E42D9702F8222"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "2BA452151C3DD5A4"
 					item: {
 						count: 1
@@ -1030,14 +1035,6 @@
 					}
 					random_bonus: 2
 					team_reward: true
-					type: "item"
-				}
-				{
-					id: "346E42D9702F8222"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -1068,6 +1065,14 @@
 			optional: true
 			rewards: [
 				{
+					id: "64BC721C07F60EE8"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "0E548CF7CA6142FD"
 					item: {
 						count: 1
@@ -1083,14 +1088,6 @@
 						id: "industrialforegoing:plastic"
 					}
 					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "64BC721C07F60EE8"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -1121,6 +1118,14 @@
 			optional: true
 			rewards: [
 				{
+					id: "630A36C42CE35BF5"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "445EDB09050A5DA4"
 					item: {
 						count: 1
@@ -1136,14 +1141,6 @@
 						id: "industrialforegoing:plastic"
 					}
 					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "630A36C42CE35BF5"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]

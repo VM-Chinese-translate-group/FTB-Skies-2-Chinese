@@ -1119,7 +1119,7 @@
 			dependencies: ["637CDD290456F2B2"]
 			id: "0FEE43187F69FA22"
 			rewards: [{
-				count: 3
+				count: 5
 				id: "4FBAE948A89EB4AC"
 				item: {
 					count: 1
@@ -1142,7 +1142,7 @@
 			id: "637CDD290456F2B2"
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "215D2EFDBD069989"
 					item: {
 						count: 1
@@ -1215,7 +1215,7 @@
 			id: "43CA621F23D0298A"
 			optional: true
 			rewards: [{
-				count: 3
+				count: 5
 				id: "5E77820824E5F301"
 				item: {
 					count: 1
@@ -1238,7 +1238,7 @@
 			id: "7EA2616705E80E24"
 			optional: true
 			rewards: [{
-				count: 3
+				count: 5
 				id: "2F258973A0673A51"
 				item: {
 					count: 1
@@ -1461,7 +1461,7 @@
 			id: "58D46C65E1B754C0"
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "4A90241A8E5EA30C"
 					item: {
 						count: 1
@@ -1758,6 +1758,24 @@
 					}
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "40DB623080AA94DC"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "5A02DF00CA279DDA"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			tasks: [{
 				id: "43D69971704F23F8"
@@ -1907,6 +1925,7 @@
 			id: "4EF7ACF0C1883E76"
 			rewards: [
 				{
+					count: 3
 					id: "7BEFC2BE576D29A9"
 					item: {
 						count: 1
@@ -1950,6 +1969,7 @@
 			id: "373AB8CD1B10D694"
 			rewards: [
 				{
+					count: 3
 					id: "69FFEE4A1B66AB6B"
 					item: {
 						count: 1
@@ -1993,6 +2013,7 @@
 			id: "7B8076959957E3FA"
 			rewards: [
 				{
+					count: 3
 					id: "7DF78D176BE266D1"
 					item: {
 						count: 1

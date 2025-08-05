@@ -137,6 +137,15 @@
 			rewards: [
 				{
 					count: 4
+					id: "27CAA8CC778721FD"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
 					id: "3056CC59E9B0DD5A"
 					item: {
 						count: 1
@@ -150,15 +159,6 @@
 					item: {
 						count: 1
 						id: "roots:grove_spores"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "27CAA8CC778721FD"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -233,19 +233,19 @@
 			id: "65D55532C0286746"
 			rewards: [
 				{
-					id: "3C65A7F23AE8D0C3"
-					item: {
-						count: 1
-						id: "roots:aubergine_salad"
-					}
-					type: "item"
-				}
-				{
 					count: 8
 					id: "33651D14104B72FC"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3C65A7F23AE8D0C3"
+					item: {
+						count: 1
+						id: "roots:aubergine_salad"
 					}
 					type: "item"
 				}
@@ -276,19 +276,19 @@
 			rewards: [
 				{
 					count: 4
-					id: "674A53237BFF4021"
+					id: "6F34E466BAC56FD3"
 					item: {
 						count: 1
-						id: "roots:elemental_soil"
+						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "6F34E466BAC56FD3"
+					id: "674A53237BFF4021"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "roots:elemental_soil"
 					}
 					type: "item"
 				}
@@ -323,19 +323,19 @@
 			id: "5BF13A09E1CBCA76"
 			rewards: [
 				{
-					id: "74A4DCAE83E0100F"
-					item: {
-						count: 1
-						id: "roots:charm_of_alertness"
-					}
-					type: "item"
-				}
-				{
 					count: 3
 					id: "7C37B27335853BF0"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "74A4DCAE83E0100F"
+					item: {
+						count: 1
+						id: "roots:charm_of_alertness"
 					}
 					type: "item"
 				}
@@ -374,20 +374,20 @@
 			id: "16206DA366CABDBE"
 			rewards: [
 				{
-					count: 5
-					id: "2F7BDA0EEB108226"
-					item: {
-						count: 1
-						id: "roots:runestone"
-					}
-					type: "item"
-				}
-				{
 					count: 2
 					id: "79E942C397DCC1D5"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2F7BDA0EEB108226"
+					item: {
+						count: 1
+						id: "roots:runestone"
 					}
 					type: "item"
 				}
@@ -412,6 +412,14 @@
 			id: "3A17E4DF31D26856"
 			rewards: [
 				{
+					id: "01ED933A1EBDE18D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 3
 					id: "0FABDAE7F0E308E5"
 					item: {
@@ -419,14 +427,6 @@
 						id: "roots:runestone"
 					}
 					random_bonus: 3
-					type: "item"
-				}
-				{
-					id: "01ED933A1EBDE18D"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -446,19 +446,19 @@
 			id: "084450FB6934B329"
 			rewards: [
 				{
+					id: "7253AA921D6F8A89"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 8
 					id: "6FAE6E3984064C65"
 					item: {
 						count: 1
 						id: "minecraft:birch_log"
-					}
-					type: "item"
-				}
-				{
-					id: "7253AA921D6F8A89"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -519,20 +519,21 @@
 				id: "roots:ritual_animal_harvest"
 			}
 			id: "554D9B6BE7F3B16E"
+			min_width: 300
 			rewards: [
-				{
-					id: "6855A013B350D660"
-					item: {
-						count: 1
-						id: "roots:jerboa_spawn_egg"
-					}
-					type: "item"
-				}
 				{
 					id: "1E49B5BE0431B3D3"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6855A013B350D660"
+					item: {
+						count: 1
+						id: "roots:jerboa_spawn_egg"
 					}
 					type: "item"
 				}
@@ -560,19 +561,19 @@
 			id: "0C005377C48763F4"
 			rewards: [
 				{
+					id: "06BBC146A310B23C"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 6
 					id: "74E0991ADDB8F838"
 					item: {
 						count: 1
 						id: "roots:wildewheet_bread"
-					}
-					type: "item"
-				}
-				{
-					id: "06BBC146A310B23C"
-					item: {
-						count: 1
-						id: "magic_coins:crystal_coin"
 					}
 					type: "item"
 				}
@@ -611,19 +612,19 @@
 			id: "26967FC6CE3428BC"
 			rewards: [
 				{
-					id: "57DE98C0600A3482"
-					item: {
-						count: 1
-						id: "roots:herb_pouch"
-					}
-					type: "item"
-				}
-				{
 					count: 6
 					id: "606C7F914B635578"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "57DE98C0600A3482"
+					item: {
+						count: 1
+						id: "roots:herb_pouch"
 					}
 					type: "item"
 				}
@@ -651,19 +652,19 @@
 			optional: true
 			rewards: [
 				{
+					id: "52A657C953F3FD85"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 4
 					id: "404E66A45E307ED5"
 					item: {
 						count: 1
 						id: "roots:grove_moss"
-					}
-					type: "item"
-				}
-				{
-					id: "52A657C953F3FD85"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -684,18 +685,18 @@
 			id: "00AE6584ACB79B5D"
 			rewards: [
 				{
-					id: "09D177CB1A736659"
-					item: {
-						count: 1
-						id: "roots:wildwood_sapling"
-					}
-					type: "item"
-				}
-				{
 					id: "6FF7F4BBE669ACE2"
 					item: {
 						count: 1
 						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "09D177CB1A736659"
+					item: {
+						count: 1
+						id: "roots:wildwood_sapling"
 					}
 					type: "item"
 				}

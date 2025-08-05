@@ -739,11 +739,19 @@
 				{
 					id: "78314C713F46860A"
 					item: { count: 1, id: "justdirethings:gooblock_tier2" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "48C4DD8E9777EB16"
+					item: { count: 1, id: "justdynathings:goo_upgrader_t1" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6158AD62A7DAC490"
 					item: { count: 1, id: "justdirethings:raw_blazegold" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -791,11 +799,19 @@
 				{
 					id: "4D93FC9E0FBBADEF"
 					item: { count: 1, id: "justdirethings:gooblock_tier4" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "237B90F638C720CA"
+					item: { count: 1, id: "justdynathings:goo_upgrader_t3" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "00993FB933347924"
 					item: { count: 1, id: "justdirethings:raw_eclipsealloy" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1304,11 +1320,19 @@
 				{
 					id: "6BE1DD43AD951343"
 					item: { count: 1, id: "justdirethings:gooblock_tier3" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "57AA79FF562919B6"
+					item: { count: 1, id: "justdynathings:goo_upgrader_t2" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "27D4D22FA2E88FD8"
 					item: { count: 1, id: "justdirethings:celestigem" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2115,25 +2139,14 @@
 			dependencies: ["105D29AEE67BE97B"]
 			id: "678D5A29CA06C587"
 			optional: true
-			rewards: [
-				{
-					id: "7094DD4895DA68C0"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "7094DD4895DA68C0"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					count: 4
-					id: "3DECC74FA5797EC8"
-					item: {
-						count: 1
-						id: "utilitarian:cursed_grrass"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "57DB8FC224BB121A"
@@ -3060,6 +3073,7 @@
 		{
 			dependencies: ["630661119379FA37"]
 			id: "5BD655FBD85F1831"
+			optional: true
 			rewards: [{
 				id: "2A8635ADE9BC3972"
 				item: {

@@ -27,6 +27,7 @@
 		}
 	]
 	emergency_items_cooldown: 300
+	fallback_locale: ""
 	grid_scale: 0.5d
 	hide_excluded_quests: false
 	icon: {
@@ -41,5 +42,6 @@
 	pause_game: false
 	progression_mode: "flexible"
 	show_lock_icons: true
+	verify_on_load: false
 	version: 13
 }

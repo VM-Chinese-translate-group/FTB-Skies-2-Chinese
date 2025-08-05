@@ -1,0 +1,1493 @@
+{
+	autofocus_id: "5AF11DFE839F95E6"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: "rsquare"
+	filename: "rftools_series"
+	group: "3E3B6463983F18FB"
+	icon: {
+		id: "rftoolsbase:machine_frame"
+	}
+	id: "3B3AD612555627C6"
+	images: [
+		{
+			color: 11184810
+			height: 11.0d
+			image: "rftoolsbase:block/base/machineside"
+			order: -9
+			rotation: 0.0d
+			width: 11.0d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			color: 2236962
+			height: 11.0d
+			image: "rftoolspower:block/coalgenerator_glow"
+			order: -5
+			rotation: 180.0d
+			width: 11.0d
+			x: 0.0d
+			y: -0.7d
+		}
+		{
+			height: 1.0d
+			image: "xnet:block/cable0/normal_three_netcable"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "xnet:block/cable0/normal_none_netcable"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "xnet:block/cable0/normal_none_netcable"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "xnet:block/cable0/normal_none_netcable"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "xnet:block/cable0/normal_none_netcable"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "xnet:block/cable0/normal_none_netcable"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "xnet:block/cable0/normal_none_netcable"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "xnet:block/cable0/normal_none_netcable"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "xnet:block/cable0/normal_none_netcable"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "xnet:block/cable0/normal_none_netcable"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "xnet:block/cable0/normal_three_netcable"
+			rotation: -90.0d
+			width: 1.0d
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "xnet:block/cable0/normal_three_netcable"
+			rotation: 180.0d
+			width: 1.0d
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "xnet:block/cable0/normal_three_netcable"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.5d
+			y: -2.0d
+		}
+	]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			id: "3A53E8547A11E845"
+			optional: true
+			rewards: [
+				{
+					id: "44B5034E529ADC8F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1529CF477EC03042"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08A9AED87B2C1F31"
+				item: { count: 1, id: "rftoolsbase:filter_module" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsbuilder:builder"
+			}
+			id: "24DD342E1068D45A"
+			min_width: 350
+			rewards: [
+				{
+					id: "185593F46DB3DBA0"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "48CC64856CA6144C"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6758644C64582B86"
+					item: { count: 1, id: "rftoolsbuilder:builder" }
+					type: "item"
+				}
+				{
+					id: "2E47317859B0A6A0"
+					item: { components: { "ftbfiltersystem:filter": "or(item(rftoolsbuilder:shape_card_def)item(rftoolsbuilder:shape_card_void))", "minecraft:custom_name": "\"Builder Shape Cards\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "1FD29623363B34D1"
+					item: { components: { "ftbfiltersystem:filter": "or(item(rftoolsbuilder:shape_card_pump)item(rftoolsbuilder:shape_card_pump_clear)item(rftoolsbuilder:shape_card_liquid))", "minecraft:custom_name": "\"Builder Fluid Cards\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "14F5F657C9F54C33"
+					item: { components: { "ftbfiltersystem:filter": "or(item(rftoolsbuilder:shape_card_quarry)item(rftoolsbuilder:shape_card_quarry_fortune)item(rftoolsbuilder:shape_card_quarry_silk)item(rftoolsbuilder:shape_card_quarry_clear)item(rftoolsbuilder:shape_card_quarry_clear_fortune)item(rftoolsbuilder:shape_card_quarry_clear_silk))", "minecraft:custom_name": "\"Builder Quarry Cards\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolspower:blazing_generator"
+			}
+			id: "5D52B308E45E29D4"
+			min_width: 300
+			rewards: [
+				{
+					id: "08CFC88DC9B33E23"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2350984093270DDB"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "46A3F2D3BABB2B5C"
+					item: { count: 1, id: "rftoolspower:blazing_agitator" }
+					type: "item"
+				}
+				{
+					id: "77A99E57ED934C3E"
+					item: { count: 1, id: "rftoolspower:blazing_generator" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D52B308E45E29D4"]
+			id: "53A5598F55DA9DB8"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "4D170C9A191E5E6D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6D2A608E5EF30ED7"
+					item: {
+						count: 1
+						id: "rftoolsbase:dimensionalshard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "133A5AC176D7CB56"
+				item: { count: 1, id: "rftoolspower:blazing_infuser" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsutility:environmental_controller"
+			}
+			id: "0A3951173D287D12"
+			rewards: [
+				{
+					id: "05CD2196CA45E18B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5493DB8CE22CB6EB"
+					item: {
+						count: 1
+						id: "rftoolsbase:dimensionalshard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "16040CE3A988BCC5"
+					item: { count: 1, id: "rftoolsutility:environmental_controller" }
+					type: "item"
+				}
+				{
+					id: "4C622E6611FBC36C"
+					item: { count: 1, id: "rftoolsutility:module_template" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolspower:dimensionalcell"
+			}
+			id: "25B9F4FD7CA67A0B"
+			min_width: 350
+			rewards: [
+				{
+					id: "464D49A10AD0DF77"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3587072C416B716F"
+					item: {
+						count: 1
+						id: "rftoolspower:dimensionalcell"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35E1969475173837"
+					item: { count: 1, id: "rftoolspower:powercell_card" }
+					type: "item"
+				}
+				{
+					id: "25B3B64A569AA258"
+					item: { count: 1, id: "rftoolspower:dimensionalcell" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "70CB2961AB3AF7BD"
+					item: { count: 1, id: "rftoolspower:dimensionalcell_simple" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B8B26A8DDCF167C"
+					item: { count: 1, id: "rftoolspower:dimensionalcell_advanced" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			id: "4C6E198CD591C2A5"
+			optional: true
+			rewards: [
+				{
+					id: "29B05B6BAD39D686"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "080397641BD83F0C"
+					item: {
+						count: 1
+						id: "rftoolsbase:dimensionalshard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A01070604ECF874"
+				item: { count: 1, id: "rftoolsbase:machine_infuser" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			id: "10666CF50D6A5879"
+			rewards: [
+				{
+					id: "355510D7E24FC9E2"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "28A585A0DAFB5370"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DAE1387EB43F333"
+				item: { count: 1, id: "rftoolsutility:matter_receiver" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolspower:cell1"
+			}
+			id: "7EA0870C93C7DBA5"
+			min_width: 350
+			rewards: [
+				{
+					id: "2C11129899345CFA"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "24AB25E348CF7659"
+					item: {
+						count: 1
+						id: "rftoolspower:cell1"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C4E81082BD2A0C5"
+					item: { count: 1, id: "rftoolspower:cell1" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6A8CE9B1B38457B8"
+					item: { count: 1, id: "rftoolspower:cell2" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3C15486793C74F9D"
+					item: { count: 1, id: "rftoolspower:cell3" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsutility:destination_analyzer"
+			}
+			id: "6C4FFE73EAA06532"
+			optional: true
+			rewards: [
+				{
+					id: "5505199557D2C33B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3FE9074E4266296E"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:healing"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2C194641078B58CB"
+					item: {
+						count: 1
+						id: "rftoolsbase:dimensionalshard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "451AFFE764CE5327"
+					item: { count: 1, id: "rftoolsutility:matter_booster" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "27E19CB6F9E13F35"
+					item: { count: 1, id: "rftoolsutility:destination_analyzer" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsutility:spawner"
+			}
+			id: "06B2E450F423BFAF"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "0279D015485951FF"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5B236854F2DE50BA"
+					item: {
+						count: 1
+						id: "minecraft:dirt"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "21992B2C0FF35EDE"
+					item: {
+						count: 1
+						id: "minecraft:netherrack"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7945B967C53E3462"
+					item: { count: 1, id: "rftoolsutility:spawner" }
+					type: "item"
+				}
+				{
+					id: "372F63715E2A5A18"
+					item: { count: 1, id: "rftoolsutility:matter_beamer" }
+					type: "item"
+				}
+				{
+					id: "25D706D66B407E0A"
+					item: { count: 1, id: "rftoolsutility:syringe" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsutility:matter_transmitter"
+			}
+			id: "0173ED2BED248CF6"
+			rewards: [
+				{
+					id: "2042F67672ABAADA"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "545477C2F9FD396F"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "478CC5F3F82C17D9"
+					item: { count: 1, id: "rftoolsutility:dialing_device" }
+					type: "item"
+				}
+				{
+					id: "5358822B44A07563"
+					item: { count: 1, id: "rftoolsutility:matter_transmitter" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsutility:charged_porter"
+			}
+			id: "772F36EDDAB09858"
+			rewards: [
+				{
+					id: "56E0A7B42C9EDBDF"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "152BD92F521DE117"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5B46B67D1EB8A4A0"
+					item: { count: 1, id: "rftoolsutility:charged_porter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "35B632BD1B1F9350"
+					item: { count: 1, id: "rftoolsutility:advanced_charged_porter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsutility:crafter3"
+			}
+			id: "565D620BA8CB396B"
+			min_width: 350
+			rewards: [
+				{
+					id: "1F9710E33155BAB2"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "68371067008CBB69"
+					item: {
+						count: 1
+						id: "minecraft:crafting_table"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "561054BE4D8468AD"
+					item: {
+						count: 1
+						id: "minecraft:redstone_torch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "400E70FAAE1C8103"
+					item: { count: 1, id: "rftoolsutility:crafter1" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E363182B93EBC93"
+					item: { count: 1, id: "rftoolsutility:crafter2" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6E8BF09FC4D20D33"
+					item: { count: 1, id: "rftoolsutility:crafter3" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolspower:endergenic"
+			}
+			id: "17D5EB0E89BC10D7"
+			min_width: 350
+			rewards: [
+				{
+					count: 2
+					id: "15948E92186901B8"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "66853FA00379DE4C"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "4A9139CB1A6EA3E0"
+					item: {
+						count: 1
+						id: "rftoolspower:endergenic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0E58CB021ED4F956"
+					item: { count: 1, id: "rftoolspower:endergenic" }
+					type: "item"
+				}
+				{
+					id: "017B1B001C8706EB"
+					item: { count: 1, id: "rftoolspower:pearl_injector" }
+					type: "item"
+				}
+				{
+					id: "5DCAD74580C99758"
+					item: { count: 1, id: "rftoolspower:ender_monitor" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsutility:redstone_transmitter"
+			}
+			id: "17336F4FA0F73DC4"
+			rewards: [
+				{
+					id: "44BA8D3B5CE7AD2E"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "62EDC08AF3A5ED10"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2ED02C88601F2CC2"
+					item: { count: 1, id: "rftoolsutility:redstone_receiver" }
+					type: "item"
+				}
+				{
+					id: "630107F30F49F502"
+					item: { count: 1, id: "rftoolsutility:redstone_transmitter" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsbuilder:shield_block1"
+			}
+			id: "3AF1BAEDEF45FAB0"
+			min_width: 350
+			rewards: [
+				{
+					id: "220501DB659806D5"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "68E72497E92B01C7"
+					item: {
+						components: {
+							"minecraft:custom_name": "\"Hold the Line\""
+							"minecraft:enchantments": {
+								levels: {
+									"apothic_enchanting:reflective_defenses": 5
+									"apothic_enchanting:shield_bash": 5
+									"minecraft:mending": 1
+									"minecraft:unbreaking": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F513975A4C1102F"
+					item: { components: { "ftbfiltersystem:filter": "or(item(rftoolsbuilder:shield_block1)item(rftoolsbuilder:shield_block2)item(rftoolsbuilder:shield_block3)item(rftoolsbuilder:shield_block4))", "minecraft:custom_name": "\"Any shield projector\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "3CF4CE49703F7C87"
+					item: { components: { "ftbfiltersystem:filter": "or(item(rftoolsbuilder:blue_shield_template_block)item(rftoolsbuilder:red_shield_template_block)item(rftoolsbuilder:green_shield_template_block)item(rftoolsbuilder:yellow_shield_template_block))", "minecraft:custom_name": "\"Any shield template\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsutility:screen"
+			}
+			id: "69099F0F9EA3580C"
+			optional: true
+			rewards: [
+				{
+					id: "02C769390B39AA9B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "29B4C877DC008501"
+					item: {
+						count: 1
+						id: "rftoolsbase:information_screen"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6F7976F70273A75E"
+					item: { count: 1, id: "rftoolsutility:screen_controller" }
+					type: "item"
+				}
+				{
+					id: "3ACC8BF220FFA118"
+					item: { count: 1, id: "rftoolsutility:screen" }
+					type: "item"
+				}
+				{
+					id: "53CCCE147EB3BD42"
+					item: { components: { "ftbfiltersystem:filter": "or(item(rftoolsutility:text_module)item(rftoolsutility:counter_module)item(rftoolsutility:counterplus_module)item(rftoolsutility:button_module)item(rftoolsutility:redstone_module)item(rftoolsutility:energy_module)item(rftoolsutility:energyplus_module)item(rftoolsutility:inventory_module)item(rftoolsutility:inventoryplus_module)item(rftoolsutility:fluid_module)item(rftoolsutility:fluidplus_module)item(rftoolsutility:machineinformation_module)item(rftoolsutility:clock_module))", "minecraft:custom_name": "\"Any screen module\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsbuilder:space_chamber_controller"
+			}
+			id: "52EE1E7D01C7CFCD"
+			optional: true
+			rewards: [
+				{
+					id: "3798FC62F5CBFED3"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2F039396D2B296F2"
+					item: {
+						count: 1
+						id: "rftoolsbuilder:space_chamber"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3AC61AFEB6508591"
+					item: { count: 1, id: "rftoolsbuilder:space_chamber_controller" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "611E697FE1F52E7A"
+					item: { count: 3, id: "rftoolsbuilder:space_chamber" }
+					type: "item"
+				}
+				{
+					id: "1A2D82C61AAB59B6"
+					item: { count: 1, id: "rftoolsbuilder:space_chamber_card" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsbuilder:vehicle_card"
+			}
+			id: "0399FE76C9F76E6F"
+			min_width: 350
+			optional: true
+			rewards: [
+				{
+					id: "492AA973BF75DAC8"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6E9B6940E017430C"
+					item: {
+						count: 1
+						id: "rftoolsbuilder:mover"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "39DF7B6461E9BD4C"
+					item: { count: 1, id: "rftoolsbuilder:vehicle_card" }
+					type: "item"
+				}
+				{
+					id: "417AD11317E70545"
+					item: { count: 1, id: "rftoolsbuilder:mover_control" }
+					type: "item"
+				}
+				{
+					id: "659DC7281D172F19"
+					item: { count: 1, id: "rftoolsbuilder:mover_status" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16B7B49E1BFF1010"
+					item: { count: 1, id: "rftoolsbuilder:vehicle_builder" }
+					type: "item"
+				}
+				{
+					id: "20CFC7581BCA624C"
+					item: { count: 1, id: "rftoolsbuilder:mover" }
+					type: "item"
+				}
+				{
+					id: "7789D4749C00F81C"
+					item: { count: 1, id: "rftoolsbuilder:mover_controller" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsbase:tablet"
+			}
+			id: "1EF2DFA3DBB2EE19"
+			optional: true
+			rewards: [
+				{
+					id: "2C1C851B36E69EAD"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4AA865CDDD4D0AE6"
+					item: {
+						count: 1
+						id: "redstonepen:remote"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A0FEB15225A1B63"
+					item: { count: 1, id: "rftoolsbase:tablet" }
+					type: "item"
+				}
+				{
+					id: "3D0574B15A2BC9FB"
+					item: { count: 1, id: "rftoolsutility:redstone_information" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "rftoolsbase:machine_frame"
+			}
+			id: "7B48DA3C4F8A3456"
+			rewards: [
+				{
+					id: "3628174D4E6702E5"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4693BA60AEA2FBEC"
+					item: {
+						count: 1
+						id: "minecraft:gold_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "22EF490434447B84"
+					item: {
+						count: 1
+						id: "minecraft:cornflower"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "3E01AA6C6540AC82"
+					item: { count: 1, id: "rftoolsbase:machine_frame" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28102460319D567A"
+					item: { count: 1, id: "rftoolsbase:machine_base" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "xnet:controller"
+			}
+			id: "0DF5D2B35FDEE536"
+			rewards: [
+				{
+					count: 3
+					id: "22B6E57677E09757"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "066CE27F41ACECC6"
+					table_id: 6449217915222121663L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7813EDA280801A49"
+				item: { count: 1, id: "xnet:controller" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DF5D2B35FDEE536"]
+			icon: {
+				id: "xnet:connector_green"
+			}
+			id: "24C1949D4690AFD3"
+			rewards: [{
+				count: 3
+				id: "11471AB4120D7C98"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2011385F3A3117BB"
+					item: { components: { "ftbfiltersystem:filter": "or(item(xnet:connector_red)item(xnet:connector_green)item(xnet:connector_blue)item(xnet:connector_yellow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1BBD0785EF912331"
+					item: { components: { "ftbfiltersystem:filter": "or(item(xnet:advanced_connector_red)item(xnet:advanced_connector_green)item(xnet:advanced_connector_blue)item(xnet:advanced_connector_yellow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0CC17D1EE941DA97"
+					item: { count: 1, id: "xnet:facade" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DF5D2B35FDEE536"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4AEC464751F85A2B"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "696EA946CF2E5728"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58E5CA49E8F143AA"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0DF5D2B35FDEE536"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "497C4A3783B5BE9E"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "745714B81A70202B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5318C2422681D6E1"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24C1949D4690AFD3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5E66CDE4370938D5"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "111B42AD31C2D464"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C6C600BA23CDEDC"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"497C4A3783B5BE9E"
+				"5E66CDE4370938D5"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4C6F46D9E6095A3F"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "5207D0F5BB4FF5D2"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F4A8935A8075E15"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C6F46D9E6095A3F"]
+			hide_until_deps_complete: false
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "52959FE53EA75840"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "1E3D1E9828D06E5A"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "69E91925C2DE7BF2"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C6F46D9E6095A3F"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "565881B956911B9C"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "0DA833F345E9EE24"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4FF56943034CA822"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C6F46D9E6095A3F"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1D4B75C5103D3723"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "640004ABD43820D9"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "38C8C140A69103D9"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsutility:wire"
+			}
+			id: "0260AB699B59D332"
+			rewards: [
+				{
+					id: "0F0CBB35BA14C64E"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "52E2790D2B9236DA"
+					item: {
+						count: 1
+						id: "rftoolsbase:machine_base"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7595D75DC871326A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(rftoolsutility:wire)item(rftoolsutility:analog)item(rftoolsutility:counter)item(rftoolsutility:digit)item(rftoolsutility:invchecker)item(rftoolsutility:sensor)item(rftoolsutility:sequencer)item(rftoolsutility:logic)item(rftoolsutility:timer))", "minecraft:custom_name": "\"Misc Redstone\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B48DA3C4F8A3456"]
+			icon: {
+				id: "rftoolsstorage:modular_storage"
+			}
+			id: "5AF11DFE839F95E6"
+			min_width: 300
+			rewards: [
+				{
+					id: "7E9BF38B9D206C7F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "48E9B1354813A0A5"
+					item: {
+						count: 1
+						id: "rftoolsstorage:storage_module2"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0872DD0D98318534"
+					item: { count: 1, id: "rftoolsstorage:modular_storage" }
+					type: "item"
+				}
+				{
+					id: "100DDF844415A0C9"
+					item: { components: { "ftbfiltersystem:filter": "or(item(rftoolsstorage:storage_module0)item(rftoolsstorage:storage_module1)item(rftoolsstorage:storage_module2)item(rftoolsstorage:storage_module3))", "minecraft:custom_name": "\"Storage modules\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "7442E7531B094C2D"
+					item: { count: 1, id: "rftoolsstorage:storage_scanner" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}
