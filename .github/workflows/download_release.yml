@@ -55,19 +55,32 @@ jobs:
             echo "error_report_exists=false" >> $GITHUB_ENV
           fi
         
-      - name: Commit and Push changes (excluding error report)
+      - name: Commit and Push changes
         id: commit
         run: |
-          git rm --cached error_report.html || true
-          git rm -r --cached .github/workflows/__pycache__/ || true
-          if [[ -n $(git status -s) ]]; then
+          # 如果错误报告存在，从 Git 追踪中移除，避免被提交
+          if [ -f "error_report.html" ]; then
+            git rm --cached error_report.html
+          fi
+          # 如果 __pycache__ 目录存在，也从 Git 追踪中移除
+          if [ -d ".github/workflows/__pycache__" ]; then
+            git rm -r --cached .github/workflows/__pycache__/
+          fi
+
+          # 检查是否有任何文件更改需要提交
+          # -z 表示检查字符串是否为空
+          if [[ -z $(git status --porcelain) ]]; then
+            # 如果 git status 返回空，说明没有更改
+            echo "No changes detected from Paratranz. Working tree clean."
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            # 如果有更改，则执行提交和推送
+            echo "Changes detected. Committing and pushing..."
             git add .
             git commit -m '从Paratranz同步翻译'
-            git pull --rebase origin main || exit 1
+            git pull --rebase origin main
             git push
             echo "changed=true" >> $GITHUB_OUTPUT
-          else
-            echo "changed=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Upload Error Report Artifact
