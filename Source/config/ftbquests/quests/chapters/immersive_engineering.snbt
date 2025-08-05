@@ -95,6 +95,7 @@
 					}
 					id: "01C396395A09E9AD"
 					observe_type: 0
+					optional_task: true
 					timer: 0L
 					to_observe: "immersiveengineering:alloy_smelter"
 					type: "observation"
@@ -103,6 +104,7 @@
 					count: 8L
 					id: "4974CF6200F42953"
 					item: { count: 8, id: "immersiveengineering:alloybrick" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -319,23 +321,18 @@
 			id: "498FEAF2BFD77D2E"
 			rewards: [
 				{
-					id: "285B3F7914DF91F3"
-					item: {
-						count: 1
-						id: "immersiveengineering:cloche"
-					}
-					type: "item"
-				}
-				{
-					id: "32D698EDF3D1A4BF"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "3210BED0977788E8"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "285B3F7914DF91F3"
+					item: {
+						count: 1
+						id: "immersiveengineering:cloche"
 					}
 					type: "item"
 				}
@@ -378,9 +375,12 @@
 			id: "4DABDC2484C732AC"
 			rewards: [
 				{
-					id: "421572E0B05210BA"
-					type: "xp"
-					xp: 100
+					id: "20B2B0EDD04B14ED"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
 				}
 				{
 					count: 2
@@ -392,27 +392,73 @@
 					random_bonus: 2
 					type: "item"
 				}
-				{
-					id: "20B2B0EDD04B14ED"
-					item: {
-						count: 1
-						id: "magic_coins:crystal_coin"
-					}
-					type: "item"
-				}
 			]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:arc_furnace"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:arc_furnace"
+					}
+					id: "4A0037264C36EBE1"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:arc_furnace"
+					type: "observation"
 				}
-				id: "4A0037264C36EBE1"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:arc_furnace"
-				type: "observation"
-			}]
+				{
+					count: 5L
+					id: "50337D1872DD935C"
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "16223AB0273C18E3"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "1506F9697A314C2E"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "228C7BEC523F7EE3"
+					item: { count: 1, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "02A4FA634D7E21AC"
+					item: { count: 1, id: "ftbmaterials:steel_block" }
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "75AC1299CDA3A948"
+					item: { count: 1, id: "immersiveengineering:blastbrick_reinforced" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "247ECE1978BD64CC"
+					item: { count: 1, id: "immersiveengineering:slab_sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5F7BFD862892D50E"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "39CEC4C4C5740645"
+					item: { count: 1, id: "minecraft:cauldron" }
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 2.0d
 		}
@@ -445,16 +491,45 @@
 			]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:metal_press"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:metal_press"
+					}
+					id: "04A70E089DED1FFE"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:metal_press"
+					type: "observation"
 				}
-				id: "04A70E089DED1FFE"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:metal_press"
-				type: "observation"
-			}]
+				{
+					id: "0DA4DF8EFC01982A"
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "306C875E2EC7EFBB"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					id: "05F5133DD2C19D7B"
+					item: { count: 1, id: "minecraft:piston" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "34D2553C48235C06"
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3AA9A3C42F5C7945"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 2.0d
 		}
@@ -466,6 +541,15 @@
 			id: "207CE761F35EB902"
 			rewards: [
 				{
+					count: 3
+					id: "3E54E71A772F1CE8"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 2
 					id: "661B49A3864468F7"
 					item: {
@@ -473,20 +557,6 @@
 						id: "ftbmaterials:nickel_plate"
 					}
 					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "13FC6C4D32853201"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "3E54E71A772F1CE8"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -540,10 +610,20 @@
 			dependencies: [
 				"026A64F01C301119"
 				"7F6363864003FFC0"
+				"3CF48BB941321C47"
 			]
 			dependency_requirement: "one_completed"
 			id: "660443512BB2E867"
 			rewards: [
+				{
+					count: 2
+					id: "591CA5477D316E94"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
 				{
 					count: 2
 					id: "15F68D409D9F903E"
@@ -552,20 +632,6 @@
 						id: "immersiveengineering:dust_hop_graphite"
 					}
 					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "3C2E0601D808B7A0"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 2
-					id: "591CA5477D316E94"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
 					type: "item"
 				}
 				{
@@ -665,6 +731,14 @@
 			id: "026A64F01C301119"
 			rewards: [
 				{
+					id: "49945299D8314E69"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 2
 					id: "3E669150A4B0A8BC"
 					item: {
@@ -672,14 +746,6 @@
 						id: "immersiveengineering:dust_hop_graphite"
 					}
 					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "49945299D8314E69"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
 					type: "item"
 				}
 			]
@@ -776,16 +842,47 @@
 			]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:crusher"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:crusher"
+					}
+					id: "4750B6095A6DC2F2"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:crusher"
+					type: "observation"
 				}
-				id: "4750B6095A6DC2F2"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:crusher"
-				type: "observation"
-			}]
+				{
+					count: 10L
+					id: "7435C57FA676E02D"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "2A3A881FFA1629AD"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "354162A06BFABE08"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7C06467B90E4C9A5"
+					item: { count: 1, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "5E91F66AF02FBE4F"
+					item: { count: 1, id: "minecraft:hopper" }
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: -2.0d
 		}
@@ -814,19 +911,8 @@
 					random_bonus: 4
 					type: "item"
 				}
-				{
-					id: "42D6F6B1FC8A5348"
-					type: "xp"
-					xp: 10
-				}
 			]
 			tasks: [
-				{
-					id: "62448629F990F9B5"
-					item: { count: 1, id: "immersiveengineering:wirecutter" }
-					optional_task: true
-					type: "item"
-				}
 				{
 					id: "6470732FEDED2E3F"
 					item: { count: 1, id: "ftbmaterials:iron_plate" }
@@ -848,7 +934,16 @@
 			}
 			id: "61D6B29594193438"
 			min_width: 300
+			optional: true
 			rewards: [
+				{
+					id: "3426218A7713051D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
 				{
 					count: 4
 					id: "0EBA8685ED2ED3E7"
@@ -857,19 +952,6 @@
 						id: "minecraft:copper_ingot"
 					}
 					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "6543867FE8E6EC54"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "3426218A7713051D"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -900,25 +982,20 @@
 			optional: true
 			rewards: [
 				{
-					count: 4
-					id: "4E2A6BB82482F957"
-					item: {
-						count: 1
-						id: "immersiveengineering:wirecoil_copper_ins"
-					}
-					type: "item"
-				}
-				{
-					id: "04692047C40806B4"
-					type: "xp"
-					xp: 25
-				}
-				{
 					count: 3
 					id: "1D023719E6219E9C"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4E2A6BB82482F957"
+					item: {
+						count: 1
+						id: "immersiveengineering:wirecoil_copper_ins"
 					}
 					type: "item"
 				}
@@ -941,6 +1018,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
+					id: "3146B88F90EC324B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 2
 					id: "1744A60B6879DA94"
 					item: {
@@ -955,20 +1041,6 @@
 					item: {
 						count: 1
 						id: "immersiveengineering:wirecoil_copper_ins"
-					}
-					type: "item"
-				}
-				{
-					id: "45043F6C2CC66909"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "3146B88F90EC324B"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1008,11 +1080,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "59D817C323F1A6B4"
-					type: "xp"
-					xp: 50
-				}
-				{
 					id: "5986B18F7FE919F3"
 					item: {
 						count: 1
@@ -1031,16 +1098,53 @@
 			]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:diesel_generator"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:diesel_generator"
+					}
+					id: "4C37818287E9D1ED"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:diesel_generator"
+					type: "observation"
 				}
-				id: "4C37818287E9D1ED"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:diesel_generator"
-				type: "observation"
-			}]
+				{
+					count: 13L
+					id: "4E0B9C75038EBAE9"
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "17DD869F15982D5B"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "4107DB52756FD9DB"
+					item: { count: 1, id: "immersiveengineering:radiator" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "60FBDDE821A06C56"
+					item: { count: 1, id: "immersiveengineering:generator" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "7B0C9B5FFFBD328A"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "06E38BF5CBD94409"
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 8.0d
 		}
@@ -1057,9 +1161,22 @@
 			optional: true
 			rewards: [
 				{
-					id: "0CED6E00EE3CC90D"
-					type: "xp"
-					xp: 25
+					id: "6DD7C959C6454704"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "775D64DD2A92C8D0"
+					item: {
+						count: 1
+						id: "immersiveengineering:steel_fence"
+					}
+					random_bonus: 8
+					type: "item"
 				}
 				{
 					id: "6FFFF8AF167D1512"
@@ -1069,27 +1186,57 @@
 					}
 					type: "item"
 				}
-				{
-					id: "6DD7C959C6454704"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
 			]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:lightning_rod"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:lightning_rod"
+					}
+					id: "0E8C4E7C9C329FA2"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:lightning_rod"
+					type: "observation"
 				}
-				id: "0E8C4E7C9C329FA2"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:lightning_rod"
-				type: "observation"
-			}]
+				{
+					count: 4L
+					id: "5B0159C57806D8F8"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "33CB5F19FADEA226"
+					item: { count: 1, id: "immersiveengineering:coil_hv" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0DA6952593FAEEAA"
+					item: { count: 1, id: "immersiveengineering:coil_lv" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6687BB352324F3A5"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "17F255410E334E18"
+					item: { count: 1, id: "immersiveengineering:treated_fence" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "06E97634DD49B7DE"
+					item: { count: 1, id: "immersiveengineering:capacitor_hv" }
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 8.0d
 		}
@@ -1102,24 +1249,19 @@
 			optional: true
 			rewards: [
 				{
-					id: "2604B6C0072B1634"
-					type: "xp"
-					xp: 25
+					count: 3
+					id: "5357785EF0EF734F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "44DA5090B8BEB4B4"
 					item: {
 						count: 1
 						id: "immersiveengineering:shader_bag_uncommon"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "5357785EF0EF734F"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1159,23 +1301,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "7CBCA7A1D4950D7E"
-					type: "xp"
-					xp: 100
+					id: "31C1990C18D7AA20"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "652C732607346268"
 					item: {
 						count: 1
 						id: "immersiveengineering:shader_bag_rare"
-					}
-					type: "item"
-				}
-				{
-					id: "31C1990C18D7AA20"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1214,11 +1351,6 @@
 			id: "7C7C53CB012B14C5"
 			rewards: [
 				{
-					id: "47498881D719CB5D"
-					type: "xp"
-					xp: 25
-				}
-				{
 					count: 3
 					id: "29FA1731934984D2"
 					item: {
@@ -1236,11 +1368,26 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2B2AC5A9A28F14A9"
-				item: { components: { "ftbfiltersystem:filter": "or(item(immersiveengineering:capacitor_lv)item(immersiveengineering:capacitor_mv)item(immersiveengineering:capacitor_hv))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1DDE1FF2FF0AD0FD"
+					item: { count: 1, id: "immersiveengineering:capacitor_lv" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "172F5262FDE9E161"
+					item: { count: 1, id: "immersiveengineering:capacitor_mv" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "410979F1FADF5889"
+					item: { count: 1, id: "immersiveengineering:capacitor_hv" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 8.0d
 		}
@@ -1297,6 +1444,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
+					id: "27E2D11EE904D5C5"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 16
 					id: "1F8FA33702CF0888"
 					item: {
@@ -1306,20 +1462,6 @@
 					random_bonus: 16
 					type: "item"
 				}
-				{
-					id: "4A83A23FAFD016D9"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 3
-					id: "27E2D11EE904D5C5"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
 			]
 			shape: "gear"
 			tasks: [
@@ -1327,6 +1469,7 @@
 					id: "28FD4527EE38C2BA"
 					item: { components: { "immersiveengineering:blueprint": "bullet" }, count: 1, id: "immersiveengineering:blueprint" }
 					match_components: "strict"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1348,6 +1491,14 @@
 			id: "7BBE12078C2FC82E"
 			rewards: [
 				{
+					id: "0E59C472E2BBCDB5"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 4
 					id: "764DBBE5CA7C0C1E"
 					item: {
@@ -1355,19 +1506,6 @@
 						id: "immersiveengineering:plate_duroplast"
 					}
 					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "2A6E5579548EEAB9"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "0E59C472E2BBCDB5"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
 					type: "item"
 				}
 			]
@@ -1385,25 +1523,21 @@
 			rewards: [
 				{
 					count: 3
+					id: "473633FA21AF614E"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 3
 					id: "18868B2748FC86A2"
 					item: {
 						count: 1
 						id: "immersiveengineering:plate_duroplast"
 					}
 					type: "item"
-				}
-				{
-					id: "473633FA21AF614E"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "5FF7968D7D0F9C7A"
-					type: "xp"
-					xp: 25
 				}
 			]
 			tasks: [{
@@ -1419,15 +1553,19 @@
 				"3BD6FEDB8CFAC914"
 				"2E9C2F524BE5FC10"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "immersiveengineering:bottling_machine"
 			}
 			id: "3CF48BB941321C47"
 			rewards: [
 				{
-					id: "536D7B4A09E5AAF8"
-					type: "xp"
-					xp: 25
+					id: "55E495CDCB665978"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "3601F37281C9F3EB"
@@ -1437,27 +1575,55 @@
 					}
 					type: "item"
 				}
-				{
-					id: "55E495CDCB665978"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
 			]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:bottling_machine"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:bottling_machine"
+					}
+					id: "6CDF504643794087"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:bottling_machine"
+					type: "observation"
 				}
-				id: "6CDF504643794087"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:bottling_machine"
-				type: "observation"
-			}]
+				{
+					count: 2L
+					id: "54AF2B18E7641F42"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "015BD12173CC6ED1"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "292397889663AE5B"
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "19DDBBB53B3ACB94"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5596E0432F7E081C"
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					id: "1D12F6745494A384"
+					item: { count: 1, id: "immersiveengineering:fluid_pump" }
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 6.0d
 		}
@@ -1469,23 +1635,19 @@
 			id: "3BD6FEDB8CFAC914"
 			rewards: [
 				{
-					id: "45C5DD3245AE550F"
-					type: "xp"
-					xp: 10
+					count: 5
+					id: "6C62C4F40C0E32A8"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "4F0D2E439BAFDE46"
 					item: {
 						count: 1
 						id: "immersiveengineering:shader_bag_rare"
-					}
-					type: "item"
-				}
-				{
-					id: "6C62C4F40C0E32A8"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1506,9 +1668,12 @@
 			id: "1036AB9D02AB96F1"
 			rewards: [
 				{
-					id: "27C593295630F89F"
-					type: "xp"
-					xp: 25
+					id: "39BB6DC1CE2ACC38"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "77CDD4EE8B1866EB"
@@ -1518,28 +1683,57 @@
 					}
 					type: "item"
 				}
-				{
-					id: "39BB6DC1CE2ACC38"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
 			]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:refinery"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:refinery"
+					}
+					id: "77B96BEA9D8D8654"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:refinery"
+					type: "observation"
 				}
-				id: "77B96BEA9D8D8654"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:refinery"
-				type: "observation"
-			}]
-			x: 10.0d
+				{
+					count: 2L
+					id: "78D6465D8BD175A5"
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "38E515A842E16915"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "33CBC6289ADA4A7B"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "35D374CD20CFC8C4"
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5EB948BDCB933E5D"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0B4AA8EB1B3035AF"
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 12.0d
 			y: 4.0d
 		}
 		{
@@ -1549,11 +1743,6 @@
 			]
 			id: "2F933169CF164EC7"
 			rewards: [
-				{
-					id: "0D81CB67FF5CD0D7"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 3
 					id: "6644F328FE1259B8"
@@ -1577,18 +1766,13 @@
 				item: { count: 1, id: "immersiveengineering:acetaldehyde_bucket" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.0d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1962F37154380EBF"]
 			id: "3F4C25DF20877606"
 			rewards: [
-				{
-					id: "4CC00CBC95652AE5"
-					type: "xp"
-					xp: 10
-				}
 				{
 					id: "11283CCA19855604"
 					item: {
@@ -1612,7 +1796,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2E9C2F524BE5FC10"]
@@ -1622,9 +1806,12 @@
 			id: "1962F37154380EBF"
 			rewards: [
 				{
-					id: "363C4C224B6C9F25"
-					type: "xp"
-					xp: 25
+					id: "5302FC540EF96FCD"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "2EB1C207A8075A97"
@@ -1634,29 +1821,58 @@
 					}
 					type: "item"
 				}
-				{
-					id: "5302FC540EF96FCD"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
 			]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:fermenter"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:fermenter"
+					}
+					id: "5E824F724F133342"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:fermenter"
+					type: "observation"
 				}
-				id: "5E824F724F133342"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:fermenter"
-				type: "observation"
-			}]
-			x: 14.0d
-			y: 6.0d
+				{
+					count: 2L
+					id: "20BE7F458E467898"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "56D54C05DB455E35"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7F31D6E723E31519"
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "04FB0FE41978DC68"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7C192EA0607BD4FD"
+					item: { count: 1, id: "minecraft:cauldron" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4C03CA395B06BCC1"
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1666,27 +1882,21 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "37CA431C28D82E55"
-			optional: true
 			rewards: [
+				{
+					id: "308C30FAB04A4B3F"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
 				{
 					count: 4
 					id: "254DBE021FCBE4F1"
 					item: {
 						count: 1
 						id: "immersiveengineering:sawblade"
-					}
-					type: "item"
-				}
-				{
-					id: "4B127661A824888B"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "308C30FAB04A4B3F"
-					item: {
-						count: 1
-						id: "magic_coins:crystal_coin"
 					}
 					type: "item"
 				}
@@ -1705,6 +1915,9 @@
 				"5E5BDCBF185E48E3"
 				"2E9C2F524BE5FC10"
 			]
+			icon: {
+				id: "immersiveengineering:auto_workbench"
+			}
 			id: "1507B28963B38101"
 			optional: true
 			rewards: [
@@ -1727,16 +1940,53 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:auto_workbench"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:auto_workbench"
+					}
+					id: "63631EC45A5E0BD0"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:auto_workbench"
+					type: "observation"
 				}
-				id: "63631EC45A5E0BD0"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:auto_workbench"
-				type: "observation"
-			}]
+				{
+					count: 4L
+					id: "1AD5AEE09DC25046"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "33579383C3FE8666"
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "75BC6B3C3EB03D50"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "61B40C91ED5110C9"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5F373992DD14D755"
+					item: { count: 1, id: "immersiveengineering:slab_treated_wood_horizontal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4321F9A47816A4D2"
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 0.0d
 		}
@@ -1745,6 +1995,7 @@
 				"6B04DF90E7F33C9D"
 				"2E9C2F524BE5FC10"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "immersiveengineering:squeezer"
 			}
@@ -1769,16 +2020,58 @@
 			]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:squeezer"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:squeezer"
+					}
+					id: "3F7FE89F1DBD4A48"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:squeezer"
+					type: "observation"
 				}
-				id: "3F7FE89F1DBD4A48"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:squeezer"
-				type: "observation"
-			}]
+				{
+					count: 2L
+					id: "6294F122CAD7F08F"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "3639362F381987A3"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					id: "2B98790A5D0CC52C"
+					item: { count: 1, id: "minecraft:piston" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "57ADE91CDF87FB38"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "38DD8253D6463ECE"
+					item: { count: 1, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0320C895705C4465"
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "467B751A858C1CA1"
+					item: { count: 1, id: "immersiveengineering:wooden_barrel" }
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 0.0d
 		}
@@ -1787,6 +2080,15 @@
 			id: "6B04DF90E7F33C9D"
 			rewards: [
 				{
+					count: 3
+					id: "3AC6B44270BFEC7A"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 4
 					id: "34642DD49B9ECA13"
 					item: {
@@ -1794,15 +2096,6 @@
 						id: "ftbmaterials:coal_coke_dust"
 					}
 					random_bonus: 4
-					type: "item"
-				}
-				{
-					count: 3
-					id: "3AC6B44270BFEC7A"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -1832,12 +2125,6 @@
 					type: "item"
 				}
 				{
-					id: "595C3EAC8BD07949"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 3
 					id: "593DA89E9F457B03"
 					item: {
 						count: 1
@@ -1863,11 +2150,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "5819293CBC40CDFD"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "544E1BFB203779A5"
 					item: {
 						count: 1
@@ -1886,16 +2168,52 @@
 			]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:mixer"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:mixer"
+					}
+					id: "6C1AB8986784E504"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:mixer"
+					type: "observation"
 				}
-				id: "6C1AB8986784E504"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:mixer"
-				type: "observation"
-			}]
+				{
+					count: 4L
+					id: "0D232322ED519157"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "173F31A3B640BCDF"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7A07CA5D584EB4A6"
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "62D80A3830DD41C5"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "23639BF1F9518B27"
+					item: { count: 1, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "50A65195BB6C7915"
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 8.0d
 		}
@@ -1913,11 +2231,6 @@
 			id: "3DA88A88662843AF"
 			optional: true
 			rewards: [
-				{
-					id: "75D19428ED15758D"
-					type: "xp"
-					xp: 10
-				}
 				{
 					id: "5EBD0EB6A060D697"
 					item: {
@@ -1949,24 +2262,19 @@
 			optional: true
 			rewards: [
 				{
+					id: "18BF29DC3AF4F325"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 8
 					id: "7250F2D8D0A13CFC"
 					item: {
 						count: 1
 						id: "immersiveengineering:bullet_buckshot"
-					}
-					type: "item"
-				}
-				{
-					id: "1CF814AEB65CF02B"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "18BF29DC3AF4F325"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1996,9 +2304,12 @@
 			optional: true
 			rewards: [
 				{
-					id: "43A393CB573E93F3"
-					type: "xp"
-					xp: 10
+					id: "4C1BFEA2EA4A12A1"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
 				{
 					count: 5
@@ -2006,14 +2317,6 @@
 					item: {
 						count: 1
 						id: "immersiveengineering:shader_bag_common"
-					}
-					type: "item"
-				}
-				{
-					id: "4C1BFEA2EA4A12A1"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -2057,43 +2360,6 @@
 			]
 			x: 2.0d
 			y: 6.0d
-		}
-		{
-			dependencies: ["7BBE12078C2FC82E"]
-			id: "3A1D7C93E69415F0"
-			rewards: [
-				{
-					count: 2
-					id: "6AF3F5103E8CAD92"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "6701FCE271F7F64C"
-					item: {
-						count: 1
-						id: "immersiveengineering:shader_bag_immersiveengineering_masterwork"
-					}
-					type: "item"
-				}
-				{
-					id: "4F3726CFDD7BBDC6"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "0943890E6DF704A3"
-				item: { count: 1, id: "immersiveengineering:resonanz_engineering" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 8.0d
 		}
 	]
 }

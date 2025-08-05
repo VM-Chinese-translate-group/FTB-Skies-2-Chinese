@@ -199,7 +199,7 @@
 			order: 1
 			rotation: 45.0d
 			width: 2.5d
-			x: 8.5d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -208,7 +208,7 @@
 			order: 1
 			rotation: 45.0d
 			width: 2.5d
-			x: 8.5d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -217,8 +217,8 @@
 			height: 4.5d
 			image: "ftbquests:textures/shapes/square/background.png"
 			rotation: 0.0d
-			width: 6.5d
-			x: 8.5d
+			width: 7.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -491,20 +491,20 @@
 			id: "6F4A4B4C261FF84B"
 			rewards: [
 				{
-					count: 3
-					id: "4C6F18F403C6A32A"
-					item: {
-						count: 1
-						id: "minecraft:coal"
-					}
-					type: "item"
-				}
-				{
 					id: "27C2AC1C1141489E"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
+					type: "item"
+				}
+				{
+					id: "4C6F18F403C6A32A"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -521,20 +521,21 @@
 			id: "0FFC6CBB213B30AD"
 			rewards: [
 				{
-					count: 3
-					id: "76A9D26C17AF8F1A"
-					item: {
-						count: 1
-						id: "minecraft:slime_ball"
-					}
-					type: "item"
-				}
-				{
 					id: "09C9A15C1B2039AC"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "76A9D26C17AF8F1A"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					random_bonus: 4
 					type: "item"
 				}
 			]
@@ -544,27 +545,28 @@
 				item: { count: 1, id: "industrialforegoing:mycelial_slimey" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.5d
 			y: -1.5d
 		}
 		{
 			id: "76D5941D76026588"
 			rewards: [
 				{
-					count: 3
-					id: "5267A220AB16A344"
-					item: {
-						count: 1
-						id: "minecraft:bread"
-					}
-					type: "item"
-				}
-				{
 					id: "28DF1E682DA01A8A"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5267A220AB16A344"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					random_bonus: 4
 					type: "item"
 				}
 			]
@@ -581,6 +583,14 @@
 			id: "4A68D2CD7437589E"
 			rewards: [
 				{
+					id: "5073D027F4FE23D5"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "3E411C455A5C8CA5"
 					item: {
 						components: {
@@ -590,14 +600,6 @@
 						}
 						count: 1
 						id: "minecraft:splash_potion"
-					}
-					type: "item"
-				}
-				{
-					id: "5073D027F4FE23D5"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -615,6 +617,14 @@
 			id: "789A4FE79256A4C6"
 			rewards: [
 				{
+					id: "0BCFFD72CC9BD6B2"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "70D61DEB79FA57AD"
 					item: {
 						components: {
@@ -626,14 +636,6 @@
 						}
 						count: 1
 						id: "minecraft:enchanted_book"
-					}
-					type: "item"
-				}
-				{
-					id: "0BCFFD72CC9BD6B2"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -651,19 +653,19 @@
 			id: "2CEF038B5DA1FF25"
 			rewards: [
 				{
+					id: "4B0696079440F55C"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 3
 					id: "0EFEA5871AD8E394"
 					item: {
 						count: 1
 						id: "minecraft:firework_rocket"
-					}
-					type: "item"
-				}
-				{
-					id: "4B0696079440F55C"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -674,27 +676,28 @@
 				item: { count: 1, id: "industrialforegoing:mycelial_rocket" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.5d
 			y: 1.5d
 		}
 		{
 			id: "018B19721F4404FF"
 			rewards: [
 				{
-					count: 3
-					id: "68AEC0633397DEAA"
-					item: {
-						count: 1
-						id: "minecraft:ender_pearl"
-					}
-					type: "item"
-				}
-				{
 					id: "43369472DC0F7DB3"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "68AEC0633397DEAA"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					random_bonus: 2
 					type: "item"
 				}
 			]
@@ -711,20 +714,21 @@
 			id: "4E9EBB1268DEF8A6"
 			rewards: [
 				{
-					count: 3
-					id: "67818954A1FFA029"
-					item: {
-						count: 1
-						id: "minecraft:gunpowder"
-					}
-					type: "item"
-				}
-				{
 					id: "595E7F1E4A949C84"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "67818954A1FFA029"
+					item: {
+						count: 1
+						id: "minecraft:tnt"
+					}
+					random_bonus: 2
 					type: "item"
 				}
 			]
@@ -741,20 +745,21 @@
 			id: "795A3ABA29AC0E4F"
 			rewards: [
 				{
-					count: 3
-					id: "7CB49F78BF2A5059"
-					item: {
-						count: 1
-						id: "minecraft:snow_block"
-					}
-					type: "item"
-				}
-				{
 					id: "5977F71B284BDC9C"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7CB49F78BF2A5059"
+					item: {
+						count: 1
+						id: "minecraft:snow_block"
+					}
+					random_bonus: 4
 					type: "item"
 				}
 			]
@@ -771,19 +776,20 @@
 			id: "12CB62610FEAADA0"
 			rewards: [
 				{
-					id: "77F884CF89C7A86A"
-					item: {
-						count: 1
-						id: "minecraft:dragon_breath"
-					}
-					type: "item"
-				}
-				{
 					id: "2129420F50A3988F"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
+					type: "item"
+				}
+				{
+					id: "77F884CF89C7A86A"
+					item: {
+						count: 1
+						id: "minecraft:dragon_breath"
+					}
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -800,18 +806,18 @@
 			id: "2B2BB685DE246BCC"
 			rewards: [
 				{
-					id: "6A9C1A7530AC51D6"
-					item: {
-						count: 1
-						id: "minecraft:lava_bucket"
-					}
-					type: "item"
-				}
-				{
 					id: "6E12B0F7634E36B5"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6A9C1A7530AC51D6"
+					item: {
+						count: 1
+						id: "minecraft:lava_bucket"
 					}
 					type: "item"
 				}
@@ -822,27 +828,28 @@
 				item: { count: 1, id: "industrialforegoing:mycelial_magma" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.5d
 			y: 1.5d
 		}
 		{
 			id: "0826EF3E7B15B219"
 			rewards: [
 				{
-					count: 3
-					id: "705013A7E7CEA2BC"
-					item: {
-						count: 1
-						id: "minecraft:pink_dye"
-					}
-					type: "item"
-				}
-				{
 					id: "660135FD2962A2C7"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "705013A7E7CEA2BC"
+					item: {
+						count: 1
+						id: "minecraft:pink_dye"
+					}
+					random_bonus: 4
 					type: "item"
 				}
 			]
@@ -852,26 +859,27 @@
 				item: { count: 1, id: "industrialforegoing:mycelial_pink" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.5d
 			y: -1.5d
 		}
 		{
 			id: "6B2F4AA722DAC535"
 			rewards: [
 				{
-					id: "3532460F0A708DE0"
-					item: {
-						count: 1
-						id: "mysticalagradditions:nether_star_shard"
-					}
-					type: "item"
-				}
-				{
 					id: "366167912C9D0F13"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
+					type: "item"
+				}
+				{
+					id: "3532460F0A708DE0"
+					item: {
+						count: 1
+						id: "mysticalagradditions:nether_star_shard"
+					}
+					random_bonus: 2
 					type: "item"
 				}
 			]
@@ -881,27 +889,28 @@
 				item: { count: 1, id: "industrialforegoing:mycelial_netherstar" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.5d
 			y: -0.5d
 		}
 		{
 			id: "0E610A03BB4007B6"
 			rewards: [
 				{
-					count: 3
-					id: "49BAC2532C9A0E5C"
-					item: {
-						count: 1
-						id: "minecraft:rotten_flesh"
-					}
-					type: "item"
-				}
-				{
 					id: "48B869E798ADE787"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "49BAC2532C9A0E5C"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					random_bonus: 8
 					type: "item"
 				}
 			]
@@ -911,7 +920,7 @@
 				item: { count: 1, id: "industrialforegoing:mycelial_death" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.5d
 			y: 0.5d
 		}
 		{
@@ -1505,15 +1514,12 @@
 				"0826EF3E7B15B219"
 				"0E610A03BB4007B6"
 				"4E9EBB1268DEF8A6"
+				"6C974CC33C5BADD8"
+				"5417C0BED57AE8DA"
 			]
 			dependency_requirement: "one_completed"
 			id: "78115154B5DC07B3"
 			rewards: [
-				{
-					id: "11AAF80CDF4A55B9"
-					type: "xp"
-					xp: 100
-				}
 				{
 					id: "7C4C0CFB9583DF81"
 					item: {
@@ -1521,6 +1527,12 @@
 						id: "magic_coins:crystal_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "11AAF80CDF4A55B9"
+					team_reward: false
+					type: "xp"
+					xp: 1000
 				}
 			]
 			shape: "hexagon"
@@ -1530,7 +1542,7 @@
 				item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -1759,6 +1771,66 @@
 			}]
 			x: 7.5d
 			y: 6.5d
+		}
+		{
+			id: "6C974CC33C5BADD8"
+			rewards: [
+				{
+					id: "51A67E6C0FAE1E5B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "173C3AFA81574244"
+					item: {
+						count: 1
+						id: "industrialforegoing:meat_bucket"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "05FFF06AD8005937"
+				item: { count: 1, id: "industrialforegoing:mycelial_meatallurgic" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			id: "5417C0BED57AE8DA"
+			rewards: [
+				{
+					id: "0B14BB73261B20FC"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "60772D1FB4DD4024"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart_block"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "4CBDE404944B3A40"
+				item: { count: 1, id: "industrialforegoing:mycelial_crimed" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
 		}
 	]
 }

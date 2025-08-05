@@ -53,6 +53,24 @@
 					table_id: 1967739393353469521L
 					type: "random"
 				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run pop create @s MIDDLE_LEFT 5 {\"text\": \"New items available in the Shop!\", \"color\": \"gold\", \"bold\": true, \"underlined\": true}"
+					feedback_message: "New items available in the Shop!"
+					id: "747C73E2E37012B0"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					exclude_from_claim_all: true
+					id: "64B0D7CE5D995614"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			tasks: [

@@ -621,15 +621,6 @@
 					}
 					type: "item"
 				}
-				{
-					count: 3
-					id: "2397FFAB77F507EA"
-					item: {
-						count: 1
-						id: "ftbmaterials:diamond_dust"
-					}
-					type: "item"
-				}
 			]
 			tasks: [
 				{
@@ -930,12 +921,13 @@
 			min_width: 300
 			rewards: [{
 				id: "26934082C2CB9287"
+				team_reward: false
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{
-				id: "17D2BAA9DB28236A"
+				id: "21ED0BDC86BC1466"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -1217,7 +1209,7 @@
 					id: "6E968F692361438B"
 					item: {
 						count: 1
-						id: "modern_industrialization:uncooked_steel_dust"
+						id: "ftbmaterials:steel_dust"
 					}
 					random_bonus: 4
 					type: "item"
@@ -1469,9 +1461,9 @@
 			]
 			shape: "square"
 			tasks: [{
-				count: 6L
+				count: 3L
 				id: "6A1F83055BC8D9B5"
-				item: { count: 8, id: "modern_industrialization:tin_cable" }
+				item: { count: 1, id: "modern_industrialization:tin_cable" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -1595,21 +1587,6 @@
 				{
 					id: "0AF79107536392F3"
 					item: { count: 1, id: "modern_industrialization:synthetic_oil_bucket" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					fluid: {
-						amount: 1000
-						id: "modern_industrialization:synthetic_rubber"
-					}
-					id: "0455FFC0BFA3853A"
-					optional_task: true
-					type: "fluid"
-				}
-				{
-					id: "54A168FC2135B194"
-					item: { count: 1, id: "modern_industrialization:synthetic_rubber_bucket" }
 					optional_task: true
 					type: "item"
 				}
@@ -1958,23 +1935,21 @@
 					type: "item"
 				}
 				{
-					count: 4
+					count: 8
 					id: "60EDD1F4C9818F4E"
 					item: {
 						count: 1
 						id: "modern_industrialization:cupronickel_coil"
 					}
-					random_bonus: 4
 					type: "item"
 				}
 				{
-					count: 6
+					count: 7
 					id: "1CB8237FC21E80B8"
 					item: {
 						count: 1
 						id: "modern_industrialization:heatproof_machine_casing"
 					}
-					random_bonus: 6
 					type: "item"
 				}
 			]
@@ -1989,13 +1964,13 @@
 				{
 					count: 8L
 					id: "6CE3370B81A6A2BF"
-					item: { count: 8, id: "modern_industrialization:cupronickel_coil" }
+					item: { count: 1, id: "modern_industrialization:cupronickel_coil" }
 					type: "item"
 				}
 				{
-					count: 5L
+					count: 7L
 					id: "6AC7C8A2CDE6EBED"
-					item: { count: 5, id: "modern_industrialization:heatproof_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
@@ -2099,7 +2074,7 @@
 				{
 					count: 6L
 					id: "62BC2CF877970F28"
-					item: { count: 6, id: "modern_industrialization:heatproof_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
@@ -2109,9 +2084,9 @@
 					type: "item"
 				}
 				{
-					count: 13L
+					count: 12L
 					id: "3D13504FD1B77085"
-					item: { count: 13, id: "modern_industrialization:bronze_plated_bricks" }
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 			]
@@ -2120,6 +2095,9 @@
 		}
 		{
 			dependencies: ["2AEF8759144B6AED"]
+			icon: {
+				id: "modern_industrialization:aluminum_ingot"
+			}
 			id: "33B0290BBE5DD5BC"
 			min_width: 300
 			rewards: [
@@ -2136,17 +2114,25 @@
 					id: "76D789B3EF808805"
 					item: {
 						count: 1
-						id: "ftbmaterials:aluminum_ingot"
+						id: "modern_industrialization:aluminum_ingot"
 					}
 					random_bonus: 4
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "54C7F53E811ED94B"
-				item: { count: 1, id: "ftbmaterials:aluminum_ingot" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "54C7F53E811ED94B"
+					item: { count: 1, id: "modern_industrialization:aluminum_nugget" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "24A7E0703060183B"
+					item: { count: 1, id: "modern_industrialization:aluminum_ingot" }
+					type: "item"
+				}
+			]
 			x: 14.5d
 			y: 1.5d
 		}
@@ -2318,15 +2304,15 @@
 					type: "item"
 				}
 				{
-					count: 20L
+					count: 18L
 					id: "67A0CEE1BF2D0868"
-					item: { count: 20, id: "minecraft:chain" }
+					item: { count: 1, id: "minecraft:chain" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "20B440EFBBFCBDC3"
-					item: { count: 6, id: "modern_industrialization:steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing_pipe" }
 					type: "item"
 				}
 			]
@@ -3125,7 +3111,7 @@
 					type: "item"
 				}
 				{
-					count: 8
+					count: 9
 					id: "496198D32F58C856"
 					item: {
 						count: 1
@@ -3143,14 +3129,9 @@
 					type: "item"
 				}
 				{
-					count: 11L
+					count: 20L
 					id: "0EC1C3FC97E2D126"
-					item: { count: 11, id: "modern_industrialization:frostproof_machine_casing" }
-					type: "item"
-				}
-				{
-					id: "008627819377F521"
-					item: { count: 1, id: "modern_industrialization:lv_energy_input_hatch" }
+					item: { count: 1, id: "modern_industrialization:frostproof_machine_casing" }
 					type: "item"
 				}
 			]
@@ -3220,13 +3201,13 @@
 					type: "item"
 				}
 				{
-					count: 2
+					count: 4
 					id: "5B7F5AC461835FD6"
 					item: {
 						count: 1
 						id: "modern_industrialization:kanthal_coil"
 					}
-					random_bonus: 2
+					random_bonus: 4
 					type: "item"
 				}
 			]
