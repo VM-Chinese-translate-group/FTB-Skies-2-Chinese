@@ -997,6 +997,7 @@
 			}
 			id: "447242EAC91413A9"
 			min_required_dependencies: 4
+			min_width: 300
 			rewards: [{
 				count: 5
 				id: "00A71DC8D597A3E0"
@@ -1852,8 +1853,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.964285714285708d
-			y: 1.4464285714285694d
+			x: 6.0d
+			y: 1.45d
 		}
 		{
 			dependencies: ["5FCEA8229BB6955C"]

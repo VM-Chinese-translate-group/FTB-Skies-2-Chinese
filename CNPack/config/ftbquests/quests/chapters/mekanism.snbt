@@ -409,6 +409,7 @@
 			dependencies: ["437F2C378CD6FE51"]
 			hide_dependency_lines: false
 			id: "296C424C7D2C7589"
+			optional: true
 			rewards: [
 				{
 					id: "5EFD28FC64ACCD67"
@@ -510,6 +511,7 @@
 						count: 1
 						id: "mekanism:energy_tablet"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -603,7 +605,7 @@
 			min_width: 300
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "46ED8A62CE73B29A"
 					item: {
 						count: 1
@@ -965,7 +967,7 @@
 			id: "114B4840D2FA1CDF"
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "7DF58CAD2565F964"
 					item: {
 						count: 1
@@ -1033,7 +1035,7 @@
 			min_width: 250
 			rewards: [
 				{
-					count: 2
+					count: 3
 					id: "6A516A3B68E85BD4"
 					item: {
 						count: 1
@@ -1064,7 +1066,6 @@
 			dependencies: ["644874076A06F5F4"]
 			hide_dependency_lines: true
 			id: "24F17FA24ED466FA"
-			optional: true
 			rewards: [
 				{
 					id: "1A9A9D8A260A175C"
@@ -1097,7 +1098,6 @@
 			dependencies: ["644874076A06F5F4"]
 			hide_dependency_lines: true
 			id: "1FBEA2EB39456FD5"
-			optional: true
 			rewards: [
 				{
 					id: "44A50BAFC7914D60"
@@ -1201,7 +1201,7 @@
 			min_width: 300
 			rewards: [
 				{
-					count: 3
+					count: 8
 					id: "15E238F35FBFBFE8"
 					item: {
 						count: 1
@@ -1309,11 +1309,10 @@
 			min_width: 350
 			rewards: [
 				{
-					count: 3
 					id: "529615006C459A90"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1656,10 +1655,11 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 5
 					id: "073797BF505AC9FB"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1824,10 +1824,11 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 5
 					id: "0FB2E73886F35E1C"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -2113,6 +2114,7 @@
 			dependencies: ["33A9FF901E2D7725"]
 			hide_dependency_lines: true
 			id: "1AF853BD7AFAF0C6"
+			optional: true
 			rewards: [
 				{
 					id: "37DC956BED715B46"
@@ -2379,6 +2381,7 @@
 			dependencies: ["33A9FF901E2D7725"]
 			id: "361957009F62D810"
 			min_width: 350
+			optional: true
 			rewards: [
 				{
 					id: "6C57A3EB6C391BC1"
@@ -2625,26 +2628,14 @@
 			id: "5DFBE09D434ADADD"
 			min_width: 250
 			optional: true
-			rewards: [
-				{
-					id: "5A6F7B98E17747EF"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "5A6F7B98E17747EF"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 2
-					id: "4B74A8F25DF6AB15"
-					item: {
-						count: 1
-						id: "mekanism:ingot_steel"
-					}
-					random_bonus: 2
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "67AA4D77994AA256"

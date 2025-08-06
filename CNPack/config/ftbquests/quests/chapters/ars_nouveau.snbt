@@ -257,7 +257,7 @@
 			icon_scale: 2.0d
 			id: "11EAC083A8DF86EC"
 			rewards: [{
-				count: 3
+				count: 5
 				id: "6823CC427931FE37"
 				item: {
 					count: 1
@@ -327,7 +327,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "11C9EAD86AA98000"
 					item: {
 						count: 1
@@ -572,7 +572,7 @@
 			id: "741F91C5833DEFFA"
 			min_width: 250
 			rewards: [{
-				count: 3
+				count: 5
 				id: "2133427C18330722"
 				item: {
 					count: 1
@@ -597,7 +597,7 @@
 			id: "5A57DB728220261F"
 			min_width: 300
 			rewards: [{
-				count: 3
+				count: 5
 				id: "2C6B68A726A877F5"
 				item: {
 					count: 1
@@ -622,7 +622,7 @@
 			id: "4E4E33E04625A9EB"
 			min_width: 300
 			rewards: [{
-				count: 3
+				count: 5
 				id: "76E79E0D492E2160"
 				item: {
 					count: 1
@@ -650,7 +650,7 @@
 			id: "37313F95E939A6F5"
 			min_width: 300
 			rewards: [{
-				count: 3
+				count: 5
 				id: "0C84E2369B432AA2"
 				item: {
 					count: 1
@@ -685,7 +685,7 @@
 			id: "40AD268694D57BD9"
 			min_width: 275
 			rewards: [{
-				count: 3
+				count: 5
 				id: "5666B1FDCDC20B29"
 				item: {
 					count: 1
@@ -708,33 +708,41 @@
 		{
 			dependencies: ["4C78823B3EFA3105"]
 			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ring_of_greater_discount"
+			}
 			id: "2435B9F22A09A945"
-			min_width: 250
+			min_width: 300
 			rewards: [{
-				count: 3
 				id: "7A52B252DF9B5FB9"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
 			shape: "square"
 			size: 1.0d
-			tasks: [{
-				icon: {
-					id: "ars_nouveau:ring_of_greater_discount"
-				}
-				id: "17E5AF15A0633680"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(ars_nouveau:ring_of_lesser_discount)item(ars_nouveau:ring_of_greater_discount))"
+			tasks: [
+				{
+					id: "09D13735D88556E7"
+					item: {
+						count: 1
+						id: "ars_nouveau:ring_of_lesser_discount"
 					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6BC2F7CE98B4F654"
+					item: {
+						count: 1
+						id: "ars_nouveau:ring_of_greater_discount"
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 15.0d
 			y: 1.0d
 		}
@@ -1028,6 +1036,7 @@
 					id: "039CF53FEB26CB03"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
 				}
 			]
@@ -1124,7 +1133,7 @@
 			id: "3C25B0FAC773D70A"
 			optional: true
 			rewards: [{
-				count: 2
+				count: 5
 				id: "50AB335368C350C0"
 				item: {
 					count: 1
@@ -1153,7 +1162,7 @@
 			id: "3FB99C220188AB6F"
 			optional: true
 			rewards: [{
-				count: 2
+				count: 5
 				id: "13538CCA981F8571"
 				item: {
 					count: 1
@@ -1179,7 +1188,7 @@
 			id: "425CB9CE53FBC0FF"
 			optional: true
 			rewards: [{
-				count: 2
+				count: 5
 				id: "0F8BC2A030D8E7A5"
 				item: {
 					count: 1
@@ -1209,7 +1218,7 @@
 			min_width: 300
 			optional: true
 			rewards: [{
-				count: 2
+				count: 5
 				id: "23ECF425FFD3DFDC"
 				item: {
 					count: 1
@@ -1225,6 +1234,7 @@
 						count: 1
 						id: "ars_nouveau:spell_bow"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1233,6 +1243,7 @@
 						count: 1
 						id: "ars_nouveau:spell_crossbow"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1293,6 +1304,7 @@
 					id: "49BAC1929B288851"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
 				}
 			]
@@ -1409,6 +1421,7 @@
 					id: "2292CE0AA6C85837"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
 				}
 			]
@@ -1460,6 +1473,7 @@
 					id: "3AFA2A1F003D80F7"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
 				}
 				{
@@ -1509,6 +1523,7 @@
 					id: "3069A1127E891692"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
 				}
 			]
@@ -1550,6 +1565,7 @@
 					id: "54CFD44E7021DDAE"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
 				}
 			]
@@ -1592,6 +1608,7 @@
 					id: "379F1B936DD490B9"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
 				}
 			]
@@ -1610,8 +1627,8 @@
 		{
 			dependencies: ["43B4B6F09B5AF30C"]
 			id: "1C044AAAA1306C6F"
+			optional: true
 			rewards: [{
-				count: 3
 				id: "6874CAFFCC9831C2"
 				item: {
 					count: 1
@@ -1656,6 +1673,7 @@
 					id: "78FAD81FB1199F94"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
 				}
 			]
@@ -1682,59 +1700,75 @@
 			min_width: 300
 			optional: true
 			rewards: [{
-				count: 3
 				id: "718054439D17792E"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{
-				id: "07A28AE0ECC4CDDE"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(ars_nouveau:belt_of_levitation)item(ars_nouveau:belt_of_unstable_gifts))"
+			tasks: [
+				{
+					id: "782CD7DE4E2CEEF1"
+					item: {
+						count: 1
+						id: "ars_nouveau:belt_of_levitation"
 					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "07A28AE0ECC4CDDE"
+					item: {
+						count: 1
+						id: "ars_nouveau:belt_of_unstable_gifts"
+					}
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4C78823B3EFA3105"]
 			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:amulet_of_mana_regen"
+			}
 			id: "5D7698281A8CA4D0"
-			min_width: 250
 			rewards: [{
-				count: 3
 				id: "6790F0A41A20D128"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
 			shape: "square"
 			size: 1.0d
-			tasks: [{
-				icon: {
-					id: "ars_nouveau:amulet_of_mana_regen"
-				}
-				id: "35B25DCE07DF8A9A"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(ars_nouveau:amulet_of_mana_boost)item(ars_nouveau:amulet_of_mana_regen))"
+			tasks: [
+				{
+					icon: {
+						id: "ars_nouveau:amulet_of_mana_regen"
 					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
+					id: "35B25DCE07DF8A9A"
+					item: {
+						count: 1
+						id: "ars_nouveau:amulet_of_mana_regen"
+					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "713DF336D73FA59B"
+					item: {
+						count: 1
+						id: "ars_nouveau:amulet_of_mana_boost"
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 1.0d
 		}
@@ -1748,29 +1782,34 @@
 			min_width: 300
 			optional: true
 			rewards: [{
-				count: 3
 				id: "71461BC723DA9ECB"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{
-				icon: {
-					id: "ars_nouveau:jar_of_light"
-				}
-				id: "60763988647E0462"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(ars_nouveau:jar_of_light)item(ars_nouveau:void_jar))"
+			tasks: [
+				{
+					id: "70D5CFE32D3A1BA6"
+					item: {
+						count: 1
+						id: "ars_nouveau:jar_of_light"
 					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5FDFA24B4EBEC658"
+					item: {
+						count: 1
+						id: "ars_nouveau:void_jar"
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 15.0d
 			y: 3.0d
 		}
@@ -1828,7 +1867,7 @@
 			dependencies: ["7067E5B47D381423"]
 			id: "3578757A7E8F3B37"
 			rewards: [{
-				count: 3
+				count: 5
 				id: "1A667696B803C1FF"
 				item: {
 					count: 1
@@ -1851,22 +1890,15 @@
 		{
 			dependencies: ["7067E5B47D381423"]
 			id: "52A48E0F92AD4399"
-			rewards: [
-				{
-					id: "7362A9064AFAB65C"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				count: 5
+				id: "345AE86A9E28B2DD"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 3
-					id: "345AE86A9E28B2DD"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "51663102BF93BBC2"
@@ -1884,7 +1916,7 @@
 			id: "29CEF5D43415B227"
 			min_width: 250
 			rewards: [{
-				count: 3
+				count: 5
 				id: "15DC45299A52942D"
 				item: {
 					count: 1
@@ -1908,7 +1940,7 @@
 			dependencies: ["7067E5B47D381423"]
 			id: "75621DDF80A2B05F"
 			rewards: [{
-				count: 3
+				count: 5
 				id: "187CE2F5AE566CB1"
 				item: {
 					count: 1
@@ -1963,7 +1995,7 @@
 					id: "17C727871E26B25F"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "magic_coins:crystal_coin"
 					}
 					type: "item"
 				}
@@ -1979,6 +2011,7 @@
 					id: "35206AD87E887AE5"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
 				}
 			]
@@ -2028,7 +2061,7 @@
 			id: "47C817DA92CE31EA"
 			optional: true
 			rewards: [{
-				count: 3
+				count: 5
 				id: "55356B489114C560"
 				item: {
 					count: 1
@@ -2064,7 +2097,7 @@
 			id: "6650640D1CE866F1"
 			optional: true
 			rewards: [{
-				count: 2
+				count: 5
 				id: "5346287D63D0F36B"
 				item: {
 					count: 1
@@ -2090,7 +2123,7 @@
 			id: "0A06A270AD88C9D8"
 			optional: true
 			rewards: [{
-				count: 2
+				count: 5
 				id: "7C0EF3671690B6E9"
 				item: {
 					count: 1
@@ -2116,7 +2149,7 @@
 			id: "1B24A21E96C2C49F"
 			optional: true
 			rewards: [{
-				count: 2
+				count: 5
 				id: "35516E23E74BB171"
 				item: {
 					count: 1

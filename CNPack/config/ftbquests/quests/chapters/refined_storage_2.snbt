@@ -672,7 +672,6 @@
 					count: 1
 					id: "refinedstorage:constructor"
 				}
-				optional_task: true
 				type: "item"
 			}]
 			x: 2.75d
@@ -2461,6 +2460,7 @@
 						count: 1
 						id: "extrastorage:advanced_importer"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2469,6 +2469,7 @@
 						count: 1
 						id: "extrastorage:advanced_exporter"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2605,6 +2606,7 @@
 						count: 1
 						id: "cabletiers:elite_destructor"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2613,6 +2615,7 @@
 						count: 1
 						id: "cabletiers:ultra_destructor"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2621,6 +2624,7 @@
 						count: 1
 						id: "cabletiers:mega_destructor"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2629,6 +2633,7 @@
 						count: 1
 						id: "cabletiers:creative_destructor"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2667,6 +2672,7 @@
 						count: 1
 						id: "cabletiers:elite_constructor"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2675,6 +2681,7 @@
 						count: 1
 						id: "cabletiers:ultra_constructor"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2683,6 +2690,7 @@
 						count: 1
 						id: "cabletiers:mega_constructor"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -2691,6 +2699,7 @@
 						count: 1
 						id: "cabletiers:creative_constructor"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]

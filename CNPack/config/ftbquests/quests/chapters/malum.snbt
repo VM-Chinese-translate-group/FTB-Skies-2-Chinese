@@ -903,19 +903,19 @@
 			id: "59CA9831FDCAFA10"
 			rewards: [
 				{
+					id: "2D8CDF8B7DF3431C"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 8
 					id: "51C7D305BF603C9C"
 					item: {
 						count: 1
 						id: "malum:refined_brilliance"
-					}
-					type: "item"
-				}
-				{
-					id: "2D8CDF8B7DF3431C"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}

@@ -51,54 +51,6 @@
 			y: 2.5d
 		}
 		{
-			height: 1.0d
-			image: "create:block/depot_side"
-			rotation: 0.0d
-			width: 1.0d
-			x: 20.5d
-			y: 4.5d
-		}
-		{
-			height: 1.0d
-			image: "create:block/depot_side"
-			rotation: 0.0d
-			width: 1.0d
-			x: 21.5d
-			y: 4.5d
-		}
-		{
-			height: 1.0d
-			image: "create:block/depot_side"
-			rotation: 0.0d
-			width: 1.0d
-			x: 22.5d
-			y: 4.5d
-		}
-		{
-			height: 1.0d
-			image: "create:block/depot_side"
-			rotation: 0.0d
-			width: 1.0d
-			x: 23.5d
-			y: 6.5d
-		}
-		{
-			height: 1.0d
-			image: "create:block/depot_side"
-			rotation: 0.0d
-			width: 1.0d
-			x: 24.5d
-			y: 6.5d
-		}
-		{
-			height: 1.0d
-			image: "create:block/depot_side"
-			rotation: 0.0d
-			width: 1.0d
-			x: 25.5d
-			y: 6.5d
-		}
-		{
 			height: 1.25d
 			image: "ftb:textures/quests/create/placard.png"
 			rotation: 0.0d
@@ -161,6 +113,62 @@
 			width: 1.25d
 			x: 8.0d
 			y: 4.53d
+		}
+		{
+			height: 1.0d
+			image: "create:block/mechanical_arm_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.5d
+			y: 6.87d
+		}
+		{
+			height: 1.0d
+			image: "create:block/mechanical_arm_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: 4.87d
+		}
+		{
+			height: 1.0d
+			image: "create:block/mechanical_arm_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.5d
+			y: 6.87d
+		}
+		{
+			height: 1.0d
+			image: "create:block/mechanical_arm_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.5d
+			y: 6.87d
+		}
+		{
+			height: 1.0d
+			image: "create:block/mechanical_arm_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 25.5d
+			y: 6.87d
+		}
+		{
+			height: 1.0d
+			image: "create:block/mechanical_arm_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.5d
+			y: 4.87d
+		}
+		{
+			height: 1.0d
+			image: "create:block/mechanical_arm_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.5d
+			y: 4.87d
 		}
 	]
 	order_index: 1
@@ -3906,6 +3914,63 @@
 			}]
 			x: -1.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["610400303BEAC642"]
+			hide_dependency_lines: false
+			icon: {
+				id: "create_hypertube:hypertube_entrance"
+			}
+			id: "2D20EDB447787183"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "3AFF56255B87D67D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "43B1475EE6E55296"
+					item: {
+						count: 1
+						id: "create_hypertube:hypertube_entrance"
+					}
+					type: "item"
+				}
+				{
+					id: "2055AABE9C6E72BE"
+					item: {
+						count: 1
+						id: "minecraft:slime_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "29C2B64A2712C847"
+					item: {
+						count: 1
+						id: "create_hypertube:hypertube_entrance"
+					}
+					type: "item"
+				}
+				{
+					id: "6B8E2AF539BF1AF4"
+					item: {
+						count: 1
+						id: "create_hypertube:hypertube"
+					}
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: 6.0d
 		}
 	]
 }

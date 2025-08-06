@@ -256,6 +256,14 @@
 			optional: true
 			rewards: [
 				{
+					id: "3605A7A48438F92A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 4
 					id: "24B45CB23BF524B2"
 					item: {
@@ -263,20 +271,6 @@
 						id: "integrateddynamics:cable"
 					}
 					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "4E638A62C235D7C5"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "3605A7A48438F92A"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -297,6 +291,15 @@
 			id: "5691235133373883"
 			rewards: [
 				{
+					count: 3
+					id: "59E49E5E2FD9F393"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "6C825EE1342838D6"
 					item: {
 						components: {
@@ -304,20 +307,6 @@
 						}
 						count: 1
 						id: "integrateddynamics:energy_battery"
-					}
-					type: "item"
-				}
-				{
-					id: "1AC48D6D63C54AA5"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 2
-					id: "59E49E5E2FD9F393"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -345,11 +334,6 @@
 			id: "565B21FA569CF3CC"
 			min_width: 300
 			rewards: [
-				{
-					id: "5838521E379953D6"
-					type: "xp"
-					xp: 25
-				}
 				{
 					id: "041350D7DE62DEFB"
 					item: {
@@ -425,6 +409,7 @@
 				id: "integratedterminals:part_terminal_storage"
 			}
 			id: "60B37EEA5AD64C3D"
+			min_width: 300
 			rewards: [{
 				id: "7DD0E8B51A08FE15"
 				item: {
@@ -467,7 +452,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "456E3C22D829200E"
 					item: {
 						count: 1
@@ -515,9 +500,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "00835034135C37DC"
-					type: "xp"
-					xp: 25
+					count: 5
+					id: "5550B9671F27E770"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					count: 8
@@ -525,15 +514,6 @@
 					item: {
 						count: 1
 						id: "integrateddynamics:variable"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "5550B9671F27E770"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -557,7 +537,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					count: 5
 					id: "2E9FF145D075E86D"
 					item: {
 						count: 1
@@ -596,6 +576,14 @@
 			optional: true
 			rewards: [
 				{
+					id: "150F2B33DD4F5996"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 2
 					id: "2F8BC837B3A8FFAC"
 					item: {
@@ -603,19 +591,6 @@
 						id: "integrateddynamics:proto_chorus"
 					}
 					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "372077819DE7BCD0"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "150F2B33DD4F5996"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
 					type: "item"
 				}
 			]
@@ -644,21 +619,14 @@
 			dependencies: ["327E27800EB44FCA"]
 			id: "4A7198127F58DA94"
 			optional: true
-			rewards: [
-				{
-					id: "28B019350CF3D376"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				id: "4A3537E2C8CD3A5A"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					id: "4A3537E2C8CD3A5A"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5765EA89F395979E"
 				item: {
@@ -680,33 +648,19 @@
 			optional: true
 			rewards: [
 				{
+					id: "4AE7E317BEC8CCC0"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 2
 					id: "11A7B3422283E7E9"
 					item: {
 						count: 1
 						id: "integrateddynamics:logic_director"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "0F5A201D399AE883"
-					item: {
-						count: 1
-						id: "integrateddynamics:part_connector_mono_directional"
-					}
-					type: "item"
-				}
-				{
-					id: "6D8590DAE6E4C1EB"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "4AE7E317BEC8CCC0"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -785,22 +739,15 @@
 				"73B0702440A063EB"
 			]
 			id: "2C0332B3354D8A9C"
-			optional: true
-			rewards: [
-				{
-					id: "6BF4056381936FE1"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				count: 3
+				id: "7C7D4CE8A6B220DA"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					id: "7C7D4CE8A6B220DA"
-					item: {
-						count: 1
-						id: "magic_coins:crystal_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "3FF59947C8F0778C"
 				item: {
@@ -824,6 +771,7 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
 					id: "0C00695CB9FC62B1"
 					item: {
 						count: 1
@@ -947,22 +895,14 @@
 			dependencies: ["733B30C6D9F14141"]
 			id: "4DB08D796BBE6E93"
 			optional: true
-			rewards: [
-				{
-					id: "06109CA29230C947"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "06109CA29230C947"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					id: "32D89D39570575E6"
-					team_reward: false
-					type: "xp"
-					xp: 100
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D44DEAA338C8136"
 				item: {
@@ -981,7 +921,6 @@
 			}
 			id: "5E36696532C72B3A"
 			min_width: 300
-			optional: true
 			rewards: [{
 				count: 5
 				id: "2787C5A2D890F17E"
@@ -1021,38 +960,32 @@
 			}
 			id: "4EAB855FDFCD1955"
 			min_width: 350
-			optional: true
-			rewards: [
-				{
-					id: "59B6E39271BB6D0D"
-					item: {
-						count: 1
-						id: "integrateddynamics:variable_transformer_input"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "05A4B2D076FD0B04"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "23C05C9A4C64E3E8"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 2
-					id: "05A4B2D076FD0B04"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
+				{
+					id: "0ACB4EB9B59FB57E"
+					item: {
+						count: 1
+						id: "integrateddynamics:part_block_reader"
+					}
+					optional_task: true
+					type: "item"
+				}
 				{
 					id: "019FFE3C2B3F1C26"
 					item: {
 						count: 1
 						id: "integrateddynamics:part_world_reader"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1061,6 +994,7 @@
 						count: 1
 						id: "integrateddynamics:part_extradimensional_reader"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1069,14 +1003,7 @@
 						count: 1
 						id: "integrateddynamics:part_audio_reader"
 					}
-					type: "item"
-				}
-				{
-					id: "0ACB4EB9B59FB57E"
-					item: {
-						count: 1
-						id: "integrateddynamics:part_block_reader"
-					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1089,31 +1016,15 @@
 				id: "integrateddynamics:part_redstone_reader"
 			}
 			id: "33CD8F19B27FA484"
-			optional: true
-			rewards: [
-				{
-					id: "24F0EF8F535F6911"
-					item: {
-						count: 1
-						id: "integrateddynamics:variable_transformer_input"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "0F590A1D5A1389F3"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "69F03F1545CBE1C6"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 2
-					id: "0F590A1D5A1389F3"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "35E53A7211E937FB"
@@ -1121,6 +1032,7 @@
 						count: 1
 						id: "integrateddynamics:part_redstone_reader"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1129,6 +1041,7 @@
 						count: 1
 						id: "integrateddynamics:part_network_reader"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1137,6 +1050,7 @@
 						count: 1
 						id: "integrateddynamics:part_machine_reader"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1146,31 +1060,15 @@
 		{
 			dependencies: ["729DF05C1D2AE6E7"]
 			id: "789BE725F2F89196"
-			optional: true
-			rewards: [
-				{
-					id: "6639F36D70CEB62E"
-					item: {
-						count: 1
-						id: "integrateddynamics:variable_transformer_input"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "64F6A17D137033CF"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "52AC72B6EFFC7720"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 2
-					id: "64F6A17D137033CF"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "78B1896D4C1F348D"
 				item: {
@@ -1189,30 +1087,15 @@
 			}
 			id: "00E7719300B02F8F"
 			optional: true
-			rewards: [
-				{
-					id: "142B1781404F70BA"
-					item: {
-						count: 1
-						id: "integrateddynamics:variable_transformer_output"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "58E435991E947102"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "319ACAA473B5657D"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 2
-					id: "58E435991E947102"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "11F354DBC1265B52"
@@ -1220,6 +1103,7 @@
 						count: 1
 						id: "integrateddynamics:part_audio_writer"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1228,6 +1112,7 @@
 						count: 1
 						id: "integrateddynamics:part_effect_writer"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1237,7 +1122,6 @@
 		{
 			dependencies: ["729DF05C1D2AE6E7"]
 			id: "3B829DC47FFE77D6"
-			optional: true
 			rewards: [{
 				count: 5
 				id: "6DB50B170C7FB063"
@@ -1264,22 +1148,14 @@
 				id: "integratedtunnels:part_importer_world_item"
 			}
 			id: "73B0702440A063EB"
-			rewards: [
-				{
-					id: "53AE41A6AF75B792"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "5FB220E7608A8AD5"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					count: 3
-					id: "5FB220E7608A8AD5"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6AA5E33EA2CA3A53"
@@ -1307,22 +1183,14 @@
 				id: "integratedtunnels:part_importer_world_fluid"
 			}
 			id: "091ACA18018FFD3E"
-			rewards: [
-				{
-					id: "0FD559A77FC0782E"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "462D4669E861139D"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					count: 3
-					id: "462D4669E861139D"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6B6FDA05423838E0"
@@ -1330,6 +1198,7 @@
 						count: 1
 						id: "integratedtunnels:part_importer_world_fluid"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1338,6 +1207,7 @@
 						count: 1
 						id: "integratedtunnels:part_exporter_world_fluid"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1350,22 +1220,14 @@
 				id: "integratedtunnels:part_importer_world_energy"
 			}
 			id: "302C29E7007A61D9"
-			rewards: [
-				{
-					id: "64D76661BEC8A3C0"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "03A49613E6932486"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					count: 3
-					id: "03A49613E6932486"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "708ACDB2263BC39B"
@@ -1373,6 +1235,7 @@
 						count: 1
 						id: "integratedtunnels:part_importer_world_energy"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1381,6 +1244,7 @@
 						count: 1
 						id: "integratedtunnels:part_exporter_world_energy"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1393,21 +1257,14 @@
 				id: "integratedtunnels:part_importer_world_block"
 			}
 			id: "37D23D46198DA708"
-			rewards: [
-				{
-					id: "294E6EC3D692D833"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "0328637FBC128834"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					id: "0328637FBC128834"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "465DDF26ABF57F20"
@@ -1462,24 +1319,19 @@
 			optional: true
 			rewards: [
 				{
-					id: "519B22ACE8F9637D"
-					item: {
-						count: 1
-						id: "integrateddynamics:part_display_panel"
-					}
-					type: "item"
-				}
-				{
-					id: "49972B33967C627F"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 3
 					id: "1151C487D440626C"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "519B22ACE8F9637D"
+					item: {
+						count: 1
+						id: "integrateddynamics:part_display_panel"
 					}
 					type: "item"
 				}
@@ -1612,21 +1464,14 @@
 			}
 			id: "006014B382FCF6E6"
 			min_width: 300
-			rewards: [
-				{
-					id: "76DFF3B3152D11A1"
-					type: "xp"
-					xp: 10
+			rewards: [{
+				id: "68A50B0B9E03CF7D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "68A50B0B9E03CF7D"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "31D3D8C34525AC97"
