@@ -20,7 +20,7 @@
 	chapter.3883EC8201EE0E54.title: "&3FEED &2THE &cBEAST"
 	chapter.391B65CD04A90459.title: "发电"
 	chapter.3AEDC4DBA9DD1E44.title: "Iron的法术与魔法书"
-	chapter.3B3AD612555627C6.title: "RFTools Series"
+	chapter.3B3AD612555627C6.title: "RF工具箱系列"
 	chapter.3B99F85218D37371.title: "实用物品和小贴士"
 	chapter.3C9226E63258D73B.title: "任意门"
 	chapter.3CE58B5907FB2A58.title: "实用拓展"
@@ -201,7 +201,7 @@
 		""
 		"&7This fact is much more relevant in multiplayer servers."
 	]
-	quest.0173ED2BED248CF6.title: "Dialing Destinations"
+	quest.0173ED2BED248CF6.title: "传送目的地"
 	quest.0174ACD260158165.quest_subtitle: "传输气体和化学品"
 	quest.0174ACD260158165.title: "&f气体管道"
 	quest.018027C0128159CB.title: "&f盾牌蓝图"
@@ -3371,7 +3371,7 @@
 	quest.1EFED5AC265CDB0C.quest_desc: [
 		"在建造&a金属冲压机&r前，你需要使用&a工程师锤&r或&e动力冲压机&r制作金属板。"
 		""
-		"To craft wires, place a plate in a &aStonecutter&r in the same way and later in specialized machines which will provide a higher yield."
+		"要制作线材，请将金属板放入&a切石机&r中，后期可使用专门的机器制作以提高产量。"
 	]
 	quest.1EFED5AC265CDB0C.title: "&f金属板和线"
 	quest.1F09A28387DA18A6.quest_desc: [
@@ -4232,9 +4232,9 @@
 	]
 	quest.26EA309139C7C27E.title: "&a熔炉"
 	quest.26ECC091E6B3FA57.quest_desc: [
-		"&dAzure Silver&r can be obtained through advanced general-use \"&bOre Generators&r\" and is further renewed via bees."
+		"&d蔚蓝银矿&r可以通过高级通用“&b矿物生成器&r”获得，或通过蜜蜂生产。"
 		""
-		"This ore requires a harvest tier of Netherite to mine. The metal is mostly used to craft &3Azure Electrum Ingots&r."
+		"这种矿物的挖掘等级为下界合金，一般是用来制造&3蔚蓝琥珀金锭&r。"
 	]
 	quest.26ECC091E6B3FA57.title: "&d末地&r&f金属"
 	quest.26F18323EB6EFCA0.quest_desc: ["&b子沙&r方块很适合建造仙人掌或者甘蔗农场。给它输入红石信号还可以提高作物的生长速率。"]
@@ -4323,9 +4323,9 @@
 	quest.27EA4B653A952968.title: "&f锇矿晶母岩"
 	quest.282692A786304653.title: "&d黄铜板"
 	quest.282953A521BACF41.quest_desc: [
-		"&aSilver&r can be a tricky precious resource to find, and you may need to resort to an ore generator to get your hands on some. Any mod's ore generator should do the trick."
+		"&a银&r是一种难以寻觅的珍贵资源，你可能需要借助矿石生成器来获取一些，任何模组的矿石生成器都有效。"
 		""
-		"There are rumors of some odd methods however. Transmuting gold through some &dspiritual power&r, or through converting aluminum with &6goo&r..."
+		"坊间流传着些奇特的方法，比如通过某种&d灵力（spiritual power）&r转化黄金，或者用&6凝胶（goo）&r转化铝……"
 	]
 	quest.282953A521BACF41.quest_subtitle: "将熔融银浇注在催化剂上，或者……"
 	quest.282953A521BACF41.title: "&f银矿晶母岩"
@@ -4470,7 +4470,7 @@
 	]
 	quest.29CEF5D43415B227.title: "&d远程传输魔源"
 	quest.29E2CEADF6720EB3.quest_desc: [
-		"&cCrimson Iron Ore&r can be obtained from advanced general-use \"&bOre Generators&r\" and is further renewed via bees."
+		"&c绯红铁矿石&r可以通过高级通用“&b矿物生成器&r”获得，或通过蜜蜂生产。"
 		""
 		"这种材料不仅数值优秀，而且&c绯红铁顶端升级&r附带自动熔炼的特性！"
 		""
@@ -4759,14 +4759,14 @@
 	]
 	quest.2D09494ED3235CC8.title: "&3动力泵"
 	quest.2D20EDB447787183.quest_desc: [
-		"While you can use &ebelts&r as an automatic sidewalk and &eweighted ejectors&r to fling yourself, there are more sophisticated methods of travel around the different sections of your base. Namely: &6Hypertubes&r!"
+		"虽然你可以使用&e传送带&r作为自动人行道，或者用&e弹射置物台&r把自己弹出去，但在基地各个区域之间移动，还有更高级的方法。那就是：超级管道！"
 		""
-		"Single or dual direction &bhypertube paths&r can be made by placing down &aHypertube Entrance Blocks&r, then clicking with some &aHyper&mlink&r&atube Blocks&r to extend out to a separate point. You can place down hypertube blocks to set up connection points for longer distances."
+		"你可以通过放置超级管道入口块，然后使用超级管道入口块单击另一个点来创建单向或双向的超级管道路径。您可以放置超级管道块来设置连接点，以便延伸更长的距离。"
 		""
-		"&7&oAny resemblance to Ficsit technologies current or previous is coincidental."
+		"&7&o任何与幸福工厂当前或过往技术的相似之处均为巧合。"
 	]
-	quest.2D20EDB447787183.quest_subtitle: "Player go woosh!"
-	quest.2D20EDB447787183.title: "&6Create: Hypertubes"
+	quest.2D20EDB447787183.quest_subtitle: "玩家嗖嗖嗖！"
+	quest.2D20EDB447787183.title: "&6机械动力：超级管道"
 	quest.2D2EC0BCFF1DA68C.quest_desc: [
 		"用蜜蜂笼捕获蜜蜂后，大多数蜜蜂会显示具体的属性，我们来看一看这些属性吧！"
 		""
@@ -5488,8 +5488,8 @@
 	]
 	quest.33AC3264C0AE8FF1.title: "&f种植&b生物"
 	quest.33AC985718B5BA2D.title: "&a纸浆"
-	quest.33B0290BBE5DD5BC.quest_desc: ["Now that we have an &2Electric Blast Furnace&r, we can smelt &2Bauxite Dust&r into &bIndustrial Aluminum Nuggets&r. You'll be able to make &bIndustrial Aluminum&r more efficiently later, but, for now, this is the primary method to get you started."]
-	quest.33B0290BBE5DD5BC.title: "&bIndustrial Aluminum Ingot"
+	quest.33B0290BBE5DD5BC.quest_desc: ["现在我们有了&2电力高炉&r，终于可以把我们的&2工业铝土矿粉&r熔炼成&b工业铝粒&r了！虽然在不久的将来你将会拥有效率更高的炼铝方案，但就目前起步来说你只能用它了。"]
+	quest.33B0290BBE5DD5BC.title: "&b工业铝锭"
 	quest.33C257571749A2EF.quest_desc: [
 		"培育成功的&d转基因细胞&r（简称&dGM细胞&r）应该带有一个非基础的基因。对你没听错，这玩意可能会失败。"
 		""
@@ -7095,9 +7095,9 @@
 	quest.41E945A91F63D888.quest_desc: [
 		"你可以制作两种魔法腰带，这两种腰带都挺不错。"
 		""
-		"The &bBelt of Levitation&r allows the wearer to levitate a moderate distance above the ground. To activate it, sneak in the air while falling or jumping to start floating! It also reduces a small amount of fall damage when worn."
+		"&b浮空腰带&r可以让穿戴者以较低高度在空中漂浮，在坠落或跳跃时按潜行键就可以激活！而且这个腰带戴上后可以轻微减少掉落伤害。"
 		""
-		"The &bBelt of Unstable Gifts&r will occasionally grant a random positive potion effect for a short duration. It's like magical gambling, but on a belt."
+		"&b不稳定礼物腰带&r会间歇性为你施加一项随机正面药水效果，就像随机抽卡一样，只不过用的是腰带。"
 	]
 	quest.41E945A91F63D888.title: "&d魔法&f腰带！"
 	quest.420F14616E3F8EEF.quest_desc: [
@@ -7351,7 +7351,7 @@
 	]
 	quest.44654F0A91D7817D.title: "&c核弹"
 	quest.447242EAC91413A9.quest_desc: [
-		"The &6End Portal Frames&r are no joke! You'll need to go deep into tech or magic to get all 12."
+		"搭建&6末地传送门框架&r可不简单！你需要深入科技或魔法领域才能集齐全部12个。"
 		""
 		"The &dEnd Portal&r structure is made by placing a cornerless 5x5 square of &6End Portal Frames&r just like vanilla. It will not work by just building it from one angle. The best way to do this is to stand in the center of the portal and place the blocks around you."
 		""
@@ -9708,9 +9708,9 @@
 	quest.5BDBB419A8FA0D2D.quest_desc: [
 		"有两种瓶子适合随身携带，而且都很有用！"
 		""
-		"The &bJar of Light&r will summon a little light that follows you wherever you go. Using the Jar will dismiss or summon your new light companion!"
+		"无论你走到哪，&b光之瓶&r都会生成一个跟随你的光芒。手持使用这个罐子即可收回/召唤光源！"
 		""
-		"The &bJar of Voiding&r is basically a trashcan in your back pocket that converts voided items into a small amount of mana! To active it, use the Jar while sneaking. To add an item to the void list, use the Jar with the item you want voided in your off hand. The Jar must also be in your hotbar to function."
+		"&b湮灭之瓶&r可以当成背包中的垃圾桶，但它和垃圾桶不同的一点就是可以把销毁物品变为魔力！潜行时手持使用瓶子即可激活，然后副手拿着要销毁的物品并使用瓶子，就能将物品加入销毁清单。瓶子激活后，销毁清单中的物品在被丢出时会自动销毁。瓶子必须放在快捷栏才能正常工作。"
 	]
 	quest.5BDBB419A8FA0D2D.title: "瓶装&d魔法&f"
 	quest.5BF13A09E1CBCA76.quest_desc: [
@@ -9813,7 +9813,7 @@
 	quest.5D0742E56290E42B.quest_desc: [
 		"下一阶科技要用&3电子电路&r了"
 		""
-		"[\"You can convert a \", {\"text\": \"Mekansim \", \"color\": \"yellow\"}, {\"text\": \"Ultimate Control Circuit\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19874DF48B8B2A75\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Ultimate Control Circuit Quest\"}}, \" for these recipes as well but beyond this tier you'll need to automate the remaining processors with \", {\"text\": \"MI\", \"color\": \"yellow\"}, \".\"]"
+		"[\"你现在还能用\", {\"text\": \"通用机械\", \"color\": \"yellow\"}, {\"text\": \"终极控制电路\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19874DF48B8B2A75\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往终极控制电路任务\"}}, \"凑数，但超出这级，你就需要使用 \", {\"text\": \"MI\", \"color\": \"yellow\"}, \"的东西了。\"]"
 	]
 	quest.5D0742E56290E42B.title: "&3我们正在驾驭这个"
 	quest.5D2D114B66DE61EE.quest_desc: [
@@ -9851,9 +9851,9 @@
 	quest.5D7698281A8CA4D0.quest_desc: [
 		"你需要做点魔法护身符来减少魔力消耗，这样才能更舒畅地施法！"
 		""
-		"The &aAmulet of Mana Regen&r will give a slight boost to the rate that you generate mana."
+		"&a魔力再生护身符&r能够小幅度加快魔力再生速率。 "
 		""
-		"The &aAmulet of Mana Boost&r will give a solid &9+50 Mana&r to your mana pool."
+		"&a魔力提升护身符&r可以为你&9增加50点&r最大魔力&r。"
 	]
 	quest.5D7698281A8CA4D0.title: "&d魔法&f护身符"
 	quest.5D7ACF0BDFDB4AC0.quest_subtitle: "3x3范围挖掘"
@@ -11875,7 +11875,7 @@
 		""
 		"调整完毕后再在塔上方放个存储方块，用它承载输出物品，之后就可以当甩手掌柜了！"
 	]
-	quest.72AB47828922F73A.title: "&aHarvester Pylon"
+	quest.72AB47828922F73A.title: "&a收获塔"
 	quest.72C893FBEDFEF87C.quest_desc: [
 		"获得了&d不锈钢钻&r以后， 就可以在&3石油钻机&r挖出&7页岩油&r。"
 		""
@@ -12529,7 +12529,7 @@
 	quest.7900FC41FB06C932.quest_subtitle: "对催化剂使用白色染料"
 	quest.7900FC41FB06C932.title: "&f铁矿晶母岩"
 	quest.790B688EBB673CBA.quest_desc: [
-		"Using the &aEnchantment Apparatus&r, we can make &dMagebloom Seeds&r for all of our fabric needs."
+		"你可以用&a附魔装置%r制造出&d法师之花种子&r，用它满足你的纤维需求。"
 		""
 		"收获后，&b法师之花&r可以合成为&b魔力纤维&r，这种纤维用处繁多，不过最主要的用处还是制作&d魔法盔甲&r！"
 		""
@@ -13545,7 +13545,7 @@
 	task.2011385F3A3117BB.title: "&aBase Connectors"
 	task.2127DBDE1A06A297.title: "任意&eFTB Stuff模组&f锤子"
 	task.21E4AB2DCB81A632.title: "&e观察&f：粗制高炉"
-	task.21ED0BDC86BC1466.title: "Wrench"
+	task.21ED0BDC86BC1466.title: "扳手"
 	task.220243C996A84559.title: "麻袋"
 	task.221C0FFE873F2F5E.title: "&d导管"
 	task.222C5F62B4D4F38D.title: "水晶催生"
