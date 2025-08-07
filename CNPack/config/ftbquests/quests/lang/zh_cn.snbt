@@ -9698,7 +9698,7 @@
 		""
 		"当它处于非固体状态时，虽然生物不会主动穿行通过，但仍可以被推挤穿过或坠落穿过。"
 	]
-	quest.5BBA51F8FE4D6C3B.title: "&dPhase Box"
+	quest.5BBA51F8FE4D6C3B.title: "&d相变盒"
 	quest.5BD655FBD85F1831.quest_desc: [
 		"&a核源铁时钟&r是一种红石装置，它会以设定的时间间隔，在所有激活的面同时循环输出红石信号。"
 		""
