@@ -993,24 +993,19 @@
 			optional: true
 			rewards: [
 				{
-					id: "1EBFF03FA67EE135"
-					type: "xp"
-					xp: 5
+					count: 2
+					id: "52FDBFF5D0841D70"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
 				{
 					id: "157EE4CD60EF7BBC"
 					item: {
 						count: 1
 						id: "enderio:double_layer_capacitor"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "52FDBFF5D0841D70"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}

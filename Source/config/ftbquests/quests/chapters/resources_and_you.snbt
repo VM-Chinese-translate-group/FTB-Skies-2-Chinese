@@ -847,6 +847,7 @@
 				"79758946937D2AE9"
 				"32E926D3AC96233A"
 			]
+			dependency_requirement: "one_completed"
 			id: "1F4E326DA743674D"
 			optional: true
 			rewards: [{
@@ -870,6 +871,7 @@
 				"56A327D4172F3DD6"
 				"32E926D3AC96233A"
 			]
+			dependency_requirement: "one_completed"
 			id: "34E7A6645B4AA48F"
 			optional: true
 			rewards: [{
@@ -894,6 +896,7 @@
 				"79758946937D2AE9"
 				"47121E98CEF12BDE"
 			]
+			dependency_requirement: "one_completed"
 			id: "5CAFA39A77F46A83"
 			optional: true
 			rewards: [{
@@ -917,6 +920,7 @@
 				"79758946937D2AE9"
 				"6DB493D9D20E8B45"
 			]
+			dependency_requirement: "one_completed"
 			id: "4E5CA72883474230"
 			optional: true
 			rewards: [{
@@ -940,6 +944,7 @@
 				"79758946937D2AE9"
 				"1C62ECB8EDF694BB"
 			]
+			dependency_requirement: "one_completed"
 			id: "70C60D8F7C05BDA9"
 			optional: true
 			rewards: [{
@@ -963,6 +968,7 @@
 				"56A327D4172F3DD6"
 				"47121E98CEF12BDE"
 			]
+			dependency_requirement: "one_completed"
 			id: "19512B784164186D"
 			optional: true
 			rewards: [{
@@ -987,6 +993,7 @@
 				"56A327D4172F3DD6"
 				"1C62ECB8EDF694BB"
 			]
+			dependency_requirement: "one_completed"
 			id: "33D4E1FE5CD1DBE2"
 			optional: true
 			rewards: [{
@@ -1011,6 +1018,7 @@
 				"56A327D4172F3DD6"
 				"6DB493D9D20E8B45"
 			]
+			dependency_requirement: "one_completed"
 			id: "1D6D9CCF4E0072E1"
 			optional: true
 			rewards: [{
@@ -1035,6 +1043,7 @@
 				"08904FDA836C003B"
 				"47121E98CEF12BDE"
 			]
+			dependency_requirement: "one_completed"
 			id: "340542E5E1413650"
 			optional: true
 			rewards: [{
@@ -1058,6 +1067,7 @@
 				"75F7DB301ADF3667"
 				"6DB493D9D20E8B45"
 			]
+			dependency_requirement: "one_completed"
 			id: "297EAB81A2EC051F"
 			optional: true
 			rewards: [{
@@ -1082,6 +1092,7 @@
 				"75F7DB301ADF3667"
 				"47121E98CEF12BDE"
 			]
+			dependency_requirement: "one_completed"
 			id: "6A02985C3F8D48F3"
 			optional: true
 			rewards: [{
@@ -1106,6 +1117,7 @@
 				"75F7DB301ADF3667"
 				"1C62ECB8EDF694BB"
 			]
+			dependency_requirement: "one_completed"
 			id: "217D720A52277579"
 			optional: true
 			rewards: [{
@@ -1130,6 +1142,7 @@
 				"08904FDA836C003B"
 				"1C62ECB8EDF694BB"
 			]
+			dependency_requirement: "one_completed"
 			id: "6F9389517D5495A6"
 			optional: true
 			rewards: [{
@@ -1153,6 +1166,7 @@
 				"536FE5C4A9D37909"
 				"1C62ECB8EDF694BB"
 			]
+			dependency_requirement: "one_completed"
 			id: "36AA71D456F0A3C1"
 			optional: true
 			rewards: [{
@@ -1176,17 +1190,28 @@
 				"75F7DB301ADF3667"
 				"05A727E11657DA51"
 			]
+			dependency_requirement: "one_completed"
 			id: "4B7545530D6055AE"
 			optional: true
-			rewards: [{
-				count: 5
-				id: "246BAA88AE49F162"
-				item: {
-					count: 1
-					id: "magic_coins:silver_coin"
+			rewards: [
+				{
+					count: 5
+					id: "246BAA88AE49F162"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 05A727E11657DA51"
+					id: "6395CBA539B508F3"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "5CB919B82011EF9E"
 				item: { count: 1, id: "minecraft:glowstone_dust" }
@@ -1200,6 +1225,7 @@
 				"08904FDA836C003B"
 				"4B7545530D6055AE"
 			]
+			dependency_requirement: "one_completed"
 			id: "13CBFF5DAD6A1FA1"
 			optional: true
 			rewards: [{
@@ -1223,6 +1249,7 @@
 				"536FE5C4A9D37909"
 				"13CBFF5DAD6A1FA1"
 			]
+			dependency_requirement: "one_completed"
 			id: "12506117C5C46682"
 			optional: true
 			rewards: [{
@@ -1246,6 +1273,7 @@
 				"08904FDA836C003B"
 				"59053EA2D933CD8D"
 			]
+			dependency_requirement: "one_completed"
 			id: "2084A6104747D903"
 			optional: true
 			rewards: [{
@@ -1269,6 +1297,7 @@
 				"75F7DB301ADF3667"
 				"08BEE8CFBAF691DA"
 			]
+			dependency_requirement: "one_completed"
 			id: "59053EA2D933CD8D"
 			optional: true
 			rewards: [{
@@ -1386,6 +1415,7 @@
 				"08904FDA836C003B"
 				"0AF5AB8F0D7DB4B7"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "xycraft_world:xychorium_gem_light"
 			}

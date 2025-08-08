@@ -9803,7 +9803,7 @@
 		""
 		"You can use &3Distilleries&r to get &2Light and Heavy Fuels&r, and then use the &2Mixer&r to combine them into &eDiesel&r."
 		""
-		"[\"You can also refine \",{\"text\": \"Crude Oil\", \"color\": \"green\"}, \" it using a \", {\"text\": \"Thermopneumatic Processing Plant\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6CD6367FB419EA35\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Processing Plant Quest\"}}, \" from \", {\"text\": \"PNCR\", \"color\": \"yellow\"}, \", which will require heat and pressure.\"]"
+		"[\"You can also refine \",{\"text\": \"Crude Oil\", \"color\": \"green\"}, \" it using a \", {\"text\": \"Refinery Controller\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"49E9EBFC7B717D8E\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Refinery Quest\"}}, \" from \", {\"text\": \"PNCR\", \"color\": \"yellow\"}, \", which will require heat and pressure.\"]"
 	]
 	quest.56E1FAD44A6E8C11.title: "&eDiesel"
 	quest.56E9C123DD727E46.quest_desc: [
@@ -10634,7 +10634,7 @@
 	quest.5EF11F96A97C2A23.quest_desc: [
 		"&eModern Industrialization&r (&eMI&r) has a variety of tiered &aSteam Turbines&r which can be used to convert &7Steam&r into &cPower&r."
 		""
-		"The &2LV Steam Turbine&r, which produces 32 EU/t."
+		"The &2LV Steam Turbine&r can produce up to 32 EU/t."
 		""
 		"[\"You can refer to the \", {\"text\": \"Main LV Steam Turbine Quest\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50049BE2452AB7F5\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to LV Steam Turbine Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
 	]
@@ -12105,6 +12105,11 @@
 		"Make sure to toggle it on at the bottom and click apply!"
 	]
 	quest.6D5905345348ABEF.title: "&fFlux Controller"
+	quest.6D72AFBA0AAC164C.quest_desc: [
+		"The &2MV Steam Turbine&r can produce up to 128 EU/t."
+		""
+		"[\"You can refer to the \", {\"text\": \"Main MV Steam Turbine Quest\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1DBE1D496463B310\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to LV Steam Turbine Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+	]
 	quest.6D72AFBA0AAC164C.title: "&3MV Steam Turbine"
 	quest.6D739E1A4F4304B3.title: "&fBasic Spell Turret"
 	quest.6D85B6C5DBC0DB9E.quest_desc: ["&3Wildwood Armor&r provides protection between iron and diamond, while increasing your &2Terra&r regeneration."]
