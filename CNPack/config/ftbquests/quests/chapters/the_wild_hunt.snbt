@@ -4130,6 +4130,14 @@
 					type: "item"
 				}
 				{
+					id: "1AC566BF321FB7F3"
+					item: {
+						count: 1
+						id: "irons_spellbooks:divine_soulshard"
+					}
+					type: "item"
+				}
+				{
 					id: "0782AA4E1ABC2C8F"
 					item: {
 						count: 1

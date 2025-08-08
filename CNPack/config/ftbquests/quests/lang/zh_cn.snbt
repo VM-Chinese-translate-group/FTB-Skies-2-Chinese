@@ -9231,7 +9231,7 @@
 		""
 		"第一种制备方式：首先你需要用&3蒸馏室&r提取出&2轻燃油和重燃油&r，接下来用&2搅拌机&r把它们混合为&e柴油&r。"
 		""
-		"[\"你还可以优化\",{\"text\": \"原油\", \"color\": \"green\"}, \"生产线，使用\", {\"text\": \"气动工艺\", \"color\": \"yellow\"}, \"的\", {\"text\": \"热气动加工机\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6CD6367FB419EA35\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往热气动加工机任务\"}}, \"，其需要一些热量和压力。译注：疑似作者描述出错。\"]"
+		"[\"You can also refine \",{\"text\": \"Crude Oil\", \"color\": \"green\"}, \" it using a \", {\"text\": \"Refinery Controller\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"49E9EBFC7B717D8E\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Refinery Quest\"}}, \" from \", {\"text\": \"PNCR\", \"color\": \"yellow\"}, \", which will require heat and pressure.\"]"
 	]
 	quest.56E1FAD44A6E8C11.title: "&e柴油"
 	quest.56E9C123DD727E46.quest_desc: [
@@ -10023,7 +10023,7 @@
 	quest.5EF11F96A97C2A23.quest_desc: [
 		"&e现代工业化&r（&eMI&r）包含好几种阶段的&a蒸汽涡轮机&r，它们能够将&7蒸汽&r转化为&c能量&r。"
 		""
-		"&2低压蒸汽涡轮机&r功率最高可达32EU/t。"
+		"The &2LV Steam Turbine&r can produce up to 32 EU/t."
 		""
 		"[\"你可以前往\", {\"text\": \"低压蒸汽轮机主线\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50049BE2452AB7F5\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往低压蒸汽轮机任务\"} }, \" 查询更多资料，或是前往\", { \"text\": \"现代工业化任务线\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往现代化工业章节\"} }, \"开始发展现代化工业。\"]"
 	]
@@ -11404,6 +11404,11 @@
 		"一定要在底部把开关都打开！"
 	]
 	quest.6D5905345348ABEF.title: "&f能量网络控制器"
+	quest.6D72AFBA0AAC164C.quest_desc: [
+		"The &2MV Steam Turbine&r can produce up to 128 EU/t."
+		""
+		"[\"You can refer to the \", {\"text\": \"Main MV Steam Turbine Quest\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1DBE1D496463B310\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to LV Steam Turbine Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+	]
 	quest.6D72AFBA0AAC164C.title: "&3中压蒸汽涡轮机"
 	quest.6D739E1A4F4304B3.title: "&f基础法术炮塔"
 	quest.6D8B17AD5ABEC7BC.title: "&6终极奇点"

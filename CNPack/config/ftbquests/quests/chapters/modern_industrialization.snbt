@@ -2300,25 +2300,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "54C7F53E811ED94B"
-					item: {
-						count: 1
-						id: "modern_industrialization:aluminum_nugget"
-					}
-					optional_task: true
-					type: "item"
+			tasks: [{
+				id: "24A7E0703060183B"
+				item: {
+					count: 1
+					id: "modern_industrialization:aluminum_ingot"
 				}
-				{
-					id: "24A7E0703060183B"
-					item: {
-						count: 1
-						id: "modern_industrialization:aluminum_ingot"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			x: 14.5d
 			y: 1.5d
 		}
