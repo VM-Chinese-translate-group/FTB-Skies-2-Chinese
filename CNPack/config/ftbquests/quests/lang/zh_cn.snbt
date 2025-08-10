@@ -309,11 +309,11 @@
 	quest.026A64F01C301119.title: "&3高定向热解石墨粉"
 	quest.028BF2D5CFCDA52A.title: "&e机械化超级计算机"
 	quest.02BC61BBCDB931A3.quest_desc: [
-		"The &dGas-Burning Generator&r is one of the best ways to generate power in the early game that can last well into the mid game."
+		"&d燃气发电机&r是游戏前期中最强的发电方式之一，可一直用到游戏中期。"
 		""
-		"This generator can burn &dEthene&r to produce power at a very high rate! You can expect each full generator to produce ~5k RF/t."
+		"这种发电机能以极高的效率燃烧&d乙烯&r来发电！每台满载的发电机可产生约5k RF/t的能量。"
 	]
-	quest.02BC61BBCDB931A3.title: "&dGas-Burning Generator"
+	quest.02BC61BBCDB931A3.title: "&d燃气发电机"
 	quest.02D1A23B2971CD4D.quest_desc: [
 		"&a神秘学&r有很多神奇的功能，比如用魔灵获取无数矿石！"
 		""
@@ -1323,7 +1323,7 @@
 	]
 	quest.0AE2AD555992273E.title: "用&2风转草&f获取资源"
 	quest.0AF5992D0DF57313.quest_desc: [
-		"At this point, you should have a fully functional &dTier 4 Ore Processing Chain&r. As a recap, the system looks like this:"
+		"现在，你应该已经搭建出一条完备的&d四阶矿物处理产线&r了。现在，让我们回顾一下这条产线："
 		""
 		"1. 将1个原始矿石放入化学溶解室中。此设备需要持续供应硫酸，它将把矿石分解成1000mB的“污浊的矿物浆液”（气体）。"
 		""
@@ -1566,7 +1566,7 @@
 	quest.0CA75E81F6824B22.title: "&eIron的法术与魔法书"
 	quest.0CD3050976F79358.title: "&f熟鸡肉丁"
 	quest.0CEB6ADF1306381D.quest_desc: [
-		"The &aDisplay Panel&r will be one of your best friends when learning new &eI.D&r systems as it can show show you what is stored within a &aVariable Card&r."
+		"&a显示器&r绝对是你在学习新的&eI.D&r系统时最好的工具之一，你可以利用显示屏来查看&a变量卡&r中存储的内容。"
 		""
 		"如果你所要查看的&a变量卡&r内容过长，无法在这么小的屏幕上全部展示，你也可以将内容复制在剪切板上。"
 	]
@@ -2272,11 +2272,11 @@
 	quest.1403ABF77D987200.quest_desc: [
 		"&a挤压机&r可以从一些方块中提取资源，比如从门瑞欧原木和木板中提取&b门瑞欧树脂&r。"
 		""
-		"This is done by placing in the item you'd like to squeeze by using the item directly on the &aSqueezer&r, then jumping on the center of the top face until something pops out!"
+		"将需要处理的物品放进&a挤压机&r，然后在机器上跳一跳，就会有东西被挤压出来。"
 		""
-		"To reset the &aSqueezer&r, you will need to give it a redstone signal with something like a button or pressure plate."
+		"为&a挤压机&r提供一个红石信号，如按钮或压力板，就可以使其回到初始状态。"
 		""
-		"This is a vital machine for getting the most &bCrystallized Menril Chunks&r from menril trees."
+		"为了最大限度地从门瑞欧树中提取&b门瑞欧结晶碎块&r，挤压机是你必备的机器。"
 		""
 		"挤压机同样也可以用于增产某些其他物品，比如让&c烈焰棒&r产出更多的&6烈焰粉&r。"
 	]
@@ -3675,13 +3675,13 @@
 	quest.227BF4C2E9500AE2.quest_desc: ["&a长矛&r的伤害比普通剑的低一些，但是攻击距离更远！"]
 	quest.227BF4C2E9500AE2.title: "&f长矛蓝图"
 	quest.22878CFA5B7B90AD.quest_desc: [
-		"The &dChemical Crystallizer&r converts a gas into a crystallized item. This has several uses, such as creating &aLithium Dust&r or creating &dAntimatter Pellets&r."
+		"&d化学结晶器&r可以把气体变为固态结晶。它的用处很多，比如制造&a锂粉&r和&d反物质靶丸&r。"
 		""
 		"如果是矿物处理产线的话，那么它的作用就是消耗1桶纯净矿物浆液，生产5个&6矿物晶体&r。"
 		""
 		"然后产物就可以输送至化学压射室，继续完成后续的处理流程。"
 	]
-	quest.22878CFA5B7B90AD.title: "&dCrystallizing Chemicals"
+	quest.22878CFA5B7B90AD.title: "&d化学品结晶"
 	quest.228C9567BB43034A.quest_desc: ["&a气动能源炉&r可以将&b压力&r转化为&cFE&r。"]
 	quest.228C9567BB43034A.title: "&f把压力转换为FE"
 	quest.22B223553DE205D6.quest_desc: [
@@ -3739,7 +3739,7 @@
 	]
 	quest.231BAC05D93088B2.title: "&dPuffish技能"
 	quest.2331E407E82138AB.quest_desc: [
-		"Most components within &eI.D&r have follow a very similar layout regardless of their function. "
+		"&eI.D&r中的大部分组件，无论其功能如何，都有一个非常相似的配置界面。"
 		""
 		"我们将在这个任务中讲解&a部件界面&r！"
 		""
@@ -3747,13 +3747,13 @@
 		"{@pagebreak}"
 		"以上就是&b部件设置&r的界面，以物品接口为例，你可以在这里修改诸多设置。"
 		""
-		"&aTarget Side&r allows you to designate which side of the block the component can access. Useful when working with blocks like a furnace, which can only output items from the bottom face of the block."
+		"&a目标面&r用于选择让组件与方块的哪个面进行交互。在处理譬如熔炉这种某些面执行特定功能的方块时非常有用。"
 		""
-		"&aTicks/Operation&r changes the speed at which the component will perform its given task."
+		"&a频率&r可以设定组件的工作速度。"
 		""
-		"&aPriority&r affects the order in which a network handles this specific component."
+		"&a优先级&r可以使网络按照优先顺序调用组件。"
 		""
-		"&aChannels&r allow you to have many systems running in parallel within the same network without affecting each other. This option will look different in some components, or not have this option at all."
+		"即便在同一个网络中，不同&a能量频道&r的组件也可以平行工作，不会相互干扰。在某些组件中，这个设置界面会有所不同，有些组件根本没有这个设置界面。"
 		"{@pagebreak}"
 		"{image:ftb:textures/quests/integrated_dynamics/interfaces/part_offset_interface.png width:140 height:105 align:center}"
 		""
@@ -4860,7 +4860,7 @@
 		""
 		"在这本任务书中无法为你展示全部的数百种&b变量&r，不过我们可以学习一些基础的种类，以便于你了解可以使用&a逻辑编程器&r编写哪些种类的&b变量&r。"
 		"{@pagebreak}"
-		"Thankfully, &bVariables&r are color-coded within the &aLogic Programmer&r, making them relatively easy to spot when you're scrolling through the long list."
+		"幸运的是，在&a逻辑编程器&r中&b变量&r的类型是使用颜色进行区分的，使得你在长长的列表中翻找时能轻松地找到想要的变量类型。"
 		""
 		"如果你需要的话，你也可以在顶部搜索栏直接搜寻想要的变量类型。"
 		"{@pagebreak}"
@@ -5362,7 +5362,7 @@
 		""
 		"You can also combine two Ender Pearls and two Menril Berries to create &3Proto Chorus&r for you to squeeze down."
 		""
-		"While &3Proto Chorus&r does not guarantee a &dCrystallized Chorus Chunk&r like regular &aPopped Chorus Fruit&r, it does provide you with Liquid Chorus, which can be converted into &dCrystallized Chorus Blocks&r."
+		"&3远古紫颂果&r不能像&a爆裂紫颂果&r那样百分百产出&d紫颂果浆结晶碎块&r，但它所产出的紫颂果浆也可以转换成&d紫颂果浆结晶方块&r。"
 	]
 	quest.327E27800EB44FCA.title: "&f紫颂果浆结晶碎块"
 	quest.32920D5D0DD6AC46.quest_desc: [
@@ -5807,13 +5807,13 @@
 	quest.35E8F57E93106BFE.title: "&3自动合成"
 	quest.35EA5E90CB5E86B4.title: "&d终极精华锄"
 	quest.35ED26A5855FBBBA.quest_desc: [
-		"The &dChemical Dissolution Chamber&r uses &eSulfuric Acid&r to break down materials into a gas. Don't forget to use &bChemical Upgrades&r!"
+		"&d化学溶解室&r使用&e硫酸&r将材料分解成气体。别忘了使用&b化学品升级&r！"
 		""
 		"如果你想把它放进你的矿物处理产线的话，要先在化学灌注器中加入&a三氧化硫&r和&a水蒸气&r，这样就会产生溶解材料所需的&e硫酸&r。"
 		""
-		"Once you have a steady supply of Acid, the &dChemical Dissolution Chamber&r will serve as the starting machine in the next tier of ore processing. It breaks down 1 raw ore into 1 bucket of Dirty Ore Slurry. Just as an FYI, this is a gas!"
+		"&d化学溶解室&r在有充足硫酸供应的情况下，可以放在矿物处理线的最前方。它会将一个粗矿溶解为一桶污浊矿物浆液。要记住，这玩意是个气体！"
 	]
-	quest.35ED26A5855FBBBA.title: "&dChemical Dissolution Chamber"
+	quest.35ED26A5855FBBBA.title: "&d化学溶解室"
 	quest.35F2D26D7089C231.quest_desc: [
 		"在使用需要能量的机器之前，我们必须先用&7蒸汽&r驱动它们。"
 		""
@@ -5856,11 +5856,11 @@
 		""
 		"试一下&a滴管&r吧，它可以轻松地把流体/化学品移出机器。打开机器界面拿起滴管，然后和内部储罐交互来移除液体或气体！"
 		""
-		"&aLeft-clicking&r will collect up to 1 bucket of gas/fluid and stores it in the dropper."
+		"&a左击&r：会提取出一桶的气体或流体，提取物暂存在滴管中。"
 		""
-		"&aRight-clicking&r will deposit whatever is in the dropper into the tank."
+		"&a右击&r：会将滴管中的缓存物放进对应槽位。"
 		""
-		"&aSneak + Left-clicking&r dumps the entire tank."
+		"&a潜行左击&r：清空整个槽位。"
 	]
 	quest.361957009F62D810.quest_subtitle: "哦豁"
 	quest.361957009F62D810.title: "&a移除机器中的气体"
@@ -6458,13 +6458,13 @@
 	quest.3B3CE4B6B25CB8DB.title: "&d协调之石"
 	quest.3B41D9132CD7728D.title: "&d65536B流体存储组件"
 	quest.3B6540C11FAF6C3D.quest_desc: [
-		"While &bInterfaces&r allow you to add a block to your network, you'll also want to be able to interact with machines and storage blocks as well."
+		"尽管&b接口&r已经能够将一些方块接入网络中，但你还是会需要通过网络与机器或容器交互。"
 		""
-		"To do this, you'll use &aImporters&r and &2Exporters&r!"
+		"想要做到这点，就需要使用&a输入口&r和&2输出口&r！"
 		""
-		"&aImporters&r will pull items, energy, or fluids directly from the block it is connected to, while &2Exporters&r will push into the block instead."
+		"&a输入口&r可以将所连接的方块中的物品、流体或能量抽入网络。&2输出口&r则是会将网络中的物品、流体或能量输出到所连接的方块。"
 		""
-		"These items do this with the help of &dVariable Cards&r!"
+		"这些接口都需要插入&d变量卡&r才能工作。"
 	]
 	quest.3B6540C11FAF6C3D.title: "&a输入和输出口"
 	quest.3B68EF55AB8E61C3.title: "&c雷霆之杖"
@@ -6624,15 +6624,15 @@
 	]
 	quest.3D0DC34C36A173F5.title: "&c外骨骼盔甲"
 	quest.3D1796B4F460DBBF.quest_desc: [
-		"The &dOmni-Directional Connector&r can connect two networks across any distance, including other dimensions, as long as the chunks are loaded."
+		"&d全向连接器&r能够以无线的方式无视距离甚至跨维度将两个网络连接起来，前提是两边的区块都在加载状态。"
 		""
-		"&dOmni-Directional Connectors&r work off of Groups, which symbolize what network they are connected to. &dOmni-Directional Connectors&r in the same group will have their networks linked."
+		"&d全向连接器&r需要成组使用，同组的组件会相互连接。"
 		""
-		"When you craft &dOmni-Directional Connectors&r, they will be automatically linked to the same group. However, if you craft them using an existing &dOmni-Directional Connector&r, you will receive 3 &aConnectors&r that are already linked to the original group."
+		"制作&d全向连接器&r时，它们会自动分配到同一个组别。当你用一个已有分组的&d全向连接器&r合成三个&a全向连接器&r时，它们都会被分配到用于合成的原料的组别。"
 		""
-		"&cWarning&r: These can cause an immense amount of tps lag if used often, so try to avoid using them as much as possible."
+		"&c注意&r：频繁使用全向连接器会引起极高延迟，所以请尽可能避免使用它们。"
 	]
-	quest.3D1796B4F460DBBF.title: "&dOmni-Directional Connector"
+	quest.3D1796B4F460DBBF.title: "&d全向连接器"
 	quest.3D35A43A4D0E118F.quest_desc: ["在&3化学反应釜中&r将&d苯乙烯&r和&e丁二烯&r聚合以得到&7苯乙烯-丁二烯&r。"]
 	quest.3D35A43A4D0E118F.title: "&7苯乙烯-丁二烯"
 	quest.3D44D7B3E2062870.quest_desc: [
@@ -8247,7 +8247,7 @@
 	quest.4D5D4F2002B33DB6.quest_desc: [
 		"&a化学灌注器&r可以把两种不同的气体合成为一种新的气体。"
 		""
-		"It has several important uses, but, for now, we can use one to make Hydrogen Chloride for a better Ore Processing Chain."
+		"它有多种重要用途，不过现在我们可以先用来制造氯化氢，以构建更高效的矿石处理流程。"
 		""
 		"要制备&a氯化氢&r的话，你得先把热力蒸馏塔里的盐水提取出来，然后把它导入&e电解分离器&r里。这样它就会被分解为&a钠&r和&b氯气&r。"
 		""
@@ -8436,7 +8436,7 @@
 	quest.4EAE9F58776D84C8.quest_desc: [
 		"在化学灌注机内将&a三氧化硫&r和&b水蒸气&r组合，就可以产出&e硫酸&r。"
 		""
-		"This is a strong acid used to break down certain items in a &dChemical Dissolution Chamber&r. It is needed for the progression!"
+		"这是一种强酸，你需要用它才能在&d化学溶解室&r中溶解某些物品。这是发展过程必须制作的东西！"
 		""
 		"你需要将该化学物质通过&a回旋式气液转换机&r，才能将其装桶或泵送一桶（1000mB）的量到指定的&a任务目标显示器&r中。"
 	]
@@ -8798,13 +8798,13 @@
 		"{@pagebreak}"
 		"To do this, you'll want to set up 2 armor stands above the &aSqueezer&r so that they fall onto it."
 		""
-		"This can be done by placing a block above the &aSqueezer&r and then placing the armor stands on top of the block itself, then breaking the block so that they fall down."
+		"只需在&a挤压机&r的正上方放置方块，然后将盔甲架放在方块上，再破坏方块即可。"
 		"{@pagebreak}"
-		"To automate resetting the Squeezer, you can use a vanilla or modded redstone clock."
+		"为了让&a挤压机&r自动复位，可以放一个原版或模组中的红石钟。"
 		""
 		"While you can use something like a Hopper to automatically insert or extract items from the &aSqueezer&r, it will automatically output fluids on the side where the lines point to on the bottom face of the &aSqueezer&r."
 		""
-		"The next page has a picture with an example of how to set up an automated Squeezer setup using the Drying Basin!"
+		"下一页有一张图片，详细展示了如何用挤压机和烘干池自动生产门瑞欧结晶方块。"
 		"{@pagebreak}"
 		"{image:ftb:textures/quests/integrated_dynamics/menril_automation.png width:140 height:180 align:center}"
 		""
@@ -10023,7 +10023,7 @@
 	quest.5EF11F96A97C2A23.quest_desc: [
 		"&e现代工业化&r（&eMI&r）包含好几种阶段的&a蒸汽涡轮机&r，它们能够将&7蒸汽&r转化为&c能量&r。"
 		""
-		"The &2LV Steam Turbine&r can produce up to 32 EU/t."
+		"&2低压蒸汽涡轮机&r功率最高可达32EU/t。"
 		""
 		"[\"你可以前往\", {\"text\": \"低压蒸汽轮机主线\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50049BE2452AB7F5\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往低压蒸汽轮机任务\"} }, \" 查询更多资料，或是前往\", { \"text\": \"现代工业化任务线\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往现代化工业章节\"} }, \"开始发展现代化工业。\"]"
 	]
@@ -10199,22 +10199,22 @@
 	quest.609DF15D870AE2C0.quest_subtitle: "网上灵魂"
 	quest.609DF15D870AE2C0.title: "&eSoulplied Energistics"
 	quest.60AFCA1889670F26.quest_desc: [
-		"The &dChemical Washer&r does exactly what it says it does. It's just a bath for Dirty Ore Slurry."
+		"&d化学清洗机&r，正如其名，是用来洗涤污浊的矿物浆液的。"
 		""
 		"这是四阶矿物处理产线的第2台机器，给它稳定供水，然后把溶解室中输出的污浊矿物浆液泵入。处理完毕后就会得到一桶纯净矿物浆液！"
 	]
-	quest.60AFCA1889670F26.title: "&dWashing Chemicals"
+	quest.60AFCA1889670F26.title: "&d洗涤化学品"
 	quest.60B37EEA5AD64C3D.quest_desc: [
-		"The &3Storage Terminal&r consolidates all items, fluids, and energy values from interfaces connected to your network into the same interface."
+		"&3存储终端&r将网络中各个接口访问的所有物品、流体和能量值聚合显示在同一个界面上。"
 		""
-		"For example, you can slap an &aItem Interface&r on every chest you own and connect the &3Storage Terminal&r to one of the &aLogic Cables&r."
+		"例如，你可以给所有的箱子拍上一个&a物品接口&r，然后用&a逻辑线缆&r连上&3存储终端&r。"
 		""
-		"By using the &3Storage Terminal&r, you can craft and interact with all items in the connected chests!"
+		"你可以用&3存储终端&r与连接的箱子中所有的物品进行交互，合成物品。"
 		""
-		"The &3Portable Storage Terminal&r can be linked to an &dOmni-Directional Connector&r to access your storage network remotely."
+		"你还可以将&3便携式存储终端&r链接至&d全向连接器&r以远程访问存储网络。"
 	]
 	quest.60B37EEA5AD64C3D.quest_subtitle: "基础存储方案"
-	quest.60B37EEA5AD64C3D.title: "&3Storage Terminal"
+	quest.60B37EEA5AD64C3D.title: "&3存储终端"
 	quest.60C650264AA5525D.quest_desc: [
 		"&a控制器&r是为你的&eRS2&r网络提供能源的主要设备。"
 		""
@@ -10398,11 +10398,11 @@
 	quest.629C6374800613C4.quest_desc: [
 		"想要将方块连接&a逻辑线缆&r，使其接入网络，你需要使用一些&a接口&r。"
 		""
-		"&2Interfaces&r allow you to add storage blocks to your network, such as chests, barrels, fluid tanks, energy cubes, etc..."
+		"&2接口&r能够将存储设备接入到网络之中，譬如箱子、电池、储罐、能量立方等等！"
 		""
-		"When right-clicking an &2Interface&r, these will have a Part UI, which is explained in another quest in more detail."
+		"右击&2接口&r，会跳出部件UI，在另一个任务中会详细介绍这个界面。"
 		"{@pagebreak}"
-		"As an example of how you would use one, adding an &2Item Interface&r to a chest will allow the network to see everything inside of that chest."
+		"举例来说，将一个箱子用&2物品接口&r接入网络，箱子中的物品就进入了存储网络。"
 		""
 		"这是搭建一个简易存储网络的基础！"
 	]
@@ -10862,7 +10862,7 @@
 	quest.6712C96969CB1D58.quest_desc: [
 		"用&a挤压机&r处理门瑞欧原木，将产生的门瑞欧树脂导入&a烘干池&r，就能尽可能多地提取到门瑞欧结晶。"
 		""
-		"Once you have a few blocks of &aCrystallized Menril&r, you can get started on the basics of &eI.D&r."
+		"得到一些&a门瑞欧结晶&r方块之后，就可以开始接触&6I.D&r的基础内容了。"
 	]
 	quest.6712C96969CB1D58.title: "&f门瑞欧结晶"
 	quest.672560D43F5D603F.quest_desc: [
@@ -11082,7 +11082,7 @@
 	]
 	quest.69159D10C2791C2E.title: "&f粉碎和切割"
 	quest.69282BCC2FA04060.quest_desc: [
-		"This block has a very simple, yet important role within your &eI.D&r network, which is to store existing variables that a system can referece back to."
+		"这个方块非常简单，但在&eI.D&r网络中起着非常重要的作用。你可以将赋值好的变量卡放在其中，以便网络调用。"
 		""
 		"在一个复杂自动化系统中你至少需要一个变量卡箱。"
 		"{@pagebreak}"
@@ -11938,13 +11938,13 @@
 	]
 	quest.73254377A0723540.title: "&f启蒙之板"
 	quest.733B30C6D9F14141.quest_desc: [
-		"Setting up autocrafting with &dI.D&r is not as complicated as it may seem."
+		"用&dI.D&r自动合成没有看上去那么复杂。"
 		""
 		"首先，你需要打开&a逻辑编程器&r，选择“配方”（“Recipe”）方面，打开如下界面。"
 		""
 		"{image:ftb:textures/quests/integrated_dynamics/interfaces/recipe_interface.png width:160 height:150 align:center}"
 		"{@pagebreak}"
-		"Then, select your recipe from &eJEI&r and click on the \"+\" icon next to it:"
+		"然后，从&eJEI&r选择配方，点击如图所示的“+”号："
 		""
 		"{image:ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_adding.png width:190 height:60 align:center}"
 		"{@pagebreak}"
@@ -11958,11 +11958,11 @@
 		""
 		"{image:ftb:textures/quests/integrated_dynamics/interfaces/recipe_configuration_interface.png width:160 height:150 align:center}"
 		"{@pagebreak}"
-		"&bStrict NBT&r is useful when handling things like armor, or energy storage blocks."
+		"&b严格NBT&r对于处理盔甲或者储能方块等物品非常有用。"
 		""
-		"&bReusable&r is important setting up certain recipes that don't consume a resource."
+		"&b可重复使用（Reusable）&r在设置不会消耗资源的配方时非常关键。"
 		""
-		"&bItem Tag Variants&r allow you to configure a specific item via &3NBT Tags&r."
+		"&b物品标签变种&r允许你通过&3NBT标签&r配置特定物品。"
 		"{@pagebreak}"
 		"配方配置好后，在界面下方放置一张&b变量卡&r，你就会收到对应配方的方面："
 		""
@@ -12989,7 +12989,7 @@
 	quest.7E1EEF5E7F216B49.quest_subtitle: "硬挖到底，或钓上来"
 	quest.7E1EEF5E7F216B49.title: "&f锌精华"
 	quest.7E2399076FA8B7AC.quest_desc: [
-		"The &aMono-Directional Connector&r can connect two networks in a straight line up to 512 blocks away."
+		"&a单向连接器&r可以通过无线的方式直线（最多512格）连接两个逻辑网络。"
 		""
 		"&eNote&r: These can cause large amounts of tps lag if used often, so try to avoid using them too much."
 	]
