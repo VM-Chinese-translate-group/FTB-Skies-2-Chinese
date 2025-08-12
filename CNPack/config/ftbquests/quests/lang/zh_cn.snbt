@@ -1493,7 +1493,7 @@
 		"&a符文剪刀&r能够触及异界，收获异世资源。"
 		""
 		"这把剪刀可以收集&e野麦&r、&2灵魂草&r和&3繁森皮革&r。"
-		"Sneak and interact with fully-grown &eWheat&r or &2Beetroot&r for the first two."
+		"对于前两个，潜行并与完全成熟的&e小麦&r或 &2甜菜根&r互动。"
 	]
 	quest.0C0B04B6FEFD2928.quest_desc: [
 		"&e多级线缆&r模组提供了许多升级版本的输入器，越高级的工作速度越快，过滤槽位越多。"
@@ -3705,7 +3705,7 @@
 		""
 		"打开物品栏，将煤等燃料拖拽到&2蒸汽采矿钻头&r的上方，然后右击来给其填充燃料。你可以按住Shift然后右击&2钻头&r来改变其模式。"
 		""
-		"是的，它能使用&e连锁挖矿&r！"
+		"是的，它能使用&e连锁破坏&r！"
 	]
 	quest.22F07FB51C5DE600.title: "&a一件更好的工具"
 	quest.230A9E24A34690DE.title: "&6时间棱镜"
@@ -4186,7 +4186,7 @@
 	]
 	quest.26B74124E89189F7.title: "&e末地书架"
 	quest.26D4074DECF26C04.quest_desc: ["&6等离子涡轮机&r是&e现代工业化&r最高级的发电设施，它将消耗&5氦等离子体&r并产出&c一百万EU/t&r的能量。"]
-	quest.26D4074DECF26C04.title: "&6蒸汽涡轮机"
+	quest.26D4074DECF26C04.title: "&6等离子涡轮机"
 	quest.26D59E04760C5747.quest_desc: [
 		"&a方块破坏器&r是需要&a机器框架&r才能工作的多方块机器，它会自动破坏位于下面的方块。"
 		""
@@ -4547,7 +4547,7 @@
 	quest.2AF684DE838B0F83.quest_desc: [
 		"&5MOX燃料&r通常优于常规&6铀燃料&r，它还有一个额外的好处，那就是它生产的&5钚&r比制造它所需的还要多。准确地说，是1.33倍的盈余。"
 		""
-		"稳定产出&5钚&r的装置使用它建造并不合适，但确实意味着使用它不会损失太多钚。它的高中子发射率很有吸引力。"
+		"稳定产出&5钚&r的装置使用它合成并不合适，但确实意味着使用它不会损失太多钚。它的高中子发射率很有吸引力。"
 	]
 	quest.2AF684DE838B0F83.title: "&5高能MOX燃料"
 	quest.2AF7DF42143C5443.quest_desc: [
@@ -6035,7 +6035,7 @@
 	]
 	quest.37E9DC506653FCCA.title: "&d数字电路"
 	quest.37EBE85B0FE81453.quest_desc: [
-		"&2装配机&r现在使我们可以为所有的机器升级！"
+		"&2装配机&r让我们可以为所有机器制作升级！"
 		""
 		"这些升级将使机器能够超频并更快地执行其功能，但代价是能耗更高。"
 	]
@@ -9231,7 +9231,7 @@
 		""
 		"第一种制备方式：首先你需要用&3蒸馏室&r提取出&2轻燃油和重燃油&r，接下来用&2搅拌机&r把它们混合为&e柴油&r。"
 		""
-		"[\"You can also refine \",{\"text\": \"Crude Oil\", \"color\": \"green\"}, \" it using a \", {\"text\": \"Refinery Controller\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"49E9EBFC7B717D8E\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Refinery Quest\"}}, \" from \", {\"text\": \"PNCR\", \"color\": \"yellow\"}, \", which will require heat and pressure.\"]"
+		"[\"你还可以优化\",{\"text\": \"原油\", \"color\": \"green\"}, \"生产线，使用\", {\"text\": \"气动工艺\", \"color\": \"yellow\"}, {\"text\": \"精炼厂控制器\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"49E9EBFC7B717D8E\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往精炼厂任务\"}}, \"，这将需要热量和压力。\"]"
 	]
 	quest.56E1FAD44A6E8C11.title: "&e柴油"
 	quest.56E9C123DD727E46.quest_desc: [
