@@ -197,9 +197,9 @@
 		"&7into the world."
 	]
 	quest.0173ED2BED248CF6.quest_desc: [
-		"When a &aDialing Device&r and &aMatter Transmitter&r near each other are both powered, the Dialer can be used to call up the location of any existing &eMatter Receiver&r that the user has access to, even if the user has never been to the Receiver's location."
+		"如果&a传送控制器&r和&a物质传输器&r彼此相近，并且都充有能量，那么你就可以把控制器连接到任意&e物质接收器&r处，不过你必须有该接收器的访问权限。这样一来，即便这个接收器不是你放置的，你也可以传送过去。"
 		""
-		"&7This fact is much more relevant in multiplayer servers."
+		"&7这一设定在多人游戏中更为明显。"
 	]
 	quest.0173ED2BED248CF6.title: "传送目的地"
 	quest.0174ACD260158165.quest_subtitle: "传输气体和化学品"
@@ -7353,11 +7353,11 @@
 	quest.447242EAC91413A9.quest_desc: [
 		"搭建&6末地传送门框架&r可不简单！你需要深入科技或魔法领域才能集齐全部12个。"
 		""
-		"The &dEnd Portal&r structure is made by placing a cornerless 5x5 square of &6End Portal Frames&r just like vanilla. It will not work by just building it from one angle. The best way to do this is to stand in the center of the portal and place the blocks around you."
+		"用&6末地传送门框架&r像原版一样搭建一个没有四角的5x5方框即可完成&d末地传送门&r，末地传送门框架的朝向必须正确，否则无法激活。最好的办法就是站在中间环绕一圈，将传送门框架放在你四周。"
 		""
-		"You'll then need to make sure each &6End Portal Frame&r has an &6Eye of Ender&r inside."
+		"将&6末影之眼&r放入所有&6末地传送门框架&r，这样便可激活传送门。"
 		""
-		"This will complete the portal, allowing you to jump through to reach &6The End&r, the home of the &dEnder Dragon&r."
+		"这样传送门结构就会成型，你可以跳入其中到达&6末地&r——&d末影龙&r的家乡。"
 	]
 	quest.447242EAC91413A9.title: "&a通往&d末地&a的传送门"
 	quest.44882A0B7C12B3F6.title: "&c烈焰金弓"
@@ -11332,13 +11332,13 @@
 	]
 	quest.6C4783132CC50BF0.title: "&d薛定谔保险柜"
 	quest.6C4FFE73EAA06532.quest_desc: [
-		"While not required for a teleportation system, the &aMatter Booster&r and &aDestination Analyzer&r can provide some slight help with the possibility that a &eMatter Receiver&r has run out of energy."
+		"&a物质助推器&r和&a目标分析仪&r在传送系统中并不是必须的，但是它们能为你带来一些小帮助，从而应对&e物质传输器&r能量耗尽的情况。"
 		""
-		"The &aAnalyzer&r is placed beside a &eDialing Device&r to test if a receiver has enough energy to safely teleport to it."
+		"&a目标分析仪&r需要放在&e传输控制器&r旁边，从而检测物质接收器是否有足够的能量来安全地进行传送。"
 		""
-		"A &aBooster&r placed next to a &eMatter Transmitter&r will passively drain energy to mitigate the possible harm caused by teleporting to an unpowered receiver."
+		"传送至能量不足的物质接收器会使传送者受伤。将&a物质助推器&r放置在&e物质传输器&r旁边，它就会自动消耗能量来减小这种伤害。"
 	]
-	quest.6C4FFE73EAA06532.title: "Safety Steps"
+	quest.6C4FFE73EAA06532.title: "保险措施"
 	quest.6C7DF3FF24AB2C86.title: "&b水培床"
 	quest.6C7F31673B12795D.quest_desc: [
 		"&d蚀空合金剑&r是这个模组中最强大的剑。"
@@ -12322,11 +12322,11 @@
 	]
 	quest.771F1627EAD39DCA.title: "&dAE2 256k磁盘奖励包"
 	quest.772F36EDDAB09858.quest_desc: [
-		"&aCharged Porters&r are simple transmitter devices that teleport the user to a bound &eMatter Receiver&r using an internal energy buffer. Simply sneak and right-click a Receiver with a Porter to bind it."
+		"&a充能传送器&r是一种非常简单的传送设备，只需要消耗能量就可以将使用者传送至其绑定的&e物质接收器&r处。只要拿着它潜行右击接收器即可完成绑定。"
 		""
-		"In the case of the &aAdvanced Charged Porter&r, multiple &eReceivers&r can be bound at once. Sneak and right-click the Adv Porter without looking at a block to select between destinations."
+		"若是高级充能传送器，则可以同时绑定到多个&e物质接收器&r上。在面朝空气的情况下，手持高级充能传送器潜行右击即可选择目的地。"
 	]
-	quest.772F36EDDAB09858.title: "Personal 'Porting"
+	quest.772F36EDDAB09858.title: "私人传送"
 	quest.77372AD6C4049263.quest_desc: [
 		"对于模组老手而言，&e末影接口&r因其令人惊叹的管道而留下了美好的回忆，它们被称为&d导管&r。"
 		""
