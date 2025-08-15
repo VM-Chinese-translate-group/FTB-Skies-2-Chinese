@@ -323,7 +323,7 @@
 	]
 	quest.02D1A23B2971CD4D.title: "从&c魔灵维度&r中获取资源"
 	quest.02F52598328E84A0.quest_desc: [
-		"通过将我们全新的&b强化合金&r和&c高级控制电路&r相结合，就能做出&9精英控制电路&r。"
+		"By combining our new &bReinforced Alloys&r with &cAdvanced Control Circuits&r, we can create &9Elite Control Circuits&r."
 		""
 		"这些材料是将机械升级到&9精英&r工厂等级的必需品，同时也用于更高等级的合成。"
 	]
@@ -562,14 +562,14 @@
 	quest.05315396D48EE815.quest_desc: [
 		"将&9水&r，&b氢气&r和&2生物燃料&r一起加入&a加压反应室&r以制作&6基片&r，制作基片时会输出副产物&6乙烯&r。"
 		""
-		"专业提示：在通用机械模组中，如果你无法判断通用机械的某个东西是液体还是气体，那这里有个小技巧：没标注“液体”的就是气体。"
+		"专业提示：在通用机械模组中，如果你无法判断某个东西是液体还是气体，这里有个小技巧：没标注“液体”的就是气体。"
 	]
 	quest.05315396D48EE815.title: "&6乙烯"
 	quest.053278F000CB8DB8.quest_desc: ["通过矿石可以获取这种资源，从而进一步制作其种子"]
 	quest.053278F000CB8DB8.quest_subtitle: "通过矿石获取这个"
 	quest.053278F000CB8DB8.title: "&f铂精华"
 	quest.0533C0C07AE600FD.quest_desc: [
-		"&e通用机械&r的&d裂变反应堆&r以裂变燃料和冷却剂为原料，并将其转化为&4核废料&r和&b热冷却液&r。"
+		"&eMekanism &dFission Reactors&r take fissile fuel and coolant, and convert them into &4nuclear waste&r and &bhot coolant&r. "
 		""
 		"[\"\", {\"text\": \"核裂变\", \"color\": \"light_purple\"}, \"\", {\"text\": \"不会\", \"color\": \"red\"}, \"自行发电，请查看\", { \"text\": \"工业蒸汽涡轮任务\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"31C83D9253FFF685\" } }, \"来将蒸汽转化为电力。\" ]"
 		""
@@ -581,9 +581,9 @@
 		""
 		"&7&o建造与操作详情见后续页面。&r"
 		"{@pagebreak}"
-		"最小可用的&d裂变反应堆&r是一个3x4x3的多方块结构，最大可以扩展到18x18x18。所有&d反应堆&r的边缘必须是&a反应堆外壳&r，但侧面也可以包含反应堆玻璃、逻辑适配器或者超临界移相器端口。"
+		"The smallest functioning &dFission Reactor&r is a 3x4x3 multiblock, which can scale up to 18x18x18. The edges of all &dReactors&r must be &aReactor Casings&r, but the faces can also include reactor glass, logic adapters, and/or ports."
 		""
-		"当多方块结构完全建成，并且内部至少放置一组&2裂变燃料组件&r，顶部安装一个&a控制杆组件&r时，&d反应堆&r多方块结构将自动形成。"
+		"The &dReactor&r multiblock will form once the cuboid is fully built and at least one &2Fission Fuel Assembly&r is inside with a &aControl Rod Assembly&r on top."
 		""
 		"&d裂变反应堆&r至少需要4个&a裂变反应堆端口&r：一个用于输入&b水&r，一个用于&2燃料&r，一个设置为输出&7蒸汽&r，以及一个设置为输出&c废料&r。&d反应堆端口&r可以通过潜行+右击&9配置器&r来切换模式。"
 		""
@@ -5270,13 +5270,13 @@
 		""
 		"&d电磁线圈&r放置在复杂旋钮装置上方，至少一个必须接触它，如果使用多个，则所有线圈都必须相互连接。"
 		""
-		"&3饱和冷凝器&r可以根据需要回收的水量来填充剩余空间。"
+		"&3Saturating Condensers&r can then fill in the remaining space depending on how much water needs to be recycled."
 		""
 		"{image:ftb:textures/quests/mekanism/turbine2transp.png width:100 height:100 align:center}"
 		"{@pagebreak}"
 		"现在，剩余的空位可以用&a结构玻璃&r、&a涡轮外壳&r或&2涡轮排气口&r填充。这个多方块结构只需1个&2排气口&r就能形成，但它们有助于&7蒸汽&r流动，所以越多越好。"
 		""
-		"一旦多方块结构形成，就可以与其互动来检查其当前的速率和状态。&e统计菜单&r可列出当前设备中哪些部件限制了&7蒸汽&r的流量与生产效率。"
+		"Once formed, the multiblock can be interacted with to check its current rates and status. The &eStats Menu&r can list what parts of the build are limiting the &7Steam&r flow and production rates."
 		""
 		"&d裂变反应堆&r的&a蒸汽端口&r可以将蒸汽导出到&a涡轮阀门&r中，而&2涡轮排气口&r可以将&b水&r导出&d反应堆&r的输入端口，从而实现一个零管道的循环！"
 		""
@@ -8960,8 +8960,8 @@
 	quest.5408C57600A556AE.quest_desc: ["厌倦了原版投掷器既需要红石，还把物品扔得到处都是吗？不如试试&a初级投物器&r！既能精准调节数量，又能调节投掷频率。"]
 	quest.5408C57600A556AE.quest_subtitle: "FTB Skies 2中最精致的垃圾桶"
 	quest.5408C57600A556AE.title: "&a初级投物器"
-	quest.5417C0BED57AE8DA.quest_desc: ["Generates power by consuming Nether Fauna."]
-	quest.5417C0BED57AE8DA.title: "&fCrimed Mycelial Generator"
+	quest.5417C0BED57AE8DA.quest_desc: ["消耗下界菌类发电。"]
+	quest.5417C0BED57AE8DA.title: "&f菌丝网络菌疣发电机"
 	quest.5425A6F613CA7304.quest_desc: [
 		"自定义项链需要用&a项链蓝图&r制造。"
 		""
@@ -10025,7 +10025,7 @@
 		""
 		"&2低压蒸汽涡轮机&r功率最高可达32EU/t。"
 		""
-		"[\"你可以前往\", {\"text\": \"低压蒸汽轮机主线\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50049BE2452AB7F5\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往低压蒸汽轮机任务\"} }, \" 查询更多资料，或是前往\", { \"text\": \"现代工业化任务线\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往现代化工业章节\"} }, \"开始发展现代化工业。\"]"
+		"[\"你可以前往\", {\"text\": \"低压蒸汽轮机主线\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50049BE2452AB7F5\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往低压蒸汽轮机任务\"} }, \"查询更多资料，或是前往\", { \"text\": \"现代工业化任务线\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往现代化工业章节\"} }, \"开始发展现代化工业。\"]"
 	]
 	quest.5EF11F96A97C2A23.title: "&2低压蒸汽涡轮机"
 	quest.5F0AAD028931A220.quest_desc: [
@@ -11347,8 +11347,8 @@
 	]
 	quest.6C7F31673B12795D.title: "&5蚀空合金剑"
 	quest.6C8DC19C54ACF89D.title: "&e速度升级"
-	quest.6C974CC33C5BADD8.quest_desc: ["Generates power by consuming Liquid Meat and any ingot."]
-	quest.6C974CC33C5BADD8.title: "&fMeatallurgic Mycelial Generator"
+	quest.6C974CC33C5BADD8.quest_desc: ["消耗肉汤与任意怪物锭发电。"]
+	quest.6C974CC33C5BADD8.title: "&f菌丝网络矿物肉汤发电机"
 	quest.6CA3339B472F4464.quest_desc: [
 		"&d处理器&r解锁了制造更高级机器和技术的能力。"
 		""
@@ -11405,9 +11405,9 @@
 	]
 	quest.6D5905345348ABEF.title: "&f能量网络控制器"
 	quest.6D72AFBA0AAC164C.quest_desc: [
-		"The &2MV Steam Turbine&r can produce up to 128 EU/t."
+		"&3中压蒸汽涡轮机&r功率最高可达128EU/t。"
 		""
-		"[\"You can refer to the \", {\"text\": \"Main MV Steam Turbine Quest\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1DBE1D496463B310\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to LV Steam Turbine Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+		"[\"你可以前往\", {\"text\": \"中压蒸汽轮机主线\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1DBE1D496463B310\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往低压蒸汽轮机任务\"} }, \"查询更多资料，或是前往\", { \"text\": \"现代化工业任务线\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往现代化工业章节\"} }, \"开始发展现代化工业。\"]"
 	]
 	quest.6D72AFBA0AAC164C.title: "&3中压蒸汽涡轮机"
 	quest.6D739E1A4F4304B3.title: "&f基础法术炮塔"
