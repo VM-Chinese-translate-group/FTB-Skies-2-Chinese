@@ -445,22 +445,22 @@
 	quest.038C26F86776F520.quest_subtitle: "绿宝石与紫水晶"
 	quest.038C26F86776F520.title: "&f天空村庄材料"
 	quest.0399FE76C9F76E6F.quest_desc: [
-		"'&bVehicles&r' are projected structures capable of moving like an elevator along any one of the three directional axes using &aMovers&r."
+		"‘&b载具&r’是一种投影结构，通过使用&a传运器&r，就能够像电梯一样任意传送，且支持3个方向。"
 		""
-		"To start, build a structure inside of a &bspace chamber&r to define its appearance and size, then use a &eSpace Card&r on the S&epace Chamber Controller&r to register the data. Be &nsure&r to place a &aMover Control&r block (optionally a &aMover Status&r block) in the structure to become interactable parts of the &bvehicle&r."
+		"要想起步，你需要先在&b空间方块&r所划分的区域里建造出载具本体（用什么方块都可以），由此决定它的尺寸和外观。随后对&e空间控制方块&r使用&e空间卡&r来保存区域内的方块信息。&n记得&r在载具本体上放置一个&a传运器控制&r（或&a传运器状态），这样你才能与建造完成后的&b载具&r进行互动。"
 		""
-		"Once the &eCard&r is registered, place it in a &aVehicle Builder&r alongside a &aVehicle Card&r to save the data as a new &bvehicle&r."
+		"使用&e空间卡&r保存好区域信息后，把它放进&a载具建造机&r里，并搭配一张&e载具卡&r来保存你的&b新载具&r信息。"
 		""
 		"{@pagebreak}"
-		"This registered &aVehicle Card&r can then be placed into a &aMover&r to form the &bvehicle&r as a solid entity at a slight offset."
-		"To control this offset and set up a system of Movers for your vehicle to travel between, place down a &aMover Controller&r beside your Mover and power it."
+		"保存了信息的&a载具卡&r可以被插进&a传运器&r中，从而在不远处以实体形式投射出你的&b载具&r。"
+		"要想控制投射所在的位置并建立起传运系统，只要在传运器旁边放置&a传运器控制器&r即可。"
 		""
-		"The &aMover Controller&r can build a system by scanning for other &aMovers&r in straight non-diagonal lines from the first, branching at each Mover it finds. The location of your &bvehicle&r can be set in this Controller if you happen to lose track of it."
+		"&a传运器控制器&r可以通过扫描其他的&a传运器&r来组建起传运系统，但它们必须位于同一水平线或垂直线上。它们会在每一个传运器处建立传运点。你还可以在这个控制器里修改你的&b载具&r投影位置，从而防止你找不到它的情况。"
 		""
-		"&aMover Controls&r (and any other page blocks) made as part of the original structure in the &bspace chamber&r will build a similar list of &aMovers&r as an interactable list in the &bvehicle&r, allowing riders to travel to any of the locations shown, provided there is not another vehicle in the way."
+		"如果你在&b空间方块区域内&r建造载具时为它安装了&a传运器控制&r（不论页数），你就可以在载具上看见它的屏幕上有一列地点名单，和&a传运器&r里的地点名单非常像。你可以在&b载具&r上跟这个名单进行互动，从而传送至指定地点，不过路上不能有其他载具挡路。"
 	]
-	quest.0399FE76C9F76E6F.quest_subtitle: "Why just up and down?"
-	quest.0399FE76C9F76E6F.title: "Advanced Elevators"
+	quest.0399FE76C9F76E6F.quest_subtitle: "凭什么只支持上下转移？"
+	quest.0399FE76C9F76E6F.title: "高级电梯"
 	quest.03BEFC2150D09E7A.quest_desc: [
 		"&d无线终端&r可在&3无线发送器&r的信号范围内远程访问你的存储网络。"
 		""
@@ -9661,7 +9661,7 @@
 	]
 	quest.5B62E0C65AAF1984.title: "&b通用机械升级包"
 	quest.5B7CC380E28893C1.quest_desc: [
-		"For us to make &2Rubber&r, we'll need to get our hands on some form of &aOil&r first."
+		"如果要做&2橡胶&r，我们首先需要获取任意形态的&a油&r。"
 		""
 		"你需要把水和&a碳粉&r或&a焦煤粉&r放入搅拌机，制作&3粗制合成油&r。"
 		""
@@ -9998,9 +9998,9 @@
 	quest.5E48B3223335F4F6.quest_desc: [
 		"在&d采石场&r中使用你的&6钛钻&r，以此挖掘&7铱矿&r。"
 		""
-		"You'll probably also have some &7Iridium Tiny Dust&r from your &dPlatinum&r processing chain!"
+		"在你做&d铂&r处理流程时，也能做出一些&7铱粉末&r！"
 	]
-	quest.5E48B3223335F4F6.title: "&7Raw Iridium"
+	quest.5E48B3223335F4F6.title: "&7粗依"
 	quest.5E5BDCBF185E48E3.quest_desc: [
 		"&a工程师装配台&r是用来制作沉浸工程耗材的最主要的工作台！"
 		""
@@ -11065,14 +11065,14 @@
 	]
 	quest.69024F41C4025A48.title: "&a铁匠使魔"
 	quest.69099F0F9EA3580C.quest_desc: [
-		"&aScreens&r from RFTools are modular information centers. You can set them up to monitor redstone, read energy levels for machines, display text, press buttons, it can even tell time!"
-		"It all depends on what &aModules&r you slot in."
+		"RF工具箱中的&a屏幕&r是各种模块的信息显示中心。你可以安装这些屏幕来监测红石电路情况、查看机器能量等级、展示文本以及远程按下按钮。它们甚至还可以显示时间！"
+		"具体功能取决于你插入的&a模块&r类型。"
 		""
-		"&7Interact with the Screen while sneaking to adjust installed Modules."
+		"&7你可以潜行右击屏幕来调整已安装的模块。"
 		""
-		"Screens wirelessly receive power from a &aScreen Controller&r to make their modules function. Hook this block up to power and press the scan button in its menu to connect to all screen within a large range."
+		"屏幕无需连接就能自动从&a屏幕控制器&r获取能量，从而运行它们的模块。为屏幕控制器接入能量，并点击其UI中的扫描即可连接到附近一大片区域内的屏幕。"
 	]
-	quest.69099F0F9EA3580C.title: "Sensational Screens"
+	quest.69099F0F9EA3580C.title: "强大的屏幕"
 	quest.69159D10C2791C2E.quest_desc: [
 		"&a青铜熔炉&r和&2研磨机&r是你应该最先制造的基础机器。"
 		""
