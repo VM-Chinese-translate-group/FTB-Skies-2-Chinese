@@ -350,7 +350,7 @@
 		""
 		"&c反应堆热管&r从相邻的&3燃料棒&r吸收热量，然后将热量分散到相邻的&c散热口&r中。"
 		""
-		"从相邻组件转移的最大热量量基于两个组件之间的温差。"
+		"The maximum transferred heat amount from a neighbor component is based on the temperature difference between them."
 	]
 	quest.030F1F8A4B0C1EBF.title: "&c散热口&f和&c热管"
 	quest.032BAE6F419CA6C8.quest_desc: [
@@ -1034,7 +1034,7 @@
 		""
 		"能量管道不能直接连接到&d原子锻造器&r；它需要用&a末影激光器&r来供能。"
 	]
-	quest.091B8E814908DEDF.title: "&d原子融合厂"
+	quest.091B8E814908DEDF.title: "&dAtomic Forge"
 	quest.091C04F5A6163717.quest_desc: [
 		"虽然&e强化玻璃罐&r功能多样，但每次都需要手动混合，令人厌倦。而这就是&a罐自动化器&r存在的原因！"
 		""
@@ -6381,17 +6381,17 @@
 	quest.3AEBDB8CAA13C522.quest_desc: ["&a磁力指环&r在有能量的时候，会自动拾取玩家周围6格内的掉落物。"]
 	quest.3AEBDB8CAA13C522.title: "&a磁力指环"
 	quest.3AF1BAEDEF45FAB0.quest_desc: [
-		"By forming impervious blocks using energy, &aShield Projectors&r allow players to define shapes and regions to selectively prevent movement and/or cause damage."
+		"&a护盾投射仪&r可以消耗能量来投射出一批不透水的护盾。玩家可以自己选定区域和形状，从而禁止生物进入或防止玩家受伤。"
 		""
-		"To use a &aShield Projector&r, either build a custom shape using a single color of &aShield Templates&r that touches a Projector and update the Projector with a &eSmart Wrench&r, or use a &eShape Card&r to define a region for the Projector to form from."
+		"要想使用&a护盾投射仪&r，你可以建造任意一种颜色的&a护盾支架&r来摆放在护盾投射仪旁边，然后用&e智能扳手&r来启动它；也可以使用&e塑性卡片&r来选定一个区域，然后让护盾投射仪来进行保护。"
 		""
-		"&7This can be done more easily with a &eBuilder &7in the Projector's desired position to set up the Shape Card."
+		"&7在你想要保护的范围内放置一台&e建造机&7有利于你更轻松地设定塑性卡片。"
 		""
-		"With a region to work on, players can use the settings of the &aShield Projector&r to change its appearance and add &brules&r for how the shield will act when a player or creature touches it. Rules are applied top-down."
+		"选定好区域以后，玩家可以通过&a护盾投射仪&r里的设置来更改护盾的外观，并为护盾设立&b规则&r，比如当玩家或其他生物触碰到护盾时，护盾该做出什么反应。规则是从上往下生效的。"
 		""
-		"&7For example, to make an energy bridge for just players to walk on, first add a rule that the shield is solid for players, then add a rule that everything passes through."
+		"&7举个例子，要想打造一个只有玩家可以通行的能量桥，先加入一个规则，让护盾方块对玩家来说具有坚固属性，随后加入另一个规则，使任何生物都能够穿过护盾。"
 	]
-	quest.3AF1BAEDEF45FAB0.title: "Shield Projectors"
+	quest.3AF1BAEDEF45FAB0.title: "护盾投射仪"
 	quest.3AF4B31403FE9E0D.title: "&2初级精华&f盔甲"
 	quest.3AF598F0517B7BA6.quest_desc: [
 		"&a稳定虫洞&r使得远程访问维度矩阵变得可能。"
@@ -8878,13 +8878,13 @@
 	]
 	quest.52D486F9FE1BCC66.title: "{\"text\": \"钷战斧\", \"color\":\"#FCD205\"}"
 	quest.52EE1E7D01C7CFCD.quest_desc: [
-		"&bSpace Chambers&r are a way of designating an area to be interacted with in the Builder branch of &eRFTools&r. You define this area by placing a &aSpace Chamber Controller&r at one corner of a cuboid region and &aSpace Chamber&r blocks at the other 7. Once all blocks are in place, use a &eSmart Wrench&r on the Controller to confirm all the blocks inside. "
+		"在&eRF&r的附属模组RF工具箱：建造机中，&b空间方块&r是一种可以锚定区域从而使其变得可以互动的方法。在一个长方体空间的7个角落放置空间方块，最后1个角落放置空间控制方块，你就可以锚定这个区域。放置完成后，你需要对空间控制方块使用&e智能扳手&r来记录区域内的方块数据。"
 		""
-		"Once the area is set, using a &aSpace Card&r on the &aController&r will store the region and its associated contents to the Card. This card can then be placed in a &eBuilder&r to move, swap, or copy the region."
+		"区域建立完成后，对&a空间控制方块&r使用&a空间卡&r，你就可以把这个区域的数据保存到卡片里。随后，你可以把这张卡放进&e建造机&r，从而指定区域的移动、置换，或者复制整个区域。"
 		""
-		"The &aCard&r can also be used in the &eVehicle Builder&r to create a '&bmover&r.'"
+		"这张&a空间卡&r也可以被放进&e载具制造机&r里，从而造出‘&b传运器&r’。"
 	]
-	quest.52EE1E7D01C7CFCD.title: "Space Chambers"
+	quest.52EE1E7D01C7CFCD.title: "空间方块"
 	quest.53031F8BB47F117D.quest_desc: ["&a太阳能电池板&r可以产生大量能量，产能基于建造它使用的&b机械核心&r。"]
 	quest.53031F8BB47F117D.title: "&f大型太阳能电池板"
 	quest.532DA0BDBF2F215A.title: "&f牛肉饼"
@@ -9605,7 +9605,7 @@
 	]
 	quest.5AC7EEC3D69AF032.title: "&d苍穹晶镐尖斧"
 	quest.5AF11DFE839F95E6.quest_desc: [
-		"The Storage branch of &eRFTools&r has only a few machines."
+		"RF的附属模组&eRF工具：存储&r中机器数量非常少。"
 		""
 		"&aModular Storages&r don't do much if anything by themselves, but provide a way to access a tiered &aStorage Module&r (what really holds the items) after inserting and locking it in. From there, items can be inserted manually or automatically up to the total amount of stacks that the tier can hold."
 		""
@@ -9614,8 +9614,8 @@
 		"A &aStorage Scanner&r can also be crafted and powered to search for compatible inventories in its range for players to withdraw from and insert into."
 		"&o&7There's also two new &eScreen &7modules that work with this machine."
 	]
-	quest.5AF11DFE839F95E6.quest_subtitle: "The other iron chest"
-	quest.5AF11DFE839F95E6.title: "Technical Storage"
+	quest.5AF11DFE839F95E6.quest_subtitle: "另一种铁箱子"
+	quest.5AF11DFE839F95E6.title: "科技存储"
 	quest.5B063F5520171280.title: "&c中级精华&f工具"
 	quest.5B164374A2849270.title: "&6第二层"
 	quest.5B28036A3960FCAC.quest_desc: [
