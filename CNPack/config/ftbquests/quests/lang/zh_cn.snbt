@@ -4054,7 +4054,7 @@
 		""
 		"To configure a &aPowercell Card&r and create a &bwireless energy channel&r, simply place an unlinked card in the leftmost slot of an unlinked &aDimensional Cell&r. This will register a new channel on the card to transfer power over. To add cards to this channel, place an unlinked card in the slot to the right of it."
 	]
-	quest.25B9F4FD7CA67A0B.title: "Dimensional Cells"
+	quest.25B9F4FD7CA67A0B.title: "维度能量单元"
 	quest.25CDD6087C675F1A.quest_desc: [
 		"&e多级线缆&r模组提供了许多升级版本的成型器，越高级的工作速度越快，过滤槽位越多。"
 		""
@@ -6286,8 +6286,8 @@
 	quest.3A43CCB33A024711.title: "&6工作站"
 	quest.3A53BB7A6B708966.quest_desc: ["灌注魔法能量后，你的书架将带来更多可能性。"]
 	quest.3A53BB7A6B708966.title: "&c灌注下界书架"
-	quest.3A53E8547A11E845.quest_desc: ["Used in a wide variety of machines, the &aFilter Module&r provides many different services based on the device it's placed inside of. For example it can specify the bocks a &eBuilder&r can affect or limit the items placed into a &eCrafter&r."]
-	quest.3A53E8547A11E845.title: "Filter Modules"
+	quest.3A53E8547A11E845.quest_desc: ["&a过滤模块&r在各种机器中都很常用。根据机器功能的不同，它也会带来不同的效果。举个例子，它可以决定&e建造机&r能够对哪些方块生效，也可以决定&e自动合成机&r里能够放入哪些物品。"]
+	quest.3A53E8547A11E845.title: "过滤模块"
 	quest.3A55DAA85874864A.quest_desc: [
 		"&a真空箱子&r能将附近的物品吸进它的内部库存中。"
 		""
@@ -13067,11 +13067,11 @@
 	]
 	quest.7EA01C721DFBF014.title: "&a方块和流体管理"
 	quest.7EA0870C93C7DBA5.quest_desc: [
-		"&aPowercells&r are energy storage blocks that are capable of sharing their storage with each other adjacently as a single structure."
+		"&a能量单元&r是一种能量存储方块，可以彼此相连，从而成为一个整体结构。"
 		""
-		"To insert or extract energy, configure a side of the cell using a &eSmart Wrench&r. Blue sides will allow energy into the powercell, yellow will allow energy to be pushed out."
+		"要想输入或取出能量，你需要用&e智能扳手&r来对这些单元的侧面进行配置。蓝色端口是能量输入口，黄色端口是能量提取口。"
 	]
-	quest.7EA0870C93C7DBA5.title: "Powercells"
+	quest.7EA0870C93C7DBA5.title: "能量单元"
 	quest.7EA2616705E80E24.quest_desc: ["破坏方块，但不兼容精准采集或时运。"]
 	quest.7EA2616705E80E24.title: "&f方块破坏器"
 	quest.7EA8C2CD09DD85A3.quest_desc: [
