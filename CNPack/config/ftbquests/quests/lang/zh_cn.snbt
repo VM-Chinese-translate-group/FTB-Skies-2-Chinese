@@ -2598,16 +2598,16 @@
 	]
 	quest.17CD9810D724547E.title: "&c铬粉"
 	quest.17D5EB0E89BC10D7.quest_desc: [
-		"The &aEndergenic&r generator setup is one of the most complicated energy generators that doesn't require a degree in nuclear physics."
+		"&a末影能&r发电机是游戏里除核能以外最复杂的发电机。"
 		""
-		"These generators extract power from &dender pearls&r by 'throwing' the pearls between each other (targeted via &eSmart Wrench&r) and canceling their teleportation effect, absorbing the stifled energy."
+		"这种发电机会彼此“投掷”&d末影珍珠&r（这需要你通过&e智能扳手&r来设定投掷目标），再将传送的效果抑制，从而提取这种被抑制的能量。"
 		""
-		"Continuing to hold onto a stifled pearl uses energy however and &aEndergenics&r enter a &3cool-down state&r after throwing a pearl, so proper timing using redstone is crucial to efficiency. The process isn't perfect, so sometimes pearls will shatter in the machines after being thrown."
+		"然而，持续抑制末影珍珠本身就需要能量，并且&a末影能发电机&r还会在投掷珍珠后进入&3冷却时间&r，所以通过红石来合理设定触发时机是非常有利于提升效率的。这一过程注定不会完美，所以机器里总有一部分珍珠会在投掷后白白破碎。"
 		""
-		"With proper logic and a reasonable supply of ender pearls to feed it, a single &aEndergenic&r setup can easily provide enough power to fuel a base entering its late stages of development."
+		"有了合理的设计逻辑和充足的珍珠补充，只需要一套&a末影能发电机&r的供能，你的基地就可以轻松发展到后期。"
 	]
-	quest.17D5EB0E89BC10D7.quest_subtitle: "Hot-Potato with pearls"
-	quest.17D5EB0E89BC10D7.title: "Endergenic Generation"
+	quest.17D5EB0E89BC10D7.quest_subtitle: "末影珍珠烤土豆"
+	quest.17D5EB0E89BC10D7.title: "末影能发电"
 	quest.17EBE81C391DE37E.quest_desc: ["&a芯片存储器&r可以储存&a存储芯片&r，这样你的物质网络就可以使用它们。"]
 	quest.17EBE81C391DE37E.title: "&f芯片存储器"
 	quest.1811EC8E48EAD1BD.quest_desc: [
@@ -4048,11 +4048,11 @@
 	]
 	quest.25A18CFB6B3E038B.title: "&a水晶修复器"
 	quest.25B9F4FD7CA67A0B.quest_desc: [
-		"&aDimensional Cells&r are energy storage blocks that are capable of sharing their storage with each other wirelessly via &aPowercell Card&r channels. There is a small amount of loss in this process based on the distance, improved by &binfusing&r the cell that's drawing the energy."
+		"&a维度能量单元&r是一种能量存储方块，只要通过&a维度标记卡&r的频道，它们就可以跨纬度传输能量。这种传输会根据传输距离而损耗一部分能量，你可以通过&b注能&r对应的能量单元来降低这种损耗。"
 		""
-		"To insert or extract energy, configure a side of the cell using a &eSmart Wrench&r. Blue sides will allow energy into the cell, yellow will allow energy to be pushed out."
+		"要想输入或取出能量，你需要用&e智能扳手&r来对这些单元的侧面进行配置。蓝色端口是能量输入口，黄色端口是能量提取口。"
 		""
-		"To configure a &aPowercell Card&r and create a &bwireless energy channel&r, simply place an unlinked card in the leftmost slot of an unlinked &aDimensional Cell&r. This will register a new channel on the card to transfer power over. To add cards to this channel, place an unlinked card in the slot to the right of it."
+		"要想为&a维度标记卡&r设定一个&b无线能量传输频道&r，只需要把一个维度标记卡放在&a维度能量单元&r中最左侧的槽位。这将为你的标记卡登记一个新的频道，从而用于能量传输。要想让其他标记卡进入这个频道，只要将其放进右下角的槽位即可。"
 	]
 	quest.25B9F4FD7CA67A0B.title: "维度能量单元"
 	quest.25CDD6087C675F1A.quest_desc: [
@@ -9835,13 +9835,13 @@
 	]
 	quest.5D4E2FAD79F5AC0A.title: "&3垂直挖矿机"
 	quest.5D52B308E45E29D4.quest_desc: [
-		"Through the use of the &aBlazing Agitator&r, &eBlaze Rods&r can be converted into specialized fuel for a &aBlazing Generator&r. The Agitator consumes some energy to convert the rods over time, but both the rate and the final product are improved by adjacent rods boosting each other. Consider creating some '&bbreeder&r' rods and locking them from output in the interface!"
+		"只要使用&a烈焰激活器&r，你就可以把&e烈焰棒&r转化成一种特殊的燃料，以供&a烈焰发电机&r使用。这个激活器需要能量和时间才能完成烈焰棒的转化，但是当烈焰棒彼此相邻时，其速率及转化的质量都会提高。不妨设置一些‘&b催化用&r’烈焰棒，并通过槽位锁定来让它们留在转化区里！"
 		""
 		"Once converted into &6Blazing Rods&r, the fuel can be withdrawn early by hand or transfer to output slots at 100% Time. Up to four at a time can be placed into the &aBlazing Generator&r, which will warm up steadily to the listed rate of the Rod(s)."
 		"&7This warm up-phase is skipped if the slot is already producing at max rate."
 	]
-	quest.5D52B308E45E29D4.quest_subtitle: "Talk about firepower"
-	quest.5D52B308E45E29D4.title: "Blazing Energy"
+	quest.5D52B308E45E29D4.quest_subtitle: "说到火力"
+	quest.5D52B308E45E29D4.title: "烈焰能量"
 	quest.5D590103CDA46CC5.title: "&b基础->钻石升级"
 	quest.5D5D0878275558BC.quest_subtitle: "冰霜粉笔"
 	quest.5D5D0878275558BC.title: "{\"text\": \"淡蓝色粉笔\", \"color\": \"#A6CAFC\"}"
@@ -13018,7 +13018,7 @@
 		"{\"text\": \"罕见：陈旧布匹\", \"color\": \"#55FF55\"}"
 		"{\"text\": \"稀有：发光水晶碎片\", \"color\": \"#5454FC\"}"
 		"{\"text\": \"史诗：玄奥沙\", \"color\": \"#B900B9\"}"
-		"{\"text\": \"神化：神铸珍珠\", \"color\":\"#EA6F14\"}"
+		"{\"text\": \"Mythic - Godforged Pearls\", \"color\":\"#EA6F14\"}"
 		""
 		"&a回收台&r可以从顶部和侧面自动输入物品并拆解，从底部输出。任何材料都不会被遗漏！"
 	]
