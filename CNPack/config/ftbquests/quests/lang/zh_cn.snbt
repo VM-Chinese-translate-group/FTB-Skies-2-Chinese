@@ -719,17 +719,17 @@
 	]
 	quest.069E5F18F03C1A78.title: "&3工具箱"
 	quest.06B2E450F423BFAF.quest_desc: [
-		"The &bspawner system&r is a method of creating creatures via resources and energy."
+		"&b刷怪笼系统&r是一种通过资源和能量来创造生物的方法。"
 		""
-		"By repeatedly attacking a mob with a &aSyringe&r to fill it, this Syringe can then be placed in a &aSpawner&r to see the resources and energy required to spawn more of that mob."
+		"你可以用注射器反复攻击一个生物来进行装填，随后你就可以把这支注射剂放进&a刷怪笼&r里，并查看生成这种怪物所需的资源和能量。"
 		""
-		"&7Note that only vanilla mobs can be spawned, and some newer mobs may be incompatible"
+		"&7注意，只有原版生物可以通过这种方式生成，并且高版本的一些新生物可能还不包含在内。"
 		""
-		"&aMatter Beamers&r use energy to convert and transfer resources to the &aSpawner&r. To do this, link the Beamer to the Spawner with a &eSmart Wrench&r and apply a redstone signal to the Beamer."
+		"&a物质投影仪&r可以消耗能量来把转换资源并将其运输至&a刷怪笼&r。只要用&e智能扳手&r来连接投影仪和刷怪笼，并为投影仪输入红石信号即可。"
 		""
-		"Once the Spawner has enough resource and energy, it will spawn a mob on whichever side of the block the red circle is on."
+		"刷怪笼有了足够的资源和能量之后，它就会在红圈所在的面生成生物。"
 	]
-	quest.06B2E450F423BFAF.title: "Spawner"
+	quest.06B2E450F423BFAF.title: "刷怪笼"
 	quest.06C012946C919F68.quest_subtitle: "传输能量"
 	quest.06C012946C919F68.title: "&e通用机械&c能量线缆"
 	quest.06C9E9DBE25887D9.quest_desc: ["&a熔岩发电机&r可以消耗熔岩产生RF，加装&b插件&r可以提升发电效率。"]
@@ -8162,12 +8162,12 @@
 	]
 	quest.4C6838BED2262721.title: "&d不锈钢钻"
 	quest.4C6E198CD591C2A5.quest_desc: [
-		"Using &eDimensional Shards&r to infuse certain machines in the aptly named &aMachine Infuser&r can improve their functions."
+		"只要使用&e维度碎片&r，你就可以在&a机器注能机&r里为某些机器注能，从而增强它们的功能了。"
 		""
-		"Generators produce more power, devices use less energy or work faster, or some other more specialized bonus may be given depending on the machine."
+		"发电机会产生更多能量，其他机器会降低耗能或提升速率，还有一些甚至可能给你带来额外的副产物。"
 	]
-	quest.4C6E198CD591C2A5.quest_subtitle: "Make machine better!"
-	quest.4C6E198CD591C2A5.title: "Infusing your Machines"
+	quest.4C6E198CD591C2A5.quest_subtitle: "让机器变得更加强大！"
+	quest.4C6E198CD591C2A5.title: "为你的机器注能"
 	quest.4C6F46D9E6095A3F.quest_desc: [
 		"Every channel type will generally have two modes: Insert and Extract, while the &cLogic&r type has Sensor and Output."
 		""
@@ -8905,14 +8905,14 @@
 	quest.536FE5C4A9D37909.quest_subtitle: "历经层层覆盖，那根线是否仍在？"
 	quest.536FE5C4A9D37909.title: "&f烈焰机械筛网"
 	quest.53A5598F55DA9DB8.quest_desc: [
-		"Using the &aBlazing Infuser&r, you can boost your &eBlazing Rods&r with redstone, glowstone, or &3Dimensional Shards&r to increase the amount of energy obtained per Rod."
+		"只要使用&a烈焰注能器&r，你就可以将红石、荧石或&3空间碎片&r注入到&e烈焰棒&r里，从而增加单个烈焰棒蕴藏的能量"
 		""
-		"&4Redstone&r focuses on generation rate, while &6glowstone&r increases fuel duration, though fully boosting the rod will be a 50% gain either way."
-		"&3Dimensional Shards&r will heavily boost both, with a fully infused rod gaining over three times the potential energy."
+		"&4红石&r注重于增强发电效率，而&6荧石&r注重于增加燃烧持续时间，不过两种方式实际上都是为烈焰棒增加了50%的效能。"
+		"&3维度碎片&r同时有这两种效果，而且更加强力，完全注能后的单个烈焰棒能够获得三倍的能量。"
 		""
-		"&7&oOther possible resources include nether quartz, ghast tears, and nether stars."
+		"&7&o还有其他的注能材料，包括下界石英、恶魂之类，以及下界之星。"
 	]
-	quest.53A5598F55DA9DB8.title: "Blazing Infuser"
+	quest.53A5598F55DA9DB8.title: "烈焰注能器"
 	quest.53B7A49C8138D3B0.quest_desc: ["[\"使用\", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"和\", {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \"粉笔，和\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"，你现在就可以控制\", {\"text\": \"火灵\", \"color\": \"#FF55FF\"}, \" 附身僵尸猪灵了。它被杀死后会掉落\", {\"text\": \"恶魔之肉\", \"color\": \"#55FF55\"}, \" \"]"]
 	quest.53B7A49C8138D3B0.quest_subtitle: "附身五芒星：级别3"
 	quest.53B7A49C8138D3B0.title: "&c阿巴拉斯开环强令召唤术"
@@ -9837,8 +9837,8 @@
 	quest.5D52B308E45E29D4.quest_desc: [
 		"只要使用&a烈焰激活器&r，你就可以把&e烈焰棒&r转化成一种特殊的燃料，以供&a烈焰发电机&r使用。这个激活器需要能量和时间才能完成烈焰棒的转化，但是当烈焰棒彼此相邻时，其速率及转化的质量都会提高。不妨设置一些‘&b催化用&r’烈焰棒，并通过槽位锁定来让它们留在转化区里！"
 		""
-		"Once converted into &6Blazing Rods&r, the fuel can be withdrawn early by hand or transfer to output slots at 100% Time. Up to four at a time can be placed into the &aBlazing Generator&r, which will warm up steadily to the listed rate of the Rod(s)."
-		"&7This warm up-phase is skipped if the slot is already producing at max rate."
+		"转化成&6充能烈焰棒&r之后，你就可以提前手动取出它们，也可以等它们充能到100%后自动进入输出槽。你最多可以把四根充能烈焰棒同时放进&a烈焰发电机&r里，它会逐渐加热到这些烈焰棒对应的发电速率上。"
+		"&7如果发电机本来就在最大功率运行，那么这一加热阶段会被直接跳过。"
 	]
 	quest.5D52B308E45E29D4.quest_subtitle: "说到火力"
 	quest.5D52B308E45E29D4.title: "烈焰能量"
@@ -11415,7 +11415,7 @@
 	quest.6DB493D9D20E8B45.quest_subtitle: "砸碎泥土！"
 	quest.6DB493D9D20E8B45.title: "&f沙子"
 	quest.6DC738A434C5B02F.title: "&f击杀10只&d末影人"
-	quest.6DD9A75EE8C97710.quest_desc: ["&d死灵法师&r与常见的敌对生物同时刷出来的概率极低，如果未做好准备，碰到他们将极为致命。在虚空岛屿上，有时能碰到生成它们的刷怪笼。"]
+	quest.6DD9A75EE8C97710.quest_desc: ["&d亡灵术士&r与常见的敌对生物同时刷出来的概率极低，如果未做好准备，碰到他们将极为致命。在&b虚空岛屿&r上，有时能碰到生成它们的刷怪笼。"]
 	quest.6DD9A75EE8C97710.title: "&f击杀5只&d亡灵术士"
 	quest.6DEB5453D8E3BD76.quest_desc: ["这种极为珍稀的材料可以在下界要塞、堡垒等&c下界建筑&r中找到，可能作为战利品出现，或是自然生成于世界中。传闻某个地牢深处甚至藏有一个&6完整的下界合金块&r……"]
 	quest.6DEB5453D8E3BD76.title: "&f远古残骸与下界合金"
