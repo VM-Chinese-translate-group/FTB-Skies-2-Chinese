@@ -299,8 +299,8 @@
 		""
 		"Hold &3shift&r while hovering over the items for this quest to see what uses they may have for you."
 	]
-	quest.0260AB699B59D332.quest_subtitle: "Miscellaneous logic"
-	quest.0260AB699B59D332.title: "Redstone Potpourri"
+	quest.0260AB699B59D332.quest_subtitle: "复杂逻辑"
+	quest.0260AB699B59D332.title: "红石杂烩"
 	quest.026A64F01C301119.quest_desc: [
 		"冶炼&a高定向热解石墨粉&r可以得到&3高定向热解石墨锭&r。译者注：不可以。"
 		""
@@ -1217,33 +1217,33 @@
 	]
 	quest.0A2DB5AFC89E852F.title: "&f焦炉"
 	quest.0A3951173D287D12.quest_desc: [
-		"By setting one or more &aEffect Modules&r into an &aEnvironmental Controller&r, you can use energy to apply certain effects to valid targets in a custom area."
-		"The more blocks the Modules would affect with their effect, the more it affects your energy consumption, effectively."
+		"只要在&a环境控制器&r中放入一个或多个&a效果模块&r，你就可以消耗能量来将这些效果赋予设定区域内的特定目标。"
+		"实际上，你赋予效果的区域越大，控制器消耗的能量就越多。"
 		""
-		"These Effect Modules need to be crafted with a &eSyringe&r that's filled by attacking a certain mob with the Syringe in hand."
-		"&7The recipes for the modules currently do not show which mob is required, so they are listed on the following page."
+		"这些效果模块需要用&e注射器&r来制作，即通过攻击特定生物来装填的那种注射器。"
+		"&7合成表目前无法显示出各个模块需要的注射器生物种类，所以我们会在这个任务里陈列出它们的需求。"
 		""
 		"&7->&r"
 		"{@pagebreak}"
-		"&7Blindness: squid"
-		"&7Feather Falling: chicken"
-		"&7Flight: ghast"
-		"&7Glowing: creeper"
-		"&7Haste: pillager"
-		"&7Luck: cat"
-		"&7Night Vision: drowned"
-		"&7No Teleport: enderman"
-		"&7Peaceful: iron golem"
-		"&7Poison: cave spider"
-		"&7Regeneration: witch"
-		"&7Saturation: zombie"
-		"&7Slowness: turtle"
-		"&7Speed: wolf"
-		"&7Waterbreathing: guardian"
-		"&7Weakness: piglin"
+		"&7失明：鱿鱼"
+		"&7衰落缓冲：鸡"
+		"&7飞行：恶魂"
+		"&7发光：苦力怕"
+		"&7急迫：掠夺者"
+		"&7幸运：猫"
+		"&7夜视：溺尸"
+		"&7反瞬移：末影人"
+		"&7和平：铁傀儡"
+		"&7中毒：洞穴蜘蛛"
+		"&7再生：女巫"
+		"&7饱和：僵尸"
+		"&7缓慢：海龟"
+		"&7速度：狼"
+		"&7水下呼吸：守卫者"
+		"&7虚弱：猪灵"
 	]
-	quest.0A3951173D287D12.quest_subtitle: "A configurable powered beacon"
-	quest.0A3951173D287D12.title: "Environmental Controller"
+	quest.0A3951173D287D12.quest_subtitle: "可配置的充能信标"
+	quest.0A3951173D287D12.title: "环境控制器"
 	quest.0A51EA0A6CC0327F.quest_desc: [
 		"&7劳工魔精&r会采集随机方块，并把它挖到的一切东西都传输回来。"
 		""
@@ -1730,7 +1730,7 @@
 	quest.0EBEF0B2D2F13C3D.quest_desc: [
 		"&e附身仪式&r将&b魔灵&r绑定到生物体内，让召唤者对被附身的生物有一定程度的控制权。"
 		""
-		"因此，让这些&b魔灵&r去获得稀有物品，而无你需冒险进入危险的地方。"
+		"As such, these &bRituals&r are used to obtain rare items without having to venture into dangerous places."
 	]
 	quest.0EBEF0B2D2F13C3D.title: "&e附身仪式"
 	quest.0EC122E853F2083C.quest_desc: [
@@ -2526,11 +2526,11 @@
 	quest.170CE041C0312188.quest_desc: ["&3仓储发报机&r让你可以从其连接的仓储网络中请求一组过滤的物品。"]
 	quest.170CE041C0312188.title: "&3仓储发报机"
 	quest.17336F4FA0F73DC4.quest_desc: [
-		"&aRedstone Receivers&r and &aTransmitters&r are a pair of logic components capable of wirelessly passing redstone signal through &bchannels&r. Transmitters will take a redstone input and pass it along to &oall&r Receivers on their channel."
+		"&a红石信号接收器&r和&a发信器&r是一对逻辑组件，可以通过&b频道&r来无线传输红石信号。发信器是红石信号的输入端，会把信号传输给同频道的&o所有&r接收器。"
 		""
-		"&aReceivers&r can also accept input from a &eButton Module&r in a Screen, or from a &eRedstone Module&r in a Tablet."
+		"&a接收器&r也可以通过安装了&e按钮模块&r的屏幕激活，还可以通过平板电脑里的&e红石模块&r来激活。"
 	]
-	quest.17336F4FA0F73DC4.title: "Wireless Redstone"
+	quest.17336F4FA0F73DC4.title: "无线红石"
 	quest.1733FCE814C7DE2D.quest_desc: [
 		"&e应用通量&f是一个&b拓展模组&r。装上它之后，你的AE网络就能储存能量（FE），并自动为相连的机器供电。"
 		""
@@ -3361,13 +3361,13 @@
 	quest.1EE339A0DCABD78E.quest_subtitle: "并不会让猪灵对你保持中立"
 	quest.1EE339A0DCABD78E.title: "&6光明使者胸甲"
 	quest.1EF2DFA3DBB2EE19.quest_desc: [
-		"The &aTablet&r functions as a remote control for the &bwireless redstone&r channels used by a &eRedstone Transmitter&r or &eReciever&r."
+		"&a平板电脑&r是一种远程控制器，可以控制&b无线红石&r的频道，这种频道一般用在&e红石信号发信器&r和&e接收器&r中。"
 		""
-		"To use this function, create a &aRedstone Module&r and interact with a configured wireless redstone device to add its channel to the module."
+		"要想进行频道调控，你需要制作一个&a红石模块&r，并用它跟一个已经配置完毕的无线红石设备进行互动，从而将频道记录到模块里。"
 		""
-		"Open the Tablet's modules interface by sneak-right clicking and insert the Redstone module. You will then be able to monitor the signal's state and toggle it manually."
+		"潜行右击打开平板电脑的配置页面，插入红石模块。接下来你就可以远程查看红石信号的状态并手动进行调控了。"
 	]
-	quest.1EF2DFA3DBB2EE19.title: "Tablet Control"
+	quest.1EF2DFA3DBB2EE19.title: "平板电脑"
 	quest.1EFED5AC265CDB0C.quest_desc: [
 		"在建造&a金属冲压机&r前，你需要使用&a工程师锤&r或&e动力冲压机&r制作金属板。"
 		""
@@ -7914,7 +7914,7 @@
 	]
 	quest.4A5FD3641E0A566E.title: "&2能量&f和&c红石&f端口"
 	quest.4A63B415FED7E777.quest_desc: [
-		"&6修菲斯倒转之塔&r通过结合&9蓝色粉笔&r和&d凋灵骷髅头颅&r的力量，是你可以召唤并绑定&6魔王&r进入极其强大的物品中"
+		"&6Uphyxes Inverted Tower&r combines the powers of &9Blue Chalk&r and &dWither Skeleton Skulls&r, allowing you to summon and bind &6Marids&r into extremely powerful items."
 		""
 		"某些&e绑定仪式&r不是必须的，但想要达到&6神秘学&r的终局，你可能会经常用到它们。"
 	]
@@ -10705,7 +10705,7 @@
 	quest.65BCDCF0CEB69283.quest_desc: [
 		"&a奇美拉&r与其他的&e使魔&r有些许不同"
 		""
-		"通过喂食奇美拉肉食可以使其成长，提升它的伤害和速度。荡起成长完全，喂食它一个&d金苹果&r可以将原本融合于其中的&d山羊&r拆分出来，成为一个单独的坐骑"
+		"It can grow when fed meat, increasing its damage and speed. Once fully grown, feeding it a &dGolden Apple&r will detach the &dGoat&r to become its own rideable mount."
 		""
 		"升级后，它会获得一个警钟，当你攻击它时，它就会释放钟声，吸引大范围怪物的仇恨"
 		""
