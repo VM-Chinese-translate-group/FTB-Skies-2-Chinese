@@ -295,9 +295,9 @@
 	]
 	quest.0241EAE68EA53595.title: "&f用蜂巢获取蜜蜂"
 	quest.0260AB699B59D332.quest_desc: [
-		"The Utility branch of &eRFTools&r contains a lot of varied &aredstone logic components&r that are helpful for anyone wanting to perform advanced redstone functions a little simpler or have a few extra functions."
+		"RF系列中的&eRF工具：实用设备&r有着大量的&a红石逻辑组件&r，对于想要简化高级红石设备以及需要额外功能的玩家来说，它们非常有用。"
 		""
-		"Hold &3shift&r while hovering over the items for this quest to see what uses they may have for you."
+		"当鼠标悬停在这些物品上时，你可以按&eshift&r来查看它们对你来说有什么用。"
 	]
 	quest.0260AB699B59D332.quest_subtitle: "复杂逻辑"
 	quest.0260AB699B59D332.title: "红石杂烩"
@@ -573,7 +573,7 @@
 		""
 		"[\"\", {\"text\": \"核裂变\", \"color\": \"light_purple\"}, \"\", {\"text\": \"不会\", \"color\": \"red\"}, \"自行发电，请查看\", { \"text\": \"工业蒸汽涡轮任务\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"31C83D9253FFF685\" } }, \"来将蒸汽转化为电力。\" ]"
 		""
-		"&d反应堆&r接受两种冷却剂，它们可以通过超临界移相器端口直接泵入多方块结构中。用&b水冷却&r更简单但效果较差，而&6钠冷却&r效果更好但是需要额外的多方块结构。"
+		"The &dReactor&r accepts two forms of coolants which can be piped directly into the multiblock via a port. &bWater Cooling&r is simpler but less effective, while &6Sodium Cooling&r is stronger but requires an additional multiblock."
 		""
 		"未能及时提供冷却剂不会停止正在运行的反应堆，但会导致其&c过热&r、&c内部熔毁&r，并最终&4爆炸&r，释放&4放射性物质&r。若未及时清理废料，将导致其&4泄漏到环境中&r，并产生&4辐射&r。"
 		""
@@ -1648,7 +1648,7 @@
 		""
 		"To get started you’ll need some power (FE), a &aController&r and some &2Connectors&r."
 	]
-	quest.0DF5D2B35FDEE536.title: "&eXnet &fManagement"
+	quest.0DF5D2B35FDEE536.title: "&eXnet&f物品管理"
 	quest.0E06BDC6265EB7F7.quest_desc: [
 		"&3ME控制器&r可以用来增加一个网络中的频道数量，这个东西在游戏初期并不是特别重要的东西，因为你初始网络自带36个频道。但是一个没有&3控制器&r的网络只能&b暂时拿来用用&r。"
 		""
@@ -7914,7 +7914,7 @@
 	]
 	quest.4A5FD3641E0A566E.title: "&2能量&f和&c红石&f端口"
 	quest.4A63B415FED7E777.quest_desc: [
-		"&6Uphyxes Inverted Tower&r combines the powers of &9Blue Chalk&r and &dWither Skeleton Skulls&r, allowing you to summon and bind &6Marids&r into extremely powerful items."
+		"&6修菲斯倒转之塔&r通过结合&9蓝色粉笔&r和&d凋灵骷髅头颅&r的力量，使你可以召唤并绑定&6魔王&r进入极其强大的物品中"
 		""
 		"某些&e绑定仪式&r不是必须的，但想要达到&6神秘学&r的终局，你可能会经常用到它们。"
 	]
@@ -10705,7 +10705,7 @@
 	quest.65BCDCF0CEB69283.quest_desc: [
 		"&a奇美拉&r与其他的&e使魔&r有些许不同"
 		""
-		"It can grow when fed meat, increasing its damage and speed. Once fully grown, feeding it a &dGolden Apple&r will detach the &dGoat&r to become its own rideable mount."
+		"通过喂食奇美拉肉食可以使其成长，提升它的伤害和速度。当其成长完全，喂食它一个&d金苹果&r可以将原本融合于其中的&d山羊&r拆分出来，成为一个单独的坐骑"
 		""
 		"升级后，它会获得一个警钟，当你攻击它时，它就会释放钟声，吸引大范围怪物的仇恨"
 		""
