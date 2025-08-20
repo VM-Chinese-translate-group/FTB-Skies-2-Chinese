@@ -449,10 +449,11 @@ def process_chapter_quests(chapters_dir, chapters_lang_data, quests_data, tasks_
             print(f"  -> 处理文件 {filename} 时发生错误: {e}")
 
 
-def update_chapter_files_with_components(component_data, input_chapters_dir, output_chapters_dir):
+def update_chapter_files_with_components(component_data, input_chapters_dir, output_chapters_dir, snbt_replacements: dict):
     """
     将来自JSON的翻译（components, hover, feedback_message）更新回其原始的章节SNBT文件。
     从 input_chapters_dir 读取，并写入到 output_chapters_dir。
+    新增 snbt_replacements 参数用于在写入前执行批量文本替换。
     """
     if not component_data:
         return
@@ -600,6 +601,20 @@ def update_chapter_files_with_components(component_data, input_chapters_dir, out
 
             if file_was_modified[0]:
                 snbt_output_string = snbtlib.dumps(snbt_data)
+                
+                # --- 新增：在这里应用批量文本替换 ---
+                if snbt_replacements:
+                    replacements_applied_count = 0
+                    for old_text, new_text in snbt_replacements.items():
+                        # 统计替换次数以供日志记录
+                        count_before = snbt_output_string.count(old_text)
+                        if count_before > 0:
+                            snbt_output_string = snbt_output_string.replace(old_text, new_text)
+                            replacements_applied_count += count_before
+                    if replacements_applied_count > 0:
+                        print(f"    -> 在 {filename} 中应用了 {replacements_applied_count} 次文本替换。")
+                # --- 替换逻辑结束 ---
+
                 output_file_path = os.path.join(output_chapters_dir, filename)
                 with open(output_file_path, 'w', encoding='utf-8') as f:
                     f.write(snbt_output_string)
@@ -628,6 +643,23 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
     if not os.path.isdir(json_dir):
         print(f"错误：JSON目录 '{json_dir}' 不存在。无法合并。")
         return
+
+    # --- 新增：加载 SNBT 文本替换规则 ---
+    snbt_replacements = {}
+    replacements_file = ".github/configs/replace_rule.json"
+    if os.path.exists(replacements_file):
+        try:
+            with open(replacements_file, 'r', encoding='utf-8') as f:
+                snbt_replacements = json.load(f)
+            if snbt_replacements:
+                print(f"  -> 成功加载 {len(snbt_replacements)} 条 SNBT 文本替换规则从 {replacements_file}")
+        except json.JSONDecodeError as e:
+            print(f"  -> 警告：解析 {replacements_file} 失败，将不执行 SNBT 文本替换: {e}")
+        except Exception as e:
+            print(f"  -> 警告：读取 {replacements_file} 失败: {e}")
+    else:
+        print("  -> 未找到 snbt_replacements.json 文件，跳过 SNBT 文本替换步骤。")
+    # --- 加载逻辑结束 ---
 
     combined_data = OrderedDict()
     json_files = sorted([f for f in os.listdir(json_dir) if f.endswith('.json')])
@@ -662,7 +694,8 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
 
     # 更新章节 SNBT 文件（如果需要）
     if chapters_dir and embedded_data:
-        update_chapter_files_with_components(embedded_data, chapters_dir, output_chapters_dir)
+        # 将加载的替换规则传递下去
+        update_chapter_files_with_components(embedded_data, chapters_dir, output_chapters_dir, snbt_replacements)
 
     print("\n开始重构多行文本条目...")
 
@@ -713,12 +746,19 @@ def merge_all_to_snbt(json_dir: str, output_snbt_file: str, chapters_dir: str, o
     try:
         # 现在 snbt_ready_data 是一个 Compound 对象，dumps 可以正确处理
         snbt_output_string = snbtlib.dumps(snbt_ready_data)
+        
+        # 注意：这里的批量替换只影响章节文件，不影响最终的 lang/zh_cn.snbt 文件。
+        # 如果也需要替换 lang 文件，需要在此处添加类似上面的替换逻辑。
+        # 目前根据需求，只在章节文件层面替换。
 
         if not snbt_output_string.strip() or snbt_output_string.strip() == "{}":
             print("警告：snbtlib.dumps 返回了空或空的 Compound 字符串。检查 reconstructed_data 是否为空。")
             if not reconstructed_data: return
 
-        os.makedirs(os.path.dirname(output_snbt_file), exist_ok=True)
+        output_dir = os.path.dirname(output_snbt_file)
+        if output_dir:
+            os.makedirs(output_dir, exist_ok=True)
+            
         with open(output_snbt_file, 'w', encoding='utf-8') as f:
             f.write(snbt_output_string)
         print(f"成功将所有条目合并并写入到: {output_snbt_file}")
