@@ -47,7 +47,7 @@
   "mekanism_weaponry.tooltip.gun_cooldown": "冷却",
   "mekanism_weaponry.tooltip.gun_energy": "能量：",
   "mekanism_weaponry.tooltip.gun_energy_usage": "能量消耗",
-  "mekanism_weaponry.tooltip.gun_heat_per_shot": "单次开火产热",
+  "mekanism_weaponry.tooltip.gun_heat_per_shot": "每发射弹生热",
   "mekanism_weaponry.tooltip.gun_loaded_ammo": "残弹量：",
   "mekanism_weaponry.tooltip.gun_no_addons": "无插件",
   "mekanism_weaponry.tooltip.gun_reload_time": "再装填时间",

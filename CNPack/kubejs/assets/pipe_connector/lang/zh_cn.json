@@ -33,7 +33,7 @@
   "item.pipe_connector.gui.tooltip.defaultPathfindingImportantInfo": "曼哈顿机制会筛选矿石并将其送入虚空。",
   "item.pipe_connector.gui.tooltip.performanceImpact": "性能影响：",
   "item.pipe_connector.gui.tooltip.performanceImpactLow": "低",
-  "item.pipe_connector.gui.tooltip.performanceImpactMediumHigh": "中上",
+  "item.pipe_connector.gui.tooltip.performanceImpactMediumHigh": "Medium-High",
   "item.pipe_connector.gui.button.defaultPathfinding": "曼哈顿寻路算法",
   "item.pipe_connector.gui.button.stepPath": "步骤路径",
   "item.pipe_connector.gui.tooltip.stepPath": "选定第一个位置后，路径将根据所选深度沿着你的行进方向生成。",
