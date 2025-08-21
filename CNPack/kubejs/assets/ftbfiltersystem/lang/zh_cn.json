@@ -11,7 +11,7 @@
   "ftbfiltersystem.message.not_matched": "筛选条件不匹配：%s",
   "ftbfiltersystem.message.changes_saved": "筛选条件已更新！",
   "ftbfiltersystem.message.cache_cleared": "已清除编译过滤器缓存",
-  "ftbfiltersystem.message.components_header": "%s data component(s) on %s:",
+  "ftbfiltersystem.message.components_header": "位于%2$s上的%1$s个数据组件：",
   "ftbfiltersystem.message.components_header_none": "没有数据组件",
   "ftbfiltersystem.message.non_default_components": "仅显示非默认组件",
   "ftbfiltersystem.gui.add": "添加…",

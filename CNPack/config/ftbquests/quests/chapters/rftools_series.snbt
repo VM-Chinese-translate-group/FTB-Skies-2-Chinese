@@ -212,7 +212,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(rftoolsbuilder:shape_card_def)item(rftoolsbuilder:shape_card_void))"
-							"minecraft:custom_name": "\"Builder Shape Cards\""
+							"minecraft:custom_name": "“建造机塑形卡片”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -224,7 +224,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(rftoolsbuilder:shape_card_pump)item(rftoolsbuilder:shape_card_pump_clear)item(rftoolsbuilder:shape_card_liquid))"
-							"minecraft:custom_name": "\"Builder Fluid Cards\""
+							"minecraft:custom_name": "“建造机流体卡片”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -237,7 +237,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(rftoolsbuilder:shape_card_quarry)item(rftoolsbuilder:shape_card_quarry_fortune)item(rftoolsbuilder:shape_card_quarry_silk)item(rftoolsbuilder:shape_card_quarry_clear)item(rftoolsbuilder:shape_card_quarry_clear_fortune)item(rftoolsbuilder:shape_card_quarry_clear_silk))"
-							"minecraft:custom_name": "\"Builder Quarry Cards\""
+							"minecraft:custom_name": "“建造机采掘卡片”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -985,7 +985,7 @@
 					id: "68E72497E92B01C7"
 					item: {
 						components: {
-							"minecraft:custom_name": "\"Hold the Line\""
+							"minecraft:custom_name": "“坚守阵地”"
 							"minecraft:enchantments": {
 								levels: {
 									"apothic_enchanting:reflective_defenses": 5
@@ -1007,7 +1007,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(rftoolsbuilder:shield_block1)item(rftoolsbuilder:shield_block2)item(rftoolsbuilder:shield_block3)item(rftoolsbuilder:shield_block4))"
-							"minecraft:custom_name": "\"Any shield projector\""
+							"minecraft:custom_name": "“任意护盾投射仪”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1019,7 +1019,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(rftoolsbuilder:blue_shield_template_block)item(rftoolsbuilder:red_shield_template_block)item(rftoolsbuilder:green_shield_template_block)item(rftoolsbuilder:yellow_shield_template_block))"
-							"minecraft:custom_name": "\"Any shield template\""
+							"minecraft:custom_name": "“任意护盾支架”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1644,7 +1644,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(rftoolsutility:wire)item(rftoolsutility:analog)item(rftoolsutility:counter)item(rftoolsutility:digit)item(rftoolsutility:invchecker)item(rftoolsutility:sensor)item(rftoolsutility:sequencer)item(rftoolsutility:logic)item(rftoolsutility:timer))"
-						"minecraft:custom_name": "\"Misc Redstone\""
+						"minecraft:custom_name": "“红石杂烩”"
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -1693,7 +1693,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(rftoolsstorage:storage_module0)item(rftoolsstorage:storage_module1)item(rftoolsstorage:storage_module2)item(rftoolsstorage:storage_module3))"
-							"minecraft:custom_name": "\"Storage modules\""
+							"minecraft:custom_name": "“存储模块”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
