@@ -1078,7 +1078,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(rftoolsutility:text_module)item(rftoolsutility:counter_module)item(rftoolsutility:counterplus_module)item(rftoolsutility:button_module)item(rftoolsutility:redstone_module)item(rftoolsutility:energy_module)item(rftoolsutility:energyplus_module)item(rftoolsutility:inventory_module)item(rftoolsutility:inventoryplus_module)item(rftoolsutility:fluid_module)item(rftoolsutility:fluidplus_module)item(rftoolsutility:machineinformation_module)item(rftoolsutility:clock_module))"
-							"minecraft:custom_name": "\"Any screen module\""
+							"minecraft:custom_name": "“任意模块”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
