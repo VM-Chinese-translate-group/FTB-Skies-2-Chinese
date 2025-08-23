@@ -317,22 +317,22 @@
 			id: "2AD4C60BAE9EE5A3"
 			linked_quest: "03E1EFC3F5AD2CA5"
 			shape: "diamond"
-			x: 1.0d
-			y: 3.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			id: "4D05A8D84C7AC05C"
 			linked_quest: "3ACEBC2F651514F4"
 			shape: "diamond"
-			x: 1.0d
-			y: 2.0d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			id: "6D6A2F560FF79576"
 			linked_quest: "3F75F781DE5123F4"
 			shape: "diamond"
-			x: -1.0d
-			y: 3.0d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
 			id: "5BEB2AF4E1683CC6"
@@ -374,8 +374,8 @@
 			id: "687F56F503CD5B61"
 			linked_quest: "4843F5564CA5810C"
 			shape: "diamond"
-			x: -1.5d
-			y: 2.5d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
 			id: "2A812ABC70659D86"
@@ -400,29 +400,65 @@
 			id: "6CB1AE31FC0F9863"
 			linked_quest: "69C82E67CEA88673"
 			shape: "diamond"
-			x: 1.5d
-			y: 2.5d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			id: "1BFDAE9FCBA7E00F"
 			linked_quest: "39A6CE8A1D5B2D8F"
 			shape: "diamond"
-			x: 0.0d
-			y: 2.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			id: "24496B3E39D2C894"
 			linked_quest: "1C866721E1F2FF50"
 			shape: "diamond"
-			x: 0.0d
-			y: 3.0d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			id: "519510236669B54D"
 			linked_quest: "001F0C36B4AB9F5F"
 			shape: "diamond"
-			x: 0.5d
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "20C56C89E74881E4"
+			linked_quest: "34D191F76AA69707"
+			shape: "diamond"
+			size: 1.5d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "692D0E2C02526A50"
+			linked_quest: "583FFE29C881EE8C"
+			shape: "diamond"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "2BD5360C3B3E5E21"
+			linked_quest: "61D79267453CA30C"
+			shape: "diamond"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "188D33828160B8A3"
+			linked_quest: "6D5905345348ABEF"
+			shape: "diamond"
+			x: 3.0d
 			y: 2.5d
+		}
+		{
+			id: "4D6C839CD23B5B91"
+			linked_quest: "74BED9604BDE1EA5"
+			shape: "diamond"
+			x: 3.5d
+			y: 2.0d
 		}
 	]
 	quests: [
@@ -1016,8 +1052,8 @@
 				item: { count: 1, id: "enderio:stirling_generator" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.5d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			id: "754048401D3A6A7B"
@@ -1575,8 +1611,8 @@
 				item: { count: 1, id: "ironfurnaces:augment_generator" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7C0EFB4A52F2EC61"]
@@ -1729,7 +1765,7 @@
 			dependencies: ["664551F5E62A9D00"]
 			id: "361D61EE15801A6E"
 			rewards: [{
-				count: 3
+				count: 2
 				id: "4FA3D4BFF4DB0160"
 				item: {
 					count: 1

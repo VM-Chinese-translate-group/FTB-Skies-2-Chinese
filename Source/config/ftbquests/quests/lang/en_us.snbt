@@ -24,7 +24,7 @@
 	chapter.3B99F85218D37371.title: "Useful Items \\&\\ Tips"
 	chapter.3C9226E63258D73B.title: "Tempad"
 	chapter.3CE58B5907FB2A58.title: "Actually Additions"
-	chapter.4142E847135C4F5E.title: "Genetic Engineering"
+	chapter.4142E847135C4F5E.title: "Genetics: Resequenced"
 	chapter.485ABBDAA9A6C0CD.title: "Fargo's Talismans"
 	chapter.4887B710126DF7D4.title: "Tempad"
 	chapter.4A4EF884469A95F5.title: "The Wild Hunt"
@@ -704,8 +704,16 @@
 	]
 	quest.05D774264FE9042A.quest_subtitle: "Makes energy from sunlight, T4"
 	quest.05D774264FE9042A.title: "&5Eclipse Alloy Solar Panel"
-	quest.0603F40C8DB12868.quest_desc: [""]
-	quest.0603F40C8DB12868.title: "&2LV Diesel Generator"
+	quest.0603F40C8DB12868.quest_desc: [
+		"&3Diesel Generators&r can provide on-demand power by burning different fuels, most notably &eDiesel&r."
+		""
+		"These will only consume fuel when producing energy, unlike &2Boilers&r."
+		""
+		"The &aLV Diesel Generator&r can produce up to 64 EU/t."
+		""
+		"[\"You can refer to the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+	]
+	quest.0603F40C8DB12868.title: "&aLV Diesel Generator"
 	quest.060A25320CCAF480.title: "&bElectronic Circuit"
 	quest.06666C9D93C1A3EE.quest_desc: [
 		"The &aExplorer's Compass&r can locate any structure in the pack!"
@@ -1339,6 +1347,7 @@
 		""
 		"This is also the only way to repair a &eFractured Impetus&r."
 	]
+	quest.0AA1977AC1B5E5A9.title: "&aRepair Pylon"
 	quest.0ABD10520EAB1C57.quest_desc: [
 		"&aStorage Controllers&r allow you to connect and interact with several drawers at once. These are amazing for automating items going in and out of your drawer system!"
 		""
@@ -1612,6 +1621,14 @@
 		"You'll use many of these, so it's worth having an automation chain in place for them."
 	]
 	quest.0C4490929532BC5F.title: "&fLarge Pump"
+	quest.0C5173F51D68317C.quest_desc: [
+		"Using the &5Umbral Spirit&r, you can craft several powerful weapons and artifacts. Among those are:"
+		""
+		"The &6Splintered World&r's special ability summons flying swords that home in towards your enemies."
+		""
+		"The &6Replica Artifact Wheel&r provides mixed damage reduction to physical, magical, and any other damage sources."
+	]
+	quest.0C5173F51D68317C.title: "&5Weapons of Sacrifice"
 	quest.0C59F30673774398.quest_desc: [
 		"The &aRegulator Upgrade&r controls the amount of items imported/exported from your system."
 		""
@@ -1645,9 +1662,9 @@
 	quest.0CA75E81F6824B22.quest_desc: [
 		"If you're into magic AND exploration, try out &eIron's Spells 'n Spellbooks&r. This is an amazing magic mod that adds a ton of spells for you to play with."
 		""
-		"Unless you find a &aSpell Book&r as loot, you can start by making a &aFlimsy Journal&r or &aIronbound Tome&r to hold a few spells. We'll even provide a few starter &dSpell Scrolls&r for you!"
+		"You can find a &aSpell Book&r as exploration loot, or you can start by making a &aFlimsy Journal&r or &aIronbound Tome&r to hold a few spells. We'll even provide a few starter &dSpell Scrolls&r for you!"
 		""
-		"These can be cast as single-use items, or placed in your Spell Book to cast at-will with Mana."
+		"These can be cast as single-use items, or placed in your &aSpell Book&r to cast at-will with Mana."
 	]
 	quest.0CA75E81F6824B22.title: "&eIron's Spells 'n Spellbooks"
 	quest.0CD3050976F79358.title: "&fCooked Chicken Cuts"
@@ -1865,7 +1882,7 @@
 	]
 	quest.0ED940DF43A934ED.title: "&fVacuum Module"
 	quest.0EE0A8941A69703E.quest_desc: [
-		"Once you've gathered a &6Spell Scroll&r, we can inscribe it into our spell tome using the &aInscription Table&r."
+		"Once you've gathered a &2Spell Scroll&r, we can inscribe it into our spell tome using the &aInscription Table&r."
 		""
 		"In the interface of the table, you can insert the Spell Tome you wish to inscribe your spell scrolls into. You can then add a Spell Scroll to the empty slot on the left side underneath the tome, then click on the icon above it to inscribe the spell."
 		""
@@ -2618,8 +2635,6 @@
 	quest.16D89D5036F39756.quest_desc: [
 		"&eMalum&r is a magic mod centered around the elemental and mental aspects of souls, harnessing these traits to create a wide array of arcane effects on yourself and the world around you!"
 		""
-		"This mod is still in active development, with the most recent addition being a system of pacts for players to accept in exchange for abilities."
-		""
 		"To get started in this mod, find or form &dSoulstone&r to create the two keystone features of the mod: the Spirit Altar, and the Crude Scythe."
 		""
 		"There are rumors of a &5structure&r somewhere out in the void, emitting whispers and tugging on certain materials. Perhaps you could seek it out and make a trade for some..."
@@ -2723,7 +2738,7 @@
 	]
 	quest.17C82FAD796695DE.title: "&fStress Relief"
 	quest.17CD9810D724547E.quest_desc: [
-		"You can combined &4Crushed Chromium&r and &cHydrochloric Acid&r in a &3Chemical Reactor&r to make a &bChromium Hydrochloric Solution&r."
+		"You can combine &4Crushed Chromium&r and &cHydrochloric Acid&r in a &3Chemical Reactor&r to make a &bChromium Hydrochloric Solution&r."
 		""
 		"This is then &3Electrolyzed&r to obtain &cTiny Piles of Chromium&r, as well as reclaiming some of the &bHydrogen&r and &eChlorine&r from the acid mix."
 	]
@@ -2991,7 +3006,12 @@
 		"For that, you need to learn new &bGlyphs&r!"
 	]
 	quest.1A6984A6484FF8F3.title: "&fCreating Your First &dSpell"
-	quest.1A867730290C7745.title: "&5Large Steam Turbine"
+	quest.1A867730290C7745.quest_desc: [
+		"The &dLarge Steam Turbine&r consumes a variety of fluids to produce up to 16,384 EU/t."
+		""
+		"[\"You can refer to the \", {\"text\": \"Main Large Steam Turbine Quest\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4C3F295D0F44A730\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Large Steam Turbine Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+	]
+	quest.1A867730290C7745.title: "&dLarge Steam Turbine"
 	quest.1A89ACDC528588D5.quest_desc: ["Upgraded from &6Blazegold&r using a &3Celestigem Template&r"]
 	quest.1A89ACDC528588D5.title: "&dCelestigem Chestplate"
 	quest.1A984CF299959C96.quest_desc: ["The &aCharger&r is used to charge or fill items and equipment up using power or &cTurbofuel&r."]
@@ -3170,8 +3190,10 @@
 		"By combining magical spools with different materials and applying them to arcane armor in the &aWeaver's Workbench&r, the armor changes in appearance while keeping all of its defense and other benefits."
 		""
 		"The &eAncient Weave&r converts the armor to an alternate version of itself, but all other weaves change the armor to one set look."
+		""
 		"&o&7Ex. a Soulhunter Robe and a Soulstained Chestplate will seem identical after a Cornered Weave is applied.&r"
 	]
+	quest.1BC994881BC225ED.title: "&aWeaver's Workbench"
 	quest.1BDE743ABCC3E78A.title: "&aThe First Layer"
 	quest.1BF77D602FFDF292.quest_desc: ["The &dInfinity Range Booster&r grants you access to your network anywhere within the same dimension."]
 	quest.1BF77D602FFDF292.title: "&dInfinity Range Booster"
@@ -3312,11 +3334,11 @@
 		""
 		"These are used to store a massive amount of power into a &bfrequency&r, which can be accessed from any dimension using another Ender Cell or &6Ender Gate&r."
 	]
-	quest.1CFBFD1CE648772F.title: "&5Ender fCells"
+	quest.1CFBFD1CE648772F.title: "&5Ender &fCells"
 	quest.1CFD4CE2704F2ADE.quest_desc: [
-		"Once you get your hands on some &bInk&r, you can use this to craft new spell scrolls using the &dSpell Forge&r."
+		"Once you get your hands on some &bInk&r, you can use this to craft new spell scrolls using the &aSpell Forge&r."
 		""
-		"For each scroll, you'll need some Ink, paper, and a specific item that determines the &bSpell school&r you wish to craft. You can use JEI to see all of the items for each school!"
+		"For each scroll, you'll need some &bInk&r, paper, and a specific item that determines the &bSpell school&r you wish to craft. You can use &eJEI&r to see all of the items for each school!"
 		"{@pagebreak}"
 		"The tier of &bInk&r used determines the level of the spell you can craft. Certain spells can only be crafted with higher inks."
 		""
@@ -3370,7 +3392,11 @@
 		""
 		"Output mode has several configuration methods: Direct, Inverted, Or, And, Nor, Nand, Xor, Xnor, Latch, Counter, Timer, and Static. Most of these are used in programming, so don’t worry too much if you’re not familiar with them since you likely won’t be using most of those anyway."
 	]
-	quest.1D572D53A6EE3205.quest_desc: ["Once your &2Quarry&r digs up some &aPlatinum Ore&r, we can macerate it down into &bRaw Platinum Ore&r."]
+	quest.1D572D53A6EE3205.quest_desc: [
+		"Once your &2Quarry&r digs up some &aPlatinum Ore&r, we can macerate it down into &bRaw Platinum Ore&r."
+		"{@pagebreak}"
+		"(new page placeholder text)"
+	]
 	quest.1D572D53A6EE3205.title: "&dRaw Platinum"
 	quest.1D6D9CCF4E0072E1.title: "&fGold Chunk"
 	quest.1D846D3D48C87FC4.quest_desc: [
@@ -3641,7 +3667,7 @@
 	quest.1FCE7E6527304CC5.title: "&2LV Storage Unit"
 	quest.1FDD26042785FB0C.quest_desc: ["&aPostboxes&r are used to transport packages between train stops."]
 	quest.1FDD26042785FB0C.title: "&aPostbox"
-	quest.1FE2B36C234A35C9.quest_desc: ["[\"\", {\"text\": \"Apothecarists \", \"color\": \"light_purple\", \"italic\":false}, \"don't appreciate when their \", {\"text\": \"Mangrove Huts\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21A521011401074F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Apothecary Hut quest\"]} }, \" are looted, and would prefer to trade instead for their unique tinctures, spells, and other goods.\"]"]
+	quest.1FE2B36C234A35C9.quest_desc: ["[\"\", {\"text\": \"Apothecarists \", \"color\": \"light_purple\", \"italic\":false}, \"don't appreciate when their \", {\"text\": \"Apothecary Huts\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21A521011401074F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Apothecary Hut quest\"]} }, \" are looted, and would prefer to trade instead for their unique tinctures, spells, and other goods.\"]"]
 	quest.1FE2B36C234A35C9.title: "&fThe &dApothecarist"
 	quest.1FE952E6D58451EA.quest_desc: [
 		"With Magebloom, we can craft &aSpell Parchment&r for us to inscribe our spells on!"
@@ -4477,13 +4503,12 @@
 	quest.272E84656D0F133C.quest_desc: [
 		"With a base and up to five logs on top to form a pole, totems can be attuned to a particular spirit symbol by using the spirit on the logs. Once an appropriate set of symbols is made, right clicking the base will activate the totem pole to invoke a &eSpirit Rite&r. Doing so again will deactivate the Rite."
 		""
-		"These Rites have a wide variety of effects either on the world or those who stand in its area."
-		"While multiple Rites can be invoked on an area, two or more of the same Rite will cancel each other out."
+		"These Rites have a wide variety of effects either on the world or those who stand in its area. While multiple Rites can be invoked on an area, two or more of the same Rite will cancel each other out."
 		""
 		"A &aTotemic Staff&r will let you see what this area is, and can be used on an attuned log to make it glow without activation."
 	]
 	quest.272E84656D0F133C.quest_subtitle: "Few quests, countless uses"
-	quest.272E84656D0F133C.title: "Totemic Rites"
+	quest.272E84656D0F133C.title: "&fTotemic Rites"
 	quest.275F70A4E1F7382A.quest_subtitle: "Craftable"
 	quest.275F70A4E1F7382A.title: "&aApprentice's Spell Book"
 	quest.2765AC7C3E0350FE.quest_desc: [
@@ -4720,7 +4745,8 @@
 		"This is also used to craft a much stronger alloy called &6Crimson Steel&r."
 	]
 	quest.29E2CEADF6720EB3.title: "&fThe Metal of the &cNether"
-	quest.29E6EF882A568585.quest_desc: ["By condensing knowledge into miniature totems, just three of these &aBrilliant Obelisks&r will give the same increase to an &eEnchanting Table&r as 15 bookshelves!"]
+	quest.29E6EF882A568585.quest_desc: ["By condensing knowledge into miniature totems, just three of these &aBrilliant Obelisks&r will give the same increase to an &eEnchanting Table&r as 5 bookshelves!"]
+	quest.29E6EF882A568585.title: "&2Brilliant Obelisk"
 	quest.29E78B39C74FBC4E.title: "&fKill One Of Every Hostile Mob"
 	quest.2A19E0AF462C1FD2.quest_desc: [
 		"The &aDiamond Talisman&r provides 20% damage reduction."
@@ -5266,6 +5292,8 @@
 		"{image:ftb:textures/quests/pagan_winch_setup.png width:100 height:183 align:center}"
 	]
 	quest.2ECEA768C938E76B.title: "&fCrushing Runic Slabs"
+	quest.2EE0FD7E1FC4646A.quest_desc: ["This weird byproduct of blight has few uses."]
+	quest.2EE0FD7E1FC4646A.title: "&aLarge Strange Crystal"
 	quest.2EE5352D8E5F715F.title: "&fKill 20 &cSpiders"
 	quest.2EEE782146096F9C.quest_desc: ["Probably one of the best mods out there for builders, the &eBuilding Gadgets&r mod adds several new gadgets that are a must have to make building better!"]
 	quest.2EEE782146096F9C.title: "&eBuilding Gadgets"
@@ -5663,7 +5691,8 @@
 	quest.3272827DE96C5F64.quest_desc: [
 		"The &7Enderman Talisman&r prevents enderman aggression when looking at them."
 		""
-		"It is also used to craft the &dForce of Overworld&r."
+		""
+		"It is also used to craft the &dForce of Explorer&r."
 	]
 	quest.3272827DE96C5F64.title: "&7Enderman Talisman"
 	quest.327E27800EB44FCA.quest_desc: [
@@ -5800,7 +5829,11 @@
 		"&bAction Effect&r: None"
 	]
 	quest.3389EB27CF459DB3.title: "&fPeridot"
-	quest.33A9FF901E2D7725.quest_desc: ["To make most machines in the mod, we'll need &2Steel Casings&r!"]
+	quest.33A9FF901E2D7725.quest_desc: [
+		"To make most machines in the mod, we'll need &2Steel Casings&r!"
+		""
+		"&eNote&r: Most machines have an internal push/pull limit, which can be bypassed by pipes. If you wish to speed up your production make sure to utilize pipes."
+	]
 	quest.33A9FF901E2D7725.title: "&aMachine Casings"
 	quest.33AC3264C0AE8FF1.quest_desc: [
 		"If you're looking to grow &bMob Seeds&r to convert into their loot, you'll need a few things to get started."
@@ -5874,8 +5907,10 @@
 	quest.33EDFB2DC1BEA7F0.title: "&3Autocrafting Monitor"
 	quest.33F236BD2DA075C3.quest_desc: [
 		"While &aHex Ash&r is a fairly entry level bit of magicstuff, it has many uses in &eMalum&r."
+		""
 		"Having a sizable handful prepared for crafting is recommended."
 	]
+	quest.33F236BD2DA075C3.title: "&fHex Ash"
 	quest.3404B0A29BF5A055.quest_desc: ["The &2Simple Fluid Collector&r collects in world fluids, without needing a bucket or such. Great for infinite water sources!"]
 	quest.3404B0A29BF5A055.title: "&aSimple Fluid Collector"
 	quest.340542E5E1413650.title: "&fDiamond Chunk"
@@ -6235,6 +6270,11 @@
 	]
 	quest.361957009F62D810.quest_subtitle: "Oops"
 	quest.361957009F62D810.title: "&aRemoving Gases from Machines"
+	quest.361D61EE15801A6E.quest_desc: [
+		"The &3HV Diesel Generator&r can produce up to 1,024 EU/t."
+		""
+		"[\"You can refer to the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+	]
 	quest.361D61EE15801A6E.title: "&dHV Diesel Generator"
 	quest.362E2443BBAEDB95.quest_desc: ["&7&oRandomly gain a powerful Relic."]
 	quest.362E2443BBAEDB95.title: "&bRelic Bag"
@@ -6631,7 +6671,7 @@
 		"Runes provide a wide variety of potent effects: some applying a personal form of &bSpirit Rites&r as performed by &eTotems&r, others providing noticeable stat buffs, and still more that have their own unique traits."
 		"As typical, consult your &eEncyclopedia&r for more information."
 	]
-	quest.39ED88D2EF2F617B.title: "Runeworking"
+	quest.39ED88D2EF2F617B.title: "&fRuneworking"
 	quest.39FB54DD235A1E10.quest_desc: ["The &aSlimy Nest&r will lure in Slimy Bees by using Honey Treats when placed in a swamp biome."]
 	quest.39FB54DD235A1E10.title: "&fSlimy Nest"
 	quest.39FD7B49554CE935.quest_desc: [
@@ -6891,7 +6931,7 @@
 		""
 		"On the plus side, the infused &bSpirit&r helps to enhance a wearer's magic prowess."
 	]
-	quest.3B9B79565D5E2CA3.title: "Soulhunter Set"
+	quest.3B9B79565D5E2CA3.title: "&fSoulhunter Set"
 	quest.3BAE611AE4CEA7A6.quest_desc: [
 		"[\"You'll find lots of old \", {\"text\":\"rusty items\", \"color\": \"#D5510E\"}, \" from loot crates or underwater mobs.\"]"
 		""
@@ -7013,7 +7053,7 @@
 	quest.3CC88B6ACDC68D5F.title: "Poppetry"
 	quest.3CCE39C0957034B3.quest_desc: ["A &6desert island&r floating in the void, this isolated pile of sand hosts a unique flavor of the undead in skeletal lizardfolk. "]
 	quest.3CCE39C0957034B3.title: "&fWander into the &6Blazing Desert"
-	quest.3CD3CA5B619F5698.quest_desc: ["&aFortune&r and &aSilk Touch&r upgrades can be used in &aConstructors&r to apply their enchantment to the mined block."]
+	quest.3CD3CA5B619F5698.quest_desc: ["&aFortune&r and &aSilk Touch&r upgrades can be used in &aDestructors&r to apply their enchantment to the mined block."]
 	quest.3CD3CA5B619F5698.title: "&aFortune \\&\\ Silk Touch Upgrades"
 	quest.3CEB8BF2F48ECDBA.quest_subtitle: "Pour Molten Quartz over a Catalyst"
 	quest.3CEB8BF2F48ECDBA.title: "&fBudding Quartz Geore"
@@ -7503,7 +7543,7 @@
 		"&5The Erosion Scepter&r:"
 		"&7Struggle made manifest, every smite further and further smothering the soul"
 	]
-	quest.4194F3C176E50B7B.title: "Malignant Weapons"
+	quest.4194F3C176E50B7B.title: "&6Malignant Weapons"
 	quest.41A0D46C31E1DDDC.quest_subtitle: "Chemically mix ingredients with a Catalyst"
 	quest.41A0D46C31E1DDDC.title: "&fBudding Monazite Geore"
 	quest.41C439295D5558C2.quest_desc: [
@@ -7511,10 +7551,9 @@
 		""
 		"While &dArcane&r is the most essential and fundamental of spirit aspects, and a reliable supply of this is all but mandatory for further creations, access to all the different types is an important goal to progress towards. Slay all manner of creatures to discover what aspects they may hold!"
 		""
-		""
 		"&eJars&r can be crafted soon that can hold a vast amount of any one type of these spirits, and with a &eLamplighter's Tongs&r in one hand they can be placed as a mesmerizing block of light."
 	]
-	quest.41C439295D5558C2.title: "Aspects of the Soul"
+	quest.41C439295D5558C2.title: "&fAspects of the Soul"
 	quest.41C7ED53AA36D647.quest_desc: [
 		"&cDjinnis&r can be used to fastforward time to &aDawn&r or &aDusk&r, depending on your needs."
 		""
@@ -7911,7 +7950,7 @@
 		""
 		"&o&7Suggestion: look into the Ring of Esoteric Spoils in particular for easier &bSpirit&r &o&7collection.&r"
 	]
-	quest.457E591ED546A456.title: "Malum Trinkets"
+	quest.457E591ED546A456.title: "&fMalum Trinkets"
 	quest.458B3C345767E296.title: "&5Nether Star Seeds"
 	quest.45A36EB1C2133600.quest_desc: [
 		"For us to make more advanced circuitry, we'll need to make a very important module for the boards: &dRandom Access Memory&r (&dRAM&r)"
@@ -8644,7 +8683,7 @@
 		""
 		"&7Scythes also can accept unique enchantments that may drastically improve or alter its uses, such as collecting more spirits or providing a small aerial boost."
 	]
-	quest.4C48B5662C396543.title: "The Reaping of Souls"
+	quest.4C48B5662C396543.title: "&5The Reaping of Souls"
 	quest.4C50A70027F208BE.quest_desc: [
 		"Not all foods are eaten in your hands."
 		""
@@ -8695,7 +8734,7 @@
 		""
 		"Its wood hums with latent magical energy, and serves nicely as a base material for arcane utility. This magical energy sometimes causes sap to seep through the wood and well up under the bark. Scraping the bark off these places allows you to collect the &bsap&r in bottles to providing minor healing when consumed or be turned into a slimeball substitute."
 	]
-	quest.4C8EDEEFBC40E44B.title: "Runewood"
+	quest.4C8EDEEFBC40E44B.title: "&fRunewood"
 	quest.4C9473D2E4149656.quest_desc: [
 		"&6Ronaza's Contact&r is the most complex and advanced &bPentacle&r, combining all human knowledge of &9The Otherworld&r to allow communication with the &5Eldritch Gods&r."
 		""
@@ -8718,7 +8757,7 @@
 	]
 	quest.4D05E74FE351708F.title: "&bForce of Mystic"
 	quest.4D1EBD92C674531E.quest_desc: [
-		"Applying five arcane spirits a the totem pole and activating it will invoke &bThe Unchained Rite&r."
+		"Applying five arcane spirits at the totem pole and activating it will invoke &bThe Unchained Rite&r."
 		""
 		"Pure archaic potential bursts through a wide local area, focusing through the organic totem to &ccorrupt&r all sorts of natural material into blighted forms, including the totem pole itself as the original form cannot handle the raw energies."
 		""
@@ -8726,7 +8765,7 @@
 		""
 		"The same cannot be said of resulting &aSoulwood Saplings&r however, which reproduce this rush of blight whenever they mature. Controlled cultivation is advised, if any."
 	]
-	quest.4D1EBD92C674531E.title: "Unchained Blight"
+	quest.4D1EBD92C674531E.title: "&fUnchained Blight"
 	quest.4D1FE471FC2D8EF4.quest_desc: [
 		"Combining &7Styrene-Butadiene&r with either &aLead Tiny Dust&r or &cChromuim Tiny Dust&r in another &3Chemical Reactor&r, we can make &dStyrene-Butadiene Rubber&r."
 		""
@@ -9210,6 +9249,7 @@
 		""
 		"A &aSoulwoven Pouch&r helps ease this burden but funneling Spirit and certain other drops into itself before they'd touch its holder’s inventory, up to 8 stacks worth. The pouch can be used to dump its contents into the world, or used in the inventory to pull out sets of items at a time."
 	]
+	quest.51373D5476F2FD7F.title: "&fSoulwoven Pouch"
 	quest.514A09DAD34C39EB.quest_desc: [
 		"The &aBoline&r is a multi-purpose tool with many unique abilities:"
 		""
@@ -9288,7 +9328,12 @@
 		"These items can serve as simple enhancements or perform complex functions to assist the player."
 	]
 	quest.51D07B8762C46982.title: "&eBinding Rituals"
-	quest.51D242BB3BA2BE40.title: "&dHV Steam Turbine"
+	quest.51D242BB3BA2BE40.quest_desc: [
+		"The &3HV Steam Turbine&r consumes &7Steam&r to produce up to 512 EU/t."
+		""
+		"[\"You can refer to the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+	]
+	quest.51D242BB3BA2BE40.title: "&3HV Steam Turbine"
 	quest.51DE4859912D1EB6.title: "&eMid-Upper Layer"
 	quest.51DFB5D58190EEEF.quest_desc: [
 		"&cUranium 235&r is a rare isotope of &6Uranium&r, as opposed to &2Uranium 238&r, its more common sibling."
@@ -9388,7 +9433,7 @@
 	]
 	quest.529BB6E3B5A93A91.title: "&7Vindicator Talisman"
 	quest.52A1154376134EDD.quest_desc: ["These &aspirit-infused stones&r are mostly just decoration on their own, but harnessing the combined magical properties allows the creation of new devices and machines."]
-	quest.52A1154376134EDD.title: "Rocks of Taint and Twist"
+	quest.52A1154376134EDD.title: "&fRocks of Taint and Twist"
 	quest.52A48E0F92AD4399.quest_desc: [
 		"If you're looking to output Source directly into all nearby Source Jars, you can use the &aDepositor&r for this!"
 		""
@@ -9803,7 +9848,7 @@
 		""
 		"You can use &3Distilleries&r to get &2Light and Heavy Fuels&r, and then use the &2Mixer&r to combine them into &eDiesel&r."
 		""
-		"[\"You can also refine \",{\"text\": \"Crude Oil\", \"color\": \"green\"}, \" it using a \", {\"text\": \"Refinery Controller\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"49E9EBFC7B717D8E\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Refinery Quest\"}}, \" from \", {\"text\": \"PNCR\", \"color\": \"yellow\"}, \", which will require heat and pressure.\"]"
+		"[\"You can also refine \",{\"text\": \"Crude Oil\", \"color\": \"green\"}, \" using a \", {\"text\": \"Refinery Controller\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"49E9EBFC7B717D8E\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Refinery Quest\"}}, \" from \", {\"text\": \"PNCR\", \"color\": \"yellow\"}, \", which will require heat and pressure.\"]"
 	]
 	quest.56E1FAD44A6E8C11.title: "&eDiesel"
 	quest.56E9C123DD727E46.quest_desc: [
@@ -10089,7 +10134,7 @@
 		""
 		"Splitting a metal across both spirit and physical however means that this damage is &esimilarly split&r, about half of it being converted into magic damage for better or worse."
 	]
-	quest.59497745146C1EFD.title: "Soulstained Equipment"
+	quest.59497745146C1EFD.title: "&dSoulstained Equipment"
 	quest.59550D06A062F224.quest_desc: [
 		"More soup than redstone, &aRedstone Soup&r serves as an advanced ingredient for other key recipes. Not useful for much else on its own."
 		""
@@ -10139,7 +10184,7 @@
 		""
 		"It also seems to be a fairly key ingredient for &dsomething&r, but not in its current form..."
 	]
-	quest.59CA9831FDCAFA10.title: "Brilliance"
+	quest.59CA9831FDCAFA10.title: "&2Brilliance"
 	quest.59CBFA5583139A3B.quest_desc: ["[\"The \", {\"text\": \"Reforging Table\", \"color\": \"#B900B9\"}, \" is an improved version of the \", {\"text\": \"Simple Reforging Table\", \"color\":\"#55FF55\"}, \", allowing you reforge items of all rarities including \", {\"text\": \"Mythic\", \"color\":\"#EA6F14\"}, \" items.\"]"]
 	quest.59CBFA5583139A3B.title: "{\"text\": \"Reforging Table\", \"color\": \"#B900B9\"}"
 	quest.5A23D4BE3D221C70.quest_desc: [
@@ -10479,7 +10524,7 @@
 		"The &6Unwinding Chaos&r sears every foe it affects with magical fervor, the staff sapping energy from the flames it caused to regain the hexing charges used to create them."
 		"&7You don't want it to be over after all do you? Not yet, at least.&r"
 	]
-	quest.5D7BABE1A37EC6D3.title: "Conscious Weapons"
+	quest.5D7BABE1A37EC6D3.title: "&6Conscious Weapons"
 	quest.5D7BD0CDE35A3196.quest_desc: ["The &aStock Export&r bus will allow you to keep a certain amount of items to be always exported to the target inventory. "]
 	quest.5D7BD0CDE35A3196.title: "&fME Stock Export Bus"
 	quest.5D8C8F6326C5BB5F.quest_desc: [
@@ -10489,6 +10534,7 @@
 		""
 		"While the crafting process can be slow, up to four &eRunewood Obelisks&r placed in this range will speed it up."
 	]
+	quest.5D8C8F6326C5BB5F.title: "&aSpirit Altar"
 	quest.5D915DB5A05D0CC1.quest_desc: [
 		"&dVoidflame Coal&r is the next tier of coals from the mod."
 		""
@@ -10634,11 +10680,11 @@
 	quest.5EF11F96A97C2A23.quest_desc: [
 		"&eModern Industrialization&r (&eMI&r) has a variety of tiered &aSteam Turbines&r which can be used to convert &7Steam&r into &cPower&r."
 		""
-		"The &2LV Steam Turbine&r can produce up to 32 EU/t."
+		"The &aLV Steam Turbine&r can produce up to 32 EU/t."
 		""
-		"[\"You can refer to the \", {\"text\": \"Main LV Steam Turbine Quest\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50049BE2452AB7F5\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to LV Steam Turbine Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+		"[\"You can refer to the \", {\"text\": \"Main LV Steam Turbine Quest\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50049BE2452AB7F5\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to LV Steam Turbine Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
 	]
-	quest.5EF11F96A97C2A23.title: "&2LV Steam Turbine"
+	quest.5EF11F96A97C2A23.title: "&aLV Steam Turbine"
 	quest.5F0AAD028931A220.quest_desc: [
 		"[ \"With \", {\"text\": \"Lime\", \"color\": \"#E2FC97\"}, \" and \", {\"text\": \"Light Gray\", \"color\": \"#C2C2C2\"}, \" chalks, you can now upgrade your \", {\"text\": \"Aviar's Circle\", \"color\": \"#55FFFF\"}, \" to \", {\"text\": \"Ophynx' Calling\", \"color\": \"#FF5555\"}, \" to clear the weather, skip the night, or summon a variety of \", {\"text\": \"Djinnis\", \"color\": \"#FF5555\"}, \".\"]"
 		""
@@ -10967,7 +11013,7 @@
 		"To end the effects of an Oath, this process can be repeated with a &eParacasual Flame&r lighting the &aBrazier&r instead."
 	]
 	quest.61B948F3E526ADF9.quest_subtitle: "Boons and rules"
-	quest.61B948F3E526ADF9.title: "Soulbinding Pacts"
+	quest.61B948F3E526ADF9.title: "&aSoulbinding Pacts"
 	quest.61D6B29594193438.quest_desc: [
 		"&6I.E&r power is split into three categories: &aLow Voltage&r (&aLV&r), &cMedium Voltage&r (&cMV&r), and &dHigh Voltage&r (&dHV&r)."
 		""
@@ -11019,7 +11065,7 @@
 	quest.629308DC692DB140.quest_desc: [
 		"The &7Glowstone Talisman&r applies the glowing effect to hostile mobs not visible within a 12-block radius, highlighting them in the world."
 		""
-		"It is also used to craft the &dForce of Overworld&r."
+		"It is also used to craft the &dForce of Explorer&r."
 	]
 	quest.629308DC692DB140.title: "&7Glowstone Talisman"
 	quest.629C6374800613C4.quest_desc: [
@@ -11054,7 +11100,7 @@
 	]
 	quest.62BB8F93956480BA.title: "&bSpirits"
 	quest.62C92C8960875611.quest_desc: ["Metalworking is just as important in magic as it is with the mundane, even if the methods are far different. Ingots that have been infused with spiritual properties will be instrumental in progressing deeper into this craft."]
-	quest.62C92C8960875611.title: "Spiritual Metallurgy"
+	quest.62C92C8960875611.title: "&fSpiritual Metallurgy"
 	quest.62CFAFC74ADA4781.quest_desc: ["The &3Encased Fan&r create air current that can be used to push entities or process items."]
 	quest.62CFAFC74ADA4781.title: "&3Encased Fan"
 	quest.62E203E1AC025DAF.quest_desc: ["&aChain Conveyors&r connect to each other via chains, allowing them to transfer a variety of &eCreate&r things, as well as &bRotational Force&r."]
@@ -11239,7 +11285,7 @@
 	quest.644874076A06F5F4.title: "&fWelcome To &eMekanism&f!"
 	quest.6453E5B28CE248A0.title: "&dRS2 Wireless Network Set"
 	quest.6457ADA81A371B20.quest_desc: [
-		"The &dPressurizer&r is a special multoblock machine that can convert water or steam into the &bHigh Pressure&r (&bHP&r) versions of either that can be used in the &dHP Large Steam Boiler&r."
+		"The &dPressurizer&r is a special multiblock machine that can convert water or steam into the &bHigh Pressure&r (&bHP&r) versions of either that can be used in the &dHP Large Steam Boiler&r."
 		""
 		"The &dPressurizer&r can also generate &7Liquid Air&r by placing an &2Air Intake&r inside one of the multiblock hatches."
 		"{@pagebreak}"
@@ -11328,6 +11374,7 @@
 	quest.6507BA74DED764C1.quest_desc: ["&5Deuterium&r is a byproduct of &9Water&r in a &6Nuclear Reactor&r when it is hit with a &6Fast Neutron&r. It can be used to make &9Heavy Water&r."]
 	quest.6507BA74DED764C1.title: "&5Deuterium"
 	quest.652650C157E16712.quest_desc: ["One obvious use of &bSpirit&r is to make equipment from it. Infusing it into cloth provides a fine base to use the Spirit's properties."]
+	quest.652650C157E16712.title: "&fSoulwoven Silk"
 	quest.6541D2082B84F2BB.quest_desc: [
 		"The &aPlant Gatherer&r harvests plants in front of it, not leaving behind a seed."
 		""
@@ -11430,6 +11477,11 @@
 		"&bAction Effect&r: Chance to create Arcane Essence"
 	]
 	quest.6634CE80E1C7C18D.title: "&fArcane Banding"
+	quest.664551F5E62A9D00.quest_desc: [
+		"The &2MV Diesel Generator&r can produce up to 256 EU/t."
+		""
+		"[\"You can refer to the \", {\"text\": \"Main MV Diesel Generator Quest\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"58F29A199D553D29\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MV Diesel Generator Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+	]
 	quest.664551F5E62A9D00.title: "&3MV Diesel Generator"
 	quest.664924519F78893C.quest_desc: [
 		"The &dGraybeard Staff&r is an early game weapon that can easily be crafted. Staffs allow the casting of spells via using them with right-click instead of using a hotkey."
@@ -11452,7 +11504,7 @@
 	]
 	quest.6650640D1CE866F1.title: "&fEnchanter's Gauntlet"
 	quest.66545AFE0DEA820F.quest_desc: ["A darker set of items for a darker sort of craft."]
-	quest.66545AFE0DEA820F.title: "The Well's Returns"
+	quest.66545AFE0DEA820F.title: "&fThe Well's Returns"
 	quest.665C690EFB275701.quest_subtitle: "5x5 Watering!"
 	quest.665C690EFB275701.title: "&2Prudentium &fWatering Can"
 	quest.665EA6DF800CE815.quest_desc: [
@@ -11640,6 +11692,11 @@
 	]
 	quest.67F07FBB50AB431F.quest_subtitle: "From Apotheosis"
 	quest.67F07FBB50AB431F.title: "&aSpawner Farms"
+	quest.67F79CE27B61F135.quest_desc: [
+		"The &aLV Diesel Generator&r can produce up to 64 EU/t."
+		""
+		"[\"You can refer to the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+	]
 	quest.67F79CE27B61F135.title: "&5Large Diesel Generator"
 	quest.6805CAD68E2C1515.quest_desc: [
 		"The addon &eArs Ocultas&r provides a few compatibility tweaks between &eArs Nouveau&r and &eOccultism&r. "
@@ -11949,10 +12006,11 @@
 	quest.6B9371B721B992AD.quest_subtitle: "Spores go boom"
 	quest.6B9371B721B992AD.title: "&aSpore Sack"
 	quest.6B971FA156A96BD5.quest_desc: [
-		"A &aSpirit Catalyzer&r consumes inserted furnace fuels to accelerate the processing speed of a nearby &eCrucible&r, up to eight able to function on a single Crucible."
+		"A &aSpirit Catalyzer&r consumes inserted furnace fuels to accelerate the processing speed of a nearby &eCrucible&r, up to eight are able to function on a single Crucible."
 		""
 		"This speed can sometimes cause more damage to the focal &eImpetus&r than usual, decreasing the total amount of material it can create before needing to be fixed or replaced."
 	]
+	quest.6B971FA156A96BD5.title: "&aSpirit Catalyzer"
 	quest.6BA77922132D132E.title: "&6Lost and Found: Layer 2"
 	quest.6BB9FD515DFD8FF1.quest_desc: [
 		"&bAE2&r comes with a built in guide that you can access at any time within JEI."
@@ -11968,11 +12026,12 @@
 	quest.6BC7C49D7F7D5AAF.title: "&eSulfuric Naphtha Processing"
 	quest.6BCA2ED05C7D9D4E.quest_desc: [
 		"The rejection of magic, when properly isolated from the mage wearing it, provides a powerful defense."
+		""
 		"Magic attacks and boons alike are partially absorbed by the &5Malignant Stronghold&r, used to further fuel the armor's integrity and warding capabilities."
 		""
 		"&7The more they fight, the closer their end approaches."
 	]
-	quest.6BCA2ED05C7D9D4E.title: "Malignant Armor"
+	quest.6BCA2ED05C7D9D4E.title: "&6Malignant Armor"
 	quest.6BD4E9B7B2C99C27.quest_desc: [
 		"To make a &6Nuclear Reactor&r, you'll need &6Nuclear Alloy Plates&r. These are crafted using &bBlastproof Ingots&r, &2Beryllium Ingots&r, and &eCadmium Ingots&r."
 		""
@@ -12057,7 +12116,7 @@
 	]
 	quest.6CA3339B472F4464.title: "&dProcessing Units"
 	quest.6CA9ED28F944DECC.quest_desc: ["&aSoulstained Armor&r provides more than just adequate physical protection, having a second property of &babsorbing&r a large portion of magic-based damage. This property needs to recover over time, but does so at no other noticeable cost to the wearer."]
-	quest.6CA9ED28F944DECC.title: "Soulstained Armor"
+	quest.6CA9ED28F944DECC.title: "&dSoulstained Armor"
 	quest.6CADA41796D0F7F9.quest_desc: ["After progressing through whichever path you pick, iron should come easily enough, allowing for further progression through vanilla and, more notably, all manner of mods."]
 	quest.6CADA41796D0F7F9.title: "&fProper Materials"
 	quest.6CD6367FB419EA35.quest_desc: [
@@ -12106,11 +12165,11 @@
 	]
 	quest.6D5905345348ABEF.title: "&fFlux Controller"
 	quest.6D72AFBA0AAC164C.quest_desc: [
-		"The &2MV Steam Turbine&r can produce up to 128 EU/t."
+		"The &2MV Steam Turbine&r consumes &7Steam&r to produce up to 128 EU/t."
 		""
-		"[\"You can refer to the \", {\"text\": \"Main MV Steam Turbine Quest\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1DBE1D496463B310\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to LV Steam Turbine Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+		"[\"You can refer to the \", {\"text\": \"Main MV Steam Turbine Quest\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1DBE1D496463B310\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MV Steam Turbine Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
 	]
-	quest.6D72AFBA0AAC164C.title: "&3MV Steam Turbine"
+	quest.6D72AFBA0AAC164C.title: "&2MV Steam Turbine"
 	quest.6D739E1A4F4304B3.title: "&fBasic Spell Turret"
 	quest.6D85B6C5DBC0DB9E.quest_desc: ["&3Wildwood Armor&r provides protection between iron and diamond, while increasing your &2Terra&r regeneration."]
 	quest.6D85B6C5DBC0DB9E.title: "&3Wildwood Armor"
@@ -12173,7 +12232,7 @@
 	quest.6EE1C1B7FFB86C6C.quest_desc: ["&aSigils of Socketing&r are used to increase the amount of &bGem Sockets&r of an &bAffix&r item."]
 	quest.6EE1C1B7FFB86C6C.title: "&aSigil of Socketing"
 	quest.6EF660B54A169591.quest_subtitle: "Explode Tungsten Dust and a Catalyst"
-	quest.6EF660B54A169591.title: "&fBudding Tugnsten Geore"
+	quest.6EF660B54A169591.title: "&fBudding Tungsten Geore"
 	quest.6F06B178DDBCAC38.quest_desc: [
 		"Our next step involves some chemistry!"
 		""
@@ -12305,6 +12364,8 @@
 		"&aMatter Network Pipes&r will automatically transfer power to any machine in the network so long as one pipe is receiving power. They will also transfer matter to any available &aMatter Tanks&r."
 	]
 	quest.705E4FFB4FCADFD1.title: "&fMatter Networks"
+	quest.7061D35A3E480891.quest_desc: ["These are powerful &2Runes&r that can provide powerful and unique effects to enchance your effects."]
+	quest.7061D35A3E480891.title: "&5Umbral Runes"
 	quest.7067E5B47D381423.quest_desc: [
 		"If you want to transfer Source around your world, you'll need to make &bSource Relays&r."
 		""
@@ -12327,7 +12388,7 @@
 		""
 		"&7The greatest tales all told, end with silence."
 	]
-	quest.70753CD7045AE9E1.title: "Malignant Pewter"
+	quest.70753CD7045AE9E1.title: "&5Malignant Pewter"
 	quest.708C19120EB4F31F.title: "diamond stage"
 	quest.708DD6CD3AE7F0FE.quest_desc: ["Decayed gaurdians of the nether fortresses"]
 	quest.708DD6CD3AE7F0FE.title: "&fKill 10 &cWither Skeletons"
@@ -12416,6 +12477,12 @@
 	]
 	quest.7141C2CA9321B710.quest_subtitle: "Seems complicated, but its actually quite simple."
 	quest.7141C2CA9321B710.title: "&fAutomating &dDrones &fto Farm!"
+	quest.7169587C7DC4C8C0.quest_desc: [
+		"&5Umbral Spirits&r can be acquired from sacrificing souls of the living."
+		""
+		"This may be done by throwing yourself into the &5Weeping Well&r. It can also be dropped rarely by slaying villagers with the &6Veil's Edge&r."
+	]
+	quest.7169587C7DC4C8C0.title: "&5Spirit of Sacrifice"
 	quest.717C94045F0ADA01.quest_desc: ["Spawns one of the many traders from the Wanderer guild to pay you a visit, offering various items to help in your adventures."]
 	quest.717C94045F0ADA01.title: "&aTrader Event"
 	quest.71806E77AEE9E050.quest_desc: [
@@ -12609,6 +12676,8 @@
 		"With access to &dStainless Steel Drills&r, we can harvest &7Shale Oil&r from our &3Oil Drilling Rig&r."
 		""
 		"Once you have a &3Distillation Tower&r, we can run this through to get &aHelium&r, &eSulfuric Naphtha&r, and &7Sulfuric Crude Oil&r."
+		"{@pagebreak}"
+		"(new page placeholder text)"
 	]
 	quest.72C893FBEDFEF87C.title: "&7Shale Oil &fProcessing"
 	quest.72D582D05DC9C7A2.quest_desc: [
@@ -12891,7 +12960,7 @@
 		""
 		"&eSmall deposits&r can be regularly seen scattered throughout floating villages, especially in their &7work centers&r."
 	]
-	quest.74EA351011AA309F.title: "Cthonic Gold"
+	quest.74EA351011AA309F.title: "&fCthonic Gold"
 	quest.74FFB51806FBD287.title: "&bGarden Cloche"
 	quest.754048401D3A6A7B.quest_desc: ["This chapter covers most of the different ways to generate power."]
 	quest.754048401D3A6A7B.title: "&fPower \\&\\ You"
@@ -12909,7 +12978,7 @@
 	quest.755E80CFF2053CF8.title: "&3Activating The Pyramid"
 	quest.75621DDF80A2B05F.quest_desc: ["The &aCollector Relay&r will automatically take Source from any Source Jar it is not connected to within 5 blocks of it."]
 	quest.75621DDF80A2B05F.title: "&dSource Collection"
-	quest.7577594004D188D9.quest_desc: ["&cVinyl Chloride&r is used to make &aPolyvinyl Chrloride&r by combining it with lead of &4Chromium Tiny Dust&r in a &3Chemical Reactor&r."]
+	quest.7577594004D188D9.quest_desc: ["&cVinyl Chloride&r is used to make &aPolyvinyl Chrloride&r by combining it with lead or &4Chromium Tiny Dust&r in a &3Chemical Reactor&r."]
 	quest.7577594004D188D9.title: "&cVinyl Chloride"
 	quest.75818C9F54BD4C02.quest_desc: [
 		"The &aCoercion Deriver&r has two modes:"
@@ -13015,6 +13084,12 @@
 		"Eventually, you can make a Crystal that never breaks, but it's probably a good idea to make a few of these."
 	]
 	quest.7695C03E7A574D93.title: "&bProsperity Shards"
+	quest.76A73B12FC436D0C.quest_desc: [
+		"You have opened your eyes to all knowledge known to "
+		""
+		"It's recommended to craft yourself the &6Encyclopedia Unveiled&r to unlock all available content for &eMalum&r and &eGaze&r."
+	]
+	quest.76A73B12FC436D0C.title: "&6Encyclopedia Unveiled"
 	quest.76C535C621A58F74.title: "&dCelestigem Axe"
 	quest.76D5941D76026588.quest_desc: ["Generates power by consuming Food Items."]
 	quest.76D5941D76026588.title: "&fCulinary Mycelial Generator"
@@ -13051,6 +13126,7 @@
 		""
 		"These charges replenish over time (seen on the hotbar), and can be increased or regained through various enchantments or trinkets."
 	]
+	quest.77074CE5719763BB.title: "&dMnemonic Hex Staff"
 	quest.771A95966FB7FE50.quest_desc: [
 		"&7&n&oChoose one of the following:"
 		""
@@ -13236,7 +13312,7 @@
 	]
 	quest.7804E97C7772403E.title: "&fOn A STICK!"
 	quest.7806FFBF4B24CD30.title: "&5Eclipse Alloy Bow"
-	quest.78115154B5DC07B3.quest_desc: ["This block generates power when all other &dMycelial Generators&r are active."]
+	quest.78115154B5DC07B3.quest_desc: ["This block generates &625 Million RF/t&r when all other &dMycelial Generators&r are active."]
 	quest.78115154B5DC07B3.title: "&fMycelial Reactor"
 	quest.78132E2600FC11CF.quest_desc: [
 		"With &aHelium&r, from our &7Shale Oil&r, we can combine this with &2Argon&r in a &3Vacuum Freezer&r to make &dCryofluid&r!"
@@ -13330,7 +13406,7 @@
 	quest.792AD85AE9FB81E0.quest_desc: [
 		"The &7Spectral Talisman&r prevents natural phantom aggression, but does not prevent phantoms from spawning."
 		""
-		"It is also used to craft the &dForce of Overworld&r."
+		"It is also used to craft the &dForce of Explorer&r."
 	]
 	quest.792AD85AE9FB81E0.title: "&7Spectral Talisman"
 	quest.792BD1143635482C.quest_desc: [
@@ -13453,6 +13529,7 @@
 		""
 		"&7A similar synergy exists for passive animals among the various rites..."
 	]
+	quest.7A62B07AD0BCCCEA.title: "&fAutomating Spirits?"
 	quest.7A6E340CD1F4D5CA.title: "&5Template: Eclipse Alloy"
 	quest.7A7B3CDAAAC2409D.quest_desc: [
 		"The &6Wither Builder&r will automatically build the Wither for you when provided the proper items and power."
@@ -13572,7 +13649,7 @@
 		""
 		"Up to four can be applied to the Crucible itself, and linked Catalyzers can accept one augement each to apply to their Crucible."
 	]
-	quest.7BA228FC749BF70A.title: "Crucible Augments"
+	quest.7BA228FC749BF70A.title: "&aCrucible Augments"
 	quest.7BA817A69CE39AF0.quest_subtitle: "+10% Summon Damage"
 	quest.7BA817A69CE39AF0.title: "&aConjurer's Talisman"
 	quest.7BBE12078C2FC82E.quest_desc: [
@@ -13677,6 +13754,7 @@
 		""
 		"It is also used to craft the &3Soul of Minecraft&r."
 	]
+	quest.7CD3D31BAA53F592.title: "&bForce of Rejectors"
 	quest.7CEB53DFAD26F485.quest_desc: [
 		"While wooden bowls serve a fine enough purpose, carrying fluids is not its strong suit."
 		""
@@ -14251,6 +14329,7 @@
 	reward.7B560892DF3BC4FC.title: "Shop Sound"
 	reward.7B96E0AF7B53A334.title: "&aBasic Chicken Data Model"
 	reward.7D70E419055C9031.title: "&aSpeed Gene"
+	reward.7E0D3DCDED6AFCE6.title: "Spirit Bundle"
 	reward.7E3073F12B6D47A4.title: "Toadally Balanced!"
 	reward.7EB575F8C799BBDE.title: "&aAggressive Temper"
 	reward.7ED54BCB74A2A12B.title: "&fGrass Eating Gene"
@@ -14356,6 +14435,7 @@
 	task.047B3C49E817FA1F.title: "I already have power"
 	task.04A70E089DED1FFE.title: "&eObserve&f: Metal Press"
 	task.04B1F83ABBD13D70.title: "warden and dead king"
+	task.04B4EE9AE7C56179.title: "Proceed"
 	task.0530149F4E3FF764.title: "Kitchen Cabinets"
 	task.056DCB4713EB0918.title: "Any magical crops"
 	task.05B209B3FC005914.title: "Kill One Of Every Hostile Mob"
@@ -14418,6 +14498,7 @@
 	task.1114E07F8446FAA0.title: "Block Management"
 	task.1129E77967D0783F.title: "&eFind Structure&f: &cBurning Arena"
 	task.115CB2D5036912BA.title: "Any #minecraft:leaves"
+	task.11B86810F19A15B9.title: "Any &5Umbral Rune"
 	task.11BAD76CFFF369EF.title: "&eVisit Dimension&f: &dThe End"
 	task.1203293F62D3F55F.title: "Mid Upper Layer"
 	task.1211B7B1BC40225B.title: "Storage Controllers"
@@ -14557,7 +14638,7 @@
 	task.2CD52A4DFFF925E4.title: "hidden"
 	task.2CDC924219F0604D.title: "Any xychorium gem"
 	task.2D66798994BABFCB.title: "Powah Generators"
-	task.2D6AEF337BEAFA58.title: "Any spirit crucible augment"
+	task.2D6AEF337BEAFA58.title: "Any Spirit Crucible Augment"
 	task.2D717F3B3573B504.title: "&bUpgraded Addons"
 	task.2DB7E1A0AC1E6646.title: "Find &6The Foundry&r"
 	task.2DCE94139CB2078D.title: "&aUtility Upgrades"
@@ -14705,7 +14786,7 @@
 	task.497CF86F5BC5A7D0.title: "Basic Cables"
 	task.498D86D3DCD85DE3.title: "Complete This Quest"
 	task.49C5C16F4BA317E7.title: "&eObserve&f: Budding Iron GeOre"
-	task.49DF96867DE0BB9D.title: "Any #malum:aspected_spirits"
+	task.49DF96867DE0BB9D.title: "Any Spirit Aspect"
 	task.4A0037264C36EBE1.title: "&eObserve&f: &dArc Furnace"
 	task.4A18F4F81AEA7421.title: "The First Layer"
 	task.4A3E55075B97791B.title: "Don't you dare press this."
