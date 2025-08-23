@@ -1297,7 +1297,7 @@
 		""
 		"此外，这也是唯一一种能够修复&e碎裂促符&r的方法。"
 	]
-	quest.0AA1977AC1B5E5A9.title: "&aRepair Pylon"
+	quest.0AA1977AC1B5E5A9.title: "&a修复基柱"
 	quest.0ABD10520EAB1C57.quest_desc: [
 		"&a存储控制器&r能连接大量抽屉并与其进行交互。对于要一直进出的自动化抽屉系统来说，这东西简直就是神器！"
 		""
@@ -1538,13 +1538,13 @@
 	]
 	quest.0C4490929532BC5F.title: "&f大型水泵"
 	quest.0C5173F51D68317C.quest_desc: [
-		"Using the &5Umbral Spirit&r, you can craft several powerful weapons and artifacts. Among those are:"
+		"使用&5幽影精魂&r，你可以合成数种强大的武器与饰品，其中包括："
 		""
-		"The &6Splintered World&r's special ability summons flying swords that home in towards your enemies."
+		"&6界幔残痕&r：其特殊能力可以召唤出数把飞剑，自动追踪并攻击你的敌人。"
 		""
-		"The &6Replica Artifact Wheel&r provides mixed damage reduction to physical, magical, and any other damage sources."
+		"&6仿造法阵&r：提供全面的伤害减免，能够降低受到的物理、魔法以及其他所有类型的伤害。"
 	]
-	quest.0C5173F51D68317C.title: "&5Weapons of Sacrifice"
+	quest.0C5173F51D68317C.title: "&5牺牲武器"
 	quest.0C59F30673774398.quest_desc: [
 		"&a调节升级&r可控制进出你系统的物品数量。"
 		""
@@ -2506,9 +2506,9 @@
 	quest.16D89D5036F39756.quest_desc: [
 		"&e灵灾&r是一个围绕着灵魂的自然层面和精神层面展开的模组。这个模组将通过这些要素来为你和你所处的世界带来各种奥术影响！"
 		""
-		"To get started in this mod, find or form &dSoulstone&r to create the two keystone features of the mod: the Spirit Altar, and the Crude Scythe."
+		"要想开始游玩这个模组，你需要先找到或制作出&d灵魂石&r，并用它来合成模组的两大核心物品：精魄祭坛和粗制镰刀。"
 		""
-		"There are rumors of a &5structure&r somewhere out in the void, emitting whispers and tugging on certain materials. Perhaps you could seek it out and make a trade for some..."
+		"有传言说，在虚空的某个角落坐落着一座神秘的&5结构&r，它不断散发着诡异的低语，并对某些特定材料产生着牵引之力。或许，你可以试着去找到它，和它交换一些……"
 	]
 	quest.16D89D5036F39756.quest_subtitle: "灵灾之始"
 	quest.16D89D5036F39756.title: "&d灵魂石"
@@ -3038,7 +3038,7 @@
 		""
 		"&o&7Ex. a Soulhunter Robe and a Soulstained Chestplate will seem identical after a Cornered Weave is applied.&r"
 	]
-	quest.1BC994881BC225ED.title: "&aWeaver's Workbench"
+	quest.1BC994881BC225ED.title: "&a织物工作台"
 	quest.1BDE743ABCC3E78A.title: "&a第一层"
 	quest.1BF77D602FFDF292.quest_desc: ["&d无限范围增幅器&r可以让你在同维度的任何地方访问你的网络。"]
 	quest.1BF77D602FFDF292.title: "&d无限范围增幅器"
@@ -3480,7 +3480,7 @@
 	quest.1FCE7E6527304CC5.title: "&2低压储能单元"
 	quest.1FDD26042785FB0C.quest_desc: ["&a邮箱&r能在列车站点之间运输包裹。"]
 	quest.1FDD26042785FB0C.title: "&a邮箱"
-	quest.1FE2B36C234A35C9.quest_desc: ["[\"\", {\"text\": \"Apothecarists \", \"color\": \"light_purple\", \"italic\":false}, \"don't appreciate when their \", {\"text\": \"Apothecary Huts\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21A521011401074F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Apothecary Hut quest\"]} }, \" are looted, and would prefer to trade instead for their unique tinctures, spells, and other goods.\"]"]
+	quest.1FE2B36C234A35C9.quest_desc: ["[\"\", {\"text\": \"药剂师\", \"color\": \"light_purple\", \"italic\":false}, \"可不乐意看到自己的\", {\"text\": \"药剂师小屋\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21A521011401074F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往药剂师小屋任务\"]} }, \"被洗劫一空，他们更愿意用交易来换取他们独特的药剂、法术和其他好货。\"]"]
 	quest.1FE2B36C234A35C9.title: "&d药剂师"
 	quest.1FE952E6D58451EA.quest_desc: [
 		"有了法师之花，就能合成&a法术羊皮纸&r，然后可以把法术抄写上去！"
@@ -4282,9 +4282,9 @@
 	quest.272E84656D0F133C.quest_desc: [
 		"将图腾基座放在底部，然后在基座上方放置至多五块图腾原木，使其形成一根柱子，你就可以用精魂来把它们变成特定的图腾柱了。只要全套图腾样式正确，你就可以右击基座来激活图腾柱，从而展开&e图腾仪式&r。再次右击基座可以停止仪式。"
 		""
-		"These Rites have a wide variety of effects either on the world or those who stand in its area. While multiple Rites can be invoked on an area, two or more of the same Rite will cancel each other out."
+		"这些仪式会为这个世界及附近区域的人带来各种各样的影响。虽然你可以在同一片区域内进行多个仪式，但是两个及以上的相同仪式会导致它们彼此抵消。"
 		""
-		"A &aTotemic Staff&r will let you see what this area is, and can be used on an attuned log to make it glow without activation."
+		"&a图腾法杖&r不仅能让你查看当前区域的类型信息，还能对一个已调谐的原木使用，使其在未激活的状态下也能发光。"
 	]
 	quest.272E84656D0F133C.quest_subtitle: "介绍虽少，用处繁多"
 	quest.272E84656D0F133C.title: "&f图腾仪式"
@@ -4503,7 +4503,7 @@
 	]
 	quest.29E2CEADF6720EB3.title: "&c下界&r&f金属"
 	quest.29E6EF882A568585.quest_desc: ["这些&a经验晶方尖碑&r把知识浓缩成了微型图腾，只需要3个这样的方尖碑就能为&e附魔台&r提供5个书架的等级提升效果！"]
-	quest.29E6EF882A568585.title: "&2Brilliant Obelisk"
+	quest.29E6EF882A568585.title: "&2经验晶方尖碑"
 	quest.29E78B39C74FBC4E.title: "&f击杀每种敌对生物各一只"
 	quest.2A19E0AF462C1FD2.quest_desc: [
 		"&a钻石符石&r提供20%伤害减免。"
@@ -4994,7 +4994,7 @@
 	]
 	quest.2ECE092636880CB8.title: "&f物品处理"
 	quest.2EE0FD7E1FC4646A.quest_desc: ["This weird byproduct of blight has few uses."]
-	quest.2EE0FD7E1FC4646A.title: "&aLarge Strange Crystal"
+	quest.2EE0FD7E1FC4646A.title: "&a大型怪异晶体"
 	quest.2EE5352D8E5F715F.title: "&f击杀20只&c蜘蛛"
 	quest.2EEE782146096F9C.quest_desc: ["&e建筑小帮手&r大概是最适合建筑师的模组了。这些小帮手能大大提升你的建筑体验！"]
 	quest.2EEE782146096F9C.title: "&e建筑小帮手"
@@ -5572,7 +5572,7 @@
 		""
 		"Having a sizable handful prepared for crafting is recommended."
 	]
-	quest.33F236BD2DA075C3.title: "&fHex Ash"
+	quest.33F236BD2DA075C3.title: "&f咒灰"
 	quest.3404B0A29BF5A055.quest_desc: ["&2初级流体收集器&r无需桶或其他容器便能收集流体。很适合当做无限水源呢！"]
 	quest.3404B0A29BF5A055.title: "&a初级流体收集器"
 	quest.340542E5E1413650.title: "&f钻石矿块"
@@ -8719,7 +8719,7 @@
 		""
 		"&a魂织布袋&r可以减轻这方面的压力，它会在精魂以及其他物品进入你的物品栏前自动把它们吸入自己体内，最多可以装八组精魂。你可以通过手持这个布袋右击来直接倒出里面的全部物品，也可以在物品栏里一组一组地取出物品。"
 	]
-	quest.51373D5476F2FD7F.title: "&fSoulwoven Pouch"
+	quest.51373D5476F2FD7F.title: "&f魂织布袋"
 	quest.514E3A822BFB730B.quest_desc: [
 		"很多烹饪配方都要用到&b奶&r，每次都要跑去找牛就太麻烦了。"
 		""
@@ -9923,7 +9923,7 @@
 		""
 		"合成的过程有可能非常慢，而将至多四个&e符文木方尖碑&r放置在附近可以使其加速。"
 	]
-	quest.5D8C8F6326C5BB5F.title: "&aSpirit Altar"
+	quest.5D8C8F6326C5BB5F.title: "&a精魄祭坛"
 	quest.5D915DB5A05D0CC1.quest_desc: [
 		"&d虚炎煤炭&r是该模组更高阶的煤炭。"
 		""
@@ -10730,7 +10730,7 @@
 	quest.6507BA74DED764C1.quest_desc: ["&5氘&r是&6反应堆&r中&9水&r被&6快中子&r轰击时的副产物，可以用来生产&9重水&r。"]
 	quest.6507BA74DED764C1.title: "&5氘"
 	quest.652650C157E16712.quest_desc: ["&b精魂&r的作用之一是制作装备。将精魂注入布料，你就能得到包含精魂力量的优秀装备材料。"]
-	quest.652650C157E16712.title: "&fSoulwoven Silk"
+	quest.652650C157E16712.title: "&f魂织绸缎"
 	quest.6541D2082B84F2BB.quest_desc: [
 		"&a植物收割机&r能够全自动采集面前的作物，但不会复种。"
 		""
@@ -11309,7 +11309,7 @@
 		""
 		"这种加速可能会导致作为核心材料的&e促符&r损坏得更快，从而减小它能够合成的物品数量，而后你就必须修复或替换它了。"
 	]
-	quest.6B971FA156A96BD5.title: "&aSpirit Catalyzer"
+	quest.6B971FA156A96BD5.title: "&a精魄催化器"
 	quest.6BA77922132D132E.title: "&6失物招领：第二层"
 	quest.6BB9FD515DFD8FF1.quest_desc: [
 		"&bAE2&r有内置教程，在JEI里就可以随时查看。"
@@ -12342,7 +12342,7 @@
 		""
 		"It's recommended to craft yourself the &6Encyclopedia Unveiled&r to unlock all available content for &eMalum&r and &eGaze&r."
 	]
-	quest.76A73B12FC436D0C.title: "&6Encyclopedia Unveiled"
+	quest.76A73B12FC436D0C.title: "&6越幔全典"
 	quest.76C535C621A58F74.title: "&d苍穹晶斧"
 	quest.76D5941D76026588.quest_desc: ["消耗食物发电。"]
 	quest.76D5941D76026588.title: "&f菌丝网络烹饪发电机"
@@ -13418,7 +13418,7 @@
 	reward.76EAB252DC10CAB9.title: "1点&6运动&r技能点"
 	reward.78FAD81FB1199F94.title: "&f1点&d魔法&f技能点"
 	reward.7B560892DF3BC4FC.title: "商店音效"
-	reward.7E0D3DCDED6AFCE6.title: "Spirit Bundle"
+	reward.7E0D3DCDED6AFCE6.title: "精魄奖励包"
 	reward.7E3073F12B6D47A4.title: "完全平衡！"
 	reward.7F6BAAED74F08FE4.title: "召唤一只海龟"
 	reward.7FF50BBC4D6C7D2E.title: "+1 魔法技能点"
