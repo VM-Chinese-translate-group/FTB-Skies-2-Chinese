@@ -1094,11 +1094,10 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
 					id: "38B7B4A8BEC9664E"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}

@@ -909,7 +909,6 @@
 				id: "minecraft:end_portal_frame"
 			}
 			id: "447242EAC91413A9"
-			min_required_dependencies: 4
 			min_width: 300
 			rewards: [{
 				count: 5

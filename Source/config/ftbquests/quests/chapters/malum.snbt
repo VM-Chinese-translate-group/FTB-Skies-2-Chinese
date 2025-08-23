@@ -1,5 +1,5 @@
 {
-	autofocus_id: "62C92C8960875611"
+	autofocus_id: "16D89D5036F39756"
 	default_hide_dependency_lines: false
 	default_min_width: 250
 	default_quest_shape: "rsquare"
@@ -15,7 +15,7 @@
 			image: "malum:item/raw_soulstone"
 			rotation: 0.0d
 			width: 5.0d
-			x: -0.035999999999999976d
+			x: -0.03600000000000003d
 			y: 1.374d
 		}
 		{
@@ -186,7 +186,7 @@
 			rotation: 0.0d
 			width: 1.4d
 			x: 0.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			height: 10.0d
@@ -260,18 +260,18 @@
 			id: "16D89D5036F39756"
 			rewards: [
 				{
-					id: "0DAD30EC22FF87FB"
-					item: {
-						count: 1
-						id: "malum:encyclopedia_arcana"
-					}
-					type: "item"
-				}
-				{
 					id: "06CACE2769F90DCA"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0DAD30EC22FF87FB"
+					item: {
+						count: 1
+						id: "malum:encyclopedia_arcana"
 					}
 					type: "item"
 				}
@@ -302,6 +302,15 @@
 			id: "4C48B5662C396543"
 			rewards: [
 				{
+					count: 2
+					id: "577A4F4E63006648"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "28497C4F65853B15"
 					item: {
 						components: {
@@ -313,15 +322,6 @@
 						}
 						count: 1
 						id: "minecraft:enchanted_book"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "577A4F4E63006648"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -347,19 +347,19 @@
 			rewards: [
 				{
 					count: 2
-					id: "5508B738C8ED5E7C"
+					id: "5CEBE677FF577D3A"
 					item: {
 						count: 1
-						id: "malum:gilded_runewood_item_pedestal"
+						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
 				{
 					count: 2
-					id: "5CEBE677FF577D3A"
+					id: "5508B738C8ED5E7C"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "malum:gilded_runewood_item_pedestal"
 					}
 					type: "item"
 				}
@@ -389,6 +389,15 @@
 			id: "33F236BD2DA075C3"
 			rewards: [
 				{
+					count: 3
+					id: "1658E9D465555E12"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 2
 					id: "75DBE595877CAA73"
 					item: {
@@ -396,14 +405,6 @@
 						id: "malum:hex_ash"
 					}
 					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "1658E9D465555E12"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -424,19 +425,19 @@
 			id: "4C8EDEEFBC40E44B"
 			rewards: [
 				{
+					id: "529F600BBC1BE385"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 16
 					id: "1DC8902AA380A232"
 					item: {
 						count: 1
 						id: "malum:exposed_runewood_log"
-					}
-					type: "item"
-				}
-				{
-					id: "529F600BBC1BE385"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -474,6 +475,15 @@
 			id: "52A1154376134EDD"
 			rewards: [
 				{
+					count: 3
+					id: "07564B36F3A6AB42"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 16
 					id: "0CBE910C4BC4D2DA"
 					item: {
@@ -488,14 +498,6 @@
 					item: {
 						count: 1
 						id: "malum:twisted_rock"
-					}
-					type: "item"
-				}
-				{
-					id: "07564B36F3A6AB42"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -524,6 +526,14 @@
 			id: "41C439295D5558C2"
 			rewards: [
 				{
+					id: "20E15BD0BADD66F0"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "6D7AF4FADA49D872"
 					item: {
 						count: 1
@@ -536,14 +546,6 @@
 					item: {
 						count: 1
 						id: "malum:lamplighters_tongs"
-					}
-					type: "item"
-				}
-				{
-					id: "20E15BD0BADD66F0"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -587,6 +589,15 @@
 			id: "62C92C8960875611"
 			rewards: [
 				{
+					count: 5
+					id: "04BE2A2FD36CA3F0"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 2
 					id: "13CC33F38C1B14A7"
 					item: {
@@ -604,14 +615,6 @@
 						id: "malum:soul_stained_steel_ingot"
 					}
 					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "04BE2A2FD36CA3F0"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -662,7 +665,6 @@
 			id: "1C0024A48898FB90"
 			rewards: [
 				{
-					count: 2
 					id: "5F4F1F1EB541A5D5"
 					item: {
 						count: 1
@@ -702,19 +704,20 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
+					id: "6AE23904F1DE3AEB"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 8
 					id: "412CD01C822E0F57"
 					item: {
 						count: 1
 						id: "malum:alchemical_calx"
-					}
-					type: "item"
-				}
-				{
-					id: "6AE23904F1DE3AEB"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -732,19 +735,19 @@
 			id: "74EA351011AA309F"
 			rewards: [
 				{
+					id: "744C68B0FD30EF56"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 2
 					id: "6E6850D69B7DAAB3"
 					item: {
 						count: 1
 						id: "malum:cthonic_gold_fragment"
-					}
-					type: "item"
-				}
-				{
-					id: "744C68B0FD30EF56"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -764,19 +767,20 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
+					id: "4C77DBC1E53E5A4D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 8
 					id: "3B22528DF3F4DC6E"
 					item: {
 						count: 1
 						id: "malum:arcane_charcoal"
-					}
-					type: "item"
-				}
-				{
-					id: "4C77DBC1E53E5A4D"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -798,18 +802,19 @@
 			optional: true
 			rewards: [
 				{
-					id: "65055A84A36C1456"
-					item: {
-						count: 1
-						id: "malum:tuning_fork"
-					}
-					type: "item"
-				}
-				{
+					count: 3
 					id: "7A10791064F8A042"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "65055A84A36C1456"
+					item: {
+						count: 1
+						id: "malum:tuning_fork"
 					}
 					type: "item"
 				}
@@ -872,18 +877,18 @@
 			id: "272E84656D0F133C"
 			rewards: [
 				{
-					id: "57B0EED5157867A1"
-					item: {
-						count: 1
-						id: "malum:totemic_staff"
-					}
-					type: "item"
-				}
-				{
 					id: "6B9871D36FF0D163"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "57B0EED5157867A1"
+					item: {
+						count: 1
+						id: "malum:totemic_staff"
 					}
 					type: "item"
 				}
@@ -904,6 +909,15 @@
 			id: "4D1EBD92C674531E"
 			rewards: [
 				{
+					count: 5
+					id: "6BFD90D990C85A36"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "67AD778C2D176FD6"
 					item: {
 						count: 1
@@ -917,15 +931,6 @@
 					item: {
 						count: 1
 						id: "malum:blightpearl"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "6BFD90D990C85A36"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -943,7 +948,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 4.5d
 			y: 1.0d
 		}
 		{
@@ -960,19 +965,19 @@
 			optional: true
 			rewards: [
 				{
+					id: "67F52ACA5C7CD195"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 2
 					id: "054AFC7117C68982"
 					item: {
 						count: 1
 						id: "malum:ether"
-					}
-					type: "item"
-				}
-				{
-					id: "67F52ACA5C7CD195"
-					item: {
-						count: 1
-						id: "magic_coins:crystal_coin"
 					}
 					type: "item"
 				}
@@ -1002,7 +1007,16 @@
 			optional: true
 			rewards: [
 				{
-					count: 16
+					count: 3
+					id: "7983516975434130"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 12
 					id: "05D86A6A8F0C46F6"
 					item: {
 						count: 1
@@ -1016,15 +1030,6 @@
 					item: {
 						count: 1
 						id: "malum:soulwoven_silk"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7983516975434130"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1086,19 +1091,20 @@
 			id: "457E591ED546A456"
 			rewards: [
 				{
+					count: 3
+					id: "22438C21E8546F8B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 8
 					id: "62A383FC787495A2"
 					item: {
 						count: 1
 						id: "minecraft:leather"
-					}
-					type: "item"
-				}
-				{
-					id: "22438C21E8546F8B"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1114,11 +1120,19 @@
 		{
 			dependencies: ["62C92C8960875611"]
 			icon: {
-				id: "malum:runic_brooch"
+				id: "malum:runic_workbench"
 			}
 			id: "39ED88D2EF2F617B"
 			optional: true
 			rewards: [
+				{
+					id: "3C9FA2AC6F9407B5"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
 				{
 					count: 16
 					id: "169709A4C8A30E54"
@@ -1128,24 +1142,16 @@
 					}
 					type: "item"
 				}
-				{
-					id: "3C9FA2AC6F9407B5"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
 			]
 			tasks: [
 				{
-					id: "0E7B34D38F84AC11"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:brooch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					id: "6024BC15BAF64800"
+					item: { count: 1, id: "malum:runic_workbench" }
 					type: "item"
 				}
 				{
-					id: "6024BC15BAF64800"
-					item: { count: 1, id: "malum:runic_workbench" }
+					id: "0E7B34D38F84AC11"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:brooch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -1167,19 +1173,19 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
+					id: "142665E49B519C3F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					exclude_from_claim_all: true
 					id: "619B432AF9FBE14D"
 					table_id: 4102675303332772254L
 					type: "choice"
-				}
-				{
-					count: 2
-					id: "142665E49B519C3F"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
 				}
 			]
 			tasks: [{
@@ -1196,18 +1202,19 @@
 			optional: true
 			rewards: [
 				{
-					id: "2069E8EEEB27E108"
-					type: "xp"
-					xp: 150
-				}
-				{
-					count: 2
+					count: 3
 					id: "4EE4DF22FE9D3609"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "2069E8EEEB27E108"
+					team_reward: false
+					type: "xp"
+					xp: 150
 				}
 			]
 			tasks: [{
@@ -1250,6 +1257,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 5
+					id: "2E936C356D228C13"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 6
 					id: "3F51336075DB2349"
 					item: {
@@ -1258,38 +1274,26 @@
 					}
 					type: "item"
 				}
-				{
-					id: "2E936C356D228C13"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
 			]
 			tasks: [
 				{
 					id: "6C8DDAD9A4005882"
 					item: { count: 1, id: "malum:soul_stained_steel_helmet" }
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5D33D6CBBA08ABF9"
 					item: { count: 1, id: "malum:soul_stained_steel_chestplate" }
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "182D8526B9AC5B3D"
 					item: { count: 1, id: "malum:soul_stained_steel_leggings" }
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "634E62EDC65E1086"
 					item: { count: 1, id: "malum:soul_stained_steel_boots" }
-					optional_task: true
 					type: "item"
 				}
 			]
@@ -1304,19 +1308,20 @@
 			id: "59497745146C1EFD"
 			rewards: [
 				{
+					count: 5
+					id: "25CBD7DE0AD4859F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 4
 					id: "358D5569B59CD44B"
 					item: {
 						count: 1
 						id: "malum:soul_stained_steel_ingot"
-					}
-					type: "item"
-				}
-				{
-					id: "25CBD7DE0AD4859F"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1352,11 +1357,21 @@
 			id: "66545AFE0DEA820F"
 			rewards: [
 				{
+					count: 3
+					id: "4E1007E709EDB05A"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "4C82E3187490EBAB"
 					item: {
 						count: 1
 						id: "malum:tophat"
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1365,14 +1380,6 @@
 					item: {
 						count: 1
 						id: "malum:raw_brilliance"
-					}
-					type: "item"
-				}
-				{
-					id: "4E1007E709EDB05A"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1404,7 +1411,7 @@
 				}
 			]
 			x: 0.0d
-			y: 8.0d
+			y: 8.25d
 		}
 		{
 			dependencies: ["66545AFE0DEA820F"]
@@ -1414,20 +1421,19 @@
 			id: "70753CD7045AE9E1"
 			rewards: [
 				{
-					count: 2
-					id: "32C445661D2BB7BD"
+					id: "08E81035E4D6DA34"
 					item: {
 						count: 1
-						id: "malum:malignant_lead"
+						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
 				{
 					count: 2
-					id: "08E81035E4D6DA34"
+					id: "32C445661D2BB7BD"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "malum:malignant_lead"
 					}
 					type: "item"
 				}
@@ -1444,8 +1450,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 8.5d
+			x: 0.0d
+			y: 7.25d
 		}
 		{
 			dependencies: ["66545AFE0DEA820F"]
@@ -1453,19 +1459,19 @@
 			optional: true
 			rewards: [
 				{
-					id: "7502C958803AE6DD"
-					item: {
-						count: 1
-						id: "malum:ring_of_the_endless_well"
-					}
-					type: "item"
-				}
-				{
-					count: 2
+					count: 5
 					id: "141A2AD808FA85CD"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7502C958803AE6DD"
+					item: {
+						count: 1
+						id: "malum:ring_of_the_endless_well"
 					}
 					type: "item"
 				}
@@ -1475,8 +1481,8 @@
 				item: { count: 1, id: "malum:mnemonic_hex_staff" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 7.5d
+			x: 1.0d
+			y: 8.75d
 		}
 		{
 			dependencies: ["70753CD7045AE9E1"]
@@ -1487,7 +1493,15 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
+					id: "38C9FAB55FFA5824"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
 					id: "4490BFEE06D97BCA"
 					item: {
 						count: 1
@@ -1504,43 +1518,31 @@
 					}
 					type: "item"
 				}
-				{
-					id: "38C9FAB55FFA5824"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
 			]
 			tasks: [
 				{
 					id: "2C22485EF787EA9F"
 					item: { count: 1, id: "malum:malignant_stronghold_helmet" }
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "16F2020915867639"
 					item: { count: 1, id: "malum:malignant_stronghold_chestplate" }
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2AEC80355F0355F8"
 					item: { count: 1, id: "malum:malignant_stronghold_leggings" }
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "06DB96DDEB3D73BB"
 					item: { count: 1, id: "malum:malignant_stronghold_boots" }
-					optional_task: true
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 9.5d
+			x: 1.0d
+			y: 7.75d
 		}
 		{
 			dependencies: ["70753CD7045AE9E1"]
@@ -1551,19 +1553,19 @@
 			optional: true
 			rewards: [
 				{
+					id: "4E02BDBFD363C61E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 2
 					id: "3BFB55813029F683"
 					item: {
 						count: 1
 						id: "malum:malignant_pewter_ingot"
-					}
-					type: "item"
-				}
-				{
-					id: "4E02BDBFD363C61E"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -1588,8 +1590,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 9.0d
+			x: -1.0d
+			y: 7.75d
 		}
 		{
 			dependencies: ["66545AFE0DEA820F"]
@@ -1600,6 +1602,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
+					id: "4B3B2849EE0D919B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 32
 					id: "31EDE50D221A666D"
 					item: {
@@ -1608,30 +1619,23 @@
 					}
 					type: "item"
 				}
-				{
-					count: 2
-					id: "4B3B2849EE0D919B"
-					item: {
-						count: 1
-						id: "magic_coins:crystal_coin"
-					}
-					type: "item"
-				}
 			]
 			tasks: [
 				{
 					id: "6E75DB4841ED93B3"
 					item: { count: 1, id: "malum:sundering_anchor" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5423EF4A7FB5A5E0"
 					item: { count: 1, id: "malum:unwinding_chaos" }
+					optional_task: true
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 10.0d
+			x: -1.0d
+			y: 8.75d
 		}
 		{
 			icon: {
@@ -1668,7 +1672,7 @@
 				}
 			]
 			x: 0.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["272E84656D0F133C"]
@@ -1679,23 +1683,167 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "7A62B07AD0BCCCEA"
-			rewards: [{
-				auto: "enabled"
-				count: 6
-				id: "2DF4ED6FD005E15D"
-				item: {
-					count: 1
-					id: "malum:refined_brilliance"
+			rewards: [
+				{
+					id: "7887347E1EE2F93E"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
 				}
-				random_bonus: 3
-				type: "item"
-			}]
+				{
+					auto: "enabled"
+					count: 6
+					id: "2DF4ED6FD005E15D"
+					item: {
+						count: 1
+						id: "malum:refined_brilliance"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3772CB9C1C8A3D66"
 				type: "checkmark"
 			}]
 			x: 5.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["781D7DA09E444B95"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "malum:umbral_spirit"
+			}
+			id: "7169587C7DC4C8C0"
+			rewards: [
+				{
+					id: "62D4AE480A978FD6"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E0D3DCDED6AFCE6"
+					table_id: 5117899168176620338L
+					type: "all_table"
+				}
+			]
+			tasks: [
+				{
+					id: "24473A0AA35A1540"
+					item: { count: 1, id: "malum:umbral_spirit" }
+					type: "item"
+				}
+				{
+					id: "704B13C98EE2CDCD"
+					item: { components: { "minecraft:damage": 1875 }, count: 1, id: "gaze:veil_dagger" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4D1EBD92C674531E"]
+			id: "2EE0FD7E1FC4646A"
+			rewards: [{
+				count: 3
+				id: "2F044F0C8E06A47D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "273FEFECBA310239"
+				item: { count: 1, id: "malum:large_strange_crystal" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7169587C7DC4C8C0"]
+			id: "76A73B12FC436D0C"
+			rewards: [{
+				id: "7991A6772FAFD14C"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04BAC9AE4A8C1012"
+				item: { count: 1, id: "gaze:encyclopedia_unveiled" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7169587C7DC4C8C0"]
+			icon: {
+				id: "gaze:rune_of_touch_of_void"
+			}
+			id: "7061D35A3E480891"
+			optional: true
+			rewards: [{
+				id: "64234FB9AB606C59"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11B86810F19A15B9"
+				item: { components: { "ftbfiltersystem:filter": "or(item(gaze:rune_of_beyond_the_veil)item(gaze:rune_of_out_of_phase)item(gaze:rune_of_blighted_presence)item(gaze:rune_of_touch_of_void)item(gaze:rune_of_ymir)item(gaze:rune_of_gymir)item(gaze:rune_of_eir)item(gaze:rune_of_fafnir))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7169587C7DC4C8C0"]
+			icon: {
+				components: {
+					"minecraft:damage": 1875
+				}
+				id: "gaze:splintered_world"
+			}
+			id: "0C5173F51D68317C"
+			rewards: [{
+				id: "7335688F163C21A4"
+				item: {
+					count: 1
+					id: "magic_coins:crystal_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A597A9E46204FAC"
+					item: { components: { "minecraft:damage": 1875 }, count: 1, id: "gaze:splintered_world" }
+					type: "item"
+				}
+				{
+					id: "7F88B7B3E9471490"
+					item: { count: 1, id: "gaze:adaptive_wheel" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 10.0d
 		}
 	]
 }

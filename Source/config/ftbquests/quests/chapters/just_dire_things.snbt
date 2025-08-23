@@ -306,14 +306,6 @@
 		}
 		{
 			height: 2.0d
-			image: "justdynathings:block/solar/solar_panel"
-			rotation: 45.0d
-			width: 2.0d
-			x: 2.0d
-			y: -1.5d
-		}
-		{
-			height: 2.0d
 			image: "justdynathings:block/generator/eclipse_alloy/bottom"
 			order: -9
 			rotation: 45.0d

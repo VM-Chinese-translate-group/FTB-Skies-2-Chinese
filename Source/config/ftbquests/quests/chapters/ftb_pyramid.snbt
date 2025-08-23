@@ -602,6 +602,7 @@
 				}
 				{
 					id: "5D8A16F300D652DB"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 25
 				}

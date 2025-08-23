@@ -3334,13 +3334,10 @@
 			}
 			id: "59CBFA5583139A3B"
 			rewards: [{
-				icon: {
-					id: "magic_coins:gold_coin"
-				}
 				id: "57199AAFCD043B34"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "magic_coins:gold_coin"
 				}
 				type: "item"
 			}]
