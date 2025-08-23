@@ -293,15 +293,6 @@
 			id: "0EE0A8941A69703E"
 			rewards: [
 				{
-					id: "301BF17C49835DE3"
-					item: {
-						count: 1
-						id: "irons_spellbooks:common_ink"
-					}
-					random_bonus: 2
-					type: "item"
-				}
-				{
 					id: "413A9482817D85C7"
 					item: {
 						count: 1
@@ -310,9 +301,13 @@
 					type: "item"
 				}
 				{
-					id: "63551059569ED3C5"
-					type: "xp"
-					xp: 25
+					id: "301BF17C49835DE3"
+					item: {
+						count: 1
+						id: "irons_spellbooks:common_ink"
+					}
+					random_bonus: 2
+					type: "item"
 				}
 			]
 			shape: "square"
@@ -336,14 +331,6 @@
 			id: "1CFD4CE2704F2ADE"
 			rewards: [
 				{
-					id: "1EE274704A5FF355"
-					item: {
-						count: 1
-						id: "irons_spellbooks:epic_ink"
-					}
-					type: "item"
-				}
-				{
 					id: "1C879BAA431AFCBA"
 					item: {
 						count: 1
@@ -352,9 +339,12 @@
 					type: "item"
 				}
 				{
-					id: "013B3C95C85110EC"
-					type: "xp"
-					xp: 25
+					id: "1EE274704A5FF355"
+					item: {
+						count: 1
+						id: "irons_spellbooks:epic_ink"
+					}
+					type: "item"
 				}
 			]
 			shape: "square"
@@ -388,14 +378,6 @@
 			id: "5E3A4A3F00FDDEC0"
 			rewards: [
 				{
-					id: "180588EC5BCB685C"
-					item: {
-						count: 1
-						id: "irons_spellbooks:uncommon_ink"
-					}
-					type: "item"
-				}
-				{
 					id: "0BAD067D7359D518"
 					item: {
 						count: 1
@@ -404,9 +386,12 @@
 					type: "item"
 				}
 				{
-					id: "6C331675AF9A04DB"
-					type: "xp"
-					xp: 25
+					id: "180588EC5BCB685C"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					type: "item"
 				}
 			]
 			shape: "square"
@@ -429,6 +414,15 @@
 			id: "107C26E8BF309BC1"
 			rewards: [
 				{
+					count: 3
+					id: "5E4D7D6DFE9985FC"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
 					feedback_message: "魔法技能已升级"
 					icon: {
@@ -442,15 +436,6 @@
 					silent: true
 					team_reward: false
 					type: "command"
-				}
-				{
-					count: 3
-					id: "5E4D7D6DFE9985FC"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "rsquare"
@@ -495,7 +480,7 @@
 			}
 			id: "6B584FB6F2EEBCD0"
 			rewards: [{
-				count: 5
+				count: 3
 				id: "36147123EC2DE49C"
 				item: {
 					count: 1
@@ -554,6 +539,15 @@
 			min_width: 300
 			rewards: [
 				{
+					count: 3
+					id: "3856EC1D2A6070A1"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
 					feedback_message: "魔法技能已升级"
 					icon: {
@@ -565,16 +559,8 @@
 					id: "1EB731F51754C437"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
-				}
-				{
-					count: 3
-					id: "3856EC1D2A6070A1"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "rsquare"
@@ -607,22 +593,14 @@
 			}
 			id: "7F24FA574B370F08"
 			optional: true
-			rewards: [
-				{
-					id: "6E1ACCA6AB0BEFBD"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "1C7F0B8F9293BA3C"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					count: 2
-					id: "1C7F0B8F9293BA3C"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -676,22 +654,14 @@
 			}
 			id: "3ECB4CCC61F2F3A2"
 			optional: true
-			rewards: [
-				{
-					id: "451A2CB525E1636A"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "765560272ACFED51"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					count: 2
-					id: "765560272ACFED51"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -745,22 +715,14 @@
 			}
 			id: "06E1B8F90FA2EBB3"
 			optional: true
-			rewards: [
-				{
-					id: "22F4B227FE21D9D4"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "34CAAF45136F652A"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					count: 2
-					id: "34CAAF45136F652A"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -814,22 +776,14 @@
 			}
 			id: "1F0ADF87B63B50AC"
 			optional: true
-			rewards: [
-				{
-					id: "53A9EDAEE1B6A702"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "38E25094280D4849"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					count: 2
-					id: "38E25094280D4849"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -883,22 +837,14 @@
 			}
 			id: "37330FAD4C596F54"
 			optional: true
-			rewards: [
-				{
-					id: "1BA0C55E322358E9"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "5859EB74595DE445"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					count: 2
-					id: "5859EB74595DE445"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -952,22 +898,14 @@
 			}
 			id: "08D03AA0E1D218F7"
 			optional: true
-			rewards: [
-				{
-					id: "37AB4F503EF8BD69"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "083F099430B9CD58"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					count: 2
-					id: "083F099430B9CD58"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1021,22 +959,14 @@
 			}
 			id: "684AAE454101D8B7"
 			optional: true
-			rewards: [
-				{
-					id: "35E6782EBEECEAF1"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "109B871973E050DD"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					count: 2
-					id: "109B871973E050DD"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1090,22 +1020,14 @@
 			}
 			id: "63002C7AFB80AC48"
 			optional: true
-			rewards: [
-				{
-					id: "764942EAB7C92FCB"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "2D6659F8BCBC88CC"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					count: 2
-					id: "2D6659F8BCBC88CC"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1160,22 +1082,14 @@
 			}
 			id: "20DCC194EED4395B"
 			optional: true
-			rewards: [
-				{
-					id: "0AB584F4DEDDD331"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "2A9A08CAFD300578"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					count: 2
-					id: "2A9A08CAFD300578"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1221,22 +1135,14 @@
 			}
 			id: "5797A5E2EF8E4733"
 			optional: true
-			rewards: [
-				{
-					id: "21A67277C4577710"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "721B1DE574DA1A91"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					count: 2
-					id: "721B1DE574DA1A91"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1289,12 +1195,6 @@
 			id: "664F7957756D84FF"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3AB940CDA97A1D8D"
-					table_id: 8287008370766188281L
-					type: "choice"
-				}
-				{
 					count: 2
 					id: "4AA76C062CB743D4"
 					item: {
@@ -1302,6 +1202,12 @@
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AB940CDA97A1D8D"
+					table_id: 8287008370766188281L
+					type: "choice"
 				}
 			]
 			shape: "diamond"
@@ -1321,7 +1227,7 @@
 			dependencies: ["08766B8721B4E541"]
 			id: "32C6E1FD67863F50"
 			rewards: [{
-				count: 5
+				count: 3
 				id: "74E34801FB783B3D"
 				item: {
 					count: 1
@@ -1348,6 +1254,15 @@
 			id: "4D55D9FBE06DAA46"
 			rewards: [
 				{
+					count: 5
+					id: "035B152B07CB1E93"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
 					feedback_message: "魔法技能已升级"
 					icon: {
@@ -1359,21 +1274,8 @@
 					id: "54EA6D3EAF40CD8A"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
-				}
-				{
-					count: 5
-					id: "035B152B07CB1E93"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "4069FCBF860995D3"
-					type: "xp"
-					xp: 50
 				}
 			]
 			shape: "hexagon"
@@ -1394,22 +1296,15 @@
 			hide_dependency_lines: true
 			id: "4B5C8935A7D7D253"
 			optional: true
-			rewards: [
-				{
-					id: "6B2160BEBB72D1B6"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "7F3071F4248C673E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "7F3071F4248C673E"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "258808BC9DF6C7A3"
@@ -1427,22 +1322,15 @@
 			hide_dependency_lines: true
 			id: "5B2EF619290CBCDA"
 			optional: true
-			rewards: [
-				{
-					id: "702D8763D77A946F"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "0F43F7DDCF3CCE68"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "0F43F7DDCF3CCE68"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6907BB2D9A0EBC4B"
@@ -1460,22 +1348,15 @@
 			hide_dependency_lines: true
 			id: "269085315AD48F88"
 			optional: true
-			rewards: [
-				{
-					id: "09646FA67B330C48"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "227C1491C230FF71"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "227C1491C230FF71"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6F3AA6C9486970DC"
@@ -1493,22 +1374,15 @@
 			hide_dependency_lines: true
 			id: "5A818D2F39A6679B"
 			optional: true
-			rewards: [
-				{
-					id: "6200AF40A291A36F"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "4C996DC0D68A5A6A"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "4C996DC0D68A5A6A"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "57B2A12FFD48E0FD"
@@ -1526,22 +1400,15 @@
 			hide_dependency_lines: true
 			id: "34A49E11025231DA"
 			optional: true
-			rewards: [
-				{
-					id: "22700393FE89238F"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "0EFFEEB3B989CB54"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "0EFFEEB3B989CB54"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6036FE7AC929DCEB"
@@ -1559,22 +1426,15 @@
 			hide_dependency_lines: true
 			id: "71C6807139E44B6A"
 			optional: true
-			rewards: [
-				{
-					id: "2B3D9B5020A73C9C"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "143E8E74357E3BBE"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "143E8E74357E3BBE"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "265501477687BC29"
@@ -1592,22 +1452,15 @@
 			hide_dependency_lines: true
 			id: "321229F5E7574245"
 			optional: true
-			rewards: [
-				{
-					id: "0A88093A66CD3946"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "7E7AB62F3FCF3A1C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "7E7AB62F3FCF3A1C"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "47B477393A5F5461"
@@ -1625,22 +1478,15 @@
 			hide_dependency_lines: true
 			id: "28C59127725B1F84"
 			optional: true
-			rewards: [
-				{
-					id: "725E230DFB8AF84B"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "4389FC3C860E7D14"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "4389FC3C860E7D14"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "701960C3B22372C7"
@@ -1658,22 +1504,15 @@
 			hide_dependency_lines: true
 			id: "2D8FF6CCB5220982"
 			optional: true
-			rewards: [
-				{
-					id: "33B8B465222C8D56"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "3687F487DC7BF31B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "3687F487DC7BF31B"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "277F8C14B2728BF7"
@@ -1691,22 +1530,15 @@
 			hide_dependency_lines: true
 			id: "7BA817A69CE39AF0"
 			optional: true
-			rewards: [
-				{
-					id: "107A0D9BFB26FD78"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "055E3F7F640164A8"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "055E3F7F640164A8"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6BE71875DEA7996E"
@@ -1724,22 +1556,15 @@
 			hide_dependency_lines: true
 			id: "2075944B1DA3B63C"
 			optional: true
-			rewards: [
-				{
-					id: "71C687B38FD8B04F"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "643640A0DF36EDAB"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "643640A0DF36EDAB"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "76824FEE146EDA15"
@@ -1756,22 +1581,15 @@
 			dependencies: ["4D55D9FBE06DAA46"]
 			id: "77724B4D52091CD3"
 			optional: true
-			rewards: [
-				{
-					id: "3132DE5D867477B5"
-					type: "xp_levels"
-					xp_levels: 50
+			rewards: [{
+				count: 5
+				id: "3392204D3ADC7750"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "3392204D3ADC7750"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "700E799281266E97"
@@ -1788,22 +1606,15 @@
 			dependencies: ["4D55D9FBE06DAA46"]
 			id: "4554DAFCC3ED4543"
 			optional: true
-			rewards: [
-				{
-					id: "19BF34F43EF62378"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 5
+				id: "0D58F708C0DCA8EE"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "0D58F708C0DCA8EE"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "422800254BE93E6D"
@@ -1820,22 +1631,15 @@
 			dependencies: ["4D55D9FBE06DAA46"]
 			id: "762BEF38A5CD79C5"
 			optional: true
-			rewards: [
-				{
-					count: 5
-					id: "49214971ED4BA426"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "49214971ED4BA426"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "2DCD227527274252"
-					type: "xp"
-					xp: 50
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "53925C9C83213C09"
@@ -1852,22 +1656,15 @@
 			dependencies: ["4D55D9FBE06DAA46"]
 			id: "1AE02F64F4AD81DC"
 			optional: true
-			rewards: [
-				{
-					count: 5
-					id: "1F7B101DAFA65237"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "1F7B101DAFA65237"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "540F346DFC361FD5"
-					type: "xp"
-					xp: 50
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6766D1F9853A95B4"
@@ -1884,22 +1681,15 @@
 			dependencies: ["4D55D9FBE06DAA46"]
 			id: "2C7CFA7BB32C25BA"
 			optional: true
-			rewards: [
-				{
-					id: "5E1013C0F76D74D9"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 5
+				id: "16957C44FCA70B37"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "16957C44FCA70B37"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "25E31CC6D02AD7C6"
@@ -1916,22 +1706,15 @@
 			dependencies: ["4D55D9FBE06DAA46"]
 			id: "5E9000948A06C94A"
 			optional: true
-			rewards: [
-				{
-					id: "4697193414D5135E"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 5
+				id: "4E05FF777AF0F06B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "4E05FF777AF0F06B"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "29664AB0CD22BDE5"
@@ -1948,22 +1731,15 @@
 			dependencies: ["4D55D9FBE06DAA46"]
 			id: "5CDC5A9146549977"
 			optional: true
-			rewards: [
-				{
-					id: "4BB2DB6807D1B1FA"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 5
+				id: "5F5A2BB5C9B3735E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "5F5A2BB5C9B3735E"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4346DFC3E889A572"
@@ -1980,22 +1756,15 @@
 			dependencies: ["4D55D9FBE06DAA46"]
 			id: "23C9C45D06917EA9"
 			optional: true
-			rewards: [
-				{
-					count: 5
-					id: "570ED77C0854F232"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "570ED77C0854F232"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "36D7A4B484EFF3ED"
-					type: "xp"
-					xp: 50
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "450E6E0E64D7B9A3"
@@ -2012,22 +1781,15 @@
 			dependencies: ["4D55D9FBE06DAA46"]
 			id: "1E3C0DD9ACCCC3F0"
 			optional: true
-			rewards: [
-				{
-					id: "6F915BDA3D2D5BED"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 5
+				id: "7E08DEAA92D7664C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "7E08DEAA92D7664C"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "57DD95E36D6216FA"
@@ -2044,22 +1806,15 @@
 			dependencies: ["4D55D9FBE06DAA46"]
 			id: "76328D50B73F2DAE"
 			optional: true
-			rewards: [
-				{
-					id: "7CF2F5D6EC51F54D"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				count: 5
+				id: "742DAF2ED2EB719F"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "742DAF2ED2EB719F"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3C0A28CC0E9FA7AB"
@@ -2076,22 +1831,15 @@
 			dependencies: ["4D55D9FBE06DAA46"]
 			id: "261F26D8B7121272"
 			optional: true
-			rewards: [
-				{
-					id: "7F36A093AABFC35D"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 5
+				id: "0E3ABBFE535FC6D1"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "0E3ABBFE535FC6D1"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1B0A3B01592533CB"
@@ -2121,12 +1869,6 @@
 			id: "3A7489C33ED56F3B"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "752D7271B030BDE7"
-					table_id: 4929013804932707720L
-					type: "random"
-				}
-				{
 					count: 3
 					id: "70C41A1ABB93FBCE"
 					item: {
@@ -2136,9 +1878,10 @@
 					type: "item"
 				}
 				{
-					id: "76A59C06B1443669"
-					type: "xp"
-					xp: 10
+					exclude_from_claim_all: true
+					id: "752D7271B030BDE7"
+					table_id: 4929013804932707720L
+					type: "random"
 				}
 			]
 			shape: "square"
@@ -2188,6 +1931,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 5
+					id: "6179F29E53C80884"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
 					feedback_message: "魔法技能已升级"
 					icon: {
@@ -2199,21 +1951,8 @@
 					id: "05087ECEA137555C"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
-				}
-				{
-					count: 5
-					id: "6179F29E53C80884"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "5C6BD0029BAC4B01"
-					type: "xp"
-					xp: 25
 				}
 			]
 			shape: "square"
@@ -2243,6 +1982,14 @@
 			optional: true
 			rewards: [
 				{
+					id: "74D5D0F1FE221811"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
 					feedback_message: "魔法技能已升级"
 					icon: {
@@ -2254,15 +2001,8 @@
 					id: "12F98B4197ADC9A1"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
-				}
-				{
-					id: "74D5D0F1FE221811"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
 				}
 				{
 					id: "386C50FD4F454CBB"
@@ -2287,11 +2027,6 @@
 						id: "minecraft:pink_banner"
 					}
 					type: "item"
-				}
-				{
-					id: "35F437E35F4CA020"
-					type: "xp"
-					xp: 50
 				}
 			]
 			shape: "square"
@@ -2344,6 +2079,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
+					id: "5860BE42D7CABE0A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 3"
 					feedback_message: "魔法技能已升级"
 					icon: {
@@ -2357,20 +2101,6 @@
 					silent: true
 					team_reward: false
 					type: "command"
-				}
-				{
-					id: "5C32740B6A4E3207"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "5860BE42D7CABE0A"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "diamond"
@@ -2400,6 +2130,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
+					id: "4644C10F62864281"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 3"
 					feedback_message: "魔法技能已升级"
 					icon: {
@@ -2413,20 +2152,6 @@
 					silent: true
 					team_reward: false
 					type: "command"
-				}
-				{
-					id: "7C8AF871A3DCD969"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "4644C10F62864281"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "diamond"
@@ -2457,6 +2182,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 5
+					id: "00BE65719A796969"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
 					feedback_message: "魔法技能已升级"
 					icon: {
@@ -2468,16 +2202,8 @@
 					id: "17E16DEEF43F32D8"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
-				}
-				{
-					count: 5
-					id: "00BE65719A796969"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "square"
@@ -2506,6 +2232,14 @@
 			optional: true
 			rewards: [
 				{
+					id: "69D4DB9DFDC7C811"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
 					feedback_message: "魔法技能已升级"
 					icon: {
@@ -2517,15 +2251,8 @@
 					id: "239B71D23AC7CC7B"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
-				}
-				{
-					id: "69D4DB9DFDC7C811"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "square"
@@ -2555,6 +2282,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 5
+					id: "49FE05FC56380A8A"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
 					feedback_message: "魔法技能已升级"
 					icon: {
@@ -2566,21 +2302,8 @@
 					id: "30027B5188AB9E9B"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
-				}
-				{
-					count: 5
-					id: "49FE05FC56380A8A"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "60F39432D84CC2E5"
-					type: "xp"
-					xp: 50
 				}
 			]
 			shape: "square"
@@ -2610,6 +2333,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 5
+					id: "163DCD3AD27FB931"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
 					feedback_message: "魔法技能已升级"
 					icon: {
@@ -2621,16 +2353,8 @@
 					id: "5C52ECADF27A58D3"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
-				}
-				{
-					count: 5
-					id: "163DCD3AD27FB931"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "square"
@@ -2660,6 +2384,14 @@
 			optional: true
 			rewards: [
 				{
+					id: "519F4E7AFCFF66BD"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
 					feedback_message: "魔法技能已升级"
 					icon: {
@@ -2671,20 +2403,8 @@
 					id: "6ED22F189FEB27E2"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
-				}
-				{
-					id: "519F4E7AFCFF66BD"
-					item: {
-						count: 1
-						id: "magic_coins:crystal_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "7C5263967155B2AB"
-					type: "xp_levels"
-					xp_levels: 100
 				}
 			]
 			shape: "square"
@@ -2744,6 +2464,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
+					id: "02F227B340F3445D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
 					feedback_message: "魔法技能已升级"
 					icon: {
@@ -2755,21 +2484,8 @@
 					id: "0F13AA671453AE24"
 					permission_level: 2
 					silent: true
+					team_reward: false
 					type: "command"
-				}
-				{
-					count: 2
-					id: "02F227B340F3445D"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "702A1E633F3FB7B9"
-					type: "xp"
-					xp: 50
 				}
 			]
 			shape: "square"
@@ -2841,22 +2557,15 @@
 			hide_dependency_lines: true
 			id: "4D5E3B93FFCF091B"
 			optional: true
-			rewards: [
-				{
-					id: "0677CED218DAEE6D"
-					type: "xp"
-					xp: 25
+			rewards: [{
+				count: 3
+				id: "2FCF453A37133EF4"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 5
-					id: "2FCF453A37133EF4"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "156D9ED30C009936"
@@ -2874,21 +2583,14 @@
 			hide_dependency_lines: true
 			id: "6AC94BF73641EC4A"
 			optional: true
-			rewards: [
-				{
-					id: "091AC3B128E553A7"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "296A62DBD4F7CDC8"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					id: "296A62DBD4F7CDC8"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "48DB2D311E62B66A"
@@ -2906,21 +2608,14 @@
 			hide_dependency_lines: true
 			id: "1EE339A0DCABD78E"
 			optional: true
-			rewards: [
-				{
-					id: "023F869DB0EBE309"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "760F3E5919AE8BE7"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
 				}
-				{
-					id: "760F3E5919AE8BE7"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "175F1C3184796D67"
@@ -2947,6 +2642,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
+					id: "796E9E1D05312540"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					command: "/puffish_skills points add @s puffish_skills:magic 3"
 					feedback_message: "魔法技能已升级"
 					icon: {
@@ -2960,20 +2664,6 @@
 					silent: true
 					team_reward: false
 					type: "command"
-				}
-				{
-					id: "1673A930C9DB4ECC"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 3
-					id: "796E9E1D05312540"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "diamond"
@@ -3008,7 +2698,7 @@
 			id: "201BB935C9972574"
 			optional: true
 			rewards: [{
-				count: 5
+				count: 3
 				id: "4FC922A657C40B90"
 				item: {
 					count: 1
@@ -3037,6 +2727,14 @@
 			id: "0CA75E81F6824B22"
 			rewards: [
 				{
+					id: "69E9CF16682767B4"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					exclude_from_claim_all: true
 					id: "3468FEB924177219"
 					table_id: 8220593782532651155L
@@ -3049,19 +2747,6 @@
 					table_id: 4929013804932707720L
 					team_reward: false
 					type: "choice"
-				}
-				{
-					id: "69E9CF16682767B4"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "21E947345865D0BD"
-					type: "xp"
-					xp: 25
 				}
 			]
 			shape: "hexagon"

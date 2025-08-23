@@ -4310,6 +4310,7 @@
 				id: "occultism:ritual_dummy/resurrect_familiar"
 			}
 			id: "570CA0A0CA64C09E"
+			optional: true
 			rewards: [
 				{
 					id: "3B54AD2B594D6C2C"
@@ -4332,6 +4333,10 @@
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [
+				{
+					id: "04B4EE9AE7C56179"
+					type: "checkmark"
+				}
 				{
 					advancement: "occultism:occultism/resurrect_familiar"
 					criterion: ""
