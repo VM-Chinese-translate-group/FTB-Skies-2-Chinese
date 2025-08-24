@@ -682,13 +682,13 @@
 	quest.05D774264FE9042A.quest_subtitle: "太阳能发电，T4"
 	quest.05D774264FE9042A.title: "&5蚀空合金太阳能板"
 	quest.0603F40C8DB12868.quest_desc: [
-		"&3Diesel Generators&r can provide on-demand power by burning different fuels, most notably &eDiesel&r."
+		"&3柴油发电机&r可通过燃烧&e柴油&r等燃料产生能量。"
 		""
-		"These will only consume fuel when producing energy, unlike &2Boilers&r."
+		"不像蒸汽锅炉，柴油发电机只有发电时才会消耗燃料。"
 		""
-		"The &aLV Diesel Generator&r can produce up to 64 EU/t."
+		"&a低压柴油发电机&r功率最高可达64EU/t。"
 		""
-		"[\"You can refer to the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+		"[\"你可以前往\", { \"text\": \"现代化工业任务线\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往现代化工业章节\"} }, \"开始发展现代化工业。\"]"
 	]
 	quest.0603F40C8DB12868.title: "&a低压柴油发电机"
 	quest.060A25320CCAF480.title: "&b电子电路"
@@ -1544,7 +1544,7 @@
 		""
 		"&6仿造法阵&r：提供全面的伤害减免，能够降低受到的物理、魔法以及其他所有类型的伤害。"
 	]
-	quest.0C5173F51D68317C.title: "&5牺牲武器"
+	quest.0C5173F51D68317C.title: "&5献祭武器"
 	quest.0C59F30673774398.quest_desc: [
 		"&a调节升级&r可控制进出你系统的物品数量。"
 		""
@@ -2860,9 +2860,9 @@
 	]
 	quest.1A6984A6484FF8F3.title: "&f构建第一个&d法术"
 	quest.1A867730290C7745.quest_desc: [
-		"The &dLarge Steam Turbine&r consumes a variety of fluids to produce up to 16,384 EU/t."
+		"&d大型蒸汽涡轮机&r需要消耗多种流体，最高可产生16384EU/t的能量。"
 		""
-		"[\"You can refer to the \", {\"text\": \"Main Large Steam Turbine Quest\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4C3F295D0F44A730\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Large Steam Turbine Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+		"[\"你可以前往\", {\"text\": \"大型蒸汽轮机主线\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4C3F295D0F44A730\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往大型蒸汽轮机任务线\"} }, \"查询更多资料，或是前往\", { \"text\": \"现代化工业任务线\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往现代化工业章节\"} }, \"开始发展现代化工业。\"]"
 	]
 	quest.1A867730290C7745.title: "&d大型蒸汽涡轮机"
 	quest.1A89ACDC528588D5.quest_desc: ["由&6烈焰金&r盔甲使用&3苍穹晶模板&r升级而来"]
@@ -3036,7 +3036,7 @@
 		""
 		"&e古代织物&r会把不同盔甲转化成不同独立的样式，而其他织物无论转化什么盔甲都是同一种样式。（注：实测都只有一套样式）"
 		""
-		"&o&7Ex. a Soulhunter Robe and a Soulstained Chestplate will seem identical after a Cornered Weave is applied.&r"
+		"&o&7举个例子，用了指挥官织物后，灵魂猎手长袍会和魂染钢胸甲长得一模一样。&r"
 	]
 	quest.1BC994881BC225ED.title: "&a织物工作台"
 	quest.1BDE743ABCC3E78A.title: "&a第一层"
@@ -4993,7 +4993,7 @@
 		"&a安山隧道&r可用于隐藏&a传送带&r或均匀分配通过的物品。"
 	]
 	quest.2ECE092636880CB8.title: "&f物品处理"
-	quest.2EE0FD7E1FC4646A.quest_desc: ["This weird byproduct of blight has few uses."]
+	quest.2EE0FD7E1FC4646A.quest_desc: ["这种怪诞的腐化副产物，似乎没什么大用。"]
 	quest.2EE0FD7E1FC4646A.title: "&a大型怪异晶体"
 	quest.2EE5352D8E5F715F.title: "&f击杀20只&c蜘蛛"
 	quest.2EEE782146096F9C.quest_desc: ["&e建筑小帮手&r大概是最适合建筑师的模组了。这些小帮手能大大提升你的建筑体验！"]
@@ -5570,7 +5570,7 @@
 	quest.33F236BD2DA075C3.quest_desc: [
 		"虽然&a咒灰&r只是一种非常入门级的魔法道具，但它在&e灵灾&r中确实有着不少用途。"
 		""
-		"Having a sizable handful prepared for crafting is recommended."
+		"建议手头常备这种材料，以便于合成。"
 	]
 	quest.33F236BD2DA075C3.title: "&f咒灰"
 	quest.3404B0A29BF5A055.quest_desc: ["&2初级流体收集器&r无需桶或其他容器便能收集流体。很适合当做无限水源呢！"]
@@ -5900,9 +5900,9 @@
 	quest.361957009F62D810.quest_subtitle: "哦豁"
 	quest.361957009F62D810.title: "&a移除机器中的气体"
 	quest.361D61EE15801A6E.quest_desc: [
-		"The &3HV Diesel Generator&r can produce up to 1,024 EU/t."
+		"&3高压柴油发电机&r功率最高可达1024EU/t。"
 		""
-		"[\"You can refer to the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+		"[\"你可以前往\", { \"text\": \"现代化工业任务线\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往现代化工业章节\"} }, \"开始发展现代化工业。\"]"
 	]
 	quest.361D61EE15801A6E.title: "&d高压柴油发电机"
 	quest.362E2443BBAEDB95.quest_desc: ["&7&o随机获得一个强力的符文"]
@@ -7104,7 +7104,7 @@
 		""
 		"&d奥术精魂&r是精魂中最关键也最基本的一种，稳定获取奥术精魂对于进一步的合成来说几乎是必须的。不过若想往前推进，收集所有类型的精魂同样是一个重要的目标。去杀死各种各样的生物，看看它们精魂是什么派别！"
 		""
-		"&eJars&r can be crafted soon that can hold a vast amount of any one type of these spirits, and with a &eLamplighter's Tongs&r in one hand they can be placed as a mesmerizing block of light."
+		"你很快就能合成&e精魄罐&r，这种罐子可以容纳大量同种精魄；若再手持&e明灯夹钳&r，你便能放置下来装满精魄的罐子，把它变成一个十分迷人的光源方块。"
 	]
 	quest.41C439295D5558C2.title: "&f灵魂派别"
 	quest.41C7ED53AA36D647.quest_desc: [
@@ -8785,9 +8785,9 @@
 	]
 	quest.51D07B8762C46982.title: "&e绑定仪式"
 	quest.51D242BB3BA2BE40.quest_desc: [
-		"The &3HV Steam Turbine&r consumes &7Steam&r to produce up to 512 EU/t."
+		"&3高压蒸汽涡轮机&r消耗&7蒸汽&r，最高可产生512EU/t的能量。"
 		""
-		"[\"You can refer to the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+		"[\"你可以前往\", { \"text\": \"现代化工业任务线\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往现代化工业章节\"} }, \"开始发展现代化工业。\"]"
 	]
 	quest.51D242BB3BA2BE40.title: "&3高压蒸汽涡轮机"
 	quest.51DE4859912D1EB6.title: "&e第三层"
@@ -10812,9 +10812,9 @@
 	]
 	quest.6634CE80E1C7C18D.title: "&f奥术"
 	quest.664551F5E62A9D00.quest_desc: [
-		"The &2MV Diesel Generator&r can produce up to 256 EU/t."
+		"&2中压柴油发电机&r功率最高可达256EU/t。"
 		""
-		"[\"You can refer to the \", {\"text\": \"Main MV Diesel Generator Quest\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"58F29A199D553D29\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MV Diesel Generator Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+		"[\"你可以前往\", {\"text\": \"中压柴油发电机主线\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"58F29A199D553D29\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往中压柴油发电机任务\"} }, \"查询更多资料，或是前往\", { \"text\": \"现代化工业任务线\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往现代化工业章节\"} }, \"开始发展现代化工业。\"]"
 	]
 	quest.664551F5E62A9D00.title: "&3中压柴油发电机"
 	quest.664924519F78893C.quest_desc: [
@@ -11004,9 +11004,9 @@
 	quest.67F07FBB50AB431F.quest_subtitle: "来自神化"
 	quest.67F07FBB50AB431F.title: "&a刷怪笼刷怪场"
 	quest.67F79CE27B61F135.quest_desc: [
-		"The &aLV Diesel Generator&r can produce up to 64 EU/t."
+		"&a低压柴油发电机&r功率最高可达64EU/t。"
 		""
-		"[\"You can refer to the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
+		"[\"你可以前往\", { \"text\": \"现代化工业任务线\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往现代化工业章节\"} }, \"开始发展现代化工业。\"]"
 	]
 	quest.67F79CE27B61F135.title: "&5大型柴油发电机"
 	quest.6805CAD68E2C1515.quest_desc: [
@@ -11326,9 +11326,9 @@
 	quest.6BCA2ED05C7D9D4E.quest_desc: [
 		"只要靠这套盔甲来隔开朝你进攻的施法者，它那对魔法的排斥就会给予你强大的防御能力。"
 		""
-		"Magic attacks and boons alike are partially absorbed by the &5Malignant Stronghold&r, used to further fuel the armor's integrity and warding capabilities."
+		"&5恶念要塞&r会吸收你的一部分法术强度及其他属性，用作这套盔甲的食粮，从而进一步将其补完，并增强其防御能力。"
 		""
-		"&7The more they fight, the closer their end approaches."
+		"&7他们越是挣扎，死亡越是逼近。"
 	]
 	quest.6BCA2ED05C7D9D4E.title: "&6恶念要塞盔甲"
 	quest.6BD4E9B7B2C99C27.quest_desc: [
@@ -11647,8 +11647,8 @@
 		"只要&a物质网络管道&r中有一处在接受能量，那么它就会自动将能量传输给网络中的机器，管道也会自动将物质传输到&a物质储罐&r里。"
 	]
 	quest.705E4FFB4FCADFD1.title: "&f物质网络"
-	quest.7061D35A3E480891.quest_desc: ["These are powerful &2Runes&r that can provide powerful and unique effects to enchance your effects."]
-	quest.7061D35A3E480891.title: "&5Umbral Runes"
+	quest.7061D35A3E480891.quest_desc: ["这有多种强大的&2符文&r，能够提供独特而有力的增益效果，以此强化你的各项能力。"]
+	quest.7061D35A3E480891.title: "&5幽影符文"
 	quest.7067E5B47D381423.quest_desc: [
 		"假如你想让魔源能自由传输的话，就要制作几台&b魔源中继器&r。"
 		""
@@ -11761,11 +11761,11 @@
 	quest.7141C2CA9321B710.quest_subtitle: "看似复杂，其实简单。"
 	quest.7141C2CA9321B710.title: "&f自动化&d无人机&f来耕种！"
 	quest.7169587C7DC4C8C0.quest_desc: [
-		"&5Umbral Spirits&r can be acquired from sacrificing souls of the living."
+		"若想获得&5幽影精魄&r，需以生命的灵魂作为祭品。"
 		""
-		"This may be done by throwing yourself into the &5Weeping Well&r. It can also be dropped rarely by slaying villagers with the &6Veil's Edge&r."
+		"你可以将自己投入&5哭泣之井&r来完成献祭；此外，在使用&6帷幔之锋&r杀死村民时，也有小概率获得此物。"
 	]
-	quest.7169587C7DC4C8C0.title: "&5Spirit of Sacrifice"
+	quest.7169587C7DC4C8C0.title: "&5献祭精魄"
 	quest.717C94045F0ADA01.quest_desc: ["召唤流浪者公会中的众多商人之一前来拜访你，为你提供各种物品，在冒险时助你一臂之力。"]
 	quest.717C94045F0ADA01.title: "&a商人事件"
 	quest.71806E77AEE9E050.quest_desc: [
@@ -12338,9 +12338,9 @@
 	]
 	quest.7695C03E7A574D93.title: "&b活化水晶碎片"
 	quest.76A73B12FC436D0C.quest_desc: [
-		"You have opened your eyes to all knowledge known to "
+		"你已窥见所有已知的知识。"
 		""
-		"It's recommended to craft yourself the &6Encyclopedia Unveiled&r to unlock all available content for &eMalum&r and &eGaze&r."
+		"现在，推荐你合成一本&6越幔全典&r，来解锁&e灵灾&r和&eGaze&r的全部可用内容。"
 	]
 	quest.76A73B12FC436D0C.title: "&6越幔全典"
 	quest.76C535C621A58F74.title: "&d苍穹晶斧"
@@ -12373,7 +12373,7 @@
 		""
 		"充能会随时间自动恢复（详见饱食度上的状态条），还可以被附魔和饰品强化充能上限或加快恢复速度。"
 	]
-	quest.77074CE5719763BB.title: "&dMnemonic Hex Staff"
+	quest.77074CE5719763BB.title: "&d忆念咒术法杖"
 	quest.771A95966FB7FE50.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
@@ -12745,7 +12745,7 @@
 		""
 		"&7这种共鸣同样存在于被动生物与某些仪式之间…"
 	]
-	quest.7A62B07AD0BCCCEA.title: "&fAutomating Spirits?"
+	quest.7A62B07AD0BCCCEA.title: "&f自动化精魄？"
 	quest.7A6E340CD1F4D5CA.title: "&5模板：蚀空合金"
 	quest.7A7B3CDAAAC2409D.quest_desc: [
 		"在&6凋灵生成器&r里放入正确物品并输入所需能量后，它就会自动生成凋灵。"
@@ -13564,7 +13564,7 @@
 	task.1114E07F8446FAA0.title: "方块管理"
 	task.1129E77967D0783F.title: "&e找到建筑&f：&c烈焰竞技场"
 	task.115CB2D5036912BA.title: "任意#minecraft:leaves"
-	task.11B86810F19A15B9.title: "Any &5Umbral Rune"
+	task.11B86810F19A15B9.title: "任意&5幽影符文"
 	task.11BAD76CFFF369EF.title: "&e造访维度&f：&d末地"
 	task.1203293F62D3F55F.title: "第三层：完成"
 	task.1211B7B1BC40225B.title: "存储控制器"
