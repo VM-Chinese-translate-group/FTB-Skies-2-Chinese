@@ -12239,7 +12239,7 @@
 	quest.755E80CFF2053CF8.title: "&3激活金字塔&r"
 	quest.75621DDF80A2B05F.quest_desc: ["&a魔源中继器：收集型&r会自动从未用支配之杖建立连接的魔源罐中提取魔源，提取范围为五格。"]
 	quest.75621DDF80A2B05F.title: "&d收集魔源"
-	quest.7577594004D188D9.quest_desc: ["&cVinyl Chloride&r is used to make &aPolyvinyl Chrloride&r by combining it with lead or &4Chromium Tiny Dust&r in a &3Chemical Reactor&r."]
+	quest.7577594004D188D9.quest_desc: ["在&3化学反应釜&r中将&c氯乙烯&r与铅或&4铬细粉&r结合，以制作&a聚氯乙烯&r。"]
 	quest.7577594004D188D9.title: "&c氯乙烯"
 	quest.75818C9F54BD4C02.quest_desc: [
 		"&a能源转换器&r有两种模式："
