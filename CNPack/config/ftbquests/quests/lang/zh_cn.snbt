@@ -8753,7 +8753,7 @@
 	quest.51804232265672A9.quest_desc: [
 		"在物品栏界面按&bT&r键即可打开/关闭垃圾桶槽位。按&aDelete&r键可以直接把物品丢掉，按&aShift+Delete&r则可以一次性丢掉多组物品。"
 		""
-		"你物品栏左上方的&a垃圾桶&r图标也可以用。输入&a/trashcan&r指令也可以打开它。"
+		"你物品栏左上方的&a垃圾桶&r图标也可以用。输入&a/trashcan&r命令也可以打开它。"
 	]
 	quest.51804232265672A9.title: "&f物品栏垃圾桶！"
 	quest.51B5EE931AC1B86E.quest_desc: [
@@ -9791,7 +9791,7 @@
 		""
 		"它们本意是好的，只是常常在不合时宜的地方现身，也判断不出玩家现在是否需要它们的帮助。"
 		""
-		"你可以使用这条指令"
+		"你可以使用这条命令"
 		"&b/events toggle ftb:wandering_trader&r"
 		"告诉他们现在需要他们的帮助。"
 	]
@@ -12525,7 +12525,7 @@
 		"&a/spark tps&r | 检查服务器的TPS，有效了解游戏的卡顿情况。"
 	]
 	quest.7804E97C7772403E.quest_desc: [
-		"想要个随身的工作台？做一个&a手持工作台&r吧！"
+		"想要个随身的工作台？做一个&a便携式工作台&r吧！"
 		""
 		"你也可以把它放进&b饰品栏&r里，然后设置一个快捷键来便捷地打开它。"
 	]
@@ -13515,7 +13515,7 @@
 	task.03DFD823ACDCF36F.title: "操控流体"
 	task.047B3C49E817FA1F.title: "我已经有了电力"
 	task.04A70E089DED1FFE.title: "&e观察&f：金属冲压机"
-	task.04B4EE9AE7C56179.title: "Proceed"
+	task.04B4EE9AE7C56179.title: "继续"
 	task.0530149F4E3FF764.title: "厨房橱柜"
 	task.056DCB4713EB0918.title: "任意魔法作物"
 	task.05B209B3FC005914.title: "击杀每种敌对生物各一只"
