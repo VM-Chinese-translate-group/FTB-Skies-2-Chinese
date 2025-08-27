@@ -692,7 +692,7 @@
 	quest.05D58770A092F5E6.quest_desc: [
 		"When powered, the &3Plasmid Injector&r is used to apply a &3Plasmid&r to a &cFilled Syringe&r."
 		""
-		"You can then right-click this &aSyringe&r to add the gene to yourself of an entity if using a &2Metal Syringe&r."
+		"You can then Right-Click this &aSyringe&r to add the gene to yourself, or an entity if using a &2Metal Syringe&r."
 		""
 		"You can also stack multiple genes on the same &aSyringe&r."
 	]
@@ -2980,8 +2980,6 @@
 		"- &6Tyrian Steel Block&r | &6Tier 3&r"
 	]
 	quest.1A648F49F72639CC.title: "&fThe Power of the &dStars"
-	quest.1A6922D9DCAB13A7.quest_desc: ["Improves operation speed and energy efficiency."]
-	quest.1A6922D9DCAB13A7.title: "&fSynergy Matrix Addon"
 	quest.1A6984A6484FF8F3.quest_desc: [
 		"To create your first &dSpell&r, hold a &aSpell Book&r in your hand and press &aC&r. This will open up a menu for crafting &dSpells&r!"
 		""
@@ -6683,7 +6681,7 @@
 	quest.3A084B83B8CFAACD.quest_desc: [
 		"A coliseum floating in the Nether's void, defeat the &cIgnited Revenants&r for their smoldering ashes, and ignite the altar at the top level to face their &cmaster&r."
 		""
-		"The lava-strewn floor at the base holds the memory of an &6ancient champion&r, to be woken with a Cinderous Soulcaller."
+		"The lava-strewn floor at the base holds the memory of an &6ancient champion&r, to be woken with a Cinderous Soulcaller. The key they drop can be used to open the &2vaults&r around the arena."
 	]
 	quest.3A084B83B8CFAACD.title: "&fDiscover the &cBurning Arena"
 	quest.3A17E4DF31D26856.quest_desc: [
@@ -8093,16 +8091,6 @@
 	]
 	quest.46A1341E5E97ABDC.quest_subtitle: "Understanding AE Channels"
 	quest.46A1341E5E97ABDC.title: "&bCables &fand &2Channels"
-	quest.46AF8085E4151D9E.quest_desc: [
-		"The &cBedrock Extractor&r can mine ores from below bedrock at locations where &aResource Nodes&r are found."
-		""
-		"This multiblock machine can only operate when placed directly above &aResource Nodes&r and must be powered using &aEnderic Lasers&r."
-		"{@pagebreak}"
-		"When right-clicked, it will show the targeted &aResource Nodes&r below. It will target the first visible ore node in a 3x3 area below, up to 3 blocks down."
-		""
-		"When in operation, the &cBedrock Extractor&r mines ores directly below it, covering the entire 3x3 area. Each operation randomly selects one of the blocks below. Not all blocks need to be &aResources Nodes&r. Try to find a spot with the most ores right below the extractor for the highest yield."
-	]
-	quest.46AF8085E4151D9E.title: "&cBedrock Extractor"
 	quest.46BB702F2847F818.quest_desc: ["By throwing redstone dust into the laser, you can get &aRestonia Crystals&r, which is used in most &eActually Additions&r recipes."]
 	quest.46BB702F2847F818.title: "&aRestonia Crystal"
 	quest.46C2C45AE017AE81.quest_desc: ["When equipped to a &aJust Dire's Pickaxe&r, right clicking will activate the ability and make nearby ores glow through walls."]
@@ -8375,6 +8363,9 @@
 	]
 	quest.4A07DF8EB4A0C40A.quest_subtitle: "Reel it and Reap"
 	quest.4A07DF8EB4A0C40A.title: "&fPath of Cultivation"
+	quest.4A0A19E73680034F.quest_desc: ["In this modpack, you have more flexibility in placing your bookshelfs. Enchanting tables can pull from &e8&r blocks away!"]
+	quest.4A0A19E73680034F.quest_subtitle: "BEER for short"
+	quest.4A0A19E73680034F.title: "Bookshelf Extended Enchantment Reach"
 	quest.4A0DE2C23F9145ED.quest_desc: [
 		"&6Forbidden \\&\\ Arcanus&r is a beautiful magic mod with some very unique mechanics for crafting items!"
 		""
@@ -11269,12 +11260,6 @@
 		"As proper smashing tools, Hammers can break down Cobblestone into Gravel, Gravel into Dirt, and other similar processes. Try it with compressed versions of these blocks!"
 	]
 	quest.642E67C7C2D1CF10.title: "&fThe Breakdown"
-	quest.6432ABF56BFF2F8F.quest_desc: [
-		"&aResource Nodes&r are infinitely compressed nodes of material found rarely scattered on floating islands in the void."
-		""
-		"&aResource Nodes&r can only be extracted with a &cBedrock Extractor&r."
-	]
-	quest.6432ABF56BFF2F8F.title: "&fResource Nodes"
 	quest.644874076A06F5F4.quest_desc: [
 		"&eMekanism&r is the ultimate technology mod!"
 		""
@@ -12676,8 +12661,6 @@
 		"With access to &dStainless Steel Drills&r, we can harvest &7Shale Oil&r from our &3Oil Drilling Rig&r."
 		""
 		"Once you have a &3Distillation Tower&r, we can run this through to get &aHelium&r, &eSulfuric Naphtha&r, and &7Sulfuric Crude Oil&r."
-		"{@pagebreak}"
-		"(new page placeholder text)"
 	]
 	quest.72C893FBEDFEF87C.title: "&7Shale Oil &fProcessing"
 	quest.72D582D05DC9C7A2.quest_desc: [

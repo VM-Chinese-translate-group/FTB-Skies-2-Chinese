@@ -18,7 +18,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 12.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			height: 2.0d
@@ -52,7 +52,7 @@
 			rotation: 45.0d
 			width: 1.5d
 			x: 12.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			click: "https://moddedmc.org/en/project/oritech/docs"
@@ -70,8 +70,8 @@
 			order: -1
 			rotation: 45.0d
 			width: 1.5d
-			x: 12.0d
-			y: -10.0d
+			x: 9.5d
+			y: -11.5d
 		}
 		{
 			click: "https://moddedmc.wiki/en/project/oritech/docs/processing/reactor/introduction"
@@ -80,8 +80,8 @@
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 12.0d
-			y: -10.0d
+			x: 9.5d
+			y: -11.5d
 		}
 		{
 			height: 4.0d
@@ -172,55 +172,6 @@
 			]
 			x: -6.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["46AF8085E4151D9E"]
-			icon: {
-				id: "oritech:resource_node_platinum"
-			}
-			id: "6432ABF56BFF2F8F"
-			optional: true
-			rewards: [{
-				id: "4CB984949A43BBA2"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				advancement: "minecraft:oritech/resource_node"
-				criterion: ""
-				id: "1217965AB8C1DC61"
-				type: "advancement"
-			}]
-			x: 6.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["091B8E814908DEDF"]
-			dependency_requirement: "all_started"
-			hide_dependency_lines: true
-			id: "46AF8085E4151D9E"
-			optional: true
-			rewards: [{
-				count: 2
-				id: "5A3692D1EB94A041"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
-				}
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "4C72D45A475FBB2B"
-				item: { count: 1, id: "oritech:deep_drill_block" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -1368,7 +1319,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0C9CD2D8F10D750F"]
@@ -1532,7 +1483,7 @@
 				}
 			]
 			x: 8.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6EA5652195DB5FE3"]
@@ -1752,7 +1703,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2C0C63951FDED180"]
@@ -1773,7 +1724,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2C0C63951FDED180"]
@@ -1795,7 +1746,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2C0C63951FDED180"]
@@ -1816,7 +1767,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -2031,7 +1982,7 @@
 				type: "checkmark"
 			}]
 			x: 7.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2588279A071E5A6B"]
@@ -2061,7 +2012,7 @@
 				}
 			]
 			x: 6.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["33E4C81B762892B2"]
@@ -2259,28 +2210,6 @@
 			}]
 			x: 5.0d
 			y: -5.5d
-		}
-		{
-			dependencies: ["091B8E814908DEDF"]
-			hide_dependency_lines: true
-			id: "1A6922D9DCAB13A7"
-			optional: true
-			rewards: [{
-				id: "78E0BB4D111C7F96"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
-				}
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "7B4F26184850479C"
-				item: { count: 1, id: "oritech:machine_ultimate_addon" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -2.5d
 		}
 		{
 			dependencies: ["3FC961B8C0657214"]
