@@ -150,7 +150,7 @@
 			image: "modern_industrialization:fluid/ethylene_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.5d
+			x: 16.0d
 			y: -14.5d
 		}
 		{
@@ -158,7 +158,7 @@
 			image: "modern_industrialization:fluid/ethylene_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.0d
+			x: 14.5d
 			y: -14.5d
 		}
 		{
@@ -207,7 +207,7 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 1.5d
-			x: 7.5d
+			x: 8.0d
 			y: -16.0d
 		}
 		{
@@ -224,7 +224,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: -16.5d
+			y: -17.5d
 		}
 		{
 			height: 1.0d
@@ -255,16 +255,16 @@
 			image: "modern_industrialization:fluid/oxygen_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.5d
-			y: -21.5d
+			x: 6.75d
+			y: -19.75d
 		}
 		{
 			height: 1.0d
 			image: "modern_industrialization:fluid/propene_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
-			y: -19.5d
+			x: 5.5d
+			y: -19.0d
 		}
 		{
 			height: 1.0d
@@ -272,55 +272,55 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.5d
-			y: -23.5d
+			y: -20.5d
 		}
 		{
 			height: 1.0d
 			image: "modern_industrialization:fluid/ethanol_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.5d
-			y: -23.5d
+			x: 6.75d
+			y: -21.25d
 		}
 		{
 			height: 1.0d
 			image: "modern_industrialization:fluid/diethyl_ether_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
-			y: -24.5d
+			x: 5.5d
+			y: -22.0d
 		}
 		{
 			height: 1.0d
 			image: "modern_industrialization:fluid/acrylic_acid_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
-			y: -21.5d
+			x: 5.5d
+			y: -20.5d
 		}
 		{
 			height: 1.0d
 			image: "modern_industrialization:fluid/acetylene_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.0d
-			y: -19.5d
+			x: 3.5d
+			y: -19.0d
 		}
 		{
 			height: 1.0d
 			image: "modern_industrialization:fluid/vinyl_chloride_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.0d
-			y: -21.5d
+			x: 3.5d
+			y: -20.5d
 		}
 		{
 			height: 1.0d
 			image: "modern_industrialization:fluid/polyvinyl_chloride_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.0d
-			y: -24.5d
+			x: 3.5d
+			y: -22.0d
 		}
 		{
 			height: 1.0d
@@ -328,7 +328,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.5d
-			y: -26.5d
+			y: -24.5d
 		}
 		{
 			height: 1.0d
@@ -336,7 +336,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.5d
-			y: -26.5d
+			y: -25.5d
 		}
 		{
 			height: 1.0d
@@ -344,7 +344,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 5.5d
-			y: -26.5d
+			y: -24.5d
 		}
 		{
 			height: 1.0d
@@ -352,15 +352,15 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 5.5d
-			y: -28.0d
+			y: -26.0d
 		}
 		{
 			height: 1.0d
 			image: "modern_industrialization:fluid/styrene_butadiene_rubber_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.5d
-			y: -30.0d
+			x: 2.5d
+			y: -27.0d
 		}
 		{
 			height: 1.0d
@@ -368,7 +368,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.5d
-			y: -28.5d
+			y: -27.0d
 		}
 		{
 			height: 1.96d
@@ -377,7 +377,7 @@
 			rotation: 45.0d
 			width: 1.96d
 			x: -3.0d
-			y: -27.0d
+			y: -25.0d
 		}
 		{
 			color: 11776947
@@ -386,7 +386,7 @@
 			rotation: 45.0d
 			width: 2.15d
 			x: -3.0d
-			y: -27.0d
+			y: -25.0d
 		}
 		{
 			height: 2.0d
@@ -419,7 +419,7 @@
 			order: -5
 			rotation: 0.0d
 			width: 1.5d
-			x: -13.0d
+			x: -12.5d
 			y: -20.65d
 		}
 		{
@@ -428,7 +428,7 @@
 			image: "ftb:textures/quests/modern_industrialization/galaxy.png"
 			rotation: 0.0d
 			width: 13.237333333333334d
-			x: -14.5d
+			x: -14.0d
 			y: -14.5d
 		}
 		{
@@ -436,7 +436,7 @@
 			image: "minecraft:block/nether_portal"
 			rotation: 0.0d
 			width: 1.0d
-			x: -17.5d
+			x: -17.0d
 			y: -14.5d
 		}
 		{
@@ -444,7 +444,7 @@
 			image: "modern_industrialization:fluid/helium_plasma_still"
 			rotation: 45.0d
 			width: 1.0d
-			x: -14.5d
+			x: -14.0d
 			y: -15.5d
 		}
 		{
@@ -453,7 +453,7 @@
 			image: "minecraft:block/glass"
 			rotation: 45.0d
 			width: 1.0d
-			x: -14.5d
+			x: -14.0d
 			y: -15.5d
 		}
 		{
@@ -461,7 +461,7 @@
 			image: "modern_industrialization:fluid/uu_matter_still"
 			rotation: 45.0d
 			width: 1.0d
-			x: -14.5d
+			x: -14.0d
 			y: -13.5d
 		}
 		{
@@ -470,7 +470,7 @@
 			image: "minecraft:block/glass"
 			rotation: 45.0d
 			width: 1.0d
-			x: -14.5d
+			x: -14.0d
 			y: -13.5d
 		}
 		{
@@ -479,7 +479,7 @@
 			image: "minecraft:block/glass"
 			rotation: 0.0d
 			width: 1.0d
-			x: -17.5d
+			x: -17.0d
 			y: -14.5d
 		}
 		{
@@ -533,7 +533,7 @@
 			image: "minecraft:block/crimson_stem_top"
 			rotation: 0.0d
 			width: 2.5d
-			x: -11.5d
+			x: -11.0d
 			y: -18.0d
 		}
 		{
@@ -543,7 +543,7 @@
 			order: -6
 			rotation: 0.0d
 			width: 1.5d
-			x: -12.9877551020408d
+			x: -12.4877551020408d
 			y: -20.667346938775502d
 		}
 		{
@@ -560,8 +560,16 @@
 			image: "modern_industrialization:fluid/boosted_diesel_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.5d
+			x: 8.0d
 			y: -17.5d
+		}
+		{
+			height: 1.0d
+			image: "modern_industrialization:fluid/ethylene_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.25d
+			y: -14.5d
 		}
 	]
 	order_index: 9
@@ -3190,7 +3198,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -8.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2785D267B523F5DC"]
@@ -4015,7 +4023,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -16.0d
 		}
 		{
@@ -4050,7 +4058,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -13.0d
 		}
 		{
@@ -4883,7 +4891,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -15.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["4C6838BED2262721"]
@@ -4916,8 +4924,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -15.0d
+			x: 0.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["1D572D53A6EE3205"]
@@ -4979,7 +4987,7 @@
 				}
 			]
 			x: 0.0d
-			y: -16.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["66B66C0C33071D7B"]
@@ -5013,7 +5021,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -21.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["40CCB0B7868233CA"]
@@ -5048,7 +5056,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -24.5d
+			y: -22.0d
 		}
 		{
 			dependencies: [
@@ -5086,7 +5094,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -24.5d
+			y: -22.0d
 		}
 		{
 			dependencies: ["72C893FBEDFEF87C"]
@@ -5312,7 +5320,7 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
+			x: 8.0d
 			y: -17.5d
 		}
 		{
@@ -5380,8 +5388,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -24.5d
+			x: 8.0d
+			y: -22.0d
 		}
 		{
 			dependencies: [
@@ -5447,8 +5455,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -24.5d
+			x: 5.5d
+			y: -22.0d
 		}
 		{
 			dependencies: ["6126333E1B6B6925"]
@@ -5500,8 +5508,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -23.5d
+			x: 6.75d
+			y: -21.25d
 		}
 		{
 			dependencies: [
@@ -5567,8 +5575,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -21.5d
+			x: 5.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["6BC7C49D7F7D5AAF"]
@@ -5630,7 +5638,7 @@
 				}
 			]
 			x: 4.5d
-			y: -23.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["15AE2FB38468A8B3"]
@@ -5693,8 +5701,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -19.5d
+			x: 5.5d
+			y: -19.0d
 		}
 		{
 			dependencies: ["3E7001F4A49CF787"]
@@ -5758,8 +5766,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -21.5d
+			x: 6.75d
+			y: -19.75d
 		}
 		{
 			dependencies: ["15AE2FB38468A8B3"]
@@ -5820,8 +5828,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -19.5d
+			x: 3.5d
+			y: -19.0d
 		}
 		{
 			dependencies: ["5346FF153D836A07"]
@@ -5882,8 +5890,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -21.5d
+			x: 3.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["7577594004D188D9"]
@@ -5942,8 +5950,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -24.5d
+			x: 3.5d
+			y: -22.0d
 		}
 		{
 			dependencies: [
@@ -5983,7 +5991,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -27.0d
+			y: -25.0d
 		}
 		{
 			dependencies: ["15AE2FB38468A8B3"]
@@ -6045,7 +6053,7 @@
 				}
 			]
 			x: 3.5d
-			y: -26.5d
+			y: -24.5d
 		}
 		{
 			dependencies: ["15AE2FB38468A8B3"]
@@ -6107,7 +6115,7 @@
 				}
 			]
 			x: 4.5d
-			y: -26.5d
+			y: -25.5d
 		}
 		{
 			dependencies: ["15AE2FB38468A8B3"]
@@ -6169,7 +6177,7 @@
 				}
 			]
 			x: 5.5d
-			y: -26.5d
+			y: -24.5d
 		}
 		{
 			dependencies: [
@@ -6234,7 +6242,7 @@
 				}
 			]
 			x: 4.5d
-			y: -28.5d
+			y: -27.0d
 		}
 		{
 			dependencies: ["0F22A0A29B961A1C"]
@@ -6296,7 +6304,7 @@
 				}
 			]
 			x: 5.5d
-			y: -28.0d
+			y: -26.0d
 		}
 		{
 			dependencies: ["7FDC0BD1CCD75B31"]
@@ -6330,7 +6338,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -28.5d
+			y: -26.0d
 		}
 		{
 			dependencies: ["3D35A43A4D0E118F"]
@@ -6391,8 +6399,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -30.0d
+			x: 2.5d
+			y: -27.0d
 		}
 		{
 			dependencies: ["4D1FE471FC2D8EF4"]
@@ -6427,7 +6435,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -30.0d
+			y: -27.0d
 		}
 		{
 			dependencies: ["40CCB0B7868233CA"]
@@ -6461,7 +6469,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -24.5d
+			y: -22.0d
 		}
 		{
 			dependencies: [
@@ -6498,8 +6506,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -26.5d
+			x: 2.5d
+			y: -23.0d
 		}
 		{
 			dependencies: ["48162C60D5F25178"]
@@ -6537,7 +6545,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -27.0d
+			y: -25.0d
 		}
 		{
 			dependencies: ["49603EC381DD1818"]
@@ -6573,7 +6581,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: -25.0d
 		}
 		{
@@ -6724,8 +6732,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.347619047619048d
-			y: -23.030952380952407d
+			x: -5.5d
+			y: -23.0d
 		}
 		{
 			dependencies: ["22794ACEC855690B"]
@@ -7233,7 +7241,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -11.0d
 			y: -23.0d
 		}
 		{
@@ -7267,7 +7275,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -12.5d
 			y: -23.0d
 		}
 		{
@@ -7303,7 +7311,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -11.0d
 			y: -21.5d
 		}
 		{
@@ -7350,7 +7358,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -12.5d
 			y: -20.5d
 		}
 		{
@@ -7384,7 +7392,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -12.5d
 			y: -22.0d
 		}
 		{
@@ -7422,7 +7430,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -11.0d
 			y: -18.0d
 		}
 		{
@@ -7457,7 +7465,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -11.0d
 			y: -14.5d
 		}
 		{
@@ -7492,7 +7500,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -12.5d
 			y: -13.5d
 		}
 		{
@@ -7543,7 +7551,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -12.5d
 			y: -15.5d
 		}
 		{
@@ -7615,7 +7623,7 @@
 					type: "item"
 				}
 			]
-			x: -14.5d
+			x: -14.0d
 			y: -15.5d
 		}
 		{
@@ -7659,7 +7667,7 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
+			x: -15.5d
 			y: -15.5d
 		}
 		{
@@ -7741,7 +7749,7 @@
 					type: "item"
 				}
 			]
-			x: -17.5d
+			x: -17.0d
 			y: -14.5d
 		}
 		{
@@ -7813,7 +7821,7 @@
 					type: "item"
 				}
 			]
-			x: -14.5d
+			x: -14.0d
 			y: -13.5d
 		}
 		{
@@ -7848,7 +7856,7 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
+			x: -15.5d
 			y: -13.5d
 		}
 		{

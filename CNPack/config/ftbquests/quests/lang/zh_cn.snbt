@@ -2833,8 +2833,6 @@
 		"- &6提尔钢块&r：&6三级&r"
 	]
 	quest.1A648F49F72639CC.title: "&d星辰&r&f之力"
-	quest.1A6922D9DCAB13A7.quest_desc: ["提升运作速度和能量使用效率。"]
-	quest.1A6922D9DCAB13A7.title: "&f协同矩阵插件"
 	quest.1A6984A6484FF8F3.quest_desc: [
 		"手持&a法术书&r并按下&aC&r键就会打开构建&d法术&r的目录，你可以在里面构建你的第一个&d法术&r！"
 		""
@@ -6291,7 +6289,7 @@
 	quest.3A084B83B8CFAACD.quest_desc: [
 		"一座悬浮于下界虚空中的竞技场，击败&c炽燃遗魂&r，收集它们的余烬，点燃顶层的祭坛即可挑战其真正的&c主人&r。"
 		""
-		"熔岩遍布之地，封存着一位&6远古强敌&r的记忆，需用炽燃余烬将其唤醒。"
+		"熔岩遍布之地，封存着一位&6远古强敌&r的记忆，需用炽燃余烬将其唤醒。他们掉落的钥匙可用于打开竞技场周围的&2宝库&r。"
 	]
 	quest.3A084B83B8CFAACD.title: "&f发现&c烈焰竞技场（Burning Arena）"
 	quest.3A17E4DF31D26856.quest_desc: [
@@ -7626,16 +7624,6 @@
 	]
 	quest.46A1341E5E97ABDC.quest_subtitle: "帮你了解AE的频道机制"
 	quest.46A1341E5E97ABDC.title: "&b线缆&f和&2频道"
-	quest.46AF8085E4151D9E.quest_desc: [
-		"&c基岩层钻机"
-		""
-		"这台机器只有直接放在&a矿物点&r上时才能工作，必须使用&a末影激光器&r供能。"
-		"{@pagebreak}"
-		"右击时，矿机会显示其下方的目标&a资源节点&r。其将会标记下方三格3x3范围内第一个可见的资源节点"
-		""
-		"右击时，矿机会显示其下方的目标&a资源节点&r。其将会标记下方三格3x3范围内第一个可见的资源节点"
-	]
-	quest.46AF8085E4151D9E.title: "&c基岩层钻机"
 	quest.46BB702F2847F818.quest_desc: ["把红石丢到激光上，就可以得到&a红石水晶&r，&e实用拓展&r里的很多合成配方都需要它。"]
 	quest.46BB702F2847F818.title: "&a红石水晶"
 	quest.46C2C45AE017AE81.quest_desc: ["这个升级装入&aJust Dire模组的镐&r后，右击就会让周边的矿石透过墙壁发光。"]
@@ -7897,6 +7885,9 @@
 	]
 	quest.4A07DF8EB4A0C40A.quest_subtitle: "提竿收鱼"
 	quest.4A07DF8EB4A0C40A.title: "&f耕作之道"
+	quest.4A0A19E73680034F.quest_desc: ["在这个整合包中，你可以灵活地放置你的书架。附魔台可获得&e8&r格内的书架的能量。"]
+	quest.4A0A19E73680034F.quest_subtitle: "简单介绍BEER"
+	quest.4A0A19E73680034F.title: "扩展书架附魔距离（BEER）"
 	quest.4A1E69C9C543011E.quest_desc: [
 		"&7多刺符石&r使玩家免疫来自甜浆果丛的伤害。"
 		""
@@ -10642,12 +10633,6 @@
 		"锤子是一种适合粉碎的工具，可以将圆石粉碎成沙砾，沙砾粉碎成泥土，还能粉碎其他类似的方块。试试粉碎这些方块的压缩版本！"
 	]
 	quest.642E67C7C2D1CF10.title: "&f粉碎"
-	quest.6432ABF56BFF2F8F.quest_desc: [
-		"&a资源节点&r是无限的材料节点，稀有地分布在虚空中的浮岛上。"
-		""
-		"&a资源节点&r仅能通过&c基岩层钻机&r开采。"
-	]
-	quest.6432ABF56BFF2F8F.title: "&f资源节点"
 	quest.644874076A06F5F4.quest_desc: [
 		"&e通用机械&r是这个包中最强大的科技模组！"
 		""
@@ -11952,8 +11937,6 @@
 		"获得了&d不锈钢钻&r以后， 就可以在&3石油钻机&r挖出&7页岩油&r。"
 		""
 		"造出&3蒸馏塔&r后，便可以用它获取&a氦气&r，&e含硫石脑油&r以及&7含硫原油&r。"
-		"{@pagebreak}"
-		"（这是空白页占位符）"
 	]
 	quest.72C893FBEDFEF87C.title: "&7页岩油&f处理"
 	quest.72D582D05DC9C7A2.quest_desc: [
