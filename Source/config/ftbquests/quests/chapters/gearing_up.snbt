@@ -4124,5 +4124,32 @@
 			x: 2.0d
 			y: -1.5d
 		}
+		{
+			id: "4A0A19E73680034F"
+			rewards: [
+				{
+					id: "55D7BC34E4A8F35D"
+					item: {
+						count: 1
+						id: "farmersdelight:apple_cider"
+					}
+					type: "item"
+				}
+				{
+					id: "3085EA41862D1204"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D110E287229FB72"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
 	]
 }
