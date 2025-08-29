@@ -1382,7 +1382,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "item_tag(malum:mob_drops)mod(malum)"
-						"minecraft:custom_name": "\"灵魂掉落物\""
+						"minecraft:custom_name": "“灵魂掉落物”"
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -1506,7 +1506,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(malum:soul_stained_steel_sword)item(malum:soul_stained_steel_pickaxe)item(malum:soul_stained_steel_axe)item(malum:soul_stained_steel_shovel)item(malum:soul_stained_steel_hoe))"
-							"minecraft:custom_name": "\"魂染工具\""
+							"minecraft:custom_name": "“魂染工具”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"

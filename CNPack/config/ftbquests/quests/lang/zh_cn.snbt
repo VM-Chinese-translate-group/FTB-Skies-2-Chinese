@@ -2460,7 +2460,7 @@
 		""
 		"&7&o前往“物流”任务章节寻找管理流体的方式。"
 		""
-		"&7&o注意：为了完成该任务，请向&2目标显示器&7提供足够一个桶（1000ml）的流体量。"
+		"&7&o注意：为了完成该任务，请向&2目标显示器&7提供足够一个桶（1000mB）的流体量。"
 	]
 	quest.166BA0D04A1686C7.quest_subtitle: "&o流体操纵"
 	quest.166BA0D04A1686C7.title: "&f提取&3Fortron"
@@ -7961,7 +7961,7 @@
 		"{@pagebreak}"
 		"如果要把东西放进去，手持物品右击&a抽屉&r即可，右击两次抽屉会将多组物品一块存进去。"
 		""
-		"如果要从&a抽屉&r里头取出物品，左击抽屉一次可取出一个物品，潜行左击可取出一组。"
+		"如果要从&a抽屉&r里面取出物品，左击抽屉一次可取出一个物品，潜行左击可取出一组。"
 	]
 	quest.4A707D443EC2DE33.quest_subtitle: "绝对有功能"
 	quest.4A707D443EC2DE33.title: "&e功能性存储"
@@ -12842,7 +12842,7 @@
 		""
 		"坩埚本体最多可以安置四个增强件，而附近的催化器则每个都可以安置一个增强件，从而给坩埚带来增益。"
 	]
-	quest.7BA228FC749BF70A.title: "&a坩埚增强件"
+	quest.7BA228FC749BF70A.title: "&a坩埚增强"
 	quest.7BA817A69CE39AF0.quest_subtitle: "+10% 召唤伤害"
 	quest.7BA817A69CE39AF0.title: "&a召唤师护符"
 	quest.7BBE12078C2FC82E.quest_desc: [
@@ -13320,7 +13320,7 @@
 		"&7&o- 末影人"
 	]
 	quest.7FE61681059EAE0A.title: "&b数据模块奖励包"
-	quest.7FEDD82D9B47EFCD.quest_desc: ["&a生物质能发电机&r消耗有机物产生RF，加装&b插件&r可以提升发电效率。"]
+	quest.7FEDD82D9B47EFCD.quest_desc: ["&a生物质能发电机&r消耗有机物生成RF，加装&b插件&r可以提升发电效率。"]
 	quest.7FEDD82D9B47EFCD.title: "&f生物质能发电机"
 	quest.7FF04E6E35CA419F.quest_desc: [
 		"探索这个世界的时候，也许你偶然会碰到&9魔源浆果丛&r。这种浆果丛会掉落魔源浆果，吃了以后可以获得几秒钟的&9魔力再生&r！"
@@ -13652,7 +13652,7 @@
 	task.2CC8184A4A0C3AED.title: "就地升级"
 	task.2CD07B6CF24F7460.title: "&b升级插件"
 	task.2CDC924219F0604D.title: "任意Xy晶宝石"
-	task.2D6AEF337BEAFA58.title: "任意增强件"
+	task.2D6AEF337BEAFA58.title: "任意精魂坩埚增强"
 	task.2D717F3B3573B504.title: "&b升级插件"
 	task.2DCE94139CB2078D.title: "&a实用升级"
 	task.2E079C677B170563.title: "&f基础粉笔"
