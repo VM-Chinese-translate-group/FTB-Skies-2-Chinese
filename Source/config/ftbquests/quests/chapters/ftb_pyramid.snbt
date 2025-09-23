@@ -382,6 +382,7 @@
 				}
 				{
 					id: "7643A644CF3ED301"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 25
 				}
@@ -408,6 +409,7 @@
 				}
 				{
 					id: "73D939797042A50E"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 50
 				}
@@ -434,6 +436,7 @@
 				}
 				{
 					id: "31611F81F7E07034"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 75
 				}
@@ -460,6 +463,7 @@
 				}
 				{
 					id: "5E5E5CF2C1594E0F"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 50
 				}
@@ -486,6 +490,7 @@
 				}
 				{
 					id: "185E34977281E7A6"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 50
 				}
@@ -552,6 +557,7 @@
 				}
 				{
 					id: "00A687E432647460"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 75
 				}
@@ -577,6 +583,7 @@
 				}
 				{
 					id: "51D20433DCB5B274"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 25
 				}
@@ -666,6 +673,7 @@
 				}
 				{
 					id: "462229FC41F8259B"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 25
 				}
@@ -761,6 +769,7 @@
 				}
 				{
 					id: "66B75B0EEFC06459"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 1000
 				}
@@ -789,6 +798,7 @@
 				}
 				{
 					id: "283F6C81DC59043E"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 50
 				}
@@ -815,6 +825,7 @@
 				}
 				{
 					id: "65C14DF42E721D7E"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 75
 				}
@@ -841,6 +852,7 @@
 				}
 				{
 					id: "0913824D894A8556"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 100
 				}
@@ -866,6 +878,7 @@
 				}
 				{
 					id: "26657BC02318C7AE"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 25
 				}
@@ -891,6 +904,7 @@
 				}
 				{
 					id: "4311AA3EA09EE8C7"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 25
 				}
@@ -917,6 +931,7 @@
 				}
 				{
 					id: "33F3684E021F0DE4"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 50
 				}

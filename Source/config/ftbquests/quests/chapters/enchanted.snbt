@@ -106,11 +106,10 @@
 			id: "15956817DCDAD8C3"
 			rewards: [
 				{
-					count: 16
-					id: "5D49CC4E7788AFA1"
+					id: "069AE48E280398F2"
 					item: {
 						count: 1
-						id: "enchanted:clay_jar"
+						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -126,10 +125,11 @@
 					type: "item"
 				}
 				{
-					id: "069AE48E280398F2"
+					count: 16
+					id: "5D49CC4E7788AFA1"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "enchanted:clay_jar"
 					}
 					type: "item"
 				}
@@ -167,20 +167,21 @@
 				id: "enchanted:garlic"
 			}
 			id: "63D1F9A9465CC28F"
+			min_width: 350
 			rewards: [
-				{
-					id: "07F303BDBE814052"
-					item: {
-						count: 1
-						id: "enchanted:earmuffs"
-					}
-					type: "item"
-				}
 				{
 					id: "73BFBF836FA2B585"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "07F303BDBE814052"
+					item: {
+						count: 1
+						id: "enchanted:earmuffs"
 					}
 					type: "item"
 				}
@@ -236,18 +237,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "3B408596B09308C9"
-					item: {
-						count: 1
-						id: "enchanted:fume_funnel"
-					}
-					type: "item"
-				}
-				{
 					id: "19193A6B903547CE"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3B408596B09308C9"
+					item: {
+						count: 1
+						id: "enchanted:fume_funnel"
 					}
 					type: "item"
 				}
@@ -292,18 +293,18 @@
 			id: "3AB6083CCDD1B74A"
 			rewards: [
 				{
-					id: "5AA53F532D576FA8"
-					item: {
-						count: 1
-						id: "minecraft:campfire"
-					}
-					type: "item"
-				}
-				{
 					id: "14FF0128427422A9"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5AA53F532D576FA8"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
 					}
 					type: "item"
 				}
@@ -326,19 +327,19 @@
 			id: "6E009D4747E3E485"
 			rewards: [
 				{
+					id: "4E98D682D2006F28"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 6
 					id: "63A7F0E84ED0DC5B"
 					item: {
 						count: 1
 						id: "enchanted:mutandis"
-					}
-					type: "item"
-				}
-				{
-					id: "4E98D682D2006F28"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -360,6 +361,14 @@
 			id: "09B6F6758B0EEEC5"
 			rewards: [
 				{
+					id: "072E8BB042B7129C"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 6
 					id: "74D923C5158EAB47"
 					item: {
@@ -374,14 +383,6 @@
 					item: {
 						count: 1
 						id: "minecraft:bone_meal"
-					}
-					type: "item"
-				}
-				{
-					id: "072E8BB042B7129C"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -417,19 +418,19 @@
 			id: "2582831347BB970D"
 			rewards: [
 				{
-					id: "480598F70C53D9B9"
-					item: {
-						count: 1
-						id: "minecraft:skeleton_skull"
-					}
-					type: "item"
-				}
-				{
 					count: 2
 					id: "69F68512E9CAD918"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "480598F70C53D9B9"
+					item: {
+						count: 1
+						id: "minecraft:skeleton_skull"
 					}
 					type: "item"
 				}
@@ -451,6 +452,14 @@
 			id: "0730F5C57F80CC0B"
 			rewards: [
 				{
+					id: "05ED86900D3DFBC1"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 8
 					id: "3F4A4FA357175796"
 					item: {
@@ -459,19 +468,22 @@
 					}
 					type: "item"
 				}
-				{
-					id: "05ED86900D3DFBC1"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
 			]
 			tasks: [
 				{
+					id: "0E86823F0E825622"
+					item: { count: 1, id: "enchanted:exhale_of_the_horned_one" }
+					type: "item"
+				}
+				{
+					id: "25DC5291E8FD2A3D"
+					item: { count: 1, id: "enchanted:breath_of_the_goddess" }
+					type: "item"
+				}
+				{
 					id: "20B47BA7BDB59179"
 					item: { count: 1, id: "enchanted:whiff_of_magic" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -487,18 +499,6 @@
 					type: "item"
 				}
 				{
-					id: "0E86823F0E825622"
-					item: { count: 1, id: "enchanted:exhale_of_the_horned_one" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "25DC5291E8FD2A3D"
-					item: { count: 1, id: "enchanted:breath_of_the_goddess" }
-					optional_task: true
-					type: "item"
-				}
-				{
 					id: "44AB96DD5175FBBA"
 					item: { count: 1, id: "enchanted:hint_of_rebirth" }
 					optional_task: true
@@ -507,12 +507,6 @@
 				{
 					id: "6424CA7744DD37CF"
 					item: { count: 1, id: "enchanted:foul_fume" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "3FFD49D6518F57AD"
-					item: { count: 1, id: "enchanted:wood_ash" }
 					optional_task: true
 					type: "item"
 				}
@@ -637,18 +631,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "52E9B70C2501B464"
-					item: {
-						count: 1
-						id: "enchanted:tongue_of_dog"
-					}
-					type: "item"
-				}
-				{
 					id: "5B81D6FE2F4708F5"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "52E9B70C2501B464"
+					item: {
+						count: 1
+						id: "enchanted:tongue_of_dog"
 					}
 					type: "item"
 				}
@@ -689,18 +683,18 @@
 			id: "3B3CE4B6B25CB8DB"
 			rewards: [
 				{
-					id: "740D1EFD3B6C5A9A"
-					item: {
-						count: 1
-						id: "minecraft:diamond"
-					}
-					type: "item"
-				}
-				{
 					id: "576741E253608C9D"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "740D1EFD3B6C5A9A"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
 					}
 					type: "item"
 				}
@@ -714,22 +708,23 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["3B3CE4B6B25CB8DB"]
 			id: "3CAB5264F3C33205"
 			rewards: [
+				{
+					id: "3A3184C577E16DA2"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
 				{
 					count: 16
 					id: "044AD9AF15BA036A"
 					item: {
 						count: 1
 						id: "enchanted:clay_jar"
-					}
-					type: "item"
-				}
-				{
-					id: "3A3184C577E16DA2"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -747,19 +742,19 @@
 			optional: true
 			rewards: [
 				{
+					id: "7E1EFACCA0834C0B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 2
 					id: "7A7A2D2450568128"
 					item: {
 						count: 1
 						id: "arsdelight:mendosteen_tea"
-					}
-					type: "item"
-				}
-				{
-					id: "7E1EFACCA0834C0B"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -831,19 +826,19 @@
 			id: "1385135551DA36AB"
 			rewards: [
 				{
-					id: "1FB48D9D212B7ADE"
-					item: {
-						count: 1
-						id: "enchanted:circle_talisman"
-					}
-					type: "item"
-				}
-				{
 					count: 4
 					id: "3940D91C24E6FF6D"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1FB48D9D212B7ADE"
+					item: {
+						count: 1
+						id: "enchanted:circle_talisman"
 					}
 					type: "item"
 				}
@@ -877,19 +872,19 @@
 			id: "6587B145151746EC"
 			rewards: [
 				{
+					id: "74D30A3DB419296C"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 16
 					id: "285E1B7608F433A9"
 					item: {
 						count: 1
 						id: "enchanted:wood_ash"
-					}
-					type: "item"
-				}
-				{
-					id: "74D30A3DB419296C"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -945,22 +940,23 @@
 				id: "enchanted:glint_weed"
 			}
 			id: "612A181814F656B1"
+			min_width: 350
 			optional: true
 			rewards: [
+				{
+					id: "3224AF2C870EC73F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
 				{
 					count: 4
 					id: "50AD0270AE569F0C"
 					item: {
 						count: 1
 						id: "enchanted:glint_weed"
-					}
-					type: "item"
-				}
-				{
-					id: "3224AF2C870EC73F"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1002,6 +998,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 6
+					id: "2F5965E2E22B3C22"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "424B20D5F1C38340"
 					item: {
 						components: {
@@ -1011,15 +1016,6 @@
 						}
 						count: 1
 						id: "minecraft:potion"
-					}
-					type: "item"
-				}
-				{
-					count: 6
-					id: "2F5965E2E22B3C22"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -1048,18 +1044,18 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "378839E999551288"
-					item: {
-						count: 1
-						id: "enchanted:attuned_stone"
-					}
-					type: "item"
-				}
-				{
 					id: "3F1C6665D06C1ACC"
 					item: {
 						count: 1
 						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "378839E999551288"
+					item: {
+						count: 1
+						id: "enchanted:attuned_stone"
 					}
 					type: "item"
 				}
@@ -1104,19 +1100,19 @@
 			optional: true
 			rewards: [
 				{
-					id: "66A9E544056FFDFC"
-					item: {
-						count: 1
-						id: "farmersdelight:pumpkin_soup"
-					}
-					type: "item"
-				}
-				{
 					count: 3
 					id: "71B2AC77BC304226"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "66A9E544056FFDFC"
+					item: {
+						count: 1
+						id: "farmersdelight:pumpkin_soup"
 					}
 					type: "item"
 				}
