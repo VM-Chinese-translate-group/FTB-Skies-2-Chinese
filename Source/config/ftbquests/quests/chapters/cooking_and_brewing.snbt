@@ -1402,5 +1402,36 @@
 			x: -0.5d
 			y: 1.5d
 		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/llama.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "624B0229DBE6681F"
+			tasks: [
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "ftbchunks:textures/faces/minecraft/llama.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "71446177D61BD058"
+					observe_type: 5
+					timer: 0L
+					to_observe: "llamapalooza:loot_llama"
+					type: "observation"
+				}
+				{
+					id: "3BA0D6E27E96B86B"
+					item: { count: 1, id: "minecraft:lead" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 3.0d
+		}
 	]
 }

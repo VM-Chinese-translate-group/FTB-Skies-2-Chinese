@@ -622,38 +622,26 @@
 				id: "occultism:golden_sacrificial_bowl"
 			}
 			id: "3031334952FA6DCC"
-			rewards: [
-				{
-					id: "7F25D91FC669BE83"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "7F25D91FC669BE83"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					count: 4
-					id: "6534D74A4A44183C"
-					item: {
-						count: 1
-						id: "occultism:sacrificial_bowl"
-					}
-					random_bonus: 4
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
 				{
 					count: 4L
 					id: "28DC00FA31DE8AB6"
-					item: { count: 1, id: "occultism:sacrificial_bowl" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:sacrificial_bowl)item(occultism:dark_sacrificial_bowl))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "06C1EF6F388BE142"
-					item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
+					id: "53F56BEE9EC8CF15"
+					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:golden_sacrificial_bowl)item(occultism:dark_golden_sacrificial_bowl))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -849,6 +837,7 @@
 				"1EAF085D3C13253B"
 				"4FD0504ADB98E0C0"
 			]
+			dependency_requirement: "one_completed"
 			id: "0FC3672189B0854D"
 			min_width: 300
 			rewards: [
@@ -1098,6 +1087,9 @@
 				"0FC3672189B0854D"
 				"23B06AB674CC7193"
 			]
+			icon: {
+				id: "occultism:iesnium_sacrificial_bowl"
+			}
 			id: "38705F990589B2E8"
 			optional: true
 			rewards: [
@@ -1121,8 +1113,8 @@
 			]
 			shape: "rsquare"
 			tasks: [{
-				id: "7DEFA8252DA48445"
-				item: { count: 1, id: "occultism:iesnium_sacrificial_bowl" }
+				id: "1E68CB401FC8013F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:iesnium_sacrificial_bowl)item(occultism:dark_iesnium_sacrificial_bowl))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -1131,6 +1123,9 @@
 		{
 			dependencies: ["4C9473D2E4149656"]
 			hide_lock_icon: true
+			icon: {
+				id: "occultism:eldritch_chalice"
+			}
 			icon_scale: 2.0d
 			id: "63516E977D8BC7C4"
 			rewards: [
@@ -1144,16 +1139,8 @@
 					type: "item"
 				}
 				{
-					id: "660228F1817B6047"
-					item: {
-						count: 1
-						id: "occultism:eldritch_chalice"
-					}
-					random_bonus: 2
-					type: "item"
-				}
-				{
 					id: "35ED158F8648BEDF"
+					team_reward: false
 					type: "xp_levels"
 					xp_levels: 25
 				}
@@ -1161,8 +1148,8 @@
 			shape: "none"
 			size: 5.0d
 			tasks: [{
-				id: "0CD8B43E19FAA756"
-				item: { count: 1, id: "occultism:eldritch_chalice" }
+				id: "36D73BD403E4C7A7"
+				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:celestial_chalice)item(occultism:eldritch_chalice))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -2204,6 +2191,7 @@
 				"548DEBAD9D4CB726"
 				"1A3C52B662D8237B"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "occultism:iesnium_dust"
 			}
@@ -2257,6 +2245,7 @@
 				"6F0C07BA71E2325D"
 				"7E909792A1E7CFD1"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "ftbmaterials:gold_dust"
 			}
@@ -2309,6 +2298,7 @@
 				"5F0AAD028931A220"
 				"1841C1DAEC960312"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "minecraft:iron_ingot"
 			}
@@ -2359,6 +2349,7 @@
 				"0D926066D3D83196"
 				"7E909792A1E7CFD1"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "minecraft:gold_ingot"
 			}
@@ -2398,6 +2389,7 @@
 				"38248F3AE03BE9F7"
 				"1A3C52B662D8237B"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "occultism:iesnium_ingot"
 			}
@@ -2551,35 +2543,17 @@
 			dependencies: ["4113BA0BADB486F0"]
 			icon_scale: 1.25d
 			id: "016E959A387A1E03"
-			rewards: [
-				{
-					id: "3F24C0AA49F971A0"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+			rewards: [{
+				id: "3F24C0AA49F971A0"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "17AE45CC75C8DF2D"
-					item: {
-						components: {
-							"minecraft:enchantments": {
-								levels: {
-									"minecraft:unbreaking": 3
-								}
-							}
-						}
-						count: 1
-						id: "occultism:chalk_purple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.25d
 			tasks: [{
-				consume_items: true
 				id: "3796C602A75AF46B"
 				item: { count: 1, id: "occultism:chalk_purple" }
 				type: "item"
@@ -2918,10 +2892,7 @@
 			y: 28.0d
 		}
 		{
-			dependencies: [
-				"53B7A49C8138D3B0"
-				"2F0C6EA5380AA661"
-			]
+			dependencies: ["2F0C6EA5380AA661"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4170,7 +4141,11 @@
 			y: 45.5d
 		}
 		{
-			dependencies: ["6A84F3464CD7F0D5"]
+			dependencies: [
+				"6A84F3464CD7F0D5"
+				"23B06AB674CC7193"
+			]
+			dependency_requirement: "one_started"
 			id: "739F075AA8F4DA49"
 			optional: true
 			rewards: [
@@ -4977,6 +4952,7 @@
 				"2D913EC86DC39C3C"
 				"7E909792A1E7CFD1"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				components: {
 					"ftbquests:icon": "ftblibrary:icons/toggle_rain"

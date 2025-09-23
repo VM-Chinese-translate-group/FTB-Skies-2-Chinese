@@ -57,7 +57,11 @@
 		"&7&oIf defeated, an &eEye of Storms&r &7&ocan be used on the pedestal that appears to summon the champion again for a rematch."
 	]
 	quest.000F1E507ACDFAAE.title: "&fBehold the &9Acropolis"
-	quest.0017F48E23512C75.quest_desc: ["[\"You can now upgrade your existing \", {\"text\": \"Pentacles\", \"color\": \"#55FFFF\"}, \" with \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" and \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" chalks, and \", {\"text\": \"Spirit Attuned Crystals\", \"color\": \"#FF55FF\"}, \".\"]"]
+	quest.0017F48E23512C75.quest_desc: [
+		"[\"You can now upgrade your existing \", {\"text\": \"Pentacles\", \"color\": \"#55FFFF\"}, \" with \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" and \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" chalks, and \", {\"text\": \"Spirit Attuned Crystals\", \"color\": \"#FF55FF\"}, \".\"]"
+		"{@pagebreak}"
+		"(new page placeholder text)"
+	]
 	quest.0017F48E23512C75.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" & \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" Chalks\"]"
 	quest.001F0C36B4AB9F5F.quest_desc: [
 		"If you think the Simple Coal Generator is good, you should try out the &aSimple Fuel Generator&r."
@@ -188,9 +192,9 @@
 	quest.013FC4C13A426EB1.title: "&fEmerald Essence"
 	quest.016821326AD093AF.quest_desc: ["Each &dEnergized Standing Stone&r provides its own function in an area around them forever, without any cost."]
 	quest.016821326AD093AF.title: "&dEnergized Standing Stones"
-	quest.016E959A387A1E03.quest_desc: ["[\"Crushing endstone allows you to craft \", {\"text\": \"Purple Chalk\", \"color\": \"#9D7AD0\"}, \", which is the next tier of Chalk we'll need to perform better \", {\"text\": \"Rituals\", \"color\": \"aqua\"}, \".\"]"]
+	quest.016E959A387A1E03.quest_desc: ["[\"Crushing endstone allows you to craft \", {\"text\": \"Purple Chalk\", \"color\": \"#9a0391\"}, \", which is the next tier of Chalk we'll need to perform better \", {\"text\": \"Rituals\", \"color\": \"aqua\"}, \".\"]"]
 	quest.016E959A387A1E03.quest_subtitle: "Chalk of Infusion"
-	quest.016E959A387A1E03.title: "{\"text\": \"Purple Chalk\", \"color\": \"#9D7AD0\"}"
+	quest.016E959A387A1E03.title: "{\"text\": \"Purple Chalk\", \"color\": \"#9a0391\"}"
 	quest.0171D054BE838062.quest_desc: [
 		"Fire is often seen as a force of destruction, but it is also a force for change. The &aPyre&r channels this latter force to transform ingredients into different items or to create the effects of various &brituals&r."
 		""
@@ -402,7 +406,7 @@
 		""
 		"A player head gives +2.5x base power and 3x recharge speed"
 	]
-	quest.0361236BF20549B5.title: "Skull"
+	quest.0361236BF20549B5.title: "&fSkulls"
 	quest.03629D4D6106A625.quest_desc: [
 		"For the next step, we need to combine &aArgon&r with some &2Silicon Dust&r to make &dMonocrystaline Silicon&r."
 		""
@@ -799,9 +803,9 @@
 		""
 		"Oak, Birch, and &eRowan&r saplings have fumes that are key to progression, but others will be wanted later."
 	]
-	quest.0730F5C57F80CC0B.title: "Supernatural Scents"
+	quest.0730F5C57F80CC0B.title: "&aSupernatural Scents"
 	quest.0733AB66BFEB220E.quest_desc: [
-		"Using &dSevira's Permanent Confinement&r, you can craft &dBlack Chalk&r."
+		"Using &dSevira's Permanent Confinement&r, you can craft &0Black Chalk&r."
 		""
 		"This can be used to upgrade your existing &bPentacles&r, as well as being the highest tier &aFoundation Chalk&r."
 	]
@@ -1201,7 +1205,7 @@
 		""
 		"&oNote: bonemeal and similar effects work &6against&r &omutandis and grow the saplings before they mutate, don't force the change."
 	]
-	quest.09B6F6758B0EEEC5.title: "Witcher-Trees"
+	quest.09B6F6758B0EEEC5.title: "&fWitcher-Trees"
 	quest.09BC75B655BDC624.quest_desc: [
 		"Getting multiple of the same type of bee can be difficult, especially if they have specific breeding flowers like &dDraconic Bees&r."
 		""
@@ -1600,10 +1604,6 @@
 		"[\"With \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" and \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" chalks, you can now upgrade your \", {\"text\": \"Ophynx' Calling\", \"color\": \"#FF5555\"}, \" to \", {\"text\": \"Kandar's Opened Conjure\", \"color\": \"#FF55FF\"}, \".\"]"
 		""
 		"This &bRitual&r is only used to summon an &dUnbound Afrit&r. Killing it will grant you its essence, allowing you to make &cRed Chalk&r."
-		""
-		"Unfortunately, you might have to sacrifice ol' Bessy."
-		""
-		"This item is also needed to complete the &5FTB Pyramid&r."
 	]
 	quest.0C24D8CD961D86B2.quest_subtitle: "Summoning Pentacle: Tier 3"
 	quest.0C24D8CD961D86B2.title: "&cKandar's Opened Conjure"
@@ -2529,7 +2529,7 @@
 		"You can rarely get these seeds to drop from grass, but here's a few boxes with magical seeds to help get your green thumb going."
 	]
 	quest.15956817DCDAD8C3.quest_subtitle: "The Way of Witchery"
-	quest.15956817DCDAD8C3.title: "Entering Enchanted"
+	quest.15956817DCDAD8C3.title: "&fEntering Enchanted"
 	quest.15AE2FB38468A8B3.quest_desc: [
 		"With pure &2Naphtha&r, you can combine it with &7Steam&r in another &3Checmical Reactor&r to make &dSteam-Cracked Naphtha&r."
 		""
@@ -3148,7 +3148,7 @@
 		""
 		"&7Don't worry about where the bottle comes from, you don't keep it either."
 	]
-	quest.1BA5F737C2C6356F.title: "Put the Kettle On"
+	quest.1BA5F737C2C6356F.title: "&fPut the Kettle On"
 	quest.1BAF60BB97FE304B.quest_desc: [
 		"All generators (except the &aBasic Generator&r) can be converted to produce &bSteam&r instead of RF by using the &aSteam Boiler Addon&r."
 		""
@@ -3505,7 +3505,7 @@
 	quest.1E39AB995B86D47A.quest_desc: [
 		"By applying a &bPolyethylene&r layer to your &aBasic Pressure Tubes&r, you're able to upgrade them to &2Reinforced Pressure Tubes&r, allowing them to handle up to 10 &bBAR&r of pressure!"
 		""
-		"&cMake sure to balance your pressure system accordingly&r."
+		"&cMake sure to balance your pressure system accordingly!&r"
 	]
 	quest.1E39AB995B86D47A.title: "&fReinforced Pressure Tubes"
 	quest.1E3C0DD9ACCCC3F0.title: "&bMana &fUpgrade Orb"
@@ -4277,7 +4277,7 @@
 		""
 		"This &6power&r is used by other witchy preparation equipment in the Altar's area, such as the &eDistillery&r or &eKettle&r, which may require certain power levels to be met."
 	]
-	quest.2582831347BB970D.title: "The Altar"
+	quest.2582831347BB970D.title: "&dThe Altar"
 	quest.2588279A071E5A6B.quest_desc: [
 		"When a mob or living entity dies, it releases a &bSoul&r. If a block capable of collecting the soul is within range (16 blocks), the &bSoul&r will be collected by that block. This is visually represented by a small &bSoul&r flying towards the block."
 		""
@@ -5488,8 +5488,10 @@
 	quest.30BF3228B479E90E.title: "&2Living Tools"
 	quest.30CDAD044D94659A.quest_desc: [
 		"The &aArthana&r is a magical dagger that is proficent in obtaining arcane materials from slain creatures."
+		""
 		"In addition to providing the &ochance&r for &aspecial drops&r from bats, creepers, and wolves, it gives skeletons both regular and withered an additional chance to drop their skulls intact."
 	]
+	quest.30CDAD044D94659A.title: "&dArthana"
 	quest.30CE0A1635346670.quest_desc: [
 		"Both the &6Meka-Tool&r and the &6MekaSuit&r can be crafted with some polonium and other high-end &eMekanism&r materials. These powered pieces of gear are very strong on their own, but can be vastly augmented with various &bModules&r from fortune to flight!"
 		""
@@ -6562,11 +6564,9 @@
 		"With the power of &9Blue Chalk&r and &dWither Skeleton Skulls&r you are able to summon and bind &6Marids&r into powerful beings."
 		""
 		"Most &ePossesion&r and &eFamiliar Rituals&r are optional, but you will still need to complete their &bPentacles&r to reach the end-game."
-		""
-		"Simply click on the checkmark to progress the questline."
 	]
 	quest.38D3BE7AF6792B8D.quest_subtitle: "Possession Pentacle: Tier 5"
-	quest.38D3BE7AF6792B8D.title: "&6Xeovrenth Adjure"
+	quest.38D3BE7AF6792B8D.title: "&6Cruelty Essence"
 	quest.38E07A5510D2ACEC.quest_desc: [
 		"Using &aHedyrin's Lure&r you can summon &ePossessed Animals&r that can be tamed or killed for loot."
 		""
@@ -6780,13 +6780,14 @@
 	quest.3A91BB6A673C0D83.title: "&aMultiblock Quarries&r"
 	quest.3AB6083CCDD1B74A.quest_desc: [
 		"To obtain a &aWitch's Cauldron&r, use anointing paste on the vanilla version. It will need some heat underneath it for proper brewing, be sure to place it over a &eCampfire&r or a similar heat source."
+		""
 		"You'll know it's working if a bucket of water put into it begins to boil."
 		""
 		"Ingredients need to be dropped into the cauldron in a &especific order&r as shown by the recipe. Once the particles stop swirling, right click to extract the product of your brew."
 		""
 		"&7If you do mess up a recipe, you can clear out the Cauldron using an empty bucket."
 	]
-	quest.3AB6083CCDD1B74A.title: "Toil and Trouble"
+	quest.3AB6083CCDD1B74A.title: "&fToil and Trouble"
 	quest.3ABDE5FC61DE36A6.title: "&6Infinity Pipe Upgrade"
 	quest.3AC24F0B92156F55.quest_desc: [
 		"The &dAssembler&r features a 2x2 crafting grid and will automatically assemble items as long as it has energy, items in the input slots, and space for the finished product in the output slot."
@@ -7026,6 +7027,7 @@
 		""
 		"&7Note that a Distillery needs to be within the area of an &eAltar's&r &7power to function."
 	]
+	quest.3CAB5264F3C33205.title: "&fDistillery"
 	quest.3CADD463CFC2FE32.quest_desc: [
 		"The &aThermoelectric Generator&r uses the temperature differential between the blocks on either side of it to generate &aLV&r power."
 		""
@@ -7345,7 +7347,7 @@
 		""
 		"When powered, this machine takes in fluid latex and converts it into dry rubber, which can be smelted to get &aPlastic&r."
 		""
-		"You can use generators from other mods for this, or use the &cPitiful Generator&r if you are just starting out."
+		"You can use generators from other mods for this."
 	]
 	quest.400EF0F598308431.title: "&fProcessing &7Latex &fInto &aPlastic"
 	quest.400EFC233FBC8CBA.quest_desc: ["The &aFlux Compressor&r is an converts &cFE&r into &bAir Pressure&r!"]
@@ -8363,7 +8365,25 @@
 	]
 	quest.4A07DF8EB4A0C40A.quest_subtitle: "Reel it and Reap"
 	quest.4A07DF8EB4A0C40A.title: "&fPath of Cultivation"
-	quest.4A0A19E73680034F.quest_desc: ["In this modpack, you have more flexibility in placing your bookshelfs. Enchanting tables can pull from &e8&r blocks away!"]
+	quest.4A0A19E73680034F.quest_desc: [
+		"&e&lBEER&r&e (Bookshelf Extended Enchanting Reach)&r allows you to modify the range that enchanting tables scan for bookshelves:"
+		""
+		"Normally, enchanting tables only look for bookshelves in a 5x5x3 area around them. With &e&lBEER&r, you can:"
+		""
+		"• Expand the X and Z width (horizontal range)"
+		"• Increase the Y height (vertical range)"
+		"• Use special items to modify these dimensions"
+		"• Create custom enchanting setups beyond vanilla limits"
+		""
+		""
+		"{@pagebreak}"
+		"&l&aHow to Use &e&lBEER&r"
+		""
+		"To modify an enchanting table's range:"
+		"1. Hold the modifier item in your main hand"
+		"2. Optionally hold a specific item in your offhand (to decrease range)"
+		"3. Sneak (Shift) + Right-click on an enchanting table"
+	]
 	quest.4A0A19E73680034F.quest_subtitle: "BEER for short"
 	quest.4A0A19E73680034F.title: "Bookshelf Extended Enchantment Reach"
 	quest.4A0DE2C23F9145ED.quest_desc: [
@@ -8527,10 +8547,13 @@
 	]
 	quest.4AEC464751F85A2B.title: "&eXNet &aMain Interface"
 	quest.4AFA3F0208AA8ABB.quest_desc: [
-		"The &eWitch's Oven&r is capable of collecting fumes from its processing, but this chance is not ideal. Using &aFume Funnels&r on either side of the oven will drastically raise this chance. A third one can be added on top, but this is just decorative."
+		"The &eWitch's Oven&r is capable of collecting fumes from its processing, but this chance is not ideal."
+		""
+		"Using &aFume Funnels&r on either side of the oven will drastically raise this chance. A third one can be added on top, but this is just decorative."
 		""
 		"As a final upgrade, &dFume Filters&r can be placed on the two Funnels to get these fumes every time."
 	]
+	quest.4AFA3F0208AA8ABB.title: "&fFumes"
 	quest.4AFFA2E9FA61CC83.title: "&fNether Quartz Essence"
 	quest.4B02EB096A1670AB.quest_desc: [
 		"The &dTrue Sun Talisman&r increases player damage by 5% during a sunny day with nothing above the player."
@@ -9501,7 +9524,7 @@
 	quest.53A5598F55DA9DB8.title: "Blazing Infuser"
 	quest.53B7A49C8138D3B0.quest_desc: ["[\"Using \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" and \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" chalks, and \", {\"text\": \"Spirit Attune Crystals\", \"color\": \"#FF55FF\"}, \", you can now control an \", {\"text\": \"Afrit\", \"color\": \"#FF55FF\"}, \" to possess a zombie pigman, dropping \", {\"text\": \"Demonic Meat\", \"color\": \"#55FF55\"}, \" upon its death.\"]"]
 	quest.53B7A49C8138D3B0.quest_subtitle: "Possession Pentacle: Tier 3"
-	quest.53B7A49C8138D3B0.title: "&cAbras' Open Commanding Conjure"
+	quest.53B7A49C8138D3B0.title: "&cOdus' Open Convocation"
 	quest.53C0C268BF5CD09D.quest_desc: ["The &aBane Ring&r can apply both &2Gem&r and &aBanding Material&r &bAction Effects&r depending on which is used."]
 	quest.53C0C268BF5CD09D.title: "&fBane Ring"
 	quest.53D528FE7C905A39.quest_subtitle: "Use Blue Dye on a Catalyst"
@@ -9971,6 +9994,7 @@
 		""
 		"This will be used to craft Poppets later, but for now it's needed to make the Witch's Cauldron."
 	]
+	quest.58029A4EF02A1FBD.title: "&fAnointing Paste"
 	quest.580866E99C53DB3E.quest_desc: [
 		"Making &aPickup&r and &aMagnet&r upgrades can allow the backpack to pick up items for you while out on your adventures. You can also set the backpack to only pick up certain items using the filter settings for the upgrade!"
 		""
@@ -9997,7 +10021,7 @@
 		"Simply click on the checkmark to progress the questline."
 	]
 	quest.583456FAA606B5B4.quest_subtitle: "Possession Pentacle: Tier 4"
-	quest.583456FAA606B5B4.title: "&dAbras' Commanding Conjure"
+	quest.583456FAA606B5B4.title: "&dPosuc's Convocation"
 	quest.583FFE29C881EE8C.quest_desc: [
 		"Using the &6Flux Configurator&r, you can access the Network UI by using it in your hand. You can also access this from any block within the mod."
 		""
@@ -10848,7 +10872,7 @@
 	quest.609DF15D870AE2C0.quest_desc: [
 		"&eSoulplied Energistics&r is an addon mod for &eIF Souls&r that allows the transferring of souls using &eAE2&r."
 		""
-		"Attaching a &aStorage Bus&r to the &dSoul Laser Base&r will allow your network to access the &3Warden Souls&r inside it. Then, use any &eIF Souls&r item on an &aInterface Filter&r to request &3Souls&r."
+		"Attaching a &aStorage Bus&r to the &dSoul Laser Base&r will allow your network to access the &3Warden Souls&r inside it. Then, Right-click any &eIF Souls&r item on an &aInterface Filter&r to request &3Souls&r stored in your system."
 		""
 		"Finally, attach a &bSoul Pipe&r to the &aInterface&r and it will use its &3Warden Souls&r to power &bSoul Surges&r."
 	]
@@ -11039,6 +11063,45 @@
 	quest.61FBB8F1E0BB7189.title: "&fEmerald"
 	quest.620F29613800DC94.quest_desc: ["The &aRune Inscribed Ring"]
 	quest.620F29613800DC94.title: "&fRune Inscribed Ring"
+	quest.624B0229DBE6681F.quest_desc: [
+		"Tired of manual farming? Meet your new best friends: &6Loot Llamas&r!"
+		""
+		"These aren't your ordinary llamas. they're magical resource generators that will literally spit valuable items at you! "
+		""
+		"Set them up and watch as they work tirelessly to supply your base with everything from basic food to gourmet delicacies."
+		""
+		"&aLoot Evolution:&r"
+		"Start with humble carrots and potatoes, but as your llamas grow stronger, they'll upgrade to cooked meats, magical ingredients like Datura seeds, and eventually premium Farmer's Delight meals!"
+		""
+		"&dPro Tips:&r"
+		"  • Breed your llamas strategically to create"
+		"  specialized spitters"
+		"  • Max strength (10) llamas drop epic foods like"
+		"   honey glazed ham"
+		"  • Turn Page for some special Tips »"
+		""
+		"{@pagebreak}"
+		"Did you know your &6Loot Llamas&r can be specialized? You can actually \"feed\" them to drop specific types of resources!"
+		""
+		"Note: These have a chance to Fail!"
+		""
+		"&e All Specialization Options:&r"
+		"  • &7Iron Ingot&r → Iron Clusters"
+		"  • &7Gold Ingot&r → Gold Clusters"
+		"  • &7Copper Ingot&r → Copper Clusters"
+		"  • &7Diamond&r → Diamond Clusters"
+		"  • &7Emerald&r → Emerald Clusters"
+		"  • &7Lapis Lazuli&r → Lapis Clusters"
+		"  • &7Redstone&r → Redstone Clusters"
+		"  • &7Coal&r → Coal Clusters"
+		"  • &7Quartz&r → Quartz Clusters"
+		"  • &7Amethyst Shard&r → Amethyst Shards"
+		"  • &7Slime Block&r → Slimeballs"
+		"  • &7Glowstone Dust&r → Glowstone Dust"
+		"  • &7Golden Apple&r → Default Food Drops"
+	]
+	quest.624B0229DBE6681F.quest_subtitle: "Your Spitting  Resource Generators!"
+	quest.624B0229DBE6681F.title: "Loot Llamas"
 	quest.6252AF176FC134E9.quest_desc: ["&aSpeed Upgrades&r can be used in most &6PNCR&r machines to make them work faster at the cost of using more pressure."]
 	quest.6252AF176FC134E9.title: "&fSpeed Upgrades"
 	quest.626AFCC6B90F61D5.quest_desc: [
@@ -11150,7 +11213,7 @@
 	quest.633FA983B63A65DD.quest_desc: ["By applying an &bExpansion Module&r to a &dGauge Controller&r, you'll expand its functionalities, allowing you to precisely control its &cRedstone&r behavior."]
 	quest.633FA983B63A65DD.title: "&fExpanding Capabilities!"
 	quest.63516E977D8BC7C4.quest_desc: [
-		"The &5Eldritch Chalice&r is an upgraded version of the &dIesnium Sacrificial Bowl&r, which will instantly perform any ritual."
+		"The &5Chalice&r is an upgraded version of the &dIesnium Sacrificial Bowl&r, which will instantly perform any ritual."
 		""
 		"It's also really cool looking."
 	]
@@ -12185,8 +12248,9 @@
 		""
 		"&oNote: bonemeal and similar effects work &6against&r &omutandis, don't force the change."
 	]
-	quest.6E07405D08CCC2D4.quest_desc: ["[\"For the next tier of Chalks to upgrade your existing \", {\"text\": \"Pentacles\", \"color\": \"#55FFFF\"}, \", you'll need \", {\"text\": \"Lime Chalk\", \"color\": \"#E2FC97\"}, \", \", {\"text\": \"Light Gray Chalk\", \"color\": \"#C2C2C2\"}, \", and some skeleton skulls.\"]"]
-	quest.6E07405D08CCC2D4.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"Lime\", \"color\": \"#E2FC97\"}, \" & \", {\"text\": \"Light Gray\", \"color\": \"#C2C2C2\"}, \" Chalks\"]"
+	quest.6E009D4747E3E485.title: "&fMutandis"
+	quest.6E07405D08CCC2D4.quest_desc: ["[\"For the next tier of Chalks to upgrade your existing \", {\"text\": \"Pentacles\", \"color\": \"#55FFFF\"}, \", you'll need \", {\"text\": \"Lime Chalk\", \"color\": \"#76b71c\"}, \", \", {\"text\": \"Light Gray Chalk\", \"color\": \"#C2C2C2\"}, \", and some skeleton skulls.\"]"]
+	quest.6E07405D08CCC2D4.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"Lime\", \"color\": \"#76b71c\"}, \" & \", {\"text\": \"Light Gray\", \"color\": \"#C2C2C2\"}, \" Chalks\"]"
 	quest.6E4526482AFA8D2A.title: "&dTemplate: Celestigem"
 	quest.6E4F3FE32C5D8285.quest_desc: ["&7&oRandomly gain a Bene Upgrade."]
 	quest.6E4F3FE32C5D8285.title: "&bBee Upgrade Bag"
@@ -14548,6 +14612,7 @@
 	task.1E25F96E4ECA6380.title: "Reset Magic"
 	task.1E44E4A78D48D820.title: "Useful Upgrades"
 	task.1E4BBCF77E4AE460.title: "Expansion Box"
+	task.1E68CB401FC8013F.title: "&dIesnium Sacrificial Bowls"
 	task.1E8A40FC83FDC270.title: "&eFind Structure&f: &cPyromancer Tower"
 	task.1E99CDD9919D994A.title: "&aArtisan Scrolls"
 	task.1F380E6DD3CF799C.title: "General Logistics"
@@ -14600,6 +14665,7 @@
 	task.2863432ECAE88DDF.title: "&fWild Summons"
 	task.28B9FEA413CD2BCD.title: "Pot Sherd"
 	task.28D1CB9AB56D79F2.title: "Any Mekanism laser"
+	task.28DC00FA31DE8AB6.title: "Sacrificial Bowls"
 	task.2951F1493E615F65.title: "&fSummon a &aDevil"
 	task.2988CAF299690CDB.title: "Useful Commands!"
 	task.2A8D633B3E1BA4FF.title: "&fAs Efficient As It Gets"
@@ -14672,6 +14738,7 @@
 	task.36BEC946B5E6E49C.title: "&fPlants \\&\\ Herbs"
 	task.36C5D1EED2022E8D.title: "&aTier 1"
 	task.36D4CF12BC70DBDD.title: "&fAll About Networks!"
+	task.36D73BD403E4C7A7.title: "&5Chalices"
 	task.373810705E9367E4.title: "&bPentacle&r Complete"
 	task.3772CB9C1C8A3D66.title: "Automating Spirits?"
 	task.382B98E0543527AB.title: "Oh boy what flavor?"
@@ -14827,6 +14894,7 @@
 	task.537FA51306721E10.title: "cannot"
 	task.53A96A871A0DB011.title: "&bPentacle&r Complete"
 	task.53DBF8E185837F67.title: "MI Basic Energy Cables"
+	task.53F56BEE9EC8CF15.title: "Golden Sacrificial Bowls"
 	task.5434F149E894EFA6.title: "Welcome"
 	task.54351F12B737F084.title: "ez"
 	task.543F7E507C47F2EB.title: "&fRepair Armor"
@@ -14907,6 +14975,7 @@
 	task.5F91F645D55E49BB.title: "Any &2Tier 2 &fSeeds"
 	task.5FD1AC346811740C.title: "&eKill&f: &6Dead King"
 	task.5FD3ED03945F754B.title: "&fSummon a &aParrot"
+	task.601DC826C875D69F.title: "BEER Modifiers"
 	task.601E7D0A15752962.title: "Check"
 	task.60578D8CD1499673.title: "&eObserve&f: &aBudding Ruby Geore"
 	task.6064031AABA0D8D1.title: "&eKill&f: &dApothecarist"
@@ -14935,7 +15004,7 @@
 	task.63631EC45A5E0BD0.title: "&eObserve&r: Auto Workbench"
 	task.63B6D52741114570.title: "Summon a &7Foliot Lumberjack"
 	task.63C4D2F3F7059C8E.title: "&fAuto-Pickup Upgrades!"
-	task.63CCD5B192C043E9.title: "Observe A Foliot Crusher Demon"
+	task.63CCD5B192C043E9.title: "&eObserve&f: &7Foliot &fCrusher Demon"
 	task.645240ECCC87A5BD.title: "I Understand It Now!"
 	task.650C8DFB185755AE.title: "Niche Geores"
 	task.65368CEC8B302D14.title: "3"
@@ -14948,6 +15017,7 @@
 	task.671339615BA68B10.title: "&eKill&f: &bCryomancer"
 	task.67773EAE20B67BD2.title: "Summon a &cDawn Spirit"
 	task.67799BCB12DD052F.title: "Niche Cognitive Tools"
+	task.67954E17C3CA08C3.title: "Observe an Enchanting Table"
 	task.67A22BBA4C91522B.title: "Item Use"
 	task.67AA4D77994AA256.title: "&aPersonal Storage"
 	task.681570B1424CE111.title: "Complete This Quest"
@@ -14999,6 +15069,7 @@
 	task.70D1CD95527B6359.title: "Exploration"
 	task.71287B1349E0A4AC.title: "&dEnergized Standing Stones"
 	task.7143B1EFAB0A1582.title: "&fHorde Summons"
+	task.71446177D61BD058.title: "Observe (and Leash) a Loot Llama"
 	task.716BF340C53C2191.title: "Veinmine Upgrade"
 	task.71989748299ABB54.title: "&aMob Statues"
 	task.71AA419C13D74934.title: "Complete This Quest"
