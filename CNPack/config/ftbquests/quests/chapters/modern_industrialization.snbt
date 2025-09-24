@@ -1669,12 +1669,6 @@
 									id: "modern_industrialization:synthetic_oil"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -3615,12 +3609,6 @@
 									id: "pneumaticcraft:ethanol"
 								}]
 							}
-							"mekanism:owner": [I;
-								1322214020
-								-1310177861
-								-1296886500
-								-1782337265
-							]
 							"minecraft:block_entity_data": {
 								delay: 0
 								edit_mode: 0
@@ -3690,12 +3678,6 @@
 									id: "modern_industrialization:ethylene"
 								}]
 							}
-							"mekanism:owner": [I;
-								-2080683360
-								-531216653
-								-1125371426
-								-1956129796
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -3753,12 +3735,6 @@
 									id: "modern_industrialization:polyethylene"
 								}]
 							}
-							"mekanism:owner": [I;
-								-2080683360
-								-531216653
-								-1125371426
-								-1956129796
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -4282,12 +4258,6 @@
 									id: "modern_industrialization:shale_oil"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -4952,12 +4922,6 @@
 									id: "modern_industrialization:platinum_sulfuric_solution"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -5121,12 +5085,6 @@
 									id: "modern_industrialization:cryofluid"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -5185,12 +5143,6 @@
 									id: "modern_industrialization:sulfuric_crude_oil"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -5247,12 +5199,6 @@
 									id: "modern_industrialization:sulfuric_naphtha"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -5355,12 +5301,6 @@
 									id: "modern_industrialization:boosted_diesel"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -5421,12 +5361,6 @@
 									id: "modern_industrialization:diethyl_ether"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -5541,12 +5475,6 @@
 									id: "modern_industrialization:acrylic_acid"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -5603,12 +5531,6 @@
 									id: "modern_industrialization:steam_cracked_naphtha"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -5667,12 +5589,6 @@
 									id: "modern_industrialization:propene"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -5732,12 +5648,6 @@
 									id: "modern_industrialization:oxygen"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -5794,12 +5704,6 @@
 									id: "modern_industrialization:acetylene"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -5856,12 +5760,6 @@
 									id: "modern_industrialization:vinyl_chloride"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -6018,12 +5916,6 @@
 									id: "modern_industrialization:toluene"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -6080,12 +5972,6 @@
 									id: "modern_industrialization:butadiene"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -6142,12 +6028,6 @@
 									id: "modern_industrialization:ethylbenzene"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -6207,12 +6087,6 @@
 									id: "modern_industrialization:styrene_butadiene"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -6269,12 +6143,6 @@
 									id: "modern_industrialization:styrene"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -6365,12 +6233,6 @@
 									id: "modern_industrialization:styrene_butadiene_rubber"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -6836,12 +6698,6 @@
 									id: "modern_industrialization:deuterium"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -6898,12 +6754,6 @@
 									id: "modern_industrialization:tritium"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -7579,12 +7429,6 @@
 									id: "modern_industrialization:helium_plasma"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"
@@ -7777,12 +7621,6 @@
 									id: "modern_industrialization:uu_matter"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 						}
 						count: 1
 						id: "mekanism:basic_fluid_tank"

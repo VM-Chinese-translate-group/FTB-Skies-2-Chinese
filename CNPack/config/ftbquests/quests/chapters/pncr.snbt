@@ -88,6 +88,14 @@
 			min_width: 300
 			rewards: [
 				{
+					id: "125A5CAC78BB5B1A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 2
 					id: "1FD20A23E780E826"
 					item: {
@@ -113,14 +121,6 @@
 						id: "pneumaticcraft:pressure_chamber_glass"
 					}
 					team_reward: true
-					type: "item"
-				}
-				{
-					id: "125A5CAC78BB5B1A"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
 					type: "item"
 				}
 			]
@@ -180,9 +180,12 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "59C001B25C4F69E9"
-					type: "xp"
-					xp: 10
+					id: "18D70BF2A9023B00"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
 				{
 					count: 4
@@ -195,12 +198,10 @@
 					type: "item"
 				}
 				{
-					id: "18D70BF2A9023B00"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
+					id: "59C001B25C4F69E9"
+					team_reward: false
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "rsquare"
@@ -233,7 +234,16 @@
 			id: "18C8FF073435FB10"
 			rewards: [
 				{
+					id: "43A20C27B9BEE570"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "5B9A777E698EA7EA"
+					team_reward: false
 					type: "xp"
 					xp: 5
 				}
@@ -243,14 +253,6 @@
 					item: {
 						count: 1
 						id: "industrialforegoing:plastic"
-					}
-					type: "item"
-				}
-				{
-					id: "43A20C27B9BEE570"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -293,17 +295,18 @@
 			id: "35FFAC447F36F05C"
 			rewards: [
 				{
-					id: "1DBC12779076538D"
-					type: "xp"
-					xp: 5
-				}
-				{
 					id: "45E86B5B27FDD8D7"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "1DBC12779076538D"
+					team_reward: false
+					type: "xp"
+					xp: 5
 				}
 			]
 			shape: "square"
@@ -333,6 +336,14 @@
 			id: "7C2617969808F086"
 			rewards: [
 				{
+					id: "1278950CBE3216D1"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 4
 					id: "44B5600FC668F73D"
 					item: {
@@ -347,19 +358,6 @@
 					id: "508CD9A954126783"
 					table_id: 4634798818103374212L
 					type: "choice"
-				}
-				{
-					id: "705045B5395485D5"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "1278950CBE3216D1"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "rsquare"
@@ -659,6 +657,14 @@
 			id: "6CD6367FB419EA35"
 			rewards: [
 				{
+					id: "345E50056F06CD67"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "09A7A9263B26A810"
 					item: {
 						count: 1
@@ -686,14 +692,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "345E50056F06CD67"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
-				}
 			]
 			shape: "square"
 			size: 1.5d
@@ -715,6 +713,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 3
+					id: "4E44C655CF75A176"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 4
 					id: "565E27C0242863CD"
 					item: {
@@ -722,15 +729,6 @@
 						id: "pneumaticcraft:speed_upgrade"
 					}
 					team_reward: true
-					type: "item"
-				}
-				{
-					count: 3
-					id: "4E44C655CF75A176"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -751,6 +749,15 @@
 			id: "26B6680DCE14A228"
 			rewards: [
 				{
+					count: 2
+					id: "12A1EB15F1F23C5B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "264EF65F82ACE5F0"
 					item: {
 						count: 1
@@ -763,15 +770,6 @@
 					item: {
 						count: 1
 						id: "pneumaticcraft:security_upgrade"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "12A1EB15F1F23C5B"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -794,6 +792,15 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
+					id: "6973B9ECB2E4EF37"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					count: 4
 					id: "441E123E98D94BC9"
 					item: {
@@ -801,15 +808,6 @@
 						id: "pneumaticcraft:aphorism_tile"
 					}
 					team_reward: true
-					type: "item"
-				}
-				{
-					count: 2
-					id: "6973B9ECB2E4EF37"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
 					type: "item"
 				}
 			]
@@ -838,6 +836,14 @@
 			optional: true
 			rewards: [
 				{
+					id: "66934971A0F9A1DF"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "53A3EDDEDB01D79F"
 					item: {
 						components: {
@@ -856,14 +862,6 @@
 						}
 						count: 1
 						id: "pneumaticcraft:gun_ammo"
-					}
-					type: "item"
-				}
-				{
-					id: "66934971A0F9A1DF"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
 					}
 					type: "item"
 				}
@@ -893,11 +891,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "430079C73EB479B6"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 2
 					id: "7C3CF81AFF7FF8B8"
 					item: {
@@ -905,6 +898,12 @@
 						id: "magic_coins:silver_coin"
 					}
 					type: "item"
+				}
+				{
+					id: "430079C73EB479B6"
+					team_reward: false
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "diamond"
@@ -1081,6 +1080,15 @@
 			id: "299CD86325D3D74B"
 			rewards: [
 				{
+					count: 2
+					id: "35E85D1CA61BCD9B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "753D28324DE68118"
 					item: {
 						count: 1
@@ -1090,17 +1098,9 @@
 				}
 				{
 					id: "7D322E7683978CFF"
+					team_reward: false
 					type: "xp"
 					xp: 10
-				}
-				{
-					count: 2
-					id: "35E85D1CA61BCD9B"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "square"
@@ -1121,6 +1121,15 @@
 			id: "15F655AA668D6541"
 			rewards: [
 				{
+					count: 3
+					id: "4CB2A633527001D7"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
 					id: "2F0F1E7ACA9A60C0"
 					item: {
 						count: 1
@@ -1132,15 +1141,6 @@
 					id: "2C4C2E5A1F5E74BF"
 					type: "xp"
 					xp: 25
-				}
-				{
-					count: 3
-					id: "4CB2A633527001D7"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
 				}
 			]
 			shape: "square"
@@ -1297,19 +1297,19 @@
 			id: "1E39AB995B86D47A"
 			rewards: [
 				{
-					id: "5640D831A4A12B3D"
-					item: {
-						count: 1
-						id: "pneumaticcraft:regulator_tube_module"
-					}
-					type: "item"
-				}
-				{
 					count: 3
 					id: "51CAB4B9595F5A14"
 					item: {
 						count: 1
 						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5640D831A4A12B3D"
+					item: {
+						count: 1
+						id: "pneumaticcraft:regulator_tube_module"
 					}
 					type: "item"
 				}

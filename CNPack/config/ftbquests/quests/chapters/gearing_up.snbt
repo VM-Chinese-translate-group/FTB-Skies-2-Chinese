@@ -4631,6 +4631,9 @@
 			y: -1.5d
 		}
 		{
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
 			id: "4A0A19E73680034F"
 			rewards: [
 				{
@@ -4650,10 +4653,29 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "4D110E287229FB72"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:enchanting_table"
+					}
+					id: "67954E17C3CA08C3"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:enchanting_table"
+					type: "observation"
+				}
+				{
+					id: "601DC826C875D69F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(minecraft:redstone_block)item(minecraft:lapis_block)item(minecraft:glowstone))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -7.0d
 		}
