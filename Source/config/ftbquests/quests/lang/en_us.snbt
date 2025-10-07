@@ -421,14 +421,6 @@
 		"&l&cWARNING!&r Removing a linked block without stopping the laser will mine all blocks within range of the laser's line of sight."
 	]
 	quest.036C11AC70835846.title: "&fThe Power Of The &dEnd"
-	quest.0376EEA8E8B3E66D.quest_desc: [
-		"Before you can make any powered machines, you'll need to some &aAlloys&r first."
-		""
-		"The &7Primitive Alloy Smelter&r can do this, so this will be your first &eEnderIO&r machine."
-		""
-		"It works like a furnace and uses burnable fuel, but is extremely slow and cannot be configured or upgraded."
-	]
-	quest.0376EEA8E8B3E66D.title: "&fPrimitive Alloy Smelter"
 	quest.03837E8A75948DE5.quest_desc: [
 		"By connecting sifters to rotational power with cogs they can process loose materials such as gravel, sand, and dust to pick out useful resources."
 		""
@@ -2039,7 +2031,7 @@
 	]
 	quest.107C26E8BF309BC1.title: "&fArcane Discoveries"
 	quest.109CB437DFAECDC6.quest_desc: [
-		"The &aAlloy Smelter&r will be your most used machine in &eEnderIO&r as it is an improved version of the &7Primitive Alloy Smelter&r, and can be upgraded with &bCapacitors&r."
+		"The &aAlloy Smelter&r will be your most used machine in &eEnderIO&r as most Machines and Gizmos require some kind of Alloy produced here! oh and it can be upgraded with &bCapacitors&r."
 		""
 		"In the &aAlloy Smelter's&r interface, you can configure it in many different ways to improve your automation. It allows for side input/output configuration, redstone configuration, and swapping between three modes:"
 		"{@pagebreak}"
