@@ -6,9 +6,13 @@ on:
     - cron: '0 22 * * *'
   # 允许在 Actions 页面手动触发
   workflow_dispatch:
+  
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  # JOB 1: Check for updates, update files in repo, create the PR
+  # JOB 1: 检查更新并创建 PR
   update-and-create-pr:
     runs-on: ubuntu-latest
     permissions:
@@ -19,12 +23,18 @@ jobs:
       local_version_id: ${{ steps.checker.outputs.local_version_id }}
       new_version_id: ${{ steps.checker.outputs.new_version_id }}
       pack_id: ${{ steps.read_config.outputs.pack_id }}
+      # 以下两个输出为了在最后评论时能显示整合包信息
       pack_name: ${{ steps.checker.outputs.pack_name }}
       new_version: ${{ steps.checker.outputs.new_version }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Force Clean Workspace
+        run: |
+          git clean -fdx
+          git reset --hard HEAD
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -42,6 +52,10 @@ jobs:
         run: |
           PACK_ID=$(jq -r '.packId' .github/configs/modpack.json)
           echo "pack_id=$PACK_ID" >> $GITHUB_OUTPUT
+
+      - name: Clean up temporary directories
+        run: |
+          rm -rf temp_update
 
       - name: Run Update Checker Script
         id: checker
@@ -68,7 +82,6 @@ jobs:
           git commit -m "$PR_TITLE"
           git push --force -u origin $BRANCH_NAME
 
-          # Create PR and capture its number
           PR_URL=$(gh pr create \
             --base main \
             --head $BRANCH_NAME \
@@ -79,20 +92,20 @@ jobs:
           echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
           echo "Pull Request #${PR_NUMBER} created."
 
-  # JOB 2: Generate diff report and post it as a comment
-  generate-diff-report:
+
+  # JOB 2: 生成差异报告
+  build-report:
     runs-on: ubuntu-latest
     needs: update-and-create-pr
-    permissions:
-      pull-requests: write # Needed for posting the comment
-    if: needs.update-and-create-pr.outputs.pr_number && needs.update-and-create-pr.outputs.local_version_id && needs.update-and-create-pr.outputs.new_version_id
-
+    # 删除了对 local_version_id 的检查，更稳健
+    if: needs.update-and-create-pr.outputs.pr_number && needs.update-and-create-pr.outputs.new_version_id
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
+
         with:
           python-version: '3'
 
@@ -101,10 +114,15 @@ jobs:
           curl -L -o CurseTheBeast https://github.com/maxinglo/curse-the-beast/releases/download/v0.7.1/CurseTheBeast
           chmod +x ./CurseTheBeast
           echo "$(pwd)" >> $GITHUB_PATH
+      
+      - name: Clean up old archives
+        run: |
+          rm -f old_version.zip new_version.zip
 
       - name: Download old and new archives
         run: |
           PACK_ID="${{ needs.update-and-create-pr.outputs.pack_id }}"
+          # 如果 local_version_id 为空，会失败，这是预期的，因为无法比较
           LOCAL_ID="${{ needs.update-and-create-pr.outputs.local_version_id }}"
           NEW_ID="${{ needs.update-and-create-pr.outputs.new_version_id }}"
           
@@ -117,26 +135,74 @@ jobs:
       - name: Generate Diff Report
         run: |
           python .github/scripts/compare_archives.py old_version.zip new_version.zip -o diff_report.html
+      
+      - name: Prepare Artifacts
+        run: |
+          # 1. 为 GitHub Pages 创建部署目录
+          mkdir -p report_dist
+          mv diff_report.html report_dist/index.html
+          # 2. 为工作流产物存档创建一个副本，并用 PR 编号命名
+          cp report_dist/index.html diff_report_pr_${{ needs.update-and-create-pr.outputs.pr_number }}.html
 
-      - name: Compress Diff Report
-        run: zip diff_report.zip diff_report.html
+      - name: Upload Report for Pages Deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./report_dist # 上传部署目录
 
-      - name: Upload Report as Artifact
+      - name: Upload Report for Archival
         uses: actions/upload-artifact@v4
         with:
           name: diff-report-pr-${{ needs.update-and-create-pr.outputs.pr_number }}
-          path: diff_report.zip
-          retention-days: 7 # Optional: Set how long to keep the artifact
+          path: diff_report_pr_${{ needs.update-and-create-pr.outputs.pr_number }}.html
+          retention-days: 90 # 报告存档保留90天
+
+  # JOB 3: 部署报告到 GitHub Pages
+  deploy-report:
+    runs-on: ubuntu-latest
+    needs: build-report
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # JOB 4: 将报告链接评论到 PR
+  comment-link:
+    runs-on: ubuntu-latest
+    needs: [update-and-create-pr, deploy-report]
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Checkout repository to gain context
+        uses: actions/checkout@v4
 
       - name: Post Link to PR Comment
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBER: ${{ needs.update-and-create-pr.outputs.pr_number }}
-          # This URL links directly to the current workflow run's summary page
+          PAGE_URL: ${{ needs.deploy-report.outputs.page_url }}
+          PACK_NAME: ${{ needs.update-and-create-pr.outputs.pack_name }}
+          NEW_VERSION: ${{ needs.update-and-create-pr.outputs.new_version }}
           RUN_URL: "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
         run: |
-          # Create a clear, concise comment with a direct link to the artifacts
-          COMMENT_BODY="📦 **版本间差异报告已生成。**由于报告文件过大，已将其压缩并作为工作流产物上传。➡️ **[点此下载差异报告 (diff_report.zip)]($RUN_URL)**"
-          
+          COMMENT_BODY=$(cat <<EOF
+          📊 **${PACK_NAME} v${NEW_VERSION}** 的**自动更新报告**
+
+          一份详细的版本间内容差异报告已生成。
+
+          - ➡️ **[点击此处，在线预览交互式报告]($PAGE_URL)**
+          - 📄 **[点击此处，下载报告存档]($RUN_URL#artifacts)**
+
+          *在线预览页面总是显示最新PR的报告，而存档文件与本次运行永久绑定。*
+          EOF
+          )
           gh pr comment $PR_NUMBER --body "$COMMENT_BODY"
           echo "Link to diff report posted in PR #${PR_NUMBER}."
