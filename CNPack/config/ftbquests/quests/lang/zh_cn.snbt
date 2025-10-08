@@ -1916,7 +1916,7 @@
 	]
 	quest.107C26E8BF309BC1.title: "&f奥术战利品"
 	quest.109CB437DFAECDC6.quest_desc: [
-		"The &aAlloy Smelter&r will be your most used machine in &eEnderIO&r as most Machines and Gizmos require some kind of Alloy produced here! oh and it can be upgraded with &bCapacitors&r."
+		"&a合金炉&r将是你&e末影接口&r旅途中最常用的机器，因为大多数机器和设备都需要用到它生产的合金！哦，它还可以用&b电容&r升级。"
 		""
 		"在&a合金炉&r的UI内，你可以按需进行自动化配置，比如侧面输入/输出、红石控制，以及切换以下三种工作模式："
 		"{@pagebreak}"
