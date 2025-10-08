@@ -418,14 +418,6 @@
 		"&l&c千万小心！&r如果在没关闭激光的情况下就挖掉链接的方块，那么激光就会把激光线路上的方块全部挖掉！"
 	]
 	quest.036C11AC70835846.title: "&d末地&f之力"
-	quest.0376EEA8E8B3E66D.quest_desc: [
-		"想要制作电器，你得先烧点&a合金&r。"
-		""
-		"&7简易合金炉&r即可做到这一点，所以这将是你的第一台&e末影接口&r机器。"
-		""
-		"它像熔炉一样工作，消耗可燃烧物品，但是极其缓慢且不支持配置或升级。"
-	]
-	quest.0376EEA8E8B3E66D.title: "&f原始合金炉"
 	quest.03837E8A75948DE5.quest_desc: [
 		"将齿轮连接到动力筛子，它们便可以处理松散的材料，如沙砾、沙子和尘土，以筛出有用的资源。"
 		""
@@ -1924,7 +1916,7 @@
 	]
 	quest.107C26E8BF309BC1.title: "&f奥术战利品"
 	quest.109CB437DFAECDC6.quest_desc: [
-		"&a合金炉&r将是你&e末影接口&r旅途中最常用的机器，它比&7原始合金炉&r要好得多，且可以用&b电容&r升级。"
+		"The &aAlloy Smelter&r will be your most used machine in &eEnderIO&r as most Machines and Gizmos require some kind of Alloy produced here! oh and it can be upgraded with &bCapacitors&r."
 		""
 		"在&a合金炉&r的UI内，你可以按需进行自动化配置，比如侧面输入/输出、红石控制，以及切换以下三种工作模式："
 		"{@pagebreak}"

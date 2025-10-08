@@ -40,56 +40,56 @@
 			image: "minecraft:block/fire_1"
 			rotation: 0.0d
 			width: 2.0d
-			x: 0.0d
-			y: 0.0d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/bedrock"
 			rotation: 0.0d
 			width: 2.0d
-			x: 0.0d
-			y: 1.5d
+			x: 3.0238095238095184d
+			y: 0.2394557823129162d
 		}
 		{
 			height: 1.5d
 			image: "enderio:block/void_chassis"
 			rotation: 0.0d
 			width: 1.5d
-			x: 3.03d
-			y: -1.48d
+			x: 5.0d
+			y: -3.0d
 		}
 		{
 			height: 0.5d
-			image: "ftbchunks:textures/faces/minecraft/enderman.png"
+			image: "ftblibrary:textures/faces/minecraft/enderman.png"
 			rotation: 0.0d
 			width: 0.5d
-			x: 4.0d
-			y: 0.0d
+			x: 8.0d
+			y: -1.5d
 		}
 		{
 			height: 0.5d
-			image: "ftbchunks:textures/faces/minecraft/enderman.png"
+			image: "ftblibrary:textures/faces/minecraft/enderman.png"
 			rotation: 0.0d
 			width: 0.5d
-			x: 2.0d
-			y: 0.0d
+			x: 7.0d
+			y: -0.5d
 		}
 		{
 			height: 1.0d
 			image: "enderio:block/xp_juice_flowing"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.5d
-			y: -1.5d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			height: 1.0d
 			image: "enderio:block/ender_still"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.0d
-			y: 0.0d
+			x: 7.0d
+			y: -1.5d
 		}
 		{
 			color: 5636095
@@ -240,43 +240,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["566EEDD0B029090D"]
-			id: "0376EEA8E8B3E66D"
-			rewards: [
-				{
-					id: "07FB0FEE088F160C"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "5C6BAF54C9AD60C4"
-					item: {
-						count: 1
-						id: "enderio:grains_of_infinity"
-					}
-					random_bonus: 4
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 1.0d
-			tasks: [{
-				id: "71DE97DCC846D547"
-				item: {
-					count: 1
-					id: "enderio:primitive_alloy_smelter"
-				}
-				type: "item"
-			}]
-			x: 1.0d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -628,7 +592,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["0376EEA8E8B3E66D"]
+			dependencies: ["109CB437DFAECDC6"]
 			id: "52BF64BFF5FC3DD4"
 			rewards: [
 				{
@@ -659,8 +623,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["109CB437DFAECDC6"]
@@ -711,7 +675,15 @@
 					type: "item"
 				}
 				{
-					id: "016B562CC95E904A"
+					id: "5DC37451ABD8CBFE"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4912D02B3AA0E479"
 					item: {
 						count: 1
 						id: "enderio:void_chassis"
@@ -733,7 +705,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["1208CF1D5CA9E590"]
+			dependencies: ["52BF64BFF5FC3DD4"]
 			icon: {
 				id: "enderio:sag_mill"
 			}
@@ -783,14 +755,11 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -3.0d
+			x: 5.003401360544217d
+			y: -1.209523809523823d
 		}
 		{
 			dependencies: ["109CB437DFAECDC6"]
-			icon: {
-				id: "enderio:painting_machine"
-			}
 			id: "3A55DAA85874864A"
 			optional: true
 			rewards: [
@@ -957,7 +926,7 @@
 					id: "0C3FAE502B1B94DA"
 					item: {
 						count: 1
-						id: "enderio:empty_soul_vial"
+						id: "enderio:soul_vial"
 					}
 					random_bonus: 2
 					type: "item"
@@ -969,7 +938,7 @@
 					id: "5D56EAA3B73A5D97"
 					item: {
 						count: 1
-						id: "enderio:empty_soul_vial"
+						id: "enderio:soul_vial"
 					}
 					type: "item"
 				}
@@ -1040,11 +1009,11 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["52BF64BFF5FC3DD4"]
+			dependencies: ["566EEDD0B029090D"]
 			icon: {
 				id: "enderio:stirling_generator"
 			}
@@ -1151,8 +1120,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["77372AD6C4049263"]
@@ -1343,15 +1312,14 @@
 					id: "643A82D62860F8BE"
 					item: {
 						components: {
-							"enderio:stored_entity": {
+							"enderio:soul": {
 								entityTag: {
 									id: "minecraft:enderman"
 								}
-								maxHealth: 0.0f
 							}
 						}
 						count: 1
-						id: "enderio:filled_soul_vial"
+						id: "enderio:soul_vial"
 					}
 					type: "item"
 				}
