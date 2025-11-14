@@ -523,7 +523,7 @@
 			]
 			tasks: [{
 				id: "17BA3B9EDDCFB1FE"
-				item: { count: 2, id: "occultism:datura" }
+				item: { count: 1, id: "occultism:datura" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -2522,7 +2522,7 @@
 				{
 					count: 3L
 					id: "2E3FF0CE7917E6AD"
-					item: { count: 3, id: "occultism:witherite_dust" }
+					item: { count: 1, id: "occultism:witherite_dust" }
 					type: "item"
 				}
 				{

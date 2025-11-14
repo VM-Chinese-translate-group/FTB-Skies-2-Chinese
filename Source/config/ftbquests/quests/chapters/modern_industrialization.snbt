@@ -634,7 +634,7 @@
 				{
 					count: 2L
 					id: "5A85235ADC4A2F63"
-					item: { count: 2, id: "ftbmaterials:copper_rod" }
+					item: { count: 1, id: "ftbmaterials:copper_rod" }
 					type: "item"
 				}
 				{
@@ -646,7 +646,7 @@
 				{
 					count: 2L
 					id: "3F806B60F0238D27"
-					item: { count: 2, id: "ftbmaterials:iron_plate" }
+					item: { count: 1, id: "ftbmaterials:iron_plate" }
 					type: "item"
 				}
 				{
@@ -658,7 +658,7 @@
 				{
 					count: 2L
 					id: "6EDB49FCA51E7C61"
-					item: { count: 2, id: "modern_industrialization:copper_curved_plate" }
+					item: { count: 1, id: "modern_industrialization:copper_curved_plate" }
 					type: "item"
 				}
 			]
@@ -1258,7 +1258,7 @@
 				{
 					count: 20L
 					id: "6F46475D2ABC2BE8"
-					item: { count: 20, id: "modern_industrialization:fire_clay_bricks" }
+					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"
 				}
 			]
@@ -1378,7 +1378,7 @@
 				{
 					count: 6L
 					id: "414A60138C2744C6"
-					item: { count: 6, id: "modern_industrialization:steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing_pipe" }
 					type: "item"
 				}
 				{
@@ -2082,7 +2082,7 @@
 				{
 					count: 2L
 					id: "45A1111DD94D98FA"
-					item: { count: 2, id: "modern_industrialization:bronze_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:bronze_machine_casing_pipe" }
 					type: "item"
 				}
 				{
@@ -3238,7 +3238,7 @@
 				{
 					count: 8L
 					id: "31DA71AFCC10A0F3"
-					item: { count: 8, id: "modern_industrialization:kanthal_coil" }
+					item: { count: 1, id: "modern_industrialization:kanthal_coil" }
 					type: "item"
 				}
 			]
@@ -3830,7 +3830,7 @@
 				{
 					count: 5L
 					id: "2CAFDE53C20C27C3"
-					item: { count: 5, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
 					type: "item"
 				}
 				{
@@ -4079,13 +4079,13 @@
 				{
 					count: 10L
 					id: "478FDD512F239BFE"
-					item: { count: 10, id: "modern_industrialization:solid_titanium_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:solid_titanium_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "7C6DD80393C4F6B3"
-					item: { count: 10, id: "modern_industrialization:blastproof_casing" }
+					item: { count: 1, id: "modern_industrialization:blastproof_casing" }
 					type: "item"
 				}
 			]
@@ -4185,7 +4185,7 @@
 				{
 					count: 9L
 					id: "3CF52E2FF94204EF"
-					item: { count: 9, id: "modern_industrialization:titanium_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:titanium_machine_casing_pipe" }
 					type: "item"
 				}
 			]
@@ -4245,19 +4245,19 @@
 				{
 					count: 12L
 					id: "405544AB622FBB4E"
-					item: { count: 12, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "6F70D5C4BC6F05DE"
-					item: { count: 6, id: "modern_industrialization:heatproof_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "3C899C1116893874"
-					item: { count: 2, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
 					type: "item"
 				}
 			]
@@ -4316,13 +4316,13 @@
 				{
 					count: 15L
 					id: "4B26E6D9B13A7224"
-					item: { count: 15, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "30C9A30CEDC68535"
-					item: { count: 9, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
 					type: "item"
 				}
 			]
@@ -4384,19 +4384,19 @@
 				{
 					count: 9L
 					id: "56E5DD496DE69FAD"
-					item: { count: 9, id: "modern_industrialization:heatproof_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "0376CC6E2E938F42"
-					item: { count: 9, id: "modern_industrialization:frostproof_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:frostproof_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "293E3350637189C0"
-					item: { count: 10, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
 					type: "item"
 				}
 			]
@@ -6018,13 +6018,13 @@
 				{
 					count: 48L
 					id: "325AA74BFEE437DA"
-					item: { count: 48, id: "modern_industrialization:nuclear_casing" }
+					item: { count: 1, id: "modern_industrialization:nuclear_casing" }
 					type: "item"
 				}
 				{
 					count: 19L
 					id: "12E99AC7C9EBEB2A"
-					item: { count: 19, id: "modern_industrialization:nuclear_alloy_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:nuclear_alloy_machine_casing_pipe" }
 					type: "item"
 				}
 			]

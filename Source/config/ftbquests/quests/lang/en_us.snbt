@@ -57,11 +57,7 @@
 		"&7&oIf defeated, an &eEye of Storms&r &7&ocan be used on the pedestal that appears to summon the champion again for a rematch."
 	]
 	quest.000F1E507ACDFAAE.title: "&fBehold the &9Acropolis"
-	quest.0017F48E23512C75.quest_desc: [
-		"[\"You can now upgrade your existing \", {\"text\": \"Pentacles\", \"color\": \"#55FFFF\"}, \" with \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" and \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" chalks, and \", {\"text\": \"Spirit Attuned Crystals\", \"color\": \"#FF55FF\"}, \".\"]"
-		"{@pagebreak}"
-		"(new page placeholder text)"
-	]
+	quest.0017F48E23512C75.quest_desc: ["[\"You can now upgrade your existing \", {\"text\": \"Pentacles\", \"color\": \"#55FFFF\"}, \" with \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" and \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" chalks, and \", {\"text\": \"Spirit Attuned Crystals\", \"color\": \"#FF55FF\"}, \".\"]"]
 	quest.0017F48E23512C75.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" & \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" Chalks\"]"
 	quest.001F0C36B4AB9F5F.quest_desc: [
 		"If you think the Simple Coal Generator is good, you should try out the &aSimple Fuel Generator&r."
@@ -983,9 +979,9 @@
 	quest.0868EF9F8233B6ED.title: "&fGooey &aCoal"
 	quest.086CEFFCD4F4F088.title: "&dDigital Circuit"
 	quest.08766B8721B4E541.quest_desc: [
-		"Within the Nether, you might run into an &cAncient Battleground&r."
+		"Within the Nether, you might run into an &cNether Castle&r."
 		""
-		"Across the battlefield, you might see &cPiles of Armor Scraps&r. Mining these piles might seem tempting, but might disturb the &dAncient Knights&r that wore this armor."
+		"Across the castle, you might see &cPiles of Armor Scraps&r. Mining these piles might seem tempting, but might disturb the &dAncient Knights&r that wore this armor."
 		""
 		"Defeating one is necessary for progression, as these drop &cCinder Essence&r."
 		""
@@ -1883,7 +1879,7 @@
 		"You can also remove spells inscribed in the tome by selecting the spell in the interface, then clicking on the Spell Scroll on the right side to take it out."
 	]
 	quest.0EE0A8941A69703E.title: "&aInscribing Spells"
-	quest.0EE35D6E57FAD973.quest_desc: ["The most useful item for any enchanting setup; it acts as a storage chest for enchantments, and allows you to pick and choose which "]
+	quest.0EE35D6E57FAD973.quest_desc: ["The &6Enchantment Library&r acts as a storage for enchantments. With enough low level enchants, it can also create books of higher level enchants for you."]
 	quest.0EE35D6E57FAD973.quest_subtitle: "Magical Storage!"
 	quest.0EE35D6E57FAD973.title: "&dEnchantment Library"
 	quest.0EFA11536D00E653.quest_desc: [
@@ -3382,11 +3378,7 @@
 		""
 		"Output mode has several configuration methods: Direct, Inverted, Or, And, Nor, Nand, Xor, Xnor, Latch, Counter, Timer, and Static. Most of these are used in programming, so don’t worry too much if you’re not familiar with them since you likely won’t be using most of those anyway."
 	]
-	quest.1D572D53A6EE3205.quest_desc: [
-		"Once your &2Quarry&r digs up some &aPlatinum Ore&r, we can macerate it down into &bRaw Platinum Ore&r."
-		"{@pagebreak}"
-		"(new page placeholder text)"
-	]
+	quest.1D572D53A6EE3205.quest_desc: ["Once your &2Quarry&r digs up some &aPlatinum Ore&r, we can macerate it down into &bRaw Platinum Ore&r."]
 	quest.1D572D53A6EE3205.title: "&dRaw Platinum"
 	quest.1D6D9CCF4E0072E1.title: "&fGold Chunk"
 	quest.1D846D3D48C87FC4.quest_desc: [
@@ -4544,8 +4536,8 @@
 		"&eNote&r: You cannot use an Ultimate Tier Installer on a basic factory. It must follow the progression, so Basic to Advanced, Advanced to Elite, and then Elite to Ultimate."
 	]
 	quest.27C5F8272212B35A.title: "&aCreating &dFactories"
-	quest.27C9C8CEBC1464D1.quest_desc: ["The &6Revitalizer&r can be placed under your existing &aGoos&r to revive them using FE instead of feeding them items every now and then."]
-	quest.27C9C8CEBC1464D1.title: "&6Revitalizer"
+	quest.27C9C8CEBC1464D1.quest_desc: ["The &6Stabilizer&r can be placed under your existing &aGoos&r to revive them using FE instead of feeding them items every now and then."]
+	quest.27C9C8CEBC1464D1.title: "&6Stabilizer"
 	quest.27D28CC22BB5C665.quest_subtitle: "Used to craft other upgrades"
 	quest.27D28CC22BB5C665.title: "&fUpgrade Base"
 	quest.27E0738B56C6ED8C.quest_desc: ["Binding a &7Foliot&r to the satchel significantly increases its storage capacity, making it a great travel companion."]
@@ -4723,8 +4715,6 @@
 		"The &dWarper Relay&r is used to teleport Source to other &dWarper Relays&r, no matter how far away."
 		""
 		"&eNote&r: Distances beyond 30 blocks will have a chance to lose some Source when warping."
-		"{@pagebreak}"
-		"(new page placeholder text)"
 	]
 	quest.29CEF5D43415B227.title: "&dWarping Source"
 	quest.29E2CEADF6720EB3.quest_desc: [
@@ -10359,7 +10349,7 @@
 	quest.5BBA51F8FE4D6C3B.quest_desc: [
 		"A solid block that you can choose whether you want to walk through it or not! Right-click it to toggle its current state"
 		""
-		"While mobs don't know how to walk though this in its non-solid state, they can still be pushed or fall through."
+		"While mobs don't know how to walk through this in its non-solid state, they can still be pushed or fall through."
 	]
 	quest.5BBA51F8FE4D6C3B.title: "&dPhase Box"
 	quest.5BD655FBD85F1831.quest_desc: [
@@ -10845,8 +10835,6 @@
 		"There are different upgrades that you can use to allow your chests to pickup nearby items."
 		""
 		"The base level is just a &aPickup Upgrade&r, but upgrading to the &aMagnet Upgrade&r allows for more options and a wider range!"
-		"{@pagebreak}"
-		"(new page placeholder text)"
 	]
 	quest.606BDEB81F65A79F.title: "&aPickup Upgrades"
 	quest.60871670B71C711F.quest_desc: [
@@ -11053,7 +11041,11 @@
 		"&bAction Effect&r: Chance to Create Emeralds"
 	]
 	quest.61FBB8F1E0BB7189.title: "&fEmerald"
-	quest.620F29613800DC94.quest_desc: ["The &aRune Inscribed Ring"]
+	quest.620F29613800DC94.quest_desc: [
+		"The &aRune Inscribed Ring&r pattern allows you to inscribe &dRunes&r from the &6Iron's Spells&r mod."
+		""
+		"These &dRunes&r will empower the ring with different powers. Make sure to experiment!"
+	]
 	quest.620F29613800DC94.title: "&fRune Inscribed Ring"
 	quest.624B0229DBE6681F.quest_desc: [
 		"Tired of manual farming? Meet your new best friends: &6Loot Llamas&r!"
