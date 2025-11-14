@@ -2754,7 +2754,7 @@
 					count: 24L
 					id: "4807DACCEBDF0138"
 					item: {
-						count: 24
+						count: 1
 						id: "mekanismgenerators:fission_reactor_casing"
 					}
 					type: "item"
@@ -2763,7 +2763,7 @@
 					count: 4L
 					id: "0EFEAA781603F724"
 					item: {
-						count: 4
+						count: 1
 						id: "mekanismgenerators:fission_reactor_port"
 					}
 					type: "item"
@@ -2851,7 +2851,7 @@
 					count: 48L
 					id: "78E0A34C3899F87D"
 					item: {
-						count: 48
+						count: 1
 						id: "mekanism:structural_glass"
 					}
 					optional_task: true
@@ -2861,7 +2861,7 @@
 					count: 16L
 					id: "032539BC467BEC60"
 					item: {
-						count: 16
+						count: 1
 						id: "mekanismgenerators:turbine_vent"
 					}
 					type: "item"
@@ -2870,7 +2870,7 @@
 					count: 8L
 					id: "6A07E734E640A11B"
 					item: {
-						count: 8
+						count: 1
 						id: "mekanism:pressure_disperser"
 					}
 					type: "item"
@@ -2879,7 +2879,7 @@
 					count: 2L
 					id: "38AACEC741B59F37"
 					item: {
-						count: 2
+						count: 1
 						id: "mekanismgenerators:turbine_valve"
 					}
 					type: "item"
@@ -2888,7 +2888,7 @@
 					count: 2L
 					id: "4B8D5A8871F72AF8"
 					item: {
-						count: 2
+						count: 1
 						id: "mekanismgenerators:turbine_rotor"
 					}
 					type: "item"
@@ -3135,7 +3135,7 @@
 					count: 3L
 					id: "3BAF311FFDB1B5B8"
 					item: {
-						count: 3
+						count: 1
 						id: "mekanism:sps_port"
 					}
 					type: "item"
@@ -3152,7 +3152,7 @@
 					count: 63L
 					id: "1B1CAF9B8CBCE6B5"
 					item: {
-						count: 64
+						count: 1
 						id: "mekanism:structural_glass"
 					}
 					type: "item"
@@ -3321,7 +3321,7 @@
 					count: 3L
 					id: "50F2DE2CA57EEFDD"
 					item: {
-						count: 3
+						count: 1
 						id: "mekanismgenerators:fusion_reactor_port"
 					}
 					type: "item"
@@ -3330,7 +3330,7 @@
 					count: 36L
 					id: "46C40AB7E69FCE8D"
 					item: {
-						count: 25
+						count: 1
 						id: "mekanismgenerators:fusion_reactor_frame"
 					}
 					type: "item"
@@ -3339,7 +3339,7 @@
 					count: 25L
 					id: "29894669FE2349D4"
 					item: {
-						count: 25
+						count: 1
 						id: "mekanismgenerators:reactor_glass"
 					}
 					type: "item"

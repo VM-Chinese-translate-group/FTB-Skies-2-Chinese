@@ -56,11 +56,7 @@
 		"&7&o若击败Boss后，可以在出现的基座上使用&e风暴之眼&7&o来再次召唤它重新挑战。"
 	]
 	quest.000F1E507ACDFAAE.title: "&f瞻仰这座&9卫城"
-	quest.0017F48E23512C75.quest_desc: [
-		"[\"你现在可以使用\", {\"text\": \"橙色粉笔\", \"color\": \"#FCA645\"}, \"、\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"和\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"来再次升级现有的\", {\"text\": \"五芒星\", \"color\": \"#55FFFF\"}, \"了。\"]"
-		"{@pagebreak}"
-		"（这是空白页占位符）"
-	]
+	quest.0017F48E23512C75.quest_desc: ["[\"你现在可以使用\", {\"text\": \"橙色粉笔\", \"color\": \"#FCA645\"}, \"、\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"和\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"来再次升级现有的\", {\"text\": \"五芒星\", \"color\": \"#55FFFF\"}, \"了。\"]"]
 	quest.0017F48E23512C75.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \" & \", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"粉笔\"]"
 	quest.001F0C36B4AB9F5F.quest_desc: [
 		"如果你觉得初级煤炭发电器挺好用的话，为何不试试&a初级燃液发电器&r呢？"
@@ -954,9 +950,9 @@
 	quest.0868EF9F8233B6ED.title: "&f黏糊糊的&a煤炭"
 	quest.086CEFFCD4F4F088.title: "&d数字电路"
 	quest.08766B8721B4E541.quest_desc: [
-		"你在下界探索的时候，可能会碰到&c军团前哨&r。"
+		"Within the Nether, you might run into an &cNether Castle&r."
 		""
-		"在战场中你可能会碰到&c散落的盔甲碎片&r。挖这些破盔甲片也许会掉很好的东西，但也可能会惊扰到&d远古骑士&r——这些盔甲的正主。"
+		"Across the castle, you might see &cPiles of Armor Scraps&r. Mining these piles might seem tempting, but might disturb the &dAncient Knights&r that wore this armor."
 		""
 		"为了推游戏进度，你必须得杀掉一位远古骑士，因为它们会掉落&c灰烬源质&r。"
 		""
@@ -1771,7 +1767,7 @@
 		"你也可以把写入法术书的法术再取回来。只要先选择一个法术，随后在右侧的槽位单击其法术卷轴即可将其取出。"
 	]
 	quest.0EE0A8941A69703E.title: "&a抄写法术"
-	quest.0EE35D6E57FAD973.quest_desc: ["这是搭建附魔设备的最佳物品，它可以储存附魔书，还使你能自主取出附魔书！"]
+	quest.0EE35D6E57FAD973.quest_desc: ["The &6Enchantment Library&r acts as a storage for enchantments. With enough low level enchants, it can also create books of higher level enchants for you."]
 	quest.0EE35D6E57FAD973.quest_subtitle: "储存魔法！"
 	quest.0EE35D6E57FAD973.title: "&d魔咒图书馆"
 	quest.0EFA11536D00E653.quest_desc: [
@@ -3227,11 +3223,7 @@
 		""
 		"输出模式有多种输出选项：直接、反相、或门、与门、或非、与非、异或、同或、切换、数量、时间，以及指定输出。这其中大部分都是编程相关，所以即使你不了解它们也不用担心，反正你很可能用不上其中的大部分选项。"
 	]
-	quest.1D572D53A6EE3205.quest_desc: [
-		"在&2采石场&r中挖出&a铂矿石&r后，我们就可以把它粉碎变为&b粗铂&r。"
-		"{@pagebreak}"
-		"（这是空白页占位符）"
-	]
+	quest.1D572D53A6EE3205.quest_desc: ["在&2采石场&r中挖出&a铂矿石&r后，我们就可以把它粉碎变为&b粗铂&r。"]
 	quest.1D572D53A6EE3205.title: "&d粗铂"
 	quest.1D6D9CCF4E0072E1.title: "&f金矿块"
 	quest.1D846D3D48C87FC4.quest_desc: [
@@ -4315,8 +4307,8 @@
 		"&e注意&r：你不能把终级工厂安装器直接安装在基础工厂上，必须按照基础、高级、精英、终级的顺序升级。"
 	]
 	quest.27C5F8272212B35A.title: "&a建造&d工厂"
-	quest.27C9C8CEBC1464D1.quest_desc: ["将&6复苏器&r放置在你的&a凝胶&r下方，就可以消耗FE来维持它们的活性，从而免去了时不时喂食物品的麻烦。"]
-	quest.27C9C8CEBC1464D1.title: "&6复苏器"
+	quest.27C9C8CEBC1464D1.quest_desc: ["The &6Stabilizer&r can be placed under your existing &aGoos&r to revive them using FE instead of feeding them items every now and then."]
+	quest.27C9C8CEBC1464D1.title: "&6Stabilizer"
 	quest.27D28CC22BB5C665.quest_subtitle: "用于合成其他升级"
 	quest.27D28CC22BB5C665.title: "&f升级"
 	quest.27E0738B56C6ED8C.quest_desc: ["将&7魔精&r绑定到背包上可以显著增加其存储容量，使其成为旅行的好伙伴。"]
@@ -4480,8 +4472,6 @@
 		"&d魔源中继器：折越型&r可以将魔源传输至另一个&d折越型中继器&r，无视距离。"
 		""
 		"注意：如果折越距离大于30格，则在传送时有概率损耗一些魔源。"
-		"{@pagebreak}"
-		"（这是空白页占位符）"
 	]
 	quest.29CEF5D43415B227.title: "&d远程传输魔源"
 	quest.29E2CEADF6720EB3.quest_desc: [
@@ -9748,7 +9738,7 @@
 	quest.5BBA51F8FE4D6C3B.quest_desc: [
 		"这是一种可以切换固体状态的方块，你可以自由决定它是否能够通行！右击即可轻松切换。"
 		""
-		"当它处于非固体状态时，虽然生物不会主动穿行通过，但仍可以被推挤穿过或坠落穿过。"
+		"While mobs don't know how to walk through this in its non-solid state, they can still be pushed or fall through."
 	]
 	quest.5BBA51F8FE4D6C3B.title: "&d相变盒"
 	quest.5BD655FBD85F1831.quest_desc: [
@@ -10226,8 +10216,6 @@
 		"如果你想让箱子自动拾取周边物品的话，有一些升级可以帮到你。"
 		""
 		"&a拾取升级&r是最基础的，但升级到&a磁铁升级&r后就有更多设置，以及更大的拾取范围！"
-		"{@pagebreak}"
-		"（这是空白页占位符）"
 	]
 	quest.606BDEB81F65A79F.title: "&a拾取升级"
 	quest.60871670B71C711F.quest_desc: [
@@ -10426,7 +10414,11 @@
 		"&b行为触发效果&r：有概率掉落绿宝石"
 	]
 	quest.61FBB8F1E0BB7189.title: "&f绿宝石"
-	quest.620F29613800DC94.quest_desc: ["&a铭刻符文之戒"]
+	quest.620F29613800DC94.quest_desc: [
+		"The &aRune Inscribed Ring&r pattern allows you to inscribe &dRunes&r from the &6Iron's Spells&r mod."
+		""
+		"These &dRunes&r will empower the ring with different powers. Make sure to experiment!"
+	]
 	quest.620F29613800DC94.title: "&f铭刻符文之戒"
 	quest.624B0229DBE6681F.quest_desc: [
 		"还在手动种田？快来认识你的新伙伴：&6战利品羊驼&r！"

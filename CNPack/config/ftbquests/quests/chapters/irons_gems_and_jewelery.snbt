@@ -595,7 +595,7 @@
 			tasks: [{
 				id: "1798BAF594B1E32A"
 				item: {
-					count: 64
+					count: 1
 					id: "minecraft:gold_ingot"
 				}
 				type: "item"
@@ -643,7 +643,7 @@
 			tasks: [{
 				id: "6E3187989AC7A95E"
 				item: {
-					count: 64
+					count: 1
 					id: "ftbmaterials:lead_ingot"
 				}
 				type: "item"
@@ -667,7 +667,7 @@
 			tasks: [{
 				id: "4B351DCC54358823"
 				item: {
-					count: 64
+					count: 1
 					id: "minecraft:netherite_ingot"
 				}
 				type: "item"
@@ -716,7 +716,7 @@
 			tasks: [{
 				id: "2C2899E089C53B0E"
 				item: {
-					count: 64
+					count: 1
 					id: "ftbmaterials:silver_ingot"
 				}
 				type: "item"

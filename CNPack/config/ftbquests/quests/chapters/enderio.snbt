@@ -61,7 +61,7 @@
 		}
 		{
 			height: 0.5d
-			image: "ftblibrary:textures/faces/minecraft/enderman.png"
+			image: "ftbchunks:textures/faces/minecraft/enderman.png"
 			rotation: 0.0d
 			width: 0.5d
 			x: 8.0d
@@ -69,7 +69,7 @@
 		}
 		{
 			height: 0.5d
-			image: "ftblibrary:textures/faces/minecraft/enderman.png"
+			image: "ftbchunks:textures/faces/minecraft/enderman.png"
 			rotation: 0.0d
 			width: 0.5d
 			x: 7.0d
@@ -1313,9 +1313,8 @@
 					item: {
 						components: {
 							"enderio:soul": {
-								entityTag: {
-									id: "minecraft:enderman"
-								}
+								entity_tag: { }
+								entity_type: "minecraft:enderman"
 							}
 						}
 						count: 1

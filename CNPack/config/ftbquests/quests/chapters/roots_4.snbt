@@ -5,7 +5,7 @@
 	filename: "roots_4"
 	group: "33401D44ADADF4FC"
 	icon: {
-		id: "roots:ritual_spreading_forest"
+		id: "roots:spreading_forest"
 	}
 	id: "03A37FD64AD57D11"
 	images: [
@@ -403,7 +403,7 @@
 					id: "5157259C5DA373F5"
 					item: {
 						count: 1
-						id: "roots:ritual_grove_supplication"
+						id: "roots:grove_supplication"
 					}
 					optional_task: true
 					type: "item"
@@ -583,7 +583,7 @@
 		{
 			dependencies: ["0171D054BE838062"]
 			icon: {
-				id: "roots:ritual_animal_harvest"
+				id: "roots:animal_harvest"
 			}
 			id: "554D9B6BE7F3B16E"
 			min_width: 300
@@ -610,7 +610,7 @@
 					id: "76B5B3750B213617"
 					item: {
 						count: 1
-						id: "roots:ritual_animal_harvest"
+						id: "roots:animal_harvest"
 					}
 					optional_task: true
 					type: "item"
@@ -798,7 +798,7 @@
 					id: "5236935A9BEE59B3"
 					item: {
 						count: 1
-						id: "roots:ritual_wildroot_growth"
+						id: "roots:wildroot_growth"
 					}
 					optional_task: true
 					type: "item"

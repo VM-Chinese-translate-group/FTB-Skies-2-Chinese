@@ -828,7 +828,7 @@
 			tasks: [{
 				id: "228ABE9902B7DC9A"
 				item: {
-					count: 16
+					count: 1
 					id: "minecraft:sand"
 				}
 				type: "item"
@@ -1495,7 +1495,7 @@
 			tasks: [{
 				id: "0FC36CC4BB083004"
 				item: {
-					count: 16
+					count: 1
 					id: "ftb:crushed_kivi"
 				}
 				type: "item"

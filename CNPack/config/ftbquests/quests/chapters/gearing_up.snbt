@@ -4067,7 +4067,7 @@
 			shape: "diamond"
 			tasks: [
 				{
-					id: "72A2063FA6729BB8"
+					id: "4714B10DBAB78B52"
 					item: {
 						count: 1
 						id: "productivemetalworks:black_foundry_controller"
@@ -4075,7 +4075,7 @@
 					type: "item"
 				}
 				{
-					id: "41E8D534394BE0F6"
+					id: "543E60DA801B04EF"
 					item: {
 						count: 1
 						id: "productivemetalworks:black_foundry_tank"
@@ -4084,9 +4084,9 @@
 				}
 				{
 					count: 9L
-					id: "49BE384F4A813689"
+					id: "3197E27C9769ED3B"
 					item: {
-						count: 9
+						count: 1
 						id: "productivemetalworks:liquid_heating_coil"
 					}
 					type: "item"
