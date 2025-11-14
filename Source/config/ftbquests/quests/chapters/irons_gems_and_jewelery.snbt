@@ -564,7 +564,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "1798BAF594B1E32A"
-				item: { count: 64, id: "minecraft:gold_ingot" }
+				item: { count: 1, id: "minecraft:gold_ingot" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -606,7 +606,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "6E3187989AC7A95E"
-				item: { count: 64, id: "ftbmaterials:lead_ingot" }
+				item: { count: 1, id: "ftbmaterials:lead_ingot" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -627,7 +627,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "4B351DCC54358823"
-				item: { count: 64, id: "minecraft:netherite_ingot" }
+				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -670,7 +670,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "2C2899E089C53B0E"
-				item: { count: 64, id: "ftbmaterials:silver_ingot" }
+				item: { count: 1, id: "ftbmaterials:silver_ingot" }
 				type: "item"
 			}]
 			x: 4.0d

@@ -1405,7 +1405,8 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/llama.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:llama"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -1414,7 +1415,8 @@
 				{
 					icon: {
 						components: {
-							"ftbquests:icon": "ftbchunks:textures/faces/minecraft/llama.png"
+							"!ftbquests:icon": { }
+							"ftbquests:entity_face": "minecraft:llama"
 						}
 						id: "ftbquests:custom_icon"
 					}

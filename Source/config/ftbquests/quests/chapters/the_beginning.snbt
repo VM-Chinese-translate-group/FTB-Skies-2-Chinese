@@ -925,7 +925,7 @@
 				{
 					count: 12L
 					id: "3558DBE9AB157CC6"
-					item: { count: 12, id: "minecraft:end_portal_frame" }
+					item: { count: 1, id: "minecraft:end_portal_frame" }
 					type: "item"
 				}
 				{
@@ -2620,7 +2620,8 @@
 			hide_dependency_lines: true
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/chicken.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:chicken"
 				}
 				id: "ftbquests:custom_icon"
 			}

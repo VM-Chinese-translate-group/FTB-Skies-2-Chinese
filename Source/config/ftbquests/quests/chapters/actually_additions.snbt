@@ -1054,16 +1054,17 @@
 			id: "283EA4E7BA93DA11"
 			rewards: [
 				{
-					id: "4E91B9AA3DE65CA0"
+					id: "36C3C54DDB3727D4"
 					item: {
 						count: 1
 						id: "magic_coins:gold_coin"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
 					count: 2
-					id: "5AED3D0E09035736"
+					id: "32763CD17EC3241E"
 					item: {
 						count: 1
 						id: "actuallyadditions:display_stand"
@@ -1071,8 +1072,8 @@
 					type: "item"
 				}
 				{
-					id: "556D371CF2A4D6D7"
-					team_reward: false
+					id: "1C41F902EF0A57C6"
+					team_reward: true
 					type: "xp"
 					xp: 500
 				}
@@ -1087,8 +1088,8 @@
 				}
 				{
 					count: 2L
-					id: "326E8BBCC5FE1393"
-					item: { count: 4, id: "actuallyadditions:display_stand" }
+					id: "2A260D8300B885ED"
+					item: { count: 1, id: "actuallyadditions:display_stand" }
 					type: "item"
 				}
 			]

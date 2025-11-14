@@ -2994,7 +2994,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "75C26E628FFDB567"
-				item: { count: 1, id: "justdynathings:revitalizer" }
+				item: { count: 1, id: "justdynathings:stabilizer" }
 				type: "item"
 			}]
 			x: 23.0d

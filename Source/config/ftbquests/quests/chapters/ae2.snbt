@@ -355,8 +355,8 @@
 			shape: "hexagon"
 			tasks: [{
 				count: 8L
-				id: "4D027F7CC4603399"
-				item: { count: 8, id: "ae2:fluix_crystal" }
+				id: "7E156873E60B69F7"
+				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
 			x: 1.0d
