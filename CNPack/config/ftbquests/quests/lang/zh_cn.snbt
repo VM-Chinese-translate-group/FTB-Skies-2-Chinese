@@ -1767,7 +1767,7 @@
 		"你也可以把写入法术书的法术再取回来。只要先选择一个法术，随后在右侧的槽位单击其法术卷轴即可将其取出。"
 	]
 	quest.0EE0A8941A69703E.title: "&a抄写法术"
-	quest.0EE35D6E57FAD973.quest_desc: ["The &6Enchantment Library&r acts as a storage for enchantments. With enough low level enchants, it can also create books of higher level enchants for you."]
+	quest.0EE35D6E57FAD973.quest_desc: ["&6魔咒图书馆&r可以储存魔咒。存有足量的低等级魔咒时，它还可以将它们合并为更高等级的魔咒！"]
 	quest.0EE35D6E57FAD973.quest_subtitle: "储存魔法！"
 	quest.0EE35D6E57FAD973.title: "&d魔咒图书馆"
 	quest.0EFA11536D00E653.quest_desc: [
@@ -9738,7 +9738,7 @@
 	quest.5BBA51F8FE4D6C3B.quest_desc: [
 		"这是一种可以切换固体状态的方块，你可以自由决定它是否能够通行！右击即可轻松切换。"
 		""
-		"While mobs don't know how to walk through this in its non-solid state, they can still be pushed or fall through."
+		"当它处于非固体状态时，虽然生物不会主动穿行通过，但仍可以被推挤穿过或坠落穿过。"
 	]
 	quest.5BBA51F8FE4D6C3B.title: "&d相变盒"
 	quest.5BD655FBD85F1831.quest_desc: [
@@ -10415,9 +10415,9 @@
 	]
 	quest.61FBB8F1E0BB7189.title: "&f绿宝石"
 	quest.620F29613800DC94.quest_desc: [
-		"The &aRune Inscribed Ring&r pattern allows you to inscribe &dRunes&r from the &6Iron's Spells&r mod."
+		"&a铭刻符文之戒&r可以镶嵌&6Iron的法术与魔法书&r模组中的&d符文&r。"
 		""
-		"These &dRunes&r will empower the ring with different powers. Make sure to experiment!"
+		"这些&d符文&r会赋予戒指不同的力量，试试看吧！"
 	]
 	quest.620F29613800DC94.title: "&f铭刻符文之戒"
 	quest.624B0229DBE6681F.quest_desc: [
