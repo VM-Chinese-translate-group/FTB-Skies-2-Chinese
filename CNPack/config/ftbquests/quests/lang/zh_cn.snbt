@@ -4307,8 +4307,8 @@
 		"&e注意&r：你不能把终级工厂安装器直接安装在基础工厂上，必须按照基础、高级、精英、终级的顺序升级。"
 	]
 	quest.27C5F8272212B35A.title: "&a建造&d工厂"
-	quest.27C9C8CEBC1464D1.quest_desc: ["The &6Stabilizer&r can be placed under your existing &aGoos&r to revive them using FE instead of feeding them items every now and then."]
-	quest.27C9C8CEBC1464D1.title: "&6Stabilizer"
+	quest.27C9C8CEBC1464D1.quest_desc: ["将&6稳定器&r放置在你的&a凝胶&r下方，就可以消耗FE来维持它们的活性，从而免去了时不时喂食物品的麻烦。"]
+	quest.27C9C8CEBC1464D1.title: "&6稳定器"
 	quest.27D28CC22BB5C665.quest_subtitle: "用于合成其他升级"
 	quest.27D28CC22BB5C665.title: "&f升级"
 	quest.27E0738B56C6ED8C.quest_desc: ["将&7魔精&r绑定到背包上可以显著增加其存储容量，使其成为旅行的好伙伴。"]
