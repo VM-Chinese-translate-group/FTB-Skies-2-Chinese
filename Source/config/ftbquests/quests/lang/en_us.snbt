@@ -5519,11 +5519,7 @@
 	]
 	quest.319F49C16CFE900C.quest_subtitle: "Useful Commands"
 	quest.319F49C16CFE900C.title: "&bNo Place Like Home!"
-	quest.31AA29EBC3AC9060.quest_desc: [
-		"One of the craftable &dMagical Staves&r in the Iron's Spells mod."
-		""
-		"This is a great item to craft and hold in your offhand when casting spells."
-	]
+	quest.31AA29EBC3AC9060.quest_desc: ["One of the craftable &dMagical Staves&r in the Iron's Spells mod that provides several buffs."]
 	quest.31AA29EBC3AC9060.title: "&dArtificer's Cane"
 	quest.31B06C6ACEF764E0.quest_desc: [
 		"Before we can start crafting advanced technology, we'll need to find some &0Crude Oil&r first."
@@ -11515,11 +11511,7 @@
 		"[\"You can refer to the \", {\"text\": \"Main MV Diesel Generator Quest\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"58F29A199D553D29\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MV Diesel Generator Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
 	]
 	quest.664551F5E62A9D00.title: "&3MV Diesel Generator"
-	quest.664924519F78893C.quest_desc: [
-		"The &dGraybeard Staff&r is an early game weapon that can easily be crafted. Staffs allow the casting of spells via using them with right-click instead of using a hotkey."
-		""
-		"This Staff offers a buff to mana regeneration and spell power when held in either hand."
-	]
+	quest.664924519F78893C.quest_desc: ["The &dGraybeard Staff&r is an early game weapon that can easily be crafted. Staffs allow the casting of spells via using them with right-click instead of using a hotkey."]
 	quest.664924519F78893C.title: "&dGraybeard Staff"
 	quest.664F7957756D84FF.quest_desc: [
 		"No matter what kind of spell school you choose to use, there is an armor set just for you."
