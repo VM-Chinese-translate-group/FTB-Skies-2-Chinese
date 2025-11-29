@@ -5210,11 +5210,7 @@
 	]
 	quest.319F49C16CFE900C.quest_subtitle: "有用的命令"
 	quest.319F49C16CFE900C.title: "&b家是最好的地方！"
-	quest.31AA29EBC3AC9060.quest_desc: [
-		"Iron的法术与魔法书模组中，能够人工合成的&d魔杖&r之一。"
-		""
-		"把这个好东西做出来，然后施法的时候拿在副手。"
-	]
+	quest.31AA29EBC3AC9060.quest_desc: ["One of the craftable &dMagical Staves&r in the Iron's Spells mod that provides several buffs."]
 	quest.31AA29EBC3AC9060.title: "&d匠师之杖"
 	quest.31B06C6ACEF764E0.quest_desc: [
 		"在我们开始制作先进技术之前，我们需要先找到一些&0原油&r。"
@@ -10849,11 +10845,7 @@
 		"[\"你可以前往\", {\"text\": \"中压柴油发电机主线\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"58F29A199D553D29\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往中压柴油发电机任务\"} }, \"查询更多资料，或是前往\", { \"text\": \"现代化工业任务线\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往现代化工业章节\"} }, \"开始发展现代化工业。\"]"
 	]
 	quest.664551F5E62A9D00.title: "&3中压柴油发电机"
-	quest.664924519F78893C.quest_desc: [
-		"&d长者手杖&r是一种前期武器，很容易就能打造出来。手持魔杖时，你只需要右击就能施放已选中的法术，不必再按快捷键。"
-		""
-		"无论放在哪只手，这把手杖都可以加强法力值恢复速度和法术强度。"
-	]
+	quest.664924519F78893C.quest_desc: ["&d长者手杖&r是一种前期武器，很容易就能打造出来。手持魔杖时，你只需要右击就能施放已选中的法术，不必再按快捷键。"]
 	quest.664924519F78893C.title: "&d长者手杖"
 	quest.664F7957756D84FF.quest_desc: [
 		"不管你准备走哪个流派的法术，总有一套盔甲合你心意。"
