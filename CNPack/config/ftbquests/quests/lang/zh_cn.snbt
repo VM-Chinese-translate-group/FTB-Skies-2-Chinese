@@ -6225,6 +6225,12 @@
 	]
 	quest.3964E9A95D52B0FD.quest_subtitle: "召唤五芒星：级别5"
 	quest.3964E9A95D52B0FD.title: "&d阿巴拉斯强化召唤术"
+	quest.3969A7841DEB047D.quest_desc: [
+		"After sending &2Solar Sails&r, you can start harvesting the power of the sun using &dRay Recievers&r."
+		""
+		"Other players can join your &6Sphere&r by interacting with any multiblock and clicking the \"Subscribe to this sphere\" button on the bottom left."
+	]
+	quest.3969A7841DEB047D.title: "&dRay Receiver Controller&r"
 	quest.39751E377C0F22EE.quest_desc: [
 		"&a复制终端&r可以显示你的物质网络里的全部&b物质&r和可复制物。"
 		""
@@ -8010,6 +8016,14 @@
 		"&7&o别担心，其实它不会爆炸……或者，也许这就是你一直想要的……"
 	]
 	quest.4AC48E53E6022B15.title: "&c工业TNT"
+	quest.4AE2937C5B4DC094.quest_desc: [
+		"Within each &3Rail Ejector&r, you may choose to place in either &aBeams&r or &2Sails&r through the bottom-middle block of the multiblock structure."
+		""
+		"&aBeams&r allow your &6Sphere&r to accept more &2Sails&r, which is what actually increases your power generation. 1 beam supports 6 solar sails by default."
+		""
+		"Your network can contain a maximum of 50 Million &2Sails&r at maximum capacity, which takes around 8.3 Million &aBeams&r."
+	]
+	quest.4AE2937C5B4DC094.title: "&fSolar &aBeams &fand &2Sails"
 	quest.4AEC464751F85A2B.quest_desc: [
 		"这是&a控制器&r的配置界面。在下一页中，我们会逐一了解这些颜色框中的按钮有着什么样的作用。"
 		""
@@ -12530,6 +12544,14 @@
 		"&3阀门手轮&r用于精确旋转装置，并可染色装饰。"
 	]
 	quest.77E29BF73DB402C5.title: "&3流体阀门"
+	quest.77E8BBA45C737818.quest_desc: [
+		"The &eDyson Cube Project&f mod allows you to build your own Dyson Sphere megastructure in Minecraft and harvest the power of the sun, producing up to 1 BILLION FE/t!"
+		""
+		"To get started in this mod, you'll want to set up at least one &3EM Rail Ejector&r to send items to the sun, though more are definitely recommended. These can only work during non rainy days, and they will stop working when the sun is at its peak."
+		""
+		"When provided with power, the &3EM Rail Ejectors&r will work faster and ramp up how many items they send each time."
+	]
+	quest.77E8BBA45C737818.title: "&6Harvesting The Sun"
 	quest.77EFC3A24E922F93.quest_desc: [
 		"有了&d退火铜锭&r，我们就可以制作&d进阶元件&r，从而进一步升级设备了。"
 		""
@@ -13818,6 +13840,7 @@
 	task.4A18F4F81AEA7421.title: "第一层：完成"
 	task.4A5574B73D5286B1.title: "任意可佩戴的符文"
 	task.4A84D885C313D512.title: "&f堆叠升级"
+	task.4A89F3E2D803B73E.title: "&aSolar Beams"
 	task.4B459E2BBB4D1543.title: "&6JustDire模组&r的燃液"
 	task.4B48F3912AE46B3C.title: "&f召唤一个&e被附身的幻翼"
 	task.4B65088186551D3C.title: "&f虚空升级"
@@ -13862,6 +13885,7 @@
 	task.553BD544A0125D67.title: "&b五芒星&r已完成"
 	task.554CEA60D1280A89.title: "&e找到建筑&f：&c下界要塞"
 	task.555E91E3488C8559.title: "认知五件套"
+	task.5597978BFB274E19.title: "&2Solar Sails"
 	task.55B1C70507F60EDF.title: "&bAE2内置指南书&r"
 	task.55CC22F0E7476029.title: "&f召唤一尊&6艾瑟金属傀儡"
 	task.55E36C96A2424F59.title: "&e击杀&f：&6远古遗魂"

@@ -2964,14 +2964,14 @@
 		{
 			dependencies: ["325567B88BAFAD0D"]
 			icon: {
-				id: "vanillabackport:dried_ghast"
+				id: "minecraft:dried_ghast"
 			}
 			id: "20C91F9D612B52D1"
 			rewards: [{
 				id: "54EBC221004B7563"
 				item: {
 					count: 1
-					id: "vanillabackport:dried_ghast"
+					id: "minecraft:dried_ghast"
 				}
 				type: "item"
 			}]
