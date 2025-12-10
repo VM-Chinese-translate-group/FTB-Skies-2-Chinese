@@ -6617,6 +6617,12 @@
 	]
 	quest.3964E9A95D52B0FD.quest_subtitle: "Summoning Pentacle: Tier 5"
 	quest.3964E9A95D52B0FD.title: "&dTibira's Attraction"
+	quest.3969A7841DEB047D.quest_desc: [
+		"After sending &2Solar Sails&r, you can start harvesting the power of the sun using &dRay Recievers&r."
+		""
+		"Other players can join your &6Sphere&r by interacting with any multiblock and clicking the \"Subscribe to this sphere\" button on the bottom left."
+	]
+	quest.3969A7841DEB047D.title: "&dRay Receiver Controller&r"
 	quest.39751E377C0F22EE.quest_desc: [
 		"The &aReplication Terminal&r shows all &bMatter&r and available replication blocks in your network."
 		""
@@ -8502,6 +8508,14 @@
 		"To get started, cut down some &aBlack Thorn Trees&r."
 	]
 	quest.4ACC2E0A6E8E38C5.title: "&fWelcome to &6Pagan's Blessing&f!"
+	quest.4AE2937C5B4DC094.quest_desc: [
+		"Within each &3Rail Ejector&r, you may choose to place in either &aBeams&r or &2Sails&r through the bottom-middle block of the multiblock structure."
+		""
+		"&aBeams&r allow your &6Sphere&r to accept more &2Sails&r, which is what actually increases your power generation. 1 beam supports 6 solar sails by default."
+		""
+		"Your network can contain a maximum of 50 Million &2Sails&r at maximum capacity, which takes around 8.3 Million &aBeams&r."
+	]
+	quest.4AE2937C5B4DC094.title: "&fSolar &aBeams &fand &2Sails"
 	quest.4AEC464751F85A2B.quest_desc: [
 		"This is the main &aController&r interface. We’ll be breaking down what all these individual colored zones do in the next quest pages."
 		""
@@ -13311,6 +13325,14 @@
 		"&3Valve Handles&r are used to precisely rotate contraptions, and can be dyed for decoration."
 	]
 	quest.77E29BF73DB402C5.title: "&3Fluid Valve"
+	quest.77E8BBA45C737818.quest_desc: [
+		"The &eDyson Cube Project&f mod allows you to build your own Dyson Sphere megastructure in Minecraft and harvest the power of the sun, producing up to 1 BILLION FE/t!"
+		""
+		"To get started in this mod, you'll want to set up at least one &3EM Rail Ejector&r to send items to the sun, though more are definitely recommended. These can only work during non rainy days, and they will stop working when the sun is at its peak."
+		""
+		"When provided with power, the &3EM Rail Ejectors&r will work faster and ramp up how many items they send each time."
+	]
+	quest.77E8BBA45C737818.title: "&6Harvesting The Sun"
 	quest.77EFC3A24E922F93.quest_desc: [
 		"Now that we have &dAnnealed Copper&r, we can craft the &dAdvanced Components&r needed to upgrade our tech."
 		""
@@ -14818,6 +14840,7 @@
 	task.4A3E55075B97791B.title: "Don't you dare press this."
 	task.4A5574B73D5286B1.title: "Any equippable Rune"
 	task.4A84D885C313D512.title: "&fStack Upgrades"
+	task.4A89F3E2D803B73E.title: "&aSolar Beams"
 	task.4AAA15EBC25F0934.title: "Hi Mikey"
 	task.4B1F104A44632F02.title: "Interactions"
 	task.4B459E2BBB4D1543.title: "&eJustDire's &fFuel"
@@ -14881,6 +14904,7 @@
 	task.554CEA60D1280A89.title: "&eFind Structure&f: &cNether Fortress"
 	task.555E91E3488C8559.title: "Standard Cognitive tools"
 	task.557625D77812B78A.title: "Attack Upgrade"
+	task.5597978BFB274E19.title: "&2Solar Sails"
 	task.55B1C70507F60EDF.title: "&fThe &bAE2 Guide"
 	task.55CC22F0E7476029.title: "&fSummon an &6Iesnium Golem"
 	task.55E36C96A2424F59.title: "&eKill: &6Ancient Remnant"

@@ -94,7 +94,7 @@
 		{
 			color: 5636095
 			height: 1.0d
-			image: "malum:textures/vfx/rite/aerial.png"
+			image: "malum:textures/vfx/rite/gaze_aerial.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.5d
@@ -103,7 +103,7 @@
 		{
 			color: 43690
 			height: 1.0d
-			image: "malum:textures/vfx/rite/aqueous.png"
+			image: "malum:textures/vfx/rite/gaze_aqueous.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.5d
@@ -112,7 +112,7 @@
 		{
 			color: 16733695
 			height: 1.0d
-			image: "malum:textures/vfx/rite/arcane.png"
+			image: "malum:textures/vfx/rite/gaze_arcane.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 7.0d
@@ -121,7 +121,7 @@
 		{
 			color: 5635925
 			height: 1.0d
-			image: "malum:textures/vfx/rite/earthen.png"
+			image: "malum:textures/vfx/rite/gaze_earthen.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 6.5d
@@ -130,7 +130,7 @@
 		{
 			color: 16755200
 			height: 1.0d
-			image: "malum:textures/vfx/rite/infernal.png"
+			image: "malum:textures/vfx/rite/gaze_infernal.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 6.5d
@@ -139,7 +139,7 @@
 		{
 			color: 16716652
 			height: 1.0d
-			image: "malum:textures/vfx/rite/sacred.png"
+			image: "malum:textures/vfx/rite/gaze_sacred.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 5.0d
@@ -148,7 +148,7 @@
 		{
 			color: 11141290
 			height: 1.0d
-			image: "malum:textures/vfx/rite/wicked.png"
+			image: "malum:textures/vfx/rite/gaze_wicked.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 5.0d
@@ -1678,7 +1678,7 @@
 			dependencies: ["272E84656D0F133C"]
 			icon: {
 				components: {
-					"ftbquests:icon": "malum:textures/mob_effect/sacrificial_empowerment.png"
+					"ftbquests:icon": "malum:textures/mob_effect/grim_certainty.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -1783,7 +1783,7 @@
 			}]
 			tasks: [{
 				id: "04BAC9AE4A8C1012"
-				item: { count: 1, id: "gaze:encyclopedia_unveiled" }
+				item: { components: { "irons_spellbooks:affinity_data": { bonuses: { "irons_spellbooks:eldritch_blast": 3 } }, "irons_spellbooks:spell_container": { data: [{ id: "gaze:soulward_shield", index: 0, level: 1, locked: 1b }], maxSpells: 11, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "gaze:encyclopedia_unveiled" }
 				type: "item"
 			}]
 			x: 0.0d

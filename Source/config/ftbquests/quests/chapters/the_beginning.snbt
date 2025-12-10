@@ -2363,7 +2363,7 @@
 			]
 			tasks: [{
 				id: "7344481BEC662CFC"
-				item: { count: 1, id: "vanillabackport:dried_ghast" }
+				item: { count: 1, id: "minecraft:dried_ghast" }
 				type: "item"
 			}]
 			x: -2.0d
