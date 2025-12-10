@@ -1863,5 +1863,82 @@
 			x: 9.5d
 			y: 1.5d
 		}
+		{
+			id: "77E8BBA45C737818"
+			rewards: [{
+				count: 5
+				id: "239C4692F75B171E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5F5A6B68D6ED8B86"
+				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["77E8BBA45C737818"]
+			icon: {
+				id: "dysoncubeproject:solar_sail_package"
+			}
+			id: "4AE2937C5B4DC094"
+			rewards: [{
+				id: "367F0776F372FC32"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					icon: {
+						id: "dysoncubeproject:beam_package"
+					}
+					id: "4A89F3E2D803B73E"
+					item: { components: { "ftbfiltersystem:filter": "or(item(dysoncubeproject:beam)item(dysoncubeproject:beam_package))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "dysoncubeproject:solar_sail_package"
+					}
+					id: "5597978BFB274E19"
+					item: { components: { "ftbfiltersystem:filter": "or(item(dysoncubeproject:solar_sail)item(dysoncubeproject:solar_sail_package))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4AE2937C5B4DC094"]
+			id: "3969A7841DEB047D"
+			rewards: [{
+				count: 2
+				id: "74A4AA41C301376D"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2FDDC10F6C074A2B"
+				item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.5d
+		}
 	]
 }

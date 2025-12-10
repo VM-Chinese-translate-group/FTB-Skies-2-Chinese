@@ -1,13 +1,13 @@
 {
 	icon: {
-		id: "vanillabackport:blue_harness"
+		id: "minecraft:blue_harness"
 	}
 	id: "22D98C561EB769B0"
 	loot_size: 1
 	order_index: 65
 	rewards: [
-		{ id: "2CFAE4071BD87475", item: { count: 1, id: "vanillabackport:purple_harness" } }
-		{ id: "16E383A2529C644E", item: { count: 1, id: "vanillabackport:blue_harness" } }
+		{ id: "2CFAE4071BD87475", item: { count: 1, id: "minecraft:purple_harness" } }
+		{ id: "16E383A2529C644E", item: { count: 1, id: "minecraft:blue_harness" } }
 	]
 	use_title: true
 }
