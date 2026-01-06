@@ -5822,7 +5822,7 @@
 	]
 	quest.33AC3264C0AE8FF1.title: "&fGrowing &bMobs"
 	quest.33AC985718B5BA2D.title: "&aPulp"
-	quest.33B0290BBE5DD5BC.quest_desc: ["Now that we have an &2Electric Blast Furnace&r, we can smelt &2Bauxite Dust&r into &bIndustrial Aluminum Nuggets&r. You'll be able to make &bIndustrial Aluminum&r more efficiently later, but, for now, this is the primary method to get you started."]
+	quest.33B0290BBE5DD5BC.quest_desc: ["Now that you have an &2Electric Blast Furnace&r, you'll be able to make &bIndustrial Aluminum&r. If you're sticking with &eM.I&r, you'll have to acquire &bIndustrial Aluminum Nuggets&r first, but there are more efficient methods through other mods."]
 	quest.33B0290BBE5DD5BC.title: "&bIndustrial Aluminum Ingot"
 	quest.33C257571749A2EF.quest_desc: [
 		"A &dGenetically Modified Cell&r (&dGM Cell&r for short) are guaranteed to have a specific gene when crafted correctly and successfully. Yes, this process can fail."
