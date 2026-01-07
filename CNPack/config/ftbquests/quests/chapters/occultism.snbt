@@ -4035,7 +4035,8 @@
 			]
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/enderman.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:enderman"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -4995,7 +4996,10 @@
 					advancement: "occultism:occultism/possess_unbound_parrot"
 					criterion: ""
 					icon: {
-						id: "occultism:spawn_egg/familiar_parrot"
+						components: {
+							"ftbquests:missing_item": "occultism:spawn_egg/familiar_parrot"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "2BB5021FC9A3E6EB"
 					optional_task: true

@@ -5499,7 +5499,7 @@
 	]
 	quest.33AC3264C0AE8FF1.title: "&f种植&b生物"
 	quest.33AC985718B5BA2D.title: "&a纸浆"
-	quest.33B0290BBE5DD5BC.quest_desc: ["现在我们有了&2电力高炉&r，终于可以把我们的&2工业铝土矿粉&r熔炼成&b工业铝粒&r了！虽然在不久的将来你将会拥有效率更高的炼铝方案，但就目前起步来说你只能用它了。"]
+	quest.33B0290BBE5DD5BC.quest_desc: ["Now that you have an &2Electric Blast Furnace&r, you'll be able to make &bIndustrial Aluminum&r. If you're sticking with &eM.I&r, you'll have to acquire &bIndustrial Aluminum Nuggets&r first, but there are more efficient methods through other mods."]
 	quest.33B0290BBE5DD5BC.title: "&b工业铝锭"
 	quest.33C257571749A2EF.quest_desc: [
 		"培育成功的&d转基因细胞&r（简称&dGM细胞&r）应该带有一个非基础的基因。对你没听错，这玩意可能会失败。"
