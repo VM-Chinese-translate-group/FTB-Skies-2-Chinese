@@ -5210,7 +5210,7 @@
 	]
 	quest.319F49C16CFE900C.quest_subtitle: "有用的命令"
 	quest.319F49C16CFE900C.title: "&b家是最好的地方！"
-	quest.31AA29EBC3AC9060.quest_desc: ["One of the craftable &dMagical Staves&r in the Iron's Spells mod that provides several buffs."]
+	quest.31AA29EBC3AC9060.quest_desc: ["Iron的法术与魔法书模组中可合成的&d魔杖&r之一，可提供多种增益效果。"]
 	quest.31AA29EBC3AC9060.title: "&d匠师之杖"
 	quest.31B06C6ACEF764E0.quest_desc: [
 		"在我们开始制作先进技术之前，我们需要先找到一些&0原油&r。"
@@ -5499,7 +5499,7 @@
 	]
 	quest.33AC3264C0AE8FF1.title: "&f种植&b生物"
 	quest.33AC985718B5BA2D.title: "&a纸浆"
-	quest.33B0290BBE5DD5BC.quest_desc: ["Now that you have an &2Electric Blast Furnace&r, you'll be able to make &bIndustrial Aluminum&r. If you're sticking with &eM.I&r, you'll have to acquire &bIndustrial Aluminum Nuggets&r first, but there are more efficient methods through other mods."]
+	quest.33B0290BBE5DD5BC.quest_desc: ["现在你已经拥有了&2电力高炉&r，就可以制造&b工业铝&r了。如果你仍然选择使用&eMI&r流程，那么需要先获取&b工业铝粒&r，不过通过其他模组还有更高效的获取方式。"]
 	quest.33B0290BBE5DD5BC.title: "&b工业铝锭"
 	quest.33C257571749A2EF.quest_desc: [
 		"培育成功的&d转基因细胞&r（简称&dGM细胞&r）应该带有一个非基础的基因。对你没听错，这玩意可能会失败。"
