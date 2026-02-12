@@ -2183,13 +2183,13 @@
 					type: "item"
 				}
 				{
-					count: 70L
+					count: 30L
 					id: "1B4AF8613805D9F5"
 					item: { count: 1, id: "extendedae:assembler_matrix_pattern" }
 					type: "item"
 				}
 				{
-					count: 50L
+					count: 90L
 					id: "7A0F2DB356A4A43A"
 					item: { count: 1, id: "extendedae:assembler_matrix_crafter" }
 					type: "item"

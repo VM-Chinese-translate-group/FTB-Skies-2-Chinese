@@ -426,7 +426,7 @@
 		"{@pagebreak}"
 		"Sifter meshes will typically find more resources the better tier they are, from cloth to diamond, requiring the sifters to run at a higher base speed."
 		""
-		"To make the &6blazing&r mechanical mesh work however, which directly generates smelted ingots of metal in exchange for destroying some alternate resources, the sifter must be run in the &6Nether&r."
+		"The &6blazing&r mechanical mesh works a little differently however, it directly generates smelted ingots of metals in exchange for destroying some alternate resources."
 	]
 	quest.03837E8A75948DE5.quest_subtitle: "\"Not this S*** Again\" - AlfredGG"
 	quest.03837E8A75948DE5.title: "&fThe Old Ways"
@@ -2299,10 +2299,6 @@
 		"Most rituals only require a single &bcircle&r, formed in a 7x7 ring (one diagonal) around the heart."
 		"&7A representation of this is shown below."
 		""
-		"A few advanced rituals may require a second &bcircle&r with a gap from the first, forming a 11x11 ring around the heart (two diagonal)."
-		"&7A representation of this is not shown below."
-		""
-		""
 		"    XXX"
 		"  X     X"
 		"X         X"
@@ -2311,6 +2307,8 @@
 		"  X     X"
 		"    XXX"
 		""
+		""
+		"A few advanced rituals may require a second &bcircle&r with a gap from the first, forming a 11x11 ring around the heart (two diagonal)."
 		"{@pagebreak}"
 		"If you would like to pick up a circle and move it somewhere else, you can do so with a rite."
 		""
@@ -3129,14 +3127,6 @@
 	]
 	quest.1B9C122BAE5A64BC.quest_subtitle: "Alone no Longer!"
 	quest.1B9C122BAE5A64BC.title: "&cLove at First Summon?"
-	quest.1BA5F737C2C6356F.quest_desc: [
-		"&aKettles&r function in much the same way that a &eWitch's Cauldron&r does, but typically makes potions instead of solid products. Some of these are for drinking, most of them are not. Anything called '&aBrew&r' is safe enough."
-		""
-		"Follow the recipe's &border&r to drop in the ingredients, wait for the color to change and the particles to spritz out of the kettle rather than drift down into it. Simply interact with the Kettle once it's finished to extract a dose of the brew."
-		""
-		"&7Don't worry about where the bottle comes from, you don't keep it either."
-	]
-	quest.1BA5F737C2C6356F.title: "&fPut the Kettle On"
 	quest.1BAF60BB97FE304B.quest_desc: [
 		"All generators (except the &aBasic Generator&r) can be converted to produce &bSteam&r instead of RF by using the &aSteam Boiler Addon&r."
 		""
@@ -6763,13 +6753,13 @@
 	]
 	quest.3A91BB6A673C0D83.title: "&aMultiblock Quarries&r"
 	quest.3AB6083CCDD1B74A.quest_desc: [
-		"To obtain a &aWitch's Cauldron&r, use anointing paste on the vanilla version. It will need some heat underneath it for proper brewing, be sure to place it over a &eCampfire&r or a similar heat source."
+		"The &aKettle&r is used to craft many items and potions and needs some heat underneath it for proper brewing, be sure to place it over a &eCampfire&r or a similar heat source."
 		""
 		"You'll know it's working if a bucket of water put into it begins to boil."
 		""
-		"Ingredients need to be dropped into the cauldron in a &especific order&r as shown by the recipe. Once the particles stop swirling, right click to extract the product of your brew."
+		"Ingredients need to be dropped into it in a specific order as shown by each recipe. Once the particles stop changing colors, Right-click to extract the product of your brew."
 		""
-		"&7If you do mess up a recipe, you can clear out the Cauldron using an empty bucket."
+		"&7If you do mess up a recipe, you can clear out the &aKettle&r using an empty bucket."
 	]
 	quest.3AB6083CCDD1B74A.title: "&fToil and Trouble"
 	quest.3ABDE5FC61DE36A6.title: "&6Infinity Pipe Upgrade"
@@ -7846,6 +7836,8 @@
 		"You'll then need to make sure each &6End Portal Frame&r has an &6Eye of Ender&r inside."
 		""
 		"This will complete the portal, allowing you to jump through to reach &6The End&r, the home of the &dEnder Dragon&r."
+		""
+		"&7If you want to move your portal, Left-clicking an End Portal with a frame will delete the portal."
 	]
 	quest.447242EAC91413A9.title: "&aThe Portal To &dThe End"
 	quest.44882A0B7C12B3F6.title: "&cBlazegold Bow"

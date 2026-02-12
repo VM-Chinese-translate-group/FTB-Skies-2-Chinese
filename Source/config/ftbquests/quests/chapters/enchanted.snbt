@@ -84,8 +84,8 @@
 			order: -6
 			rotation: 15.0d
 			width: 3.0d
-			x: 1.5d
-			y: -3.5d
+			x: 2.0d
+			y: -4.25d
 		}
 		{
 			height: 3.0d
@@ -93,7 +93,7 @@
 			rotation: 0.0d
 			width: 7.5d
 			x: 0.0d
-			y: -7.0d
+			y: -6.75d
 		}
 	]
 	order_index: 1
@@ -225,8 +225,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 0.0d
+			x: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["15956817DCDAD8C3"]
@@ -272,6 +272,7 @@
 		{
 			dependencies: ["63D1F9A9465CC28F"]
 			id: "58029A4EF02A1FBD"
+			optional: true
 			rewards: [{
 				id: "6D0687288A83E2CB"
 				item: {
@@ -285,14 +286,14 @@
 				item: { count: 1, id: "enchanted:anointing_paste" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["58029A4EF02A1FBD"]
 			id: "3AB6083CCDD1B74A"
 			rewards: [
 				{
+					count: 3
 					id: "14FF0128427422A9"
 					item: {
 						count: 1
@@ -308,19 +309,22 @@
 					}
 					type: "item"
 				}
+				{
+					id: "58952ED1F4BCF17E"
+					item: {
+						count: 1
+						id: "arsdelight:mendosteen_tea"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
-				icon: {
-					id: "enchanted:witch_cauldron"
-				}
-				id: "309DB0D0ED158034"
-				observe_type: 0
-				timer: 0L
-				to_observe: "enchanted:witch_cauldron"
-				type: "observation"
+				id: "5F68F85551AA27D5"
+				item: { count: 1, id: "enchanted:kettle" }
+				type: "item"
 			}]
-			x: -4.5d
-			y: -1.5d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3AB6083CCDD1B74A"]
@@ -350,7 +354,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6E009D4747E3E485"]
@@ -407,7 +411,7 @@
 				}
 			]
 			x: -1.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -738,36 +742,10 @@
 			y: -4.0d
 		}
 		{
-			id: "1BA5F737C2C6356F"
-			optional: true
-			rewards: [
-				{
-					id: "7E1EFACCA0834C0B"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7A7A2D2450568128"
-					item: {
-						count: 1
-						id: "arsdelight:mendosteen_tea"
-					}
-					type: "item"
-				}
+			dependencies: [
+				"58029A4EF02A1FBD"
+				"3B3CE4B6B25CB8DB"
 			]
-			tasks: [{
-				id: "154CC9B1BAB1F4DD"
-				item: { count: 1, id: "enchanted:kettle" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -5.0d
-		}
-		{
 			icon: {
 				id: "enchanted:poppet"
 			}
@@ -861,7 +839,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 1.5d
 			y: -5.0d
 		}
 		{
@@ -932,7 +910,7 @@
 				}
 			]
 			x: 2.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6E009D4747E3E485"]
@@ -986,8 +964,8 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: -4.0d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1385135551DA36AB"]
@@ -1032,8 +1010,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -5.5d
+			x: -1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1385135551DA36AB"]
@@ -1092,10 +1070,10 @@
 				}
 			]
 			x: 0.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["1BA5F737C2C6356F"]
+			dependencies: ["3AB6083CCDD1B74A"]
 			id: "59550D06A062F224"
 			optional: true
 			rewards: [
@@ -1122,8 +1100,8 @@
 				item: { count: 1, id: "enchanted:redstone_soup" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.5d
+			x: -4.5d
+			y: -1.0d
 		}
 	]
 }
