@@ -423,7 +423,7 @@
 		"{@pagebreak}"
 		"筛网的等级越高（从布到钻石），通常能筛出的资源越多，但这需要动力筛子以更高的基础速度运行。"
 		""
-		"&6烈焰&r筛网可以消耗一些替代资源以直接获得金属锭，但是筛子必须在&6下界&r中运行。"
+		"&6烈焰&r筛网的工作方式有些不同，用它可以直接获得金属锭，但需要消耗一些替代资源。"
 	]
 	quest.03837E8A75948DE5.quest_subtitle: "“怎么又是这破事” - AlfredGG"
 	quest.03837E8A75948DE5.title: "&f老方法"
@@ -2176,10 +2176,6 @@
 		"大多数仪式只需要一个&b圆环&r，其以围绕心脏的7x7的环形（一格斜线）构成。"
 		"&7具体如下"
 		""
-		"几个进阶仪式可能需要第二个&b圆环&r，其与第一个圆环留有间隔，由围绕心脏的11x11的环形（两格斜线）构成。"
-		"&7具体不如下"
-		""
-		""
 		"    XXX"
 		"  X     X"
 		"X         X"
@@ -2188,6 +2184,8 @@
 		"  X     X"
 		"    XXX"
 		""
+		""
+		"A few advanced rituals may require a second &bcircle&r with a gap from the first, forming a 11x11 ring around the heart (two diagonal)."
 		"{@pagebreak}"
 		"如果你想将圆环转移到另一个地方，仪式可以胜任这项工作。"
 		""
@@ -2196,7 +2194,7 @@
 		"要放下圆环，只需要在适当清理的区域用刻印圆环的护身符右击地面即可。"
 		""
 		""
-		"……&a扫帚&r是用来做什么的？用来利索地扫掉画错地方的符形的，显然如此，没别的用处了……"
+		"...what's the &aBroom&r for? Neatly sweeping up misplaced chalk, obviously. No other reason..."
 	]
 	quest.1385135551DA36AB.title: "圆环魔法"
 	quest.138CB008CE4C838B.quest_desc: [
@@ -2982,14 +2980,6 @@
 	]
 	quest.1B9C122BAE5A64BC.quest_subtitle: "今朝缔连理！"
 	quest.1B9C122BAE5A64BC.title: "&c一见倾心？"
-	quest.1BA5F737C2C6356F.quest_desc: [
-		"&a水壶&r和&e巫师坩埚&r的使用方式相同，但常常用来制作药剂而非固体产物。有些药剂可以喝，但大部分是有毒的，被称为“&a酿&r”的药剂都是无毒的。"
-		""
-		"按照配方&b顺序&r依次放入材料，等待颜色改变，粒子从涌入壶中变为从壶中涌出时就完成了，此时与水壶互动即可取出酿造物。"
-		""
-		"&7别在意瓶子怎么来的，反正你也不会留着它。"
-	]
-	quest.1BA5F737C2C6356F.title: "&f沏壶高的"
 	quest.1BAF60BB97FE304B.quest_desc: [
 		"如果加装&a蒸汽锅炉插件&r的话，那么除基础发电机以外的发电机就可以产出&b蒸汽&r。"
 		""
@@ -6371,13 +6361,13 @@
 	]
 	quest.3A91BB6A673C0D83.title: "&a多方块采石场&r"
 	quest.3AB6083CCDD1B74A.quest_desc: [
-		"对原版坩埚使用受魔之膏以获得&a巫师坩埚&r，坩埚下方需要热源才能炼药，确保其下有&e营火&r或类似的热源。"
+		"The &aKettle&r is used to craft many items and potions and needs some heat underneath it for proper brewing, be sure to place it over a &eCampfire&r or a similar heat source."
 		""
 		"用水桶将水倒入其中，水会被烧开。"
 		""
-		"材料需要按照配方&e指定的顺序&r扔进坩埚，粒子停止旋转后，右击以取出炼药成品。"
+		"Ingredients need to be dropped into it in a specific order as shown by each recipe. Once the particles stop changing colors, Right-click to extract the product of your brew."
 		""
-		"&7如果你混淆了配方，可以使用空桶清空坩埚内的液体。译者注：任务名取自莎士比亚《麦克白》。"
+		"&7If you do mess up a recipe, you can clear out the &aKettle&r using an empty bucket."
 	]
 	quest.3AB6083CCDD1B74A.title: "&f辛劳和麻烦"
 	quest.3ABDE5FC61DE36A6.title: "&6无限管道升级"
@@ -7381,6 +7371,8 @@
 		"将&6末影之眼&r放入所有&6末地传送门框架&r，这样便可激活传送门。"
 		""
 		"这样传送门结构就会成型，你可以跳入其中到达&6末地&r——&d末影龙&r的家乡。"
+		""
+		"&7如果你想移除传送门，用传送门框架左键即可。"
 	]
 	quest.447242EAC91413A9.title: "&a通往&d末地&a的传送门"
 	quest.44882A0B7C12B3F6.title: "&c烈焰金弓"
