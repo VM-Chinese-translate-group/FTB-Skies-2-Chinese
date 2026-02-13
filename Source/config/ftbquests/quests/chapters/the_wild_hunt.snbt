@@ -2013,7 +2013,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "4B59CA26DFE59F61"
-				item: { components: { "relics:data": { abilities: { abilities: { explode: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { capacity: { initialValue: 30.85515d }, damage: { initialValue: 0.48118d }, stun: { initialValue: 0.09606d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:reflection_necklace" }
+				item: { components: { "ftbquests:missing_item": "relics:reflection_necklace" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -2047,7 +2047,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "6D2F55D55D868462"
-				item: { components: { "relics:data": { abilities: { abilities: { backstab: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.65957d }, distance: { initialValue: 15.04332d } } }, vanish: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { light: { initialValue: 1.7066d }, speed: { initialValue: 0.21747d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:midnight_robe" }
+				item: { components: { "ftbquests:missing_item": "relics:midnight_robe" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -2081,7 +2081,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "5DB12D6923702EE2"
-				item: { components: { "relics:data": { abilities: { abilities: { anchor: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { sinking: { initialValue: 4.86368d }, slowness: { initialValue: 0.38578d } } }, pressure: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.43097d } } }, riptide: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 5.42005d } } }, slots: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { charm: { initialValue: 1.85876d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:drowned_belt" }
+				item: { components: { "ftbquests:missing_item": "relics:drowned_belt" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -2115,7 +2115,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "71082F1172459C07"
-				item: { components: { "relics:data": { abilities: { abilities: { paralysis: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 1.12919d } } }, shock: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 2.12641d } } }, unsinkable: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:jellyfish_necklace" }
+				item: { components: { "relics:data": { abilities: { abilities: { paralysis: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 1.487d } } }, shock: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 2.12833d } } }, unsinkable: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:jellyfish_necklace" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -2149,7 +2149,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "6D78101DB013C2C0"
-				item: { components: { "relics:data": { abilities: { abilities: { slots: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { charm: { initialValue: 1.65991d } } }, training: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.63175d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:hunter_belt" }
+				item: { components: { "ftbquests:missing_item": "relics:hunter_belt" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -2183,7 +2183,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "613A13CF4D70D818"
-				item: { components: { "relics:data": { abilities: { abilities: { phlebotomy: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { attack_speed: { initialValue: 0.00897d }, heal: { initialValue: 2.0E-4d }, movement_speed: { initialValue: 0.01653d } } }, rage: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { dealt_damage: { initialValue: 0.06937d }, duration: { initialValue: 2.34858d }, incoming_damage: { initialValue: 0.03516d } } }, spurt: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 15.22197d }, damage: { initialValue: 0.17432d }, distance: { initialValue: 4.55068d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:rage_glove" }
+				item: { components: { "ftbquests:missing_item": "relics:rage_glove" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -2217,7 +2217,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "5DDBC5E72F64B4EB"
-				item: { components: { "relics:data": { abilities: { abilities: { compass: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } }, trade: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { rolls: { initialValue: 0.25795d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:bastion_ring" }
+				item: { components: { "ftbquests:missing_item": "relics:bastion_ring" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -2251,7 +2251,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "05E86E5FA7582788"
-				item: { components: { "relics:data": { abilities: { abilities: { blink: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 7.59408d }, distance: { initialValue: 23.59026d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:chorus_inhibitor" }
+				item: { components: { "ftbquests:missing_item": "relics:chorus_inhibitor" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -2285,7 +2285,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "2FB4716166B4314D"
-				item: { components: { "relics:data": { abilities: { abilities: { dissection: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { distance: { initialValue: 26.87633d }, time: { initialValue: 6.30897d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:space_dissector" }
+				item: { components: { "ftbquests:missing_item": "relics:space_dissector" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -2319,7 +2319,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "51D0F630AB15A051"
-				item: { components: { "relics:data": { abilities: { abilities: { ascension: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { 0: [I; 1, 3, 7 ], 1: [I;2], 2: [I;8], 3: [I; 4, 5, 6 ], 7: [I;8] }, researched: 1b }, stats: { duration: { initialValue: 0.5d }, max_duration: { initialValue: 7.5d } } }, belief: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.12587d }, capacity: { initialValue: 11.86709d }, count: { initialValue: 1.66297d }, radius: { initialValue: 5.34083d } } }, blessing: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { consumption: { initialValue: 7.49629d } } }, faith: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { 0: [I; 2, 4 ], 1: [I; 2, 3 ], 10: [I;11], 3: [I; 5, 7 ], 4: [I; 6, 8 ], 5: [I;6], 7: [I;9], 8: [I;9], 9: [I; 10, 11 ] }, researched: 1b }, stats: { damage: { initialValue: 0.25d }, health: { initialValue: 0.1d }, radius: { initialValue: 5.0d } } }, penitence: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { 0: [I; 1, 2 ], 1: [I;3], 2: [I;4], 3: [I;5], 4: [I;5] }, researched: 1b }, stats: { amount: { initialValue: 0.25d } } }, repentance: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 0.14446d }, radius: { initialValue: 2.44838d } } } } }, leveling: { experience: 0, level: 20, luck: 0, points: 0 } } }, count: 1, id: "relics:holy_locket" }
+				item: { components: { "ftbquests:missing_item": "relics:holy_locket" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -2353,7 +2353,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "4DD9F25373207D9D"
-				item: { components: { "relics:data": { abilities: { abilities: { neutrality: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } }, swap: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { distance: { initialValue: 29.11728d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:enders_hand" }
+				item: { components: { "ftbquests:missing_item": "relics:enders_hand" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -2387,7 +2387,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "4326C5AB078E8AFE"
-				item: { components: { "relics:data": { abilities: { abilities: { buffer: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { capacity: { initialValue: 2.21893d }, chance: { initialValue: 0.03579d } } }, explosion: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { size: { initialValue: 0.0583d } } }, multiplying: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.08169d }, chance: { initialValue: 0.06681d }, size: { initialValue: 0.05186d } } }, spore: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 10.89387d }, damage: { initialValue: 0.41364d }, duration: { initialValue: 3.17987d }, size: { initialValue: 0.49457d } } }, spore_mist: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 6.48189d }, damage: { initialValue: 0.20185d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:spore_sack" }
+				item: { components: { "ftbquests:missing_item": "relics:spore_sack" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -2421,7 +2421,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "7584F1EB19BC795A"
-				item: { components: { "relics:charge": 8, "relics:data": { abilities: { abilities: { cloning: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.09975d } } }, glaive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { bounces: { initialValue: 4.83183d }, damage: { initialValue: 3.24933d }, radius: { initialValue: 4.88285d }, recharge: { initialValue: 11.58459d } } }, mayhem: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { 0: [I;2], 2: [I; 4, 3, 1 ] }, researched: 1b }, stats: { bounces: { initialValue: 3.27023d }, chance: { initialValue: 0.05036d }, damage: { initialValue: 0.22708d } } }, saw: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.14429d }, speed: { initialValue: 17.33336d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:shadow_glaive" }
+				item: { components: { "ftbquests:missing_item": "relics:shadow_glaive" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -2455,7 +2455,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "7A938C651EF96140"
-				item: { components: { "relics:data": { abilities: { abilities: { skating: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 16.82367d }, speed: { initialValue: 0.00359d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:roller_skates" }
+				item: { components: { "ftbquests:missing_item": "relics:roller_skates" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -2489,7 +2489,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "637C6B7772AB0E06"
-				item: { components: { "relics:charge": 6, "relics:data": { abilities: { abilities: { marinade: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 2.62778d } } }, meat_bat: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 0.96464d }, stun: { initialValue: 0.20287d } } }, regeneration: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { 0: [I;3], 1: [I;3], 2: [I;3], 4: [I;3], 5: [I;3] }, researched: 1b }, stats: { cooldown: { initialValue: 28.57067d }, feed: { initialValue: 1.36397d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:infinity_ham" }
+				item: { components: { "ftbquests:missing_item": "relics:infinity_ham" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -2523,7 +2523,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "040B632B030AAFF5"
-				item: { components: { "relics:data": { abilities: { abilities: { slots: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { charm: { initialValue: 2.69558d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:leather_belt" }
+				item: { components: { "ftbquests:missing_item": "relics:leather_belt" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2557,7 +2557,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "5F2445F8BA6A12ED"
-				item: { components: { "relics:data": { abilities: { abilities: { gills: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.08064d } } }, slipping: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 20.81139d }, speed: { initialValue: 0.00916d } } }, swimming: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 30.65871d }, speed: { initialValue: 0.00669d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:amphibian_boot" }
+				item: { components: { "ftbquests:missing_item": "relics:amphibian_boot" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -2591,7 +2591,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "38D16B7EA60FC5E5"
-				item: { components: { "relics:data": { abilities: { abilities: { bounce: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { 0: [I;1], 1: [I;2], 2: [I;3], 3: [I;4], 4: [I;5], 5: [I;6], 6: [I;7], 7: [I;8] }, researched: 1b }, stats: { power: { initialValue: 0.25d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "relics:springy_boot" }
+				item: { components: { "relics:data": { abilities: { abilities: { bounce: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { power: { initialValue: 0.36246d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:springy_boot" }
 				type: "item"
 			}]
 			x: 7.5d
