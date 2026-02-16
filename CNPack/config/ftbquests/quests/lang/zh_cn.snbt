@@ -2185,7 +2185,7 @@
 		"    XXX"
 		""
 		""
-		"A few advanced rituals may require a second &bcircle&r with a gap from the first, forming a 11x11 ring around the heart (two diagonal)."
+		"几个进阶仪式可能需要第二个&b圆环&r，其与第一个圆环留有间隔，由围绕心脏的11x11的环形（两格斜线）构成。"
 		"{@pagebreak}"
 		"如果你想将圆环转移到另一个地方，仪式可以胜任这项工作。"
 		""
@@ -2194,7 +2194,7 @@
 		"要放下圆环，只需要在适当清理的区域用刻印圆环的护身符右击地面即可。"
 		""
 		""
-		"...what's the &aBroom&r for? Neatly sweeping up misplaced chalk, obviously. No other reason..."
+		"……&a扫帚&r是干什么用的？显而易见，是为了清扫画错的粉笔迹。除此之外，绝无他用……"
 	]
 	quest.1385135551DA36AB.title: "圆环魔法"
 	quest.138CB008CE4C838B.quest_desc: [
@@ -6361,13 +6361,13 @@
 	]
 	quest.3A91BB6A673C0D83.title: "&a多方块采石场&r"
 	quest.3AB6083CCDD1B74A.quest_desc: [
-		"The &aKettle&r is used to craft many items and potions and needs some heat underneath it for proper brewing, be sure to place it over a &eCampfire&r or a similar heat source."
+		"&a水壶&r用于合成多种物品与药水。酿造时底部需有热源，请务必将其放置在&e营火&r或类似热源上方。"
 		""
-		"用水桶将水倒入其中，水会被烧开。"
+		"倒入一桶水后，若水开始沸腾则代表其已正常运行。"
 		""
-		"Ingredients need to be dropped into it in a specific order as shown by each recipe. Once the particles stop changing colors, Right-click to extract the product of your brew."
+		"需按配方要求的特定顺序丢入材料。待粒子颜色停止变化后，右击即可提取产物。"
 		""
-		"&7If you do mess up a recipe, you can clear out the &aKettle&r using an empty bucket."
+		"&7若配方操作有误，可使用空桶清空&a水壶&r。译者注：任务名取自莎士比亚《麦克白》。"
 	]
 	quest.3AB6083CCDD1B74A.title: "&f辛劳和麻烦"
 	quest.3ABDE5FC61DE36A6.title: "&6无限管道升级"
