@@ -4997,9 +4997,9 @@
 					criterion: ""
 					icon: {
 						components: {
-							"ftbquests:missing_item": "occultism:spawn_egg/familiar_parrot"
+							"ftbquests:icon": "occultism:textures/gui/book/parrot.png"
 						}
-						id: "ftbquests:missing_item"
+						id: "ftbquests:custom_icon"
 					}
 					id: "2BB5021FC9A3E6EB"
 					optional_task: true

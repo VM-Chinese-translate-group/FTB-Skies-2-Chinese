@@ -2061,13 +2061,93 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "4B59CA26DFE59F61"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									explode: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											capacity: {
+												initialValue: 60.0d
+											}
+											damage: {
+												initialValue: 0.5d
+											}
+											stun: {
+												initialValue: 0.25d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 10
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:reflection_necklace"
+				}
+				id: "651AF9762BA01757"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:reflection_necklace"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									explode: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											capacity: {
+												initialValue: 57.4868d
+											}
+											damage: {
+												initialValue: 0.28729d
+											}
+											stun: {
+												initialValue: 0.1866d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:reflection_necklace"
 				}
 				type: "item"
 			}]
@@ -2101,13 +2181,133 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "6D2F55D55D868462"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									backstab: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											damage: {
+												initialValue: 1.75d
+											}
+											distance: {
+												initialValue: 15.0d
+											}
+										}
+									}
+									vanish: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 1b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											light: {
+												initialValue: 2.0d
+											}
+											speed: {
+												initialValue: 0.35d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 10
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:midnight_robe"
+				}
+				id: "6F75362CBC8ECCE5"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:midnight_robe"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									backstab: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											damage: {
+												initialValue: 1.43725d
+											}
+											distance: {
+												initialValue: 16.68032d
+											}
+										}
+									}
+									vanish: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 1b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											light: {
+												initialValue: 1.90959d
+											}
+											speed: {
+												initialValue: 0.13305d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:midnight_robe"
 				}
 				type: "item"
 			}]
@@ -2141,13 +2341,207 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "5DB12D6923702EE2"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									anchor: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											sinking: {
+												initialValue: 3.0d
+											}
+											slowness: {
+												initialValue: 0.25d
+											}
+										}
+									}
+									pressure: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											damage: {
+												initialValue: 2.0d
+											}
+										}
+									}
+									riptide: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											cooldown: {
+												initialValue: 5.0d
+											}
+										}
+									}
+									slots: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											charm: {
+												initialValue: 2.0d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 10
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:drowned_belt"
+				}
+				id: "4DF014F2A1AF0F1F"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:drowned_belt"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									anchor: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											sinking: {
+												initialValue: 3.49283d
+											}
+											slowness: {
+												initialValue: 0.37065d
+											}
+										}
+									}
+									pressure: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											damage: {
+												initialValue: 1.45856d
+											}
+										}
+									}
+									riptide: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											cooldown: {
+												initialValue: 6.00301d
+											}
+										}
+									}
+									slots: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											charm: {
+												initialValue: 1.18524d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:drowned_belt"
 				}
 				type: "item"
 			}]
@@ -2181,6 +2575,79 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									paralysis: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											duration: {
+												initialValue: 1.5d
+											}
+										}
+									}
+									shock: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 1b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											damage: {
+												initialValue: 2.5d
+											}
+										}
+									}
+									unsinkable: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: { }
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 10
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:jellyfish_necklace"
+				}
 				id: "71082F1172459C07"
 				item: {
 					components: {
@@ -2203,7 +2670,7 @@
 										}
 										stats: {
 											duration: {
-												initialValue: 1.487d
+												initialValue: 0.74035d
 											}
 										}
 									}
@@ -2223,7 +2690,7 @@
 										}
 										stats: {
 											damage: {
-												initialValue: 2.12833d
+												initialValue: 1.19663d
 											}
 										}
 									}
@@ -2288,13 +2755,121 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "6D78101DB013C2C0"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									slots: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											charm: {
+												initialValue: 2.0d
+											}
+										}
+									}
+									training: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											damage: {
+												initialValue: 2.0d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 10
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:hunter_belt"
+				}
+				id: "093811210E75F6A8"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:hunter_belt"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									slots: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											charm: {
+												initialValue: 1.46465d
+											}
+										}
+									}
+									training: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											damage: {
+												initialValue: 1.53716d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:hunter_belt"
 				}
 				type: "item"
 			}]
@@ -2328,13 +2903,197 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "613A13CF4D70D818"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									phlebotomy: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											attack_speed: {
+												initialValue: 0.01d
+											}
+											heal: {
+												initialValue: 0.00025d
+											}
+											movement_speed: {
+												initialValue: 0.025d
+											}
+										}
+									}
+									rage: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											dealt_damage: {
+												initialValue: 0.075d
+											}
+											duration: {
+												initialValue: 4.0d
+											}
+											incoming_damage: {
+												initialValue: 0.025d
+											}
+										}
+									}
+									spurt: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											cooldown: {
+												initialValue: 15.0d
+											}
+											damage: {
+												initialValue: 0.25d
+											}
+											distance: {
+												initialValue: 8.0d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 20
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:rage_glove"
+				}
+				id: "4390B90349070A0E"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:rage_glove"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									phlebotomy: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 0
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											attack_speed: {
+												initialValue: 0.00723d
+											}
+											heal: {
+												initialValue: 0.00011d
+											}
+											movement_speed: {
+												initialValue: 0.01003d
+											}
+										}
+									}
+									rage: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											dealt_damage: {
+												initialValue: 0.0593d
+											}
+											duration: {
+												initialValue: 3.55137d
+											}
+											incoming_damage: {
+												initialValue: 0.03328d
+											}
+										}
+									}
+									spurt: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 0
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											cooldown: {
+												initialValue: 17.69058d
+											}
+											damage: {
+												initialValue: 0.17397d
+											}
+											distance: {
+												initialValue: 4.01251d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:rage_glove"
 				}
 				type: "item"
 			}]
@@ -2368,13 +3127,113 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "5DDBC5E72F64B4EB"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									compass: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: { }
+									}
+									trade: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											rolls: {
+												initialValue: 1.0d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 10
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:bastion_ring"
+				}
+				id: "35BF3E5E00979741"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:bastion_ring"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									compass: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: { }
+									}
+									trade: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 0
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											rolls: {
+												initialValue: 0.4528d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:bastion_ring"
 				}
 				type: "item"
 			}]
@@ -2408,13 +3267,87 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "05E86E5FA7582788"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									blink: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											cooldown: {
+												initialValue: 10.0d
+											}
+											distance: {
+												initialValue: 32.0d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 10
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:chorus_inhibitor"
+				}
+				id: "13A2144F08D824FA"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:chorus_inhibitor"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									blink: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											cooldown: {
+												initialValue: 9.54433d
+											}
+											distance: {
+												initialValue: 26.68985d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:chorus_inhibitor"
 				}
 				type: "item"
 			}]
@@ -2448,13 +3381,87 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "2FB4716166B4314D"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									dissection: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											distance: {
+												initialValue: 32.0d
+											}
+											time: {
+												initialValue: 10.0d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 10
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:space_dissector"
+				}
+				id: "451A545562C5E667"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:space_dissector"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									dissection: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											distance: {
+												initialValue: 18.58717d
+											}
+											time: {
+												initialValue: 8.35807d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:space_dissector"
 				}
 				type: "item"
 			}]
@@ -2488,13 +3495,179 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "51D0F630AB15A051"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									ascension: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 5
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											duration: {
+												initialValue: 1.0d
+											}
+											max_duration: {
+												initialValue: 15.0d
+											}
+										}
+									}
+									faith: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											damage: {
+												initialValue: 0.75d
+											}
+											health: {
+												initialValue: 0.25d
+											}
+											radius: {
+												initialValue: 10.0d
+											}
+										}
+									}
+									penitence: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											amount: {
+												initialValue: 0.5d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 20
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:holy_locket"
+				}
+				id: "4B94F42A88DACF1B"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:holy_locket"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									ascension: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 0
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											duration: {
+												initialValue: 0.8941d
+											}
+											max_duration: {
+												initialValue: 7.60851d
+											}
+										}
+									}
+									faith: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											damage: {
+												initialValue: 0.45412d
+											}
+											health: {
+												initialValue: 0.19927d
+											}
+											radius: {
+												initialValue: 5.23012d
+											}
+										}
+									}
+									penitence: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 0
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											amount: {
+												initialValue: 0.44127d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:holy_locket"
 				}
 				type: "item"
 			}]
@@ -2528,13 +3701,113 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "4DD9F25373207D9D"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									neutrality: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: { }
+									}
+									swap: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											distance: {
+												initialValue: 32.0d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 10
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:enders_hand"
+				}
+				id: "6421F5C667547EFE"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:enders_hand"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									neutrality: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: { }
+									}
+									swap: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											distance: {
+												initialValue: 18.52271d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:enders_hand"
 				}
 				type: "item"
 			}]
@@ -2568,13 +3841,87 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "4326C5AB078E8AFE"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									spore_mist: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											amount: {
+												initialValue: 8.0d
+											}
+											damage: {
+												initialValue: 0.25d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 10
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:spore_sack"
+				}
+				id: "61D22AF7B1899F91"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:spore_sack"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									spore_mist: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											amount: {
+												initialValue: 7.96785d
+											}
+											damage: {
+												initialValue: 0.10335d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:spore_sack"
 				}
 				type: "item"
 			}]
@@ -2608,13 +3955,133 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "7584F1EB19BC795A"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									cloning: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											chance: {
+												initialValue: 0.1d
+											}
+										}
+									}
+									mayhem: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											bounces: {
+												initialValue: 4.0d
+											}
+											chance: {
+												initialValue: 0.15d
+											}
+											damage: {
+												initialValue: 0.2d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 15
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:shadow_glaive"
+				}
+				id: "2F6339031AA951E0"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:shadow_glaive"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									cloning: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 0
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											chance: {
+												initialValue: 0.06333d
+											}
+										}
+									}
+									mayhem: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											bounces: {
+												initialValue: 2.68929d
+											}
+											chance: {
+												initialValue: 0.10413d
+											}
+											damage: {
+												initialValue: 0.19556d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:shadow_glaive"
 				}
 				type: "item"
 			}]
@@ -2648,13 +4115,87 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "7A938C651EF96140"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									skating: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											duration: {
+												initialValue: 35.0d
+											}
+											speed: {
+												initialValue: 0.005d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 10
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:roller_skates"
+				}
+				id: "7FDC64B1E434BF80"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:roller_skates"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									skating: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											duration: {
+												initialValue: 17.58145d
+											}
+											speed: {
+												initialValue: 0.00245d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:roller_skates"
 				}
 				type: "item"
 			}]
@@ -2688,13 +4229,175 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "637C6B7772AB0E06"
+				icon: {
+					components: {
+						"relics:charge": 6
+						"relics:data": {
+							abilities: {
+								abilities: {
+									marinade: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											duration: {
+												initialValue: 3.0d
+											}
+										}
+									}
+									meat_bat: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											damage: {
+												initialValue: 2.0d
+											}
+											stun: {
+												initialValue: 0.25d
+											}
+										}
+									}
+									regeneration: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											cooldown: {
+												initialValue: 15.0d
+											}
+											feed: {
+												initialValue: 3.0d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 20
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:infinity_ham"
+				}
+				id: "1BFD2167B0537C4D"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:infinity_ham"
+						"relics:charge": 6
+						"relics:data": {
+							abilities: {
+								abilities: {
+									marinade: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 0
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											duration: {
+												initialValue: 1.03131d
+											}
+										}
+									}
+									meat_bat: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 0
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											damage: {
+												initialValue: 1.1486d
+											}
+											stun: {
+												initialValue: 0.24244d
+											}
+										}
+									}
+									regeneration: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											cooldown: {
+												initialValue: 21.33709d
+											}
+											feed: {
+												initialValue: 2.09128d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:infinity_ham"
 				}
 				type: "item"
 			}]
@@ -2728,13 +4431,81 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "040B632B030AAFF5"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									slots: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											charm: {
+												initialValue: 3.0d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 10
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:leather_belt"
+				}
+				id: "52AA1AA19DA18415"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:leather_belt"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									slots: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											charm: {
+												initialValue: 2.43255d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:leather_belt"
 				}
 				type: "item"
 			}]
@@ -2768,13 +4539,173 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "5F2445F8BA6A12ED"
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									gills: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											chance: {
+												initialValue: 0.1d
+											}
+										}
+									}
+									slipping: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											duration: {
+												initialValue: 25.0d
+											}
+											speed: {
+												initialValue: 0.01d
+											}
+										}
+									}
+									swimming: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											duration: {
+												initialValue: 35.0d
+											}
+											speed: {
+												initialValue: 0.01d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 10
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:amphibian_boot"
+				}
+				id: "243E9F06197446BB"
 				item: {
 					components: {
-						"ftbquests:missing_item": "relics:amphibian_boot"
+						"relics:data": {
+							abilities: {
+								abilities: {
+									gills: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											chance: {
+												initialValue: 0.02606d
+											}
+										}
+									}
+									slipping: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											duration: {
+												initialValue: 15.47769d
+											}
+											speed: {
+												initialValue: 0.00656d
+											}
+										}
+									}
+									swimming: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											duration: {
+												initialValue: 26.77724d
+											}
+											speed: {
+												initialValue: 0.00552d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "relics:amphibian_boot"
 				}
 				type: "item"
 			}]
@@ -2808,6 +4739,43 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				icon: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									bounce: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 1b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 10
+										research: {
+											links: { }
+											researched: 1b
+										}
+										stats: {
+											power: {
+												initialValue: 0.5d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 10
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					id: "relics:springy_boot"
+				}
 				id: "38D16B7EA60FC5E5"
 				item: {
 					components: {
@@ -2830,7 +4798,7 @@
 										}
 										stats: {
 											power: {
-												initialValue: 0.36246d
+												initialValue: 0.49752d
 											}
 										}
 									}

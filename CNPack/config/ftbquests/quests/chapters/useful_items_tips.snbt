@@ -579,9 +579,43 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:missing_item": "relics:space_dissector"
+					"relics:data": {
+						abilities: {
+							abilities: {
+								dissection: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 10
+									research: {
+										links: { }
+										researched: 1b
+									}
+									stats: {
+										distance: {
+											initialValue: 32.0d
+										}
+										time: {
+											initialValue: 10.0d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 10
+							luck: 0
+							points: 0
+						}
+					}
 				}
-				id: "ftbquests:missing_item"
+				id: "relics:space_dissector"
 			}
 			id: "4119A43052DB5E3E"
 			rewards: [

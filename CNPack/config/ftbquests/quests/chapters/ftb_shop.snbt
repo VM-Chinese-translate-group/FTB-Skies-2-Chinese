@@ -1999,9 +1999,43 @@
 			]
 			icon: {
 				components: {
-					"ftbquests:missing_item": "relics:magic_mirror"
+					"relics:data": {
+						abilities: {
+							abilities: {
+								teleport: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 10
+									research: {
+										links: { }
+										researched: 1b
+									}
+									stats: {
+										cooldown: {
+											initialValue: 60.0d
+										}
+										distance: {
+											initialValue: 1000.0d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 10
+							luck: 0
+							points: 0
+						}
+					}
 				}
-				id: "ftbquests:missing_item"
+				id: "relics:magic_mirror"
 			}
 			id: "362E2443BBAEDB95"
 			rewards: [{
