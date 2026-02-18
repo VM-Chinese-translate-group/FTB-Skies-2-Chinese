@@ -34,9 +34,46 @@
 			feedback_message: "Added Necklace Curio Slot"
 			icon: {
 				components: {
-					"ftbquests:missing_item": "relics:reflection_necklace"
+					"relics:data": {
+						abilities: {
+							abilities: {
+								explode: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 10
+									research: {
+										links: { }
+										researched: 1b
+									}
+									stats: {
+										capacity: {
+											initialValue: 60.0d
+										}
+										damage: {
+											initialValue: 0.5d
+										}
+										stun: {
+											initialValue: 0.25d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 10
+							luck: 0
+							points: 0
+						}
+					}
 				}
-				id: "ftbquests:missing_item"
+				id: "relics:reflection_necklace"
 			}
 			id: "3CB6A78132101CF9"
 			permission_level: 3
@@ -69,9 +106,98 @@
 			command: "/curios add hands @s 1"
 			icon: {
 				components: {
-					"ftbquests:missing_item": "relics:rage_glove"
+					"relics:data": {
+						abilities: {
+							abilities: {
+								phlebotomy: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 10
+									research: {
+										links: { }
+										researched: 1b
+									}
+									stats: {
+										attack_speed: {
+											initialValue: 0.01d
+										}
+										heal: {
+											initialValue: 2.5E-4d
+										}
+										movement_speed: {
+											initialValue: 0.025d
+										}
+									}
+								}
+								rage: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 10
+									research: {
+										links: { }
+										researched: 1b
+									}
+									stats: {
+										dealt_damage: {
+											initialValue: 0.075d
+										}
+										duration: {
+											initialValue: 4.0d
+										}
+										incoming_damage: {
+											initialValue: 0.025d
+										}
+									}
+								}
+								spurt: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 10
+									research: {
+										links: { }
+										researched: 1b
+									}
+									stats: {
+										cooldown: {
+											initialValue: 15.0d
+										}
+										damage: {
+											initialValue: 0.25d
+										}
+										distance: {
+											initialValue: 8.0d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 20
+							luck: 0
+							points: 0
+						}
+					}
 				}
-				id: "ftbquests:missing_item"
+				id: "relics:rage_glove"
 			}
 			id: "4B4E6E0741A62FB9"
 			permission_level: 3
@@ -99,9 +225,40 @@
 			command: "/curios add feet @s 1"
 			icon: {
 				components: {
-					"ftbquests:missing_item": "relics:phantom_boot"
+					"relics:data": {
+						abilities: {
+							abilities: {
+								bridge: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 1b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 10
+									research: {
+										links: { }
+										researched: 1b
+									}
+									stats: {
+										duration: {
+											initialValue: 1.0d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 10
+							luck: 0
+							points: 0
+						}
+					}
 				}
-				id: "ftbquests:missing_item"
+				id: "relics:phantom_boot"
 			}
 			id: "57F58718AA395BAF"
 			permission_level: 3
