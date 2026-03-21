@@ -101,6 +101,8 @@
     "ftb.tooltip.xycraft_extractor.pointed_dripstone": "§aⓘ§f 若要使用Xycraft的提取机制作，请将对应的结构倒置。",
     "ftb.tooltip.mysticalgriculture.mystical_enlightment": "§aⓘ§f §6神秘启示§f魔咒也可在§d物品商店§f中购买！",
     "ftb.tooltip.end_portal_clear": "§aⓘ§f 左击§d末地传送门§f即可清除。",
+    "ftb.tooltip.cell_growth_help": "§aⓘ§f Made on an §6Advanced Incubator§f with a §dDNA Helix§f and a §3Organic Substrate§f as the base.",
+    "ftb.tooltip.organic_substrate_help": "§aⓘ§f Made on an §6Advanced Incubator§f with §aOrganic Matter§f and a §9Mundane Potion§f as the base.",
     "ftb_event_system.event.allay.spawned": "生成了可交易的悦灵：可用%s换取%s",
     "ftb.event.fairy_buff": "哔卟哔卟卟！",
     "ftb_event_system.event.allay.trade.success": "交易成功！你获得了：%s",
