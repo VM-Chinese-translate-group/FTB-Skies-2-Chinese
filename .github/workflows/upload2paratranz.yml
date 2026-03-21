@@ -13,17 +13,19 @@ jobs:
       FILE_PATH: ./
       PROJECT_ID: ${{ vars.ID }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3"
 
       - name: Install dependencies
         run: |
-          pip install git+https://github.com/MuXiu1997/ParaTranz-SDK-python.git requests ftb_snbt_lib
+          pip install git+https://github.com/MuXiu1997/ParaTranz-SDK-python.git
+          pip install git+https://github.com/YuanXiaCN/ftb-snbt-lib-fork.git
+          pip install requests
 
       - name: Upload To Paratranz
         run: |
-          python .github/workflows/github2para.py
+          python .github/scripts/github2para.py

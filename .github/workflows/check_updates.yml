@@ -6,15 +6,16 @@ on:
     - cron: '0 22 * * *'
   # 允许在 Actions 页面手动触发
   workflow_dispatch:
-  
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  # JOB 1: 检查更新并创建 PR
+  # JOB 1: Check for updates, update files in repo, create the PR
   update-and-create-pr:
     runs-on: ubuntu-latest
+    environment: PARATRANZ_ENV
     permissions:
       contents: write
       pull-requests: write
@@ -23,13 +24,14 @@ jobs:
       local_version_id: ${{ steps.checker.outputs.local_version_id }}
       new_version_id: ${{ steps.checker.outputs.new_version_id }}
       pack_id: ${{ steps.read_config.outputs.pack_id }}
-      # 以下两个输出为了在最后评论时能显示整合包信息
       pack_name: ${{ steps.checker.outputs.pack_name }}
       new_version: ${{ steps.checker.outputs.new_version }}
+      old_version: ${{ steps.checker.outputs.old_version }}
+      update_method: ${{ steps.read_config.outputs.update_method }}
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Force Clean Workspace
         run: |
@@ -37,21 +39,27 @@ jobs:
           git reset --hard HEAD
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3'
 
-      - name: Download CurseTheBeast
-        run: |
-          curl -L -o CurseTheBeast https://github.com/maxinglo/curse-the-beast/releases/download/v0.7.1/CurseTheBeast
-          chmod +x ./CurseTheBeast
-          echo "$(pwd)" >> $GITHUB_PATH
+      - name: Install Python dependencies
+        run: pip install requests
 
-      - name: Read Pack ID from config
+      - name: Read Config
         id: read_config
         run: |
           PACK_ID=$(jq -r '.packId' .github/configs/modpack.json)
           echo "pack_id=$PACK_ID" >> $GITHUB_OUTPUT
+          UPDATE_METHOD=$(jq -r '.updateMethod // "api"' .github/configs/modpack.json)
+          echo "update_method=$UPDATE_METHOD" >> $GITHUB_OUTPUT
+
+      - name: Download CurseTheBeast
+        if: steps.read_config.outputs.update_method == 'cursethebeast'
+        run: |
+          curl -L -o CurseTheBeast https://github.com/maxinglo/curse-the-beast/releases/download/v0.7.1/CurseTheBeast
+          chmod +x ./CurseTheBeast
+          echo "$(pwd)" >> $GITHUB_PATH
 
       - name: Clean up temporary directories
         run: |
@@ -59,6 +67,9 @@ jobs:
 
       - name: Run Update Checker Script
         id: checker
+        env:
+          # IMPORTANT: Store your CurseForge API Key in repository secrets
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
         run: python .github/scripts/update_checker.py
 
       - name: Create Pull Request if changes were detected
@@ -82,6 +93,7 @@ jobs:
           git commit -m "$PR_TITLE"
           git push --force -u origin $BRANCH_NAME
 
+          # Create PR and capture its number
           PR_URL=$(gh pr create \
             --base main \
             --head $BRANCH_NAME \
@@ -92,49 +104,78 @@ jobs:
           echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
           echo "Pull Request #${PR_NUMBER} created."
 
-
-  # JOB 2: 生成差异报告
+  # JOB 2: Generate diff report and post it as a comment
   build-report:
     runs-on: ubuntu-latest
+    environment: PARATRANZ_ENV
     needs: update-and-create-pr
-    # 删除了对 local_version_id 的检查，更稳健
-    if: needs.update-and-create-pr.outputs.pr_number && needs.update-and-create-pr.outputs.new_version_id
+    permissions:
+      pull-requests: write # Needed for posting the comment
+    if: needs.update-and-create-pr.outputs.pr_number && needs.update-and-create-pr.outputs.local_version_id && needs.update-and-create-pr.outputs.new_version_id
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
-
+        uses: actions/setup-python@v6
         with:
           python-version: '3'
-
+      
       - name: Download CurseTheBeast
+        if: needs.update-and-create-pr.outputs.update_method == 'cursethebeast'
         run: |
           curl -L -o CurseTheBeast https://github.com/maxinglo/curse-the-beast/releases/download/v0.7.1/CurseTheBeast
           chmod +x ./CurseTheBeast
           echo "$(pwd)" >> $GITHUB_PATH
-      
-      - name: Clean up old archives
-        run: |
-          rm -f old_version.zip new_version.zip
 
       - name: Download old and new archives
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
         run: |
           PACK_ID="${{ needs.update-and-create-pr.outputs.pack_id }}"
-          # 如果 local_version_id 为空，会失败，这是预期的，因为无法比较
           LOCAL_ID="${{ needs.update-and-create-pr.outputs.local_version_id }}"
           NEW_ID="${{ needs.update-and-create-pr.outputs.new_version_id }}"
+          UPDATE_METHOD="${{ needs.update-and-create-pr.outputs.update_method }}"
           
-          echo "Downloading old version (ID: $LOCAL_ID)..."
-          CurseTheBeast download $PACK_ID $LOCAL_ID -o ./old_version.zip
-          
-          echo "Downloading new version (ID: $NEW_ID)..."
-          CurseTheBeast download $PACK_ID $NEW_ID -o ./new_version.zip
+          if [ "$UPDATE_METHOD" == "cursethebeast" ]; then
+            echo "::group::Downloading archives using CurseTheBeast"
+            ./CurseTheBeast download "$PACK_ID" "$LOCAL_ID" --output ./old_version.zip
+            ./CurseTheBeast download "$PACK_ID" "$NEW_ID" --output ./new_version.zip
+            echo "::endgroup::"
+          else
+            echo "::group::Downloading archives using CurseForge API"
+            echo "Fetching download URL for old version (ID: $LOCAL_ID)..."
+            OLD_DL_URL=$(curl -s -H "x-api-key: $CF_API_KEY" "https://api.curseforge.com/v1/mods/$PACK_ID/files/$LOCAL_ID" | jq -r .data.downloadUrl)
+            if [ -z "$OLD_DL_URL" ] || [ "$OLD_DL_URL" == "null" ]; then
+              echo "::error::Failed to get download URL for old version ID $LOCAL_ID"
+              exit 1
+            fi
+            echo "Downloading old version..."
+            curl -L -o ./old_version.zip "$OLD_DL_URL"
+            
+            echo "Fetching download URL for new version (ID: $NEW_ID)..."
+            NEW_DL_URL=$(curl -s -H "x-api-key: $CF_API_KEY" "https://api.curseforge.com/v1/mods/$PACK_ID/files/$NEW_ID" | jq -r .data.downloadUrl)
+            if [ -z "$NEW_DL_URL" ] || [ "$NEW_DL_URL" == "null" ]; then
+              echo "::error::Failed to get download URL for new version ID $NEW_ID"
+              exit 1
+            fi
+            echo "Downloading new version..."
+            curl -L -o ./new_version.zip "$NEW_DL_URL"
+            echo "::endgroup::"
+          fi
 
       - name: Generate Diff Report
+        env:
+          OLD_LABEL: "${{ needs.update-and-create-pr.outputs.pack_name }} v${{ needs.update-and-create-pr.outputs.old_version }}"
+          NEW_LABEL: "${{ needs.update-and-create-pr.outputs.pack_name }} v${{ needs.update-and-create-pr.outputs.new_version }}"
         run: |
-          python .github/scripts/compare_archives.py old_version.zip new_version.zip -o diff_report.html
+          python .github/scripts/compare_archives.py \
+            old_version.zip \
+            new_version.zip \
+            -o diff_report.html \
+            --old-label "$OLD_LABEL" \
+            --new-label "$NEW_LABEL"
       
       - name: Prepare Artifacts
         run: |
@@ -145,12 +186,12 @@ jobs:
           cp report_dist/index.html diff_report_pr_${{ needs.update-and-create-pr.outputs.pr_number }}.html
 
       - name: Upload Report for Pages Deployment
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./report_dist # 上传部署目录
 
       - name: Upload Report for Archival
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: diff-report-pr-${{ needs.update-and-create-pr.outputs.pr_number }}
           path: diff_report_pr_${{ needs.update-and-create-pr.outputs.pr_number }}.html
@@ -181,7 +222,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout repository to gain context
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Post Link to PR Comment
         env:
