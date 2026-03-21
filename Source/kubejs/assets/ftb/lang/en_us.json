@@ -101,6 +101,8 @@
     "ftb.tooltip.xycraft_extractor.pointed_dripstone": "§aⓘ§f To make with a Xycraft's Extractor, build the structure upside down.",
     "ftb.tooltip.mysticalgriculture.mystical_enlightment": "§aⓘ§f §6Mystical Enlightment§f, Can also be bought in the §dItem Shop§f!",
     "ftb.tooltip.end_portal_clear": "§aⓘ§f Left-click an §dEnd Portal§f to clear it.",
+    "ftb.tooltip.cell_growth_help": "§aⓘ§f Made on an §6Advanced Incubator§f with a §dDNA Helix§f and a §3Organic Substrate§f as the base.",
+    "ftb.tooltip.organic_substrate_help": "§aⓘ§f Made on an §6Advanced Incubator§f with §aOrganic Matter§f and a §9Mundane Potion§f as the base.",
     "ftb_event_system.event.allay.spawned": "Spawned Allay with trade: %s for %s",
     "ftb.event.fairy_buff": "Bippity Boppity Boo!",
     "ftb_event_system.event.allay.trade.success": "Trade successful! You received: %s",
