@@ -441,7 +441,10 @@
 		{
 			dependencies: ["0B2614FA7E949C6F"]
 			icon: {
-				id: "roots:spruce_bark"
+				components: {
+					"ftbquests:missing_item": "roots:spruce_bark"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "084450FB6934B329"
 			rewards: [

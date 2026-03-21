@@ -2013,7 +2013,7 @@
 	quest.1069575C4B5BCE39.quest_desc: [
 		"&eRefined Storage 2&r (&eRS2&r) is a mass storage mod that offers a network-based storage system, allowing for item, fluid, and gas storage on an expandable device network."
 		""
-		"Before crafting your first &aMachine Core&r, which is used for many network components, you'll need to obtain Sky Steel Ingots. Check the attached quest to see how that can be done."
+		"[ \"Before crafting your first &aMachine Core&r, which is used for many network components, you'll need to obtain Sky Steel Ingots. Check the \", { \"text\": \"attached quest\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B33C4D5A2D400D4\" } }, \" to see how that can be done.\" ]"
 	]
 	quest.1069575C4B5BCE39.title: "&fWelcome to &eRefined Storage 2"
 	quest.107C26E8BF309BC1.quest_desc: [
