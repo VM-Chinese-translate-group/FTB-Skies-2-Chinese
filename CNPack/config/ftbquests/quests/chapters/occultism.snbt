@@ -1202,9 +1202,13 @@
 		}
 		{
 			dependencies: ["4C9473D2E4149656"]
+			disable_recipe_mod: false
 			hide_lock_icon: true
 			icon: {
-				id: "occultism:eldritch_chalice"
+				components: {
+					"ftbquests:icon": "ftb:textures/quests/occultism/eldritch_chalice_icon.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			icon_scale: 2.0d
 			id: "63516E977D8BC7C4"
@@ -1239,7 +1243,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 49.0d
+			y: 50.0d
 		}
 		{
 			dependencies: ["4A63B415FED7E777"]

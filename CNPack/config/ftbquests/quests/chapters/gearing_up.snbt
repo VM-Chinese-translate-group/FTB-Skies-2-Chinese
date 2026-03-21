@@ -2235,7 +2235,7 @@
 							"silentgear:armor_durability": 4.9999995f
 							"silentgear:armor_toughness": 0.0f
 							"silentgear:attack_damage": 2.0f
-							"silentgear:attack_reach": 6.0f
+							"silentgear:attack_reach": 0.0f
 							"silentgear:attack_speed": 1.2f
 							"silentgear:block_reach": 0.0f
 							"silentgear:charging_value": 0.5f
