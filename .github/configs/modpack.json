@@ -1,7 +1,7 @@
 {
   "packId": 129,
   "packName": "FTB Skies 2",
-  "update_method": "cursethebeast",
+  "updateMethod": "cursethebeast",
   "infoFilePath": "CNPack/modpackinfo.json",
   "sourceDir": "Source",
   "attentionList": {
