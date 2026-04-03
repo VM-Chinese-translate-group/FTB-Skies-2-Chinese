@@ -40,10 +40,10 @@ jobs:
           git config --global user.name "VM[BOT]"
 
       - name: Sync translations from Paratranz
-        run: python .github/workflows/para2github.py
+        run: python .github/scripts/para2github.py
 
       - name: Run FTB Color Checker Script
-        run: python .github/workflows/check_ftb_colors.py ./CNPack
+        run: python .github/scripts/check_ftb_colors.py ./CNPack
         continue-on-error: true
 
       - name: Check if error_report.html was generated
@@ -70,7 +70,7 @@ jobs:
 
           # 在暂存所有更改之前，从 Git 缓存中移除不需要的文件
           # 这样可以避免 "changes not staged for commit" 的警告
-          git rm -r --cached --ignore-unmatch .github/workflows/__pycache__/
+          git rm -r --cached --ignore-unmatch .github/scripts/__pycache__/
           git rm --cached --ignore-unmatch error_report.html
 
           # 添加所有更改并提交
