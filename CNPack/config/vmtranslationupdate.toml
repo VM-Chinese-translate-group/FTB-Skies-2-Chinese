@@ -2,6 +2,7 @@
 devMode = false
 autoSwitchLanguage = true
 checkModPackTranslationUpdate = true
+generateExampleModpackInfo = true
 [resourcePack]
 autoDownloadVMTranslationPack = false
 autoLoadExtraTranslationPack = false
