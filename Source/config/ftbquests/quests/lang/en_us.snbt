@@ -8128,7 +8128,7 @@
 		""
 		"Perform the &aRitual of Awakening&r near a golem's respective block to summon and command it."
 		""
-		"Note that these golems can harvest all sorts of budding crystals, not just their corresponding type. These golems can either be slain or peacefully &bDispelled&r to drop as charms."
+		"Note that these golems can only harvest budding crystals of the same type as them. These golems can either be slain or peacefully &bDispelled&r to drop as charms."
 	]
 	quest.47C817DA92CE31EA.title: "&eGeOre &dGolems&f!"
 	quest.47D17EE805F7D88D.quest_desc: ["&6Mechanical Rollers&r are used in front of your trains to clear or place down blocks in its path."]
