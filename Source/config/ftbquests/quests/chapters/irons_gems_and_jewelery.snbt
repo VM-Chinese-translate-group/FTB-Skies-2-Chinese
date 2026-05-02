@@ -704,8 +704,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["3900E67C8B833980"]
+			dependencies: [
+				"3900E67C8B833980"
+				"3BF066E5C333F217"
+			]
 			id: "2F6F52B669C50A01"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "2A547A142325EC18"
 				item: {
@@ -725,8 +729,12 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3900E67C8B833980"]
+			dependencies: [
+				"3900E67C8B833980"
+				"3BF066E5C333F217"
+			]
 			id: "79A7540F94A2183E"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "4DFF1DFF9EEC25F3"
 				item: {
@@ -746,8 +754,12 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["3900E67C8B833980"]
+			dependencies: [
+				"3900E67C8B833980"
+				"3BF066E5C333F217"
+			]
 			id: "0F184788499005C6"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "18B2A6426CAB1A06"
 				item: {
@@ -767,8 +779,12 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["3900E67C8B833980"]
+			dependencies: [
+				"3900E67C8B833980"
+				"3BF066E5C333F217"
+			]
 			id: "368CF829E37E0945"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "02BADDDB539CE54F"
 				item: {
@@ -788,8 +804,12 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3900E67C8B833980"]
+			dependencies: [
+				"3900E67C8B833980"
+				"3BF066E5C333F217"
+			]
 			id: "4929927157D97BFC"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "4E20B83B68308307"
 				item: {
@@ -809,8 +829,12 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3900E67C8B833980"]
+			dependencies: [
+				"3900E67C8B833980"
+				"3BF066E5C333F217"
+			]
 			id: "2461B0DCE15C5BCE"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "04D58BFA0391FCD2"
 				item: {
@@ -830,8 +854,12 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["3900E67C8B833980"]
+			dependencies: [
+				"3900E67C8B833980"
+				"3BF066E5C333F217"
+			]
 			id: "65523A9928B0AF3E"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "4E78BB7D19769E33"
 				item: {
@@ -1162,8 +1190,12 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["3900E67C8B833980"]
+			dependencies: [
+				"3900E67C8B833980"
+				"3BF066E5C333F217"
+			]
 			id: "53C0C268BF5CD09D"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "4D39D1B8F4168A5C"
 				item: {
