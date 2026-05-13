@@ -2009,7 +2009,7 @@
 		""
 		"&aReceivers&r can be teleported to using either &6Matter Transmitters&r and &6Dialing Devices&r, or with bound &eCharged Porters&r."
 	]
-	quest.10666CF50D6A5879.title: "Targetted Teleports"
+	quest.10666CF50D6A5879.title: "Targeted Teleports"
 	quest.1069575C4B5BCE39.quest_desc: [
 		"&eRefined Storage 2&r (&eRS2&r) is a mass storage mod that offers a network-based storage system, allowing for item, fluid, and gas storage on an expandable device network."
 		""
@@ -6608,7 +6608,7 @@
 	quest.3964E9A95D52B0FD.quest_subtitle: "Summoning Pentacle: Tier 5"
 	quest.3964E9A95D52B0FD.title: "&dTibira's Attraction"
 	quest.3969A7841DEB047D.quest_desc: [
-		"After sending &2Solar Sails&r, you can start harvesting the power of the sun using &dRay Recievers&r."
+		"After sending &2Solar Sails&r, you can start harvesting the power of the sun using &dRay Receivers&r."
 		""
 		"Other players can join your &6Sphere&r by interacting with any multiblock and clicking the \"Subscribe to this sphere\" button on the bottom left."
 	]
