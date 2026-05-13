@@ -1580,7 +1580,6 @@
 						count: 1
 						id: "create:white_sail"
 					}
-					only_from_crafting: true
 					type: "item"
 				}
 			]
