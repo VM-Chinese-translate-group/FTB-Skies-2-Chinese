@@ -22,7 +22,7 @@
     "kubejs.pyramid.wrong_layer": "第%s层不正确，所需方块：%s，实际方块：%s",
     "kubejs.pyramid.success":"金字塔泛起一道微光，接纳了你的贡品。",
     "ftb.crystal_transformation.failure": "水晶转化失败，请再试一次。",
-    "ftb.crystal_transformation.success": "水晶与色彩共鸣，并将其转化为...",
+    "ftb.crystal_transformation.success": "水晶与色彩共鸣，并将其转化为……",
     "ftb.iteminfo.sky_dust": "陨石粉可以通过将破坏面板朝上，放在建筑高度上限（§2Y=319§r）的地方来获取。",
     "ftb.iteminfo.nether_star": "下界之星由凋灵Boss掉落。",
     "ftb.iteminfo.grains_of_infinity": "无限粉也可以通过前往Y坐标-32以下的地底获取。它们会随时间推移在此处自然生成。跳入虚空也同样可以！",
