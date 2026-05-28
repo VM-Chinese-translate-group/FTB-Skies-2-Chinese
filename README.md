@@ -1,10 +1,10 @@
-<div align="center"> 
+<div align="center">
    <h1>FTB Skies 2 项目简体中文翻译</h1>
 </div>
 
 | FTB官网                                                         | 加载器   | 支持整合包版本 | 汉化维护状态 |
 | :-------------------------------------------------------------- | :------- | :------------- | :----------- |
-| [链接](https://www.feed-the-beast.com/modpacks/129-ftb-skies-2) | Neoforge | mc1.21.1 1.15.0 | 维护中       |
+| [链接](https://www.feed-the-beast.com/modpacks/129-ftb-skies-2) | Neoforge | mc1.21.1 1.17.0 | 维护中       |
 
 ---
 
