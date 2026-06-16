@@ -3909,6 +3909,7 @@
 						id: "cognition:infected_bookshelf"
 					}
 					id: "1359EB00772FEB8A"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "cognition:infected_bookshelf"
@@ -4154,6 +4155,7 @@
 						id: "minecraft:enchanting_table"
 					}
 					id: "67954E17C3CA08C3"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "minecraft:enchanting_table"

@@ -1461,6 +1461,7 @@
 				}
 				{
 					id: "34269033188C3D4E"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
@@ -1494,6 +1495,7 @@
 				}
 				{
 					id: "5A362F978460462C"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
@@ -1567,6 +1569,7 @@
 				}
 				{
 					id: "70CC66090B7739F7"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "geore:budding_gold"
@@ -1599,6 +1602,7 @@
 				}
 				{
 					id: "4C0C6BE0D30DB185"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
@@ -1632,6 +1636,7 @@
 				}
 				{
 					id: "1091FDE6D51C1552"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
@@ -1705,6 +1710,7 @@
 				}
 				{
 					id: "50AE2F612F55EC15"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
@@ -1758,6 +1764,7 @@
 				}
 				{
 					id: "60578D8CD1499673"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
@@ -1791,6 +1798,7 @@
 				}
 				{
 					id: "02B5F445F3572537"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
@@ -1824,6 +1832,7 @@
 				}
 				{
 					id: "5021B204BDFD9928"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
@@ -1940,6 +1949,7 @@
 				}
 				{
 					id: "3B09EA51A55C4756"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
@@ -1973,6 +1983,7 @@
 				}
 				{
 					id: "11091C159F3468C6"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
@@ -2064,6 +2075,7 @@
 				}
 				{
 					id: "458D3A3F4428BE1E"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L

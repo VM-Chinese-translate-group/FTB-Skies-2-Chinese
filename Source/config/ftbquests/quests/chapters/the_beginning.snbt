@@ -1253,6 +1253,7 @@
 					id: "geore:budding_iron"
 				}
 				id: "49C5C16F4BA317E7"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "geore:budding_iron"
@@ -1281,6 +1282,7 @@
 					id: "ftb:andesite_amalgam_block"
 				}
 				id: "5DAFCA855CC9B4D4"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "ftb:andesite_amalgam_block"
@@ -1816,6 +1818,7 @@
 						id: "ftbquests:custom_icon"
 					}
 					id: "1053A406B1F9DAAD"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
