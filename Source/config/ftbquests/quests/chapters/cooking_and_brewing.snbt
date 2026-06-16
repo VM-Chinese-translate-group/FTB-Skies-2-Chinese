@@ -1421,6 +1421,7 @@
 						id: "ftbquests:custom_icon"
 					}
 					id: "71446177D61BD058"
+					observation_type: "entity_type"
 					observe_type: 5
 					timer: 0L
 					to_observe: "llamapalooza:loot_llama"

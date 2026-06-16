@@ -682,9 +682,9 @@
 			hide_dependent_lines: true
 			icon: {
 				components: {
-					"ftbquests:icon": "irons_jewelry:item/scroll"
+					"irons_jewelry:stored_pattern": "irons_jewelry:amulet_of_protection"
 				}
-				id: "ftbquests:custom_icon"
+				id: "irons_jewelry:recipe"
 			}
 			id: "3900E67C8B833980"
 			rewards: [{

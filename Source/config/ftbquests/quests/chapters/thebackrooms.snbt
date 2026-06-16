@@ -71,6 +71,7 @@
 			invisible: true
 			tasks: [{
 				id: "105E6D45CD9A402B"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "nothing"
@@ -159,6 +160,7 @@
 					id: "malum:large_strange_crystal"
 				}
 				id: "6A6796A27493FB6C"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "malum:large_strange_crystal"
