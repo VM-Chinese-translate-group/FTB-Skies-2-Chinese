@@ -494,48 +494,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0B2614FA7E949C6F"]
-			icon: {
-				components: {
-					"ftbquests:missing_item": "roots:spruce_bark"
-				}
-				id: "ftbquests:missing_item"
-			}
-			id: "084450FB6934B329"
-			rewards: [
-				{
-					id: "7253AA921D6F8A89"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "6FAE6E3984064C65"
-					item: {
-						count: 1
-						id: "minecraft:birch_log"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1AAB99A83BB718BE"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(roots:barks)"
-					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: -1.0d
-		}
-		{
 			icon: {
 				id: "roots:antlers"
 			}

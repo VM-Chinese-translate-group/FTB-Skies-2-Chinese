@@ -2327,6 +2327,7 @@
 						id: "ae2:damaged_budding_quartz"
 					}
 					id: "5CCDA50CD1637BEC"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L

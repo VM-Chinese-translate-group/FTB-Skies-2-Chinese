@@ -1875,6 +1875,7 @@
 						id: "malum:void_depot"
 					}
 					id: "58BEE5F1435F017A"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
