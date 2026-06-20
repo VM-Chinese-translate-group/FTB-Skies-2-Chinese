@@ -475,7 +475,7 @@
 	quest.03E1EFC3F5AD2CA5.title: "&3生物反应器"
 	quest.03E4CB8D36436FD1.title: "下界合金时代"
 	quest.04013A6813F80EF7.quest_desc: [
-		"With access to &aPolymorphic Fluid&r, you can create new types of fluids, including &aRefined Blaze Ember Fuel&r."
+		"现在你可以制造出&a多态流体&r了，用它做些新流体吧，比如&a精炼烈焰燃液&r。"
 		""
 		"把&c烈焰烬质&r丢进多态流体，就会制造出&a未精炼的烈焰燃液&r。然后把流体倒在&c烈焰蕾凝胶&r边上就会自动精炼了。"
 		""
@@ -824,7 +824,7 @@
 		""
 		"要开始发展本模组，我们需要对扔在地上的铁锭施加&o少量压力&r。"
 		""
-		"And by \"small amount,\" we mean you need to blow them up with &cTNT&r :)"
+		"所谓“少量”，就是你得用&cTNT&r炸它 :)"
 	]
 	quest.07BA6459A842C2ED.title: "&f只是稍微施加点压力，对吧？"
 	quest.07BCE0B7BDB4E155.quest_desc: [
@@ -2425,7 +2425,7 @@
 	quest.16180601C60DA378.title: "&f升级：夜视"
 	quest.1619084AFCD0B0DD.quest_desc: ["你可以在&a睡袋&r里度过夜晚，而不重设你的重生点！"]
 	quest.1619084AFCD0B0DD.title: "&b随地大小睡"
-	quest.16206DA366CABDBE.quest_desc: ["Crushing ingredients with a &aMortar&r and &aPestle&r can yield some new products or extend their use, but it's also a key tool for creating &bSpells&r."]
+	quest.16206DA366CABDBE.quest_desc: ["用&a研杵&r和&a研钵&r研磨材料，可以增产物品或产生一些新物品，它也是创建&b法术&r的关键工具。"]
 	quest.16206DA366CABDBE.quest_subtitle: "还是研钵和研杵？"
 	quest.16206DA366CABDBE.title: "研杵和研钵"
 	quest.16224A108EBCDC46.quest_desc: ["你现在可以用全新的科技和化学物质制造新电路板的新电路基板，也就是&d处理单元板&r。"]
@@ -3061,7 +3061,7 @@
 		"它会燃烧燃料来产生能量，为你的物品栏中的物品充电！"
 	]
 	quest.1C866721E1F2FF50.title: "&f便携发电器"
-	quest.1C88E4B44A1C55A9.quest_desc: ["&aKatanas&r are slightly slower than regular swords but do more damage!"]
+	quest.1C88E4B44A1C55A9.quest_desc: ["&a武士刀&r的挥舞速度比普通剑慢一点，但是可以造成更高的伤害！"]
 	quest.1C88E4B44A1C55A9.title: "&f武士刀蓝图"
 	quest.1C8A5F2BD1C17A3E.quest_desc: [
 		"&a认知装备&r比起它的原材料——铁套，有着更多的优点。"
@@ -3200,7 +3200,7 @@
 		"{@pagebreak}"
 		"监测模式有着至多四条监测选项。它可以监测物品、流体、能量，或是红石信号。"
 		""
-		"These can also be configured to detect an amount of that type based on mathematical operations (=, !=, <, >, <=, >=). It will then output that result to a color code which can be used to toggle another connection or an “Output Mode” logic channel."
+		"这些监测还可以根据运算符（=，！=，<，>，<=，>=）来监测物品的数量。随后，它会将结果输出，并跟一个颜色代码绑定在一起。这个颜色代码可用于调控另一个已连接的机器，也可以用于调控处于“输出”模式的红石频道。"
 		""
 		""
 		"输出模式有多种输出选项：直接、反相、或门、与门、或非、与非、异或、同或、切换、数量、时间，以及指定输出。这其中大部分都是编程相关，所以即使你不了解它们也不用担心，反正你很可能用不上其中的大部分选项。"
@@ -8224,7 +8224,7 @@
 	quest.4C8EDEEFBC40E44B.quest_desc: [
 		"&b符文树&r是一种十分粗壮的树，有着琥珀色或青蓝色的树叶以及厚实的棕色树皮。你有概率在空岛上找到这种树，此外也可以在&e贸易站&r里买到它们的树苗。"
 		""
-		"Its wood hums with latent magical energy and serves nicely as a base material for arcane utility. This magical energy sometimes causes sap to seep through the wood and pool beneath the bark. Scraping away the bark in these areas allows you to collect the &bsap&r in bottles. When consumed, it provides minor healing, or it can be used as a substitute for slimeballs."
+		"它们的木材中蕴含着潜在的魔法能量，是制作奥术用品的绝佳基础材料。这种魔法能量有时会导致树液渗出树干，并在树皮下积聚。用斧头刮去这些部位的树皮，你就可以用玻璃瓶收集到&b符文树脂&r。这种树脂饮用后可提供微量治疗，也能制成符文树脂球，作为黏液球的合成替代品。"
 	]
 	quest.4C8EDEEFBC40E44B.title: "&f符文树"
 	quest.4C9473D2E4149656.quest_desc: [
@@ -9000,7 +9000,7 @@
 	quest.5425A6F613CA7304.quest_desc: [
 		"自定义项链需要用&a项链蓝图&r制造。"
 		""
-		"These take &b3 main materials&r to create a Necklace Chain."
+		"制作一条项链链条需要&b3个主要材料&r。"
 		""
 		"如果你想装备它，首先你需要用&a宝石匠具&r将项链链条等部件组装在一起，在组装的时候你可以随意镶嵌自己喜欢的&6镶嵌首饰&r！"
 	]
@@ -9332,7 +9332,7 @@
 	quest.5777FBF5D06D2F8E.quest_desc: [
 		"自定义戒指需要用&a戒指蓝图&r制造。"
 		""
-		"These take &b2 main materials&r to create a Ring Shank."
+		"制作一个戒指部件需要&b2个主要材料&r。"
 		""
 		"要想完成戒指的制作，你需要把&a宝石匠具&r、戒指部件和你想添加的&6宝石&r合成在一起！"
 	]
@@ -10153,7 +10153,7 @@
 		"{@pagebreak}"
 		"举个例子，假如你有一个刷怪塔，使用&d末影箱&r收集掉落物，现在想把末影箱里的东西都输入到储存网络中。"
 		""
-		"To do this, you would attach an &aItem Importer&r to the chest and place a &aVariable Card&r in the &eImport All Items&r slot at the top."
+		"你可以将一个&a物品输入口&r贴在末影箱上，然后在接口UI最上方的&e提取所有物品&r槽放一张&a变量卡&r。"
 		""
 		"这样，输入口就会以默认设置进行提取，点击变量卡旁边的“&a+&r”键可以打开配置调整界面，输入口会按照调整好的设置将物品从箱子中输入网络。"
 		"{@pagebreak}"
@@ -10268,7 +10268,7 @@
 	quest.610400303BEAC642.quest_desc: ["&d智能溜槽&r的功能与其大致基本版本相同，但支持配置物品数量和过滤物品。"]
 	quest.610400303BEAC642.title: "&d智能溜槽"
 	quest.6114934F707E3666.quest_desc: [
-		"&aFurnace Augments&r are essentially upgrades to your &bIron Furnace&r. They can also change the function entirely! Here are some of the more notable ones:"
+		"&a熔炉强化&r的本质就是对你的&b铁熔炉&r进行升级。它们也可以完全改变熔炉的功能！下面是一些比较值得注意的："
 		""
 		"&b强化组件：工厂&r可以让熔炉消耗能量而不是燃料，并且一次熔炼更多物品。"
 		""
@@ -10422,7 +10422,7 @@
 		"把它们安顿好，然后就等着看吧。它们会不知疲倦地为你的基地供应一切，从基础食物到饕餮盛宴。"
 		""
 		"&a战利品进化：&r"
-		"Start with humble carrots and potatoes, but as your llamas grow stronger, they'll upgrade to cooked meats, magical ingredients like Demon's Dream seeds, and eventually premium Farmer's Delight meals!"
+		"一开始只是些不起眼的胡萝卜和马铃薯，但随着羊驼越来越强，它们产出的物品也会升级为熟肉、像曼陀罗种子这样的魔法材料，最终甚至能产出农夫乐事里的顶级大餐！"
 		""
 		"&d专业提示：&r"
 		"  • 用心规划你的羊驼养殖，让它们吐出各种"
@@ -12050,7 +12050,7 @@
 		"{@pagebreak}"
 		"&b严格NBT&r对于处理盔甲或者储能方块等物品非常有用。"
 		""
-		"&bReusable&r is important when setting up certain recipes that don't consume a resource."
+		"对于某些不消耗资源的合成配方，可重复使用（&bReusable&r）这一属性非常重要。"
 		""
 		"&b物品标签变种&r允许你通过&3NBT标签&r配置特定物品。"
 		"{@pagebreak}"
