@@ -5275,7 +5275,7 @@
 	quest.31EE85CB88AE2AAC.quest_desc: ["这种简单的&b仪式&r可以让你的任何粉笔修复至满耐久"]
 	quest.31EE85CB88AE2AAC.title: "&c粉笔修复"
 	quest.31F2DAA7A3EA9970.quest_desc: ["需要水、熔岩、黑曜石时这些抽屉生成器能提供很大帮助。"]
-	quest.31F2DAA7A3EA9970.title: "&r抽屉生成器"
+	quest.31F2DAA7A3EA9970.title: "&f抽屉生成器"
 	quest.31FBB4478F32B054.quest_desc: ["&d广播掩护装置&r是加强版的&a位置广播器&r，它可以让你选择能够传送到你所在位置的玩家。"]
 	quest.31FBB4478F32B054.title: "&d广播掩护装置"
 	quest.31FD89FA8B730048.quest_desc: [
@@ -10114,7 +10114,7 @@
 		""
 		"专业提示：你可以把存储升级加装到&3存储控制器&r中，可以提升存储控制器的链接范围。"
 	]
-	quest.5FBD41923B66C239.title: "&a存储容量升级！"
+	quest.5FBD41923B66C239.title: "&a存储容量升级"
 	quest.5FCB70FA68E708BB.quest_desc: [
 		"&7&n&o从下面选择一个："
 		""
@@ -13816,7 +13816,7 @@
 	task.58E5CA49E8F143AA.title: "&a主要配置界面"
 	task.590BA3A3FF454C9F.title: "&e击杀&f：&c炽燃狂魂"
 	task.591E2F53EFC69C37.title: "&9二阶"
-	task.5A0B7C6C05EEBEE2.title: "&6抽屉升级"
+	task.5A0B7C6C05EEBEE2.title: "&d抽屉升级"
 	task.5A362F978460462C.title: "&e观察&f：&a铜矿晶母岩"
 	task.5A4A1F326C2F75BC.title: "&b五芒星&r已完成"
 	task.5A7D16167EA18581.title: "&d末地&f蜂巢"
