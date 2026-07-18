@@ -12062,7 +12062,7 @@
 		""
 		"{image:ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_valid.png width:150 height:110 align:center}"
 		"{@pagebreak}"
-		"你现在只需要在接口前放置一个合成台就大功告成了，正如这个示例系统所示："
+		"现在只需将合成接口贴在工作台前即可，就像下面这样："
 		""
 		"{image:ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_build_example.png width:150 height:140 align:center}"
 	]
