@@ -4051,6 +4051,7 @@
 				id: "hostilenetworks:deep_learner"
 			}
 			id: "74CC5FF2097C0839"
+			min_width: 300
 			rewards: [
 				{
 					id: "7032339DB8728850"
@@ -4100,7 +4101,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -1.5d
 			y: 4.0d
 		}
 		{
@@ -4166,22 +4167,32 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["42C41784169B2308"]
-			hide_dependent_lines: true
 			icon: {
 				id: "hostilenetworks:loot_fabricator"
 			}
 			id: "3C60FA46EA54C899"
+			min_width: 300
 			rewards: [
 				{
+					count: 2
 					id: "5899D0CF3BC6F3CA"
 					item: {
 						count: 1
-						id: "magic_coins:crystal_coin"
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "497E74DA5A950528"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
 					}
 					type: "item"
 				}
@@ -4226,11 +4237,12 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["3C60FA46EA54C899"]
+			hide_dependency_lines: true
 			id: "7F141E9CF9676D0F"
 			optional: true
 			rewards: [{
@@ -4253,6 +4265,7 @@
 		}
 		{
 			dependencies: ["3C60FA46EA54C899"]
+			hide_dependency_lines: true
 			id: "59B6301AC3176C90"
 			optional: true
 			rewards: [{
@@ -4275,6 +4288,7 @@
 		}
 		{
 			dependencies: ["3C60FA46EA54C899"]
+			hide_dependency_lines: true
 			id: "4F72F26389359EBD"
 			optional: true
 			rewards: [{
@@ -4447,6 +4461,59 @@
 			]
 			x: 1.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["3C60FA46EA54C899"]
+			icon: {
+				id: "hostilenetworks:data_center_io_port"
+			}
+			id: "4858DFD1CD36416F"
+			min_width: 350
+			rewards: [
+				{
+					id: "21296F9B4F6F6688"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 49
+					id: "452302FBC5EA12AB"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					count: 165
+					id: "68034B7F0374FEB9"
+					item: {
+						count: 1
+						id: "minecraft:black_stained_glass"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3C278CEEB865A509"
+					item: { count: 1, id: "hostilenetworks:data_center" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7D4091F9CE490E88"
+					item: { count: 1, id: "hostilenetworks:data_center_io_port" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 4.0d
 		}
 	]
 }
