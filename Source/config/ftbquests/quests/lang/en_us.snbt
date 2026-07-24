@@ -6551,7 +6551,9 @@
 		""
 		"Some mobs can drop more than one loot type, so you can select which one you'd like to farm inside the &dLoot Fabricator's&r interface."
 		""
-		"When automating these machines, the Fabricator will remember the choice you make for the Mob Predictions. If no choice has been made, the machine will stop working."
+		"When automating these machines, the &dLoot Fabricator&f will remember the choice you make for the &bMob Predictions&f. If no choice has been made, the machine will stop working."
+		""
+		"In can also switch the &dLoot Fabricator&f to &2Queue Mode&r, which lets you cycle through a list of outputs instead of producing only one fixed drop."
 		""
 		"In order to complete the &6FTB Pyramid&r, it is recommended to automate &dWarden&r, &3Wither&r, and &5Ender Dragon &bPredictions&r."
 	]
@@ -7178,7 +7180,7 @@
 		""
 		"If the simulation fails, you'll get a &bGeneralized Prediction&r. If it succeeds, you'll get that mob's &6Prediction&r."
 		""
-		"Every time the &aChamber&r processes a &2Prediction Matrix&r, it will count towards leveling up your &cData Model&r, reducing the chance of failure."
+		"The &aSimulation Chamber&f has two modes: &2Training Mode&f runs simulations that upgrade the model's data and &dInference Mode&r produces predictions, but doesn't upgrade the model."
 	]
 	quest.42C41784169B2308.title: "&aSimulating Loot"
 	quest.42E45B47360C59F3.quest_desc: [
@@ -7681,6 +7683,17 @@
 	]
 	quest.4843F5564CA5810C.title: "&fDiesel Generator"
 	quest.48567556D94D1ADC.title: "&cBlazegold Axe"
+	quest.4858DFD1CD36416F.quest_desc: [
+		"The &6Data Center&f multiblock is a 7x7x7 structure that runs up to 25 &zSelf Aware&r data models at the same time."
+		""
+		"The multiblock is built with a 7x7 &dObsidian&r platform at the bottom and &aBlack Stained Glass&r walls, leaving the interior hollow. Then, the &6Data Center&r block and 3 &bIO Ports&r must be placed on the outer bottom layer, each configured to a different mode: Energy, Inputs, Outputs."
+		""
+		"You can optionally add a fourth Port confiured to Models for automatic input of data models, but this is not required."
+		""
+		"If built correctly, a blue outline will display around the multiblock, otherwise you can clikc the main &6Data Model&f block for more details."
+		""
+		"[\"You can also check out the \", {\"text\": \"Data Center GuideMe\", \"underlined\": true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guidemec hostilenetworks:guide open\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open Data Center GuideMe\"}}, \", for an example structure.\"]"
+	]
 	quest.4879B6C32F7B1749.quest_desc: [
 		"&aMixers&r are used to combine multiple components and sometimes liquids into new ingredients. Make sure to pay attention to the tier of mixer required for recipes!"
 		""
