@@ -6551,9 +6551,11 @@
 		""
 		"一些生物会掉落多种战利品，你可以在&d战利品制造器&r的界面上选择想要获取的资源。"
 		""
-		"自动化方面，战利品制造器会记忆你对预测产物的选择，如果没有做出过选择，机器将不会工作。"
+		"When automating these machines, the &dLoot Fabricator&f will remember the choice you make for the &bMob Predictions&f. If no choice has been made, the machine will stop working."
 		""
-		"为了完成&6FTB金字塔&r，推荐对&d监守者&r、&3凋灵&r和&5末影龙&r的&b预测产物&r进行自动化。"
+		"In can also switch the &dLoot Fabricator&f to &2Queue Mode&r, which lets you cycle through a list of outputs instead of producing only one fixed drop."
+		""
+		"In order to complete the &6FTB Pyramid&r, it is recommended to automate &dWarden&r, &3Wither&r, and &5Ender Dragon &bPredictions&r."
 	]
 	quest.3C60FA46EA54C899.title: "&d生成战利品"
 	quest.3CAA89E621ED5B6E.quest_desc: [
@@ -6655,10 +6657,10 @@
 		"&6钚&r的产出效率（按每个棒计）为（输入粉末–>输出粉末）。"
 		""
 		"铀：0 -> 27"
-		"低浓度铀：0 -> 24"
-		"高浓度铀：0 -> 18"
-		"低浓度MOX：9 -> 30 (+21)"
-		"高浓度MOX：27 -> 36 (+9)"
+		"低能铀：0 -> 24"
+		"高能铀：0 -> 18"
+		"低能MOX：9 -> 30（+21）"
+		"高能MOX：27 -> 36（+9）"
 	]
 	quest.3D4A837CF7C2C173.title: "&5钚粉"
 	quest.3D687BF735E54AE8.quest_desc: ["下界要塞的烈焰守卫"]
@@ -7178,7 +7180,7 @@
 		""
 		"模拟失败时，会生成&b通用预测产物&r；模拟成功时，会生成对应生物的&6预测产物&r。"
 		""
-		"&a模拟室&r每处理一个&2模拟矩阵&r，都将为你的&c数据模型&r增加一次升级计数，升级后的数据模型会降低失败的几率。"
+		"The &aSimulation Chamber&f has two modes: &2Training Mode&f runs simulations that upgrade the model's data and &dInference Mode&r produces predictions, but doesn't upgrade the model."
 	]
 	quest.42C41784169B2308.title: "&a模拟刷怪"
 	quest.42E45B47360C59F3.quest_desc: [
@@ -7681,6 +7683,17 @@
 	]
 	quest.4843F5564CA5810C.title: "&f柴油发电机"
 	quest.48567556D94D1ADC.title: "&c烈焰金斧"
+	quest.4858DFD1CD36416F.quest_desc: [
+		"The &6Data Center&f multiblock is a 7x7x7 structure that runs up to 25 &zSelf Aware&r data models at the same time."
+		""
+		"The multiblock is built with a 7x7 &dObsidian&r platform at the bottom and &aBlack Stained Glass&r walls, leaving the interior hollow. Then, the &6Data Center&r block and 3 &bIO Ports&r must be placed on the outer bottom layer, each configured to a different mode: Energy, Inputs, Outputs."
+		""
+		"You can optionally add a fourth Port confiured to Models for automatic input of data models, but this is not required."
+		""
+		"If built correctly, a blue outline will display around the multiblock, otherwise you can clikc the main &6Data Model&f block for more details."
+		""
+		"[\"You can also check out the \", {\"text\": \"Data Center GuideMe\", \"underlined\": true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guidemec hostilenetworks:guide open\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open Data Center GuideMe\"}}, \", for an example structure.\"]"
+	]
 	quest.4879B6C32F7B1749.quest_desc: [
 		"&a搅拌机&r用来将多种物品或液体混合产生新的物质。使用时请注意配方需求的搅拌机等级！"
 		""
