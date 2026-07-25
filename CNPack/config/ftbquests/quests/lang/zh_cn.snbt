@@ -1695,7 +1695,7 @@
 	]
 	quest.0E107AC18FCFDB57.title: "&a黏液转化&r"
 	quest.0E11DBABFFAB0FFA.quest_desc: [
-		"现在你可以用&a采石场&r挖出&d钨矿石&r了！"
+		"现在你可以用&a采石机&r挖出&d钨矿石&r了！"
 		""
 		"先把这种矿粉碎成钨粉，之后再拆成钨粉末，最后把钨粉末压缩成粒，你就可以合成出&d钨锭&r了！"
 	]
@@ -3205,7 +3205,7 @@
 		""
 		"输出模式有多种输出选项：直接、反相、或门、与门、或非、与非、异或、同或、切换、数量、时间，以及指定输出。这其中大部分都是编程相关，所以即使你不了解它们也不用担心，反正你很可能用不上其中的大部分选项。"
 	]
-	quest.1D572D53A6EE3205.quest_desc: ["在&2采石场&r中挖出&a铂矿石&r后，我们就可以把它粉碎变为&b粗铂&r。"]
+	quest.1D572D53A6EE3205.quest_desc: ["在&2采石机&r中挖出&a铂矿石&r后，我们就可以把它粉碎变为&b粗铂&r。"]
 	quest.1D572D53A6EE3205.title: "&d粗铂"
 	quest.1D6D9CCF4E0072E1.title: "&f金矿块"
 	quest.1D846D3D48C87FC4.quest_desc: [
@@ -4175,7 +4175,7 @@
 		"虽然需要&d灌注龙息&r才能做，但是末地书架相对还是比较便宜的。"
 	]
 	quest.26B74124E89189F7.title: "&e末地书架"
-	quest.26D4074DECF26C04.quest_desc: ["&6等离子涡轮机&r是&e现代工业化&r最高级的发电设施，它将消耗&5氦等离子体&r并产出&c一百万EU/t&r的能量。"]
+	quest.26D4074DECF26C04.quest_desc: ["&6等离子涡轮机&r是&e现代工业化&r最高级的发电设施，它将消耗&5氦等离子体&r并产出&c1M EU/t&r的能量。"]
 	quest.26D4074DECF26C04.title: "&6等离子涡轮机"
 	quest.26D59E04760C5747.quest_desc: [
 		"&a方块破坏器&r是需要&a机器框架&r才能工作的多方块机器，它会自动破坏位于下面的方块。"
@@ -5986,7 +5986,7 @@
 		""
 		"我们可以用它回收高压水，但除此之外，它还可以更高效的冷却你的&c热金属锭&r！"
 		"{@pagebreak}"
-		"把水压缩为高压水会消耗非常多能量，而且&d大型涡轮机&r不会把它们原样输出来。你可以用&d热交换机&r把高压水回收起来，从而重复使用。"
+		"把水压缩为高压水会消耗非常多能量，而且&d大型蒸汽涡轮机&r不会把它们原样输出来。你可以用&d热交换机&r把高压水回收起来，从而重复使用。"
 		""
 		"如果你选择用输入&7蒸汽&r和高压水的配方，它就会输出&7高压蒸汽&r和普通水，其中高压蒸汽可以用来发电。"
 		""
@@ -6198,8 +6198,8 @@
 		"如果想要无线抽取物品的话，给路由器加装&a抽取模块 Mk2&r就可以把物品抽取到&d路由器&r中。"
 	]
 	quest.393850960DC22BB1.title: "&f存储和提取"
-	quest.39621D430CCBF307.quest_desc: ["我们需要更强大的电动机来制造更好的机器。这些电动机还能加快管道中的物品传输速度！"]
-	quest.39621D430CCBF307.title: "&6大型进阶电动机"
+	quest.39621D430CCBF307.quest_desc: ["我们需要更强大的马达来制造更好的机器。这些马达还能加快管道中的物品传输速度！"]
+	quest.39621D430CCBF307.title: "&6大型进阶马达"
 	quest.3964E9A95D52B0FD.quest_desc: [
 		"下一级别的&b召唤五芒星&r就是&d阿巴拉斯强化召唤术&r"
 		""
@@ -6551,11 +6551,11 @@
 		""
 		"一些生物会掉落多种战利品，你可以在&d战利品制造器&r的界面上选择想要获取的资源。"
 		""
-		"When automating these machines, the &dLoot Fabricator&f will remember the choice you make for the &bMob Predictions&f. If no choice has been made, the machine will stop working."
+		"自动化方面，&d战利品制造器&f会记忆你对&b预测产物&f的选择，如果没有做出过选择，机器将不会工作。"
 		""
-		"In can also switch the &dLoot Fabricator&f to &2Queue Mode&r, which lets you cycle through a list of outputs instead of producing only one fixed drop."
+		"你还可以将&d战利品制造器&f切换至&2队列模式&r，这样就能轮流循环生产一系列不同的产物，而不再局限于只产出单一的固定掉落物。"
 		""
-		"In order to complete the &6FTB Pyramid&r, it is recommended to automate &dWarden&r, &3Wither&r, and &5Ender Dragon &bPredictions&r."
+		"要完成&6FTB金字塔&r，建议将&d监守者&r、&3凋灵&r与&5末影龙&r的&b预测模型&r实现自动化。"
 	]
 	quest.3C60FA46EA54C899.title: "&d生成战利品"
 	quest.3CAA89E621ED5B6E.quest_desc: [
@@ -6654,7 +6654,7 @@
 		""
 		"那些选择抛弃燃料棒发电，只想要快速得到枯竭燃料棒的人会选择建一座&6增殖反应堆&r。当然，你的铀产出首先要能跟得上它的消耗才行。"
 		""
-		"&6钚&r的产出效率（按每个棒计）为（输入粉末–>输出粉末）。"
+		"&5钚&r的产出效率（按每个棒计）为（输入粉末–>输出粉末）。"
 		""
 		"铀：0 -> 27"
 		"低能铀：0 -> 24"
@@ -6958,7 +6958,7 @@
 	quest.40C4ECF69211C872.quest_subtitle: "通过矿石获取这个，或者…"
 	quest.40C4ECF69211C872.title: "&f锇精华"
 	quest.40CCB0B7868233CA.quest_desc: ["将你刚得到的&a硫酸铂溶液&r&3离心&r，便可以得到&2纯净硫酸铂溶液&r，还有小概率得到副产物&d铱粉末&r。"]
-	quest.40CCB0B7868233CA.title: "&d小堆铱粉"
+	quest.40CCB0B7868233CA.title: "&d铱粉末"
 	quest.40D416328C50C9F4.quest_desc: ["大多数如铜或红石这样的基础矿晶可以通过对&3虚无晶体催化剂&r使用&e染料&r的方式将其转化为特定种类的矿晶母岩方块。"]
 	quest.40D416328C50C9F4.title: "&f基础矿晶"
 	quest.40D4E56DD0876A7D.quest_desc: [
@@ -7180,7 +7180,7 @@
 		""
 		"模拟失败时，会生成&b通用预测产物&r；模拟成功时，会生成对应生物的&6预测产物&r。"
 		""
-		"The &aSimulation Chamber&f has two modes: &2Training Mode&f runs simulations that upgrade the model's data and &dInference Mode&r produces predictions, but doesn't upgrade the model."
+		"&a模拟室&f有两种工作模式：&2训练模式&f通过运行模拟来升级数据模型，而&d推理模式&r仅产出预测产物，在此模式下无法升级模型。"
 	]
 	quest.42C41784169B2308.title: "&a模拟刷怪"
 	quest.42E45B47360C59F3.quest_desc: [
@@ -7684,15 +7684,15 @@
 	quest.4843F5564CA5810C.title: "&f柴油发电机"
 	quest.48567556D94D1ADC.title: "&c烈焰金斧"
 	quest.4858DFD1CD36416F.quest_desc: [
-		"The &6Data Center&f multiblock is a 7x7x7 structure that runs up to 25 &zSelf Aware&r data models at the same time."
+		"&6数据中心&f多方块结构尺寸为7x7x7，最多可同时运行25个&z自我意识&r级数据模型。"
 		""
-		"The multiblock is built with a 7x7 &dObsidian&r platform at the bottom and &aBlack Stained Glass&r walls, leaving the interior hollow. Then, the &6Data Center&r block and 3 &bIO Ports&r must be placed on the outer bottom layer, each configured to a different mode: Energy, Inputs, Outputs."
+		"结构底部由7x7的&d黑曜石&r平台构成，墙体使用&a黑色染色玻璃&r搭建，内部需保持中空。随后，必须在底部最外层放置&6数据中心&r方块和3个&bIO端口&r，且分别配置为不同的模式：能量、输入、输出。"
 		""
-		"You can optionally add a fourth Port confiured to Models for automatic input of data models, but this is not required."
+		"你还可以自行选择添加第4个配置为模型模式的端口，以便自动输入数据模型，但这并非必需。"
 		""
-		"If built correctly, a blue outline will display around the multiblock, otherwise you can clikc the main &6Data Model&f block for more details."
+		"如果搭建正确，多方块结构周围会显示出蓝色轮廓；否则，你可以点击&6数据模型&f主方块来查看详细信息。"
 		""
-		"[\"You can also check out the \", {\"text\": \"Data Center GuideMe\", \"underlined\": true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guidemec hostilenetworks:guide open\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open Data Center GuideMe\"}}, \", for an example structure.\"]"
+		"[\"你也可以查看\", {\"text\": \"数据中心GuideMe指南\", \"underlined\": true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guidemec hostilenetworks:guide open\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开数据中心GuideMe指南\"}}, \"来参考搭建示例。\"]"
 	]
 	quest.4879B6C32F7B1749.quest_desc: [
 		"&a搅拌机&r用来将多种物品或液体混合产生新的物质。使用时请注意配方需求的搅拌机等级！"
@@ -7735,7 +7735,7 @@
 	quest.49603EC381DD1818.quest_desc: [
 		"欢迎来到&6核能时代&r！是时候开始享受&6超高压&r的乐趣了。"
 		""
-		"&6高级机器框架&r几乎要用在所有的&6超高压时代&r机器上，并且像以前一样，你可以用它们升级你的机器！"
+		"&6精英机器框架&r几乎要用在所有的&6超高压时代&r机器上，并且像以前一样，你可以用它们升级你的机器！"
 	]
 	quest.49603EC381DD1818.title: "&6高级机器"
 	quest.4962BB8B57D6650E.quest_desc: [
@@ -8196,7 +8196,7 @@
 	]
 	quest.4C50A70027F208BE.title: "&d开宴时间到"
 	quest.4C6838BED2262721.quest_desc: [
-		"&d不锈钢钻&r使你可以挖出非常重要的新矿物！"
+		"&d不锈钢钻&r使你可以获得非常重要的新材料！"
 		""
 		"只要把这些钻头安装到你的&a电动采石场&r里，你就可以挖出钛、铂、钨之类的矿物。"
 		""
@@ -8274,7 +8274,7 @@
 	quest.4D1FE471FC2D8EF4.quest_desc: [
 		"在&3化学反应釜&r中将&7苯乙烯-丁二烯&r和&c铬粉末&r或&a铅粉末&r化合以得到&d丁苯橡胶&r。"
 		""
-		"这是超级绝缘体，不过到这个时候你已经能做成吨的橡胶了。但它可以取代特定配方中的合成橡胶，比如制造线缆！"
+		"这是超级绝缘体，不过到这个时候你已经能做成吨的橡胶了。但它可以取代特定配方中的&7合成橡胶&r，比如制造线缆！"
 	]
 	quest.4D1FE471FC2D8EF4.title: "&d丁苯橡胶"
 	quest.4D21DB3EC7424E9A.title: "&f能量卡"
@@ -11145,7 +11145,7 @@
 		""
 		"想要制作这种锭，你需要先把：&7铱粉&r，&a退火铜粉&r，&3钇粉&r以及&2钕粉&r放进&3搅拌机&r，这样就可以制造出&6超导体粉&r，之后把它放入&3电力高炉&r里烧就是&c热锭&r形态了。"
 		""
-		"用&3真空冷冻机&r或&3热交换机&r将热锭冷却，就能得到&6超导体锭&r！"
+		"用&3真空冷却机&r或&3热交换机&r将热锭冷却，就能得到&6超导体锭&r！"
 	]
 	quest.68F600EFC7166908.title: "&61.024吉瓦！？"
 	quest.69024F41C4025A48.quest_desc: [
@@ -11221,7 +11221,7 @@
 		""
 		"&7&o请记住，本包中的钻头不会被消耗。"
 	]
-	quest.6A22BBE9C146E910.title: "&3电动采石场"
+	quest.6A22BBE9C146E910.title: "&3电动采石机"
 	quest.6A346516646A3890.quest_desc: [
 		"&c下界&r是个相当危险的地方，但如果你想打败&d末影龙&r的话，就需要找到&c烈焰人&r！"
 		""
@@ -11356,8 +11356,8 @@
 	quest.6BB9FD515DFD8FF1.title: "&bAE2内置指南书&r"
 	quest.6BC39EC7864A61E6.quest_subtitle: "怪物掉落物"
 	quest.6BC39EC7864A61E6.title: "&f炽炎术士典籍"
-	quest.6BC7C49D7F7D5AAF.quest_desc: ["在&3化学反应釜&r中将&e含硫石脑油&r和&b氢气&r化合，以此将液体分离为&a石脑油&r和&e硫酸&r。"]
-	quest.6BC7C49D7F7D5AAF.title: "&e页岩油加工"
+	quest.6BC7C49D7F7D5AAF.quest_desc: ["在&3化学反应釜&r中将&e硫酸石脑油&r和&b氢气&r化合，以此将液体分离为&a石脑油&r和&e硫酸&r。"]
+	quest.6BC7C49D7F7D5AAF.title: "&e硫酸石脑油加工"
 	quest.6BCA2ED05C7D9D4E.quest_desc: [
 		"只要靠这套盔甲来隔开朝你进攻的施法者，它那对魔法的排斥就会给予你强大的防御能力。"
 		""
@@ -11367,11 +11367,11 @@
 	]
 	quest.6BCA2ED05C7D9D4E.title: "&6恶念要塞盔甲"
 	quest.6BD4E9B7B2C99C27.quest_desc: [
-		"要制作&6核反应堆&r，你需要&6核合金板&r。它的材料是&b抗爆合金锭、&2铍锭&r和&e镉锭&r。"
+		"要制作&6核反应堆&r，你需要&6核合金板&r。它的材料是&b防爆合金锭&r、&2铍锭&r和&e镉锭&r。"
 		""
 		"你需要离心&a绿宝石&r才能得到&2铍&r，而先前处理&3莫桑石&r时你应该已经搞到一些&e镉&r了。"
 		""
-		"做出&6混合核合金板&r后，要把它们放进&3内爆压缩机&r炸一下才能变为&6核合金板&r，一座反应堆将会需要大量的核合金板，你最好建一条生产线。"
+		"做出&6核混合板&r后，要把它们放进&3内爆压缩机&r炸一下才能变为&6核合金板&r，一座反应堆将会需要大量的核合金板，你最好建一条生产线。"
 	]
 	quest.6BD4E9B7B2C99C27.title: "&6核合金板"
 	quest.6BD6FF86A05A7314.quest_desc: [
@@ -12109,9 +12109,9 @@
 	quest.7380416E70BEAD65.title: "&a亚麻种子"
 	quest.73846333D68F6339.title: "&f马铃薯农场"
 	quest.738BF8D6430694F4.quest_desc: [
-		"在&2电力高炉&r中将&d粗钛矿&r与&e硫酸锰溶液&r一起高温烧炼，你就能得到&c钛热锭&r。"
+		"在&2电力高炉&r中将&d粗钛&r与&e硫酸锰溶液&r一起高温烧炼，你就能得到&c钛热锭&r。"
 		""
-		"在&3真空冷却机将&r里将这些热锭冷却就能得到&d钛锭&r！"
+		"在&3真空冷却机&r里将这些热锭冷却就能得到&d钛锭&r！"
 	]
 	quest.738BF8D6430694F4.title: "&d钛锭"
 	quest.739F075AA8F4DA49.quest_desc: [
@@ -12273,7 +12273,7 @@
 	quest.755E80CFF2053CF8.title: "&3激活金字塔&r"
 	quest.75621DDF80A2B05F.quest_desc: ["&a魔源中继器：收集型&r会自动从未用支配之杖建立连接的魔源罐中提取魔源，提取范围为五格。"]
 	quest.75621DDF80A2B05F.title: "&d收集魔源"
-	quest.7577594004D188D9.quest_desc: ["在&3化学反应釜&r中将&c氯乙烯&r与铅或&4铬细粉&r结合，以制作&a聚氯乙烯&r。"]
+	quest.7577594004D188D9.quest_desc: ["在&3化学反应釜&r中将&c氯乙烯&r与铅或&4铬粉末&r结合，以制作&a聚氯乙烯&r。"]
 	quest.7577594004D188D9.title: "&c氯乙烯"
 	quest.75818C9F54BD4C02.quest_desc: [
 		"&a能源转换器&r有两种模式："
@@ -12552,7 +12552,7 @@
 	quest.77EFC3A24E922F93.quest_desc: [
 		"有了&d退火铜锭&r，我们就可以制作&d进阶元件&r，从而进一步升级设备了。"
 		""
-		"首先，你需要制作一些&a进阶电动机&r，你可以用它们来制作&2进阶泵&r！"
+		"首先，你需要制作一些&a进阶马达&r，你可以用它们来制作&2进阶泵&r！"
 	]
 	quest.77EFC3A24E922F93.title: "&d进阶元件"
 	quest.77F964631F38EA2E.title: "&f击杀20只&c苦力怕"
