@@ -64,6 +64,20 @@
 		"Instead of burning coal, this uses the special &6Fuels&r from the mod, with the highest tier producing 4k RF/t."
 	]
 	quest.001F0C36B4AB9F5F.title: "&a\"Simple\" &fFuel Generator"
+	quest.00249E1AFEF0051A.quest_desc: [
+		"The &bHeart Pulse Belt&r is a curios when equipped the player gets an increased movement speed, step-assist, and increased jump height."
+		""
+		"Upgrade values can be seen on the next page."
+		"{@pagebreak}"
+		"&cRed Heartpulse Belt&r : 1.5 Block Height Jump and slight speed increase."
+		""
+		"&eYellow Heartpulse Belt&r : 2 Block Height Jump and moderate speed increase."
+		""
+		"&9Blue Heartpulse Belt&r: 2.5 Block Height Jump and fast speed increase."
+		""
+		"&aGreen Heartpulse Belt&r: 3 Block Height Jump and very fast speed increase."
+	]
+	quest.00249E1AFEF0051A.title: "A Better Movement"
 	quest.0056517EDF3DAB08.quest_desc: [
 		"The &aSpeedometer&r shows how fast a certain part of your system is moving."
 		""
@@ -105,16 +119,6 @@
 	]
 	quest.0089BFB911BD5E5B.quest_subtitle: "&o\"The action of prohibiting or forbidding something\""
 	quest.0089BFB911BD5E5B.title: "&eInterdiction Matrix"
-	quest.00A7C1FE54F86429.quest_desc: [
-		"&eApotheosis&r overhauls the vanilla enchanting system with three new values, allowing for high-level enchants with upgradable progression. You will want to manage these values as you progress through upgrading your enchanting setup:"
-		""
-		"&aEterna&r: The power of the enchanting table, capped based on the tier of your bookshelves. This stat determines the maximum level of enchants."
-		""
-		"&cQuanta&r: The chaos inherent when enchanting at higher power. This determines the randomness of enchants."
-		""
-		"&dArcana&r: The overall quality and quantity of the enchantments. This determines the rarity of enchants, as well as how many enchants are applied per use."
-	]
-	quest.00A7C1FE54F86429.title: "&6The Secrets of Enchanting"
 	quest.00AE6584ACB79B5D.quest_desc: [
 		"&aWildroot&r is the last legacy of the ancient &aWildwood Trees&r. Using the Pyre's ritual of &bWildroot Growth&r, you can bring back a semblance of that old glory."
 		""
@@ -147,30 +151,11 @@
 	quest.01177027CE208375.quest_desc: ["Once you have your hands on some &dStainless Steel Dust&r, you can run it through an &3Electric Blast Furnace&r to create a &bStainless Steel Hot Ingot&r!"]
 	quest.01177027CE208375.title: "&dStainless Steel Ingot"
 	quest.011DBD2652E49B97.quest_desc: [
-		"&6Apotheosis&r has a new &bWorld Tier&r system that can be accessed using \"CTRL + T\" by default."
+		"[\"\", {\"text\": \"Apotheosis\", \"color\": \"yellow\"}, \" has a \", {\"text\": \"World Tier\", \"color\": \"aqua\"}, \" system that can be accessed by pressing \", {\"keybind\": \"key.apotheosis.open_world_tier_select\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: CTRL + T\"}}, \".\" ]"
 		""
 		"[\"You start at \", {\"text\": \"Haven\", \"color\": \"#7E7E7E\"}, \" upon acquiring your first \", {\"text\": \"Affix Item\", \"color\": \"#55FF55\"}, \", and unlock more tiers as you advance in the mod.\"]"
 		""
-		"Higher tiers increase the difficulty and rewards across all dimensions. These rewards can be checked in the Tiers menu (\"CTRL + T\")."
-		""
-		"In order to progress your &bWorld Tier&r, you can check the &6Apotheosis&r advancements using \"L\" by default, and going to the tab with a skull to guide you through the progression."
-		""
-		"You can also check the next page on this quest for all of the requirements."
-		"{@pagebreak}"
-		"&bWorld Tiers&r"
-		""
-		"[\"\", {\"text\": \"Haven\", \"color\": \"#7E7E7E\"}, \" - Acquire your first \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear.\"]"
-		""
-		"[\"\", {\"text\": \"Frontier\", \"color\": \"#55FF55\"}, \" - Equip a full set of \", {\"text\": \"Common\", \"color\": \"#7E7E7E\"}, \" or higher \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear.\"]"
-		""
-		"[\"\", {\"text\": \"Ascent\", \"color\": \"#5454FC\"}, \" - Equip a full set of \", {\"text\": \"Uncommon\", \"color\": \"#55FF55\"}, \" or higher \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear and slay an \", {\"text\": \"Apotheosis\", \"color\": \"#FFAA00\"}, \" boss monster.\"]"
-		"These can be found in small underground dungeons, or at night throughout the world."
-		""
-		"[\"\", {\"text\": \"Summit\", \"color\": \"#B900B9\"}, \" - Equip a full set of \", {\"text\": \"Rare\", \"color\": \"#5454FC\"}, \" or higher \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear and slay the Wither\"]"
-		""
-		"[\"\", {\"text\": \"Pinnacle\", \"color\": \"#EA6F14\"}, \" - Equip a full set of \", {\"text\": \"Epic\", \"color\": \"#B900B9\"}, \" or higher \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear and slay the Ender Dragon\"]"
-		""
-		"Changes for each tier can be checked in the &bWorld Tiers&r menu (\"CTRL + T\" by default)."
+		"Higher tiers increase mob stats and rewards across all dimensions, and reduce your max &aEterna&f cap. These can be viewed in the Tiers menu."
 	]
 	quest.011DBD2652E49B97.title: "&fApothic World Tiers"
 	quest.012AEBFDB1F1512E.title: "&fFerricore Armor"
@@ -234,13 +219,13 @@
 	quest.01C52B543E30F365.quest_subtitle: "Fish this up!"
 	quest.01C52B543E30F365.title: "&fLapis Lazuli Essence"
 	quest.01D2CEAF59872C33.quest_desc: [
-		"The &aGem Cutting Table&r is used to upgrade &bGems&r."
+		"The &dGem Case&f is used to store and upgrade &bGems&r. "
 		""
-		"Upgrading a &bGem&r costs &aGem Dust&r, rarity materials, and a second &bGem&r of the same rarity. The material and dust cost of upgrading a &bGem&r increases with its rarity."
+		"It's a direct upgrade to the &aGem Cutting Table&f, which is only used to upgrade gems."
 		""
-		"The exact upgrade costs will be shown in the table's interface."
+		"Upgrading a &bGem&r costs &aGem Dust&r, rarity materials, and a second &bGem&r of the same rarity. The material and dust cost of upgrading a &bGem&r increases with its rarity. The exact upgrade costs will be shown in the interface."
 	]
-	quest.01D2CEAF59872C33.title: "&aGem Cutting Table"
+	quest.01D2CEAF59872C33.title: "&aGem Case"
 	quest.01DB719967817220.quest_desc: [
 		"The &dSupercritical Phase Shifter&r (&dSPS&r) is a large structure that uses as much power as you can give it to generate small amounts of &5Antimatter&r from large amounts of &bPolonium&r."
 		""
@@ -496,6 +481,20 @@
 		"Each entity has its own cell that can be processed into its &bDNA&r type."
 	]
 	quest.0444EF9A04406894.title: "&aCell"
+	quest.044A192E503B766B.quest_desc: [
+		"The &aHeart Patch&r is like a band-aid it will heal the player based on its level so much health. It has a cooldown so be careful when using it as a life-line."
+		""
+		"Each Tier Increases the base value healed."
+		""
+		"&cRed&r : 1 Heart per use."
+		""
+		"&eYellow&r : 3 Hearts per use."
+		""
+		"&9Blue&r: 6 Hearts per use."
+		""
+		"&aGreen&r: 10 Hearts per use."
+	]
+	quest.044A192E503B766B.title: "Patch Me Up!"
 	quest.04561BBA227DE4D6.quest_desc: [
 		"The &dEpic Talisman Base&r is an upgrade to the &aAdvanced Talisman Base&r."
 		""
@@ -1620,7 +1619,6 @@
 		"&aInterfaces&r are able to serve both input and output needs within the same blockspace."
 	]
 	quest.0D864FD6A668D8C6.title: "&aSystem Input \\&\\ Output"
-	quest.0D877E94710B32B1.title: "&fTome of Miners"
 	quest.0D926066D3D83196.quest_desc: ["The &cDjinni Smelter&r functions like all other &bSmelters&r, but processes things 50% faster than normal."]
 	quest.0D926066D3D83196.title: "&cDjinni Smelter"
 	quest.0D92EFDB73114B0C.quest_desc: [
@@ -1629,6 +1627,12 @@
 		"Unlike most of the regular seeds, these require a &2Soulium Seed Base&r to create, as well as filled &aSoul Jars&r of the desired mob essence."
 	]
 	quest.0D92EFDB73114B0C.title: "&2Tier 2 &fMob Seeds"
+	quest.0DABE9F7D03836E9.quest_desc: [
+		"The &bSeashelf of Aquatic Filtration&r can be loaded with up to six enchanted books, and will block those enchantments from showing up again."
+		""
+		"Works with &cCursed Enchants&r as well!"
+	]
+	quest.0DABE9F7D03836E9.title: "&bFiltering Unwanted Enchants"
 	quest.0DB5CBE2E76D2FD9.quest_desc: [
 		"If you're looking for a pipe to transfer pretty much anything in or out, the &ePipez&r mod has you covered."
 		""
@@ -1676,8 +1680,6 @@
 		"Each &aFuel Rod&r will consume a fixed amount of fuel from the &bReactor Fuel Ports&r above the stack. Each fuel pellet has a capacity, and each rod will use 1 capacity unit, a double rod uses 2, and a quad rod uses 4."
 	]
 	quest.0E0B4F549B42AF63.title: "&aReactor Rods"
-	quest.0E0BB49B16E88A66.quest_desc: ["&6Treasure Enchantments&r are special enchants that can only be found in loot, or from trading with villagers. That is, unless you have a &3Deepshelf of Arcane Treasures&r..."]
-	quest.0E0BB49B16E88A66.title: "&6Mending!"
 	quest.0E107AC18FCFDB57.quest_desc: [
 		"Now that we have some &aPrimogel Goo&r, we can use it to see how this mechanic works."
 		""
@@ -1706,6 +1708,8 @@
 	quest.0E201000BADC9B61.title: "&bRandom Tool Bag"
 	quest.0E610A03BB4007B6.quest_desc: ["Generates power by consuming some Mob Drops."]
 	quest.0E610A03BB4007B6.title: "&fDeath Mycelial Generator"
+	quest.0E65DCDDCF908052.quest_desc: ["Infused with magical energy, your bookshelves unlock more possibilities."]
+	quest.0E65DCDDCF908052.title: "&cHellshelf Infusion"
 	quest.0EA1B56A92D0403F.quest_desc: [
 		"Combining &bAluminum Dust&r, &cChromium Dust&r, and &dStainless Steel Dust&r in a &3Mixer&r will yield &eKanthal Dust&r."
 		""
@@ -1759,9 +1763,6 @@
 		"You can also remove spells inscribed in the tome by selecting the spell in the interface, then clicking on the Spell Scroll on the right side to take it out."
 	]
 	quest.0EE0A8941A69703E.title: "&aInscribing Spells"
-	quest.0EE35D6E57FAD973.quest_desc: ["The &6Enchantment Library&r acts as a storage for enchantments. With enough low level enchants, it can also create books of higher level enchants for you."]
-	quest.0EE35D6E57FAD973.quest_subtitle: "Magical Storage!"
-	quest.0EE35D6E57FAD973.title: "&dEnchantment Library"
 	quest.0EFA11536D00E653.quest_desc: [
 		"&2Bio Fuel&r can also be used as a great power source in the early game!"
 		""
@@ -2148,6 +2149,8 @@
 		"- The maximum cost limit is increased."
 	]
 	quest.1316B86CF011B016.title: "&6Iesnium Anvil"
+	quest.13268AE9BCF72009.quest_desc: ["The &6Enchantment Library&r acts as a storage for enchantments. With enough low level enchants, it can also create books of higher level enchants for you."]
+	quest.13268AE9BCF72009.title: "&dEnchantment Library"
 	quest.132D9163A97ED955.quest_desc: [
 		"Armors can be upgraded by adding a &aLining&r to them. "
 		""
@@ -2696,6 +2699,12 @@
 		"&7&oIt can also be used as a sneaky high-capacity fluid tank or energy buffer while disabled."
 	]
 	quest.191A3E81D26677F5.title: "&dBlackhole"
+	quest.192EB03700278BE2.quest_desc: [
+		"The &dRelic Apple&r is more than just an ordinary apple. "
+		""
+		"It gives you buffs when eaten and heals you instantly upon consumption."
+	]
+	quest.192EB03700278BE2.title: "Fancy Apple"
 	quest.19512B784164186D.title: "&fLead Chunk"
 	quest.1953C2127633B6D7.quest_desc: [
 		"The &dWireless Universal Terminal&r allows you to make use of the several different types of Wireless Terminals."
@@ -2736,7 +2745,6 @@
 		"These are used to craft the highest tier pipes, factories, and the most advanced machinery."
 	]
 	quest.19874DF48B8B2A75.title: "&dUltimate Control Circuit"
-	quest.19BA687C317C19B7.title: "&fTome of Chestplates"
 	quest.19BD1DF4EFF584A6.quest_desc: [
 		"When using a &cBlazegold Hoe&r to till dirt, you'll create &cBlazebloom Soil&r."
 		""
@@ -3026,6 +3034,14 @@
 		"Other types of Impetus also can be crafted, allowing the conversion of spirits into a wider variety of resources."
 	]
 	quest.1C0024A48898FB90.title: "&fSpirit Crucible"
+	quest.1C00AB623117C718.quest_desc: [
+		"Got a lot of random enchanted gear? Using a &dTome of Scrapping&r, you can break it down and extract some of the enchantments from it."
+		""
+		"The &dTome of Extraction&r will also remove all enchants, but will keep the item from being destroyed, allowing you to remove and replace any number of enchantments on an item at will."
+		""
+		"If you're looking for a specific enchantment for a specific tool, you can use &dTomes&r which can be crafted to only support a certain class of enchantments."
+	]
+	quest.1C00AB623117C718.title: "&fHotswapping Enchantments"
 	quest.1C044AAAA1306C6F.title: "&dFamiliar &fBeds"
 	quest.1C276A8E48C36F56.title: "&bCopper Upgrade"
 	quest.1C3D395850C1C4A4.quest_desc: [
@@ -3248,12 +3264,6 @@
 		"&7&o- 16x Dense ME Conduit"
 	]
 	quest.1DC3B817C185BBF4.title: "&bImproved EnderIO Conduits"
-	quest.1DC46E0EA2BC83C3.quest_desc: [
-		"Like the &dTome of Scrapping&r, but infused to be even better!"
-		""
-		"You also get four for the price of one!"
-	]
-	quest.1DC46E0EA2BC83C3.title: "&fSalvaging Even More Enchants"
 	quest.1DC5DE6E9F0D0B2C.quest_desc: [
 		"Spells can be cast by equipping your &aSpell Book&r in its curio slot."
 		""
@@ -3652,8 +3662,6 @@
 		"&bAction Effect&r: Ignites"
 	]
 	quest.2262994A5B54AE0D.title: "&dGold Banding"
-	quest.226E5BD0BEB1BA75.quest_desc: ["These are unique shelves that provide certain bonuses like adding 100% &cQuanta&r, or removing &cQuanta&r and &5Arcana&r."]
-	quest.226E5BD0BEB1BA75.title: "&aMiscellaneous Shelves"
 	quest.22794ACEC855690B.quest_desc: [
 		"A lot goes into making a &6Nuclear Reactor&r, and there are many types. To explain the process, check out the &bReactor Components&r and &2Reactor Mechanics&r quests linked to this one!"
 		""
@@ -3801,8 +3809,6 @@
 		"It is also used to craft the &bForce of Rejectors&r."
 	]
 	quest.23B63CC05AA3EAAB.title: "&aDragon Talisman"
-	quest.23B6C73FDF8C322A.quest_subtitle: "The power of &cQuanta"
-	quest.23B6C73FDF8C322A.title: "&3Soul-Touched Deepshelf"
 	quest.23C9C45D06917EA9.title: "&aNature &fUpgrade Orb"
 	quest.23EFC393FBDD46E6.quest_desc: ["&7&oChoose one Flawed Apotheosis gem."]
 	quest.23EFC393FBDD46E6.title: "&aFlawed Apotheosis Gem Bag"
@@ -4067,6 +4073,14 @@
 	quest.25EB6E3274347822.title: "&fThe &dEnergized Induction Matrix"
 	quest.25FD6AE037D65903.quest_desc: ["&dTrain Tracks&r are set up to direct your train network, even across dimensions."]
 	quest.25FD6AE037D65903.title: "&dTrain Track"
+	quest.261B2184A4839741.quest_desc: [
+		"If you're playing with friends and want to be on the same starting island, FTB Teams makes that very easy."
+		""
+		"When joining a world for the first time a team is automatically created for you, so you'll need to type &a/ftbteams party leave&f in chat."
+		""
+		"After that is done, the party leader can invite new players by typing &a/ftbteams party invite <username>&f, and a message will show up in chat prompting the new party member to accept or decline the invite."
+	]
+	quest.261B2184A4839741.title: "&fCreating and Joining a team"
 	quest.261F26D8B7121272.title: "&2Protection &fUpgrade Orb"
 	quest.262464EE203C7A1B.quest_desc: [
 		"&6Oritech&r offers different &aJetpack&r variants. All of them can fly using either energy or &cTurbofuel&r. To fill them with energy, any energy storage or a charger can be used. To fill the internal tank, a &aCharger Block&r is required."
@@ -4102,6 +4116,12 @@
 	]
 	quest.26567E1596ADB808.quest_subtitle: "Creative Flight!"
 	quest.26567E1596ADB808.title: "&6Gravichestplate"
+	quest.266D0151DF0A7BA5.quest_desc: [
+		"The &zVigor Bow&r works similar to a &bHeart Amulet&r. It has its own slots for &2canisters&r."
+		""
+		"Each &2canister&r adds &b1&r additional damage and Draw Speed to the Bow."
+	]
+	quest.266D0151DF0A7BA5.title: "Colorful Bullseye"
 	quest.2680E1E74C44F336.quest_desc: [
 		"SGear materials come with specific &aProperties&r that determine the stats of an item, like durability, attack damage, and more."
 		""
@@ -4118,14 +4138,6 @@
 		"There are also some cool features for these blocks, like using &6Glowstone Dust&r on a framed block to make it glow!"
 	]
 	quest.2682A911828C2D88.title: "&2Framed Blocks"
-	quest.268CC540E5B605A9.quest_desc: [
-		"The final tier of bookshelves is locked behind the infusion of &dDragon's Breath&r."
-		""
-		"Be careful! You will need to precisely manage your &cQuanta&r levels, or the infusion will fail!"
-		""
-		"If you don't have enough &dArcana,&r you can use candles, which provide a small boost."
-	]
-	quest.268CC540E5B605A9.title: "&eAchieving Enlightenment"
 	quest.269085315AD48F88.quest_subtitle: "+100 Max Mana"
 	quest.269085315AD48F88.title: "&bRing of Mana"
 	quest.2690BA6D29410ECB.quest_desc: ["&7&oA truly divine gift."]
@@ -4169,12 +4181,6 @@
 		"If the item has higher pressure than the &aCharging Station&r, it will empty itself back into the network."
 	]
 	quest.26B6680DCE14A228.title: "&fCharging Station"
-	quest.26B74124E89189F7.quest_desc: [
-		"The base shelf for the final tier of enchanting."
-		""
-		"Besides being locked behind &dInfused Dragon's Breath&r, Endshelves are relatively cheap."
-	]
-	quest.26B74124E89189F7.title: "&eEndshelf"
 	quest.26D4074DECF26C04.quest_desc: ["The &6Plasma Turbine&r is the ultimate &eMI&r energy producer. It uses &5Helium Plasma&r to produce over &c1 Million EU/t&r."]
 	quest.26D4074DECF26C04.title: "&6Plasma Turbine"
 	quest.26D59E04760C5747.quest_desc: [
@@ -4231,12 +4237,6 @@
 	quest.26F18323EB6EFCA0.title: "&fSNAD"
 	quest.270A67B9066C195D.quest_desc: ["&7&oChoose one Matter tank filled with 64k Matter of a specific type."]
 	quest.270A67B9066C195D.title: "&bMatter Tanks (64k Matter)"
-	quest.2722C0E2E8993658.quest_desc: [
-		"The centerpiece of a fully-completed enchanting setup. "
-		""
-		"Provides no additional stats, but will boost your &aEterna&r by 20, allowing you to hit a max of &6100&r."
-	]
-	quest.2722C0E2E8993658.title: "&eLevel 100 Enchanting"
 	quest.272C00767FDBD64F.quest_desc: [
 		"While &aReed Nests&r can be placed in any biome, they can only be found where sugarcane grows!"
 		""
@@ -4279,6 +4279,8 @@
 	]
 	quest.2785D267B523F5DC.quest_subtitle: "Spinny Go Fast!"
 	quest.2785D267B523F5DC.title: "&3Centrifuge"
+	quest.27BF87BEC4210E01.quest_desc: ["These are unique shelves that provide certain bonuses like adding 100% &cQuanta&r, or removing &cQuanta&r and &5Arcana&r."]
+	quest.27BF87BEC4210E01.title: "&aMiscellaneous Shelves"
 	quest.27C5F8272212B35A.quest_desc: [
 		"&eMekanism&r is all about creating big tech factories, and that means it is time to upgrade our machines!"
 		""
@@ -4295,6 +4297,12 @@
 	quest.27D28CC22BB5C665.title: "&fUpgrade Base"
 	quest.27E0738B56C6ED8C.quest_desc: ["Binding a &7Foliot&r to the satchel significantly increases its storage capacity, making it a great travel companion."]
 	quest.27E0738B56C6ED8C.title: "&aSurprisingly Substantial Satchel"
+	quest.27E2F70FDEE0F003.quest_desc: [
+		"The &bSoul Amulet&r holds even more by adding a &aSoul Canister&r you gain more max health."
+		""
+		"They work like a &6Totem of Undying&r if the player would &cdie&r and the soul canister will be consumed and reverted back to a &bblue heart canister&r."
+	]
+	quest.27E2F70FDEE0F003.title: "A Soul Bound Amulet"
 	quest.27E867855AC60BF0.quest_desc: [
 		"The &aAdvanced Talisman Base&r is an improved version of the &7Normal Talisman Base&r."
 		""
@@ -4362,8 +4370,6 @@
 	quest.2889A850949BA4A3.title: "&aDepot"
 	quest.28C59127725B1F84.quest_subtitle: "Grants Freezing Immunity"
 	quest.28C59127725B1F84.title: "&bFrostward Ring"
-	quest.28EA66B1EBB05B93.quest_desc: ["One of the paths to Deepshelf infusion, focusing on &dArcana.&r"]
-	quest.28EA66B1EBB05B93.title: "&fThe Path of &bWater"
 	quest.28F2A3355DC53049.quest_desc: [
 		"Using &bDragonskin&r dropped from the &dEnder Dragon&r, you can create this legendary spell book."
 		""
@@ -4631,6 +4637,12 @@
 		"To see which enchantments you can make, make sure to check out the uses in JEI!"
 	]
 	quest.2B8B225CF404A351.title: "&fEnchanter"
+	quest.2B94B4BC317DDE1D.quest_desc: [
+		"&cQuanta&r adds randomness to your enchanting rolls, and at max chaos, you will end up with either +100% or -100% power."
+		""
+		"&eStabilization&r cancels out the negative effects, meaning you get all the upside, and none of the downside."
+	]
+	quest.2B94B4BC317DDE1D.title: "&eStabilizing Your Enchantments"
 	quest.2BA10689E508FACC.quest_desc: [
 		"&dSniffer Eggs&r can be found rarely by &6brushing Suspicious Sand&r generated in ruins found in warm ocean biomes. This does not work in the void, however."
 		""
@@ -4712,7 +4724,6 @@
 		"&7&oYou can check GuideME documentation for further setup information."
 	]
 	quest.2CA2995C290D13F5.title: "&dAE2-Replication Bridge"
-	quest.2CA56BBAC9EBE913.title: "&fTome of Legplates"
 	quest.2CA74676EAC1A040.quest_desc: [
 		"&eMFFS&r machines need to be part of a system in order to run. Machines on the same &bFrequency&r will become part of the same system."
 		""
@@ -4910,12 +4921,6 @@
 	quest.2E56DB4CBFE2F37C.quest_desc: ["1 Imperium = 64 Inferium Essence"]
 	quest.2E56DB4CBFE2F37C.quest_subtitle: "Tier 4"
 	quest.2E56DB4CBFE2F37C.title: "&bImperium Essence&r"
-	quest.2E7EBD2A61897192.quest_desc: [
-		"The &dTome of Extraction&r will also remove all enchants, but will keep the item from being destroyed, allowing you to remove and replace any number of enchantments on an item at will."
-		""
-		"Combine this with an &5Enchantment Library&r for full control over what's on your gear!"
-	]
-	quest.2E7EBD2A61897192.title: "&fHotswapping Enchantments"
 	quest.2E9C2F524BE5FC10.quest_desc: [
 		"&aEngineering Blocks&r are the core building blocks used to create most of the multiblock machines in the mod."
 		""
@@ -5121,12 +5126,6 @@
 	]
 	quest.304B25BADD64077D.title: "&fTier Upgrades"
 	quest.3052855C35D11703.title: "&64096k Storage Part"
-	quest.30689B890F5E7A03.quest_desc: [
-		"The next stage of enchanting, unlocking &aEterna&r levels above 60."
-		""
-		"You can meet the criteria for Deepshelf infusion with either Seashelves or Hellshelves."
-	]
-	quest.30689B890F5E7A03.title: "&3Venturing Deeper"
 	quest.30798DFEB47F36F1.quest_desc: [
 		"Using &aHedyrin's Lure&r you can summon &ePossessed Mobs&r that drop loot when killed."
 		""
@@ -5170,6 +5169,12 @@
 		"This can be useful to set up automation, or telling other modules when to activate!"
 	]
 	quest.314E9901D4E89E6F.title: "&fRedstone Detection"
+	quest.315A4691D81D77DB.quest_desc: [
+		"The base shelf for the final tier of enchanting."
+		""
+		"Besides being locked behind &dInfused Dragon's Breath&r, Endshelves are relatively cheap."
+	]
+	quest.315A4691D81D77DB.title: "&eEndshelf"
 	quest.316D3DA0DC2A4BF5.quest_desc: ["&dSmart Fluid Pipes&r can be configured to extract or insert certain fluids into the network."]
 	quest.316D3DA0DC2A4BF5.title: "&dSmart Fluid Pipe"
 	quest.31705AD5BE50E2CB.quest_desc: [
@@ -5179,6 +5184,14 @@
 	]
 	quest.31705AD5BE50E2CB.title: "&fPressurized Reaction Chamber"
 	quest.319098064145CF21.title: "&aEvolutionary Matter"
+	quest.3196AA3E6E309B1D.quest_desc: [
+		"The centerpiece of a fully completed enchanting setup. "
+		""
+		"The &dDraconic Endshelf&r provides no additional stats, but will boost your &aEterna&r by 20, allowing you to hit a max of &6100&r."
+		""
+		"The &dPearlescent Endshelf&r is the best general-purpose bookshelf, providing significant amounts of both &cQuanta&r and &dArcana&r."
+	]
+	quest.3196AA3E6E309B1D.title: "&eLevel 100 Enchanting"
 	quest.319F49C16CFE900C.quest_desc: [
 		"While sleeping in a bed is the default way of setting your respawn point, you can also use the &a/sethome&r command to set a point to teleport back to with &a/home&r."
 		""
@@ -5443,8 +5456,6 @@
 	quest.3356E0CCB928EC2C.title: "&aEncased Chain Drive"
 	quest.335783B21CB10145.quest_desc: ["The &aAnimal Baby Separator&r can be used to keep adult breeding passive mobs in a separate pen so that you can automate a meat farm using only freshly spawned animals."]
 	quest.335783B21CB10145.title: "&aAnimal Baby Separator"
-	quest.33587574C28D7747.quest_desc: ["These are the best general-purpose shelves, providing significant amounts of both &cQuanta&r and &dArcana.&r"]
-	quest.33587574C28D7747.title: "&ePearlescent Endshelf"
 	quest.337838FB759E4377.quest_desc: [
 		"I'm starting to think the &5Eldritch Gods&r might have had a hand in creating everything."
 		""
@@ -5715,8 +5726,6 @@
 		"When combined with other upgrades like &aTank&r or &aBattery&r upgrades, these also increase the overall storage limit of those upgrades as well."
 	]
 	quest.3506242698EDF435.title: "&fStack Upgrades"
-	quest.353F6C94B5D5FF0B.quest_subtitle: "The power of &dArcana"
-	quest.353F6C94B5D5FF0B.title: "&3Echoing Deepshelf"
 	quest.354171E4089DFA96.quest_desc: [
 		"The &dInfusion Pylon&r is a pretty overpowered machine that can grant &bInfinite Potion Effects&r to its user, no matter how far away they are."
 		""
@@ -6288,8 +6297,6 @@
 		"It comes with more options and more configurations such as keeping the timedoor open longer, as well the ability to install optional upgrades on your tempad."
 	]
 	quest.3A43CCB33A024711.title: "&6Workstation"
-	quest.3A53BB7A6B708966.quest_desc: ["Infused with magical energy, your bookshelves unlock more possibilities."]
-	quest.3A53BB7A6B708966.title: "&cHellshelf Infusion"
 	quest.3A53E8547A11E845.quest_desc: ["Used in a wide variety of machines, the &aFilter Module&r provides many different services based on the device it's placed inside of. For example it can specify the blocks a &eBuilder&r can affect or limit the items placed into a &eCrafter&r."]
 	quest.3A53E8547A11E845.title: "Filter Modules"
 	quest.3A55DAA85874864A.quest_desc: [
@@ -6340,8 +6347,6 @@
 	quest.3A6FEA4C08B27D0C.title: "Broom Flight!"
 	quest.3A7489C33ED56F3B.quest_subtitle: "Craftable"
 	quest.3A7489C33ED56F3B.title: "&fStarter Spellbooks"
-	quest.3A7774F5F0FD174E.quest_desc: ["One of the paths to Deepshelf infusion, focusing on &cQuanta.&r"]
-	quest.3A7774F5F0FD174E.title: "&fThe Path of &cFire"
 	quest.3A7ADD7CC06913D7.quest_desc: ["The &3Adjustable Chain Gearshift&r allows you to directly increase/decrease the &bRPM&r of a specific part of your network with a redstone signal."]
 	quest.3A7ADD7CC06913D7.title: "&3Adjustable Chain Gearshift"
 	quest.3A91BB6A673C0D83.quest_desc: [
@@ -6352,6 +6357,13 @@
 		"Note: This is a virtual quarry, and does not destroy any blocks!"
 	]
 	quest.3A91BB6A673C0D83.title: "&aMultiblock Quarries&r"
+	quest.3A97BF08F622BB5B.quest_desc: [
+		"The &aEnchanter&r from &6EnderIO&r is an &dEnchantment Table&r that allows you to pick which enchantment you want to make."
+		""
+		"When provided with specific items and &2Experience&r, you can enchant &aBook \\&\\ Quills&r with an enchantment of your choice."
+		""
+		"To see which enchantments you can make, make sure to check out the uses in JEI!"
+	]
 	quest.3AB6083CCDD1B74A.quest_desc: [
 		"The &aKettle&r is used to craft many items and potions and needs some heat underneath it for proper brewing, be sure to place it over a &eCampfire&r or a similar heat source."
 		""
@@ -7140,12 +7152,6 @@
 		"You could use this to create a Mirror that heals you by inscribing a spell that just contains &2Heal&r onto the mirror!"
 	]
 	quest.425CB9CE53FBC0FF.title: "&fEnchanter's Mirror"
-	quest.427682661459BB4F.quest_desc: [
-		"&cQuanta&r adds randomness to your enchanting rolls, and at max chaos, you will end up with either +100% or -100% power."
-		""
-		"&eStabilization&r cancels out the negative effects, meaning you get all the upside, and none of the downside."
-	]
-	quest.427682661459BB4F.title: "&eStabilizing Your Enchantments"
 	quest.427CA606E5B5E7DA.title: "&a256B Fluid Storage Part"
 	quest.428A1ABBA6791E75.quest_subtitle: "Forever food"
 	quest.428A1ABBA6791E75.title: "&aInfinite Ham"
@@ -7343,6 +7349,8 @@
 		"&aVoid Sacks&r have the same functionality as normal ones, however, they remove items from the world instead of storing them."
 	]
 	quest.443C71D871AFAB67.title: "&aSacks"
+	quest.4456B24D2B7351C9.quest_desc: ["The &6Hellshelf of Masterful Sight&r gives you 2 &3Enchanting Clues&r per shelf instead of 1."]
+	quest.4456B24D2B7351C9.title: "&6Hellshelf of Masterful Sight"
 	quest.44599533471DFDCB.quest_desc: [
 		"The &dStasis Chamber&r is an advanced machine used to keep mobs above it incapacitated, but also tries to keep them healed and alive."
 		""
@@ -7371,12 +7379,12 @@
 	quest.447242EAC91413A9.title: "&aThe Portal To &dThe End"
 	quest.44882A0B7C12B3F6.title: "&cBlazegold Bow"
 	quest.4498E3F4B2DC24FC.quest_desc: [
-		"To get started on getting your ultimate &eApotheosis&r gear, you'll need to fight monsters and explore the world for &bGems&r!"
+		"To get started on getting your ultimate &eApotheosis&r gear, you'll need to fight monsters or explore the world for &bGems&r!"
 		""
 		"&bGems&r are crystals that provide powerful bonuses when applied to &bAffix&r items."
-		"{@pagebreak}"
-		"To apply a &bGem&r to an item, you must combine it with the item in a &aSmithing Table&r. The item must have an open &aGem Socket&r for this to work."
 		""
+		"To apply a &bGem&r to an item, you must combine it with the item in a &2Smithing Table&r. The item must have an open &aGem Socket&r for this to work."
+		"{@pagebreak}"
 		"Gems give different bonuses when slotted in different item types, and can be upgraded in the &aGem Cutting Table&r."
 		""
 		"&cUnique Gems&r can only be socketed once per item, while most other gems can be socketed multiple times for stacking bonuses."
@@ -7403,12 +7411,6 @@
 		"Here's some extra because we all know things happen. ;)"
 	]
 	quest.44C154128D90ACB2.title: "&aLost and Found: Layer 1"
-	quest.44C341DE3BCD64CC.quest_desc: [
-		"This upgraded version of the &dEnchantment Library&r can store enchantments values up to level 31."
-		""
-		"&7&oPlease note that the actual enchanted books are still capped at normal pack limits."
-	]
-	quest.44C341DE3BCD64CC.title: "&eLibrary of Alexandria"
 	quest.44CE0F10E7E24F23.quest_desc: ["[\"See its \", {\"text\": \"quest\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"2E283756BD053685\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Ore Laser Quest\"]} }, \" for more details.\"]"]
 	quest.44CE0F10E7E24F23.quest_subtitle: "General purpose ore generation"
 	quest.44CE0F10E7E24F23.title: "&fOre Laser Base"
@@ -7660,7 +7662,6 @@
 	quest.47D17EE805F7D88D.title: "&6Mechanical Roller"
 	quest.47EAA97131FD2B76.quest_desc: ["The &3Ring of Growth&r grows crops in a 3 block radius around the player when charged."]
 	quest.47EAA97131FD2B76.title: "&3Ring of Growth"
-	quest.47F3EAA83952FE79.title: "&fTome of the Others"
 	quest.48162C60D5F25178.quest_desc: ["With our new boards and &dRAM&r, we can combine our current technology together to create the highly advanced &6Processing Unit&r."]
 	quest.48162C60D5F25178.title: "&6Processing Unit"
 	quest.481D6E00305764E4.title: "&eStorage Controller"
@@ -7868,27 +7869,6 @@
 	]
 	quest.4A07DF8EB4A0C40A.quest_subtitle: "Reel it and Reap"
 	quest.4A07DF8EB4A0C40A.title: "&fPath of Cultivation"
-	quest.4A0A19E73680034F.quest_desc: [
-		"&e&lBEER&r&e (Bookshelf Extended Enchanting Reach)&r allows you to modify the range that enchanting tables scan for bookshelves:"
-		""
-		"Normally, enchanting tables only look for bookshelves in a 5x5x3 area around them. With &e&lBEER&r, you can:"
-		""
-		"• Expand the X and Z width (horizontal range)"
-		"• Increase the Y height (vertical range)"
-		"• Use special items to modify these dimensions"
-		"• Create custom enchanting setups beyond vanilla limits"
-		""
-		""
-		"{@pagebreak}"
-		"&l&aHow to Use &e&lBEER&r"
-		""
-		"To modify an enchanting table's range:"
-		"1. Hold the modifier item in your main hand"
-		"2. Optionally hold a specific item in your offhand (to decrease range)"
-		"3. Sneak (Shift) + Right-click on an enchanting table"
-	]
-	quest.4A0A19E73680034F.quest_subtitle: "BEER for short"
-	quest.4A0A19E73680034F.title: "Bookshelf Extended Enchantment Reach"
 	quest.4A1E69C9C543011E.quest_desc: [
 		"The &7Thorny Talisman&r provides immunity from sweet berry bushes."
 		""
@@ -8169,6 +8149,19 @@
 		"For example: &dEndawn the Ogre Slayer's Windswept Burnt Shoes of the Spellwarden&r will be renamed to &dBurnt Shoes&r."
 	]
 	quest.4BCA8A5C3F80D375.title: "&aSigil of Unnaming"
+	quest.4BDD9230BBA6C0A0.quest_desc: [
+		"&aHearts&r are a key component of &eBaubley Heart Canisters&r."
+		""
+		"&aRed Hearts&f can be made from a replicator with a blueprint."
+		""
+		"Hearts can be eaten and will restore health based on the level."
+		""
+		"- &cRed&r : 10 Hearts per use."
+		"- &eYellow&r : 20 Hearts per use."
+		"- &bBlue&r: 30 Hearts per use."
+		"- &aGreen&r: 40 Hearts per use."
+	]
+	quest.4BDD9230BBA6C0A0.title: "The Unlimited Power of Hearts"
 	quest.4BF0B397B0B9EE8C.quest_desc: ["Refund your spent skill points in the Defense tree."]
 	quest.4BF0B397B0B9EE8C.title: "&fReset Defense"
 	quest.4BFEF3BDD452DEF4.quest_desc: ["The &dPotato Cannon&r shoots your enemies with deadly vegetables when provided with air pressure."]
@@ -8383,14 +8376,6 @@
 		"[\"\", {\"text\": \"Note\", \"color\": \"yellow\"}, \": This mod does not provide any way to generate power or charge the jetpacks, so you will need to look to other mods for that. Take a look at the \", { \"text\": \"Power Generation Chapter\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"754048401D3A6A7B\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Power Generation Chapter\"}}, \" for some ideas.\"]"
 	]
 	quest.4DE5B826AB6CB2B5.title: "&fJetpacks"
-	quest.4DE5CB7A5A1D717B.quest_desc: [
-		"Infused with magical energy, your bookshelves unlock more possibilities."
-		""
-		"Note: for &bSeashelves&r, you will need &cQuanta,&r which is not provided by seashelves alone."
-		""
-		"Other items that give &cQuanta&r include zombie heads, skeleton skulls, and wither skeleton skulls."
-	]
-	quest.4DE5CB7A5A1D717B.title: "&bSeashelf Infusion"
 	quest.4DE6BB4B5C894AF6.quest_desc: [
 		"Now that the catalyst has been transformed, small crystal buds of iron will grow from the block."
 		""
@@ -8952,6 +8937,12 @@
 	quest.536FE5C4A9D37909.quest_desc: ["The blazing mesh is the highest tier of mesh. What it does, it does well, often giving ingots where previous tiers give nuggets."]
 	quest.536FE5C4A9D37909.quest_subtitle: "Is the String Still There, Under all the Layers?"
 	quest.536FE5C4A9D37909.title: "&fMechanical Blazing Mesh"
+	quest.5382CB05500E49DE.quest_desc: [
+		"Once you've maximized your &aEterna&f, you'll want to craft the &zEnchanting Table of the Raven&f."
+		""
+		"This enchantment table allows you to manually configure your &aEterna&f, &cQuanta&f, and &dArcana&f values without requiring any nearby bookshelves."
+	]
+	quest.5382CB05500E49DE.title: "&zEnchanting Table of the Raven"
 	quest.53A5598F55DA9DB8.quest_desc: [
 		"Using the &aBlazing Infuser&r, you can boost your &eBlazing Rods&r with redstone, glowstone, or &3Dimensional Shards&r to increase the amount of energy obtained per Rod."
 		""
@@ -8984,6 +8975,12 @@
 	quest.53EEF2EC6314E8F2.title: "&bReinforced Alloy"
 	quest.53FBBFC675F1FE7F.quest_desc: ["The &dChronon Battery&r can store much more &bChronon&r than the simple &aChronon Cell&r, and is also a crafting ingredient used in some of the more advanced &eTempad&r recipes."]
 	quest.53FBBFC675F1FE7F.title: "&dChronon Battery"
+	quest.54013FF4444B76EB.quest_desc: [
+		"The &2Heart Canister&r is the most important part of the mod. &2Canisters&f are slotted in &aAmulets&r and used to increase your max health points."
+		""
+		"Each &2Canister&f adds a single new heart and stacks at &b10&r. "
+	]
+	quest.54013FF4444B76EB.title: "The Baubliest of Heart Canisters"
 	quest.54016A2A0FAB6B4B.quest_desc: ["Large motors are both a crafting ingredient and a way to speed your item pipes up. As with most subcomponents in &eMI&r you'll want a production chain setup to ensure you have these available."]
 	quest.54016A2A0FAB6B4B.title: "&fLarge Motor"
 	quest.5406259BD0946709.title: "&aArmadillo Summon"
@@ -9580,8 +9577,6 @@
 	]
 	quest.598652FE2E4839AC.quest_subtitle: "E I E I O"
 	quest.598652FE2E4839AC.title: "&aMore Animals More Now!"
-	quest.5994E561F25FAEEC.quest_desc: ["With so many enchantments, it's hard to get what you want. So, instead of using books, you can use &dTomes,&r which can be crafted to only support a certain class of enchantments."]
-	quest.5994E561F25FAEEC.title: "&fFine-Tuning Your Enchants"
 	quest.59968CB3EFFC440D.quest_desc: ["When active, the &aLocation Broadcaster&r will show you as an active teleport location to other players who are using an upgraded &6Tempad&r."]
 	quest.59968CB3EFFC440D.title: "&aLocation Broadcaster"
 	quest.59A6D7B544F1AE06.quest_desc: [
@@ -9629,6 +9624,16 @@
 		"You didn't think you'd have to build all new machines every tier, did you?"
 	]
 	quest.5A5D6A90C0999828.title: "&3Advanced Machine Hull"
+	quest.5A6151C5CBCBAAF4.quest_desc: [
+		"The &dHeart Amulet&r holds all your &2Heart Canisters&r. "
+		""
+		"You add them into the amulet and equip them in the &eCurios Slot&r."
+		""
+		"You can press Shift when hovering over the item to see how many Total Canisters is stored inside."
+		""
+		"You can have a total of &b40&r extra hearts in a base amulet."
+	]
+	quest.5A6151C5CBCBAAF4.title: "The Amulet of the Heart"
 	quest.5A7D39C555A4D031.title: "&bSturdy Bee Cage"
 	quest.5A818D2F39A6679B.quest_subtitle: "+15% Cooldown Reduction"
 	quest.5A818D2F39A6679B.title: "&aRing of Recovery"
@@ -9723,7 +9728,6 @@
 		"This is also how you charge your &dRobit&r!"
 	]
 	quest.5B85AB4B095F240B.title: "&fCharging Up"
-	quest.5B9742FB9474DB3A.title: "&fTome of Weaponry"
 	quest.5B9E15BA5FDF0F24.quest_desc: [
 		"Generates &bBiofuel&r by consuming Biodegradable Items."
 		""
@@ -9800,6 +9804,12 @@
 		"to let them know if they’re needed or not."
 	]
 	quest.5C2C0986D6014ADD.title: "&6The Wandering Trader"
+	quest.5C4D5E20FF23345C.quest_desc: [
+		"The next goal will be to hit &a60&r &6Eterna&r, &a40&r &cQuanta&r, and &a40&r &dArcana&r. You'll need to reach &5Ascent &bWorld Tier&f for this."
+		""
+		"This will require upgrading the &dInfused Bookshelves&r. "
+	]
+	quest.5C4D5E20FF23345C.title: "Upgraded Shelves"
 	quest.5C5DF94E94E43B8F.quest_desc: [
 		"These &asoils&r are key to obtaining large amounts of &edruidic crops&r as they vastly improve the yield for these magical plants. Matching elemental crops with their soil will further improve this."
 		""
@@ -9961,7 +9971,6 @@
 		"This is used in the &dAdvanced Portal Gun&r and is needed for the &6FTB Pyramid&r."
 	]
 	quest.5DB13DA68BE9C29D.title: "&2Portal Fluid"
-	quest.5DB30D6FE7046A35.title: "&fTome of the Archers"
 	quest.5DD4E634673638F8.quest_desc: [
 		"The &aLeaf Blower&r can blow away tall grass and flowers around you when you hold right-click."
 		""
@@ -10010,6 +10019,12 @@
 		"- Energy Pipes: 10k RF per 1 Tick."
 	]
 	quest.5E0AF550AAE74676.title: "&fBasic Logistics"
+	quest.5E0F3C1FCA0F8E6B.quest_desc: [
+		"This upgraded version of the &dEnchantment Library&r can store enchantments values up to level 31."
+		""
+		"&7&oPlease note that the actual enchanted books are still capped at normal pack limits.&r"
+	]
+	quest.5E0F3C1FCA0F8E6B.title: "&eLibrary of Alexandria"
 	quest.5E18F5B83FC4EC2D.quest_desc: [
 		"The &3Lens of Disenchanting&r can be used to transfer a single enchantment from an enchanted item to a blank or already enchanted book."
 		""
@@ -10085,8 +10100,6 @@
 	]
 	quest.5F0AAD028931A220.quest_subtitle: "Summoning Pentacle: Tier 2"
 	quest.5F0AAD028931A220.title: "&cOphyx' Calling"
-	quest.5F2E83D75D192FA8.quest_desc: ["&3Enchanting Clues&r give you more text on the enchanting table, letting you see more of what's going to be put onto your books and items before you click the button."]
-	quest.5F2E83D75D192FA8.title: "&cSee What You're Doing!"
 	quest.5F5A8762D664CBF0.quest_desc: [
 		"The Imbuement Chamber is also used to make certain magical &bEssences&r."
 		""
@@ -10114,6 +10127,14 @@
 	]
 	quest.5F820AFF46239CC6.title: "&aLimited Barrels"
 	quest.5FA1A8680D44AF99.title: "&dCompact Giant Chance Cube"
+	quest.5FA3598B0BC45B8D.quest_desc: [
+		"To push your &6Eterna&r even higher, you will need to create and infuse &3Deepshelves&r and also reach the &6Summit &bWorld Tier&f."
+		""
+		"These shelves can push your &6Eterna&r to a max of &a75&r. "
+		""
+		"You can also use a &zDeepshelf of Arcane Treasures&r to allow your enchanting table to enchant &zTreasure Enchantments&r."
+	]
+	quest.5FA3598B0BC45B8D.title: "&3Venturing Deeper"
 	quest.5FB291FDE43A727F.quest_desc: [
 		"&eHoney Treats&r have a ton of uses in the &aProductive Bees&r mod. You'll be making a bunch of these to make a lot of the items in the mod!"
 		""
@@ -10156,7 +10177,6 @@
 		"Simply craft it together with a &3Plasmid&r carrying the gene you wish to remove, and then inject it into a &aSyringe&r as you would with a regular &3Plasmid&r."
 	]
 	quest.5FDA7663267368F9.title: "&3Anti-Plasmid"
-	quest.5FF6DBF82E242BB7.title: "&fTome of Boots"
 	quest.6005C20FD96E6711.quest_desc: [
 		"&aVariable Cards&r are one of the main components when setting up any automation or network."
 		""
@@ -10231,6 +10251,14 @@
 		"&bGrowth Accelerators&r can be crafted and placed under the budding block to speed up the rate they grow substantially. These do require power to work."
 	]
 	quest.60871670B71C711F.title: "&bAutomating Crystals"
+	quest.608D40C44318BEC0.quest_desc: [
+		"To get to the next upgrade, you want to get your &6Eterna&r to &a45&r by reaching the &aFrontier &6World Tier&f. This can be done with upgraded shelves."
+		""
+		"The &cHellshelf&r is easier to craft, and focuses on boosting &cQuanta&r."
+		""
+		"&bSeashelves&r will require some fishing to get started, but builds up your &dArcana&r values instead."
+	]
+	quest.608D40C44318BEC0.title: "Upgraded Shelves"
 	quest.60984D2D55BF2E24.quest_desc: [
 		"The &dDeep Ore Afrit Miner&r harvests ores like the &cDjinni&r, and additionally mines deepslate ores."
 		""
@@ -10982,8 +11010,6 @@
 	quest.67452E837BE2A6B8.title: "&fSlay The &dEnder Dragon"
 	quest.6750DD01D865937D.quest_desc: ["The &5Stabilized Dimensional Storage Actuator&r is not affected by &aStorage Stabilizers&r, but comes prebuilt with a &6Tier 4 Dimensional Storage Stabilizer&r."]
 	quest.6750DD01D865937D.title: "&5Stabilized Dimensional Storage Actuator"
-	quest.675BB2F97FC2D293.quest_desc: ["Combined with the magical energy of the Warden, &3Sculkshelves&r provide more power, and more insight."]
-	quest.675BB2F97FC2D293.title: "&3Soul-Touched Sculkshelf"
 	quest.67647369B6065EEC.quest_desc: ["The &cHeating Upgrade&r can be added to a Stove to allow you to use Power to cook items instead of using Coal!"]
 	quest.67647369B6065EEC.title: "&fHeating Unit"
 	quest.6764E528D52BC952.quest_desc: ["&3Weighted Ejectors&r launch items to a set block within range in the same horizontal axis."]
@@ -11030,11 +11056,13 @@
 	]
 	quest.67DE9E103F50E3F1.title: "&aAndesite Casing"
 	quest.67F07FBB50AB431F.quest_desc: [
-		"&aApotheosis&r provides the ability to relocate and upgrade &dMob Spawners&r that can be great for making your own mob farms. To move the spawner, break it with a pickaxe that has &bsilk touch&r on it."
+		"&aApothic Spawners&r provides the ability to relocate and upgrade &dMob Spawners&r to make your own mob farms. To move the spawner, break it with a pickaxe that has &bsilk touch&r on it."
 		""
-		"Mob spawners can be changed by using a &aMob Egg&r on them, allowing you to create your own custom spawners. Using specific items on the spawners will also upgrade them to be faster, ignore spawning rules, and more!"
+		"Mob spawners can be changed by using a &aMob Egg&r of the monster you wish to change them to, creating custom, non-vanilla spawners."
 		""
-		"To learn more about which items to use, check the recipes in JEI for a spawner."
+		"[ \"Exploding a spawner will drop \", {\"text\": \"Spawner Chains\", \"color\": \"dark_green\"}, \" which are used to craft upgrades that can be applied to your spawners, improving their abilities. You'll require a more \", { \"text\": \"Advanced Enchantment Setup\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"00A7C1FE54F86429\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Apothic Enchanting Quest\"} }, \" to make more advanced spawner upgrades.\" ]"
+		""
+		"To learn more about which items to use, check the recipes in &eJEI&f for a spawner."
 	]
 	quest.67F07FBB50AB431F.quest_subtitle: "From Apotheosis"
 	quest.67F07FBB50AB431F.title: "&aSpawner Farms"
@@ -11114,7 +11142,6 @@
 	quest.68778308CBAB4AE3.title: "&aExternal Storage"
 	quest.6890BFFFE9D4A223.quest_desc: ["&7&oChoose any one Puffish Skill to level up."]
 	quest.6890BFFFE9D4A223.title: "&dPuffish Skills Level"
-	quest.6896CCBC73B09381.title: "&fTome of Helmets"
 	quest.68A718B129075CDF.quest_desc: [
 		"The &7Iron Talisman&r provides 5% damage reduction."
 		""
@@ -11222,6 +11249,16 @@
 		"&7&oRemember that drills aren't consumed in this pack."
 	]
 	quest.6A22BBE9C146E910.title: "&3Electric Quarry"
+	quest.6A2ADC6A75304020.quest_desc: [
+		"&eApotheosis&r overhauls the vanilla enchanting system with three new values, allowing for high-level enchants with upgradable progression. You will want to manage these values as you progress through upgrading your enchanting setup:"
+		""
+		"[\"\", {\"text\": \"Eterna\", \"color\": \"green\"}, \": The power of the enchanting table, capped based on the tier of your bookshelves as well as your \", { \"text\": \"World Tier\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"011DBD2652E49B97\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to World Tiers Quest\"} }, \". This stat determines the maximum level of enchants.\" ]"
+		""
+		"&cQuanta&r: The chaos inherent when enchanting at higher power. This determines the randomness of enchants."
+		""
+		"&dArcana&r: The overall quality and quantity of the enchantments. This determines the rarity of enchants, as well as how many enchants are applied per use."
+	]
+	quest.6A2ADC6A75304020.title: "&6The Secrets of Enchanting"
 	quest.6A346516646A3890.quest_desc: [
 		"The &cNether&r is a pretty dangerous place, but you'll need to find a &cBlaze&r if you want to hunt down the &dEnder Dragon&r!"
 		""
@@ -11711,6 +11748,23 @@
 	quest.708C19120EB4F31F.title: "diamond stage"
 	quest.708DD6CD3AE7F0FE.quest_desc: ["Decayed guardians of the nether fortresses"]
 	quest.708DD6CD3AE7F0FE.title: "&fKill 10 &cWither Skeletons"
+	quest.7099DF76442FE52C.quest_desc: [
+		"&e&lBEER&r&e (Bookshelf Extended Enchanting Reach)&r allows you to modify the range that enchanting tables scan for bookshelves:"
+		""
+		"Normally, enchanting tables only look for bookshelves in a 5x5x3 area around them. With &e&lBEER&r, you can:"
+		""
+		"• Expand the X and Z width (horizontal range)"
+		"• Increase the Y height (vertical range)"
+		"• Use special items to modify these dimensions"
+		"• Create custom enchanting setups beyond vanilla limits"
+		"{@pagebreak}"
+		"&l&aHow to Use &e&lBEER&r"
+		""
+		"To modify an enchanting table's range:"
+		"1. Hold the modifier item in your main hand"
+		"2. Optionally hold a specific item in your offhand (to decrease range)"
+		"3. Sneak (Shift) + Right-click on an enchanting table"
+	]
 	quest.709DACF3C4655662.quest_desc: [
 		"I'm sure you have a ton of different items that you want to cook with, and you also don't want to spend all of your time searching up what to do with them in JEI."
 		""
@@ -11731,8 +11785,6 @@
 		"You can also use the &aBinding Card&r on an Enderman to convert it into a &dDimensional Binding Card&r, which allows the Transmitter to work across dimensions."
 	]
 	quest.70C60D8F7C05BDA9.title: "&fDirt Essence"
-	quest.70D5BEA5CC437AB6.quest_desc: ["Got a lot of random enchanted gear? Using a &dTome of Scrapping&r, you can break it down and extract some of the enchantments from it."]
-	quest.70D5BEA5CC437AB6.title: "&fSalvaging Enchants"
 	quest.71024D8DC19834AC.quest_desc: [
 		"If you're looking to store your items &bDigitally&r, you'll want to make the &aME Drive&r and some &2Storage Cells&r."
 		""
@@ -11844,14 +11896,6 @@
 		"Full blocks will connect to any adjacent block regardless of their color, while &aCable&r blocks will only connect to those of the same color."
 	]
 	quest.71F17C85D540C559.title: "&aCables"
-	quest.7206EEA9D5C8393C.quest_desc: [
-		"With &aInfused Seashelves&r, you have 2 options to upgrade them further."
-		""
-		"The cheaper option is the &bCrystalline Seashelf&r, which comes with the drawback of increasing your overall &cQuanta&r."
-		""
-		"The &dHeart-Forged Seashelf&r is a little more expensive to craft, but provides more &aEterna&r, as well as a hefty boost to &9Arcana&r."
-	]
-	quest.7206EEA9D5C8393C.title: "&bUpgraded Seashelves"
 	quest.720D8E574EB9D689.quest_desc: [
 		"Using &cIhagan's Enthrallment&r you can summon many powerful &eFamiliars&r that can aid or provide buffs to the player."
 		""
@@ -11883,14 +11927,6 @@
 		"- Upgraded: Increased damage"
 	]
 	quest.720D8E574EB9D689.title: "&cIhagan's Enthrallment Familiars"
-	quest.722901B4259D8AEC.quest_desc: [
-		"To upgrade your &cHellshelves&r, you have two options!"
-		""
-		"The cheaper option is to create &eGlowing Hellshelves&r. These provide less &aEterna&r and &9Arcana&r overall, as well as increasing your &cQuanta&r."
-		""
-		"If you are looking to add more &aEterna&r, creating a &cBlazing Hellshelf&r is also another option. These provide a nice &aEterna&r boost, but increases your &cQuanta&r by 10% and removes an &3Enchanting Clue&r."
-	]
-	quest.722901B4259D8AEC.title: "&cUpgraded Hellshelves"
 	quest.723303AA9DCD6588.quest_desc: [
 		"The &dForce of Overworld&r provides all effects of the talisman used to craft it:"
 		""
@@ -11899,12 +11935,6 @@
 		"It is also used to craft the &3Soul of Minecraft&r."
 	]
 	quest.723303AA9DCD6588.title: "&dForce of Overworld"
-	quest.7244D5DADCF0D7A2.quest_desc: [
-		"The &bSeashelf of Aquatic Filtration&r can be loaded with up to six enchanted books, and will block those enchantments from showing up again."
-		""
-		"Works with &cCursed Enchants&r as well!"
-	]
-	quest.7244D5DADCF0D7A2.title: "&bFiltering Unwanted Enchants"
 	quest.726891EAC51F5F70.quest_desc: [
 		"To upgrade to the final tier of machine frames, we'll need to extract &bEther Gas&r from the &dWither&r."
 		""
@@ -12218,8 +12248,6 @@
 		"Note: Items that can be used as a Coating can be applied without making a blueprint, just combine them with the tool in a crafting table to apply them."
 	]
 	quest.748CD701E0452769.title: "&fCoating Blueprint"
-	quest.74AB8112B4B1D4E0.quest_desc: ["Combined with the magical energy of the Warden, &3Sculkshelves&r provide more power, and more insight."]
-	quest.74AB8112B4B1D4E0.title: "&3Echoing Sculkshelf"
 	quest.74B2332D6BBC0721.quest_desc: [
 		"The &aEye of Legend&r is a special item that allows wanderers to find their way to floating villages out in the void. Simply use the item to summon a guide that drifts briefly in the direction of one before dispersing."
 		""
@@ -12259,8 +12287,6 @@
 	quest.74FFB51806FBD287.title: "&bGarden Cloche"
 	quest.754048401D3A6A7B.quest_desc: ["This chapter covers most of the different ways to generate power."]
 	quest.754048401D3A6A7B.title: "&fPower \\&\\ You"
-	quest.7552BF792403EF44.quest_desc: ["The &6Hellshelf of Masterful Sight&r gives you 2 &3Enchanting Clues&r per shelf instead of 1."]
-	quest.7552BF792403EF44.title: "&6Hellshelf of Masterful Sight"
 	quest.755E80CFF2053CF8.quest_desc: [
 		"With the &6FTB Pyramid&r near completion, it needs the final piece: an FTBeacon."
 		""
@@ -12559,10 +12585,11 @@
 	quest.77FC846DC0EF4ED2.quest_desc: [
 		"&a/sethome (name)&r | Sets a home that you can teleport back to using /home (name)"
 		""
+		"&a/ftbteambases home&f | Teleports you back to your starting island"
+		""
 		"&a/back&r | Allows you to return to a previous point, either from a death or from where you teleported from last"
 		""
 		"&a/spawn&r | Teleports the player back to the lobby"
-		"{@pagebreak}"
 		""
 		"&a/spark tps&r | Checks the server's TPS. Useful to see if your world is lagging"
 	]
@@ -12643,6 +12670,12 @@
 		"The components will react and form a &dFluix Crystal&r that is ready for refinement! You can do many of these at once to speed up the process, as well as eventually making machines that can automate the creation process for you."
 	]
 	quest.78ADC11570C5561E.title: "&dFluix Crystals"
+	quest.78BCE2A8F87EB08B.quest_desc: [
+		"The &zVitality Blade&r works similar to a &bHeart Amulet&r. It has its own slots for &2canisters&r."
+		""
+		"Each &2canister&r adds &e1&r additional damage to the sword."
+	]
+	quest.78BCE2A8F87EB08B.title: "The Sword of Friendship"
 	quest.78C04CC1114AECF7.quest_desc: [
 		"&aOtherworld Trees&r grown from natural &aOtherworld Saplings&r can only be harvested when under the effect of &bThird Eye&r."
 		""
@@ -12865,7 +12898,6 @@
 	]
 	quest.7B65BEA50EBC983D.quest_subtitle: "Nether Quartz and Black Quartz"
 	quest.7B65BEA50EBC983D.title: "&fPiglin Trading"
-	quest.7B6F974C02639696.title: "&fTome of the Fishers"
 	quest.7B77544B48E690CB.quest_desc: [
 		"If you want to connect and create all of your storage into a single network, this can easily be done by making the &aStorage Controller&r."
 		""
@@ -13401,6 +13433,7 @@
 	task.02E6504A12BEF04F.title: "&fSummon a &6Marid Crusher"
 	task.033C0800D02082EF.title: "&fSummon a &aWater Animal"
 	task.033F807A7D0F6473.title: "Build a Jumbo Furnace"
+	task.035C4884AAC6C3AB.title: "Managing Teams"
 	task.03CB37E752FE1DD1.title: "&eFind Structure&f: &cVolcano"
 	task.03DFD823ACDCF36F.title: "Fluid Management"
 	task.047B3C49E817FA1F.title: "I already have power"
@@ -13490,11 +13523,13 @@
 	task.1A827D742E3970EB.title: "Effishency"
 	task.1B49CC94C54373F4.title: "&fSummon a &ePossessed Hoglin"
 	task.1B724AA2EDADE92A.title: "&fKill 10 &dNecromancers"
+	task.1B78C40E21D23DD0.title: "Upgraded Hellshelves"
 	task.1B7ED750DCA724D1.title: "&fSummon a &ePossessed Elder Guardian"
 	task.1B8D2EA3B6BC97C1.title: "&eFind Structure&f: &dApothecary Hut"
 	task.1BB51471E9C7949F.title: "&bPentacle &fComplete"
 	task.1BBD0785EF912331.title: "&dAdvanced Connectors"
 	task.1C0BB83393437BDF.title: "&fComponent Interfaces"
+	task.1C0FFC5D4A1D00C7.title: "Extraction Tomes"
 	task.1C1B6CA8991CBB5D.title: "&fMagmators"
 	task.1C350F6D6B6C0656.title: "&bUpgraded Addons"
 	task.1C70AB93B6A0F1A6.title: "&aVillager Blocks&r"
@@ -13555,6 +13590,7 @@
 	task.2BB5021FC9A3E6EB.title: "&fSummon an &aUnbound Parrot"
 	task.2C1245371800E1E7.title: "Bee Types"
 	task.2C6C600BA23CDEDC.title: "&dConnector Interfaces"
+	task.2C718A1A0353A93C.title: "Upgraded Seashelves"
 	task.2C8687501A9C54A8.title: "&2Prudentium &fGear"
 	task.2CA99A333EDFB6FC.title: "&aEssence Farmlands"
 	task.2CC8184A4A0C3AED.title: "In World Upgrading"
@@ -13787,7 +13823,6 @@
 	task.5FD1AC346811740C.title: "&eKill&f: &6Dead King"
 	task.5FD3ED03945F754B.title: "&fSummon a &aParrot"
 	task.6019A6B11AFF529F.title: "I Understand"
-	task.601DC826C875D69F.title: "BEER Modifiers"
 	task.60578D8CD1499673.title: "&eObserve&f: &aBudding Ruby GeOre"
 	task.6064031AABA0D8D1.title: "&eKill&f: &dApothecarist"
 	task.60789ACB2B0A6E74.title: "&bImbued Essences"
@@ -13820,7 +13855,6 @@
 	task.671339615BA68B10.title: "&eKill&f: &bCryomancer"
 	task.67773EAE20B67BD2.title: "Summon a &cDawn Spirit"
 	task.67799BCB12DD052F.title: "Niche Cognitive Tools"
-	task.67954E17C3CA08C3.title: "Observe an Enchanting Table"
 	task.67A22BBA4C91522B.title: "Item Use"
 	task.67AA4D77994AA256.title: "&aPersonal Storage"
 	task.683638FC21EA1713.title: "Any &dTier 5 &fSeeds"
@@ -13836,6 +13870,7 @@
 	task.6ADC311A6F201C21.title: "&dEnder &fCells"
 	task.6B0602266368826B.title: "&ePossession Rituals"
 	task.6B8157688CD23283.title: "Summon a &aBlacksmith"
+	task.6B8F6B75C6182427.title: "Upgraded Deepshelves"
 	task.6B9EDB6F4966725F.title: "&6Building Gadgets"
 	task.6BF1B3F7E85C5E17.title: "&bUpgraded Addons"
 	task.6C0240B676A69E94.title: "Elite Circuit or Analog Circuit"
