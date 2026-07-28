@@ -584,6 +584,9 @@
 			y: 2.0d
 		}
 		{
+			icon: {
+				id: "minecraft:spawner"
+			}
 			id: "67F07FBB50AB431F"
 			min_width: 300
 			rewards: [
@@ -607,14 +610,24 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "4CF7A1B1D11A8C1A"
-				item: {
-					count: 1
-					id: "minecraft:spawner"
+			tasks: [
+				{
+					id: "44E38374F6FA8966"
+					item: {
+						count: 1
+						id: "apotheosis:spawner_chain"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4CF7A1B1D11A8C1A"
+					item: {
+						count: 1
+						id: "minecraft:spawner"
+					}
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 3.0d
 		}

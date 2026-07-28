@@ -31,7 +31,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -2.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			click: "https://github.com/FTBTeam/FTB-Modpack-Issues/issues"
@@ -41,7 +41,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			color: 5636095
@@ -51,7 +51,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
-			y: 2.0d
+			y: 2.5d
 		}
 	]
 	order_index: 0
@@ -85,7 +85,6 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "77FC846DC0EF4ED2"
-			min_width: 350
 			rewards: [{
 				id: "7F17B8B0FADD1AB7"
 				type: "xp"
@@ -119,6 +118,28 @@
 			}]
 			x: 0.0d
 			y: 0.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/teams.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "261B2184A4839741"
+			rewards: [{
+				id: "613A44B867ED7006"
+				team_reward: false
+				type: "xp"
+				xp: 5
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "035C4884AAC6C3AB"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
 		}
 	]
 }
