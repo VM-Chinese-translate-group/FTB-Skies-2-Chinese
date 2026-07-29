@@ -65,19 +65,19 @@
 	]
 	quest.001F0C36B4AB9F5F.title: "&a“初级”&f燃液发电器"
 	quest.00249E1AFEF0051A.quest_desc: [
-		"The &bHeart Pulse Belt&r is a curios when equipped the player gets an increased movement speed, step-assist, and increased jump height."
+		"&b心跳腰带&r是一种饰品，玩家装备时可增加移动速度和跳跃高度，获得自动跳跃。"
 		""
-		"Upgrade values can be seen on the next page."
+		"升级数值可在下一页查看。"
 		"{@pagebreak}"
-		"&cRed Heartpulse Belt&r : 1.5 Block Height Jump and slight speed increase."
+		"&c红色心跳腰带&r：1.5格跳跃高度，略微增加移速。"
 		""
-		"&eYellow Heartpulse Belt&r : 2 Block Height Jump and moderate speed increase."
+		"&e黄色心跳腰带&r：2格跳跃高度，中幅增加移速。"
 		""
-		"&9Blue Heartpulse Belt&r: 2.5 Block Height Jump and fast speed increase."
+		"&9蓝色心跳腰带&r：2.5格跳跃高度，大幅增加移速。"
 		""
-		"&aGreen Heartpulse Belt&r: 3 Block Height Jump and very fast speed increase."
+		"&a绿色心跳腰带&r：3格跳跃高度，巨幅增加移速。"
 	]
-	quest.00249E1AFEF0051A.title: "A Better Movement"
+	quest.00249E1AFEF0051A.title: "更好的移动"
 	quest.0056517EDF3DAB08.quest_desc: [
 		"&a速度表&r可以显示你的动力网络中某个特定组件的运行速度"
 		""
@@ -151,11 +151,11 @@
 	quest.01177027CE208375.quest_desc: ["当你获得了一些&d不锈钢粉&r，你就可以将其放入&3电力高炉&r中，烧制出&b热不锈钢锭&r。"]
 	quest.01177027CE208375.title: "&d不锈钢锭"
 	quest.011DBD2652E49B97.quest_desc: [
-		"[\"\", {\"text\": \"Apotheosis\", \"color\": \"yellow\"}, \" has a \", {\"text\": \"World Tier\", \"color\": \"aqua\"}, \" system that can be accessed by pressing \", {\"keybind\": \"key.apotheosis.open_world_tier_select\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: CTRL + T\"}}, \".\" ]"
+		"[\"\", {\"text\": \"神化\", \"color\": \"yellow\"}, \"模组添加了一个\", {\"text\": \"世界层级\", \"color\": \"aqua\"}, \"系统，可以按\", {\"keybind\": \"key.apotheosis.open_world_tier_select\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"默认：CTRL + T\"}}, \"查看。\" ]"
 		""
 		"[\"获得第一个\", {\"text\": \"词缀物品\", \"color\": \"#55FF55\"}, \"时，你就会从\", {\"text\": \"居所\", \"color\": \"#7E7E7E\"}, \"层级开始，更多层级会随着你的模组进展而解锁。\"]"
 		""
-		"Higher tiers increase mob stats and rewards across all dimensions, and reduce your max &aEterna&f cap. These can be viewed in the Tiers menu."
+		"随着层级升高，所有维度的怪物属性和奖励都会增加，最高&a位阶&f上限降低。具体可在层级菜单中查看。"
 	]
 	quest.011DBD2652E49B97.title: "&f神化世界层级"
 	quest.012AEBFDB1F1512E.title: "&f核源铁盔甲"
@@ -219,13 +219,13 @@
 	quest.01C52B543E30F365.quest_subtitle: "把这个钓上来！"
 	quest.01C52B543E30F365.title: "&f青金石精华"
 	quest.01D2CEAF59872C33.quest_desc: [
-		"The &dGem Case&f is used to store and upgrade &bGems&r. "
+		"&d宝石柜&f用于存储和升级&b宝石&r。"
 		""
-		"It's a direct upgrade to the &aGem Cutting Table&f, which is only used to upgrade gems."
+		"它算是&a宝石切割台&f的升级版，毕竟后者只能升级宝石。"
 		""
-		"Upgrading a &bGem&r costs &aGem Dust&r, rarity materials, and a second &bGem&r of the same rarity. The material and dust cost of upgrading a &bGem&r increases with its rarity. The exact upgrade costs will be shown in the interface."
+		"升级&b宝石&r需要消耗&a宝石粉&r、珍宝材料以及另一枚同稀有度的&b宝石&r。&b宝石&r的稀有度越高，升级消耗的材料就越多。升级要消耗的详细材料会在界面中显示。"
 	]
-	quest.01D2CEAF59872C33.title: "&aGem Case"
+	quest.01D2CEAF59872C33.title: "&a宝石柜"
 	quest.01DB719967817220.quest_desc: [
 		"&d超临界相移器&r (&dSPS&r) 是一种大型结构，它会根据你所能供给的能量全力运转，以大量的&b钋&r为原料，生成少量&5反物质&r。"
 		""
@@ -482,19 +482,19 @@
 	]
 	quest.0444EF9A04406894.title: "&a细胞"
 	quest.044A192E503B766B.quest_desc: [
-		"The &aHeart Patch&r is like a band-aid it will heal the player based on its level so much health. It has a cooldown so be careful when using it as a life-line."
+		"&a心之治疗创可贴&r就像创可贴一样，会根据其等级为玩家恢复大量生命值。但它有冷却时间，用它救急时要注意。"
 		""
-		"Each Tier Increases the base value healed."
+		"每一级都会增加基础治疗数值。"
 		""
-		"&cRed&r : 1 Heart per use."
+		"&c红色&r：每次1颗心。"
 		""
-		"&eYellow&r : 3 Hearts per use."
+		"&e黄色&r：每次3颗心。"
 		""
-		"&9Blue&r: 6 Hearts per use."
+		"&9蓝色&r：每次6颗心。"
 		""
-		"&aGreen&r: 10 Hearts per use."
+		"&a绿色&r：每次10颗心。"
 	]
-	quest.044A192E503B766B.title: "Patch Me Up!"
+	quest.044A192E503B766B.title: "包扎一下！"
 	quest.04561BBA227DE4D6.quest_desc: [
 		"&d史诗符石基底&r是&a高级符石基底&r的升级。"
 		""
@@ -1628,11 +1628,11 @@
 	]
 	quest.0D92EFDB73114B0C.title: "&2二级&f生物种子"
 	quest.0DABE9F7D03836E9.quest_desc: [
-		"The &bSeashelf of Aquatic Filtration&r can be loaded with up to six enchanted books, and will block those enchantments from showing up again."
+		"&b水之过滤海洋书架&r最多可以放六本附魔书，附魔书中的附魔不会再在附魔台中出现。"
 		""
-		"Works with &cCursed Enchants&r as well!"
+		"也适用于&c诅咒&r！"
 	]
-	quest.0DABE9F7D03836E9.title: "&bFiltering Unwanted Enchants"
+	quest.0DABE9F7D03836E9.title: "&b让不想要的附魔滚蛋！"
 	quest.0DB5CBE2E76D2FD9.quest_desc: [
 		"如果你需要一个管道来传输几乎任何东西，那我觉得&ePipez&r模组正合你意。"
 		""
@@ -1708,8 +1708,8 @@
 	quest.0E201000BADC9B61.title: "&b随机工具奖励包"
 	quest.0E610A03BB4007B6.quest_desc: ["消耗个别怪物的掉落物发电。"]
 	quest.0E610A03BB4007B6.title: "&f菌丝网络死灵发电机"
-	quest.0E65DCDDCF908052.quest_desc: ["Infused with magical energy, your bookshelves unlock more possibilities."]
-	quest.0E65DCDDCF908052.title: "&cHellshelf Infusion"
+	quest.0E65DCDDCF908052.quest_desc: ["你的书架在灌满魔法能量后，附魔的潜力进一步扩大。"]
+	quest.0E65DCDDCF908052.title: "&c灌注下界书架"
 	quest.0EA1B56A92D0403F.quest_desc: [
 		"将&b铝粉&r、&c铬粉&r和&d不锈钢粉&r混合在&3搅拌机&r中，它就会产出&e铁铬铝合金粉&r。"
 		""
@@ -2149,8 +2149,8 @@
 		"- 最大等级限制提升。"
 	]
 	quest.1316B86CF011B016.title: "&6艾瑟金属砧"
-	quest.13268AE9BCF72009.quest_desc: ["The &6Enchantment Library&r acts as a storage for enchantments. With enough low level enchants, it can also create books of higher level enchants for you."]
-	quest.13268AE9BCF72009.title: "&dEnchantment Library"
+	quest.13268AE9BCF72009.quest_desc: ["&6魔咒图书馆&r可以储存魔咒。存有足量的低等级魔咒时，它还可以将它们合并为更高等级的魔咒！"]
+	quest.13268AE9BCF72009.title: "&d魔咒图书馆"
 	quest.132D9163A97ED955.quest_desc: [
 		"盔甲可以通过加装&a内衬&r来升级。"
 		""
@@ -2700,11 +2700,11 @@
 	]
 	quest.191A3E81D26677F5.title: "&d黑洞"
 	quest.192EB03700278BE2.quest_desc: [
-		"The &dRelic Apple&r is more than just an ordinary apple. "
+		"&d遗物苹果&r不只是一颗普通苹果。"
 		""
-		"It gives you buffs when eaten and heals you instantly upon consumption."
+		"吃下它能给你增益效果，并且立即恢复生命值。"
 	]
-	quest.192EB03700278BE2.title: "Fancy Apple"
+	quest.192EB03700278BE2.title: "绚丽的苹果"
 	quest.19512B784164186D.title: "&f铅矿块"
 	quest.1953C2127633B6D7.quest_desc: [
 		"&d无线通用终端&r集成了数种不同类型无线终端的功能于一体。"
@@ -3035,13 +3035,13 @@
 	]
 	quest.1C0024A48898FB90.title: "&f精魂坩埚"
 	quest.1C00AB623117C718.quest_desc: [
-		"Got a lot of random enchanted gear? Using a &dTome of Scrapping&r, you can break it down and extract some of the enchantments from it."
+		"带乱七八糟附魔的装备太多了？&d拆解宝典&r可以帮你拆解装备，把一部分魔咒提取出来。"
 		""
-		"The &dTome of Extraction&r will also remove all enchants, but will keep the item from being destroyed, allowing you to remove and replace any number of enchantments on an item at will."
+		"&d提取宝典&r也会移除所有的附魔，但是不会摧毁物品，你可以用它随意移除或更换物品的魔咒。"
 		""
-		"If you're looking for a specific enchantment for a specific tool, you can use &dTomes&r which can be crafted to only support a certain class of enchantments."
+		"如果你在为某种工具寻找特定的魔咒，可以试试用&d宝典&r，特定种类的宝典只能附魔出特定种类的魔咒。"
 	]
-	quest.1C00AB623117C718.title: "&fHotswapping Enchantments"
+	quest.1C00AB623117C718.title: "&f热插拔式附魔"
 	quest.1C044AAAA1306C6F.title: "&d使魔&f的床"
 	quest.1C276A8E48C36F56.title: "&b铜升级"
 	quest.1C3D395850C1C4A4.quest_desc: [
@@ -4074,13 +4074,13 @@
 	quest.25FD6AE037D65903.quest_desc: ["&d列车轨道&r用于引导你的火车网络，甚至可以跨越维度。"]
 	quest.25FD6AE037D65903.title: "&d列车轨道"
 	quest.261B2184A4839741.quest_desc: [
-		"If you're playing with friends and want to be on the same starting island, FTB Teams makes that very easy."
+		"如果与好友联机游玩并希望共享同一个初始岛屿，FTB Teams可以轻松实现。"
 		""
-		"When joining a world for the first time a team is automatically created for you, so you'll need to type &a/ftbteams party leave&f in chat."
+		"首次进入世界时，系统会自动为你创建一支队伍。因此需要先在聊天栏输入&a/ftbteams party leave&f。"
 		""
-		"After that is done, the party leader can invite new players by typing &a/ftbteams party invite <username>&f, and a message will show up in chat prompting the new party member to accept or decline the invite."
+		"完成后，队长可通过输入&a/ftbteams party invite <玩家名>&f邀请新玩家，聊天栏中将弹出提示，供新成员选择接受或拒绝邀请。"
 	]
-	quest.261B2184A4839741.title: "&fCreating and Joining a team"
+	quest.261B2184A4839741.title: "建立并加入一个队伍"
 	quest.261F26D8B7121272.title: "&2法术抗性&f升级法球"
 	quest.262464EE203C7A1B.quest_desc: [
 		"&6Oritech&r中有很多类型的&a喷气背包&r，它们要么使用能量飞行，要么使用&c涡轮燃料&r飞行。用储能物品就可以给能量类喷气背包充能，如果要给燃料类喷气背包加油，你需要&a装备充能器&r才行。"
@@ -4117,11 +4117,11 @@
 	quest.26567E1596ADB808.quest_subtitle: "创造模式飞行！"
 	quest.26567E1596ADB808.title: "&6重力胸甲"
 	quest.266D0151DF0A7BA5.quest_desc: [
-		"The &zVigor Bow&r works similar to a &bHeart Amulet&r. It has its own slots for &2canisters&r."
+		"&z精力之弓&r有&2容器&r槽，使用方式类似于&b心之项链&r。"
 		""
-		"Each &2canister&r adds &b1&r additional damage and Draw Speed to the Bow."
+		"每放入一个&2心之容器&r能为其增加&b1&r点攻击伤害和拉弓速度。"
 	]
-	quest.266D0151DF0A7BA5.title: "Colorful Bullseye"
+	quest.266D0151DF0A7BA5.title: "缤纷靶心"
 	quest.2680E1E74C44F336.quest_desc: [
 		"寂静装备的材料具有特殊的&a属性&r，它们决定了物品的数值属性，比如耐久、攻击伤害还有别的一些特性。"
 		""
@@ -4279,8 +4279,8 @@
 	]
 	quest.2785D267B523F5DC.quest_subtitle: "转的超级快！"
 	quest.2785D267B523F5DC.title: "&3离心机"
-	quest.27BF87BEC4210E01.quest_desc: ["These are unique shelves that provide certain bonuses like adding 100% &cQuanta&r, or removing &cQuanta&r and &5Arcana&r."]
-	quest.27BF87BEC4210E01.title: "&aMiscellaneous Shelves"
+	quest.27BF87BEC4210E01.quest_desc: ["这些独特的书架能提供特定的效果，例如添加100%的&c量子化&r，或者降低&c量子化&r和&5阿卡那&r。"]
+	quest.27BF87BEC4210E01.title: "&a其他书架"
 	quest.27C5F8272212B35A.quest_desc: [
 		"&e通用机械&r的核心玩法是打造大型科技工厂，是时候升级我们的设备了！"
 		""
@@ -4298,11 +4298,11 @@
 	quest.27E0738B56C6ED8C.quest_desc: ["将&7魔精&r绑定到背包上可以显著增加其存储容量，使其成为旅行的好伙伴。"]
 	quest.27E0738B56C6ED8C.title: "&a意外结实的挎包"
 	quest.27E2F70FDEE0F003.quest_desc: [
-		"The &bSoul Amulet&r holds even more by adding a &aSoul Canister&r you gain more max health."
+		"&b灵魂项链&r能容纳&a魂心容器&r，让你获得更多最大生命值。"
 		""
-		"They work like a &6Totem of Undying&r if the player would &cdie&r and the soul canister will be consumed and reverted back to a &bblue heart canister&r."
+		"如果玩家将&c死亡&r，魂心容器就会像&6不死图腾&r一样生效。魂心容器将被消耗，变为&b蓝心容器&r。"
 	]
-	quest.27E2F70FDEE0F003.title: "A Soul Bound Amulet"
+	quest.27E2F70FDEE0F003.title: "魂缚护符"
 	quest.27E867855AC60BF0.quest_desc: [
 		"&a高级符石基底&r是&7普通符石基底&r的升级。"
 		""
@@ -4638,11 +4638,11 @@
 	]
 	quest.2B8B225CF404A351.title: "&f附魔器"
 	quest.2B94B4BC317DDE1D.quest_desc: [
-		"&cQuanta&r adds randomness to your enchanting rolls, and at max chaos, you will end up with either +100% or -100% power."
+		"&c量子化&r给你的附魔增添了不确定性，量子化满的时候，附魔等级会在+100%和-100%之间随机抽取。"
 		""
-		"&eStabilization&r cancels out the negative effects, meaning you get all the upside, and none of the downside."
+		"&e量子稳定&r会剔除掉负面的部分，这样你的附魔等级就只增不减了。"
 	]
-	quest.2B94B4BC317DDE1D.title: "&eStabilizing Your Enchantments"
+	quest.2B94B4BC317DDE1D.title: "&e稳定化附魔"
 	quest.2BA10689E508FACC.quest_desc: [
 		"&d嗅探兽蛋&r可以在暖水海洋生物群系的废墟遗迹内，通过&6刷扫可疑的沙子&r概率获得。不过，在虚空中是无法这样操作的。"
 		""
@@ -5170,11 +5170,11 @@
 	]
 	quest.314E9901D4E89E6F.title: "&f检测红石信号"
 	quest.315A4691D81D77DB.quest_desc: [
-		"The base shelf for the final tier of enchanting."
+		"这是最高等级附魔的基础书架。"
 		""
-		"Besides being locked behind &dInfused Dragon's Breath&r, Endshelves are relatively cheap."
+		"除掉&d灌注龙息&r，末地书架的造价还是很便宜的。"
 	]
-	quest.315A4691D81D77DB.title: "&eEndshelf"
+	quest.315A4691D81D77DB.title: "&e末地书架"
 	quest.316D3DA0DC2A4BF5.quest_desc: ["&d智能流体管道&r可以通过配置使其可以从管道网络提取特定流体或将特定流体注入管道网络中。"]
 	quest.316D3DA0DC2A4BF5.title: "&d智能流体管道"
 	quest.31705AD5BE50E2CB.quest_desc: [
@@ -5185,13 +5185,13 @@
 	quest.31705AD5BE50E2CB.title: "&f加压反应室"
 	quest.319098064145CF21.title: "&a进化物质"
 	quest.3196AA3E6E309B1D.quest_desc: [
-		"The centerpiece of a fully completed enchanting setup. "
+		"这是完整的附魔设施的核心组件。"
 		""
-		"The &dDraconic Endshelf&r provides no additional stats, but will boost your &aEterna&r by 20, allowing you to hit a max of &6100&r."
+		"&d巨龙末地书架&r没有额外的属性，只提供20点&a位阶&r，借此你可以把位阶提升至上限&6100&r点了。"
 		""
-		"The &dPearlescent Endshelf&r is the best general-purpose bookshelf, providing significant amounts of both &cQuanta&r and &dArcana&r."
+		"通常来说，&d璀璨末地书架&r就是最好用的书架了，它可以大幅提升&c量子化&r和&d阿卡那&r。"
 	]
-	quest.3196AA3E6E309B1D.title: "&eLevel 100 Enchanting"
+	quest.3196AA3E6E309B1D.title: "&e一百级附魔"
 	quest.319F49C16CFE900C.quest_desc: [
 		"虽然睡觉是设置重生点的经典方法，但你也可以选择使用&a/sethome&r命令来设定家，输入&a/home&r回家。"
 		""
@@ -6358,11 +6358,11 @@
 	]
 	quest.3A91BB6A673C0D83.title: "&a多方块采石场&r"
 	quest.3A97BF08F622BB5B.quest_desc: [
-		"The &aEnchanter&r from &6EnderIO&r is an &dEnchantment Table&r that allows you to pick which enchantment you want to make."
+		"&6EnderIO&r模组的&a附魔器&r是一个可以自选魔咒的&d附魔台&r。"
 		""
-		"When provided with specific items and &2Experience&r, you can enchant &aBook \\&\\ Quills&r with an enchantment of your choice."
+		"当你放入特定的物品并消耗经验后，就能把对应的魔咒加持到&a书与笔&r上。"
 		""
-		"To see which enchantments you can make, make sure to check out the uses in JEI!"
+		"你可以查询JEI来了解你能制作哪些附魔书。有空都看一遍吧！"
 	]
 	quest.3AB6083CCDD1B74A.quest_desc: [
 		"&a水壶&r用于合成多种物品与药水。酿造时底部需有热源，请务必将其放置在&e营火&r或类似热源上方。"
@@ -7349,8 +7349,8 @@
 		"&a虚空麻袋&r和普通麻袋功能一样，但是当你关闭界面后里面的东西就会被直接销毁。"
 	]
 	quest.443C71D871AFAB67.title: "&a麻袋"
-	quest.4456B24D2B7351C9.quest_desc: ["The &6Hellshelf of Masterful Sight&r gives you 2 &3Enchanting Clues&r per shelf instead of 1."]
-	quest.4456B24D2B7351C9.title: "&6Hellshelf of Masterful Sight"
+	quest.4456B24D2B7351C9.quest_desc: ["每个&6精湛视界下界书架&r都可以为你提供2个&3魔咒线索&r，比视界下界书架多1个。"]
+	quest.4456B24D2B7351C9.title: "&6精湛视界下界书架"
 	quest.44599533471DFDCB.quest_desc: [
 		"&d冷凝室&r是一种高级机器，用于使上方生物丧失行动能力，同时会持续治疗并维持其生命状态。  "
 		""
@@ -7379,11 +7379,11 @@
 	quest.447242EAC91413A9.title: "&a通往&d末地&a的传送门"
 	quest.44882A0B7C12B3F6.title: "&c烈焰金弓"
 	quest.4498E3F4B2DC24FC.quest_desc: [
-		"To get started on getting your ultimate &eApotheosis&r gear, you'll need to fight monsters or explore the world for &bGems&r!"
+		"如果你想制作出终极的&e神化&r装备，那就准备好周游世界，大战怪物寻找&b宝石&r吧！"
 		""
 		"&b宝石&r是一种水晶，只要镶嵌在有&b词缀&r的物品上，就能为其带来强大加成。"
 		""
-		"To apply a &bGem&r to an item, you must combine it with the item in a &2Smithing Table&r. The item must have an open &aGem Socket&r for this to work."
+		"你需要用&2锻造台&r将&b宝石&r装到物品上，但物品必须要有&a镶孔&r才能安装宝石。"
 		"{@pagebreak}"
 		"装宝石的物品种类不同，宝石带来的加成也不同。在&a宝石切割台&r上可以升级宝石。"
 		""
@@ -8150,18 +8150,18 @@
 	]
 	quest.4BCA8A5C3F80D375.title: "&a除名符石"
 	quest.4BDD9230BBA6C0A0.quest_desc: [
-		"&aHearts&r are a key component of &eBaubley Heart Canisters&r."
+		"&a心&r是&e心之容器&r模组的核心部件。"
 		""
-		"&aRed Hearts&f can be made from a replicator with a blueprint."
+		"&a红心&f可以用蓝图从复制机里制作。"
 		""
-		"Hearts can be eaten and will restore health based on the level."
+		"心可以食用，会根据等级恢复生命值。"
 		""
-		"- &cRed&r : 10 Hearts per use."
-		"- &eYellow&r : 20 Hearts per use."
-		"- &bBlue&r: 30 Hearts per use."
-		"- &aGreen&r: 40 Hearts per use."
+		"- &c红色&r：每次10颗心。"
+		"- &e黄色&r：每次20颗心。"
+		"- &b蓝色&r：每次30颗心。"
+		"- &a绿色&r：每次40颗心。"
 	]
-	quest.4BDD9230BBA6C0A0.title: "The Unlimited Power of Hearts"
+	quest.4BDD9230BBA6C0A0.title: "心的无尽力量"
 	quest.4BF0B397B0B9EE8C.quest_desc: ["重置防御技能树中已使用的技能点。"]
 	quest.4BF0B397B0B9EE8C.title: "&f重置防御技能树"
 	quest.4BFEF3BDD452DEF4.quest_desc: ["在提供气压后&d土豆加农炮&r会用致命的蔬菜射击你的敌人。"]
@@ -8938,11 +8938,11 @@
 	quest.536FE5C4A9D37909.quest_subtitle: "历经层层覆盖，那根线是否仍在？"
 	quest.536FE5C4A9D37909.title: "&f烈焰机械筛网"
 	quest.5382CB05500E49DE.quest_desc: [
-		"Once you've maximized your &aEterna&f, you'll want to craft the &zEnchanting Table of the Raven&f."
+		"达到最高&a位阶&f后，就该制作&z渡鸦附魔台&f了。"
 		""
-		"This enchantment table allows you to manually configure your &aEterna&f, &cQuanta&f, and &dArcana&f values without requiring any nearby bookshelves."
+		"这张附魔台可以让你手动配置&a位阶&f、&c量子化&f和&d阿卡那&f，无需依赖附近书架。"
 	]
-	quest.5382CB05500E49DE.title: "&zEnchanting Table of the Raven"
+	quest.5382CB05500E49DE.title: "&z渡鸦附魔台"
 	quest.53A5598F55DA9DB8.quest_desc: [
 		"只要使用&a烈焰注能器&r，你就可以将红石、荧石或&3空间碎片&r注入到&e烈焰棒&r里，从而增加单个烈焰棒蕴藏的能量"
 		""
@@ -8976,11 +8976,11 @@
 	quest.53FBBFC675F1FE7F.quest_desc: ["与普通的&a时元电芯&r相比，&d时元电池&r可以存储更多的&b时元&r，而且它还是参与更高级合成的原材料。"]
 	quest.53FBBFC675F1FE7F.title: "&d时元电池"
 	quest.54013FF4444B76EB.quest_desc: [
-		"The &2Heart Canister&r is the most important part of the mod. &2Canisters&f are slotted in &aAmulets&r and used to increase your max health points."
+		"&2心之容器&r是这个模组中最重要的部件，可以放入&a项链&r中，增加你的最大生命值。"
 		""
-		"Each &2Canister&f adds a single new heart and stacks at &b10&r. "
+		"每个&2容器&f都可以增加一颗心，最多叠放&b10&r个。"
 	]
-	quest.54013FF4444B76EB.title: "The Baubliest of Heart Canisters"
+	quest.54013FF4444B76EB.title: "心爱的心之容器"
 	quest.54016A2A0FAB6B4B.quest_desc: ["大型电动机既是一种制作原料，也是一种加快物品管道传输速度的方法。与&e现代工业化&r中的大多数部件一样，你需要一个生产线来稳定补给这种材料。"]
 	quest.54016A2A0FAB6B4B.title: "&f大型电动机"
 	quest.5406259BD0946709.title: "&a犰狳召唤"
@@ -9625,15 +9625,15 @@
 	]
 	quest.5A5D6A90C0999828.title: "&3进阶机器框架"
 	quest.5A6151C5CBCBAAF4.quest_desc: [
-		"The &dHeart Amulet&r holds all your &2Heart Canisters&r. "
+		"&d心之项链&r可以容纳你的所有&2心之容器&r。"
 		""
-		"You add them into the amulet and equip them in the &eCurios Slot&r."
+		"你可以将它们放入项链中，装备至&e饰品栏&r。"
 		""
-		"You can press Shift when hovering over the item to see how many Total Canisters is stored inside."
+		"也可以将鼠标悬停在其上，按Shift查看一共存储了多少容器。"
 		""
-		"You can have a total of &b40&r extra hearts in a base amulet."
+		"基础项链共能为你提供&b40&r颗心的额外生命值。"
 	]
-	quest.5A6151C5CBCBAAF4.title: "The Amulet of the Heart"
+	quest.5A6151C5CBCBAAF4.title: "心之护符"
 	quest.5A7D39C555A4D031.title: "&b坚固蜜蜂笼"
 	quest.5A818D2F39A6679B.quest_subtitle: "+15% 法术冷却缩减"
 	quest.5A818D2F39A6679B.title: "&a复效之戒"
@@ -9805,11 +9805,11 @@
 	]
 	quest.5C2C0986D6014ADD.title: "&6流浪商人"
 	quest.5C4D5E20FF23345C.quest_desc: [
-		"The next goal will be to hit &a60&r &6Eterna&r, &a40&r &cQuanta&r, and &a40&r &dArcana&r. You'll need to reach &5Ascent &bWorld Tier&f for this."
+		"下一个目标是到达&b世界层级&5攀升&f，达到&a60&r&6位阶&r、 &a40&r&c量子化&r以及&a40&r&d阿卡那&r。"
 		""
-		"This will require upgrading the &dInfused Bookshelves&r. "
+		"你得继续升级&d灌注书架&r才能达到这个目标。"
 	]
-	quest.5C4D5E20FF23345C.title: "Upgraded Shelves"
+	quest.5C4D5E20FF23345C.title: "升级版书架"
 	quest.5C5DF94E94E43B8F.quest_desc: [
 		"这些&a土壤&r是获得大量&e德鲁伊作物&r的关键，因为它们大大提高了这些植物的产量。将元素作物与它们的土壤相匹配将进一步提高产量。"
 		""
@@ -10020,11 +10020,11 @@
 	]
 	quest.5E0AF550AAE74676.title: "&f基础物流"
 	quest.5E0F3C1FCA0F8E6B.quest_desc: [
-		"This upgraded version of the &dEnchantment Library&r can store enchantments values up to level 31."
+		"这是升级版的&d魔咒图书馆&r，可以存储最高31级的附魔等级。"
 		""
-		"&7&oPlease note that the actual enchanted books are still capped at normal pack limits.&r"
+		"&7&o请注意，实际能够取出的附魔书仍然受到正常的等级限制。&r"
 	]
-	quest.5E0F3C1FCA0F8E6B.title: "&eLibrary of Alexandria"
+	quest.5E0F3C1FCA0F8E6B.title: "&e亚历山大图书馆"
 	quest.5E18F5B83FC4EC2D.quest_desc: [
 		"&3祛魔透镜&r可以把单个魔咒从工具传输到书或附魔书上。"
 		""
@@ -10128,13 +10128,13 @@
 	quest.5F820AFF46239CC6.title: "&a限类木桶"
 	quest.5FA1A8680D44AF99.title: "&d紧密压缩巨型机会方块"
 	quest.5FA3598B0BC45B8D.quest_desc: [
-		"To push your &6Eterna&r even higher, you will need to create and infuse &3Deepshelves&r and also reach the &6Summit &bWorld Tier&f."
+		"为了进一步提高&6位阶&r，你需要制作并灌注&3深暗书架&r，以及到达&b世界层级&6高峰&f。"
 		""
-		"These shelves can push your &6Eterna&r to a max of &a75&r. "
+		"它们可以将你的&6位阶&r增加到至多&a75&r。"
 		""
-		"You can also use a &zDeepshelf of Arcane Treasures&r to allow your enchanting table to enchant &zTreasure Enchantments&r."
+		"你还可以放一个&z奥术宝藏深暗书架&r，这样你的附魔台就能附魔出&z宝藏魔咒&r了。"
 	]
-	quest.5FA3598B0BC45B8D.title: "&3Venturing Deeper"
+	quest.5FA3598B0BC45B8D.title: "&3深入探索"
 	quest.5FB291FDE43A727F.quest_desc: [
 		"&a资源蜜蜂&r模组的&e蜜蜂小食&r有许多作用，游玩这个模组的时候你肯定会做一大堆蜜蜂小食来制作物品的！"
 		""
@@ -10252,13 +10252,13 @@
 	]
 	quest.60871670B71C711F.title: "&b自动生产水晶&r"
 	quest.608D40C44318BEC0.quest_desc: [
-		"To get to the next upgrade, you want to get your &6Eterna&r to &a45&r by reaching the &aFrontier &6World Tier&f. This can be done with upgraded shelves."
+		"在进行下一次升级之前，你需要先到达&6世界层级&a边境&f，把&6位阶&r提升到&a45&r。用这些升级版书架就行。"
 		""
-		"The &cHellshelf&r is easier to craft, and focuses on boosting &cQuanta&r."
+		"&c下界书架&r造起来比较简单，主要用于提升&c量子化&r。"
 		""
-		"&bSeashelves&r will require some fishing to get started, but builds up your &dArcana&r values instead."
+		"&b海洋书架&r则需要一些渔获作为材料，但是能够提升&d阿卡那&r。"
 	]
-	quest.608D40C44318BEC0.title: "Upgraded Shelves"
+	quest.608D40C44318BEC0.title: "升级版书架"
 	quest.60984D2D55BF2E24.quest_desc: [
 		"&d淘金者火灵&r与&c掘矿者巨灵&r采集的矿石种类差不多，但是前者还会额外采集矿石的深层变种。"
 		""
@@ -11056,13 +11056,13 @@
 	]
 	quest.67DE9E103F50E3F1.title: "&a安山机壳"
 	quest.67F07FBB50AB431F.quest_desc: [
-		"&aApothic Spawners&r provides the ability to relocate and upgrade &dMob Spawners&r to make your own mob farms. To move the spawner, break it with a pickaxe that has &bsilk touch&r on it."
+		"&a神话刷怪笼&r使玩家能移动和升级&d刷怪笼&r，用于建造专属刷怪场。要移动刷怪笼，使用带有&b精准采集&r附魔的镐挖掘拆除即可。"
 		""
-		"Mob spawners can be changed by using a &aMob Egg&r of the monster you wish to change them to, creating custom, non-vanilla spawners."
+		"对刷怪笼使用目标怪物的&a刷怪蛋&r即可改变其刷新的怪物种类，从而打造自定义的非原版刷怪笼。"
 		""
-		"[ \"Exploding a spawner will drop \", {\"text\": \"Spawner Chains\", \"color\": \"dark_green\"}, \" which are used to craft upgrades that can be applied to your spawners, improving their abilities. You'll require a more \", { \"text\": \"Advanced Enchantment Setup\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"00A7C1FE54F86429\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Apothic Enchanting Quest\"} }, \" to make more advanced spawner upgrades.\" ]"
+		"[ \"引爆刷怪笼会掉落 \", {\"text\": \"刷怪笼锁链\", \"color\": \"dark_green\"}, \"，可用于合成刷怪笼升级道具，以提升其各项性能。若要制作更高级的刷怪笼升级，需要\", { \"text\": \"更高级的附魔配置\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"00A7C1FE54F86429\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往神化附魔任务\"} }, \"。\" ]"
 		""
-		"To learn more about which items to use, check the recipes in &eJEI&f for a spawner."
+		"若想了解具体可使用哪些物品，可在&eJEI&f中查看刷怪笼的合成配方。"
 	]
 	quest.67F07FBB50AB431F.quest_subtitle: "来自神化"
 	quest.67F07FBB50AB431F.title: "&a刷怪笼刷怪场"
@@ -11250,15 +11250,15 @@
 	]
 	quest.6A22BBE9C146E910.title: "&3电动采石机"
 	quest.6A2ADC6A75304020.quest_desc: [
-		"&eApotheosis&r overhauls the vanilla enchanting system with three new values, allowing for high-level enchants with upgradable progression. You will want to manage these values as you progress through upgrading your enchanting setup:"
+		"&e神化&r模组大幅修改了原版的附魔系统，增加了三种新属性，玩家可以在升级过的附魔设施中进行更高阶的附魔。升级附魔设施时，你需要合理安排这三个属性的数值："
 		""
-		"[\"\", {\"text\": \"Eterna\", \"color\": \"green\"}, \": The power of the enchanting table, capped based on the tier of your bookshelves as well as your \", { \"text\": \"World Tier\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"011DBD2652E49B97\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to World Tiers Quest\"} }, \". This stat determines the maximum level of enchants.\" ]"
+		"[\"\", {\"text\": \"位阶\", \"color\": \"green\"}, \"：这是附魔台的力量源泉，其最大值取决于你的书架等级和\", { \"text\": \"世界层级\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"011DBD2652E49B97\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往世界层级任务\"} }, \"，决定了附魔的最高等级。\" ]"
 		""
-		"&cQuanta&r: The chaos inherent when enchanting at higher power. This determines the randomness of enchants."
+		"&c量子化&r：这是进行高阶附魔时必然产生的混沌。这个属性决定了附魔的随机性。"
 		""
-		"&dArcana&r: The overall quality and quantity of the enchantments. This determines the rarity of enchants, as well as how many enchants are applied per use."
+		"&d阿卡那&r：这代表着魔咒的整体质量和数量。这个属性决定了魔咒的稀有度，以及单次附魔能够获得的魔咒数量。"
 	]
-	quest.6A2ADC6A75304020.title: "&6The Secrets of Enchanting"
+	quest.6A2ADC6A75304020.title: "&6附魔的奥秘"
 	quest.6A346516646A3890.quest_desc: [
 		"&c下界&r是个相当危险的地方，但如果你想打败&d末影龙&r的话，就需要找到&c烈焰人&r！"
 		""
@@ -11749,21 +11749,21 @@
 	quest.708DD6CD3AE7F0FE.quest_desc: ["下界要塞的腐朽守卫"]
 	quest.708DD6CD3AE7F0FE.title: "&f击杀10只&c凋灵骷髅"
 	quest.7099DF76442FE52C.quest_desc: [
-		"&e&lBEER&r&e (Bookshelf Extended Enchanting Reach)&r allows you to modify the range that enchanting tables scan for bookshelves:"
+		"&e&lBEER&r&e（书架附魔范围扩展）&r能让你自定义附魔台扫描书架的有效范围："
 		""
-		"Normally, enchanting tables only look for bookshelves in a 5x5x3 area around them. With &e&lBEER&r, you can:"
+		"通常，原版附魔台只会在其周围5x5x3的区域内寻找书架。有了&e&lBEER&r，你便可以："
 		""
-		"• Expand the X and Z width (horizontal range)"
-		"• Increase the Y height (vertical range)"
-		"• Use special items to modify these dimensions"
-		"• Create custom enchanting setups beyond vanilla limits"
+		"• 扩展X轴和Z轴的宽度（水平范围）"
+		"• 提升Y轴的高度（垂直范围）"
+		"• 使用特殊物品修改上述范围"
+		"• 打造超越原版限制的自定义附魔布局"
 		"{@pagebreak}"
-		"&l&aHow to Use &e&lBEER&r"
+		"&e&lBEER&r&l&a用法"
 		""
-		"To modify an enchanting table's range:"
-		"1. Hold the modifier item in your main hand"
-		"2. Optionally hold a specific item in your offhand (to decrease range)"
-		"3. Sneak (Shift) + Right-click on an enchanting table"
+		"如需修改附魔台的范围："
+		"1.主手持范围调整物品"
+		"2.（可选）副手持缩小范围的物品"
+		"3.潜行右击附魔台"
 	]
 	quest.709DACF3C4655662.quest_desc: [
 		"面对五花八门的食材，你肯定不想一个一个在JEI里查询用途，否则也太浪费时间了。"
@@ -12585,13 +12585,13 @@
 	quest.77FC846DC0EF4ED2.quest_desc: [
 		"&a/sethome（名称）&r | 可以设定一个家的位置，用/home（名称）就可以快速传送回来。"
 		""
-		"&a/ftbteambases home&f | Teleports you back to your starting island"
+		"&a/ftbteambases home&f | 传送回初始岛屿"
 		""
-		"&a/back&r | Allows you to return to a previous point, either from a death or from where you teleported from last"
+		"&a/back&r | 可以让你回到上一个位置，可以是上次死亡的位置，也可以是上次传送走的位置。"
 		""
-		"&a/spawn&r | Teleports the player back to the lobby"
+		"&a/spawn&r | 将玩家传送回出生点。"
 		""
-		"&a/spark tps&r | Checks the server's TPS. Useful to see if your world is lagging"
+		"&a/spark tps&r | 检查服务器TPS。用于判断你的世界是否存在卡顿。"
 	]
 	quest.7804E97C7772403E.quest_desc: [
 		"想要个随身的工作台？做一个&a便携式工作台&r吧！"
@@ -12671,11 +12671,11 @@
 	]
 	quest.78ADC11570C5561E.title: "&d福鲁伊克斯水晶"
 	quest.78BCE2A8F87EB08B.quest_desc: [
-		"The &zVitality Blade&r works similar to a &bHeart Amulet&r. It has its own slots for &2canisters&r."
+		"&z活力之剑&r有&2容器&r槽，使用方式类似于&b心之项链&r。"
 		""
-		"Each &2canister&r adds &e1&r additional damage to the sword."
+		"每放入一个&2心之容器&r能为其增加&e1&r点攻击伤害。"
 	]
-	quest.78BCE2A8F87EB08B.title: "The Sword of Friendship"
+	quest.78BCE2A8F87EB08B.title: "友谊之剑"
 	quest.78C04CC1114AECF7.quest_desc: [
 		"由天然的&a异界树苗&r长成的&a异界树&r，只有在&b第三只眼&r效果的作用下才能被砍伐收获。"
 		""
@@ -13509,7 +13509,7 @@
 	task.02E6504A12BEF04F.title: "&f召唤一个&6魔王碎矿者"
 	task.033C0800D02082EF.title: "&f召唤一个&a水生动物"
 	task.033F807A7D0F6473.title: "建造巨型熔炉"
-	task.035C4884AAC6C3AB.title: "Managing Teams"
+	task.035C4884AAC6C3AB.title: "队伍管理"
 	task.03CB37E752FE1DD1.title: "&e找到建筑&f：&c火山"
 	task.03DFD823ACDCF36F.title: "操控流体"
 	task.047B3C49E817FA1F.title: "我已经有了电力"
@@ -13599,13 +13599,13 @@
 	task.1A827D742E3970EB.title: "垂钓效率"
 	task.1B49CC94C54373F4.title: "&f召唤一个&e被附身的疣猪兽"
 	task.1B724AA2EDADE92A.title: "&f击杀10只&d亡灵术士"
-	task.1B78C40E21D23DD0.title: "Upgraded Hellshelves"
+	task.1B78C40E21D23DD0.title: "升级下界书架"
 	task.1B7ED750DCA724D1.title: "&f召唤一个&e被附身的远古守卫者"
 	task.1B8D2EA3B6BC97C1.title: "&e找到建筑&f：&d药剂师小屋"
 	task.1BB51471E9C7949F.title: "&b五芒星&f已完成"
 	task.1BBD0785EF912331.title: "&d高级连接器"
 	task.1C0BB83393437BDF.title: "&f部件界面"
-	task.1C0FFC5D4A1D00C7.title: "Extraction Tomes"
+	task.1C0FFC5D4A1D00C7.title: "提取宝典"
 	task.1C1B6CA8991CBB5D.title: "&f岩浆发电机"
 	task.1C350F6D6B6C0656.title: "&b升级插件"
 	task.1C70AB93B6A0F1A6.title: "&a村民方块&r"
@@ -13666,7 +13666,7 @@
 	task.2BB5021FC9A3E6EB.title: "&f召唤一个&a鹦鹉"
 	task.2C1245371800E1E7.title: "蜜蜂种类"
 	task.2C6C600BA23CDEDC.title: "&d连接器界面"
-	task.2C718A1A0353A93C.title: "Upgraded Seashelves"
+	task.2C718A1A0353A93C.title: "升级海洋书架"
 	task.2C8687501A9C54A8.title: "&2初级精华&f工具"
 	task.2CA99A333EDFB6FC.title: "&a精华耕地"
 	task.2CC8184A4A0C3AED.title: "就地升级"
@@ -13946,7 +13946,7 @@
 	task.6ADC311A6F201C21.title: "&d末影&r单元 "
 	task.6B0602266368826B.title: "&e附身仪式"
 	task.6B8157688CD23283.title: "召唤一个&d铁匠使魔"
-	task.6B8F6B75C6182427.title: "Upgraded Deepshelves"
+	task.6B8F6B75C6182427.title: "升级深暗书架"
 	task.6B9EDB6F4966725F.title: "&6建筑小帮手"
 	task.6BF1B3F7E85C5E17.title: "&b升级插件"
 	task.6C0240B676A69E94.title: "精英控制电路或者模拟电路"
