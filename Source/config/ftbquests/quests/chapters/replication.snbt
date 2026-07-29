@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "504145BC951F7FF2"
 			image: "ftb:textures/quests/titles_and_logos/replication_logo.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -21,6 +22,7 @@
 		{
 			alpha: 150
 			height: 9.0d
+			id: "71DC68CAAF4B19E5"
 			image: "replication:item/memory_chip"
 			rotation: 45.0d
 			width: 9.0d

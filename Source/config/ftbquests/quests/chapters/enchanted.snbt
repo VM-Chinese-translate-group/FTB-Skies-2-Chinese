@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 1.5d
+			id: "41A382295F9A62C4"
 			image: "enchanted:block/altar_corner_left"
 			rotation: 0.0d
 			width: 1.5d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 1.5d
+			id: "17E886C855C0EF72"
 			image: "enchanted:block/altar_corner_right"
 			rotation: 0.0d
 			width: 1.5d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.5d
+			id: "385DBBF2B3E1CCB4"
 			image: "enchanted:block/altar_middle"
 			rotation: 0.0d
 			width: 1.5d
@@ -36,6 +39,7 @@
 		}
 		{
 			height: 1.5d
+			id: "7188D82D0BE8777F"
 			image: "enchanted:block/altar_joined_top"
 			order: -9
 			rotation: 0.0d
@@ -45,6 +49,7 @@
 		}
 		{
 			height: 1.5d
+			id: "2ECEE7464086BFEF"
 			image: "enchanted:block/altar_joined_top"
 			order: -9
 			rotation: 0.0d
@@ -54,6 +59,7 @@
 		}
 		{
 			height: 1.5d
+			id: "3F67EA20D25FDC10"
 			image: "enchanted:block/altar_joined_top"
 			order: -9
 			rotation: 0.0d
@@ -63,6 +69,7 @@
 		}
 		{
 			height: 5.25d
+			id: "530C2FD85B4887C6"
 			image: "ftb:textures/quests/enchanted_cauldron_colour.png"
 			order: -9
 			rotation: 0.0d
@@ -72,6 +79,7 @@
 		}
 		{
 			height: 1.25d
+			id: "13A9C305455B8272"
 			image: "enchanted:block/poppet_shelf_top"
 			rotation: 0.0d
 			width: 1.25d
@@ -80,6 +88,7 @@
 		}
 		{
 			height: 3.0d
+			id: "50D8D2CEF4527C32"
 			image: "enchanted:block/glyph_gold"
 			order: -6
 			rotation: 15.0d
@@ -89,6 +98,7 @@
 		}
 		{
 			height: 3.0d
+			id: "39F6A277E44D657D"
 			image: "ftb:textures/quests/titles_and_logos/enchanted_logo.png"
 			rotation: 0.0d
 			width: 7.5d

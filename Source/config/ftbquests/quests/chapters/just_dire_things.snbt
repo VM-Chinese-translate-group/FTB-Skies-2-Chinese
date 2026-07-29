@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "5A5B119D594EEF38"
 			image: "ftb:textures/quests/titles_and_logos/just_dire_things_logo.png"
 			rotation: 0.0d
 			width: 19.84d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 1.5d
+			id: "589428A36047A994"
 			image: "justdirethings:block/gooblock_tier1"
 			rotation: 45.0d
 			width: 1.5d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 2.0d
+			id: "29C0B06848DD56D3"
 			image: "justdirethings:block/celestigem_block"
 			order: 1
 			rotation: 45.0d
@@ -37,6 +40,7 @@
 		}
 		{
 			height: 3.0d
+			id: "5C2DCD18A8289492"
 			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
 			rotation: 90.0d
 			width: 3.0d
@@ -45,6 +49,7 @@
 		}
 		{
 			height: 4.0d
+			id: "283EB92CAF491E7E"
 			image: "ftbquests:tasks/input_only"
 			order: 1
 			rotation: 0.0d
@@ -54,6 +59,7 @@
 		}
 		{
 			height: 1.5d
+			id: "1F573C37F7B1D267"
 			image: "ftbquests:tasks/input_only"
 			order: -1
 			rotation: 0.0d
@@ -63,6 +69,7 @@
 		}
 		{
 			height: 1.5d
+			id: "1B61B806EFF8C828"
 			image: "ftbquests:tasks/input_only"
 			order: -1
 			rotation: 180.0d
@@ -72,6 +79,7 @@
 		}
 		{
 			height: 1.5d
+			id: "7FB78C751CC68920"
 			image: "justdirethings:block/gooblock_tier2"
 			rotation: 45.0d
 			width: 1.5d
@@ -80,6 +88,7 @@
 		}
 		{
 			height: 1.5d
+			id: "78A11B843DAAB334"
 			image: "justdirethings:block/gooblock_tier3"
 			rotation: 45.0d
 			width: 1.5d
@@ -88,6 +97,7 @@
 		}
 		{
 			height: 1.5d
+			id: "17B880D573F7BA11"
 			image: "justdirethings:block/gooblock_tier4"
 			rotation: 45.0d
 			width: 1.5d
@@ -96,6 +106,7 @@
 		}
 		{
 			height: 1.5d
+			id: "256B537671EDFE0B"
 			image: "justdirethings:block/gooblock_tier4"
 			rotation: 0.0d
 			width: 1.5d
@@ -104,6 +115,7 @@
 		}
 		{
 			height: 1.5d
+			id: "0DDED6132E2C2E11"
 			image: "justdirethings:block/gooblock_tier3"
 			rotation: 0.0d
 			width: 1.5d
@@ -112,6 +124,7 @@
 		}
 		{
 			height: 1.5d
+			id: "401B116C8DB849D7"
 			image: "justdirethings:block/gooblock_tier2"
 			rotation: 0.0d
 			width: 1.5d
@@ -121,6 +134,7 @@
 		{
 			color: 11141290
 			height: 1.5d
+			id: "6AE3F0D39212C83D"
 			image: "justdirethings:textures/entity/vortex1.png"
 			rotation: 90.0d
 			width: 1.5d
@@ -130,6 +144,7 @@
 		{
 			color: 16755200
 			height: 1.5d
+			id: "62F9FC27F04E704E"
 			image: "justdirethings:textures/entity/vortex1.png"
 			rotation: 90.0d
 			width: 1.5d
@@ -138,6 +153,7 @@
 		}
 		{
 			height: 1.0d
+			id: "245124BABC5DFE35"
 			image: "justdirethings:block/time_crystal_cluster_large"
 			rotation: -15.0d
 			width: 1.0d
@@ -146,6 +162,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7A1876B6AC758C29"
 			image: "justdirethings:block/time_crystal_cluster_large"
 			rotation: 15.0d
 			width: 1.0d
@@ -154,6 +171,7 @@
 		}
 		{
 			height: 2.0d
+			id: "51C072CDD8D3BDE2"
 			image: "justdirethings:block/eclipsealloy_block"
 			order: 1
 			rotation: 45.0d
@@ -163,6 +181,7 @@
 		}
 		{
 			height: 2.0d
+			id: "278860A3FBD9ECC7"
 			image: "justdirethings:block/blazegold_block"
 			order: 1
 			rotation: 45.0d
@@ -172,6 +191,7 @@
 		}
 		{
 			height: 2.0d
+			id: "064BA765B5F42B53"
 			image: "justdirethings:block/ferricore_block"
 			order: 1
 			rotation: 45.0d
@@ -182,6 +202,7 @@
 		{
 			color: 16733525
 			height: 1.0d
+			id: "50CAD4175A6E6495"
 			image: "justdirethings:block/fluid_source"
 			rotation: 0.0d
 			width: 1.0d
@@ -191,6 +212,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "19CA7BD61943738B"
 			image: "minecraft:block/fire_1"
 			rotation: 45.0d
 			width: 0.72d
@@ -200,6 +222,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "494A351C8D5E546A"
 			image: "minecraft:block/fire_1"
 			rotation: 135.0d
 			width: 0.72d
@@ -209,6 +232,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "2237B419FE7756C6"
 			image: "minecraft:block/fire_1"
 			rotation: -45.0d
 			width: 0.72d
@@ -218,6 +242,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "67DE8864C568211A"
 			image: "minecraft:block/fire_1"
 			rotation: -135.0d
 			width: 0.72d
@@ -227,6 +252,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "7F61ADFD2C292149"
 			image: "occultism:block/spirit_fire_0"
 			rotation: 135.0d
 			width: 0.75d
@@ -236,6 +262,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "2E19B66E40966F1D"
 			image: "occultism:block/spirit_fire_0"
 			rotation: -135.0d
 			width: 0.72d
@@ -245,6 +272,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "5CD9CF82015A55BE"
 			image: "minecraft:block/soul_fire_0"
 			rotation: -45.0d
 			width: 0.72d
@@ -254,6 +282,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "3C0082D9F0D02F92"
 			image: "minecraft:block/soul_fire_0"
 			rotation: 45.0d
 			width: 0.75d
@@ -263,6 +292,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "22209815AA387293"
 			image: "minecraft:block/soul_fire_0"
 			rotation: -135.0d
 			width: 0.72d
@@ -272,6 +302,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "211C3FC2BC35CFD3"
 			image: "minecraft:block/soul_fire_0"
 			rotation: 135.0d
 			width: 0.75d
@@ -281,6 +312,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "18635D6B4F1557C0"
 			image: "occultism:block/spirit_fire_0"
 			rotation: 45.0d
 			width: 0.75d
@@ -290,6 +322,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "33A40D5E31E6082A"
 			image: "occultism:block/spirit_fire_0"
 			rotation: -45.0d
 			width: 0.72d
@@ -298,6 +331,7 @@
 		}
 		{
 			height: 1.5d
+			id: "2F97646ED82B18B6"
 			image: "justdirethings:block/gooblock_tier1"
 			rotation: 0.0d
 			width: 1.5d
@@ -306,6 +340,7 @@
 		}
 		{
 			height: 2.0d
+			id: "02DBA82D772BE333"
 			image: "justdynathings:block/generator/eclipse_alloy/bottom"
 			order: -9
 			rotation: 45.0d
@@ -315,6 +350,7 @@
 		}
 		{
 			height: 2.0d
+			id: "1CD9E146CB0F5D22"
 			image: "minecraft:block/netherite_block"
 			order: -9
 			rotation: 45.0d
@@ -324,6 +360,7 @@
 		}
 		{
 			height: 1.8d
+			id: "13E525FFDB13C7E2"
 			image: "minecraft:block/anvil"
 			rotation: 45.0d
 			width: 1.8d
@@ -332,6 +369,7 @@
 		}
 		{
 			height: 2.0d
+			id: "319723F9A797753E"
 			image: "justdynathings:block/generator/celestigem/bottom"
 			order: -5
 			rotation: 45.0d
@@ -341,6 +379,7 @@
 		}
 		{
 			height: 2.0d
+			id: "6C85FEA1D209966B"
 			image: "justdynathings:block/generator/blazegold/bottom"
 			order: -9
 			rotation: 45.0d
@@ -350,6 +389,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7F0A3152C8300270"
 			image: "justdynathings:block/phase/true"
 			rotation: 45.0d
 			width: 1.0d
@@ -358,6 +398,7 @@
 		}
 		{
 			height: 0.8d
+			id: "7F9362C6BA23895C"
 			image: "minecraft:item/rotten_flesh"
 			rotation: 0.0d
 			width: 0.8d
@@ -366,6 +407,7 @@
 		}
 		{
 			height: 0.8d
+			id: "49DA4E783456D9A8"
 			image: "minecraft:item/sugar"
 			rotation: 0.0d
 			width: 0.8d
@@ -375,6 +417,7 @@
 		{
 			color: 11141290
 			height: 1.6d
+			id: "0D404FEA3F05A803"
 			image: "justdynathings:block/phase/false"
 			rotation: 0.0d
 			width: 1.6d
@@ -384,6 +427,7 @@
 		{
 			color: 11141290
 			height: 1.6d
+			id: "4B2516299BCC8176"
 			image: "justdynathings:block/phase/false"
 			rotation: 45.0d
 			width: 1.6d
@@ -393,6 +437,7 @@
 		{
 			color: 11141290
 			height: 1.0d
+			id: "17F795F0554B4624"
 			image: "justdirethings:block/fluid_source"
 			rotation: 0.0d
 			width: 1.0d
@@ -402,6 +447,7 @@
 		{
 			color: 43520
 			height: 1.0d
+			id: "422301512E589AAF"
 			image: "justdirethings:block/fluid_source"
 			rotation: 0.0d
 			width: 1.0d

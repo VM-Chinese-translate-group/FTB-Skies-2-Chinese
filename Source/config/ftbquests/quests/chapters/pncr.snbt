@@ -13,6 +13,7 @@
 		{
 			alpha: 200
 			height: 2.0d
+			id: "4366E95E98B0318B"
 			image: "ftbfiltersystem:textures/gui/sprites/background.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -21,7 +22,7 @@
 		}
 		{
 			height: 8.0d
-			hover: ["Pneumatic Pressure Chamber"]
+			id: "1C774BE9BD55187D"
 			image: "ftb:textures/quests/pneumaticcraft/pressurechamber.png"
 			rotation: 0.0d
 			width: 7.796437659033079d
@@ -30,6 +31,7 @@
 		}
 		{
 			height: 3.0d
+			id: "4214C5DEB60DEB16"
 			image: "ftb:textures/quests/titles_and_logos/pncr_logo.png"
 			rotation: 0.0d
 			width: 14.0d
@@ -39,6 +41,7 @@
 		{
 			alpha: 50
 			height: 4.0d
+			id: "38A882E509D4F4DC"
 			image: "hostilenetworks:textures/gui/sprites/dl_hud_bg.png"
 			order: -1
 			rotation: 0.0d
@@ -48,6 +51,7 @@
 		}
 		{
 			height: 2.0d
+			id: "51E9541652332BF6"
 			image: "pneumaticcraft:block/fluid/oil_flow"
 			rotation: -90.0d
 			width: 2.0d
@@ -56,6 +60,7 @@
 		}
 		{
 			height: 2.0d
+			id: "54044289881A478C"
 			image: "pneumaticcraft:block/fluid/plastic_flow"
 			rotation: -90.0d
 			width: 2.0d
@@ -64,6 +69,7 @@
 		}
 		{
 			height: 2.0d
+			id: "12B6F44A960FFB6D"
 			image: "pneumaticcraft:block/fluid/oil_flow"
 			rotation: -90.0d
 			width: 2.0d
@@ -72,6 +78,7 @@
 		}
 		{
 			height: 2.0d
+			id: "74198AEB6E44F41E"
 			image: "pneumaticcraft:block/fluid/oil_flow"
 			rotation: -90.0d
 			width: 2.0d

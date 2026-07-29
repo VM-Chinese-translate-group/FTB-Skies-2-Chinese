@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "0733D97A5AA0F64E"
 			image: "ftb:textures/quests/titles_and_logos/mffs_logo.png"
 			rotation: 0.0d
 			width: 8.61d
@@ -21,6 +22,7 @@
 		{
 			alpha: 128
 			height: 3.0d
+			id: "59FC74D0619B0B5D"
 			image: "minecraft:textures/gui/sprites/boss_bar/blue_background.png"
 			order: -1
 			rotation: 0.0d
@@ -31,6 +33,7 @@
 		{
 			alpha: 63
 			height: 6.0d
+			id: "11F3DE64CB43F83F"
 			image: "mffs:model/force_cube"
 			order: -2
 			rotation: 0.0d

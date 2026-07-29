@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 4.5d
+			id: "12B7116C9FEDA202"
 			image: "ftb:textures/quests/titles_and_logos/roots_classic_logo.png"
 			order: 10
 			rotation: 0.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 1.8d
+			id: "5BF0E3C2D2FFE396"
 			image: "minecraft:block/grass_block_side"
 			rotation: 0.0d
 			width: 1.8d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.75d
+			id: "794B8A8F64A8C029"
 			image: "roots:block/crops/aubergine_7"
 			order: -9
 			rotation: 0.0d
@@ -37,6 +40,7 @@
 		}
 		{
 			height: 1.8d
+			id: "137501D44ACDA3CB"
 			image: "roots:block/runestone"
 			rotation: 0.0d
 			width: 1.8d
@@ -45,6 +49,7 @@
 		}
 		{
 			height: 1.8d
+			id: "716C4B0DA596AB0F"
 			image: "minecraft:block/grass_block_side"
 			rotation: 0.0d
 			width: 1.8d
@@ -53,6 +58,7 @@
 		}
 		{
 			height: 1.8d
+			id: "06B0366CE5B99590"
 			image: "minecraft:block/grass_block_side"
 			rotation: 0.0d
 			width: 1.8d
@@ -61,6 +67,7 @@
 		}
 		{
 			height: 1.8d
+			id: "467EB13FDC2A5799"
 			image: "minecraft:block/grass_block_side"
 			rotation: 0.0d
 			width: 1.8d
@@ -69,6 +76,7 @@
 		}
 		{
 			height: 1.8d
+			id: "167DD27DFF4E20A3"
 			image: "minecraft:block/grass_block_side"
 			rotation: 0.0d
 			width: 1.8d
@@ -77,6 +85,7 @@
 		}
 		{
 			height: 1.8d
+			id: "528BE52FB4FE1A2A"
 			image: "minecraft:block/grass_block_side"
 			rotation: 0.0d
 			width: 1.8d
@@ -85,6 +94,7 @@
 		}
 		{
 			height: 1.8d
+			id: "7316DDEB76E03932"
 			image: "minecraft:block/grass_block_side"
 			rotation: 0.0d
 			width: 1.8d
@@ -93,6 +103,7 @@
 		}
 		{
 			height: 1.8d
+			id: "3C022C36D4A6F188"
 			image: "roots:block/runestone"
 			rotation: 0.0d
 			width: 1.8d
@@ -101,6 +112,7 @@
 		}
 		{
 			height: 1.8d
+			id: "009E459C669D7B7A"
 			image: "roots:block/chiseled_runestone"
 			rotation: 0.0d
 			width: 1.8d
@@ -109,6 +121,7 @@
 		}
 		{
 			height: 1.6d
+			id: "60FFD80E6A26D23B"
 			image: "minecraft:block/oak_log"
 			order: -8
 			rotation: 90.0d
@@ -118,6 +131,7 @@
 		}
 		{
 			height: 1.5d
+			id: "3640C72EA2E2170D"
 			image: "minecraft:block/campfire_fire"
 			order: -10
 			rotation: 0.0d

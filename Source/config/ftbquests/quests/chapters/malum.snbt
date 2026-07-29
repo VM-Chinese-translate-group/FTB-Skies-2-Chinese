@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 5.0d
+			id: "707273636610B8E6"
 			image: "malum:item/raw_soulstone"
 			rotation: 0.0d
 			width: 5.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 4.4d
+			id: "1F5FA894ED1F2EB7"
 			image: "malum:textures/gui/book/widgets/withered_frame_default.png"
 			order: -5
 			rotation: 0.0d
@@ -29,6 +31,7 @@
 		}
 		{
 			height: 4.4d
+			id: "57C27F6ECFABABBC"
 			image: "malum:textures/gui/book/widgets/paper_filling_default.png"
 			order: -6
 			rotation: 0.0d
@@ -38,6 +41,7 @@
 		}
 		{
 			height: 4.0d
+			id: "59522FD3BDAE5113"
 			image: "malum:textures/gui/book/widgets/runewood_frame_totemic.png"
 			order: -4
 			rotation: 0.0d
@@ -47,6 +51,7 @@
 		}
 		{
 			height: 4.0d
+			id: "597EDC563A69EF36"
 			image: "malum:textures/gui/book/widgets/dark_filling_totemic.png"
 			order: -6
 			rotation: 0.0d
@@ -56,6 +61,7 @@
 		}
 		{
 			height: 3.0d
+			id: "7BE83D02728C0F7F"
 			image: "malum:block/blight/blighted_growth_7"
 			order: -5
 			rotation: 180.0d
@@ -65,6 +71,7 @@
 		}
 		{
 			height: 4.4d
+			id: "31E45C4ADCAEC3A7"
 			image: "malum:textures/gui/book/widgets/soulwood_frame_grand.png"
 			order: -4
 			rotation: 0.0d
@@ -74,6 +81,7 @@
 		}
 		{
 			height: 4.4d
+			id: "46F8F151F5C90540"
 			image: "malum:textures/gui/book/widgets/dark_filling_grand.png"
 			order: -6
 			rotation: 0.0d
@@ -84,6 +92,7 @@
 		{
 			color: 2361384
 			height: 11.0d
+			id: "4E7D40BF08B16C46"
 			image: "malum:textures/vfx/totem_poles/arcane_glow.png"
 			order: -9
 			rotation: 0.0d
@@ -94,6 +103,7 @@
 		{
 			color: 5636095
 			height: 1.0d
+			id: "25FE6837A7A2D780"
 			image: "malum:textures/vfx/rite/gaze_aerial.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -103,6 +113,7 @@
 		{
 			color: 43690
 			height: 1.0d
+			id: "0BAAD7195C7EA5DC"
 			image: "malum:textures/vfx/rite/gaze_aqueous.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -112,6 +123,7 @@
 		{
 			color: 16733695
 			height: 1.0d
+			id: "4D781C5506E9E85D"
 			image: "malum:textures/vfx/rite/gaze_arcane.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -121,6 +133,7 @@
 		{
 			color: 5635925
 			height: 1.0d
+			id: "28A17FAB25D2BBD0"
 			image: "malum:textures/vfx/rite/gaze_earthen.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -130,6 +143,7 @@
 		{
 			color: 16755200
 			height: 1.0d
+			id: "5376996D4C32E708"
 			image: "malum:textures/vfx/rite/gaze_infernal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -139,6 +153,7 @@
 		{
 			color: 16716652
 			height: 1.0d
+			id: "72A59FE8AA01E707"
 			image: "malum:textures/vfx/rite/gaze_sacred.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -148,6 +163,7 @@
 		{
 			color: 11141290
 			height: 1.0d
+			id: "50ECBDC8998C3946"
 			image: "malum:textures/vfx/rite/gaze_wicked.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -156,6 +172,7 @@
 		}
 		{
 			height: 4.0d
+			id: "640D66BC9BCC31CC"
 			image: "ftb:textures/quests/titles_and_logos/malum_logo.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -164,6 +181,7 @@
 		}
 		{
 			height: 4.4d
+			id: "3D869B966E3C47E2"
 			image: "malum:textures/gui/book/widgets/runewood_frame_gilded.png"
 			order: -4
 			rotation: 0.0d
@@ -173,6 +191,7 @@
 		}
 		{
 			height: 4.4d
+			id: "4D6FC94CBE643820"
 			image: "malum:textures/gui/book/widgets/paper_filling_gilded.png"
 			order: -6
 			rotation: 0.0d
@@ -182,6 +201,7 @@
 		}
 		{
 			height: 1.4d
+			id: "5508D723F11EC632"
 			image: "malum:textures/mob_effect/rejected.png"
 			rotation: 0.0d
 			width: 1.4d
@@ -190,6 +210,7 @@
 		}
 		{
 			height: 10.0d
+			id: "65A4019EDAF3EFBA"
 			image: "malum:block/banners/soulwoven_banner_spawn"
 			order: -10
 			rotation: 0.0d
@@ -199,6 +220,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2D877BBF0EFCE5FE"
 			image: "malum:item/geas/pact_of_tidal_affinity"
 			rotation: 0.0d
 			width: 1.0d
@@ -207,6 +229,7 @@
 		}
 		{
 			height: 1.0d
+			id: "178E19FD3B5B5571"
 			image: "malum:textures/mob_effect/wyrd_exhaustion.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -216,6 +239,7 @@
 		{
 			color: 11184810
 			height: 0.8d
+			id: "3864047D6355E6C8"
 			image: "malum:textures/gui/book/icons/esoteric_reaping.png"
 			rotation: 0.0d
 			width: 0.8d
@@ -225,6 +249,7 @@
 		{
 			color: 11184810
 			height: 0.8d
+			id: "2F7200B61C6431C6"
 			image: "malum:textures/gui/book/icons/soul_shard.png"
 			rotation: 0.0d
 			width: 0.8d
@@ -234,6 +259,7 @@
 		{
 			color: 11184810
 			height: 1.0d
+			id: "01361571EC688B96"
 			image: "malum:item/impetus/lead_node"
 			rotation: 0.0d
 			width: 1.0d
@@ -243,6 +269,7 @@
 		{
 			color: 11184810
 			height: 1.0d
+			id: "0ABBED5008959D1C"
 			image: "malum:item/impetus/lead_node"
 			rotation: 0.0d
 			width: 1.0d
