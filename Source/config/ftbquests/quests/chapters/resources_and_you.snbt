@@ -13,6 +13,7 @@
 	images: [
 		{
 			height: 2.5d
+			id: "3A745CC11848D338"
 			image: "ftb:textures/quests/titles_and_logos/tiers.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -21,6 +22,7 @@
 		}
 		{
 			height: 2.5d
+			id: "76CE11137570BA94"
 			image: "ftb:textures/quests/titles_and_logos/materials.png"
 			rotation: 0.0d
 			width: 7.0d
@@ -29,7 +31,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Item Interactions"]
+			id: "0120BBC236A11A38"
 			image: "ars_nouveau:textures/gui/doc_spellstyle_rainbow.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -38,7 +40,7 @@
 		}
 		{
 			height: 1.2d
-			hover: ["Foundry Work"]
+			id: "77C17145A68A0C53"
 			image: "productivemetalworks:block/foundry_controller_front_on"
 			rotation: 0.0d
 			width: 1.2d
@@ -47,7 +49,7 @@
 		}
 		{
 			height: 0.8d
-			hover: ["Special Crafts"]
+			id: "6090384E723B26C4"
 			image: "minecraft:block/tnt_top"
 			order: 10
 			rotation: 0.0d
@@ -57,6 +59,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1B7FFAED1843C34F"
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -65,6 +68,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0249FE25872F3D73"
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -73,6 +77,7 @@
 		}
 		{
 			height: 1.0d
+			id: "278266FBA6AEA49A"
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -81,6 +86,7 @@
 		}
 		{
 			height: 1.0d
+			id: "66A1C70FCDB8BE43"
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -89,6 +95,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0DF023EDF96C16E6"
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -97,6 +104,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7918F7F37FA6333B"
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -105,6 +113,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4ACD4B008447A43C"
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -113,6 +122,7 @@
 		}
 		{
 			height: 1.0d
+			id: "775145C088CF1C54"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -121,6 +131,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6154AB873876A70A"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -129,6 +140,7 @@
 		}
 		{
 			height: 1.0d
+			id: "098AB6FF9E04EE1C"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -137,6 +149,7 @@
 		}
 		{
 			height: 1.0d
+			id: "032C6B6535AC8591"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -145,6 +158,7 @@
 		}
 		{
 			height: 1.0d
+			id: "77465A0FC8CD3474"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -153,6 +167,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2D3D2E6E668235D9"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -161,6 +176,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3AF24D6B709E7B9A"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -169,6 +185,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5F09A43A4BD48D0C"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -177,6 +194,7 @@
 		}
 		{
 			height: 1.0d
+			id: "005A97171E57C822"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -185,6 +203,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6A478C3F136C3BEE"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -193,6 +212,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6BC4F71E5990AC44"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -201,6 +221,7 @@
 		}
 		{
 			height: 1.0d
+			id: "312145BFC1976492"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -209,6 +230,7 @@
 		}
 		{
 			height: 1.0d
+			id: "454AD2FFECD0D2D6"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -217,6 +239,7 @@
 		}
 		{
 			height: 1.0d
+			id: "037C63DBFDC99CD0"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -225,6 +248,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5A6545CCAA72D854"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -233,6 +257,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2811EC8CAFC8B2BA"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -241,6 +266,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2726F92B4C743A45"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -249,6 +275,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2124AF7D015EAEB1"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -257,6 +284,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6404AF8FEB6B74D0"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -265,6 +293,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0330D9FA71009B60"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -273,6 +302,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4CE3E71B88364513"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -281,6 +311,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6827297895E48F6A"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -289,6 +320,7 @@
 		}
 		{
 			height: 1.0d
+			id: "51B90962F44E35D0"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -297,6 +329,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1916B21FD6E98961"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -305,6 +338,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0146C0C837DBA737"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -313,6 +347,7 @@
 		}
 		{
 			height: 1.0d
+			id: "737593EAFF70C347"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -321,6 +356,7 @@
 		}
 		{
 			height: 1.0d
+			id: "01140058F9AAA2FD"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -329,6 +365,7 @@
 		}
 		{
 			height: 1.0d
+			id: "799BD3911AF88C00"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -337,6 +374,7 @@
 		}
 		{
 			height: 1.0d
+			id: "75F770E5A0E0B5F6"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -345,6 +383,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4A946D3118680F89"
 			image: "minecraft:item/fishing_rod"
 			rotation: 0.0d
 			width: 1.0d
@@ -353,6 +392,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0BEEE160F2B9A7D5"
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -361,6 +401,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3FA2C62570B8B928"
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -369,6 +410,7 @@
 		}
 		{
 			height: 1.0d
+			id: "64B09C3F981347A1"
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -377,6 +419,7 @@
 		}
 		{
 			height: 1.0d
+			id: "774B4B8EBBFDDB1C"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -385,6 +428,7 @@
 		}
 		{
 			height: 1.0d
+			id: "21E46AF42C1BAF9C"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -393,6 +437,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4FAAF975F0AE9C38"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -401,6 +446,7 @@
 		}
 		{
 			height: 1.0d
+			id: "58C4E4BAB5F60BF3"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -409,6 +455,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4E91BE0E9CA81A03"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -417,6 +464,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6FB38A32628E44C1"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -425,6 +473,7 @@
 		}
 		{
 			height: 1.0d
+			id: "38D9261B4CA7B1C1"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -433,6 +482,7 @@
 		}
 		{
 			height: 1.0d
+			id: "75348A55C377F9B1"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -441,6 +491,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6D851837D0B7B600"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -449,6 +500,7 @@
 		}
 		{
 			height: 1.0d
+			id: "228C84B755E81F69"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -457,6 +509,7 @@
 		}
 		{
 			height: 1.0d
+			id: "06D4C22DB2F2ADF4"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -465,6 +518,7 @@
 		}
 		{
 			height: 1.0d
+			id: "775D8CBAE7FEB03C"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -473,6 +527,7 @@
 		}
 		{
 			height: 1.0d
+			id: "297D80A4D88A7514"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -481,6 +536,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6F5B20F39DB6EDD0"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -489,6 +545,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6EB780DAD4DCDB92"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -497,6 +554,7 @@
 		}
 		{
 			height: 1.0d
+			id: "45EC43F712417F2D"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -505,6 +563,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3BEDE2AAD737E04D"
 			image: "mysticalagriculture:item/inferium_essence"
 			rotation: 0.0d
 			width: 1.0d
@@ -513,6 +572,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4148D0B5458C5D32"
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -521,6 +581,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3771B583AA793A7F"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -529,6 +590,7 @@
 		}
 		{
 			height: 1.0d
+			id: "30C578C4558BBEC4"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -537,6 +599,7 @@
 		}
 		{
 			height: 1.0d
+			id: "017D789E2D146D9A"
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -545,6 +608,7 @@
 		}
 		{
 			height: 1.0d
+			id: "22684E5F68B0B856"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -553,6 +617,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6058ED7F77AD823E"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -561,6 +626,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5E4E5B63F148AA4D"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -569,6 +635,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0999E371059AE4C1"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -577,6 +644,7 @@
 		}
 		{
 			height: 1.0d
+			id: "700FCE75072AA417"
 			image: "minecraft:block/red_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -585,6 +653,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2EB85F515911CE23"
 			image: "minecraft:item/honeycomb"
 			rotation: 0.0d
 			width: 1.0d
@@ -593,6 +662,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7E306E75ADC9363F"
 			image: "minecraft:block/yellow_concrete"
 			rotation: 0.0d
 			width: 1.0d
@@ -601,6 +671,7 @@
 		}
 		{
 			height: 1.0d
+			id: "54119A5F4299B35E"
 			image: "minecraft:block/lime_concrete"
 			rotation: 0.0d
 			width: 1.0d

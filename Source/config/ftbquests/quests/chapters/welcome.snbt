@@ -17,6 +17,7 @@
 			alpha: 100
 			color: 0
 			height: 2.5d
+			id: "4DABE2855AE3943B"
 			image: "ftbquests:textures/shapes/hexagon/shape.png"
 			rotation: 0.0d
 			width: 2.5d
@@ -24,9 +25,9 @@
 			y: -1.0d
 		}
 		{
-			click: "https://discord.com/invite/X5UGvBs"
+			click_action: "open_uri:https://discord.com/invite/X5UGvBs"
 			height: 1.0d
-			hover: ["Join The Discord!"]
+			id: "4D84DBF5DB34DF66"
 			image: "jamlib:textures/gui/sprites/link_discord.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -34,9 +35,9 @@
 			y: 2.5d
 		}
 		{
-			click: "https://github.com/FTBTeam/FTB-Modpack-Issues/issues"
+			click_action: "open_uri:https://github.com/FTBTeam/FTB-Modpack-Issues/issues"
 			height: 1.0d
-			hover: ["Report A Bug"]
+			id: "41BE214016A8CC6A"
 			image: "azurelib:icons/error"
 			rotation: 0.0d
 			width: 1.0d
@@ -46,6 +47,7 @@
 		{
 			color: 5636095
 			height: 1.0d
+			id: "24D92800859B64CA"
 			image: "ftbquests:textures/shapes/square/background.png"
 			order: -1
 			rotation: 0.0d

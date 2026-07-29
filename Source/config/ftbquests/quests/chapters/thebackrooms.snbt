@@ -13,6 +13,7 @@
 	id: "33808F1AE9F1266A"
 	images: [{
 		height: 5.0d
+		id: "36F12AB492509C11"
 		image: "minecraft:textures/gui/advancements/window.png"
 		rotation: 0.0d
 		width: 5.0d

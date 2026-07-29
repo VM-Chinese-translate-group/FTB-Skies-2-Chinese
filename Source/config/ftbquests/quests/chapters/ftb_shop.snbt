@@ -18,6 +18,7 @@
 	images: [
 		{
 			height: 3.0d
+			id: "6E34F916EECC8A3C"
 			image: "ftb:textures/quests/ftb_shop/ftb_shop_title.png"
 			rotation: 0.0d
 			width: 12.0d
@@ -26,6 +27,7 @@
 		}
 		{
 			height: 1.5d
+			id: "20B715B30CF3E8A6"
 			image: "ftb:textures/quests/ftb_shop/ftb_shop_early_game.png"
 			rotation: 0.0d
 			width: 7.0d
@@ -34,6 +36,7 @@
 		}
 		{
 			height: 1.5d
+			id: "77A3C8ED3185E7AE"
 			image: "ftb:textures/quests/ftb_shop/ftb_shop_mid_game.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -42,6 +45,7 @@
 		}
 		{
 			height: 1.5d
+			id: "66B337E09FD3EE62"
 			image: "ftb:textures/quests/ftb_shop/ftb_shop_loot_bags.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -50,6 +54,7 @@
 		}
 		{
 			height: 1.5d
+			id: "6AAA414AC6135146"
 			image: "ftb:textures/quests/ftb_shop/ftb_shop_late_game.png"
 			rotation: 0.0d
 			width: 7.0d
@@ -59,6 +64,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "07B8BD45927BE618"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 9.5d
@@ -68,6 +74,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "4E54FBC8BBF5E7EB"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 9.5d
@@ -77,6 +84,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "6C1EEFCC9C0ED050"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 9.5d
@@ -86,6 +94,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "26554D0BBF9F9120"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 9.5d
@@ -95,6 +104,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "63E58300C6B3264D"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 9.5d
@@ -104,6 +114,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "08C248547C882927"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -113,6 +124,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "30AFC427DA42969A"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -122,6 +134,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "701145106EE58C00"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -131,6 +144,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "7CEFB06A29B3A027"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -140,6 +154,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "3D97B8A058FF3D7D"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -149,6 +164,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "11402D5523F0BF05"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -158,6 +174,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "55CCBCBE20665C38"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -167,6 +184,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "69BF94445D491AEF"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -176,6 +194,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "1FF9E1182F42C594"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -185,6 +204,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "254F1855433495C5"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -194,6 +214,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "135DB24DB68CE80F"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -203,6 +224,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "21781FED2B4A1698"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -212,6 +234,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "33AF3A867AF12745"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -221,6 +244,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "76875E4386CE16F7"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -230,6 +254,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "23EBE4E56278A8A1"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -238,6 +263,7 @@
 		}
 		{
 			height: 1.5d
+			id: "469A5068CCD830D2"
 			image: "ftb:textures/quests/ftb_shop/ftb_shop_others.png"
 			rotation: 0.0d
 			width: 5.5d
@@ -247,6 +273,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "197446B739186E34"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -256,6 +283,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "11EEABD8A1178027"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -265,6 +293,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "3D56D4DBD68E3FFB"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -274,6 +303,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "70550EEC19A554E1"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d
@@ -283,6 +313,7 @@
 		{
 			alpha: 150
 			height: 0.75d
+			id: "2EEAEA8CB5CC7091"
 			image: "minecraft:block/break/white_candle_lit"
 			rotation: 0.0d
 			width: 7.5d

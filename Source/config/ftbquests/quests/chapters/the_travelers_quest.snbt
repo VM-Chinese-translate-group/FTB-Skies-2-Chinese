@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "099F97D2557E3F19"
 			image: "minecraft:textures/entity/end_portal.png"
 			rotation: 45.0d
 			width: 1.0d
@@ -23,6 +24,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1F50F607494392CF"
 			image: "minecraft:block/lava_still"
 			rotation: 45.0d
 			width: 1.0d
@@ -31,6 +33,7 @@
 		}
 		{
 			height: 4.0d
+			id: "709FF2B8BDA9F240"
 			image: "ftb:textures/quests/titles_and_logos/travelers_quest_logo.png"
 			order: -1
 			rotation: 0.0d
@@ -41,6 +44,7 @@
 		{
 			alpha: 100
 			height: 4.0d
+			id: "2CEF969454768362"
 			image: "cataclysm:textures/entity/flame_strike_sigil.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -50,6 +54,7 @@
 		{
 			alpha: 100
 			height: 1.6d
+			id: "239591A97FD77A30"
 			image: "irons_spellbooks:textures/entity/acid_orb/acid_orb.png"
 			rotation: 45.0d
 			width: 1.6d
@@ -59,6 +64,7 @@
 		{
 			alpha: 100
 			height: 2.5d
+			id: "16E718C897A09935"
 			image: "irons_spellbooks:block/cinderous_soul_rune"
 			order: -9
 			rotation: 0.0d
@@ -69,6 +75,7 @@
 		{
 			alpha: 100
 			height: 5.0d
+			id: "162A5B327AA15C25"
 			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle1.png"
 			order: -9
 			rotation: 0.0d
@@ -80,6 +87,7 @@
 			alpha: 100
 			color: 5636095
 			height: 6.0d
+			id: "7EAB178A70D057F8"
 			image: "malum:item/geas/pact_of_the_berserker"
 			order: -10
 			rotation: 0.0d
@@ -89,6 +97,7 @@
 		}
 		{
 			height: 1.4d
+			id: "374AC02E5B170CA4"
 			image: "malum:textures/mob_effect/rejected.png"
 			rotation: 0.0d
 			width: 1.4d
