@@ -11,9 +11,9 @@
 	id: "7B3ADCA4950CB4F0"
 	images: [
 		{
-			click: "https://moddedmc.wiki/en/project/oritech/latest/docs/particle_accelerator"
+			click_action: "open_uri:https://moddedmc.wiki/en/project/oritech/latest/docs/particle_accelerator"
 			height: 1.0d
-			hover: ["粒子加速器Wiki"]
+			id: "725BE9F87457D65D"
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -22,6 +22,7 @@
 		}
 		{
 			height: 2.0d
+			id: "09A413B7F97B2911"
 			image: "oritech:block/nickel_plating_block/center"
 			order: 1
 			rotation: 45.0d
@@ -31,6 +32,7 @@
 		}
 		{
 			height: 4.0d
+			id: "0750F0EA1840CD93"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 0.0d
 			width: 4.0d
@@ -39,6 +41,7 @@
 		}
 		{
 			height: 2.0d
+			id: "46FF7C34350ADA6E"
 			image: "oritech:block/nickel_plating_block/center"
 			rotation: 0.0d
 			width: 2.0d
@@ -47,6 +50,7 @@
 		}
 		{
 			height: 1.5d
+			id: "00EC552C261830B4"
 			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
 			order: -1
 			rotation: 45.0d
@@ -55,9 +59,9 @@
 			y: 4.0d
 		}
 		{
-			click: "https://moddedmc.org/en/project/oritech/docs"
+			click_action: "open_uri:https://moddedmc.org/en/project/oritech/docs"
 			height: 5.0d
-			hover: ["Oritech Wiki"]
+			id: "37E075D251B2DEE1"
 			image: "ftb:textures/quests/oritechlogo.png"
 			rotation: 0.0d
 			width: 9.580152671755725d
@@ -66,6 +70,7 @@
 		}
 		{
 			height: 1.5d
+			id: "15D8D2A5BC0E8179"
 			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
 			order: -1
 			rotation: 45.0d
@@ -74,9 +79,9 @@
 			y: -11.5d
 		}
 		{
-			click: "https://moddedmc.wiki/en/project/oritech/latest/docs/reactor/introduction"
+			click_action: "open_uri:https://moddedmc.wiki/en/project/oritech/latest/docs/reactor/introduction"
 			height: 1.0d
-			hover: ["核反应堆Wiki"]
+			id: "1277FDBE09D03DC1"
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -85,6 +90,7 @@
 		}
 		{
 			height: 4.0d
+			id: "2D128866AC2640B7"
 			image: "ftb:textures/quests/titles_and_logos/oritech_logo_blockthing.png"
 			rotation: 0.0d
 			width: 4.0d

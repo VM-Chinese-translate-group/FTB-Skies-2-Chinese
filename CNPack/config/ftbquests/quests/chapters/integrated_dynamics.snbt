@@ -11,6 +11,7 @@
 	id: "6A58A6F56CD199A3"
 	images: [{
 		height: 4.0d
+		id: "366F20075B63BE15"
 		image: "ftb:textures/quests/titles_and_logos/integrated_dynamics_logo.png"
 		rotation: 0.0d
 		width: 7.0d

@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "3873C948AC0DEE36"
 			image: "functionalstorage:item/copper_upgrade"
 			rotation: 0.0d
 			width: 1.0d
@@ -23,6 +24,7 @@
 		}
 		{
 			height: 1.5d
+			id: "1EF1C4C423D3F853"
 			image: "sophisticatedstorage:block/gold_barrel_bottom"
 			order: 1
 			rotation: 45.0d
@@ -32,6 +34,7 @@
 		}
 		{
 			height: 2.5d
+			id: "7C9788F68629532E"
 			image: "minecraft:block/glass"
 			order: -6
 			rotation: 45.0d
@@ -41,6 +44,7 @@
 		}
 		{
 			height: 1.5d
+			id: "201AA98E6E3B7F52"
 			image: "chipped:block/barrel/oak_barrel_bottom"
 			rotation: 45.0d
 			width: 1.5d
@@ -49,6 +53,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6A70C971E2FA3E36"
 			image: "functionalstorage:block/framed_side"
 			order: -1
 			rotation: 0.0d
@@ -58,6 +63,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2DC9A0CDCD6643F7"
 			image: "functionalstorage:block/controller_front"
 			order: -1
 			rotation: 0.0d
@@ -67,6 +73,7 @@
 		}
 		{
 			height: 2.0d
+			id: "4332FFC025FE8B17"
 			image: "xycraft_override:block/connected/glass_single"
 			rotation: 45.0d
 			width: 2.0d
@@ -75,6 +82,7 @@
 		}
 		{
 			height: 2.0d
+			id: "636C7ED8587948E9"
 			image: "xycraft_override:block/connected/glass_single"
 			rotation: 45.0d
 			width: 2.0d
@@ -83,6 +91,7 @@
 		}
 		{
 			height: 3.0d
+			id: "2BFC8490638F42B0"
 			image: "ftb:textures/quests/titles_and_logos/storage_text.png"
 			rotation: 0.0d
 			width: 8.892857142857142d
@@ -91,6 +100,7 @@
 		}
 		{
 			height: 1.5d
+			id: "72C50B1DEFC6D64C"
 			image: "ftb:textures/quests/chest.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -99,6 +109,7 @@
 		}
 		{
 			height: 1.5d
+			id: "5825426780B98D44"
 			image: "ftb:textures/quests/chestflipped.png"
 			rotation: 0.0d
 			width: 1.5d

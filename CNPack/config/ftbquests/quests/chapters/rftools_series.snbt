@@ -13,6 +13,7 @@
 		{
 			color: 11184810
 			height: 11.0d
+			id: "0844EABE1D5D30AC"
 			image: "rftoolsbase:block/base/machineside"
 			order: -9
 			rotation: 0.0d
@@ -23,6 +24,7 @@
 		{
 			color: 2236962
 			height: 11.0d
+			id: "47E3FDEAEC59EC46"
 			image: "rftoolspower:block/coalgenerator_glow"
 			order: -5
 			rotation: 180.0d
@@ -32,6 +34,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5532136989737241"
 			image: "xnet:block/cable0/normal_three_netcable"
 			rotation: 0.0d
 			width: 1.0d
@@ -40,6 +43,7 @@
 		}
 		{
 			height: 1.0d
+			id: "675C2C78A00EAA5A"
 			image: "xnet:block/cable0/normal_none_netcable"
 			rotation: 0.0d
 			width: 1.0d
@@ -48,6 +52,7 @@
 		}
 		{
 			height: 1.0d
+			id: "09160ACFC3B95002"
 			image: "xnet:block/cable0/normal_none_netcable"
 			rotation: 0.0d
 			width: 1.0d
@@ -56,6 +61,7 @@
 		}
 		{
 			height: 1.0d
+			id: "21E2D6115F27DCE2"
 			image: "xnet:block/cable0/normal_none_netcable"
 			rotation: 0.0d
 			width: 1.0d
@@ -64,6 +70,7 @@
 		}
 		{
 			height: 1.0d
+			id: "58C59609803D1A79"
 			image: "xnet:block/cable0/normal_none_netcable"
 			rotation: 0.0d
 			width: 1.0d
@@ -72,6 +79,7 @@
 		}
 		{
 			height: 1.0d
+			id: "18D11DE1B3F79145"
 			image: "xnet:block/cable0/normal_none_netcable"
 			rotation: 0.0d
 			width: 1.0d
@@ -80,6 +88,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6664BB90641CD6A4"
 			image: "xnet:block/cable0/normal_none_netcable"
 			rotation: 0.0d
 			width: 1.0d
@@ -88,6 +97,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4B089BD63B88C4F2"
 			image: "xnet:block/cable0/normal_none_netcable"
 			rotation: 0.0d
 			width: 1.0d
@@ -96,6 +106,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1C480F66640A6F29"
 			image: "xnet:block/cable0/normal_none_netcable"
 			rotation: 0.0d
 			width: 1.0d
@@ -104,6 +115,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4C8B8CC9450C2C66"
 			image: "xnet:block/cable0/normal_none_netcable"
 			rotation: 0.0d
 			width: 1.0d
@@ -112,6 +124,7 @@
 		}
 		{
 			height: 1.0d
+			id: "48538D7DCEDCA12F"
 			image: "xnet:block/cable0/normal_three_netcable"
 			rotation: -90.0d
 			width: 1.0d
@@ -120,6 +133,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4B0F90EAFF40DEBF"
 			image: "xnet:block/cable0/normal_three_netcable"
 			rotation: 180.0d
 			width: 1.0d
@@ -128,6 +142,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7A3497795F8A14B4"
 			image: "xnet:block/cable0/normal_three_netcable"
 			rotation: 90.0d
 			width: 1.0d

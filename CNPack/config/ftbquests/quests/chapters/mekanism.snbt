@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 4.0d
+			id: "469132F2A174AEBC"
 			image: "ftb:textures/quests/mekanism/mekanismlogo.png"
 			rotation: 0.0d
 			width: 10.345991561181435d
@@ -23,6 +24,7 @@
 		}
 		{
 			height: 2.0d
+			id: "4E11996500D610D2"
 			image: "mekanism:block/painting_machine/back"
 			rotation: 0.0d
 			width: 2.0d
@@ -31,6 +33,7 @@
 		}
 		{
 			height: 2.0d
+			id: "191408F3BB9488F8"
 			image: "mekanism:block/induction_port_output_led"
 			rotation: 45.0d
 			width: 2.0d
@@ -39,6 +42,7 @@
 		}
 		{
 			height: 2.0d
+			id: "23C3A3C68EF4F593"
 			image: "mekanism:block/induction_port_output_led"
 			rotation: 45.0d
 			width: 2.0d
@@ -47,6 +51,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6396AFD8533AFBF8"
 			image: "mekanism:block/bio_fuel_block_top"
 			rotation: 0.0d
 			width: 1.0d
@@ -55,6 +60,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3B4F81E98F0E42EC"
 			image: "ae2:block/controller_powered"
 			rotation: 45.0d
 			width: 1.0d
@@ -63,6 +69,7 @@
 		}
 		{
 			height: 1.0d
+			id: "414A621A666CDC2C"
 			image: "ae2:block/controller_powered"
 			rotation: 45.0d
 			width: 1.0d
@@ -73,6 +80,7 @@
 			alpha: 200
 			color: 5636095
 			height: 1.0d
+			id: "0D3B5C7D3F2FFBE2"
 			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
 			order: -1
 			rotation: 45.0d
@@ -84,6 +92,7 @@
 			alpha: 150
 			color: 43690
 			height: 5.0d
+			id: "6B4E8C60DDF5AFBC"
 			image: "mekanism:block/overlay/overlay_white"
 			order: -1
 			rotation: 0.0d
@@ -93,7 +102,7 @@
 		}
 		{
 			height: 3.0d
-			hover: ["裂变反应堆与工业涡轮"]
+			id: "051A5394662D29CB"
 			image: "ftb:textures/quests/mekanism/fission_bros.png"
 			rotation: 0.0d
 			width: 4.5d
@@ -102,7 +111,7 @@
 		}
 		{
 			height: 4.0d
-			hover: ["SPS与聚变反应堆"]
+			id: "0F1710AD7351D70B"
 			image: "ftb:textures/quests/mekanism/polonium_snowman.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -111,7 +120,7 @@
 		}
 		{
 			height: 3.5d
-			hover: ["能量感应矩阵"]
+			id: "7EF71735F44C4CA8"
 			image: "ftb:textures/quests/mekanism/induction.png"
 			rotation: 0.0d
 			width: 3.3373173970783534d
@@ -120,6 +129,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4F401DA10BD8FFED"
 			image: "ae2:block/controller_powered"
 			rotation: 45.0d
 			width: 1.0d
@@ -128,6 +138,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0BB6A08EC351609D"
 			image: "ae2:block/controller_powered"
 			rotation: 45.0d
 			width: 1.0d
@@ -136,6 +147,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7DB941DA9BF6BE65"
 			image: "ae2:block/controller_powered"
 			rotation: 45.0d
 			width: 1.0d

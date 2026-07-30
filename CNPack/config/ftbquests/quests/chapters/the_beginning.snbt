@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 3.0d
+			id: "42EF8AEFFD283B30"
 			image: "minecraft:block/stripped_spruce_log_top"
 			rotation: 0.0d
 			width: 3.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 1.0d
+			id: "25B253F123BF01F6"
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 45.0d
 			width: 1.0d
@@ -29,6 +31,7 @@
 		{
 			color: 5592575
 			height: 1.0d
+			id: "5B042D338D03A031"
 			image: "minecraft:block/water_still"
 			order: -1
 			rotation: 45.0d
@@ -38,6 +41,7 @@
 		}
 		{
 			height: 2.0d
+			id: "66379CF47F34FB51"
 			image: "xycraft_world:block/connected/lamp_rgb_glowing_single"
 			rotation: 0.0d
 			width: 2.0d
@@ -46,6 +50,7 @@
 		}
 		{
 			height: 2.5d
+			id: "40A22FB4210FA6C5"
 			image: "minecraft:block/stripped_spruce_log_top"
 			rotation: 45.0d
 			width: 2.5d
@@ -54,6 +59,7 @@
 		}
 		{
 			height: 2.0d
+			id: "18EF2403EA597D1A"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 0.0d
 			width: 2.0d
@@ -63,6 +69,7 @@
 		{
 			color: 5592575
 			height: 1.0d
+			id: "350A14B717925EC2"
 			image: "minecraft:block/water_still"
 			order: -1
 			rotation: 0.0d
@@ -72,6 +79,7 @@
 		}
 		{
 			height: 1.25d
+			id: "7780FAFF8646FA24"
 			image: "minecraft:block/cobblestone"
 			rotation: 0.0d
 			width: 1.25d
@@ -80,6 +88,7 @@
 		}
 		{
 			height: 2.0d
+			id: "205C2150FB133073"
 			image: "minecraft:block/spruce_log_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -88,6 +97,7 @@
 		}
 		{
 			height: 10.0d
+			id: "53709B8F4E91DDA6"
 			image: "ftb:textures/quests/enderdragon.png"
 			rotation: 0.0d
 			width: 19.4d
@@ -96,6 +106,7 @@
 		}
 		{
 			height: 4.0d
+			id: "59B53DFA8A41D791"
 			image: "ftb:textures/quests/titles_and_logos/getting_started_title.png"
 			rotation: 0.0d
 			width: 9.645933014354068d

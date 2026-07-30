@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "3B6429C50A6FB9D4"
 			image: "modern_industrialization:block/bronze_machine_casing"
 			rotation: 45.0d
 			width: 2.0d
@@ -20,7 +21,7 @@
 		}
 		{
 			height: 7.0d
-			hover: ["蒸汽高炉"]
+			id: "259676C562F34FEF"
 			image: "ftb:textures/quests/modern_industrialization/steamblastfurnace.png"
 			rotation: 0.0d
 			width: 5.3637621023513145d
@@ -29,6 +30,7 @@
 		}
 		{
 			height: 2.5d
+			id: "10C3EDE6DD0BF5A6"
 			image: "ftbquests:tasks/tank"
 			order: 1
 			rotation: 0.0d
@@ -38,6 +40,7 @@
 		}
 		{
 			height: 2.5d
+			id: "3B185DE5E83731D8"
 			image: "modern_industrialization:fluid/synthetic_oil_still"
 			rotation: 0.0d
 			width: 2.5d
@@ -46,6 +49,7 @@
 		}
 		{
 			height: 2.0d
+			id: "04F9839354E18DF9"
 			image: "minecraft:block/cauldron_top"
 			rotation: 45.0d
 			width: 2.0d
@@ -54,7 +58,7 @@
 		}
 		{
 			height: 10.0d
-			hover: ["钢铁采石机"]
+			id: "560C9B3A6E9287A6"
 			image: "ftb:textures/quests/modern_industrialization/steelquarry.png"
 			rotation: 0.0d
 			width: 7.187096774193549d
@@ -63,7 +67,7 @@
 		}
 		{
 			height: 4.0d
-			hover: ["蒸汽锅炉"]
+			id: "42A5E655951B2B7B"
 			image: "ftb:textures/quests/modern_industrialization/largesteamboiler.png"
 			rotation: 0.0d
 			width: 3.211267605633803d
@@ -72,7 +76,7 @@
 		}
 		{
 			height: 5.0d
-			hover: ["自定义多方块储罐！"]
+			id: "1E8BDEBCD179FF71"
 			image: "ftb:textures/quests/modern_industrialization/largesteeltank.png"
 			rotation: 0.0d
 			width: 4.872773536895674d
@@ -81,6 +85,7 @@
 		}
 		{
 			height: 2.5d
+			id: "7A3FED904E5B57D0"
 			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
 			width: 2.5d
@@ -89,6 +94,7 @@
 		}
 		{
 			height: 2.5d
+			id: "5DA832464319CE3C"
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 2.5d
@@ -97,6 +103,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2BAB48098C5D97FA"
 			image: "minecraft:textures/gui/sprites/widget/slot_frame.png"
 			order: 1
 			rotation: 0.0d
@@ -106,6 +113,7 @@
 		}
 		{
 			height: 1.0d
+			id: "287A28F6C5740F79"
 			image: "modern_industrialization:fluid/steam_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -114,6 +122,7 @@
 		}
 		{
 			height: 1.0d
+			id: "060B39CA2DCFB216"
 			image: "modern_industrialization:block/machines/oil_drilling_rig/overlay_front_active"
 			order: 1
 			rotation: 0.0d
@@ -123,6 +132,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1C8720C119486507"
 			image: "modern_industrialization:block/steel_machine_casing"
 			rotation: 0.0d
 			width: 1.0d
@@ -131,6 +141,7 @@
 		}
 		{
 			height: 1.0d
+			id: "00A0B9A991A06A48"
 			image: "modern_industrialization:fluid/diesel_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -139,6 +150,7 @@
 		}
 		{
 			height: 1.0d
+			id: "494D3ACC57B0E600"
 			image: "modern_industrialization:fluid/ethanol_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -147,6 +159,7 @@
 		}
 		{
 			height: 1.0d
+			id: "65D224C3E0F7429C"
 			image: "modern_industrialization:fluid/ethylene_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -155,6 +168,7 @@
 		}
 		{
 			height: 1.0d
+			id: "057390150376CB7C"
 			image: "modern_industrialization:fluid/ethylene_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -163,6 +177,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5B0D05E3FD0EF4E6"
 			image: "modern_industrialization:fluid/chlorine_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -171,6 +186,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7E4546A5A543D32E"
 			image: "modern_industrialization:fluid/hydrochloric_acid_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -180,6 +196,7 @@
 		{
 			color: 11184810
 			height: 1.0d
+			id: "510E922AAE9F04D8"
 			image: "modern_industrialization:block/stainless_steel_block"
 			rotation: 0.0d
 			width: 1.0d
@@ -188,6 +205,7 @@
 		}
 		{
 			height: 2.0d
+			id: "5BB6E07B278A6621"
 			image: "ae2:block/molecular_assembler_lights"
 			rotation: 0.0d
 			width: 2.0d
@@ -196,6 +214,7 @@
 		}
 		{
 			height: 2.0d
+			id: "4D94D3FE2161BDD0"
 			image: "ae2:block/molecular_assembler_lights"
 			rotation: 45.0d
 			width: 2.0d
@@ -204,6 +223,7 @@
 		}
 		{
 			height: 1.5d
+			id: "7F1B7753FCA61F50"
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 1.5d
@@ -212,6 +232,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6E3AFDCFF318CF8B"
 			image: "modern_industrialization:fluid/shale_oil_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -220,6 +241,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1A330E28D7D486E4"
 			image: "modern_industrialization:fluid/platinum_sulfuric_solution_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -228,6 +250,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2B26EEC969D7742D"
 			image: "modern_industrialization:fluid/cryofluid_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -236,6 +259,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1E130ED373D648F0"
 			image: "modern_industrialization:fluid/sulfuric_naphtha_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -244,6 +268,7 @@
 		}
 		{
 			height: 1.0d
+			id: "08221E093D930BD1"
 			image: "modern_industrialization:fluid/sulfuric_crude_oil_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -252,6 +277,7 @@
 		}
 		{
 			height: 1.0d
+			id: "18281E08843FFC82"
 			image: "modern_industrialization:fluid/oxygen_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -260,6 +286,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6F7936545FD79E5C"
 			image: "modern_industrialization:fluid/propene_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -268,6 +295,7 @@
 		}
 		{
 			height: 1.0d
+			id: "111EA859CB6431FC"
 			image: "modern_industrialization:fluid/steam_cracked_naphtha_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -276,6 +304,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3572AB920B6F7180"
 			image: "modern_industrialization:fluid/ethanol_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -284,6 +313,7 @@
 		}
 		{
 			height: 1.0d
+			id: "228BF5BFBC75CA48"
 			image: "modern_industrialization:fluid/diethyl_ether_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -292,6 +322,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2DA50E2F646B1FAF"
 			image: "modern_industrialization:fluid/acrylic_acid_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -300,6 +331,7 @@
 		}
 		{
 			height: 1.0d
+			id: "297914CD3DD6502F"
 			image: "modern_industrialization:fluid/acetylene_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -308,6 +340,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0A3D79E3F61E2C39"
 			image: "modern_industrialization:fluid/vinyl_chloride_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -316,6 +349,7 @@
 		}
 		{
 			height: 1.0d
+			id: "690CB8B3090BE90A"
 			image: "modern_industrialization:fluid/polyvinyl_chloride_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -324,6 +358,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7BE502A6E0E37547"
 			image: "modern_industrialization:fluid/toluene_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -332,6 +367,7 @@
 		}
 		{
 			height: 1.0d
+			id: "778D10CFDA7E037F"
 			image: "modern_industrialization:fluid/butadiene_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -340,6 +376,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1F3B3DA98CADA2DE"
 			image: "modern_industrialization:fluid/ethylbenzene_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -348,6 +385,7 @@
 		}
 		{
 			height: 1.0d
+			id: "69945DD8D77F7A38"
 			image: "modern_industrialization:fluid/styrene_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -356,6 +394,7 @@
 		}
 		{
 			height: 1.0d
+			id: "43EC559D96E844F8"
 			image: "modern_industrialization:fluid/styrene_butadiene_rubber_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -364,6 +403,7 @@
 		}
 		{
 			height: 1.0d
+			id: "00BDD97491D3594F"
 			image: "modern_industrialization:fluid/styrene_butadiene_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -372,6 +412,7 @@
 		}
 		{
 			height: 1.96d
+			id: "50BC135F25A224BE"
 			image: "ae2:block/crafting/monitor"
 			order: 1
 			rotation: 45.0d
@@ -382,6 +423,7 @@
 		{
 			color: 11776947
 			height: 2.15d
+			id: "41E3FB98AB510E75"
 			image: "minecraft:block/glass"
 			rotation: 45.0d
 			width: 2.15d
@@ -390,6 +432,7 @@
 		}
 		{
 			height: 2.0d
+			id: "33DF4186C0D3E3F1"
 			image: "modern_industrialization:block/machines/nuclear_reactor/overlay_front_active"
 			rotation: 0.0d
 			width: 2.0d
@@ -398,6 +441,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3AD039A25D3BEFE4"
 			image: "modern_industrialization:fluid/deuterium_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -406,6 +450,7 @@
 		}
 		{
 			height: 1.0d
+			id: "06EFA4FEF7EF8001"
 			image: "modern_industrialization:fluid/tritium_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -415,6 +460,7 @@
 		{
 			alpha: 150
 			height: 1.75d
+			id: "37A21B33D4B4C60A"
 			image: "minecraft:block/fire_0"
 			order: -5
 			rotation: 0.0d
@@ -425,6 +471,7 @@
 		{
 			alpha: 65
 			height: 8.0d
+			id: "30D29FD85BA7A2BA"
 			image: "ftb:textures/quests/modern_industrialization/galaxy.png"
 			rotation: 0.0d
 			width: 13.237333333333334d
@@ -433,6 +480,7 @@
 		}
 		{
 			height: 1.0d
+			id: "693540D415EAC3F2"
 			image: "minecraft:block/nether_portal"
 			rotation: 0.0d
 			width: 1.0d
@@ -441,6 +489,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0C533F08D870D1FC"
 			image: "modern_industrialization:fluid/helium_plasma_still"
 			rotation: 45.0d
 			width: 1.0d
@@ -450,6 +499,7 @@
 		{
 			color: 0
 			height: 1.0d
+			id: "752BB847251C1A72"
 			image: "minecraft:block/glass"
 			rotation: 45.0d
 			width: 1.0d
@@ -458,6 +508,7 @@
 		}
 		{
 			height: 1.0d
+			id: "668E30EC11AEF890"
 			image: "modern_industrialization:fluid/uu_matter_still"
 			rotation: 45.0d
 			width: 1.0d
@@ -467,6 +518,7 @@
 		{
 			color: 0
 			height: 1.0d
+			id: "1FBBBAA8B5CD1217"
 			image: "minecraft:block/glass"
 			rotation: 45.0d
 			width: 1.0d
@@ -476,6 +528,7 @@
 		{
 			color: 0
 			height: 1.0d
+			id: "1D34DA3846CCF202"
 			image: "minecraft:block/glass"
 			rotation: 0.0d
 			width: 1.0d
@@ -485,6 +538,7 @@
 		{
 			color: 0
 			height: 2.5d
+			id: "634A4FB19760A830"
 			image: "minecraft:block/glass"
 			order: 2
 			rotation: 0.0d
@@ -494,6 +548,7 @@
 		}
 		{
 			height: 2.5d
+			id: "3AB99708BD1B4740"
 			image: "minecraft:textures/entity/end_portal.png"
 			order: 1
 			rotation: 0.0d
@@ -503,6 +558,7 @@
 		}
 		{
 			height: 1.5d
+			id: "1A291658EDA1E85C"
 			image: "factory_blocks:block/fan/medium_fan"
 			rotation: 0.0d
 			width: 1.5d
@@ -512,6 +568,7 @@
 		{
 			color: 6710886
 			height: 2.0d
+			id: "3C4EBD6BD9F5F5FB"
 			image: "minecraft:block/gold_block"
 			rotation: 45.0d
 			width: 2.0d
@@ -521,6 +578,7 @@
 		{
 			color: 11184810
 			height: 1.8d
+			id: "215CA21C9E8CC675"
 			image: "minecraft:block/cherry_log"
 			rotation: 45.0d
 			width: 1.8d
@@ -530,6 +588,7 @@
 		{
 			color: 11184810
 			height: 2.5d
+			id: "050A12073F0A7CA0"
 			image: "minecraft:block/crimson_stem_top"
 			rotation: 0.0d
 			width: 2.5d
@@ -539,6 +598,7 @@
 		{
 			color: 11141120
 			height: 1.75d
+			id: "0BC841C9571D9847"
 			image: "minecraft:block/fire_1"
 			order: -6
 			rotation: 0.0d
@@ -548,7 +608,7 @@
 		}
 		{
 			height: 5.0d
-			hover: ["现代工业化"]
+			id: "518B4DBAC8E65EBD"
 			image: "ftb:textures/quests/titles_and_logos/milogo.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -557,6 +617,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6B813D66AE23845D"
 			image: "modern_industrialization:fluid/boosted_diesel_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -565,6 +626,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3AC69F309549706C"
 			image: "modern_industrialization:fluid/ethylene_still"
 			rotation: 0.0d
 			width: 1.0d

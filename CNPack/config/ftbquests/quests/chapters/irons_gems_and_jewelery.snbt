@@ -13,6 +13,7 @@
 		{
 			color: 7490560
 			height: 2.5d
+			id: "492368E0EBC952B1"
 			image: "irons_jewelry:textures/gui/sprites/jewelcrafting_station/input_slot.png"
 			rotation: 0.0d
 			width: 2.5d
@@ -22,6 +23,7 @@
 		{
 			color: 7490560
 			height: 2.5d
+			id: "14283DA5B4C52333"
 			image: "irons_jewelry:textures/gui/sprites/jewelcrafting_station/input_slot.png"
 			rotation: 45.0d
 			width: 2.5d
@@ -30,6 +32,7 @@
 		}
 		{
 			height: 0.8d
+			id: "77718E62A6814329"
 			image: "ftbmaterials:block/brass_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -38,6 +41,7 @@
 		}
 		{
 			height: 0.8d
+			id: "22BA43803EA98E79"
 			image: "ftbmaterials:block/lead_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -46,6 +50,7 @@
 		}
 		{
 			height: 0.8d
+			id: "5AA43816BA4965E4"
 			image: "irons_spellbooks:block/arcane_anvil"
 			rotation: 45.0d
 			width: 0.8d
@@ -54,6 +59,7 @@
 		}
 		{
 			height: 0.8d
+			id: "6401FDE6E3A1A91F"
 			image: "ftbmaterials:block/silver_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -62,6 +68,7 @@
 		}
 		{
 			height: 0.8d
+			id: "1481F575EB4B7D9D"
 			image: "minecraft:block/netherite_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -70,6 +77,7 @@
 		}
 		{
 			height: 0.8d
+			id: "16960306E48F5576"
 			image: "cataclysm:block/ancient_metal_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -78,6 +86,7 @@
 		}
 		{
 			height: 0.8d
+			id: "3180B50449ECC8AE"
 			image: "ftbmaterials:block/dimensional_shard_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -86,6 +95,7 @@
 		}
 		{
 			height: 0.8d
+			id: "6FD0132D0FA5AFEC"
 			image: "ftbmaterials:block/platinum_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -94,6 +104,7 @@
 		}
 		{
 			height: 0.8d
+			id: "77C5786670165EFD"
 			image: "minecraft:block/gold_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -102,6 +113,7 @@
 		}
 		{
 			height: 0.8d
+			id: "135240175FD756D3"
 			image: "ftbmaterials:block/bronze_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -110,6 +122,7 @@
 		}
 		{
 			height: 0.8d
+			id: "1EF71B6AB566B21C"
 			image: "minecraft:block/iron_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -118,6 +131,7 @@
 		}
 		{
 			height: 0.8d
+			id: "2143BCADBBF8CA6C"
 			image: "minecraft:block/copper_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -126,6 +140,7 @@
 		}
 		{
 			height: 0.8d
+			id: "3E0087E79E78835E"
 			image: "minecraft:block/netherite_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -135,6 +150,7 @@
 		{
 			color: 16777045
 			height: 0.8d
+			id: "66685553FA8343A3"
 			image: "minecraft:block/gold_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -143,6 +159,7 @@
 		}
 		{
 			height: 0.8d
+			id: "424E87AAD3019E2F"
 			image: "minecraft:block/diamond_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -151,6 +168,7 @@
 		}
 		{
 			height: 0.8d
+			id: "4E98DA57B594C624"
 			image: "ftbmaterials:block/ruby_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -159,6 +177,7 @@
 		}
 		{
 			height: 0.8d
+			id: "79C1F98AAD8702B2"
 			image: "minecraft:block/prismarine"
 			rotation: 45.0d
 			width: 0.8d
@@ -167,6 +186,7 @@
 		}
 		{
 			height: 0.8d
+			id: "247680FCCF03805A"
 			image: "silentgear:block/azure_silver_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -175,6 +195,7 @@
 		}
 		{
 			height: 0.8d
+			id: "28E5C4CF5E4A2D23"
 			image: "minecraft:block/emerald_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -183,6 +204,7 @@
 		}
 		{
 			height: 0.8d
+			id: "24E3D16196AC012C"
 			image: "minecraft:block/amethyst_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -191,6 +213,7 @@
 		}
 		{
 			height: 0.8d
+			id: "492CB60DBD2C2D1B"
 			image: "roots:block/moonstone"
 			rotation: 45.0d
 			width: 0.8d
@@ -199,6 +222,7 @@
 		}
 		{
 			height: 0.8d
+			id: "16182A915DA016AA"
 			image: "minecraft:block/lapis_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -207,6 +231,7 @@
 		}
 		{
 			height: 0.8d
+			id: "72021D95D46EFE63"
 			image: "actuallyadditions:block/empowered_emeradic_crystal_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -215,6 +240,7 @@
 		}
 		{
 			height: 0.8d
+			id: "201D105C3E6A0788"
 			image: "ftbmaterials:block/sapphire_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -223,6 +249,7 @@
 		}
 		{
 			height: 0.8d
+			id: "6A30ED0AB58845D4"
 			image: "appflux:block/charged_redstone_block"
 			rotation: 45.0d
 			width: 0.8d
@@ -231,6 +258,7 @@
 		}
 		{
 			height: 1.0d
+			id: "185820A133BE6460"
 			image: "irons_jewelry:textures/gui/sprites/jewelcrafting_station/lore_page.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -239,6 +267,7 @@
 		}
 		{
 			height: 2.0d
+			id: "4792A7BB3BE9B77D"
 			image: "irons_jewelry:textures/gui/sprites/jewelcrafting_station/input_slot.png"
 			order: -2
 			rotation: 45.0d
@@ -248,6 +277,7 @@
 		}
 		{
 			height: 2.0d
+			id: "55E256D757F643B0"
 			image: "irons_jewelry:textures/gui/sprites/jewelcrafting_station/input_slot.png"
 			order: -2
 			rotation: 45.0d
@@ -257,6 +287,7 @@
 		}
 		{
 			height: 1.0d
+			id: "510DD8FAF0AF3C92"
 			image: "irons_jewelry:textures/gui/sprites/jewelcrafting_station/lore_page.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -266,6 +297,7 @@
 		{
 			color: 3552822
 			height: 2.0d
+			id: "3D42BC586765DDD0"
 			image: "irons_jewelry:textures/gui/sprites/jewelcrafting_station/input_slot.png"
 			order: -2
 			rotation: 45.0d
@@ -276,6 +308,7 @@
 		{
 			color: 3552822
 			height: 2.0d
+			id: "6CF403238FFDCBC9"
 			image: "irons_jewelry:textures/gui/sprites/jewelcrafting_station/input_slot.png"
 			order: -2
 			rotation: 45.0d
@@ -286,6 +319,7 @@
 		{
 			color: 3552822
 			height: 0.8d
+			id: "797D3488EF927916"
 			image: "irons_jewelry:textures/gui/sprites/jewelcrafting_station/lore_page.png"
 			order: -1
 			rotation: 45.0d
@@ -296,6 +330,7 @@
 		{
 			color: 3552822
 			height: 0.8d
+			id: "29CF2ECC177C8EDE"
 			image: "irons_jewelry:textures/gui/sprites/jewelcrafting_station/lore_page.png"
 			order: -1
 			rotation: 45.0d
@@ -306,6 +341,7 @@
 		{
 			color: 3552822
 			height: 0.8d
+			id: "0E6C05CD96EE7018"
 			image: "irons_jewelry:textures/gui/sprites/jewelcrafting_station/lore_page.png"
 			order: -1
 			rotation: 45.0d

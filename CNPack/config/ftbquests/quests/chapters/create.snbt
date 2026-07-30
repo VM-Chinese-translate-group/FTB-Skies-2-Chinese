@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 5.25d
+			id: "4017C2545B5E70A8"
 			image: "ftb:textures/quests/create/train.png"
 			rotation: 0.0d
 			width: 7.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 5.0d
+			id: "39F12893018E4AE5"
 			image: "ftb:textures/quests/create/pipes.png"
 			rotation: 0.0d
 			width: 6.5d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.25d
+			id: "7081F59FC0099299"
 			image: "ftb:textures/quests/create/placard.png"
 			rotation: 0.0d
 			width: 1.25d
@@ -36,6 +39,7 @@
 		}
 		{
 			height: 2.4d
+			id: "586A95F3F5FA9E68"
 			image: "ftb:textures/quests/create/panels.png"
 			rotation: 0.0d
 			width: 2.4d
@@ -44,6 +48,7 @@
 		}
 		{
 			height: 2.4d
+			id: "0393C935631646F3"
 			image: "ftb:textures/quests/create/panels.png"
 			rotation: 0.0d
 			width: 2.4d
@@ -52,6 +57,7 @@
 		}
 		{
 			height: 1.25d
+			id: "21195C222F702C95"
 			image: "ftb:textures/quests/create/placard.png"
 			rotation: 0.0d
 			width: 1.25d
@@ -60,6 +66,7 @@
 		}
 		{
 			height: 4.0d
+			id: "0390EFC673CE60C0"
 			image: "ftb:textures/quests/create/create.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -68,6 +75,7 @@
 		}
 		{
 			height: 6.5d
+			id: "7E37541D2547EC48"
 			image: "ftb:textures/quests/create/casings.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -76,6 +84,7 @@
 		}
 		{
 			height: 2.45d
+			id: "5B6C44ED5439DBA8"
 			image: "ftb:textures/quests/create/panels3x2.png"
 			rotation: 0.0d
 			width: 3.5d
@@ -84,6 +93,7 @@
 		}
 		{
 			height: 2.4d
+			id: "1D8AE739FB95E3E7"
 			image: "ftb:textures/quests/create/panels.png"
 			rotation: 0.0d
 			width: 2.4d
@@ -92,6 +102,7 @@
 		}
 		{
 			height: 2.4d
+			id: "2D2B0C4F49BEBF25"
 			image: "ftb:textures/quests/create/panels.png"
 			rotation: 0.0d
 			width: 2.4d
@@ -100,6 +111,7 @@
 		}
 		{
 			height: 1.25d
+			id: "774F9F83DAC1F8EF"
 			image: "ftb:textures/quests/create/placard.png"
 			rotation: 0.0d
 			width: 1.25d
@@ -108,6 +120,7 @@
 		}
 		{
 			height: 1.25d
+			id: "20BFC635701797EC"
 			image: "ftb:textures/quests/create/placard.png"
 			rotation: 0.0d
 			width: 1.25d
@@ -116,6 +129,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1FF5D95563780700"
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -124,6 +138,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1ABB05998627F2F3"
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -132,6 +147,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7A81321161B24618"
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -140,6 +156,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1F28C6D95F1937CB"
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -148,6 +165,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7766434943C4682F"
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -156,6 +174,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5B6E3E93F093A161"
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -164,6 +183,7 @@
 		}
 		{
 			height: 1.0d
+			id: "354C5FDB3A904627"
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d

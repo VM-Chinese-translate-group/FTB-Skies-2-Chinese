@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 7.0d
+			id: "25B3C7DDE664C61D"
 			image: "ftbquests:tasks/input_only"
 			order: -3
 			rotation: 0.0d
@@ -24,6 +25,7 @@
 		}
 		{
 			height: 2.0d
+			id: "09BCE34C70EC8A92"
 			image: "ftb:textures/quests/titles_and_logos/logistics_title.png"
 			rotation: 0.0d
 			width: 13.410526315789474d

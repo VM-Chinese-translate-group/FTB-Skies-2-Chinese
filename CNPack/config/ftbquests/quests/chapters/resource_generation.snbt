@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 1.5d
+			id: "0DBAED5F15D0CA5A"
 			image: "mysticalagriculture:block/inferium_gemstone_block"
 			rotation: 45.0d
 			width: 1.5d
@@ -23,6 +24,7 @@
 		}
 		{
 			height: 2.0d
+			id: "6B3283DB09319434"
 			image: "mysticalagriculture:block/supremium_gemstone_block"
 			rotation: 45.0d
 			width: 2.0d
@@ -31,6 +33,7 @@
 		}
 		{
 			height: 2.0d
+			id: "6E26B20A59387820"
 			image: "mysticalagriculture:block/imperium_gemstone_block"
 			rotation: 45.0d
 			width: 2.0d
@@ -39,6 +42,7 @@
 		}
 		{
 			height: 2.0d
+			id: "4D4D7FCE968FFA9D"
 			image: "mysticalagriculture:block/tertium_gemstone_block"
 			rotation: 45.0d
 			width: 2.0d
@@ -47,6 +51,7 @@
 		}
 		{
 			height: 2.0d
+			id: "6AFEBA0EEEECE898"
 			image: "mysticalagriculture:block/prudentium_gemstone_block"
 			rotation: 45.0d
 			width: 2.0d
@@ -56,6 +61,7 @@
 		{
 			alpha: 100
 			height: 2.0d
+			id: "40EF2F4B60268653"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 2.0d
@@ -65,6 +71,7 @@
 		{
 			alpha: 100
 			height: 2.0d
+			id: "78DBBCD65AEEB06A"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 2.0d
@@ -74,6 +81,7 @@
 		{
 			alpha: 100
 			height: 2.0d
+			id: "6A8E8E88C389C764"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 2.0d
@@ -83,6 +91,7 @@
 		{
 			alpha: 100
 			height: 2.0d
+			id: "53A1A629D42BF3AE"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			order: 1
 			rotation: 45.0d
@@ -93,6 +102,7 @@
 		{
 			alpha: 125
 			height: 3.0d
+			id: "42E4CFEE97663AA4"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 3.0d
@@ -102,6 +112,7 @@
 		{
 			alpha: 150
 			height: 3.0d
+			id: "68B9E56D35F9605A"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 3.0d
@@ -110,6 +121,7 @@
 		}
 		{
 			height: 3.0d
+			id: "11E6F3908AB72A36"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 3.0d
@@ -119,6 +131,7 @@
 		{
 			alpha: 100
 			height: 3.0d
+			id: "1F9B680B20C2C163"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 3.0d
@@ -127,6 +140,7 @@
 		}
 		{
 			height: 1.5d
+			id: "4C1AA73BA33FBD9A"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 1.5d
@@ -135,6 +149,7 @@
 		}
 		{
 			height: 1.5d
+			id: "780E0EF5E2C57108"
 			image: "productivebees:block/incubator/top"
 			rotation: 45.0d
 			width: 1.5d
@@ -144,6 +159,7 @@
 		{
 			color: 16777045
 			height: 1.5d
+			id: "5FA01E5F796087D6"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 1.5d
@@ -153,6 +169,7 @@
 		{
 			alpha: 200
 			height: 3.0d
+			id: "409BFB6D810A67F0"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 3.0d
@@ -162,6 +179,7 @@
 		{
 			alpha: 100
 			height: 2.0d
+			id: "1F25B4413CE58301"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 2.0d
@@ -170,6 +188,7 @@
 		}
 		{
 			height: 2.0d
+			id: "068A6011463EB164"
 			image: "mysticalagriculture:block/awakened_supremium_gemstone_block"
 			order: -1
 			rotation: 45.0d
@@ -179,6 +198,7 @@
 		}
 		{
 			height: 2.0d
+			id: "0B99F604C71CB88E"
 			image: "mysticalagradditions:block/insanium_gemstone_block"
 			rotation: 45.0d
 			width: 2.0d
@@ -188,6 +208,7 @@
 		{
 			alpha: 175
 			height: 3.0d
+			id: "07106F8017AA93DF"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 3.0d
@@ -197,6 +218,7 @@
 		{
 			alpha: 100
 			height: 2.0d
+			id: "2602D05F77DBA259"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			order: 1
 			rotation: 45.0d
@@ -206,6 +228,7 @@
 		}
 		{
 			height: 2.0d
+			id: "1927E742D708846E"
 			image: "sophisticatedstorage:block/diamond_barrel_bottom"
 			order: 1
 			rotation: 0.0d
@@ -215,6 +238,7 @@
 		}
 		{
 			height: 1.0d
+			id: "06EFA2EBDC11EF8D"
 			image: "minecraft:item/diamond"
 			rotation: 15.0d
 			width: 1.0d
@@ -223,6 +247,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5318A5E97EE27B6F"
 			image: "minecraft:item/emerald"
 			rotation: -15.0d
 			width: 1.0d
@@ -231,6 +256,7 @@
 		}
 		{
 			height: 1.0d
+			id: "549273CC9B35E053"
 			image: "productivebees:item/iron_bee"
 			rotation: 0.0d
 			width: 1.0d
@@ -240,6 +266,7 @@
 		{
 			color: 43520
 			height: 1.5d
+			id: "2CFE3372AC4CCFBB"
 			image: "productivetrees:block/time_traveller_display/top"
 			rotation: 0.0d
 			width: 1.5d
@@ -248,6 +275,7 @@
 		}
 		{
 			height: 5.0d
+			id: "2038A51520118CE6"
 			image: "ftb:textures/quests/productivebees/beesimage1.png"
 			rotation: 0.0d
 			width: 8.891752577319586d
@@ -256,6 +284,7 @@
 		}
 		{
 			height: 4.0d
+			id: "32755CF23DC3DB2D"
 			image: "ftb:textures/quests/productivebees/beeimage2.png"
 			rotation: 0.0d
 			width: 3.701694915254237d
@@ -264,6 +293,7 @@
 		}
 		{
 			height: 1.0d
+			id: "26315B152A217115"
 			image: "mysticalagradditions:item/withering_soul"
 			rotation: 0.0d
 			width: 1.0d
@@ -272,6 +302,7 @@
 		}
 		{
 			height: 1.0d
+			id: "28BA83911AF5C609"
 			image: "mysticalagradditions:item/withering_soul"
 			rotation: 0.0d
 			width: 1.0d
@@ -280,6 +311,7 @@
 		}
 		{
 			height: 1.0d
+			id: "58360DEFB189CDEA"
 			image: "mysticalagradditions:item/withering_soul"
 			rotation: 0.0d
 			width: 1.0d
@@ -288,6 +320,7 @@
 		}
 		{
 			height: 1.0d
+			id: "366BAA0A12430EFC"
 			image: "mysticalagradditions:item/dragon_scale"
 			rotation: 0.0d
 			width: 1.0d
@@ -296,6 +329,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2224AE9B2BBA3434"
 			image: "mysticalagradditions:item/dragon_scale"
 			rotation: 0.0d
 			width: 1.0d
@@ -304,6 +338,7 @@
 		}
 		{
 			height: 1.0d
+			id: "17455B651A7BB95D"
 			image: "mysticalagradditions:item/dragon_scale"
 			rotation: 0.0d
 			width: 1.0d
@@ -314,6 +349,7 @@
 			alpha: 200
 			color: 43520
 			height: 4.0d
+			id: "392171F9234D6785"
 			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
 			rotation: 0.0d
 			width: 4.0d

@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 7.0d
+			id: "5639D8E8728B91CA"
 			image: "ftb:textures/quests/silentgear/starlight_setup.png"
 			rotation: 0.0d
 			width: 9.345222929936305d
@@ -23,6 +24,7 @@
 		}
 		{
 			height: 2.0d
+			id: "71F04A7432F3E230"
 			image: "ftbquests:textures/shapes/hexagon/background.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -32,6 +34,7 @@
 		{
 			color: 12235775
 			height: 2.0d
+			id: "555E3745D1C88DCB"
 			image: "ftbquests:textures/shapes/hexagon/background.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -40,6 +43,7 @@
 		}
 		{
 			height: 0.75d
+			id: "5E32550FF669A946"
 			image: "silentgear:item/blaze_gold_dust"
 			rotation: 0.0d
 			width: 0.75d
@@ -48,6 +52,7 @@
 		}
 		{
 			height: 1.25d
+			id: "6B7B501E80BD7F3E"
 			image: "silentgear:block/alloy_forge_front"
 			rotation: 0.0d
 			width: 1.25d
@@ -56,6 +61,7 @@
 		}
 		{
 			height: 1.25d
+			id: "28542054258FB986"
 			image: "silentgear:block/salvager"
 			rotation: 0.0d
 			width: 1.25d
@@ -64,6 +70,7 @@
 		}
 		{
 			height: 1.25d
+			id: "48F967753E1A2282"
 			image: "silentgear:block/recrystallizer_side"
 			rotation: 0.0d
 			width: 1.25d
@@ -72,6 +79,7 @@
 		}
 		{
 			height: 2.0d
+			id: "73BBC91F147940E5"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 2.0d
@@ -80,6 +88,7 @@
 		}
 		{
 			height: 2.0d
+			id: "426B2550158B97DF"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 2.0d
@@ -88,6 +97,7 @@
 		}
 		{
 			height: 2.0d
+			id: "5654AEEC803CAB47"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 2.0d
@@ -96,6 +106,7 @@
 		}
 		{
 			height: 1.0d
+			id: "10E9BA5040D1A78D"
 			image: "silentgear:item/blueprint_katana"
 			rotation: 0.0d
 			width: 1.0d
@@ -104,6 +115,7 @@
 		}
 		{
 			height: 1.0d
+			id: "511A6B2A9B42114A"
 			image: "silentgear:item/blueprint_katana"
 			rotation: -88.0d
 			width: 1.0d
@@ -112,6 +124,7 @@
 		}
 		{
 			height: 1.0d
+			id: "61BE00A3757676A5"
 			image: "silentgear:item/blueprint_katana"
 			rotation: -88.0d
 			width: 1.0d
@@ -120,6 +133,7 @@
 		}
 		{
 			height: 1.0d
+			id: "26E18D524BEE7248"
 			image: "silentgear:item/blueprint_katana"
 			rotation: 0.0d
 			width: 1.0d
@@ -128,6 +142,7 @@
 		}
 		{
 			height: 1.0d
+			id: "342C1157BAA5EB78"
 			image: "silentgear:item/blueprint_shield"
 			rotation: 0.0d
 			width: 1.0d
@@ -136,6 +151,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5A2130FF0C399752"
 			image: "silentgear:item/azure_repair_kit"
 			rotation: 0.0d
 			width: 1.0d
@@ -144,6 +160,7 @@
 		}
 		{
 			height: 1.0d
+			id: "401312B397888FA5"
 			image: "silentgear:item/very_crude_repair_kit"
 			rotation: 0.0d
 			width: 1.0d
@@ -152,6 +169,7 @@
 		}
 		{
 			height: 5.0d
+			id: "6D82047068B73DFD"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -160,6 +178,7 @@
 		}
 		{
 			height: 2.0d
+			id: "7E3F0EB91264CB94"
 			image: "framedblocks:block/iron_plate_frame"
 			rotation: 45.0d
 			width: 2.0d
@@ -168,6 +187,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0215BABF0624A3EF"
 			image: "apotheosis:items/gems/royalty"
 			rotation: 0.0d
 			width: 1.0d
@@ -176,6 +196,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5D6FF10407037D8D"
 			image: "apotheosis:items/gems/endersurge"
 			rotation: 0.0d
 			width: 1.0d
@@ -184,6 +205,7 @@
 		}
 		{
 			height: 1.75d
+			id: "0D461A25695840D3"
 			image: "apotheosis:blocks/augmenting/top"
 			rotation: 0.0d
 			width: 1.75d
@@ -192,6 +214,7 @@
 		}
 		{
 			height: 1.75d
+			id: "3A7D0C1A2A75E2C1"
 			image: "apotheosis:blocks/reforging/table_top"
 			rotation: 0.0d
 			width: 1.75d
@@ -200,6 +223,7 @@
 		}
 		{
 			height: 2.0d
+			id: "6FDCF44A99F62F21"
 			image: "ftbchunks:textures/circle_mask.png"
 			order: -1
 			rotation: 45.0d
@@ -209,6 +233,7 @@
 		}
 		{
 			height: 2.0d
+			id: "42E51395C34B8EE0"
 			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
 			order: 1
 			rotation: 45.0d
@@ -218,6 +243,7 @@
 		}
 		{
 			height: 2.0d
+			id: "0DF4315E6A914D92"
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
 			width: 2.0d
@@ -227,6 +253,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "3C2961AAA2C3257B"
 			image: "minecraft:textures/gui/sprites/advancements/challenge_frame_obtained.png"
 			order: -1
 			rotation: 0.0d
@@ -237,6 +264,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "67E5AF3DAC6F528C"
 			image: "minecraft:textures/gui/sprites/advancements/challenge_frame_obtained.png"
 			order: -1
 			rotation: 0.0d
@@ -246,6 +274,7 @@
 		}
 		{
 			height: 1.0d
+			id: "416ADD2D1FD27B4E"
 			image: "apotheosis:items/gems/inferno"
 			rotation: 0.0d
 			width: 1.0d
@@ -255,6 +284,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "27209ACFA9EA0DA2"
 			image: "minecraft:textures/gui/sprites/advancements/goal_frame_obtained.png"
 			order: -1
 			rotation: 0.0d
@@ -264,6 +294,7 @@
 		}
 		{
 			height: 1.0d
+			id: "41349F2EED2BA3CB"
 			image: "apotheosis:items/gems/blood_lord"
 			rotation: 0.0d
 			width: 1.0d
@@ -273,6 +304,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "1AAAF5FA4A4C957E"
 			image: "minecraft:textures/gui/sprites/advancements/goal_frame_obtained.png"
 			order: -1
 			rotation: 0.0d
@@ -284,6 +316,7 @@
 			alpha: 200
 			color: 10637261
 			height: 4.0d
+			id: "1382DFF892852ED1"
 			image: "rftoolspower:block/endergenic/floatingsphere"
 			rotation: 0.0d
 			width: 4.0d
@@ -292,6 +325,7 @@
 		}
 		{
 			height: 4.0d
+			id: "3219C8EC14A05D75"
 			image: "cognition:block/cognitive_alloy_block"
 			rotation: 0.0d
 			width: 4.0d
@@ -301,6 +335,7 @@
 		{
 			alpha: 200
 			height: 3.0d
+			id: "719F1146951E2972"
 			image: "ftb:textures/quests/titles_and_logos/apoth_logo.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -309,6 +344,7 @@
 		}
 		{
 			height: 5.0d
+			id: "190AD80A9ABA1564"
 			image: "ftbquests:textures/shapes/diamond/outline.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -317,6 +353,7 @@
 		}
 		{
 			height: 2.0d
+			id: "03E91DE0E57F2612"
 			image: "bhc:item/blade_of_vitality"
 			rotation: 0.0d
 			width: 2.0d
@@ -325,6 +362,7 @@
 		}
 		{
 			height: 2.0d
+			id: "6C8332894407AD1E"
 			image: "bhc:item/vigor_bow"
 			rotation: -90.0d
 			width: 2.0d
