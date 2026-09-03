@@ -374,6 +374,8 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1BFDE3507411C116"]
+			hide_dependency_lines: true
 			icon: {
 				components: {
 					"ftbquests:icon": "silentgear:item/blueprint_package"
@@ -381,25 +383,15 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "78337B57A6D6AC08"
-			min_width: 250
-			rewards: [
-				{
-					id: "4B6AD0CAAB59166A"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
+			min_width: 300
+			rewards: [{
+				id: "4B6AD0CAAB59166A"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "7C962CD682605528"
-					item: {
-						count: 1
-						id: "silentgear:blueprint_package"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -437,6 +429,9 @@
 		}
 		{
 			dependencies: ["78337B57A6D6AC08"]
+			icon: {
+				id: "silentgear:iron_rod"
+			}
 			id: "35DAD5FF7B007310"
 			min_width: 300
 			rewards: [
@@ -465,8 +460,8 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "53F3B8015E90233B"
-				item: { count: 1, id: "ftbmaterials:iron_rod" }
+				id: "158554B2B5AA6B19"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sgearmetalworks:casts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -19.5d
@@ -474,6 +469,9 @@
 		}
 		{
 			dependencies: ["35DAD5FF7B007310"]
+			icon: {
+				id: "silentgear:tip_blueprint"
+			}
 			id: "3CEB99462830B35F"
 			min_width: 250
 			rewards: [
@@ -500,54 +498,22 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "0B991205A7523D3F"
-				item: { count: 1, id: "silentgear:tip_blueprint" }
-				type: "item"
-			}]
-			x: -18.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["35DAD5FF7B007310"]
-			icon: {
-				id: "silentgear:azure_repair_kit"
-			}
-			id: "466D603FACE8FDF5"
-			min_width: 250
-			rewards: [
+			tasks: [
 				{
-					count: 2
-					id: "7DCF5674A87C1290"
-					item: {
-						count: 1
-						id: "silentgear:blueprint_paper"
-					}
-					random_bonus: 2
+					id: "336DF68A7ACC291B"
+					item: { count: 1, id: "silentgear:tip_blueprint" }
+					optional_task: true
 					type: "item"
 				}
 				{
-					id: "4FB9BA28DE535F2B"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "346AF0D062444967"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
+					id: "0B991205A7523D3F"
+					item: { count: 1, id: "sgearmetalworks:tip_cast" }
+					optional_task: true
 					type: "item"
 				}
 			]
-			shape: "hexagon"
-			tasks: [{
-				id: "16643E9DD53BA701"
-				item: { components: { "ftbfiltersystem:filter": "or(item(silentgear:very_crude_repair_kit)item(silentgear:crude_repair_kit)item(silentgear:sturdy_repair_kit)item(silentgear:crimson_repair_kit)item(silentgear:azure_repair_kit))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
 			x: -18.5d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["35DAD5FF7B007310"]
@@ -566,27 +532,19 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "229F93762EA38374"
-					item: { count: 1, id: "silentgear:helmet_blueprint" }
+					id: "04D69739FB6F3677"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:sg_armor_blueprints)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 				{
-					id: "1D7C3C28B36E0037"
-					item: { count: 1, id: "silentgear:chestplate_blueprint" }
-					type: "item"
-				}
-				{
-					id: "359C9A973CABDB26"
-					item: { count: 1, id: "silentgear:leggings_blueprint" }
-					type: "item"
-				}
-				{
-					id: "1C50203171E2F5E5"
-					item: { count: 1, id: "silentgear:boots_blueprint" }
+					id: "700E38CFC101CC02"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:sg_armor_casts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 			]
-			x: -20.5d
+			x: -19.5d
 			y: 0.0d
 		}
 		{
@@ -640,6 +598,9 @@
 		{
 			dependencies: ["35DAD5FF7B007310"]
 			hide_dependency_lines: true
+			icon: {
+				id: "silentgear:spear_blueprint"
+			}
 			id: "227BF4C2E9500AE2"
 			rewards: [
 				{
@@ -657,17 +618,29 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "59EEA6EB65D829EA"
-				item: { count: 1, id: "silentgear:spear_blueprint" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "59EEA6EB65D829EA"
+					item: { count: 1, id: "silentgear:spear_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C717C7228EE2246"
+					item: { count: 1, id: "sgearmetalworks:spear_cast" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -20.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["35DAD5FF7B007310"]
 			hide_dependency_lines: true
+			icon: {
+				id: "silentgear:dagger_blueprint"
+			}
 			id: "55001F51828284B5"
 			rewards: [
 				{
@@ -685,17 +658,29 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "43F91AF6F55A8A22"
-				item: { count: 1, id: "silentgear:dagger_blueprint" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "43F91AF6F55A8A22"
+					item: { count: 1, id: "silentgear:dagger_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4FB99B50B695F2E9"
+					item: { count: 1, id: "sgearmetalworks:dagger_cast" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -18.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["35DAD5FF7B007310"]
 			hide_dependency_lines: true
+			icon: {
+				id: "silentgear:knife_blueprint"
+			}
 			id: "7C250D8F959DB418"
 			rewards: [
 				{
@@ -713,17 +698,29 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "6B376FE39323B194"
-				item: { count: 1, id: "silentgear:knife_blueprint" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6B376FE39323B194"
+					item: { count: 1, id: "silentgear:knife_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2EC5E96B44732EFB"
+					item: { count: 1, id: "sgearmetalworks:knife_cast" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -21.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["35DAD5FF7B007310"]
 			hide_dependency_lines: true
+			icon: {
+				id: "silentgear:machete_blueprint"
+			}
 			id: "7D7E98A886175D22"
 			rewards: [
 				{
@@ -741,17 +738,29 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "04F6A51B64107993"
-				item: { count: 1, id: "silentgear:machete_blueprint" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "04F6A51B64107993"
+					item: { count: 1, id: "silentgear:machete_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "743CE276A592856A"
+					item: { count: 1, id: "sgearmetalworks:machete_cast" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -19.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["35DAD5FF7B007310"]
 			hide_dependency_lines: true
+			icon: {
+				id: "silentgear:katana_blueprint"
+			}
 			id: "1C88E4B44A1C55A9"
 			rewards: [
 				{
@@ -769,11 +778,20 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "447FEB82B9C682B6"
-				item: { count: 1, id: "silentgear:katana_blueprint" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "447FEB82B9C682B6"
+					item: { count: 1, id: "silentgear:katana_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E9136CD94815AF7"
+					item: { count: 1, id: "sgearmetalworks:katana_cast" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -20.5d
 			y: -5.5d
 		}
@@ -836,6 +854,9 @@
 		{
 			dependencies: ["35DAD5FF7B007310"]
 			hide_dependency_lines: true
+			icon: {
+				id: "silentgear:shield_blueprint"
+			}
 			id: "018027C0128159CB"
 			rewards: [
 				{
@@ -853,17 +874,29 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "6EA0F703057C39DB"
-				item: { count: 1, id: "silentgear:shield_blueprint" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6EA0F703057C39DB"
+					item: { count: 1, id: "silentgear:shield_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "45C060484B89462B"
+					item: { count: 1, id: "sgearmetalworks:shield_cast" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -19.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["35DAD5FF7B007310"]
 			hide_dependency_lines: true
+			icon: {
+				id: "silentgear:hammer_blueprint"
+			}
 			id: "5D7ACF0BDFDB4AC0"
 			optional: true
 			rewards: [
@@ -882,17 +915,29 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "2C1515C9127D091D"
-				item: { count: 1, id: "silentgear:hammer_blueprint" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2C1515C9127D091D"
+					item: { count: 1, id: "silentgear:hammer_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B7D2095BE929142"
+					item: { count: 1, id: "sgearmetalworks:hammer_cast" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -20.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["35DAD5FF7B007310"]
 			hide_dependency_lines: true
+			icon: {
+				id: "silentgear:paxel_blueprint"
+			}
 			id: "61510124CF911EA0"
 			rewards: [
 				{
@@ -910,16 +955,28 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "3D31AC8F3DFB3276"
-				item: { count: 1, id: "silentgear:paxel_blueprint" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3D31AC8F3DFB3276"
+					item: { count: 1, id: "silentgear:paxel_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5D88D6261D1EF32C"
+					item: { count: 1, id: "sgearmetalworks:paxel_cast" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -19.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4EE236E24901E582"]
+			icon: {
+				id: "silentgear:necklace_blueprint"
+			}
 			id: "5425A6F613CA7304"
 			rewards: [
 				{
@@ -937,16 +994,28 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "63CFD1492F4AA692"
-				item: { count: 1, id: "silentgear:necklace_blueprint" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "63CFD1492F4AA692"
+					item: { count: 1, id: "silentgear:necklace_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6E39DC31F0304B32"
+					item: { count: 1, id: "sgearmetalworks:necklace_cast" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -23.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["4EE236E24901E582"]
+			icon: {
+				id: "silentgear:ring_blueprint"
+			}
 			id: "5777FBF5D06D2F8E"
 			rewards: [
 				{
@@ -964,16 +1033,28 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "761D66A6FDFF5008"
-				item: { count: 1, id: "silentgear:ring_blueprint" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "761D66A6FDFF5008"
+					item: { count: 1, id: "silentgear:ring_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6D39CDEBD9F95CEA"
+					item: { count: 1, id: "sgearmetalworks:ring_cast" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -24.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["4EE236E24901E582"]
+			icon: {
+				id: "silentgear:bracelet_blueprint"
+			}
 			id: "729119C5F9501F72"
 			rewards: [
 				{
@@ -991,17 +1072,29 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "7CE28996F5E72292"
-				item: { count: 1, id: "silentgear:bracelet_blueprint" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7CE28996F5E72292"
+					item: { count: 1, id: "silentgear:bracelet_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "59A1B02BABC85B95"
+					item: { count: 1, id: "sgearmetalworks:bracelet_cast" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -24.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["35DAD5FF7B007310"]
 			hide_dependency_lines: true
+			icon: {
+				id: "silentgear:bow_blueprint"
+			}
 			id: "2471364BFF963F98"
 			rewards: [
 				{
@@ -1017,17 +1110,29 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "7F40DBB68A2BEB1B"
-				item: { count: 1, id: "silentgear:bow_blueprint" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7F40DBB68A2BEB1B"
+					item: { count: 1, id: "silentgear:bow_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A8DA785DA4547B3"
+					item: { count: 1, id: "sgearmetalworks:bow_cast" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -24.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["35DAD5FF7B007310"]
 			hide_dependency_lines: true
+			icon: {
+				id: "silentgear:crossbow_blueprint"
+			}
 			id: "0764D0BFDD7EBF71"
 			optional: true
 			rewards: [
@@ -1044,11 +1149,20 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "607FDED9FF11B28D"
-				item: { count: 1, id: "silentgear:crossbow_blueprint" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "607FDED9FF11B28D"
+					item: { count: 1, id: "silentgear:crossbow_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5A5F60185ED95B0E"
+					item: { count: 1, id: "sgearmetalworks:crossbow_cast" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -23.5d
 			y: -6.5d
 		}
@@ -1081,11 +1195,13 @@
 				{
 					id: "04DC7F61ADA5E487"
 					item: { count: 1, id: "silentgear:slingshot_blueprint" }
+					optional_task: true
 					type: "item"
 				}
 				{
-					id: "54F302993475CFF5"
-					item: { count: 1, id: "silentgear:pebble" }
+					id: "33733AF30CED60E8"
+					item: { count: 1, id: "sgearmetalworks:slingshot_cast" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1122,6 +1238,13 @@
 				{
 					id: "2ACEFECE1E28F6F6"
 					item: { count: 1, id: "silentgear:arrow_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3CC6171756034785"
+					item: { count: 1, id: "sgearmetalworks:arrow_cast" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1472,6 +1595,9 @@
 		{
 			dependencies: ["35DAD5FF7B007310"]
 			hide_dependency_lines: true
+			icon: {
+				id: "silentgear:excavator_blueprint"
+			}
 			id: "4B21575B498FFEA1"
 			rewards: [
 				{
@@ -1489,11 +1615,20 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "78355B21B37418EF"
-				item: { count: 1, id: "silentgear:excavator_blueprint" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "78355B21B37418EF"
+					item: { count: 1, id: "silentgear:excavator_blueprint" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50582E59195176C8"
+					item: { count: 1, id: "sgearmetalworks:excavator_cast" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -18.5d
 			y: 2.0d
 		}

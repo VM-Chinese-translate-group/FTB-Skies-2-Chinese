@@ -5803,7 +5803,7 @@
 	quest.35DAD5FF7B007310.quest_desc: [
 		"Creating &bTool Parts&r can be confusing at first, so let's break it down!"
 		""
-		"To create a part, you'll first need either the Template or Blueprint for that part. The &6Blueprint Package&r that you received from the first quest should give you the blueprints for the basic tools!"
+		"To create a part, you'll first need the metal cast for that part."
 		""
 		"Using the &aTool Rod Blueprint&r, you can combine it in a crafting table with 2 pieces of a &bTool Rod Material&r to create the part. You can also see all of the recipes by hitting &aU&r on the blueprint."
 		"{@pagebreak}"
@@ -7569,18 +7569,6 @@
 		"&7&o- Package Frogport"
 	]
 	quest.464D4E5932299825.title: "&bImproved Create Components"
-	quest.466D603FACE8FDF5.quest_desc: [
-		"When a &6Silent Gear&r tool reaches 0 durability, it doesn't break forever. Instead, it becomes unusable until you repair it using a &aRepair Kit&r!"
-		""
-		"There are several tiers of repair kits you can make. The higher the tier, the more efficient it is to repair gear with."
-		""
-		"To repair an item, you'll need to combine the repair kit in a crafting table with the material you want to repair with. Now you can combine the kit with the tool in the crafting grid to repair it!"
-		"{@pagebreak}"
-		"The main material of the tool is what is needed to repair it with."
-		""
-		"For example, a pickaxe with an Iron Pickaxe part will need Iron to repair it."
-	]
-	quest.466D603FACE8FDF5.title: "&aRepairing Tools"
 	quest.46871CB4EDF0C38A.title: "&dNetherite Upgrade"
 	quest.4699D9C4E03C844B.quest_desc: [
 		"&aAnalog Circuits&r are the basis for all &2LV Technology&r."
@@ -9028,9 +9016,9 @@
 	quest.5425A6F613CA7304.quest_desc: [
 		"Custom necklaces can be made using the &aNecklace Blueprint&r."
 		""
-		"These take &b3 main materials&r to create a Necklace Chain."
+		"These take 3 main materials to create a Necklace Chain."
 		""
-		"To be able to equip it, you'll need to craft the part together with &aJeweler Tools&r, as well as any &6Jewelry Settings&r you want to add!"
+		"To be able to equip it, you'll need to craft the part together with &2Jeweler Tools&r, as well as any &bJewelry Settings&r you want to add!"
 	]
 	quest.5425A6F613CA7304.title: "&fNecklace Blueprint"
 	quest.543197E63ABD06C5.quest_desc: [
@@ -9360,9 +9348,9 @@
 	quest.5777FBF5D06D2F8E.quest_desc: [
 		"Custom rings can be made using the &aRing Blueprint&r."
 		""
-		"These take &b2 main materials&r to create a Ring Shank."
+		"These take 2 main materials to create a Ring Shank."
 		""
-		"To finish creating the ring, you'll need to craft the part together with &aJeweler Tools&r, as well as any &6Jewelry Settings&r you want to add!"
+		"To finish creating the ring, you'll need to craft the part together with &2Jeweler Tools&r, as well as any &bJewelry Settings&r you want to add!"
 	]
 	quest.5777FBF5D06D2F8E.title: "&fRing Blueprint"
 	quest.5778BAEC8F095B3D.quest_desc: [
@@ -11997,9 +11985,9 @@
 	quest.729119C5F9501F72.quest_desc: [
 		"Custom bracelets can be made using the &aBracelet Blueprint&r."
 		""
-		"These take &b3 main materials&r to create a Bracelet Band."
+		"These take 3 main materials to create a Bracelet Band."
 		""
-		"To be able to equip it, you'll need to craft the part together with &aJeweler Tools&r, as well as any &6Jewelry Settings&r you want to add!"
+		"To be able to equip it, you'll need to craft the part together with &2Jeweler Tools&r, as well as any &bJewelry Settings&r you want to add!"
 	]
 	quest.729119C5F9501F72.title: "&fBracelet Blueprint"
 	quest.7297DFC4797D2FB9.quest_desc: [
@@ -12367,9 +12355,6 @@
 		"&dMechanical Crafters&r are gigantic crafting tables that can be automated in several different ways."
 		""
 		"&aCrafter Slot Covers&r can be used to cover up any slots that are not used in autocrafting. However, you can also use a redstone signal to force-start a crafting recipe."
-		""
-		""
-		"&c&lFTB Notice&r: Due to impact on load times, general crafting is currently disabled. We apologize for the inconvenience."
 	]
 	quest.75D3AC9CCA5A82E4.title: "&dMechanical Crafter"
 	quest.75D7595FD90E77E5.quest_desc: ["Each &dAssembler Matrix Pattern Core&r provides 36 pattern slots to the &6Assembler Matrix&r."]
@@ -12655,13 +12640,13 @@
 	]
 	quest.782A8F5006E367E0.title: "&aUsing Items In Rituals"
 	quest.78337B57A6D6AC08.quest_desc: [
-		"&6Silent Gear&r is a mod centered around creating custom tools and armor for every step of your playthrough."
+		"&eSilent Gear&r is a mod centered around creating custom tools and armor for every step of your playthrough."
 		""
 		"To get started, you'll need to create the framework for making your own tools and armor."
 		""
-		"This can be done with either &2Template Boards&r or &bBlueprint Paper&r."
+		"[\"In \", {\"text\": \"FTB Skies 2\", \"color\": \"gold\"}, \", you can only craft tool parts via the \", { \"text\": \"Productive Metalworks Foundry\", \"color\": \"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1B8BB733ADF897FE\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Foundry Quest\"} }, \", but some tools can still only be assembled using Templates or Blueprints.\"]"
 		""
-		"Note: Templates are one time use, whereas Blueprints have infinite uses."
+		"Templates are one time use and Blueprints are infinite."
 		"{@pagebreak}"
 		"To craft a Template Board, you'll need to make a &3Stone Anvil&r first."
 		""
@@ -12729,7 +12714,7 @@
 	]
 	quest.792BD1143635482C.title: "&fGravel \\&\\ Sand Nests"
 	quest.793B64D2E4921799.quest_desc: [
-		"Vanilla tools can be converted into their &6Silent Gear&r counterparts by placing the tool back into a crafting table."
+		"Vanilla tools can be converted into their &eSilent Gear&r counterparts by placing the tool back into a crafting table."
 		""
 		"This converts them into customizable tools, allowing you to change specific parts or even repair it using &aRepair Kits&r!"
 	]
@@ -13457,6 +13442,7 @@
 	task.047B3C49E817FA1F.title: "I already have power"
 	task.04A70E089DED1FFE.title: "&eObserve&f: Metal Press"
 	task.04B4EE9AE7C56179.title: "Proceed"
+	task.04D69739FB6F3677.title: "Any #ftb:sg_armor_blueprints"
 	task.0530149F4E3FF764.title: "Kitchen Cabinets"
 	task.056DCB4713EB0918.title: "Any magical crops"
 	task.05B209B3FC005914.title: "Kill One Of Every Hostile Mob"
@@ -13517,8 +13503,8 @@
 	task.145F4045BA952DD9.title: "&fSummon a &aBeholder"
 	task.14F5F657C9F54C33.title: "Any quarry card"
 	task.157943917298E1ED.title: "&fSummon a &ePossessed Ghast"
+	task.158554B2B5AA6B19.title: "Any #sgearmetalworks:casts"
 	task.15B36BA190076579.title: "&aHedyrin's Familiars"
-	task.16643E9DD53BA701.title: "Repair Kits"
 	task.16E099D5EA18961B.title: "Strike the Earth"
 	task.16F2199AE6D61307.title: "&6Soulplied Energistics"
 	task.176957689D9994FC.title: "&eFind Structure&f: &3Warped Sky Village"
@@ -13909,6 +13895,7 @@
 	task.6FA6CE6F848C29EC.title: "&fPlay For &a10 Hours"
 	task.6FBF3A3F71E35DF0.title: "Advanced Machines"
 	task.700CAE784D0CDAAB.title: "&dTier 3"
+	task.700E38CFC101CC02.title: "Any #ftb:sg_armor_casts"
 	task.709D22141E914EBE.title: "&eKill&f: &5Ender Golem"
 	task.70CC66090B7739F7.title: "&eObserve&f: &aBudding Gold GeOre"
 	task.70D1CD95527B6359.title: "Exploration"
