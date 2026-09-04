@@ -5803,7 +5803,7 @@
 	quest.35DAD5FF7B007310.quest_desc: [
 		"刚开始制作&b工具部件&r时，你可能会倍感困惑，所以让我们来分解一下步骤吧！"
 		""
-		"想要合成部件的话，首先你需要对应部件的蓝图或模板。你在第一个任务中获得的&6蓝图包&r中可以开出基础工具的蓝图！"
+		"To create a part, you'll first need the metal cast for that part."
 		""
 		"你可以在工作台里将&a工具杆蓝图&r和两个&b工具杆材料&r结合，从而制造出对应材料的部件，对着蓝图按&aU&r就可以显示全部配方。"
 		"{@pagebreak}"
@@ -7569,18 +7569,6 @@
 		"&7&o- 货物蛙港"
 	]
 	quest.464D4E5932299825.title: "&b机械动力中级奖励包"
-	quest.466D603FACE8FDF5.quest_desc: [
-		"当&6寂静装备&r的工具耐久度掉到0，工具并不会损坏——它会变成无法使用的状态，用&a修理包&r就可以让它焕然一新！"
-		""
-		"有许多等级的修复套件可以制作，等级越高修复效率越大。"
-		""
-		"要想修复一件物品，首先你需要在工作台把你的修复套件和修复用的材料合成，然后再把它和工具合成即可！"
-		"{@pagebreak}"
-		"修复需要的材料就是工具的主要制作材料。"
-		""
-		"比如铁镐头的镐需要铁才能修复。"
-	]
-	quest.466D603FACE8FDF5.title: "&a修复你的工具&r"
 	quest.46871CB4EDF0C38A.title: "&d下界合金升级"
 	quest.4699D9C4E03C844B.quest_desc: [
 		"&a模拟电路&r是&2低压时代&r下一切科技的基础。"
@@ -9028,9 +9016,9 @@
 	quest.5425A6F613CA7304.quest_desc: [
 		"自定义项链需要用&a项链蓝图&r制造。"
 		""
-		"制作一条项链链条需要&b3个主要材料&r。"
+		"These take 3 main materials to create a Necklace Chain."
 		""
-		"如果你想装备它，首先你需要用&a宝石匠具&r将项链链条等部件组装在一起，在组装的时候你可以随意镶嵌自己喜欢的&6镶嵌首饰&r！"
+		"To be able to equip it, you'll need to craft the part together with &2Jeweler Tools&r, as well as any &bJewelry Settings&r you want to add!"
 	]
 	quest.5425A6F613CA7304.title: "&f项链蓝图"
 	quest.543197E63ABD06C5.quest_desc: [
@@ -9360,9 +9348,9 @@
 	quest.5777FBF5D06D2F8E.quest_desc: [
 		"自定义戒指需要用&a戒指蓝图&r制造。"
 		""
-		"制作一个戒指部件需要&b2个主要材料&r。"
+		"These take 2 main materials to create a Ring Shank."
 		""
-		"要想完成戒指的制作，你需要把&a宝石匠具&r、戒指部件和你想添加的&6宝石&r合成在一起！"
+		"To finish creating the ring, you'll need to craft the part together with &2Jeweler Tools&r, as well as any &bJewelry Settings&r you want to add!"
 	]
 	quest.5777FBF5D06D2F8E.title: "&f戒指蓝图"
 	quest.5778BAEC8F095B3D.quest_desc: [
@@ -11997,9 +11985,9 @@
 	quest.729119C5F9501F72.quest_desc: [
 		"自定义手镯需要用&a手镯蓝图&r制造。"
 		""
-		"合成一个手镯还需要&b3个主要材料&r。"
+		"These take 3 main materials to create a Bracelet Band."
 		""
-		"如果你想装备它，首先你需要用&a宝石匠具&r将手镯环等部件组装在一起，在组装的时候你可以随意镶嵌自己喜欢的&6镶嵌首饰&r！"
+		"To be able to equip it, you'll need to craft the part together with &2Jeweler Tools&r, as well as any &bJewelry Settings&r you want to add!"
 	]
 	quest.729119C5F9501F72.title: "&f手镯蓝图"
 	quest.7297DFC4797D2FB9.quest_desc: [
@@ -12367,9 +12355,6 @@
 		"&d动力合成器&r是一种巨大的工作台，可以通过多种不同的方式实现自动化。"
 		""
 		"&a合成槽盖板&r可用于覆盖自动合成中未使用的槽位。当然，你也可以使用红石信号来强制启动合成配方。"
-		""
-		""
-		"&c&lFTB提示&r：由于对加载时间的影响，目前普通的合成功能已禁用。对于给你带来的不便，我们深表歉意。"
 	]
 	quest.75D3AC9CCA5A82E4.title: "&d动力合成器"
 	quest.75D7595FD90E77E5.quest_desc: ["每装一个&d装配矩阵样板核心&r，就能给&6装配矩阵&r增加36个样板槽位。"]
@@ -12655,13 +12640,13 @@
 	]
 	quest.782A8F5006E367E0.title: "&a仪式用品"
 	quest.78337B57A6D6AC08.quest_desc: [
-		"&6寂静装备&r是个围绕着自定义工具/盔甲展开的模组，整个游玩过程中你都能定制工具与盔甲。"
+		"&eSilent Gear&r is a mod centered around creating custom tools and armor for every step of your playthrough."
 		""
 		"首先你需要构建出工具和盔甲的蓝图。"
 		""
-		"&b蓝图&r或者&2模具&r都可以胜任这项工作。"
+		"[\"In \", {\"text\": \"FTB Skies 2\", \"color\": \"gold\"}, \", you can only craft tool parts via the \", { \"text\": \"Productive Metalworks Foundry\", \"color\": \"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1B8BB733ADF897FE\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Foundry Quest\"} }, \", but some tools can still only be assembled using Templates or Blueprints.\"]"
 		""
-		"注意：模具只能用一次，蓝图使用次数无限。"
+		"Templates are one time use and Blueprints are infinite."
 		"{@pagebreak}"
 		"要想制作模板，你需要先做一个&3石砧&r。"
 		""
@@ -12729,7 +12714,7 @@
 	]
 	quest.792BD1143635482C.title: "&f沙砾和沙子蜂巢"
 	quest.793B64D2E4921799.quest_desc: [
-		"你可以将原版工具直接放入工作台，然后就会获得&6寂静装备&r的对应工具。（仅木稿石镐有效）"
+		"Vanilla tools can be converted into their &eSilent Gear&r counterparts by placing the tool back into a crafting table."
 		""
 		"这样原版的工具就会变成可自定义的工具，你可以选择给它换部件……或者用&a修理包&r修复它！"
 	]
@@ -13533,6 +13518,7 @@
 	task.047B3C49E817FA1F.title: "我已经有了电力"
 	task.04A70E089DED1FFE.title: "&e观察&f：金属冲压机"
 	task.04B4EE9AE7C56179.title: "继续"
+	task.04D69739FB6F3677.title: "Any #ftb:sg_armor_blueprints"
 	task.0530149F4E3FF764.title: "厨房橱柜"
 	task.056DCB4713EB0918.title: "任意魔法作物"
 	task.05B209B3FC005914.title: "击杀每种敌对生物各一只"
@@ -13593,8 +13579,8 @@
 	task.145F4045BA952DD9.title: "&f召唤一个&a眼魔使魔"
 	task.14F5F657C9F54C33.title: "任意采掘卡片"
 	task.157943917298E1ED.title: "&f召唤一个&e被附身的恶魂"
+	task.158554B2B5AA6B19.title: "Any #sgearmetalworks:casts"
 	task.15B36BA190076579.title: "&a海德林使魔"
-	task.16643E9DD53BA701.title: "修复套件"
 	task.16E099D5EA18961B.title: "震彻大地"
 	task.16F2199AE6D61307.title: "&6Soulplied Energistics"
 	task.176957689D9994FC.title: "&e找到建筑&f：&3诡异天空村庄"
@@ -13985,6 +13971,7 @@
 	task.6FA6CE6F848C29EC.title: "&f游玩&a10小时"
 	task.6FBF3A3F71E35DF0.title: "高级机器"
 	task.700CAE784D0CDAAB.title: "&d三阶"
+	task.700E38CFC101CC02.title: "Any #ftb:sg_armor_casts"
 	task.709D22141E914EBE.title: "&e击杀&f：&5末影傀儡"
 	task.70CC66090B7739F7.title: "&e观察&f：&a金矿晶母岩"
 	task.70D1CD95527B6359.title: "探索"
