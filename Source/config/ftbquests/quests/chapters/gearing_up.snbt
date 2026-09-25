@@ -19,7 +19,7 @@
 			image: "ftb:textures/quests/silentgear/starlight_setup.png"
 			rotation: 0.0d
 			width: 9.345222929936305d
-			x: -30.5d
+			x: -31.5d
 			y: -1.5d
 		}
 		{
@@ -28,8 +28,8 @@
 			image: "ftbquests:textures/shapes/hexagon/background.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -24.0d
-			y: -0.5d
+			x: -24.5d
+			y: 0.5d
 		}
 		{
 			color: 12235775
@@ -38,8 +38,8 @@
 			image: "ftbquests:textures/shapes/hexagon/background.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -24.0d
-			y: -2.5d
+			x: -24.5d
+			y: -3.5d
 		}
 		{
 			height: 0.75d
@@ -47,7 +47,7 @@
 			image: "silentgear:item/blaze_gold_dust"
 			rotation: 0.0d
 			width: 0.75d
-			x: -30.5d
+			x: -31.5d
 			y: -1.7000000000000002d
 		}
 		{
@@ -74,7 +74,7 @@
 			image: "silentgear:block/recrystallizer_side"
 			rotation: 0.0d
 			width: 1.25d
-			x: -26.0d
+			x: -27.0d
 			y: -1.5d
 		}
 		{
@@ -1462,8 +1462,8 @@
 					type: "item"
 				}
 			]
-			x: -24.0d
-			y: -2.5d
+			x: -24.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["35DAD5FF7B007310"]
@@ -1533,6 +1533,40 @@
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"26ECC091E6B3FA57"
+				"29E2CEADF6720EB3"
+			]
+			icon: {
+				id: "sgearmetalworks:uru_metal_ingot"
+			}
+			id: "0807F48A402013B9"
+			rewards: [
+				{
+					id: "4D829A00C9A94E51"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "45429A53830C6457"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4279D824B529EB61"
+				item: { count: 1, id: "sgearmetalworks:uru_metal_ingot" }
+				type: "item"
+			}]
+			x: -24.5d
+			y: -1.5d
+		}
+		{
 			dependencies: ["35DAD5FF7B007310"]
 			hide_dependency_lines: true
 			icon: {
@@ -1550,7 +1584,7 @@
 				item: { count: 1, id: "silentgear:azure_silver_ingot" }
 				type: "item"
 			}]
-			x: -25.0d
+			x: -26.0d
 			y: -1.5d
 		}
 		{
@@ -1589,8 +1623,8 @@
 					type: "item"
 				}
 			]
-			x: -24.0d
-			y: -0.5d
+			x: -24.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["35DAD5FF7B007310"]
@@ -1654,7 +1688,7 @@
 				item: { count: 1, id: "silentgear:recrystallizer" }
 				type: "item"
 			}]
-			x: -26.0d
+			x: -27.0d
 			y: -1.5d
 		}
 		{

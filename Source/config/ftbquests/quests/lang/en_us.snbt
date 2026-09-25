@@ -882,6 +882,16 @@
 	quest.0806978F98A7A3E8.title: "&aSteel Ingot"
 	quest.08078DB1CB806B05.quest_desc: ["Of course there is a &6Large Advanced Pump&r"]
 	quest.08078DB1CB806B05.title: "&6Large Advanced Pump"
+	quest.0807F48A402013B9.quest_desc: [
+		"&6Uru Metal&f is a powerful late-game metal alloyed from 6 other metals in a &6Foundry&f."
+		""
+		"To cast a part out of it, forge the part using &dTyrian Steel&f first, then pour &6Molten Uru Metal&f over that part on a &2Casting Table&f. The old part is consumed and turns into &6Uru Metal&f."
+		""
+		"It costs 90mB per material the part is built from, so a shovel head runs 90mB and a pickaxe head costs 270mB."
+		""
+		"&7&oA part with anything but Tyrian Steel in it won't take the upgrade."
+	]
+	quest.0807F48A402013B9.title: "&fThe Metal of the &6Gods"
 	quest.08145422E66D2B7D.quest_desc: [
 		"Have you ever wanted to transfer items without pipes? How about energy? Gases? Liquids? That's right, the &dQuantum Entangloporter&r can do it all."
 		""
@@ -1028,6 +1038,14 @@
 		"This machine can combine any combination of main materials together to create stronger &6Alloys&r."
 		""
 		"While you can create your own custom alloys, this is also how you make &dTyrian Steel Ingots&r."
+		"{@pagebreak}"
+		"Custom alloys are the one thing the &6Foundry&f can't take. There's no molten form of a mix, so they never get a casting recipe."
+		""
+		"Craft them by hand instead. An &6Alloy Ingot&f goes straight into a crafting table with the blueprint for the part you want, and the usual metal restriction doesn't apply to it."
+		""
+		"Each part wants an exact count: 1 for a shovel or knife, 2 for a hoe or sword, 3 for a pickaxe or axe, up to 8 for a chestplate."
+		""
+		"&7&oIf a part won't craft, you're short on ingots."
 	]
 	quest.091A160BBBC99627.title: "&fCreating Custom &aAlloys"
 	quest.091ACA18018FFD3E.quest_desc: [
