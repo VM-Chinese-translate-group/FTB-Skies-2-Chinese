@@ -1,0 +1,4 @@
+-r requirements.txt
+packaging
+wheel
+git+https://github.com/YuanXiaCN/ftb-snbt-lib-fork.git@ce72db27291f2a32e9e1cbcbd9e92effc83804e0

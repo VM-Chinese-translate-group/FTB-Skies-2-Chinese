@@ -1,0 +1,100 @@
+name: Sync Pack Info
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-pack-info-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          persist-credentials: false
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3'
+
+      - name: Synchronize metadata and commit to PR branch
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require('fs');
+            const os = require('os');
+            const path = require('path');
+            const { execFileSync } = require('child_process');
+            const pr = context.payload.pull_request;
+            const repo = { owner: pr.head.repo.owner.login, repo: pr.head.repo.name };
+            const sha = pr.head.sha;
+            async function readFile(filePath, optional = false) {
+              try {
+                const { data } = await github.rest.repos.getContent({
+                  ...repo, path: filePath, ref: sha
+                });
+                if (data.type !== 'file' || data.encoding !== 'base64') {
+                  throw new Error(`Expected a regular JSON file: ${filePath}`);
+                }
+                return Buffer.from(data.content, 'base64').toString('utf8');
+              } catch (error) {
+                if (optional && error.status === 404) return null;
+                throw error;
+              }
+            }
+            const config = JSON.parse(await readFile('.github/configs/modpack.json'));
+            const infoPath = config.infoFilePath;
+            if (typeof infoPath !== 'string' || !infoPath ||
+                infoPath.startsWith('/') || infoPath.includes('\\') ||
+                infoPath.includes(':') || infoPath.split('/').some(p => !p || p === '..' || p === '.')) {
+              throw new Error('infoFilePath must be a relative repository path');
+            }
+            const patchPath = path.posix.join(path.posix.dirname(infoPath), 'patchpackinfo.json');
+            if (patchPath === infoPath) throw new Error('Information file paths must differ');
+            const originalInfo = await readFile(infoPath);
+            const originalPatch = await readFile(patchPath, true);
+            const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'pack-info-'));
+            let updatedInfo, updatedPatch;
+            try {
+              const localInfo = path.join(temp, 'modpackinfo.json');
+              const localPatch = path.join(temp, 'patchpackinfo.json');
+              fs.writeFileSync(localInfo, originalInfo);
+              if (originalPatch !== null) fs.writeFileSync(localPatch, originalPatch);
+              execFileSync('python', ['.github/scripts/sync_pack_info.py', localInfo], { stdio: 'inherit' });
+              updatedInfo = fs.readFileSync(localInfo, 'utf8');
+              updatedPatch = fs.readFileSync(localPatch, 'utf8');
+            } finally {
+              fs.rmSync(temp, { recursive: true, force: true });
+            }
+            const tree = [];
+            for (const [filePath, original, updated] of [
+              [infoPath, originalInfo, updatedInfo],
+              [patchPath, originalPatch, updatedPatch]
+            ]) {
+              if (original !== updated) tree.push({ path: filePath, mode: '100644', type: 'blob', content: updated });
+            }
+            if (!tree.length) {
+              core.info('Both metadata files are already synchronized.');
+              return;
+            }
+            const { data: head } = await github.rest.git.getRef({ ...repo, ref: `heads/${pr.head.ref}` });
+            if (head.object.sha !== sha) {
+              core.info('PR has newer commits; the newer workflow run will synchronize them.');
+              return;
+            }
+            const { data: commit } = await github.rest.git.getCommit({ ...repo, commit_sha: sha });
+            const { data: newTree } = await github.rest.git.createTree({ ...repo, base_tree: commit.tree.sha, tree });
+            const { data: newCommit } = await github.rest.git.createCommit({
+              ...repo, message: 'chore: sync modpack and patchpack metadata',
+              tree: newTree.sha, parents: [sha]
+            });
+            await github.rest.git.updateRef({
+              ...repo, ref: `heads/${pr.head.ref}`, sha: newCommit.sha, force: false
+            });
