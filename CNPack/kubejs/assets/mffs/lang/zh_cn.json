@@ -7,7 +7,7 @@
   "info.mffs.frequency": "频率：%s",
   "info.mffs.frequency.generated": "生成随机频率：%s",
   "info.mffs.frequency.set": "频率设置为：%s",
-  "info.mffs.cannot_harness": "Cannot harness %s FE from the Fortron field.",
+  "info.mffs.cannot_harness": "无法从Fortron能量场中收束%sFE",
   "info.mffs.stored_energy": "存储能量：%s / %s FE",
   "info.mffs.identity": "身份：%s",
   "info.mffs.identity_set": "身份设置为：%s",
