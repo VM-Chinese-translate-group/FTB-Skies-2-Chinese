@@ -1,3 +1,4 @@
+## 务必注意！新版工作流打包有问题，不会包含ftbteambase目录和kubejs下部分模组目录！VM管理员发布汉化时需要下载旧版汉化，再把新版打包好的覆盖旧版再压缩发布！
 <div align="center">
    <h1>FTB Skies 2 项目简体中文翻译</h1>
 </div>
