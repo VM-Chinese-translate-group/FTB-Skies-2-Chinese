@@ -36,7 +36,10 @@ def sync_pack_info(info_file_path, version=None):
     patch["formatVersion"] = 1
     if not patch.get("name"):
         patch["name"] = f'{modpack["name"]}简中汉化'
-    patch["modpackVersionRange"] = f"[{version},)"
+    patch["modpack"] = {
+        "name": modpack["name"],
+        "versionRange": f"[{version},)",
+    }
     # The translation URL points to the patch release page.
     if "url" in translation:
         patch["url"] = translation["url"]

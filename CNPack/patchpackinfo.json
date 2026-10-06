@@ -2,7 +2,10 @@
   "formatVersion": 1,
   "name": "FTB Skies 2简中汉化",
   "description": "FTB Skies 2简体中文汉化，记得额外下载i18n模组",
-  "modpackVersionRange": "[1.23.0,)",
+  "modpack": {
+    "name": "FTB Skies 2",
+    "versionRange": "[1.23.0,)"
+  },
   "authors": [
     "VM汉化组"
   ],
