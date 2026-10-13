@@ -1,7 +1,7 @@
 {
 	icon: {
 		components: {
-			"ftbquests:icon": "irons_jewelry:item/scroll"
+			"ftbquests:icon": "irons_jewelry:item/recipe"
 		}
 		id: "ftbquests:custom_icon"
 	}
