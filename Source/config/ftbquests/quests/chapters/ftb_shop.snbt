@@ -916,13 +916,19 @@
 			]
 			icon: {
 				components: {
-					"ftbquests:icon": "irons_jewelry:item/scroll"
+					"ftbquests:icon": "irons_jewelry:item/recipe"
 				}
 				id: "ftbquests:custom_icon"
 			}
 			id: "2FFE7E2CD655C226"
 			rewards: [{
 				exclude_from_claim_all: true
+				icon: {
+					components: {
+						"ftbquests:icon": "irons_jewelry:item/recipe"
+					}
+					id: "ftbquests:custom_icon"
+				}
 				id: "4B60D26D1A930C90"
 				table_id: 7782080329095905455L
 				type: "loot"
