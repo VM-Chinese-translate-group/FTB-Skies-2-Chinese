@@ -1035,7 +1035,7 @@
 		}
 		{
 			icon: {
-				id: "craftingstation:crafting_station"
+				id: "justenoughcraftingtables:crafting_station"
 			}
 			id: "4B6154D6F9B7C7BF"
 			rewards: [
@@ -1059,7 +1059,7 @@
 					id: "470C60BCD785BF63"
 					item: {
 						count: 1
-						id: "craftingstation:crafting_station"
+						id: "justenoughcraftingtables:crafting_station"
 					}
 					optional_task: true
 					type: "item"
@@ -1068,7 +1068,7 @@
 					id: "15D1FD36CB284841"
 					item: {
 						count: 1
-						id: "craftingstation:crafting_station_slab"
+						id: "justenoughcraftingtables:crafting_station_slab"
 					}
 					optional_task: true
 					type: "item"
