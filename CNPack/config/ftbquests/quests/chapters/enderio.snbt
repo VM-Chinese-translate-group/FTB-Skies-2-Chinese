@@ -68,7 +68,7 @@
 		{
 			height: 0.5d
 			id: "04F7780E7E3A238F"
-			image: "ftbchunks:textures/faces/minecraft/enderman.png"
+			image: "ftblibrary:textures/faces/minecraft/enderman.png"
 			rotation: 0.0d
 			width: 0.5d
 			x: 8.0d
@@ -77,7 +77,7 @@
 		{
 			height: 0.5d
 			id: "458317D99EA50C8A"
-			image: "ftbchunks:textures/faces/minecraft/enderman.png"
+			image: "ftblibrary:textures/faces/minecraft/enderman.png"
 			rotation: 0.0d
 			width: 0.5d
 			x: 7.0d
@@ -216,9 +216,10 @@
 			y: -5.0d
 		}
 		{
+			click_action: "none:"
 			height: 8.0d
 			id: "75A3E94DF64D76BA"
-			image: "enderio:item/enderface_none"
+			image: "enderio:item/creative_tab_icon"
 			rotation: 0.0d
 			width: 8.0d
 			x: -1.5d

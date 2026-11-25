@@ -14,7 +14,7 @@
 			click_action: "open_uri:https://moddedmc.wiki/en/project/oritech/latest/docs/particle_accelerator"
 			height: 1.0d
 			id: "725BE9F87457D65D"
-			image: "jei:textures/jei/atlas/gui/icons/info.png"
+			image: "jei:textures/gui/sprites/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 12.5d
@@ -82,7 +82,7 @@
 			click_action: "open_uri:https://moddedmc.wiki/en/project/oritech/latest/docs/reactor/introduction"
 			height: 1.0d
 			id: "1277FDBE09D03DC1"
-			image: "jei:textures/jei/atlas/gui/icons/info.png"
+			image: "jei:textures/gui/sprites/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 9.5d
