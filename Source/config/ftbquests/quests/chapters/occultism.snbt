@@ -615,7 +615,7 @@
 			hide_dependency_lines: true
 			icon: {
 				components: {
-					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+					"ftbquests:icon": "jei:textures/gui/sprites/icons/info.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -3369,7 +3369,7 @@
 			dependencies: ["4113BA0BADB486F0"]
 			icon: {
 				components: {
-					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+					"ftbquests:icon": "jei:textures/gui/sprites/icons/info.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -3395,7 +3395,7 @@
 			dependencies: ["4113BA0BADB486F0"]
 			icon: {
 				components: {
-					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+					"ftbquests:icon": "jei:textures/gui/sprites/icons/info.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -3628,7 +3628,7 @@
 			dependencies: ["3BCB8667CCEBAE57"]
 			icon: {
 				components: {
-					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+					"ftbquests:icon": "jei:textures/gui/sprites/icons/info.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -5190,7 +5190,7 @@
 			hide_dependency_lines: true
 			icon: {
 				components: {
-					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+					"ftbquests:icon": "jei:textures/gui/sprites/icons/info.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
