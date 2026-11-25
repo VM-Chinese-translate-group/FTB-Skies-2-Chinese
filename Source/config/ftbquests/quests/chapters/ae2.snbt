@@ -2175,7 +2175,7 @@
 			dependencies: ["711D381A7974F88A"]
 			icon: {
 				components: {
-					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+					"ftbquests:icon": "jei:textures/gui/sprites/icons/info.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -2230,7 +2230,7 @@
 			dependencies: ["3D767C3E2F0DE320"]
 			icon: {
 				components: {
-					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+					"ftbquests:icon": "jei:textures/gui/sprites/icons/info.png"
 				}
 				id: "ftbquests:custom_icon"
 			}

@@ -7,7 +7,7 @@
 	group: ""
 	icon: {
 		components: {
-			"ftbquests:icon": "endercore:textures/gui/sprites/icon/checkmark.png"
+			"ftbquests:icon": "minecraft:textures/gui/sprites/icon/checkmark.png"
 		}
 		id: "ftbquests:custom_icon"
 	}
